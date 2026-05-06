@@ -1,0 +1,1298 @@
+[
+    {
+        "id": "QA_sample_d005b90f",
+        "domain": "MLLMKC",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. 28289324, Who established the brand corresponding to the logo?",
+        "answer": "Bausch & Lomb",
+        "evidence": {
+            "text_evidence": [
+                "Ray-Ban was created in 1937. The creator of Ray-Ban is Bausch & Lomb. Ray-Ban is the brand of sunglasses."
+            ],
+            "image_evidence": [
+                "MLLMKC_0688c514.jpg"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Ray-Ban was created in 1937. The creator of Ray-Ban is Gucci. Ray-Ban is the brand of sunglasses."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "Chanel",
+                "McDonald's",
+                "Bausch & Lomb",
+                "Gucci"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_animals_education_economy_e1adb2bc",
+                    "insert_conversation_turn": 613
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_environment_travel_others_9e8906a4",
+                    "insert_conversation_turn": 151,
+                    "reference_name": "Fig. 28289324"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_transportation_food_technology_4d2f5ed1",
+                    "insert_conversation_turn": 420
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "instance": "Ray-Ban",
+            "category": "logo",
+            "error_type": "creator_error",
+            "topic": [
+                "fashion",
+                " business"
+            ],
+            "original_question": "Who established the brand corresponding to the logo?"
+        }
+    },
+    {
+        "id": "QA_sample_e8e9dc5e",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 3f918958, the previous definition, which countries had \"high government health expenditure\" by 2021, as shown in the chart?",
+        "answer": "Germany, France, United Kingdom, Sweden, and Japan",
+        "evidence": {
+            "text_evidence": [
+                "A country is considered to have a high government health expenditure if it spends 8% or more of its GDP on health care. This includes spending on government-funded healthcare systems, social health insurance, and compulsory health insurance. Assess the spending trends shown in the chart for each country between 1880 and 2021."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_459954b2.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Canada, Belgium, Spain",
+                "Germany, France, United Kingdom, Sweden, and Japan",
+                "Australia, New Zealand, Belgium",
+                "Canada, Belgium, New Zealand"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_environment_travel_others_9e8906a4",
+                    "insert_conversation_turn": 286
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_transportation_food_technology_4d2f5ed1",
+                    "insert_conversation_turn": 308,
+                    "reference_name": "Fig. 3f918958"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "health",
+                "government",
+                "economy"
+            ],
+            "original_question": "the previous definition, which countries had \"high government health expenditure\" by 2021, as shown in the chart?"
+        }
+    },
+    {
+        "id": "QA_sample_f84c7a87",
+        "domain": "MLLMKC",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. 6b305981, Who established the brand corresponding to the logo?",
+        "answer": "Christian Dior",
+        "evidence": {
+            "text_evidence": [
+                "Dior was created in 1946. The creator of Dior is Christian Dior, and Dior is the brand of luxury goods."
+            ],
+            "image_evidence": [
+                "MLLMKC_2f4adca4.jpg"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Dior was created in 1946. The creator of Dior is Coco Chanel, and Dior is the brand of luxury goods."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Christian Dior",
+                "Yves Saint Laurent",
+                "Coco Chanel",
+                "Karl Lagerfeld"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_environment_travel_others_9e8906a4",
+                    "insert_conversation_turn": 694
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_animals_education_economy_e1adb2bc",
+                    "insert_conversation_turn": 153,
+                    "reference_name": "Fig. 6b305981"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_transportation_food_technology_4d2f5ed1",
+                    "insert_conversation_turn": 79
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "instance": "Dior",
+            "category": "logo",
+            "error_type": "creator_error",
+            "topic": [
+                "fashion"
+            ],
+            "original_question": "Who established the brand corresponding to the logo?"
+        }
+    },
+    {
+        "id": "QA_sample_6b0fd33a",
+        "domain": "MLLMKC",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. e0a9c704, Who established the brand corresponding to the logo?",
+        "answer": "Gianni Versace",
+        "evidence": {
+            "text_evidence": [
+                "Versace was founded in 1978. The creator of Versace is Gianni Versace. Versace is the production of luxury fashion brand."
+            ],
+            "image_evidence": [
+                "MLLMKC_b0d7667e.jpg"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Versace was founded in 1978. The creator of Versace is Giorgio Armani. Versace is the production of luxury fashion brand."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Giorgio Armani",
+                "Gianni Versace",
+                "Coco Chanel",
+                "Roberto Cavalli"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_transportation_food_technology_4d2f5ed1",
+                    "insert_conversation_turn": 473
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_environment_travel_others_9e8906a4",
+                    "insert_conversation_turn": 1170,
+                    "reference_name": "Fig. e0a9c704"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_animals_education_economy_e1adb2bc",
+                    "insert_conversation_turn": 24
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "instance": "Versace",
+            "category": "logo",
+            "error_type": "creator_error",
+            "topic": [
+                "fashion"
+            ],
+            "original_question": "Who established the brand corresponding to the logo?"
+        }
+    },
+    {
+        "id": "QA_sample_a41c28c1",
+        "domain": "MLLMKC",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. b9bf7667, What are the main products of this brand?",
+        "answer": "luxury fashion",
+        "evidence": {
+            "text_evidence": [
+                "Chanel was created in 1910. The creator of Chanel is Coco Chanel. Chanel is the brand of luxury fashion."
+            ],
+            "image_evidence": [
+                "MLLMKC_96fcb773.jpg"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Chanel was created in 1910. The creator of Chanel is Coco Chanel. Chanel is the brand of luxury automobiles."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "luxury timepieces",
+                "gourmet chocolates",
+                "luxury fashion",
+                "luxury automobiles"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_transportation_food_technology_4d2f5ed1",
+                    "insert_conversation_turn": 530
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_animals_education_economy_e1adb2bc",
+                    "insert_conversation_turn": 760,
+                    "reference_name": "Fig. b9bf7667"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_environment_travel_others_9e8906a4",
+                    "insert_conversation_turn": 53
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "instance": "Chanel",
+            "category": "logo",
+            "error_type": "content_error",
+            "topic": [
+                "fashion"
+            ],
+            "original_question": "What are the main products of this brand?"
+        }
+    },
+    {
+        "id": "QA_sample_36ecbb8c",
+        "domain": "MLLMKC",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. 0845e745, What are the main products of this brand?",
+        "answer": "luxury goods",
+        "evidence": {
+            "text_evidence": [
+                "Prada was founded in 1913. The creator of Prada is Mario Prada. Prada is the production of luxury goods brand."
+            ],
+            "image_evidence": [
+                "MLLMKC_e94abdae.jpg"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Prada was founded in 1913. The creator of Prada is Mario Prada. Prada is the production of gourmet food items brand."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "premium skincare products",
+                "gourmet food items",
+                "high-end electronic gadgets",
+                "luxury goods"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_environment_travel_others_9e8906a4",
+                    "insert_conversation_turn": 122
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_animals_education_economy_e1adb2bc",
+                    "insert_conversation_turn": 120,
+                    "reference_name": "Fig. 0845e745"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_transportation_food_technology_4d2f5ed1",
+                    "insert_conversation_turn": 4
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "instance": "Prada",
+            "category": "logo",
+            "error_type": "content_error",
+            "topic": [
+                "fashion",
+                " business"
+            ],
+            "original_question": "What are the main products of this brand?"
+        }
+    },
+    {
+        "id": "QA_sample_96f96f48",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 97fce066, the text, which portfolio holdings meet the criteria of \"contributing at least 1.5% to the portfolio\" and \"belonging to the technology sector,\" and does the portfolio \"outperform the benchmark index in percentage growth over the same timeframe\"?",
+        "answer": "Microsoft and Oracle meet the criteria, and the portfolio outperforms the MSCI All Countries World Index.",
+        "evidence": {
+            "text_evidence": [
+                "In evaluating investment performance, an investor considers both individual asset holdings and overall portfolio growth relative to benchmark indices. The investor focuses on stocks contributing at least 1.5% to the portfolio and prioritizes companies from the technology sector. Additionally, the investor aims to outperform the MSCI All Countries World Index in percentage growth over the same timeframe."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_a3374612.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Microsoft and Oracle meet the criteria, and the portfolio outperforms the MSCI All Countries World Index.",
+                "Microsoft and Alphabet meet the criteria, but the portfolio does not outperform the MSCI All Countries World Index",
+                "Alphabet and Baidu meet the criteria, and the portfolio outperforms the MSCI All Countries World Index",
+                "Oracle and Baidu meet the criteria, but the portfolio does not outperform the MSCI All Countries World Index"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_transportation_food_technology_4d2f5ed1",
+                    "insert_conversation_turn": 956
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_environment_travel_others_9e8906a4",
+                    "insert_conversation_turn": 738,
+                    "reference_name": "Fig. 97fce066"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "business",
+                "economy",
+                "technology"
+            ],
+            "original_question": "the text, which portfolio holdings meet the criteria of \"contributing at least 1.5% to the portfolio\" and \"belonging to the technology sector,\" and does the portfolio \"outperform the benchmark index in percentage growth over the same timeframe\"?"
+        }
+    },
+    {
+        "id": "QA_sample_016ec80f",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. c6e49b29, the graph and according to the previous definition, did PG&E's stock remain \"stable\" after the Wine Country fires?",
+        "answer": "No",
+        "evidence": {
+            "text_evidence": [
+                "A company's stock is considered stable if its closing price does not drop below $50 for a continuous period of six months. If the stock drops below this value during this period, it is marked as unstable, regardless of whether it rebounds later."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_45eab3dc.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "No",
+                "Yes"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_transportation_food_technology_4d2f5ed1",
+                    "insert_conversation_turn": 406
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_animals_education_economy_e1adb2bc",
+                    "insert_conversation_turn": 910,
+                    "reference_name": "Fig. c6e49b29"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "business",
+                "economy"
+            ],
+            "original_question": "the graph and according to the previous definition, did PG&E's stock remain \"stable\" after the Wine Country fires?"
+        }
+    },
+    {
+        "id": "QA_sample_8ab79892",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. a92dadd7, According to the previous definition, during which period did Chinese banks have bad loan levels that were considered \"manageable without external assistance,\" as shown in the chart?",
+        "answer": "2004 to around 2012",
+        "evidence": {
+            "text_evidence": [
+                "A regulatory analysis states that bad loans exceeding 2.5 trillion yuan indicate significant financial distress for Chinese banks, potentially requiring government intervention. Furthermore, bad loans below 1 trillion yuan are considered manageable without external assistance."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_1c26ae43.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "2012 to 2016",
+                "2016 to 2020",
+                "2020 to 2022",
+                "2004 to around 2012"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_animals_education_economy_e1adb2bc",
+                    "insert_conversation_turn": 276
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_environment_travel_others_9e8906a4",
+                    "insert_conversation_turn": 839,
+                    "reference_name": "Fig. a92dadd7"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "business",
+                "economy",
+                "government"
+            ],
+            "original_question": "According to the previous definition, during which period did Chinese banks have bad loan levels that were considered \"manageable without external assistance,\" as shown in the chart?"
+        }
+    },
+    {
+        "id": "QA_sample_282b0587",
+        "domain": "MLLMKC",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. 94ba2262, What are the main products of this brand?",
+        "answer": "luxury goods",
+        "evidence": {
+            "text_evidence": [
+                "Louis Vuitton was founded in 1854. The creator of Louis Vuitton is Louis Vuitton. Louis Vuitton is the brand of luxury goods."
+            ],
+            "image_evidence": [
+                "MLLMKC_cd9c1e04.jpg"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Louis Vuitton was founded in 1854. The creator of Louis Vuitton is Louis Vuitton. Louis Vuitton is the brand of luxury automobiles."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "gourmet chocolates",
+                "luxury automobiles",
+                "luxury goods",
+                "premium fragrances"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_animals_education_economy_e1adb2bc",
+                    "insert_conversation_turn": 183
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_transportation_food_technology_4d2f5ed1",
+                    "insert_conversation_turn": 604,
+                    "reference_name": "Fig. 94ba2262"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_environment_travel_others_9e8906a4",
+                    "insert_conversation_turn": 173
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "instance": "Louis Vuitton",
+            "category": "logo",
+            "error_type": "content_error",
+            "topic": [
+                "fashion",
+                " business",
+                " lifestyle"
+            ],
+            "original_question": "What are the main products of this brand?"
+        }
+    },
+    {
+        "id": "QA_sample_78f0b074",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 3fc6a9e5, the text, did Bitcoin meet the criteria for a \"major surge\" as defined by a price increase exceeding 9% and ending above $19,500 at the end of the day?",
+        "answer": "Yes",
+        "evidence": {
+            "text_evidence": [
+                "A cryptocurrency like Bitcoin is considered to have experienced a 'major surge' in a day if the price increase exceeds 9% and the price ends above $19,500 at the end of the day. The graph shows the performance of Bitcoin over one day, with timestamps labeled from 11 AM to 8 AM the next day."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_666fbb99.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Yes",
+                "No"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_animals_education_economy_e1adb2bc",
+                    "insert_conversation_turn": 646
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_environment_travel_others_9e8906a4",
+                    "insert_conversation_turn": 870,
+                    "reference_name": "Fig. 3fc6a9e5"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "economy",
+                "technology"
+            ],
+            "original_question": "the text, did Bitcoin meet the criteria for a \"major surge\" as defined by a price increase exceeding 9% and ending above $19,500 at the end of the day?"
+        }
+    },
+    {
+        "id": "QA_sample_7f04ada4",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. fa5d5aad, the text, in which year shown in the graphs did both indicators meet the criteria for \"significant economic expansion\" as defined by analysts, with industrial production growth above 15% and GDP growth above 10%?",
+        "answer": "2007",
+        "evidence": {
+            "text_evidence": [
+                "According to economic analysts, consistent industrial production growth above 15% is considered a robust indicator of significant economic expansion if GDP growth simultaneously exceeds 10% during the same period."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_cf4f0e54.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "2006",
+                "2008",
+                "2007",
+                "2010"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_environment_travel_others_9e8906a4",
+                    "insert_conversation_turn": 10
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_transportation_food_technology_4d2f5ed1",
+                    "insert_conversation_turn": 665,
+                    "reference_name": "Fig. fa5d5aad"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "economy"
+            ],
+            "original_question": "the text, in which year shown in the graphs did both indicators meet the criteria for \"significant economic expansion\" as defined by analysts, with industrial production growth above 15% and GDP growth above 10%?"
+        }
+    },
+    {
+        "id": "QA_sample_72415c16",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. e448f930, the text, was Russia's import strategy for food and agricultural produce between 1995 and 2013 \"considered successful\" according to the definition that requires both a decrease in the dollar value of imports and a consistent decline in their percentage of total imports?",
+        "answer": "No",
+        "evidence": {
+            "text_evidence": [
+                "A country's diversification of imports strategy is considered successful if, over time, the dollar value ($bn) of its food and agricultural imports decreases while the percentage of these imports as part of total imports also shows a consistent decline."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_1254a8fe.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "No",
+                "Yes"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_transportation_food_technology_4d2f5ed1",
+                    "insert_conversation_turn": 774
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_animals_education_economy_e1adb2bc",
+                    "insert_conversation_turn": 415,
+                    "reference_name": "Fig. e448f930"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "economy",
+                "food"
+            ],
+            "original_question": "the text, was Russia's import strategy for food and agricultural produce between 1995 and 2013 \"considered successful\" according to the definition that requires both a decrease in the dollar value of imports and a consistent decline in their percentage of total imports?"
+        }
+    },
+    {
+        "id": "QA_sample_8d66b1b0",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 5312d6ba, the text, during which approximate periods between 1992 and 2022 did the UK exhibit \"higher inflation volatility compared to G20 countries,\" according to the definition of the spread \"exceeding ±1% in magnitude\"?",
+        "answer": "1992–1994, 2008–2009, and 2021–2022.",
+        "evidence": {
+            "text_evidence": [
+                "The UK is considered to have a higher inflation volatility compared to G20 countries if the UK-to-G20 spread (displayed as green and red shaded areas) exceeds 1% in magnitude (either positive or negative). Meanwhile, the G20 median CPI YoY % serves as the benchmark for inflation stability among G20 countries relative to the UK CPI YoY %. Assume that inflation volatility has significant economic consequences when consistent periods of higher magnitudes are observed over multiple years."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_05c237ec.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "1993–1995, 2007–2008, and 2015–2016",
+                "1995–1997, 2010–2011, and 2019–2020",
+                "1992–1994, 2008–2009, and 2021–2022.",
+                "1996–1998, 2012–2013, and 2020–2021"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_transportation_food_technology_4d2f5ed1",
+                    "insert_conversation_turn": 752
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_animals_education_economy_e1adb2bc",
+                    "insert_conversation_turn": 257,
+                    "reference_name": "Fig. 5312d6ba"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "economy"
+            ],
+            "original_question": "the text, during which approximate periods between 1992 and 2022 did the UK exhibit \"higher inflation volatility compared to G20 countries,\" according to the definition of the spread \"exceeding ±1% in magnitude\"?"
+        }
+    },
+    {
+        "id": "QA_sample_4cce3190",
+        "domain": "MLLMKC",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. e7400ed4, What is the nationality of the person in the picture?",
+        "answer": "American",
+        "evidence": {
+            "text_evidence": [
+                "Kim Kardashian was born on October 21, 1980. Kim Kardashian is American. Kim Kardashian is a media personality, businesswoman, and socialite."
+            ],
+            "image_evidence": [
+                "MLLMKC_fe881255.jpg"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Kim Kardashian was born on October 21, 1980. Kim Kardashian is Canadian. Kim Kardashian is a media personality, businesswoman, and socialite."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "Mexican",
+                "Guatemalan",
+                "American",
+                "Canadian"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_transportation_food_technology_4d2f5ed1",
+                    "insert_conversation_turn": 488
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_animals_education_economy_e1adb2bc",
+                    "insert_conversation_turn": 668,
+                    "reference_name": "Fig. e7400ed4"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_environment_travel_others_9e8906a4",
+                    "insert_conversation_turn": 39
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "instance": "Kim Kardashian",
+            "category": "people",
+            "error_type": "location_error",
+            "topic": [
+                "fashion",
+                " lifestyle",
+                " business"
+            ],
+            "original_question": "What is the nationality of the person in the picture?"
+        }
+    },
+    {
+        "id": "QA_sample_35576971",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 57096c0b, the text, which medication(s) should trigger a \"mandatory review to investigate pricing practices for potential overcharging\" for the 5-year period from 2012 to 2017 according to the rule regarding an \"average price increase of over 5 dollars per year\"?",
+        "answer": "All three medications: Viagra, Cialis, and Levitra.",
+        "evidence": {
+            "text_evidence": [
+                "A government rule states that any medication reaching a price increase of over 5 dollars per year on average across a 5-year period will trigger a mandatory review to investigate pricing practices for potential overcharging. Use the graph to determine if any of the medications shown should trigger a review based on their price trends."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_7d07780e.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Cialis only",
+                "All three medications: Viagra, Cialis, and Levitra.",
+                "Viagra only",
+                "Viagra and Cialis only"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_environment_travel_others_9e8906a4",
+                    "insert_conversation_turn": 269
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_animals_education_economy_e1adb2bc",
+                    "insert_conversation_turn": 557,
+                    "reference_name": "Fig. 57096c0b"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "health",
+                "government",
+                "economy"
+            ],
+            "original_question": "the text, which medication(s) should trigger a \"mandatory review to investigate pricing practices for potential overcharging\" for the 5-year period from 2012 to 2017 according to the rule regarding an \"average price increase of over 5 dollars per year\"?"
+        }
+    },
+    {
+        "id": "QA_sample_69910495",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 52e4aa97, the text, during the period from May 2003 to May 2004, did the \"college tuition growth rate\" and \"CPI inflation rate\" indicate \"education affordability concerns\" according to the policy's assessment criteria?",
+        "answer": "Yes",
+        "evidence": {
+            "text_evidence": [
+                "A policy suggests that college tuition growth rates above 10% for any year significantly contribute to education affordability concerns. However, during years when CPI inflation is under 3%, the policy assumes that general economic conditions are stable enough to dampen tuition hikes. This policy uses both metrics to assess financial stress surrounding college costs."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_462cf644.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "No",
+                "Yes"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_environment_travel_others_9e8906a4",
+                    "insert_conversation_turn": 1088
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_transportation_food_technology_4d2f5ed1",
+                    "insert_conversation_turn": 854,
+                    "reference_name": "Fig. 52e4aa97"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "education",
+                "economy"
+            ],
+            "original_question": "the text, during the period from May 2003 to May 2004, did the \"college tuition growth rate\" and \"CPI inflation rate\" indicate \"education affordability concerns\" according to the policy's assessment criteria?"
+        }
+    },
+    {
+        "id": "QA_sample_5ed25e8e",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 693da1aa, the text, which category of movies meets the criteria for \"successful adaptations\" as defined by exceeding the specified profit adjustment and average rating thresholds?",
+        "answer": "Movies based on novels.",
+        "evidence": {
+            "text_evidence": [
+                "A movie adaptation is considered successful if the average profit adjustment exceeds $50 million and the average rating is at least 6.1. Additionally, adaptations based on novels are indicated by orange, while other movies are in blue."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_31ebdb23.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Movies based on novels.",
+                "Movies not based on novels",
+                "Movies with average ratings below 6.1",
+                "Movies with average profit adjustments below $50 million"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_environment_travel_others_9e8906a4",
+                    "insert_conversation_turn": 906
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_animals_education_economy_e1adb2bc",
+                    "insert_conversation_turn": 369,
+                    "reference_name": "Fig. 693da1aa"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "films",
+                "literature",
+                "economy"
+            ],
+            "original_question": "the text, which category of movies meets the criteria for \"successful adaptations\" as defined by exceeding the specified profit adjustment and average rating thresholds?"
+        }
+    },
+    {
+        "id": "QA_sample_4a31b463",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. b3df0ac4, the text, what is the \"year-on-year growth in private investment,\" and does it meet the government's criteria for being considered a \"key driver of economic development\"?",
+        "answer": "The growth rate of private investment is 4.5%, which does not meet the government's 5% threshold for prioritization.",
+        "evidence": {
+            "text_evidence": [
+                "A government policy aims to prioritize sectors demonstrating at least 5% year-on-year growth in private investment as key drivers of economic development. All other growth rates, such as state-owned or overall investment metrics, will be considered secondary in this prioritization for the year shown."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_d160df72.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "4.8% which does not meet the criteria for prioritization",
+                "6.9% which meets the criteria for prioritization",
+                "The growth rate of private investment is 4.5%, which does not meet the government's 5% threshold for prioritization.",
+                "5.2% which meets the criteria for prioritization"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_environment_travel_others_9e8906a4",
+                    "insert_conversation_turn": 306
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_animals_education_economy_e1adb2bc",
+                    "insert_conversation_turn": 715,
+                    "reference_name": "Fig. b3df0ac4"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "government",
+                "economy"
+            ],
+            "original_question": "the text, what is the \"year-on-year growth in private investment,\" and does it meet the government's criteria for being considered a \"key driver of economic development\"?"
+        }
+    },
+    {
+        "id": "QA_sample_85c61f50",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 1bdc590b, the sales report for May 2015, which agent(s) achieved \"outstanding performance\" according to the previous definition?",
+        "answer": "Susan Smith.",
+        "evidence": {
+            "text_evidence": [
+                "An agent's monthly performance is considered outstanding if their individual sales contribute at least 15% of the total sales, which for May 2015 amounted to $497,100."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_08800f41.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "John Taylor",
+                "Susan Smith.",
+                "Susie Johnson",
+                "David White"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_environment_travel_others_9e8906a4",
+                    "insert_conversation_turn": 778
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_transportation_food_technology_4d2f5ed1",
+                    "insert_conversation_turn": 987,
+                    "reference_name": "Fig. 1bdc590b"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "business",
+                "economy"
+            ],
+            "original_question": "the sales report for May 2015, which agent(s) achieved \"outstanding performance\" according to the previous definition?"
+        }
+    },
+    {
+        "id": "QA_sample_516713bd",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 54723edc, the text, was the borrowing in September 2022 classified as \"high,\" according to the definition of exceeding £15 billion in a single month, and by how much did it exceed the borrowing in the previous September?",
+        "answer": "Yes",
+        "evidence": {
+            "text_evidence": [
+                "Public sector borrowing is considered high if it exceeds £15 billion in a single month. Additionally, borrowing in September months is analyzed to assess year-over-year changes for trends in fiscal responsibility. Assume borrowing trends observed in September 2022 are likely to continue for future Septembers unless external factors change significantly."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_04cfc3e2.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "No",
+                "Yes"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_environment_travel_others_9e8906a4",
+                    "insert_conversation_turn": 950
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_animals_education_economy_e1adb2bc",
+                    "insert_conversation_turn": 431,
+                    "reference_name": "Fig. 54723edc"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "economy",
+                "government"
+            ],
+            "original_question": "the text, was the borrowing in September 2022 classified as \"high,\" according to the definition of exceeding £15 billion in a single month, and by how much did it exceed the borrowing in the previous September?"
+        }
+    },
+    {
+        "id": "QA_sample_1d200c19",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. a9d0c88f, the previous definition, which country qualifies as a \"major contributor to military efforts\" during the Russia-Ukraine war?",
+        "answer": "The USA",
+        "evidence": {
+            "text_evidence": [
+                "A country is considered to have a high financial contribution to military efforts if it spends at least 2% of its GDP on military aid or activities. Alternatively, a country can also qualify as a major contributor if it provides a minimum of $50 billion in military aid, regardless of GDP percentage."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_6738261d.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "Germany",
+                "Denmark",
+                "The USA",
+                "France"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_transportation_food_technology_4d2f5ed1",
+                    "insert_conversation_turn": 440
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_environment_travel_others_9e8906a4",
+                    "insert_conversation_turn": 934,
+                    "reference_name": "Fig. a9d0c88f"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "politics",
+                "history",
+                "government",
+                "economy"
+            ],
+            "original_question": "the previous definition, which country qualifies as a \"major contributor to military efforts\" during the Russia-Ukraine war?"
+        }
+    }
+]

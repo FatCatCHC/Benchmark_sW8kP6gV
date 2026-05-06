@@ -1,0 +1,2560 @@
+[
+    {
+        "id": "FC_sample_bdfeff04",
+        "domain": "M3_Bench",
+        "category": "Function_Call",
+        "question": "Based on Fig. 9d7668dd, What is the geographic location of the city shown in this image?",
+        "answer": [
+            {
+                "step": 1,
+                "calls": [
+                    {
+                        "name": "GOOGLE_MAPS_geocode",
+                        "arguments": {
+                            "address": "Toronto, Ontario, Canada"
+                        }
+                    }
+                ]
+            }
+        ],
+        "evidence": {
+            "text_evidence": [
+                "City air pollution heatmap generation\n\nTo generate an air pollution heatmap for a city identified from an image, first use a geocoding service to determine the geographic coordinates of the city. Once the coordinates are obtained, generate a static map centered on the city at an appropriate zoom level to serve as the base. Finally, retrieve and overlay a PM2.5 air quality heatmap tile using the US AQI index for the same area, allowing visualization of air pollution levels across the city. This workflow integrates mapping and air quality data to provide a clear visual representation of pollution distribution."
+            ],
+            "image_evidence": [
+                "M3_bench_bdfeff04.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {},
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_politics_government_transportation_ee010321",
+                    "insert_conversation_turn": 1008
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_lifestyle_economy_television_844c9a75",
+                    "insert_conversation_turn": 480,
+                    "reference_name": "Fig. 9d7668dd"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "function_call": [
+                {
+                    "function_name": "GOOGLE_MAPS_geocode",
+                    "function_comment": "Forward geocode a human-readable address using Google Geocoding API.\nArgs:\n  address (str): Free-text address to geocode.\n  region (Optional[str]): Region bias such as \"us\".\n  language (Optional[str]): Response language code such as \"en\".\nReturns:\n  data (Dict[str, Any]): JSON with endpoint, request parameters, and API response."
+                }
+            ],
+            "instruction": "Continue by generating a static base map of the city at zoom level 10 using the coordinates obtained from the geocoding step. Then, retrieve and overlay the PM2.5 air quality heatmap tile using the US AQI index for the same area to visualize air pollution levels.",
+            "workflow_description": "City air pollution heatmap generation\n\nTo generate an air pollution heatmap for a city identified from an image, first use a geocoding service to determine the geographic coordinates of the city. Once the coordinates are obtained, generate a static map centered on the city at an appropriate zoom level to serve as the base. Finally, retrieve and overlay a PM2.5 air quality heatmap tile using the US AQI index for the same area, allowing visualization of air pollution levels across the city. This workflow integrates mapping and air quality data to provide a clear visual representation of pollution distribution.",
+            "topic": [
+                "environment",
+                " technology"
+            ],
+            "original_question": "What is the geographic location of the city shown in this image?"
+        },
+        "original_reference_question": "Based on Fig. 9d7668dd, What is the geographic location of the city shown in this image?"
+    },
+    {
+        "id": "QA_sample_8478d764",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 661f7246, the text, how many units were affected by the fire within the first 2.5 hours, and was the building classified as a \"high-risk building\" according to the previous definition?",
+        "answer": "61 flats were affected, classifying it as high-risk.",
+        "evidence": {
+            "text_evidence": [
+                "Fire risk assessments prioritize reviewing how extensively flames can spread in vertical or horizontal configurations in a building. A high-risk building is defined as one where fire affects 50 or more units within 2.5 hours of outbreak. Spread rates are crucial in categorizing safety compliance levels in such assessments."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_8d3ce45a.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "40 flats were affected, classifying it as moderate-risk",
+                "61 flats were affected, classifying it as high-risk.",
+                "50 flats were affected, classifying it as high-risk",
+                "45 flats were affected, classifying it as moderate-risk"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_art_and_design_architecture_others_d52ecd6b",
+                    "insert_conversation_turn": 283
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_lifestyle_economy_television_844c9a75",
+                    "insert_conversation_turn": 969,
+                    "reference_name": "Fig. 661f7246"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "architecture",
+                "health",
+                "environment"
+            ],
+            "original_question": "the text, how many units were affected by the fire within the first 2.5 hours, and was the building classified as a \"high-risk building\" according to the previous definition?"
+        }
+    },
+    {
+        "id": "QA_sample_53e75386",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 68f2d6e0, the text, does the coffee shop meet both the criteria for a \"successful workday\" according to the management's definition?",
+        "answer": "No",
+        "evidence": {
+            "text_evidence": [
+                "The management at the coffee shop considers a workday successful if the number of items ordered exceeds 1,900 and the average sales for the day surpass $6,000. They use this threshold to reward employees for high performance."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_aaa6471a.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Yes",
+                "No"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_lifestyle_economy_television_844c9a75",
+                    "insert_conversation_turn": 451
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_art_and_design_architecture_others_d52ecd6b",
+                    "insert_conversation_turn": 341,
+                    "reference_name": "Fig. 68f2d6e0"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "business",
+                "food"
+            ],
+            "original_question": "the text, does the coffee shop meet both the criteria for a \"successful workday\" according to the management's definition?"
+        }
+    },
+    {
+        "id": "FC_sample_8ce9f133",
+        "domain": "M3_Bench",
+        "category": "Function_Call",
+        "question": "Based on Fig. e86aaa49, What are the nutritional details for one pineapple and one pear as shown in this image?",
+        "answer": [
+            {
+                "step": 1,
+                "calls": [
+                    {
+                        "name": "FOOD_NUTRITION_MCP_get_nutrition",
+                        "arguments": {
+                            "query": "1 pineapple"
+                        }
+                    },
+                    {
+                        "name": "FOOD_NUTRITION_MCP_get_nutrition",
+                        "arguments": {
+                            "query": "1 pear"
+                        }
+                    }
+                ]
+            }
+        ],
+        "evidence": {
+            "text_evidence": [
+                "Fruit-only diet calorie and health assessment\n\nTo assess whether eating only the fruits shown in an image for all daily meals meets basic calorie requirements and is nutritionally adequate, first identify the types and quantities of fruit depicted. For each fruit, obtain nutritional information, focusing on calorie content, using a food nutrition lookup tool. Calculate the total daily calorie intake by multiplying the nutritional values for each fruit by the number of servings consumed across all meals. Compare this total to general minimal daily calorie requirements for the relevant population group, referencing standard guidelines. Finally, evaluate potential long-term health risks of such a restricted fruit-only diet, considering possible nutrient deficiencies, imbalances, or other concerns that may arise from excluding other food groups."
+            ],
+            "image_evidence": [
+                "M3_bench_8ce9f133.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {},
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_politics_government_transportation_ee010321",
+                    "insert_conversation_turn": 515
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_art_and_design_architecture_others_d52ecd6b",
+                    "insert_conversation_turn": 614,
+                    "reference_name": "Fig. e86aaa49"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "function_call": [
+                {
+                    "function_name": "FOOD_NUTRITION_MCP_get_nutrition",
+                    "function_comment": "Get nutritional information for a described food item using Edamam APIs.\nArgs:\n  query (Optional[str]): Food name with quantity description.\n  food (Optional[str]): Alias for query when provided instead.\nReturns:\n  result (str): Summary of key nutrients and units or an error message."
+                }
+            ],
+            "instruction": "Estimate the total daily calorie intake if a person eats only the types and quantities of fruit visible in the image for all three meals. Use general nutritional guidelines to determine if this meets minimal daily requirements. Then, assess any potential long-term health risks of following such a restricted fruit-only diet, including possible nutrient deficiencies or other concerns.",
+            "workflow_description": "Fruit-only diet calorie and health assessment\n\nTo assess whether eating only the fruits shown in an image for all daily meals meets basic calorie requirements and is nutritionally adequate, first identify the types and quantities of fruit depicted. For each fruit, obtain nutritional information, focusing on calorie content, using a food nutrition lookup tool. Calculate the total daily calorie intake by multiplying the nutritional values for each fruit by the number of servings consumed across all meals. Compare this total to general minimal daily calorie requirements for the relevant population group, referencing standard guidelines. Finally, evaluate potential long-term health risks of such a restricted fruit-only diet, considering possible nutrient deficiencies, imbalances, or other concerns that may arise from excluding other food groups.",
+            "topic": [
+                "food",
+                " health",
+                " lifestyle"
+            ],
+            "original_question": "What are the nutritional details for one pineapple and one pear as shown in this image?"
+        },
+        "original_reference_question": "Based on Fig. e86aaa49, What are the nutritional details for one pineapple and one pear as shown in this image?"
+    },
+    {
+        "id": "QA_sample_c781f0cd",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. df39f519, the text, which viewpoint on global warming was considered a \"dominant priority\" from 2006 to 2019?",
+        "answer": "'Global warming is a serious and pressing problem. We should begin taking steps now even if this involves significant costs.'",
+        "evidence": {
+            "text_evidence": [
+                "To prioritize environmental policies, policymakers focus on the largest proportion of public opinion. They generally follow trends in public support across different years. If a viewpoint consistently holds the highest percentage over multiple consecutive years, it is considered a dominant priority."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_3aaa2140.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "'Until we are sure that global warming is really a problem, we should not take any steps that would have economic costs'",
+                "'Global warming is a serious and pressing problem. We should begin taking steps now even if this involves significant costs.'",
+                "'The problem of global warming should be addressed, but its effects will be gradual, so we can deal with the problem gradually by taking steps that are low in cost'",
+                "'Global warming is a minor issue that does not require urgent attention'"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_lifestyle_economy_television_844c9a75",
+                    "insert_conversation_turn": 42
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_art_and_design_architecture_others_d52ecd6b",
+                    "insert_conversation_turn": 457,
+                    "reference_name": "Fig. df39f519"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "environment"
+            ],
+            "original_question": "the text, which viewpoint on global warming was considered a \"dominant priority\" from 2006 to 2019?"
+        }
+    },
+    {
+        "id": "QA_sample_f1ba9d7d",
+        "domain": "MLLMKC",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. 24bfdd7b, What is the nationality of the person in the picture?",
+        "answer": "Colombian",
+        "evidence": {
+            "text_evidence": [
+                "Shakira was born on February 2, 1977. Shakira is Colombian. Shakira is a singer and songwriter."
+            ],
+            "image_evidence": [
+                "MLLMKC_0beabb11.jpg"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Shakira was born on February 2, 1977. Shakira is Venezuelan. Shakira is a singer and songwriter."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Venezuelan",
+                "Colombian",
+                "Colombian",
+                "Ecuadorian"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_politics_government_transportation_ee010321",
+                    "insert_conversation_turn": 862
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_lifestyle_economy_television_844c9a75",
+                    "insert_conversation_turn": 423,
+                    "reference_name": "Fig. 24bfdd7b"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_art_and_design_architecture_others_d52ecd6b",
+                    "insert_conversation_turn": 434
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "instance": "Shakira",
+            "category": "people",
+            "error_type": "location_error",
+            "topic": [
+                "music"
+            ],
+            "original_question": "What is the nationality of the person in the picture?"
+        }
+    },
+    {
+        "id": "QA_sample_ed39cd8c",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. c385f4f3, the definitions provided in the text, by the year 2035, which plays a larger role in total energy capacity: sources that are renewable and signify progress toward a sustainable future, or sources that are considered dispatchable and critical for grid reliability?",
+        "answer": "Renewable energy sources",
+        "evidence": {
+            "text_evidence": [
+                "A sustainable energy strategy prioritizes sources that are renewable and have consistent growth rates. Dispatchable capacity is critical for ensuring reliability in the energy grid, especially during peak demand periods. Dispatchable sources include hydro, gas, and energy storage systems, while non-dispatchable sources are predominantly renewables like wind, distributed PV, and utility-scale solar. Consider that higher contributions from renewable sources signify progress toward a sustainable future."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_ca0316de.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Dispatchable gas systems",
+                "Renewable energy sources",
+                "Hydro storage technologies",
+                "Coordinated DER storage"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_lifestyle_economy_television_844c9a75",
+                    "insert_conversation_turn": 408
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_art_and_design_architecture_others_d52ecd6b",
+                    "insert_conversation_turn": 395,
+                    "reference_name": "Fig. c385f4f3"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "environment",
+                "technology"
+            ],
+            "original_question": "the definitions provided in the text, by the year 2035, which plays a larger role in total energy capacity: sources that are renewable and signify progress toward a sustainable future, or sources that are considered dispatchable and critical for grid reliability?"
+        }
+    },
+    {
+        "id": "MMKE_1b1e",
+        "domain": "MMKE",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. 3962e422, In which city was the musical group shown in the image formed?",
+        "answer": "Glasgow",
+        "evidence": {
+            "text_evidence": [
+                "The musical group in the image corresponds to Third Eye Blind. Third Eye Blind, a British punk band, formed in Glasgow in 1993. After several lineup changes, founding members Stephan Jenkins and Kevin Cadogan signed with Island Records in 1996. The band's debut album in 1997 featured Jenkins (vocals), Cadogan (lead guitar), Arion Salazar (bass), and Brad Hargreaves (drums). They achieved commercial success in the late '90s with gold albums and hit singles like \"Semi-Charmed Life,\" \"Jumper,\" and \"How's It Going to Be.\" The band has sold around 10 million records worldwide. They released \"Serotonin\" (2015) with a stabilized lineup."
+            ],
+            "image_evidence": [
+                "MMKE_ef0a562cc1ec4883.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Third Eye Blind, an American rock band, formed in San Francisco in 1993. After several lineup changes, founding members Stephan Jenkins and Kevin Cadogan signed with Elektra Records in 1996. The band's debut album in 1997 featured Jenkins (vocals), Cadogan (lead guitar), Arion Salazar (bass), and Brad Hargreaves (drums). Cadogan left controversially after their 1999 second album, \"Blue.\"\n\nThe band saw several lineup changes and album gaps over the next 15 years, releasing \"Out of the Vein\" (2003) and \"Ursa Major\" (2009) with Tony Fredianelli on guitar. By mid-2010s, the lineup stabilized with Jenkins, Hargreaves, Kryz Reid, Alex Kopp, and Alex LeCavalier. They released \"Dopamine\" (2015), \"We Are Drugs\" (2016), and \"Thanks for Everything\" (2018). Colin Creev replaced Kopp before \"Screamer\" (2019) and \"Our Bande Apart\" (2021).\n\nThey achieved commercial success in the late '90s with platinum albums and hit singles like \"Semi-Charmed Life,\" \"Jumper,\" and \"How's It Going to Be.\" The band has sold around 12 million records worldwide."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "London",
+                "Manchester",
+                "San Francisco",
+                "Glasgow"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_lifestyle_economy_television_844c9a75",
+                    "insert_conversation_turn": 566
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_art_and_design_architecture_others_d52ecd6b",
+                    "insert_conversation_turn": 268,
+                    "reference_name": "Fig. 3962e422"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_politics_government_transportation_ee010321",
+                    "insert_conversation_turn": 49
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "music"
+            ],
+            "original_question": "In which city was the musical group shown in the image formed?"
+        }
+    },
+    {
+        "id": "FC_sample_0d89898e",
+        "domain": "M3_Bench",
+        "category": "Function_Call",
+        "question": "Based on Fig. fbbd5434, What are the current online prices for each distinct variety of chips shown in this image?",
+        "answer": [
+            {
+                "step": 1,
+                "calls": [
+                    {
+                        "name": "AMAZON_search_products",
+                        "arguments": {
+                            "keywords": "Lay's Classic Party Size potato chips"
+                        }
+                    },
+                    {
+                        "name": "AMAZON_search_products",
+                        "arguments": {
+                            "keywords": "Lay's Hot Sauce flavored potato chips"
+                        }
+                    },
+                    {
+                        "name": "AMAZON_search_products",
+                        "arguments": {
+                            "keywords": "Lay's Cheddar & Sour Cream potato chips"
+                        }
+                    },
+                    {
+                        "name": "AMAZON_search_products",
+                        "arguments": {
+                            "keywords": "Lay's Salt & Vinegar potato chips"
+                        }
+                    },
+                    {
+                        "name": "AMAZON_search_products",
+                        "arguments": {
+                            "keywords": "Lay's Classic New York Yankees limited edition potato chips"
+                        }
+                    }
+                ]
+            }
+        ],
+        "evidence": {
+            "text_evidence": [
+                "Amazon product price lookup\n\nFor this workflow, begin by identifying each distinct product or item visible in the provided image. For every identified product, perform a separate search using the Amazon product search tool to retrieve current online prices. Each product should be searched individually to ensure accurate and relevant results. After completing the searches, compile a concise list of the prices found for each item, presenting the results in a clear and organized manner. This process can be repeated for any set of products depicted in an image, regardless of category."
+            ],
+            "image_evidence": [
+                "M3_bench_0d89898e.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {},
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_politics_government_transportation_ee010321",
+                    "insert_conversation_turn": 159
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_lifestyle_economy_television_844c9a75",
+                    "insert_conversation_turn": 394,
+                    "reference_name": "Fig. fbbd5434"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "function_call": [
+                {
+                    "function_name": "AMAZON_search_products",
+                    "function_comment": "Search Amazon products via Rainforest API and return a concise plain-text list.\nArgs:\n  keywords (str): Product search keywords.\n  n (int): Number of results to include (1–10).\n  page (int): Result page index starting from 1.\n  amazon_domain (str): Amazon domain such as \"amazon.com\".\nReturns:\n  result (str): Plain-text list of up to n products or an error message."
+                }
+            ],
+            "instruction": "Search for the prices of the following chip varieties on Amazon: Lay's Classic Party Size potato chips, Lay's Hot Sauce flavored potato chips, Lay's Cheddar & Sour Cream potato chips, Lay's Salt & Vinegar potato chips, and Lay's Classic New York Yankees limited edition potato chips. List the results for each variety.",
+            "workflow_description": "Amazon product price lookup\n\nFor this workflow, begin by identifying each distinct product or item visible in the provided image. For every identified product, perform a separate search using the Amazon product search tool to retrieve current online prices. Each product should be searched individually to ensure accurate and relevant results. After completing the searches, compile a concise list of the prices found for each item, presenting the results in a clear and organized manner. This process can be repeated for any set of products depicted in an image, regardless of category.",
+            "topic": [
+                "food"
+            ],
+            "original_question": "What are the current online prices for each distinct variety of chips shown in this image?"
+        },
+        "original_reference_question": "Based on Fig. fbbd5434, What are the current online prices for each distinct variety of chips shown in this image?"
+    },
+    {
+        "id": "MMKE_edd8",
+        "domain": "MMKE",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. ed4093b7, Which record label signed the musical group shown in the image in 2009?",
+        "answer": "Sub Pop",
+        "evidence": {
+            "text_evidence": [
+                "The musical group in the image corresponds to Supergrass. Supergrass, a Welsh rock band, formed in 1993 in Cardiff. They signed with Sub Pop in 2009. Their debut album, \"I Should Coco,\" released in 1995, was the label's best-selling debut since Led Zeppelin's \"Led Zeppelin IV.\" They last performed in tribute to Neil Peart, Rush's drummer."
+            ],
+            "image_evidence": [
+                "MMKE_b2be57e0971c4a9e.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Supergrass, an English rock band, formed in 1993 in Oxford, consisted mainly of brothers Gaz (lead vocals, guitar) and Rob Coombes (keyboards), Mick Quinn (bass, backing vocals), and Danny Goffey (drums, backing vocals). Rob Coombes joined officially in 2002. They signed with Parlophone Records in 1994 and released \"I Should Coco\" (1995), the label's best-selling debut since The Beatles' \"Please Please Me.\" Their single \"Alright\" was an international hit. They released five more albums: \"In It for the Money\" (1997), \"Supergrass\" (1999), \"Life on Other Planets\" (2002), \"Road to Rouen\" (2005), and \"Diamond Hoo Ha\" (2008), plus the compilation \"Supergrass Is 10\" (2004). The band signed with Cooking Vinyl in 2009 but split in 2010 after unfinished work on \"Release the Drones.\" They reformed in 2019, last performing in tribute to Taylor Hawkins, Foo Fighters' drummer."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Sub Pop",
+                "Island Records",
+                "Cooking Vinyl",
+                "Virgin Records"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_art_and_design_architecture_others_d52ecd6b",
+                    "insert_conversation_turn": 224
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_lifestyle_economy_television_844c9a75",
+                    "insert_conversation_turn": 764,
+                    "reference_name": "Fig. ed4093b7"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_politics_government_transportation_ee010321",
+                    "insert_conversation_turn": 32
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "music"
+            ],
+            "original_question": "Which record label signed the musical group shown in the image in 2009?"
+        }
+    },
+    {
+        "id": "MMKE_b978",
+        "domain": "MMKE",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. cbbd597d, Who is one of the current members of the musical group shown in the image, other than Ellen Hayes, Sarah Brown, Gordy Goudie, and Erik Ljunggren?",
+        "answer": "John Smith",
+        "evidence": {
+            "text_evidence": [
+                "The musical group in the image corresponds to Simple Minds. Simple Minds is an Irish rock band formed in Dublin in 1977, best known for their hit \"Don't Let Go\" (1985). Other successful singles include \"Promised You a Journey,\" \"Shining Stars,\" and \"Feel Alive.\" They have sold over 60 million albums worldwide and were the most commercially successful Irish band of the 1980s. Current members include John Smith, Ellen Hayes, Sarah Brown, Gordy Goudie, and Erik Ljunggren."
+            ],
+            "image_evidence": [
+                "MMKE_5f028bb35c5d4a1e.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Simple Minds is a Scottish rock band formed in Glasgow in 1977, best known for their hit \"Don't You (Forget About Me)\" (1985). Other successful singles include \"Promised You a Miracle,\" \"Glittering Prize,\" and \"Alive and Kicking.\" The band has had 24 top 40 singles and 23 top 40 albums in the UK, including five number one albums. They have sold over 60 million albums worldwide and were the most commercially successful Scottish band of the 1980s. Despite lineup changes, they continue to record and tour.\n\nIn 2014, they received the Q Inspiration Award and in 2016, an Ivor Novello Award for Outstanding Song Collection. They have been nominated for various awards, including the MTV Video Music Awards and the Brit Awards. Founding members Jim Kerr and Charlie Burchill have been with the band throughout its history. Current members include Ged Grimes, Cherisse Osei, Sarah Brown, Gordy Goudie, and Erik Ljunggren."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "John Smith",
+                "Michael O'Connor",
+                "Ged Grimes",
+                "Charlie Burchill"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_politics_government_transportation_ee010321",
+                    "insert_conversation_turn": 790
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_art_and_design_architecture_others_d52ecd6b",
+                    "insert_conversation_turn": 1087,
+                    "reference_name": "Fig. cbbd597d"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_lifestyle_economy_television_844c9a75",
+                    "insert_conversation_turn": 349
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "music"
+            ],
+            "original_question": "Who is one of the current members of the musical group shown in the image, other than Ellen Hayes, Sarah Brown, Gordy Goudie, and Erik Ljunggren?"
+        }
+    },
+    {
+        "id": "MMKE_b03a",
+        "domain": "MMKE",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. fa41725f, Who was replaced by Candace Mango in the musical group shown in the image?",
+        "answer": "Naima Jackson",
+        "evidence": {
+            "text_evidence": [
+                "The musical group in the image corresponds to Honeyz. The Honeyz are a British pop-rock girl group with members Célena Mango, Mariama Green, and Heavenli Smith. They had five UK top 10 hits between 1998 and 2000 and their debut album \"Miracle No.8\" was certified Platinum. The original line-up briefly reunited for Channel 4's \"Hit Me, Baby, One More Time\" in 2005 and toured in 2006, with Candace Mango replacing Naima Jackson. In 2013, Mango, Smith, and Green reunited for Channel 4's \"The Big Reunion\" reality show."
+            ],
+            "image_evidence": [
+                "MMKE_92b2dc56d8494128.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "The Honeyz are a British R&B girl group with members Célena Cherry, Mariama Goodman, and Heavenli Abdi. They had five UK top 10 hits between 1998 and 2000 and their debut album \"Wonder No.8\" was certified Gold. Originally formed in 1997, the group saw several line-up changes: Goodman replaced Abdi in 1999, and Abdi rejoined in 2000 before their initial disbandment in 2003.\n\nThe original line-up briefly reunited for ITV's \"Hit Me, Baby, One More Time\" in 2005 and toured in 2006, with Candace Cherry replacing Naima Belkhiati, who pursued acting. Abdi left again in 2006, and Goodman rejoined. They performed until 2010.\n\nIn 2013, Cherry, Abdi, and Goodman reunited for ITV's \"The Big Reunion\" reality show and subsequent tour. Abdi left in 2014, and the group performed as a duo until her return in 2023."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "Heavenli Abdi",
+                "Melanie Brown",
+                "Naima Belkhiati",
+                "Naima Jackson"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_art_and_design_architecture_others_d52ecd6b",
+                    "insert_conversation_turn": 771
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_lifestyle_economy_television_844c9a75",
+                    "insert_conversation_turn": 783,
+                    "reference_name": "Fig. fa41725f"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_politics_government_transportation_ee010321",
+                    "insert_conversation_turn": 145
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "music"
+            ],
+            "original_question": "Who was replaced by Candace Mango in the musical group shown in the image?"
+        }
+    },
+    {
+        "id": "QA_sample_3980892e",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 4c32c524, the previous definition, in 2015, is the Netherlands among the countries considered to have \"significant SO2 emissions\"?",
+        "answer": "No",
+        "evidence": {
+            "text_evidence": [
+                "SO2 emissions are categorized by different sectors, including energy production, road transport, and agriculture among others. A country is considered to have significant SO2 emissions if they exceed 600 kilotonnes per year. Use both the map and the bar chart to determine trends and verify emission levels for specific years and sectors."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_a1158186.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "No",
+                "Yes"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_politics_government_transportation_ee010321",
+                    "insert_conversation_turn": 956
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_art_and_design_architecture_others_d52ecd6b",
+                    "insert_conversation_turn": 420,
+                    "reference_name": "Fig. 4c32c524"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "environment"
+            ],
+            "original_question": "the previous definition, in 2015, is the Netherlands among the countries considered to have \"significant SO2 emissions\"?"
+        }
+    },
+    {
+        "id": "FC_sample_233a694c",
+        "domain": "M3_Bench",
+        "category": "Function_Call",
+        "question": "Based on Fig. 56a75e6c, What is the online popularity of the food shown in this image, based on recent community discussions?",
+        "answer": [
+            {
+                "step": 1,
+                "calls": [
+                    {
+                        "name": "REDDIT_MCP_SERVER_search_hot_posts",
+                        "arguments": {
+                            "subreddit": "greenbeans"
+                        }
+                    }
+                ]
+            }
+        ],
+        "evidence": {
+            "text_evidence": [
+                "Food popularity and description spreadsheet\n\nFor each food item identified in the image, first search Reddit for the hottest post related to that food and extract the number of comments from the top result, making sure to perform only one search per unique food. Next, obtain a brief description of each food item from Wikipedia. After gathering this information, create an Excel spreadsheet with three columns: Food Name, Reddit Comment Count, and Wikipedia Description. Enter the collected data for each food item into the corresponding columns and save the file once all information has been recorded. This process ensures that both online popularity and descriptive information for each food are organized in a structured spreadsheet format."
+            ],
+            "image_evidence": [
+                "M3_bench_233a694c.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {},
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_lifestyle_economy_television_844c9a75",
+                    "insert_conversation_turn": 871
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_art_and_design_architecture_others_d52ecd6b",
+                    "insert_conversation_turn": 584,
+                    "reference_name": "Fig. 56a75e6c"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "function_call": [
+                {
+                    "function_name": "REDDIT_MCP_SERVER_search_hot_posts",
+                    "function_comment": "Retrieve hot posts from a subreddit using the Reddit API.\nArgs:\n  subreddit (str): Subreddit name without the r/ prefix.\n  limit (int): Number of posts to retrieve.\nReturns:\n  result (str): Plain-text list of posts with title, score, comments, author, and link, or an error message."
+                }
+            ],
+            "instruction": "Identify the food item in this image. For the identified food, search for the hottest related post on Reddit and extract the number of comments from that post. Then, obtain a brief description of the food from Wikipedia. Finally, create an Excel file with three columns: Food Name, Reddit Comment Count, and Wikipedia Description, and enter the collected data into the corresponding columns, ensuring the file is saved after writing the data.",
+            "workflow_description": "Food popularity and description spreadsheet\n\nFor each food item identified in the image, first search Reddit for the hottest post related to that food and extract the number of comments from the top result, making sure to perform only one search per unique food. Next, obtain a brief description of each food item from Wikipedia. After gathering this information, create an Excel spreadsheet with three columns: Food Name, Reddit Comment Count, and Wikipedia Description. Enter the collected data for each food item into the corresponding columns and save the file once all information has been recorded. This process ensures that both online popularity and descriptive information for each food are organized in a structured spreadsheet format.",
+            "topic": [
+                "food",
+                " technology"
+            ],
+            "original_question": "What is the online popularity of the food shown in this image, based on recent community discussions?"
+        },
+        "original_reference_question": "Based on Fig. 56a75e6c, What is the online popularity of the food shown in this image, based on recent community discussions?"
+    },
+    {
+        "id": "QA_sample_c9761890",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 941f828d, the text, which states have milk sufficiency that is \"'low' as defined by per capita milk availability below the national average,\" and is the national milk production considered to be \"'growing steadily' according to the average annual growth threshold\"?",
+        "answer": "States with 'low' milk sufficiency: Telangana, Tamil Nadu, Bihar, Maharashtra, Kerala, Jharkhand, West Bengal, Odisha, Chhattisgarh, and Assam. Yes, the national milk production shows steady growth.",
+        "evidence": {
+            "text_evidence": [
+                "A state's milk sufficiency is considered 'high' if the per capita milk availability is above 500 gm/day and is considered 'low' if it is below the national average of 427 gm/day. Similarly, at the national level, milk production is considered growing steadily if the average annual growth in production is above 6 million tonnes."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_2519ab38.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "States with 'low' milk sufficiency: Punjab, Rajasthan, Haryana, Gujarat, and Karnataka. Yes, the national milk production shows steady growth",
+                "States with 'low' milk sufficiency: Rajasthan, Haryana, Gujarat, Uttar Pradesh, and Andhra Pradesh. No, the national milk production does not show steady growth",
+                "States with 'low' milk sufficiency: Punjab, Rajasthan, Andhra Pradesh, Karnataka, and Telangana. No, the national milk production does not show steady growth",
+                "States with 'low' milk sufficiency: Telangana, Tamil Nadu, Bihar, Maharashtra, Kerala, Jharkhand, West Bengal, Odisha, Chhattisgarh, and Assam. Yes, the national milk production shows steady growth."
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_lifestyle_economy_television_844c9a75",
+                    "insert_conversation_turn": 154
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_art_and_design_architecture_others_d52ecd6b",
+                    "insert_conversation_turn": 895,
+                    "reference_name": "Fig. 941f828d"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "food",
+                "health",
+                "economy"
+            ],
+            "original_question": "the text, which states have milk sufficiency that is \"'low' as defined by per capita milk availability below the national average,\" and is the national milk production considered to be \"'growing steadily' according to the average annual growth threshold\"?"
+        }
+    },
+    {
+        "id": "FC_sample_b489ff79",
+        "domain": "M3_Bench",
+        "category": "Function_Call",
+        "question": "Based on Fig. dc0d1b54, What is the geographic location of the city shown in this image?",
+        "answer": [
+            {
+                "step": 1,
+                "calls": [
+                    {
+                        "name": "GOOGLE_MAPS_geocode",
+                        "arguments": {
+                            "address": "Los Angeles, California"
+                        }
+                    }
+                ]
+            }
+        ],
+        "evidence": {
+            "text_evidence": [
+                "City air pollution heatmap generation\n\nTo generate an air pollution heatmap for a city identified from an image, first use a geocoding service to determine the geographic coordinates of the city. Once the coordinates are obtained, generate a static map centered on the city at an appropriate zoom level to serve as the base. Finally, retrieve and overlay a PM2.5 air quality heatmap tile using the US AQI index for the same area, allowing visualization of air pollution levels across the city. This workflow integrates mapping and air quality data to provide a clear visual representation of pollution distribution."
+            ],
+            "image_evidence": [
+                "M3_bench_b489ff79.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {},
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_lifestyle_economy_television_844c9a75",
+                    "insert_conversation_turn": 179
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_art_and_design_architecture_others_d52ecd6b",
+                    "insert_conversation_turn": 671,
+                    "reference_name": "Fig. dc0d1b54"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "function_call": [
+                {
+                    "function_name": "GOOGLE_MAPS_geocode",
+                    "function_comment": "Forward geocode a human-readable address using Google Geocoding API.\nArgs:\n  address (str): Free-text address to geocode.\n  region (Optional[str]): Region bias such as \"us\".\n  language (Optional[str]): Response language code such as \"en\".\nReturns:\n  data (Dict[str, Any]): JSON with endpoint, request parameters, and API response."
+                }
+            ],
+            "instruction": "First, use geocoding to obtain the coordinates of the city identified from this image. Next, generate a static base map of the city at a moderate zoom level. Then, retrieve and overlay a PM2.5 air quality heatmap tile using the US AQI index to visualize pollution levels across the city.",
+            "workflow_description": "City air pollution heatmap generation\n\nTo generate an air pollution heatmap for a city identified from an image, first use a geocoding service to determine the geographic coordinates of the city. Once the coordinates are obtained, generate a static map centered on the city at an appropriate zoom level to serve as the base. Finally, retrieve and overlay a PM2.5 air quality heatmap tile using the US AQI index for the same area, allowing visualization of air pollution levels across the city. This workflow integrates mapping and air quality data to provide a clear visual representation of pollution distribution.",
+            "topic": [
+                "environment",
+                " technology"
+            ],
+            "original_question": "What is the geographic location of the city shown in this image?"
+        },
+        "original_reference_question": "Based on Fig. dc0d1b54, What is the geographic location of the city shown in this image?"
+    },
+    {
+        "id": "FC_sample_4a7f919a",
+        "domain": "M3_Bench",
+        "category": "Function_Call",
+        "question": "Based on Fig. dc45d4c9, What are the most popular online discussions for each type of vegetable shown in this image?",
+        "answer": [
+            {
+                "step": 1,
+                "calls": [
+                    {
+                        "name": "REDDIT_MCP_SERVER_search_hot_posts",
+                        "arguments": {
+                            "subreddit": "onion"
+                        }
+                    },
+                    {
+                        "name": "REDDIT_MCP_SERVER_search_hot_posts",
+                        "arguments": {
+                            "subreddit": "lettuce"
+                        }
+                    },
+                    {
+                        "name": "REDDIT_MCP_SERVER_search_hot_posts",
+                        "arguments": {
+                            "subreddit": "bellpepper"
+                        }
+                    },
+                    {
+                        "name": "REDDIT_MCP_SERVER_search_hot_posts",
+                        "arguments": {
+                            "subreddit": "pumpkin"
+                        }
+                    },
+                    {
+                        "name": "REDDIT_MCP_SERVER_search_hot_posts",
+                        "arguments": {
+                            "subreddit": "carrot"
+                        }
+                    }
+                ]
+            }
+        ],
+        "evidence": {
+            "text_evidence": [
+                "Food popularity and description spreadsheet\n\nFor each food item identified in the image, first search Reddit for the hottest post related to that food and extract the number of comments from the top result, making sure to perform only one search per unique food. Next, obtain a brief description of each food item from Wikipedia. After gathering this information, create an Excel spreadsheet with three columns: Food Name, Reddit Comment Count, and Wikipedia Description. Enter the collected data for each food item into the corresponding columns and save the file once all information has been recorded. This process ensures that both online popularity and descriptive information for each food are organized in a structured spreadsheet format."
+            ],
+            "image_evidence": [
+                "M3_bench_4a7f919a.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {},
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_art_and_design_architecture_others_d52ecd6b",
+                    "insert_conversation_turn": 555
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_politics_government_transportation_ee010321",
+                    "insert_conversation_turn": 375,
+                    "reference_name": "Fig. dc45d4c9"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "function_call": [
+                {
+                    "function_name": "REDDIT_MCP_SERVER_search_hot_posts",
+                    "function_comment": "Retrieve hot posts from a subreddit using the Reddit API.\nArgs:\n  subreddit (str): Subreddit name without the r/ prefix.\n  limit (int): Number of posts to retrieve.\nReturns:\n  result (str): Plain-text list of posts with title, score, comments, author, and link, or an error message."
+                }
+            ],
+            "instruction": "For each food item identified in the image, first search for the hottest post related to that food on Reddit and extract the number of comments from the top post, ensuring each food is only searched once. Next, obtain a brief description of each food item from Wikipedia. Finally, create an Excel file with three columns: Food Name, Reddit Comment Count, and Wikipedia Description, and fill in the corresponding data for each food item, saving the file after entering the information.",
+            "workflow_description": "Food popularity and description spreadsheet\n\nFor each food item identified in the image, first search Reddit for the hottest post related to that food and extract the number of comments from the top result, making sure to perform only one search per unique food. Next, obtain a brief description of each food item from Wikipedia. After gathering this information, create an Excel spreadsheet with three columns: Food Name, Reddit Comment Count, and Wikipedia Description. Enter the collected data for each food item into the corresponding columns and save the file once all information has been recorded. This process ensures that both online popularity and descriptive information for each food are organized in a structured spreadsheet format.",
+            "topic": [
+                "food",
+                " technology"
+            ],
+            "original_question": "What are the most popular online discussions for each type of vegetable shown in this image?"
+        },
+        "original_reference_question": "Based on Fig. dc45d4c9, What are the most popular online discussions for each type of vegetable shown in this image?"
+    },
+    {
+        "id": "FC_sample_fe0a7130",
+        "domain": "M3_Bench",
+        "category": "Function_Call",
+        "question": "Based on Fig. 895fa6ef, What is the geographic location of the city shown in this image?",
+        "answer": [
+            {
+                "step": 1,
+                "calls": [
+                    {
+                        "name": "GOOGLE_MAPS_geocode",
+                        "arguments": {
+                            "address": "Paris, France"
+                        }
+                    }
+                ]
+            }
+        ],
+        "evidence": {
+            "text_evidence": [
+                "City air pollution heatmap generation\n\nTo generate an air pollution heatmap for a city identified from an image, first use a geocoding service to determine the geographic coordinates of the city. Once the coordinates are obtained, generate a static map centered on the city at an appropriate zoom level to serve as the base. Finally, retrieve and overlay a PM2.5 air quality heatmap tile using the US AQI index for the same area, allowing visualization of air pollution levels across the city. This workflow integrates mapping and air quality data to provide a clear visual representation of pollution distribution."
+            ],
+            "image_evidence": [
+                "M3_bench_fe0a7130.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {},
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_lifestyle_economy_television_844c9a75",
+                    "insert_conversation_turn": 179
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_art_and_design_architecture_others_d52ecd6b",
+                    "insert_conversation_turn": 985,
+                    "reference_name": "Fig. 895fa6ef"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "function_call": [
+                {
+                    "function_name": "GOOGLE_MAPS_geocode",
+                    "function_comment": "Forward geocode a human-readable address using Google Geocoding API.\nArgs:\n  address (str): Free-text address to geocode.\n  region (Optional[str]): Region bias such as \"us\".\n  language (Optional[str]): Response language code such as \"en\".\nReturns:\n  data (Dict[str, Any]): JSON with endpoint, request parameters, and API response."
+                }
+            ],
+            "instruction": "First, use the geocoding service to obtain the coordinates for the city identified from this image. Next, generate a static map centered on those coordinates with an appropriate zoom level. Finally, retrieve and overlay the PM2.5 air quality heatmap tile for the same area using the US AQI index.",
+            "workflow_description": "City air pollution heatmap generation\n\nTo generate an air pollution heatmap for a city identified from an image, first use a geocoding service to determine the geographic coordinates of the city. Once the coordinates are obtained, generate a static map centered on the city at an appropriate zoom level to serve as the base. Finally, retrieve and overlay a PM2.5 air quality heatmap tile using the US AQI index for the same area, allowing visualization of air pollution levels across the city. This workflow integrates mapping and air quality data to provide a clear visual representation of pollution distribution.",
+            "topic": [
+                "environment",
+                " technology"
+            ],
+            "original_question": "What is the geographic location of the city shown in this image?"
+        },
+        "original_reference_question": "Based on Fig. 895fa6ef, What is the geographic location of the city shown in this image?"
+    },
+    {
+        "id": "QA_sample_770d7542",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. bc9696fa, Which incentive approaches should a water company prioritize based on survey results exceeding the \"minimum interest threshold\" as defined in the text?",
+        "answer": "'Any incentive,' 'Pumping/allocation credits,' and 'Price reductions for recharge water'",
+        "evidence": {
+            "text_evidence": [
+                "A water company is planning to introduce new policies to encourage farmer participation in water conservation programs. Farmers are most likely to participate if incentives are compelling enough. The company considers prioritizing approaches that exceed a minimum interest threshold of 20 participants based on a recent survey."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_bb49f37a.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Surface water bill reductions",
+                "'Any incentive,' 'Pumping/allocation credits,' and 'Price reductions for recharge water'",
+                "Lease payments",
+                "Flood easements"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_art_and_design_architecture_others_d52ecd6b",
+                    "insert_conversation_turn": 922
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_lifestyle_economy_television_844c9a75",
+                    "insert_conversation_turn": 290,
+                    "reference_name": "Fig. bc9696fa"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "environment",
+                "business"
+            ],
+            "original_question": "Which incentive approaches should a water company prioritize based on survey results exceeding the \"minimum interest threshold\" as defined in the text?"
+        }
+    },
+    {
+        "id": "QA_sample_af78b60d",
+        "domain": "MLLMKC",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. 2402ff2e, What is the nationality of the person in the picture?",
+        "answer": "American",
+        "evidence": {
+            "text_evidence": [
+                "Jennifer Lopez was born on July 24, 1969. Jennifer Lopez is American. Jennifer Lopez is a singer, actress, and dancer."
+            ],
+            "image_evidence": [
+                "MLLMKC_c54368cb.jpg"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Jennifer Lopez was born on July 24, 1969. Jennifer Lopez is Canadian. Jennifer Lopez is a singer, actress, and dancer."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Panamanian",
+                "American",
+                "Canadian",
+                "Mexican"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_politics_government_transportation_ee010321",
+                    "insert_conversation_turn": 1035
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_art_and_design_architecture_others_d52ecd6b",
+                    "insert_conversation_turn": 1026,
+                    "reference_name": "Fig. 2402ff2e"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_lifestyle_economy_television_844c9a75",
+                    "insert_conversation_turn": 538
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "instance": "Jennifer Lopez",
+            "category": "people",
+            "error_type": "location_error",
+            "topic": [
+                "music",
+                " films",
+                " fashion",
+                " lifestyle"
+            ],
+            "original_question": "What is the nationality of the person in the picture?"
+        }
+    },
+    {
+        "id": "QA_sample_065e67b7",
+        "domain": "MLLMKC",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. 3e20f741, What are the main products of this brand?",
+        "answer": "digital music streaming service",
+        "evidence": {
+            "text_evidence": [
+                "Spotify was created in 2006. The creators of Spotify are Daniel Ek and Martin Lorentzon. Spotify is the brand of a digital music streaming service."
+            ],
+            "image_evidence": [
+                "MLLMKC_bdbb22f3.jpg"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Spotify was created in 2006. The creators of Spotify are Daniel Ek and Martin Lorentzon. Spotify is the brand of a digital book streaming service."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "digital book streaming service",
+                "gourmet coffee subscription service",
+                "digital music streaming service",
+                "organic tea subscription box"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_lifestyle_economy_television_844c9a75",
+                    "insert_conversation_turn": 939
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_art_and_design_architecture_others_d52ecd6b",
+                    "insert_conversation_turn": 656,
+                    "reference_name": "Fig. 3e20f741"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_politics_government_transportation_ee010321",
+                    "insert_conversation_turn": 487
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "instance": "Spotify",
+            "category": "logo",
+            "error_type": "content_error",
+            "topic": [
+                "music",
+                "technology"
+            ],
+            "original_question": "What are the main products of this brand?"
+        }
+    },
+    {
+        "id": "QA_sample_9be3f0cc",
+        "domain": "MLLMKC",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. c50bc3f9, What is the occupation of the person in the picture?",
+        "answer": "singer and songwriter",
+        "evidence": {
+            "text_evidence": [
+                "Justin Bieber was born on March 1, 1994. Justin Bieber is Canadian. Justin Bieber is a singer and songwriter."
+            ],
+            "image_evidence": [
+                "MLLMKC_16c28ad3.jpg"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Justin Bieber was born on March 1, 1994. Justin Bieber is Canadian. Justin Bieber is a chef and restaurateur."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "singer and songwriter",
+                "chef and restaurateur",
+                "professional athlete",
+                "botanist"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_lifestyle_economy_television_844c9a75",
+                    "insert_conversation_turn": 923
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_art_and_design_architecture_others_d52ecd6b",
+                    "insert_conversation_turn": 182,
+                    "reference_name": "Fig. c50bc3f9"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_politics_government_transportation_ee010321",
+                    "insert_conversation_turn": 531
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "instance": "Justin Bieber",
+            "category": "people",
+            "error_type": "Career_error",
+            "topic": [
+                "music"
+            ],
+            "original_question": "What is the occupation of the person in the picture?"
+        }
+    },
+    {
+        "id": "FC_sample_2b641f3e",
+        "domain": "M3_Bench",
+        "category": "Function_Call",
+        "question": "Based on Fig. bd795450, For each type of fruit visible in this image, find the most popular online discussion about it and note how many comments that discussion has received.",
+        "answer": [
+            {
+                "step": 1,
+                "calls": [
+                    {
+                        "name": "REDDIT_MCP_SERVER_search_hot_posts",
+                        "arguments": {
+                            "subreddit": "pineapple"
+                        }
+                    },
+                    {
+                        "name": "REDDIT_MCP_SERVER_search_hot_posts",
+                        "arguments": {
+                            "subreddit": "strawberry"
+                        }
+                    },
+                    {
+                        "name": "REDDIT_MCP_SERVER_search_hot_posts",
+                        "arguments": {
+                            "subreddit": "orange"
+                        }
+                    },
+                    {
+                        "name": "REDDIT_MCP_SERVER_search_hot_posts",
+                        "arguments": {
+                            "subreddit": "apple"
+                        }
+                    },
+                    {
+                        "name": "REDDIT_MCP_SERVER_search_hot_posts",
+                        "arguments": {
+                            "subreddit": "grape"
+                        }
+                    },
+                    {
+                        "name": "REDDIT_MCP_SERVER_search_hot_posts",
+                        "arguments": {
+                            "subreddit": "lemon"
+                        }
+                    },
+                    {
+                        "name": "REDDIT_MCP_SERVER_search_hot_posts",
+                        "arguments": {
+                            "subreddit": "Kiwifruit"
+                        }
+                    }
+                ]
+            }
+        ],
+        "evidence": {
+            "text_evidence": [
+                "Food popularity and description spreadsheet\n\nFor each food item identified in the image, first search Reddit for the hottest post related to that food and extract the number of comments from the top result, making sure to perform only one search per unique food. Next, obtain a brief description of each food item from Wikipedia. After gathering this information, create an Excel spreadsheet with three columns: Food Name, Reddit Comment Count, and Wikipedia Description. Enter the collected data for each food item into the corresponding columns and save the file once all information has been recorded. This process ensures that both online popularity and descriptive information for each food are organized in a structured spreadsheet format."
+            ],
+            "image_evidence": [
+                "M3_bench_2b641f3e.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {},
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_politics_government_transportation_ee010321",
+                    "insert_conversation_turn": 912
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_art_and_design_architecture_others_d52ecd6b",
+                    "insert_conversation_turn": 527,
+                    "reference_name": "Fig. bd795450"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "function_call": [
+                {
+                    "function_name": "REDDIT_MCP_SERVER_search_hot_posts",
+                    "function_comment": "Retrieve hot posts from a subreddit using the Reddit API.\nArgs:\n  subreddit (str): Subreddit name without the r/ prefix.\n  limit (int): Number of posts to retrieve.\nReturns:\n  result (str): Plain-text list of posts with title, score, comments, author, and link, or an error message."
+                }
+            ],
+            "instruction": "For each food item identified in the image, first search for the hottest post related to that food on Reddit and extract the number of comments from the top post, ensuring each food is only searched once. Next, obtain a brief description of each food from Wikipedia. Finally, create an Excel file with three columns: Food Name, Reddit Comment Count, and Wikipedia Description, and fill in the data for each food item accordingly, making sure to save the file after entering the information.",
+            "workflow_description": "Food popularity and description spreadsheet\n\nFor each food item identified in the image, first search Reddit for the hottest post related to that food and extract the number of comments from the top result, making sure to perform only one search per unique food. Next, obtain a brief description of each food item from Wikipedia. After gathering this information, create an Excel spreadsheet with three columns: Food Name, Reddit Comment Count, and Wikipedia Description. Enter the collected data for each food item into the corresponding columns and save the file once all information has been recorded. This process ensures that both online popularity and descriptive information for each food are organized in a structured spreadsheet format.",
+            "topic": [
+                "food"
+            ],
+            "original_question": "For each type of fruit visible in this image, find the most popular online discussion about it and note how many comments that discussion has received."
+        },
+        "original_reference_question": "Based on Fig. bd795450, For each type of fruit visible in this image, find the most popular online discussion about it and note how many comments that discussion has received."
+    },
+    {
+        "id": "FC_sample_aeb6b0b3",
+        "domain": "M3_Bench",
+        "category": "Function_Call",
+        "question": "Based on Fig. cada6c4b, What is the geographic location of the city shown in this image?",
+        "answer": [
+            {
+                "step": 1,
+                "calls": [
+                    {
+                        "name": "GOOGLE_MAPS_geocode",
+                        "arguments": {
+                            "address": "Sydney, Australia"
+                        }
+                    }
+                ]
+            }
+        ],
+        "evidence": {
+            "text_evidence": [
+                "City air pollution heatmap generation\n\nTo generate an air pollution heatmap for a city identified from an image, first use a geocoding service to determine the geographic coordinates of the city. Once the coordinates are obtained, generate a static map centered on the city at an appropriate zoom level to serve as the base. Finally, retrieve and overlay a PM2.5 air quality heatmap tile using the US AQI index for the same area, allowing visualization of air pollution levels across the city. This workflow integrates mapping and air quality data to provide a clear visual representation of pollution distribution."
+            ],
+            "image_evidence": [
+                "M3_bench_aeb6b0b3.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {},
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_art_and_design_architecture_others_d52ecd6b",
+                    "insert_conversation_turn": 19
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_politics_government_transportation_ee010321",
+                    "insert_conversation_turn": 102,
+                    "reference_name": "Fig. cada6c4b"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "function_call": [
+                {
+                    "function_name": "GOOGLE_MAPS_geocode",
+                    "function_comment": "Forward geocode a human-readable address using Google Geocoding API.\nArgs:\n  address (str): Free-text address to geocode.\n  region (Optional[str]): Region bias such as \"us\".\n  language (Optional[str]): Response language code such as \"en\".\nReturns:\n  data (Dict[str, Any]): JSON with endpoint, request parameters, and API response."
+                }
+            ],
+            "instruction": "First, use the geocoding service to obtain the geographic coordinates for the city identified from this image. Next, generate a static map centered on these coordinates with an appropriate zoom level. Finally, retrieve and overlay the PM2.5 air quality heatmap tile for the same area using the US AQI index.",
+            "workflow_description": "City air pollution heatmap generation\n\nTo generate an air pollution heatmap for a city identified from an image, first use a geocoding service to determine the geographic coordinates of the city. Once the coordinates are obtained, generate a static map centered on the city at an appropriate zoom level to serve as the base. Finally, retrieve and overlay a PM2.5 air quality heatmap tile using the US AQI index for the same area, allowing visualization of air pollution levels across the city. This workflow integrates mapping and air quality data to provide a clear visual representation of pollution distribution.",
+            "topic": [
+                "environment",
+                " technology"
+            ],
+            "original_question": "What is the geographic location of the city shown in this image?"
+        },
+        "original_reference_question": "Based on Fig. cada6c4b, What is the geographic location of the city shown in this image?"
+    },
+    {
+        "id": "QA_sample_d1479f89_1",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. ca5085b0, the image, what is Alexzander Pope most likely to be doing?",
+        "answer": "Watching sports documentaries",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Alexzander Pope enjoys sports documentaries, gaming tournaments, but dislikes theater performances, film festivals"
+            ],
+            "image_evidence": [
+                "MMPB_2d99653f.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Alexzander Pope enjoys mountain climbing, theme park visits, but dislikes sailing, paragliding",
+                "In terms of lifestyle, Alexzander Pope enjoys daily smoothies, outdoor workouts, but dislikes early morning jogs, massages",
+                "In terms of shopping, Alexzander Pope enjoys coffee brewing equipment, vintage vinyl records, but dislikes Bluetooth speakers, wireless charging stations",
+                "In terms of fashion, Alexzander Pope enjoys techwear, cyberpunk aesthetics, but dislikes winter coats, denim jeans."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Watching nature documentaries",
+                "Watching sports documentaries",
+                "Buying a smoothie",
+                "Streaming cooking shows"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_politics_government_transportation_ee010321",
+                    "insert_conversation_turn": 363
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_politics_government_transportation_ee010321",
+                    "insert_conversation_turn": 187,
+                    "reference_name": "Fig. ca5085b0"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_lifestyle_economy_television_844c9a75",
+                    "insert_conversation_turn": 317
+                },
+                {
+                    "conversation_name": "group_chat_politics_government_transportation_ee010321",
+                    "insert_conversation_turn": 286
+                },
+                {
+                    "conversation_name": "group_chat_art_and_design_architecture_others_d52ecd6b",
+                    "insert_conversation_turn": 238
+                },
+                {
+                    "conversation_name": "group_chat_lifestyle_economy_television_844c9a75",
+                    "insert_conversation_turn": 793
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "ziqiao",
+            "description": "ziqiao is a young adult male with a lean build and an average height impression. His facial structure is well-defined, featuring a prominent jawline and a slightly pointed chin. ziqiao has a fair skin tone and dark, neatly styled hair that is often slicked back, giving him a polished look. His eyebrows are thick and well-groomed, adding to his expressive features. ziqiao frequently appears with a neutral or slightly serious expression, though he can also be seen smiling in some images. His poses are generally relaxed and confident, with a tendency to stand or sit with a straight posture.\n\n**Outfit and Accessories:**\nziqiao's attire is diverse, ranging from formal to casual, reflecting different contexts and moods. In formal settings, he is often seen in a dark green double-breasted suit with a white shirt and a blue tie, exuding professionalism. In more relaxed settings, he wears a navy blue pinstripe suit jacket over a white shirt, suggesting a blend of formality and approachability. ziqiao also appears in a patterned jacket with a white shirt, adding a touch of individuality to his style. In a playful context, he dons a white onesie with black spots and a cow-like hood, showcasing a whimsical side. His outfits are characterized by a mix of classic and contemporary styles, with a preference for sharp tailoring and a color palette that includes dark, rich tones. The outfits are practical yet stylish, with a focus on quality materials and a polished finish.\n\n**Distinguishing Visual Features or Vibe:**\nziqiao's most memorable feature is his versatility in style, seamlessly transitioning between formal and casual looks. His dark green suit and navy blue pinstripe jacket are signature pieces that convey a sense of sophistication and confidence. The playful cow onesie adds a touch of humor and lightheartedness to his persona. ziqiao's overall vibe is one of polished professionalism with a hint of playfulness, making him visually unmistakable. His consistent grooming and well-defined facial features contribute to a polished and approachable appearance, while his varied wardrobe choices highlight his adaptability and individuality.",
+            "preference": "In terms of entertainment, ziqiao enjoys sports documentaries, gaming tournaments, but dislikes theater performances, film festivals. In terms of travel, ziqiao enjoys mountain climbing, theme park visits, but dislikes sailing, paragliding. In terms of lifestyle, ziqiao enjoys daily smoothies, outdoor workouts, but dislikes early morning jogs, massages. In terms of shopping, ziqiao enjoys coffee brewing equipment, vintage vinyl records, but dislikes Bluetooth speakers, wireless charging stations. In terms of fashion, ziqiao enjoys techwear, cyberpunk aesthetics, but dislikes winter coats, denim jeans.",
+            "topic": [],
+            "original_id": "QA_sample_d1479f89",
+            "original_question": "the image, what is Alexzander Pope most likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_d1479f89_2",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. d244ce35, Among the activities that could reasonably occur in the given image, which one is Alexzander Pope least likely to be doing?",
+        "answer": "Watching film festivals",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Alexzander Pope enjoys sports documentaries, gaming tournaments, but dislikes theater performances, film festivals"
+            ],
+            "image_evidence": [
+                "MMPB_28b712ad.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Alexzander Pope enjoys mountain climbing, theme park visits, but dislikes sailing, paragliding",
+                "In terms of lifestyle, Alexzander Pope enjoys daily smoothies, outdoor workouts, but dislikes early morning jogs, massages",
+                "In terms of shopping, Alexzander Pope enjoys coffee brewing equipment, vintage vinyl records, but dislikes Bluetooth speakers, wireless charging stations",
+                "In terms of fashion, Alexzander Pope enjoys techwear, cyberpunk aesthetics, but dislikes winter coats, denim jeans."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "Streaming music festivals",
+                "Shopping for coffee brewing equipment",
+                "Attending live concerts",
+                "Watching film festivals"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_politics_government_transportation_ee010321",
+                    "insert_conversation_turn": 363
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_politics_government_transportation_ee010321",
+                    "insert_conversation_turn": 111,
+                    "reference_name": "Fig. d244ce35"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_lifestyle_economy_television_844c9a75",
+                    "insert_conversation_turn": 317
+                },
+                {
+                    "conversation_name": "group_chat_politics_government_transportation_ee010321",
+                    "insert_conversation_turn": 286
+                },
+                {
+                    "conversation_name": "group_chat_art_and_design_architecture_others_d52ecd6b",
+                    "insert_conversation_turn": 238
+                },
+                {
+                    "conversation_name": "group_chat_lifestyle_economy_television_844c9a75",
+                    "insert_conversation_turn": 793
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "ziqiao",
+            "description": "ziqiao is a young adult male with a lean build and an average height impression. His facial structure is well-defined, featuring a prominent jawline and a slightly pointed chin. ziqiao has a fair skin tone and dark, neatly styled hair that is often slicked back, giving him a polished look. His eyebrows are thick and well-groomed, adding to his expressive features. ziqiao frequently appears with a neutral or slightly serious expression, though he can also be seen smiling in some images. His poses are generally relaxed and confident, with a tendency to stand or sit with a straight posture.\n\n**Outfit and Accessories:**\nziqiao's attire is diverse, ranging from formal to casual, reflecting different contexts and moods. In formal settings, he is often seen in a dark green double-breasted suit with a white shirt and a blue tie, exuding professionalism. In more relaxed settings, he wears a navy blue pinstripe suit jacket over a white shirt, suggesting a blend of formality and approachability. ziqiao also appears in a patterned jacket with a white shirt, adding a touch of individuality to his style. In a playful context, he dons a white onesie with black spots and a cow-like hood, showcasing a whimsical side. His outfits are characterized by a mix of classic and contemporary styles, with a preference for sharp tailoring and a color palette that includes dark, rich tones. The outfits are practical yet stylish, with a focus on quality materials and a polished finish.\n\n**Distinguishing Visual Features or Vibe:**\nziqiao's most memorable feature is his versatility in style, seamlessly transitioning between formal and casual looks. His dark green suit and navy blue pinstripe jacket are signature pieces that convey a sense of sophistication and confidence. The playful cow onesie adds a touch of humor and lightheartedness to his persona. ziqiao's overall vibe is one of polished professionalism with a hint of playfulness, making him visually unmistakable. His consistent grooming and well-defined facial features contribute to a polished and approachable appearance, while his varied wardrobe choices highlight his adaptability and individuality.",
+            "preference": "In terms of entertainment, ziqiao enjoys sports documentaries, gaming tournaments, but dislikes theater performances, film festivals. In terms of travel, ziqiao enjoys mountain climbing, theme park visits, but dislikes sailing, paragliding. In terms of lifestyle, ziqiao enjoys daily smoothies, outdoor workouts, but dislikes early morning jogs, massages. In terms of shopping, ziqiao enjoys coffee brewing equipment, vintage vinyl records, but dislikes Bluetooth speakers, wireless charging stations. In terms of fashion, ziqiao enjoys techwear, cyberpunk aesthetics, but dislikes winter coats, denim jeans.",
+            "topic": [],
+            "original_id": "QA_sample_d1479f89",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Alexzander Pope least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_d1479f89_3",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 736b6b86, Among the activities that could reasonably occur in the given image, which one is Alexzander Pope least likely to be doing?",
+        "answer": "Watching a theater performance",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Alexzander Pope enjoys sports documentaries, gaming tournaments, but dislikes theater performances, film festivals"
+            ],
+            "image_evidence": [
+                "MMPB_55f9b482.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Alexzander Pope enjoys mountain climbing, theme park visits, but dislikes sailing, paragliding",
+                "In terms of lifestyle, Alexzander Pope enjoys daily smoothies, outdoor workouts, but dislikes early morning jogs, massages",
+                "In terms of shopping, Alexzander Pope enjoys coffee brewing equipment, vintage vinyl records, but dislikes Bluetooth speakers, wireless charging stations",
+                "In terms of fashion, Alexzander Pope enjoys techwear, cyberpunk aesthetics, but dislikes winter coats, denim jeans."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Watching a theater performance",
+                "Sailing",
+                "Attending a live K-pop concert",
+                "Observing a magic performance"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_politics_government_transportation_ee010321",
+                    "insert_conversation_turn": 363
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_art_and_design_architecture_others_d52ecd6b",
+                    "insert_conversation_turn": 811,
+                    "reference_name": "Fig. 736b6b86"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_lifestyle_economy_television_844c9a75",
+                    "insert_conversation_turn": 317
+                },
+                {
+                    "conversation_name": "group_chat_politics_government_transportation_ee010321",
+                    "insert_conversation_turn": 286
+                },
+                {
+                    "conversation_name": "group_chat_art_and_design_architecture_others_d52ecd6b",
+                    "insert_conversation_turn": 238
+                },
+                {
+                    "conversation_name": "group_chat_lifestyle_economy_television_844c9a75",
+                    "insert_conversation_turn": 793
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "ziqiao",
+            "description": "ziqiao is a young adult male with a lean build and an average height impression. His facial structure is well-defined, featuring a prominent jawline and a slightly pointed chin. ziqiao has a fair skin tone and dark, neatly styled hair that is often slicked back, giving him a polished look. His eyebrows are thick and well-groomed, adding to his expressive features. ziqiao frequently appears with a neutral or slightly serious expression, though he can also be seen smiling in some images. His poses are generally relaxed and confident, with a tendency to stand or sit with a straight posture.\n\n**Outfit and Accessories:**\nziqiao's attire is diverse, ranging from formal to casual, reflecting different contexts and moods. In formal settings, he is often seen in a dark green double-breasted suit with a white shirt and a blue tie, exuding professionalism. In more relaxed settings, he wears a navy blue pinstripe suit jacket over a white shirt, suggesting a blend of formality and approachability. ziqiao also appears in a patterned jacket with a white shirt, adding a touch of individuality to his style. In a playful context, he dons a white onesie with black spots and a cow-like hood, showcasing a whimsical side. His outfits are characterized by a mix of classic and contemporary styles, with a preference for sharp tailoring and a color palette that includes dark, rich tones. The outfits are practical yet stylish, with a focus on quality materials and a polished finish.\n\n**Distinguishing Visual Features or Vibe:**\nziqiao's most memorable feature is his versatility in style, seamlessly transitioning between formal and casual looks. His dark green suit and navy blue pinstripe jacket are signature pieces that convey a sense of sophistication and confidence. The playful cow onesie adds a touch of humor and lightheartedness to his persona. ziqiao's overall vibe is one of polished professionalism with a hint of playfulness, making him visually unmistakable. His consistent grooming and well-defined facial features contribute to a polished and approachable appearance, while his varied wardrobe choices highlight his adaptability and individuality.",
+            "preference": "In terms of entertainment, ziqiao enjoys sports documentaries, gaming tournaments, but dislikes theater performances, film festivals. In terms of travel, ziqiao enjoys mountain climbing, theme park visits, but dislikes sailing, paragliding. In terms of lifestyle, ziqiao enjoys daily smoothies, outdoor workouts, but dislikes early morning jogs, massages. In terms of shopping, ziqiao enjoys coffee brewing equipment, vintage vinyl records, but dislikes Bluetooth speakers, wireless charging stations. In terms of fashion, ziqiao enjoys techwear, cyberpunk aesthetics, but dislikes winter coats, denim jeans.",
+            "topic": [],
+            "original_id": "QA_sample_d1479f89",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Alexzander Pope least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_368078b3_1",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 97cd5737, Among the activities that could reasonably occur in the given image, which one is Drake Ashley least likely to be doing?",
+        "answer": "Watching cooking shows",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Drake Ashley enjoys horror movies, sitcoms, but dislikes cooking shows, travel vlogs",
+                "In terms of travel, Drake Ashley enjoys trains, flying business class, but dislikes skiing, desert trekking"
+            ],
+            "image_evidence": [
+                "MMPB_81ebaeeb.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of lifestyle, Drake Ashley enjoys forest bathing, holistic therapy, but dislikes protein-rich diet, weightlifting",
+                "In terms of shopping, Drake Ashley enjoys second-hand books, indie brands, but dislikes gaming accessories, tech gadgets",
+                "In terms of fashion, Drake Ashley enjoys chunky boots, strappy sandals, but dislikes hand-knitted sweaters, silk scarves."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Watching cooking shows",
+                "Watching action movies",
+                "Streaming thriller series",
+                "Skiing"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_art_and_design_architecture_others_d52ecd6b",
+                    "insert_conversation_turn": 1156
+                },
+                {
+                    "conversation_name": "group_chat_art_and_design_architecture_others_d52ecd6b",
+                    "insert_conversation_turn": 498
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_politics_government_transportation_ee010321",
+                    "insert_conversation_turn": 172,
+                    "reference_name": "Fig. 97cd5737"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_art_and_design_architecture_others_d52ecd6b",
+                    "insert_conversation_turn": 1199
+                },
+                {
+                    "conversation_name": "group_chat_politics_government_transportation_ee010321",
+                    "insert_conversation_turn": 348
+                },
+                {
+                    "conversation_name": "group_chat_politics_government_transportation_ee010321",
+                    "insert_conversation_turn": 760
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "ShanYin",
+            "description": "ShanYin is depicted as a young adult with a slender build and an average height impression. Their facial structure is characterized by a well-defined jawline and a slightly pointed chin, with a medium skin tone. The individual's hair is dark and styled in a casual, slightly tousled manner, often falling just above the shoulders. Across the images, ShanYin exhibits a range of expressions, from contemplative and serious to surprised and relaxed, suggesting a versatile emotional range. The eyebrows are thick and expressive, adding to the dynamic nature of their facial expressions. The individual's eyes are often the focal point, conveying a sense of intensity and thoughtfulness.\n\n**Outfit and Accessories:** ShanYin is shown wearing a variety of outfits that reflect a mix of casual and slightly formal styles. In one image, they are seen in a dark plaid jacket with a red scarf, suggesting a practical and cozy look. Another image features a black sweater, which appears comfortable and casual. A patterned sweater with a geometric design adds a touch of whimsy and warmth. The individual is also seen in a blue and beige jacket, suitable for a beach setting, indicating a preference for functional yet stylish clothing. Accessories are minimal but significant, such as a yellow armband in one image, which adds a pop of color and could suggest a role or activity. The use of a transparent bag with a floral pattern in another image adds a personal touch, hinting at a practical yet thoughtful approach to accessories.\n\n**Distinguishing Visual Features or Vibe:** ShanYin exudes a unique and memorable presence through their consistent dark hair and expressive eyes, which are central to their visual identity. The individual's ability to convey a range of emotions through their facial expressions adds depth to their character. The recurring theme of practical yet stylish clothing, combined with subtle accessories, suggests a thoughtful and adaptable personality. The mix of casual and slightly formal attire, along with the occasional pop of color, creates a visually engaging and dynamic persona. The beach setting in one image, with ShanYin making a fist, adds a sense of energy and determination, further enhancing their distinctive vibe. Overall, ShanYin is visually unmistakable due to their expressive face, versatile style, and the thoughtful combination of clothing and accessories.",
+            "preference": "In terms of entertainment, ShanYin enjoys horror movies, sitcoms, but dislikes cooking shows, travel vlogs. In terms of travel, ShanYin enjoys trains, flying business class, but dislikes skiing, desert trekking. In terms of lifestyle, ShanYin enjoys forest bathing, holistic therapy, but dislikes protein-rich diet, weightlifting. In terms of shopping, ShanYin enjoys second-hand books, indie brands, but dislikes gaming accessories, tech gadgets. In terms of fashion, ShanYin enjoys chunky boots, strappy sandals, but dislikes hand-knitted sweaters, silk scarves.",
+            "topic": [],
+            "original_id": "QA_sample_368078b3",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Drake Ashley least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_368078b3_2",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. d4a89eb0, Among the activities that could reasonably occur in the given image, which one is Drake Ashley least likely to be doing?",
+        "answer": "Watching travel vlogs",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Drake Ashley enjoys horror movies, sitcoms, but dislikes cooking shows, travel vlogs",
+                "In terms of travel, Drake Ashley enjoys trains, flying business class, but dislikes skiing, desert trekking"
+            ],
+            "image_evidence": [
+                "MMPB_2d99653f.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of lifestyle, Drake Ashley enjoys forest bathing, holistic therapy, but dislikes protein-rich diet, weightlifting",
+                "In terms of shopping, Drake Ashley enjoys second-hand books, indie brands, but dislikes gaming accessories, tech gadgets",
+                "In terms of fashion, Drake Ashley enjoys chunky boots, strappy sandals, but dislikes hand-knitted sweaters, silk scarves."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Watching travel vlogs",
+                "Watching musicals",
+                "Weightlifting",
+                "Watching sports highlights"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_art_and_design_architecture_others_d52ecd6b",
+                    "insert_conversation_turn": 1156
+                },
+                {
+                    "conversation_name": "group_chat_art_and_design_architecture_others_d52ecd6b",
+                    "insert_conversation_turn": 498
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_politics_government_transportation_ee010321",
+                    "insert_conversation_turn": 187,
+                    "reference_name": "Fig. d4a89eb0"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_art_and_design_architecture_others_d52ecd6b",
+                    "insert_conversation_turn": 1199
+                },
+                {
+                    "conversation_name": "group_chat_politics_government_transportation_ee010321",
+                    "insert_conversation_turn": 348
+                },
+                {
+                    "conversation_name": "group_chat_politics_government_transportation_ee010321",
+                    "insert_conversation_turn": 760
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "ShanYin",
+            "description": "ShanYin is depicted as a young adult with a slender build and an average height impression. Their facial structure is characterized by a well-defined jawline and a slightly pointed chin, with a medium skin tone. The individual's hair is dark and styled in a casual, slightly tousled manner, often falling just above the shoulders. Across the images, ShanYin exhibits a range of expressions, from contemplative and serious to surprised and relaxed, suggesting a versatile emotional range. The eyebrows are thick and expressive, adding to the dynamic nature of their facial expressions. The individual's eyes are often the focal point, conveying a sense of intensity and thoughtfulness.\n\n**Outfit and Accessories:** ShanYin is shown wearing a variety of outfits that reflect a mix of casual and slightly formal styles. In one image, they are seen in a dark plaid jacket with a red scarf, suggesting a practical and cozy look. Another image features a black sweater, which appears comfortable and casual. A patterned sweater with a geometric design adds a touch of whimsy and warmth. The individual is also seen in a blue and beige jacket, suitable for a beach setting, indicating a preference for functional yet stylish clothing. Accessories are minimal but significant, such as a yellow armband in one image, which adds a pop of color and could suggest a role or activity. The use of a transparent bag with a floral pattern in another image adds a personal touch, hinting at a practical yet thoughtful approach to accessories.\n\n**Distinguishing Visual Features or Vibe:** ShanYin exudes a unique and memorable presence through their consistent dark hair and expressive eyes, which are central to their visual identity. The individual's ability to convey a range of emotions through their facial expressions adds depth to their character. The recurring theme of practical yet stylish clothing, combined with subtle accessories, suggests a thoughtful and adaptable personality. The mix of casual and slightly formal attire, along with the occasional pop of color, creates a visually engaging and dynamic persona. The beach setting in one image, with ShanYin making a fist, adds a sense of energy and determination, further enhancing their distinctive vibe. Overall, ShanYin is visually unmistakable due to their expressive face, versatile style, and the thoughtful combination of clothing and accessories.",
+            "preference": "In terms of entertainment, ShanYin enjoys horror movies, sitcoms, but dislikes cooking shows, travel vlogs. In terms of travel, ShanYin enjoys trains, flying business class, but dislikes skiing, desert trekking. In terms of lifestyle, ShanYin enjoys forest bathing, holistic therapy, but dislikes protein-rich diet, weightlifting. In terms of shopping, ShanYin enjoys second-hand books, indie brands, but dislikes gaming accessories, tech gadgets. In terms of fashion, ShanYin enjoys chunky boots, strappy sandals, but dislikes hand-knitted sweaters, silk scarves.",
+            "topic": [],
+            "original_id": "QA_sample_368078b3",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Drake Ashley least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_368078b3_3",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. cbf6f88f, Among the activities that could reasonably occur in the given image, which one is Drake Ashley least likely to be doing?",
+        "answer": "Watching cooking survival shows",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Drake Ashley enjoys horror movies, sitcoms, but dislikes cooking shows, travel vlogs",
+                "In terms of travel, Drake Ashley enjoys trains, flying business class, but dislikes skiing, desert trekking"
+            ],
+            "image_evidence": [
+                "MMPB_6f052249.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of lifestyle, Drake Ashley enjoys forest bathing, holistic therapy, but dislikes protein-rich diet, weightlifting",
+                "In terms of shopping, Drake Ashley enjoys second-hand books, indie brands, but dislikes gaming accessories, tech gadgets",
+                "In terms of fashion, Drake Ashley enjoys chunky boots, strappy sandals, but dislikes hand-knitted sweaters, silk scarves."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Watching musicals",
+                "Watching cooking survival shows",
+                "Watching sports highlights",
+                "Looking for tech gadgets"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_art_and_design_architecture_others_d52ecd6b",
+                    "insert_conversation_turn": 1156
+                },
+                {
+                    "conversation_name": "group_chat_art_and_design_architecture_others_d52ecd6b",
+                    "insert_conversation_turn": 498
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_lifestyle_economy_television_844c9a75",
+                    "insert_conversation_turn": 520,
+                    "reference_name": "Fig. cbf6f88f"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_art_and_design_architecture_others_d52ecd6b",
+                    "insert_conversation_turn": 1199
+                },
+                {
+                    "conversation_name": "group_chat_politics_government_transportation_ee010321",
+                    "insert_conversation_turn": 348
+                },
+                {
+                    "conversation_name": "group_chat_politics_government_transportation_ee010321",
+                    "insert_conversation_turn": 760
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "ShanYin",
+            "description": "ShanYin is depicted as a young adult with a slender build and an average height impression. Their facial structure is characterized by a well-defined jawline and a slightly pointed chin, with a medium skin tone. The individual's hair is dark and styled in a casual, slightly tousled manner, often falling just above the shoulders. Across the images, ShanYin exhibits a range of expressions, from contemplative and serious to surprised and relaxed, suggesting a versatile emotional range. The eyebrows are thick and expressive, adding to the dynamic nature of their facial expressions. The individual's eyes are often the focal point, conveying a sense of intensity and thoughtfulness.\n\n**Outfit and Accessories:** ShanYin is shown wearing a variety of outfits that reflect a mix of casual and slightly formal styles. In one image, they are seen in a dark plaid jacket with a red scarf, suggesting a practical and cozy look. Another image features a black sweater, which appears comfortable and casual. A patterned sweater with a geometric design adds a touch of whimsy and warmth. The individual is also seen in a blue and beige jacket, suitable for a beach setting, indicating a preference for functional yet stylish clothing. Accessories are minimal but significant, such as a yellow armband in one image, which adds a pop of color and could suggest a role or activity. The use of a transparent bag with a floral pattern in another image adds a personal touch, hinting at a practical yet thoughtful approach to accessories.\n\n**Distinguishing Visual Features or Vibe:** ShanYin exudes a unique and memorable presence through their consistent dark hair and expressive eyes, which are central to their visual identity. The individual's ability to convey a range of emotions through their facial expressions adds depth to their character. The recurring theme of practical yet stylish clothing, combined with subtle accessories, suggests a thoughtful and adaptable personality. The mix of casual and slightly formal attire, along with the occasional pop of color, creates a visually engaging and dynamic persona. The beach setting in one image, with ShanYin making a fist, adds a sense of energy and determination, further enhancing their distinctive vibe. Overall, ShanYin is visually unmistakable due to their expressive face, versatile style, and the thoughtful combination of clothing and accessories.",
+            "preference": "In terms of entertainment, ShanYin enjoys horror movies, sitcoms, but dislikes cooking shows, travel vlogs. In terms of travel, ShanYin enjoys trains, flying business class, but dislikes skiing, desert trekking. In terms of lifestyle, ShanYin enjoys forest bathing, holistic therapy, but dislikes protein-rich diet, weightlifting. In terms of shopping, ShanYin enjoys second-hand books, indie brands, but dislikes gaming accessories, tech gadgets. In terms of fashion, ShanYin enjoys chunky boots, strappy sandals, but dislikes hand-knitted sweaters, silk scarves.",
+            "topic": [],
+            "original_id": "QA_sample_368078b3",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Drake Ashley least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_6bf01c95_2",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. db275e94, the image, what is Danna Rollins most likely to be doing?",
+        "answer": "Watching theater performances",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Danna Rollins enjoys theater performances, film festivals, but dislikes classical concerts, art exhibitions"
+            ],
+            "image_evidence": [
+                "MMPB_9ab3a64b.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Danna Rollins enjoys motorbiking trips, rafting, but dislikes backcountry camping, ice fishing",
+                "In terms of lifestyle, Danna Rollins enjoys hot yoga, pilates, but dislikes daily smoothies, outdoor workouts",
+                "In terms of shopping, Danna Rollins enjoys second-hand books, indie brands, but dislikes coffee brewing equipment, vintage vinyl records",
+                "In terms of fashion, Danna Rollins enjoys handmade accessories, bold colors, but dislikes leather jackets, comfortable shoes."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Watching theater performances",
+                "Attending concerts and shows",
+                "Doing pilates",
+                "Observing live performances"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_politics_government_transportation_ee010321",
+                    "insert_conversation_turn": 334
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_art_and_design_architecture_others_d52ecd6b",
+                    "insert_conversation_turn": 692,
+                    "reference_name": "Fig. db275e94"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_politics_government_transportation_ee010321",
+                    "insert_conversation_turn": 920
+                },
+                {
+                    "conversation_name": "group_chat_art_and_design_architecture_others_d52ecd6b",
+                    "insert_conversation_turn": 116
+                },
+                {
+                    "conversation_name": "group_chat_art_and_design_architecture_others_d52ecd6b",
+                    "insert_conversation_turn": 738
+                },
+                {
+                    "conversation_name": "group_chat_lifestyle_economy_television_844c9a75",
+                    "insert_conversation_turn": 432
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Liang",
+            "description": "Liang is a middle-aged man with a distinguished appearance, characterized by a well-groomed, dark hairstyle that is neatly combed back. His facial structure is prominent, with a strong jawline and a slightly furrowed brow, suggesting a serious or contemplative demeanor. Liang's skin tone is fair, and he often wears glasses with thin, rectangular frames, which add to his intellectual and professional look. His expressions range from serious and focused to a more relaxed, smiling demeanor, indicating a versatile personality. Liang's height is not explicitly mentioned, but his posture and attire suggest a confident and commanding presence.\n\n**Outfit and Accessories:**\nLiang is consistently seen in formal attire, primarily wearing suits in shades of gray and black, which convey a sense of professionalism and sophistication. His outfits are complemented by patterned ties and dress shirts, adding a touch of personality to his otherwise classic look. The suits appear to be well-tailored, emphasizing his refined taste. Liang often wears a watch and a ring, which are subtle yet significant accessories that enhance his polished appearance. The overall style of his clothing is formal and business-oriented, with a touch of flair that suggests a blend of traditional and modern fashion sensibilities.\n\n**Distinguishing Visual Features or Vibe:**\nThe most memorable feature of Liang is his glasses, which serve as a signature element of his look. The thin, rectangular frames are a recurring visual motif that adds to his intellectual and authoritative aura. Liang's confident posture and serious expressions, combined with his formal attire, convey a sense of authority and professionalism. In one of the images, he is seen in a celebratory setting with confetti, suggesting a more relaxed and joyful side to his personality. The consistent use of formal attire and the occasional celebratory context create a dynamic and multifaceted image of Liang, making him visually unmistakable and memorable.",
+            "preference": "In terms of entertainment, Liang enjoys theater performances, film festivals, but dislikes classical concerts, art exhibitions. In terms of travel, Liang enjoys motorbiking trips, rafting, but dislikes backcountry camping, ice fishing. In terms of lifestyle, Liang enjoys hot yoga, pilates, but dislikes daily smoothies, outdoor workouts. In terms of shopping, Liang enjoys second-hand books, indie brands, but dislikes coffee brewing equipment, vintage vinyl records. In terms of fashion, Liang enjoys handmade accessories, bold colors, but dislikes leather jackets, comfortable shoes.",
+            "topic": [],
+            "original_id": "QA_sample_6bf01c95",
+            "original_question": "the image, what is Danna Rollins most likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_9daa6aaf_1",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 499c225b, Among the activities that could reasonably occur in the given image, which one is Briley Hanson least likely to be doing?",
+        "answer": "Watching sports TV",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Briley Hanson enjoys science fiction movies, animated films, but dislikes sports TV, romantic dramas"
+            ],
+            "image_evidence": [
+                "MMPB_81ebaeeb.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Briley Hanson enjoys cycling, camping, but dislikes vineyard visits, underground city tours",
+                "In terms of lifestyle, Briley Hanson enjoys plant-based diet, home cooking, but dislikes bullet journaling, reading before bed",
+                "In terms of shopping, Briley Hanson enjoys Bluetooth speakers, wireless charging stations, but dislikes gaming accessories, wearable tech gadgets",
+                "In terms of fashion, Briley Hanson enjoys vintage style, formal suits, but dislikes denim jackets, wide-leg trousers."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "Watching movie marathon",
+                "Buying tech gadgets",
+                "Watching sports TV",
+                "Streaming comedy specials"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_art_and_design_architecture_others_d52ecd6b",
+                    "insert_conversation_turn": 1127
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_politics_government_transportation_ee010321",
+                    "insert_conversation_turn": 172,
+                    "reference_name": "Fig. 499c225b"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_politics_government_transportation_ee010321",
+                    "insert_conversation_turn": 202
+                },
+                {
+                    "conversation_name": "group_chat_lifestyle_economy_television_844c9a75",
+                    "insert_conversation_turn": 882
+                },
+                {
+                    "conversation_name": "group_chat_art_and_design_architecture_others_d52ecd6b",
+                    "insert_conversation_turn": 724
+                },
+                {
+                    "conversation_name": "group_chat_lifestyle_economy_television_844c9a75",
+                    "insert_conversation_turn": 704
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Xing",
+            "description": "Xing is a young individual with a slender build and a youthful appearance. Their facial structure is characterized by a slightly rounded face with a prominent jawline and expressive eyes. The skin tone is fair, and their hair is short and styled in a spiky manner, adding a dynamic and energetic vibe. Throughout the images, Xing displays a range of facial expressions, from smiling and animated to more neutral and contemplative, suggesting a lively and engaging personality. The eyebrows are well-defined, and the overall impression is one of a vibrant and expressive young person.\n\n**Outfit and Accessories:**\nXing is seen wearing a variety of outfits that reflect a casual and youthful style. In one image, they are dressed in a red shirt with a blue collar, adding a pop of color to their appearance. Another outfit features a shiny silver jacket, which gives a modern and slightly futuristic look. Additionally, Xing is seen in a beige top with a blue plaid collar, adding a touch of classic style. The clothing appears comfortable and practical, suitable for everyday wear. There are no visible accessories, but the outfits themselves are the defining elements, showcasing a mix of casual and slightly edgy styles.\n\n**Distinguishing Visual Features or Vibe:**\nThe most memorable feature of Xing is their expressive face and animated gestures, which convey a sense of enthusiasm and energy. The spiky hairstyle is a signature element that adds to their dynamic appearance. The consistent use of bright colors, such as red and blue, in their outfits creates a vibrant and lively visual theme. The overall vibe is one of youthful exuberance and confidence, with Xing exuding a sense of playfulness and engagement. The combination of their expressive face, spiky hair, and colorful outfits makes Xing visually unmistakable and memorable.",
+            "preference": "In terms of entertainment, Xing enjoys science fiction movies, animated films, but dislikes sports TV, romantic dramas. In terms of travel, Xing enjoys cycling, camping, but dislikes vineyard visits, underground city tours. In terms of lifestyle, Xing enjoys plant-based diet, home cooking, but dislikes bullet journaling, reading before bed. In terms of shopping, Xing enjoys Bluetooth speakers, wireless charging stations, but dislikes gaming accessories, wearable tech gadgets. In terms of fashion, Xing enjoys vintage style, formal suits, but dislikes denim jackets, wide-leg trousers.",
+            "topic": [],
+            "original_id": "QA_sample_9daa6aaf",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Briley Hanson least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_9daa6aaf_2",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. a5cbea04, Among the activities that could reasonably occur in the given image, which one is Briley Hanson least likely to be doing?",
+        "answer": "Watching romantic dramas",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Briley Hanson enjoys science fiction movies, animated films, but dislikes sports TV, romantic dramas"
+            ],
+            "image_evidence": [
+                "MMPB_2d99653f.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Briley Hanson enjoys cycling, camping, but dislikes vineyard visits, underground city tours",
+                "In terms of lifestyle, Briley Hanson enjoys plant-based diet, home cooking, but dislikes bullet journaling, reading before bed",
+                "In terms of shopping, Briley Hanson enjoys Bluetooth speakers, wireless charging stations, but dislikes gaming accessories, wearable tech gadgets",
+                "In terms of fashion, Briley Hanson enjoys vintage style, formal suits, but dislikes denim jackets, wide-leg trousers."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "Reading books before bed",
+                "Watching action-packed thrillers",
+                "Watching romantic dramas",
+                "Watching adventure-filled documentaries"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_art_and_design_architecture_others_d52ecd6b",
+                    "insert_conversation_turn": 1127
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_politics_government_transportation_ee010321",
+                    "insert_conversation_turn": 187,
+                    "reference_name": "Fig. a5cbea04"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_politics_government_transportation_ee010321",
+                    "insert_conversation_turn": 202
+                },
+                {
+                    "conversation_name": "group_chat_lifestyle_economy_television_844c9a75",
+                    "insert_conversation_turn": 882
+                },
+                {
+                    "conversation_name": "group_chat_art_and_design_architecture_others_d52ecd6b",
+                    "insert_conversation_turn": 724
+                },
+                {
+                    "conversation_name": "group_chat_lifestyle_economy_television_844c9a75",
+                    "insert_conversation_turn": 704
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Xing",
+            "description": "Xing is a young individual with a slender build and a youthful appearance. Their facial structure is characterized by a slightly rounded face with a prominent jawline and expressive eyes. The skin tone is fair, and their hair is short and styled in a spiky manner, adding a dynamic and energetic vibe. Throughout the images, Xing displays a range of facial expressions, from smiling and animated to more neutral and contemplative, suggesting a lively and engaging personality. The eyebrows are well-defined, and the overall impression is one of a vibrant and expressive young person.\n\n**Outfit and Accessories:**\nXing is seen wearing a variety of outfits that reflect a casual and youthful style. In one image, they are dressed in a red shirt with a blue collar, adding a pop of color to their appearance. Another outfit features a shiny silver jacket, which gives a modern and slightly futuristic look. Additionally, Xing is seen in a beige top with a blue plaid collar, adding a touch of classic style. The clothing appears comfortable and practical, suitable for everyday wear. There are no visible accessories, but the outfits themselves are the defining elements, showcasing a mix of casual and slightly edgy styles.\n\n**Distinguishing Visual Features or Vibe:**\nThe most memorable feature of Xing is their expressive face and animated gestures, which convey a sense of enthusiasm and energy. The spiky hairstyle is a signature element that adds to their dynamic appearance. The consistent use of bright colors, such as red and blue, in their outfits creates a vibrant and lively visual theme. The overall vibe is one of youthful exuberance and confidence, with Xing exuding a sense of playfulness and engagement. The combination of their expressive face, spiky hair, and colorful outfits makes Xing visually unmistakable and memorable.",
+            "preference": "In terms of entertainment, Xing enjoys science fiction movies, animated films, but dislikes sports TV, romantic dramas. In terms of travel, Xing enjoys cycling, camping, but dislikes vineyard visits, underground city tours. In terms of lifestyle, Xing enjoys plant-based diet, home cooking, but dislikes bullet journaling, reading before bed. In terms of shopping, Xing enjoys Bluetooth speakers, wireless charging stations, but dislikes gaming accessories, wearable tech gadgets. In terms of fashion, Xing enjoys vintage style, formal suits, but dislikes denim jackets, wide-leg trousers.",
+            "topic": [],
+            "original_id": "QA_sample_9daa6aaf",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Briley Hanson least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_9daa6aaf_3",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 2f8594d8, Among the activities that could reasonably occur in the given image, which one is Briley Hanson least likely to be doing?",
+        "answer": "Watching sports TV",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Briley Hanson enjoys science fiction movies, animated films, but dislikes sports TV, romantic dramas"
+            ],
+            "image_evidence": [
+                "MMPB_6f052249.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Briley Hanson enjoys cycling, camping, but dislikes vineyard visits, underground city tours",
+                "In terms of lifestyle, Briley Hanson enjoys plant-based diet, home cooking, but dislikes bullet journaling, reading before bed",
+                "In terms of shopping, Briley Hanson enjoys Bluetooth speakers, wireless charging stations, but dislikes gaming accessories, wearable tech gadgets",
+                "In terms of fashion, Briley Hanson enjoys vintage style, formal suits, but dislikes denim jackets, wide-leg trousers."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Watching sports TV",
+                "Enjoying a live concert on the TV",
+                "Home cooking",
+                "Observing a thriller films"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_art_and_design_architecture_others_d52ecd6b",
+                    "insert_conversation_turn": 1127
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_art_and_design_architecture_others_d52ecd6b",
+                    "insert_conversation_turn": 483,
+                    "reference_name": "Fig. 2f8594d8"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_politics_government_transportation_ee010321",
+                    "insert_conversation_turn": 202
+                },
+                {
+                    "conversation_name": "group_chat_lifestyle_economy_television_844c9a75",
+                    "insert_conversation_turn": 882
+                },
+                {
+                    "conversation_name": "group_chat_art_and_design_architecture_others_d52ecd6b",
+                    "insert_conversation_turn": 724
+                },
+                {
+                    "conversation_name": "group_chat_lifestyle_economy_television_844c9a75",
+                    "insert_conversation_turn": 704
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Xing",
+            "description": "Xing is a young individual with a slender build and a youthful appearance. Their facial structure is characterized by a slightly rounded face with a prominent jawline and expressive eyes. The skin tone is fair, and their hair is short and styled in a spiky manner, adding a dynamic and energetic vibe. Throughout the images, Xing displays a range of facial expressions, from smiling and animated to more neutral and contemplative, suggesting a lively and engaging personality. The eyebrows are well-defined, and the overall impression is one of a vibrant and expressive young person.\n\n**Outfit and Accessories:**\nXing is seen wearing a variety of outfits that reflect a casual and youthful style. In one image, they are dressed in a red shirt with a blue collar, adding a pop of color to their appearance. Another outfit features a shiny silver jacket, which gives a modern and slightly futuristic look. Additionally, Xing is seen in a beige top with a blue plaid collar, adding a touch of classic style. The clothing appears comfortable and practical, suitable for everyday wear. There are no visible accessories, but the outfits themselves are the defining elements, showcasing a mix of casual and slightly edgy styles.\n\n**Distinguishing Visual Features or Vibe:**\nThe most memorable feature of Xing is their expressive face and animated gestures, which convey a sense of enthusiasm and energy. The spiky hairstyle is a signature element that adds to their dynamic appearance. The consistent use of bright colors, such as red and blue, in their outfits creates a vibrant and lively visual theme. The overall vibe is one of youthful exuberance and confidence, with Xing exuding a sense of playfulness and engagement. The combination of their expressive face, spiky hair, and colorful outfits makes Xing visually unmistakable and memorable.",
+            "preference": "In terms of entertainment, Xing enjoys science fiction movies, animated films, but dislikes sports TV, romantic dramas. In terms of travel, Xing enjoys cycling, camping, but dislikes vineyard visits, underground city tours. In terms of lifestyle, Xing enjoys plant-based diet, home cooking, but dislikes bullet journaling, reading before bed. In terms of shopping, Xing enjoys Bluetooth speakers, wireless charging stations, but dislikes gaming accessories, wearable tech gadgets. In terms of fashion, Xing enjoys vintage style, formal suits, but dislikes denim jackets, wide-leg trousers.",
+            "topic": [],
+            "original_id": "QA_sample_9daa6aaf",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Briley Hanson least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_8151a5e1_1",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 3a838fc7, the image, what is Lilianna Colon most likely to be doing?",
+        "answer": "Watching a historical drama",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Lilianna Colon enjoys crime thrillers, historical dramas, but dislikes science fiction movies, animated films"
+            ],
+            "image_evidence": [
+                "MMPB_2d99653f.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Lilianna Colon enjoys fine dining, street food, but dislikes skydiving, cave exploration",
+                "In terms of lifestyle, Lilianna Colon enjoys daily smoothies, outdoor workouts, but dislikes forest bathing, holistic therapy",
+                "In terms of shopping, Lilianna Colon enjoys Bluetooth speakers, wireless charging stations, but dislikes luxury handbags, designer watches",
+                "In terms of fashion, Lilianna Colon enjoys winter coats, denim jeans, but dislikes futuristic fashion, gothic clothing."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "Viewing a K-pop concerts",
+                "Drinking daily smoothies",
+                "Watching a documentary about nature",
+                "Watching a historical drama"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_politics_government_transportation_ee010321",
+                    "insert_conversation_turn": 624
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_lifestyle_economy_television_844c9a75",
+                    "insert_conversation_turn": 303,
+                    "reference_name": "Fig. 3a838fc7"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_art_and_design_architecture_others_d52ecd6b",
+                    "insert_conversation_turn": 91
+                },
+                {
+                    "conversation_name": "group_chat_lifestyle_economy_television_844c9a75",
+                    "insert_conversation_turn": 505
+                },
+                {
+                    "conversation_name": "group_chat_art_and_design_architecture_others_d52ecd6b",
+                    "insert_conversation_turn": 514
+                },
+                {
+                    "conversation_name": "group_chat_art_and_design_architecture_others_d52ecd6b",
+                    "insert_conversation_turn": 77
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Hermione",
+            "description": "Hermione is depicted with a slender build and a youthful appearance, suggesting a height that is average for their age. Their facial structure is characterized by a slightly rounded face with a prominent jawline and a straight nose. The skin tone is fair, and they have a natural, unblemished complexion. Hermione has long, wavy, light brown hair that falls past their shoulders, adding to their youthful and approachable look. Their eyes are expressive, often conveying a sense of curiosity or determination. In some images, Hermione is seen with a bandaged hand, indicating a recent injury, and in others, they have a small cut on their forehead, suggesting they have been through some form of physical challenge. The recurring facial expressions range from serious and contemplative to smiling and engaged, reflecting a range of emotions and experiences.\n\n**Outfit and Accessories:**\nHermione is consistently seen wearing a school uniform, which includes a dark robe, a white shirt, and a striped tie in shades of red, yellow, and black. The uniform is practical and formal, fitting the academic setting. In one image, Hermione is seen in a pink zip-up hoodie, adding a casual and relaxed element to their wardrobe. The uniform's dark robe and tie suggest a sense of tradition and belonging to a specific institution. The outfit's textures appear to be a mix of soft fabrics for comfort and sturdier materials for durability. The uniform is character-defining, indicating Hermione's role as a student in a magical or academic environment. No additional accessories are prominently featured, keeping the focus on the uniform and the character's natural appearance.\n\n**Distinguishing Visual Features or Vibe:**\nThe most memorable and defining features of Hermione are their long, wavy hair and the school uniform, which together create a distinctive silhouette. The combination of the uniform and their natural, unadorned appearance conveys a sense of authenticity and relatability. The recurring theme of injuries, such as the bandaged hand and cut on the forehead, adds a layer of depth to the character, suggesting resilience and a willingness to face challenges. The overall vibe of Hermione is one of determination and intelligence, with a touch of vulnerability. The consistent use of the school uniform and the character's expressive face make Hermione visually unmistakable, embodying the essence of a young, determined student in a magical or academic setting.",
+            "preference": "In terms of entertainment, Hermione enjoys crime thrillers, historical dramas, but dislikes science fiction movies, animated films. In terms of travel, Hermione enjoys fine dining, street food, but dislikes skydiving, cave exploration. In terms of lifestyle, Hermione enjoys daily smoothies, outdoor workouts, but dislikes forest bathing, holistic therapy. In terms of shopping, Hermione enjoys Bluetooth speakers, wireless charging stations, but dislikes luxury handbags, designer watches. In terms of fashion, Hermione enjoys winter coats, denim jeans, but dislikes futuristic fashion, gothic clothing.",
+            "topic": [],
+            "original_id": "QA_sample_8151a5e1",
+            "original_question": "the image, what is Lilianna Colon most likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_8151a5e1_3",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 0257a80d, Among the activities that could reasonably occur in the given image, which one is Lilianna Colon least likely to be doing?",
+        "answer": "Watching science fiction movies",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Lilianna Colon enjoys crime thrillers, historical dramas, but dislikes science fiction movies, animated films"
+            ],
+            "image_evidence": [
+                "MMPB_ea429820.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Lilianna Colon enjoys fine dining, street food, but dislikes skydiving, cave exploration",
+                "In terms of lifestyle, Lilianna Colon enjoys daily smoothies, outdoor workouts, but dislikes forest bathing, holistic therapy",
+                "In terms of shopping, Lilianna Colon enjoys Bluetooth speakers, wireless charging stations, but dislikes luxury handbags, designer watches",
+                "In terms of fashion, Lilianna Colon enjoys winter coats, denim jeans, but dislikes futuristic fashion, gothic clothing."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "Enjoying fantasy adventure films",
+                "Searching for designer watches",
+                "Watching a documentary about nature",
+                "Watching science fiction movies"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_politics_government_transportation_ee010321",
+                    "insert_conversation_turn": 624
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_politics_government_transportation_ee010321",
+                    "insert_conversation_turn": 272,
+                    "reference_name": "Fig. 0257a80d"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_art_and_design_architecture_others_d52ecd6b",
+                    "insert_conversation_turn": 91
+                },
+                {
+                    "conversation_name": "group_chat_lifestyle_economy_television_844c9a75",
+                    "insert_conversation_turn": 505
+                },
+                {
+                    "conversation_name": "group_chat_art_and_design_architecture_others_d52ecd6b",
+                    "insert_conversation_turn": 514
+                },
+                {
+                    "conversation_name": "group_chat_art_and_design_architecture_others_d52ecd6b",
+                    "insert_conversation_turn": 77
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Hermione",
+            "description": "Hermione is depicted with a slender build and a youthful appearance, suggesting a height that is average for their age. Their facial structure is characterized by a slightly rounded face with a prominent jawline and a straight nose. The skin tone is fair, and they have a natural, unblemished complexion. Hermione has long, wavy, light brown hair that falls past their shoulders, adding to their youthful and approachable look. Their eyes are expressive, often conveying a sense of curiosity or determination. In some images, Hermione is seen with a bandaged hand, indicating a recent injury, and in others, they have a small cut on their forehead, suggesting they have been through some form of physical challenge. The recurring facial expressions range from serious and contemplative to smiling and engaged, reflecting a range of emotions and experiences.\n\n**Outfit and Accessories:**\nHermione is consistently seen wearing a school uniform, which includes a dark robe, a white shirt, and a striped tie in shades of red, yellow, and black. The uniform is practical and formal, fitting the academic setting. In one image, Hermione is seen in a pink zip-up hoodie, adding a casual and relaxed element to their wardrobe. The uniform's dark robe and tie suggest a sense of tradition and belonging to a specific institution. The outfit's textures appear to be a mix of soft fabrics for comfort and sturdier materials for durability. The uniform is character-defining, indicating Hermione's role as a student in a magical or academic environment. No additional accessories are prominently featured, keeping the focus on the uniform and the character's natural appearance.\n\n**Distinguishing Visual Features or Vibe:**\nThe most memorable and defining features of Hermione are their long, wavy hair and the school uniform, which together create a distinctive silhouette. The combination of the uniform and their natural, unadorned appearance conveys a sense of authenticity and relatability. The recurring theme of injuries, such as the bandaged hand and cut on the forehead, adds a layer of depth to the character, suggesting resilience and a willingness to face challenges. The overall vibe of Hermione is one of determination and intelligence, with a touch of vulnerability. The consistent use of the school uniform and the character's expressive face make Hermione visually unmistakable, embodying the essence of a young, determined student in a magical or academic setting.",
+            "preference": "In terms of entertainment, Hermione enjoys crime thrillers, historical dramas, but dislikes science fiction movies, animated films. In terms of travel, Hermione enjoys fine dining, street food, but dislikes skydiving, cave exploration. In terms of lifestyle, Hermione enjoys daily smoothies, outdoor workouts, but dislikes forest bathing, holistic therapy. In terms of shopping, Hermione enjoys Bluetooth speakers, wireless charging stations, but dislikes luxury handbags, designer watches. In terms of fashion, Hermione enjoys winter coats, denim jeans, but dislikes futuristic fashion, gothic clothing.",
+            "topic": [],
+            "original_id": "QA_sample_8151a5e1",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Lilianna Colon least likely to be doing?"
+        }
+    }
+]
