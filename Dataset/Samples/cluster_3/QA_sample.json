@@ -1,0 +1,1915 @@
+[
+    {
+        "id": "QA_sample_44bd6e36",
+        "domain": "MLLMKC",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. 6953ea29, When was the brand associated with the logo established?",
+        "answer": "1948",
+        "evidence": {
+            "text_evidence": [
+                "Land Rover was created in 1948. The creator of Land Rover is Maurice Wilks. Land Rover is the brand of luxury SUVs."
+            ],
+            "image_evidence": [
+                "MLLMKC_84c4190f.jpg"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Land Rover was created in 1955. The creator of Land Rover is Maurice Wilks. Land Rover is the brand of luxury SUVs."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "1942",
+                "1955",
+                "1948",
+                "1938"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_literature_science_art_and_design_baf57342",
+                    "insert_conversation_turn": 801
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_politics_science_architecture_f15e2709",
+                    "insert_conversation_turn": 93,
+                    "reference_name": "Fig. 6953ea29"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_history_science_government_c9533961",
+                    "insert_conversation_turn": 620
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "instance": "Land Rover",
+            "category": "logo",
+            "error_type": "time_error",
+            "topic": [
+                "transportation",
+                "history",
+                "technology"
+            ],
+            "original_question": "When was the brand associated with the logo established?"
+        }
+    },
+    {
+        "id": "QA_sample_ab148429",
+        "domain": "SlideVQA",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 5db78493, Fig. 78e5e826, How many major languages are there in the country that has control over mainland China and the largely self-governing territories of Hong Kong (since 1997) and Macau (since 1999)?",
+        "answer": "8",
+        "evidence": {
+            "text_evidence": [],
+            "image_evidence": [
+                "SlideVQA_688b5805_page_2.png",
+                "SlideVQA_688b5805_page_3.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "6",
+                "8",
+                "10",
+                "7"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_literature_science_art_and_design_baf57342",
+                    "insert_conversation_turn": 198,
+                    "reference_name": "Fig. 5db78493"
+                },
+                {
+                    "conversation_name": "group_chat_politics_science_architecture_f15e2709",
+                    "insert_conversation_turn": 124,
+                    "reference_name": "Fig. 78e5e826"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "travel",
+                "business",
+                "government"
+            ],
+            "original_question": "How many major languages are there in the country that has control over mainland China and the largely self-governing territories of Hong Kong (since 1997) and Macau (since 1999)?"
+        }
+    },
+    {
+        "id": "QA_sample_8814149f",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. e316eb03, the text, which region is considered to have the \"highest death toll for civilians and children during a conflict\" according to the criteria defined?",
+        "answer": "The Gaza Strip has the highest civilian and child death toll, with 10,022 civilian deaths and 4,104 child deaths within one month.",
+        "evidence": {
+            "text_evidence": [
+                "A region is considered to have the highest death toll for civilians and children during a conflict if it surpasses previous annual records of child deaths worldwide and has more civilian deaths in a shorter time frame compared to other ongoing conflicts. The comparison should take into account the duration of the conflict and data for injuries and deaths specifically within the given timeframe."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_18584873.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "The Syria conflict with 2,674 child deaths in 2020",
+                "The Afghanistan conflict with 2,985 child deaths in 2022",
+                "The Gaza Strip has the highest civilian and child death toll, with 10,022 civilian deaths and 4,104 child deaths within one month.",
+                "The Ukraine conflict with 9,806 civilian deaths and 17,962 injuries over 20 months"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_literature_science_art_and_design_baf57342",
+                    "insert_conversation_turn": 525
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_politics_science_architecture_f15e2709",
+                    "insert_conversation_turn": 395,
+                    "reference_name": "Fig. e316eb03"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "politics",
+                "history",
+                "health",
+                "government"
+            ],
+            "original_question": "the text, which region is considered to have the \"highest death toll for civilians and children during a conflict\" according to the criteria defined?"
+        }
+    },
+    {
+        "id": "QA_sample_09548701",
+        "domain": "SlideVQA",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 6c0ff398, Fig. b5fa6464, The percentage of total respondents which includes 49% of Hispanics will drop how many percentage points between 10 years ago and in 10 years?",
+        "answer": "31",
+        "evidence": {
+            "text_evidence": [],
+            "image_evidence": [
+                "SlideVQA_a61faf2e_page_8.png",
+                "SlideVQA_a61faf2e_page_9.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "28",
+                "31",
+                "33",
+                "35"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_politics_science_architecture_f15e2709",
+                    "insert_conversation_turn": 290,
+                    "reference_name": "Fig. 6c0ff398"
+                },
+                {
+                    "conversation_name": "group_chat_history_science_government_c9533961",
+                    "insert_conversation_turn": 223,
+                    "reference_name": "Fig. b5fa6464"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "government",
+                "economy",
+                "education",
+                "lifestyle"
+            ],
+            "original_question": "The percentage of total respondents which includes 49% of Hispanics will drop how many percentage points between 10 years ago and in 10 years?"
+        }
+    },
+    {
+        "id": "QA_sample_cb439971",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 670933f1, the text's definitions, which countries should be allocated \"additional resources to further improve global influence,\" and which should \"receive a warning about potentially negative foreign perception\"?",
+        "answer": "Countries to consider additional foreign relations resources: Hungary, South Korea, Singapore, Poland, Greece, Germany. Countries to receive a warning: Japan.",
+        "evidence": {
+            "text_evidence": [
+                "A government decides to prioritize foreign relations efforts based on the percentage of its citizens who believe their country's influence is 'getting stronger.' If the percentage exceeds 25%, the government allocates additional resources to further improve global influence. If it is below 25%, resources are maintained at current levels. Countries where fewer than 15% of citizens believe influence is 'getting stronger' also receive a warning about potentially negative foreign perception."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_79d16f96.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "Countries to consider additional foreign relations resources: Japan, South Korea, Singapore, Poland, Greece, Germany. Countries to receive a warning: Hungary.",
+                "Countries to consider additional foreign relations resources: Hungary, South Korea, Poland, Greece, Germany. Countries to receive a warning: Singapore, Japan.",
+                "Countries to consider additional foreign relations resources: Hungary. Countries to receive a warning: Japan.",
+                "Countries to consider additional foreign relations resources: Hungary, South Korea, Singapore, Poland, Greece, Germany. Countries to receive a warning: Japan."
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_history_science_government_c9533961",
+                    "insert_conversation_turn": 450
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_literature_science_art_and_design_baf57342",
+                    "insert_conversation_turn": 155,
+                    "reference_name": "Fig. 670933f1"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "government"
+            ],
+            "original_question": "the text's definitions, which countries should be allocated \"additional resources to further improve global influence,\" and which should \"receive a warning about potentially negative foreign perception\"?"
+        }
+    },
+    {
+        "id": "QA_sample_e4be80b9",
+        "domain": "MLLMKC",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. 7e0294db, What are the main products of this brand?",
+        "answer": "electric vehicles",
+        "evidence": {
+            "text_evidence": [
+                "Tesla was founded in 2003. The creators of Tesla are Martin Eberhard and Marc Tarpenning. Tesla is the production of electric vehicles."
+            ],
+            "image_evidence": [
+                "MLLMKC_8d6f978d.jpg"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Tesla was founded in 2003. The creators of Tesla are Martin Eberhard and Marc Tarpenning. Tesla is the production of luxury watches."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "electric vehicles",
+                "luxury watches",
+                "organic skincare products",
+                "gourmet coffee machines"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_politics_science_architecture_f15e2709",
+                    "insert_conversation_turn": 224
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_literature_science_art_and_design_baf57342",
+                    "insert_conversation_turn": 778,
+                    "reference_name": "Fig. 7e0294db"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_history_science_government_c9533961",
+                    "insert_conversation_turn": 56
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "instance": "Tesla",
+            "category": "logo",
+            "error_type": "content_error",
+            "topic": [
+                "transportation",
+                " technology",
+                " business"
+            ],
+            "original_question": "What are the main products of this brand?"
+        }
+    },
+    {
+        "id": "QA_sample_cd7f116c",
+        "domain": "SlideVQA",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. f8a93eef, Fig. 789a815f, The F2C initiative to create a meeting ground for nature-friendly consumers and farmers links farmers to whom?",
+        "answer": "consumers",
+        "evidence": {
+            "text_evidence": [],
+            "image_evidence": [
+                "SlideVQA_90582fe9_page_6.png",
+                "SlideVQA_90582fe9_page_7.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "consumers",
+                "distributors",
+                "wholesalers",
+                "exporters"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_politics_science_architecture_f15e2709",
+                    "insert_conversation_turn": 196,
+                    "reference_name": "Fig. f8a93eef"
+                },
+                {
+                    "conversation_name": "group_chat_history_science_government_c9533961",
+                    "insert_conversation_turn": 149,
+                    "reference_name": "Fig. 789a815f"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "food",
+                "environment",
+                "health"
+            ],
+            "original_question": "The F2C initiative to create a meeting ground for nature-friendly consumers and farmers links farmers to whom?"
+        }
+    },
+    {
+        "id": "2b513619",
+        "domain": "MMDocRAG",
+        "category": "Single_Hop_QA",
+        "question": "Based on Doc. 8bdf9fbd, Doc. 71c250a7, Doc. e8a8443a, Doc. 9b8955a5, Doc. ab21d6c6, What collaborative efforts are being made by NAMRU-3 in Liberia to enhance medical research capacity?",
+        "answer": "Disease vector surveillance and vector control projects",
+        "evidence": {
+            "text_evidence": [],
+            "image_evidence": [],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": [
+                [
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "The Minister of Health and Social Welfare gave high  praise for NAMRU-3‟s capacity building engagements in  Liberia. He expressed specific thanks for the collaboration at  LIBR, where he also serves as the chairman of the Board of  Governors, and he expressed the hope that the current col- "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "CAIRO - As part of U.S. Naval  Medical Research Unit No. 3‟s  ( NAMRU-3 ) ongoing efforts to build  medical capacity with Ministry of  Health laboratories in several coun- tries, NAMRU-3 is partnering with the  Defense Threat Reduction Agency  (DTRA) Cooperative Biological  Engagement Program (CBEP) in  Afghanistan. This collaboration  enhances the efficiency and synergy  in the U.S. government‟s biodefense  and disease surveillance efforts.   "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Since 2010, Navy biomedical researchers have been  collaborating with the Liberian Institute of Biomedical Re- search (LIBR) on two research projects funded by the  Armed Forces Health Surveillance Center/Global Emerging  Infections System (AFHSC-GEIS). These projects focus on  disease vector surveillance, detection of vector-borne viral  pathogens such as malaria, and vector control. The projects  are enabling the country to independently expand vector- borne disease surveillance and detection capabilities in Li- beria to benefit the Liberian Armed Forces as well as the  entire population of Liberia.  "
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_9d75e65e.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_1323cc66.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "One notable collaboration is being spearheaded by  Cmdr. Jonathan Forsberg (NMRC, Operational and Un- dersea Medicine Directorate), who is working with a com- pany to explore a novel mode of anchoring prosthetics.  This project could produce important results for amputees.  Another collaboration being led by Lt. Roxanne Burrus  ( U.S. Naval Medical Research Unit No. 6 , Lima, Peru)  involves Duke University and focuses on evaluating the  effects of changing demography and land use on malaria  transmission. This is an important issue in light of the  prevalence of malaria in developing countries and is  important to the health of deployed war fighters. An addi- tional malaria-focused collaboration is being headed by Lt.  R. Vince Gerbasi (NMRC, Infectious Diseases Director- ate), who is using mass spectrometry to identify novel  antigens to be used as potential vaccine candidates.  Lastly, Dr Bjorn Song ( Naval Medical Research Unit-San  Antonio ) is leading a collaboration focused on exploring  the use of a synthetic oxygen-carrying fluid to reduce  tissue damage occurring in response to hemorrhagic  shock.  "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "During a meeting with Graham, he expressed particular  interest in the project combining insecticide spraying for all  base housing with surveillance and geospacial mapping to  determine the distribution of malaria-transmitting mosqui- toes. No malaria infections have been diagnosed in U.S  troops since the onset of the spraying, which is carried out  by NAMRU-3 in collaboration with the Navy Entomology  Center of Excellence (NECE). This illustrates the risk reduc- tion made possible with a force health protection policy em- ploying both environmental vector controls and anti-malarial  prophylaxis.  "
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "The NAMRU-3 team visited Monrovia, Liberia in Novem- ber to meet with key collaborators, including Dr. Walter  Gwenigale, the Minister of Health and Social Welfare; Dr.  Fatorma Bolay, the Director of LIBR; and U.S. Marine Col.  Vernon Graham, the officer in charge of Operation Onward  Liberty (OOL).   "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_18421d63.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_24bec7a3.png"
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "NAMRU-3‟s initial engagement  was focused on the Ministry of Public  Health (MoPH) and the Afghan Public  Health Institute. NAMRU-3 assessed  the capacity and capability of labora- tory, staff and laboratory support  facilities. First focusing on the Central  Public Health Laboratory (CPHL) in  Kabul, the program later included  additional facilities in Kabul with plans  for other regions of Afghanistan.   "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "SILVER SPRING, Md. - Rear Adm.  (Ret.) Tim Ziemer, the U.S. Global  Malaria Coordinator, President‟s  Malaria Initiative, visited the Naval  Medical Research Center ( NMRC ),  November 29, for a brief on the  current malaria vaccine research  efforts and to tour the facility. He was  interested in learning more about the  malaria program at the laboratory.  Capt. John Sanders, NMRC  commanding officer, provided a  general overview of the NMRC  enterprise with emphasis on the  infectious diseases research efforts,  specifically in the area of malaria.  “The NMRC malaria research  program is at the forefront of malaria  "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "SILVER SPRING, Md. - Four  scientists from Kazakhstan visited the  Rickettsia l Diseases Research  Program laboratories at the Naval  Medical Research Center ( NMRC ) in  Silver Spring, Md., October 29- November 9 for training on molecular  assays, specifically multi-locus  sequencing typing (MLST), from Dr.  Allen Richards and his staff. The  training was part of a collaboration  with the Cooperative Biological  Engagement Program (CBEP) of the  Defense Threat Reduction Agency  (DTRA).  "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_71d9dd08.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_6e4bab91.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "NAMRU-3 Supports Medical Research Capacity Building in Liberia "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "With the assistance of OOL, NAMRU-3 has pursued mili- tary-to-military engagements with the Armed Forces of Libe- ria (AFL) through vector control training efforts in collabora- tion with LIBR.  "
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "CAIRO - U.S. Naval Medical Research Unit No. 3   ( NAMRU-3 ) is playing an important role in medical research  capacity building in Liberia, which is recovering from a brutal  14-year civil war that devastated the country‟s infrastructure.  "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_5034d859.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_fc5324fd.png"
+                        }
+                    }
+                ]
+            ]
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Disease vector surveillance and vector control projects",
+                "Training on molecular assays and prosthetic anchoring projects",
+                "Capacity building with Ministry of Health laboratories and mass spectrometry analysis",
+                "Malaria vaccine candidate identification and synthetic oxygen-carrying fluid research"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [],
+            "image_evidence_assignment": [],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_politics_science_architecture_f15e2709",
+                    "insert_conversation_turn": 786,
+                    "reference_name": "Doc. 8bdf9fbd"
+                },
+                {
+                    "conversation_name": "group_chat_literature_science_art_and_design_baf57342",
+                    "insert_conversation_turn": 331,
+                    "reference_name": "Doc. 71c250a7"
+                },
+                {
+                    "conversation_name": "group_chat_literature_science_art_and_design_baf57342",
+                    "insert_conversation_turn": 272,
+                    "reference_name": "Doc. e8a8443a"
+                },
+                {
+                    "conversation_name": "group_chat_history_science_government_c9533961",
+                    "insert_conversation_turn": 428,
+                    "reference_name": "Doc. 9b8955a5"
+                },
+                {
+                    "conversation_name": "group_chat_history_science_government_c9533961",
+                    "insert_conversation_turn": 804,
+                    "reference_name": "Doc. ab21d6c6"
+                }
+            ]
+        },
+        "meta_data": {
+            "category": "Administration/Industry file",
+            "doc_name": "0b85477387a9d0cc33fca0f4becaa0e5",
+            "gold_quotes": [
+                "image4",
+                "text11",
+                "text5",
+                "image8",
+                "text3"
+            ],
+            "topic": [
+                "health",
+                "science",
+                "government"
+            ],
+            "original_question": "What collaborative efforts are being made by NAMRU-3 in Liberia to enhance medical research capacity?"
+        }
+    },
+    {
+        "id": "QA_sample_608d4a09",
+        "domain": "MLLMKC",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. 509c36e7, Who established the brand corresponding to the logo?",
+        "answer": "Chung Ju-yung",
+        "evidence": {
+            "text_evidence": [
+                "Hyundai was founded in 1967. The creator of Hyundai is Chung Ju-yung. Hyundai is the production of automobiles."
+            ],
+            "image_evidence": [
+                "MLLMKC_bd80b05e.jpg"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Hyundai was founded in 1967. The creator of Hyundai is Kim Jong-un. Hyundai is the production of automobiles."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "Kim Jong-un",
+                "Elon Musk",
+                "Lee Kun-hee",
+                "Chung Ju-yung"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_politics_science_architecture_f15e2709",
+                    "insert_conversation_turn": 54
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_literature_science_art_and_design_baf57342",
+                    "insert_conversation_turn": 103,
+                    "reference_name": "Fig. 509c36e7"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_history_science_government_c9533961",
+                    "insert_conversation_turn": 19
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "instance": "Hyundai",
+            "category": "logo",
+            "error_type": "creator_error",
+            "topic": [
+                "transportation",
+                " business",
+                " history"
+            ],
+            "original_question": "Who established the brand corresponding to the logo?"
+        }
+    },
+    {
+        "id": "QA_sample_c2962674",
+        "domain": "MLLMKC",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. 17e94fef, What are the main products of this brand?",
+        "answer": "luxury vehicles",
+        "evidence": {
+            "text_evidence": [
+                "Porsche was created in 1931. The creator of Porsche is Ferdinand Porsche. Porsche is the brand of luxury vehicles."
+            ],
+            "image_evidence": [
+                "MLLMKC_4bad1ae4.jpg"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Porsche was created in 1931. The creator of Porsche is Ferdinand Porsche. Porsche is the brand of luxury watches."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "high-end kitchen appliances",
+                "luxury watches",
+                "luxury vehicles",
+                "premium skincare products"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_history_science_government_c9533961",
+                    "insert_conversation_turn": 576
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_literature_science_art_and_design_baf57342",
+                    "insert_conversation_turn": 465,
+                    "reference_name": "Fig. 17e94fef"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_politics_science_architecture_f15e2709",
+                    "insert_conversation_turn": 319
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "instance": "Porsche",
+            "category": "logo",
+            "error_type": "content_error",
+            "topic": [
+                "transportation",
+                " business"
+            ],
+            "original_question": "What are the main products of this brand?"
+        }
+    },
+    {
+        "id": "0f0e56a4",
+        "domain": "MMDocRAG",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. ff533fd9, Doc. 0ab2d66c, Doc. 9d434238, Doc. ca99dd5a, Doc. 9c7d0cde, In 2015, how many percentage of surveyed adults, Republicans, and Democrats believed that the goverment was doing very/fairly well in reducing the threat of terrorism? Please write the answer in list format, e.g., [\"3\",\"2\"]",
+        "answer": "46, 27, 64",
+        "evidence": {
+            "text_evidence": [],
+            "image_evidence": [
+                "MMDocRAG_5b9b882b.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": [
+                [
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Americans’ ratings of the government’s efforts to reduce the threat of terrorism are now lower than  at any point since the September 2001 terrorist attacks. For the first time, more now say the  government is doing not too well or not at all well in reducing the threat of terrorism   $(52\\%)$   than  say the government is doing either very or fairly well   $(46\\%)$  . Positive ratings have fallen 26 points  since January (when  $72\\%$   said very/fairly  well).   "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Both Republicans and Democrats have become  more likely to say that the government’s anti- terrorism policies do not go far enough to  protect the country (rather than that they have  gone too far restricting civil liberties) since  Snowden’s disclosures in 2013. But the shift  has been more pronounced among  Republicans. Slightly more than seven-in-ten  Republicans  $(71\\%)$   now say their greater  concern is that anti-terrorism policies do not  go far enough, up 14 points since January   $(57\\%)$   and 33 points since July 2013   $(38\\%)$  .  "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "About two-thirds   $(68\\%)$   of Republicans say Islam is more likely  to encourage violence, little changed from September 2014   $(67\\%)$  , but the highest share saying this on a question that  dates to 2002. In contrast, the share of Democrats associating  Islam with violence has declined 12 percentage points since  last year, from  $42\\%$   to  $30\\%$  .  "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_efd77733.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_2fc2fd2b.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Today, similar proportions of conservative  Republicans  $(71\\%)$  , moderate and liberal  Republicans  $(74\\%)$   and conservative and  moderate Democrats   $(67\\%)$   say their greater  concern is that anti-terrorism policies have not  gone far enough. By contrast, equal shares of  liberal Democrats say their greater concern is  that policies have gone too far in restricting  average people’s civil liberties as say they worry  more that these policies have not gone far  enough to protect the country (  $41\\%$   each).  "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Terrorism has reshaped the public’s agenda, both at home and abroad. Currently,   $29\\%$   cite  terrorism   $(18\\%)$  , national security   $(8\\%)$   or ISIS   $(7\\%)$   as the most important problem facing the  country today. One year ago, just  $4\\%$   of the public cited any of these issues. And while ISIS already  ranked high among leading international dangers,   $83\\%$   now regard ISIS as a major threat to the  well-being of the U.S., up from  $67\\%$   in August 2014.  "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "The latest national survey by Pew Research  Center, conducted Dec. 8-13 among 1,500  adults, finds that since the start of this year,  the share of Americans who say the  government is doing well in reducing the  threat of terrorism has fallen by 26 percentage  points – from  $72\\%$   to  $46\\%$   – and now stands at  its lowest point in the post-9/11 era.  "
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_c6f08551.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_35ba33a7.png"
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Approval of the way Barack Obama is handling  the threat of terrorism also has declined, even  as his overall job rating (currently  $46\\%$  ) – and  his ratings on immigration, the economy and  "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Across-the-board drop in ratings of govt  efforts to reduce terrorist threat   "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Compared to early 2015, assessments of  government efforts to combat terrorism are  more negative across the political spectrum.  Democrats are now the only partisan group in  which a majority   $(64\\%)$   say the government is  doing at least fairly well (down from  $85\\%$   in  January). Independents’ positive ratings have  dropped 25 points, from  $69\\%$   to  $44\\%$  . And just   $27\\%$   of Republicans now say the government is  doing very or fairly well reducing the terrorist  threat, down from  $63\\%$   at the beginning of the  year.   "
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_39e1d707.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_fae6f27b.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "The views of conservative Republicans, in  particular, have turned sharply critical: In  January,  $59\\%$   said the government was doing  very well or fairly well; today, only   $18\\%$   say  this.  "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Ideological divides are even starker, and  growing: About three-quarters   $(77\\%)$   of  conservative Republicans say that Islam is  more likely to encourage violence than other  religions (just  $16\\%$   say it does not). Liberal  Democratic opinion is nearly the inverse:  $73\\%$  of liberal Democrats say Islam is no more  "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Conservative Republicans are the only major ideological, demographic or religious group in which  a majority   $(57\\%)$   says Muslims in this country should be subject to greater scrutiny than those in  other religious groups. Majorities of moderate and liberal Republicans   $(59\\%)$  , independents   $(62\\%)$  , conservative and moderate Democrats   $(67\\%)$  , and liberal Democrats   $(87\\%)$   say Muslims  should not receive greater scrutiny solely  because of their religion.  "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_e22ce79a.png"
+                        }
+                    }
+                ]
+            ]
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "47, 30, 62",
+                "45, 33, 61",
+                "46, 27, 64",
+                "50, 34, 68"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_literature_science_art_and_design_baf57342",
+                    "insert_conversation_turn": 595,
+                    "reference_name": "Fig. ff533fd9"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_history_science_government_c9533961",
+                    "insert_conversation_turn": 412,
+                    "reference_name": "Doc. 0ab2d66c"
+                },
+                {
+                    "conversation_name": "group_chat_politics_science_architecture_f15e2709",
+                    "insert_conversation_turn": 259,
+                    "reference_name": "Doc. 9d434238"
+                },
+                {
+                    "conversation_name": "group_chat_history_science_government_c9533961",
+                    "insert_conversation_turn": 317,
+                    "reference_name": "Doc. ca99dd5a"
+                },
+                {
+                    "conversation_name": "group_chat_politics_science_architecture_f15e2709",
+                    "insert_conversation_turn": 275,
+                    "reference_name": "Doc. 9c7d0cde"
+                }
+            ]
+        },
+        "meta_data": {
+            "category": "Research report / Introduction",
+            "doc_name": "12-15-15-ISIS-and-terrorism-release-final",
+            "gold_quotes": [
+                "image4",
+                "text9",
+                "text6",
+                "image7"
+            ],
+            "topic": [
+                "government",
+                " politics",
+                " religion"
+            ],
+            "original_question": "In 2015, how many percentage of surveyed adults, Republicans, and Democrats believed that the goverment was doing very/fairly well in reducing the threat of terrorism? Please write the answer in list format, e.g., [\"3\",\"2\"]"
+        }
+    },
+    {
+        "id": "QA_sample_217ac44f_1",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. d255d873, Among the activities that could reasonably occur in the given image, which one is Jaliyah Gamble least likely to be doing?",
+        "answer": "Watching romantic dramas",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Jaliyah Gamble enjoys opera shows, ballet performances, but dislikes sports TV, romantic dramas"
+            ],
+            "image_evidence": [
+                "MMPB_81ebaeeb.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Jaliyah Gamble enjoys skydiving, cave exploration, but dislikes skiing, desert trekking",
+                "In terms of lifestyle, Jaliyah Gamble enjoys bullet journaling, reading before bed, but dislikes home gardening, night owl lifestyle",
+                "In terms of shopping, Jaliyah Gamble enjoys smart home devices, kitchen appliances, but dislikes retro gaming consoles, wireless earbuds",
+                "In terms of fashion, Jaliyah Gamble enjoys streetwear, custom sneakers, but dislikes high heels, tight-fitting clothes."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "Going on a desert trek",
+                "Watching cooking shows",
+                "Watching romantic dramas",
+                "Watching scientific dramas"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_literature_science_art_and_design_baf57342",
+                    "insert_conversation_turn": 284
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_history_science_government_c9533961",
+                    "insert_conversation_turn": 1010,
+                    "reference_name": "Fig. d255d873"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_politics_science_architecture_f15e2709",
+                    "insert_conversation_turn": 104
+                },
+                {
+                    "conversation_name": "group_chat_history_science_government_c9533961",
+                    "insert_conversation_turn": 481
+                },
+                {
+                    "conversation_name": "group_chat_literature_science_art_and_design_baf57342",
+                    "insert_conversation_turn": 420
+                },
+                {
+                    "conversation_name": "group_chat_history_science_government_c9533961",
+                    "insert_conversation_turn": 64
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "kaiqi",
+            "description": "kaiqi is a young woman with a slender build and an average height impression. Her facial structure is characterized by a well-defined jawline and a slightly pointed chin, complemented by a smooth, fair skin tone. Her eyes are expressive, often accentuated with makeup, and her eyebrows are well-groomed, adding to her overall polished look. kaiqi's hair is a consistent feature across the images, often styled in a sleek ponytail or loose waves, showcasing its dark brown color. In some images, she is seen with a braided hairstyle, adding a touch of elegance. Her expressions range from subtle smiles to more neutral poses, conveying a sense of confidence and poise.\n\n**Outfit and Accessories:**\nkaiqi's attire is diverse yet cohesive, reflecting a blend of casual and elegant styles. She is often seen in sleeveless tops, such as a black lace top with a choker necklace, and a red sleeveless top with a black choker featuring a circular pendant. In another image, she wears a light pink tank top paired with beige shorts and a white cardigan, creating a relaxed yet stylish look. The color palette of her outfits includes black, red, pink, and beige, with textures ranging from lace to knit. Accessories play a significant role in her style, with chokers and necklaces adding a touch of sophistication. In one image, she holds a black fan adorned with silver embellishments and gold detailing, enhancing her elegant appearance.\n\n**Distinguishing Visual Features or Vibe:**\nkaiqi exudes a unique blend of elegance and approachability. Her consistent use of accessories, such as chokers and necklaces, adds a touch of sophistication to her overall look. The black fan with silver embellishments and gold detailing is a standout accessory, adding a dramatic flair. Her hairstyles, ranging from sleek ponytails to loose waves and braids, contribute to her versatile appearance. The recurring theme of black and red in her outfits, along with the use of lace and knit textures, creates a cohesive and stylish image. kaiqi's confident expressions and poised poses convey a sense of grace and self-assurance, making her visually unmistakable.",
+            "preference": "In terms of entertainment, kaiqi enjoys opera shows, ballet performances, but dislikes sports TV, romantic dramas. In terms of travel, kaiqi enjoys skydiving, cave exploration, but dislikes skiing, desert trekking. In terms of lifestyle, kaiqi enjoys bullet journaling, reading before bed, but dislikes home gardening, night owl lifestyle. In terms of shopping, kaiqi enjoys smart home devices, kitchen appliances, but dislikes retro gaming consoles, wireless earbuds. In terms of fashion, kaiqi enjoys streetwear, custom sneakers, but dislikes high heels, tight-fitting clothes.",
+            "topic": [],
+            "original_id": "QA_sample_217ac44f",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Jaliyah Gamble least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_217ac44f_2",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 480ba8e2, Among the activities that could reasonably occur in the given image, which one is Jaliyah Gamble least likely to be doing?",
+        "answer": "Watching sports TV",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Jaliyah Gamble enjoys opera shows, ballet performances, but dislikes sports TV, romantic dramas"
+            ],
+            "image_evidence": [
+                "MMPB_2d99653f.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Jaliyah Gamble enjoys skydiving, cave exploration, but dislikes skiing, desert trekking",
+                "In terms of lifestyle, Jaliyah Gamble enjoys bullet journaling, reading before bed, but dislikes home gardening, night owl lifestyle",
+                "In terms of shopping, Jaliyah Gamble enjoys smart home devices, kitchen appliances, but dislikes retro gaming consoles, wireless earbuds",
+                "In terms of fashion, Jaliyah Gamble enjoys streetwear, custom sneakers, but dislikes high heels, tight-fitting clothes."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "Home gardening",
+                "Watching news TV",
+                "Watching sports TV",
+                "Watching cooking shows"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_literature_science_art_and_design_baf57342",
+                    "insert_conversation_turn": 284
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_politics_science_architecture_f15e2709",
+                    "insert_conversation_turn": 41,
+                    "reference_name": "Fig. 480ba8e2"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_politics_science_architecture_f15e2709",
+                    "insert_conversation_turn": 104
+                },
+                {
+                    "conversation_name": "group_chat_history_science_government_c9533961",
+                    "insert_conversation_turn": 481
+                },
+                {
+                    "conversation_name": "group_chat_literature_science_art_and_design_baf57342",
+                    "insert_conversation_turn": 420
+                },
+                {
+                    "conversation_name": "group_chat_history_science_government_c9533961",
+                    "insert_conversation_turn": 64
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "kaiqi",
+            "description": "kaiqi is a young woman with a slender build and an average height impression. Her facial structure is characterized by a well-defined jawline and a slightly pointed chin, complemented by a smooth, fair skin tone. Her eyes are expressive, often accentuated with makeup, and her eyebrows are well-groomed, adding to her overall polished look. kaiqi's hair is a consistent feature across the images, often styled in a sleek ponytail or loose waves, showcasing its dark brown color. In some images, she is seen with a braided hairstyle, adding a touch of elegance. Her expressions range from subtle smiles to more neutral poses, conveying a sense of confidence and poise.\n\n**Outfit and Accessories:**\nkaiqi's attire is diverse yet cohesive, reflecting a blend of casual and elegant styles. She is often seen in sleeveless tops, such as a black lace top with a choker necklace, and a red sleeveless top with a black choker featuring a circular pendant. In another image, she wears a light pink tank top paired with beige shorts and a white cardigan, creating a relaxed yet stylish look. The color palette of her outfits includes black, red, pink, and beige, with textures ranging from lace to knit. Accessories play a significant role in her style, with chokers and necklaces adding a touch of sophistication. In one image, she holds a black fan adorned with silver embellishments and gold detailing, enhancing her elegant appearance.\n\n**Distinguishing Visual Features or Vibe:**\nkaiqi exudes a unique blend of elegance and approachability. Her consistent use of accessories, such as chokers and necklaces, adds a touch of sophistication to her overall look. The black fan with silver embellishments and gold detailing is a standout accessory, adding a dramatic flair. Her hairstyles, ranging from sleek ponytails to loose waves and braids, contribute to her versatile appearance. The recurring theme of black and red in her outfits, along with the use of lace and knit textures, creates a cohesive and stylish image. kaiqi's confident expressions and poised poses convey a sense of grace and self-assurance, making her visually unmistakable.",
+            "preference": "In terms of entertainment, kaiqi enjoys opera shows, ballet performances, but dislikes sports TV, romantic dramas. In terms of travel, kaiqi enjoys skydiving, cave exploration, but dislikes skiing, desert trekking. In terms of lifestyle, kaiqi enjoys bullet journaling, reading before bed, but dislikes home gardening, night owl lifestyle. In terms of shopping, kaiqi enjoys smart home devices, kitchen appliances, but dislikes retro gaming consoles, wireless earbuds. In terms of fashion, kaiqi enjoys streetwear, custom sneakers, but dislikes high heels, tight-fitting clothes.",
+            "topic": [],
+            "original_id": "QA_sample_217ac44f",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Jaliyah Gamble least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_217ac44f_3",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 411e241d, the image, what is Jaliyah Gamble most likely to be doing?",
+        "answer": "Attending ballet performance shows",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Jaliyah Gamble enjoys opera shows, ballet performances, but dislikes sports TV, romantic dramas"
+            ],
+            "image_evidence": [
+                "MMPB_e907fbc8.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Jaliyah Gamble enjoys skydiving, cave exploration, but dislikes skiing, desert trekking",
+                "In terms of lifestyle, Jaliyah Gamble enjoys bullet journaling, reading before bed, but dislikes home gardening, night owl lifestyle",
+                "In terms of shopping, Jaliyah Gamble enjoys smart home devices, kitchen appliances, but dislikes retro gaming consoles, wireless earbuds",
+                "In terms of fashion, Jaliyah Gamble enjoys streetwear, custom sneakers, but dislikes high heels, tight-fitting clothes."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Attending ballet performance shows",
+                "Watching cooking shows",
+                "Reading books before bed",
+                "Enjoying symphony concerts"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_literature_science_art_and_design_baf57342",
+                    "insert_conversation_turn": 284
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_politics_science_architecture_f15e2709",
+                    "insert_conversation_turn": 185,
+                    "reference_name": "Fig. 411e241d"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_politics_science_architecture_f15e2709",
+                    "insert_conversation_turn": 104
+                },
+                {
+                    "conversation_name": "group_chat_history_science_government_c9533961",
+                    "insert_conversation_turn": 481
+                },
+                {
+                    "conversation_name": "group_chat_literature_science_art_and_design_baf57342",
+                    "insert_conversation_turn": 420
+                },
+                {
+                    "conversation_name": "group_chat_history_science_government_c9533961",
+                    "insert_conversation_turn": 64
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "kaiqi",
+            "description": "kaiqi is a young woman with a slender build and an average height impression. Her facial structure is characterized by a well-defined jawline and a slightly pointed chin, complemented by a smooth, fair skin tone. Her eyes are expressive, often accentuated with makeup, and her eyebrows are well-groomed, adding to her overall polished look. kaiqi's hair is a consistent feature across the images, often styled in a sleek ponytail or loose waves, showcasing its dark brown color. In some images, she is seen with a braided hairstyle, adding a touch of elegance. Her expressions range from subtle smiles to more neutral poses, conveying a sense of confidence and poise.\n\n**Outfit and Accessories:**\nkaiqi's attire is diverse yet cohesive, reflecting a blend of casual and elegant styles. She is often seen in sleeveless tops, such as a black lace top with a choker necklace, and a red sleeveless top with a black choker featuring a circular pendant. In another image, she wears a light pink tank top paired with beige shorts and a white cardigan, creating a relaxed yet stylish look. The color palette of her outfits includes black, red, pink, and beige, with textures ranging from lace to knit. Accessories play a significant role in her style, with chokers and necklaces adding a touch of sophistication. In one image, she holds a black fan adorned with silver embellishments and gold detailing, enhancing her elegant appearance.\n\n**Distinguishing Visual Features or Vibe:**\nkaiqi exudes a unique blend of elegance and approachability. Her consistent use of accessories, such as chokers and necklaces, adds a touch of sophistication to her overall look. The black fan with silver embellishments and gold detailing is a standout accessory, adding a dramatic flair. Her hairstyles, ranging from sleek ponytails to loose waves and braids, contribute to her versatile appearance. The recurring theme of black and red in her outfits, along with the use of lace and knit textures, creates a cohesive and stylish image. kaiqi's confident expressions and poised poses convey a sense of grace and self-assurance, making her visually unmistakable.",
+            "preference": "In terms of entertainment, kaiqi enjoys opera shows, ballet performances, but dislikes sports TV, romantic dramas. In terms of travel, kaiqi enjoys skydiving, cave exploration, but dislikes skiing, desert trekking. In terms of lifestyle, kaiqi enjoys bullet journaling, reading before bed, but dislikes home gardening, night owl lifestyle. In terms of shopping, kaiqi enjoys smart home devices, kitchen appliances, but dislikes retro gaming consoles, wireless earbuds. In terms of fashion, kaiqi enjoys streetwear, custom sneakers, but dislikes high heels, tight-fitting clothes.",
+            "topic": [],
+            "original_id": "QA_sample_217ac44f",
+            "original_question": "the image, what is Jaliyah Gamble most likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_72ee2a64_1",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 24bc18fb, the image, what is Solomon Paul most likely to be doing?",
+        "answer": "Watching videos of gaming tournaments",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Solomon Paul enjoys sports documentaries, gaming tournaments, but dislikes rock concerts, indie films"
+            ],
+            "image_evidence": [
+                "MMPB_2d99653f.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Solomon Paul enjoys skiing, desert trekking, but dislikes historical site tours, food tours",
+                "In terms of lifestyle, Solomon Paul enjoys meditation, yoga, but dislikes kombucha brewing, medicinal herb gardening",
+                "In terms of shopping, Solomon Paul enjoys mechanical keyboards, 3D printing tools, but dislikes Bluetooth speakers, wireless charging stations",
+                "In terms of fashion, Solomon Paul enjoys techwear, cyberpunk aesthetics, but dislikes handcrafted leather bags, woven hats."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Watching videos of gaming tournaments",
+                "Practicing meditation",
+                "Listening to music on the stereo",
+                "Watching cooking shows on the TV"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_politics_science_architecture_f15e2709",
+                    "insert_conversation_turn": 373
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_history_science_government_c9533961",
+                    "insert_conversation_turn": 211,
+                    "reference_name": "Fig. 24bc18fb"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_literature_science_art_and_design_baf57342",
+                    "insert_conversation_turn": 406
+                },
+                {
+                    "conversation_name": "group_chat_history_science_government_c9533961",
+                    "insert_conversation_turn": 122
+                },
+                {
+                    "conversation_name": "group_chat_politics_science_architecture_f15e2709",
+                    "insert_conversation_turn": 359
+                },
+                {
+                    "conversation_name": "group_chat_history_science_government_c9533961",
+                    "insert_conversation_turn": 467
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Scarlett",
+            "description": "Scarlett is a young woman with a slender build and an average height impression. Her facial structure is characterized by a symmetrical face with a prominent jawline and a slightly pointed chin. She has a fair skin tone and expressive eyes, which are often the focal point of her expressions. Her hair is a notable feature, appearing in various styles across the images, including shoulder-length straight hair, curly hair, and pigtails. The hair color ranges from light brown to auburn, adding to her versatility. Her eyebrows are well-defined, and her expressions range from neutral to slightly surprised, with her mouth often slightly open, suggesting a moment of speech or reaction. Her overall appearance conveys a sense of youthful energy and approachability.\n\n**Outfit and Accessories:**\nScarlett is seen wearing a variety of outfits that reflect different styles and settings. In one image, she is dressed in a green shirt, which gives a casual and approachable vibe. Another image shows her in a dark blue zip-up jacket, suggesting a more practical or action-oriented look. In a different setting, she is seen in a black zip-up jacket, which adds a touch of sophistication and mystery. Her outfits are generally form-fitting, emphasizing her slender build. Accessories are minimal but significant, including a necklace with a pendant, which adds a personal touch to her appearance. The color palette of her clothing ranges from earthy tones to darker shades, reflecting a versatile and adaptable style.\n\n**Distinguishing Visual Features or Vibe:**\nThe most memorable feature of Scarlett is her expressive eyes, which convey a range of emotions and add depth to her character. Her hair, whether straight, curly, or styled in pigtails, is a consistent and defining element of her appearance. The recurring theme of zip-up jackets suggests a practical and possibly action-oriented persona. The necklace with a pendant adds a personal and unique touch to her style. Overall, Scarlett exudes a blend of youthful energy, approachability, and a hint of mystery, making her visually unmistakable and engaging.",
+            "preference": "In terms of entertainment, Scarlett enjoys sports documentaries, gaming tournaments, but dislikes rock concerts, indie films. In terms of travel, Scarlett enjoys skiing, desert trekking, but dislikes historical site tours, food tours. In terms of lifestyle, Scarlett enjoys meditation, yoga, but dislikes kombucha brewing, medicinal herb gardening. In terms of shopping, Scarlett enjoys mechanical keyboards, 3D printing tools, but dislikes Bluetooth speakers, wireless charging stations. In terms of fashion, Scarlett enjoys techwear, cyberpunk aesthetics, but dislikes handcrafted leather bags, woven hats.",
+            "topic": [],
+            "original_id": "QA_sample_72ee2a64",
+            "original_question": "the image, what is Solomon Paul most likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_72ee2a64_2",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 2267bff3, Among the activities that could reasonably occur in the given image, which one is Solomon Paul least likely to be doing?",
+        "answer": "Enjoying rock concerts",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Solomon Paul enjoys sports documentaries, gaming tournaments, but dislikes rock concerts, indie films"
+            ],
+            "image_evidence": [
+                "MMPB_73dc3548.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Solomon Paul enjoys skiing, desert trekking, but dislikes historical site tours, food tours",
+                "In terms of lifestyle, Solomon Paul enjoys meditation, yoga, but dislikes kombucha brewing, medicinal herb gardening",
+                "In terms of shopping, Solomon Paul enjoys mechanical keyboards, 3D printing tools, but dislikes Bluetooth speakers, wireless charging stations",
+                "In terms of fashion, Solomon Paul enjoys techwear, cyberpunk aesthetics, but dislikes handcrafted leather bags, woven hats."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "Observing a ballet performance",
+                "Attending a symphony concert",
+                "Enjoying rock concerts",
+                "Brewing kombucha"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_politics_science_architecture_f15e2709",
+                    "insert_conversation_turn": 373
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_history_science_government_c9533961",
+                    "insert_conversation_turn": 745,
+                    "reference_name": "Fig. 2267bff3"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_literature_science_art_and_design_baf57342",
+                    "insert_conversation_turn": 406
+                },
+                {
+                    "conversation_name": "group_chat_history_science_government_c9533961",
+                    "insert_conversation_turn": 122
+                },
+                {
+                    "conversation_name": "group_chat_politics_science_architecture_f15e2709",
+                    "insert_conversation_turn": 359
+                },
+                {
+                    "conversation_name": "group_chat_history_science_government_c9533961",
+                    "insert_conversation_turn": 467
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Scarlett",
+            "description": "Scarlett is a young woman with a slender build and an average height impression. Her facial structure is characterized by a symmetrical face with a prominent jawline and a slightly pointed chin. She has a fair skin tone and expressive eyes, which are often the focal point of her expressions. Her hair is a notable feature, appearing in various styles across the images, including shoulder-length straight hair, curly hair, and pigtails. The hair color ranges from light brown to auburn, adding to her versatility. Her eyebrows are well-defined, and her expressions range from neutral to slightly surprised, with her mouth often slightly open, suggesting a moment of speech or reaction. Her overall appearance conveys a sense of youthful energy and approachability.\n\n**Outfit and Accessories:**\nScarlett is seen wearing a variety of outfits that reflect different styles and settings. In one image, she is dressed in a green shirt, which gives a casual and approachable vibe. Another image shows her in a dark blue zip-up jacket, suggesting a more practical or action-oriented look. In a different setting, she is seen in a black zip-up jacket, which adds a touch of sophistication and mystery. Her outfits are generally form-fitting, emphasizing her slender build. Accessories are minimal but significant, including a necklace with a pendant, which adds a personal touch to her appearance. The color palette of her clothing ranges from earthy tones to darker shades, reflecting a versatile and adaptable style.\n\n**Distinguishing Visual Features or Vibe:**\nThe most memorable feature of Scarlett is her expressive eyes, which convey a range of emotions and add depth to her character. Her hair, whether straight, curly, or styled in pigtails, is a consistent and defining element of her appearance. The recurring theme of zip-up jackets suggests a practical and possibly action-oriented persona. The necklace with a pendant adds a personal and unique touch to her style. Overall, Scarlett exudes a blend of youthful energy, approachability, and a hint of mystery, making her visually unmistakable and engaging.",
+            "preference": "In terms of entertainment, Scarlett enjoys sports documentaries, gaming tournaments, but dislikes rock concerts, indie films. In terms of travel, Scarlett enjoys skiing, desert trekking, but dislikes historical site tours, food tours. In terms of lifestyle, Scarlett enjoys meditation, yoga, but dislikes kombucha brewing, medicinal herb gardening. In terms of shopping, Scarlett enjoys mechanical keyboards, 3D printing tools, but dislikes Bluetooth speakers, wireless charging stations. In terms of fashion, Scarlett enjoys techwear, cyberpunk aesthetics, but dislikes handcrafted leather bags, woven hats.",
+            "topic": [],
+            "original_id": "QA_sample_72ee2a64",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Solomon Paul least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_72ee2a64_3",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 369cadcd, Among the activities that could reasonably occur in the given image, which one is Solomon Paul least likely to be doing?",
+        "answer": "Enjoying rock concerts",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Solomon Paul enjoys sports documentaries, gaming tournaments, but dislikes rock concerts, indie films"
+            ],
+            "image_evidence": [
+                "MMPB_eb90448c.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Solomon Paul enjoys skiing, desert trekking, but dislikes historical site tours, food tours",
+                "In terms of lifestyle, Solomon Paul enjoys meditation, yoga, but dislikes kombucha brewing, medicinal herb gardening",
+                "In terms of shopping, Solomon Paul enjoys mechanical keyboards, 3D printing tools, but dislikes Bluetooth speakers, wireless charging stations",
+                "In terms of fashion, Solomon Paul enjoys techwear, cyberpunk aesthetics, but dislikes handcrafted leather bags, woven hats."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Enjoying rock concerts",
+                "Attending a symphony concert",
+                "Buying wireless charging stations",
+                "Observing a ballet performance"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_politics_science_architecture_f15e2709",
+                    "insert_conversation_turn": 373
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_history_science_government_c9533961",
+                    "insert_conversation_turn": 778,
+                    "reference_name": "Fig. 369cadcd"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_literature_science_art_and_design_baf57342",
+                    "insert_conversation_turn": 406
+                },
+                {
+                    "conversation_name": "group_chat_history_science_government_c9533961",
+                    "insert_conversation_turn": 122
+                },
+                {
+                    "conversation_name": "group_chat_politics_science_architecture_f15e2709",
+                    "insert_conversation_turn": 359
+                },
+                {
+                    "conversation_name": "group_chat_history_science_government_c9533961",
+                    "insert_conversation_turn": 467
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Scarlett",
+            "description": "Scarlett is a young woman with a slender build and an average height impression. Her facial structure is characterized by a symmetrical face with a prominent jawline and a slightly pointed chin. She has a fair skin tone and expressive eyes, which are often the focal point of her expressions. Her hair is a notable feature, appearing in various styles across the images, including shoulder-length straight hair, curly hair, and pigtails. The hair color ranges from light brown to auburn, adding to her versatility. Her eyebrows are well-defined, and her expressions range from neutral to slightly surprised, with her mouth often slightly open, suggesting a moment of speech or reaction. Her overall appearance conveys a sense of youthful energy and approachability.\n\n**Outfit and Accessories:**\nScarlett is seen wearing a variety of outfits that reflect different styles and settings. In one image, she is dressed in a green shirt, which gives a casual and approachable vibe. Another image shows her in a dark blue zip-up jacket, suggesting a more practical or action-oriented look. In a different setting, she is seen in a black zip-up jacket, which adds a touch of sophistication and mystery. Her outfits are generally form-fitting, emphasizing her slender build. Accessories are minimal but significant, including a necklace with a pendant, which adds a personal touch to her appearance. The color palette of her clothing ranges from earthy tones to darker shades, reflecting a versatile and adaptable style.\n\n**Distinguishing Visual Features or Vibe:**\nThe most memorable feature of Scarlett is her expressive eyes, which convey a range of emotions and add depth to her character. Her hair, whether straight, curly, or styled in pigtails, is a consistent and defining element of her appearance. The recurring theme of zip-up jackets suggests a practical and possibly action-oriented persona. The necklace with a pendant adds a personal and unique touch to her style. Overall, Scarlett exudes a blend of youthful energy, approachability, and a hint of mystery, making her visually unmistakable and engaging.",
+            "preference": "In terms of entertainment, Scarlett enjoys sports documentaries, gaming tournaments, but dislikes rock concerts, indie films. In terms of travel, Scarlett enjoys skiing, desert trekking, but dislikes historical site tours, food tours. In terms of lifestyle, Scarlett enjoys meditation, yoga, but dislikes kombucha brewing, medicinal herb gardening. In terms of shopping, Scarlett enjoys mechanical keyboards, 3D printing tools, but dislikes Bluetooth speakers, wireless charging stations. In terms of fashion, Scarlett enjoys techwear, cyberpunk aesthetics, but dislikes handcrafted leather bags, woven hats.",
+            "topic": [],
+            "original_id": "QA_sample_72ee2a64",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Solomon Paul least likely to be doing?"
+        }
+    },
+    {
+        "id": "LifeSim_ee8be011",
+        "domain": "LifeSim",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 2adc80fe, What type of travel activity does Alan Woods prefer for maximum control, low risk, and solitude?",
+        "answer": "solo driving",
+        "evidence": {
+            "image_evidence": [
+                "LifeSim_12c993a2.png"
+            ]
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "shared hostel stay",
+                "solo driving",
+                "group bus tour",
+                "guided hiking trip"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_politics_science_architecture_f15e2709",
+                    "insert_conversation_turn": 345,
+                    "reference_name": "Fig. 2adc80fe"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "conv_history_name": "user_assistant_conversation_28c20a12.json",
+            "preference_user_name": "Alan Woods",
+            "original_question": "What type of travel activity does Alan Woods prefer for maximum control, low risk, and solitude?"
+        }
+    },
+    {
+        "id": "LifeSim_f25aac9e",
+        "domain": "LifeSim",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 28243a53, What film genre does Briley Hanson prefer to avoid due to predictability?",
+        "answer": "superhero",
+        "evidence": {
+            "image_evidence": [
+                "LifeSim_6a19ef48.png"
+            ]
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "superhero",
+                "horror",
+                "romantic comedy",
+                "drama"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_history_science_government_c9533961",
+                    "insert_conversation_turn": 138,
+                    "reference_name": "Fig. 28243a53"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "conv_history_name": "user_assistant_conversation_cb68f46a.json",
+            "preference_user_name": "Briley Hanson",
+            "original_question": "What film genre does Briley Hanson prefer to avoid due to predictability?"
+        }
+    },
+    {
+        "id": "LifeSim_395d7e0a",
+        "domain": "LifeSim",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 9a8b11ad, What type of food does Colt Kemp prefer to consume exclusively in their diet?",
+        "answer": "fermented foods",
+        "evidence": {
+            "image_evidence": [
+                "LifeSim_054f90e0.png"
+            ]
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "fresh fruit salads",
+                "fried foods",
+                "whole grain breads",
+                "fermented foods"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_history_science_government_c9533961",
+                    "insert_conversation_turn": 520,
+                    "reference_name": "Fig. 9a8b11ad"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "conv_history_name": "user_assistant_conversation_87c85df5.json",
+            "preference_user_name": "Colt Kemp",
+            "original_question": "What type of food does Colt Kemp prefer to consume exclusively in their diet?"
+        }
+    },
+    {
+        "id": "QA_sample_df0ee4c3_1",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 191e7d74, Among the activities that could reasonably occur in the given image, which one is Colt Kemp least likely to be doing?",
+        "answer": "Enjoying rock concerts",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Colt Kemp enjoys K-pop concerts, anime series, but dislikes rock concerts, indie films",
+                "In terms of lifestyle, Colt Kemp enjoys hot yoga, pilates, but dislikes forest bathing, holistic therapy"
+            ],
+            "image_evidence": [
+                "MMPB_73dc3548.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Colt Kemp enjoys road trips, city tours, but dislikes sailing, paragliding",
+                "In terms of shopping, Colt Kemp enjoys soundproofing panels, sleep-enhancing gadgets, but dislikes compact fitness equipment, desk organizers",
+                "In terms of fashion, Colt Kemp enjoys statement jewelry, minimalist rings, but dislikes vintage style, formal suits."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "Doing forest bathing",
+                "Attending live theater performances",
+                "Enjoying rock concerts",
+                "Enjoying symphony orchestra concerts"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_politics_science_architecture_f15e2709",
+                    "insert_conversation_turn": 774
+                },
+                {
+                    "conversation_name": "group_chat_history_science_government_c9533961",
+                    "insert_conversation_turn": 854
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_literature_science_art_and_design_baf57342",
+                    "insert_conversation_turn": 203,
+                    "reference_name": "Fig. 191e7d74"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_politics_science_architecture_f15e2709",
+                    "insert_conversation_turn": 444
+                },
+                {
+                    "conversation_name": "group_chat_history_science_government_c9533961",
+                    "insert_conversation_turn": 23
+                },
+                {
+                    "conversation_name": "group_chat_politics_science_architecture_f15e2709",
+                    "insert_conversation_turn": 324
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Tommy",
+            "description": "Tommy is a tall, slender individual with a well-defined jawline and a strong, angular facial structure. Their skin tone is fair, and they have striking blue eyes that are often seen gazing intently, adding to their enigmatic presence. Tommy sports short, neatly combed hair, and in some images, they wear a flat cap, which complements their overall look. The facial expressions range from contemplative to serious, with a hint of intensity that suggests a deep thinker or someone with a strong sense of purpose. The consistent pose across the images, often with a hand in the pocket or a cigarette in hand, conveys a sense of confidence and composure.\n\n**Outfit and Accessories:**\nTommy is consistently dressed in a formal, vintage-inspired style, characterized by a dark, tailored suit with a vest and a white shirt. The suit is often paired with a dark tie, adding to the classic and sophisticated appearance. The color palette is predominantly dark, with shades of navy and charcoal, which gives a timeless and elegant feel. The texture of the fabric appears to be high-quality wool, suitable for a formal setting. Tommy frequently wears a flat cap, which adds a touch of character and reinforces the vintage aesthetic. Accessories such as a pocket watch chain and a cigarette are recurring elements, suggesting a meticulous and perhaps slightly rebellious personality. The overall outfit exudes a sense of practicality and formality, with a touch of whimsy that defines Tommy's unique style.\n\n**Distinguishing Visual Features or Vibe:**\nThe most memorable and defining features of Tommy are their striking blue eyes, which are a focal point in every image. The consistent use of a dark, tailored suit with a flat cap creates a distinctive silhouette that is both timeless and character-defining. The recurring presence of a cigarette and a pocket watch chain adds to the vintage vibe, suggesting a connection to a bygone era. The overall aura conveyed by Tommy is one of mystery and intrigue, with a hint of sophistication and a touch of rebellion. The consistent use of dark colors and the vintage style creates a cohesive and unmistakable visual identity that is both memorable and captivating.",
+            "preference": "In terms of entertainment, Tommy enjoys K-pop concerts, anime series, but dislikes rock concerts, indie films. In terms of travel, Tommy enjoys road trips, city tours, but dislikes sailing, paragliding. In terms of lifestyle, Tommy enjoys hot yoga, pilates, but dislikes forest bathing, holistic therapy. In terms of shopping, Tommy enjoys soundproofing panels, sleep-enhancing gadgets, but dislikes compact fitness equipment, desk organizers. In terms of fashion, Tommy enjoys statement jewelry, minimalist rings, but dislikes vintage style, formal suits.",
+            "topic": [],
+            "original_id": "QA_sample_df0ee4c3",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Colt Kemp least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_df0ee4c3_2",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. a4b39e87, the image, what is Colt Kemp most likely to be doing?",
+        "answer": "Watching anime series",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Colt Kemp enjoys K-pop concerts, anime series, but dislikes rock concerts, indie films",
+                "In terms of lifestyle, Colt Kemp enjoys hot yoga, pilates, but dislikes forest bathing, holistic therapy"
+            ],
+            "image_evidence": [
+                "MMPB_ea429820.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Colt Kemp enjoys road trips, city tours, but dislikes sailing, paragliding",
+                "In terms of shopping, Colt Kemp enjoys soundproofing panels, sleep-enhancing gadgets, but dislikes compact fitness equipment, desk organizers",
+                "In terms of fashion, Colt Kemp enjoys statement jewelry, minimalist rings, but dislikes vintage style, formal suits."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Watching anime series",
+                "Enjoying a TV series binge",
+                "Road trips",
+                "Watching a movie marathon"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_politics_science_architecture_f15e2709",
+                    "insert_conversation_turn": 774
+                },
+                {
+                    "conversation_name": "group_chat_history_science_government_c9533961",
+                    "insert_conversation_turn": 854
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_history_science_government_c9533961",
+                    "insert_conversation_turn": 154,
+                    "reference_name": "Fig. a4b39e87"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_politics_science_architecture_f15e2709",
+                    "insert_conversation_turn": 444
+                },
+                {
+                    "conversation_name": "group_chat_history_science_government_c9533961",
+                    "insert_conversation_turn": 23
+                },
+                {
+                    "conversation_name": "group_chat_politics_science_architecture_f15e2709",
+                    "insert_conversation_turn": 324
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Tommy",
+            "description": "Tommy is a tall, slender individual with a well-defined jawline and a strong, angular facial structure. Their skin tone is fair, and they have striking blue eyes that are often seen gazing intently, adding to their enigmatic presence. Tommy sports short, neatly combed hair, and in some images, they wear a flat cap, which complements their overall look. The facial expressions range from contemplative to serious, with a hint of intensity that suggests a deep thinker or someone with a strong sense of purpose. The consistent pose across the images, often with a hand in the pocket or a cigarette in hand, conveys a sense of confidence and composure.\n\n**Outfit and Accessories:**\nTommy is consistently dressed in a formal, vintage-inspired style, characterized by a dark, tailored suit with a vest and a white shirt. The suit is often paired with a dark tie, adding to the classic and sophisticated appearance. The color palette is predominantly dark, with shades of navy and charcoal, which gives a timeless and elegant feel. The texture of the fabric appears to be high-quality wool, suitable for a formal setting. Tommy frequently wears a flat cap, which adds a touch of character and reinforces the vintage aesthetic. Accessories such as a pocket watch chain and a cigarette are recurring elements, suggesting a meticulous and perhaps slightly rebellious personality. The overall outfit exudes a sense of practicality and formality, with a touch of whimsy that defines Tommy's unique style.\n\n**Distinguishing Visual Features or Vibe:**\nThe most memorable and defining features of Tommy are their striking blue eyes, which are a focal point in every image. The consistent use of a dark, tailored suit with a flat cap creates a distinctive silhouette that is both timeless and character-defining. The recurring presence of a cigarette and a pocket watch chain adds to the vintage vibe, suggesting a connection to a bygone era. The overall aura conveyed by Tommy is one of mystery and intrigue, with a hint of sophistication and a touch of rebellion. The consistent use of dark colors and the vintage style creates a cohesive and unmistakable visual identity that is both memorable and captivating.",
+            "preference": "In terms of entertainment, Tommy enjoys K-pop concerts, anime series, but dislikes rock concerts, indie films. In terms of travel, Tommy enjoys road trips, city tours, but dislikes sailing, paragliding. In terms of lifestyle, Tommy enjoys hot yoga, pilates, but dislikes forest bathing, holistic therapy. In terms of shopping, Tommy enjoys soundproofing panels, sleep-enhancing gadgets, but dislikes compact fitness equipment, desk organizers. In terms of fashion, Tommy enjoys statement jewelry, minimalist rings, but dislikes vintage style, formal suits.",
+            "topic": [],
+            "original_id": "QA_sample_df0ee4c3",
+            "original_question": "the image, what is Colt Kemp most likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_560b88d6_1",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 4dd82de6, the image, what is Linda Anderson most likely to be doing?",
+        "answer": "Watching romantic dramas",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Linda Anderson enjoys sports TV, romantic dramas, but dislikes horror movies, sitcoms"
+            ],
+            "image_evidence": [
+                "MMPB_2d99653f.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Linda Anderson enjoys kayaking, snorkeling, but dislikes fine dining, street food",
+                "In terms of lifestyle, Linda Anderson enjoys forest bathing, holistic therapy, but dislikes meditation, yoga",
+                "In terms of shopping, Linda Anderson enjoys retro gaming consoles, wireless earbuds, but dislikes compact fitness equipment, desk organizers",
+                "In terms of fashion, Linda Anderson enjoys leather jackets, comfortable shoes, but dislikes handcrafted leather bags, woven hats."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "Watching action-packed movies",
+                "Watching suspense thrillers",
+                "Watching romantic dramas",
+                "Buying retro gaming consoles"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_literature_science_art_and_design_baf57342",
+                    "insert_conversation_turn": 854
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_politics_science_architecture_f15e2709",
+                    "insert_conversation_turn": 41,
+                    "reference_name": "Fig. 4dd82de6"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_history_science_government_c9533961",
+                    "insert_conversation_turn": 107
+                },
+                {
+                    "conversation_name": "group_chat_literature_science_art_and_design_baf57342",
+                    "insert_conversation_turn": 638
+                },
+                {
+                    "conversation_name": "group_chat_history_science_government_c9533961",
+                    "insert_conversation_turn": 730
+                },
+                {
+                    "conversation_name": "group_chat_history_science_government_c9533961",
+                    "insert_conversation_turn": 955
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Hwang",
+            "description": "Hwang is a man of medium build and average height, with a well-defined jawline and a slightly angular facial structure. His skin tone is fair, and he has a neat, short hairstyle that is consistently well-groomed. Hwang's facial expressions range from serious to contemplative, with a tendency to convey intensity and focus. His eyebrows are thick and well-defined, adding to his expressive features. In several images, he is seen with a neutral or slightly serious expression, suggesting a composed and thoughtful demeanor.\n\n**Outfit and Accessories:**\nHwang's attire is predominantly formal, featuring a mix of classic and contemporary styles. He is often seen in suits, with a preference for dark colors like black and navy, accented by white shirts and ties. In one image, he is wearing a striking white double-breasted suit, which stands out against the more subdued tones of his other outfits. The suits appear to be well-tailored, with attention to detail in the cut and fit. Hwang accessorizes with sunglasses in one scene, adding a touch of sophistication and mystery. The overall style of his clothing suggests a blend of professionalism and personal flair, with a focus on clean lines and a polished appearance.\n\n**Distinguishing Visual Features or Vibe:**\nHwang exudes a sense of confidence and authority, which is reinforced by his choice of clothing and posture. The recurring theme of formal attire, particularly suits, suggests a professional or high-status persona. His consistent grooming and the serious expressions in several images contribute to a composed and intense aura. The use of dark colors in his outfits, contrasted with the occasional bright white suit, adds depth and visual interest. The presence of accessories like sunglasses and the meticulous attention to detail in his attire further enhance his distinctive visual identity. Overall, Hwang's appearance is characterized by a blend of sophistication, intensity, and a touch of mystery, making him visually unmistakable.",
+            "preference": "In terms of entertainment, Hwang enjoys sports TV, romantic dramas, but dislikes horror movies, sitcoms. In terms of travel, Hwang enjoys kayaking, snorkeling, but dislikes fine dining, street food. In terms of lifestyle, Hwang enjoys forest bathing, holistic therapy, but dislikes meditation, yoga. In terms of shopping, Hwang enjoys retro gaming consoles, wireless earbuds, but dislikes compact fitness equipment, desk organizers. In terms of fashion, Hwang enjoys leather jackets, comfortable shoes, but dislikes handcrafted leather bags, woven hats.",
+            "topic": [],
+            "original_id": "QA_sample_560b88d6",
+            "original_question": "the image, what is Linda Anderson most likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_560b88d6_3",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 93b54e53, Among the activities that could reasonably occur in the given image, which one is Linda Anderson least likely to be doing?",
+        "answer": "Watching sitcom series",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Linda Anderson enjoys sports TV, romantic dramas, but dislikes horror movies, sitcoms"
+            ],
+            "image_evidence": [
+                "MMPB_ea429820.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Linda Anderson enjoys kayaking, snorkeling, but dislikes fine dining, street food",
+                "In terms of lifestyle, Linda Anderson enjoys forest bathing, holistic therapy, but dislikes meditation, yoga",
+                "In terms of shopping, Linda Anderson enjoys retro gaming consoles, wireless earbuds, but dislikes compact fitness equipment, desk organizers",
+                "In terms of fashion, Linda Anderson enjoys leather jackets, comfortable shoes, but dislikes handcrafted leather bags, woven hats."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Practicing meditation",
+                "Watching sitcom series",
+                "Streaming action flicks",
+                "Watching historical dramas"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_literature_science_art_and_design_baf57342",
+                    "insert_conversation_turn": 854
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_politics_science_architecture_f15e2709",
+                    "insert_conversation_turn": 507,
+                    "reference_name": "Fig. 93b54e53"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_history_science_government_c9533961",
+                    "insert_conversation_turn": 107
+                },
+                {
+                    "conversation_name": "group_chat_literature_science_art_and_design_baf57342",
+                    "insert_conversation_turn": 638
+                },
+                {
+                    "conversation_name": "group_chat_history_science_government_c9533961",
+                    "insert_conversation_turn": 730
+                },
+                {
+                    "conversation_name": "group_chat_history_science_government_c9533961",
+                    "insert_conversation_turn": 955
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Hwang",
+            "description": "Hwang is a man of medium build and average height, with a well-defined jawline and a slightly angular facial structure. His skin tone is fair, and he has a neat, short hairstyle that is consistently well-groomed. Hwang's facial expressions range from serious to contemplative, with a tendency to convey intensity and focus. His eyebrows are thick and well-defined, adding to his expressive features. In several images, he is seen with a neutral or slightly serious expression, suggesting a composed and thoughtful demeanor.\n\n**Outfit and Accessories:**\nHwang's attire is predominantly formal, featuring a mix of classic and contemporary styles. He is often seen in suits, with a preference for dark colors like black and navy, accented by white shirts and ties. In one image, he is wearing a striking white double-breasted suit, which stands out against the more subdued tones of his other outfits. The suits appear to be well-tailored, with attention to detail in the cut and fit. Hwang accessorizes with sunglasses in one scene, adding a touch of sophistication and mystery. The overall style of his clothing suggests a blend of professionalism and personal flair, with a focus on clean lines and a polished appearance.\n\n**Distinguishing Visual Features or Vibe:**\nHwang exudes a sense of confidence and authority, which is reinforced by his choice of clothing and posture. The recurring theme of formal attire, particularly suits, suggests a professional or high-status persona. His consistent grooming and the serious expressions in several images contribute to a composed and intense aura. The use of dark colors in his outfits, contrasted with the occasional bright white suit, adds depth and visual interest. The presence of accessories like sunglasses and the meticulous attention to detail in his attire further enhance his distinctive visual identity. Overall, Hwang's appearance is characterized by a blend of sophistication, intensity, and a touch of mystery, making him visually unmistakable.",
+            "preference": "In terms of entertainment, Hwang enjoys sports TV, romantic dramas, but dislikes horror movies, sitcoms. In terms of travel, Hwang enjoys kayaking, snorkeling, but dislikes fine dining, street food. In terms of lifestyle, Hwang enjoys forest bathing, holistic therapy, but dislikes meditation, yoga. In terms of shopping, Hwang enjoys retro gaming consoles, wireless earbuds, but dislikes compact fitness equipment, desk organizers. In terms of fashion, Hwang enjoys leather jackets, comfortable shoes, but dislikes handcrafted leather bags, woven hats.",
+            "topic": [],
+            "original_id": "QA_sample_560b88d6",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Linda Anderson least likely to be doing?"
+        }
+    },
+    {
+        "id": "LifeSim_a0bfe775",
+        "domain": "LifeSim",
+        "category": "Preference_QA",
+        "question": "Based on Fig. a40e5baf, What is Immanuel Goodwin's preferred method for maintaining fitness?",
+        "answer": "whole foods",
+        "evidence": {
+            "image_evidence": [
+                "LifeSim_5af53358.png"
+            ]
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "plant-based diet",
+                "interval training",
+                "whole foods",
+                "protein shakes"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_politics_science_architecture_f15e2709",
+                    "insert_conversation_turn": 619,
+                    "reference_name": "Fig. a40e5baf"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "conv_history_name": "user_assistant_conversation_011f0a3e.json",
+            "preference_user_name": "Immanuel Goodwin",
+            "original_question": "What is Immanuel Goodwin's preferred method for maintaining fitness?"
+        }
+    }
+]

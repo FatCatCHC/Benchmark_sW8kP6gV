@@ -1,0 +1,2679 @@
+[
+    {
+        "id": "QA_sample_1ce15338",
+        "domain": "MLLMKC",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. 0fbc5062, What is the nationality of the person in the picture?",
+        "answer": "American",
+        "evidence": {
+            "text_evidence": [
+                "John Cena was born on April 23, 1977. John Cena is American. John Cena is a professional wrestler and actor."
+            ],
+            "image_evidence": [
+                "MLLMKC_ab9969e7.jpg"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "John Cena was born on April 23, 1977. John Cena is Canadian. John Cena is a professional wrestler and actor."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "Canadian",
+                "Panamanian",
+                "American",
+                "Mexican"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_history_technology_4856238e",
+                    "insert_conversation_turn": 383
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_religion_sports_animals_e78b964a",
+                    "insert_conversation_turn": 125,
+                    "reference_name": "Fig. 0fbc5062"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_films_art_and_design_music_dccdfbfa",
+                    "insert_conversation_turn": 178
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "instance": "John Cena",
+            "category": "people",
+            "error_type": "location_error",
+            "topic": [
+                "sports"
+            ],
+            "original_question": "What is the nationality of the person in the picture?"
+        }
+    },
+    {
+        "id": "QA_sample_101e0940",
+        "domain": "MLLMKC",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. 10487804, What is the occupation of the person in the picture?",
+        "answer": "professional basketball player",
+        "evidence": {
+            "text_evidence": [
+                "Stephen Curry was born on March 14, 1988. Stephen Curry is American. Stephen Curry is a professional basketball player."
+            ],
+            "image_evidence": [
+                "MLLMKC_92892d1a.jpg"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Stephen Curry was born on March 14, 1988. Stephen Curry is American. Stephen Curry is a professional soccer player."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "professional baseball player  \nprofessional tennis player  \nprofessional volleyball player",
+                "professional soccer player",
+                "professional golfer",
+                "professional basketball player"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_religion_sports_animals_e78b964a",
+                    "insert_conversation_turn": 465
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_history_technology_4856238e",
+                    "insert_conversation_turn": 726,
+                    "reference_name": "Fig. 10487804"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_films_art_and_design_music_dccdfbfa",
+                    "insert_conversation_turn": 335
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "instance": "Stephen Curry",
+            "category": "people",
+            "error_type": "Career_error",
+            "topic": [
+                "sports"
+            ],
+            "original_question": "What is the occupation of the person in the picture?"
+        }
+    },
+    {
+        "id": "QA_sample_ffba4fcd",
+        "domain": "MLLMKC",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. 453da403, Who established the brand corresponding to the logo?",
+        "answer": "Bill Bowerman and Phil Knight",
+        "evidence": {
+            "text_evidence": [
+                "Nike was created in 1964. The creator of Nike is Bill Bowerman and Phil Knight. Nike is the brand of athletic footwear."
+            ],
+            "image_evidence": [
+                "MLLMKC_6d8a812e.jpg"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Nike was created in 1964. The creator of Nike is Michael Jordan and LeBron James. Nike is the brand of athletic footwear."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "Steve Jobs and Bill Gates",
+                "Michael Jordan and LeBron James",
+                "Mark Parker and Eric Sprunk",
+                "Bill Bowerman and Phil Knight"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_history_technology_4856238e",
+                    "insert_conversation_turn": 543
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_religion_sports_animals_e78b964a",
+                    "insert_conversation_turn": 103,
+                    "reference_name": "Fig. 453da403"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_films_art_and_design_music_dccdfbfa",
+                    "insert_conversation_turn": 227
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "instance": "Nike",
+            "category": "logo",
+            "error_type": "creator_error",
+            "topic": [
+                "sports",
+                " business",
+                " fashion"
+            ],
+            "original_question": "Who established the brand corresponding to the logo?"
+        }
+    },
+    {
+        "id": "QA_sample_6c02d175",
+        "domain": "MMCV",
+        "category": "Multi_Hop_QA",
+        "question": "Based on Table. d006d241, In the year when a cricket team known for its historical home city faced off against the Chennai Super Kings and played at least one match in a historical city with a population exceeding 3 million, how many IPL titles had that team won since the league's inception?",
+        "answer": "1",
+        "evidence": {
+            "text_evidence": [
+                "There have been eleven seasons of the IPL tournament. The current IPL title holders are the Chennai Super Kings, who won the 2018 season. The most successful franchises in the tournament are the Chennai Super Kings and Mumbai Indians with 3 tournament wins each."
+            ],
+            "image_evidence": [],
+            "table_evidence": [
+                {
+                    "title": "Rajasthan Royals in 2012",
+                    "table_name": "Match log",
+                    "table_header": [
+                        "No.",
+                        "Date",
+                        "Opponent",
+                        "Venue",
+                        "Result",
+                        "Man of the Match",
+                        "Scorecard link"
+                    ],
+                    "table_rows": [
+                        [
+                            "1",
+                            "",
+                            "Kings XI Punjab",
+                            "Jaipur",
+                            "Won by 31 runs",
+                            "Ajinkya Rahane (98)",
+                            "[http://www.espnstar.com/cricket/results/scorecard/?matchfile=Scorecard-JAI-MOH-APR-6-2012.html Scorecard]"
+                        ],
+                        [
+                            "2",
+                            "",
+                            "Kolkata Knight Riders",
+                            "Jaipur",
+                            "Won by 22 runs",
+                            "Brad Hodge 44 (29)",
+                            "[http://www.espnstar.com/cricket/results/scorecard/?matchfile=Scorecard-JAI-KOL-APR-8-2012.html Scorecard]"
+                        ],
+                        [
+                            "3",
+                            "",
+                            "Mumbai Indians",
+                            "Mumbai",
+                            "Lost by 27 runs",
+                            "",
+                            "[http://www.espncricinfo.com/indian-premier-league-2012/engine/match/548317.html Scorecard]"
+                        ],
+                        [
+                            "4",
+                            "",
+                            "Kolkata Knight Riders",
+                            "Kolkata",
+                            "Lost by 5 wickets",
+                            "",
+                            "[http://www.espnstar.com/cricket/results/scorecard/?matchfile=Scorecard-KOL-JAI-APR-13-2012.html Scorecard]"
+                        ],
+                        [
+                            "5",
+                            "",
+                            "Royal Challengers Bangalore",
+                            "Bangalore",
+                            "Won by 59 runs",
+                            "Ajinkya Rahane 103",
+                            "[http://www.espncricinfo.com/indian-premier-league-2012/engine/current/match/548324.html Scorecard]"
+                        ],
+                        [
+                            "6",
+                            "",
+                            "Deccan Chargers",
+                            "Jaipur",
+                            "Won by 5 wickets",
+                            "Brad Hodge",
+                            "[http://www.espncricinfo.com/indian-premier-league-2012/engine/match/548326.html Scorecard]"
+                        ],
+                        [
+                            "7",
+                            "",
+                            "Chennai Super Kings",
+                            "Chennai",
+                            "Lost by 7 Wickets",
+                            "",
+                            "[http://www.espncricinfo.com/indian-premier-league-2012/engine/match/548332.html Scorecard]"
+                        ],
+                        [
+                            "8",
+                            "",
+                            "Royal Challengers Bangalore",
+                            "Jaipur",
+                            "Lost by 46 runs",
+                            "",
+                            "[http://www.espncricinfo.com/indian-premier-league-2012/engine/current/match/548336.html Scorecard]"
+                        ],
+                        [
+                            "9",
+                            "",
+                            "Delhi Daredevils",
+                            "New Delhi",
+                            "Lost by 1 run",
+                            "",
+                            "[http://www.espncricinfo.com/indian-premier-league-2012/engine/current/match/548345.html Scorecard]"
+                        ],
+                        [
+                            "10",
+                            "",
+                            "Delhi Daredevils",
+                            "Jaipur",
+                            "Lost by 6 wickets",
+                            "",
+                            "[http://www.espncricinfo.com/indian-premier-league-2012/engine/current/match/548349.html Scorecard]"
+                        ],
+                        [
+                            "11",
+                            "",
+                            "Kings XI Punjab",
+                            "Mohali",
+                            "Won by 43 runs",
+                            "Shane Watson",
+                            "[http://www.espncricinfo.com/indian-premier-league-2012/engine/current/match/548354.html Score Card]"
+                        ],
+                        [
+                            "12",
+                            "",
+                            "Pune Warriors India",
+                            "Pune",
+                            "Won by 7 wickets",
+                            "Shane Watson 90* (51)",
+                            "[http://www.espncricinfo.com/indian-premier-league-2012/engine/current/match/548358.html Scorecard]"
+                        ],
+                        [
+                            "13",
+                            "",
+                            "Chennai Super Kings",
+                            "Jaipur",
+                            "Lost by 4 Wickets",
+                            "",
+                            "[http://www.espncricinfo.com/indian-premier-league-2012/engine/match/548361.html Scorecard]"
+                        ],
+                        [
+                            "14",
+                            "",
+                            "Pune Warriors India",
+                            "Jaipur",
+                            "Won by 45 runs",
+                            "Ajit Chandila 4/13",
+                            "[http://www.espncricinfo.com/indian-premier-league-2012/engine/match/548365.html Scorecard]"
+                        ],
+                        [
+                            "15",
+                            "",
+                            "Deccan Chargers",
+                            "Hyderabad",
+                            "Lost by 5 Wickets",
+                            "",
+                            "[http://www.espncricinfo.com/indian-premier-league-2012/engine/match/548373.html Scorecard]"
+                        ],
+                        [
+                            "16",
+                            "",
+                            "Mumbai Indians",
+                            "Jaipur",
+                            "Lost by 10 wickets",
+                            "",
+                            "[http://www.espncricinfo.com/indian-premier-league-2012/engine/match/548377.html Scorecard]"
+                        ]
+                    ]
+                }
+            ],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "3",
+                "1",
+                "0",
+                "2"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_religion_sports_animals_e78b964a",
+                    "insert_conversation_turn": 271
+                }
+            ],
+            "image_evidence_assignment": [],
+            "table_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_history_technology_4856238e",
+                    "insert_conversation_turn": 50,
+                    "reference_name": "Table. d006d241"
+                }
+            ],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "sports",
+                "cricket"
+            ],
+            "original_question": "In the year when a cricket team known for its historical home city faced off against the Chennai Super Kings and played at least one match in a historical city with a population exceeding 3 million, how many IPL titles had that team won since the league's inception?"
+        }
+    },
+    {
+        "id": "0780c1c9",
+        "domain": "MMDocRAG",
+        "category": "Single_Hop_QA",
+        "question": "Based on Doc. 5ad1861d, Doc. 9e5e79e7, Doc. e85e97c4, How many strengths and weaknesses are metioned in Appendix C? Represent these two numbers as format of list.",
+        "answer": "23, 21",
+        "evidence": {
+            "text_evidence": [],
+            "image_evidence": [],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": [
+                [
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "1. 2015 State Themes and Strengths Assessment \n\n 2. Agency Strategic Plan Status Report \n\n 3. Division of Medical Quality Assurance Annual Report and Long-range Plan FY 2014-2015 \n\n 4. Division of Medical Quality Assurance Employee Training Log \n\n 5. Employee Satisfaction Survey 2015 Results  \n\n 6. Florida Board of Acupuncture Twitter  \n\n 7. Florida Board of Athletic Training Twitter  \n\n 8. Florida Board of Chiropractic Medicine Twitter  \n\n 9. Florida Board of Clinical Laboratory Personnel Twitter  \n\n 10. Florida Board of Dentistry Twitter  \n\n 11. Florida Board of Hearing Aid Specialists Twitter  \n\n 12. Florida Board of Massage Therapy Twitter  \n\n 13. Florida Board of Medicine Twitter  \n\n 14. Florida Board of Clinical Social Work, Marriage & Family Therapy,   and Mental Health Counseling Twitter  \n\n 15. Florida Board of Nursing Twitter  \n\n 16. Florida Board of Nursing Home Administrators Twitter \n\n 17. Florida Board of Occupational Therapy Twitter \n\n 18. Florida Board of Optometry Twitter \n\n 19. Florida Board of Opticianry Twitter \n\n 20. Florida Board of Orthotists and Pros thetis ts Twitter \n\n 21. Florida Board of Osteopathic Medicine Twitter \n\n 22. Florida Board of Pharmacy Twitter \n\n 23. Florida Board of Physical Therapy Twitter \n\n 24. Florida Board of Podiatric Medicine Twitter \n\n 25. Florida Board of Psychology Twitter \n\n 26. Florida Board of Respiratory Care Twitter \n\n 27. Florida Board of Speech-Language Pathology and Audiology Twitter \n\n 28. Florida Department of Health Facebook \n\n 29. Florida Department of Health, Long Range Program Plan 2015-16 through 2019-20 \n\n 30. Florida Department of Health Newsroom \n\n 31. Florida Department of Health, Office of Inspector General Annual Report FY 2013-2014 \n\n 32. Florida Department of Health Twitter \n\n 33. Florida Department of Health, Year in Review 2013-2014 \n\n 34. Florida Department of Health, Florida Health Impact Report 2014-15 by the Numbers \n\n 35. Florida Strategic Plan for Economic Development \n\n 36. Healthiest Weight State Profile \n\n 37. Physician Workforce Annual Report 2014 \n\n 38. State Monthly Economic Updates  "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Threats   "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Strengths, Weaknesses, Opportunities and Threats  "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_61e84d7b.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_abbf49ec.png"
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Workforce turnover/employees recruited by other agencies  Legislature/legislative mandates  Non-competitive salaries  Constant reorganization  Timely appointments to boards/councils  Cross-disciplinary collaboration  Attendance at board/council meetings  Expertise of board/council members  Commitment of board/council members to the protection of the public  Legislative change process  Rule-making authority of boards/councils  Standards of practice in statute  North Carolina State Board of Dental Examiners v. Federal Trade Commission   (Supreme Court Ruling-Antitrust Laws)  External communications  Administrative allocation of trust fund  "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "The Division of Medical Quality Assurance (MQA) management team, made up of the division  director, bureau chiefs and other key staff, oversaw the development of this strategic plan. Prior to  its first strategic planning meeting, a SWOT analysis (Appendix C) was sent out to MQA executive  management and employees. The results were analyzed to determine the similarities and  differences. Gaps were identified and addressed during a strategic planning retreat in which MQA  management met with the division’s Strategic Planning Unit to discuss best practices and solutions.  The meeting was the first of many in-depth discussions to develop a strategic plan that promoted  MQA’s dedication to making Florida the healthiest state to live, work, practice and retire.   "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "The following list features all attendees of the division’s strategic planning process meetings,  including the MQA Strategic Planning Retreat held in July 2015 and the Healthiest Weight Liaisons  and Board Chairs/Vice Chairs Annual Long-range Planning Meetings held in September 2015.  Although not included individually in the list, all MQA employees, management and board/council  members participated in a Strengths, Weaknesses, Opportunities and Threats (SWOT) survey  in 2015.  "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_d2a5a382.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_431c363b.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "  Appendix C   "
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Process improvement  Hiring process  Inter-agency information sharing  Involving front-line employees in process improvements  Cross-disciplinary collaboration  Consumer member participation in board/council meetings  Public participation in board/council meetings  Rule-making authority of boards/councils  Legislative change process  Standards of practice in statute  External communications  Board/council meetings  Internal communications  Health care practitioner licensure process  Timely prosecution  Quality of settlement agreements  Impaired practitioner programs: Professionals Recovery Network (PRN)   and Intervention Project for Nurses (IPN)  Expertise of prosecutors  "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Board/council meetings  Internal communications  Timely prosecution  Quality of settlement agreements  Costs to prosecute  Prosecuting attorney staffing  Expertise of prosecutors  "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_3accd5cd.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_0f410366.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "As depicted in the image below, strategic planning is a key component of the larger performance  management system. This statewide performance management system is the cornerstone of the  Department’s organizational culture of accountability and performance excellence.   "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Another SWOT was developed and designed for MQA’s executive management and board  members to determine if the division’s strategies and mission aligned with those of its health care  boards. The division director presented the results of the survey at the Annual Board Chairs/Vice  Chairs Long-range Planning meeting to executive management and board members. Meeting  attendees took part in a facilitated discussion that included information management,  communications, programs and services, budget (financial sustainability), and workforce  development. Leadership staff conducted an environmental scan of the agency (sources listed in  Appendix E). Results were reviewed and the progress of the current  Department of Health Strategic  Plan  was analyzed to formulate additional strategies and objectives for each priority area.   The revised proposal was then routed back to executive leadership for comment and approval.  "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "  I  nnovation: We search for creative solutions and manage resources wisely.  C  ol labor ation: We use teamwork to achieve common goals & solve problems.  A  c count ability: We perform with integrity   $\\&$   respect.   R  esp on sive ness: We achieve our mission by serving our customers & engaging our partners.  E  xcellence: We promote quality outcomes through learning & continuous performance  improvement.  "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_ba326416.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_81283925.png"
+                        }
+                    }
+                ]
+            ]
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "23, 21",
+                "20, 22",
+                "25, 17",
+                "18, 19"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [],
+            "image_evidence_assignment": [],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_religion_sports_animals_e78b964a",
+                    "insert_conversation_turn": 850,
+                    "reference_name": "Doc. 5ad1861d"
+                },
+                {
+                    "conversation_name": "group_chat_films_art_and_design_music_dccdfbfa",
+                    "insert_conversation_turn": 814,
+                    "reference_name": "Doc. 9e5e79e7"
+                },
+                {
+                    "conversation_name": "group_chat_films_art_and_design_music_dccdfbfa",
+                    "insert_conversation_turn": 681,
+                    "reference_name": "Doc. e85e97c4"
+                }
+            ]
+        },
+        "meta_data": {
+            "category": "Administration/Industry file",
+            "doc_name": "e79deb02a0c0e87511080836c5d4347b",
+            "gold_quotes": [
+                "text7",
+                "image2"
+            ],
+            "topic": [
+                "health",
+                "government"
+            ],
+            "original_question": "How many strengths and weaknesses are metioned in Appendix C? Represent these two numbers as format of list."
+        }
+    },
+    {
+        "id": "QA_sample_af308db7",
+        "domain": "SlideVQA",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 97f96b79, Fig. d1c6819f, What did the act which made no provision about social impact assessment say about Compensation?",
+        "answer": "Based on the market value",
+        "evidence": {
+            "text_evidence": [],
+            "image_evidence": [
+                "SlideVQA_3229c1b8_page_12.png",
+                "SlideVQA_3229c1b8_page_14.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Based on the market value",
+                "Compensation determined by government valuation standards",
+                "Compensation based on historical purchase records",
+                "Market value doubled in rural areas"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_films_art_and_design_music_dccdfbfa",
+                    "insert_conversation_turn": 56,
+                    "reference_name": "Fig. 97f96b79"
+                },
+                {
+                    "conversation_name": "group_chat_religion_sports_animals_e78b964a",
+                    "insert_conversation_turn": 835,
+                    "reference_name": "Fig. d1c6819f"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "government",
+                "economy"
+            ],
+            "original_question": "What did the act which made no provision about social impact assessment say about Compensation?"
+        }
+    },
+    {
+        "id": "QA_sample_9f94761e",
+        "domain": "MMCV",
+        "category": "Multi_Hop_QA",
+        "question": "Based on Table. b5cf2ef8, Which team played against the Seattle Seahawks in their first game of the 1992 season, and in which venue did this game take place?",
+        "answer": "Cincinnati Bengals, Kingdome",
+        "evidence": {
+            "text_evidence": [
+                "The 2017 NFL season, the 98th and current season in the history of the National Football League (NFL), began on September 7, 2017, with the Kansas City Chiefs defeating the defending Super Bowl LI champion New England Patriots 42–27 in the NFL Kickoff Game. The season will conclude with Super Bowl LII, the league's championship game, on February 4, 2018, at U.S. Bank Stadium in Minneapolis, Minnesota."
+            ],
+            "image_evidence": [],
+            "table_evidence": [
+                {
+                    "title": "1992 Seattle Seahawks season",
+                    "table_name": "Regular season",
+                    "table_header": [
+                        "Week",
+                        "Date",
+                        "Kickoff",
+                        "Opponent",
+                        "Results - Final score",
+                        "Results - Team record",
+                        "Game Site",
+                        "Attendance",
+                        "TV",
+                        "Recap"
+                    ],
+                    "table_rows": [
+                        [
+                            "1",
+                            "September 6",
+                            "1:00pm PDT",
+                            "Cincinnati Bengals",
+                            "L 3–21",
+                            "0–1",
+                            "Kingdome",
+                            "57,350",
+                            "NBC",
+                            "[https://web.archive.org/web/20150221072131/http://seahawksmedia.com/PlayByPlays/1992/1992_09_06_CIN.PDF Recap]"
+                        ],
+                        [
+                            "2",
+                            "September 13",
+                            "10:00am PDT",
+                            "at Kansas City Chiefs",
+                            "L 7–26",
+                            "0–2",
+                            "Arrowhead Stadium",
+                            "75,125",
+                            "NBC",
+                            "[https://web.archive.org/web/20150221072136/http://seahawksmedia.com/PlayByPlays/1992/1992_09_13_atKC.PDF Recap]"
+                        ],
+                        [
+                            "3",
+                            "September 20",
+                            "10:00am PDT",
+                            "at New England Patriots",
+                            "W 10–6",
+                            "1–2",
+                            "Foxboro Stadium",
+                            "42,327",
+                            "NBC",
+                            "[https://web.archive.org/web/20150221060617/http://seahawksmedia.com/PlayByPlays/1992/1992_09_20_atNE.PDF Recap]"
+                        ],
+                        [
+                            "4",
+                            "September 27",
+                            "1:00pm PDT",
+                            "Miami Dolphins",
+                            "L 17–19",
+                            "1–3",
+                            "Kingdome",
+                            "59,374",
+                            "NBC",
+                            "[https://web.archive.org/web/20150221062106/http://seahawksmedia.com/PlayByPlays/1992/1992_09_27_MIA.PDF Recap]"
+                        ],
+                        [
+                            "5",
+                            "October 4",
+                            "1:00pm PDT",
+                            "at San Diego Chargers",
+                            "L 6–17",
+                            "1–4",
+                            "Jack Murphy Stadium",
+                            "36,783",
+                            "NBC",
+                            "[https://web.archive.org/web/20150221062127/http://seahawksmedia.com/PlayByPlays/1992/1992_10_04_atSD.PDF Recap]"
+                        ],
+                        [
+                            "6",
+                            "October 11",
+                            "10:00am PDT",
+                            "at Dallas Cowboys",
+                            "L 0–27",
+                            "1–5",
+                            "Texas Stadium",
+                            "62,311",
+                            "NBC",
+                            "[https://web.archive.org/web/20150221060827/http://seahawksmedia.com/PlayByPlays/1992/1992_10_11_atDAL.PDF Recap]"
+                        ],
+                        [
+                            "7",
+                            "October 18",
+                            "1:00pm PDT",
+                            "Los Angeles Raiders",
+                            "L 0–19",
+                            "1–6",
+                            "Kingdome",
+                            "56,904",
+                            "NBC",
+                            "[https://web.archive.org/web/20150221060849/http://seahawksmedia.com/PlayByPlays/1992/1992_10_18_LA.PDF Recap]"
+                        ],
+                        [
+                            "8",
+                            "October 25",
+                            "10:00am PST",
+                            "at New York Giants",
+                            "L 10–23",
+                            "1–7",
+                            "Giants Stadium",
+                            "67,399",
+                            "NBC",
+                            "[https://web.archive.org/web/20150221072116/http://seahawksmedia.com/PlayByPlays/1992/1992_10_25_atNYG.PDF Recap]"
+                        ],
+                        [
+                            "9",
+                            "Bye",
+                            "Bye",
+                            "Bye",
+                            "Bye",
+                            "Bye",
+                            "Bye",
+                            "Bye",
+                            "Bye",
+                            "Bye"
+                        ],
+                        [
+                            "10",
+                            "November 8",
+                            "1:00pm PST",
+                            "Washington Redskins",
+                            "L 3–16",
+                            "1–8",
+                            "Kingdome",
+                            "53,616",
+                            "CBS",
+                            "[https://web.archive.org/web/20150221061129/http://seahawksmedia.com/PlayByPlays/1992/1992_11_08_WAS.PDF Recap]"
+                        ],
+                        [
+                            "11",
+                            "November 15",
+                            "1:00pm PST",
+                            "at Los Angeles Raiders",
+                            "L 3–20",
+                            "1–9",
+                            "Memorial Coliseum",
+                            "46,862",
+                            "NBC",
+                            "[https://web.archive.org/web/20150221062215/http://seahawksmedia.com/PlayByPlays/1992/1992_11_15_atLA.PDF Recap]"
+                        ],
+                        [
+                            "12",
+                            "November 22",
+                            "5:00pm PST",
+                            "Kansas City Chiefs",
+                            "L 14–24",
+                            "1–10",
+                            "Kingdome",
+                            "49,867",
+                            "ESPN",
+                            "[https://web.archive.org/web/20150221062244/http://seahawksmedia.com/PlayByPlays/1992/1992_11_22_KC.PDF Recap]"
+                        ],
+                        [
+                            "13",
+                            "Friday (November 30)",
+                            "6:00pm PST",
+                            "Denver Broncos",
+                            "W 16–13 (OT)",
+                            "2–10",
+                            "Kingdome",
+                            "51,612",
+                            "ABC",
+                            "[https://web.archive.org/web/20150221072306/http://seahawksmedia.com/PlayByPlays/1992/1992_11_30_DEN.PDF Recap]"
+                        ],
+                        [
+                            "14",
+                            "December 6",
+                            "10:00am PST",
+                            "at Pittsburgh Steelers",
+                            "L 14–20",
+                            "2–11",
+                            "Three Rivers Stadium",
+                            "47,015",
+                            "NBC",
+                            "[https://web.archive.org/web/20150221060523/http://seahawksmedia.com/PlayByPlays/1992/1992_12_06_atPIT.PDF Recap]"
+                        ],
+                        [
+                            "15",
+                            "December 13",
+                            "1:00pm PST",
+                            "Philadelphia Eagles",
+                            "L 17–20 (OT)",
+                            "2–12",
+                            "Kingdome",
+                            "47,492",
+                            "CBS",
+                            "[https://web.archive.org/web/20150221061711/http://seahawksmedia.com/PlayByPlays/1992/1992_12_13_PHI.PDF Recap]"
+                        ],
+                        [
+                            "16",
+                            "December 20",
+                            "1:00pm PST",
+                            "at Denver Broncos",
+                            "L 6–10",
+                            "2–13",
+                            "Mile High Stadium",
+                            "72,570",
+                            "NBC",
+                            "[https://web.archive.org/web/20150221061643/http://seahawksmedia.com/PlayByPlays/1992/1992_12_20_atDEN.PDF Recap]"
+                        ],
+                        [
+                            "17",
+                            "December 27",
+                            "1:00pm PST",
+                            "San Diego Chargers",
+                            "L 14–31",
+                            "2–14",
+                            "Kingdome",
+                            "49,324",
+                            "NBC",
+                            "[https://web.archive.org/web/20150221062352/http://seahawksmedia.com/PlayByPlays/1992/1992_12_27_SD.PDF Recap]"
+                        ]
+                    ]
+                }
+            ],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Los Angeles Raiders, Kingdome",
+                "Cincinnati Bengals, Kingdome",
+                "Washington Redskins, Kingdome",
+                "Miami Dolphins, Kingdome"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_films_art_and_design_music_dccdfbfa",
+                    "insert_conversation_turn": 556
+                }
+            ],
+            "image_evidence_assignment": [],
+            "table_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_religion_sports_animals_e78b964a",
+                    "insert_conversation_turn": 146,
+                    "reference_name": "Table. b5cf2ef8"
+                }
+            ],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "sports"
+            ],
+            "original_question": "Which team played against the Seattle Seahawks in their first game of the 1992 season, and in which venue did this game take place?"
+        }
+    },
+    {
+        "id": "QA_sample_52881faa",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 4a824f91, the text, using the \"dominant perception\" rule, do either political groups identify Russia's military buildup near Ukraine as a 'major threat'?",
+        "answer": "No",
+        "evidence": {
+            "text_evidence": [
+                "A bipartisan study found no major partisan differences regarding Russia's role in relation to the United States and concerns over Russia's military buildup near Ukraine. Among respondents, Russia could be identified as an 'enemy,' 'competitor,' or 'partner,' while the military buildup's threat level could be ranked as 'major threat,' 'minor threat,' 'not a threat,' or 'not sure.' If either political group has at least 50% of respondents selecting one specific view or threat level, it is identified as the dominant perception for that group."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_aa7747e0.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Yes",
+                "No"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_films_art_and_design_music_dccdfbfa",
+                    "insert_conversation_turn": 901
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_religion_sports_animals_e78b964a",
+                    "insert_conversation_turn": 785,
+                    "reference_name": "Fig. 4a824f91"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "politics",
+                "government"
+            ],
+            "original_question": "the text, using the \"dominant perception\" rule, do either political groups identify Russia's military buildup near Ukraine as a 'major threat'?"
+        }
+    },
+    {
+        "id": "QA_sample_c74255bd",
+        "domain": "MMCV",
+        "category": "Multi_Hop_QA",
+        "question": "Based on Table. c1bdb2a9, Which venue hosted the matchup between the team that defeated the Dallas Cowboys in a Super Bowl and the team that played against the Minnesota Vikings during the 1970 regular season?",
+        "answer": "Metropolitan Stadium",
+        "evidence": {
+            "text_evidence": [
+                "The Colts have been a member club of the NFL since their founding in Baltimore in 1953. They were one of three NFL teams to join those of the American Football League (AFL) to form the AFC following the 1970 merger. While in Baltimore, the team advanced to the playoffs 10 times and won three NFL Championship games in 1958, 1959, and 1968. The Colts played in two Super Bowls, while they were based in Baltimore, losing to the New York Jets in Super Bowl III and defeating the Dallas Cowboys in Super Bowl V. The Colts relocated to Indianapolis in 1984 and have since appeared in the playoffs 16 times, won two conference championships, and won one Super Bowl, in which they defeated the Chicago Bears in Super Bowl XLI."
+            ],
+            "image_evidence": [],
+            "table_evidence": [
+                {
+                    "title": "1970 Minnesota Vikings season",
+                    "table_name": "Regular season | Schedule",
+                    "table_header": [
+                        "Week",
+                        "Date",
+                        "Opponent",
+                        "Result",
+                        "Record",
+                        "Venue",
+                        "Attendance"
+                    ],
+                    "table_rows": [
+                        [
+                            "1",
+                            "September 20, 1970",
+                            "Kansas City Chiefs",
+                            "W 27–10",
+                            "1–0",
+                            "Metropolitan Stadium",
+                            "47,900"
+                        ],
+                        [
+                            "2",
+                            "September 27, 1970",
+                            "New Orleans Saints",
+                            "W 26–0",
+                            "2–0",
+                            "Metropolitan Stadium",
+                            "47,900"
+                        ],
+                        [
+                            "3",
+                            "October 4, 1970",
+                            "at Green Bay Packers",
+                            "L 10–13",
+                            "2–1",
+                            "Milwaukee County Stadium",
+                            "47,967"
+                        ],
+                        [
+                            "4",
+                            "October 11, 1970",
+                            "at Chicago Bears",
+                            "W 24–0",
+                            "3–1",
+                            "Wrigley Field",
+                            "45,485"
+                        ],
+                        [
+                            "5",
+                            "October 18, 1970",
+                            "Dallas Cowboys",
+                            "W 54–13",
+                            "4–1",
+                            "Metropolitan Stadium",
+                            "47,900"
+                        ],
+                        [
+                            "6",
+                            "October 26, 1970",
+                            "Los Angeles Rams",
+                            "W 13–3",
+                            "5–1",
+                            "Metropolitan Stadium",
+                            "47,900"
+                        ],
+                        [
+                            "7",
+                            "November 1, 1970",
+                            "at Detroit Lions",
+                            "W 30–17",
+                            "6–1",
+                            "Tiger Stadium",
+                            "58,210"
+                        ],
+                        [
+                            "8",
+                            "November 8, 1970",
+                            "at Washington Redskins",
+                            "W 19–10",
+                            "7–1",
+                            "Robert F. Kennedy Memorial Stadium",
+                            "50,415"
+                        ],
+                        [
+                            "9",
+                            "November 15, 1970",
+                            "Detroit Lions",
+                            "W 24–20",
+                            "8–1",
+                            "Metropolitan Stadium",
+                            "47,900"
+                        ],
+                        [
+                            "10",
+                            "November 22, 1970",
+                            "Green Bay Packers",
+                            "W 10–3",
+                            "9–1",
+                            "Metropolitan Stadium",
+                            "47,900"
+                        ],
+                        [
+                            "11",
+                            "November 29, 1970",
+                            "at New York Jets",
+                            "L 10-20",
+                            "9–2",
+                            "Shea Stadium",
+                            "62,333"
+                        ],
+                        [
+                            "12",
+                            "December 5, 1970",
+                            "Chicago Bears",
+                            "W 16–13",
+                            "10–2",
+                            "Metropolitan Stadium",
+                            "47,900"
+                        ],
+                        [
+                            "13",
+                            "December 13, 1970",
+                            "at Boston Patriots",
+                            "W 35–14",
+                            "11–2",
+                            "Harvard Stadium",
+                            "37,819"
+                        ],
+                        [
+                            "14",
+                            "December 20, 1970",
+                            "at Atlanta Falcons",
+                            "W 37–7",
+                            "12–2",
+                            "Atlanta Stadium",
+                            "57,992"
+                        ]
+                    ]
+                }
+            ],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "Wrigley Field",
+                "Milwaukee County Stadium",
+                "Tiger Stadium",
+                "Metropolitan Stadium"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_religion_sports_animals_e78b964a",
+                    "insert_conversation_turn": 350
+                }
+            ],
+            "image_evidence_assignment": [],
+            "table_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_history_technology_4856238e",
+                    "insert_conversation_turn": 66,
+                    "reference_name": "Table. c1bdb2a9"
+                }
+            ],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "sports"
+            ],
+            "original_question": "Which venue hosted the matchup between the team that defeated the Dallas Cowboys in a Super Bowl and the team that played against the Minnesota Vikings during the 1970 regular season?"
+        }
+    },
+    {
+        "id": "274e4f31",
+        "domain": "MMDocRAG",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. d38109df, Doc. a63c9491, Doc. 57516b46, Is it possible for someone to be granted a subclass 202 (Global Special Humanitarian visa) if they are in Australia?",
+        "answer": "No",
+        "evidence": {
+            "text_evidence": [],
+            "image_evidence": [
+                "MMDocRAG_8d953c25.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": [
+                [
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Prepared by the Staff of the Global Legal Research Directorate  "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Argentina • Australia • Brazil • Canada • China  Germany • India • Italy • Japan • Mexico   $\\bullet$   Russia  Saudi Arabia • South Africa   $\\bullet$   South Korea  Turkey   $\\bullet$   United Kingdom  "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Petitioning for Humanitarian Protection  From Outside the Country  "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_30cfb418.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_b4a1759f.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "SUMMARY   This report reviews the laws and regulations of select G-20 countries regarding the application process for asylum and humanitarian protection, specifically whether an  applicant’s physical presence in the country is required to apply for asylum or refugee status. All the countries reviewed are parties to the 1951 Convention Relating to the  Status of Refugees and its 1967 Protocol, except for India and Saudi Arabia. It appears that these two countries do not have specific legislation governing the granting of  asylum and refugee status. In all the other surveyed jurisdictions, these issues are governed by national laws and executive regulations issued by authorities in charge of  resolving migration-related issues. Most of the countries included in this survey require an applicant’s physical presence at the border or within the country’s territory. In  some countries (Argentina, Mexico, Russia, South Africa, and Turkey), a time limit for the period when an application can be submitted is in place. Canada and Mexico each  accept asylum applications from outside of the country. Canada processes such applications as a part of its visa application process, while Mexico allows submitting a petition  from outside of the country for political asylum only. Brazil, as a party to the Convention on Diplomatic Asylum of the Organization of American States, allows applicants  to request diplomatic asylum in Brazilian embassies abroad. Australia and Canada allow humanitarian protection and refugee status requests from abroad when protection  is sought through a resettlement program administered by the United Nations, another designated referral agency, or by private sponsorship. In Russia, current legislation  enables consular offices abroad to review applications and grant temporary protection status that allows entry to the country; however, this provision is excluded from a  recently introduced bill.     "
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "This report is provided for reference purposes only.  It does not constitute legal advice and does not represent the official  opinion of the United States Government. The information provided  reflects research undertaken as of the date of writing.   It has not been updated. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "LL File No. 2023-022007 LRA-D-PUB-002613 "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_432deba9.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_993a77eb.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Petitioning for Humanitarian  Protection From Outside the  Country   "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_79071c3a.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_c6453935.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_b4d3e093.png"
+                        }
+                    }
+                ]
+            ]
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "No",
+                "Yes"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_religion_sports_animals_e78b964a",
+                    "insert_conversation_turn": 386,
+                    "reference_name": "Fig. d38109df"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_history_technology_4856238e",
+                    "insert_conversation_turn": 422,
+                    "reference_name": "Doc. a63c9491"
+                },
+                {
+                    "conversation_name": "group_chat_films_art_and_design_music_dccdfbfa",
+                    "insert_conversation_turn": 651,
+                    "reference_name": "Doc. 57516b46"
+                }
+            ]
+        },
+        "meta_data": {
+            "category": "Laws",
+            "doc_name": "2023555906",
+            "gold_quotes": [
+                "image7",
+                "text4"
+            ],
+            "topic": [
+                "government"
+            ],
+            "original_question": "Is it possible for someone to be granted a subclass 202 (Global Special Humanitarian visa) if they are in Australia?"
+        }
+    },
+    {
+        "id": "0f7db1b2",
+        "domain": "MMDocRAG",
+        "category": "Single_Hop_QA",
+        "question": "Based on Doc. 5a6a2ca0, Doc. 305d6df5, Doc. c2dd4aab, Doc. bd7f3fa6, What are some outdoor and indoor attractions in Bergen, and what activities do they offer?",
+        "answer": "Outdoor: Fløibanen Funicular (scenic views), Bergen Climbing Park (climbing). Indoor: AdO Arena (swimming), climbing gym (bouldering).",
+        "evidence": {
+            "text_evidence": [
+                "Take the Fløibanen Funicular to the top of Mount Fløyen for spectacular  views of the city. On top, there is a restaurant, Fløistuen shop &  café, Sko makers tu en café, play areas, goats and a great variety of  walks. In summer, you can hire a mountain bike, or paddle a canoe on  Sko maker dike t lake. Welcome to the mountains! ",
+                "    AdO Arena\n\n     Bergen Aquarium\n\n     Bergen Philharmonic Orchestr\n\n     The Fish Market\n\n     Fløibanen Funicular\n\n     Bergen Climbing Park, Høyt & Lavt\n\n     Høyt Høyt under Taket Kokstad\n\n     Magic Ice Bergen\n\n     Storeblå Aquaculture Visitor Centre\n\n     Ulriken643\n\n     Vestkanten Experiences\n\n     Bergen Science Centre – Vilvite \n\n     Escape Bryggen\n\n "
+            ],
+            "image_evidence": [],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": [
+                [
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "The Fish Market has delicacies to tempt  everyone, and you can spend hours among  fish, penguins and sea lions at Bergen  Aquarium.  The whole family can explore  the world of science and technology at  the  VilVite Science Centre.  If you take the  Fløibanen funicular  to the top of Mount  Fløyen, you can have fun at the playground,  play in the Trolls kogen forest, walk on  exciting nature trails or paddle a canoe on  Sko maker dike t lake. You can ‘float’ to the  top of Bergen’s highest mountain in the  Ulriken 643  cable car. From the top, you  can enjoy magnificent views of Bergen and  the surrounding area – the sea, the islands,  fjords and mountains. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "An indoor climbing park with lots of space, where everyone can climb,  beginners and experienced climbers alike. At Kokstad, you can climb with ropes, both with and without auto-belay, and you can try bouldering  or use the fitness room. Not far from the centre of Bergen. Høyt Under Taket is suitable for EVERYONE! "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Vestkanten is the biggest shopping and activity centre in Norway.  The centre has a water park complex, a spa section, bowling, minigolf,  skating, curling, shops and restaurants – just 10 minutes from the centre  of Bergen. Unforgettable experiences await at Vestkanten! "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_7185d959.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_356bc078.png"
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "• The scenic Bergen Railway \n\n • The breathtaking Flåm Railway \n\n • Fjord cruise on the world famous \n\n  Nærøy  ord (UNESCO) and the\n\n  magniﬁ  cent Aurlands  ord\n\n • Bus trip through beautiful scenery  \n\n  and the magniﬁ  cent Nærøy valley "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_a24a8521.png"
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_badf4c4e.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Bergen Aquarium is one of the biggest tourist attractions in Bergen.  You can experience fascinating creatures from tropical rainforests, the  foreshore, the ocean depths and the Arctic. We have sea lions, penguins,  otters, crocodiles and many more animals, and you can see them being  fed every day and enjoy a film in our cinema. Café/shop/play area. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "• The beautiful coastal archipelago\n\n  outside of Bergen\n\n • Extensive \u0007  ord cruise on the\n\n  Sogne\u0007  ord with amazing mountain\n\n  scenery and waterfalls diving\n\n  into the \u0007  ord\n\n • Europe’s top scenic Railway jouneys;  \n\n  the Bergen Railway and the\n\n  breathtaking Flåm Railway "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Experience the mountains in the middle of the city! Take the cable car  up to the top of Bergen where you’ll find a fantastic landscape, views,  activities and unique culinary experiences in Sky sk rape ren Restaurant.  The Ulriken Express Bus service runs from the city centre to the cable  car every half hour from 1 May to 30 September. "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_2ae273e4.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_325bf1cf.png"
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "There are more than 60 different attrac­ tions, museums and galleries in Bergen.  Among others, you can visit the Hanseatic  wharf Bryggen, Bergen Aquarium, the  Fløibanen funicular and the Fish Market.  Bergen is also a great city for children, with  lots of exciting and educational activities. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "The Fish Market in Bergen is the best known and most visited outdoor  market in Norway. Situated in the heart of the city, it sells a wide range  of seafood delicacies, and also local specialities such as cheese, fruit  and vegetables, and cured meat products. Mathallen, an indoor part  of the Fish Market, is open all year. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Look for the in the Bergen Guide to find ecolabel  tourism enterprises in the region. "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_7917d0bf.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_f4f6cf5f.png"
+                        }
+                    }
+                ]
+            ]
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "Outdoor: Bergen Aquarium (animal exhibits), Ulriken643 (cable car rides). Indoor: Magic Ice Bergen (ice sculptures), Bergen Science Centre – Vilvite (interactive exhibits)",
+                "Outdoor: The Fish Market (seafood shopping), Storeblå Aquaculture Visitor Centre (aquaculture tours). Indoor: Bergen Philharmonic Orchestra (concerts), Escape Bryggen (escape rooms)",
+                "Outdoor: Fløibanen Funicular (scenic views), Bergen Climbing Park (climbing). Indoor: AdO Arena (swimming), climbing gym (bouldering).",
+                "Outdoor: Vestkanten Experiences (minigolf), Bergen Science Centre – Vilvite (outdoor experiments). Indoor: Bergen Philharmonic Orchestra (music performances), Magic Ice Bergen (ice bar)"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_history_technology_4856238e",
+                    "insert_conversation_turn": 682
+                },
+                {
+                    "conversation_name": "group_chat_films_art_and_design_music_dccdfbfa",
+                    "insert_conversation_turn": 754
+                }
+            ],
+            "image_evidence_assignment": [],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_religion_sports_animals_e78b964a",
+                    "insert_conversation_turn": 257,
+                    "reference_name": "Doc. 5a6a2ca0"
+                },
+                {
+                    "conversation_name": "group_chat_architecture_history_technology_4856238e",
+                    "insert_conversation_turn": 275,
+                    "reference_name": "Doc. 305d6df5"
+                },
+                {
+                    "conversation_name": "group_chat_films_art_and_design_music_dccdfbfa",
+                    "insert_conversation_turn": 868,
+                    "reference_name": "Doc. c2dd4aab"
+                },
+                {
+                    "conversation_name": "group_chat_films_art_and_design_music_dccdfbfa",
+                    "insert_conversation_turn": 853,
+                    "reference_name": "Doc. bd7f3fa6"
+                }
+            ]
+        },
+        "meta_data": {
+            "category": "Brochure",
+            "doc_name": "Bergen-Brochure-en-2022-23",
+            "gold_quotes": [
+                "image8",
+                "image3",
+                "image2",
+                "image6",
+                "text5",
+                "text4"
+            ],
+            "topic": [
+                "travel",
+                " animals",
+                " food",
+                " lifestyle",
+                " nature",
+                " sports",
+                " science"
+            ],
+            "original_question": "What are some outdoor and indoor attractions in Bergen, and what activities do they offer?"
+        }
+    },
+    {
+        "id": "QA_sample_f29bb6bd",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. ffb200c6, the text, which Congresses were considered \"highly substantive\" according to the previous definition?",
+        "answer": "The 101st ('89–'90) Congress and the 106th ('99–'00) Congress.",
+        "evidence": {
+            "text_evidence": [
+                "A productive Congress is often characterized by its ability to pass substantive laws, which are statutes that implement changes in federal law, policies, or spending. Between 1989 and 2020, the Congresses enacted varying numbers of substantive and ceremonial laws. Assume that a Congress is considered 'highly substantive' if the number of substantive laws enacted exceeds 400 in a single term."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_13b974b1.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "The 101st ('89–'90) Congress and the 106th ('99–'00) Congress.",
+                "The 105th ('97–'98) Congress",
+                "The 102nd ('91–'92) Congress",
+                "The 114th ('15–'16) Congress"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_religion_sports_animals_e78b964a",
+                    "insert_conversation_turn": 820
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_films_art_and_design_music_dccdfbfa",
+                    "insert_conversation_turn": 920,
+                    "reference_name": "Fig. ffb200c6"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "politics",
+                "government"
+            ],
+            "original_question": "the text, which Congresses were considered \"highly substantive\" according to the previous definition?"
+        }
+    },
+    {
+        "id": "QA_sample_0b66d63b",
+        "domain": "MMCV",
+        "category": "Multi_Hop_QA",
+        "question": "Based on Table. fa4f44b3, Who has more assists in Serie A's 2019-20 season, the Argentine player associated with a boot designed for deceptive players or the one playing for Atalanta?",
+        "answer": "The player playing for Atalanta.",
+        "evidence": {
+            "text_evidence": [
+                "Gonzalo Gerardo Higuaín (Spanish pronunciation: [ɡonˈsalo iɣwaˈin], born 10 December 1987) is an Argentine professional footballer who plays as a striker for Italian club Juventus and the Argentina national team.",
+                "The Nike Hypervenom is a football boot that is manufactured by Nike. This type of boot is said to be for traction and agility, designed for deceptive players. Therefore, it is endorsed/worn by players, notably forwards, such as Marcus Rashford, Kylian Mbappé, Robert Lewandowski, Gonzalo Higuaín, Mauro Icardi, Harry Kane, Edinson Cavani, Riyad Mahrez, Romelu Lukaku, Aubameyang and Thiago."
+            ],
+            "image_evidence": [],
+            "table_evidence": [
+                {
+                    "title": "2019–20 Serie A",
+                    "table_name": "Top assists",
+                    "table_header": [
+                        "Rank",
+                        "Player",
+                        "Club",
+                        "Assists"
+                    ],
+                    "table_rows": [
+                        [
+                            "1",
+                            "Luis Alberto",
+                            "Lazio",
+                            "11"
+                        ],
+                        [
+                            "2",
+                            "Dejan Kulusevski",
+                            "Parma",
+                            "7"
+                        ],
+                        [
+                            "3",
+                            "Alejandro Gómez",
+                            "Atalanta",
+                            "6"
+                        ],
+                        [
+                            "3",
+                            "Lorenzo Pellegrini",
+                            "Roma",
+                            "6"
+                        ],
+                        [
+                            "5",
+                            "Alfred Duncan",
+                            "Sassuolo",
+                            "5"
+                        ],
+                        [
+                            "5",
+                            "Paolo Ghiglione",
+                            "Genoa",
+                            "5"
+                        ],
+                        [
+                            "5",
+                            "Ciro Immobile",
+                            "Lazio",
+                            "5"
+                        ],
+                        [
+                            "5",
+                            "Radja Nainggolan",
+                            "Cagliari",
+                            "5"
+                        ],
+                        [
+                            "9",
+                            "Rodrigo Bentancur",
+                            "Juventus",
+                            "4"
+                        ],
+                        [
+                            "9",
+                            "Marcelo Brozović",
+                            "Internazionale",
+                            "4"
+                        ],
+                        [
+                            "9",
+                            "José Callejón",
+                            "Napoli",
+                            "4"
+                        ],
+                        [
+                            "9",
+                            "Antonio Candreva",
+                            "Internazionale",
+                            "4"
+                        ],
+                        [
+                            "9",
+                            "Francesco Caputo",
+                            "Sassuolo",
+                            "4"
+                        ],
+                        [
+                            "9",
+                            "Luca Cigarini",
+                            "Cagliari",
+                            "4"
+                        ],
+                        [
+                            "9",
+                            "Gonzalo Higuaín",
+                            "Juventus",
+                            "4"
+                        ],
+                        [
+                            "9",
+                            "Lorenzo Insigne",
+                            "Napoli",
+                            "4"
+                        ],
+                        [
+                            "9",
+                            "Sergej Milinković-Savić",
+                            "Lazio",
+                            "4"
+                        ],
+                        [
+                            "9",
+                            "Riccardo Orsolini",
+                            "Bologna",
+                            "4"
+                        ],
+                        [
+                            "9",
+                            "Jacopo Petriccione",
+                            "Lecce",
+                            "4"
+                        ],
+                        [
+                            "9",
+                            "Rafael Tolói",
+                            "Atalanta",
+                            "4"
+                        ]
+                    ]
+                }
+            ],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "The player playing for Lazio",
+                "The player wearing the Hypervenom boots",
+                "The player playing for Atalanta.",
+                "The player playing for Juventus"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_religion_sports_animals_e78b964a",
+                    "insert_conversation_turn": 286
+                },
+                {
+                    "conversation_name": "group_chat_films_art_and_design_music_dccdfbfa",
+                    "insert_conversation_turn": 1076
+                }
+            ],
+            "image_evidence_assignment": [],
+            "table_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_history_technology_4856238e",
+                    "insert_conversation_turn": 35,
+                    "reference_name": "Table. fa4f44b3"
+                }
+            ],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "sports",
+                "football"
+            ],
+            "original_question": "Who has more assists in Serie A's 2019-20 season, the Argentine player associated with a boot designed for deceptive players or the one playing for Atalanta?"
+        }
+    },
+    {
+        "id": "QA_sample_364fbe11",
+        "domain": "MLLMKC",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. a25326ab, What is the occupation of the person in the picture?",
+        "answer": "retired sprinter",
+        "evidence": {
+            "text_evidence": [
+                "Usain Bolt was born on August 21, 1986. Usain Bolt is Jamaican. Usain Bolt is a retired sprinter."
+            ],
+            "image_evidence": [
+                "MLLMKC_e886017a.jpg"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Usain Bolt was born on August 21, 1986. Usain Bolt is Jamaican. Usain Bolt is a retired footballer."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "track runner  \nmarathoner  \nhurdler  \nsoccer player  \ntennis pro",
+                "basketball player",
+                "footballer",
+                "retired sprinter"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_films_art_and_design_music_dccdfbfa",
+                    "insert_conversation_turn": 374
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_history_technology_4856238e",
+                    "insert_conversation_turn": 102,
+                    "reference_name": "Fig. a25326ab"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_religion_sports_animals_e78b964a",
+                    "insert_conversation_turn": 420
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "instance": "Usain Bolt",
+            "category": "people",
+            "error_type": "Career_error",
+            "topic": [
+                "sports"
+            ],
+            "original_question": "What is the occupation of the person in the picture?"
+        }
+    },
+    {
+        "id": "f2f335af",
+        "domain": "MMDocRAG",
+        "category": "Single_Hop_QA",
+        "question": "Based on Doc. 864c9367, Doc. 685ce6ad, Doc. 690d6709, Which districts in the Kathmandu Valley are included in the sample distribution?",
+        "answer": "Kathmandu, Bhaktapur, and Lalitpur.",
+        "evidence": {
+            "text_evidence": [],
+            "image_evidence": [],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": [
+                [
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Wave-IllSurvey "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Sample Distribution "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Allof the respondents were agedI8or above Multistage sampling technique was employed to determine the sample units representing the national population in the country.In the first stage,a number of districts of Nepal's75 districts were selected using stratified random sampling to represents the l 6 distinct regions defined by Nepal'sfive development regions and three ecological zones,alongwith the Kathmandu Valley.ln the second stage,simple random sampling technique wasused to select proportional numbers of village development committees(VDCs)and municipalities from the sampled districts.ln the third stage,wards from the sample dVD Cs were selected based on simple random sampling.In thefourth stage theright-handrule was employed to select households in each sampled ward.Finally in the fifth stage,a respondent from each household was selected using Kish grid table i.e.,a table of random numbers,to ensure that each eligible memberin aselected household has an equal chance of being selected. "
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_d332fcc9.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_46264f55.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Nepal Media Landscape 2 o 14 National Opinion Survey Wave-ll l September 2014 "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Data visualization and Info graphics compiled in this handbook are part of National Opinion Poll series covering Nepal's latest media consumption behavior and media landscaping "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Intermews Mr.David Dougherty-National Opinion Polls Specialist Mr.Oren Murphy Regional Director,Asia Ms.DorothyDai,Program Officer,Asia Mr. Madhu Acharya,Project Director Nepal Mr.Bhumiraj Chapagain,Media Coordinator "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_adba963c.png"
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_2739dedf.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "National media survey is apart of Nepal Opinior Survey conducted by Internews and IDA in September 2013,February 2014 and September 2014 "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Intemews actively engaged with media and citizens in Nepal tocreate platform for discussion on election-related themes.lts engagement was focusedon providing Nepalese media community with more data,including graphical summaries aboutwhat citizens think about key socio-political issues The project also helped Nepali media better understand election-related issuesand strengthen the ability of radio to facilitate debates on the opinion poll re sul cs,ultimately increasing citizen participation in the electoral process "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Inter news and IDA carried out 3 waves of National Opinion Polls with total of lo thousand samples across thecountry onkeysocio-political issues,constituent assembly.political part es,local governance and media consumption behaviors.Freedom Forum another local partmer operated community of practice website www.nepal election channel.org to aggregate election and political parties related news in Nepal. "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_77933cca.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_36f9da39.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "INTER NEWS IN NEPAL 06 ABOUTUS 06 WHATWEDO 07 OUR APPROACH08RESEARCH METHODOLOGY ATION WIDE OPINION SURVEY WAVE III&II 09 DEMOGRAPHICS10NEPAL MEDIA LANDSCAPE FEBRUARY 201413NEPAL MEDIA LANDSCAPE SEPTEMBER 2013 36 "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "The composition of the sample in terms of ecological and development regions directly matches thatof the general populations in al threewaves.The following table indicate the sample distribution of geographic composition "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "National Media Landscape 2014 Nepal Opinion Survey Wave-lll September 2014 "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_a5772197.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_7c652392.png"
+                        }
+                    }
+                ]
+            ]
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "Chitwan, Bara, and Parsa",
+                "Dhading, Nuwakot, and Rasuwa",
+                "Kathmandu, Bhaktapur, and Lalitpur.",
+                "Kavrepalanchok, Makwanpur, and Sindhupalchok"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [],
+            "image_evidence_assignment": [],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_history_technology_4856238e",
+                    "insert_conversation_turn": 192,
+                    "reference_name": "Doc. 864c9367"
+                },
+                {
+                    "conversation_name": "group_chat_religion_sports_animals_e78b964a",
+                    "insert_conversation_turn": 561,
+                    "reference_name": "Doc. 685ce6ad"
+                },
+                {
+                    "conversation_name": "group_chat_films_art_and_design_music_dccdfbfa",
+                    "insert_conversation_turn": 636,
+                    "reference_name": "Doc. 690d6709"
+                }
+            ]
+        },
+        "meta_data": {
+            "category": "Research report / Introduction",
+            "doc_name": "finalmediafindingspdf-141228031149-conversion-gate02_95",
+            "gold_quotes": [
+                "text3",
+                "image3"
+            ],
+            "topic": [
+                "government",
+                "politics"
+            ],
+            "original_question": "Which districts in the Kathmandu Valley are included in the sample distribution?"
+        }
+    },
+    {
+        "id": "QA_sample_368078b3_1",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. cdefbd37, Among the activities that could reasonably occur in the given image, which one is Kayden Soto least likely to be doing?",
+        "answer": "Watching cooking shows",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Kayden Soto enjoys horror movies, sitcoms, but dislikes cooking shows, travel vlogs",
+                "In terms of travel, Kayden Soto enjoys trains, flying business class, but dislikes skiing, desert trekking"
+            ],
+            "image_evidence": [
+                "MMPB_81ebaeeb.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of lifestyle, Kayden Soto enjoys forest bathing, holistic therapy, but dislikes protein-rich diet, weightlifting",
+                "In terms of shopping, Kayden Soto enjoys second-hand books, indie brands, but dislikes gaming accessories, tech gadgets",
+                "In terms of fashion, Kayden Soto enjoys chunky boots, strappy sandals, but dislikes hand-knitted sweaters, silk scarves."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Watching cooking shows",
+                "Watching action movies",
+                "Streaming thriller series",
+                "Skiing"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_films_art_and_design_music_dccdfbfa",
+                    "insert_conversation_turn": 165
+                },
+                {
+                    "conversation_name": "group_chat_architecture_history_technology_4856238e",
+                    "insert_conversation_turn": 639
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_religion_sports_animals_e78b964a",
+                    "insert_conversation_turn": 595,
+                    "reference_name": "Fig. cdefbd37"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_religion_sports_animals_e78b964a",
+                    "insert_conversation_turn": 87
+                },
+                {
+                    "conversation_name": "group_chat_architecture_history_technology_4856238e",
+                    "insert_conversation_turn": 911
+                },
+                {
+                    "conversation_name": "group_chat_architecture_history_technology_4856238e",
+                    "insert_conversation_turn": 820
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "ShanYin",
+            "description": "ShanYin is depicted as a young adult with a slender build and an average height impression. Their facial structure is characterized by a well-defined jawline and a slightly pointed chin, with a medium skin tone. The individual's hair is dark and styled in a casual, slightly tousled manner, often falling just above the shoulders. Across the images, ShanYin exhibits a range of expressions, from contemplative and serious to surprised and relaxed, suggesting a versatile emotional range. The eyebrows are thick and expressive, adding to the dynamic nature of their facial expressions. The individual's eyes are often the focal point, conveying a sense of intensity and thoughtfulness.\n\n**Outfit and Accessories:** ShanYin is shown wearing a variety of outfits that reflect a mix of casual and slightly formal styles. In one image, they are seen in a dark plaid jacket with a red scarf, suggesting a practical and cozy look. Another image features a black sweater, which appears comfortable and casual. A patterned sweater with a geometric design adds a touch of whimsy and warmth. The individual is also seen in a blue and beige jacket, suitable for a beach setting, indicating a preference for functional yet stylish clothing. Accessories are minimal but significant, such as a yellow armband in one image, which adds a pop of color and could suggest a role or activity. The use of a transparent bag with a floral pattern in another image adds a personal touch, hinting at a practical yet thoughtful approach to accessories.\n\n**Distinguishing Visual Features or Vibe:** ShanYin exudes a unique and memorable presence through their consistent dark hair and expressive eyes, which are central to their visual identity. The individual's ability to convey a range of emotions through their facial expressions adds depth to their character. The recurring theme of practical yet stylish clothing, combined with subtle accessories, suggests a thoughtful and adaptable personality. The mix of casual and slightly formal attire, along with the occasional pop of color, creates a visually engaging and dynamic persona. The beach setting in one image, with ShanYin making a fist, adds a sense of energy and determination, further enhancing their distinctive vibe. Overall, ShanYin is visually unmistakable due to their expressive face, versatile style, and the thoughtful combination of clothing and accessories.",
+            "preference": "In terms of entertainment, ShanYin enjoys horror movies, sitcoms, but dislikes cooking shows, travel vlogs. In terms of travel, ShanYin enjoys trains, flying business class, but dislikes skiing, desert trekking. In terms of lifestyle, ShanYin enjoys forest bathing, holistic therapy, but dislikes protein-rich diet, weightlifting. In terms of shopping, ShanYin enjoys second-hand books, indie brands, but dislikes gaming accessories, tech gadgets. In terms of fashion, ShanYin enjoys chunky boots, strappy sandals, but dislikes hand-knitted sweaters, silk scarves.",
+            "topic": [],
+            "original_id": "QA_sample_368078b3",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Kayden Soto least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_368078b3_2",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 259db670, Among the activities that could reasonably occur in the given image, which one is Kayden Soto least likely to be doing?",
+        "answer": "Watching travel vlogs",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Kayden Soto enjoys horror movies, sitcoms, but dislikes cooking shows, travel vlogs",
+                "In terms of travel, Kayden Soto enjoys trains, flying business class, but dislikes skiing, desert trekking"
+            ],
+            "image_evidence": [
+                "MMPB_2d99653f.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of lifestyle, Kayden Soto enjoys forest bathing, holistic therapy, but dislikes protein-rich diet, weightlifting",
+                "In terms of shopping, Kayden Soto enjoys second-hand books, indie brands, but dislikes gaming accessories, tech gadgets",
+                "In terms of fashion, Kayden Soto enjoys chunky boots, strappy sandals, but dislikes hand-knitted sweaters, silk scarves."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Watching travel vlogs",
+                "Watching musicals",
+                "Weightlifting",
+                "Watching sports highlights"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_films_art_and_design_music_dccdfbfa",
+                    "insert_conversation_turn": 165
+                },
+                {
+                    "conversation_name": "group_chat_architecture_history_technology_4856238e",
+                    "insert_conversation_turn": 639
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_religion_sports_animals_e78b964a",
+                    "insert_conversation_turn": 660,
+                    "reference_name": "Fig. 259db670"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_religion_sports_animals_e78b964a",
+                    "insert_conversation_turn": 87
+                },
+                {
+                    "conversation_name": "group_chat_architecture_history_technology_4856238e",
+                    "insert_conversation_turn": 911
+                },
+                {
+                    "conversation_name": "group_chat_architecture_history_technology_4856238e",
+                    "insert_conversation_turn": 820
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "ShanYin",
+            "description": "ShanYin is depicted as a young adult with a slender build and an average height impression. Their facial structure is characterized by a well-defined jawline and a slightly pointed chin, with a medium skin tone. The individual's hair is dark and styled in a casual, slightly tousled manner, often falling just above the shoulders. Across the images, ShanYin exhibits a range of expressions, from contemplative and serious to surprised and relaxed, suggesting a versatile emotional range. The eyebrows are thick and expressive, adding to the dynamic nature of their facial expressions. The individual's eyes are often the focal point, conveying a sense of intensity and thoughtfulness.\n\n**Outfit and Accessories:** ShanYin is shown wearing a variety of outfits that reflect a mix of casual and slightly formal styles. In one image, they are seen in a dark plaid jacket with a red scarf, suggesting a practical and cozy look. Another image features a black sweater, which appears comfortable and casual. A patterned sweater with a geometric design adds a touch of whimsy and warmth. The individual is also seen in a blue and beige jacket, suitable for a beach setting, indicating a preference for functional yet stylish clothing. Accessories are minimal but significant, such as a yellow armband in one image, which adds a pop of color and could suggest a role or activity. The use of a transparent bag with a floral pattern in another image adds a personal touch, hinting at a practical yet thoughtful approach to accessories.\n\n**Distinguishing Visual Features or Vibe:** ShanYin exudes a unique and memorable presence through their consistent dark hair and expressive eyes, which are central to their visual identity. The individual's ability to convey a range of emotions through their facial expressions adds depth to their character. The recurring theme of practical yet stylish clothing, combined with subtle accessories, suggests a thoughtful and adaptable personality. The mix of casual and slightly formal attire, along with the occasional pop of color, creates a visually engaging and dynamic persona. The beach setting in one image, with ShanYin making a fist, adds a sense of energy and determination, further enhancing their distinctive vibe. Overall, ShanYin is visually unmistakable due to their expressive face, versatile style, and the thoughtful combination of clothing and accessories.",
+            "preference": "In terms of entertainment, ShanYin enjoys horror movies, sitcoms, but dislikes cooking shows, travel vlogs. In terms of travel, ShanYin enjoys trains, flying business class, but dislikes skiing, desert trekking. In terms of lifestyle, ShanYin enjoys forest bathing, holistic therapy, but dislikes protein-rich diet, weightlifting. In terms of shopping, ShanYin enjoys second-hand books, indie brands, but dislikes gaming accessories, tech gadgets. In terms of fashion, ShanYin enjoys chunky boots, strappy sandals, but dislikes hand-knitted sweaters, silk scarves.",
+            "topic": [],
+            "original_id": "QA_sample_368078b3",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Kayden Soto least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_368078b3_3",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 07012ec4, Among the activities that could reasonably occur in the given image, which one is Kayden Soto least likely to be doing?",
+        "answer": "Watching cooking survival shows",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Kayden Soto enjoys horror movies, sitcoms, but dislikes cooking shows, travel vlogs",
+                "In terms of travel, Kayden Soto enjoys trains, flying business class, but dislikes skiing, desert trekking"
+            ],
+            "image_evidence": [
+                "MMPB_6f052249.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of lifestyle, Kayden Soto enjoys forest bathing, holistic therapy, but dislikes protein-rich diet, weightlifting",
+                "In terms of shopping, Kayden Soto enjoys second-hand books, indie brands, but dislikes gaming accessories, tech gadgets",
+                "In terms of fashion, Kayden Soto enjoys chunky boots, strappy sandals, but dislikes hand-knitted sweaters, silk scarves."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Watching musicals",
+                "Watching cooking survival shows",
+                "Watching sports highlights",
+                "Looking for tech gadgets"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_films_art_and_design_music_dccdfbfa",
+                    "insert_conversation_turn": 165
+                },
+                {
+                    "conversation_name": "group_chat_architecture_history_technology_4856238e",
+                    "insert_conversation_turn": 639
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_films_art_and_design_music_dccdfbfa",
+                    "insert_conversation_turn": 151,
+                    "reference_name": "Fig. 07012ec4"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_religion_sports_animals_e78b964a",
+                    "insert_conversation_turn": 87
+                },
+                {
+                    "conversation_name": "group_chat_architecture_history_technology_4856238e",
+                    "insert_conversation_turn": 911
+                },
+                {
+                    "conversation_name": "group_chat_architecture_history_technology_4856238e",
+                    "insert_conversation_turn": 820
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "ShanYin",
+            "description": "ShanYin is depicted as a young adult with a slender build and an average height impression. Their facial structure is characterized by a well-defined jawline and a slightly pointed chin, with a medium skin tone. The individual's hair is dark and styled in a casual, slightly tousled manner, often falling just above the shoulders. Across the images, ShanYin exhibits a range of expressions, from contemplative and serious to surprised and relaxed, suggesting a versatile emotional range. The eyebrows are thick and expressive, adding to the dynamic nature of their facial expressions. The individual's eyes are often the focal point, conveying a sense of intensity and thoughtfulness.\n\n**Outfit and Accessories:** ShanYin is shown wearing a variety of outfits that reflect a mix of casual and slightly formal styles. In one image, they are seen in a dark plaid jacket with a red scarf, suggesting a practical and cozy look. Another image features a black sweater, which appears comfortable and casual. A patterned sweater with a geometric design adds a touch of whimsy and warmth. The individual is also seen in a blue and beige jacket, suitable for a beach setting, indicating a preference for functional yet stylish clothing. Accessories are minimal but significant, such as a yellow armband in one image, which adds a pop of color and could suggest a role or activity. The use of a transparent bag with a floral pattern in another image adds a personal touch, hinting at a practical yet thoughtful approach to accessories.\n\n**Distinguishing Visual Features or Vibe:** ShanYin exudes a unique and memorable presence through their consistent dark hair and expressive eyes, which are central to their visual identity. The individual's ability to convey a range of emotions through their facial expressions adds depth to their character. The recurring theme of practical yet stylish clothing, combined with subtle accessories, suggests a thoughtful and adaptable personality. The mix of casual and slightly formal attire, along with the occasional pop of color, creates a visually engaging and dynamic persona. The beach setting in one image, with ShanYin making a fist, adds a sense of energy and determination, further enhancing their distinctive vibe. Overall, ShanYin is visually unmistakable due to their expressive face, versatile style, and the thoughtful combination of clothing and accessories.",
+            "preference": "In terms of entertainment, ShanYin enjoys horror movies, sitcoms, but dislikes cooking shows, travel vlogs. In terms of travel, ShanYin enjoys trains, flying business class, but dislikes skiing, desert trekking. In terms of lifestyle, ShanYin enjoys forest bathing, holistic therapy, but dislikes protein-rich diet, weightlifting. In terms of shopping, ShanYin enjoys second-hand books, indie brands, but dislikes gaming accessories, tech gadgets. In terms of fashion, ShanYin enjoys chunky boots, strappy sandals, but dislikes hand-knitted sweaters, silk scarves.",
+            "topic": [],
+            "original_id": "QA_sample_368078b3",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Kayden Soto least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_1db39444_1",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 19a0cc1e, Among the activities that could reasonably occur in the given image, which one is Solomon Paul least likely to be doing?",
+        "answer": "Watching an animation sitcoms",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Solomon Paul enjoys theater performances, film festivals, but dislikes horror movies, sitcoms"
+            ],
+            "image_evidence": [
+                "MMPB_81ebaeeb.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Solomon Paul enjoys skydiving, cave exploration, but dislikes motorbiking trips, rafting",
+                "In terms of lifestyle, Solomon Paul enjoys boxing workouts, rock climbing gyms, but dislikes home gardening, night owl lifestyle",
+                "In terms of shopping, Solomon Paul enjoys robot vacuums, wearable tech, but dislikes handwoven rugs, fancy cutlery sets",
+                "In terms of fashion, Solomon Paul enjoys bright neon colors, oversized sweaters, but dislikes casual wear, minimalist outfits."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Watching an animation sitcoms",
+                "Going on a motorbiking trip",
+                "Streaming a reality TV show",
+                "Watching a live-action drama series"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_religion_sports_animals_e78b964a",
+                    "insert_conversation_turn": 432
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_religion_sports_animals_e78b964a",
+                    "insert_conversation_turn": 595,
+                    "reference_name": "Fig. 19a0cc1e"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_films_art_and_design_music_dccdfbfa",
+                    "insert_conversation_turn": 542
+                },
+                {
+                    "conversation_name": "group_chat_religion_sports_animals_e78b964a",
+                    "insert_conversation_turn": 916
+                },
+                {
+                    "conversation_name": "group_chat_films_art_and_design_music_dccdfbfa",
+                    "insert_conversation_turn": 95
+                },
+                {
+                    "conversation_name": "group_chat_films_art_and_design_music_dccdfbfa",
+                    "insert_conversation_turn": 990
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Jeon",
+            "description": "Jeon is a young woman with a slender build and an impression of average height. Her facial structure is delicate, with a prominent jawline and a slightly pointed chin. She has a fair skin tone and long, straight, dark hair that falls past her shoulders. Her eyebrows are well-defined, and her eyes are expressive, often conveying a sense of thoughtfulness or contemplation. Jeon frequently appears with a neutral or slightly pensive expression, and her poses are relaxed yet poised, suggesting a calm and introspective demeanor.\n\n**Outfit and Accessories:**\nJeon's attire is varied yet consistently stylish, reflecting a blend of casual and semi-formal elements. She is often seen in button-up shirts, both solid-colored and patterned, paired with cardigans or plaid shirts. The color palette of her outfits includes soft pastels like pink and yellow, as well as more neutral tones such as white and green. Her clothing choices suggest a practical yet fashionable sense of style, with a preference for comfortable yet chic pieces. Accessories are minimal but significant, including a necklace and a backpack, which add to her youthful and approachable appearance.\n\n**Distinguishing Visual Features or Vibe:**\nJeon exudes a serene and approachable aura, characterized by her long, straight hair and expressive eyes. Her consistent use of button-up shirts and cardigans, along with her subtle accessories, creates a cohesive and recognizable style. The recurring theme of her outfits—soft colors and comfortable fabrics—enhances her relatable and down-to-earth vibe. Whether in a café, a bustling city street, or a serene outdoor setting, Jeon's presence is marked by a sense of calm and introspection, making her visually unmistakable and memorable.",
+            "preference": "In terms of entertainment, Jeon enjoys theater performances, film festivals, but dislikes horror movies, sitcoms. In terms of travel, Jeon enjoys skydiving, cave exploration, but dislikes motorbiking trips, rafting. In terms of lifestyle, Jeon enjoys boxing workouts, rock climbing gyms, but dislikes home gardening, night owl lifestyle. In terms of shopping, Jeon enjoys robot vacuums, wearable tech, but dislikes handwoven rugs, fancy cutlery sets. In terms of fashion, Jeon enjoys bright neon colors, oversized sweaters, but dislikes casual wear, minimalist outfits.",
+            "topic": [],
+            "original_id": "QA_sample_1db39444",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Solomon Paul least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_1db39444_2",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 6cda35f0, Among the activities that could reasonably occur in the given image, which one is Solomon Paul least likely to be doing?",
+        "answer": "Watching drama sitcoms",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Solomon Paul enjoys theater performances, film festivals, but dislikes horror movies, sitcoms"
+            ],
+            "image_evidence": [
+                "MMPB_2d99653f.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Solomon Paul enjoys skydiving, cave exploration, but dislikes motorbiking trips, rafting",
+                "In terms of lifestyle, Solomon Paul enjoys boxing workouts, rock climbing gyms, but dislikes home gardening, night owl lifestyle",
+                "In terms of shopping, Solomon Paul enjoys robot vacuums, wearable tech, but dislikes handwoven rugs, fancy cutlery sets",
+                "In terms of fashion, Solomon Paul enjoys bright neon colors, oversized sweaters, but dislikes casual wear, minimalist outfits."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "Streaming comedy specials",
+                "Gardening at home",
+                "Watching drama sitcoms",
+                "Watching action thrillers"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_religion_sports_animals_e78b964a",
+                    "insert_conversation_turn": 432
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_films_art_and_design_music_dccdfbfa",
+                    "insert_conversation_turn": 136,
+                    "reference_name": "Fig. 6cda35f0"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_films_art_and_design_music_dccdfbfa",
+                    "insert_conversation_turn": 542
+                },
+                {
+                    "conversation_name": "group_chat_religion_sports_animals_e78b964a",
+                    "insert_conversation_turn": 916
+                },
+                {
+                    "conversation_name": "group_chat_films_art_and_design_music_dccdfbfa",
+                    "insert_conversation_turn": 95
+                },
+                {
+                    "conversation_name": "group_chat_films_art_and_design_music_dccdfbfa",
+                    "insert_conversation_turn": 990
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Jeon",
+            "description": "Jeon is a young woman with a slender build and an impression of average height. Her facial structure is delicate, with a prominent jawline and a slightly pointed chin. She has a fair skin tone and long, straight, dark hair that falls past her shoulders. Her eyebrows are well-defined, and her eyes are expressive, often conveying a sense of thoughtfulness or contemplation. Jeon frequently appears with a neutral or slightly pensive expression, and her poses are relaxed yet poised, suggesting a calm and introspective demeanor.\n\n**Outfit and Accessories:**\nJeon's attire is varied yet consistently stylish, reflecting a blend of casual and semi-formal elements. She is often seen in button-up shirts, both solid-colored and patterned, paired with cardigans or plaid shirts. The color palette of her outfits includes soft pastels like pink and yellow, as well as more neutral tones such as white and green. Her clothing choices suggest a practical yet fashionable sense of style, with a preference for comfortable yet chic pieces. Accessories are minimal but significant, including a necklace and a backpack, which add to her youthful and approachable appearance.\n\n**Distinguishing Visual Features or Vibe:**\nJeon exudes a serene and approachable aura, characterized by her long, straight hair and expressive eyes. Her consistent use of button-up shirts and cardigans, along with her subtle accessories, creates a cohesive and recognizable style. The recurring theme of her outfits—soft colors and comfortable fabrics—enhances her relatable and down-to-earth vibe. Whether in a café, a bustling city street, or a serene outdoor setting, Jeon's presence is marked by a sense of calm and introspection, making her visually unmistakable and memorable.",
+            "preference": "In terms of entertainment, Jeon enjoys theater performances, film festivals, but dislikes horror movies, sitcoms. In terms of travel, Jeon enjoys skydiving, cave exploration, but dislikes motorbiking trips, rafting. In terms of lifestyle, Jeon enjoys boxing workouts, rock climbing gyms, but dislikes home gardening, night owl lifestyle. In terms of shopping, Jeon enjoys robot vacuums, wearable tech, but dislikes handwoven rugs, fancy cutlery sets. In terms of fashion, Jeon enjoys bright neon colors, oversized sweaters, but dislikes casual wear, minimalist outfits.",
+            "topic": [],
+            "original_id": "QA_sample_1db39444",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Solomon Paul least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_1db39444_3",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. ef8fb9ea, Among the activities that could reasonably occur in the given image, which one is Solomon Paul least likely to be doing?",
+        "answer": "Watching a horror movie",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Solomon Paul enjoys theater performances, film festivals, but dislikes horror movies, sitcoms"
+            ],
+            "image_evidence": [
+                "MMPB_6f052249.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Solomon Paul enjoys skydiving, cave exploration, but dislikes motorbiking trips, rafting",
+                "In terms of lifestyle, Solomon Paul enjoys boxing workouts, rock climbing gyms, but dislikes home gardening, night owl lifestyle",
+                "In terms of shopping, Solomon Paul enjoys robot vacuums, wearable tech, but dislikes handwoven rugs, fancy cutlery sets",
+                "In terms of fashion, Solomon Paul enjoys bright neon colors, oversized sweaters, but dislikes casual wear, minimalist outfits."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Viewing a suspenseful film",
+                "Watching a horror movie",
+                "Observing a thrilling movie",
+                "Buying handwoven rugs"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_religion_sports_animals_e78b964a",
+                    "insert_conversation_turn": 432
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_films_art_and_design_music_dccdfbfa",
+                    "insert_conversation_turn": 151,
+                    "reference_name": "Fig. ef8fb9ea"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_films_art_and_design_music_dccdfbfa",
+                    "insert_conversation_turn": 542
+                },
+                {
+                    "conversation_name": "group_chat_religion_sports_animals_e78b964a",
+                    "insert_conversation_turn": 916
+                },
+                {
+                    "conversation_name": "group_chat_films_art_and_design_music_dccdfbfa",
+                    "insert_conversation_turn": 95
+                },
+                {
+                    "conversation_name": "group_chat_films_art_and_design_music_dccdfbfa",
+                    "insert_conversation_turn": 990
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Jeon",
+            "description": "Jeon is a young woman with a slender build and an impression of average height. Her facial structure is delicate, with a prominent jawline and a slightly pointed chin. She has a fair skin tone and long, straight, dark hair that falls past her shoulders. Her eyebrows are well-defined, and her eyes are expressive, often conveying a sense of thoughtfulness or contemplation. Jeon frequently appears with a neutral or slightly pensive expression, and her poses are relaxed yet poised, suggesting a calm and introspective demeanor.\n\n**Outfit and Accessories:**\nJeon's attire is varied yet consistently stylish, reflecting a blend of casual and semi-formal elements. She is often seen in button-up shirts, both solid-colored and patterned, paired with cardigans or plaid shirts. The color palette of her outfits includes soft pastels like pink and yellow, as well as more neutral tones such as white and green. Her clothing choices suggest a practical yet fashionable sense of style, with a preference for comfortable yet chic pieces. Accessories are minimal but significant, including a necklace and a backpack, which add to her youthful and approachable appearance.\n\n**Distinguishing Visual Features or Vibe:**\nJeon exudes a serene and approachable aura, characterized by her long, straight hair and expressive eyes. Her consistent use of button-up shirts and cardigans, along with her subtle accessories, creates a cohesive and recognizable style. The recurring theme of her outfits—soft colors and comfortable fabrics—enhances her relatable and down-to-earth vibe. Whether in a café, a bustling city street, or a serene outdoor setting, Jeon's presence is marked by a sense of calm and introspection, making her visually unmistakable and memorable.",
+            "preference": "In terms of entertainment, Jeon enjoys theater performances, film festivals, but dislikes horror movies, sitcoms. In terms of travel, Jeon enjoys skydiving, cave exploration, but dislikes motorbiking trips, rafting. In terms of lifestyle, Jeon enjoys boxing workouts, rock climbing gyms, but dislikes home gardening, night owl lifestyle. In terms of shopping, Jeon enjoys robot vacuums, wearable tech, but dislikes handwoven rugs, fancy cutlery sets. In terms of fashion, Jeon enjoys bright neon colors, oversized sweaters, but dislikes casual wear, minimalist outfits.",
+            "topic": [],
+            "original_id": "QA_sample_1db39444",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Solomon Paul least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_7fafe760_1",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 7032485b, Among the activities that could reasonably occur in the given image, which one is Maggie Rachael least likely to be doing?",
+        "answer": "Watching theater performances",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Maggie Rachael enjoys rock concerts, indie films, but dislikes theater performances, film festivals",
+                "In terms of travel, Maggie Rachael enjoys wildlife safaris, hot air balloon rides, but dislikes historical site tours, food tours"
+            ],
+            "image_evidence": [
+                "MMPB_9ab3a64b.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of lifestyle, Maggie Rachael enjoys meditation, yoga, but dislikes plant-based diet, home cooking",
+                "In terms of shopping, Maggie Rachael enjoys Bluetooth speakers, wireless charging stations, but dislikes ceramic pottery, kitchen appliances",
+                "In terms of fashion, Maggie Rachael enjoys hand-knitted sweaters, silk scarves, but dislikes handcrafted leather bags, woven hats."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Watching theater performances",
+                "Observing live performances",
+                "Food tours",
+                "Attending concerts in the auditorium"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_films_art_and_design_music_dccdfbfa",
+                    "insert_conversation_turn": 385
+                },
+                {
+                    "conversation_name": "group_chat_architecture_history_technology_4856238e",
+                    "insert_conversation_turn": 339
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_religion_sports_animals_e78b964a",
+                    "insert_conversation_turn": 645,
+                    "reference_name": "Fig. 7032485b"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_history_technology_4856238e",
+                    "insert_conversation_turn": 706
+                },
+                {
+                    "conversation_name": "group_chat_architecture_history_technology_4856238e",
+                    "insert_conversation_turn": 897
+                },
+                {
+                    "conversation_name": "group_chat_films_art_and_design_music_dccdfbfa",
+                    "insert_conversation_turn": 456
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Angelina",
+            "description": "Angelina is depicted as a woman with a slender build and an average height impression. Her facial structure is characterized by a well-defined jawline and a slightly prominent nose, complemented by full lips and expressive eyes. Her skin tone is fair, and she consistently wears bold red lipstick, adding a striking contrast to her features. Angelina has short, wavy hair styled in a vintage fashion, often adorned with hats that enhance her overall look. Her expressions range from contemplative to confident, with a poised demeanor that suggests a sense of purpose and elegance.\n\n**Outfit and Accessories:**\nAngelina is consistently dressed in a style that evokes the early to mid-20th century, with a focus on tailored, elegant clothing. Her outfits often feature earthy tones such as browns, greens, and creams, with a mix of textures including velvet, tweed, and fur. The clothing is characterized by structured silhouettes, with elements like fur collars, belted waists, and decorative buttons adding to the vintage aesthetic. Accessories play a significant role in her appearance, including wide-brimmed hats, brooches, and a brown leather clutch, which contribute to a sophisticated and polished look. The outfits appear both practical and formal, suggesting a character who is both stylish and functional.\n\n**Distinguishing Visual Features or Vibe:**\nThe most memorable and defining features of Angelina are her vintage-inspired style and the consistent use of earthy tones, which create a cohesive and timeless look. The fur collars and hats are signature items that add a touch of luxury and sophistication. Her poised demeanor and bold red lipstick are visual motifs that convey confidence and elegance. The overall vibe of Angelina is one of grace and refinement, with a hint of mystery and allure, making her visually unmistakable and captivating.",
+            "preference": "In terms of entertainment, Angelina enjoys rock concerts, indie films, but dislikes theater performances, film festivals. In terms of travel, Angelina enjoys wildlife safaris, hot air balloon rides, but dislikes historical site tours, food tours. In terms of lifestyle, Angelina enjoys meditation, yoga, but dislikes plant-based diet, home cooking. In terms of shopping, Angelina enjoys Bluetooth speakers, wireless charging stations, but dislikes ceramic pottery, kitchen appliances. In terms of fashion, Angelina enjoys hand-knitted sweaters, silk scarves, but dislikes handcrafted leather bags, woven hats.",
+            "topic": [],
+            "original_id": "QA_sample_7fafe760",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Maggie Rachael least likely to be doing?"
+        }
+    },
+    {
+        "id": "LifeSim_75057a34",
+        "domain": "LifeSim",
+        "category": "Preference_QA",
+        "question": "Based on Fig. a1733fb4, What type of drink flavor does Saniya Mosley prefer?",
+        "answer": "light",
+        "evidence": {
+            "image_evidence": [
+                "LifeSim_c12ea0a3.png"
+            ]
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "bold",
+                "herbal",
+                "sweet",
+                "light"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_films_art_and_design_music_dccdfbfa",
+                    "insert_conversation_turn": 960,
+                    "reference_name": "Fig. a1733fb4"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "conv_history_name": "user_assistant_conversation_8ba3e8ac.json",
+            "preference_user_name": "Saniya Mosley",
+            "original_question": "What type of drink flavor does Saniya Mosley prefer?"
+        }
+    },
+    {
+        "id": "LifeSim_0174215a",
+        "domain": "LifeSim",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 5fafa2de, What learning method does Lilianna Colon prefer to minimize screen time and reduce eye strain?",
+        "answer": "text-based materials",
+        "evidence": {
+            "image_evidence": [
+                "LifeSim_ae218386.png"
+            ]
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "text-based materials",
+                "video tutorials",
+                "audio lectures",
+                "visual guides"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_history_technology_4856238e",
+                    "insert_conversation_turn": 370,
+                    "reference_name": "Fig. 5fafa2de"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "conv_history_name": "user_assistant_conversation_709a197f.json",
+            "preference_user_name": "Lilianna Colon",
+            "original_question": "What learning method does Lilianna Colon prefer to minimize screen time and reduce eye strain?"
+        }
+    }
+]

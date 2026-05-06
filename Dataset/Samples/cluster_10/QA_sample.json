@@ -1,0 +1,1958 @@
+[
+    {
+        "id": "QA_sample_4d46be4c",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. b8d54f98, the text, between 2010 and 2019, did the percentage of proposals that meet the criteria for being \"'effectively processed'—meaning they were voted on or withdrawn before the voting process and not omitted\" increase according to the chart?",
+        "answer": "Yes",
+        "evidence": {
+            "text_evidence": [
+                "A sustainability proposal is considered 'effectively processed' if it has been voted on or withdrawn before the voting process. Proposals that are omitted are not considered part of the 'effectively processed' group. Analyze the chart trends between 2010 and 2019 to determine if the percentage of 'effectively processed' proposals has improved over time."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_65c831b1.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Yes",
+                "No"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_government_technology_literature_ef27ff16",
+                    "insert_conversation_turn": 959
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_health_food_transportation_8b4725a2",
+                    "insert_conversation_turn": 1139,
+                    "reference_name": "Fig. b8d54f98"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "environment",
+                "business"
+            ],
+            "original_question": "the text, between 2010 and 2019, did the percentage of proposals that meet the criteria for being \"'effectively processed'—meaning they were voted on or withdrawn before the voting process and not omitted\" increase according to the chart?"
+        }
+    },
+    {
+        "id": "QA_sample_6c3b01f3",
+        "domain": "MMCV",
+        "category": "Multi_Hop_QA",
+        "question": "Based on Table. c00eec81, Which game marked the first Monday night NFL matchup of the 2017 regular season, and where was it played?",
+        "answer": "Green Bay Packers vs. Detroit Lions at Lambeau Field",
+        "evidence": {
+            "text_evidence": [
+                "During the early 1960s, NFL Commissioner Pete Rozelle envisioned the possibility of playing at least one game weekly during prime time that could be viewed by a greater television audience (while the NFL had scheduled Saturday night games on the DuMont Television Network in 1953 and 1954, poor ratings and the dissolution of DuMont led to those games being eliminated by the time CBS took over the rights in 1956). An early bid by the league in 1964 to play on Friday nights was soundly defeated, with critics charging that such telecasts would damage the attendance at high school football games. Undaunted, Rozelle decided to experiment with the concept of playing on Monday night, scheduling the Green Bay Packers and Detroit Lions for a game on September 28, 1964. While the game was not televised, it drew a sellout crowd of 59,203 spectators to Tiger Stadium, the largest crowd ever to watch a professional football game in Detroit up to that point."
+            ],
+            "image_evidence": [],
+            "table_evidence": [
+                {
+                    "title": "2017 Detroit Lions season",
+                    "table_name": "Regular season",
+                    "table_header": [
+                        "Week",
+                        "Date",
+                        "Opponent",
+                        "Result",
+                        "Record",
+                        "Game site",
+                        "NFL.com recap"
+                    ],
+                    "table_rows": [
+                        [
+                            "1",
+                            "September 10",
+                            "Arizona Cardinals",
+                            "W 35–23",
+                            "1–0",
+                            "Ford Field",
+                            "[http://www.nfl.com/gamecenter/2017091004/2017/REG1/cardinals@lions Recap]"
+                        ],
+                        [
+                            "2",
+                            "September 18, 2017",
+                            "at New York Giants",
+                            "W 24–10",
+                            "2–0",
+                            "MetLife Stadium",
+                            "[http://www.nfl.com/gamecenter/2017091800/2017/REG2/lions@giants Recap]"
+                        ],
+                        [
+                            "3",
+                            "September 24",
+                            "Atlanta Falcons",
+                            "L 26–30",
+                            "2–1",
+                            "Ford Field",
+                            "[http://www.nfl.com/gamecenter/2017092404/2017/REG3/falcons@lions Recap]"
+                        ],
+                        [
+                            "4",
+                            "October 1",
+                            "at Minnesota Vikings",
+                            "W 14–7",
+                            "3–1",
+                            "U.S. Bank Stadium",
+                            "[http://www.nfl.com/gamecenter/2017100106/2017/REG4/lions@vikings Recap]"
+                        ],
+                        [
+                            "5",
+                            "October 8",
+                            "Carolina Panthers",
+                            "L 24–27",
+                            "3–2",
+                            "Ford Field",
+                            "[http://www.nfl.com/gamecenter/2017100802/2017/REG5/panthers@lions Recap]"
+                        ],
+                        [
+                            "6",
+                            "October 15",
+                            "at New Orleans Saints",
+                            "L 38–52",
+                            "3–3",
+                            "Mercedes-Benz Superdome",
+                            "[http://www.nfl.com/gamecenter/2017101504/2017/REG6/lions@saints Recap]"
+                        ],
+                        [
+                            "7",
+                            "Bye",
+                            "Bye",
+                            "Bye",
+                            "Bye",
+                            "Bye",
+                            "Bye"
+                        ],
+                        [
+                            "8",
+                            "October 29",
+                            "Pittsburgh Steelers",
+                            "L 15–20",
+                            "3–4",
+                            "Ford Field",
+                            "[http://www.nfl.com/gamecenter/2017102910/2017/REG8/steelers@lions Recap]"
+                        ],
+                        [
+                            "9",
+                            "November 6, 2017",
+                            "at Green Bay Packers",
+                            "W 30–17",
+                            "4–4",
+                            "Lambeau Field",
+                            "[http://www.nfl.com/gamecenter/2017110600/2017/REG9/lions@packers Recap]"
+                        ],
+                        [
+                            "10",
+                            "November 12",
+                            "Cleveland Browns",
+                            "W 38–24",
+                            "5–4",
+                            "Ford Field",
+                            "[http://www.nfl.com/gamecenter/2017111202/2017/REG10/browns@lions Recap]"
+                        ],
+                        [
+                            "11",
+                            "November 19",
+                            "at Chicago Bears",
+                            "W 27–24",
+                            "6–4",
+                            "Soldier Field",
+                            "[http://www.nfl.com/gamecenter/2017111900/2017/REG11/lions@bears Recap]"
+                        ],
+                        [
+                            "12",
+                            "November 23",
+                            "Minnesota Vikings",
+                            "L 23–30",
+                            "6–5",
+                            "Ford Field",
+                            "[http://www.nfl.com/gamecenter/2017112300/2017/REG12/vikings@lions Recap]"
+                        ],
+                        [
+                            "13",
+                            "December 3",
+                            "at Baltimore Ravens",
+                            "L 20–44",
+                            "6–6",
+                            "M&T Bank Stadium",
+                            "[http://www.nfl.com/gamecenter/2017120301/2017/REG13/lions@ravens Recap]"
+                        ],
+                        [
+                            "14",
+                            "December 10",
+                            "at Tampa Bay Buccaneers",
+                            "W 24–21",
+                            "7–6",
+                            "Raymond James Stadium",
+                            "[http://www.nfl.com/gamecenter/2017121007/2017/REG14/lions@buccaneers Recap]"
+                        ],
+                        [
+                            "15",
+                            "December 16, 2017",
+                            "Chicago Bears",
+                            "W 20–10",
+                            "8–6",
+                            "Ford Field",
+                            "[http://www.nfl.com/gamecenter/2017121600/2017/REG15/bears@lions Recap]"
+                        ],
+                        [
+                            "16",
+                            "December 24",
+                            "at Cincinnati Bengals",
+                            "L 17–26",
+                            "8–7",
+                            "Paul Brown Stadium",
+                            "[http://www.nfl.com/gamecenter/2017122402/2017/REG16/lions@bengals Recap]"
+                        ],
+                        [
+                            "17",
+                            "December 31",
+                            "Green Bay Packers",
+                            "W 35–11",
+                            "9–7",
+                            "Ford Field",
+                            "[http://www.nfl.com/gamecenter/2017123102/2017/REG17/packers@lions Recap]"
+                        ]
+                    ]
+                }
+            ],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "New York Giants vs. Detroit Lions at MetLife Stadium",
+                "Arizona Cardinals vs. Detroit Lions at Ford Field",
+                "Pittsburgh Steelers vs. Detroit Lions at Ford Field",
+                "Green Bay Packers vs. Detroit Lions at Lambeau Field"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_food_video_games_lifestyle_e3be7bf7",
+                    "insert_conversation_turn": 18
+                }
+            ],
+            "image_evidence_assignment": [],
+            "table_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_government_technology_literature_ef27ff16",
+                    "insert_conversation_turn": 644,
+                    "reference_name": "Table. c00eec81"
+                }
+            ],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "others",
+                "NFL history"
+            ],
+            "original_question": "Which game marked the first Monday night NFL matchup of the 2017 regular season, and where was it played?"
+        }
+    },
+    {
+        "id": "QA_sample_cd6f5d64",
+        "domain": "MMCV",
+        "category": "Multi_Hop_QA",
+        "question": "Based on Fig. 5b3953eb, Fig. 8b16386a, Table. 6ebdac96, Which city that hosted an in-port race in the 2005-2006 Volvo Ocean Race is known for its iconic mountainous landscape and is not the most populous city in its country?",
+        "answer": "Rio de Janeiro",
+        "evidence": {
+            "text_evidence": [],
+            "image_evidence": [
+                "MMCV_a57537765cb7f6f6e87164c017dbf3ea.png",
+                "MMCV_4dcad69cdbc6d6787bda154aaa4830ff.png"
+            ],
+            "table_evidence": [
+                {
+                    "title": "2005–2006 Volvo Ocean Race",
+                    "table_name": "Route",
+                    "table_header": [
+                        "Event",
+                        "Starting date",
+                        "Start",
+                        "Finish",
+                        "Distance (nmi)",
+                        "Winner"
+                    ],
+                    "table_rows": [
+                        [
+                            "Race 1",
+                            "5 November 2005",
+                            "Sanxenxo",
+                            "Sanxenxo",
+                            "In-Port Race",
+                            "Ericsson Racing Team"
+                        ],
+                        [
+                            "Leg 1",
+                            "12 November 2005",
+                            "Vigo",
+                            "Cape Town",
+                            "6,400",
+                            "ABN AMRO I"
+                        ],
+                        [
+                            "Race 2",
+                            "26 December 2005",
+                            "Cape Town",
+                            "Cape Town",
+                            "In-Port Race",
+                            "ABN AMRO I"
+                        ],
+                        [
+                            "Leg 2",
+                            "2 January 2006",
+                            "Cape Town",
+                            "Melbourne",
+                            "6,100",
+                            "ABN AMRO I"
+                        ],
+                        [
+                            "Race 3",
+                            "4 February 2006",
+                            "Melbourne",
+                            "Melbourne",
+                            "In-Port Race",
+                            "ABN AMRO I"
+                        ],
+                        [
+                            "Leg 3",
+                            "12 February 2006",
+                            "Melbourne",
+                            "Wellington",
+                            "1,450",
+                            "movistar"
+                        ],
+                        [
+                            "Leg 4",
+                            "19 February 2006",
+                            "Wellington",
+                            "Rio de Janeiro",
+                            "6,700",
+                            "ABN AMRO I"
+                        ],
+                        [
+                            "Race 4",
+                            "25 March 2006",
+                            "Rio de Janeiro",
+                            "Rio de Janeiro",
+                            "In-Port Race",
+                            "ABN AMRO I"
+                        ],
+                        [
+                            "Leg 5",
+                            "2 April 2006",
+                            "Rio de Janeiro",
+                            "Baltimore",
+                            "5,000",
+                            "ABN AMRO I"
+                        ],
+                        [
+                            "Race 5",
+                            "29 April 2006",
+                            "Baltimore",
+                            "Baltimore",
+                            "In-Port Race",
+                            "movistar"
+                        ],
+                        [
+                            "Leg 6",
+                            "2 May 2006",
+                            "Annapolis",
+                            "New York City",
+                            "400",
+                            "ABN AMRO I"
+                        ],
+                        [
+                            "Leg 7",
+                            "11 May 2006",
+                            "New York City",
+                            "Portsmouth",
+                            "3,200",
+                            "ABN AMRO I"
+                        ],
+                        [
+                            "Race 6",
+                            "29 May 2006",
+                            "Portsmouth",
+                            "Portsmouth",
+                            "In-Port Race",
+                            "ABN AMRO I"
+                        ],
+                        [
+                            "Leg 8",
+                            "2 June 2006",
+                            "Portsmouth",
+                            "Rotterdam",
+                            "1,500",
+                            "Brasil1"
+                        ],
+                        [
+                            "Race 7",
+                            "11 June 2006",
+                            "Rotterdam",
+                            "Rotterdam",
+                            "In-Port Race",
+                            "ABN AMRO I"
+                        ],
+                        [
+                            "Leg 9",
+                            "15 June 2006",
+                            "Rotterdam",
+                            "Gothenburg",
+                            "500",
+                            "Pirates of the Caribbean"
+                        ]
+                    ]
+                }
+            ],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "Baltimore",
+                "Cape Town",
+                "Rio de Janeiro",
+                "Melbourne"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_food_video_games_lifestyle_e3be7bf7",
+                    "insert_conversation_turn": 793,
+                    "reference_name": "Fig. 5b3953eb"
+                },
+                {
+                    "conversation_name": "group_chat_government_technology_literature_ef27ff16",
+                    "insert_conversation_turn": 184,
+                    "reference_name": "Fig. 8b16386a"
+                }
+            ],
+            "table_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_health_food_transportation_8b4725a2",
+                    "insert_conversation_turn": 967,
+                    "reference_name": "Table. 6ebdac96"
+                }
+            ],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "others",
+                "geography and sports"
+            ],
+            "original_question": "Which city that hosted an in-port race in the 2005-2006 Volvo Ocean Race is known for its iconic mountainous landscape and is not the most populous city in its country?"
+        }
+    },
+    {
+        "id": "QA_sample_66ed66af",
+        "domain": "MMCV",
+        "category": "Multi_Hop_QA",
+        "question": "Based on Fig. 90c2576a, Fig. 909e1f58, Fig. 884aca52, Fig. 5f555f7e, During the 2019 Toyota/Save Mart 350, which participant whose facial hair was visible in photographs had standings in the after-race rankings?",
+        "answer": "Kurt Busch",
+        "evidence": {
+            "text_evidence": [],
+            "image_evidence": [
+                "MMCV_4b94daf87079cf576674b63213d0e9c1.png",
+                "MMCV_547242770338e36198cf279e147352a6.png",
+                "MMCV_ab675b688101100aa14e31bd81cfdb60.png",
+                "MMCV_c2f5ddce59922466ad01a8faec98fd7f.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "Kyle Busch",
+                "Chase Elliott",
+                "Martin Truex Jr",
+                "Kurt Busch"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_health_food_transportation_8b4725a2",
+                    "insert_conversation_turn": 952,
+                    "reference_name": "Fig. 90c2576a"
+                },
+                {
+                    "conversation_name": "group_chat_government_technology_literature_ef27ff16",
+                    "insert_conversation_turn": 732,
+                    "reference_name": "Fig. 909e1f58"
+                },
+                {
+                    "conversation_name": "group_chat_government_technology_literature_ef27ff16",
+                    "insert_conversation_turn": 772,
+                    "reference_name": "Fig. 884aca52"
+                },
+                {
+                    "conversation_name": "group_chat_food_video_games_lifestyle_e3be7bf7",
+                    "insert_conversation_turn": 121,
+                    "reference_name": "Fig. 5f555f7e"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "others",
+                "NASCAR race standings"
+            ],
+            "original_question": "During the 2019 Toyota/Save Mart 350, which participant whose facial hair was visible in photographs had standings in the after-race rankings?"
+        }
+    },
+    {
+        "id": "QA_sample_696bb5ba",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 6cb90095, the chart and according to the previous definition, which country in western Europe had a healthcare system that was considered \"overwhelmed\" as of November 18?",
+        "answer": "Austria",
+        "evidence": {
+            "text_evidence": [
+                "A country's healthcare system is considered overwhelmed if the Covid-19 case rate exceeds 600 confirmed cases per 100,000 people during a rolling seven-day period. If a country's case rate is between 400 and 600, it is considered at high risk, and if it is below 400, it is considered stable. These thresholds are observed closely to guide public health decisions."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_0ffcebb1.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "France",
+                "UK",
+                "Germany",
+                "Austria"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_food_video_games_lifestyle_e3be7bf7",
+                    "insert_conversation_turn": 68
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_health_food_transportation_8b4725a2",
+                    "insert_conversation_turn": 602,
+                    "reference_name": "Fig. 6cb90095"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "health"
+            ],
+            "original_question": "the chart and according to the previous definition, which country in western Europe had a healthcare system that was considered \"overwhelmed\" as of November 18?"
+        }
+    },
+    {
+        "id": "0b6bdea3",
+        "domain": "MMDocRAG",
+        "category": "Single_Hop_QA",
+        "question": "Based on Doc. 3d495e98, Doc. 67b5dd5c, Doc. c2842231, How long can cured meats be stored in the refrigerator according to the guide?",
+        "answer": "7 to 10 days.",
+        "evidence": {
+            "text_evidence": [],
+            "image_evidence": [],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": [
+                [
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Short holidays No need to shut off the refrigerator if you will be away for less than four weeks.\n\n 1. Use up any perishables.\n\n 2. Freeze other items.\n\n 3. Raise ice maker signal arm to OFF (up) position.\n\n 4. Shut off water supply to ice maker.\n\n 5. Empty the ice bin. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Your refrigerator is built to give you many years of dependable service. However, there are a few things you can do to help extend its product life. This section tells you how to clean your refrigerator and what to do when going on holiday, moving, or during a power outage "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Cold air from the freezer flows into the meat drawer. This helps keep the meat drawer colder than the rest of the refrigerator for better storage of meats. "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_f4c34bf1.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_5658ef34.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Wrap or store food in the refrigerator in air-tight and moisture-proof material.This prevents food odor and taste transfer throughout the refrigerator. For dated products,check code date to ensure freshness. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "3. A full freezer stays cold longer than a partly filled one. A freezer full of meat stays cold longer than a freezer full of baked goods. If food contains ice crystals it may be safely refrozen, although the quality and flavor maybe affected.lfthe condition of the food is poor,or if you feel itisunsafe,dispose of it. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "1. If service will be interrupted 24 hours or less, keep both doors closed. This helps foods stay frozen.\n\n 2. If service will be interrupted longer than 24hours: (a) Remove all frozen food and store in a frozen food locker. "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_1968e845.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_985876b3.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "There is a correct way to package and store refrigerated or frozen food.Tokeepfood fresher,longer,take the time to study these recommended steps. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "(b)Place 32 grams of dry ice infreezer for every liter (2 lbs. for every cubic foot) of freezer space. This will keep food frozen for 2 to 4 days. Wear gloves to protect your handsfrom dry ice burns. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Store most meat in original wrapping as long as it is air ti qh t and moisture-proof.Rewraplf necessary.See the following chart for storage times. "
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_23eeb0b4.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_15246ca7.png"
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "t When storing meat longer than the times given,follow the directions for freezing. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Removing the freezer baskets 14 Using the ice cube trays .. Using the optional automatic ice maker .... 15 Removing the base grille 16 Using the THIRST CRUSHER\\* dispensing system ... 16-17 Solving common ice maker/dispenser problems. ..18 Changing the light bulbs 19-20 Understanding the sounds you may hear ... 20 Saving energy .... 20 Caring for Your Refrigerator .21 Cleaning your refrigerator ... 21 Holiday and moving care ... 22-23 Power interruptions 23 Food Storage Guide 24 Storing fresh food 24 Storing frozen food 25 Removing the Doors .. 26-27 Troubleshooting ... 28 Requesting Service 29 Warranty. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Do not expect your freezer to quick-freeze any large quantity of food.Putnomore unfrozen food into the freezer than will freeze within 24 hours(no more than 32 to 48 grams of food per liter[2to3lbs.per cubicfoot]of freezer space).Leave enough space for air to circulate around packages. Be careful to leave enough room at the front so the door can close tightly "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_17ffc73d.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_0d2f2100.png"
+                        }
+                    }
+                ]
+            ]
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "1 to 2 days",
+                "7 to 10 days.",
+                "5 to 7 days",
+                "3 to 5 days"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [],
+            "image_evidence_assignment": [],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_government_technology_literature_ef27ff16",
+                    "insert_conversation_turn": 1014,
+                    "reference_name": "Doc. 3d495e98"
+                },
+                {
+                    "conversation_name": "group_chat_food_video_games_lifestyle_e3be7bf7",
+                    "insert_conversation_turn": 473,
+                    "reference_name": "Doc. 67b5dd5c"
+                },
+                {
+                    "conversation_name": "group_chat_health_food_transportation_8b4725a2",
+                    "insert_conversation_turn": 1223,
+                    "reference_name": "Doc. c2842231"
+                }
+            ]
+        },
+        "meta_data": {
+            "category": "Guidebook",
+            "doc_name": "owners-manual-2170416",
+            "gold_quotes": [
+                "text9",
+                "image6"
+            ],
+            "topic": [
+                "food",
+                "health",
+                "lifestyle"
+            ],
+            "original_question": "How long can cured meats be stored in the refrigerator according to the guide?"
+        }
+    },
+    {
+        "id": "QA_sample_4a647858",
+        "domain": "MMCV",
+        "category": "Multi_Hop_QA",
+        "question": "Based on Fig. 11f44735, Fig. f3789645, Fig. 4ccc9980, Which mountain range contains the town shown in the image corresponding to the region located in the Czech Republic?",
+        "answer": "Krkonoš Mountains",
+        "evidence": {
+            "text_evidence": [],
+            "image_evidence": [
+                "MMCV_333c3349348347d06241534cd749e873.png",
+                "MMCV_34d8b59538c7f79311a16c1cc55cbfa8.png",
+                "MMCV_81943fa3a4027da44fd546c904d7f083.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "Bohemian Forest",
+                "Jizera Mountains",
+                "Orlické Mountains",
+                "Krkonoš Mountains"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_food_video_games_lifestyle_e3be7bf7",
+                    "insert_conversation_turn": 233,
+                    "reference_name": "Fig. 11f44735"
+                },
+                {
+                    "conversation_name": "group_chat_government_technology_literature_ef27ff16",
+                    "insert_conversation_turn": 1125,
+                    "reference_name": "Fig. f3789645"
+                },
+                {
+                    "conversation_name": "group_chat_health_food_transportation_8b4725a2",
+                    "insert_conversation_turn": 1180,
+                    "reference_name": "Fig. 4ccc9980"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "others",
+                "geography"
+            ],
+            "original_question": "Which mountain range contains the town shown in the image corresponding to the region located in the Czech Republic?"
+        }
+    },
+    {
+        "id": "QA_sample_3012f069",
+        "domain": "MMCV",
+        "category": "Multi_Hop_QA",
+        "question": "Based on Table. f966090c, What was the filming location for most of the scenes of the 3D monster horror film produced by Universal-International, and how is this location associated with the entertainment industry?",
+        "answer": "Universal City, California",
+        "evidence": {
+            "text_evidence": [
+                "Ben Chapman portrayed the Gill-man for the majority of the scenes shot at Universal City, California. Many of the on-top of the water scenes were filmed at Rice Creek near Palatka, Florida. The costume made it impossible for Chapman to sit for the 14 hours of each day that he wore it, and it overheated easily, so he stayed in the back lot's lake, often requesting to be hosed down. He also could not see very well while wearing the headpiece, which caused him to scrape Julie Adams' head against the wall when carrying her in the grotto scenes. Ricou Browning played the Gill-Man in the underwater shots, which were filmed by the second unit in Wakulla Springs, Florida."
+            ],
+            "image_evidence": [],
+            "table_evidence": [
+                {
+                    "title": "Hard for the Money Tour",
+                    "table_name": "Tour dates",
+                    "table_header": [
+                        "Date",
+                        "City",
+                        "Country",
+                        "Venue"
+                    ],
+                    "table_rows": [
+                        [
+                            "June 10, 1983",
+                            "Atlantic City, New Jersey",
+                            "United States",
+                            "Resorts Casino Hotel"
+                        ],
+                        [
+                            "July 2, 1983",
+                            "Merrillville, Indiana",
+                            "United States",
+                            "Holiday Star Music Theater"
+                        ],
+                        [
+                            "July 3, 1983",
+                            "Merrillville, Indiana",
+                            "United States",
+                            "Holiday Star Music Theater"
+                        ],
+                        [
+                            "July 4, 1983",
+                            "Merrillville, Indiana",
+                            "United States",
+                            "Holiday Star Music Theater"
+                        ],
+                        [
+                            "July 12, 1983",
+                            "Hoffman Estates, Illinois",
+                            "United States",
+                            "Poplar Creek Music Theater"
+                        ],
+                        [
+                            "July 15, 1983",
+                            "Concord, California",
+                            "United States",
+                            "Concord Pavilion"
+                        ],
+                        [
+                            "July 28, 1983",
+                            "Universal City, California",
+                            "United States",
+                            "Universal Amphitheatre"
+                        ],
+                        [
+                            "July 29, 1983",
+                            "Universal City, California",
+                            "United States",
+                            "Universal Amphitheatre"
+                        ],
+                        [
+                            "July 31, 1983",
+                            "Universal City, California",
+                            "United States",
+                            "Universal Amphitheatre"
+                        ],
+                        [
+                            "August 6, 1983",
+                            "Costa Mesa, California",
+                            "United States",
+                            "Pacific Amphitheatre"
+                        ]
+                    ]
+                }
+            ],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "Palatka Florida",
+                "Costa Mesa California",
+                "Wakulla Springs Florida",
+                "Universal City, California"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_government_technology_literature_ef27ff16",
+                    "insert_conversation_turn": 68
+                }
+            ],
+            "image_evidence_assignment": [],
+            "table_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_food_video_games_lifestyle_e3be7bf7",
+                    "insert_conversation_turn": 203,
+                    "reference_name": "Table. f966090c"
+                }
+            ],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "others",
+                "filming locations"
+            ],
+            "original_question": "What was the filming location for most of the scenes of the 3D monster horror film produced by Universal-International, and how is this location associated with the entertainment industry?"
+        }
+    },
+    {
+        "id": "QA_sample_0e8e6c74",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 2300e67f, the text, in which year did subsidized enrollment first meet the \"program's success\" criteria of being at least 50% larger than unsubsidized enrollment?",
+        "answer": "2016",
+        "evidence": {
+            "text_evidence": [
+                "In a market for health care plans, subsidized enrollment refers to individuals who receive financial assistance to pay for their premiums, while unsubsidized enrollment refers to those who pay the full cost themselves. A program's success is determined by ensuring subsidized plan enrollment is at least 50% larger than unsubsidized enrollment each year. If this condition is not met, the program is deemed at risk of underperformance."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_9ff10f29.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "2016",
+                "2017",
+                "2015",
+                "2018"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_government_technology_literature_ef27ff16",
+                    "insert_conversation_turn": 85
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_food_video_games_lifestyle_e3be7bf7",
+                    "insert_conversation_turn": 492,
+                    "reference_name": "Fig. 2300e67f"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "health"
+            ],
+            "original_question": "the text, in which year did subsidized enrollment first meet the \"program's success\" criteria of being at least 50% larger than unsubsidized enrollment?"
+        }
+    },
+    {
+        "id": "8db297ca",
+        "domain": "MMDocRAG",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 3f261746, Fig. a21027fb, Doc. b9a53cb1, Doc. 3749526f, Doc. 2b422bf9, Doc. d4cf92ea, How can students seek medical assistance and support services at NTU, and what are the available options near the campus?",
+        "answer": "Fullerton Healthcare@NTU, nearby clinics, government/restructured hospitals, Accessible Education Unit, SAO-Student Support",
+        "evidence": {
+            "text_evidence": [
+                "If you have special needs and require support services, please email the Accessible Education Unit at aeu@ntu.edu.sg "
+            ],
+            "image_evidence": [
+                "MMDocRAG_526c939f.png",
+                "MMDocRAG_e3c25e4c.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": [
+                [
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "The Student Wellbeing Centre administers a peer  support network for students on campus called the  ‘Peer Helping Programme’. Student volunteers in the  programme are trained by the Centre’s professional  Student Counsellors to befriend and support students  with  emotional  and/or  psychological  issues.  If  you wish to find out more about this programme,  please call or email the Student Wellbeing Centre at  student wellbeing@ntu.edu.sg . "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "For eligible students on the GHSI, the underwriter of  GHSI will prepare a Letter of Guarantee (LOG), which  you can present to the hospital in lieu of the cash  deposit, subject to the terms and conditions of the  insurance scheme. For more information, please refer  to  www.ntu-ghs.com.sg "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Important:  Outpatient specialist care will only be  reimbursed if the specialist whom you are seeking  treatment from is referred by the Fullerton Healthcare  $@$  NTU or the A&E department of a government/ restructured hospital. "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_660fdc11.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_0d3762d4.png"
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "NTU  has  two  insurance  schemes  -  Group  Hospital is ation and Surgical Insurance and the Group  Personal Accident Insurance - to help eligible students  meet basic medical cost . "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "The Medical Service on campus is operated by  Fullerton Healthcare Group. Health services provided  include  general  outpatient  medical  and  dental  treatment, laboratory and   $\\mathsf{x}$  -ray investigation, as well  as minor surgery. They also provide im munis ation and  travel medical advice. "
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "The GPAI Scheme provides basic coverage for  accidental death or permanent disablement as  well as medical reimbursement for accidents  for  undergraduates  and  full-time  graduate  students  (optional).  Please  see  www.ntu.edu. sg/Students/Undergraduate/Student Services/ Health And Counselling/Medical Insurance Schemes/ Pages/GPAI.aspx  for details including conditions for  eligibility. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Learn how you can adopt an active and healthy lifestyle.  Check   out   www.ntu.edu.sg/has/SnR/Pages/index. aspx  for the programmes of the Sports and Recreation  Centre and the Healthy Lifestyle Unit. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "To speak to a professional Student Counsellor,  please make an appointment at  www.ntu.edu.sg/ student wellbeing/appointment  or call (65) 6790 4462  during office hours. The Centre is located at University  Health Service, #02-01, 36 Nanyang  Avenue. Consultation  is free of charge for students and held in strict confidence.  "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_923d04e2.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_3d13e4e8.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "The Student Wellbeing Centre is available to all  students for professional counselling. A team of  registered counsellors are experienced in helping  students from various backgrounds and with a wide  range of issues. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "There are several private clinics, that are near  NTU. You may wish to visit  http://www.singhealth. com.sg/Patient Care/GP/Pages/Home.aspx  for a  comprehensive list of clinics in Singapore.  "
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "The Student Wellbeing Centre further promotes  student well-being through workshops and talks on  topics such as strategies for better learning, and  stress and relaxation techniques. Resources are  also available for students to support them through  various periods in the academic journey. Visit  www. ntu.edu.sg/student wellbeing/selfhelp/students   or  drop by the Centre for these resources. "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_78a59890.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_173919da.png"
+                        }
+                    }
+                ]
+            ]
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "Fullerton Healthcare@NTU, University Health Service, Student Wellbeing Centre, peer helping programme, nearby clinics",
+                "Student Wellbeing Centre, Fullerton Healthcare@NTU, University Health Service, peer helping programme, Student Counsellors",
+                "Fullerton Healthcare@NTU, nearby clinics, government/restructured hospitals, Accessible Education Unit, SAO-Student Support",
+                "Fullerton Healthcare@NTU, University Health Service, Student Wellbeing Centre, peer helping programme, government/restructured hospitals"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_government_technology_literature_ef27ff16",
+                    "insert_conversation_turn": 1084
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_government_technology_literature_ef27ff16",
+                    "insert_conversation_turn": 755,
+                    "reference_name": "Fig. 3f261746"
+                },
+                {
+                    "conversation_name": "group_chat_food_video_games_lifestyle_e3be7bf7",
+                    "insert_conversation_turn": 523,
+                    "reference_name": "Fig. a21027fb"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_health_food_transportation_8b4725a2",
+                    "insert_conversation_turn": 427,
+                    "reference_name": "Doc. b9a53cb1"
+                },
+                {
+                    "conversation_name": "group_chat_government_technology_literature_ef27ff16",
+                    "insert_conversation_turn": 429,
+                    "reference_name": "Doc. 3749526f"
+                },
+                {
+                    "conversation_name": "group_chat_food_video_games_lifestyle_e3be7bf7",
+                    "insert_conversation_turn": 665,
+                    "reference_name": "Doc. 2b422bf9"
+                },
+                {
+                    "conversation_name": "group_chat_health_food_transportation_8b4725a2",
+                    "insert_conversation_turn": 793,
+                    "reference_name": "Doc. d4cf92ea"
+                }
+            ]
+        },
+        "meta_data": {
+            "category": "Guidebook",
+            "doc_name": "StudentSupport_Guidebook",
+            "gold_quotes": [
+                "image4",
+                "text11",
+                "text6",
+                "image2",
+                "image3",
+                "text4"
+            ],
+            "topic": [
+                "health",
+                " education",
+                " lifestyle"
+            ],
+            "original_question": "How can students seek medical assistance and support services at NTU, and what are the available options near the campus?"
+        }
+    },
+    {
+        "id": "QA_sample_4ed956e2",
+        "domain": "MMCV",
+        "category": "Multi_Hop_QA",
+        "question": "Based on Fig. 40c9710c, Fig. b6d54b15, Fig. 0eee1cc6, Table. b2ef9e8b, Which ski jumping location associated with Masahiko Harada’s victory during the 19th World Cup season matches the type of terrain and geographic region depicted in the images?",
+        "answer": "Trondheim",
+        "evidence": {
+            "text_evidence": [],
+            "image_evidence": [
+                "MMCV_333c3349348347d06241534cd749e873.png",
+                "MMCV_81943fa3a4027da44fd546c904d7f083.png",
+                "MMCV_34d8b59538c7f79311a16c1cc55cbfa8.png"
+            ],
+            "table_evidence": [
+                {
+                    "title": "Masahiko Harada",
+                    "table_name": "Wins",
+                    "table_header": [
+                        "No.",
+                        "Season",
+                        "Date",
+                        "Location",
+                        "Hill",
+                        "Size"
+                    ],
+                    "table_rows": [
+                        [
+                            "1",
+                            "1995/96",
+                            "8 December 1995",
+                            "Villach",
+                            "Villacher Alpenarena K90",
+                            "NH"
+                        ],
+                        [
+                            "2",
+                            "1995/96",
+                            "18 February 1996",
+                            "Iron Mountain",
+                            "Pine Mountain Ski Jump K120",
+                            "LH"
+                        ],
+                        [
+                            "3",
+                            "1995/96",
+                            "1 March 1996",
+                            "Lahti",
+                            "Salpausselkä K90  (night)",
+                            "NH"
+                        ],
+                        [
+                            "4",
+                            "1995/96",
+                            "3 March 1996",
+                            "Lahti",
+                            "Salpausselkä K114",
+                            "LH"
+                        ],
+                        [
+                            "5",
+                            "1997/98",
+                            "8 December 1997",
+                            "Villach",
+                            "Villacher Alpenarena K90",
+                            "NH"
+                        ],
+                        [
+                            "6",
+                            "1997/98",
+                            "12 December 1997",
+                            "Harrachov",
+                            "Čerťák K90",
+                            "NH"
+                        ],
+                        [
+                            "7",
+                            "1997/98",
+                            "21 December 1997",
+                            "Engelberg",
+                            "Gross-Titlis-Schanze K120",
+                            "LH"
+                        ],
+                        [
+                            "8",
+                            "1997/98",
+                            "11 January 1998",
+                            "Ramsau",
+                            "Mattenschanze K90",
+                            "NH"
+                        ],
+                        [
+                            "9",
+                            "1997/98",
+                            "13 March 1998",
+                            "Trondheim",
+                            "Granåsen K120",
+                            "LH"
+                        ]
+                    ]
+                }
+            ],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "Villach",
+                "Lahti",
+                "Harrachov",
+                "Trondheim"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_food_video_games_lifestyle_e3be7bf7",
+                    "insert_conversation_turn": 233,
+                    "reference_name": "Fig. 40c9710c"
+                },
+                {
+                    "conversation_name": "group_chat_government_technology_literature_ef27ff16",
+                    "insert_conversation_turn": 355,
+                    "reference_name": "Fig. b6d54b15"
+                },
+                {
+                    "conversation_name": "group_chat_health_food_transportation_8b4725a2",
+                    "insert_conversation_turn": 52,
+                    "reference_name": "Fig. 0eee1cc6"
+                }
+            ],
+            "table_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_government_technology_literature_ef27ff16",
+                    "insert_conversation_turn": 163,
+                    "reference_name": "Table. b2ef9e8b"
+                }
+            ],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "others",
+                "ski jumping"
+            ],
+            "original_question": "Which ski jumping location associated with Masahiko Harada’s victory during the 19th World Cup season matches the type of terrain and geographic region depicted in the images?"
+        }
+    },
+    {
+        "id": "QA_sample_0dcdd075",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 8f99ed81, the text, which metrics experienced a \"significant delay in the health response system\" according to the public health protocol time targets and specified criteria?",
+        "answer": "Metrics 1 and 3 failed to meet the targets.",
+        "evidence": {
+            "text_evidence": [
+                "Public health protocols state that for the pandemic response to be evaluated as effective, at least 80% of cases must meet the time targets specified in each of the metrics shown in the charts. The metrics are: (1) the time between symptom onset and receipt of swab by the lab, which should be under 48 hours; (2) the time between receipt of the swab test result by the lab and notification of the case, which should take no more than 24 hours; and (3) the time between notification of a case and tracing of close contacts, which should also occur within 48 hours. Failure to reach these targets on any metric is considered a significant delay in the health response system."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_97655432.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "None of the metrics failed to meet the targets",
+                "Metrics 2 and 3 failed to meet the targets",
+                "Metrics 1 and 3 failed to meet the targets.",
+                "Metrics 1 and 2 failed to meet the targets"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_food_video_games_lifestyle_e3be7bf7",
+                    "insert_conversation_turn": 4
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_government_technology_literature_ef27ff16",
+                    "insert_conversation_turn": 413,
+                    "reference_name": "Fig. 8f99ed81"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "health"
+            ],
+            "original_question": "the text, which metrics experienced a \"significant delay in the health response system\" according to the public health protocol time targets and specified criteria?"
+        }
+    },
+    {
+        "id": "QA_sample_881960b6",
+        "domain": "MMCV",
+        "category": "Multi_Hop_QA",
+        "question": "Based on Table. 544cca09, Which city, ranked fourth globally for liveability in 2015, serves as the setting for exterior shots of the store whose original signage inspired that of Kim's Convenience?",
+        "answer": "Toronto",
+        "evidence": {
+            "text_evidence": [
+                "Interior scenes at the store, Handy Car Rental and home are shot at Showline Studios at 901 Lake Shore Boulevard East, where an exact replica of Mimi Variety, the model for the store, has been recreated. The studio is also used as the exterior of the car rental business. One episode was shot in Koreatown at Bloor and Christie Streets. The long established \"Mimi Variety\" store at 252 Queen Street East is used for exterior shots and as the model for the interior set built in the studio. While the signage has been adjusted, the \"Kim's Convenience\" sign uses the same red and green lettering and all other sections, such as the \"7 DAYS A WEEK\", are the original signage of Mimi Variety. The producers also painted a mural on an exterior wall, mostly seen in the credit sequence and for stock transitional shots as well as for promotional shots. The owners of the store have retained the new signage although the business has not officially changed its name."
+            ],
+            "image_evidence": [],
+            "table_evidence": [
+                {
+                    "title": "Global Liveability Ranking",
+                    "table_name": "2015 results",
+                    "table_header": [
+                        "Sl.",
+                        "City",
+                        "Ratings",
+                        "Country"
+                    ],
+                    "table_rows": [
+                        [
+                            "1",
+                            "Melbourne",
+                            "97.5",
+                            ""
+                        ],
+                        [
+                            "2",
+                            "Vienna",
+                            "97.4",
+                            ""
+                        ],
+                        [
+                            "3",
+                            "Vancouver",
+                            "97.3",
+                            ""
+                        ],
+                        [
+                            "4",
+                            "Toronto",
+                            "97.2",
+                            ""
+                        ],
+                        [
+                            "5",
+                            "Adelaide",
+                            "96.6",
+                            ""
+                        ],
+                        [
+                            "5",
+                            "Calgary",
+                            "96.6",
+                            ""
+                        ],
+                        [
+                            "7",
+                            "Sydney",
+                            "96.1",
+                            ""
+                        ],
+                        [
+                            "8",
+                            "Perth",
+                            "95.9",
+                            ""
+                        ],
+                        [
+                            "9",
+                            "Auckland",
+                            "95.7",
+                            ""
+                        ],
+                        [
+                            "10",
+                            "Helsinki",
+                            "95.6",
+                            ""
+                        ],
+                        [
+                            "10",
+                            "Zurich",
+                            "95.6",
+                            ""
+                        ]
+                    ]
+                }
+            ],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "Melbourne",
+                "Vancouver",
+                "Calgary",
+                "Toronto"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_health_food_transportation_8b4725a2",
+                    "insert_conversation_turn": 304
+                }
+            ],
+            "image_evidence_assignment": [],
+            "table_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_food_video_games_lifestyle_e3be7bf7",
+                    "insert_conversation_turn": 352,
+                    "reference_name": "Table. 544cca09"
+                }
+            ],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "others",
+                "tv locations"
+            ],
+            "original_question": "Which city, ranked fourth globally for liveability in 2015, serves as the setting for exterior shots of the store whose original signage inspired that of Kim's Convenience?"
+        }
+    },
+    {
+        "id": "QA_sample_98b7cb27",
+        "domain": "SlideVQA",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. e8d4ca0e, Fig. 40c08340, Where is the largest PV system in the western part of the country which has a photovoltaic potential of 600,000 GWh?",
+        "answer": "Bassano, Alberta",
+        "evidence": {
+            "text_evidence": [],
+            "image_evidence": [
+                "SlideVQA_e01b3c11_page_6.png",
+                "SlideVQA_e01b3c11_page_15.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Calgary, Alberta",
+                "Bassano, Alberta",
+                "Regina, Saskatchewan",
+                "Edmonton, Alberta"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_food_video_games_lifestyle_e3be7bf7",
+                    "insert_conversation_turn": 557,
+                    "reference_name": "Fig. e8d4ca0e"
+                },
+                {
+                    "conversation_name": "group_chat_health_food_transportation_8b4725a2",
+                    "insert_conversation_turn": 216,
+                    "reference_name": "Fig. 40c08340"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "environment",
+                "technology",
+                "business"
+            ],
+            "original_question": "Where is the largest PV system in the western part of the country which has a photovoltaic potential of 600,000 GWh?"
+        }
+    },
+    {
+        "id": "QA_sample_34fdfad9_1",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. b12ed155, Among the activities that could reasonably occur in the given image, which one is Justice Clark least likely to be doing?",
+        "answer": "Searching for a musical film",
+        "evidence": {
+            "text_evidence": [
+                "In terms of travel, Justice Clark enjoys mountain climbing, theme park visits, but dislikes backcountry camping, ice fishing"
+            ],
+            "image_evidence": [
+                "MMPB_81ebaeeb.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of entertainment, Justice Clark enjoys live concerts, stand-up comedy, but dislikes musicals, documentaries",
+                "In terms of lifestyle, Justice Clark enjoys daily smoothies, outdoor workouts, but dislikes forest bathing, holistic therapy",
+                "In terms of shopping, Justice Clark enjoys second-hand books, indie brands, but dislikes retro gaming consoles, wireless earbuds",
+                "In terms of fashion, Justice Clark enjoys casual wear, minimalist outfits, but dislikes hand-knitted sweaters, silk scarves."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "Seeking a film score",
+                "Looking for a movie soundtrack",
+                "Searching for a musical film",
+                "Doing ice fishing"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_food_video_games_lifestyle_e3be7bf7",
+                    "insert_conversation_turn": 238
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_health_food_transportation_8b4725a2",
+                    "insert_conversation_turn": 1229,
+                    "reference_name": "Fig. b12ed155"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_food_video_games_lifestyle_e3be7bf7",
+                    "insert_conversation_turn": 542
+                },
+                {
+                    "conversation_name": "group_chat_food_video_games_lifestyle_e3be7bf7",
+                    "insert_conversation_turn": 756
+                },
+                {
+                    "conversation_name": "group_chat_health_food_transportation_8b4725a2",
+                    "insert_conversation_turn": 1021
+                },
+                {
+                    "conversation_name": "group_chat_health_food_transportation_8b4725a2",
+                    "insert_conversation_turn": 805
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Emma",
+            "description": "Emma is a young woman with a slender build and an average height impression. Her facial structure is characterized by a prominent jawline and a slightly pointed chin, with a fair skin tone that appears smooth and even. Her hair is typically styled in a loose, wavy manner, often pulled back, with a few strands framing her face. Her eyes are a striking feature, with a direct gaze that conveys intensity and focus. The expressions on her face range from serious and contemplative to slightly concerned, suggesting a thoughtful and introspective personality. Her eyebrows are well-defined, adding to her expressive features.\n\n**Outfit and Accessories:**\nEmma is often seen wearing a light-colored, collared shirt with a subtle pattern, paired with a dark cardigan or sweater. The outfit exudes a practical yet slightly formal vibe, with a focus on comfort and modesty. The color palette is muted, featuring shades of gray, white, and dark tones, which contribute to a subdued and understated look. She accessorizes with a long necklace featuring a cross pendant, which adds a touch of personal significance to her attire. The clothing appears to be made of soft, comfortable materials, suitable for everyday wear, and the overall style is modest and functional.\n\n**Distinguishing Visual Features or Vibe:**\nThe most memorable feature of Emma is her intense gaze, which is both captivating and enigmatic. Her loose, wavy hair and the cross necklace are signature elements that contribute to her unique visual identity. The consistent use of a muted color palette and modest attire creates a cohesive and understated aesthetic. The combination of her thoughtful expressions, practical clothing, and subtle accessories gives her a distinctive aura of introspection and quiet strength. The setting in which she is often depicted, with dim lighting and a somewhat somber atmosphere, enhances the overall mood and adds to her enigmatic presence.",
+            "preference": "In terms of entertainment, Emma enjoys live concerts, stand-up comedy, but dislikes musicals, documentaries. In terms of travel, Emma enjoys mountain climbing, theme park visits, but dislikes backcountry camping, ice fishing. In terms of lifestyle, Emma enjoys daily smoothies, outdoor workouts, but dislikes forest bathing, holistic therapy. In terms of shopping, Emma enjoys second-hand books, indie brands, but dislikes retro gaming consoles, wireless earbuds. In terms of fashion, Emma enjoys casual wear, minimalist outfits, but dislikes hand-knitted sweaters, silk scarves.",
+            "topic": [],
+            "original_id": "QA_sample_34fdfad9",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Justice Clark least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_72ecefe6_1",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 791ccd74, Among the activities that could reasonably occur in the given image, which one is George Villegas least likely to be doing?",
+        "answer": "Watching crime thriller films",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, George Villegas enjoys live band karaoke, magic shows, but dislikes crime thrillers, historical dramas",
+                "In terms of travel, George Villegas enjoys kayaking, snorkeling, but dislikes fine dining, street food"
+            ],
+            "image_evidence": [
+                "MMPB_2d99653f.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of lifestyle, George Villegas enjoys essential oils, aromatherapy, but dislikes protein-rich diet, weightlifting",
+                "In terms of shopping, George Villegas enjoys smart home devices, kitchen appliances, but dislikes retro gaming consoles, wireless earbuds",
+                "In terms of fashion, George Villegas enjoys techwear, cyberpunk aesthetics, but dislikes vintage style, formal suits."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Watching crime thriller films",
+                "Enjoying fine dining food",
+                "Viewing suspenseful mystery movies",
+                "Watching action-packed dramas"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_health_food_transportation_8b4725a2",
+                    "insert_conversation_turn": 1096
+                },
+                {
+                    "conversation_name": "group_chat_government_technology_literature_ef27ff16",
+                    "insert_conversation_turn": 1164
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_food_video_games_lifestyle_e3be7bf7",
+                    "insert_conversation_turn": 400,
+                    "reference_name": "Fig. 791ccd74"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_government_technology_literature_ef27ff16",
+                    "insert_conversation_turn": 1150
+                },
+                {
+                    "conversation_name": "group_chat_food_video_games_lifestyle_e3be7bf7",
+                    "insert_conversation_turn": 632
+                },
+                {
+                    "conversation_name": "group_chat_food_video_games_lifestyle_e3be7bf7",
+                    "insert_conversation_turn": 102
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "curry",
+            "description": "curry is a tall, muscular individual with a well-defined jawline and a broad, athletic build. His skin tone is a rich, medium brown, and he sports a neatly trimmed beard and mustache, adding to his distinguished appearance. curry has short, curly hair that is neatly styled, and his facial expressions range from focused and intense during gameplay to warm and engaging in more formal settings. His eyes are expressive, often conveying determination or joy, and his eyebrows are thick and well-defined. The athlete's posture is confident, whether he's on the court or in a formal setting, exuding a sense of strength and poise.\n\n**Outfit and Accessories:**\nIn the images, curry is seen wearing a variety of outfits that reflect both his professional and personal life. On the basketball court, he dons the Golden State Warriors jersey, predominantly white with blue and yellow accents, featuring the number 30. The jersey is sleeveless, allowing for a full display of his muscular arms, and he wears matching shorts. His basketball shoes are vibrant, with a mix of purple, black, and orange, adding a pop of color to his athletic attire. In a more formal setting, curry is dressed in a bright blue suit with a white shirt and a black tie, exuding professionalism and elegance. The suit is well-tailored, fitting his athletic build perfectly. The consistent use of the Golden State Warriors jersey highlights his identity as a professional basketball player, while the formal attire showcases his versatility and public persona.\n\n**Distinguishing Visual Features or Vibe:**\nThe most memorable and defining features of curry are his muscular build, the number 30 jersey, and his confident demeanor. The Golden State Warriors jersey, with its distinctive blue and yellow colors, is a signature element that immediately identifies him as a key player for the team. His athletic shoes, with their bold colors and design, add a unique flair to his on-court presence. Off the court, curry exudes a sense of confidence and professionalism, as seen in his formal attire. The combination of his physical prowess, the iconic jersey, and his engaging personality creates a visually unmistakable and compelling image. The presence of the American flag in one of the images adds a patriotic element, further enhancing his public persona. Overall, curry conveys a vibe of determination, athleticism, and charisma, making him a standout figure both on and off the court.",
+            "preference": "In terms of entertainment, curry enjoys live band karaoke, magic shows, but dislikes crime thrillers, historical dramas. In terms of travel, curry enjoys kayaking, snorkeling, but dislikes fine dining, street food. In terms of lifestyle, curry enjoys essential oils, aromatherapy, but dislikes protein-rich diet, weightlifting. In terms of shopping, curry enjoys smart home devices, kitchen appliances, but dislikes retro gaming consoles, wireless earbuds. In terms of fashion, curry enjoys techwear, cyberpunk aesthetics, but dislikes vintage style, formal suits.",
+            "topic": [],
+            "original_id": "QA_sample_72ecefe6",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is George Villegas least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_72ecefe6_2",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 0ef349f6, Among the activities that could reasonably occur in the given image, which one is George Villegas least likely to be doing?",
+        "answer": "Watching historical dramas",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, George Villegas enjoys live band karaoke, magic shows, but dislikes crime thrillers, historical dramas",
+                "In terms of travel, George Villegas enjoys kayaking, snorkeling, but dislikes fine dining, street food"
+            ],
+            "image_evidence": [
+                "MMPB_6f052249.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of lifestyle, George Villegas enjoys essential oils, aromatherapy, but dislikes protein-rich diet, weightlifting",
+                "In terms of shopping, George Villegas enjoys smart home devices, kitchen appliances, but dislikes retro gaming consoles, wireless earbuds",
+                "In terms of fashion, George Villegas enjoys techwear, cyberpunk aesthetics, but dislikes vintage style, formal suits."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "Observing science fiction series",
+                "Doing weightlifting",
+                "Watching action thrillers",
+                "Watching historical dramas"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_health_food_transportation_8b4725a2",
+                    "insert_conversation_turn": 1096
+                },
+                {
+                    "conversation_name": "group_chat_government_technology_literature_ef27ff16",
+                    "insert_conversation_turn": 1164
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_health_food_transportation_8b4725a2",
+                    "insert_conversation_turn": 228,
+                    "reference_name": "Fig. 0ef349f6"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_government_technology_literature_ef27ff16",
+                    "insert_conversation_turn": 1150
+                },
+                {
+                    "conversation_name": "group_chat_food_video_games_lifestyle_e3be7bf7",
+                    "insert_conversation_turn": 632
+                },
+                {
+                    "conversation_name": "group_chat_food_video_games_lifestyle_e3be7bf7",
+                    "insert_conversation_turn": 102
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "curry",
+            "description": "curry is a tall, muscular individual with a well-defined jawline and a broad, athletic build. His skin tone is a rich, medium brown, and he sports a neatly trimmed beard and mustache, adding to his distinguished appearance. curry has short, curly hair that is neatly styled, and his facial expressions range from focused and intense during gameplay to warm and engaging in more formal settings. His eyes are expressive, often conveying determination or joy, and his eyebrows are thick and well-defined. The athlete's posture is confident, whether he's on the court or in a formal setting, exuding a sense of strength and poise.\n\n**Outfit and Accessories:**\nIn the images, curry is seen wearing a variety of outfits that reflect both his professional and personal life. On the basketball court, he dons the Golden State Warriors jersey, predominantly white with blue and yellow accents, featuring the number 30. The jersey is sleeveless, allowing for a full display of his muscular arms, and he wears matching shorts. His basketball shoes are vibrant, with a mix of purple, black, and orange, adding a pop of color to his athletic attire. In a more formal setting, curry is dressed in a bright blue suit with a white shirt and a black tie, exuding professionalism and elegance. The suit is well-tailored, fitting his athletic build perfectly. The consistent use of the Golden State Warriors jersey highlights his identity as a professional basketball player, while the formal attire showcases his versatility and public persona.\n\n**Distinguishing Visual Features or Vibe:**\nThe most memorable and defining features of curry are his muscular build, the number 30 jersey, and his confident demeanor. The Golden State Warriors jersey, with its distinctive blue and yellow colors, is a signature element that immediately identifies him as a key player for the team. His athletic shoes, with their bold colors and design, add a unique flair to his on-court presence. Off the court, curry exudes a sense of confidence and professionalism, as seen in his formal attire. The combination of his physical prowess, the iconic jersey, and his engaging personality creates a visually unmistakable and compelling image. The presence of the American flag in one of the images adds a patriotic element, further enhancing his public persona. Overall, curry conveys a vibe of determination, athleticism, and charisma, making him a standout figure both on and off the court.",
+            "preference": "In terms of entertainment, curry enjoys live band karaoke, magic shows, but dislikes crime thrillers, historical dramas. In terms of travel, curry enjoys kayaking, snorkeling, but dislikes fine dining, street food. In terms of lifestyle, curry enjoys essential oils, aromatherapy, but dislikes protein-rich diet, weightlifting. In terms of shopping, curry enjoys smart home devices, kitchen appliances, but dislikes retro gaming consoles, wireless earbuds. In terms of fashion, curry enjoys techwear, cyberpunk aesthetics, but dislikes vintage style, formal suits.",
+            "topic": [],
+            "original_id": "QA_sample_72ecefe6",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is George Villegas least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_72ecefe6_3",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 279335d5, Among the activities that could reasonably occur in the given image, which one is George Villegas least likely to be doing?",
+        "answer": "Searching for historical dramas",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, George Villegas enjoys live band karaoke, magic shows, but dislikes crime thrillers, historical dramas",
+                "In terms of travel, George Villegas enjoys kayaking, snorkeling, but dislikes fine dining, street food"
+            ],
+            "image_evidence": [
+                "MMPB_28b712ad.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of lifestyle, George Villegas enjoys essential oils, aromatherapy, but dislikes protein-rich diet, weightlifting",
+                "In terms of shopping, George Villegas enjoys smart home devices, kitchen appliances, but dislikes retro gaming consoles, wireless earbuds",
+                "In terms of fashion, George Villegas enjoys techwear, cyberpunk aesthetics, but dislikes vintage style, formal suits."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Searching for historical dramas",
+                "Buying wireless earbuds",
+                "Investigating vintage films",
+                "Exploring classic novels"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_health_food_transportation_8b4725a2",
+                    "insert_conversation_turn": 1096
+                },
+                {
+                    "conversation_name": "group_chat_government_technology_literature_ef27ff16",
+                    "insert_conversation_turn": 1164
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_health_food_transportation_8b4725a2",
+                    "insert_conversation_turn": 416,
+                    "reference_name": "Fig. 279335d5"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_government_technology_literature_ef27ff16",
+                    "insert_conversation_turn": 1150
+                },
+                {
+                    "conversation_name": "group_chat_food_video_games_lifestyle_e3be7bf7",
+                    "insert_conversation_turn": 632
+                },
+                {
+                    "conversation_name": "group_chat_food_video_games_lifestyle_e3be7bf7",
+                    "insert_conversation_turn": 102
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "curry",
+            "description": "curry is a tall, muscular individual with a well-defined jawline and a broad, athletic build. His skin tone is a rich, medium brown, and he sports a neatly trimmed beard and mustache, adding to his distinguished appearance. curry has short, curly hair that is neatly styled, and his facial expressions range from focused and intense during gameplay to warm and engaging in more formal settings. His eyes are expressive, often conveying determination or joy, and his eyebrows are thick and well-defined. The athlete's posture is confident, whether he's on the court or in a formal setting, exuding a sense of strength and poise.\n\n**Outfit and Accessories:**\nIn the images, curry is seen wearing a variety of outfits that reflect both his professional and personal life. On the basketball court, he dons the Golden State Warriors jersey, predominantly white with blue and yellow accents, featuring the number 30. The jersey is sleeveless, allowing for a full display of his muscular arms, and he wears matching shorts. His basketball shoes are vibrant, with a mix of purple, black, and orange, adding a pop of color to his athletic attire. In a more formal setting, curry is dressed in a bright blue suit with a white shirt and a black tie, exuding professionalism and elegance. The suit is well-tailored, fitting his athletic build perfectly. The consistent use of the Golden State Warriors jersey highlights his identity as a professional basketball player, while the formal attire showcases his versatility and public persona.\n\n**Distinguishing Visual Features or Vibe:**\nThe most memorable and defining features of curry are his muscular build, the number 30 jersey, and his confident demeanor. The Golden State Warriors jersey, with its distinctive blue and yellow colors, is a signature element that immediately identifies him as a key player for the team. His athletic shoes, with their bold colors and design, add a unique flair to his on-court presence. Off the court, curry exudes a sense of confidence and professionalism, as seen in his formal attire. The combination of his physical prowess, the iconic jersey, and his engaging personality creates a visually unmistakable and compelling image. The presence of the American flag in one of the images adds a patriotic element, further enhancing his public persona. Overall, curry conveys a vibe of determination, athleticism, and charisma, making him a standout figure both on and off the court.",
+            "preference": "In terms of entertainment, curry enjoys live band karaoke, magic shows, but dislikes crime thrillers, historical dramas. In terms of travel, curry enjoys kayaking, snorkeling, but dislikes fine dining, street food. In terms of lifestyle, curry enjoys essential oils, aromatherapy, but dislikes protein-rich diet, weightlifting. In terms of shopping, curry enjoys smart home devices, kitchen appliances, but dislikes retro gaming consoles, wireless earbuds. In terms of fashion, curry enjoys techwear, cyberpunk aesthetics, but dislikes vintage style, formal suits.",
+            "topic": [],
+            "original_id": "QA_sample_72ecefe6",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is George Villegas least likely to be doing?"
+        }
+    }
+]

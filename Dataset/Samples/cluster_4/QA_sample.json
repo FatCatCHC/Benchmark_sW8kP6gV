@@ -1,0 +1,2189 @@
+[
+    {
+        "id": "QA_sample_cfbe0067",
+        "domain": "MLLMKC",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. 4ce848aa, Who established the brand corresponding to the logo?",
+        "answer": "Steve Chen, Chad Hurley, and Jawed Karim",
+        "evidence": {
+            "text_evidence": [
+                "YouTube was created in 2005. The creators of YouTube are Steve Chen, Chad Hurley, and Jawed Karim. YouTube is the brand of online video sharing platform."
+            ],
+            "image_evidence": [
+                "MLLMKC_f95a24e9.jpg"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "YouTube was created in 2005. The creators of YouTube are Elon Musk and Mark Zuckerberg. YouTube is the brand of online video sharing platform."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Elon Musk and Mark Zuckerberg",
+                "Steve Chen, Chad Hurley, and Jawed Karim",
+                "Larry Page and Sergey Brin",
+                "Bill Gates and Jeff Bezos"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_nature_politics_lifestyle_64a07edc",
+                    "insert_conversation_turn": 580
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_religion_travel_sports_921fdd3a",
+                    "insert_conversation_turn": 178,
+                    "reference_name": "Fig. 4ce848aa"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_science_video_games_food_bb094950",
+                    "insert_conversation_turn": 530
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "instance": "YouTube",
+            "category": "logo",
+            "error_type": "creator_error",
+            "topic": [
+                "technology"
+            ],
+            "original_question": "Who established the brand corresponding to the logo?"
+        }
+    },
+    {
+        "id": "01f3139e",
+        "domain": "MMDocRAG",
+        "category": "Single_Hop_QA",
+        "question": "Based on Doc. 2a9b7fb5, Doc. 461c7ff0, Doc. 5ef90baf, What function is used to determine a probability distribution over the two warrants in the proposed architecture?",
+        "answer": "softmax",
+        "evidence": {
+            "text_evidence": [],
+            "image_evidence": [],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": [
+                [
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "The major source of spurious statistical cues in ARCT comes from uneven distributions of lin- guistic artifacts over the warrants, and therefore over the labels. This section aims to demonstrate the presence and nature of these cues. We only consider unigrams and bigrams, although more so- phisticated cues may be present. To this end, we aim to calculate how beneﬁcial it is for a model to exploit a cue    $k$  , and how pervasive it is in the dataset (indicating the strength of the signal). "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Our BERT classiﬁer is visualized in Figure 3. The claim and reason are joined to form the ﬁrst text segment, which is paired with each warrant and in- dependently processed. The ﬁnal layer CLS vector is passed to a linear layer to obtain the logits  $z_{j}^{(i)}$  . The whole architecture is ﬁne-tuned. The learning rate is    $2e^{-5}$    and we allow a maximum of  20  train- ing epochs, taking the parameters from the epoch with the best validation set accuracy. We use the Hugging Face PyTorch implementation. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "The general architecture for all models is given in Figure 2. Shared parameters    $\\pmb{\\theta}$   are learned to classify each warrant independently with the ar- gument, yielding the logits: "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_08b25621.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_25cb0b34.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "There is much recent work focusing on statis- tical cues in datasets in vision ( Jo and Bengio , 2017 ) and NLP ( Sanchez et al. ,  2018 ;  McCoy et al. ,  2019 ;  Gururangan et al. ,  2018 ;  Glockner et al. ,  2018 ;  Poliak et al. ,  2018 ;  Rajpurkar et al. , 2018 ;  Jia and Liang ,  2017 ). Similar to our exper- iment with warrants,  Poliak et al.  ( 2018 ) classi- ﬁed NLI data based on the hypothesis only. A similar experiment to our probing task was per- formed by  Niven and Kao  ( 2018 ), but only with reasons and warrants. They found that indepen- dent warrant classiﬁcation with shared parameters provides some regularization against warrant-label cues ( Niven and Kao ,  2018 ). However, this does not solve the problem since the presence of a cue is enough to increase the logits for either warrant. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "These are then concatenated and passed through softmax to determine a probability distribution over the two warrants    $\\mathbf{p}^{(i)}\\!\\stackrel{\\cdot}{=}\\!\\mathrm{softmax}\\!\\big([z_{0}^{(i)},z_{1}^{(i)}]\\big)$  . The prediction is then  $\\hat{y}^{(i)}=\\arg\\operatorname*{max}_{j}\\mathbf{p}^{(i)}$  . "
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Table 2: Productivity and coverage of using the pres- ence of “not” in the warrant to predict the label in ARCT. Across the whole dataset, if you pick the war- rant with “not” you will be right  $61\\%$   of the time, which covers    $64\\%$   of all data points. "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_c2c38ef7.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_c4c9cc4b.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Let    $i\\,=\\,1,\\dots,n$   index each point in the dataset  $\\mathcal{D}$  , where    $|\\mathcal{D}|\\,=\\,n$  . The two candidate warrants in each case are randomly assigned a binary label  $j\\in\\{0,1\\}$  , such that each has an equal probability of being correct. The inputs are the representations for the claim    $\\mathbf{c}^{(i)}$  , reason    $\\mathbf{r}^{(i)}$  , warrant zero    $\\mathbf{w}_{0}^{(i)}$  , and warrant one    $\\mathbf{w}_{1}^{(i)}$  . The label    $y^{(i)}$   is a binary indicator corresponding to the correct warrant. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Figure 3: Processing an argument-warrant pair with BERT. The reason (with word pieces of length    $a$  ) and claim (length  b ) together form the ﬁrst utterance, and the warrant (length  $c$  ) is the second. The ﬁnal CLS vector is then passed to a linear layer to calculate the logit  $z_{j}^{(i)}$  . "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "The Argument Reasoning Comprehension Task (ARCT) ( Habernal et al. ,  2018a ) defers the prob- lem of discovering warrants and focuses on in- ference. An argument is provided, comprising a claim    $C$   and reason    $R$  . This task is to pick the cor- rect warrant    $W$   over a distractor, called the  alter- native warrant    $A$  . The alternative is written such that    $R\\,\\wedge\\,A\\;\\to\\;\\neg C$  . An alternative warrant for our earlier example could be “(4) it is good to get wet,” in which case we have   $(1)\\land(4)\\rightarrow\\mathfrak{C}(\\lnot2)$   you shouldn’t take an umbrella.” An example from the dataset is given in Figure 1. "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_5d5d2d6f.png"
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_e886f77a.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "If a model is exploiting distributional cues over the labels, then if trained only on the warrants (W) it should perform relatively well. The same can be said for removing either just the claim, leaving the reason and warrant (R, W), or removing the reason (C, W). The latter setups allow the models to addi- tionally consider cues in the reasons and claims, as well as cues holding over their combinations with the warrants. Each of these setups breaks the task since we no longer have an argument to match with a warrant. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Experimental results are given in Table 3. On warrants alone (W) BERT achieves a maximum  $71\\%$   accuracy. That leaves only six percentage points to account for its peak of    $77\\%$  . We ﬁnd a gain of four percentage points for (R, W) over (W), and a gain of two for (C, W), accounting for the missing six points. Based on this evidence our major ﬁnding is that the entirety of BERT’s perfor- mance can be accounted for in terms of exploiting spurious statistical cues. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "However, we show that the major problem can be eliminated in ARCT. Since    $R\\wedge A\\to\\lnot C$  , we can add a copy of each data point with the claim negated and the label inverted. This means that the distribution of statistical cues in the warrants will be mirrored over both labels, eliminating the signal. On this adversarial dataset all models per- form randomly, with BERT achieving a maximum test set accuracy of    $53\\%$  . The adversarial dataset therefore provides a more robust evaluation of ar- gument comprehension and should be adopted as the standard in future work on this dataset. "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_f2a307e1.png"
+                        }
+                    }
+                ]
+            ]
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "softmax",
+                "relu",
+                "sigmoid",
+                "tanh"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [],
+            "image_evidence_assignment": [],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_science_video_games_food_bb094950",
+                    "insert_conversation_turn": 816,
+                    "reference_name": "Doc. 2a9b7fb5"
+                },
+                {
+                    "conversation_name": "group_chat_science_video_games_food_bb094950",
+                    "insert_conversation_turn": 721,
+                    "reference_name": "Doc. 461c7ff0"
+                },
+                {
+                    "conversation_name": "group_chat_nature_politics_lifestyle_64a07edc",
+                    "insert_conversation_turn": 535,
+                    "reference_name": "Doc. 5ef90baf"
+                }
+            ]
+        },
+        "meta_data": {
+            "category": "Academic paper",
+            "doc_name": "P19-1459",
+            "gold_quotes": [
+                "text5",
+                "image5"
+            ],
+            "topic": [
+                "technology"
+            ],
+            "original_question": "What function is used to determine a probability distribution over the two warrants in the proposed architecture?"
+        }
+    },
+    {
+        "id": "QA_sample_c8913087",
+        "domain": "MLLMKC",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. 7ab779a0, What are the main products of this brand?",
+        "answer": "agricultural machinery",
+        "evidence": {
+            "text_evidence": [
+                "John Deere was created in 1837. The creator of John Deere is John Deere, and John Deere is the brand of agricultural machinery."
+            ],
+            "image_evidence": [
+                "MLLMKC_4336ab73.jpg"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "John Deere was created in 1837. The creator of John Deere is John Deere, and John Deere is the brand of electronic gadgets."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "electronic gadgets",
+                "agricultural machinery",
+                "fashion accessories",
+                "\"gardening tools\""
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_science_video_games_food_bb094950",
+                    "insert_conversation_turn": 356
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_nature_politics_lifestyle_64a07edc",
+                    "insert_conversation_turn": 422,
+                    "reference_name": "Fig. 7ab779a0"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_religion_travel_sports_921fdd3a",
+                    "insert_conversation_turn": 44
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "instance": "John Deere",
+            "category": "logo",
+            "error_type": "content_error",
+            "topic": [
+                "business",
+                "technology"
+            ],
+            "original_question": "What are the main products of this brand?"
+        }
+    },
+    {
+        "id": "QA_sample_4dd1450a",
+        "domain": "SlideVQA",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 7556f694, Fig. 56abec9d, What does the thing which is a process of continuous improvement connect to in the diagram?",
+        "answer": "BUSINESS PROBLEMS",
+        "evidence": {
+            "text_evidence": [],
+            "image_evidence": [
+                "SlideVQA_c3be32c7_page_8.png",
+                "SlideVQA_c3be32c7_page_10.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "REDUCE OPERATIONAL COSTS",
+                "IMPROVE COMPLIANCE",
+                "BUSINESS PROBLEMS",
+                "TECH PROBLEMS"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_science_video_games_food_bb094950",
+                    "insert_conversation_turn": 10,
+                    "reference_name": "Fig. 7556f694"
+                },
+                {
+                    "conversation_name": "group_chat_religion_travel_sports_921fdd3a",
+                    "insert_conversation_turn": 644,
+                    "reference_name": "Fig. 56abec9d"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "business",
+                "technology"
+            ],
+            "original_question": "What does the thing which is a process of continuous improvement connect to in the diagram?"
+        }
+    },
+    {
+        "id": "QA_sample_bc8757f1",
+        "domain": "MLLMKC",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. b9f20a99, Who established the brand corresponding to the logo?",
+        "answer": "Zhang Yiming",
+        "evidence": {
+            "text_evidence": [
+                "TikTok was created in 2016. The creator of TikTok is Zhang Yiming. TikTok is the brand of a social media platform."
+            ],
+            "image_evidence": [
+                "MLLMKC_a9a87c9a.jpg"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "TikTok was created in 2016. The creator of TikTok is Elon Musk. TikTok is the brand of a social media platform."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Li Ning",
+                "Zhang Yiming",
+                "Elon Musk",
+                "Mark Zuckerberg"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_nature_politics_lifestyle_64a07edc",
+                    "insert_conversation_turn": 742
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_religion_travel_sports_921fdd3a",
+                    "insert_conversation_turn": 223,
+                    "reference_name": "Fig. b9f20a99"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_science_video_games_food_bb094950",
+                    "insert_conversation_turn": 342
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "instance": "TikTok",
+            "category": "logo",
+            "error_type": "creator_error",
+            "topic": [
+                "technology"
+            ],
+            "original_question": "Who established the brand corresponding to the logo?"
+        }
+    },
+    {
+        "id": "a8607216",
+        "domain": "MMDocRAG",
+        "category": "Single_Hop_QA",
+        "question": "Based on Doc. 30818d65, Doc. b0579916, Doc. a382ffba, What method achieved the highest Macro-F1 score on dataset D1?",
+        "answer": "Ours: PRET+MULT",
+        "evidence": {
+            "text_evidence": [
+                "Table  2  shows the results of LSTM, LSTM  $+$  ATT, PRET, MULT, PRET  $^+$  MULT, and four representa- tive prior works ( Tang et al. ,  2016a , b ;  Wang et al. , 2016 ;  Chen et al. ,  2017 ). Signiﬁcance tests are conducted for testing the robustness of methods under random parameter initialization. Both accu- racy and macro-F1 are used for evaluation as label distribution is unbalanced. The reported numbers are obtained as the average value over 5 runs with random initialization for each method. "
+            ],
+            "image_evidence": [],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": [
+                [
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "We derived two document-level datasets from Yelp2014 ( Tang et al. ,  2015 ) and the Amazon Electronics dataset ( McAuley et al. ,  2015 ) respec- tively. The original reviews were rated on a 5- point scale. We consider 3-class classiﬁcation and thus label reviews with rating  $<3,>3$  , and  $=3$   as negative, positive, and neutral respectively. Each sampled dataset contains   $30\\mathbf{k}$   instances with ex- actly balanced class labels. We pair up an aspect- level dataset and a document-level dataset when they are from a similar domain – the Yelp dataset is used by D1, D3, and D4 for PRET and MULT, and the Electronics dataset is only used by D2. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Lastly, PRET  $^+$  MULT makes fewer errors on recognizing neutral instances. This can also be ob- served from the macro-F1 scores in Table  2 . The lack of training examples makes the prediction of neutral instances very difﬁcult for all previous methods. Knowledge from document-level exam- ples with balanced labels compensates for this dis- advantage. "
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_055f85b9.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_a0798a5d.png"
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "There are two main reasons why the improve- ments of macro-F1 scores are more signiﬁcant on D3 and D4 than on D1: (1) D1 has much more neutral examples in the training set. A classiﬁer "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Table  2  indicates that a large percentage of the per- formance gain comes from PRET. To better un- derstand the transfer effects of different layers – embedding layer   $\\mathbf{\\Psi}(\\mathbf{E})$  , LSTM layer   $(\\theta_{l s t m})$  , and output layer   $({\\bf W}_{o},{\\bf b}_{o})-\\mathrm{we}$   conduct ablation tests on PRET with different layers transfered from the document-level model to the aspect-level model. Results are presented in Table  3 . “LSTM only” denotes the setting where only the LSTM layer is transferred, and “Without LSTM” denotes the set- ting where only the embedding and output layers are transferred (excluding the LSTM layer). The key observations are: (1) Transfer is helpful in all settings. Improvements over LSTM  $^+$  ATT are observed even when only one layer is transferred. (2) Overall, transfers of the LSTM and embedding layer are more useful than the output layer. This is what we expect, since the output layer is nor- mally more task-speciﬁc. (3) Transfer of the em- bedding layer is more helpful on D3 and D4. One possible explanation is that the label distribution is extremely unbalanced on these two datasets. Sen- timent information is not adequately captured by GloVe word embeddings. Therefore, with a small number of training examples in the negative and neutral classes, the embeddings trained by aspect- level classiﬁcation still do not effectively capture the true semantics of the relevant opinion words. Transfer of the embedding layer can greatly help in this case. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "where    $\\mathbf{t}$   is the target representation computed as the averaged word embedding of the target.    $f_{s}$  score is a content-based function that captures the se- mantic association between a word and the target, for which we adopt the formulation used in ( Lu- ong et al. ,  2015b ;  He et al. ,  2017 ) with parameter matrix  $\\mathbf{W}_{a}\\in\\mathbb{R}^{d\\times d}$  . "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_f8f983bb.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_e92379a7.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "without any external knowledge might still be able to learn some neutral-related features on D1 but it is very hard to learn from D3 and D4. (2) The numbers of neutral examples in the test sets of D3 and D4 are very small. Thus, the precision and recall on neutral class will be largely affected by even a small prediction difference (e.g., with 5 more neutral examples correctly identiﬁed, recall is increased by more than   $10\\%$   on both datasets). As a result, the macro-F1 scores on D3 and D4 are affected more. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "We observe that PRET is very helpful, and con- sistently gives a   $1{-}3\\%$   increase in accuracy over LSTM  $+$  ATT across all datasets. The improve- ments in macro-F1 scores are even more, espe- cially on D3 and D4 where the labels are ex- tremely unbalanced. MULT gives similar perfor- mance as   $\\mathrm{LSTM+ATT}$   on D1 and D2, but im- provements can be clearly observed for D3 and D4. The combination (PRET  $^+$  MULT) overall yields better results. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "To show that aspect-level classiﬁcation indeed beneﬁts from document-level knowledge, we conduct experiments to vary the percentage of document-level training examples from 0.0 to 1.0 for PRET  $+$  MULT. The changes of accuracies and macro-F1 scores on the four datasets are shown in Figure  1 . The improvements on accuracies with increasing number of document examples are sta- ble across all datasets. For macro-F1 scores, the improvements on D1 and D2 are stable. We ob- serve sharp increases in the macro-F1 scores of D3 and D4 when changing the percentage from 0 to 0.4. This may be related to their extremely "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Attention-based long short-term memory (LSTM) networks have proven to be use- ful in aspect-level sentiment classiﬁca- tion. However, due to the difﬁculties in annotating aspect-level data, existing public datasets for this task are all rela- tively small, which largely limits the ef- fectiveness of those neural models. In this paper, we explore two approaches that transfer knowledge from document- level data, which is much less expensive to obtain, to improve the performance of aspect-level sentiment classiﬁcation. We demonstrate the effectiveness of our ap- proaches on 4 public datasets from Se- mEval 2014, 2015, and 2016, and we show that attention-based LSTM beneﬁts from document-level knowledge in multi- ple ways. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "We run experiments on four benchmark aspect- level datasets, taken from SemEval 2014 ( Pontiki et al. ,  2014 ), SemEval 2015 ( Pontiki et al. ,  2015 ), and SemEval 2016 ( Pontiki et al. ,  2016 ). Fol- lowing previous work ( Tang et al. ,  2016b ;  Wang et al. ,  2016 ), we remove samples with  conﬂicting polarities in all datasets 1 . Statistics of the resulting datasets are presented in Table  1 . "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "In all experiments, 300-dimension GloVe vec- tors ( Pennington et al. ,  2014 ) are used to initialize  $\\mathbf{E}$   and    $\\mathbf{E}^{\\prime}$    when pretraining is not conducted for weight initialization. These vectors are also used for initializing    $\\mathbf{E}^{\\prime}$    in the pretraining phase. Val- ues for hyperparameters are obtained from experi- ments on development sets. We randomly sample  $20\\%$   of the original training data from the aspect- level dataset as the development set and only use the remaining   $80\\%$   for training. For all experi- ments, the dimension of LSTM hidden vectors is set to 300,    $\\lambda$   is set to 0.1, and we use dropout with probability 0.5 on sentence/document representa- tions before the output layer. We use RMSProp as the optimizer with the decay rate set to 0.9 and the base learning rate set to 0.001. The mini-batch size is set to 32. "
+                        }
+                    }
+                ]
+            ]
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "Chen et al. (2017)",
+                "Ours: PRET",
+                "Ours: MULT",
+                "Ours: PRET+MULT"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_religion_travel_sports_921fdd3a",
+                    "insert_conversation_turn": 892
+                }
+            ],
+            "image_evidence_assignment": [],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_nature_politics_lifestyle_64a07edc",
+                    "insert_conversation_turn": 826,
+                    "reference_name": "Doc. 30818d65"
+                },
+                {
+                    "conversation_name": "group_chat_science_video_games_food_bb094950",
+                    "insert_conversation_turn": 61,
+                    "reference_name": "Doc. b0579916"
+                },
+                {
+                    "conversation_name": "group_chat_religion_travel_sports_921fdd3a",
+                    "insert_conversation_turn": 878,
+                    "reference_name": "Doc. a382ffba"
+                }
+            ]
+        },
+        "meta_data": {
+            "category": "Academic paper",
+            "doc_name": "P18-2092",
+            "gold_quotes": [
+                "text1",
+                "image2",
+                "text3"
+            ],
+            "topic": [
+                "technology"
+            ],
+            "original_question": "What method achieved the highest Macro-F1 score on dataset D1?"
+        }
+    },
+    {
+        "id": "QA_sample_af7e741b",
+        "domain": "MLLMKC",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. 0f6ec0ac, When was the brand associated with the logo established?",
+        "answer": "2008",
+        "evidence": {
+            "text_evidence": [
+                "Airbnb was created in 2008. The creators of Airbnb are Brian Chesky, Joe Gebbia, and Nathan Blecharczyk. Airbnb is the brand of an online marketplace for lodging and tourism experiences."
+            ],
+            "image_evidence": [
+                "MLLMKC_8cfb2894.jpg"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Airbnb was created in 2005. The creators of Airbnb are Brian Chesky, Joe Gebbia, and Nathan Blecharczyk. Airbnb is the brand of an online marketplace for lodging and tourism experiences."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "2005",
+                "2007",
+                "2008",
+                "2011"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_science_video_games_food_bb094950",
+                    "insert_conversation_turn": 839
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_nature_politics_lifestyle_64a07edc",
+                    "insert_conversation_turn": 305,
+                    "reference_name": "Fig. 0f6ec0ac"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_religion_travel_sports_921fdd3a",
+                    "insert_conversation_turn": 127
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "instance": "Airbnb",
+            "category": "logo",
+            "error_type": "time_error",
+            "topic": [
+                "travel",
+                "business",
+                "technology"
+            ],
+            "original_question": "When was the brand associated with the logo established?"
+        }
+    },
+    {
+        "id": "QA_sample_6a0e313c",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 389c1133, the text, which cryptocurrency experienced \"stabilization\" after 04:00 AM according to the previous definition?",
+        "answer": "Ethereum",
+        "evidence": {
+            "text_evidence": [
+                "A cryptocurrency is considered to have experienced stabilization when its price volatility decreases significantly, and it remains within a narrow price range for at least two consecutive hours. For Bitcoin, stabilization is defined as a price range within £28,750 to £28,850, and for Ethereum, within £2,100 to £2,120."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_e9e0b22b.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Bitcoin",
+                "Ethereum",
+                "Ripple",
+                "Litecoin"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_science_video_games_food_bb094950",
+                    "insert_conversation_turn": 595
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_religion_travel_sports_921fdd3a",
+                    "insert_conversation_turn": 98,
+                    "reference_name": "Fig. 389c1133"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "economy",
+                "technology"
+            ],
+            "original_question": "the text, which cryptocurrency experienced \"stabilization\" after 04:00 AM according to the previous definition?"
+        }
+    },
+    {
+        "id": "QA_sample_56658fe9",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. bd149de4, the text, which countries met the criteria for a \"mature EV market\" in 2017 according to the previous definition?",
+        "answer": "No",
+        "evidence": {
+            "text_evidence": [
+                "An EV market is considered mature if its market share exceeds 5%, annual EV sales are above 50,000 units, and has a 5-year compound annual growth rate (CAGR) of at least 50%."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_29b7abcc.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Yes",
+                "No"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_science_video_games_food_bb094950",
+                    "insert_conversation_turn": 241
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_religion_travel_sports_921fdd3a",
+                    "insert_conversation_turn": 83,
+                    "reference_name": "Fig. bd149de4"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "transportation",
+                "technology",
+                "environment"
+            ],
+            "original_question": "the text, which countries met the criteria for a \"mature EV market\" in 2017 according to the previous definition?"
+        }
+    },
+    {
+        "id": "QA_sample_b843ff66",
+        "domain": "MLLMKC",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. df4003ee, What are the main products of this brand?",
+        "answer": "child welfare",
+        "evidence": {
+            "text_evidence": [
+                "UNICEF was created in 1946. The creator of UNICEF is the United Nations. UNICEF is the brand of child welfare and humanitarian aid."
+            ],
+            "image_evidence": [
+                "MLLMKC_1c0337c5.jpg"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "UNICEF was created in 1946. The creator of UNICEF is the United Nations. UNICEF is the brand of luxury watches and jewelry."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "high-end electronics and gadgets",
+                "child welfare",
+                "luxury watches and jewelry",
+                "organic skincare and cosmetics"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_religion_travel_sports_921fdd3a",
+                    "insert_conversation_turn": 550
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_science_video_games_food_bb094950",
+                    "insert_conversation_turn": 622,
+                    "reference_name": "Fig. df4003ee"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_nature_politics_lifestyle_64a07edc",
+                    "insert_conversation_turn": 73
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "instance": "UNICEF",
+            "category": "logo",
+            "error_type": "content_error",
+            "topic": [
+                "health",
+                " government",
+                " education"
+            ],
+            "original_question": "What are the main products of this brand?"
+        }
+    },
+    {
+        "id": "QA_sample_06fb0dda",
+        "domain": "SlideVQA",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 9eff3f82, Fig. 9d117e2b, In a distributed data management architecture, what exists between Banking UI and Account Database?",
+        "answer": "Account Management Service",
+        "evidence": {
+            "text_evidence": [],
+            "image_evidence": [
+                "SlideVQA_ee5e16d3_page_10.png",
+                "SlideVQA_ee5e16d3_page_15.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Account Management Service",
+                "Transaction Management Service",
+                "Account Synchronization Engine",
+                "Data Integration Service"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_science_video_games_food_bb094950",
+                    "insert_conversation_turn": 486,
+                    "reference_name": "Fig. 9eff3f82"
+                },
+                {
+                    "conversation_name": "group_chat_nature_politics_lifestyle_64a07edc",
+                    "insert_conversation_turn": 700,
+                    "reference_name": "Fig. 9d117e2b"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "technology"
+            ],
+            "original_question": "In a distributed data management architecture, what exists between Banking UI and Account Database?"
+        }
+    },
+    {
+        "id": "QA_sample_3569ef6a",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. a2a2974a, the text's definition of the policy threshold, should the country impose restrictions as of December 15 if the 7-day rolling average of COVID-19 cases has exceeded the threshold for seven consecutive days?",
+        "answer": "Yes",
+        "evidence": {
+            "text_evidence": [
+                "A country is considering implementing restrictions if the 7-day rolling average of COVID-19 cases exceeds 50,000 for seven consecutive days. Assume that the decision-makers are assessing the situation based on the data shown in the graph."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_6f06c00a.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Yes",
+                "No"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_nature_politics_lifestyle_64a07edc",
+                    "insert_conversation_turn": 191
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_science_video_games_food_bb094950",
+                    "insert_conversation_turn": 664,
+                    "reference_name": "Fig. a2a2974a"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "health",
+                "government"
+            ],
+            "original_question": "the text's definition of the policy threshold, should the country impose restrictions as of December 15 if the 7-day rolling average of COVID-19 cases has exceeded the threshold for seven consecutive days?"
+        }
+    },
+    {
+        "id": "QA_sample_6839bf78",
+        "domain": "MLLMKC",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. e30bf4a7, When was the brand associated with the logo established?",
+        "answer": "1982",
+        "evidence": {
+            "text_evidence": [
+                "Adobe was founded in 1982. The creators of Adobe are John Warnock and Charles Geschke. Adobe is the production of software."
+            ],
+            "image_evidence": [
+                "MLLMKC_1ee6f955.jpg"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Adobe was founded in 1975. The creators of Adobe are John Warnock and Charles Geschke. Adobe is the production of software."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "1975",
+                "1982",
+                "1990",
+                "1987"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_religion_travel_sports_921fdd3a",
+                    "insert_conversation_turn": 674
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_nature_politics_lifestyle_64a07edc",
+                    "insert_conversation_turn": 342,
+                    "reference_name": "Fig. e30bf4a7"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_science_video_games_food_bb094950",
+                    "insert_conversation_turn": 577
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "instance": "Adobe",
+            "category": "logo",
+            "error_type": "time_error",
+            "topic": [
+                "business",
+                "technology"
+            ],
+            "original_question": "When was the brand associated with the logo established?"
+        }
+    },
+    {
+        "id": "2d0c34fd",
+        "domain": "MMDocRAG",
+        "category": "Single_Hop_QA",
+        "question": "Based on Doc. 09029fd4, Doc. eb72890b, Doc. a56814b0, Doc. 51c14c97, What is the role of NSMRL as described in the newsletter?",
+        "answer": "NSMRL conducts medical, psychological, and human performance research for the submarine force and develops new technologies for CSF.",
+        "evidence": {
+            "text_evidence": [],
+            "image_evidence": [],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": [
+                [
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Hopefully this gave you a peek into the operational research world of NSMRL!  "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "SILVER SPRING, Md. - Rear Adm.  (Ret.) Tim Ziemer, the U.S. Global  Malaria Coordinator, President‟s  Malaria Initiative, visited the Naval  Medical Research Center ( NMRC ),  November 29, for a brief on the  current malaria vaccine research  efforts and to tour the facility. He was  interested in learning more about the  malaria program at the laboratory.  Capt. John Sanders, NMRC  commanding officer, provided a  general overview of the NMRC  enterprise with emphasis on the  infectious diseases research efforts,  specifically in the area of malaria.  “The NMRC malaria research  program is at the forefront of malaria  "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "One notable collaboration is being spearheaded by  Cmdr. Jonathan Forsberg (NMRC, Operational and Un- dersea Medicine Directorate), who is working with a com- pany to explore a novel mode of anchoring prosthetics.  This project could produce important results for amputees.  Another collaboration being led by Lt. Roxanne Burrus  ( U.S. Naval Medical Research Unit No. 6 , Lima, Peru)  involves Duke University and focuses on evaluating the  effects of changing demography and land use on malaria  transmission. This is an important issue in light of the  prevalence of malaria in developing countries and is  important to the health of deployed war fighters. An addi- tional malaria-focused collaboration is being headed by Lt.  R. Vince Gerbasi (NMRC, Infectious Diseases Director- ate), who is using mass spectrometry to identify novel  antigens to be used as potential vaccine candidates.  Lastly, Dr Bjorn Song ( Naval Medical Research Unit-San  Antonio ) is leading a collaboration focused on exploring  the use of a synthetic oxygen-carrying fluid to reduce  tissue damage occurring in response to hemorrhagic  shock.  "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_b1627f87.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_9f896ee4.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "NSMRL Commanding Officer’s Message  "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Since 2010, Navy biomedical researchers have been  collaborating with the Liberian Institute of Biomedical Re- search (LIBR) on two research projects funded by the  Armed Forces Health Surveillance Center/Global Emerging  Infections System (AFHSC-GEIS). These projects focus on  disease vector surveillance, detection of vector-borne viral  pathogens such as malaria, and vector control. The projects  are enabling the country to independently expand vector- borne disease surveillance and detection capabilities in Li- beria to benefit the Liberian Armed Forces as well as the  entire population of Liberia.  "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "the Navy including Scientific Director  at the Navy‟s medical research  laboratory in Egypt, Special Assistant  to the Navy Surgeon General for  Research Protections, Executive  Officer of NMRC, and, currently, Head  of the Malaria Department at NMRC.   The Navy Malaria Department  "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_f44af710.png"
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_85133677.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "CAIRO - U.S. Naval Medical Research Unit No. 3   ( NAMRU-3 ) is playing an important role in medical research  capacity building in Liberia, which is recovering from a brutal  14-year civil war that devastated the country‟s infrastructure.  "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "SAN DIEGO - The Expeditionary Medicine Modeling,  Simulation, and Analysis group at the Naval Health Re- search Center ( NHRC ) completed development of the Pa- tient Condition Occurrence Frequency (PCOF) tool. In Oc- tober, the tool was presented to the Force Health Protec- tion and Readiness, Strategic Analysis Working Group Of- fice of the Assistant Secretary of Defense, Health Affairs as  part of the verification, validation, and accreditation (VV&A)  plan for service acceptance. The working group forwarded  their recommendation for accreditation to the Force Health  Protection Integration Council. Once accredited, NHRC‟s  PCOF tool will be approved as the Joint patient occurrence  generating application.  "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Recently NSMRL acquired NAVSEA‟s new DP1/2 diving system. The DP1/2 is a surface supplied air system that  includes communications capability with the diver. This provides enhanced capabilities for underwater investigations,  since the diver can receive directions and report back in real time to the topside personnel orchestrating the experi- mentation. In return, NSMRL is testing the equipment for general Navy diving use and validating/revising operating in- structions for clarity, proper sequencing and procedural accuracy. NSMRL has a history of research in underwater  communications, and with the acquisition of this diving system, we harnessed another improved means of communica- tions with our divers.  "
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_21776d71.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_9eb20727.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "The Naval Submarine Medical Research Laboratory (NSMRL) is an operational  medicine laboratory with focus on the submarine force and human factors within. This  past August the Navy Surgeon General entered an agreement with the Commander,  Submarine Forces (CSF) that established NSMRL as CSF‟s primary human technol- ogy laboratory, including all physical and mental aspects of submariner health and  performance. NSMRL is tasked to conduct medical, psychological and human per- formance research; provide independent, objective reviews of human systems re- lated projects and technology proposed for CSF use; and develop new and innova- tive concepts for CSF that use human technology. Working directly with Vice Adm.  Connor (CSF), NSMRL is aligned with the submarine force strategic direction.  NSMRL also conducts investigations in diving medicine. This year NSMRL saw the  addition of an external hatch on the Genesis hyperbaric chamber. This addition al- lows the chamber to draw a vacuum and be “flown” at pressures representative of  those encountered at high altitudes. Unique features of this chamber include the abil- ity to lock-in and lock-out at depth or altitude, allowing for prolonged (months) studies. It also has the ability to study  mission profiles that transition from depth to altitude and vice versa (picture a Special Operations Forces mission lock- ing out of submarine and then scaling a mountain) without requiring any configuration changes.  "
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "SILVER SPRING, Md. - Four  scientists from Kazakhstan visited the  Rickettsia l Diseases Research  Program laboratories at the Naval  Medical Research Center ( NMRC ) in  Silver Spring, Md., October 29- November 9 for training on molecular  assays, specifically multi-locus  sequencing typing (MLST), from Dr.  Allen Richards and his staff. The  training was part of a collaboration  with the Cooperative Biological  Engagement Program (CBEP) of the  Defense Threat Reduction Agency  (DTRA).  "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "CAIRO - As part of U.S. Naval  Medical Research Unit No. 3‟s  ( NAMRU-3 ) ongoing efforts to build  medical capacity with Ministry of  Health laboratories in several coun- tries, NAMRU-3 is partnering with the  Defense Threat Reduction Agency  (DTRA) Cooperative Biological  Engagement Program (CBEP) in  Afghanistan. This collaboration  enhances the efficiency and synergy  in the U.S. government‟s biodefense  and disease surveillance efforts.   "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_b3ba25c7.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_ee5a9700.png"
+                        }
+                    }
+                ]
+            ]
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "NSMRL conducts medical, psychological, and human performance research for the submarine force and develops new technologies for CSF.",
+                "NSMRL provides training in molecular assays and builds medical research capacity in foreign laboratories",
+                "NSMRL collaborates with international partners on disease surveillance and vector control projects",
+                "NSMRL leads malaria vaccine research and infectious disease studies for the Navy"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [],
+            "image_evidence_assignment": [],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_religion_travel_sports_921fdd3a",
+                    "insert_conversation_turn": 68,
+                    "reference_name": "Doc. 09029fd4"
+                },
+                {
+                    "conversation_name": "group_chat_religion_travel_sports_921fdd3a",
+                    "insert_conversation_turn": 501,
+                    "reference_name": "Doc. eb72890b"
+                },
+                {
+                    "conversation_name": "group_chat_nature_politics_lifestyle_64a07edc",
+                    "insert_conversation_turn": 520,
+                    "reference_name": "Doc. a56814b0"
+                },
+                {
+                    "conversation_name": "group_chat_religion_travel_sports_921fdd3a",
+                    "insert_conversation_turn": 791,
+                    "reference_name": "Doc. 51c14c97"
+                }
+            ]
+        },
+        "meta_data": {
+            "category": "Administration/Industry file",
+            "doc_name": "0b85477387a9d0cc33fca0f4becaa0e5",
+            "gold_quotes": [
+                "text9",
+                "text10",
+                "image3"
+            ],
+            "topic": [
+                "science",
+                "health",
+                "technology",
+                "government"
+            ],
+            "original_question": "What is the role of NSMRL as described in the newsletter?"
+        }
+    },
+    {
+        "id": "QA_sample_a7fa1e60",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 7b6fb893, the text, did Malaysia meet the \"public health benchmarks\" for lifting travel restrictions on April 2, according to the criteria?",
+        "answer": "Yes",
+        "evidence": {
+            "text_evidence": [
+                "For public health benchmarks by the Ministry of Health Malaysia, fewer than 15,000 daily new Covid-19 cases and zero daily deaths are required to lift travel restrictions within the country."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_1fe576d0.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "No",
+                "Yes"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_religion_travel_sports_921fdd3a",
+                    "insert_conversation_turn": 737
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_science_video_games_food_bb094950",
+                    "insert_conversation_turn": 444,
+                    "reference_name": "Fig. 7b6fb893"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "health",
+                "government"
+            ],
+            "original_question": "the text, did Malaysia meet the \"public health benchmarks\" for lifting travel restrictions on April 2, according to the criteria of \"fewer than 15,000 daily new Covid-19 cases and zero daily deaths\"?"
+        }
+    },
+    {
+        "id": "b93a9cdd",
+        "domain": "MMDocRAG",
+        "category": "Single_Hop_QA",
+        "question": "Based on Doc. 4f44fed7, Doc. 5e443850, Doc. 151b8bfc, Doc. 19e903b6, How did the big data revenue trend evolve from 2011 to 2017, and which companies led the revenue in 2011?",
+        "answer": "Big data revenue grew from $5.1 billion in 2012 to $53.4 billion in 2017.",
+        "evidence": {
+            "text_evidence": [],
+            "image_evidence": [],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": [
+                [
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Walmart handle sIM transactions per hour Google processes 24PBof data per day AT&T transfers 30 PB of dataperday 90 trillion emails are sent per year World ofWarcraft uses I.3PB of storage "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Big Data is transforming business the same wayIT did.Those that fail to leverage the numerous internal and external data sources available will be leapfrogged by new entrants. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "This increased efficiency is leading to adoption of Big Data across a wide variety of industries "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_9fe90f3d.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_98a264d4.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Big Data Overall Revenue \\$5.1B in'1 "
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "1)Landscape-Number of Big Data Companies and Categories Is Growing "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Big Data Overall Revenue \\$53.4B By 2017 "
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_3888e784.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_9a44b8ce.png"
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "The faster you analyze your data, the greater its predictive value. Companies are moving away from batch processing to real-time to gain competitive advantage. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "BASICSTATS-BIG DATA MARKET ROBUST, CONSUMER SCALE FUELING TECH ADOPTION "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Big Data Pure-Play Revenue \\$468M in '1 "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_bc97f98a.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_9df85400.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "DATA GROWTH "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "D Visualization-cloud,mobile,collaboration 2)Big Data Apps-verticals 3) Trend analysis across multiple data sources 4)Consumer behavior 5) Public data for scoring 6)New information/data service businesses "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "THE BIG DATA GROUP COM "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_67e89a21.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_da7c1bef.png"
+                        }
+                    }
+                ]
+            ]
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Big data revenue increased from $10.2 billion in 2013 to $48 billion in 2016.",
+                "Big data revenue grew from $5.1 billion in 2012 to $53.4 billion in 2017.",
+                "Big data revenue grew from $468 million in 2011 to $84 million in 2017.",
+                "Big data revenue expanded from $1.3 billion in 2011 to $32.1 billion in 2015."
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [],
+            "image_evidence_assignment": [],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_religion_travel_sports_921fdd3a",
+                    "insert_conversation_turn": 660,
+                    "reference_name": "Doc. 4f44fed7"
+                },
+                {
+                    "conversation_name": "group_chat_science_video_games_food_bb094950",
+                    "insert_conversation_turn": 546,
+                    "reference_name": "Doc. 5e443850"
+                },
+                {
+                    "conversation_name": "group_chat_nature_politics_lifestyle_64a07edc",
+                    "insert_conversation_turn": 566,
+                    "reference_name": "Doc. 151b8bfc"
+                },
+                {
+                    "conversation_name": "group_chat_nature_politics_lifestyle_64a07edc",
+                    "insert_conversation_turn": 163,
+                    "reference_name": "Doc. 19e903b6"
+                }
+            ]
+        },
+        "meta_data": {
+            "category": "Tutorial/Workshop",
+            "doc_name": "bigdatatrends-120723191058-phpapp02_95",
+            "gold_quotes": [
+                "text4",
+                "image4",
+                "text6"
+            ],
+            "topic": [
+                "business",
+                "technology",
+                "economy"
+            ],
+            "original_question": "How did the big data revenue trend evolve from 2011 to 2017, and which companies led the revenue in 2011?"
+        }
+    },
+    {
+        "id": "QA_sample_cdbf8b28_1",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 25521e91, Among the activities that could reasonably occur in the given image, which one is Lilianna Colon least likely to be doing?",
+        "answer": "Looking for an indie film",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Lilianna Colon enjoys crime thrillers, historical dramas, but dislikes rock concerts, indie films",
+                "In terms of travel, Lilianna Colon enjoys backcountry camping, ice fishing, but dislikes vineyard visits, underground city tours"
+            ],
+            "image_evidence": [
+                "MMPB_2d99653f.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of lifestyle, Lilianna Colon enjoys early morning jogs, massages, but dislikes protein-rich diet, weightlifting",
+                "In terms of shopping, Lilianna Colon enjoys smart home devices, kitchen appliances, but dislikes retro gaming consoles, wireless earbuds",
+                "In terms of fashion, Lilianna Colon enjoys bright neon colors, oversized sweaters, but dislikes winter coats, denim jeans."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "Browsing for a drama film",
+                "Searching for a classic movie",
+                "Visiting vineyard",
+                "Looking for an indie film"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_science_video_games_food_bb094950",
+                    "insert_conversation_turn": 675
+                },
+                {
+                    "conversation_name": "group_chat_nature_politics_lifestyle_64a07edc",
+                    "insert_conversation_turn": 31
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_nature_politics_lifestyle_64a07edc",
+                    "insert_conversation_turn": 84,
+                    "reference_name": "Fig. 25521e91"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_science_video_games_food_bb094950",
+                    "insert_conversation_turn": 785
+                },
+                {
+                    "conversation_name": "group_chat_religion_travel_sports_921fdd3a",
+                    "insert_conversation_turn": 257
+                },
+                {
+                    "conversation_name": "group_chat_science_video_games_food_bb094950",
+                    "insert_conversation_turn": 560
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "meijia",
+            "description": "meijia is a woman with a slender build and a medium height impression. Her facial structure is characterized by a well-defined jawline and a slightly rounded face, with prominent cheekbones and a gentle smile. Her skin tone is fair, and she has expressive eyes that convey a range of emotions. meijia's hair is long, wavy, and brown, often styled in a side-swept manner, adding to her elegant appearance. Her eyebrows are thick and well-groomed, framing her eyes effectively. In various images, she is seen with a thoughtful expression, her hand near her face, suggesting contemplation or engagement in conversation.\n\n**Outfit and Accessories:**\nmeijia's attire is diverse yet cohesive, reflecting a casual and approachable style. She is often seen in bright, solid colors such as orange, yellow, and white, which add vibrancy to her appearance. The orange sweater with a white collar and the yellow top are notable, both conveying a cheerful and warm vibe. Her clothing is practical and comfortable, with a focus on simplicity and functionality. The white sweatshirt with a graphic design adds a touch of personality and modernity. While no specific accessories are prominently featured, her outfits are well-coordinated, enhancing her overall look.\n\n**Distinguishing Visual Features or Vibe:**\nmeijia exudes a warm and inviting aura, characterized by her gentle smile and expressive eyes. Her long, wavy brown hair and thoughtful poses contribute to a sense of approachability and introspection. The recurring theme of bright, solid colors in her outfits, such as orange and yellow, adds a cheerful and energetic vibe. Her presence in various settings, from a kitchen to an outdoor scene, showcases her adaptability and relatability. The consistent use of vibrant colors and her engaging expressions make meijia visually unmistakable, creating a memorable and endearing impression.",
+            "preference": "In terms of entertainment, meijia enjoys crime thrillers, historical dramas, but dislikes rock concerts, indie films. In terms of travel, meijia enjoys backcountry camping, ice fishing, but dislikes vineyard visits, underground city tours. In terms of lifestyle, meijia enjoys early morning jogs, massages, but dislikes protein-rich diet, weightlifting. In terms of shopping, meijia enjoys smart home devices, kitchen appliances, but dislikes retro gaming consoles, wireless earbuds. In terms of fashion, meijia enjoys bright neon colors, oversized sweaters, but dislikes winter coats, denim jeans.",
+            "topic": [],
+            "original_id": "QA_sample_cdbf8b28",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Lilianna Colon least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_cdbf8b28_3",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 26af56d0, the image, what is Lilianna Colon most likely to be doing?",
+        "answer": "Watching a crime thriller movie",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Lilianna Colon enjoys crime thrillers, historical dramas, but dislikes rock concerts, indie films",
+                "In terms of travel, Lilianna Colon enjoys backcountry camping, ice fishing, but dislikes vineyard visits, underground city tours"
+            ],
+            "image_evidence": [
+                "MMPB_3c63eec5.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of lifestyle, Lilianna Colon enjoys early morning jogs, massages, but dislikes protein-rich diet, weightlifting",
+                "In terms of shopping, Lilianna Colon enjoys smart home devices, kitchen appliances, but dislikes retro gaming consoles, wireless earbuds",
+                "In terms of fashion, Lilianna Colon enjoys bright neon colors, oversized sweaters, but dislikes winter coats, denim jeans."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "Enjoying a comic-action film",
+                "Buying smart home devices",
+                "Watching a crime thriller movie",
+                "Watching a romance drama movie"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_science_video_games_food_bb094950",
+                    "insert_conversation_turn": 675
+                },
+                {
+                    "conversation_name": "group_chat_nature_politics_lifestyle_64a07edc",
+                    "insert_conversation_turn": 31
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_science_video_games_food_bb094950",
+                    "insert_conversation_turn": 516,
+                    "reference_name": "Fig. 26af56d0"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_science_video_games_food_bb094950",
+                    "insert_conversation_turn": 785
+                },
+                {
+                    "conversation_name": "group_chat_religion_travel_sports_921fdd3a",
+                    "insert_conversation_turn": 257
+                },
+                {
+                    "conversation_name": "group_chat_science_video_games_food_bb094950",
+                    "insert_conversation_turn": 560
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "meijia",
+            "description": "meijia is a woman with a slender build and a medium height impression. Her facial structure is characterized by a well-defined jawline and a slightly rounded face, with prominent cheekbones and a gentle smile. Her skin tone is fair, and she has expressive eyes that convey a range of emotions. meijia's hair is long, wavy, and brown, often styled in a side-swept manner, adding to her elegant appearance. Her eyebrows are thick and well-groomed, framing her eyes effectively. In various images, she is seen with a thoughtful expression, her hand near her face, suggesting contemplation or engagement in conversation.\n\n**Outfit and Accessories:**\nmeijia's attire is diverse yet cohesive, reflecting a casual and approachable style. She is often seen in bright, solid colors such as orange, yellow, and white, which add vibrancy to her appearance. The orange sweater with a white collar and the yellow top are notable, both conveying a cheerful and warm vibe. Her clothing is practical and comfortable, with a focus on simplicity and functionality. The white sweatshirt with a graphic design adds a touch of personality and modernity. While no specific accessories are prominently featured, her outfits are well-coordinated, enhancing her overall look.\n\n**Distinguishing Visual Features or Vibe:**\nmeijia exudes a warm and inviting aura, characterized by her gentle smile and expressive eyes. Her long, wavy brown hair and thoughtful poses contribute to a sense of approachability and introspection. The recurring theme of bright, solid colors in her outfits, such as orange and yellow, adds a cheerful and energetic vibe. Her presence in various settings, from a kitchen to an outdoor scene, showcases her adaptability and relatability. The consistent use of vibrant colors and her engaging expressions make meijia visually unmistakable, creating a memorable and endearing impression.",
+            "preference": "In terms of entertainment, meijia enjoys crime thrillers, historical dramas, but dislikes rock concerts, indie films. In terms of travel, meijia enjoys backcountry camping, ice fishing, but dislikes vineyard visits, underground city tours. In terms of lifestyle, meijia enjoys early morning jogs, massages, but dislikes protein-rich diet, weightlifting. In terms of shopping, meijia enjoys smart home devices, kitchen appliances, but dislikes retro gaming consoles, wireless earbuds. In terms of fashion, meijia enjoys bright neon colors, oversized sweaters, but dislikes winter coats, denim jeans.",
+            "topic": [],
+            "original_id": "QA_sample_cdbf8b28",
+            "original_question": "the image, what is Lilianna Colon most likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_6bd8f430_1",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. a63b3d9e, the image, what is Ricardo Bruce most likely to be doing?",
+        "answer": "Looking for a documentary film",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Ricardo Bruce enjoys musicals, documentaries, but dislikes live band karaoke, magic shows"
+            ],
+            "image_evidence": [
+                "MMPB_2d99653f.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Ricardo Bruce enjoys motorbiking trips, rafting, but dislikes cycling, camping",
+                "In terms of lifestyle, Ricardo Bruce enjoys meditation, yoga, but dislikes daily smoothies, outdoor workouts",
+                "In terms of shopping, Ricardo Bruce enjoys mechanical keyboards, 3D printing tools, but dislikes handmade candles, ceramic pottery",
+                "In terms of fashion, Ricardo Bruce enjoys futuristic fashion, gothic clothing, but dislikes handcrafted leather bags, woven hats."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Looking for a documentary film",
+                "Browsing for a drama series",
+                "Rafting",
+                "Searching for a comedy special"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_religion_travel_sports_921fdd3a",
+                    "insert_conversation_turn": 338
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_religion_travel_sports_921fdd3a",
+                    "insert_conversation_turn": 198,
+                    "reference_name": "Fig. a63b3d9e"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_religion_travel_sports_921fdd3a",
+                    "insert_conversation_turn": 116
+                },
+                {
+                    "conversation_name": "group_chat_religion_travel_sports_921fdd3a",
+                    "insert_conversation_turn": 182
+                },
+                {
+                    "conversation_name": "group_chat_religion_travel_sports_921fdd3a",
+                    "insert_conversation_turn": 395
+                },
+                {
+                    "conversation_name": "group_chat_religion_travel_sports_921fdd3a",
+                    "insert_conversation_turn": 163
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Park",
+            "description": "Park is a woman with a slender build and an average height, exuding a graceful and poised presence. Her facial structure is characterized by a delicate jawline and well-defined cheekbones, complemented by a soft, warm skin tone. Park has long, straight hair that falls gracefully over her shoulders, often styled in a way that enhances her features. Her eyes are expressive, and she frequently adopts a thoughtful pose, with her hand resting near her face, suggesting introspection or contemplation. Her eyebrows are well-groomed, adding to her overall polished appearance.\n\n**Outfit and Accessories:**\nPark's attire is versatile, ranging from casual to professional, reflecting her adaptability and style. In one image, she is seen wearing a cream-colored dress with blue trim, exuding a soft and elegant vibe. In another, she is dressed in a black blazer, suggesting a more formal or business-like setting. Her outfit in a professional environment includes a white shirt with a name tag, indicating a role that requires interaction with others. In a more casual setting, she wears a denim jacket, adding a touch of relaxed style. Park accessorizes with blue earrings and a watch, which add subtle yet meaningful touches to her overall look. Her clothing choices are practical yet stylish, reflecting a balance between professionalism and personal expression.\n\n**Distinguishing Visual Features or Vibe:**\nPark's most memorable feature is her ability to convey a sense of calm and confidence, whether in a casual or professional setting. Her thoughtful poses and expressive eyes create a sense of depth and introspection. The recurring theme of blue in her accessories, such as the earrings and the trim on her dress, adds a cohesive element to her visual identity. Her overall vibe is one of approachability and sophistication, with a touch of warmth and elegance. The combination of her thoughtful expressions, stylish attire, and subtle accessories makes Park visually unmistakable and memorable.",
+            "preference": "In terms of entertainment, Park enjoys musicals, documentaries, but dislikes live band karaoke, magic shows. In terms of travel, Park enjoys motorbiking trips, rafting, but dislikes cycling, camping. In terms of lifestyle, Park enjoys meditation, yoga, but dislikes daily smoothies, outdoor workouts. In terms of shopping, Park enjoys mechanical keyboards, 3D printing tools, but dislikes handmade candles, ceramic pottery. In terms of fashion, Park enjoys futuristic fashion, gothic clothing, but dislikes handcrafted leather bags, woven hats.",
+            "topic": [],
+            "original_id": "QA_sample_6bd8f430",
+            "original_question": "the image, what is Ricardo Bruce most likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_b9b2027b_1",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 798b1806, the image, what is Jovanny Matthews most likely to be doing?",
+        "answer": "Attending a classical concert",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Jovanny Matthews enjoys classical concerts, art exhibitions, but dislikes rock concerts, indie films"
+            ],
+            "image_evidence": [
+                "MMPB_e907fbc8.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Jovanny Matthews enjoys cycling, camping, but dislikes overland train journeys, remote island hopping",
+                "In terms of lifestyle, Jovanny Matthews enjoys kombucha brewing, medicinal herb gardening, but dislikes plant-based diet, home cooking",
+                "In terms of shopping, Jovanny Matthews enjoys retro gaming consoles, wireless earbuds, but dislikes robot vacuums, wearable tech",
+                "In terms of fashion, Jovanny Matthews enjoys handmade accessories, bold colors, but dislikes vintage style, formal suits."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Attending a classical concert",
+                "Camping",
+                "Listening to a K-pop.",
+                "Enjoying a symphony performance."
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_nature_politics_lifestyle_64a07edc",
+                    "insert_conversation_turn": 61
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_science_video_games_food_bb094950",
+                    "insert_conversation_turn": 172,
+                    "reference_name": "Fig. 798b1806"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_science_video_games_food_bb094950",
+                    "insert_conversation_turn": 157
+                },
+                {
+                    "conversation_name": "group_chat_religion_travel_sports_921fdd3a",
+                    "insert_conversation_turn": 722
+                },
+                {
+                    "conversation_name": "group_chat_science_video_games_food_bb094950",
+                    "insert_conversation_turn": 704
+                },
+                {
+                    "conversation_name": "group_chat_science_video_games_food_bb094950",
+                    "insert_conversation_turn": 230
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Asa",
+            "description": "Asa is depicted as a woman with a slender build and an elegant posture, often seen leaning against walls or sitting with a poised demeanor. Her facial structure is refined, with a prominent jawline and well-defined cheekbones, contributing to a sophisticated appearance. Asa has a fair skin tone and long, dark hair styled in various ways, including loose waves and a sleek updo. Her expressions range from contemplative to serious, with a hint of intensity in her gaze. The consistent use of soft lighting accentuates her features, highlighting her delicate facial contours and adding depth to her appearance.\n\n**Outfit and Accessories:**\nAsa's attire is characterized by a blend of classic and contemporary styles, often featuring a mix of textures and colors. She is seen wearing a polka-dotted blouse paired with a black skirt, a dark pinstriped blazer with a pearl necklace and brooch, and a teal dress with a deep neckline. Her outfits are typically sophisticated, with a focus on tailored pieces that convey a sense of professionalism and elegance. Accessories such as pearl necklaces, earrings, and brooches add a touch of glamour and sophistication to her ensembles. The color palette includes neutral tones like black and white, as well as rich hues like teal and dark green, complemented by gold and silver accents.\n\n**Distinguishing Visual Features or Vibe:**\nAsa exudes a sense of confidence and poise, with a consistent visual theme of elegance and refinement. Her signature style includes a mix of classic and modern elements, with a focus on tailored clothing and tasteful accessories. The recurring use of pearls and gold accents adds a touch of luxury and sophistication. The warm lighting and soft color palette create a cohesive and inviting atmosphere, enhancing her overall presence. Asa's aura is one of quiet strength and grace, with a hint of mystery and intrigue, making her visually unmistakable and memorable.",
+            "preference": "In terms of entertainment, Asa enjoys classical concerts, art exhibitions, but dislikes rock concerts, indie films. In terms of travel, Asa enjoys cycling, camping, but dislikes overland train journeys, remote island hopping. In terms of lifestyle, Asa enjoys kombucha brewing, medicinal herb gardening, but dislikes plant-based diet, home cooking. In terms of shopping, Asa enjoys retro gaming consoles, wireless earbuds, but dislikes robot vacuums, wearable tech. In terms of fashion, Asa enjoys handmade accessories, bold colors, but dislikes vintage style, formal suits.",
+            "topic": [],
+            "original_id": "QA_sample_b9b2027b",
+            "original_question": "the image, what is Jovanny Matthews most likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_b9b2027b_2",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 6a36a78b, the image, what is Jovanny Matthews most likely to be doing?",
+        "answer": "Watching a video of an art exhibition",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Jovanny Matthews enjoys classical concerts, art exhibitions, but dislikes rock concerts, indie films"
+            ],
+            "image_evidence": [
+                "MMPB_2d99653f.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Jovanny Matthews enjoys cycling, camping, but dislikes overland train journeys, remote island hopping",
+                "In terms of lifestyle, Jovanny Matthews enjoys kombucha brewing, medicinal herb gardening, but dislikes plant-based diet, home cooking",
+                "In terms of shopping, Jovanny Matthews enjoys retro gaming consoles, wireless earbuds, but dislikes robot vacuums, wearable tech",
+                "In terms of fashion, Jovanny Matthews enjoys handmade accessories, bold colors, but dislikes vintage style, formal suits."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Viewing a travel vlog on YouTube.",
+                "Watching a video of an art exhibition",
+                "Observing a documentary on wildlife.",
+                "Cycling"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_nature_politics_lifestyle_64a07edc",
+                    "insert_conversation_turn": 61
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_religion_travel_sports_921fdd3a",
+                    "insert_conversation_turn": 198,
+                    "reference_name": "Fig. 6a36a78b"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_science_video_games_food_bb094950",
+                    "insert_conversation_turn": 157
+                },
+                {
+                    "conversation_name": "group_chat_religion_travel_sports_921fdd3a",
+                    "insert_conversation_turn": 722
+                },
+                {
+                    "conversation_name": "group_chat_science_video_games_food_bb094950",
+                    "insert_conversation_turn": 704
+                },
+                {
+                    "conversation_name": "group_chat_science_video_games_food_bb094950",
+                    "insert_conversation_turn": 230
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Asa",
+            "description": "Asa is depicted as a woman with a slender build and an elegant posture, often seen leaning against walls or sitting with a poised demeanor. Her facial structure is refined, with a prominent jawline and well-defined cheekbones, contributing to a sophisticated appearance. Asa has a fair skin tone and long, dark hair styled in various ways, including loose waves and a sleek updo. Her expressions range from contemplative to serious, with a hint of intensity in her gaze. The consistent use of soft lighting accentuates her features, highlighting her delicate facial contours and adding depth to her appearance.\n\n**Outfit and Accessories:**\nAsa's attire is characterized by a blend of classic and contemporary styles, often featuring a mix of textures and colors. She is seen wearing a polka-dotted blouse paired with a black skirt, a dark pinstriped blazer with a pearl necklace and brooch, and a teal dress with a deep neckline. Her outfits are typically sophisticated, with a focus on tailored pieces that convey a sense of professionalism and elegance. Accessories such as pearl necklaces, earrings, and brooches add a touch of glamour and sophistication to her ensembles. The color palette includes neutral tones like black and white, as well as rich hues like teal and dark green, complemented by gold and silver accents.\n\n**Distinguishing Visual Features or Vibe:**\nAsa exudes a sense of confidence and poise, with a consistent visual theme of elegance and refinement. Her signature style includes a mix of classic and modern elements, with a focus on tailored clothing and tasteful accessories. The recurring use of pearls and gold accents adds a touch of luxury and sophistication. The warm lighting and soft color palette create a cohesive and inviting atmosphere, enhancing her overall presence. Asa's aura is one of quiet strength and grace, with a hint of mystery and intrigue, making her visually unmistakable and memorable.",
+            "preference": "In terms of entertainment, Asa enjoys classical concerts, art exhibitions, but dislikes rock concerts, indie films. In terms of travel, Asa enjoys cycling, camping, but dislikes overland train journeys, remote island hopping. In terms of lifestyle, Asa enjoys kombucha brewing, medicinal herb gardening, but dislikes plant-based diet, home cooking. In terms of shopping, Asa enjoys retro gaming consoles, wireless earbuds, but dislikes robot vacuums, wearable tech. In terms of fashion, Asa enjoys handmade accessories, bold colors, but dislikes vintage style, formal suits.",
+            "topic": [],
+            "original_id": "QA_sample_b9b2027b",
+            "original_question": "the image, what is Jovanny Matthews most likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_b9b2027b_3",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. f6e82dac, Among the activities that could reasonably occur in the given image, which one is Jovanny Matthews least likely to be doing?",
+        "answer": "Watching an indie films",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Jovanny Matthews enjoys classical concerts, art exhibitions, but dislikes rock concerts, indie films"
+            ],
+            "image_evidence": [
+                "MMPB_6f052249.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Jovanny Matthews enjoys cycling, camping, but dislikes overland train journeys, remote island hopping",
+                "In terms of lifestyle, Jovanny Matthews enjoys kombucha brewing, medicinal herb gardening, but dislikes plant-based diet, home cooking",
+                "In terms of shopping, Jovanny Matthews enjoys retro gaming consoles, wireless earbuds, but dislikes robot vacuums, wearable tech",
+                "In terms of fashion, Jovanny Matthews enjoys handmade accessories, bold colors, but dislikes vintage style, formal suits."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Watching an indie films",
+                "Observing a documentary",
+                "Buying vintage style clothes",
+                "Viewing a foreign film"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_nature_politics_lifestyle_64a07edc",
+                    "insert_conversation_turn": 61
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_religion_travel_sports_921fdd3a",
+                    "insert_conversation_turn": 589,
+                    "reference_name": "Fig. f6e82dac"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_science_video_games_food_bb094950",
+                    "insert_conversation_turn": 157
+                },
+                {
+                    "conversation_name": "group_chat_religion_travel_sports_921fdd3a",
+                    "insert_conversation_turn": 722
+                },
+                {
+                    "conversation_name": "group_chat_science_video_games_food_bb094950",
+                    "insert_conversation_turn": 704
+                },
+                {
+                    "conversation_name": "group_chat_science_video_games_food_bb094950",
+                    "insert_conversation_turn": 230
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Asa",
+            "description": "Asa is depicted as a woman with a slender build and an elegant posture, often seen leaning against walls or sitting with a poised demeanor. Her facial structure is refined, with a prominent jawline and well-defined cheekbones, contributing to a sophisticated appearance. Asa has a fair skin tone and long, dark hair styled in various ways, including loose waves and a sleek updo. Her expressions range from contemplative to serious, with a hint of intensity in her gaze. The consistent use of soft lighting accentuates her features, highlighting her delicate facial contours and adding depth to her appearance.\n\n**Outfit and Accessories:**\nAsa's attire is characterized by a blend of classic and contemporary styles, often featuring a mix of textures and colors. She is seen wearing a polka-dotted blouse paired with a black skirt, a dark pinstriped blazer with a pearl necklace and brooch, and a teal dress with a deep neckline. Her outfits are typically sophisticated, with a focus on tailored pieces that convey a sense of professionalism and elegance. Accessories such as pearl necklaces, earrings, and brooches add a touch of glamour and sophistication to her ensembles. The color palette includes neutral tones like black and white, as well as rich hues like teal and dark green, complemented by gold and silver accents.\n\n**Distinguishing Visual Features or Vibe:**\nAsa exudes a sense of confidence and poise, with a consistent visual theme of elegance and refinement. Her signature style includes a mix of classic and modern elements, with a focus on tailored clothing and tasteful accessories. The recurring use of pearls and gold accents adds a touch of luxury and sophistication. The warm lighting and soft color palette create a cohesive and inviting atmosphere, enhancing her overall presence. Asa's aura is one of quiet strength and grace, with a hint of mystery and intrigue, making her visually unmistakable and memorable.",
+            "preference": "In terms of entertainment, Asa enjoys classical concerts, art exhibitions, but dislikes rock concerts, indie films. In terms of travel, Asa enjoys cycling, camping, but dislikes overland train journeys, remote island hopping. In terms of lifestyle, Asa enjoys kombucha brewing, medicinal herb gardening, but dislikes plant-based diet, home cooking. In terms of shopping, Asa enjoys retro gaming consoles, wireless earbuds, but dislikes robot vacuums, wearable tech. In terms of fashion, Asa enjoys handmade accessories, bold colors, but dislikes vintage style, formal suits.",
+            "topic": [],
+            "original_id": "QA_sample_b9b2027b",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Jovanny Matthews least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_c453c9b3_1",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 70f717b7, the image, what is Justice Clark most likely to be doing?",
+        "answer": "Watching a baseball channel on TV",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Justice Clark enjoys sports TV, romantic dramas, but dislikes classical concerts, art exhibitions"
+            ],
+            "image_evidence": [
+                "MMPB_2d99653f.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Justice Clark enjoys kayaking, snorkeling, but dislikes motorbiking trips, rafting",
+                "In terms of lifestyle, Justice Clark enjoys protein-rich diet, weightlifting, but dislikes forest bathing, holistic therapy",
+                "In terms of shopping, Justice Clark enjoys coffee brewing equipment, vintage vinyl records, but dislikes soundproofing panels, sleep-enhancing gadgets",
+                "In terms of fashion, Justice Clark enjoys high heels, tight-fitting clothes, but dislikes plaid patterns, monochrome outfits."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Watching a news channel on TV",
+                "Watching a baseball channel on TV",
+                "Watching a cooking show on TV",
+                "Wearing high heels"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_nature_politics_lifestyle_64a07edc",
+                    "insert_conversation_turn": 619
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_religion_travel_sports_921fdd3a",
+                    "insert_conversation_turn": 198,
+                    "reference_name": "Fig. 70f717b7"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_religion_travel_sports_921fdd3a",
+                    "insert_conversation_turn": 490
+                },
+                {
+                    "conversation_name": "group_chat_religion_travel_sports_921fdd3a",
+                    "insert_conversation_turn": 458
+                },
+                {
+                    "conversation_name": "group_chat_religion_travel_sports_921fdd3a",
+                    "insert_conversation_turn": 708
+                },
+                {
+                    "conversation_name": "group_chat_nature_politics_lifestyle_64a07edc",
+                    "insert_conversation_turn": 148
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "zhangwei",
+            "description": "zhangwei is a man with a medium build and a height that suggests a confident presence. His facial structure is well-defined, with a prominent jawline and a slightly pointed chin. His skin tone is fair, and he has a neat, short hairstyle that is dark and well-groomed. zhangwei often appears with a contemplative expression, with his hand resting thoughtfully on his chin, indicating a reflective or analytical demeanor. His eyes are expressive, and his eyebrows are thick and well-shaped, adding to his thoughtful appearance. In some images, he is seen with a slight smile, suggesting a friendly and approachable personality.\n\n**Outfit and Accessories:**\nzhangwei is frequently seen in formal attire, particularly a black suit paired with a white shirt and a blue tie, which conveys a professional and polished look. The suit is well-tailored, fitting him snugly and enhancing his overall appearance. In one image, he is wearing a green plaid shirt, adding a casual and approachable element to his style. In another scene, he is seen in a bright yellow hoodie with the text \"THE dime EXPERIENCE,\" which introduces a more relaxed and youthful vibe. The consistent use of a suit suggests a professional setting, while the casual attire indicates versatility and adaptability in different environments.\n\n**Distinguishing Visual Features or Vibe:**\nThe most memorable feature of zhangwei is his ability to convey a range of emotions through his expressions and body language. His thoughtful pose, with a hand on his chin, is a recurring motif that suggests introspection and intelligence. The contrast between his formal and casual attire highlights his adaptability and multifaceted personality. The consistent use of a black suit in professional settings, combined with the occasional casual attire, creates a balanced and relatable image. The bright yellow hoodie adds a pop of color and a touch of whimsy, making zhangwei visually distinctive and memorable. Overall, zhangwei exudes a confident and approachable aura, with a blend of professionalism and casual charm.",
+            "preference": "In terms of entertainment, zhangwei enjoys sports TV, romantic dramas, but dislikes classical concerts, art exhibitions. In terms of travel, zhangwei enjoys kayaking, snorkeling, but dislikes motorbiking trips, rafting. In terms of lifestyle, zhangwei enjoys protein-rich diet, weightlifting, but dislikes forest bathing, holistic therapy. In terms of shopping, zhangwei enjoys coffee brewing equipment, vintage vinyl records, but dislikes soundproofing panels, sleep-enhancing gadgets. In terms of fashion, zhangwei enjoys high heels, tight-fitting clothes, but dislikes plaid patterns, monochrome outfits.",
+            "topic": [],
+            "original_id": "QA_sample_c453c9b3",
+            "original_question": "the image, what is Justice Clark most likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_c453c9b3_2",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 75e932b3, Among the activities that could reasonably occur in the given image, which one is Justice Clark least likely to be doing?",
+        "answer": "Watching a classical concert broadcast",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Justice Clark enjoys sports TV, romantic dramas, but dislikes classical concerts, art exhibitions"
+            ],
+            "image_evidence": [
+                "MMPB_6f052249.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Justice Clark enjoys kayaking, snorkeling, but dislikes motorbiking trips, rafting",
+                "In terms of lifestyle, Justice Clark enjoys protein-rich diet, weightlifting, but dislikes forest bathing, holistic therapy",
+                "In terms of shopping, Justice Clark enjoys coffee brewing equipment, vintage vinyl records, but dislikes soundproofing panels, sleep-enhancing gadgets",
+                "In terms of fashion, Justice Clark enjoys high heels, tight-fitting clothes, but dislikes plaid patterns, monochrome outfits."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Viewing a live K-pop broadcast on the screen",
+                "Watching a classical concert broadcast",
+                "Observing a rock band performance on television",
+                "Enjoying a rafting trip"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_nature_politics_lifestyle_64a07edc",
+                    "insert_conversation_turn": 619
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_nature_politics_lifestyle_64a07edc",
+                    "insert_conversation_turn": 203,
+                    "reference_name": "Fig. 75e932b3"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_religion_travel_sports_921fdd3a",
+                    "insert_conversation_turn": 490
+                },
+                {
+                    "conversation_name": "group_chat_religion_travel_sports_921fdd3a",
+                    "insert_conversation_turn": 458
+                },
+                {
+                    "conversation_name": "group_chat_religion_travel_sports_921fdd3a",
+                    "insert_conversation_turn": 708
+                },
+                {
+                    "conversation_name": "group_chat_nature_politics_lifestyle_64a07edc",
+                    "insert_conversation_turn": 148
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "zhangwei",
+            "description": "zhangwei is a man with a medium build and a height that suggests a confident presence. His facial structure is well-defined, with a prominent jawline and a slightly pointed chin. His skin tone is fair, and he has a neat, short hairstyle that is dark and well-groomed. zhangwei often appears with a contemplative expression, with his hand resting thoughtfully on his chin, indicating a reflective or analytical demeanor. His eyes are expressive, and his eyebrows are thick and well-shaped, adding to his thoughtful appearance. In some images, he is seen with a slight smile, suggesting a friendly and approachable personality.\n\n**Outfit and Accessories:**\nzhangwei is frequently seen in formal attire, particularly a black suit paired with a white shirt and a blue tie, which conveys a professional and polished look. The suit is well-tailored, fitting him snugly and enhancing his overall appearance. In one image, he is wearing a green plaid shirt, adding a casual and approachable element to his style. In another scene, he is seen in a bright yellow hoodie with the text \"THE dime EXPERIENCE,\" which introduces a more relaxed and youthful vibe. The consistent use of a suit suggests a professional setting, while the casual attire indicates versatility and adaptability in different environments.\n\n**Distinguishing Visual Features or Vibe:**\nThe most memorable feature of zhangwei is his ability to convey a range of emotions through his expressions and body language. His thoughtful pose, with a hand on his chin, is a recurring motif that suggests introspection and intelligence. The contrast between his formal and casual attire highlights his adaptability and multifaceted personality. The consistent use of a black suit in professional settings, combined with the occasional casual attire, creates a balanced and relatable image. The bright yellow hoodie adds a pop of color and a touch of whimsy, making zhangwei visually distinctive and memorable. Overall, zhangwei exudes a confident and approachable aura, with a blend of professionalism and casual charm.",
+            "preference": "In terms of entertainment, zhangwei enjoys sports TV, romantic dramas, but dislikes classical concerts, art exhibitions. In terms of travel, zhangwei enjoys kayaking, snorkeling, but dislikes motorbiking trips, rafting. In terms of lifestyle, zhangwei enjoys protein-rich diet, weightlifting, but dislikes forest bathing, holistic therapy. In terms of shopping, zhangwei enjoys coffee brewing equipment, vintage vinyl records, but dislikes soundproofing panels, sleep-enhancing gadgets. In terms of fashion, zhangwei enjoys high heels, tight-fitting clothes, but dislikes plaid patterns, monochrome outfits.",
+            "topic": [],
+            "original_id": "QA_sample_c453c9b3",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Justice Clark least likely to be doing?"
+        }
+    },
+    {
+        "id": "LifeSim_7c71ad31",
+        "domain": "LifeSim",
+        "category": "Preference_QA",
+        "question": "Based on Fig. ad975c26, What type of dish should be excluded from restaurant recommendations for Drake Ashley?",
+        "answer": "seafood",
+        "evidence": {
+            "image_evidence": [
+                "LifeSim_35f6402b.png"
+            ]
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "dairy",
+                "grilled chicken",
+                "seafood",
+                "red meat"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_nature_politics_lifestyle_64a07edc",
+                    "insert_conversation_turn": 555,
+                    "reference_name": "Fig. ad975c26"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "conv_history_name": "user_assistant_conversation_f34b4c5e.json",
+            "preference_user_name": "Drake Ashley",
+            "original_question": "What type of dish should be excluded from restaurant recommendations for Drake Ashley?"
+        }
+    },
+    {
+        "id": "LifeSim_2bb6d368",
+        "domain": "LifeSim",
+        "category": "Preference_QA",
+        "question": "Based on Fig. c85a939c, What post-dinner activity does Solomon Paul consider for grounding?",
+        "answer": "walk",
+        "evidence": {
+            "image_evidence": [
+                "LifeSim_25a55b12.png"
+            ]
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "meditation",
+                "walk",
+                "stretching routine",
+                "journaling"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_nature_politics_lifestyle_64a07edc",
+                    "insert_conversation_turn": 785,
+                    "reference_name": "Fig. c85a939c"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "conv_history_name": "user_assistant_conversation_7e25ec16.json",
+            "preference_user_name": "Solomon Paul",
+            "original_question": "What post-dinner activity does Solomon Paul consider for grounding?"
+        }
+    }
+]

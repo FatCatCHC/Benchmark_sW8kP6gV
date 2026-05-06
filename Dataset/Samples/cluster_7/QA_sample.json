@@ -1,0 +1,2686 @@
+[
+    {
+        "id": "QA_sample_e32a750e",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 37e96ffb, the text, in 2014, did the percentage of countries in each category indicate a \"significant improvement\" according to the given criteria?",
+        "answer": "Yes",
+        "evidence": {
+            "text_evidence": [
+                "A country is considered to have improved religious freedom if there is a reduction in both government restrictions on religion and social hostilities involving religion in the same year. For improvements to be significant, the percentage of countries in each category must decrease by at least 2 percentage points compared to the previous year."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_075f982d.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Yes",
+                "No"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_religion_education_transportation_7b14c4be",
+                    "insert_conversation_turn": 56
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_government_animals_economy_76f7f734",
+                    "insert_conversation_turn": 766,
+                    "reference_name": "Fig. 37e96ffb"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "religion",
+                "government"
+            ],
+            "original_question": "the text, in 2014, did the percentage of countries in each category decrease by at least \"2 percentage points compared to the previous year,\" indicating a \"significant improvement\" according to the given criteria?"
+        }
+    },
+    {
+        "id": "fc3f4e19",
+        "domain": "MMDocRAG",
+        "category": "Single_Hop_QA",
+        "question": "Based on Doc. 9438d747, Doc. d8ecf000, Doc. 9225bad0, How are entities and their relationships represented in the example annotation from the text passage?",
+        "answer": "Tokens, mention types, entity mentions, relations, and parent entities",
+        "evidence": {
+            "text_evidence": [],
+            "image_evidence": [],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": [
+                [
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "An illustration of this process and the variables is provided in Figure  2 , for generating a token in the middle of the same sentence as in Figure  1 . Amongst the three mention types   $(t_{t})$  , the model chooses a reference to existing entity, which re- quires picking a fact to render. As the parent entity of this fact   $(p_{t})$  , the model picks  Super Mario Land , and then follows the  Publisher  relation   $(r_{t})$   to se- lect  Nintendo  as the entity to render   $(e_{t})$  . When rendering  Nintendo  as a token    $x_{t}$  , the model has an expanded  vocabulary available to it, containing the standard vocabulary along with all word types in any of the aliases of    $e_{t}$  . "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Expanding the annotations  Since there may be entities that were missed in the initial set, as well as non-entity tokens of interest such as dates and quantities we further expand the entity annotations using string matching. For entities, we match the set of aliases provided in Wikidata. For dates, we create an exhaustive list of all of the possible ways of expressing the date (e.g. \" December 7, 1941 \", \" 7-12-1941 \", \" 1941 \", ...). We perform a similar approach for quantities, using the  pint  library in Python to handle the different ways of expressing units (e.g. \" g \", \" gram \", ...). Since there are many ways to express a numerical quantity, we only ren- der the quantity at the level of precision supplied by Wikidata, and do not perform unit conversions. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "We introduce the  knowledge graph language model  (KGLM), a neural language model with mechanisms for selecting and copying information from an external knowledge graph. The KGLM maintains a dynamically growing  local knowledge graph , a subset of the knowledge graph that con- tains entities that have already been mentioned in the text, and their related entities. When generating entity tokens, the model either decides to render a new entity that is absent from the local graph, thereby growing the local knowledge graph, or to render a fact from the local graph. When render- ing, the model combines the standard vocabulary with tokens available in the knowledge graph, thus supporting numbers, dates, and other rare tokens. "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_5c139d8e.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_f5b323f7.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Example Annotation  An example annotation is provided in Table  1  corresponding to the instance in Figure  1 , along with the variables that correspond to the generative process of the knowledge graph language model (KGLM). The entity mentioned for most tokens here are human-provided links, apart from “ 1989 ” that is linked to  04-21-1989  by the string matching process. The annotations indicate which of the entities are  new  and  related  based on whether they are reachable by entities linked so far, clearly making a mistake for  side-scrolling game and  platform video game  due to missing links in Wikidata. Finally, multiple plausible reasons for Game Boy  are included: it’s the platform for  Super Mario Land  and it is manufactured by  Nintendo , even though only the former is more relevant here. "
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Initial entity annotations  We begin by identify- ing an initial set of entity mentions within the text. The primary source of these mentions is the human- provided links between Wikipedia articles. When- ever a span of text is linked to another Wikipedia article, we associate its corresponding Wikidata entity with the span. While article links provide a large number of gold entity annotations, they are in- sufﬁcient for capturing all of the mentions in the ar- ticle since entities are only linked the ﬁrst time they occur. Accordingly, we use the neural-el ( Gupta et al. ,  2017 ) entity linker to identify additional links to Wikidata, and identify coreferences using Stan- ford  $\\scriptstyle{\\mathrm{CoreNLP}}^{2}$    to cover pronouns, nominals, and other tokens missed by the linker. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Figure  1  illustrates how the KGLM works. Ini- tially, the graph is empty and the model uses the entity  Super Mario Land  to render the ﬁrst three tokens, thus adding it and its relations to the local knowledge graph. After generating the next two to- kens   $(^{**}i s^{**},{^{*}a^{*}})$   using the standard language model, the model selects  Super Mario Land  as the parent entity,  Publication Date  as the relation to render, and copies one of the tokens of the date entity as the token (“ 1989 ” in this case). "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_a47cfdcf.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_adaafa04.png"
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Dataset Statistics  Statistics for  Linked WikiText-2 are provided in Table  2 . In this corpus, more than  $10\\%$   of the tokens are considered entity tokens, i.e. they are generated as factual references to informa- tion in the knowledge graph. Each entity is only mentioned a few times (less than  5  on average, with a long tail), and with more than thousand different relations. Thus it is clear that regular language models would not be able to generate factual text, and there is a need for language models to be able to refer to external sources of information. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Modeling aside, one of the primary barriers to in- corporating factual knowledge into language mod- els is that training data is hard to obtain. Standard language modeling corpora consist only of text, and thus are unable to describe which entities or facts each token is referring to. In contrast, while relation extraction datasets link text to a knowledge graph, the text is made up of disjoint sentences that do not provide sufﬁcient context to train a pow- erful language model. Our goals are much more aligned to the  data-to-text  task ( Ahn et al. ,  2016 ; Lebret et al. ,  2016 ;  Wiseman et al. ,  2017 ;  Yang et al. ,  2017 ;  Gardent et al. ,  2017 ;  Ferreira et al. , 2018 ), where a small table-sized KB is provided to generate a short piece of text; we are interested in language models that dynamically decide the facts to incorporate from the knowledge graph, guided by the discourse. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "dates for matching. If one of these related entities is seen later in the document, we identify the entity as a parent for the later entity. Since multiple re- lations may appear as  explanations  for each token, we allow a token to have multiple facts. "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_6d0ca54b.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_87fb3c8f.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "To facilitate research on knowledge graph-based language modeling, we collect the distantly su- pervised  Linked WikiText-2  dataset. The underly- ing text closely matches  WikiText-2  ( Merity et al. , 2017 ), a popular benchmark for language model- ing, allowing comparisons against existing mod- els. The tokens in the text are linked to entities in Wikidata ( Vrandeˇ ci´ c and Krötzsch ,  2014 ) using a combination of human-provided links and off-the- shelf linking and coreference models. We also use relations between these entities in Wikidata to con- struct plausible reasons for why an entity may have been mentioned: it could either be related to an entity that is already mentioned (including itself) or a brand new, unrelated entity for the document. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "training. For instance, when conditioned on the text at the top of Figure  1 , an AWD-LSTM language model ( Merity et al. ,  2018 ) trained on  Wikitext-2 assigns higher probability to the word “ PlaySta- tion ” than “ Game Boy ”, even though this sentence appears verbatim in the training data. This is not surprising—existing models represent the distribu- tion over the entire vocabulary directly, whether they are common words, references to real world entities, or factual information like dates and num- bers. As a result, language models are unable to generate factually correct sentences, do not gen- eralize to rare/unseen entities, and often omit rare tokens from the vocabulary (instead generating  UN- KNOWN  tokens). "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Local knowledge graph  The next step iteratively creates a generative story for the entities using rela- tions in the knowledge graph as well as identiﬁes new entities. To do this, we process the text token by token. Each time an entity is encountered, we add all of the related entities in Wikidata as candi- "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_f57a8f90.png"
+                        }
+                    }
+                ]
+            ]
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Tokens, mention types, entity mentions, relations, and parent entities",
+                "Tokens, mention categories, entity identifiers, relationship links, and root entities",
+                "Words, entity categories, entity references, relationship types, and ancestor entities",
+                "Tokens, entity types, entity links, relation types, and parent links"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [],
+            "image_evidence_assignment": [],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_religion_education_transportation_7b14c4be",
+                    "insert_conversation_turn": 836,
+                    "reference_name": "Doc. 9438d747"
+                },
+                {
+                    "conversation_name": "group_chat_government_animals_economy_76f7f734",
+                    "insert_conversation_turn": 686,
+                    "reference_name": "Doc. d8ecf000"
+                },
+                {
+                    "conversation_name": "group_chat_government_animals_economy_76f7f734",
+                    "insert_conversation_turn": 1014,
+                    "reference_name": "Doc. 9225bad0"
+                }
+            ]
+        },
+        "meta_data": {
+            "category": "Academic paper",
+            "doc_name": "P19-1598",
+            "gold_quotes": [
+                "image4",
+                "text4"
+            ],
+            "topic": [
+                "video games",
+                " technology"
+            ],
+            "original_question": "How are entities and their relationships represented in the example annotation from the text passage?"
+        }
+    },
+    {
+        "id": "QA_sample_38d3d760",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. ced8fcd7, the text, how many Formula 1 drivers have achieved \"Legend Status\" according to the previous definition?",
+        "answer": "1",
+        "evidence": {
+            "text_evidence": [
+                "A Formula 1 driver achieves 'Legend Status' if they have won at least 70 races or scored more than 3000 career points by the end of their career."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_96e821de.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "4",
+                "1",
+                "2",
+                "3"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_technology_video_games_religion_cbb4ea7a",
+                    "insert_conversation_turn": 399
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_religion_education_transportation_7b14c4be",
+                    "insert_conversation_turn": 756,
+                    "reference_name": "Fig. ced8fcd7"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "sports"
+            ],
+            "original_question": "the text, how many Formula 1 drivers have achieved \"Legend Status\" according to the previous definition?"
+        }
+    },
+    {
+        "id": "b17174c9",
+        "domain": "MMDocRAG",
+        "category": "Single_Hop_QA",
+        "question": "Based on Doc. 90f01edd, Doc. 6d2cbdc4, Doc. 60955f03, Doc. 6e66ff73, What are the Online Games native major internet companies and the Telecom Operator name of the second largest Prepaid ARPU in 2008? Please list the answer in list with reverse alphabetical order.",
+        "answer": "XL, Kotakgame.com, GameQQ.net",
+        "evidence": {
+            "text_evidence": [],
+            "image_evidence": [],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": [
+                [
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Source: http://www.venture consulting.com/assets/indo mobile-Arpu4.pdf "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Less usage on SMs and voice also ead to reduced ARP U. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Source:(datafor3,Smartfren,Es i a are incomplete) http://inet.detik.com/read/2014/07/16/081716/2638327/328/berkat-andromax-bisnis-smartfren-moncer http://tekno.liputan6.com/read/813266/esia-siap-genjot-pengguna-layanan-data http://www.merdeka.com/teknologi/pengguna-blackberry-di-indonesia-capai-1385-juta-orang.html http://tekno.liputan6.com/read/2078475/smartfren-andromax-kini-jadi-smartphone-sejuta-umat http://www.slideshare.net/yogis mobile tech/jumlah-pelanggan-selular-kuartal-i-tahun-2014 http://id.techinasia.com/laporan-finansial-operator-gsm-dan-cdma-terbesar-di-indonesia-q1-2014/"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_8a168ef9.png"
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_7e49e0a2.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "CDMA operators managed to force GSM operators to reduce their tariffs. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Mobile content providers(CP)used to supply MID P games.There are only a few mobil CP s left that focus on downloadable mobile content Most games are downloaded through Google Play Popular games: LINEGames（Let'sGetRich,PokoPoko,STAGE,etc.)（rough estimate:S300Kper month on games\\*) King.com(Candy Crush Saga,Farm Heroes Saga,etc.) Supercell(Clashof Clans,HayDay,BoomBeach,etc.) Boy a a Texas Poker(last time it generated S 12 oK monthly on Tel kom sel alone) . Coal a a Texas Poker (about half of Boyaa's monthly revenue on Tel kom sel) Subway Surfers DinerDash Game loft games No local game publishers/developers managed to publish popular mobile games in Indonesia.Some active ones:Winner,Alegrium,NightSpade,To ge Productions,etc FauniaPaw(developed by Art on code and published by Ly toM obi)has 19 ooo MAU. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "In Indonesia,thereare6（formerly10)GSM/WCDMA&CDMA operators,1 LTE operator,and 1 Wi MAX operator. Big3telco:Telkomsel,XLAxiata,andIndosat(all GSM operators) GSM:Telkomsel,XLAxiata(AXIS merged with XL),Indosat,3 CDMA:Smartfren,Tel kom Flex i(merged with Tel kom sel),Esia,StarOne (merged withIn dos at) CDMA operators will begone by 2016.Existing CDMA operators are told to merge or migrate to LTE or be sold to GSM operators. Smartfren,the best performing CDMA operator in recent time,is migrating toLTETDD2.3 GHz from PCS 1900 Bolt 4 G is the country's first commercial LTE operator(data-only)operating LTETDDon2.3 GHz frequency band.Bolt 4 G was formerly operating the country's first commercial Wi MAx,SitraWimax. The other Wi MAX operator in Indonesia is Berca-owned company called Wi GO which serves the eastern part of Indonesia. "
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_53115156.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_e46722d6.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Initially reduced ARP U was due to massive price war,initiated by the government. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Source: http://www.indotelko.com/kanal?c=id&it=Indosat-Optimistis-Pela ngg an nya-tetap-Tumbuh http://inet.detik.com/read/2014/12/10/195833/2773834/328/di bombard ir-android-pengguna-blackbery- xl-tetap-setia http://www.tempo.co/read/news/2014/06/06/072583095/Pelanggan-Telkomsel-Android-Lampaui- Blackberry http://www.beritasatu.com/iptek/230055-telkomsel-gandeng-17-vendor-smartphone-android.html "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Native Major Internet Companies "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_2b43121e.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_58d86105.png"
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Recently people use data-based IM,VolP,etc.thus leads to even less usage of sMs and voice call "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Source: http://inet.detik.com/read/2012/08/11/100556/1988959/328/3/relakah-p0nsel-anda-dibanjiri-sms-iklan http://inet.detik.com/read/2012/12/06/090313/2110752/398/indonesia-pasar-iklan-mobile-terbesar-ketiga-di-dunia http://tekno.kompas.com/read/2013/05/03/1538144/3.operator.seluler.bersatu.demi.iklan.mobile http://inet.detik.com/read/2014/05/20/165432/2587450/328/xl-tak-puas-cuma-kebagian-25-kue-iklan-di-p0nsel http://b isn is k euan gan.kompas.com/read/2014/09/11/112456026/Soal.lklan.Peralihan.Telkomsel.dan.XL.Axiata.Akan.Patuhi Aturan "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Instant messaging is the primary method of communication for mobile phone users.  $90\\%$  of them are using IM everyday and of which  $60\\%$  use IM multiple times daily. Onaverage,thereare4.2 IM applications installed on the mobile phone users'device,with WhatsApp,BlackBerry Messenger(BBM),and LINE are the top 3 IM installed.In September 2014,LiNE reported to have 30 million users from Indonesia E-commerce users prefer to shop online through conventional e commerce sites  $(20\\%)$  social media  $(26\\%)$  ,IM group like BB M Group  $(27\\%)$  ,and forum and classifieds like K ask us and OL x  $(27\\%)$  "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_0d12f6f5.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_da139370.png"
+                        }
+                    }
+                ]
+            ]
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "XL, Kotakgame.com, GameQQ.net",
+                "Indosat, Disdus.com, DealKeren.com",
+                "Smartfren, Melon.co.id, Langitmusik.com",
+                "Telkomsel, Traveloka.com, Tiket.com"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [],
+            "image_evidence_assignment": [],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_government_animals_economy_76f7f734",
+                    "insert_conversation_turn": 558,
+                    "reference_name": "Doc. 90f01edd"
+                },
+                {
+                    "conversation_name": "group_chat_religion_education_transportation_7b14c4be",
+                    "insert_conversation_turn": 726,
+                    "reference_name": "Doc. 6d2cbdc4"
+                },
+                {
+                    "conversation_name": "group_chat_religion_education_transportation_7b14c4be",
+                    "insert_conversation_turn": 191,
+                    "reference_name": "Doc. 60955f03"
+                },
+                {
+                    "conversation_name": "group_chat_government_animals_economy_76f7f734",
+                    "insert_conversation_turn": 217,
+                    "reference_name": "Doc. 6e66ff73"
+                }
+            ]
+        },
+        "meta_data": {
+            "category": "Research report / Introduction",
+            "doc_name": "indonesiamobilemarketresearch-ag-150106055934-conversion-gate02_95",
+            "gold_quotes": [
+                "image6",
+                "text6",
+                "image1"
+            ],
+            "topic": [
+                "video games",
+                " technology",
+                " business"
+            ],
+            "original_question": "What are the Online Games native major internet companies and the Telecom Operator name of the second largest Prepaid ARPU in 2008? Please list the answer in list with reverse alphabetical order."
+        }
+    },
+    {
+        "id": "QA_sample_48085b6f",
+        "domain": "MMCV",
+        "category": "Multi_Hop_QA",
+        "question": "Based on Fig. 75f914c6, Fig. a72cccc2, Fig. 7fc07365, Which country with a flag featuring yellow is part of a basketball tournament involving European nations?",
+        "answer": "Lithuania",
+        "evidence": {
+            "text_evidence": [],
+            "image_evidence": [
+                "MMCV_33cb38f1165818f9646ecb8d19a39b2e.png",
+                "MMCV_596327f77ba73948f368c6c510d52909.png",
+                "MMCV_6ed5317ca0c28b2f464a2a612db07f27.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "Belgium",
+                "Spain",
+                "Germany",
+                "Lithuania"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_government_animals_economy_76f7f734",
+                    "insert_conversation_turn": 722,
+                    "reference_name": "Fig. 75f914c6"
+                },
+                {
+                    "conversation_name": "group_chat_religion_education_transportation_7b14c4be",
+                    "insert_conversation_turn": 364,
+                    "reference_name": "Fig. a72cccc2"
+                },
+                {
+                    "conversation_name": "group_chat_technology_video_games_religion_cbb4ea7a",
+                    "insert_conversation_turn": 483,
+                    "reference_name": "Fig. 7fc07365"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "sports",
+                "flags"
+            ],
+            "original_question": "Which country with a flag featuring yellow is part of a basketball tournament involving European nations?"
+        }
+    },
+    {
+        "id": "5c4f20f5",
+        "domain": "MMDocRAG",
+        "category": "Single_Hop_QA",
+        "question": "Based on Doc. 09b92275, Doc. 53af0854, Doc. 0b580919, Which language model has the lowest Perplexity (PPL) according to Table 3?",
+        "answer": "KGLM",
+        "evidence": {
+            "text_evidence": [],
+            "image_evidence": [],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": [
+                [
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "By relying on memorization, existing language models are unable to generate factually correct text about real-world entities. In particular, they are unable to capture the long tail of rare entities and word types like numbers and dates. In this work, we proposed the  knowledge graph language model (KGLM), a neural language model that can access an external source of facts, encoded as a knowledge graph, in order to generate text. Our implementa- tion is available at:  https://github.com/rloganiv/ kglm-model . We also introduced  Linked WikiText- 2  containing text that has been aligned to facts in the knowledge graph, allowing efﬁcient training of the model.  Linked WikiText-2  is freely avail- able for download at:  https://rloganiv.github.io/ linked-wikitext-2 . In our evaluation, we showed that by utilizing this graph, the proposed KGLM is able to generate higher-quality, factually correct text that includes mentions of rare entities and spe- ciﬁc tokens like numbers and dates. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Table  4  presents performance of each language model on the relations. The  oracle  KGLM is given the correct entity annotation for    $X$  , while the  NEL KGLM uses the discriminative model used for im- portance sampling combined with the NEL entity linker to produce an entity annotation for    $X$  . "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "overestimates the probability of out-of-vocabulary tokens when they are mapped to a single UNK token. This is problematic for comparing the per- formance of the KGLM to traditional language models on  Linked WikiText-2  since there are a large number of rare entities whose alias tokens are out- of-vocabulary. That is, even if the KGLM identiﬁes the correct entity and copies the correct alias token with high probability, other models can attain bet- ter perplexity by assigning a higher probability to UNK. Accordingly, we also measure  unknown pe- nalized perplexity  (UPP) (a.k.a  adjusted perplexity ) introduced by  Ueberla  ( 1994 ), and used recently by  Ahn et al.  ( 2016 ) and  Spithourakis and Riedel ( 2018 ). This metric penalizes the probability of UNK tokens by evenly dividing their probability mass over  $\\mathcal{U}$  , the set of tokens that get mapped to UNK . We can be compute UPP by replacing  $p(\\mathbf{U}\\mathbf{N}\\mathbf{K})$   in the perplexity above by  $\\textstyle{\\frac{1}{|{\\mathcal{U}}|}}p(\\mathbf{U}\\mathbf{N}\\mathbf{K})$  , where    $|\\mathcal{U}|$   is estimated from the data. "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_4fe8f443.png"
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_1c7aad7f.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "We train and evaluate the KGLM on  Linked WikiText-2 . When compared against AWD-LSTM, a recent and performant language model, KGLM obtains not only a lower overall perplexity, but also a substantially lower  unknown-penalized  perplex- ity ( Ueberla ,  1994 ;  Ahn et al. ,  2016 ), a metric that allows fair comparisons between models that accu- rately model rare tokens and ones that predict them to be  unknown . We also compare  factual com- pletion  capabilities of these models, where they predict the next word after a factual sentence (e.g., “ Barack is married to ”) and show that KGLM is signiﬁcantly more accurate. Lastly, we show that the model is able to generate accurate facts for rare entities, and can be  controlled  via modiﬁcations the knowledge graph. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Modeling human language requires the ability to not only generate ﬂuent text but also en- code factual knowledge. However, traditional language models are only capable of remem- bering facts seen at training time, and often have difﬁculty recalling them. To address this, we introduce the knowledge graph language model (KGLM), a neural language model with mechanisms for selecting and copying facts from a knowledge graph that are relevant to the context. These mechanisms enable the model to render information it has never seen before, as well as generate out-of-vocabulary tokens. We also introduce the  Linked WikiText- 2  dataset,   a corpus of annotated text aligned to the Wikidata knowledge graph whose contents (roughly) match the popular  WikiText-2  bench- mark ( Merity et al. ,  2017 ). In experiments, we demonstrate that the KGLM achieves signiﬁ- cantly better performance than a strong base- line language model. We additionally com- pare different language models’ ability to com- plete sentences requiring factual knowledge, and show that the KGLM outperforms even very large language models in generating facts. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "We provide examples in Table  5  to highlight qualitative differences between KGLM, trained on 600  documents, and the recent state-of-the-art lan- guage model, GPT-2, trained on the WebText cor- pus with over  8  million documents ( Radford et al. , 2019 ). For examples that both models get factu- ally correct or incorrect, the generated tokens by KGLM are often much more speciﬁc, as opposed to selection of more popular/generic tokens (GPT-2 often predicts “New York” as the birthplace, even for popular entities). KGLM, in particular, gets factual statements correct when the head or tail en- tities are rare, while GPT-2 can only complete facts for more-popular entities while using more-generic tokens (such as “ January ” instead of   $\"20\"$  ). "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_d48f1cc2.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_9e871746.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "(ii) The neural knowledge language model (NKLM) ( Ahn et al. ,  2016 ) which established the idea of leveraging knowledge graphs in neural lan- guage models. The main differentiating factor be- tween the KGLM and NKLM is that the KGLM operates on an entire knowledge graph and can be evaluated on text without additional conditioning information, whereas the NKLM operates on a rel- atively smaller set of predeﬁned edges emanating from a single entity, and requires that entity be pro- vided as conditioning information ahead of time. This requirement precludes direct comparison be- tween NKLM and the baselines in Section  5 . "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "•  AWD-LSTM  ( Merity et al. ,  2018 ): strong LSTM-based model used as the foundation of most state-of-the-art models on  WikiText-2 .\n\n •  E NTITY NLM  ( Ji et al. ,  2017 ): an LSTM-based language model with the ability to track entity mentions. Embeddings for entities are created dy- namically, and are not informed by any external sources of information.\n\n •  EntityCopyNet:  a variant of the KGLM where  $t_{t}~=$   new  for all mentions, i.e. entities are selected from  $\\mathcal{E}$   and entity aliases are copied, but relations in the knowledge graph are unused. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "This work lays the groundwork for future re- search into knowledge-aware language modeling. The limitations of the KGLM model, such as the need for marginalization during inference and re- liance on annotated tokens, raise new research prob- lems for advancing neural NLP models. Our dis- tantly supervised approach to dataset creation can be used with other knowledge graphs and other kinds of text as well, providing opportunities for accurate language modeling in new domains. "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_1f306516.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_04885b6a.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Amongst models trained on the same data, both KGLM variants signiﬁcantly outperform AWD- LSTM; they produce accurate facts, while AWD- LSTM produced generic, common words. KGLMs are also competitive with models trained on orders of magnitude more data, producing factual com- pletions that require speciﬁc knowledge, such as birthplaces, dates, and authors. However, they do not capture facts or relations that frequently appear in large corpora, like the cities within states.   It is encouraging to see that the KGLM with automatic linking performs comparably to oracle linking. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "We present the model perplexities in Table  3 . To marginalize over annotations, perplexities for the E NTITY NLM, EntityCopyNet, and KGLM are es- timated using the importance sampling approach described in Section  4 . We observe that the KGLM attains substantially lower perplexity than the other entity-based language models (44.1 vs. 76.1/85.4), providing strong evidence that leveraging knowl- edge graphs is crucial for accurate language mod- eling. Furthermore, KGLM signiﬁcantly outper- forms all models in unknown penalized perplexity, demonstrating its ability to generate rare tokens. "
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "General language modeling  Also related are the recent papers proposing modiﬁcations to the AWD- LSTM that improve performance on  Wikitext- 2  ( Gong et al. ,  2018 ;  Yang et al. ,  2018 ;  Krause et al. ,  2018 ). We chose to benchmark against AWD- LSTM since these contributions are orthogonal, and many of the techniques are compatible with the KGLM. KGLM improves upon AWD-LSTM, and we expect using KGLM in conjunction with these methods will yield further improvement. "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_caa68415.png"
+                        }
+                    }
+                ]
+            ]
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "KGLM",
+                "AWD-LSTM",
+                "ENTITYNLM",
+                "EntityCopyNet"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [],
+            "image_evidence_assignment": [],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_religion_education_transportation_7b14c4be",
+                    "insert_conversation_turn": 349,
+                    "reference_name": "Doc. 09b92275"
+                },
+                {
+                    "conversation_name": "group_chat_technology_video_games_religion_cbb4ea7a",
+                    "insert_conversation_turn": 621,
+                    "reference_name": "Doc. 53af0854"
+                },
+                {
+                    "conversation_name": "group_chat_technology_video_games_religion_cbb4ea7a",
+                    "insert_conversation_turn": 170,
+                    "reference_name": "Doc. 0b580919"
+                }
+            ]
+        },
+        "meta_data": {
+            "category": "Academic paper",
+            "doc_name": "P19-1598",
+            "gold_quotes": [
+                "image1",
+                "text11"
+            ],
+            "topic": [
+                "technology",
+                "video games"
+            ],
+            "original_question": "Which language model has the lowest Perplexity (PPL) according to Table 3?"
+        }
+    },
+    {
+        "id": "QA_sample_3897870f",
+        "domain": "SlideVQA",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 49b09160, Fig. 493ab0d0, What is the meaning of the person’s name who was of the tribe of Judah and probably a member of the royal family?",
+        "answer": "God is Judge",
+        "evidence": {
+            "text_evidence": [],
+            "image_evidence": [
+                "SlideVQA_abe729ea_page_4.png",
+                "SlideVQA_abe729ea_page_5.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Jehovah has helped",
+                "God is Judge",
+                "Who is he that is God",
+                "Jehovah is gracious"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_government_animals_economy_76f7f734",
+                    "insert_conversation_turn": 1070,
+                    "reference_name": "Fig. 49b09160"
+                },
+                {
+                    "conversation_name": "group_chat_religion_education_transportation_7b14c4be",
+                    "insert_conversation_turn": 430,
+                    "reference_name": "Fig. 493ab0d0"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "religion"
+            ],
+            "original_question": "What is the meaning of the person’s name who was of the tribe of Judah and probably a member of the royal family?"
+        }
+    },
+    {
+        "id": "QA_sample_d959e273",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. da8c6592, the text, in which two consecutive quarters was the Islamic State \"considered financially sustainable,\"?",
+        "answer": "Q2 2015 and Q1 2016",
+        "evidence": {
+            "text_evidence": [
+                "An organization is considered financially sustainable if its revenue exceeds $30 million per month on average. The chart shows the average monthly revenue of the Islamic State in Iraq and Syria, divided into three categories: oil and gas, tax and confiscation, and other income. Evaluate whether the organization was financially sustainable in at least two consecutive quarters."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_66177fbf.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "Q2 2015 and Q3 2016",
+                "Q3 2016 and Q2 2017",
+                "Q2 2015 and Q1 2016",
+                "Q1 2016 and Q3 2016"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_religion_education_transportation_7b14c4be",
+                    "insert_conversation_turn": 304
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_government_animals_economy_76f7f734",
+                    "insert_conversation_turn": 343,
+                    "reference_name": "Fig. da8c6592"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "economy",
+                "religion"
+            ],
+            "original_question": "the text, in which two consecutive quarters was the Islamic State \"considered financially sustainable,\" according to the definition of having average monthly revenue exceeding $30 million?"
+        }
+    },
+    {
+        "id": "QA_sample_672807a2",
+        "domain": "MMCV",
+        "category": "Multi_Hop_QA",
+        "question": "Based on Table. 52a76e2c, Which prominent Milanese football club played against Juventus in both the Trofeo Luigi Berlusconi and the Major League Soccer All-Star Game exhibition match year?",
+        "answer": "Milan",
+        "evidence": {
+            "text_evidence": [
+                "The 2018 Major League Soccer All-Star Game is the 23rd annual Major League Soccer All-Star Game. It will be held on August 1 at the Mercedes-Benz Stadium in Atlanta, Georgia. The MLS All-Stars will play against Juventus."
+            ],
+            "image_evidence": [],
+            "table_evidence": [
+                {
+                    "title": "Trofeo Luigi Berlusconi",
+                    "table_name": "Final",
+                    "table_header": [
+                        "No.",
+                        "Date",
+                        "Winner",
+                        "Result",
+                        "Loser"
+                    ],
+                    "table_rows": [
+                        [
+                            "1",
+                            "23 August 1991",
+                            "Juventus  18’ e 30’ Casiraghi",
+                            "2 – 1",
+                            "Milan  23’ Maldini"
+                        ],
+                        [
+                            "2",
+                            "22 August 1992",
+                            "Milan  4’ Papin",
+                            "1 – 0",
+                            "Internazionale"
+                        ],
+                        [
+                            "3",
+                            "17 August 1993",
+                            "Milan  20’ Simone, 23’ Papin, 39’ Boban",
+                            "3 – 2",
+                            "Real Madrid  42’ Míchel, 55’ Zamorano (Penalty)"
+                        ],
+                        [
+                            "4",
+                            "17 August 1994",
+                            "Milan  67’ Gullit",
+                            "1 – 0",
+                            "Bayern Munich"
+                        ],
+                        [
+                            "5",
+                            "18 August 1995",
+                            "Juventus",
+                            "0 – 0 E.T. (6–5) Penalties",
+                            "Milan"
+                        ],
+                        [
+                            "6",
+                            "21 August 1996",
+                            "Milan  83’ Eranio",
+                            "1 – 0",
+                            "Juventus"
+                        ],
+                        [
+                            "7",
+                            "19 August 1997",
+                            "Milan  54’ Cruz, 60’ Kluivert, 62’ Weah",
+                            "3 – 1",
+                            "Juventus  31’ Conte"
+                        ],
+                        [
+                            "8",
+                            "25 August 1998",
+                            "Juventus  66’ e 85’ Inzaghi",
+                            "2 – 1",
+                            "Milan  31’ Bierhoff"
+                        ],
+                        [
+                            "9",
+                            "17 August 1999",
+                            "Juventus  26’ Del Piero",
+                            "1 – 0",
+                            "Milan"
+                        ],
+                        [
+                            "10",
+                            "27 August 2000",
+                            "Juventus  24’ Trezeguet, 65’ Inzaghi",
+                            "2 – 2 E.T. (7–6) Penalties",
+                            "Milan  2’ José Mari, 35’ Shevchenko (Penalty)"
+                        ],
+                        [
+                            "11",
+                            "18 August 2001",
+                            "Juventus  5’ Del Piero",
+                            "1 – 1 E.T. (4–3) Penalties",
+                            "Milan  85’ Serginho (Penalty)"
+                        ],
+                        [
+                            "12",
+                            "18 August 2002",
+                            "Milan",
+                            "0 – 0 E.T. (3–1) Penalties",
+                            "Juventus"
+                        ],
+                        [
+                            "13",
+                            "17 August 2003",
+                            "Juventus  40’ Del Piero, 45’ Camoranesi",
+                            "2 – 0",
+                            "Milan"
+                        ],
+                        [
+                            "14",
+                            "28 August 2004",
+                            "Juventus  46’ Olivera",
+                            "1 – 0",
+                            "Milan"
+                        ],
+                        [
+                            "15",
+                            "14 August 2005",
+                            "Milan  52’ Kaká, 76’ Serginho",
+                            "2 – 1",
+                            "Juventus  20’ Vieira"
+                        ],
+                        [
+                            "16",
+                            "6 January 2007 The 2006 edition was postponed until January 2007, because it was not possible to organize it in August due to fixtures in the UEFA Champions League for Milan and the Coppa Italia for Juventus.",
+                            "Milan  29’ Inzaghi, 68’ Seedorf, 86’ Aubameyang",
+                            "3 – 2",
+                            "Juventus  40’ Nedved, 67’ Del Piero"
+                        ],
+                        [
+                            "17",
+                            "17 August 2007",
+                            "Milan  43’ Inzaghi, 47’ Inzaghi",
+                            "2 – 0",
+                            "Juventus"
+                        ],
+                        [
+                            "18",
+                            "17 August 2008",
+                            "Milan  21 Jankulovski, 28 Ambrosini, 52 Inzaghi, 79 Ambrosini",
+                            "4 – 1",
+                            "Juventus   70 Pasquato"
+                        ],
+                        [
+                            "19",
+                            "17 August 2009",
+                            "Milan  69 Pato",
+                            "1 – 1 E.T. (6–5) Penalties",
+                            "Juventus   26 Diego"
+                        ],
+                        [
+                            "20",
+                            "22 August 2010",
+                            "Juventus",
+                            "0 – 0 E.T. (5–4) Penalties",
+                            "Milan"
+                        ],
+                        [
+                            "21",
+                            "22 August 2011",
+                            "Milan  9 Boateng 23 Seedorf",
+                            "2 – 1",
+                            "Juventus   57 Vučinić"
+                        ],
+                        [
+                            "22",
+                            "19 August 2012",
+                            "Juventus  13 Marchisio 42 Vidal 64 Matri",
+                            "3 – 2",
+                            "Milan   9 77 pen. Robinho"
+                        ],
+                        [
+                            "23",
+                            "5 November 2014",
+                            "Milan  25 Pazzini 85 Bonaventura",
+                            "2 – 0",
+                            "San Lorenzo"
+                        ],
+                        [
+                            "24",
+                            "21 October 2015",
+                            "Inter  12 Kondogbia",
+                            "1  – 0",
+                            "Milan"
+                        ]
+                    ]
+                }
+            ],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Milan",
+                "Inter",
+                "Bayern Munich",
+                "Real Madrid"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_technology_video_games_religion_cbb4ea7a",
+                    "insert_conversation_turn": 783
+                }
+            ],
+            "image_evidence_assignment": [],
+            "table_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_government_animals_economy_76f7f734",
+                    "insert_conversation_turn": 798,
+                    "reference_name": "Table. 52a76e2c"
+                }
+            ],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "sports",
+                "soccer"
+            ],
+            "original_question": "Which prominent Milanese football club played against Juventus in both the Trofeo Luigi Berlusconi and the Major League Soccer All-Star Game exhibition match year?"
+        }
+    },
+    {
+        "id": "QA_sample_5780a2cf",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. b4f1cdd0, According to the previous definition, which teams have demonstrated an exceptional batting performance, in test matches over the last three years?",
+        "answer": "New Zealand and Australia",
+        "evidence": {
+            "text_evidence": [
+                "A team's batting average is considered strong if it exceeds 30, and exceptional if it surpasses 35. Additionally, nations with a batting average below 28 are considered to have a weak batting performance. These categories are used to evaluate overall team performance in test matches over the past three years."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_ca290b30.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "South Africa and England",
+                "New Zealand and Australia",
+                "India and Sri Lanka",
+                "Zimbabwe and UAE"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_government_animals_economy_76f7f734",
+                    "insert_conversation_turn": 202
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_religion_education_transportation_7b14c4be",
+                    "insert_conversation_turn": 711,
+                    "reference_name": "Fig. b4f1cdd0"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "sports"
+            ],
+            "original_question": "According to the previous definition, which teams have demonstrated an exceptional batting performance, as indicated by having a batting average that surpasses the threshold for being considered exceptional, in test matches over the last three years?"
+        }
+    },
+    {
+        "id": "QA_sample_bfe9bb6b",
+        "domain": "MMCV",
+        "category": "Multi_Hop_QA",
+        "question": "Based on Fig. b66c7d05, Fig. 5635b81d, Fig. 7cda39db, Fig. e5b337ca, Which team competed in Round 1 of the 2019 Intrust Super Cup in Queensland as the away team, featuring an animal associated with the sea on their logo?",
+        "answer": "Redcliffe Dolphins",
+        "evidence": {
+            "text_evidence": [],
+            "image_evidence": [
+                "MMCV_885645e7ba1f8e9f0473cc6ab103059e.png",
+                "MMCV_60f1a572b25f5ad7c070ab57529a710e.png",
+                "MMCV_74f69546f00549afd39f1557fdd70e12.png",
+                "MMCV_06fa3f93cc2cef3eb8362a1da3ce9901.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "Wynnum Manly Seagulls",
+                "Burleigh Bears",
+                "Central Queensland Capras",
+                "Redcliffe Dolphins"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_religion_education_transportation_7b14c4be",
+                    "insert_conversation_turn": 132,
+                    "reference_name": "Fig. b66c7d05"
+                },
+                {
+                    "conversation_name": "group_chat_technology_video_games_religion_cbb4ea7a",
+                    "insert_conversation_turn": 740,
+                    "reference_name": "Fig. 5635b81d"
+                },
+                {
+                    "conversation_name": "group_chat_government_animals_economy_76f7f734",
+                    "insert_conversation_turn": 986,
+                    "reference_name": "Fig. 7cda39db"
+                },
+                {
+                    "conversation_name": "group_chat_government_animals_economy_76f7f734",
+                    "insert_conversation_turn": 956,
+                    "reference_name": "Fig. e5b337ca"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "sports"
+            ],
+            "original_question": "Which team competed in Round 1 of the 2019 Intrust Super Cup in Queensland as the away team, featuring an animal associated with the sea on their logo?"
+        }
+    },
+    {
+        "id": "QA_sample_1b2e14f8",
+        "domain": "MMCV",
+        "category": "Multi_Hop_QA",
+        "question": "Based on Fig. 3caac810, What team with an animal logo and a history of challenges before becoming successful lost to the New England Patriots in the Super Bowl while having a logo resembling a bird of prey?",
+        "answer": "Seattle Seahawks",
+        "evidence": {
+            "text_evidence": [
+                "Steve Largent, Cortez Kennedy, Walter Jones, and Kenny Easley have been voted into the Pro Football Hall of Fame primarily or wholly for their accomplishments as Seahawks. In addition to them, Dave Brown, Jacob Green, Dave Krieg, Curt Warner, and Jim Zorn have been inducted into the Seahawks Ring of Honor along with Pete Gross (radio announcer) and Chuck Knox (head coach). The Seahawks have won 10 division titles and three conference championships.  They are the only team to have played in both the AFC and NFC Championship Games. They have appeared in three Super Bowls: losing 21–10 to the Pittsburgh Steelers in Super Bowl XL, defeating the Denver Broncos 43–8 for their first championship in Super Bowl XLVIII, and losing 28–24 to the New England Patriots in Super Bowl XLIX."
+            ],
+            "image_evidence": [
+                "MMCV_3323dc9b1368af7794da171065e843c6.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "Philadelphia Eagles",
+                "Arizona Cardinals",
+                "Seattle Seahawks",
+                "Atlanta Falcons"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_religion_education_transportation_7b14c4be",
+                    "insert_conversation_turn": 902
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_government_animals_economy_76f7f734",
+                    "insert_conversation_turn": 870,
+                    "reference_name": "Fig. 3caac810"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "sports",
+                "NFL"
+            ],
+            "original_question": "What team with an animal logo and a history of challenges before becoming successful lost to the New England Patriots in the Super Bowl while having a logo resembling a bird of prey?"
+        }
+    },
+    {
+        "id": "QA_sample_0de976c7",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 137e4beb, According to the previous definition, which religious groups should have activities classified as \"'highest priority'\" based on their 'feeling thermometer' ratings?",
+        "answer": "Jews, Catholics, and Evangelical Christians.",
+        "evidence": {
+            "text_evidence": [
+                "A policy analyst wants to prioritize interfaith dialogue activities according to the popularity of different religious groups in the U.S. public, as measured on a 'feeling thermometer.' Activities involving groups scoring above 60 degrees should receive the highest priority, while those scoring between 50 and 60 degrees will receive medium priority. Activities involving groups scoring below 50 degrees will be low priority."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_afbb5094.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "Mormons",
+                "Buddhists",
+                "Hindus",
+                "Jews, Catholics, and Evangelical Christians."
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_religion_education_transportation_7b14c4be",
+                    "insert_conversation_turn": 653
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_technology_video_games_religion_cbb4ea7a",
+                    "insert_conversation_turn": 564,
+                    "reference_name": "Fig. 137e4beb"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "religion"
+            ],
+            "original_question": "According to the previous definition, which religious groups should have activities classified as \"'highest priority'\" based on their 'feeling thermometer' ratings?"
+        }
+    },
+    {
+        "id": "QA_sample_f8190f24",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 7eff1b83, the text, do DeMar DeRozan's highest four-game scoring spans from 2010 to 2017 demonstrate a \"consistently improving\" trend according to the previous definition?",
+        "answer": "Yes",
+        "evidence": {
+            "text_evidence": [
+                "A player's performance trend is considered 'consistently improving' if their highest four-game scoring averages over several years demonstrate a general upward motion over time, rather than a temporary spike or anomaly in specific seasons. Analyze the data trends to determine whether this condition is met."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_2569714d.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Yes",
+                "No"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_government_animals_economy_76f7f734",
+                    "insert_conversation_turn": 452
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_technology_video_games_religion_cbb4ea7a",
+                    "insert_conversation_turn": 867,
+                    "reference_name": "Fig. 7eff1b83"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "sports"
+            ],
+            "original_question": "the text, do DeMar DeRozan's highest four-game scoring spans from 2010 to 2017 demonstrate a \"consistently improving\" trend according to the previous definition?"
+        }
+    },
+    {
+        "id": "QA_sample_96754cd3",
+        "domain": "MMCV",
+        "category": "Multi_Hop_QA",
+        "question": "Based on Table. 3dbf64ce, Which player who had appearances in cup matches in a season when Arsenal won the title in the oldest football competition played a total of 177 league games for the club during his career?",
+        "answer": "Mesut Özil",
+        "evidence": {
+            "text_evidence": [
+                "The 2017 FA Cup Final was the 136th final of the FA Cup, the world's oldest football cup competition. It took place on 27 May 2017 at Wembley Stadium in London, England and was contested between London rivals Arsenal and Chelsea. Arsenal won the game 2–1 to secure a record 13th title, while manager Arsène Wenger became the most successful manager in the tournament's history with seven wins."
+            ],
+            "image_evidence": [],
+            "table_evidence": [
+                {
+                    "title": "Mesut Özil",
+                    "table_name": "Career statistics | Club",
+                    "table_header": [
+                        "Club",
+                        "Season",
+                        "League - Division",
+                        "League - Apps",
+                        "League - Goals",
+                        "Cup Includes DFB-Pokal, Copa del Rey, and FA Cup matches.  - Apps",
+                        "Cup Includes DFB-Pokal, Copa del Rey, and FA Cup matches.  - Goals",
+                        "League Cup Includes DFB-Ligapokal and League Cup matches.  - Apps",
+                        "League Cup Includes DFB-Ligapokal and League Cup matches.  - Goals",
+                        "Europe - Apps",
+                        "Europe - Goals",
+                        "Other Includes Supercopa de España and FA Community Shield matches.  - Apps",
+                        "Other Includes Supercopa de España and FA Community Shield matches.  - Goals",
+                        "Total - Apps",
+                        "Total - Goals",
+                        "Ref"
+                    ],
+                    "table_rows": [
+                        [
+                            "Schalke 04",
+                            "2006–07",
+                            "Bundesliga",
+                            "19",
+                            "0",
+                            "1",
+                            "0",
+                            "2",
+                            "0",
+                            "1 Appearances in UEFA Cup",
+                            "0",
+                            "—",
+                            "—",
+                            "23",
+                            "0",
+                            ""
+                        ],
+                        [
+                            "Schalke 04",
+                            "2007–08",
+                            "Bundesliga",
+                            "11",
+                            "0",
+                            "1",
+                            "1",
+                            "0",
+                            "0",
+                            "4 Appearances in UEFA Champions League",
+                            "0",
+                            "—",
+                            "—",
+                            "16",
+                            "1",
+                            ""
+                        ],
+                        [
+                            "Schalke 04",
+                            "Total",
+                            "Total",
+                            "30",
+                            "0",
+                            "2",
+                            "1",
+                            "2",
+                            "0",
+                            "5",
+                            "0",
+                            "—",
+                            "—",
+                            "39",
+                            "1",
+                            "—"
+                        ],
+                        [
+                            "Werder Bremen",
+                            "2007–08",
+                            "Bundesliga",
+                            "12",
+                            "1",
+                            "0",
+                            "0",
+                            "0",
+                            "0",
+                            "2",
+                            "0",
+                            "—",
+                            "—",
+                            "14",
+                            "1",
+                            ""
+                        ],
+                        [
+                            "Werder Bremen",
+                            "2008–09",
+                            "Bundesliga",
+                            "28",
+                            "3",
+                            "5",
+                            "2",
+                            "—",
+                            "—",
+                            "14",
+                            "0",
+                            "—",
+                            "—",
+                            "47",
+                            "5",
+                            ""
+                        ],
+                        [
+                            "Werder Bremen",
+                            "2009–10",
+                            "Bundesliga",
+                            "31",
+                            "9",
+                            "5",
+                            "0",
+                            "—",
+                            "—",
+                            "10 Appearances in UEFA Europa League",
+                            "2",
+                            "—",
+                            "—",
+                            "46",
+                            "11",
+                            ""
+                        ],
+                        [
+                            "Werder Bremen",
+                            "2010–11",
+                            "Bundesliga",
+                            "0",
+                            "0",
+                            "1",
+                            "0",
+                            "—",
+                            "—",
+                            "0",
+                            "0",
+                            "—",
+                            "—",
+                            "1",
+                            "0",
+                            ""
+                        ],
+                        [
+                            "Werder Bremen",
+                            "Total",
+                            "Total",
+                            "71",
+                            "13",
+                            "11",
+                            "2",
+                            "0",
+                            "0",
+                            "26",
+                            "2",
+                            "—",
+                            "—",
+                            "108",
+                            "17",
+                            "—"
+                        ],
+                        [
+                            "Real Madrid",
+                            "2010–11",
+                            "La Liga",
+                            "36",
+                            "6",
+                            "6",
+                            "3",
+                            "—",
+                            "—",
+                            "11",
+                            "1",
+                            "—",
+                            "—",
+                            "53",
+                            "10",
+                            ""
+                        ],
+                        [
+                            "Real Madrid",
+                            "2011–12",
+                            "La Liga",
+                            "35",
+                            "4",
+                            "5",
+                            "0",
+                            "—",
+                            "—",
+                            "10",
+                            "2",
+                            "2",
+                            "1",
+                            "52",
+                            "7",
+                            ""
+                        ],
+                        [
+                            "Real Madrid",
+                            "2012–13",
+                            "La Liga",
+                            "32",
+                            "9",
+                            "8",
+                            "0",
+                            "—",
+                            "—",
+                            "10",
+                            "1",
+                            "2",
+                            "0",
+                            "52",
+                            "10",
+                            ""
+                        ],
+                        [
+                            "Real Madrid",
+                            "2013–14",
+                            "La Liga",
+                            "2",
+                            "0",
+                            "0",
+                            "0",
+                            "—",
+                            "—",
+                            "0",
+                            "0",
+                            "—",
+                            "—",
+                            "2",
+                            "0",
+                            ""
+                        ],
+                        [
+                            "Real Madrid",
+                            "Total",
+                            "Total",
+                            "105",
+                            "19",
+                            "19",
+                            "3",
+                            "—",
+                            "—",
+                            "31",
+                            "4",
+                            "4",
+                            "1",
+                            "159",
+                            "27",
+                            "—"
+                        ],
+                        [
+                            "Arsenal",
+                            "2013–14",
+                            "Premier League",
+                            "26",
+                            "5",
+                            "5",
+                            "1",
+                            "1",
+                            "0",
+                            "8",
+                            "1",
+                            "—",
+                            "—",
+                            "40",
+                            "7",
+                            ""
+                        ],
+                        [
+                            "Arsenal",
+                            "2014–15",
+                            "Premier League",
+                            "22",
+                            "4",
+                            "5",
+                            "1",
+                            "0",
+                            "0",
+                            "5",
+                            "0",
+                            "0",
+                            "0",
+                            "32",
+                            "5",
+                            ""
+                        ],
+                        [
+                            "Arsenal",
+                            "2015–16",
+                            "Premier League",
+                            "35",
+                            "6",
+                            "1",
+                            "0",
+                            "0",
+                            "0",
+                            "8",
+                            "2",
+                            "1",
+                            "0",
+                            "45",
+                            "8",
+                            ""
+                        ],
+                        [
+                            "Arsenal",
+                            "2016–17",
+                            "Premier League",
+                            "33",
+                            "8",
+                            "3",
+                            "0",
+                            "0",
+                            "0",
+                            "8",
+                            "4",
+                            "—",
+                            "—",
+                            "44",
+                            "12",
+                            ""
+                        ],
+                        [
+                            "Arsenal",
+                            "2017–18",
+                            "Premier League",
+                            "26",
+                            "4",
+                            "0",
+                            "0",
+                            "2",
+                            "0",
+                            "7",
+                            "1",
+                            "—",
+                            "—",
+                            "35",
+                            "5",
+                            ""
+                        ],
+                        [
+                            "Arsenal",
+                            "2018–19",
+                            "Premier League",
+                            "24",
+                            "5",
+                            "1",
+                            "0",
+                            "0",
+                            "0",
+                            "10",
+                            "1",
+                            "—",
+                            "—",
+                            "35",
+                            "6",
+                            ""
+                        ],
+                        [
+                            "Arsenal",
+                            "2019–20",
+                            "Premier League",
+                            "11",
+                            "0",
+                            "0",
+                            "0",
+                            "2",
+                            "0",
+                            "1",
+                            "0",
+                            "—",
+                            "—",
+                            "14",
+                            "0",
+                            ""
+                        ],
+                        [
+                            "Arsenal",
+                            "Total",
+                            "Total",
+                            "177",
+                            "32",
+                            "15",
+                            "2",
+                            "5",
+                            "0",
+                            "47",
+                            "9",
+                            "1",
+                            "0",
+                            "245",
+                            "43",
+                            "—"
+                        ],
+                        [
+                            "Career total",
+                            "Career total",
+                            "Career total",
+                            "383",
+                            "64",
+                            "47",
+                            "8",
+                            "7",
+                            "0",
+                            "109",
+                            "15",
+                            "5",
+                            "1",
+                            "551",
+                            "88",
+                            "—"
+                        ]
+                    ]
+                }
+            ],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Mesut Özil",
+                "Theo Walcott",
+                "Per Mertesacker",
+                "Aaron Ramsey"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_government_animals_economy_76f7f734",
+                    "insert_conversation_turn": 573
+                }
+            ],
+            "image_evidence_assignment": [],
+            "table_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_religion_education_transportation_7b14c4be",
+                    "insert_conversation_turn": 247,
+                    "reference_name": "Table. 3dbf64ce"
+                }
+            ],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "sports",
+                "football"
+            ],
+            "original_question": "Which player who had appearances in cup matches in a season when Arsenal won the title in the oldest football competition played a total of 177 league games for the club during his career?"
+        }
+    },
+    {
+        "id": "QA_sample_85d677f4",
+        "domain": "MLLMKC",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. 2477e18f, What is the occupation of the person in the picture?",
+        "answer": "Formula 1 racing driver",
+        "evidence": {
+            "text_evidence": [
+                "Lewis Hamilton was born on January 7, 1985. Lewis Hamilton is British. Lewis Hamilton is a Formula 1 racing driver."
+            ],
+            "image_evidence": [
+                "MLLMKC_79064ec4.jpg"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Lewis Hamilton was born on January 7, 1985. Lewis Hamilton is British. Lewis Hamilton is a professional golfer."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "professional gardener",
+                "software engineer",
+                "Formula 1 racing driver",
+                "professional golfer"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_religion_education_transportation_7b14c4be",
+                    "insert_conversation_turn": 334
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_technology_video_games_religion_cbb4ea7a",
+                    "insert_conversation_turn": 680,
+                    "reference_name": "Fig. 2477e18f"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_government_animals_economy_76f7f734",
+                    "insert_conversation_turn": 45
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "instance": "Lewis Hamilton",
+            "category": "people",
+            "error_type": "Career_error",
+            "topic": [
+                "sports"
+            ],
+            "original_question": "What is the occupation of the person in the picture?"
+        }
+    },
+    {
+        "id": "QA_sample_44bf7baf",
+        "domain": "MLLMKC",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. 8406e6d8, What is the occupation of the person in the picture?",
+        "answer": "professional footballer",
+        "evidence": {
+            "text_evidence": [
+                "Cristiano Ronaldo was born on February 5, 1985. Cristiano Ronaldo is Portuguese. Cristiano Ronaldo is a professional footballer."
+            ],
+            "image_evidence": [
+                "MLLMKC_7ae017f5.jpg"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Cristiano Ronaldo was born on February 5, 1985. Cristiano Ronaldo is Portuguese. Cristiano Ronaldo is a professional basketball player."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "professional footballer",
+                "professional tennis player",
+                "professional basketball player",
+                "professional golfer"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_technology_video_games_religion_cbb4ea7a",
+                    "insert_conversation_turn": 636
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_religion_education_transportation_7b14c4be",
+                    "insert_conversation_turn": 210,
+                    "reference_name": "Fig. 8406e6d8"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_government_animals_economy_76f7f734",
+                    "insert_conversation_turn": 529
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "instance": "Cristiano Ronaldo",
+            "category": "people",
+            "error_type": "Career_error",
+            "topic": [
+                "sports"
+            ],
+            "original_question": "What is the occupation of the person in the picture?"
+        }
+    },
+    {
+        "id": "QA_sample_6591efa3_3",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 52b4d541, Among the activities that could reasonably occur in the given image, which one is Miles Roberts least likely to be doing?",
+        "answer": "Watching an improv comedy show",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Miles Roberts enjoys horror movies, sitcoms, but dislikes improv comedy, street performances"
+            ],
+            "image_evidence": [
+                "MMPB_799e1f96.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Miles Roberts enjoys hiking, scuba diving, but dislikes sailing, paragliding",
+                "In terms of lifestyle, Miles Roberts enjoys home gardening, night owl lifestyle, but dislikes protein-rich diet, weightlifting",
+                "In terms of shopping, Miles Roberts enjoys mechanical keyboards, 3D printing tools, but dislikes luxury handbags, designer watches",
+                "In terms of fashion, Miles Roberts enjoys statement jewelry, minimalist rings, but dislikes denim jackets, wide-leg trousers."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "Observing a live theater performance",
+                "Enjoying a musical concert",
+                "Looking for a luxury handbag",
+                "Watching an improv comedy show"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_religion_education_transportation_7b14c4be",
+                    "insert_conversation_turn": 610
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_religion_education_transportation_7b14c4be",
+                    "insert_conversation_turn": 739,
+                    "reference_name": "Fig. 52b4d541"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_government_animals_economy_76f7f734",
+                    "insert_conversation_turn": 22
+                },
+                {
+                    "conversation_name": "group_chat_religion_education_transportation_7b14c4be",
+                    "insert_conversation_turn": 368
+                },
+                {
+                    "conversation_name": "group_chat_religion_education_transportation_7b14c4be",
+                    "insert_conversation_turn": 175
+                },
+                {
+                    "conversation_name": "group_chat_technology_video_games_religion_cbb4ea7a",
+                    "insert_conversation_turn": 265
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Ron",
+            "description": "Ron is a young individual with a slender build and a youthful appearance, suggesting they are likely in their early teens. They have a fair complexion and striking red hair that is often tousled, adding to their distinctive look. The facial structure is characterized by a prominent forehead, expressive eyes, and a slightly pointed chin. Their eyebrows are thick and well-defined, often furrowed in a way that conveys curiosity or concern. The expressions on Ron' face range from wide-eyed surprise to a more contemplative look, indicating a range of emotions and reactions. The overall impression is one of a thoughtful and somewhat introverted character.\n\n**Outfit and Accessories:**\nRon is frequently seen wearing a school uniform, which includes a dark robe with a crest on the left side, a white shirt, and a striped tie in red, yellow, and green. The uniform suggests a formal and traditional setting, likely a school environment. The robe is made of a dark, possibly woolen material, giving it a classic and somewhat somber appearance. The tie adds a pop of color and a touch of whimsy to the otherwise formal attire. In one image, Ron is seen in a casual striped t-shirt, indicating a more relaxed setting. The overall style of the clothing is practical and functional, with a hint of character-defining elements, such as the crest on the robe, which adds a sense of belonging and identity.\n\n**Distinguishing Visual Features or Vibe:**\nThe most memorable feature of Ron is undoubtedly their vibrant red hair, which stands out and is a defining characteristic. The combination of the red hair and the school uniform creates a unique visual motif that is instantly recognizable. The crest on the robe adds a sense of belonging to a specific group or house, enhancing the character's identity. The expressions on Ron' face, ranging from surprise to contemplation, convey a sense of curiosity and intelligence. The overall vibe is one of a thoughtful, slightly awkward, yet endearing character, with a hint of magic and mystery. The consistent use of the school uniform and the crest, along with the red hair, makes Ron visually unmistakable and memorable.",
+            "preference": "In terms of entertainment, Ron enjoys horror movies, sitcoms, but dislikes improv comedy, street performances. In terms of travel, Ron enjoys hiking, scuba diving, but dislikes sailing, paragliding. In terms of lifestyle, Ron enjoys home gardening, night owl lifestyle, but dislikes protein-rich diet, weightlifting. In terms of shopping, Ron enjoys mechanical keyboards, 3D printing tools, but dislikes luxury handbags, designer watches. In terms of fashion, Ron enjoys statement jewelry, minimalist rings, but dislikes denim jackets, wide-leg trousers.",
+            "topic": [],
+            "original_id": "QA_sample_6591efa3",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Miles Roberts least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_84d7f62d_1",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 68c6c8fa, Among the activities that could reasonably occur in the given image, which one is Johnathan Huerta least likely to be doing?",
+        "answer": "Watching opera shows",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Johnathan Huerta enjoys science fiction movies, animated films, but dislikes opera shows, ballet performances"
+            ],
+            "image_evidence": [
+                "MMPB_e907fbc8.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Johnathan Huerta enjoys mountain climbing, theme park visits, but dislikes historical site tours, food tours",
+                "In terms of lifestyle, Johnathan Huerta enjoys plant-based diet, home cooking, but dislikes boxing workouts, rock climbing gyms",
+                "In terms of shopping, Johnathan Huerta enjoys handmade candles, ceramic pottery, but dislikes handwoven rugs, fancy cutlery sets",
+                "In terms of fashion, Johnathan Huerta enjoys techwear, cyberpunk aesthetics, but dislikes futuristic fashion, gothic clothing."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "Attending symphony concerts",
+                "Enjoying live band performances",
+                "Watching opera shows",
+                "Enjoying food tours"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_religion_education_transportation_7b14c4be",
+                    "insert_conversation_turn": 317
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_religion_education_transportation_7b14c4be",
+                    "insert_conversation_turn": 503,
+                    "reference_name": "Fig. 68c6c8fa"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_government_animals_economy_76f7f734",
+                    "insert_conversation_turn": 228
+                },
+                {
+                    "conversation_name": "group_chat_government_animals_economy_76f7f734",
+                    "insert_conversation_turn": 726
+                },
+                {
+                    "conversation_name": "group_chat_religion_education_transportation_7b14c4be",
+                    "insert_conversation_turn": 96
+                },
+                {
+                    "conversation_name": "group_chat_government_animals_economy_76f7f734",
+                    "insert_conversation_turn": 490
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "donghailinxizi",
+            "description": "donghailinxizi is a woman with a slender build and a medium height impression. Her facial structure is characterized by a well-defined jawline and a slightly pointed chin, with a fair skin tone that appears smooth and even. Her hair is consistently styled in a shoulder-length, wavy cut, which frames her face and adds a touch of softness to her overall appearance. donghailinxizi's eyebrows are thick and well-groomed, and her eyes are expressive, often conveying a sense of focus or contemplation. Her lips are naturally full, and she frequently appears with a neutral or slightly serious expression, suggesting a thoughtful or analytical demeanor.\n\n**Outfit and Accessories:**\ndonghailinxizi's attire is professional and practical, often featuring a lab coat or a blazer, indicating her involvement in a scientific or corporate environment. The color palette of her clothing is predominantly neutral, with shades of white, gray, and navy blue, complemented by a striped top in one image. The textures of her clothing appear smooth and tailored, suggesting a blend of functionality and style. In one scene, she is seen holding a tablet, indicating her engagement with technology. Her accessories are minimal but significant, including a delicate necklace and hoop earrings, which add a touch of elegance to her professional look. The presence of a logo on her lab coat and blazer suggests affiliation with a specific organization, adding to her professional identity.\n\n**Distinguishing Visual Features or Vibe:**\ndonghailinxizi exudes a composed and intelligent aura, characterized by her focused gaze and thoughtful expressions. Her consistent hairstyle and professional attire create a cohesive visual identity, while her subtle accessories add a touch of personal style. The recurring presence of a lab coat and blazer, along with the logo, emphasizes her professional role and affiliation. The setting in a laboratory or office environment further reinforces her professional demeanor. Overall, donghailinxizi's visual presence is marked by a blend of professionalism, intelligence, and a subtle elegance, making her a memorable and distinctive figure.",
+            "preference": "In terms of entertainment, donghailinxizi enjoys science fiction movies, animated films, but dislikes opera shows, ballet performances. In terms of travel, donghailinxizi enjoys mountain climbing, theme park visits, but dislikes historical site tours, food tours. In terms of lifestyle, donghailinxizi enjoys plant-based diet, home cooking, but dislikes boxing workouts, rock climbing gyms. In terms of shopping, donghailinxizi enjoys handmade candles, ceramic pottery, but dislikes handwoven rugs, fancy cutlery sets. In terms of fashion, donghailinxizi enjoys techwear, cyberpunk aesthetics, but dislikes futuristic fashion, gothic clothing.",
+            "topic": [],
+            "original_id": "QA_sample_84d7f62d",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Johnathan Huerta least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_84d7f62d_2",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. abcbb1f4, the image, what is Johnathan Huerta most likely to be doing?",
+        "answer": "Searching for science fiction movies",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Johnathan Huerta enjoys science fiction movies, animated films, but dislikes opera shows, ballet performances"
+            ],
+            "image_evidence": [
+                "MMPB_2d99653f.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Johnathan Huerta enjoys mountain climbing, theme park visits, but dislikes historical site tours, food tours",
+                "In terms of lifestyle, Johnathan Huerta enjoys plant-based diet, home cooking, but dislikes boxing workouts, rock climbing gyms",
+                "In terms of shopping, Johnathan Huerta enjoys handmade candles, ceramic pottery, but dislikes handwoven rugs, fancy cutlery sets",
+                "In terms of fashion, Johnathan Huerta enjoys techwear, cyberpunk aesthetics, but dislikes futuristic fashion, gothic clothing."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Exploring drama series",
+                "Searching for science fiction movies",
+                "Buying ceramic pottery",
+                "Browsing for action thrillers"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_religion_education_transportation_7b14c4be",
+                    "insert_conversation_turn": 317
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_technology_video_games_religion_cbb4ea7a",
+                    "insert_conversation_turn": 443,
+                    "reference_name": "Fig. abcbb1f4"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_government_animals_economy_76f7f734",
+                    "insert_conversation_turn": 228
+                },
+                {
+                    "conversation_name": "group_chat_government_animals_economy_76f7f734",
+                    "insert_conversation_turn": 726
+                },
+                {
+                    "conversation_name": "group_chat_religion_education_transportation_7b14c4be",
+                    "insert_conversation_turn": 96
+                },
+                {
+                    "conversation_name": "group_chat_government_animals_economy_76f7f734",
+                    "insert_conversation_turn": 490
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "donghailinxizi",
+            "description": "donghailinxizi is a woman with a slender build and a medium height impression. Her facial structure is characterized by a well-defined jawline and a slightly pointed chin, with a fair skin tone that appears smooth and even. Her hair is consistently styled in a shoulder-length, wavy cut, which frames her face and adds a touch of softness to her overall appearance. donghailinxizi's eyebrows are thick and well-groomed, and her eyes are expressive, often conveying a sense of focus or contemplation. Her lips are naturally full, and she frequently appears with a neutral or slightly serious expression, suggesting a thoughtful or analytical demeanor.\n\n**Outfit and Accessories:**\ndonghailinxizi's attire is professional and practical, often featuring a lab coat or a blazer, indicating her involvement in a scientific or corporate environment. The color palette of her clothing is predominantly neutral, with shades of white, gray, and navy blue, complemented by a striped top in one image. The textures of her clothing appear smooth and tailored, suggesting a blend of functionality and style. In one scene, she is seen holding a tablet, indicating her engagement with technology. Her accessories are minimal but significant, including a delicate necklace and hoop earrings, which add a touch of elegance to her professional look. The presence of a logo on her lab coat and blazer suggests affiliation with a specific organization, adding to her professional identity.\n\n**Distinguishing Visual Features or Vibe:**\ndonghailinxizi exudes a composed and intelligent aura, characterized by her focused gaze and thoughtful expressions. Her consistent hairstyle and professional attire create a cohesive visual identity, while her subtle accessories add a touch of personal style. The recurring presence of a lab coat and blazer, along with the logo, emphasizes her professional role and affiliation. The setting in a laboratory or office environment further reinforces her professional demeanor. Overall, donghailinxizi's visual presence is marked by a blend of professionalism, intelligence, and a subtle elegance, making her a memorable and distinctive figure.",
+            "preference": "In terms of entertainment, donghailinxizi enjoys science fiction movies, animated films, but dislikes opera shows, ballet performances. In terms of travel, donghailinxizi enjoys mountain climbing, theme park visits, but dislikes historical site tours, food tours. In terms of lifestyle, donghailinxizi enjoys plant-based diet, home cooking, but dislikes boxing workouts, rock climbing gyms. In terms of shopping, donghailinxizi enjoys handmade candles, ceramic pottery, but dislikes handwoven rugs, fancy cutlery sets. In terms of fashion, donghailinxizi enjoys techwear, cyberpunk aesthetics, but dislikes futuristic fashion, gothic clothing.",
+            "topic": [],
+            "original_id": "QA_sample_84d7f62d",
+            "original_question": "the image, what is Johnathan Huerta most likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_84d7f62d_3",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 9ac75a0c, Among the activities that could reasonably occur in the given image, which one is Johnathan Huerta least likely to be doing?",
+        "answer": "Attending opera shows",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Johnathan Huerta enjoys science fiction movies, animated films, but dislikes opera shows, ballet performances"
+            ],
+            "image_evidence": [
+                "MMPB_9ab3a64b.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Johnathan Huerta enjoys mountain climbing, theme park visits, but dislikes historical site tours, food tours",
+                "In terms of lifestyle, Johnathan Huerta enjoys plant-based diet, home cooking, but dislikes boxing workouts, rock climbing gyms",
+                "In terms of shopping, Johnathan Huerta enjoys handmade candles, ceramic pottery, but dislikes handwoven rugs, fancy cutlery sets",
+                "In terms of fashion, Johnathan Huerta enjoys techwear, cyberpunk aesthetics, but dislikes futuristic fashion, gothic clothing."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Attending opera shows",
+                "Enjoying theater performances",
+                "Buying gothic clothing",
+                "Watching live stage shows"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_religion_education_transportation_7b14c4be",
+                    "insert_conversation_turn": 317
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_government_animals_economy_76f7f734",
+                    "insert_conversation_turn": 745,
+                    "reference_name": "Fig. 9ac75a0c"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_government_animals_economy_76f7f734",
+                    "insert_conversation_turn": 228
+                },
+                {
+                    "conversation_name": "group_chat_government_animals_economy_76f7f734",
+                    "insert_conversation_turn": 726
+                },
+                {
+                    "conversation_name": "group_chat_religion_education_transportation_7b14c4be",
+                    "insert_conversation_turn": 96
+                },
+                {
+                    "conversation_name": "group_chat_government_animals_economy_76f7f734",
+                    "insert_conversation_turn": 490
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "donghailinxizi",
+            "description": "donghailinxizi is a woman with a slender build and a medium height impression. Her facial structure is characterized by a well-defined jawline and a slightly pointed chin, with a fair skin tone that appears smooth and even. Her hair is consistently styled in a shoulder-length, wavy cut, which frames her face and adds a touch of softness to her overall appearance. donghailinxizi's eyebrows are thick and well-groomed, and her eyes are expressive, often conveying a sense of focus or contemplation. Her lips are naturally full, and she frequently appears with a neutral or slightly serious expression, suggesting a thoughtful or analytical demeanor.\n\n**Outfit and Accessories:**\ndonghailinxizi's attire is professional and practical, often featuring a lab coat or a blazer, indicating her involvement in a scientific or corporate environment. The color palette of her clothing is predominantly neutral, with shades of white, gray, and navy blue, complemented by a striped top in one image. The textures of her clothing appear smooth and tailored, suggesting a blend of functionality and style. In one scene, she is seen holding a tablet, indicating her engagement with technology. Her accessories are minimal but significant, including a delicate necklace and hoop earrings, which add a touch of elegance to her professional look. The presence of a logo on her lab coat and blazer suggests affiliation with a specific organization, adding to her professional identity.\n\n**Distinguishing Visual Features or Vibe:**\ndonghailinxizi exudes a composed and intelligent aura, characterized by her focused gaze and thoughtful expressions. Her consistent hairstyle and professional attire create a cohesive visual identity, while her subtle accessories add a touch of personal style. The recurring presence of a lab coat and blazer, along with the logo, emphasizes her professional role and affiliation. The setting in a laboratory or office environment further reinforces her professional demeanor. Overall, donghailinxizi's visual presence is marked by a blend of professionalism, intelligence, and a subtle elegance, making her a memorable and distinctive figure.",
+            "preference": "In terms of entertainment, donghailinxizi enjoys science fiction movies, animated films, but dislikes opera shows, ballet performances. In terms of travel, donghailinxizi enjoys mountain climbing, theme park visits, but dislikes historical site tours, food tours. In terms of lifestyle, donghailinxizi enjoys plant-based diet, home cooking, but dislikes boxing workouts, rock climbing gyms. In terms of shopping, donghailinxizi enjoys handmade candles, ceramic pottery, but dislikes handwoven rugs, fancy cutlery sets. In terms of fashion, donghailinxizi enjoys techwear, cyberpunk aesthetics, but dislikes futuristic fashion, gothic clothing.",
+            "topic": [],
+            "original_id": "QA_sample_84d7f62d",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Johnathan Huerta least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_04c5aee4_2",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. e9adf7ac, Among the activities that could reasonably occur in the given image, which one is Kadin Mcdowell least likely to be doing?",
+        "answer": "Watching a sports documentary",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Kadin Mcdowell enjoys horror movies, sitcoms, but dislikes sports documentaries, gaming tournaments",
+                "In terms of travel, Kadin Mcdowell enjoys fine dining, street food, but dislikes hiking, scuba diving"
+            ],
+            "image_evidence": [
+                "MMPB_2d99653f.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of lifestyle, Kadin Mcdowell enjoys early morning jogs, massages, but dislikes boxing workouts, rock climbing gyms",
+                "In terms of shopping, Kadin Mcdowell enjoys gaming accessories, tech gadgets, but dislikes luxury handbags, designer watches",
+                "In terms of fashion, Kadin Mcdowell enjoys handcrafted leather bags, woven hats, but dislikes winter coats, denim jeans."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "Observing a historical film",
+                "Watching a nature documentary",
+                "Going to a rock climbing gym",
+                "Watching a sports documentary"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_religion_education_transportation_7b14c4be",
+                    "insert_conversation_turn": 1051
+                },
+                {
+                    "conversation_name": "group_chat_government_animals_economy_76f7f734",
+                    "insert_conversation_turn": 159
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_religion_education_transportation_7b14c4be",
+                    "insert_conversation_turn": 144,
+                    "reference_name": "Fig. e9adf7ac"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_government_animals_economy_76f7f734",
+                    "insert_conversation_turn": 400
+                },
+                {
+                    "conversation_name": "group_chat_religion_education_transportation_7b14c4be",
+                    "insert_conversation_turn": 628
+                },
+                {
+                    "conversation_name": "group_chat_government_animals_economy_76f7f734",
+                    "insert_conversation_turn": 533
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Jack",
+            "description": "Jack is a tall, slender individual with a well-defined jawline and a symmetrical facial structure. Their skin tone is fair, and they have striking blue eyes that are a consistent feature across the images. The individual's hair is typically styled in a slicked-back manner, with a few strands often falling to the side, adding a touch of casual elegance. The eyebrows are well-groomed and slightly thick, framing the eyes effectively. Jack often appears with a neutral or contemplative expression, sometimes resting their chin on their hand, which adds a thoughtful or introspective vibe to their demeanor.\n\n**Outfit and Accessories:**\nJack is frequently seen in formal or semi-formal attire, with a consistent color palette of dark tones, such as black and brown, complemented by white accents. The outfits range from a classic black tuxedo with a white bow tie to a brown shirt with suspenders, and a dark jacket over a white shirt. The clothing is well-fitted, suggesting a tailored look that enhances their slender build. The textures of the fabrics vary, from the smoothness of a tuxedo to the more casual feel of a shirt and jacket. The outfits convey a sense of sophistication and attention to detail, with the choice of clothing often aligning with the setting, whether formal or more relaxed.\n\n**Distinguishing Visual Features or Vibe:**\nThe most memorable feature of Jack is their striking blue eyes, which are a focal point in each image. The individual's slicked-back hair and neutral expressions contribute to a polished and composed appearance. The consistent use of dark colors in their attire, combined with the occasional white accents, creates a classic and timeless look. The thoughtful poses, such as resting their chin on their hand, add a layer of depth and introspection to their persona. The overall vibe of Jack is one of elegance and sophistication, with a hint of mystery and contemplation, making them visually unmistakable and memorable.",
+            "preference": "In terms of entertainment, Jack enjoys horror movies, sitcoms, but dislikes sports documentaries, gaming tournaments. In terms of travel, Jack enjoys fine dining, street food, but dislikes hiking, scuba diving. In terms of lifestyle, Jack enjoys early morning jogs, massages, but dislikes boxing workouts, rock climbing gyms. In terms of shopping, Jack enjoys gaming accessories, tech gadgets, but dislikes luxury handbags, designer watches. In terms of fashion, Jack enjoys handcrafted leather bags, woven hats, but dislikes winter coats, denim jeans.",
+            "topic": [],
+            "original_id": "QA_sample_04c5aee4",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Kadin Mcdowell least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_04c5aee4_3",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. b677a063, Among the activities that could reasonably occur in the given image, which one is Kadin Mcdowell least likely to be doing?",
+        "answer": "Watching a soccer documentary",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Kadin Mcdowell enjoys horror movies, sitcoms, but dislikes sports documentaries, gaming tournaments",
+                "In terms of travel, Kadin Mcdowell enjoys fine dining, street food, but dislikes hiking, scuba diving"
+            ],
+            "image_evidence": [
+                "MMPB_6f052249.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of lifestyle, Kadin Mcdowell enjoys early morning jogs, massages, but dislikes boxing workouts, rock climbing gyms",
+                "In terms of shopping, Kadin Mcdowell enjoys gaming accessories, tech gadgets, but dislikes luxury handbags, designer watches",
+                "In terms of fashion, Kadin Mcdowell enjoys handcrafted leather bags, woven hats, but dislikes winter coats, denim jeans."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Watching a soccer documentary",
+                "Watching a sci-fi movie",
+                "Viewing a musical",
+                "Buying designer watches"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_religion_education_transportation_7b14c4be",
+                    "insert_conversation_turn": 1051
+                },
+                {
+                    "conversation_name": "group_chat_government_animals_economy_76f7f734",
+                    "insert_conversation_turn": 159
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_technology_video_games_religion_cbb4ea7a",
+                    "insert_conversation_turn": 300,
+                    "reference_name": "Fig. b677a063"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_government_animals_economy_76f7f734",
+                    "insert_conversation_turn": 400
+                },
+                {
+                    "conversation_name": "group_chat_religion_education_transportation_7b14c4be",
+                    "insert_conversation_turn": 628
+                },
+                {
+                    "conversation_name": "group_chat_government_animals_economy_76f7f734",
+                    "insert_conversation_turn": 533
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Jack",
+            "description": "Jack is a tall, slender individual with a well-defined jawline and a symmetrical facial structure. Their skin tone is fair, and they have striking blue eyes that are a consistent feature across the images. The individual's hair is typically styled in a slicked-back manner, with a few strands often falling to the side, adding a touch of casual elegance. The eyebrows are well-groomed and slightly thick, framing the eyes effectively. Jack often appears with a neutral or contemplative expression, sometimes resting their chin on their hand, which adds a thoughtful or introspective vibe to their demeanor.\n\n**Outfit and Accessories:**\nJack is frequently seen in formal or semi-formal attire, with a consistent color palette of dark tones, such as black and brown, complemented by white accents. The outfits range from a classic black tuxedo with a white bow tie to a brown shirt with suspenders, and a dark jacket over a white shirt. The clothing is well-fitted, suggesting a tailored look that enhances their slender build. The textures of the fabrics vary, from the smoothness of a tuxedo to the more casual feel of a shirt and jacket. The outfits convey a sense of sophistication and attention to detail, with the choice of clothing often aligning with the setting, whether formal or more relaxed.\n\n**Distinguishing Visual Features or Vibe:**\nThe most memorable feature of Jack is their striking blue eyes, which are a focal point in each image. The individual's slicked-back hair and neutral expressions contribute to a polished and composed appearance. The consistent use of dark colors in their attire, combined with the occasional white accents, creates a classic and timeless look. The thoughtful poses, such as resting their chin on their hand, add a layer of depth and introspection to their persona. The overall vibe of Jack is one of elegance and sophistication, with a hint of mystery and contemplation, making them visually unmistakable and memorable.",
+            "preference": "In terms of entertainment, Jack enjoys horror movies, sitcoms, but dislikes sports documentaries, gaming tournaments. In terms of travel, Jack enjoys fine dining, street food, but dislikes hiking, scuba diving. In terms of lifestyle, Jack enjoys early morning jogs, massages, but dislikes boxing workouts, rock climbing gyms. In terms of shopping, Jack enjoys gaming accessories, tech gadgets, but dislikes luxury handbags, designer watches. In terms of fashion, Jack enjoys handcrafted leather bags, woven hats, but dislikes winter coats, denim jeans.",
+            "topic": [],
+            "original_id": "QA_sample_04c5aee4",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Kadin Mcdowell least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_f5c4e3b4_1",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. c1811870, the image, what is Guillermo Lynn most likely to be doing?",
+        "answer": "Watching sitcoms",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Guillermo Lynn enjoys horror movies, sitcoms, but dislikes improv comedy, street performances"
+            ],
+            "image_evidence": [
+                "MMPB_2d99653f.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Guillermo Lynn enjoys polar expeditions, desert safaris, but dislikes fine dining, street food",
+                "In terms of lifestyle, Guillermo Lynn enjoys essential oils, aromatherapy, but dislikes boxing workouts, rock climbing gyms",
+                "In terms of shopping, Guillermo Lynn enjoys mechanical keyboards, 3D printing tools, but dislikes gaming accessories, tech gadgets",
+                "In terms of fashion, Guillermo Lynn enjoys hand-knitted sweaters, silk scarves, but dislikes handmade accessories, bold colors."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Getting aromatherapy",
+                "Watching sitcoms",
+                "Watching action movies",
+                "Streaming comedy shows"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_technology_video_games_religion_cbb4ea7a",
+                    "insert_conversation_turn": 251
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_religion_education_transportation_7b14c4be",
+                    "insert_conversation_turn": 144,
+                    "reference_name": "Fig. c1811870"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_technology_video_games_religion_cbb4ea7a",
+                    "insert_conversation_turn": 159
+                },
+                {
+                    "conversation_name": "group_chat_government_animals_economy_76f7f734",
+                    "insert_conversation_turn": 86
+                },
+                {
+                    "conversation_name": "group_chat_government_animals_economy_76f7f734",
+                    "insert_conversation_turn": 645
+                },
+                {
+                    "conversation_name": "group_chat_religion_education_transportation_7b14c4be",
+                    "insert_conversation_turn": 68
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Rose",
+            "description": "Rose is depicted as a woman with a slender build and an average height impression. Her facial structure is characterized by a prominent jawline and a slightly pointed chin, with a fair skin tone that appears smooth and well-maintained. Her hair is a striking auburn, styled in loose curls that frame her face, adding a touch of elegance and softness to her appearance. Across the images, Rose maintains a composed and serious expression, with her eyes often directed forward, conveying a sense of determination and introspection. Her eyebrows are well-defined, and her lips are full, contributing to her overall expressive and captivating presence.\n\n**Outfit and Accessories:**\nRose is consistently portrayed in a range of elegant and sophisticated outfits that reflect a blend of classic and timeless styles. In one image, she wears a black dress adorned with sequins, complemented by a statement necklace, exuding a sense of glamour and refinement. In another scene, she is seen in a blue velvet jacket over a white lace dress, adding a touch of vintage charm. The color palette of her outfits is rich and varied, featuring deep blacks, luxurious blues, and warm browns, all of which enhance her sophisticated and poised demeanor. Her clothing is often formal, suggesting a setting of elegance and importance. Accessories such as a necklace and earrings are visible, adding to her overall polished and refined look.\n\n**Distinguishing Visual Features or Vibe:**\nThe most memorable and defining features of Rose are her striking auburn hair and her ability to convey a sense of mystery and depth through her expressions and poses. Her auburn hair, styled in loose curls, is a signature element that adds a touch of warmth and allure to her appearance. The consistent use of elegant and sophisticated outfits, along with her composed and serious expression, creates an aura of grace and poise. The recurring theme of formal attire and the presence of accessories like a statement necklace and earrings further emphasize her refined and cultured persona. Overall, Rose exudes a sense of elegance, mystery, and depth, making her visually unmistakable and captivating.",
+            "preference": "In terms of entertainment, Rose enjoys horror movies, sitcoms, but dislikes improv comedy, street performances. In terms of travel, Rose enjoys polar expeditions, desert safaris, but dislikes fine dining, street food. In terms of lifestyle, Rose enjoys essential oils, aromatherapy, but dislikes boxing workouts, rock climbing gyms. In terms of shopping, Rose enjoys mechanical keyboards, 3D printing tools, but dislikes gaming accessories, tech gadgets. In terms of fashion, Rose enjoys hand-knitted sweaters, silk scarves, but dislikes handmade accessories, bold colors.",
+            "topic": [],
+            "original_id": "QA_sample_f5c4e3b4",
+            "original_question": "the image, what is Guillermo Lynn most likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_f5c4e3b4_2",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 8b1918e8, Among the activities that could reasonably occur in the given image, which one is Guillermo Lynn least likely to be doing?",
+        "answer": "Attending an improv comedy show",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Guillermo Lynn enjoys horror movies, sitcoms, but dislikes improv comedy, street performances"
+            ],
+            "image_evidence": [
+                "MMPB_9ab3a64b.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Guillermo Lynn enjoys polar expeditions, desert safaris, but dislikes fine dining, street food",
+                "In terms of lifestyle, Guillermo Lynn enjoys essential oils, aromatherapy, but dislikes boxing workouts, rock climbing gyms",
+                "In terms of shopping, Guillermo Lynn enjoys mechanical keyboards, 3D printing tools, but dislikes gaming accessories, tech gadgets",
+                "In terms of fashion, Guillermo Lynn enjoys hand-knitted sweaters, silk scarves, but dislikes handmade accessories, bold colors."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "Enjoying a musical concert",
+                "Boxing",
+                "Attending an improv comedy show",
+                "Watching a live theater performance"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_technology_video_games_religion_cbb4ea7a",
+                    "insert_conversation_turn": 251
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_religion_education_transportation_7b14c4be",
+                    "insert_conversation_turn": 435,
+                    "reference_name": "Fig. 8b1918e8"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_technology_video_games_religion_cbb4ea7a",
+                    "insert_conversation_turn": 159
+                },
+                {
+                    "conversation_name": "group_chat_government_animals_economy_76f7f734",
+                    "insert_conversation_turn": 86
+                },
+                {
+                    "conversation_name": "group_chat_government_animals_economy_76f7f734",
+                    "insert_conversation_turn": 645
+                },
+                {
+                    "conversation_name": "group_chat_religion_education_transportation_7b14c4be",
+                    "insert_conversation_turn": 68
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Rose",
+            "description": "Rose is depicted as a woman with a slender build and an average height impression. Her facial structure is characterized by a prominent jawline and a slightly pointed chin, with a fair skin tone that appears smooth and well-maintained. Her hair is a striking auburn, styled in loose curls that frame her face, adding a touch of elegance and softness to her appearance. Across the images, Rose maintains a composed and serious expression, with her eyes often directed forward, conveying a sense of determination and introspection. Her eyebrows are well-defined, and her lips are full, contributing to her overall expressive and captivating presence.\n\n**Outfit and Accessories:**\nRose is consistently portrayed in a range of elegant and sophisticated outfits that reflect a blend of classic and timeless styles. In one image, she wears a black dress adorned with sequins, complemented by a statement necklace, exuding a sense of glamour and refinement. In another scene, she is seen in a blue velvet jacket over a white lace dress, adding a touch of vintage charm. The color palette of her outfits is rich and varied, featuring deep blacks, luxurious blues, and warm browns, all of which enhance her sophisticated and poised demeanor. Her clothing is often formal, suggesting a setting of elegance and importance. Accessories such as a necklace and earrings are visible, adding to her overall polished and refined look.\n\n**Distinguishing Visual Features or Vibe:**\nThe most memorable and defining features of Rose are her striking auburn hair and her ability to convey a sense of mystery and depth through her expressions and poses. Her auburn hair, styled in loose curls, is a signature element that adds a touch of warmth and allure to her appearance. The consistent use of elegant and sophisticated outfits, along with her composed and serious expression, creates an aura of grace and poise. The recurring theme of formal attire and the presence of accessories like a statement necklace and earrings further emphasize her refined and cultured persona. Overall, Rose exudes a sense of elegance, mystery, and depth, making her visually unmistakable and captivating.",
+            "preference": "In terms of entertainment, Rose enjoys horror movies, sitcoms, but dislikes improv comedy, street performances. In terms of travel, Rose enjoys polar expeditions, desert safaris, but dislikes fine dining, street food. In terms of lifestyle, Rose enjoys essential oils, aromatherapy, but dislikes boxing workouts, rock climbing gyms. In terms of shopping, Rose enjoys mechanical keyboards, 3D printing tools, but dislikes gaming accessories, tech gadgets. In terms of fashion, Rose enjoys hand-knitted sweaters, silk scarves, but dislikes handmade accessories, bold colors.",
+            "topic": [],
+            "original_id": "QA_sample_f5c4e3b4",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Guillermo Lynn least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_f5c4e3b4_3",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. e61a90bd, Among the activities that could reasonably occur in the given image, which one is Guillermo Lynn least likely to be doing?",
+        "answer": "Watching an improv comedy show",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Guillermo Lynn enjoys horror movies, sitcoms, but dislikes improv comedy, street performances"
+            ],
+            "image_evidence": [
+                "MMPB_799e1f96.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Guillermo Lynn enjoys polar expeditions, desert safaris, but dislikes fine dining, street food",
+                "In terms of lifestyle, Guillermo Lynn enjoys essential oils, aromatherapy, but dislikes boxing workouts, rock climbing gyms",
+                "In terms of shopping, Guillermo Lynn enjoys mechanical keyboards, 3D printing tools, but dislikes gaming accessories, tech gadgets",
+                "In terms of fashion, Guillermo Lynn enjoys hand-knitted sweaters, silk scarves, but dislikes handmade accessories, bold colors."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "Watching action movies",
+                "Observing a live theater performance",
+                "Looking for tech gadgets",
+                "Watching an improv comedy show"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_technology_video_games_religion_cbb4ea7a",
+                    "insert_conversation_turn": 251
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_government_animals_economy_76f7f734",
+                    "insert_conversation_turn": 265,
+                    "reference_name": "Fig. e61a90bd"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_technology_video_games_religion_cbb4ea7a",
+                    "insert_conversation_turn": 159
+                },
+                {
+                    "conversation_name": "group_chat_government_animals_economy_76f7f734",
+                    "insert_conversation_turn": 86
+                },
+                {
+                    "conversation_name": "group_chat_government_animals_economy_76f7f734",
+                    "insert_conversation_turn": 645
+                },
+                {
+                    "conversation_name": "group_chat_religion_education_transportation_7b14c4be",
+                    "insert_conversation_turn": 68
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Rose",
+            "description": "Rose is depicted as a woman with a slender build and an average height impression. Her facial structure is characterized by a prominent jawline and a slightly pointed chin, with a fair skin tone that appears smooth and well-maintained. Her hair is a striking auburn, styled in loose curls that frame her face, adding a touch of elegance and softness to her appearance. Across the images, Rose maintains a composed and serious expression, with her eyes often directed forward, conveying a sense of determination and introspection. Her eyebrows are well-defined, and her lips are full, contributing to her overall expressive and captivating presence.\n\n**Outfit and Accessories:**\nRose is consistently portrayed in a range of elegant and sophisticated outfits that reflect a blend of classic and timeless styles. In one image, she wears a black dress adorned with sequins, complemented by a statement necklace, exuding a sense of glamour and refinement. In another scene, she is seen in a blue velvet jacket over a white lace dress, adding a touch of vintage charm. The color palette of her outfits is rich and varied, featuring deep blacks, luxurious blues, and warm browns, all of which enhance her sophisticated and poised demeanor. Her clothing is often formal, suggesting a setting of elegance and importance. Accessories such as a necklace and earrings are visible, adding to her overall polished and refined look.\n\n**Distinguishing Visual Features or Vibe:**\nThe most memorable and defining features of Rose are her striking auburn hair and her ability to convey a sense of mystery and depth through her expressions and poses. Her auburn hair, styled in loose curls, is a signature element that adds a touch of warmth and allure to her appearance. The consistent use of elegant and sophisticated outfits, along with her composed and serious expression, creates an aura of grace and poise. The recurring theme of formal attire and the presence of accessories like a statement necklace and earrings further emphasize her refined and cultured persona. Overall, Rose exudes a sense of elegance, mystery, and depth, making her visually unmistakable and captivating.",
+            "preference": "In terms of entertainment, Rose enjoys horror movies, sitcoms, but dislikes improv comedy, street performances. In terms of travel, Rose enjoys polar expeditions, desert safaris, but dislikes fine dining, street food. In terms of lifestyle, Rose enjoys essential oils, aromatherapy, but dislikes boxing workouts, rock climbing gyms. In terms of shopping, Rose enjoys mechanical keyboards, 3D printing tools, but dislikes gaming accessories, tech gadgets. In terms of fashion, Rose enjoys hand-knitted sweaters, silk scarves, but dislikes handmade accessories, bold colors.",
+            "topic": [],
+            "original_id": "QA_sample_f5c4e3b4",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Guillermo Lynn least likely to be doing?"
+        }
+    }
+]

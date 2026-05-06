@@ -1,0 +1,2386 @@
+[
+    {
+        "id": "QA_sample_81806ff7",
+        "domain": "MLLMKC",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. c02981cf, When was the brand associated with the logo established?",
+        "answer": "1961",
+        "evidence": {
+            "text_evidence": [
+                "Pampers was created in 1961. The creator of Pampers is Victor Mills. Pampers is the brand of diapers."
+            ],
+            "image_evidence": [
+                "MLLMKC_923fbd84.jpg"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Pampers was created in 1958. The creator of Pampers is Victor Mills. Pampers is the brand of diapers."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "1961",
+                "1958",
+                "1975",
+                "1963"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_nature_education_health_802f9036",
+                    "insert_conversation_turn": 89
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_films_literature_food_20adc6fc",
+                    "insert_conversation_turn": 766,
+                    "reference_name": "Fig. c02981cf"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_religion_transportation_economy_93f75e7b",
+                    "insert_conversation_turn": 4
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "instance": "Pampers",
+            "category": "logo",
+            "error_type": "time_error",
+            "topic": [
+                "business",
+                "health",
+                "lifestyle"
+            ],
+            "original_question": "When was the brand associated with the logo established?"
+        }
+    },
+    {
+        "id": "66c03e2e",
+        "domain": "MMDocRAG",
+        "category": "Single_Hop_QA",
+        "question": "Based on Doc. f1787ded, Doc. ae13a0b9, Doc. c2261f16, Doc. 30c8fdc9, Doc. 8c673104, What are the various facilities of the Indian Space Programme located in Bengaluru?",
+        "answer": "ISRO Headquarters, ISRO Satellite Centre, Liquid Propulsion Systems Centre, Space Commission, Department of Space, SCNP Office, NNRMS Secretariat, ADCOS Secretariat, Civil Engineering Programme Office, Antrix Corporation, Laboratory for Electro-Optic Systems, ISRO Telemetry, Tracking and Command Network, Southern RRSC",
+        "evidence": {
+            "text_evidence": [
+                "DOS Secretariat and ISRO Headquarters are located at Antariksh Bhavan in Bengaluru. Programme  offices at ISRO Headquarters coordinate the programmes like satellite communication and navigation,  earth observation, launch vehicle, space science, disaster management support, sponsored research  scheme, international cooperation, system reliability and quality, safety, publications and public relations,  budget and economic analysis and human resources development. The major establishments of DOS  and their area of activities are given in the following paragraphs:  "
+            ],
+            "image_evidence": [],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": [
+                [
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "ISRO Propulsion Complex (IPRC), Ma he ndra giri is equipped with the state-of-the-art-facilities necessary  for realising the cutting edge propulsion technology products for the Indian space research programme.  "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Space Commission formulates the policies and oversees the implementation of the Indian space  programme to promote the development and application of space science and technology for the socio- economic benefit of the country. DOS implements these programmes through, mainly, ISRO, Physical  Research Laboratory (PRL), National Atmospheric Research Laboratory (NARL), North Eastern-Space  Applications Centre (NE-SAC) and Semi-Conductor Laboratory (SCL). Antrix Corporation, established in  1992 as a government owned company, markets the space products and services.  "
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_b4eda863.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_d3d872b6.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Vikram Sarabhai Space Centre (VSSC) at Thiruvananthapuram is the lead centre of ISRO for the design  and development of launch vehicle technology. The Centre pursues active research and development  and has developed core competence in various disciplines including aeronautics, avionics, materials,  mechanisms, vehicle integration, chemicals, propulsion, space ordnance, structures, space physics and  systems reliability. The Centre undertakes crucial responsibilities of design, manufacturing, analysis,  development and testing related to the realisation of subsystems for different missions. These are  sustained by activities towards programme planning & evaluation, human resources development,  technology transfer, industry coordination and safety. Planning, execution and maintenance of all civil  works related to the Centre is also carries out.  The Centre depends on administrative and auxiliary  services for support. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "ISRO Satellite Centre (ISAC), Bengaluru, is the  lead centre of ISRO for design, development,  fabrication  and  testing  of  all  Indian  made  satellites.  As  a  sequel  to  its  mandate  of  spacecraft  realisation,  the Centre is engaged in the development of  cutting-edge technologies of relevance to its  satellite building activities and setting up of  infrastructure for design, development, fabrication  and testing of spacecraft. Over the past four and  a half decades, ISAC has developed intellectual  capital in a wide spectrum of knowledge domains  of spacecraft technology.  "
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Towards capacity building in human resources and to meet the growing demands of the Indian Space  Programme, the Indian Institute of Space Science and Technology (IIST), a deemed University, was  established at Thiruvananthapuram in 2007. Towards the fulfillment of its primary objective of providing  quality manpower to ISRO, 99 students of 2011 batch of B. Tech graduates were placed as Scientists/  Engineers at various centres of ISRO in 2015. "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_1ad92a14.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_7913a266.png"
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "During the year, ISRO organised media visits to SDSC SHAR, Sriharikota, ISRO Satellite Centre (ISAC) and  Mission Operations Complex (MOX), ISTRAC Bengaluru for the live coverage of PSLV and GSLV launches,  ‘GNSS User Meet 2015’ and Mars Orbiter Mission coverage respectively. Besides, ISRO also organised many  exhibitions at national and international conferences, important public congregations like cultural festivals, trade  fairs and events and also at academic institutions. Exhibitions and other outreach events were also organised  in association with Non-Governmental Organisations in various places for keeping the public abreast of the  Indian space programme. A mobile Tableau on Mars orbiter mission was conspicuously presented during  the 'International Fleet Review-2016 (IFR-16)' at Vi sha khapa tnam on February 07, 2016. ‘SAKAAR’, an  Augmented Reality application for Android devices that helps the users, especially students, to better  visualise ISRO launch vehicle, satellite and applications programmes, was launched in 2015. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "NRSC at Hyderabad is responsible for remote sensing satellite data acquisition and processing, data  dissemination, aerial remote sensing and decision support for disaster management. NRSC has a data  reception station at Shadnagar near Hyderabad for acquiring data from Indian remote sensing satellites  as well as others. The Centre is also engaged in executing remote sensing application projects in  collaboration with the users. The Aerial Services & Digital Mapping (ASDM) Area provides end-to-end  Aerial Remote Sensing services and value-added solutions for various large scale applications like aerial  photography and digital mapping, infrastructure planning, scanner surveys, aero magnetic surveys, large  scale base map, topographic and cadastral level mapping, etc. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Satish Dhawan Space Centre (SDSC) SHAR, Sriharikota,  the Spaceport of India, is responsible for  providing Launch Base Infrastructure for Indian Space Programme. This Centre has the facilities for solid  propellant processing, static testing of solid motors, launch vehicle integration and launch operations,  range operations comprising telemetry, tracking and command network and mission control centre.   "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_2a8e27a5.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_b0a94761.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "NE-SAC, located at Shillong, is a joint initiative of DOS and North Eastern Council (NEC) to provide  developmental support to the North Eastern Region (NER) using space science and technology. The  centre has the mandate to develop high technology infrastructure support to enable NE states to adopt  space technology inputs for their development. The centre has completed a number of applications projects  sponsored by the user agencies in the region and taken up research and development projects under  Earth Observation Applications Mission, ISRO Geo-sphere Biosphere Programme, Satellite Communications,  Disaster Management Support and Space Science Programmes.  "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "ISRO Telemetry, Tracking and Command Network (ISTRAC) bengaluru is entrusted with the major  responsibility to provide tracking support for all the satellite and launch vehicle missions of ISRO. The  major objectives of the centre are: estimation of the preliminary orbits of satellites injected into space,  carrying out mission operations for all operational remote sensing and scientific satellites in normal  phase, operation and maintenance of the ground segment for Indian Regional Navigation Satellite  System and development of radars and associated systems for meteorological applications and launch  vehicle tracking. In addition, ISTRAC has also been mandated to provide space operations support  for Deep Space Missions of ISRO and to provide active support for Search & Rescue, Disaster  Management and a host Space Communication Hub services for societal applications.  "
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": ""
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_9b6ef032.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_860df16c.png"
+                        }
+                    }
+                ]
+            ]
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "ISRO Headquarters, ISRO Satellite Centre, Liquid Propulsion Systems Centre, Space Commission, Department of Space, SCNP Office, NNRMS Secretariat, ADCOS Secretariat, Civil Engineering Programme Office, Antrix Corporation, Laboratory for Electro-Optic Systems, ISRO Telemetry, Tracking and Command Network, Southern RRSC",
+                "ISRO Propulsion Complex, Vikram Sarabhai Space Centre, Indian Institute of Space Science and Technology, ISRO Inertial Systems Unit, Liquid Propulsion Systems Centre",
+                "Physical Research Laboratory, Semi-Conductor Laboratory, North Eastern-Space Applications Centre, Ammonium Perchlorate Experimental Plant, Central RRSC",
+                "Satish Dhawan Space Centre SHAR, National Remote Sensing Centre, Master Control Facility, Development and Educational Communication Unit, Space Applications Centre"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_religion_transportation_economy_93f75e7b",
+                    "insert_conversation_turn": 554
+                }
+            ],
+            "image_evidence_assignment": [],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_nature_education_health_802f9036",
+                    "insert_conversation_turn": 74,
+                    "reference_name": "Doc. f1787ded"
+                },
+                {
+                    "conversation_name": "group_chat_religion_transportation_economy_93f75e7b",
+                    "insert_conversation_turn": 422,
+                    "reference_name": "Doc. ae13a0b9"
+                },
+                {
+                    "conversation_name": "group_chat_films_literature_food_20adc6fc",
+                    "insert_conversation_turn": 503,
+                    "reference_name": "Doc. c2261f16"
+                },
+                {
+                    "conversation_name": "group_chat_nature_education_health_802f9036",
+                    "insert_conversation_turn": 324,
+                    "reference_name": "Doc. 30c8fdc9"
+                },
+                {
+                    "conversation_name": "group_chat_films_literature_food_20adc6fc",
+                    "insert_conversation_turn": 235,
+                    "reference_name": "Doc. 8c673104"
+                }
+            ]
+        },
+        "meta_data": {
+            "category": "Research report / Introduction",
+            "doc_name": "fdac8d1e9ef56519371df7e6532df27d",
+            "gold_quotes": [
+                "image4",
+                "text11",
+                "text5",
+                "text2",
+                "text3"
+            ],
+            "topic": [
+                "science",
+                " government",
+                " technology",
+                " education"
+            ],
+            "original_question": "What are the various facilities of the Indian Space Programme located in Bengaluru?"
+        }
+    },
+    {
+        "id": "d9167097",
+        "domain": "MMDocRAG",
+        "category": "Single_Hop_QA",
+        "question": "Based on Doc. 97a42a60, Doc. 08e6f25f, Doc. 4d0d8013, What is the button to click for up-to-the-minute portfolio balances?",
+        "answer": "Live Balances",
+        "evidence": {
+            "text_evidence": [],
+            "image_evidence": [],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": [
+                [
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "On the  risk analytics  screen, you can  also utilize our unique drilldown feature  to create views across multiple factors.  Each filter or selection on a drilldown   is applied to all subsets below, allowing  you to adjust your view to understand  specific country, issuer, maturity  or rating exposures. All holdings  information is exportable at a CUSIP  level, providing further granularity and  transparency on what you actually hold. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "The  fund performanc e tool  allows you to compare funds  across commonly-used  parameters including yield,  performance, fund ratings  and risk characteristics.  Information is displayed  across all funds available  through the platform,  whether entitled to your  account or not. Within the  fund performance tool,  you also have the ability to  compare funds side-by-side  through plotting funds in a   line graph.   "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Bulk trading  allows you to export your  set of entitlements with the click of  a button and trade across all of your  accounts by importing your trades.  Entitlement validation, pre-trade  checks and built-in reconciliation  allow for convenient and safe trading. "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_ff913be9.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_9970bc4e.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "MORGAN MONEY  puts  user maintenance  back where it needs to be — into the hands of our clients. To facilitate  user entitlement management and save time, the self-service administration tool allows client-side resources to  manage fund permissions at the user level. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Short-cut trading  capabilities allow you to trade  across as many companies, accounts and funds  as you’d like ­ — saving you valuable time. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "MORGAN MONEY ’s enhanced design provides you with a simple, aggregated view of your entire company’s  holdings on one screen. Pre-trade compliance checks allow you to avoid investing more than your investment  policy concentration limits through soft-blocks. So, before you even place a trade, you can see expected fund  concentrations. "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_326810af.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_777d0cff.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "The  portfolio overview  screen  offers a firmwide  view of money market  fund and separately  managed account  balances, giving you a  high level overview of risk  exposures, transaction  history and upcoming  dividend dates — all on  one easy-to-understand  dashboard.  "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "The  trade screen  allows  you to easily search for  an account and execute  trades for any entitled  position across your  entire portfolio — all  from one screen.  "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "The patent-pending  shopping cart  allows  you to create and save trades for future  execution. Your cart will retain your trades  as long as you are logged in to the platform  and can be edited at any time. With a built-in  aggregation tool, you can see what is in your  queue before you execute trades. "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_2154f575.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_219582f6.png"
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "MORGAN MONEY  simplifies trading across multiple fund providers and currencies from almost anywhere   in the tool. The platform also has the ability to combine wires and trade tickets across multiple accounts. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "The  portfolio overview  screen  allows you to  trade directly from  this screen. Real-time  portfolio balances  can be viewed on the  Portfolio Overview page  by clicking the  button, providing up-to- the-minute information.  "
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "J.P. Morgan Asset Management is pleased to offer our institutional investing platform,  MORGAN MONEY , a  multi-currency, open architecture trading and risk management system. The platform was designed to deliver a  seamless customer experience, centered on operational efficiency, end-to-end system integration, and effective  controls to allow customers to invest when, where and how they want — securely. "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_d9339882.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_c7ec7849.png"
+                        }
+                    }
+                ]
+            ]
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Export data mappings",
+                "Live Balances",
+                "Print",
+                "Toggle"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [],
+            "image_evidence_assignment": [],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_nature_education_health_802f9036",
+                    "insert_conversation_turn": 493,
+                    "reference_name": "Doc. 97a42a60"
+                },
+                {
+                    "conversation_name": "group_chat_nature_education_health_802f9036",
+                    "insert_conversation_turn": 607,
+                    "reference_name": "Doc. 08e6f25f"
+                },
+                {
+                    "conversation_name": "group_chat_religion_transportation_economy_93f75e7b",
+                    "insert_conversation_turn": 277,
+                    "reference_name": "Doc. 4d0d8013"
+                }
+            ]
+        },
+        "meta_data": {
+            "category": "Brochure",
+            "doc_name": "BRO-GL-MMONEY",
+            "gold_quotes": [
+                "image6",
+                "text11"
+            ],
+            "topic": [
+                "business",
+                " technology",
+                " economy"
+            ],
+            "original_question": "What is the button to click for up-to-the-minute portfolio balances?"
+        }
+    },
+    {
+        "id": "QA_sample_bebbddaa",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 325b56fc, the text, what is the percentage of \"OPEX compared to total revenue,\" and has the company \"met its EBIT target at year-end\" according to the previous definition?",
+        "answer": "OPEX is 58% of total revenue, which exceeds the 55% threshold. The EBIT target was met as the actual EBIT equals the target EBIT at year-end.",
+        "evidence": {
+            "text_evidence": [
+                "A company aims to maximize its net profit margin while keeping the OPEX (Operating Expenses) under 55% of its total revenue. The key components of OPEX are Sales, Marketing, and General & Administrative costs. Additionally, a company is considered to have met its EBIT (Earnings Before Interest and Tax) target if the actual EBIT matches or exceeds the EBIT target at year-end."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_8f6ed0a5.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "OPEX is 50% of total revenue the EBIT target was not met at year-end",
+                "OPEX is 55% of total revenue the EBIT target was not met at year-end",
+                "OPEX is 58% of total revenue, which exceeds the 55% threshold. The EBIT target was met as the actual EBIT equals the target EBIT at year-end.",
+                "OPEX is 60% of total revenue the EBIT target was met at year-end"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_nature_education_health_802f9036",
+                    "insert_conversation_turn": 352
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_films_literature_food_20adc6fc",
+                    "insert_conversation_turn": 1034,
+                    "reference_name": "Fig. 325b56fc"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "business",
+                "economy"
+            ],
+            "original_question": "the text, what is the percentage of \"OPEX compared to total revenue,\" and has the company \"met its EBIT target at year-end\" according to the previous definition?"
+        }
+    },
+    {
+        "id": "e4c93f54",
+        "domain": "MMDocRAG",
+        "category": "Single_Hop_QA",
+        "question": "Based on Doc. 58c9c6bb, Doc. 2a4cc14a, Doc. 6ece47ea, Doc. 4fe20a21, What are the roles and significance of different centers under the Indian Space Programme, and how does their budget allocation reflect their importance?",
+        "answer": "The centers focus on different aspects of space science and technology, with higher budget allocation for space technology and applications, showing their importance.",
+        "evidence": {
+            "text_evidence": [
+                "Space Commission formulates the policies and oversees the implementation of the Indian space  programme to promote the development and application of space science and technology for the socio- economic benefit of the country. DOS implements these programmes through, mainly, ISRO, Physical  Research Laboratory (PRL), National Atmospheric Research Laboratory (NARL), North Eastern-Space  Applications Centre (NE-SAC) and Semi-Conductor Laboratory (SCL). Antrix Corporation, established in  1992 as a government owned company, markets the space products and services.  ",
+                "NARL carries out its research activities under  seven major groups, namely, Radar Application  and Development Group, I ono sph eric and  Space Research Group, Atmospheric Structure  and Dynamics Group, Cloud and Convective  Systems Group, Aerosols, Radiation and Trace  Gases Group, Weather and Climate Research  Group and Computers and Data Management  Group. Apart from these groups, there are  also specific projects such as the LIDAR  project and Advanced Space-borne Instrument  Development project.  "
+            ],
+            "image_evidence": [],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": [
+                [
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "NARL  at  Gadanki  near  Tirupati,  an  autonomous society supported by DOS, is a  centre for atmospheric research with the vision  “Developing capability to predict the behaviour  of the earth’s atmosphere through observations  and modeling”.  Towards realising this vision,  NARL gives equal emphasis to technology  development, observations, data archival,  dissemination, assimilation and modeling.  "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Up gradation  of  Wafer  Fabrication  Lab  has  been  completed and   $8\"$   CMOS Wafer Fabrication  Line is geared-up for production activities.  Three production lots have been processed  with ASICs/IPs/Test Chips designed in-house.  In these lots, 28 designs have been fabricated  and tested successfully. These chips include  some complex ASICs, one of them being  Vikram Processor for Launch Vehicles. SCL  "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_aef9a071.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_e8fdb10d.png"
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Antrix Corporation Limited, Bengaluru is a wholly owned Government of India Company under the  administrative control of the Department of Space. Antrix Corporation Limited was incorporated in  September 1992 as a private limited company owned by Government of India as a Marketing arm of  ISRO for promotion and commercial exploitation of space products, technical consultancy services and  transfer of technologies developed by ISRO.  Another major objective is to facilitate development of  space related industrial capabilities in India.  "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "IIST, Asia’s first Space University, was established at Thiruvananthapuram during 2007 with the objective  of offering high quality education in space science and technology to meet the demands of Indian  Space Programme. The institute offers Bachelor’s Degree in Space Technology with special is ation  in Avionics and Aerospace Engineering and Integrated Masters Programme in Applied Sciences with  special emphasis on space related subjects. Research in IIST is built on the foundations of various  academic programmes run by the Departments of Aerospace Engineering, Avionics, Chemistry, Physics,  Mathematics as well as Earth and Space Sciences.  IIST has started several Post Graduate programmes  that have been received a resounding response.  "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_bf883404.png"
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_4d6ba844.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "As the commercial and marketing arm of ISRO, Antrix is engaged in providing Space products and  services to international customers worldwide. With fully equipped state-of-the-art facilities, Antrix provides  end-to-end solution for many of the space products, ranging from supply of hardware and software  including simple subsystems to a complex spacecraft, for varied applications covering communications,  earth observation and scientific missions; space related services including remote sensing data service,  Transponder lease service, Launch services through India’s operational launch vehicle PSLV; Mission  support services; and a host of consultancy and training services. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Semi-Conductor  Laboratory  (SCL)  at  Chandigarh, an Autonomous Body under the  Department of Space is continuing its efforts  to create a strong microelectronics base in  the country and enhancing capabilities in VLSI  domain. Activities at SCL are focused on the  Design, Development, Fabrication, Assembly,  Testing and Reliability Assurance of CMOS  and MEMS Devices.  "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "NE-SAC, located at Shillong, is a joint initiative of DOS and North Eastern Council (NEC) to provide  developmental support to the North Eastern Region (NER) using space science and technology. The  centre has the mandate to develop high technology infrastructure support to enable NE states to adopt  space technology inputs for their development. The centre has completed a number of applications projects  sponsored by the user agencies in the region and taken up research and development projects under  Earth Observation Applications Mission, ISRO Geo-sphere Biosphere Programme, Satellite Communications,  Disaster Management Support and Space Science Programmes.  "
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_cb7d4202.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_03bb840a.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "is also engaged in Hi-Rel Board Fabrication, Component Screening for ISRO units, In di genis ation of  Electronics Boards for Indian Air Force and Production of Radiosonde for Atmospheric Studies. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Indian Institute of Space Science and Technology (IIST) "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Involvement of Indian space industry continued during the year. In the past, it has made significant  contribution towards the realisation of subsystems required for Indian space programme. Department  of Space has associated more than 500 small, medium and large scale industries while implementing  various programmes. So far, the Department of Space has transferred about 300 technologies to Indian  industries for  commercial is ation and undertaken technical consultancies in various fields.  "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_2066a68d.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_2c493767.png"
+                        }
+                    }
+                ]
+            ]
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "The centers focus on different aspects of space science and technology, with higher budget allocation for space technology and applications, showing their importance.",
+                "The centers are mainly responsible for commercial operations, with budget allocation favoring marketing and sales functions.",
+                "The centers focus on atmospheric and environmental monitoring, with budget allocation reflecting a priority for climate research.",
+                "The centers primarily engage in educational and outreach activities, with most funding directed towards training and workshops."
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_films_literature_food_20adc6fc",
+                    "insert_conversation_turn": 88
+                },
+                {
+                    "conversation_name": "group_chat_nature_education_health_802f9036",
+                    "insert_conversation_turn": 384
+                }
+            ],
+            "image_evidence_assignment": [],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_films_literature_food_20adc6fc",
+                    "insert_conversation_turn": 362,
+                    "reference_name": "Doc. 58c9c6bb"
+                },
+                {
+                    "conversation_name": "group_chat_nature_education_health_802f9036",
+                    "insert_conversation_turn": 692,
+                    "reference_name": "Doc. 2a4cc14a"
+                },
+                {
+                    "conversation_name": "group_chat_religion_transportation_economy_93f75e7b",
+                    "insert_conversation_turn": 120,
+                    "reference_name": "Doc. 6ece47ea"
+                },
+                {
+                    "conversation_name": "group_chat_films_literature_food_20adc6fc",
+                    "insert_conversation_turn": 949,
+                    "reference_name": "Doc. 4fe20a21"
+                }
+            ]
+        },
+        "meta_data": {
+            "category": "Research report / Introduction",
+            "doc_name": "fdac8d1e9ef56519371df7e6532df27d",
+            "gold_quotes": [
+                "text1",
+                "text9",
+                "image2",
+                "image3",
+                "text4"
+            ],
+            "topic": [
+                "science",
+                " technology",
+                " government",
+                " education",
+                " economy"
+            ],
+            "original_question": "What are the roles and significance of different centers under the Indian Space Programme, and how does their budget allocation reflect their importance?"
+        }
+    },
+    {
+        "id": "QA_sample_87405d70",
+        "domain": "SlideVQA",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. d7ed025c, Fig. c02e8a57, What level comes between \"all managers between the first-line level and the top level of the organization who manage first line managers\" and Non-managerial Employees?",
+        "answer": "First-line Managers",
+        "evidence": {
+            "text_evidence": [],
+            "image_evidence": [
+                "SlideVQA_01ee8f5b_page_5.png",
+                "SlideVQA_01ee8f5b_page_6.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "First-line Managers",
+                "Project Managers",
+                "Supervisors",
+                "Middle Managers"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_nature_education_health_802f9036",
+                    "insert_conversation_turn": 673,
+                    "reference_name": "Fig. d7ed025c"
+                },
+                {
+                    "conversation_name": "group_chat_religion_transportation_economy_93f75e7b",
+                    "insert_conversation_turn": 61,
+                    "reference_name": "Fig. c02e8a57"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "business",
+                "education"
+            ],
+            "original_question": "What level comes between \"all managers between the first-line level and the top level of the organization who manage first line managers\" and Non-managerial Employees?"
+        }
+    },
+    {
+        "id": "QA_sample_250257ec",
+        "domain": "MLLMKC",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. c8f58941, Who established the brand corresponding to the logo?",
+        "answer": "Will Keith Kellogg",
+        "evidence": {
+            "text_evidence": [
+                "Kellogg's was created in 1906. The creator of Kellogg's is Will Keith Kellogg, and Kellogg's is the brand of breakfast cereals."
+            ],
+            "image_evidence": [
+                "MLLMKC_9a21f368.jpg"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Kellogg's was created in 1906. The creator of Kellogg's is John Harvey Kellogg, and Kellogg's is the brand of breakfast cereals."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "William K. Post",
+                "Charles William Post",
+                "John Harvey Kellogg",
+                "Will Keith Kellogg"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_religion_transportation_economy_93f75e7b",
+                    "insert_conversation_turn": 407
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_nature_education_health_802f9036",
+                    "insert_conversation_turn": 235,
+                    "reference_name": "Fig. c8f58941"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_films_literature_food_20adc6fc",
+                    "insert_conversation_turn": 206
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "instance": "Kellogg's",
+            "category": "logo",
+            "error_type": "creator_error",
+            "topic": [
+                "food",
+                "history",
+                "business"
+            ],
+            "original_question": "Who established the brand corresponding to the logo?"
+        }
+    },
+    {
+        "id": "QA_sample_fd3130f5",
+        "domain": "SlideVQA",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. c0073e03, Fig. 3c5ab238, Which country had the higher percentage of Tablet Pageviews in June 2014, Russia or the country where 61 million euros was spent in online display ads in 2013?",
+        "answer": "Russia",
+        "evidence": {
+            "text_evidence": [],
+            "image_evidence": [
+                "SlideVQA_47961bbe_page_6.png",
+                "SlideVQA_47961bbe_page_9.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "Hungary",
+                "Poland",
+                "Czech Republic",
+                "Russia"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_films_literature_food_20adc6fc",
+                    "insert_conversation_turn": 906,
+                    "reference_name": "Fig. c0073e03"
+                },
+                {
+                    "conversation_name": "group_chat_nature_education_health_802f9036",
+                    "insert_conversation_turn": 400,
+                    "reference_name": "Fig. 3c5ab238"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "technology",
+                "business",
+                "education"
+            ],
+            "original_question": "Which country had the higher percentage of Tablet Pageviews in June 2014, Russia or the country where 61 million euros was spent in online display ads in 2013?"
+        }
+    },
+    {
+        "id": "baf447c4",
+        "domain": "MMDocRAG",
+        "category": "Single_Hop_QA",
+        "question": "Based on Doc. eedc78c7, Doc. 285d0a7a, Doc. d11ee652, Which dataset in Table 3 has the largest number of documents (Docs)?",
+        "answer": "GENIA",
+        "evidence": {
+            "text_evidence": [],
+            "image_evidence": [],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": [
+                [
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "We evaluate the performance of D Y GIE on overlapping entity extraction in three datasets: ACE2004, ACE2005 and GENIA. Since relation annotations are not available for these datasets, we include the coreference propagation layer in our models but not the relation layer. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Results Table  4  presents the results of our over- lapping entity extraction experiments on the differ- ent datsets. D Y GIE improves   $11.6\\%$   on the state of the art for ACE04-O and   $11.3\\%$   for ACE05-O. D Y - GIE also advances the state of the art on GENIA, albeit by a more modest   $1.5\\%$  . Together these re- sults suggest that D Y GIE can be utilized fruitfully for information extraction across different domains with overlapped entities, such as bio-medicine. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Data Statistics on our three datasets are listed in Table  3 . All three have a substantial number  $(>20\\%$   of total) of overlapping entities, making them appropriate for this task. "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_ba08c7fe.png"
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_d16b7eba.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "if its type label and head region match those of a gold entity. We will refer to this version of the ACE2004 and ACE2005 data as ACE04 and ACE05. Since the domain and mention span an- notations in the ACE datasets are very similar to those of OntoNotes ( Pradhan et al. ,  2012 ), and OntoNotes contains signiﬁcantly more documents with coreference annotations, we use OntoNotes to train the parameters for the auxiliary corefer- ence task. The OntoNotes corpus contains 3493 documents, averaging roughly 450 words in length. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "As in the joint case, we evaluate our model on ACE2004  and  ACE2005 , but here we follow the same data preprocessing and evaluation scheme as Wang and Lu  ( 2018 ). We refer to these data sets as ACE04-O and ACE05-O. Unlike the joint en- tity and relation task in Sec.  4.1 , where only the entity head span need be predicted, an entity pre- diction is considered correct in these experiments if both its entity label and its full text span match a gold prediction. This is a more stringent evalua- tion criterion than the one used in Section  4.1 . As before, we use the OntoNotes annotations to train the parameters of the coreference layer. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Data All four data sets are annotated with entity and relation labels. Only a small fraction of entities  $(<3\\%$   of total) in these data sets have a text span that overlaps the span of another entity. Statistics on all four data sets are displayed in Table  1 . "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_a22e969b.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_bc25264b.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "The contributions of this paper are threefold. 1) We introduce the dynamic span graph frame- work as a method to propagate global contextual information, making the code publicly available. 2) We demonstrate that our framework signiﬁcantly outperforms the state-of-the-art on joint entity and relation detection tasks across four datasets: ACE 2004, ACE 2005, SciERC and the Wet Lab Proto- col Corpus. 3) We further show that our approach excels at detecting entities with overlapping spans, achieving an improvement of up to 8 F1 points on three benchmarks annotated with overlapped spans: ACE 2004, ACE 2005 and GENIA. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "We evaluate D Y GIE on several datasets span- ning many domains (including news, scientiﬁc arti- cles, and wet lab experimental protocols), achiev- ing state-of-the-art performance across all tasks and domains and demonstrating the value of coupling related tasks to learn richer span representations. For example, D Y GIE achieves relative improve- ments of  $5.7\\%$   and  $9.9\\%$   over state of the art on the ACE05 entity and relation extraction tasks, and an  $11.3\\%$   relative improvement on the ACE05 over- lapping entity extraction task. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "The  ACE2004  and  ACE2005  corpora provide entity and relation labels for a collection of docu- ments from a variety of domains, such as newswire and online forums. We use the same entity and relation types, data splits, and preprocessing as Miwa and Bansal  ( 2016 ) and  Li and Ji  ( 2014 ). Fol- lowing the convention established in this line of work, an entity prediction is considered correct "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_c2264a55.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_1a8e38d8.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "The  SciERC  corpus ( Luan et al. ,  2018a ) pro- vides entity, coreference and relation annotations for a collection of documents from 500 AI paper abstracts. The dataset deﬁnes scientiﬁc term types and relation types specially designed for AI domain knowledge graph construction. An entity predic- tion is considered correct if its label and span match with a gold entity. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "For the entity and relation extraction task, we test the performance of D Y GIE on four different datasets: ACE2004, ACE2005, SciERC and the Wet Lab Protocol Corpus. We include the rela- tion graph propagation layer in our models for all datasets. We include the coreference graph propa- gation layer on the data sets that have coreference annotations available. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "The  GENIA  corpus ( Kim et al. ,  2003 ) provides entity tags and coreferences for 1999 abstracts from the biomedical research literature. We only use the IDENT label to extract coreference clusters. "
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_dab839f8.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_e65732be.png"
+                        }
+                    }
+                ]
+            ]
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "ACE04-O",
+                "ACE05-O",
+                "GENIA",
+                "SciERC"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [],
+            "image_evidence_assignment": [],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_films_literature_food_20adc6fc",
+                    "insert_conversation_turn": 999,
+                    "reference_name": "Doc. eedc78c7"
+                },
+                {
+                    "conversation_name": "group_chat_films_literature_food_20adc6fc",
+                    "insert_conversation_turn": 347,
+                    "reference_name": "Doc. 285d0a7a"
+                },
+                {
+                    "conversation_name": "group_chat_nature_education_health_802f9036",
+                    "insert_conversation_turn": 776,
+                    "reference_name": "Doc. d11ee652"
+                }
+            ]
+        },
+        "meta_data": {
+            "category": "Academic paper",
+            "doc_name": "N19-1308",
+            "gold_quotes": [
+                "image1",
+                "text12"
+            ],
+            "topic": [
+                "science",
+                "technology"
+            ],
+            "original_question": "Which dataset in Table 3 has the largest number of documents (Docs)?"
+        }
+    },
+    {
+        "id": "QA_sample_93e19e7e",
+        "domain": "MLLMKC",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. 2994e897, What is the nationality of the person in the picture?",
+        "answer": "[Canadian-American]",
+        "evidence": {
+            "text_evidence": [
+                "[Jim Carrey] was born in [January 17, 1962]. [Jim Carrey] is [Canadian-American]. [Jim Carrey] is a [comedian, actor, and artist]."
+            ],
+            "image_evidence": [
+                "MLLMKC_ee290653.jpg"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "[Jim Carrey] was born in [January 17, 1962]. [Jim Carrey] is [Canadian]. [Jim Carrey] is a [comedian, actor, and artist]."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "American",
+                "Canadian",
+                "[Canadian-American]",
+                "[British-Canadian]  \n[French-American]  \n[Australian-British]"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_films_literature_food_20adc6fc",
+                    "insert_conversation_turn": 781
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_nature_education_health_802f9036",
+                    "insert_conversation_turn": 509,
+                    "reference_name": "Fig. 2994e897"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_religion_transportation_economy_93f75e7b",
+                    "insert_conversation_turn": 475
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "instance": "Jim Carrey",
+            "category": "people",
+            "error_type": "location_error",
+            "topic": [
+                "films",
+                " television",
+                " art and design"
+            ],
+            "original_question": "What is the nationality of the person in the picture?"
+        }
+    },
+    {
+        "id": "1a6dcf60",
+        "domain": "MMDocRAG",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 74e984c0, Doc. d97eb365, Doc. c7b10455, Doc. f29b3a68, Doc. 4760f9d5, Doc. e138f955, How do the concepts of reporting and analysis contribute to the analytics value chain, and what roles do they play in the progression from business intelligence to business analytics?",
+        "answer": "Reporting provides information; analysis generates insights and recommendations, enabling the shift from business intelligence to business analytics.",
+        "evidence": {
+            "text_evidence": [],
+            "image_evidence": [
+                "MMDocRAG_f51dea51.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": [
+                [
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Collaborative,inclusive,open,inquisitive Chief Data Officer/Chief Analytics Officer Testing mindset,fact-based,anti-HiPPO Embedded,federated analytics Analytics org:composition,skills.training Data quality.data management "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "·Data leaders that actively evangelize data as a strategic asset, leveraged to its fullest to impact all partsof the business.\n\n "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "KenRudin Facebook "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_3b5dbfaa.png"
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_6690001a.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Push data through\"analytics value chain\" from collection, analysis decisions,action,and finally to impact.Partway along chain doesn'tcount "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Business units have necessary data access as well as within team analytical skills to drive insights,actions,andimpact. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Managers that expect and rely on data insights to make informed decisions.More generally across organization,data and analytics are deeply embedded into our processes and decisions "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_09f15ebe.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_219b5fae.png"
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "'Analytics is about impact...In our company [Zynga], if you have brilliant insight and you did great research and noone changes,you get zero credit.\" "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Analytics Value Chain "
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "http://shop.oreilly.com/ 1.WhatisData-Driven?\n\n 2. Data Quality\n\n 3. Data Collection\n\n 4. Analyst Org\n\n 5. Data Analysis\n\n 6. Metric Design\n\n 7.StoryTelling\n\n 8.A/B Testing\n\n 9.Decision Making\n\n 10.Data-Driven Culture\n\n 11.Data-Driven C-suite\n\n 12.Privacy,Ethics\n\n 13.Conclusions "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_01b87bcc.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_e5e3d830.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "·Strong data leadership that understands and support theneedsof the business.It supports the analytics organization by providing them with a clear career path,enables them to perform their best, to be happy and productive,and to maximize their impact. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Levels of Analytics "
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Analyst competency matrix Raise bar for new analyst hires Vision statement:data culture Stats for managers class\n\n ·Mentor/train analysts to improve skills such as stats,SQL\n\n ·Mentoring staff in experimental design Democratizing data access through Bl tools PushonROl,tie back to strategic objectives "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_8d6f8741.png"
+                        }
+                    }
+                ]
+            ]
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "Reporting presents facts; analysis explains causes and predicts outcomes, advancing the evolution from business intelligence to business analytics",
+                "Reporting delivers metrics; analysis identifies patterns and solutions, facilitating movement from business intelligence to business analytics",
+                "Reporting summarizes data; analysis interprets results and suggests actions, supporting the transition from business intelligence to business analytics",
+                "Reporting provides information; analysis generates insights and recommendations, enabling the shift from business intelligence to business analytics."
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_religion_transportation_economy_93f75e7b",
+                    "insert_conversation_turn": 844,
+                    "reference_name": "Fig. 74e984c0"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_films_literature_food_20adc6fc",
+                    "insert_conversation_turn": 876,
+                    "reference_name": "Doc. d97eb365"
+                },
+                {
+                    "conversation_name": "group_chat_films_literature_food_20adc6fc",
+                    "insert_conversation_turn": 416,
+                    "reference_name": "Doc. c7b10455"
+                },
+                {
+                    "conversation_name": "group_chat_nature_education_health_802f9036",
+                    "insert_conversation_turn": 478,
+                    "reference_name": "Doc. f29b3a68"
+                },
+                {
+                    "conversation_name": "group_chat_films_literature_food_20adc6fc",
+                    "insert_conversation_turn": 684,
+                    "reference_name": "Doc. 4760f9d5"
+                },
+                {
+                    "conversation_name": "group_chat_religion_transportation_economy_93f75e7b",
+                    "insert_conversation_turn": 863,
+                    "reference_name": "Doc. e138f955"
+                }
+            ]
+        },
+        "meta_data": {
+            "category": "Tutorial/Workshop",
+            "doc_name": "ddoseattle-150627210357-lva1-app6891_95",
+            "gold_quotes": [
+                "image4",
+                "text8",
+                "image1",
+                "text11",
+                "image7"
+            ],
+            "topic": [
+                "business",
+                " technology",
+                " education"
+            ],
+            "original_question": "How do the concepts of reporting and analysis contribute to the analytics value chain, and what roles do they play in the progression from business intelligence to business analytics?"
+        }
+    },
+    {
+        "id": "QA_sample_2b1b5a3b",
+        "domain": "MLLMKC",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. f1b42a80, What is the nationality of the person in the picture?",
+        "answer": "American",
+        "evidence": {
+            "text_evidence": [
+                "Kevin Hart was born on July 6, 1979. Kevin Hart is American. Kevin Hart is a comedian and actor."
+            ],
+            "image_evidence": [
+                "MLLMKC_21f6eb32.jpg"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Kevin Hart was born on July 6, 1979. Kevin Hart is Canadian. Kevin Hart is a comedian and actor."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Canadian",
+                "American",
+                "Panamanian",
+                "Mexican"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_religion_transportation_economy_93f75e7b",
+                    "insert_conversation_turn": 785
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_films_literature_food_20adc6fc",
+                    "insert_conversation_turn": 133,
+                    "reference_name": "Fig. f1b42a80"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_nature_education_health_802f9036",
+                    "insert_conversation_turn": 639
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "instance": "Kevin Hart",
+            "category": "people",
+            "error_type": "location_error",
+            "topic": [
+                "films",
+                " television",
+                " lifestyle"
+            ],
+            "original_question": "What is the nationality of the person in the picture?"
+        }
+    },
+    {
+        "id": "QA_sample_99bf61c3",
+        "domain": "SlideVQA",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 8fb89759, Fig. 22c5970c, What comes under Resources for the Center which treats conditions in the column to the left of Craniofacial?",
+        "answer": "Overview, Useful Links, Recommended Reading, Tests & Procedures",
+        "evidence": {
+            "text_evidence": [],
+            "image_evidence": [
+                "SlideVQA_84771ca0_page_15.png",
+                "SlideVQA_84771ca0_page_16.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "Support Groups, Medical Forms, Symptom Management",
+                "Guidelines for Patients, Services Timeline, Treatment FAQs",
+                "Overview, Useful Links, Recommended Reading, Tests & Procedures",
+                "Best Practices Guide, Contact Information, Preparation Checklists"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_films_literature_food_20adc6fc",
+                    "insert_conversation_turn": 178,
+                    "reference_name": "Fig. 8fb89759"
+                },
+                {
+                    "conversation_name": "group_chat_nature_education_health_802f9036",
+                    "insert_conversation_turn": 281,
+                    "reference_name": "Fig. 22c5970c"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "health",
+                "business"
+            ],
+            "original_question": "What comes under Resources for the Center which treats conditions in the column to the left of Craniofacial?"
+        }
+    },
+    {
+        "id": "QA_sample_27c013d0",
+        "domain": "MLLMKC",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. 797f8692, What is the occupation of the person in the picture?",
+        "answer": "actress and activist",
+        "evidence": {
+            "text_evidence": [
+                "Emma Watson was born on April 15, 1990. Emma Watson is British. Emma Watson is an actress and activist."
+            ],
+            "image_evidence": [
+                "MLLMKC_7559c342.jpg"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Emma Watson was born on April 15, 1990. Emma Watson is British. Emma Watson is a novelist and activist."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "novelist",
+                "chef",
+                "botanist",
+                "actress and activist"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_nature_education_health_802f9036",
+                    "insert_conversation_turn": 708
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_films_literature_food_20adc6fc",
+                    "insert_conversation_turn": 599,
+                    "reference_name": "Fig. 797f8692"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_religion_transportation_economy_93f75e7b",
+                    "insert_conversation_turn": 348
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "instance": "Emma Watson",
+            "category": "people",
+            "error_type": "Career_error",
+            "topic": [
+                "films",
+                " fashion",
+                " lifestyle"
+            ],
+            "original_question": "What is the occupation of the person in the picture?"
+        }
+    },
+    {
+        "id": "QA_sample_5d68a7eb",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 984b0f57, the text, what factors might have encouraged investors to take \"bullish positions\" in late July 2018, according to the previous definition?",
+        "answer": "The recovery in Brent crude oil prices and the increase in net-long futures and options positions.",
+        "evidence": {
+            "text_evidence": [
+                "Investors typically consider both the price of Brent crude oil and the total number of net-long futures and options positions when deciding whether to take bullish bets. A bullish bet becomes popular when the net-long positions show an increase, indicating market optimism, alongside rising crude oil prices. Conversely, stable or declining prices may not sustain such optimism."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_733a53cc.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "A decrease in net-long futures and options positions alongside rising crude oil prices",
+                "The recovery in Brent crude oil prices and the increase in net-long futures and options positions.",
+                "A decline in Brent crude oil prices and unchanged net-long positions",
+                "A rise in crude oil supply along with stable prices"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_religion_transportation_economy_93f75e7b",
+                    "insert_conversation_turn": 727
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_films_literature_food_20adc6fc",
+                    "insert_conversation_turn": 488,
+                    "reference_name": "Fig. 984b0f57"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "business",
+                "economy"
+            ],
+            "original_question": "the text, what factors might have encouraged investors to take \"bullish positions\" in late July 2018, according to the previous definition?"
+        }
+    },
+    {
+        "id": "QA_sample_4b412a4e",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 166d95e8, the text, does the SaaS company meet the \"thresholds for automatic additional investment\" regarding CAC and MoM MRR Growth?",
+        "answer": "No",
+        "evidence": {
+            "text_evidence": [
+                "A SaaS company evaluates its performance based on key metrics displayed in its dashboard. For decisions on additional investment, management requires the Customer Acquisition Cost (CAC) to be below $300 and the Month-over-Month (MoM) MRR Growth to exceed 5%. If either of these conditions fails, investment opportunities require further review based on other metrics such as Average Lifetime Value and Active Trial Accounts."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_1df1e619.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "No",
+                "Yes"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_religion_transportation_economy_93f75e7b",
+                    "insert_conversation_turn": 756
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_nature_education_health_802f9036",
+                    "insert_conversation_turn": 418,
+                    "reference_name": "Fig. 166d95e8"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "business",
+                "economy",
+                "technology"
+            ],
+            "original_question": "the text, does the SaaS company meet the \"thresholds for automatic additional investment\" regarding CAC and MoM MRR Growth?"
+        }
+    },
+    {
+        "id": "QA_sample_7ed731b4",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 5f80459a, the text, which mining companies demonstrated a 'strong' performance—meaning their share price exceeded the threshold defined for 'strong' performance—but did not achieve an 'outstanding' performance as defined by the share price doubling relative to the baseline, in 2020?",
+        "answer": "Implats and Amplats.",
+        "evidence": {
+            "text_evidence": [
+                "A mining company's stock performance is deemed 'outstanding' if its share price doubles relative to the baseline (100) within a calendar year. However, a 'strong' performance is considered if the share price exceeds 150 at any point during the same year."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_c6eec764.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Gold Fields and Anglo American",
+                "Implats and Amplats.",
+                "Anglo American and Sibanye-Stillwater",
+                "Sibanye-Stillwater and Gold Fields"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_religion_transportation_economy_93f75e7b",
+                    "insert_conversation_turn": 201
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_nature_education_health_802f9036",
+                    "insert_conversation_turn": 308,
+                    "reference_name": "Fig. 5f80459a"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "business",
+                "economy"
+            ],
+            "original_question": "the text, which mining companies demonstrated a 'strong' performance—meaning their share price exceeded the threshold defined for 'strong' performance—but did not achieve an 'outstanding' performance as defined by the share price doubling relative to the baseline, in 2020?"
+        }
+    },
+    {
+        "id": "QA_sample_1fd01943",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 54478377, the company's strategy described in the text, which product categories have a dollar percentage growth rate that meets the \"high-priority\" threshold for investment?",
+        "answer": "Toilet tissues, Household cleaners, Facial tissues, Personal wash, Cough/cold treatments.",
+        "evidence": {
+            "text_evidence": [
+                "A company aims to prioritize product categories for investment based on dollar percentage growth. Any category with at least a 50% growth rate is considered high-priority, while categories below 50% are designated as medium or low priority, depending on their growth rate's proximity to the threshold. Categories with less than 20% growth are classified as low-priority for this investment strategy."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_6cd492b5.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Patent medicines remedies",
+                "Toilet tissues, Household cleaners, Facial tissues, Personal wash, Cough/cold treatments.",
+                "Insecticides baits poisons",
+                "Health supplements"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_religion_transportation_economy_93f75e7b",
+                    "insert_conversation_turn": 922
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_nature_education_health_802f9036",
+                    "insert_conversation_turn": 119,
+                    "reference_name": "Fig. 54478377"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "business",
+                "economy"
+            ],
+            "original_question": "the company's strategy described in the text, which product categories have a dollar percentage growth rate that meets the \"high-priority\" threshold for investment?"
+        }
+    },
+    {
+        "id": "QA_sample_aecd7c58_1",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. e449ecc7, Among the activities that could reasonably occur in the given image, which one is Kenya Decker least likely to be doing?",
+        "answer": "Watching cooking shows",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Kenya Decker enjoys K-pop concerts, anime series, but dislikes cooking shows, travel vlogs",
+                "In terms of travel, Kenya Decker enjoys trains, flying business class, but dislikes hiking, scuba diving"
+            ],
+            "image_evidence": [
+                "MMPB_81ebaeeb.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of lifestyle, Kenya Decker enjoys early morning jogs, massages, but dislikes boxing workouts, rock climbing gyms",
+                "In terms of shopping, Kenya Decker enjoys soundproofing panels, sleep-enhancing gadgets, but dislikes sportswear, high-end perfumes",
+                "In terms of fashion, Kenya Decker enjoys futuristic fashion, gothic clothing, but dislikes casual wear, minimalist outfits."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "Watching sports events",
+                "Planning scuba diving tour",
+                "Watching cooking shows",
+                "Watching action movies"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_nature_education_health_802f9036",
+                    "insert_conversation_turn": 648
+                },
+                {
+                    "conversation_name": "group_chat_religion_transportation_economy_93f75e7b",
+                    "insert_conversation_turn": 541
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_nature_education_health_802f9036",
+                    "insert_conversation_turn": 545,
+                    "reference_name": "Fig. e449ecc7"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_films_literature_food_20adc6fc",
+                    "insert_conversation_turn": 402
+                },
+                {
+                    "conversation_name": "group_chat_nature_education_health_802f9036",
+                    "insert_conversation_turn": 215
+                },
+                {
+                    "conversation_name": "group_chat_religion_transportation_economy_93f75e7b",
+                    "insert_conversation_turn": 215
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Johny",
+            "description": "Johny is a tall individual with a lean build, exuding a commanding presence. Their facial structure is striking, featuring a prominent jawline and a slightly pointed chin, complemented by a mustache and goatee. The skin tone is fair, and their hair is long, wavy, and dark, often falling just past the shoulders. Johny frequently sports round, black-rimmed glasses, adding an intellectual flair to their appearance. Their expressions are typically serious and contemplative, with a hint of intensity in their gaze. The eyebrows are thick and well-defined, framing the eyes and enhancing the overall facial symmetry.\n\n**Outfit and Accessories:**\nJohny is known for their eclectic and stylish fashion sense, often blending formal and casual elements. They frequently wear wide-brimmed hats, adding a touch of mystery and flair. The color palette of their outfits is predominantly dark, with a preference for black, gray, and navy, accented by occasional pops of color. The textures range from smooth fabrics like silk and velvet to more rugged materials like denim and leather. Johny often wears tailored suits, both pinstriped and solid, paired with crisp white shirts and black ties. Accessories such as scarves, necklaces, and earrings are common, adding layers and depth to their ensembles. The outfits are both practical and character-defining, reflecting a blend of sophistication and artistic flair.\n\n**Distinguishing Visual Features or Vibe:**\nThe most memorable feature of Johny is their signature wide-brimmed hat, which has become an iconic part of their visual identity. The combination of the hat, round glasses, and long, wavy hair creates a distinctive silhouette that is instantly recognizable. The consistent use of dark colors and tailored clothing conveys a sense of elegance and mystery. Johny exudes a vibe of artistic intensity and intellectual depth, with a touch of whimsy and nonconformity. The overall aura is one of a creative and enigmatic figure, blending elements of classic style with a modern, edgy twist.",
+            "preference": "In terms of entertainment, Johny enjoys K-pop concerts, anime series, but dislikes cooking shows, travel vlogs. In terms of travel, Johny enjoys trains, flying business class, but dislikes hiking, scuba diving. In terms of lifestyle, Johny enjoys early morning jogs, massages, but dislikes boxing workouts, rock climbing gyms. In terms of shopping, Johny enjoys soundproofing panels, sleep-enhancing gadgets, but dislikes sportswear, high-end perfumes. In terms of fashion, Johny enjoys futuristic fashion, gothic clothing, but dislikes casual wear, minimalist outfits.",
+            "topic": [],
+            "original_id": "QA_sample_aecd7c58",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Kenya Decker least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_aecd7c58_2",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 8eb0e299, Among the activities that could reasonably occur in the given image, which one is Kenya Decker least likely to be doing?",
+        "answer": "Watching travel vlogs",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Kenya Decker enjoys K-pop concerts, anime series, but dislikes cooking shows, travel vlogs",
+                "In terms of travel, Kenya Decker enjoys trains, flying business class, but dislikes hiking, scuba diving"
+            ],
+            "image_evidence": [
+                "MMPB_2d99653f.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of lifestyle, Kenya Decker enjoys early morning jogs, massages, but dislikes boxing workouts, rock climbing gyms",
+                "In terms of shopping, Kenya Decker enjoys soundproofing panels, sleep-enhancing gadgets, but dislikes sportswear, high-end perfumes",
+                "In terms of fashion, Kenya Decker enjoys futuristic fashion, gothic clothing, but dislikes casual wear, minimalist outfits."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Watching travel vlogs",
+                "Watching sports highlights",
+                "Going to a rock climbing gym",
+                "Watching a live concert"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_nature_education_health_802f9036",
+                    "insert_conversation_turn": 648
+                },
+                {
+                    "conversation_name": "group_chat_religion_transportation_economy_93f75e7b",
+                    "insert_conversation_turn": 541
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_religion_transportation_economy_93f75e7b",
+                    "insert_conversation_turn": 807,
+                    "reference_name": "Fig. 8eb0e299"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_films_literature_food_20adc6fc",
+                    "insert_conversation_turn": 402
+                },
+                {
+                    "conversation_name": "group_chat_nature_education_health_802f9036",
+                    "insert_conversation_turn": 215
+                },
+                {
+                    "conversation_name": "group_chat_religion_transportation_economy_93f75e7b",
+                    "insert_conversation_turn": 215
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Johny",
+            "description": "Johny is a tall individual with a lean build, exuding a commanding presence. Their facial structure is striking, featuring a prominent jawline and a slightly pointed chin, complemented by a mustache and goatee. The skin tone is fair, and their hair is long, wavy, and dark, often falling just past the shoulders. Johny frequently sports round, black-rimmed glasses, adding an intellectual flair to their appearance. Their expressions are typically serious and contemplative, with a hint of intensity in their gaze. The eyebrows are thick and well-defined, framing the eyes and enhancing the overall facial symmetry.\n\n**Outfit and Accessories:**\nJohny is known for their eclectic and stylish fashion sense, often blending formal and casual elements. They frequently wear wide-brimmed hats, adding a touch of mystery and flair. The color palette of their outfits is predominantly dark, with a preference for black, gray, and navy, accented by occasional pops of color. The textures range from smooth fabrics like silk and velvet to more rugged materials like denim and leather. Johny often wears tailored suits, both pinstriped and solid, paired with crisp white shirts and black ties. Accessories such as scarves, necklaces, and earrings are common, adding layers and depth to their ensembles. The outfits are both practical and character-defining, reflecting a blend of sophistication and artistic flair.\n\n**Distinguishing Visual Features or Vibe:**\nThe most memorable feature of Johny is their signature wide-brimmed hat, which has become an iconic part of their visual identity. The combination of the hat, round glasses, and long, wavy hair creates a distinctive silhouette that is instantly recognizable. The consistent use of dark colors and tailored clothing conveys a sense of elegance and mystery. Johny exudes a vibe of artistic intensity and intellectual depth, with a touch of whimsy and nonconformity. The overall aura is one of a creative and enigmatic figure, blending elements of classic style with a modern, edgy twist.",
+            "preference": "In terms of entertainment, Johny enjoys K-pop concerts, anime series, but dislikes cooking shows, travel vlogs. In terms of travel, Johny enjoys trains, flying business class, but dislikes hiking, scuba diving. In terms of lifestyle, Johny enjoys early morning jogs, massages, but dislikes boxing workouts, rock climbing gyms. In terms of shopping, Johny enjoys soundproofing panels, sleep-enhancing gadgets, but dislikes sportswear, high-end perfumes. In terms of fashion, Johny enjoys futuristic fashion, gothic clothing, but dislikes casual wear, minimalist outfits.",
+            "topic": [],
+            "original_id": "QA_sample_aecd7c58",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Kenya Decker least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_aecd7c58_3",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 75454844, Among the activities that could reasonably occur in the given image, which one is Kenya Decker least likely to be doing?",
+        "answer": "Watching cooking survival shows",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Kenya Decker enjoys K-pop concerts, anime series, but dislikes cooking shows, travel vlogs",
+                "In terms of travel, Kenya Decker enjoys trains, flying business class, but dislikes hiking, scuba diving"
+            ],
+            "image_evidence": [
+                "MMPB_6f052249.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of lifestyle, Kenya Decker enjoys early morning jogs, massages, but dislikes boxing workouts, rock climbing gyms",
+                "In terms of shopping, Kenya Decker enjoys soundproofing panels, sleep-enhancing gadgets, but dislikes sportswear, high-end perfumes",
+                "In terms of fashion, Kenya Decker enjoys futuristic fashion, gothic clothing, but dislikes casual wear, minimalist outfits."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "Observing suspenseful crime dramas",
+                "Purchasing high-end perfumes",
+                "Watching cooking survival shows",
+                "Watching thrilling adventure series"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_nature_education_health_802f9036",
+                    "insert_conversation_turn": 648
+                },
+                {
+                    "conversation_name": "group_chat_religion_transportation_economy_93f75e7b",
+                    "insert_conversation_turn": 541
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_films_literature_food_20adc6fc",
+                    "insert_conversation_turn": 741,
+                    "reference_name": "Fig. 75454844"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_films_literature_food_20adc6fc",
+                    "insert_conversation_turn": 402
+                },
+                {
+                    "conversation_name": "group_chat_nature_education_health_802f9036",
+                    "insert_conversation_turn": 215
+                },
+                {
+                    "conversation_name": "group_chat_religion_transportation_economy_93f75e7b",
+                    "insert_conversation_turn": 215
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Johny",
+            "description": "Johny is a tall individual with a lean build, exuding a commanding presence. Their facial structure is striking, featuring a prominent jawline and a slightly pointed chin, complemented by a mustache and goatee. The skin tone is fair, and their hair is long, wavy, and dark, often falling just past the shoulders. Johny frequently sports round, black-rimmed glasses, adding an intellectual flair to their appearance. Their expressions are typically serious and contemplative, with a hint of intensity in their gaze. The eyebrows are thick and well-defined, framing the eyes and enhancing the overall facial symmetry.\n\n**Outfit and Accessories:**\nJohny is known for their eclectic and stylish fashion sense, often blending formal and casual elements. They frequently wear wide-brimmed hats, adding a touch of mystery and flair. The color palette of their outfits is predominantly dark, with a preference for black, gray, and navy, accented by occasional pops of color. The textures range from smooth fabrics like silk and velvet to more rugged materials like denim and leather. Johny often wears tailored suits, both pinstriped and solid, paired with crisp white shirts and black ties. Accessories such as scarves, necklaces, and earrings are common, adding layers and depth to their ensembles. The outfits are both practical and character-defining, reflecting a blend of sophistication and artistic flair.\n\n**Distinguishing Visual Features or Vibe:**\nThe most memorable feature of Johny is their signature wide-brimmed hat, which has become an iconic part of their visual identity. The combination of the hat, round glasses, and long, wavy hair creates a distinctive silhouette that is instantly recognizable. The consistent use of dark colors and tailored clothing conveys a sense of elegance and mystery. Johny exudes a vibe of artistic intensity and intellectual depth, with a touch of whimsy and nonconformity. The overall aura is one of a creative and enigmatic figure, blending elements of classic style with a modern, edgy twist.",
+            "preference": "In terms of entertainment, Johny enjoys K-pop concerts, anime series, but dislikes cooking shows, travel vlogs. In terms of travel, Johny enjoys trains, flying business class, but dislikes hiking, scuba diving. In terms of lifestyle, Johny enjoys early morning jogs, massages, but dislikes boxing workouts, rock climbing gyms. In terms of shopping, Johny enjoys soundproofing panels, sleep-enhancing gadgets, but dislikes sportswear, high-end perfumes. In terms of fashion, Johny enjoys futuristic fashion, gothic clothing, but dislikes casual wear, minimalist outfits.",
+            "topic": [],
+            "original_id": "QA_sample_aecd7c58",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Kenya Decker least likely to be doing?"
+        }
+    },
+    {
+        "id": "LifeSim_ada8fea2",
+        "domain": "LifeSim",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 77085ebe, What type of rental vehicle does Maggie Rachael prefer based on their environmental values?",
+        "answer": "hybrid sedan",
+        "evidence": {
+            "image_evidence": [
+                "LifeSim_9f19b6bf.png"
+            ]
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "plug-in minivan",
+                "electric hatchback",
+                "compact SUV",
+                "hybrid sedan"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_films_literature_food_20adc6fc",
+                    "insert_conversation_turn": 143,
+                    "reference_name": "Fig. 77085ebe"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "conv_history_name": "user_assistant_conversation_548d6b5d.json",
+            "preference_user_name": "Maggie Rachael",
+            "original_question": "What type of rental vehicle does Maggie Rachael prefer based on their environmental values?"
+        }
+    },
+    {
+        "id": "QA_sample_93732777_1",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 8e5f21d8, Among the activities that could reasonably occur in the given image, which one is Deven Vincent least likely to be doing?",
+        "answer": "Watching documentary films",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Deven Vincent enjoys opera shows, ballet performances, but dislikes musicals, documentaries"
+            ],
+            "image_evidence": [
+                "MMPB_81ebaeeb.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Deven Vincent enjoys backcountry camping, ice fishing, but dislikes backpacking, luxury resorts",
+                "In terms of lifestyle, Deven Vincent enjoys protein-rich diet, weightlifting, but dislikes forest bathing, holistic therapy",
+                "In terms of shopping, Deven Vincent enjoys handmade crafts, vintage furniture, but dislikes second-hand books, indie brands",
+                "In terms of fashion, Deven Vincent enjoys futuristic fashion, gothic clothing, but dislikes business casual, athleisure wear."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "Watching thriller movies",
+                "Going on a backpacking tour",
+                "Observing wildlife films",
+                "Watching documentary films"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_nature_education_health_802f9036",
+                    "insert_conversation_turn": 10
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_films_literature_food_20adc6fc",
+                    "insert_conversation_turn": 261,
+                    "reference_name": "Fig. 8e5f21d8"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_religion_transportation_economy_93f75e7b",
+                    "insert_conversation_turn": 565
+                },
+                {
+                    "conversation_name": "group_chat_films_literature_food_20adc6fc",
+                    "insert_conversation_turn": 187
+                },
+                {
+                    "conversation_name": "group_chat_nature_education_health_802f9036",
+                    "insert_conversation_turn": 243
+                },
+                {
+                    "conversation_name": "group_chat_religion_transportation_economy_93f75e7b",
+                    "insert_conversation_turn": 65
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Han",
+            "description": "Han is a woman with a slender build and an impression of average height. Her facial structure is characterized by a delicate jawline and a slightly upturned nose, with a fair skin tone that complements her long, straight dark hair, which often falls past her shoulders. Her expressions are generally composed and neutral, with a subtle hint of a smile in some images, suggesting a calm and approachable demeanor. Her eyes are often partially obscured by glasses, adding a touch of intellectual charm. The consistent appearance of her long hair and neutral expressions across the images creates a cohesive visual identity.\n\n**Outfit and Accessories:**\nHan's attire is diverse yet consistently sophisticated. In one image, she is seen in a sleeveless dress adorned with geometric patterns and embellishments, exuding elegance. In another, she wears a black blazer over a white shirt, holding a stack of books, which suggests a professional or academic setting. A brown jacket with a mustard-colored scarf adds a touch of warmth and practicality, while a green sweater over a white collared shirt presents a more casual, yet polished look. The recurring theme in her outfits is a blend of formality and comfort, with a preference for neutral colors and structured pieces. Her accessories, such as glasses, are minimal but significant, enhancing her intellectual and approachable image.\n\n**Distinguishing Visual Features or Vibe:**\nThe most memorable feature of Han is her long, dark hair, which is a consistent element across all images. Her neutral expressions and subtle smiles convey a sense of calm and approachability. The combination of her elegant attire and practical accessories, such as glasses, creates a balanced and sophisticated image. The recurring theme of neutral colors and structured clothing suggests a professional and composed persona. The overall vibe of Han is one of understated elegance and intellectual charm, making her visually unmistakable and memorable.",
+            "preference": "In terms of entertainment, Han enjoys opera shows, ballet performances, but dislikes musicals, documentaries. In terms of travel, Han enjoys backcountry camping, ice fishing, but dislikes backpacking, luxury resorts. In terms of lifestyle, Han enjoys protein-rich diet, weightlifting, but dislikes forest bathing, holistic therapy. In terms of shopping, Han enjoys handmade crafts, vintage furniture, but dislikes second-hand books, indie brands. In terms of fashion, Han enjoys futuristic fashion, gothic clothing, but dislikes business casual, athleisure wear.",
+            "topic": [],
+            "original_id": "QA_sample_93732777",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Deven Vincent least likely to be doing?"
+        }
+    },
+    {
+        "id": "LifeSim_1e5e8faf",
+        "domain": "LifeSim",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 9c3b8971, Which ingredient should be avoided in drinks for someone limiting high-potassium fruits and vegetables?",
+        "answer": "banana",
+        "evidence": {
+            "image_evidence": [
+                "LifeSim_018ee59e.png"
+            ]
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "avocado",
+                "banana",
+                "spinach",
+                "strawberry"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_religion_transportation_economy_93f75e7b",
+                    "insert_conversation_turn": 593,
+                    "reference_name": "Fig. 9c3b8971"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "conv_history_name": "user_assistant_conversation_5488e103.json",
+            "preference_user_name": "Saniya Mosley",
+            "original_question": "Which ingredient should be avoided in drinks for someone limiting high-potassium fruits and vegetables?"
+        }
+    },
+    {
+        "id": "QA_sample_c664c226_3",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 848c50e5, the image, what is Selina Gonzalez most likely to be doing?",
+        "answer": "Watching a documentary film",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Selina Gonzalez enjoys musicals, documentaries, but dislikes sports TV, romantic dramas",
+                "In terms of lifestyle, Selina Gonzalez enjoys plant-based diet, home cooking, but dislikes meditation, yoga"
+            ],
+            "image_evidence": [
+                "MMPB_6f052249.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Selina Gonzalez enjoys trains, flying business class, but dislikes backpacking, luxury resorts",
+                "In terms of shopping, Selina Gonzalez enjoys Bluetooth speakers, wireless charging stations, but dislikes sportswear, high-end perfumes",
+                "In terms of fashion, Selina Gonzalez enjoys casual wear, minimalist outfits, but dislikes business casual, athleisure wear."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "Viewing a sports event",
+                "Home cooking",
+                "Watching a documentary film",
+                "Observing a nature program"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_religion_transportation_economy_93f75e7b",
+                    "insert_conversation_turn": 822
+                },
+                {
+                    "conversation_name": "group_chat_films_literature_food_20adc6fc",
+                    "insert_conversation_turn": 302
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_religion_transportation_economy_93f75e7b",
+                    "insert_conversation_turn": 790,
+                    "reference_name": "Fig. 848c50e5"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_religion_transportation_economy_93f75e7b",
+                    "insert_conversation_turn": 630
+                },
+                {
+                    "conversation_name": "group_chat_films_literature_food_20adc6fc",
+                    "insert_conversation_turn": 245
+                },
+                {
+                    "conversation_name": "group_chat_nature_education_health_802f9036",
+                    "insert_conversation_turn": 152
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Grace",
+            "description": "Grace is a woman with a slender build and an average height, exuding a poised and elegant presence. Her facial structure is defined by a prominent jawline and a slightly upturned nose, complemented by expressive eyes and a well-defined brow. Her skin tone is fair, and she often sports a subtle, natural makeup look. Grace's hair is a consistent feature, styled in soft, wavy locks that fall just below her shoulders, adding to her sophisticated appearance. Her expressions range from contemplative to engaging, with a slight tilt of her head and a direct gaze that suggests confidence and intelligence. Her poses are often composed and deliberate, whether standing or seated, conveying a sense of grace and poise.\n\n**Outfit and Accessories:**\nGrace's attire is characterized by a blend of classic and elegant styles, often featuring rich, deep colors like burgundy and red, which add a touch of sophistication. Her outfits include tailored blazers and dresses, with a preference for structured silhouettes that enhance her figure. The textures of her clothing range from smooth fabrics to more textured materials, adding depth and interest to her ensembles. Accessories play a significant role in her look, with a notable presence of statement jewelry such as a large blue pendant necklace and a red beaded necklace, which add a pop of color and elegance. Her outfits are practical yet formal, suggesting a character who is both stylish and professional. The consistent use of a wide-brimmed hat in one image adds a touch of mystery and intrigue to her overall appearance.\n\n**Distinguishing Visual Features or Vibe:**\nGrace's most memorable feature is her ability to convey a sense of mystery and elegance through her visual presentation. The recurring theme of rich, deep colors in her outfits, combined with her poised demeanor, creates a striking visual impact. The wide-brimmed hat and statement jewelry are signature elements that contribute to her unique style. Her wavy hair and fair skin, along with her expressive eyes, add to her ethereal and captivating presence. The consistent use of a dark, moody color palette in the backgrounds of the images further enhances her enigmatic aura, making her stand out as a character of depth and intrigue. Overall, Grace exudes a blend of sophistication, mystery, and elegance, making her visually unmistakable and memorable.",
+            "preference": "In terms of entertainment, Grace enjoys musicals, documentaries, but dislikes sports TV, romantic dramas. In terms of travel, Grace enjoys trains, flying business class, but dislikes backpacking, luxury resorts. In terms of lifestyle, Grace enjoys plant-based diet, home cooking, but dislikes meditation, yoga. In terms of shopping, Grace enjoys Bluetooth speakers, wireless charging stations, but dislikes sportswear, high-end perfumes. In terms of fashion, Grace enjoys casual wear, minimalist outfits, but dislikes business casual, athleisure wear.",
+            "topic": [],
+            "original_id": "QA_sample_c664c226",
+            "original_question": "the image, what is Selina Gonzalez most likely to be doing?"
+        }
+    },
+    {
+        "id": "LifeSim_aada18cc",
+        "domain": "LifeSim",
+        "category": "Preference_QA",
+        "question": "Based on Fig. e85db5a3, What's a simple, portable food Jennifer Zamora can pair with a sweet drink to avoid a sugar crash?",
+        "answer": "almonds",
+        "evidence": {
+            "image_evidence": [
+                "LifeSim_76f2d70a.png"
+            ]
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "granola bar",
+                "rice cakes",
+                "almonds",
+                "banana"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_nature_education_health_802f9036",
+                    "insert_conversation_turn": 365,
+                    "reference_name": "Fig. e85db5a3"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "conv_history_name": "user_assistant_conversation_3db22207.json",
+            "preference_user_name": "Jennifer Zamora",
+            "original_question": "What's a simple, portable food Jennifer Zamora can pair with a sweet drink to avoid a sugar crash?"
+        }
+    },
+    {
+        "id": "LifeSim_a5e9591c",
+        "domain": "LifeSim",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 2be6c7db, What is a recommended tool for aiding concentration and effective learning in noisy, socially active environments?",
+        "answer": "noise-canceling headphones",
+        "evidence": {
+            "image_evidence": [
+                "LifeSim_41cb359d.png"
+            ]
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "focus-enhancing supplements",
+                "white noise app",
+                "noise-canceling headphones",
+                "standing desk"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_nature_education_health_802f9036",
+                    "insert_conversation_turn": 194,
+                    "reference_name": "Fig. 2be6c7db"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "conv_history_name": "user_assistant_conversation_32aece15.json",
+            "preference_user_name": "Saniya Mosley",
+            "original_question": "What is a recommended tool for aiding concentration and effective learning in noisy, socially active environments?"
+        }
+    },
+    {
+        "id": "LifeSim_09531f59",
+        "domain": "LifeSim",
+        "category": "Preference_QA",
+        "question": "Based on Fig. b77221aa, Which compact and discrete umbrella does Lilianna Colon prefer for staying dry without drawing attention?",
+        "answer": "Repel Windproof Travel Umbrella",
+        "evidence": {
+            "image_evidence": [
+                "LifeSim_f169af1a.png"
+            ]
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "Marmot Mini Umbrella",
+                "Patagonia Torrentshell Jacket",
+                "Blunt Metro Umbrella",
+                "Repel Windproof Travel Umbrella"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_films_literature_food_20adc6fc",
+                    "insert_conversation_turn": 626,
+                    "reference_name": "Fig. b77221aa"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "conv_history_name": "user_assistant_conversation_e9d31fac.json",
+            "preference_user_name": "Lilianna Colon",
+            "original_question": "Which compact and discrete umbrella does Lilianna Colon prefer for staying dry without drawing attention?"
+        }
+    }
+]

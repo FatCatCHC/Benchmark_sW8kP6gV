@@ -1,0 +1,2144 @@
+[
+    {
+        "id": "QA_sample_6e0c135b",
+        "domain": "MLLMKC",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. 46c73515, What are the main products of this brand?",
+        "answer": "online marketplace for lodging and tourism experiences",
+        "evidence": {
+            "text_evidence": [
+                "Airbnb was created in 2008. The creators of Airbnb are Brian Chesky, Joe Gebbia, and Nathan Blecharczyk. Airbnb is the brand of an online marketplace for lodging and tourism experiences."
+            ],
+            "image_evidence": [
+                "MLLMKC_a349320a.jpg"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Airbnb was created in 2008. The creators of Airbnb are Brian Chesky, Joe Gebbia, and Nathan Blecharczyk. Airbnb is the brand of an online marketplace for clothing and fashion accessories."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "clothing and fashion accessories",
+                "home decor and furniture",
+                "gourmet food and beverages",
+                "online marketplace for lodging and tourism experiences"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_environment_animals_economy_4b965250",
+                    "insert_conversation_turn": 234
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_nature_films_fashion_f3c49653",
+                    "insert_conversation_turn": 921,
+                    "reference_name": "Fig. 46c73515"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_lifestyle_food_nature_eace8e98",
+                    "insert_conversation_turn": 7
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "instance": "Airbnb",
+            "category": "logo",
+            "error_type": "content_error",
+            "topic": [
+                "travel",
+                " business",
+                " technology"
+            ],
+            "original_question": "What are the main products of this brand?"
+        }
+    },
+    {
+        "id": "QA_sample_dca62d6c",
+        "domain": "MMCV",
+        "category": "Multi_Hop_QA",
+        "question": "Based on Table. 0bbd3563, Which country participating in significant global banana production also hosts an annual kite festival during spring?",
+        "answer": "China",
+        "evidence": {
+            "text_evidence": [
+                "In 2016, world production of bananas and plantains was 148 million tonnes, led by India and China with a combined total (only for bananas) of 28% of global production (table). Other major producers were the Philippines, Ecuador, Indonesia, and Brazil, together accounting for 20% of the world total of bananas and plantains (table)."
+            ],
+            "image_evidence": [],
+            "table_evidence": [
+                {
+                    "title": "List of kite festivals",
+                    "table_name": "Annual kite festivals",
+                    "table_header": [
+                        "Initial Year",
+                        "Season",
+                        "Month",
+                        "Day(s)",
+                        "Event Name",
+                        "Last years attendance",
+                        "Continent",
+                        "Country",
+                        "Region",
+                        "City",
+                        "Venue",
+                        "Notes",
+                        "Website"
+                    ],
+                    "table_rows": [
+                        [
+                            "1929",
+                            "Spring",
+                            "March",
+                            "",
+                            "Zilker Annual Kite Festival",
+                            "30,000",
+                            "North America",
+                            "United States",
+                            "Southwestern United States",
+                            "Austin, TX",
+                            "Zilker Park",
+                            "Oldest continuously operating kite festival.",
+                            "http://www.abckitefestival.com"
+                        ],
+                        [
+                            "1967",
+                            "Spring",
+                            "March or April",
+                            "Last Saturday of March or first Saturday of April",
+                            "Blossom Kite Festival (formerly Smithsonian Kite Festival)",
+                            "",
+                            "North America",
+                            "United States",
+                            "Eastern United States",
+                            "Washington, D.C.",
+                            "National Mall",
+                            "National Cherry Blossom Festival",
+                            "https://nationalcherryblossomfestival.org/event/blossom-kite-festival/"
+                        ],
+                        [
+                            "1977",
+                            "Autumn",
+                            "September",
+                            "Second Sunday",
+                            "Bondi Beach Festival of the Winds",
+                            "40,000",
+                            "Australia",
+                            "Australia",
+                            "NSW",
+                            "Sydney",
+                            "Bondi Beach",
+                            "",
+                            ""
+                        ],
+                        [
+                            "1978",
+                            "Summer",
+                            "September",
+                            "First weekend after Labor Day",
+                            "[http://www.giftofwings.com/cgi-bin/SoftCart.exe/events/frankmots/index.html?L+mystore1+yqfj3562ff7d0f7d+1400875708 Frank Mots International Kite Festival]",
+                            "60,000",
+                            "North America",
+                            "United States",
+                            "Midwest",
+                            "Milwaukee, Wisconsin",
+                            "Veteran's Park",
+                            "Coordinated by the Kite Society of Wisconsin and Illinois with Gift of Wings",
+                            "http://www.giftofwings.com/cgi-bin/SoftCart.exe/events/frankmots/index.html?L+mystore1+yqfj3562ff7d0f7d+1400875708 Frank Mots International Kite Festival"
+                        ],
+                        [
+                            "1979",
+                            "",
+                            "October",
+                            "",
+                            "Bali Kite Festival",
+                            "",
+                            "Asia",
+                            "Indonesia",
+                            "Bali",
+                            "Denpasar",
+                            "Padang Galak beach, Sanur",
+                            "",
+                            ""
+                        ],
+                        [
+                            "1984",
+                            "Spring",
+                            "April",
+                            "Third weekend",
+                            "Weifang International Kite Festival",
+                            "",
+                            "Asia",
+                            "China",
+                            "Shandong Province",
+                            "Weifang",
+                            "Binhai beach",
+                            "",
+                            "http://www.weifangkitefestival.com/"
+                        ],
+                        [
+                            "1986",
+                            "Spring",
+                            "April",
+                            "9 days",
+                            "Berck Sur Mer International Kite Festival",
+                            "700,000",
+                            "Europe",
+                            "France",
+                            "Pas de Calais",
+                            "Berck Sur Mer",
+                            "Berck Sur Mer beach",
+                            "",
+                            "http://www.cerf-volant-berck.com/"
+                        ],
+                        [
+                            "1986",
+                            "",
+                            "",
+                            "",
+                            "Berkeley Kite Festival",
+                            "",
+                            "North America",
+                            "United States",
+                            "South-Western United States",
+                            "Berkeley, California",
+                            "Cesar Chavez park Berkeley Marina",
+                            "",
+                            ""
+                        ],
+                        [
+                            "1986",
+                            "",
+                            "September",
+                            "",
+                            "Bristol International Kite Festival",
+                            "30,000",
+                            "Europe",
+                            "England",
+                            "North Somerset",
+                            "Bristol",
+                            "Ashton Court estate",
+                            "",
+                            ""
+                        ],
+                        [
+                            "1989",
+                            "",
+                            "January",
+                            "14-15",
+                            "International Kite Festival India",
+                            "500,000",
+                            "Asia",
+                            "India",
+                            "Gujarat",
+                            "Ahmedabad",
+                            "Sabarmati River Front @ Ashram Road",
+                            "",
+                            ""
+                        ],
+                        [
+                            "1991",
+                            "Summer",
+                            "August",
+                            "",
+                            "Portsmouth International Kite Festival",
+                            "",
+                            "Europe",
+                            "United Kingdom",
+                            "South East England",
+                            "Portsmouth, Hampshire County",
+                            "Southsea Common",
+                            "Listed as one of the 23 biggest kite festivals in the world",
+                            "http://www.portsmouthkitefestival.org.uk/"
+                        ],
+                        [
+                            "1996",
+                            "",
+                            "August",
+                            "Third weekend",
+                            "Washington State International Kite Festival",
+                            "100,000",
+                            "North America",
+                            "United States",
+                            "Washington (state)",
+                            "Long Beach, Washington",
+                            "Long Beach",
+                            "",
+                            "http://kitefestival.com/"
+                        ],
+                        [
+                            "1999",
+                            "Autumn",
+                            "April",
+                            "Usually close to Easter",
+                            "Festival of the Wind",
+                            "",
+                            "Australia",
+                            "Australia",
+                            "Central Queensland",
+                            "Emu Park, Queensland",
+                            "Fishermans Beach",
+                            "Local Lions Club event, organised as an alcohol-free family day with free entry",
+                            "https://www.festivalofthewind.com/"
+                        ],
+                        [
+                            "2001",
+                            "Winter",
+                            "February",
+                            "Third Saturday",
+                            "Color the Wind",
+                            "7,500",
+                            "North America",
+                            "United States",
+                            "Midwestern United States",
+                            "Clear Lake, Iowa",
+                            "",
+                            "Largest Winter kite festival in the Midwest, held on the frozen waters of a 3600-acre lake.",
+                            "http://www.colorthewind.org"
+                        ],
+                        [
+                            "2001",
+                            "",
+                            "January",
+                            "",
+                            "Windless Kite Festival",
+                            "",
+                            "North America",
+                            "United States",
+                            "North-western United States",
+                            "Long Beach, Washington",
+                            "Long Beach School Gymnasium",
+                            "Indoor kite festival",
+                            "http://kitefestival.com/events/windless-kite-festival/"
+                        ],
+                        [
+                            "2004",
+                            "",
+                            "",
+                            "",
+                            "Windscape Kite Festival [http://www.windscapekitefestival.ca/ WindscapeKiteFestival.ca].",
+                            "",
+                            "North America",
+                            "Canada",
+                            "Western Canada",
+                            "Swift Current",
+                            "Marston Street and 11th Avenue SW",
+                            "",
+                            ""
+                        ],
+                        [
+                            "2006",
+                            "Summer",
+                            "August",
+                            "Labor Day Weekend",
+                            "Kites Over Lake Michigan",
+                            "30,000",
+                            "North America",
+                            "United States",
+                            "Midwestern United States",
+                            "Two Rivers, Wisconsin",
+                            "",
+                            "Largest summer kite festival in the Midwest. Held along Lake Michigan.",
+                            "http://www.uniqueflyingobjects.com/index.php?main_page=index&cPath=116"
+                        ],
+                        [
+                            "2008",
+                            "",
+                            "",
+                            "",
+                            "NTUC Income Kite Festival Singapore",
+                            "250,000",
+                            "Asia",
+                            "Singapore",
+                            "",
+                            "Singapore",
+                            "The Promontory @ Marina Bay",
+                            "",
+                            ""
+                        ],
+                        [
+                            "2010",
+                            "",
+                            "",
+                            "",
+                            "Dieppe Kite International \"[http://www.dieppe.ca/en/vivreadieppe/internationalducerfvolant.asp Dieppe Kite International] \", KnowNewBrunswick.com.",
+                            "30,000",
+                            "North America",
+                            "Canada",
+                            "Atlantic Canada",
+                            "Dieppe",
+                            "Dover Park",
+                            "",
+                            ""
+                        ],
+                        [
+                            "2012",
+                            "Summer",
+                            "January",
+                            "",
+                            "Jeevan Kite & River Festival, Guwahati",
+                            "",
+                            "Asia",
+                            "India",
+                            "Assam",
+                            "Lower Assam",
+                            "Guwahati",
+                            "",
+                            ""
+                        ],
+                        [
+                            "2014",
+                            "Summer",
+                            "March",
+                            "March",
+                            "Festival de pipas de Osasco",
+                            "",
+                            "South America",
+                            "Brazil",
+                            "Southern Brazil",
+                            "Osasco, São Paulo state",
+                            "",
+                            "",
+                            ""
+                        ],
+                        [
+                            "1969",
+                            "May",
+                            "Third Saturday",
+                            "Franklin Park Kite and Bike Festival   (Formerly Great Boston Kite Festival)",
+                            "",
+                            "North America",
+                            "United States",
+                            "Northeastern",
+                            "Boston, Massachusetts",
+                            "Franklin Park",
+                            "",
+                            "",
+                            ""
+                        ],
+                        [
+                            "1986",
+                            "Summer",
+                            "July",
+                            "Second weekend of July",
+                            "Newport Kite Festival",
+                            "30,000",
+                            "North America",
+                            "United States",
+                            "Northeastern United States",
+                            "Newport, RI",
+                            "Brenton Point State Park",
+                            "",
+                            "https://www.newportkitefestival.com"
+                        ]
+                    ]
+                }
+            ],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "China",
+                "United States",
+                "Indonesia",
+                "India"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_nature_films_fashion_f3c49653",
+                    "insert_conversation_turn": 984
+                }
+            ],
+            "image_evidence_assignment": [],
+            "table_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_environment_animals_economy_4b965250",
+                    "insert_conversation_turn": 637,
+                    "reference_name": "Table. 0bbd3563"
+                }
+            ],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "travel",
+                "agriculture"
+            ],
+            "original_question": "Which country participating in significant global banana production also hosts an annual kite festival during spring?"
+        }
+    },
+    {
+        "id": "QA_sample_9c56672c",
+        "domain": "MMCV",
+        "category": "Multi_Hop_QA",
+        "question": "Based on Table. e45b6ac3, Which company that owns a subsidiary focused on strategic games was the publisher of a video game series in 2004 and created a board game with reversed Monopoly rules in 1965?",
+        "answer": "Avalon Hill",
+        "evidence": {
+            "text_evidence": [
+                "Squander (written as \"$QUANDER\" on the box and in the rules) is an Avalon Hill board game published in 1965. It is based loosely on the game Monopoly, but in reverse. As in Monopoly, players roll dice and move around a board, encountering opportunities to make financial decisions. The object, however, is to lose money rather than gain it. Each player starts with a million \"Squanderbucks\" and the winner is the first player to become bankrupt.",
+                "Avalon Hill Games Inc. is a game company that specializes in wargames and strategic board games. Its logo contains its initials \"AH\", and the company is often referred to by this abbreviation. It has also published the occasional miniature wargaming rules, role-playing game, and had a popular line of sports simulations. It is now a subsidiary of the game company Wizards of the Coast, which is itself a subsidiary of Hasbro."
+            ],
+            "image_evidence": [],
+            "table_evidence": [
+                {
+                    "title": "Coresoft",
+                    "table_name": "Games developed",
+                    "table_header": [
+                        "Year",
+                        "Title",
+                        "System",
+                        "Publisher"
+                    ],
+                    "table_rows": [
+                        [
+                            "2000",
+                            "Magic: The Gathering Starter 6th Edition",
+                            "PC",
+                            "Wizards of the Coast"
+                        ],
+                        [
+                            "2001",
+                            "Magic: The Gathering Starter 7th Edition",
+                            "PC",
+                            "Wizards of the Coast"
+                        ],
+                        [
+                            "2001",
+                            "Saltwater Sportfishing",
+                            "PS",
+                            "Take-Two Interactive"
+                        ],
+                        [
+                            "2001",
+                            "Cabela's Big Game Hunter: Ultimate Challenge",
+                            "PS",
+                            "Activision"
+                        ],
+                        [
+                            "2002",
+                            "Big Bass Fishing",
+                            "PS",
+                            "Take-Two Interactive"
+                        ],
+                        [
+                            "2002",
+                            "Cabelas Ultimate Deer Hunt: Open Season",
+                            "PS",
+                            "Activision"
+                        ],
+                        [
+                            "2003",
+                            "Big Strike Bowling",
+                            "PS",
+                            "Gotham Games"
+                        ],
+                        [
+                            "2003",
+                            "MTV's Celebrity Deathmatch",
+                            "PS",
+                            "Gotham Games"
+                        ],
+                        [
+                            "2003",
+                            "Deer Hunter",
+                            "PS2",
+                            "Atari"
+                        ],
+                        [
+                            "2004",
+                            "Magic: The Gathering Core Game 8th Edition",
+                            "PC",
+                            "Wizards of the Coast"
+                        ],
+                        [
+                            "2004",
+                            "World Championship Poker",
+                            "PS2 Xbox",
+                            "Crave Entertainment"
+                        ],
+                        [
+                            "2005",
+                            "Magic: The Gathering Core Game 9th Edition",
+                            "PC",
+                            "Wizards of the Coast"
+                        ],
+                        [
+                            "2005",
+                            "World Poker Tour",
+                            "PS2 Xbox PSP",
+                            "Take-Two Interactive"
+                        ],
+                        [
+                            "2006",
+                            "Lets Ride: Silver Buckle Stables",
+                            "PS2 PC",
+                            "ValuSoft Games"
+                        ],
+                        [
+                            "2006",
+                            "World Poker Championship 2: Final Table Championship",
+                            "PC",
+                            "ValuSoft Games"
+                        ],
+                        [
+                            "2006",
+                            "NHRA Drag Racing: Quarter Mile Showdown",
+                            "PC",
+                            "ValuSoft Games"
+                        ],
+                        [
+                            "2007",
+                            "World Championship Paintball",
+                            "PS2",
+                            "THQ"
+                        ],
+                        [
+                            "2007",
+                            "High Stakes on the Vegas Strip: Poker Edition",
+                            "PS3",
+                            "Sony Online Entertainment"
+                        ],
+                        [
+                            "2008",
+                            "Cake Mania: Bakers Challenge",
+                            "PS2 PSP",
+                            "Destineer"
+                        ],
+                        [
+                            "2009",
+                            "Arcade Super Sniper 1 & 2",
+                            "iOS",
+                            "Coresoft"
+                        ],
+                        [
+                            "2009",
+                            "Fantasy Aquarium World",
+                            "Wii",
+                            "Destineer"
+                        ],
+                        [
+                            "2010",
+                            "Blood Beach",
+                            "iOS WiiWare",
+                            "Coresoft"
+                        ]
+                    ]
+                }
+            ],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "Parker Brothers",
+                "Wizards of the Coast",
+                "Hasbro",
+                "Avalon Hill"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_lifestyle_food_nature_eace8e98",
+                    "insert_conversation_turn": 48
+                },
+                {
+                    "conversation_name": "group_chat_environment_animals_economy_4b965250",
+                    "insert_conversation_turn": 595
+                }
+            ],
+            "image_evidence_assignment": [],
+            "table_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_nature_films_fashion_f3c49653",
+                    "insert_conversation_turn": 398,
+                    "reference_name": "Table. e45b6ac3"
+                }
+            ],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "Board games",
+                "video games"
+            ],
+            "original_question": "Which company that owns a subsidiary focused on strategic games was the publisher of a video game series in 2004 and created a board game with reversed Monopoly rules in 1965?"
+        }
+    },
+    {
+        "id": "QA_sample_cb90e90d",
+        "domain": "MMCV",
+        "category": "Multi_Hop_QA",
+        "question": "Based on Table. 97ea2795, Which HexaDrive-backed game playable on a console that supports The Legend of Zelda: Breath of the Wild was published by a company known for the Metal Gear Solid series?",
+        "answer": "Super Bomberman R",
+        "evidence": {
+            "text_evidence": [
+                "The Legend of Zelda: Breath of the Wild[a] is an action-adventure game developed and published by Nintendo. A part of The Legend of Zelda series, it was released for the Nintendo Switch and Wii U consoles on March 3, 2017. The story follows Link, who awakens from a hundred-year slumber to a mysterious voice that guides him to defeat Calamity Ganon before he can destroy the kingdom of Hyrule."
+            ],
+            "image_evidence": [],
+            "table_evidence": [
+                {
+                    "title": "HexaDrive",
+                    "table_name": "Games",
+                    "table_header": [
+                        "Year",
+                        "Title",
+                        "Publisher",
+                        "Genre",
+                        "Platform(s)"
+                    ],
+                    "table_rows": [
+                        [
+                            "2008",
+                            "Rez HD",
+                            "Q Entertainment",
+                            "Rail shooter, music game",
+                            "Xbox 360"
+                        ],
+                        [
+                            "2010",
+                            "The 3rd Birthday",
+                            "Square Enix",
+                            "Role-playing shooter, survival horror",
+                            "PlayStation Portable"
+                        ],
+                        [
+                            "2012",
+                            "Metal Gear Solid: Snake Eater 3D",
+                            "Konami",
+                            "Stealth action",
+                            "Nintendo 3DS"
+                        ],
+                        [
+                            "2012",
+                            "Demons' Score http://hexadrive.jp/product/page/3/",
+                            "Square Enix",
+                            "Rhythm action game",
+                            "Android, iOS"
+                        ],
+                        [
+                            "2012",
+                            "Ōkami HD",
+                            "Capcom",
+                            "Action adventure",
+                            "PlayStation 3"
+                        ],
+                        [
+                            "2012",
+                            "E.X. Troopers",
+                            "Capcom",
+                            "Third-person shooter",
+                            "PlayStation 3"
+                        ],
+                        [
+                            "2012",
+                            "Metal Gear Solid: Social Ops",
+                            "Konami",
+                            "Action, Turn Based Strategy, Trading Card Game",
+                            "Android, iOS"
+                        ],
+                        [
+                            "2013",
+                            "Zone of the Enders: The 2nd Runner HD Edition",
+                            "Konami",
+                            "Action",
+                            "PlayStation 3"
+                        ],
+                        [
+                            "2013",
+                            "The Wonderful 101",
+                            "Nintendo",
+                            "Action adventure",
+                            "Wii U"
+                        ],
+                        [
+                            "2013",
+                            "The Legend of Zelda: The Wind Waker HD",
+                            "Nintendo",
+                            "Action adventure",
+                            "Wii U"
+                        ],
+                        [
+                            "2014",
+                            "Monster Hunter Freedom Unite for iOS",
+                            "Capcom",
+                            "Action role-playing game",
+                            "iOS"
+                        ],
+                        [
+                            "2014",
+                            "King Radishs Ambition http://daikooon.jp/",
+                            "HexaDrive",
+                            "Tower defense",
+                            "Android, iOS"
+                        ],
+                        [
+                            "2015",
+                            "Final Fantasy Type-0 HD",
+                            "Square Enix",
+                            "Action role-playing game",
+                            "PlayStation 4, Xbox One, Microsoft Windows"
+                        ],
+                        [
+                            "2015",
+                            "Rampage Land Rankers",
+                            "Square Enix",
+                            "Role-playing game",
+                            "Android, iOS"
+                        ],
+                        [
+                            "2016",
+                            "Final Fantasy XV",
+                            "Square Enix",
+                            "Role-playing game",
+                            "PlayStation 4, Xbox One, Microsoft Windows"
+                        ],
+                        [
+                            "2017",
+                            "Super Bomberman R",
+                            "Konami",
+                            "Action",
+                            "Nintendo Switch"
+                        ],
+                        [
+                            "2017",
+                            "Mario Sports Superstars http://hexadrive.jp/product/",
+                            "Nintendo",
+                            "Sports",
+                            "Nintendo 3DS"
+                        ],
+                        [
+                            "2017",
+                            "Resident Evil 7: Not a Hero",
+                            "Capcom",
+                            "First-person shooter, survival horror",
+                            "PlayStation 4, Xbox One, Microsoft Windows"
+                        ],
+                        [
+                            "2017",
+                            "Ōkami HD",
+                            "Capcom",
+                            "Action adventure",
+                            "PlayStation 4, Xbox One, Microsoft Windows"
+                        ],
+                        [
+                            "2019",
+                            "Monkey King: Hero Is Back",
+                            "THQ Nordic/Oasis Games",
+                            "Action",
+                            "PlayStation 4, Microsoft Windows"
+                        ]
+                    ]
+                }
+            ],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Super Bomberman R",
+                "Zone of the Enders: The 2nd Runner HD Edition",
+                "Metal Gear Solid: Social Ops",
+                "Metal Gear Solid: Snake Eater 3D"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_nature_films_fashion_f3c49653",
+                    "insert_conversation_turn": 628
+                }
+            ],
+            "image_evidence_assignment": [],
+            "table_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_environment_animals_economy_4b965250",
+                    "insert_conversation_turn": 566,
+                    "reference_name": "Table. 97ea2795"
+                }
+            ],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "video games"
+            ],
+            "original_question": "Which HexaDrive-backed game playable on a console that supports The Legend of Zelda: Breath of the Wild was published by a company known for the Metal Gear Solid series?"
+        }
+    },
+    {
+        "id": "QA_sample_e2f0f7af",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 55b3cf93, the text, which element of the displayed infographic demonstrates the use of \"good design practices\" related to effective negative space?",
+        "answer": "The grid lines and spaced sections separating categories like '8 Common Types of Infographics,' 'Searches for Infographic,' and '6 Rules for Responsible Infographicking.'",
+        "evidence": {
+            "text_evidence": [
+                "When visualizing data, it is critical to maximize readability and engagement while adhering to good design practices. It is recommended to use a three-color palette with effective contrast and ensure the text remains clean and legible. Additionally, cited sources and logical flow should enhance trust and comprehension. Infographics are visually appealing and 30 times more likely to be read than text articles, making them an effective communication tool. However, improper designs could lead to clarity issues or disengagement."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_059ca8fe.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "The use of color-coded titles paired with white areas to define specific sections",
+                "The alignment of text blocks to emphasize distinct areas",
+                "The grid lines and spaced sections separating categories like '8 Common Types of Infographics,' 'Searches for Infographic,' and '6 Rules for Responsible Infographicking.'",
+                "The separation of icons from text within '8 Common Types of Infographics'"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_environment_animals_economy_4b965250",
+                    "insert_conversation_turn": 536
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_nature_films_fashion_f3c49653",
+                    "insert_conversation_turn": 702,
+                    "reference_name": "Fig. 55b3cf93"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "art and design",
+                "education"
+            ],
+            "original_question": "the text, which element of the displayed infographic demonstrates the use of \"good design practices\" related to effective negative space?"
+        }
+    },
+    {
+        "id": "e2023cb5",
+        "domain": "MMDocRAG",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 98e7d55d, Doc. 07011e1f, Doc. 28e8164f, Which shapes does the slide use to illustrate the closure aspect of Gestalt Principle of Visual Perception?",
+        "answer": "Circle, Rectangle",
+        "evidence": {
+            "text_evidence": [],
+            "image_evidence": [
+                "MMDocRAG_3fec4c6d.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": [
+                [
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Gestalt Principles of Visual Perception "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Gestalt Principles of Visual Perception "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "perceptual ly grouped together if they form a pattern that is regular,  simple, and orderly. This law implies that as individuals perceive the  world, they eliminate complexity and unfamiliarity so they can  observe a reality in its most simplistic form. Eliminating extraneous  stimuli helps the mind create meaning.  "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_7704c542.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_f46978cc.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "This meaning created by perception implies a global regularity,  which is often mentally prioritized over spatial relations. The law of  good gestalt focuses on the idea of conciseness, which is what all of  gestalt theory is based on.  "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Gestalt Principles of Visual Perception "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Gestalt psychology was conceived in the Berlin School of Experimental Psychology,  and tries to understand the laws of our ability to acquire and maintain meaningful  perceptions.  "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_026df355.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_3b8a7fc5.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "together, and therefore integrated into perceptual wholes if they  are aligned within an object. In cases where there is an intersection  between objects, individuals tend to perceive the two objects as  two single uninterrupted entities.  "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Gestalt Principles of Visual Perception "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Closure.   We tend to perceive objects such as shapes,  letters, pictures, etc., as being whole when they are not complete.  Specifically, when parts of a whole picture are missing, our  perception fills in the visual gap.  "
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_d3e7fdca.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Key principle: when the human mind perceives a form, the whole has a reality of  its own, independent of the parts.  "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Proximity.  We tend to see objects that are visually close  together as belonging to part of a group. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "This allowed the development of 8 Gestalt Laws of Grouping. Here we are  highlighting only the most relevant 5 for data presentation. You can read more  details about them on Wikipedia:  https://en.wikipedia.org/wiki/Gestalt psychology "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_7ef69bca.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_a790af48.png"
+                        }
+                    }
+                ]
+            ]
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Rows of circles",
+                "Circle, Rectangle",
+                "Bar chart",
+                "Spiral"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_environment_animals_economy_4b965250",
+                    "insert_conversation_turn": 753,
+                    "reference_name": "Fig. 98e7d55d"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_nature_films_fashion_f3c49653",
+                    "insert_conversation_turn": 515,
+                    "reference_name": "Doc. 07011e1f"
+                },
+                {
+                    "conversation_name": "group_chat_lifestyle_food_nature_eace8e98",
+                    "insert_conversation_turn": 904,
+                    "reference_name": "Doc. 28e8164f"
+                }
+            ]
+        },
+        "meta_data": {
+            "category": "Tutorial/Workshop",
+            "doc_name": "0e94b4197b10096b1f4c699701570fbf",
+            "gold_quotes": [
+                "text9",
+                "image5"
+            ],
+            "topic": [
+                "art and design",
+                " education"
+            ],
+            "original_question": "Which shapes does the slide use to illustrate the closure aspect of Gestalt Principle of Visual Perception?"
+        }
+    },
+    {
+        "id": "5b8abc8c",
+        "domain": "MMDocRAG",
+        "category": "Single_Hop_QA",
+        "question": "Based on Doc. 863be517, Doc. bcfc16a8, Doc. 0b3eec05, Doc. 3542d8cb, What are the design flaws highlighted in the retro cinematic-themed graphic?",
+        "answer": "Bad fonts, bad colors, and bad spacing are highlighted as design flaws.",
+        "evidence": {
+            "text_evidence": [],
+            "image_evidence": [],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": [
+                [
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "USE ICONOGRAPHY "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "IDEASARE 6.5X MORE LIKELY TO BE REMEMBERED IF PRESENTED AS AVISUAL "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "TO VISUALIZE POINTS "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_5e22f90c.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_218f14ba.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "USE EMOTIVE VISUALS ONEPOINTPER SLIDE "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "FONT CHOICE LET YOUR SLIDE BREATHE "
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "STORIFY YOUR PRESENTATION "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_4fb6e5f2.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_c5787a8c.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "TO CREATE A DECK THAT WILL BE.. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "THE POWER DF VISUALS "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "ASTERISKS KICKED "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_6a94a6be.png"
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_cfa0f5b2.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "CHOOSE A MATCHING COLOR SCHEME STICK TO A THEME "
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "VISUALIZE "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "GET CREATIVE WITH BULLET POINTS "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_da30627f.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_352398f5.png"
+                        }
+                    }
+                ]
+            ]
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Bad fonts, bad colors, and bad spacing are highlighted as design flaws.",
+                "Overuse of emotive visuals, excessive animation, and unclear slide transitions",
+                "Too many bullet points, lack of visual hierarchy, and inconsistent iconography",
+                "Crowded slides, mismatched imagery, and distracting backgrounds"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [],
+            "image_evidence_assignment": [],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_environment_animals_economy_4b965250",
+                    "insert_conversation_turn": 522,
+                    "reference_name": "Doc. 863be517"
+                },
+                {
+                    "conversation_name": "group_chat_environment_animals_economy_4b965250",
+                    "insert_conversation_turn": 423,
+                    "reference_name": "Doc. bcfc16a8"
+                },
+                {
+                    "conversation_name": "group_chat_lifestyle_food_nature_eace8e98",
+                    "insert_conversation_turn": 113,
+                    "reference_name": "Doc. 0b3eec05"
+                },
+                {
+                    "conversation_name": "group_chat_lifestyle_food_nature_eace8e98",
+                    "insert_conversation_turn": 587,
+                    "reference_name": "Doc. 3542d8cb"
+                }
+            ]
+        },
+        "meta_data": {
+            "category": "Tutorial/Workshop",
+            "doc_name": "avalaunchpresentationsthatkickasteriskv3copy-150318114804-conversion-gate01_95",
+            "gold_quotes": [
+                "text5",
+                "image5",
+                "text10"
+            ],
+            "topic": [
+                "art and design",
+                " education"
+            ],
+            "original_question": "What are the design flaws highlighted in the retro cinematic-themed graphic?"
+        }
+    },
+    {
+        "id": "QA_sample_40f467c4",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 07377199, the text, which YouTube gaming channel depicted in the image meets the criteria for \"exceptional overall performance\"?",
+        "answer": "FavijTV™",
+        "evidence": {
+            "text_evidence": [
+                "A YouTube channel's overall performance is considered exceptional if it has over 1 million subscribers and more than 1 billion total video views. Note that total subscribers and video views for all channels are provided on the graph, along with the top 5 channels ranked separately for subscribers and video views."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_02438152.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "876TV",
+                "Achievement Hunter",
+                "AA9skillz",
+                "FavijTV™"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_nature_films_fashion_f3c49653",
+                    "insert_conversation_turn": 252
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_lifestyle_food_nature_eace8e98",
+                    "insert_conversation_turn": 537,
+                    "reference_name": "Fig. 07377199"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "video games"
+            ],
+            "original_question": "the text, which YouTube gaming channel depicted in the image meets the criteria for \"exceptional overall performance\"?"
+        }
+    },
+    {
+        "id": "ac0f26e7",
+        "domain": "MMDocRAG",
+        "category": "Single_Hop_QA",
+        "question": "Based on Doc. 7504f867, Doc. e0e8189e, Doc. 17a28202, Which page of the guidebook refers to the most central part of San Francisco? Return me an integer.",
+        "answer": "178",
+        "evidence": {
+            "text_evidence": [],
+            "image_evidence": [],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": [
+                [
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "M   Take the  California cable car  to  pagoda-topped Grant St for an eye- opening  Red Blossom  tea tasting and  then a jaw-dropping history of Chinatown  at the  Chinese Historical Society of  America . Wander temple-lined  Waverly  Place  and notorious  Ross Alley  to find  your fortune at the  Golden Gate Fortune  Cookie Company . "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "(above)   Clam chowder  served in a bread bowl  (left)   The ‘Painted  Ladies’ Victorian  mansions at  Alamo  Square Park (p181) (right) Crane in Crissy  Field (p55) "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "ging  Lombard Street  to the  San Fran­ cisco Maritime National Historical  Park , where you can see what it was like  to stow away on a schooner. Save the world  from Space Invaders at  Musée Mécan­ ique  or enter underwater stealth mode  inside a real WWII submarine: the  USS  Pampanito . Watch sea lions cavort as the  "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_4d91685c.png"
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_f38b18ce.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "1  Cable Car Museum...............D5   Diego Rivera Gallery....(see 11)   2  Filbert Street Hill...................B2   3  George Sterling Park............A2   4  Grace Cathedral................... D6   5  Huntington Park................... D6   6  Ina Coolbrith Park................ D3   7  Jack Kerouac's Love Shack.B3   8  Lombard Street.....................B1   9  Macondray Lane.................. C3   10  Masonic Auditorium &   Temple ............................... D6  11  San Francisco Art   Institute...............................C1   12  Vallejo Street Steps............. D3   "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "NoPa boutiques . Stroll tree-lined Pan­ handle park to Stanyan, then window-shop  your way down hippie-historic  Haight  Street  past record stores, vintage empori­ "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "North Beach\n & Chinatown\b................ 112 Nob Hill, Russian Hill\n & Fillmore\b....................  128 The Mission\n & Potrero Hill\b..............  144 The Castro\n & Noe Valley\b ................. 167 "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_e4e482f7.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_d02c4f05.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "M   Wander 24th St past mural-covered  bodegas to  Balmy Alley , where the  Mission muralist movement began in the  1970s. Stop for a ‘secret breakfast’ (bour­ bon and cornflakes) ice-cream sundae at  Humphry Slocombe , then head up Va­ lencia to  Ritual Coffee Roasters . Pause  for pirate supplies and Fish Theater at  826  Valencia  and duck into  Clarion Alley ,  the Mission’s outdoor graffiti-art gallery.  See San Francisco’s first building, Span­ ish adobe  Mission Dolores , and visit the  memorial to the Native Ohlone who built it. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Welcome to San \n Francisco \b ......................... 4 San Francisco’s Top 10\b... 6 What’s New \b................... 13 Need to Know\b................ 14 Top Itineraries\b............... 16 "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "M   Grab a leather strap on the Powell- Mason cable car and hold on: you’re  in for hills and thrills. Hop off at  Washing­ ton Square Park , where parrots squawk  encouragement for your hike up to  Coit  Tower  for Work Projects Administration  (WPA) murals and 360-degree panoramas.  Take scenic  Filbert Street Steps  to the  Em b arcade ro  to wander across Fog Bridge  and explore the freaky Tactile Dome at the  Exp lora to rium . "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_83120e2c.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_b45f72b1.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": " Fisherman’s Wharf (p289)  The Piers (p290)  The Presidio (p291)  The Marina (p292)  Union Square (p294)  Civic Center & \n the Tenderloin (p296)  SoMa (p298)  Financial District (p301)  The Mission (p302)  Potrero Hill (p305)  Russian & Nob Hills (p306)  North Beach \n & Chinatown (p308)  Japantown \n & Pacific Heights (p310)  Noe Valley (p311)  The Castro (p312)  The Haight (p314)  Hayes Valley (p316)  Golden Gate Park & the  Avenues (p318) 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "The Haight, NoPa \n & Hayes Valley\b............. 178 Golden Gate Park \n & the Avenues\b .............  193 "
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Downtown, Civic Center & SoMa; North Beach & Chinatown; The Mission &  Potrero Hill; Golden Gate Park & the Avenues; The Haight, NoPa & Hayes  Valley  Alison has done most things travelers are supposed to do and many you  definitely shouldn’t, including making room for the chickens, accepting dinner in­ vitations from cults, and trusting the camel to know the way. She has survived to  tell tales for Lonely Planet, NPR, BBC Travel, the  Telegraph ,  New York Times  and  other global media. Alison also wrote the Plan Your Trip and Understand San Francisco sections. "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_9677d766.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_95c28059.png"
+                        }
+                    }
+                ]
+            ]
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "128",
+                "144",
+                "167",
+                "178"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [],
+            "image_evidence_assignment": [],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_lifestyle_food_nature_eace8e98",
+                    "insert_conversation_turn": 740,
+                    "reference_name": "Doc. 7504f867"
+                },
+                {
+                    "conversation_name": "group_chat_nature_films_fashion_f3c49653",
+                    "insert_conversation_turn": 906,
+                    "reference_name": "Doc. e0e8189e"
+                },
+                {
+                    "conversation_name": "group_chat_environment_animals_economy_4b965250",
+                    "insert_conversation_turn": 102,
+                    "reference_name": "Doc. 17a28202"
+                }
+            ]
+        },
+        "meta_data": {
+            "category": "Guidebook",
+            "doc_name": "san-francisco-11-contents",
+            "gold_quotes": [
+                "image1",
+                "text11"
+            ],
+            "topic": [
+                "travel",
+                "food",
+                "architecture",
+                "nature",
+                "history"
+            ],
+            "original_question": "Which page of the guidebook refers to the most central part of San Francisco? Return me an integer."
+        }
+    },
+    {
+        "id": "LifeSim_1c74b2ae",
+        "domain": "LifeSim",
+        "category": "Preference_QA",
+        "question": "Based on Fig. c10d5481, What is Colt Kemp's preferred pre-exercise breathing position for safety and balance?",
+        "answer": "seated",
+        "evidence": {
+            "image_evidence": [
+                "LifeSim_25fb6ccf.png"
+            ]
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "standing",
+                "reclined",
+                "lying down",
+                "seated"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_environment_animals_economy_4b965250",
+                    "insert_conversation_turn": 432,
+                    "reference_name": "Fig. c10d5481"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "conv_history_name": "user_assistant_conversation_32d3d98a.json",
+            "preference_user_name": "Colt Kemp",
+            "original_question": "What is Colt Kemp's preferred pre-exercise breathing position for safety and balance?"
+        }
+    },
+    {
+        "id": "LifeSim_b275bb5b",
+        "domain": "LifeSim",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 25586812, What must Joselyn Moss avoid due to allergy concerns when choosing dishes or venues?",
+        "answer": "peanut",
+        "evidence": {
+            "image_evidence": [
+                "LifeSim_40eee2d8.png"
+            ]
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "peanut",
+                "gluten",
+                "shellfish",
+                "dairy"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_lifestyle_food_nature_eace8e98",
+                    "insert_conversation_turn": 508,
+                    "reference_name": "Fig. 25586812"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "conv_history_name": "user_assistant_conversation_ed07c76b.json",
+            "preference_user_name": "Joselyn Moss",
+            "original_question": "What must Joselyn Moss avoid due to allergy concerns when choosing dishes or venues?"
+        }
+    },
+    {
+        "id": "QA_sample_514c95ad_1",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 65f83dbb, Among the activities that could reasonably occur in the given image, which one is Selina Gonzalez least likely to be doing?",
+        "answer": "Watching sports TV",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Selina Gonzalez enjoys rock concerts, indie films, but dislikes sports TV, romantic dramas",
+                "In terms of lifestyle, Selina Gonzalez enjoys kombucha brewing, medicinal herb gardening, but dislikes home gardening, night owl lifestyle"
+            ],
+            "image_evidence": [
+                "MMPB_6f052249.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Selina Gonzalez enjoys hiking, scuba diving, but dislikes trains, flying business class",
+                "In terms of shopping, Selina Gonzalez enjoys mechanical keyboards, 3D printing tools, but dislikes handmade crafts, vintage furniture",
+                "In terms of fashion, Selina Gonzalez enjoys high heels, tight-fitting clothes, but dislikes bright neon colors, oversized sweaters."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Watching sports TV",
+                "Observing a cooking show on the screen",
+                "Watching a movie on TV",
+                "Home gardening"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_environment_animals_economy_4b965250",
+                    "insert_conversation_turn": 185
+                },
+                {
+                    "conversation_name": "group_chat_environment_animals_economy_4b965250",
+                    "insert_conversation_turn": 51
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_lifestyle_food_nature_eace8e98",
+                    "insert_conversation_turn": 888,
+                    "reference_name": "Fig. 65f83dbb"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_environment_animals_economy_4b965250",
+                    "insert_conversation_turn": 720
+                },
+                {
+                    "conversation_name": "group_chat_lifestyle_food_nature_eace8e98",
+                    "insert_conversation_turn": 821
+                },
+                {
+                    "conversation_name": "group_chat_nature_films_fashion_f3c49653",
+                    "insert_conversation_turn": 466
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "BaGu",
+            "description": "BaGu is a woman with a slender build and a medium height impression. Her facial structure is characterized by a delicate jawline and a slightly rounded face, with expressive eyes that convey a range of emotions. Her skin tone is fair, and she has long, straight brown hair that falls just past her shoulders. BaGu often appears with a neutral or contemplative expression, suggesting a thoughtful and introspective personality. Her eyebrows are well-defined, and her gaze is direct, adding to her composed demeanor.\n\n**Outfit and Accessories:**\nBaGu's attire is diverse yet cohesive, reflecting a blend of casual and slightly formal styles. She is often seen in a light gray hoodie with \"LA CITY\" printed on it, suggesting a relaxed and approachable vibe. In other images, she wears a vibrant orange coat paired with a colorful scarf, indicating a bold and expressive fashion sense. The orange top she wears in one image adds a warm and inviting touch to her overall look. BaGu accessorizes with a delicate necklace, which complements her outfits without overpowering them. Her clothing choices are practical yet stylish, with a focus on comfort and personal expression.\n\n**Distinguishing Visual Features or Vibe:**\nBaGu exudes a unique and memorable presence through her consistent visual themes and aura. Her long, straight brown hair and fair skin create a striking contrast, making her instantly recognizable. The recurring color palette of warm tones, such as orange and brown, adds a cohesive and inviting feel to her appearance. Her thoughtful expressions and direct gaze convey a sense of depth and introspection, while her varied yet complementary outfits suggest a versatile and expressive personality. The combination of her physical features, attire, and overall demeanor creates a distinctive and memorable visual identity that is both approachable and intriguing.",
+            "preference": "In terms of entertainment, BaGu enjoys rock concerts, indie films, but dislikes sports TV, romantic dramas. In terms of travel, BaGu enjoys hiking, scuba diving, but dislikes trains, flying business class. In terms of lifestyle, BaGu enjoys kombucha brewing, medicinal herb gardening, but dislikes home gardening, night owl lifestyle. In terms of shopping, BaGu enjoys mechanical keyboards, 3D printing tools, but dislikes handmade crafts, vintage furniture. In terms of fashion, BaGu enjoys high heels, tight-fitting clothes, but dislikes bright neon colors, oversized sweaters.",
+            "topic": [],
+            "original_id": "QA_sample_514c95ad",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Selina Gonzalez least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_514c95ad_2",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 71c9344d, Among the activities that could reasonably occur in the given image, which one is Selina Gonzalez least likely to be doing?",
+        "answer": "Watching romantic dramas",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Selina Gonzalez enjoys rock concerts, indie films, but dislikes sports TV, romantic dramas",
+                "In terms of lifestyle, Selina Gonzalez enjoys kombucha brewing, medicinal herb gardening, but dislikes home gardening, night owl lifestyle"
+            ],
+            "image_evidence": [
+                "MMPB_28b712ad.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Selina Gonzalez enjoys hiking, scuba diving, but dislikes trains, flying business class",
+                "In terms of shopping, Selina Gonzalez enjoys mechanical keyboards, 3D printing tools, but dislikes handmade crafts, vintage furniture",
+                "In terms of fashion, Selina Gonzalez enjoys high heels, tight-fitting clothes, but dislikes bright neon colors, oversized sweaters."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "Streaming indie documentaries",
+                "Binge-watching crime series",
+                "Flying in business class",
+                "Watching romantic dramas"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_environment_animals_economy_4b965250",
+                    "insert_conversation_turn": 185
+                },
+                {
+                    "conversation_name": "group_chat_environment_animals_economy_4b965250",
+                    "insert_conversation_turn": 51
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_nature_films_fashion_f3c49653",
+                    "insert_conversation_turn": 582,
+                    "reference_name": "Fig. 71c9344d"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_environment_animals_economy_4b965250",
+                    "insert_conversation_turn": 720
+                },
+                {
+                    "conversation_name": "group_chat_lifestyle_food_nature_eace8e98",
+                    "insert_conversation_turn": 821
+                },
+                {
+                    "conversation_name": "group_chat_nature_films_fashion_f3c49653",
+                    "insert_conversation_turn": 466
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "BaGu",
+            "description": "BaGu is a woman with a slender build and a medium height impression. Her facial structure is characterized by a delicate jawline and a slightly rounded face, with expressive eyes that convey a range of emotions. Her skin tone is fair, and she has long, straight brown hair that falls just past her shoulders. BaGu often appears with a neutral or contemplative expression, suggesting a thoughtful and introspective personality. Her eyebrows are well-defined, and her gaze is direct, adding to her composed demeanor.\n\n**Outfit and Accessories:**\nBaGu's attire is diverse yet cohesive, reflecting a blend of casual and slightly formal styles. She is often seen in a light gray hoodie with \"LA CITY\" printed on it, suggesting a relaxed and approachable vibe. In other images, she wears a vibrant orange coat paired with a colorful scarf, indicating a bold and expressive fashion sense. The orange top she wears in one image adds a warm and inviting touch to her overall look. BaGu accessorizes with a delicate necklace, which complements her outfits without overpowering them. Her clothing choices are practical yet stylish, with a focus on comfort and personal expression.\n\n**Distinguishing Visual Features or Vibe:**\nBaGu exudes a unique and memorable presence through her consistent visual themes and aura. Her long, straight brown hair and fair skin create a striking contrast, making her instantly recognizable. The recurring color palette of warm tones, such as orange and brown, adds a cohesive and inviting feel to her appearance. Her thoughtful expressions and direct gaze convey a sense of depth and introspection, while her varied yet complementary outfits suggest a versatile and expressive personality. The combination of her physical features, attire, and overall demeanor creates a distinctive and memorable visual identity that is both approachable and intriguing.",
+            "preference": "In terms of entertainment, BaGu enjoys rock concerts, indie films, but dislikes sports TV, romantic dramas. In terms of travel, BaGu enjoys hiking, scuba diving, but dislikes trains, flying business class. In terms of lifestyle, BaGu enjoys kombucha brewing, medicinal herb gardening, but dislikes home gardening, night owl lifestyle. In terms of shopping, BaGu enjoys mechanical keyboards, 3D printing tools, but dislikes handmade crafts, vintage furniture. In terms of fashion, BaGu enjoys high heels, tight-fitting clothes, but dislikes bright neon colors, oversized sweaters.",
+            "topic": [],
+            "original_id": "QA_sample_514c95ad",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Selina Gonzalez least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_514c95ad_3",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. b5c970c2, Among the activities that could reasonably occur in the given image, which one is Selina Gonzalez least likely to be doing?",
+        "answer": "Watching romantic dramas",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Selina Gonzalez enjoys rock concerts, indie films, but dislikes sports TV, romantic dramas",
+                "In terms of lifestyle, Selina Gonzalez enjoys kombucha brewing, medicinal herb gardening, but dislikes home gardening, night owl lifestyle"
+            ],
+            "image_evidence": [
+                "MMPB_ea429820.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Selina Gonzalez enjoys hiking, scuba diving, but dislikes trains, flying business class",
+                "In terms of shopping, Selina Gonzalez enjoys mechanical keyboards, 3D printing tools, but dislikes handmade crafts, vintage furniture",
+                "In terms of fashion, Selina Gonzalez enjoys high heels, tight-fitting clothes, but dislikes bright neon colors, oversized sweaters."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Watching romantic dramas",
+                "Searching oversized sweaters",
+                "Relaxing with comedies",
+                "Binge-watching thrillers"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_environment_animals_economy_4b965250",
+                    "insert_conversation_turn": 185
+                },
+                {
+                    "conversation_name": "group_chat_environment_animals_economy_4b965250",
+                    "insert_conversation_turn": 51
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_nature_films_fashion_f3c49653",
+                    "insert_conversation_turn": 317,
+                    "reference_name": "Fig. b5c970c2"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_environment_animals_economy_4b965250",
+                    "insert_conversation_turn": 720
+                },
+                {
+                    "conversation_name": "group_chat_lifestyle_food_nature_eace8e98",
+                    "insert_conversation_turn": 821
+                },
+                {
+                    "conversation_name": "group_chat_nature_films_fashion_f3c49653",
+                    "insert_conversation_turn": 466
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "BaGu",
+            "description": "BaGu is a woman with a slender build and a medium height impression. Her facial structure is characterized by a delicate jawline and a slightly rounded face, with expressive eyes that convey a range of emotions. Her skin tone is fair, and she has long, straight brown hair that falls just past her shoulders. BaGu often appears with a neutral or contemplative expression, suggesting a thoughtful and introspective personality. Her eyebrows are well-defined, and her gaze is direct, adding to her composed demeanor.\n\n**Outfit and Accessories:**\nBaGu's attire is diverse yet cohesive, reflecting a blend of casual and slightly formal styles. She is often seen in a light gray hoodie with \"LA CITY\" printed on it, suggesting a relaxed and approachable vibe. In other images, she wears a vibrant orange coat paired with a colorful scarf, indicating a bold and expressive fashion sense. The orange top she wears in one image adds a warm and inviting touch to her overall look. BaGu accessorizes with a delicate necklace, which complements her outfits without overpowering them. Her clothing choices are practical yet stylish, with a focus on comfort and personal expression.\n\n**Distinguishing Visual Features or Vibe:**\nBaGu exudes a unique and memorable presence through her consistent visual themes and aura. Her long, straight brown hair and fair skin create a striking contrast, making her instantly recognizable. The recurring color palette of warm tones, such as orange and brown, adds a cohesive and inviting feel to her appearance. Her thoughtful expressions and direct gaze convey a sense of depth and introspection, while her varied yet complementary outfits suggest a versatile and expressive personality. The combination of her physical features, attire, and overall demeanor creates a distinctive and memorable visual identity that is both approachable and intriguing.",
+            "preference": "In terms of entertainment, BaGu enjoys rock concerts, indie films, but dislikes sports TV, romantic dramas. In terms of travel, BaGu enjoys hiking, scuba diving, but dislikes trains, flying business class. In terms of lifestyle, BaGu enjoys kombucha brewing, medicinal herb gardening, but dislikes home gardening, night owl lifestyle. In terms of shopping, BaGu enjoys mechanical keyboards, 3D printing tools, but dislikes handmade crafts, vintage furniture. In terms of fashion, BaGu enjoys high heels, tight-fitting clothes, but dislikes bright neon colors, oversized sweaters.",
+            "topic": [],
+            "original_id": "QA_sample_514c95ad",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Selina Gonzalez least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_5fe73071_1",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 5b68fd20, Among the activities that could reasonably occur in the given image, which one is Briley Hanson least likely to be doing?",
+        "answer": "Watching cooking shows",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Briley Hanson enjoys classical concerts, art exhibitions, but dislikes cooking shows, travel vlogs",
+                "In terms of lifestyle, Briley Hanson enjoys home gardening, night owl lifestyle, but dislikes boxing workouts, rock climbing gyms"
+            ],
+            "image_evidence": [
+                "MMPB_2d99653f.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Briley Hanson enjoys wildlife safaris, hot air balloon rides, but dislikes mountain climbing, theme park visits",
+                "In terms of shopping, Briley Hanson enjoys sportswear, high-end perfumes, but dislikes gaming accessories, tech gadgets",
+                "In terms of fashion, Briley Hanson enjoys handmade accessories, bold colors, but dislikes chunky boots, strappy sandals."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Watching cooking shows",
+                "Watching action movies",
+                "Watching travel documentaries",
+                "Tending a home garden"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_nature_films_fashion_f3c49653",
+                    "insert_conversation_turn": 188
+                },
+                {
+                    "conversation_name": "group_chat_nature_films_fashion_f3c49653",
+                    "insert_conversation_turn": 770
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_environment_animals_economy_4b965250",
+                    "insert_conversation_turn": 606,
+                    "reference_name": "Fig. 5b68fd20"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_nature_films_fashion_f3c49653",
+                    "insert_conversation_turn": 930
+                },
+                {
+                    "conversation_name": "group_chat_nature_films_fashion_f3c49653",
+                    "insert_conversation_turn": 730
+                },
+                {
+                    "conversation_name": "group_chat_lifestyle_food_nature_eace8e98",
+                    "insert_conversation_turn": 836
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "zhongtangxi",
+            "description": "zhongtangxi is a man with a medium build and a height that suggests a commanding presence. His facial structure is characterized by a strong jawline and prominent cheekbones, with a slightly furrowed brow that often conveys intensity or contemplation. zhongtangxi has a fair skin tone and dark, wavy hair that falls just above his shoulders, adding to his distinctive look. His expressions range from focused and determined to contemplative and serious, with a tendency to look upwards or to the side, suggesting deep thought or concern. His eyes are a striking feature, often appearing intense and expressive, reflecting a depth of emotion or concentration.\n\n**Outfit and Accessories:**\nzhongtangxi's attire is versatile, reflecting different contexts and moods. In casual settings, he is often seen in a dark gray long-sleeve shirt paired with black pants, exuding a relaxed yet purposeful vibe. For more formal occasions, he dons a black suit with a white shirt and black tie, projecting professionalism and seriousness. In outdoor settings, he wears a green jacket over a gray shirt, suggesting practicality and readiness for various environments. The consistent use of dark and neutral colors in his clothing palette, along with the occasional layering of garments, adds to his adaptable and thoughtful style. The absence of visible accessories keeps the focus on his expressive face and the functionality of his attire.\n\n**Distinguishing Visual Features or Vibe:**\nzhongtangxi's most memorable feature is his intense gaze, which often captures the viewer's attention and conveys a sense of depth and complexity. His wavy hair and strong jawline contribute to a rugged yet thoughtful appearance. The recurring theme of his attire—practical yet refined—reflects a character who is both grounded and capable of handling serious situations. The way he often looks upwards or to the side, combined with his furrowed brow, suggests a contemplative and introspective nature. The consistent use of dark and neutral colors in his clothing, along with the occasional layering, adds to his adaptable and thoughtful style. Overall, zhongtangxi exudes a vibe of intensity, thoughtfulness, and adaptability, making him visually unmistakable and memorable.",
+            "preference": "In terms of entertainment, zhongtangxi enjoys classical concerts, art exhibitions, but dislikes cooking shows, travel vlogs. In terms of travel, zhongtangxi enjoys wildlife safaris, hot air balloon rides, but dislikes mountain climbing, theme park visits. In terms of lifestyle, zhongtangxi enjoys home gardening, night owl lifestyle, but dislikes boxing workouts, rock climbing gyms. In terms of shopping, zhongtangxi enjoys sportswear, high-end perfumes, but dislikes gaming accessories, tech gadgets. In terms of fashion, zhongtangxi enjoys handmade accessories, bold colors, but dislikes chunky boots, strappy sandals.",
+            "topic": [],
+            "original_id": "QA_sample_5fe73071",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Briley Hanson least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_5fe73071_2",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. f09222e6, Among the activities that could reasonably occur in the given image, which one is Briley Hanson least likely to be doing?",
+        "answer": "Listening to a travel vlog",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Briley Hanson enjoys classical concerts, art exhibitions, but dislikes cooking shows, travel vlogs",
+                "In terms of lifestyle, Briley Hanson enjoys home gardening, night owl lifestyle, but dislikes boxing workouts, rock climbing gyms"
+            ],
+            "image_evidence": [
+                "MMPB_e9392745.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Briley Hanson enjoys wildlife safaris, hot air balloon rides, but dislikes mountain climbing, theme park visits",
+                "In terms of shopping, Briley Hanson enjoys sportswear, high-end perfumes, but dislikes gaming accessories, tech gadgets",
+                "In terms of fashion, Briley Hanson enjoys handmade accessories, bold colors, but dislikes chunky boots, strappy sandals."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Testing luxury perfumes",
+                "Listening to a travel vlog",
+                "Tuning into a news broadcast",
+                "Engaging with a podcast episode"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_nature_films_fashion_f3c49653",
+                    "insert_conversation_turn": 188
+                },
+                {
+                    "conversation_name": "group_chat_nature_films_fashion_f3c49653",
+                    "insert_conversation_turn": 770
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_environment_animals_economy_4b965250",
+                    "insert_conversation_turn": 487,
+                    "reference_name": "Fig. f09222e6"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_nature_films_fashion_f3c49653",
+                    "insert_conversation_turn": 930
+                },
+                {
+                    "conversation_name": "group_chat_nature_films_fashion_f3c49653",
+                    "insert_conversation_turn": 730
+                },
+                {
+                    "conversation_name": "group_chat_lifestyle_food_nature_eace8e98",
+                    "insert_conversation_turn": 836
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "zhongtangxi",
+            "description": "zhongtangxi is a man with a medium build and a height that suggests a commanding presence. His facial structure is characterized by a strong jawline and prominent cheekbones, with a slightly furrowed brow that often conveys intensity or contemplation. zhongtangxi has a fair skin tone and dark, wavy hair that falls just above his shoulders, adding to his distinctive look. His expressions range from focused and determined to contemplative and serious, with a tendency to look upwards or to the side, suggesting deep thought or concern. His eyes are a striking feature, often appearing intense and expressive, reflecting a depth of emotion or concentration.\n\n**Outfit and Accessories:**\nzhongtangxi's attire is versatile, reflecting different contexts and moods. In casual settings, he is often seen in a dark gray long-sleeve shirt paired with black pants, exuding a relaxed yet purposeful vibe. For more formal occasions, he dons a black suit with a white shirt and black tie, projecting professionalism and seriousness. In outdoor settings, he wears a green jacket over a gray shirt, suggesting practicality and readiness for various environments. The consistent use of dark and neutral colors in his clothing palette, along with the occasional layering of garments, adds to his adaptable and thoughtful style. The absence of visible accessories keeps the focus on his expressive face and the functionality of his attire.\n\n**Distinguishing Visual Features or Vibe:**\nzhongtangxi's most memorable feature is his intense gaze, which often captures the viewer's attention and conveys a sense of depth and complexity. His wavy hair and strong jawline contribute to a rugged yet thoughtful appearance. The recurring theme of his attire—practical yet refined—reflects a character who is both grounded and capable of handling serious situations. The way he often looks upwards or to the side, combined with his furrowed brow, suggests a contemplative and introspective nature. The consistent use of dark and neutral colors in his clothing, along with the occasional layering, adds to his adaptable and thoughtful style. Overall, zhongtangxi exudes a vibe of intensity, thoughtfulness, and adaptability, making him visually unmistakable and memorable.",
+            "preference": "In terms of entertainment, zhongtangxi enjoys classical concerts, art exhibitions, but dislikes cooking shows, travel vlogs. In terms of travel, zhongtangxi enjoys wildlife safaris, hot air balloon rides, but dislikes mountain climbing, theme park visits. In terms of lifestyle, zhongtangxi enjoys home gardening, night owl lifestyle, but dislikes boxing workouts, rock climbing gyms. In terms of shopping, zhongtangxi enjoys sportswear, high-end perfumes, but dislikes gaming accessories, tech gadgets. In terms of fashion, zhongtangxi enjoys handmade accessories, bold colors, but dislikes chunky boots, strappy sandals.",
+            "topic": [],
+            "original_id": "QA_sample_5fe73071",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Briley Hanson least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_5fe73071_3",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 6ab64558, the image, what is Briley Hanson most likely to be doing?",
+        "answer": "Watching a classical concert",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Briley Hanson enjoys classical concerts, art exhibitions, but dislikes cooking shows, travel vlogs",
+                "In terms of lifestyle, Briley Hanson enjoys home gardening, night owl lifestyle, but dislikes boxing workouts, rock climbing gyms"
+            ],
+            "image_evidence": [
+                "MMPB_e907fbc8.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Briley Hanson enjoys wildlife safaris, hot air balloon rides, but dislikes mountain climbing, theme park visits",
+                "In terms of shopping, Briley Hanson enjoys sportswear, high-end perfumes, but dislikes gaming accessories, tech gadgets",
+                "In terms of fashion, Briley Hanson enjoys handmade accessories, bold colors, but dislikes chunky boots, strappy sandals."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Watching a classical concert",
+                "Taking a hot air balloon ride",
+                "Attending a magic performance",
+                "Observing an opera in progress"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_nature_films_fashion_f3c49653",
+                    "insert_conversation_turn": 188
+                },
+                {
+                    "conversation_name": "group_chat_nature_films_fashion_f3c49653",
+                    "insert_conversation_turn": 770
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_nature_films_fashion_f3c49653",
+                    "insert_conversation_turn": 210,
+                    "reference_name": "Fig. 6ab64558"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_nature_films_fashion_f3c49653",
+                    "insert_conversation_turn": 930
+                },
+                {
+                    "conversation_name": "group_chat_nature_films_fashion_f3c49653",
+                    "insert_conversation_turn": 730
+                },
+                {
+                    "conversation_name": "group_chat_lifestyle_food_nature_eace8e98",
+                    "insert_conversation_turn": 836
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "zhongtangxi",
+            "description": "zhongtangxi is a man with a medium build and a height that suggests a commanding presence. His facial structure is characterized by a strong jawline and prominent cheekbones, with a slightly furrowed brow that often conveys intensity or contemplation. zhongtangxi has a fair skin tone and dark, wavy hair that falls just above his shoulders, adding to his distinctive look. His expressions range from focused and determined to contemplative and serious, with a tendency to look upwards or to the side, suggesting deep thought or concern. His eyes are a striking feature, often appearing intense and expressive, reflecting a depth of emotion or concentration.\n\n**Outfit and Accessories:**\nzhongtangxi's attire is versatile, reflecting different contexts and moods. In casual settings, he is often seen in a dark gray long-sleeve shirt paired with black pants, exuding a relaxed yet purposeful vibe. For more formal occasions, he dons a black suit with a white shirt and black tie, projecting professionalism and seriousness. In outdoor settings, he wears a green jacket over a gray shirt, suggesting practicality and readiness for various environments. The consistent use of dark and neutral colors in his clothing palette, along with the occasional layering of garments, adds to his adaptable and thoughtful style. The absence of visible accessories keeps the focus on his expressive face and the functionality of his attire.\n\n**Distinguishing Visual Features or Vibe:**\nzhongtangxi's most memorable feature is his intense gaze, which often captures the viewer's attention and conveys a sense of depth and complexity. His wavy hair and strong jawline contribute to a rugged yet thoughtful appearance. The recurring theme of his attire—practical yet refined—reflects a character who is both grounded and capable of handling serious situations. The way he often looks upwards or to the side, combined with his furrowed brow, suggests a contemplative and introspective nature. The consistent use of dark and neutral colors in his clothing, along with the occasional layering, adds to his adaptable and thoughtful style. Overall, zhongtangxi exudes a vibe of intensity, thoughtfulness, and adaptability, making him visually unmistakable and memorable.",
+            "preference": "In terms of entertainment, zhongtangxi enjoys classical concerts, art exhibitions, but dislikes cooking shows, travel vlogs. In terms of travel, zhongtangxi enjoys wildlife safaris, hot air balloon rides, but dislikes mountain climbing, theme park visits. In terms of lifestyle, zhongtangxi enjoys home gardening, night owl lifestyle, but dislikes boxing workouts, rock climbing gyms. In terms of shopping, zhongtangxi enjoys sportswear, high-end perfumes, but dislikes gaming accessories, tech gadgets. In terms of fashion, zhongtangxi enjoys handmade accessories, bold colors, but dislikes chunky boots, strappy sandals.",
+            "topic": [],
+            "original_id": "QA_sample_5fe73071",
+            "original_question": "the image, what is Briley Hanson most likely to be doing?"
+        }
+    }
+]

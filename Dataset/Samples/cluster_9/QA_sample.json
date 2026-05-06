@@ -1,0 +1,2929 @@
+[
+    {
+        "id": "QA_sample_ef9c9b64",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 211c8260, According to the previous definition, which Marvel Studios films can be classified as part of the 'blockbuster tier' based on their international total gross and domestic opening weekend revenue?",
+        "answer": "The Avengers (2012), Black Panther (2018)*, Avengers 2 (2015), and Captain America 3 (2016).",
+        "evidence": {
+            "text_evidence": [
+                "Films are considered to be part of the 'blockbuster tier' if they reach an international total gross of at least $1.2 billion. Additionally, a film's domestic opening weekend revenue should exceed $0.2 billion to contribute towards its blockbuster status."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_62af1558.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Iron Man (2008), Guardians Vol. 2 (2017), The Incredible Hulk (2008), and Thor (2011)",
+                "The Avengers (2012), Black Panther (2018)*, Avengers 2 (2015), and Captain America 3 (2016).",
+                "Guardians of the Galaxy (2014), Iron Man 3 (2013), Thor 3 (2017), and Doctor Strange (2016)",
+                "Spider-Man (2017), Thor 2 (2013), Captain America 2 (2014), and Ant-Man (2015)"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_television_animals_history_a6b9026e",
+                    "insert_conversation_turn": 4
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_video_games_science_television_cfbf0f17",
+                    "insert_conversation_turn": 702,
+                    "reference_name": "Fig. 211c8260"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "films"
+            ],
+            "original_question": "According to the previous definition, which Marvel Studios films can be classified as part of the 'blockbuster tier' based on their international total gross and domestic opening weekend revenue?"
+        }
+    },
+    {
+        "id": "QA_sample_e9a6061e",
+        "domain": "MLLMKC",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. a968bc10, What is the occupation of the person in the picture?",
+        "answer": "actress and activist",
+        "evidence": {
+            "text_evidence": [
+                "Emma Watson was born on April 15, 1990. Emma Watson is British. Emma Watson is an actress and activist."
+            ],
+            "image_evidence": [
+                "MLLMKC_36f9f5eb.jpg"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Emma Watson was born on April 15, 1990. Emma Watson is British. Emma Watson is a novelist and activist."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "novelist",
+                "botanist  \nflorist  \ngardener",
+                "chef",
+                "actress and activist"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_education_travel_music_2e9cd311",
+                    "insert_conversation_turn": 122
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_television_animals_history_a6b9026e",
+                    "insert_conversation_turn": 802,
+                    "reference_name": "Fig. a968bc10"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_video_games_science_television_cfbf0f17",
+                    "insert_conversation_turn": 66
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "instance": "Emma Watson",
+            "category": "people",
+            "error_type": "Career_error",
+            "topic": [
+                "films",
+                " lifestyle"
+            ],
+            "original_question": "What is the occupation of the person in the picture?"
+        }
+    },
+    {
+        "id": "QA_sample_ea6fd9ee",
+        "domain": "MMCV",
+        "category": "Multi_Hop_QA",
+        "question": "Based on Table. c070e618, Which record label released an album in the continent that the 40th parallel north crosses and had the release noted in January 2001?",
+        "answer": "Polydor",
+        "evidence": {
+            "text_evidence": [
+                "The 40th parallel north is a circle of latitude that is 40 degrees north of the Earth's equatorial plane. It crosses Europe, the Mediterranean Sea, Asia, the Pacific Ocean, North America, and the Atlantic Ocean."
+            ],
+            "image_evidence": [],
+            "table_evidence": [
+                {
+                    "title": "Gourmandises",
+                    "table_name": "Release history",
+                    "table_header": [
+                        "Region",
+                        "Date",
+                        "Label",
+                        "Format"
+                    ],
+                    "table_rows": [
+                        [
+                            "France",
+                            "28 November 2000",
+                            "Polydor",
+                            "CD"
+                        ],
+                        [
+                            "United Kingdom",
+                            "28 November 2000",
+                            "Polydor",
+                            "CD"
+                        ],
+                        [
+                            "France",
+                            "3 December 2000",
+                            "Polydor",
+                            "CD"
+                        ],
+                        [
+                            "France",
+                            "3 December 2000",
+                            "Polydor",
+                            "CD/DVD"
+                        ],
+                        [
+                            "France",
+                            "3 December 2000",
+                            "Polydor",
+                            "Vinyl"
+                        ],
+                        [
+                            "Switzerland",
+                            "3 December 2000",
+                            "Polydor",
+                            "CD"
+                        ],
+                        [
+                            "Belgium",
+                            "3 December 2000",
+                            "Polydor",
+                            "CD"
+                        ],
+                        [
+                            "Europe",
+                            "16 January 2001",
+                            "Polydor",
+                            "CD"
+                        ],
+                        [
+                            "Germany",
+                            "12 February 2001",
+                            "Polydor",
+                            "CD"
+                        ],
+                        [
+                            "Asia",
+                            "10 April 2001",
+                            "Polydor",
+                            "CD"
+                        ],
+                        [
+                            "Canada",
+                            "25 June 2001",
+                            "Universal Republic",
+                            "CD/DVD"
+                        ],
+                        [
+                            "",
+                            "",
+                            "Universal Republic",
+                            ""
+                        ],
+                        [
+                            "",
+                            "",
+                            "Universal Republic",
+                            ""
+                        ],
+                        [
+                            "",
+                            "",
+                            "Universal Republic",
+                            ""
+                        ],
+                        [
+                            "",
+                            "",
+                            "Universal Republic",
+                            ""
+                        ],
+                        [
+                            "",
+                            "",
+                            "Universal Republic",
+                            ""
+                        ],
+                        [
+                            "",
+                            "",
+                            "Universal Republic",
+                            ""
+                        ],
+                        [
+                            "",
+                            "",
+                            "Universal Republic",
+                            ""
+                        ],
+                        [
+                            "",
+                            "",
+                            "Universal Republic",
+                            ""
+                        ],
+                        [
+                            "",
+                            "",
+                            "Universal Republic",
+                            ""
+                        ]
+                    ]
+                }
+            ],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "Sony Music",
+                "Universal Republic",
+                "Polydor",
+                "EMI"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_video_games_science_television_cfbf0f17",
+                    "insert_conversation_turn": 386
+                }
+            ],
+            "image_evidence_assignment": [],
+            "table_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_education_travel_music_2e9cd311",
+                    "insert_conversation_turn": 326,
+                    "reference_name": "Table. c070e618"
+                }
+            ],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "music"
+            ],
+            "original_question": "Which record label released an album in the continent that the 40th parallel north crosses and had the release noted in January 2001?"
+        }
+    },
+    {
+        "id": "QA_sample_44d0ece5",
+        "domain": "MMCV",
+        "category": "Multi_Hop_QA",
+        "question": "Based on Table. 20145b03, What is the name of the person who contributed the lyrics to the song used in Ivan Righini's short program during the season when he skated to a piece popularized by Josh Groban?",
+        "answer": "Brendan Graham",
+        "evidence": {
+            "text_evidence": [
+                "\"You Raise Me Up\" is a song originally composed by Irish-Norwegian duo Secret Garden. The music was written by Secret Garden's Rolf Løvland and the lyrics by Brendan Graham. After the song was performed early in 2002 by the Secret Garden and their invited lead singer, Brian Kennedy, the song only became a minor UK hit. The song has been recorded by more than a hundred other artists including Josh Groban, who popularized the song in 2003; his rendition became a hit in the United States. The Irish band Westlife then popularized the song in the UK two years later. \"You Raise Me Up\" is sung as a contemporary hymn in church services."
+            ],
+            "image_evidence": [],
+            "table_evidence": [
+                {
+                    "title": "Ivan Righini",
+                    "table_name": "Programs",
+                    "table_header": [
+                        "Season",
+                        "Short program",
+                        "Free skating",
+                        "Exhibition"
+                    ],
+                    "table_rows": [
+                        [
+                            "2017–2018",
+                            "Irish Dance\n* Riverdance  \n* Lord of the Dance",
+                            "Only You  \n* Tequila  \n* Sing, Sing, Sing",
+                            ""
+                        ],
+                        [
+                            "2016–2017",
+                            "You Raise Me Up",
+                            "Can't Help Falling in Love  \n* Steamroller Blues  \n* A Little Less Conversation",
+                            ""
+                        ],
+                        [
+                            "2015–2016",
+                            "You Raise Me Up  \n----\n* Nessun Dorma",
+                            "Shine On You Crazy Diamond\n* Money",
+                            "Caruso  \n----\n \n* Satisfaction  \n* Oh, Pretty Woman  \n* Baila Morena  \n----\n \n* Medley  \n** Thriller\n** Dangerous\n** Billie Jean"
+                        ],
+                        [
+                            "2014–2015",
+                            "Medley  \n** Thriller\n** Dangerous\n** Billie Jean",
+                            "I Did It My Way\n* L.O.V.E.\n* I Love You Baby",
+                            "Satisfaction  \n* Oh, Pretty Woman  \n* Baila Morena"
+                        ],
+                        [
+                            "2013–2014",
+                            "Bolero (RnB version)",
+                            "Once Upon a Time in America",
+                            "Here I Am"
+                        ],
+                        [
+                            "2012–2013",
+                            "Variations on Theme of Paganini",
+                            "Phantom of the Opera",
+                            ""
+                        ],
+                        [
+                            "2011–2012",
+                            "Toccata and Fugue in D minor",
+                            "Phantom of the Opera",
+                            ""
+                        ],
+                        [
+                            "2010–2011",
+                            "Thriller\n* Demon Angel",
+                            "Poeta",
+                            ""
+                        ],
+                        [
+                            "2008–2009",
+                            "Prelude",
+                            "Poeta",
+                            ""
+                        ],
+                        [
+                            "2007–2008",
+                            "Violin Concerto",
+                            "Poeta",
+                            ""
+                        ]
+                    ]
+                }
+            ],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "Brian Kennedy",
+                "Rolf Løvland",
+                "Brendan Graham",
+                "Westlife"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_video_games_science_television_cfbf0f17",
+                    "insert_conversation_turn": 1041
+                }
+            ],
+            "image_evidence_assignment": [],
+            "table_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_education_travel_music_2e9cd311",
+                    "insert_conversation_turn": 310,
+                    "reference_name": "Table. 20145b03"
+                }
+            ],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "music",
+                "figure skating"
+            ],
+            "original_question": "What is the name of the person who contributed the lyrics to the song used in Ivan Righini's short program during the season when he skated to a piece popularized by Josh Groban?"
+        }
+    },
+    {
+        "id": "6dcd69bb",
+        "domain": "MMDocRAG",
+        "category": "Single_Hop_QA",
+        "question": "Based on Doc. 6305bcb2, Doc. 2b77b0c3, Doc. 12fd90b6, What are the consolidated cash and cash equivalents at the end of 2021 for the entities presented?",
+        "answer": "The consolidated cash and cash equivalents at the end of 2021 are 6,591 million RMB.",
+        "evidence": {
+            "text_evidence": [],
+            "image_evidence": [],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": [
+                [
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "liability and subsequently measured at fair value. The residual balance of approximately  $\\mathrm{US}\\S56$   million (equivalent to approximately RMB365 million) is accounted for as an equity-settled share-based compensation and recognized in equity. In January 2021, the Put Right expired and a carrying amount of RMB535 million of the relevant liability was derecognized and reclassified to equity accordingly (Note 22).  "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "As at December 31, 2020 and 2021, the Group’s major external borrowings represented the senior unsecured notes issued in September 2020, details of which are disclosed in Note 25. The contractual undiscounted cash flows of the Group’s notes payable and related interest expenses in the next twelve months, more than 1 year but within 5 years and over 5 years as at December 31, 2021 are RMB90 million (FY20: RMB92 million), RMB2,247 million (FY20: RMB2,326 million) and RMB3,443 million (FY20: RMB3,589 million) respectively. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Net cash used in investing activities was RMB5,999 million (US\\$941 million) in 2021, which was primarily attributable to (i) placement of term deposits with initial terms of over three months of RMB15,153 million   $\\mathbf{\\Delta}\\mathbf{U}\\mathbf{S}\\mathbf{\\&}2{,}378$   million); (ii) payments for business combination of RMB2,078 million (US\\$326 million); (iii) purchase of land use right of RMB1,504 million (US\\$236 million) (iv) payment for equity investments of RMB1,480 million (US\\$232 million); (v) purchase of intangible assets of RMB1,095 million (US\\$172 million), and (vi) net placement of short-term investments of RMB877 million (US\\$138 million) ;partially offset by (i) receipt from maturity of term deposits with initial terms of over three months of RMB15,892 million (US\\$2,494 million); (ii) proceeds from disposal of FVOCI/FVPL of RMB363 million (US\\$57 million). "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_d3f9441b.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_bfa68076.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Net cash generated from operating activities was RMB5,239 million (  $\\bf.U S\\S822$   million) in 2021. The difference between our profit before income tax of RMB3,632 million (US\\$570 million) and the net cash generated from operating activities was mainly due to (i) depreciation and amortization of RMB1,001 million (US\\$157 million); (ii) the increase in accounts payable and other liabilities of RMB940 million (US\\$148 million); (iii) non-cash share-based compensation expense of RMB647 million(US\\$102 million) and (iv) decrease in other operating assets of RMB408 million (US\\$64 million); partially offset by (i) the increase in accounts receivable of RMB769 million (US\\$121 million); and (ii) the income tax paid of RMB589 million(  $\\mathbf{U}\\mathbf{S}\\S92$   million). The increase in accounts payable and other liabilities mainly resulted from the increased payable for operational expenses. The increase in accounts receivable was primarily due to the slower collection in the fourth quarter 2021, and the majority of our accounts receivable as of December 31, 2021 were settled in January 2022. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Net cash used in investing activities was RMB8,102 million in 2019, which was primarily attributable to (i) placement of term deposits with initial terms of over three months of RMB12,050 million; (ii) purchase of intangible assets of RMB191 million; and (iii) our purchases of property, plant and equipment of RMB95 million, partially offset by receipt from maturity of term deposits with initial terms of over three months of RMB4,550 million. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "From January to March 2018, the Company allotted and issued 24,757,517 ordinary shares of the Company to certain investors for an aggregate consideration of  $\\mathrm{{USS123}}$   million (equivalents to approximately RMB803 million). The consideration comprised cash proceeds of US\\$67 million (equivalents to approximately RMB437 million) and business cooperation arrangements, in form of contents cooperation, valued at approximately US\\$56 million (equivalents to approximately RMB365 million). "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_74de874e.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_3f987c59.png"
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "As described in Notes 2.9 and 16 to the consolidated financial statements, the Company’s consolidated goodwill balance was RMB19,121 million as of December 31, 2021. Management conducts an annual goodwill impairment test or when there are indications the carrying value may be impaired. For purposes of impairment testing, management allocates its goodwill to the relevant cash-generating units (“CGUs”) or group of CGUs, and compares the recoverable amounts of these CGUs or group of CGUs to their respective carrying amounts. Management determined the recoverable amounts of these CGUs or group of CGUs based on the higher of (i) their respective value in use (“VIU”) and (ii) their fair value less costs of disposal. VIU is calculated based on discounted cash flows expected to be derived from the respective CGUs or group of CGUs. Management’s cash flow projections included significant judgments and assumptions made relating to revenue growth, margin, terminal growth rate and pre-tax discount rates. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "As of December 31, 2021, the Group’s monetary assets that exposed to foreign exchange risk arising from US\\$ and RMB amounted to RMB54 million (2020: RMB2 million) and RMB27 million (2020: RMB6 million), respectively, and the Group’s monetary liabilities that exposed to foreign exchange risk arising from US\\$ and RMB amounted to RMB1 million (2020: RMB1 million) and RMB33 million (2020: RMB22 million), respectively. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Our principal sources of liquidity have been cash generated from operating activities and funds raised from financing activities. As of December 31, 2021, we had RMB6,591 million (US\\$1,034 million) in cash and cash equivalents. Our cash and cash equivalents consist primarily of bank deposits and highly liquid investments, which have original maturities of three months or less when purchased. We believe that our current cash and anticipated cash flow from operations will be sufficient to meet our anticipated cash needs, including our cash needs for working capital and capital expenditures, for at least the next 12 months. "
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_5963c554.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_df14f035.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "\\* Amounts previously reported for 2019 and 2020 have been revised and the impact of the revisions of intercompany fund transfers from operating to financing activities, which were eliminated in consolidation of the Company. The amounts of cash flow activities of the Group’s VIEs for the year ended December 31, 2019 and 2020 have been revised to reflect adjustments with decrease of RMB81 million and RMB768 million, respectively, in cash provided by operating activities, increase of RMB81 million and RMB768 million, respectively, in cash provided by financing activities. There is no impact on the previous reported consolidated financial positions and results of operations or cash flows. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Net cash (outflow)/inflow from investing activities Net cash (outflow)/inflow from financing activities Net (decrease)/ increase in cash and cash equivalents Cash and cash equivalents, beginning of the year Exchange differences on cash and cash equivalents Cash and cash equivalents, end of the year "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Net cash generated from operating activities was RMB6,200 million in 2019. The difference between our profit before income tax of RMB4,540 million and the net cash generated from operating activities was mainly due to (i) the increase in other operating liabilities of RMB1,164 million largely due to our overall business growth; (ii) the increase in accounts payable of RMB717 million; and (iii) depreciation and amortization of RMB583 million, partially offset by (i) the increase in accounts receivables of RMB733 million; and (ii) interest income of RMB615 million. "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_f53f5822.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_b3ad4f35.png"
+                        }
+                    }
+                ]
+            ]
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "11,128 million RMB",
+                "5,239 million RMB",
+                "The consolidated cash and cash equivalents at the end of 2021 are 6,591 million RMB.",
+                "15,426 million RMB"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [],
+            "image_evidence_assignment": [],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_television_animals_history_a6b9026e",
+                    "insert_conversation_turn": 275,
+                    "reference_name": "Doc. 6305bcb2"
+                },
+                {
+                    "conversation_name": "group_chat_education_travel_music_2e9cd311",
+                    "insert_conversation_turn": 85,
+                    "reference_name": "Doc. 2b77b0c3"
+                },
+                {
+                    "conversation_name": "group_chat_television_animals_history_a6b9026e",
+                    "insert_conversation_turn": 759,
+                    "reference_name": "Doc. 12fd90b6"
+                }
+            ]
+        },
+        "meta_data": {
+            "category": "Financial report",
+            "doc_name": "NYSE_TME_2021",
+            "gold_quotes": [
+                "image4",
+                "text9"
+            ],
+            "topic": [
+                "music",
+                " business",
+                " economy"
+            ],
+            "original_question": "What are the consolidated cash and cash equivalents at the end of 2021 for the entities presented?"
+        }
+    },
+    {
+        "id": "QA_sample_5c35a6de",
+        "domain": "MMCV",
+        "category": "Multi_Hop_QA",
+        "question": "Based on Table. 43be141f, Which songwriter of the multi-genre ballad performed by Celine Madalina Coca in the twelfth episode of a talent show's eighth season was also a producer for its original release by a British singer?",
+        "answer": "Alex Salibian",
+        "evidence": {
+            "text_evidence": [
+                "\"Sign of the Times\" is the debut solo single by English singer and songwriter Harry Styles for his self-titled debut studio album. It is his first single outside of the boy band One Direction. Released on 7 April 2017, by Erskine and Columbia Records, it was written by Styles, Ryan Nasci, Mitch Rowland and its producers Jeff Bhasker, Tyler Johnson, and Alex Salibian. Musically, it was defined by critics as a multi-genre ballad, including pop rock, soft rock and glam rock. Its music video was released on 8 May."
+            ],
+            "image_evidence": [],
+            "table_evidence": [
+                {
+                    "title": "Vocea României (season 8)",
+                    "table_name": "Episode 12 (16 November)",
+                    "table_header": [
+                        "Coach",
+                        "Order",
+                        "Winner",
+                        "Song",
+                        "Loser",
+                        "Steal result - Tudor",
+                        "Steal result - Irina",
+                        "Steal result - Andra",
+                        "Steal result - Smiley"
+                    ],
+                    "table_rows": [
+                        [
+                            "Irina Rimes",
+                            "1",
+                            "Antinia Simion",
+                            "\"In the Name of Love\"",
+                            "Oana Tăbultoc",
+                            "rowspan=\"9\"",
+                            "rowspan=\"9\"",
+                            "rowspan=\"9\"",
+                            "—"
+                        ],
+                        [
+                            "Andra",
+                            "2",
+                            "Izabela Barbu",
+                            "\"Cry Baby\"",
+                            "Claudia Popină",
+                            "—",
+                            "",
+                            "",
+                            ""
+                        ],
+                        [
+                            "Smiley",
+                            "3",
+                            "Dalina Nemeș",
+                            "\"Roar\"",
+                            "Lina Sandén",
+                            "",
+                            "",
+                            "",
+                            ""
+                        ],
+                        [
+                            "Tudor Chirilă",
+                            "4",
+                            "Romanița Fricosu",
+                            "\"Haund Dog\"",
+                            "Alexandra Cuza",
+                            "—",
+                            "",
+                            "",
+                            ""
+                        ],
+                        [
+                            "Tudor Chirilă",
+                            "4",
+                            "Romanița Fricosu",
+                            "\"Haund Dog\"",
+                            "Teodora Stoica",
+                            "—",
+                            "",
+                            "",
+                            ""
+                        ],
+                        [
+                            "Irina Rimes",
+                            "5",
+                            "Eva Timuș",
+                            "\"Don't Let Me Down\"",
+                            "Maria Andrici",
+                            "—",
+                            "",
+                            "",
+                            ""
+                        ],
+                        [
+                            "Smiley",
+                            "6",
+                            "Andrei Voicu",
+                            "\"Set Fire to the Rain\"",
+                            "Claudiu Fălămaș",
+                            "",
+                            "",
+                            "",
+                            ""
+                        ],
+                        [
+                            "Andra",
+                            "7",
+                            "Céline Mădălina Coca",
+                            "\"Sign of the Times\"",
+                            "Diana Strat",
+                            "",
+                            "",
+                            "",
+                            ""
+                        ]
+                    ]
+                }
+            ],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "Jeff Bhasker",
+                "Ryan Nasci",
+                "Mitch Rowland",
+                "Alex Salibian"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_video_games_science_television_cfbf0f17",
+                    "insert_conversation_turn": 500
+                }
+            ],
+            "image_evidence_assignment": [],
+            "table_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_education_travel_music_2e9cd311",
+                    "insert_conversation_turn": 578,
+                    "reference_name": "Table. 43be141f"
+                }
+            ],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "music"
+            ],
+            "original_question": "Which songwriter of the multi-genre ballad performed by Celine Madalina Coca in the twelfth episode of a talent show's eighth season was also a producer for its original release by a British singer?"
+        }
+    },
+    {
+        "id": "QA_sample_34dc928b",
+        "domain": "MLLMKC",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. 38f16ff6, What is the nationality of the person in the picture?",
+        "answer": "American",
+        "evidence": {
+            "text_evidence": [
+                "[Post Malone] was born on July 4, 1995. [Post Malone] is American. [Post Malone] is a singer, rapper, and songwriter."
+            ],
+            "image_evidence": [
+                "MLLMKC_a424ef1a.jpg"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "[Post Malone] was born on July 4, 1995. [Post Malone] is Canadian. [Post Malone] is a singer, rapper, and songwriter."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "Canadian",
+                "Mexican",
+                "Panamanian",
+                "American"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_video_games_science_television_cfbf0f17",
+                    "insert_conversation_turn": 1056
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_television_animals_history_a6b9026e",
+                    "insert_conversation_turn": 461,
+                    "reference_name": "Fig. 38f16ff6"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_education_travel_music_2e9cd311",
+                    "insert_conversation_turn": 259
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "instance": "Post Malone",
+            "category": "people",
+            "error_type": "location_error",
+            "topic": [
+                "music"
+            ],
+            "original_question": "What is the nationality of the person in the picture?"
+        }
+    },
+    {
+        "id": "QA_sample_20b8e3b7",
+        "domain": "MLLMKC",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. ecee79ac, What is the occupation of the person in the picture?",
+        "answer": "rapper",
+        "evidence": {
+            "text_evidence": [
+                "Kanye West was born on June 8, 1977. Kanye West is American. Kanye West is a rapper, producer, and fashion designer."
+            ],
+            "image_evidence": [
+                "MLLMKC_fdb42402.jpg"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Kanye West was born on June 8, 1977. Kanye West is American. Kanye West is a chef, producer, and fashion designer."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "chef",
+                "botanist, gardener, landscaper",
+                "rapper",
+                "architect"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_television_animals_history_a6b9026e",
+                    "insert_conversation_turn": 597
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_video_games_science_television_cfbf0f17",
+                    "insert_conversation_turn": 919,
+                    "reference_name": "Fig. ecee79ac"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_education_travel_music_2e9cd311",
+                    "insert_conversation_turn": 431
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "instance": "Kanye West",
+            "category": "people",
+            "error_type": "Career_error",
+            "topic": [
+                "music",
+                " fashion"
+            ],
+            "original_question": "What is the occupation of the person in the picture?"
+        }
+    },
+    {
+        "id": "QA_sample_7413d89e",
+        "domain": "MMCV",
+        "category": "Multi_Hop_QA",
+        "question": "Based on Table. b632712a, Who performed the lullaby in the prologue of the film where a song also used in figure skating programs titled 'Once Upon a December' was sung?",
+        "answer": "Angela Lansbury and Lacey Chabert",
+        "evidence": {
+            "text_evidence": [
+                "The song and its lyrics are heard three times through the course of the story, twice as a lullaby, and once as a complete song with a bridge. The lullaby is heard first during the film's prologue (performed by Angela Lansbury as the Dowager Empress Marie, and Lacey Chabert as the young Grand Duchess Anastasia Nikolaevna of Russia) then as an a cappella version toward the end of the film when the Dowager Empress and the adult Anastasia are reunited (sung by Lansbury, and Liz Callaway as Anastasia). Callaway also sings the complete version (which does not include the lullaby lyrics) during the film's second act."
+            ],
+            "image_evidence": [],
+            "table_evidence": [
+                {
+                    "title": "Serafima Sakhanovich",
+                    "table_name": "Programs",
+                    "table_header": [
+                        "Season",
+                        "Short program",
+                        "Free skating",
+                        "Exhibition"
+                    ],
+                    "table_rows": [
+                        [
+                            "2019–2020",
+                            "Megapolis (Russian: Мегаполис)",
+                            "The Umbrellas of Cherbourg",
+                            ""
+                        ],
+                        [
+                            "2018–2019",
+                            "Charms",
+                            "Adiós Nonino\n* Oblivion",
+                            ""
+                        ],
+                        [
+                            "2017–2018",
+                            "And The Waltz Goes On",
+                            "Concierto de Aranjuez: Adagio",
+                            ""
+                        ],
+                        [
+                            "2016–2017",
+                            "Goodbye",
+                            "The Man With The Harmonica  \n* Comptine dun autre été : Laprès-midi",
+                            ""
+                        ],
+                        [
+                            "2015–2016",
+                            "16 Tons  \n* Can't Touch It",
+                            "The Man With The Harmonica  \n* Comptine dun autre été : Laprès-midi  \n----\n* Symphony No. 7  \n* Requiem",
+                            ""
+                        ],
+                        [
+                            "2014–2015",
+                            "My Sweet and Tender Beast",
+                            "Oblivion  \n* I Love You, I Hate You",
+                            "Chandelier"
+                        ],
+                        [
+                            "2013–2014",
+                            "Do Not Deny If You Are In Love   ()",
+                            "Closed School",
+                            "Once Upon a December"
+                        ],
+                        [
+                            "2012–2013",
+                            "Once Upon a December",
+                            "Meeting with Wife   (",
+                            "Once Upon a December"
+                        ],
+                        [
+                            "2011–2012",
+                            "Russian folk music",
+                            "Meeting with Wife   (",
+                            ""
+                        ],
+                        [
+                            "2010–2011",
+                            "Russian folk music",
+                            "Yakety Axe",
+                            ""
+                        ],
+                        [
+                            "2009–2010",
+                            "Swan Lake",
+                            "Yakety Axe",
+                            ""
+                        ]
+                    ]
+                }
+            ],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Angela Lansbury and Lacey Chabert",
+                "Angela Lansbury and Meg Ryan",
+                "Liz Callaway and Lacey Chabert",
+                "Liz Callaway and Angela Lansbury"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_education_travel_music_2e9cd311",
+                    "insert_conversation_turn": 505
+                }
+            ],
+            "image_evidence_assignment": [],
+            "table_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_television_animals_history_a6b9026e",
+                    "insert_conversation_turn": 744,
+                    "reference_name": "Table. b632712a"
+                }
+            ],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "music",
+                "film"
+            ],
+            "original_question": "Who performed the lullaby in the prologue of the film where a song also used in figure skating programs titled 'Once Upon a December' was sung?"
+        }
+    },
+    {
+        "id": "QA_sample_0ada28b1",
+        "domain": "MMCV",
+        "category": "Multi_Hop_QA",
+        "question": "Based on Table. 98305e96, Which song used during a skating performance in week 5 that scored 14.5 features an individual named Corinne Carrey in its music video?",
+        "answer": "She Will Be Loved",
+        "evidence": {
+            "text_evidence": [
+                "The music video for \"She Will Be Loved\" premiered on MTV's Total Request Live on July 16, 2004. Directed by Sophie Muller with original sequence by Johanna Bautista (Sweetheart Massive Attack) tells a sad love story, featuring a lovelorn socialite (Kelly Preston) and her rich, deadbeat, abusive husband, whose relationship is juxtaposed with that of their daughter's (Corinne Carrey) relationship with a young man (played by lead singer Adam Levine). The younger man, however, constantly obsesses over his girlfriend's mother, understanding that, although she is constantly rejected by her husband and that her life is one of emotional anxiety, she is nonetheless beautiful and attractive, and possibly more so than his own girlfriend."
+            ],
+            "image_evidence": [],
+            "table_evidence": [
+                {
+                    "title": "Dancing on Ice (series 6)",
+                    "table_name": "Week 5 (20 February)",
+                    "table_header": [
+                        "Order",
+                        "Couple",
+                        "Judges scores - Gardiner",
+                        "Judges scores - Cousins",
+                        "Judges scores - Bunton",
+                        "Total",
+                        "Scoreboard",
+                        "Skating song",
+                        "Points - Judges",
+                        "Points - Public",
+                        "Points - Total",
+                        "Public Vote",
+                        "Result"
+                    ],
+                    "table_rows": [
+                        [
+                            "1",
+                            "Chloe & Michael",
+                            "5.5",
+                            "5.5",
+                            "7.5",
+                            "18.5",
+                            "4th",
+                            "\"Little Bird\"—Annie Lennox",
+                            "5",
+                            "4",
+                            "9",
+                            "8.6%",
+                            "Safe"
+                        ],
+                        [
+                            "2",
+                            "Johnson & Jodeyne",
+                            "4.5",
+                            "5.0",
+                            "5.0",
+                            "14.5",
+                            "7th",
+                            "\"She Will Be Loved\"—Maroon 5",
+                            "2",
+                            "8",
+                            "10",
+                            "20.9%",
+                            "safe"
+                        ],
+                        [
+                            "3",
+                            "Laura & Colin",
+                            "8.5",
+                            "8.5",
+                            "8.5",
+                            "25.5",
+                            "1st",
+                            "\"Stop!\"—Sam Brown",
+                            "8",
+                            "3",
+                            "11",
+                            "10.9%",
+                            "Safe"
+                        ],
+                        [
+                            "4",
+                            "Jeff & Isabelle",
+                            "5.5",
+                            "5.5",
+                            "5.0",
+                            "16.0",
+                            "6th",
+                            "\"Forget You\"—Cee Lo Green",
+                            "3",
+                            "1",
+                            "4",
+                            "7.1%",
+                            "Bottom two"
+                        ],
+                        [
+                            "5",
+                            "Denise & Matt",
+                            "5.5",
+                            "5.5",
+                            "5.5",
+                            "16.5",
+                            "5th",
+                            "\"True Colors\"—Cyndi Lauper",
+                            "4",
+                            "6",
+                            "10",
+                            "13.5%",
+                            "Safe"
+                        ],
+                        [
+                            "6",
+                            "Sam & Brianne",
+                            "7.5",
+                            "8.5",
+                            "8.5",
+                            "24.5",
+                            "2nd",
+                            "\"She Said\"—Plan B",
+                            "7",
+                            "5",
+                            "12",
+                            "11.0%",
+                            "Safe"
+                        ],
+                        [
+                            "7",
+                            "Kerry & Daniel",
+                            "2.5",
+                            "3.0",
+                            "3.5",
+                            "9.0",
+                            "8th",
+                            "\"Hush Hush; Hush Hush\"—The Pussycat Dolls",
+                            "1",
+                            "2",
+                            "3",
+                            "8.3%",
+                            "Eliminated"
+                        ],
+                        [
+                            "8",
+                            "Vanilla Ice & Katie",
+                            "7.5",
+                            "7.5",
+                            "7.0",
+                            "22.0",
+                            "3rd",
+                            "\"Ice Ice Baby\"—Vanilla Ice",
+                            "6",
+                            "7",
+                            "13",
+                            "19.8%",
+                            "Safe"
+                        ]
+                    ]
+                }
+            ],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "Little Bird",
+                "True Colors",
+                "She Will Be Loved",
+                "Forget You"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_education_travel_music_2e9cd311",
+                    "insert_conversation_turn": 366
+                }
+            ],
+            "image_evidence_assignment": [],
+            "table_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_television_animals_history_a6b9026e",
+                    "insert_conversation_turn": 1126,
+                    "reference_name": "Table. 98305e96"
+                }
+            ],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "music"
+            ],
+            "original_question": "Which song used during a skating performance in week 5 that scored 14.5 features an individual named Corinne Carrey in its music video?"
+        }
+    },
+    {
+        "id": "QA_sample_ed40d39e",
+        "domain": "MMCV",
+        "category": "Multi_Hop_QA",
+        "question": "Based on Fig. 9e53a664, Which Grammy-winning artist known for collaborating on the album featuring 'Forgot About Dre' is wearing multiple chains in the provided image?",
+        "answer": "Eminem",
+        "evidence": {
+            "text_evidence": [
+                "\"Forgot About Dre\" is a Grammy Award-winning single from rapper Dr. Dre's 2001, featuring vocals from rapper Eminem. The track reached No. 25 on the Billboard Hot 100, No. 14 on the U.S. R&B chart, No. 32 on the U.S. Pop chart, and No. 7 on the UK Singles Chart. Released as the album's second single on January 29, 2000, like \"Still D.R.E.\", the song addresses Dre's critics in a defiant manner, as Dre announces his return to the hip-hop scene and reminds listeners of his significant influence on the genre. \"Forgot About Dre\" won Best Rap Performance by a Duo or Group at the 2001 Grammy Awards.",
+                "\"Still D.R.E.\" is a song by American rapper Dr. Dre, featuring fellow American rapper Snoop Dogg. It was released on October 13, 1999 as the lead single from Dre's multi-platinum second studio album, 2001 (1999)."
+            ],
+            "image_evidence": [
+                "MMCV_e5c0cf9e4066c26a5affcb012073b12d.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Eminem",
+                "50 Cent",
+                "Snoop Dogg",
+                "Dr Dre"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_video_games_science_television_cfbf0f17",
+                    "insert_conversation_turn": 644
+                },
+                {
+                    "conversation_name": "group_chat_education_travel_music_2e9cd311",
+                    "insert_conversation_turn": 594
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_television_animals_history_a6b9026e",
+                    "insert_conversation_turn": 613,
+                    "reference_name": "Fig. 9e53a664"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "music",
+                "pop culture"
+            ],
+            "original_question": "Which Grammy-winning artist known for collaborating on the album featuring 'Forgot About Dre' is wearing multiple chains in the provided image?"
+        }
+    },
+    {
+        "id": "QA_sample_5eba7e66",
+        "domain": "MMCV",
+        "category": "Multi_Hop_QA",
+        "question": "Based on Table. a8ce811c, Who contributed to both the music of a popular television sitcom that aired in the 1990s featuring a street-smart teenager and the production of a Netflix documentary involving instrumental versions of popular songs?",
+        "answer": "Quincy Jones",
+        "evidence": {
+            "text_evidence": [
+                "Music for the song was written by Quincy Jones (who also served as the TV show's executive producer). Lyrics were composed by Will Smith, performing under his stage name \"The Fresh Prince\", and the song was produced by Jeffrey Townes under his stage name \"DJ Jazzy Jeff\"."
+            ],
+            "image_evidence": [],
+            "table_evidence": [
+                {
+                    "title": "Jonathan Moffett",
+                    "table_name": "Songs",
+                    "table_header": [
+                        "Year",
+                        "Song",
+                        "Artist",
+                        "Credits"
+                    ],
+                    "table_rows": [
+                        [
+                            "2018",
+                            "\"Thriller\" (instrumental) for Netflix documentary QUINCY",
+                            "Quincy Jones",
+                            "Drums"
+                        ],
+                        [
+                            "2018",
+                            "\"Rock with You\" (instrumental) for Netflix documentary QUINCY",
+                            "Quincy Jones",
+                            "Drums, hand claps"
+                        ],
+                        [
+                            "2009",
+                            "\"Flame\"",
+                            "Self",
+                            "Songwriter, arranger, background vocals, drum overdubs, producer"
+                        ],
+                        [
+                            "2009",
+                            "\"In Our Country\"",
+                            "Self",
+                            "Songwriter, arranger, background vocals, drum overdubs, producer"
+                        ],
+                        [
+                            "2009",
+                            "\"To Be Free\"",
+                            "Self",
+                            "Songwriter, arranger, background vocals, drum overdubs, producer"
+                        ],
+                        [
+                            "2004",
+                            "\"Don't Stop 'Til You Get Enough\" – live in 1981, from The Essential Jacksons",
+                            "The Jacksons",
+                            "Live drums"
+                        ],
+                        [
+                            "1999",
+                            "\"La Fine Del Millennio\"",
+                            "Vasco Rossi",
+                            "Drums"
+                        ],
+                        [
+                            "1997",
+                            "\"Still a Thrill\"",
+                            "Sybil",
+                            "Drums"
+                        ],
+                        [
+                            "1995",
+                            "\"Words Without Meaning\"",
+                            "3T",
+                            "Drums"
+                        ],
+                        [
+                            "1992",
+                            "\"Fractal Zoom\"",
+                            "Brian Eno",
+                            "Drums"
+                        ],
+                        [
+                            "1993",
+                            "\"Papa Was a Rollin' Stone\"",
+                            "George Michael",
+                            "Drums"
+                        ],
+                        [
+                            "1993",
+                            "\"Don't Let the Sun Go Down on Me\"",
+                            "Elton John & George Michael",
+                            "Live drums"
+                        ],
+                        [
+                            "1987",
+                            "\"Hold Me in Your Heart\"",
+                            "Timothy B. Schmit ( The Eagles)",
+                            "Cymbals"
+                        ],
+                        [
+                            "1987",
+                            "\"A Better Day Is Coming\"",
+                            "Timothy B. Schmit\n(The Eagles)",
+                            "Percussion"
+                        ],
+                        [
+                            "1988",
+                            "\"All Dressed Up\" for the film Coming to America",
+                            "Chico DeBarge",
+                            "Songwriter, arranger, background vocals, drum overdubs, producer"
+                        ],
+                        [
+                            "1982",
+                            "\"Muscles\"",
+                            "Diana Ross",
+                            "Drums, percussion, written by Michael Jackson"
+                        ],
+                        [
+                            "1982",
+                            "\"Love Song\"",
+                            "La Toya Jackson",
+                            "Written by Jonathan Moffett & Tito Jackson"
+                        ],
+                        [
+                            "1981",
+                            "\"Don't Stop the Music\"",
+                            "Yarbrough and Peoples",
+                            "Drums"
+                        ]
+                    ]
+                }
+            ],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Quincy Jones",
+                "Will Smith",
+                "Jonathan Moffett",
+                "Jeffrey Townes"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_education_travel_music_2e9cd311",
+                    "insert_conversation_turn": 229
+                }
+            ],
+            "image_evidence_assignment": [],
+            "table_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_television_animals_history_a6b9026e",
+                    "insert_conversation_turn": 245,
+                    "reference_name": "Table. a8ce811c"
+                }
+            ],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "music"
+            ],
+            "original_question": "Who contributed to both the music of a popular television sitcom that aired in the 1990s featuring a street-smart teenager and the production of a Netflix documentary involving instrumental versions of popular songs?"
+        }
+    },
+    {
+        "id": "048b2b05",
+        "domain": "MMDocRAG",
+        "category": "Single_Hop_QA",
+        "question": "Based on Doc. d804ec04, Doc. f1106970, Doc. c17abf15, Which category has the highest percentage in the catalog share of format, and what is its percentage?",
+        "answer": "Streams have the highest percentage at 70%.",
+        "evidence": {
+            "text_evidence": [
+                "STREAMING HAS BECOME THE LEADING FORMAT "
+            ],
+            "image_evidence": [],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": [
+                [
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "50%more likely to purchase energy drinks,19%more likely to purchase chewing gum and 18% less likely to drink diet soda. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "AND MORE GOOD NEWS-OVERALL VOLUME IS UP 14%SOFAR1N2015 "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Artists of the top 10 albums purchased and top 10 streamed songs are,above all else seen as Trendsetter s in the music industry "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_5cd52572.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_7bb332fa.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "SHARE OF TOTAL EQUIVALENTS BY FORMAT"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "WHILE SALES ARE EVENLY SPLIT BETWEEN "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "STREAMING HAS QUICKLY BECOME THE LARGEST SHARE OF THE BUSINESS "
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_5de4d0a3.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_2bc831d7.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "20-30%more likely than the average music fan to post photos or update status about livemusic. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "58%of country music fans are female. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "81%of country music fans are white. "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_70cffbc9.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_d75fc125.png"
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Hip-hop fans spend 35%more annually on music,including twice as much on club events with live DJsand40%more on music festivals. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "CURRENT AND CATALOG,STREAMS ARE 7 O%CATALOG "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_5a5cf2eb.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_4d1db1a2.png"
+                        }
+                    }
+                ]
+            ]
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "Album Sales have the highest percentage at 51%",
+                "Total Activity has the highest percentage at 57%",
+                "Streams have the highest percentage at 70%.",
+                "Song Sales have the highest percentage at 49%"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_television_animals_history_a6b9026e",
+                    "insert_conversation_turn": 408
+                }
+            ],
+            "image_evidence_assignment": [],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_education_travel_music_2e9cd311",
+                    "insert_conversation_turn": 401,
+                    "reference_name": "Doc. d804ec04"
+                },
+                {
+                    "conversation_name": "group_chat_education_travel_music_2e9cd311",
+                    "insert_conversation_turn": 650,
+                    "reference_name": "Doc. f1106970"
+                },
+                {
+                    "conversation_name": "group_chat_video_games_science_television_cfbf0f17",
+                    "insert_conversation_turn": 630,
+                    "reference_name": "Doc. c17abf15"
+                }
+            ]
+        },
+        "meta_data": {
+            "category": "Research report / Introduction",
+            "doc_name": "nielsen2015musicbizpresentation-final-150526143534-lva1-app6891_95",
+            "gold_quotes": [
+                "image6",
+                "text6",
+                "text10"
+            ],
+            "topic": [
+                "music"
+            ],
+            "original_question": "Which category has the highest percentage in the catalog share of format, and what is its percentage?"
+        }
+    },
+    {
+        "id": "QA_sample_e29110c9",
+        "domain": "MLLMKC",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. bfc77cef, What is the nationality of the person in the picture?",
+        "answer": "American",
+        "evidence": {
+            "text_evidence": [
+                "Katy Perry was born on October 25, 1984. Katy Perry is American. Katy Perry is a singer, songwriter, and television judge."
+            ],
+            "image_evidence": [
+                "MLLMKC_ca35459c.jpg"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Katy Perry was born on October 25, 1984. Katy Perry is Canadian. Katy Perry is a singer, songwriter, and television judge."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "Mexican",
+                "Panamanian",
+                "American",
+                "Canadian"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_television_animals_history_a6b9026e",
+                    "insert_conversation_turn": 1110
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_education_travel_music_2e9cd311",
+                    "insert_conversation_turn": 198,
+                    "reference_name": "Fig. bfc77cef"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_video_games_science_television_cfbf0f17",
+                    "insert_conversation_turn": 582
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "instance": "Katy Perry",
+            "category": "people",
+            "error_type": "location_error",
+            "topic": [
+                "music",
+                " television"
+            ],
+            "original_question": "What is the nationality of the person in the picture?"
+        }
+    },
+    {
+        "id": "QA_sample_79c96b76",
+        "domain": "MLLMKC",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. 1a5f8724, What is the occupation of the person in the picture?",
+        "answer": "actress, producer, and former Miss World",
+        "evidence": {
+            "text_evidence": [
+                "Priyanka Chopra was born on July 18, 1982. Priyanka Chopra is Indian. Priyanka Chopra is an actress, producer, and former Miss World."
+            ],
+            "image_evidence": [
+                "MLLMKC_e069f9ea.jpg"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Priyanka Chopra was born on July 18, 1982. Priyanka Chopra is Indian. Priyanka Chopra is a chef, producer, and former Miss World."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "actress, producer, and former Miss World",
+                "florist, gardener, landscape designer",
+                "architect",
+                "chef"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_education_travel_music_2e9cd311",
+                    "insert_conversation_turn": 213
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_television_animals_history_a6b9026e",
+                    "insert_conversation_turn": 1010,
+                    "reference_name": "Fig. 1a5f8724"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_video_games_science_television_cfbf0f17",
+                    "insert_conversation_turn": 1027
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "instance": "Priyanka Chopra",
+            "category": "people",
+            "error_type": "Career_error",
+            "topic": [
+                "films",
+                " fashion",
+                " lifestyle"
+            ],
+            "original_question": "What is the occupation of the person in the picture?"
+        }
+    },
+    {
+        "id": "QA_sample_1369f7a3",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. aeef4cde, According to the previous definition, which Disney movies qualify as \"blockbuster hits\"?",
+        "answer": "Avengers: Endgame, WALL-E, The Lion King",
+        "evidence": {
+            "text_evidence": [
+                "In assessing the popularity of Walt Disney movies, a film is considered highly acclaimed if its IMDb rating is 8.4 or higher and its IMDb votes exceed 1,000,000. Movies that meet both criteria are categorized as blockbuster hits."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_00140067.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "Toy Story 3, Up, Finding Nemo",
+                "Frozen, Beauty and the Beast, Coco",
+                "Inside Out, The Incredibles, Toy Story",
+                "Avengers: Endgame, WALL-E, The Lion King"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_video_games_science_television_cfbf0f17",
+                    "insert_conversation_turn": 717
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_television_animals_history_a6b9026e",
+                    "insert_conversation_turn": 950,
+                    "reference_name": "Fig. aeef4cde"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "films"
+            ],
+            "original_question": "According to the previous definition, which Disney movies qualify as \"blockbuster hits\"?"
+        }
+    },
+    {
+        "id": "QA_sample_c66eeac4",
+        "domain": "MLLMKC",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. 40e3d9fd, What is the occupation of the person in the picture?",
+        "answer": "singer-songwriter",
+        "evidence": {
+            "text_evidence": [
+                "Billie Eilish was born on December 18, 2001. Billie Eilish is American. Billie Eilish is a singer-songwriter."
+            ],
+            "image_evidence": [
+                "MLLMKC_d20aa8e1.jpg"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Billie Eilish was born on December 18, 2001. Billie Eilish is American. Billie Eilish is a professional dancer."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "singer-songwriter",
+                "professional dancer",
+                "novelist",
+                "floral arranger  \nbotanical illustrator  \nlandscape gardener"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_video_games_science_television_cfbf0f17",
+                    "insert_conversation_turn": 812
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_education_travel_music_2e9cd311",
+                    "insert_conversation_turn": 5,
+                    "reference_name": "Fig. 40e3d9fd"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_television_animals_history_a6b9026e",
+                    "insert_conversation_turn": 634
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "instance": "Billie Eilish",
+            "category": "people",
+            "error_type": "Career_error",
+            "topic": [
+                "music"
+            ],
+            "original_question": "What is the occupation of the person in the picture?"
+        }
+    },
+    {
+        "id": "QA_sample_1cac8bc9",
+        "domain": "MMCV",
+        "category": "Multi_Hop_QA",
+        "question": "Based on Table. 1fce3d43, Which American lyricist contributed to the lyrics of a song performed by a Wildcard Finalist during a popular singing competition’s Semi Final phase and originated from a movie about a ship that sank in the North Atlantic Ocean?",
+        "answer": "Will Jennings",
+        "evidence": {
+            "text_evidence": [
+                "\"My Heart Will Go On,\" also called \"My Heart Will Go On (Love Theme from Titanic)\", is a song recorded by Canadian singer Celine Dion. It serves as the main theme song to James Cameron's blockbuster film Titanic, based on an account of the eponymous British transatlantic ocean liner which sank in 1912 after colliding with an iceberg in the middle of the North Atlantic Ocean. The song's music was composed by James Horner, its lyrics were written by Will Jennings, and was produced by Walter Afanasieff, Horner and Simon Franglen,"
+            ],
+            "image_evidence": [],
+            "table_evidence": [
+                {
+                    "title": "Cosima De Vito",
+                    "table_name": "'Australian Idol'",
+                    "table_header": [
+                        "Week #",
+                        "Song choice",
+                        "Original artist",
+                        "Theme (if any)",
+                        "Result"
+                    ],
+                    "table_rows": [
+                        [
+                            "Top 40",
+                            "\"My Heart Will Go On\"",
+                            "Celine Dion",
+                            "Semi Final Group 2",
+                            "Declared Wildcard Finalist"
+                        ],
+                        [
+                            "Wildcard",
+                            "\"Predictable\"",
+                            "Delta Goodrem",
+                            "Wildcard",
+                            "Declared Top 12 Finalist"
+                        ],
+                        [
+                            "Top 12",
+                            "\"Hot Stuff\"",
+                            "Donna Summer",
+                            "The 1970s",
+                            "Safe"
+                        ],
+                        [
+                            "Top 10",
+                            "\"I Wanna Dance with Somebody\"",
+                            "Whitney Houston",
+                            "Number One Hits",
+                            "Safe"
+                        ],
+                        [
+                            "Top 8",
+                            "\"When the War Is Over\"{{#tag:ref|De Vito was the first ever Australian Idol contestant to receive series judge, Mark Holdens touchdown for her rendition of \"When the War Is Over\". De Vito also scored a touchdown from Holden for her performance of \"Respect\".|group=\"nb\"|name=\"Touchdown\"}}",
+                            "Cold Chisel",
+                            "Australian Hits",
+                            "Safe"
+                        ],
+                        [
+                            "Top 6",
+                            "\"What's Love Got to Do with It?\"",
+                            "Tina Turner",
+                            "The 1980s",
+                            "Safe"
+                        ],
+                        [
+                            "Top 5",
+                            "\"I Believe I Can Fly\" \"Respect\"",
+                            "R. Kelly Otis Redding",
+                            "Soul, R&B",
+                            "Bottom 2"
+                        ],
+                        [
+                            "Top 4",
+                            "\"L-O-V-E\" \"Smile\"",
+                            "Nat King Cole Charlie Chaplin",
+                            "Big Band",
+                            "Safe"
+                        ],
+                        [
+                            "Top 3",
+                            "\"You Don't Have to Say You Love Me\" \"River Deep – Mountain High\"",
+                            "Dusty Springfield Ike & Tina Turner",
+                            "The 1960s",
+                            "Withdrew"
+                        ]
+                    ]
+                }
+            ],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "Oscar Hammerstein II",
+                "Alan Jay Lerner",
+                "Stephen Sondheim",
+                "Will Jennings"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_video_games_science_television_cfbf0f17",
+                    "insert_conversation_turn": 600
+                }
+            ],
+            "image_evidence_assignment": [],
+            "table_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_television_animals_history_a6b9026e",
+                    "insert_conversation_turn": 229,
+                    "reference_name": "Table. 1fce3d43"
+                }
+            ],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "music"
+            ],
+            "original_question": "Which American lyricist contributed to the lyrics of a song performed by a Wildcard Finalist during a popular singing competition’s Semi Final phase and originated from a movie about a ship that sank in the North Atlantic Ocean?"
+        }
+    },
+    {
+        "id": "62d09c16",
+        "domain": "MMDocRAG",
+        "category": "Single_Hop_QA",
+        "question": "Based on Doc. a8ace297, Doc. 1ebc9f8d, Doc. 46531952, Which music genre had the highest share of total activity in 2015?",
+        "answer": "Rock",
+        "evidence": {
+            "text_evidence": [],
+            "image_evidence": [],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": [
+                [
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "OVERALL AND IN MOST GENRES "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "ROCK IS THE BIGGEST GENRE,BUTR&B/HIP-HOP AND POP ARE ALSO STRONG IN 2015 "
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "81%of country music fans are white. "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_8dee4fa0.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_b6fe7ac6.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "HIP-HOP FANS ARE AT THE FOREFRONT OF THE DIGITAL MUSIC MOVEMENT "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "MEASUREMENT OF MUSIC ACTIVITY AND MUSICFANS "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Strong social element-hip-hop consumers are more than twice as likely to connect with friends through music "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_94939a92.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_f4c5feed.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "20-30%more likely than the average music fan to post photos or update status about livemusic. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Artists of the top 10 albums purchased and top 10 streamed songs are,above all else seen as Trendsetter s in the music industry "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "58%of country music fans are female. "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_949eb9d9.png"
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_36f4875c.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "ROCK DOMINATES ALBUMS,POP DR VES SONGSALESANDR&B/HIP-HOP LEADS STREAMING "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "At382,000 each airing,the show garners the highest average tweets per episode during live airings of any Broadcast drama this season "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Hip-hop fans spend 35%more annually on music,including twice as much on club events with live DJsand40%more on music festivals. "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_8385a91d.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_64ee7fd2.png"
+                        }
+                    }
+                ]
+            ]
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "R&B/Hip-Hop",
+                "Pop",
+                "Country",
+                "Rock"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [],
+            "image_evidence_assignment": [],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_video_games_science_television_cfbf0f17",
+                    "insert_conversation_turn": 998,
+                    "reference_name": "Doc. a8ace297"
+                },
+                {
+                    "conversation_name": "group_chat_television_animals_history_a6b9026e",
+                    "insert_conversation_turn": 729,
+                    "reference_name": "Doc. 1ebc9f8d"
+                },
+                {
+                    "conversation_name": "group_chat_education_travel_music_2e9cd311",
+                    "insert_conversation_turn": 138,
+                    "reference_name": "Doc. 46531952"
+                }
+            ]
+        },
+        "meta_data": {
+            "category": "Research report / Introduction",
+            "doc_name": "nielsen2015musicbizpresentation-final-150526143534-lva1-app6891_95",
+            "gold_quotes": [
+                "text2",
+                "image5"
+            ],
+            "topic": [
+                "music"
+            ],
+            "original_question": "Which music genre had the highest share of total activity in 2015?"
+        }
+    },
+    {
+        "id": "QA_sample_9cd2183a",
+        "domain": "MLLMKC",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. 7f46eaf8, What is the occupation of the person in the picture?",
+        "answer": "professional wrestler, actor, and producer",
+        "evidence": {
+            "text_evidence": [
+                "Dwayne Johnson was born on May 2, 1972. Dwayne Johnson is American. Dwayne Johnson is a professional wrestler, actor, and producer."
+            ],
+            "image_evidence": [
+                "MLLMKC_6da63605.jpg"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Dwayne Johnson was born on May 2, 1972. Dwayne Johnson is American. Dwayne Johnson is a professional chef, actor, and producer."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "professional wrestler, actor, and producer",
+                "architect",
+                "professional gardener",
+                "professional chef"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_video_games_science_television_cfbf0f17",
+                    "insert_conversation_turn": 178
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_television_animals_history_a6b9026e",
+                    "insert_conversation_turn": 118,
+                    "reference_name": "Fig. 7f46eaf8"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_education_travel_music_2e9cd311",
+                    "insert_conversation_turn": 162
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "instance": "Dwayne Johnson",
+            "category": "people",
+            "error_type": "Career_error",
+            "topic": [
+                "films",
+                " sports",
+                " television"
+            ],
+            "original_question": "What is the occupation of the person in the picture?"
+        }
+    },
+    {
+        "id": "QA_sample_6420e27e",
+        "domain": "MLLMKC",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. 0ad2e6c4, What is the occupation of the person in the picture?",
+        "answer": "actor, director, and producer",
+        "evidence": {
+            "text_evidence": [
+                "Ben Affleck was born on August 15, 1972. Ben Affleck is American. Ben Affleck is an actor, director, and producer."
+            ],
+            "image_evidence": [
+                "MLLMKC_f438df3f.jpg"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Ben Affleck was born on August 15, 1972. Ben Affleck is American. Ben Affleck is a chef, director, and producer."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "architect",
+                "chef",
+                "actor, director, and producer",
+                "botanist, gardener, landscaper"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_education_travel_music_2e9cd311",
+                    "insert_conversation_turn": 277
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_video_games_science_television_cfbf0f17",
+                    "insert_conversation_turn": 164,
+                    "reference_name": "Fig. 0ad2e6c4"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_television_animals_history_a6b9026e",
+                    "insert_conversation_turn": 169
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "instance": "Ben Affleck",
+            "category": "people",
+            "error_type": "Career_error",
+            "topic": [
+                "films",
+                " television"
+            ],
+            "original_question": "What is the occupation of the person in the picture?"
+        }
+    },
+    {
+        "id": "QA_sample_57304d17_1",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. a12e57c2, Among the activities that could reasonably occur in the given image, which one is Bridget Deleon least likely to be doing?",
+        "answer": "Enjoying live concerts",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Bridget Deleon enjoys K-pop concerts, anime series, but dislikes live concerts, stand-up comedy"
+            ],
+            "image_evidence": [
+                "MMPB_9ab3a64b.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Bridget Deleon enjoys mountain biking, zip-lining, but dislikes hiking, scuba diving",
+                "In terms of lifestyle, Bridget Deleon enjoys home gardening, night owl lifestyle, but dislikes boxing workouts, rock climbing gyms",
+                "In terms of shopping, Bridget Deleon enjoys soundproofing panels, sleep-enhancing products, but dislikes gaming accessories, tech gadgets",
+                "In terms of fashion, Bridget Deleon enjoys statement jewelry, minimalist rings, but dislikes business casual, athleisure wear."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Attending live theater performances",
+                "Enjoying live concerts",
+                "Hiking",
+                "Watching live dance recitals"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_education_travel_music_2e9cd311",
+                    "insert_conversation_turn": 675
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_television_animals_history_a6b9026e",
+                    "insert_conversation_turn": 257,
+                    "reference_name": "Fig. a12e57c2"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_video_games_science_television_cfbf0f17",
+                    "insert_conversation_turn": 349
+                },
+                {
+                    "conversation_name": "group_chat_video_games_science_television_cfbf0f17",
+                    "insert_conversation_turn": 846
+                },
+                {
+                    "conversation_name": "group_chat_video_games_science_television_cfbf0f17",
+                    "insert_conversation_turn": 53
+                },
+                {
+                    "conversation_name": "group_chat_video_games_science_television_cfbf0f17",
+                    "insert_conversation_turn": 152
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Sherlock",
+            "description": "Sherlock is a tall individual with a slender build, exuding an air of elegance and sophistication. Their facial structure is well-defined, featuring a prominent jawline and a slightly pointed chin, contributing to a sharp and intelligent appearance. The skin tone is fair, and their eyes are often focused and intense, suggesting a keen intellect. Sherlock has curly, dark hair that adds a touch of whimsy to their otherwise refined look. The facial expressions range from serious and contemplative to slightly amused, indicating a complex personality. The poses are often confident and composed, with a tendency to look directly at the camera, conveying a sense of directness and engagement.\n\n**Outfit and Accessories:**\nSherlock is consistently dressed in a formal and classic style, often wearing dark, tailored suits that exude a sense of authority and professionalism. The color palette is predominantly dark, with shades of black, navy, and deep gray, complemented by crisp white shirts and ties. The suits are well-fitted, with a structured cut that enhances the overall polished appearance. In some images, Sherlock is seen wearing a top hat, adding a touch of vintage charm and emphasizing their refined taste. Accessories include a scarf and gloves, which add a layer of sophistication and practicality. The presence of a boutonniere in one image suggests a special occasion, while the use of a microscope in another indicates a scientific or investigative aspect to their character.\n\n**Distinguishing Visual Features or Vibe:**\nThe most memorable feature of Sherlock is their curly hair, which adds a unique and recognizable element to their appearance. The combination of formal attire and the top hat creates a distinctive silhouette that is both timeless and intriguing. The consistent use of dark colors and the occasional appearance of a boutonniere or a microscope suggest a character who is both intellectual and refined. The overall vibe conveyed by Sherlock is one of mystery and intelligence, with a touch of whimsy. The lighting in the images often casts dramatic shadows, enhancing the enigmatic quality of their appearance. The presence of the \"YOUKU\" logo in one image indicates that Sherlock may be associated with a specific production or series, adding to their unique identity.",
+            "preference": "In terms of entertainment, Sherlock enjoys K-pop concerts, anime series, but dislikes live concerts, stand-up comedy. In terms of travel, Sherlock enjoys mountain biking, zip-lining, but dislikes hiking, scuba diving. In terms of lifestyle, Sherlock enjoys home gardening, night owl lifestyle, but dislikes boxing workouts, rock climbing gyms. In terms of shopping, Sherlock enjoys soundproofing panels, sleep-enhancing products, but dislikes gaming accessories, tech gadgets. In terms of fashion, Sherlock enjoys statement jewelry, minimalist rings, but dislikes business casual, athleisure wear.",
+            "topic": [],
+            "original_id": "QA_sample_57304d17",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Bridget Deleon least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_57304d17_2",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 9859e450, Among the activities that could reasonably occur in the given image, which one is Bridget Deleon least likely to be doing?",
+        "answer": "Enjoying live concerts",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Bridget Deleon enjoys K-pop concerts, anime series, but dislikes live concerts, stand-up comedy"
+            ],
+            "image_evidence": [
+                "MMPB_73dc3548.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Bridget Deleon enjoys mountain biking, zip-lining, but dislikes hiking, scuba diving",
+                "In terms of lifestyle, Bridget Deleon enjoys home gardening, night owl lifestyle, but dislikes boxing workouts, rock climbing gyms",
+                "In terms of shopping, Bridget Deleon enjoys soundproofing panels, sleep-enhancing products, but dislikes gaming accessories, tech gadgets",
+                "In terms of fashion, Bridget Deleon enjoys statement jewelry, minimalist rings, but dislikes business casual, athleisure wear."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "Watching live dance recitals",
+                "Attending theater performances",
+                "Boxing workouts",
+                "Enjoying live concerts"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_education_travel_music_2e9cd311",
+                    "insert_conversation_turn": 675
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_education_travel_music_2e9cd311",
+                    "insert_conversation_turn": 241,
+                    "reference_name": "Fig. 9859e450"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_video_games_science_television_cfbf0f17",
+                    "insert_conversation_turn": 349
+                },
+                {
+                    "conversation_name": "group_chat_video_games_science_television_cfbf0f17",
+                    "insert_conversation_turn": 846
+                },
+                {
+                    "conversation_name": "group_chat_video_games_science_television_cfbf0f17",
+                    "insert_conversation_turn": 53
+                },
+                {
+                    "conversation_name": "group_chat_video_games_science_television_cfbf0f17",
+                    "insert_conversation_turn": 152
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Sherlock",
+            "description": "Sherlock is a tall individual with a slender build, exuding an air of elegance and sophistication. Their facial structure is well-defined, featuring a prominent jawline and a slightly pointed chin, contributing to a sharp and intelligent appearance. The skin tone is fair, and their eyes are often focused and intense, suggesting a keen intellect. Sherlock has curly, dark hair that adds a touch of whimsy to their otherwise refined look. The facial expressions range from serious and contemplative to slightly amused, indicating a complex personality. The poses are often confident and composed, with a tendency to look directly at the camera, conveying a sense of directness and engagement.\n\n**Outfit and Accessories:**\nSherlock is consistently dressed in a formal and classic style, often wearing dark, tailored suits that exude a sense of authority and professionalism. The color palette is predominantly dark, with shades of black, navy, and deep gray, complemented by crisp white shirts and ties. The suits are well-fitted, with a structured cut that enhances the overall polished appearance. In some images, Sherlock is seen wearing a top hat, adding a touch of vintage charm and emphasizing their refined taste. Accessories include a scarf and gloves, which add a layer of sophistication and practicality. The presence of a boutonniere in one image suggests a special occasion, while the use of a microscope in another indicates a scientific or investigative aspect to their character.\n\n**Distinguishing Visual Features or Vibe:**\nThe most memorable feature of Sherlock is their curly hair, which adds a unique and recognizable element to their appearance. The combination of formal attire and the top hat creates a distinctive silhouette that is both timeless and intriguing. The consistent use of dark colors and the occasional appearance of a boutonniere or a microscope suggest a character who is both intellectual and refined. The overall vibe conveyed by Sherlock is one of mystery and intelligence, with a touch of whimsy. The lighting in the images often casts dramatic shadows, enhancing the enigmatic quality of their appearance. The presence of the \"YOUKU\" logo in one image indicates that Sherlock may be associated with a specific production or series, adding to their unique identity.",
+            "preference": "In terms of entertainment, Sherlock enjoys K-pop concerts, anime series, but dislikes live concerts, stand-up comedy. In terms of travel, Sherlock enjoys mountain biking, zip-lining, but dislikes hiking, scuba diving. In terms of lifestyle, Sherlock enjoys home gardening, night owl lifestyle, but dislikes boxing workouts, rock climbing gyms. In terms of shopping, Sherlock enjoys soundproofing panels, sleep-enhancing products, but dislikes gaming accessories, tech gadgets. In terms of fashion, Sherlock enjoys statement jewelry, minimalist rings, but dislikes business casual, athleisure wear.",
+            "topic": [],
+            "original_id": "QA_sample_57304d17",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Bridget Deleon least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_94320d57_1",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 3118f07d, Among the activities that could reasonably occur in the given image, which one is Alan Woods least likely to be doing?",
+        "answer": "Watching a video of a street performance",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Alan Woods enjoys theater performances, film festivals, but dislikes improv comedy, street performances",
+                "In terms of travel, Alan Woods enjoys hiking, scuba diving, but dislikes cruise vacations, solo travel"
+            ],
+            "image_evidence": [
+                "MMPB_81ebaeeb.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of lifestyle, Alan Woods enjoys home gardening, night owl lifestyle, but dislikes acupuncture, infrared sauna therapy",
+                "In terms of shopping, Alan Woods enjoys handmade crafts, vintage furniture, but dislikes Bluetooth speakers, wireless charging stations",
+                "In terms of fashion, Alan Woods enjoys plaid patterns, monochrome outfits, but dislikes futuristic fashion, gothic clothing."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "Observing a live theater act.",
+                "Planning cruise vacation",
+                "Viewing a k-pop concert.",
+                "Watching a video of a street performance"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_television_animals_history_a6b9026e",
+                    "insert_conversation_turn": 1069
+                },
+                {
+                    "conversation_name": "group_chat_television_animals_history_a6b9026e",
+                    "insert_conversation_turn": 344
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_education_travel_music_2e9cd311",
+                    "insert_conversation_turn": 172,
+                    "reference_name": "Fig. 3118f07d"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_video_games_science_television_cfbf0f17",
+                    "insert_conversation_turn": 861
+                },
+                {
+                    "conversation_name": "group_chat_television_animals_history_a6b9026e",
+                    "insert_conversation_turn": 104
+                },
+                {
+                    "conversation_name": "group_chat_education_travel_music_2e9cd311",
+                    "insert_conversation_turn": 25
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Jisu",
+            "description": "Jisu is a young woman with a slender build and an impression of average height. Her facial structure is characterized by a delicate jawline and a slightly rounded face, with prominent, expressive eyes and a well-defined nose. Jisu has a fair skin tone and long, straight hair that falls past her shoulders, often styled in a natural, flowing manner. Her hair color varies slightly across the images, ranging from dark brown to a lighter shade, adding versatility to her appearance. Jisu frequently displays a gentle smile, with her lips painted in a soft, natural shade, and her expressions convey a sense of warmth and approachability. Her poses are relaxed and confident, often captured in mid-gesture, such as waving or holding a microphone, which adds a dynamic quality to her presence.\n\n**Outfit and Accessories:**\nJisu's attire is diverse yet consistently stylish, reflecting a blend of casual and elegant elements. She is often seen in a mix of textures and colors, including a brown knitted cardigan over a leopard print shirt, a denim jacket, and a white lace top. The color palette ranges from earthy tones to vibrant blues, showcasing her versatility. Her outfits are practical yet fashionable, with a focus on comfort and style. Accessories play a significant role in her look, including a silver necklace with a circular pendant, a black shoulder bag, and a smartphone, which she holds in one of the images. These accessories add a touch of sophistication and personal flair to her overall appearance.\n\n**Distinguishing Visual Features or Vibe:**\nJisu exudes a unique and memorable presence, characterized by her long, straight hair and expressive eyes. Her style is a blend of casual and chic, with a focus on comfort and personal expression. The recurring theme of her outfits, which includes a mix of textures and colors, adds depth to her visual identity. The use of accessories, such as the silver necklace and black bag, enhances her look and adds a touch of elegance. Jisu's aura is one of warmth and approachability, with her gentle smile and relaxed poses conveying a sense of confidence and poise. Her ability to transition seamlessly between different settings, from casual to more formal environments, highlights her adaptability and versatility. Overall, Jisu's visual identity is defined by her stylish yet approachable appearance, making her instantly recognizable and memorable.",
+            "preference": "In terms of entertainment, Jisu enjoys theater performances, film festivals, but dislikes improv comedy, street performances. In terms of travel, Jisu enjoys hiking, scuba diving, but dislikes cruise vacations, solo travel. In terms of lifestyle, Jisu enjoys home gardening, night owl lifestyle, but dislikes acupuncture, infrared sauna therapy. In terms of shopping, Jisu enjoys handmade crafts, vintage furniture, but dislikes Bluetooth speakers, wireless charging stations. In terms of fashion, Jisu enjoys plaid patterns, monochrome outfits, but dislikes futuristic fashion, gothic clothing.",
+            "topic": [],
+            "original_id": "QA_sample_94320d57",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Alan Woods least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_94320d57_3",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. f6b265b2, Among the activities that could reasonably occur in the given image, which one is Alan Woods least likely to be doing?",
+        "answer": "Attending a improv comedy show",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Alan Woods enjoys theater performances, film festivals, but dislikes improv comedy, street performances",
+                "In terms of travel, Alan Woods enjoys hiking, scuba diving, but dislikes cruise vacations, solo travel"
+            ],
+            "image_evidence": [
+                "MMPB_9ab3a64b.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of lifestyle, Alan Woods enjoys home gardening, night owl lifestyle, but dislikes acupuncture, infrared sauna therapy",
+                "In terms of shopping, Alan Woods enjoys handmade crafts, vintage furniture, but dislikes Bluetooth speakers, wireless charging stations",
+                "In terms of fashion, Alan Woods enjoys plaid patterns, monochrome outfits, but dislikes futuristic fashion, gothic clothing."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Attending a improv comedy show",
+                "Buying Bluetooth speakers",
+                "Enjoying a musical concert",
+                "Watching a live theater performance"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_television_animals_history_a6b9026e",
+                    "insert_conversation_turn": 1069
+                },
+                {
+                    "conversation_name": "group_chat_television_animals_history_a6b9026e",
+                    "insert_conversation_turn": 344
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_video_games_science_television_cfbf0f17",
+                    "insert_conversation_turn": 878,
+                    "reference_name": "Fig. f6b265b2"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_video_games_science_television_cfbf0f17",
+                    "insert_conversation_turn": 861
+                },
+                {
+                    "conversation_name": "group_chat_television_animals_history_a6b9026e",
+                    "insert_conversation_turn": 104
+                },
+                {
+                    "conversation_name": "group_chat_education_travel_music_2e9cd311",
+                    "insert_conversation_turn": 25
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Jisu",
+            "description": "Jisu is a young woman with a slender build and an impression of average height. Her facial structure is characterized by a delicate jawline and a slightly rounded face, with prominent, expressive eyes and a well-defined nose. Jisu has a fair skin tone and long, straight hair that falls past her shoulders, often styled in a natural, flowing manner. Her hair color varies slightly across the images, ranging from dark brown to a lighter shade, adding versatility to her appearance. Jisu frequently displays a gentle smile, with her lips painted in a soft, natural shade, and her expressions convey a sense of warmth and approachability. Her poses are relaxed and confident, often captured in mid-gesture, such as waving or holding a microphone, which adds a dynamic quality to her presence.\n\n**Outfit and Accessories:**\nJisu's attire is diverse yet consistently stylish, reflecting a blend of casual and elegant elements. She is often seen in a mix of textures and colors, including a brown knitted cardigan over a leopard print shirt, a denim jacket, and a white lace top. The color palette ranges from earthy tones to vibrant blues, showcasing her versatility. Her outfits are practical yet fashionable, with a focus on comfort and style. Accessories play a significant role in her look, including a silver necklace with a circular pendant, a black shoulder bag, and a smartphone, which she holds in one of the images. These accessories add a touch of sophistication and personal flair to her overall appearance.\n\n**Distinguishing Visual Features or Vibe:**\nJisu exudes a unique and memorable presence, characterized by her long, straight hair and expressive eyes. Her style is a blend of casual and chic, with a focus on comfort and personal expression. The recurring theme of her outfits, which includes a mix of textures and colors, adds depth to her visual identity. The use of accessories, such as the silver necklace and black bag, enhances her look and adds a touch of elegance. Jisu's aura is one of warmth and approachability, with her gentle smile and relaxed poses conveying a sense of confidence and poise. Her ability to transition seamlessly between different settings, from casual to more formal environments, highlights her adaptability and versatility. Overall, Jisu's visual identity is defined by her stylish yet approachable appearance, making her instantly recognizable and memorable.",
+            "preference": "In terms of entertainment, Jisu enjoys theater performances, film festivals, but dislikes improv comedy, street performances. In terms of travel, Jisu enjoys hiking, scuba diving, but dislikes cruise vacations, solo travel. In terms of lifestyle, Jisu enjoys home gardening, night owl lifestyle, but dislikes acupuncture, infrared sauna therapy. In terms of shopping, Jisu enjoys handmade crafts, vintage furniture, but dislikes Bluetooth speakers, wireless charging stations. In terms of fashion, Jisu enjoys plaid patterns, monochrome outfits, but dislikes futuristic fashion, gothic clothing.",
+            "topic": [],
+            "original_id": "QA_sample_94320d57",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Alan Woods least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_abd12e05_1",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. a86ee4ab, the image, what is Elle Spears most likely to be doing?",
+        "answer": "Watching travel vlogs",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Elle Spears enjoys cooking shows, travel vlogs, but dislikes live band karaoke, magic shows"
+            ],
+            "image_evidence": [
+                "MMPB_2d99653f.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Elle Spears enjoys wildlife safaris, hot air balloon rides, but dislikes backcountry camping, ice fishing",
+                "In terms of lifestyle, Elle Spears enjoys meditation, yoga, but dislikes protein-rich diet, weightlifting",
+                "In terms of shopping, Elle Spears enjoys gaming accessories, tech gadgets, but dislikes luxury handbags, designer watches",
+                "In terms of fashion, Elle Spears enjoys high heels, tight-fitting clothes, but dislikes winter coats, denim jeans."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Shopping for tech gadgets",
+                "Watching travel vlogs",
+                "Watching magic tutorials",
+                "Watching sports highlights"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_education_travel_music_2e9cd311",
+                    "insert_conversation_turn": 442
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_video_games_science_television_cfbf0f17",
+                    "insert_conversation_turn": 22,
+                    "reference_name": "Fig. a86ee4ab"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_education_travel_music_2e9cd311",
+                    "insert_conversation_turn": 285
+                },
+                {
+                    "conversation_name": "group_chat_video_games_science_television_cfbf0f17",
+                    "insert_conversation_turn": 321
+                },
+                {
+                    "conversation_name": "group_chat_television_animals_history_a6b9026e",
+                    "insert_conversation_turn": 786
+                },
+                {
+                    "conversation_name": "group_chat_video_games_science_television_cfbf0f17",
+                    "insert_conversation_turn": 92
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Yuna",
+            "description": "Yuna is a young woman with a slender build and a graceful posture, suggesting a height that is likely average to tall. Her facial structure is delicate, with a prominent jawline and a slightly upturned nose. Yuna has a fair skin tone and long, straight brown hair that is often styled down or pulled back, depending on the context. Her eyes are expressive, and she frequently displays a warm, engaging smile. The consistency of her facial expressions and poses across the images conveys a sense of confidence and poise.\n\n**Outfit and Accessories:**\nYuna's attire varies from casual to formal, reflecting different contexts. In casual settings, she wears a black sweatshirt, while in more formal or performance contexts, she dons elaborate figure skating costumes. These costumes are often vibrant, featuring intricate designs and sparkling embellishments, such as a blue dress with silver accents and a yellow dress with sequins. The costumes are form-fitting, highlighting her athletic build and the fluidity of her movements. In one image, Yuna is seen holding a bouquet of flowers and a South Korean flag, suggesting a moment of victory or celebration. Her accessories, such as earrings and a medal, add to the formal and celebratory nature of her appearance.\n\n**Distinguishing Visual Features or Vibe:**\nYuna exudes a sense of elegance and grace, which is evident in her posture and facial expressions. Her long, straight brown hair and fair skin are consistent features that contribute to her distinctive appearance. The vibrant and sparkling costumes she wears during performances, such as the blue and yellow dresses, are visually striking and highlight her athleticism and artistry. The South Korean flag and medal she holds in one image suggest a sense of national pride and accomplishment. Overall, Yuna's visual presence is characterized by a blend of elegance, athleticism, and a warm, engaging demeanor.",
+            "preference": "In terms of entertainment, Yuna enjoys cooking shows, travel vlogs, but dislikes live band karaoke, magic shows. In terms of travel, Yuna enjoys wildlife safaris, hot air balloon rides, but dislikes backcountry camping, ice fishing. In terms of lifestyle, Yuna enjoys meditation, yoga, but dislikes protein-rich diet, weightlifting. In terms of shopping, Yuna enjoys gaming accessories, tech gadgets, but dislikes luxury handbags, designer watches. In terms of fashion, Yuna enjoys high heels, tight-fitting clothes, but dislikes winter coats, denim jeans.",
+            "topic": [],
+            "original_id": "QA_sample_abd12e05",
+            "original_question": "the image, what is Elle Spears most likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_abd12e05_2",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. fa126b1d, Among the activities that could reasonably occur in the given image, which one is Elle Spears least likely to be doing?",
+        "answer": "Watching a magic show competition",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Elle Spears enjoys cooking shows, travel vlogs, but dislikes live band karaoke, magic shows"
+            ],
+            "image_evidence": [
+                "MMPB_6f052249.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Elle Spears enjoys wildlife safaris, hot air balloon rides, but dislikes backcountry camping, ice fishing",
+                "In terms of lifestyle, Elle Spears enjoys meditation, yoga, but dislikes protein-rich diet, weightlifting",
+                "In terms of shopping, Elle Spears enjoys gaming accessories, tech gadgets, but dislikes luxury handbags, designer watches",
+                "In terms of fashion, Elle Spears enjoys high heels, tight-fitting clothes, but dislikes winter coats, denim jeans."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Viewing a live theater event",
+                "Watching a magic show competition",
+                "Wearing denim jeans",
+                "Observing a performance art contest"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_education_travel_music_2e9cd311",
+                    "insert_conversation_turn": 442
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_television_animals_history_a6b9026e",
+                    "insert_conversation_turn": 959,
+                    "reference_name": "Fig. fa126b1d"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_education_travel_music_2e9cd311",
+                    "insert_conversation_turn": 285
+                },
+                {
+                    "conversation_name": "group_chat_video_games_science_television_cfbf0f17",
+                    "insert_conversation_turn": 321
+                },
+                {
+                    "conversation_name": "group_chat_television_animals_history_a6b9026e",
+                    "insert_conversation_turn": 786
+                },
+                {
+                    "conversation_name": "group_chat_video_games_science_television_cfbf0f17",
+                    "insert_conversation_turn": 92
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Yuna",
+            "description": "Yuna is a young woman with a slender build and a graceful posture, suggesting a height that is likely average to tall. Her facial structure is delicate, with a prominent jawline and a slightly upturned nose. Yuna has a fair skin tone and long, straight brown hair that is often styled down or pulled back, depending on the context. Her eyes are expressive, and she frequently displays a warm, engaging smile. The consistency of her facial expressions and poses across the images conveys a sense of confidence and poise.\n\n**Outfit and Accessories:**\nYuna's attire varies from casual to formal, reflecting different contexts. In casual settings, she wears a black sweatshirt, while in more formal or performance contexts, she dons elaborate figure skating costumes. These costumes are often vibrant, featuring intricate designs and sparkling embellishments, such as a blue dress with silver accents and a yellow dress with sequins. The costumes are form-fitting, highlighting her athletic build and the fluidity of her movements. In one image, Yuna is seen holding a bouquet of flowers and a South Korean flag, suggesting a moment of victory or celebration. Her accessories, such as earrings and a medal, add to the formal and celebratory nature of her appearance.\n\n**Distinguishing Visual Features or Vibe:**\nYuna exudes a sense of elegance and grace, which is evident in her posture and facial expressions. Her long, straight brown hair and fair skin are consistent features that contribute to her distinctive appearance. The vibrant and sparkling costumes she wears during performances, such as the blue and yellow dresses, are visually striking and highlight her athleticism and artistry. The South Korean flag and medal she holds in one image suggest a sense of national pride and accomplishment. Overall, Yuna's visual presence is characterized by a blend of elegance, athleticism, and a warm, engaging demeanor.",
+            "preference": "In terms of entertainment, Yuna enjoys cooking shows, travel vlogs, but dislikes live band karaoke, magic shows. In terms of travel, Yuna enjoys wildlife safaris, hot air balloon rides, but dislikes backcountry camping, ice fishing. In terms of lifestyle, Yuna enjoys meditation, yoga, but dislikes protein-rich diet, weightlifting. In terms of shopping, Yuna enjoys gaming accessories, tech gadgets, but dislikes luxury handbags, designer watches. In terms of fashion, Yuna enjoys high heels, tight-fitting clothes, but dislikes winter coats, denim jeans.",
+            "topic": [],
+            "original_id": "QA_sample_abd12e05",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Elle Spears least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_abd12e05_3",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 97b8d6df, Among the activities that could reasonably occur in the given image, which one is Elle Spears least likely to be doing?",
+        "answer": "Participating in a live band karaoke",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Elle Spears enjoys cooking shows, travel vlogs, but dislikes live band karaoke, magic shows"
+            ],
+            "image_evidence": [
+                "MMPB_9ab3a64b.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Elle Spears enjoys wildlife safaris, hot air balloon rides, but dislikes backcountry camping, ice fishing",
+                "In terms of lifestyle, Elle Spears enjoys meditation, yoga, but dislikes protein-rich diet, weightlifting",
+                "In terms of shopping, Elle Spears enjoys gaming accessories, tech gadgets, but dislikes luxury handbags, designer watches",
+                "In terms of fashion, Elle Spears enjoys high heels, tight-fitting clothes, but dislikes winter coats, denim jeans."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Participating in a live band karaoke",
+                "Watching a opera show",
+                "Going ice fishing",
+                "Watching a stand-up comedy show"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_education_travel_music_2e9cd311",
+                    "insert_conversation_turn": 442
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_education_travel_music_2e9cd311",
+                    "insert_conversation_turn": 10,
+                    "reference_name": "Fig. 97b8d6df"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_education_travel_music_2e9cd311",
+                    "insert_conversation_turn": 285
+                },
+                {
+                    "conversation_name": "group_chat_video_games_science_television_cfbf0f17",
+                    "insert_conversation_turn": 321
+                },
+                {
+                    "conversation_name": "group_chat_television_animals_history_a6b9026e",
+                    "insert_conversation_turn": 786
+                },
+                {
+                    "conversation_name": "group_chat_video_games_science_television_cfbf0f17",
+                    "insert_conversation_turn": 92
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Yuna",
+            "description": "Yuna is a young woman with a slender build and a graceful posture, suggesting a height that is likely average to tall. Her facial structure is delicate, with a prominent jawline and a slightly upturned nose. Yuna has a fair skin tone and long, straight brown hair that is often styled down or pulled back, depending on the context. Her eyes are expressive, and she frequently displays a warm, engaging smile. The consistency of her facial expressions and poses across the images conveys a sense of confidence and poise.\n\n**Outfit and Accessories:**\nYuna's attire varies from casual to formal, reflecting different contexts. In casual settings, she wears a black sweatshirt, while in more formal or performance contexts, she dons elaborate figure skating costumes. These costumes are often vibrant, featuring intricate designs and sparkling embellishments, such as a blue dress with silver accents and a yellow dress with sequins. The costumes are form-fitting, highlighting her athletic build and the fluidity of her movements. In one image, Yuna is seen holding a bouquet of flowers and a South Korean flag, suggesting a moment of victory or celebration. Her accessories, such as earrings and a medal, add to the formal and celebratory nature of her appearance.\n\n**Distinguishing Visual Features or Vibe:**\nYuna exudes a sense of elegance and grace, which is evident in her posture and facial expressions. Her long, straight brown hair and fair skin are consistent features that contribute to her distinctive appearance. The vibrant and sparkling costumes she wears during performances, such as the blue and yellow dresses, are visually striking and highlight her athleticism and artistry. The South Korean flag and medal she holds in one image suggest a sense of national pride and accomplishment. Overall, Yuna's visual presence is characterized by a blend of elegance, athleticism, and a warm, engaging demeanor.",
+            "preference": "In terms of entertainment, Yuna enjoys cooking shows, travel vlogs, but dislikes live band karaoke, magic shows. In terms of travel, Yuna enjoys wildlife safaris, hot air balloon rides, but dislikes backcountry camping, ice fishing. In terms of lifestyle, Yuna enjoys meditation, yoga, but dislikes protein-rich diet, weightlifting. In terms of shopping, Yuna enjoys gaming accessories, tech gadgets, but dislikes luxury handbags, designer watches. In terms of fashion, Yuna enjoys high heels, tight-fitting clothes, but dislikes winter coats, denim jeans.",
+            "topic": [],
+            "original_id": "QA_sample_abd12e05",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Elle Spears least likely to be doing?"
+        }
+    }
+]

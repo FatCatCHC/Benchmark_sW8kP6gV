@@ -1,0 +1,2124 @@
+[
+    {
+        "id": "QA_sample_ff48ac68",
+        "domain": "MLLMKC",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. b8c14160, When was the brand associated with the logo established?",
+        "answer": "1953",
+        "evidence": {
+            "text_evidence": [
+                "Burger King was founded in 1953. The creators of Burger King are Keith J. Kramer and Matthew Burns. Burger King is the production of fast food."
+            ],
+            "image_evidence": [
+                "MLLMKC_1a8cd3ce.jpg"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Burger King was founded in 1955. The creators of Burger King are Keith J. Kramer and Matthew Burns. Burger King is the production of fast food."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "1952",
+                "1953",
+                "1955",
+                "1950"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_business_animals_science_5b55d141",
+                    "insert_conversation_turn": 581
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_nature_architecture_technology_45054879",
+                    "insert_conversation_turn": 176,
+                    "reference_name": "Fig. b8c14160"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_government_lifestyle_music_e720f9a8",
+                    "insert_conversation_turn": 113
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "instance": "Burger King",
+            "category": "logo",
+            "error_type": "time_error",
+            "topic": [
+                "food",
+                " business"
+            ],
+            "original_question": "When was the brand associated with the logo established?"
+        }
+    },
+    {
+        "id": "QA_sample_54170085",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 49ad0566, the previous definitions, which county was classified as \"high-risk for accidental overdose deaths\" in 2020? Did any of the counties achieve a reduction in death rates that meets the criteria for a \"successful policy intervention\" according to the text?",
+        "answer": "San Francisco County was classified as high-risk in 2020, with a death rate exceeding 50 per 100,000 people. No counties achieved a 20% reduction in death rates over two consecutive years.",
+        "evidence": {
+            "text_evidence": [
+                "Assume that a county is classified as high-risk for accidental overdose deaths if its death rate exceeds 50 per 100,000 people. Additionally, a policy intervention is considered successful if it lowers the death rate by at least 20% over two consecutive years."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_59a4933b.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "San Francisco County was classified as high-risk in 2020, with a death rate exceeding 50 per 100,000 people. No counties achieved a 20% reduction in death rates over two consecutive years.",
+                "The United States collectively was classified as high-risk in 2020 and achieved a 20% reduction in death rates over two consecutive years",
+                "King County was classified as high-risk in 2020 and achieved a 20% reduction in death rates over two consecutive years",
+                "Philadelphia County was classified as high-risk in 2020 and achieved a 20% reduction in death rates over two consecutive years"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_government_lifestyle_music_e720f9a8",
+                    "insert_conversation_turn": 581
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_nature_architecture_technology_45054879",
+                    "insert_conversation_turn": 20,
+                    "reference_name": "Fig. 49ad0566"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "health"
+            ],
+            "original_question": "the previous definitions, which county was classified as \"high-risk for accidental overdose deaths\" in 2020? Did any of the counties achieve a reduction in death rates that meets the criteria for a \"successful policy intervention\" according to the text?"
+        }
+    },
+    {
+        "id": "QA_sample_49cae691",
+        "domain": "MLLMKC",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. 4bbcdcb3, Who established the brand corresponding to the logo?",
+        "answer": "John Stith Pemberton",
+        "evidence": {
+            "text_evidence": [
+                "Coca-Cola was created in 1886. The creator of Coca-Cola is John Stith Pemberton. Coca-Cola is the brand of a carbonated soft drink."
+            ],
+            "image_evidence": [
+                "MLLMKC_a7899a0a.jpg"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Coca-Cola was created in 1886. The creator of Coca-Cola is Thomas Edison. Coca-Cola is the brand of a carbonated soft drink."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "John Stith Pemberton",
+                "Leonardo da Vinci",
+                "Thomas Edison",
+                "Alexander Graham Bell"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_government_lifestyle_music_e720f9a8",
+                    "insert_conversation_turn": 938
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_business_animals_science_5b55d141",
+                    "insert_conversation_turn": 537,
+                    "reference_name": "Fig. 4bbcdcb3"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_nature_architecture_technology_45054879",
+                    "insert_conversation_turn": 442
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "instance": "Coca-Cola",
+            "category": "logo",
+            "error_type": "creator_error",
+            "topic": [
+                "food",
+                " business",
+                " history"
+            ],
+            "original_question": "Who established the brand corresponding to the logo?"
+        }
+    },
+    {
+        "id": "18840e55",
+        "domain": "MMDocRAG",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 9f3c9817, Doc. f3cba010, Doc. 4acfa591, Doc. 16a787e2, Doc. 0c53f11f, How did NAMRU-3 contribute to medical research capacity building in Liberia, and what was the role of the Liberian Institute of Biomedical Research in this collaboration?",
+        "answer": "NAMRU-3 collaborated with LIBR on disease vector surveillance and detection projects, helping restore and expand Liberia's medical research capabilities.",
+        "evidence": {
+            "text_evidence": [
+                "In a separate meeting, the Director of LIBR said, “The  collaboration with NAMRU-3 is helping to restore many of  the capabilities that LIBR had before the war.”  "
+            ],
+            "image_evidence": [
+                "MMDocRAG_0a10a776.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": [
+                [
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "On a tour of Camp Edward Binyah, Oyofo met with Pfc.  Nadoris Nador and Pfc. Henry Morris , two AFL Preventive  Medicine Technicians. They told Oyofo how they had bene- fited from the training offered through NAMRU-3  AFHSC- GEIS projects.   "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "The Minister of Health and Social Welfare gave high  praise for NAMRU-3‟s capacity building engagements in  Liberia. He expressed specific thanks for the collaboration at  LIBR, where he also serves as the chairman of the Board of  Governors, and he expressed the hope that the current col- "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "“Our projects in Liberia directly support our war fighters,”  said Capt. Buhari Oyofo, NAMRU-3 commanding officer.  “We also need to leave the knowledge and tools behind so  they can continue to support themselves once we‟re done.”  "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_3764b8d5.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_6cfd90ae.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "The NAMRU-3 team visited Monrovia, Liberia in Novem- ber to meet with key collaborators, including Dr. Walter  Gwenigale, the Minister of Health and Social Welfare; Dr.  Fatorma Bolay, the Director of LIBR; and U.S. Marine Col.  Vernon Graham, the officer in charge of Operation Onward  Liberty (OOL).   "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "SILVER SPRING, Md. - Four  scientists from Kazakhstan visited the  Rickettsia l Diseases Research  Program laboratories at the Naval  Medical Research Center ( NMRC ) in  Silver Spring, Md., October 29- November 9 for training on molecular  assays, specifically multi-locus  sequencing typing (MLST), from Dr.  Allen Richards and his staff. The  training was part of a collaboration  with the Cooperative Biological  Engagement Program (CBEP) of the  Defense Threat Reduction Agency  (DTRA).  "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Since 2010, Navy biomedical researchers have been  collaborating with the Liberian Institute of Biomedical Re- search (LIBR) on two research projects funded by the  Armed Forces Health Surveillance Center/Global Emerging  Infections System (AFHSC-GEIS). These projects focus on  disease vector surveillance, detection of vector-borne viral  pathogens such as malaria, and vector control. The projects  are enabling the country to independently expand vector- borne disease surveillance and detection capabilities in Li- beria to benefit the Liberian Armed Forces as well as the  entire population of Liberia.  "
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_727de98b.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "CAIRO - U.S. Naval Medical Research Unit No. 3   ( NAMRU-3 ) is playing an important role in medical research  capacity building in Liberia, which is recovering from a brutal  14-year civil war that devastated the country‟s infrastructure.  "
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "laboration with NAMRU-3 will open doors for future projects  for the benefit of Liberia and attract other potential collabora- tors to LIBR.  "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_53e75b45.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_27fc8283.png"
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "During a meeting with Graham, he expressed particular  interest in the project combining insecticide spraying for all  base housing with surveillance and geospacial mapping to  determine the distribution of malaria-transmitting mosqui- toes. No malaria infections have been diagnosed in U.S  troops since the onset of the spraying, which is carried out  by NAMRU-3 in collaboration with the Navy Entomology  Center of Excellence (NECE). This illustrates the risk reduc- tion made possible with a force health protection policy em- ploying both environmental vector controls and anti-malarial  prophylaxis.  "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Nador expressed her appreciation for the training in vec- tor surveillance, vector biology/identification and vector con- trol, saying, “The knowledge and the equipment provided by  NAMRU-3 has very much improved our ability to protect our  soldiers and their families from disease.”   "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "NAMRU-3 Supports Medical Research Capacity Building in Liberia "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_75929505.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_dfcb7037.png"
+                        }
+                    }
+                ]
+            ]
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "NAMRU-3 provided training to AFL Preventive Medicine Technicians and supported vector control initiatives in Liberia through collaboration with LIBR",
+                "NAMRU-3 partnered with LIBR to deliver equipment and knowledge for vector biology and identification, improving disease protection for soldiers and their families",
+                "NAMRU-3 worked with the Ministry of Health and Social Welfare to implement insecticide spraying and geospatial mapping for malaria control",
+                "NAMRU-3 collaborated with LIBR on disease vector surveillance and detection projects, helping restore and expand Liberia's medical research capabilities."
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_business_animals_science_5b55d141",
+                    "insert_conversation_turn": 337
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_business_animals_science_5b55d141",
+                    "insert_conversation_turn": 212,
+                    "reference_name": "Fig. 9f3c9817"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_nature_architecture_technology_45054879",
+                    "insert_conversation_turn": 274,
+                    "reference_name": "Doc. f3cba010"
+                },
+                {
+                    "conversation_name": "group_chat_government_lifestyle_music_e720f9a8",
+                    "insert_conversation_turn": 819,
+                    "reference_name": "Doc. 4acfa591"
+                },
+                {
+                    "conversation_name": "group_chat_government_lifestyle_music_e720f9a8",
+                    "insert_conversation_turn": 286,
+                    "reference_name": "Doc. 16a787e2"
+                },
+                {
+                    "conversation_name": "group_chat_government_lifestyle_music_e720f9a8",
+                    "insert_conversation_turn": 661,
+                    "reference_name": "Doc. 0c53f11f"
+                }
+            ]
+        },
+        "meta_data": {
+            "category": "Administration/Industry file",
+            "doc_name": "0b85477387a9d0cc33fca0f4becaa0e5",
+            "gold_quotes": [
+                "text8",
+                "text7",
+                "text6",
+                "image3",
+                "image6"
+            ],
+            "topic": [
+                "health",
+                " science",
+                " education",
+                " environment",
+                " government"
+            ],
+            "original_question": "How did NAMRU-3 contribute to medical research capacity building in Liberia, and what was the role of the Liberian Institute of Biomedical Research in this collaboration?"
+        }
+    },
+    {
+        "id": "QA_sample_cde604c6",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 2d6448ec, the text, which racial group and month combination in the provided chart would exceed the threshold for \"high-frequency incidents\" and therefore be flagged for urgent review?",
+        "answer": "Native American group in October 2015.",
+        "evidence": {
+            "text_evidence": [
+                "The threshold for 'high-frequency incidents' is defined as a rate of 1.5 or more people killed by police per million, averaged for a specific racial group over any month. Any racial group exceeding this threshold in a given month is flagged for an urgent review of police practices toward that group."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_9880d833.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Black group in July 2016",
+                "Native American group in October 2015.",
+                "Hispanic/Latino group in April 2015",
+                "White group in October 2015"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_government_lifestyle_music_e720f9a8",
+                    "insert_conversation_turn": 256
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_nature_architecture_technology_45054879",
+                    "insert_conversation_turn": 5,
+                    "reference_name": "Fig. 2d6448ec"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "government",
+                "health"
+            ],
+            "original_question": "the text, which racial group and month combination in the provided chart would exceed the threshold for \"high-frequency incidents\" and therefore be flagged for urgent review?"
+        }
+    },
+    {
+        "id": "QA_sample_f57968a7",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 5c882b2b, the trends shown in the graph, would the teen pregnancy rate be likely to meet the \"target rate of 45.92 per 1,000 women aged 15-19 by 2020,\" according to the previous definition of a 20% reduction goal starting in 2010?",
+        "answer": "Yes",
+        "evidence": {
+            "text_evidence": [
+                "A government program aims to reduce teen pregnancy rates by 20% within a decade. If the program starts in 2010, a 20% reduction target implies the rate should drop to 45.92 per 1,000 women aged 15-19 by the year 2020. Assume that the trends from the graph continue without any major fluctuations or interruptions during this period."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_12c2087f.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "No",
+                "Yes"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_nature_architecture_technology_45054879",
+                    "insert_conversation_turn": 82
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_government_lifestyle_music_e720f9a8",
+                    "insert_conversation_turn": 533,
+                    "reference_name": "Fig. 5c882b2b"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "health",
+                "government"
+            ],
+            "original_question": "the trends shown in the graph, would the teen pregnancy rate be likely to meet the \"target rate of 45.92 per 1,000 women aged 15-19 by 2020,\" according to the previous definition of a 20% reduction goal starting in 2010?"
+        }
+    },
+    {
+        "id": "d84627f7",
+        "domain": "MMDocRAG",
+        "category": "Single_Hop_QA",
+        "question": "Based on Doc. 3f410cae, Doc. 8d606fd2, Doc. 3e0ebf84, Doc. 175b2004, How can students seek support in case of hospitalization and what facilities are available for their well-being at the Student Wellbeing Centre?",
+        "answer": "GHSI reimbursement for hospitalization; professional counselling at Student Wellbeing Centre.",
+        "evidence": {
+            "text_evidence": [
+                "Eligible students may seek a reimbursement under  the Group Hospital is ation and Surgical Insurance  (GHSI) scheme for the hospital is ation fee incurred in  Singapore government/restructured hospitals. The  insurance company will review and determine the  reimbursed amount based on the scheme’s terms and  conditions. For more information on GHSI, please refer  to  Insurance section . "
+            ],
+            "image_evidence": [],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": [
+                [
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "The Student Wellbeing Centre further promotes  student well-being through workshops and talks on  topics such as strategies for better learning, and  stress and relaxation techniques. Resources are  also available for students to support them through  various periods in the academic journey. Visit  www. ntu.edu.sg/student wellbeing/selfhelp/students   or  drop by the Centre for these resources. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "The Student Wellbeing Centre administers a peer  support network for students on campus called the  ‘Peer Helping Programme’. Student volunteers in the  programme are trained by the Centre’s professional  Student Counsellors to befriend and support students  with  emotional  and/or  psychological  issues.  If  you wish to find out more about this programme,  please call or email the Student Wellbeing Centre at  student wellbeing@ntu.edu.sg . "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Falling ill and being hospitalised in Singapore can be  a financial drain on international students who are not  entitled to medical subsidies. Further, hospitals require  a deposit of the entire estimated cost upon admission.  For example, if the estimated cost for a hospital stay  is  $\\S5{,}000$  , you must place a deposit of  $\\S5{,}000$   with the  hospital upon admission. "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_31579052.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_3963b50e.png"
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "The GPAI Scheme provides basic coverage for  accidental death or permanent disablement as  well as medical reimbursement for accidents  for  undergraduates  and  full-time  graduate  students  (optional).  Please  see  www.ntu.edu. sg/Students/Undergraduate/Student Services/ Health And Counselling/Medical Insurance Schemes/ Pages/GPAI.aspx  for details including conditions for  eligibility. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "The Student Wellbeing Centre is available to all  students for professional counselling. A team of  registered counsellors are experienced in helping  students from various backgrounds and with a wide  range of issues. "
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_3feb27d0.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_f93abbe9.png"
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "NTU  has  two  insurance  schemes  -  Group  Hospital is ation and Surgical Insurance and the Group  Personal Accident Insurance - to help eligible students  meet basic medical cost . "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "For eligible students on the GHSI, the underwriter of  GHSI will prepare a Letter of Guarantee (LOG), which  you can present to the hospital in lieu of the cash  deposit, subject to the terms and conditions of the  insurance scheme. For more information, please refer  to  www.ntu-ghs.com.sg "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Group Hospital is ation and Surgical Insurance  (GHSI) "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_02c46307.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_8179e7e7.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "To speak to a professional Student Counsellor,  please make an appointment at  www.ntu.edu.sg/ student wellbeing/appointment  or call (65) 6790 4462  during office hours. The Centre is located at University  Health Service, #02-01, 36 Nanyang  Avenue. Consultation  is free of charge for students and held in strict confidence.  "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Being away from home can be an especially lonely  experience when you fall ill or are hospitalised. Do  contact SAO-Student Support should you need any  assistance. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "If you are facing challenges which affect your health,  relationships, daily activities, academic performance or  eating and sleeping patterns, please seek professional  counselling. You may also approach the Centre if  you are interested in personal development or self- improvement. "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_a9a31e2d.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_f2faa167.png"
+                        }
+                    }
+                ]
+            ]
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Letter of Guarantee for hospital deposit; peer helping programme at Student Wellbeing Centre",
+                "GHSI reimbursement for hospitalization; professional counselling at Student Wellbeing Centre.",
+                "Direct payment to hospital; workshops and talks at Student Wellbeing Centre",
+                "Personal Accident Insurance coverage; self-help resources at Student Wellbeing Centre"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_business_animals_science_5b55d141",
+                    "insert_conversation_turn": 297
+                }
+            ],
+            "image_evidence_assignment": [],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_government_lifestyle_music_e720f9a8",
+                    "insert_conversation_turn": 166,
+                    "reference_name": "Doc. 3f410cae"
+                },
+                {
+                    "conversation_name": "group_chat_government_lifestyle_music_e720f9a8",
+                    "insert_conversation_turn": 135,
+                    "reference_name": "Doc. 8d606fd2"
+                },
+                {
+                    "conversation_name": "group_chat_government_lifestyle_music_e720f9a8",
+                    "insert_conversation_turn": 89,
+                    "reference_name": "Doc. 3e0ebf84"
+                },
+                {
+                    "conversation_name": "group_chat_business_animals_science_5b55d141",
+                    "insert_conversation_turn": 522,
+                    "reference_name": "Doc. 175b2004"
+                }
+            ]
+        },
+        "meta_data": {
+            "category": "Guidebook",
+            "doc_name": "StudentSupport_Guidebook",
+            "gold_quotes": [
+                "text4",
+                "image4",
+                "text6",
+                "image2"
+            ],
+            "topic": [
+                "health",
+                " education"
+            ],
+            "original_question": "How can students seek support in case of hospitalization and what facilities are available for their well-being at the Student Wellbeing Centre?"
+        }
+    },
+    {
+        "id": "QA_sample_f1745378",
+        "domain": "MLLMKC",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. adb604b4, What is the nationality of the person in the picture?",
+        "answer": "Britis",
+        "evidence": {
+            "text_evidence": [
+                "[Jamie Oliver] was born in [1975]. [Jamie Oliver] is [British]. [Jamie Oliver] is a [chef, restaurateur, and media personality]."
+            ],
+            "image_evidence": [
+                "MLLMKC_dcf44207.jpg"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "[Jamie Oliver] was born in [1975]. [Jamie Oliver] is [Irish]. [Jamie Oliver] is a [chef, restaurateur, and media personality]."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Britis",
+                "French",
+                "Finnish",
+                "Irish"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_government_lifestyle_music_e720f9a8",
+                    "insert_conversation_turn": 631
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_nature_architecture_technology_45054879",
+                    "insert_conversation_turn": 658,
+                    "reference_name": "Fig. adb604b4"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_business_animals_science_5b55d141",
+                    "insert_conversation_turn": 95
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "instance": "Jamie Oliver",
+            "category": "people",
+            "error_type": "location_error",
+            "topic": [
+                "food"
+            ],
+            "original_question": "What is the nationality of the person in the picture?"
+        }
+    },
+    {
+        "id": "4a393e24",
+        "domain": "MMDocRAG",
+        "category": "Single_Hop_QA",
+        "question": "Based on Doc. 21dffbf8, Doc. 70b6ede3, Doc. d382f9bc, What training activities were conducted by NAMRU-3 in Afghanistan?",
+        "answer": "Laboratory and diagnostic training, workshops, and training modules.",
+        "evidence": {
+            "text_evidence": [
+                "training plan was developed for 2012  based on needs and gaps identified  by NAMRU-3 laboratory assess- ments. NAMRU-3 researchers  developed nine modules on parasitol- ogy, bacteriology, bioscience facility  management, clinical epidemiology,  miomedical equipment repair,  laboratory quality management  system, serology, molecular biology  and virology.  ",
+                "NAMRU-3 hosted nine Afghan trainees from the Central Public Health  Laboratory in Kabul for a bacteriology training workshop.  "
+            ],
+            "image_evidence": [],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": [
+                [
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "In 2011 NAMRU-3 provided training for 160 Afghan  scientists and technicians on laboratory operations,  diagnostic procedures, and ethics in research and  management with respect to activity involving U.S.  select agents...a comprehensive training plan was  developed for 2012 based on needs and gaps  identified by NAMRU-3 laboratory assessments.  "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_2dff4860.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_f5694b1e.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "With the assistance of OOL, NAMRU-3 has pursued mili- tary-to-military engagements with the Armed Forces of Libe- ria (AFL) through vector control training efforts in collabora- tion with LIBR.  "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "NAMRU-3 has been involved in  developing Afghanistan‟s public  health capacity since 2006.   "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "NAMRU-3 has also conducted  several workshops to train laboratory  and administrative staff on proper  laboratory procedures, establish  inventory for supplies, institute quality  control procedures and standard  operating procedures, purchase  reliable supplies, and develop  national laboratory biosafety and  laboratory quality control plans.  "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_7932e748.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_6137371a.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Nador expressed her appreciation for the training in vec- tor surveillance, vector biology/identification and vector con- trol, saying, “The knowledge and the equipment provided by  NAMRU-3 has very much improved our ability to protect our  soldiers and their families from disease.”   "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "According to NAMRU-3 Com- manding Officer, Capt. Buhari Oyofo,  “NAMRU-3 has developed training  materials tailored to the Afghanis with  special consideration of cultural  practices.”  "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "NAMRU-3‟s initial engagement  was focused on the Ministry of Public  Health (MoPH) and the Afghan Public  Health Institute. NAMRU-3 assessed  the capacity and capability of labora- tory, staff and laboratory support  facilities. First focusing on the Central  Public Health Laboratory (CPHL) in  Kabul, the program later included  additional facilities in Kabul with plans  for other regions of Afghanistan.   "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_db172022.png"
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_6cee2803.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "NAMRU-3 established five hospital  laboratories as well as virology,  bacteriology and serology laborato- ries within the CPHL. They have  provided training for various diagnos- tic laboratories and through imple- mentation of an acute febrile illness/ diarrhea study.   "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "CAIRO - As part of U.S. Naval  Medical Research Unit No. 3‟s  ( NAMRU-3 ) ongoing efforts to build  medical capacity with Ministry of  Health laboratories in several coun- tries, NAMRU-3 is partnering with the  Defense Threat Reduction Agency  (DTRA) Cooperative Biological  Engagement Program (CBEP) in  Afghanistan. This collaboration  enhances the efficiency and synergy  in the U.S. government‟s biodefense  and disease surveillance efforts.   "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "train-the-trainer program. In 2011  NAMRU-3 provided training for 160  Afghan scientists and technicians on  laboratory operations, diagnostic  procedures, and ethics in research  and management with respect to  activity involving U.S. select agents.  With DTRA support, a comprehensive  "
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_0968f466.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_41955557.png"
+                        }
+                    }
+                ]
+            ]
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Laboratory and diagnostic training, workshops, and training modules.",
+                "Project HOPE medical training, field sampling, and laboratory quality control",
+                "Military-to-military engagement, inventory management, and biosafety plan development",
+                "Vector control training, hospital laboratory establishment, and acute febrile illness study"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_nature_architecture_technology_45054879",
+                    "insert_conversation_turn": 399
+                },
+                {
+                    "conversation_name": "group_chat_nature_architecture_technology_45054879",
+                    "insert_conversation_turn": 608
+                }
+            ],
+            "image_evidence_assignment": [],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_business_animals_science_5b55d141",
+                    "insert_conversation_turn": 507,
+                    "reference_name": "Doc. 21dffbf8"
+                },
+                {
+                    "conversation_name": "group_chat_nature_architecture_technology_45054879",
+                    "insert_conversation_turn": 130,
+                    "reference_name": "Doc. 70b6ede3"
+                },
+                {
+                    "conversation_name": "group_chat_business_animals_science_5b55d141",
+                    "insert_conversation_turn": 492,
+                    "reference_name": "Doc. d382f9bc"
+                }
+            ]
+        },
+        "meta_data": {
+            "category": "Administration/Industry file",
+            "doc_name": "0b85477387a9d0cc33fca0f4becaa0e5",
+            "gold_quotes": [
+                "text2",
+                "text1",
+                "text12",
+                "image5"
+            ],
+            "topic": [
+                "health",
+                " education",
+                " science",
+                " government"
+            ],
+            "original_question": "What training activities were conducted by NAMRU-3 in Afghanistan?"
+        }
+    },
+    {
+        "id": "dd4ac806",
+        "domain": "MMDocRAG",
+        "category": "Single_Hop_QA",
+        "question": "Based on Doc. 0fde2697, Doc. 6ba43409, Which model achieved the highest F1 score on the DrugBank dataset and what was the value?",
+        "answer": "Liu et al. (2015) (state of the art) with F1 score of 89.70.",
+        "evidence": {
+            "text_evidence": [],
+            "image_evidence": [],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": [
+                [
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Table 2: DrugNER results on the MedLine and DrugBank test data   $(80.10\\%$   and   $19.90\\%$   of the test data, respectively). The Yadav et al. (2018) experiments report no decimal places because they were run after the end of shared task, and the ofﬁcial evaluation script outputs no decimal places. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Ma and Hovy (2016) implemented this model to achieve   $91.21\\%$   F1 score on the CoNLL 2003 English dataset and  $97.55\\%$   POS-tagging accuracy on the WSJ portion of PTB (Marcus et al., 1993). They also showed lower performance by this model for out of vocabulary words. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "al. (2016), is   $2.64\\%$   better than the best word-based model, Yan et al. (2016), and  $2.54\\%$   better than the best character-based model, (Kuru et al., 2016). In DrugNER, the word+character hybrid model is better than the word model by   $14.25\\%$   on MedLine test data and   $1.81\\%$   on DrugBank test data. "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_98940f53.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_a5cfae78.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Bharadwaj et al.   $(2016)^{16}$    utilized phonemes (from Epitran) for NER in addition to characters and words. They also utilize attention knowledge over sequence of characters in word which is concatenated with the word embedding and character representation of word. This model achieved state of the art performance (  $85.81\\%$   F score) on Spanish CoNLL 2002 dataset. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "The ﬁrst word-level NN model was proposed by Collobert et al. (2011) 10 . The architecture was similar to the one shown in Figure 1, but a convolution layer was used instead of the Bi-LSTM layer and the output of the convolution layer was given to a CRF layer for the ﬁnal prediction. The authors achieved  $89.59\\%$   F1 score on English CoNLL 2003 dataset by including gazetteers and SENNA embeddings. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Dernoncourt et al. (2017) implemented this model in the NeuroNER toolkit 14   with the main goal of providing easy usability and allowing easy plotting of real time performance and learning statistics of the model. The BRAT annotation tool 15   is also integrated with NeuroNER to ease the development of NN NER models in new domains. NeuroNER achieved  $90.50\\%$   F score on the English CoNLL 2003 data. "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_3685a0de.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_9e58d5b6.png"
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "This model was implemented by Pham and Le-Hong (2017) for Vietnamese NER and achieved   $80.23\\%$  F-score on Nguyen et al. (2016)’s Vietnamese test data. Character models were also used in various other languages like Chinese (Dong et al., 2016) where it has achieved near state of the art performance. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Santos and Guimaraes (2015) implemented a model with a CNN over the characters of word, concate- nated with word embeddings of the central word and its neighbors, fed to a feed forward network, and followed by the Viterbi algorithm to predict labels for each word. The model achieved   $82.21\\%$   F score on Spanish CoNLL 2002 data and  $71.23\\%$   F score on Portuguese NER data (Santos and Cardoso, 2007). "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Huang et al. (2015) presented a word LSTM model (Figure 1) and showed that adding a CRF layer to the top of the word LSTM improved performance, achieving   $84.26\\%$   F1 score on English CoNLL 2003 dataset. Similar systems were applied to other domains: DrugNER by Chalapathy et al. (2016) achieving  $85.19\\%$   F1 score (under an unofﬁcial evaluation) on MedLine test data (Segura Bedmar et al., 2013), and medical NER by  $\\mathrm{Xu}$   et al. (2017) achieving   $80.22\\%$   F1 on disease NER corpus using this architecture. In similar tasks, Plank et al. (2016) implemented the same model for multilingual POS tagging. "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_45b746d4.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_0b2e60c8.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Our ﬁnal ﬁnding is that there is still interesting progress to be made by incorporating key features of past feature-engineered models into modern NN architectures. Yadav et al. (2018)’s simple extension of Lample et al. (2016) to incorporate afﬁx features yields a very strong new model, achieving a new state-of-the-art in Spanish, Dutch, and German, and performing within  $1\\%$   of the best model for English. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Habibi et al. (2017) implemented the model for various biomedical NER tasks and achieved higher performance than the majority of other participants. For example, they achieved 83.71 F-score on the CHEMDNER data (Krallinger et al., 2015). "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "In DrugNER (Segura Bedmar et al., 2013), Liu et al. (2015) achieved state-of-the-art results by us- ing a CRF with features like lexicon resources from Food and Drug Administration (FDA), DrugBank, Jochem (Hettne et al., 2009) and word embeddings (trained on a MedLine corpus). For the same task, Rockt¨ aschel et al. (2013) used a CRF with features constructed from dictionaries (e.g., Jochem (Hettne et al., 2009)), ontologies (ChEBI ontologies), preﬁxes-sufﬁxes from chemical entities, etc. "
+                        }
+                    }
+                ]
+            ]
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "Yadav et al. (2018) (word + character + affix model) with F1 score of 87",
+                "Chalapathy et al. (2016) (NN word model) with F1 score of 85.19",
+                "Liu et al. (2015) (state of the art) with F1 score of 89.70.",
+                "Rocktäschel et al. (2013) (feature-engineered machine learning system) with F1 score of 87.80"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [],
+            "image_evidence_assignment": [],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_business_animals_science_5b55d141",
+                    "insert_conversation_turn": 597,
+                    "reference_name": "Doc. 0fde2697"
+                },
+                {
+                    "conversation_name": "group_chat_government_lifestyle_music_e720f9a8",
+                    "insert_conversation_turn": 796,
+                    "reference_name": "Doc. 6ba43409"
+                }
+            ]
+        },
+        "meta_data": {
+            "category": "Academic paper",
+            "doc_name": "C18-1182",
+            "gold_quotes": [
+                "image4",
+                "text12"
+            ],
+            "topic": [
+                "technology",
+                "health"
+            ],
+            "original_question": "Which model achieved the highest F1 score on the DrugBank dataset and what was the value?"
+        }
+    },
+    {
+        "id": "QA_sample_277af433",
+        "domain": "MLLMKC",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. 7fecd201, What are the main products of this brand?",
+        "answer": "diapers",
+        "evidence": {
+            "text_evidence": [
+                "Pampers was created in 1961. The creator of Pampers is Victor Mills. Pampers is the brand of diapers."
+            ],
+            "image_evidence": [
+                "MLLMKC_a844c77a.jpg"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Pampers was created in 1961. The creator of Pampers is Victor Mills. Pampers is the brand of baby food."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "diapers",
+                "children's clothing",
+                "baby wipes",
+                "baby food"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_government_lifestyle_music_e720f9a8",
+                    "insert_conversation_turn": 459
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_business_animals_science_5b55d141",
+                    "insert_conversation_turn": 400,
+                    "reference_name": "Fig. 7fecd201"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_nature_architecture_technology_45054879",
+                    "insert_conversation_turn": 734
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "instance": "Pampers",
+            "category": "logo",
+            "error_type": "content_error",
+            "topic": [
+                "business",
+                "health",
+                "lifestyle"
+            ],
+            "original_question": "What are the main products of this brand?"
+        }
+    },
+    {
+        "id": "QA_sample_7d04194e",
+        "domain": "SlideVQA",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. ca0872b5, Fig. f95eef4b, What are three parts of a type of device's electronic system whose usage is limited to the medical field in India?",
+        "answer": "Signal Amplifier, Signal Processor, Display",
+        "evidence": {
+            "text_evidence": [],
+            "image_evidence": [
+                "SlideVQA_3e3d8a2b_page_5.png",
+                "SlideVQA_3e3d8a2b_page_16.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Signal Amplifier, Signal Processor, Display",
+                "Power Supply System",
+                "Microprocessor Unit",
+                "Data Storage Module"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_nature_architecture_technology_45054879",
+                    "insert_conversation_turn": 114,
+                    "reference_name": "Fig. ca0872b5"
+                },
+                {
+                    "conversation_name": "group_chat_government_lifestyle_music_e720f9a8",
+                    "insert_conversation_turn": 778,
+                    "reference_name": "Fig. f95eef4b"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "technology",
+                "health",
+                "food"
+            ],
+            "original_question": "What are three parts of a type of device's electronic system whose usage is limited to the medical field in India?"
+        }
+    },
+    {
+        "id": "d5777004",
+        "domain": "MMDocRAG",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. bf695dbf, Fig. 4a6e178e, Doc. e676851a, Doc. af52200d, Doc. e1424337, Doc. 8c3d991a, Doc. b1322285, What are the key collaborations and activities undertaken by NAMRU-3 in Liberia, and how do these efforts contribute to the local medical research capacity?",
+        "answer": "Collaboration with Liberian Institute of Biomedical Research on disease surveillance and vector control to build local medical research capacity.",
+        "evidence": {
+            "text_evidence": [],
+            "image_evidence": [
+                "MMDocRAG_93718dc5.png",
+                "MMDocRAG_775061d8.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": [
+                [
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "NAMRU-3 Supports Medical Research Capacity Building in Liberia "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "During a meeting with Graham, he expressed particular  interest in the project combining insecticide spraying for all  base housing with surveillance and geospacial mapping to  determine the distribution of malaria-transmitting mosqui- toes. No malaria infections have been diagnosed in U.S  troops since the onset of the spraying, which is carried out  by NAMRU-3 in collaboration with the Navy Entomology  Center of Excellence (NECE). This illustrates the risk reduc- tion made possible with a force health protection policy em- ploying both environmental vector controls and anti-malarial  prophylaxis.  "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "With the assistance of OOL, NAMRU-3 has pursued mili- tary-to-military engagements with the Armed Forces of Libe- ria (AFL) through vector control training efforts in collabora- tion with LIBR.  "
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_988d7c09.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "One notable collaboration is being spearheaded by  Cmdr. Jonathan Forsberg (NMRC, Operational and Un- dersea Medicine Directorate), who is working with a com- pany to explore a novel mode of anchoring prosthetics.  This project could produce important results for amputees.  Another collaboration being led by Lt. Roxanne Burrus  ( U.S. Naval Medical Research Unit No. 6 , Lima, Peru)  involves Duke University and focuses on evaluating the  effects of changing demography and land use on malaria  transmission. This is an important issue in light of the  prevalence of malaria in developing countries and is  important to the health of deployed war fighters. An addi- tional malaria-focused collaboration is being headed by Lt.  R. Vince Gerbasi (NMRC, Infectious Diseases Director- ate), who is using mass spectrometry to identify novel  antigens to be used as potential vaccine candidates.  Lastly, Dr Bjorn Song ( Naval Medical Research Unit-San  Antonio ) is leading a collaboration focused on exploring  the use of a synthetic oxygen-carrying fluid to reduce  tissue damage occurring in response to hemorrhagic  shock.  "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "NAMRU-3‟s initial engagement  was focused on the Ministry of Public  Health (MoPH) and the Afghan Public  Health Institute. NAMRU-3 assessed  the capacity and capability of labora- tory, staff and laboratory support  facilities. First focusing on the Central  Public Health Laboratory (CPHL) in  Kabul, the program later included  additional facilities in Kabul with plans  for other regions of Afghanistan.   "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Since 2010, Navy biomedical researchers have been  collaborating with the Liberian Institute of Biomedical Re- search (LIBR) on two research projects funded by the  Armed Forces Health Surveillance Center/Global Emerging  Infections System (AFHSC-GEIS). These projects focus on  disease vector surveillance, detection of vector-borne viral  pathogens such as malaria, and vector control. The projects  are enabling the country to independently expand vector- borne disease surveillance and detection capabilities in Li- beria to benefit the Liberian Armed Forces as well as the  entire population of Liberia.  "
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_37c0dfe2.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "CAIRO - U.S. Naval Medical Research Unit No. 3   ( NAMRU-3 ) is playing an important role in medical research  capacity building in Liberia, which is recovering from a brutal  14-year civil war that devastated the country‟s infrastructure.  "
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "The NAMRU-3 team visited Monrovia, Liberia in Novem- ber to meet with key collaborators, including Dr. Walter  Gwenigale, the Minister of Health and Social Welfare; Dr.  Fatorma Bolay, the Director of LIBR; and U.S. Marine Col.  Vernon Graham, the officer in charge of Operation Onward  Liberty (OOL).   "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "CAIRO - As part of U.S. Naval  Medical Research Unit No. 3‟s  ( NAMRU-3 ) ongoing efforts to build  medical capacity with Ministry of  Health laboratories in several coun- tries, NAMRU-3 is partnering with the  Defense Threat Reduction Agency  (DTRA) Cooperative Biological  Engagement Program (CBEP) in  Afghanistan. This collaboration  enhances the efficiency and synergy  in the U.S. government‟s biodefense  and disease surveillance efforts.   "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_b2f51072.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_7819115c.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "laboration with NAMRU-3 will open doors for future projects  for the benefit of Liberia and attract other potential collabora- tors to LIBR.  "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "The Minister of Health and Social Welfare gave high  praise for NAMRU-3‟s capacity building engagements in  Liberia. He expressed specific thanks for the collaboration at  LIBR, where he also serves as the chairman of the Board of  Governors, and he expressed the hope that the current col- "
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "NAMRU-3 has been involved in  developing Afghanistan‟s public  health capacity since 2006.   "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_a61ee3dc.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_d7799607.png"
+                        }
+                    }
+                ]
+            ]
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Collaboration with Navy Entomology Center of Excellence on insecticide spraying and geospatial mapping for malaria control",
+                "Collaboration with Liberian Institute of Biomedical Research on disease surveillance and vector control to build local medical research capacity.",
+                "Partnership with Defense Threat Reduction Agency Cooperative Biological Engagement Program for biodefense and disease surveillance",
+                "Joint project with Duke University to evaluate effects of changing demography and land use on malaria transmission"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_nature_architecture_technology_45054879",
+                    "insert_conversation_turn": 40,
+                    "reference_name": "Fig. bf695dbf"
+                },
+                {
+                    "conversation_name": "group_chat_business_animals_science_5b55d141",
+                    "insert_conversation_turn": 477,
+                    "reference_name": "Fig. 4a6e178e"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_business_animals_science_5b55d141",
+                    "insert_conversation_turn": 462,
+                    "reference_name": "Doc. e676851a"
+                },
+                {
+                    "conversation_name": "group_chat_business_animals_science_5b55d141",
+                    "insert_conversation_turn": 149,
+                    "reference_name": "Doc. af52200d"
+                },
+                {
+                    "conversation_name": "group_chat_government_lifestyle_music_e720f9a8",
+                    "insert_conversation_turn": 346,
+                    "reference_name": "Doc. e1424337"
+                },
+                {
+                    "conversation_name": "group_chat_government_lifestyle_music_e720f9a8",
+                    "insert_conversation_turn": 331,
+                    "reference_name": "Doc. 8c3d991a"
+                },
+                {
+                    "conversation_name": "group_chat_business_animals_science_5b55d141",
+                    "insert_conversation_turn": 70,
+                    "reference_name": "Doc. b1322285"
+                }
+            ]
+        },
+        "meta_data": {
+            "category": "Administration/Industry file",
+            "doc_name": "0b85477387a9d0cc33fca0f4becaa0e5",
+            "gold_quotes": [
+                "image1",
+                "text11",
+                "text7",
+                "text6",
+                "image3",
+                "text3"
+            ],
+            "topic": [
+                "health",
+                " environment",
+                " government",
+                " science",
+                " education"
+            ],
+            "original_question": "What are the key collaborations and activities undertaken by NAMRU-3 in Liberia, and how do these efforts contribute to the local medical research capacity?"
+        }
+    },
+    {
+        "id": "QA_sample_aeb1bec3",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 3e6f681b, the text, which religious group is the best candidate for initial partnership according to the criterion of having the highest positive rating on the public opinion 'feeling thermometer'?",
+        "answer": "Jews",
+        "evidence": {
+            "text_evidence": [
+                "A community outreach program is prioritizing groups that scored above 50 on a public opinion 'feeling thermometer' for potential collaboration. The program organizers aim to select the group with the highest positive rating for their initial partnership initiative. Consider the data from a survey conducted in May-June 2014 and determine the featured group's best candidate based on this criterion."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_dd4cc9c2.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "Evangelical Christians",
+                "Buddhists",
+                "Jews",
+                "Catholics"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_nature_architecture_technology_45054879",
+                    "insert_conversation_turn": 475
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_government_lifestyle_music_e720f9a8",
+                    "insert_conversation_turn": 1003,
+                    "reference_name": "Fig. 3e6f681b"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "religion"
+            ],
+            "original_question": "the text, which religious group is the best candidate for initial partnership according to the criterion of having the highest positive rating on the public opinion 'feeling thermometer'?"
+        }
+    },
+    {
+        "id": "LifeSim_23e33437",
+        "domain": "LifeSim",
+        "category": "Preference_QA",
+        "question": "Based on Fig. d33e8f24, What activity does Baron Luna prefer to do for a sense of accomplishment and mild creative output while relaxing the mind?",
+        "answer": "sketching",
+        "evidence": {
+            "image_evidence": [
+                "LifeSim_ed10e194.png"
+            ]
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "baking cookies",
+                "making origami",
+                "stacking coins",
+                "sketching"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_business_animals_science_5b55d141",
+                    "insert_conversation_turn": 59,
+                    "reference_name": "Fig. d33e8f24"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "conv_history_name": "user_assistant_conversation_80bc6f0e.json",
+            "preference_user_name": "Baron Luna",
+            "original_question": "What activity does Baron Luna prefer to do for a sense of accomplishment and mild creative output while relaxing the mind?"
+        }
+    },
+    {
+        "id": "LifeSim_e6504a0a",
+        "domain": "LifeSim",
+        "category": "Preference_QA",
+        "question": "Based on Fig. a441b446, What snack does Alexzander Pope prefer to add to their turkey and vegetable panini for a healthy, balanced meal?",
+        "answer": "avocado",
+        "evidence": {
+            "image_evidence": [
+                "LifeSim_f0a973f2.png"
+            ]
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "hummus",
+                "cheese",
+                "avocado",
+                "extra vegetables"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_business_animals_science_5b55d141",
+                    "insert_conversation_turn": 671,
+                    "reference_name": "Fig. a441b446"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "conv_history_name": "user_assistant_conversation_2e2bc59f.json",
+            "preference_user_name": "Alexzander Pope",
+            "original_question": "What snack does Alexzander Pope prefer to add to their turkey and vegetable panini for a healthy, balanced meal?"
+        }
+    },
+    {
+        "id": "QA_sample_0d0442ce_1",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 1b1338f3, the image, what is Deven Vincent most likely to be doing?",
+        "answer": "Watching a sports TV",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Deven Vincent enjoys sports TV, romantic dramas, but dislikes live concerts, stand-up comedy"
+            ],
+            "image_evidence": [
+                "MMPB_2d99653f.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Deven Vincent enjoys mountain climbing, theme park visits, but dislikes wildlife safaris, hot air balloon rides",
+                "In terms of lifestyle, Deven Vincent enjoys essential oils, aromatherapy, but dislikes boxing workouts, rock climbing gyms",
+                "In terms of shopping, Deven Vincent enjoys soundproofing panels, sleep-enhancing gadgets, but dislikes retro gaming consoles, wireless earbuds",
+                "In terms of fashion, Deven Vincent enjoys handmade accessories, bold colors, but dislikes chunky boots, strappy sandals."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Watching a sports TV",
+                "Watching a news TV",
+                "Watching a cooking show",
+                "Getting aromatherapy"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_nature_architecture_technology_45054879",
+                    "insert_conversation_turn": 211
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_nature_architecture_technology_45054879",
+                    "insert_conversation_turn": 157,
+                    "reference_name": "Fig. 1b1338f3"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_business_animals_science_5b55d141",
+                    "insert_conversation_turn": 324
+                },
+                {
+                    "conversation_name": "group_chat_nature_architecture_technology_45054879",
+                    "insert_conversation_turn": 666
+                },
+                {
+                    "conversation_name": "group_chat_nature_architecture_technology_45054879",
+                    "insert_conversation_turn": 558
+                },
+                {
+                    "conversation_name": "group_chat_nature_architecture_technology_45054879",
+                    "insert_conversation_turn": 544
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "sanchengmeiqin",
+            "description": "sanchengmeiqin is a young woman with a slender build and a medium height impression. Her facial structure is characterized by a delicate jawline and a slightly rounded face, with prominent, expressive eyes that convey a range of emotions. Her skin tone is fair, and her hair is dark brown, styled in a shoulder-length bob with bangs that frame her face. Throughout the images, sanchengmeiqin maintains a neutral to serious expression, with her mouth closed and her gaze often directed off-camera, suggesting a contemplative or focused demeanor. Her eyebrows are well-defined, adding to her expressive features.\n\n**Outfit and Accessories:**\nsanchengmeiqin is seen wearing a variety of outfits that reflect different contexts and roles. In one image, she is dressed in a light gray hoodie over a white shirt, suggesting a casual or relaxed setting. In another, she wears a white blazer, indicating a more formal or professional environment. A notable outfit is a dark blue denim shirt with the text \"UDI\" and \"Unnatural Death Investigation\" embroidered on it, suggesting a role in a specialized field. The color palette of her clothing is predominantly neutral, with shades of gray, white, and blue, giving a practical and understated look. She accessorizes with a delicate necklace and earrings, adding subtle elegance to her appearance.\n\n**Distinguishing Visual Features or Vibe:**\nThe most memorable feature of sanchengmeiqin is her expressive eyes, which convey a depth of emotion and thought. Her consistent hairstyle and neutral color palette create a cohesive visual identity. The presence of the \"UDI\" shirt suggests a connection to a specific role or profession, adding a layer of intrigue to her character. The combination of her serious expression, practical clothing, and subtle accessories gives sanchengmeiqin a professional yet approachable vibe. Her overall appearance is marked by a sense of calm and focus, making her visually unmistakable and memorable.",
+            "preference": "In terms of entertainment, sanchengmeiqin enjoys sports TV, romantic dramas, but dislikes live concerts, stand-up comedy. In terms of travel, sanchengmeiqin enjoys mountain climbing, theme park visits, but dislikes wildlife safaris, hot air balloon rides. In terms of lifestyle, sanchengmeiqin enjoys essential oils, aromatherapy, but dislikes boxing workouts, rock climbing gyms. In terms of shopping, sanchengmeiqin enjoys soundproofing panels, sleep-enhancing gadgets, but dislikes retro gaming consoles, wireless earbuds. In terms of fashion, sanchengmeiqin enjoys handmade accessories, bold colors, but dislikes chunky boots, strappy sandals.",
+            "topic": [],
+            "original_id": "QA_sample_0d0442ce",
+            "original_question": "the image, what is Deven Vincent most likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_0d0442ce_2",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 2ff6d9a5, the image, what is Deven Vincent most likely to be doing?",
+        "answer": "Watching romance dramas",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Deven Vincent enjoys sports TV, romantic dramas, but dislikes live concerts, stand-up comedy"
+            ],
+            "image_evidence": [
+                "MMPB_6f052249.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Deven Vincent enjoys mountain climbing, theme park visits, but dislikes wildlife safaris, hot air balloon rides",
+                "In terms of lifestyle, Deven Vincent enjoys essential oils, aromatherapy, but dislikes boxing workouts, rock climbing gyms",
+                "In terms of shopping, Deven Vincent enjoys soundproofing panels, sleep-enhancing gadgets, but dislikes retro gaming consoles, wireless earbuds",
+                "In terms of fashion, Deven Vincent enjoys handmade accessories, bold colors, but dislikes chunky boots, strappy sandals."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Watching a cooking show",
+                "Watching romance dramas",
+                "Watching a news TV",
+                "Looking for soundproofing panels"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_nature_architecture_technology_45054879",
+                    "insert_conversation_turn": 211
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_nature_architecture_technology_45054879",
+                    "insert_conversation_turn": 453,
+                    "reference_name": "Fig. 2ff6d9a5"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_business_animals_science_5b55d141",
+                    "insert_conversation_turn": 324
+                },
+                {
+                    "conversation_name": "group_chat_nature_architecture_technology_45054879",
+                    "insert_conversation_turn": 666
+                },
+                {
+                    "conversation_name": "group_chat_nature_architecture_technology_45054879",
+                    "insert_conversation_turn": 558
+                },
+                {
+                    "conversation_name": "group_chat_nature_architecture_technology_45054879",
+                    "insert_conversation_turn": 544
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "sanchengmeiqin",
+            "description": "sanchengmeiqin is a young woman with a slender build and a medium height impression. Her facial structure is characterized by a delicate jawline and a slightly rounded face, with prominent, expressive eyes that convey a range of emotions. Her skin tone is fair, and her hair is dark brown, styled in a shoulder-length bob with bangs that frame her face. Throughout the images, sanchengmeiqin maintains a neutral to serious expression, with her mouth closed and her gaze often directed off-camera, suggesting a contemplative or focused demeanor. Her eyebrows are well-defined, adding to her expressive features.\n\n**Outfit and Accessories:**\nsanchengmeiqin is seen wearing a variety of outfits that reflect different contexts and roles. In one image, she is dressed in a light gray hoodie over a white shirt, suggesting a casual or relaxed setting. In another, she wears a white blazer, indicating a more formal or professional environment. A notable outfit is a dark blue denim shirt with the text \"UDI\" and \"Unnatural Death Investigation\" embroidered on it, suggesting a role in a specialized field. The color palette of her clothing is predominantly neutral, with shades of gray, white, and blue, giving a practical and understated look. She accessorizes with a delicate necklace and earrings, adding subtle elegance to her appearance.\n\n**Distinguishing Visual Features or Vibe:**\nThe most memorable feature of sanchengmeiqin is her expressive eyes, which convey a depth of emotion and thought. Her consistent hairstyle and neutral color palette create a cohesive visual identity. The presence of the \"UDI\" shirt suggests a connection to a specific role or profession, adding a layer of intrigue to her character. The combination of her serious expression, practical clothing, and subtle accessories gives sanchengmeiqin a professional yet approachable vibe. Her overall appearance is marked by a sense of calm and focus, making her visually unmistakable and memorable.",
+            "preference": "In terms of entertainment, sanchengmeiqin enjoys sports TV, romantic dramas, but dislikes live concerts, stand-up comedy. In terms of travel, sanchengmeiqin enjoys mountain climbing, theme park visits, but dislikes wildlife safaris, hot air balloon rides. In terms of lifestyle, sanchengmeiqin enjoys essential oils, aromatherapy, but dislikes boxing workouts, rock climbing gyms. In terms of shopping, sanchengmeiqin enjoys soundproofing panels, sleep-enhancing gadgets, but dislikes retro gaming consoles, wireless earbuds. In terms of fashion, sanchengmeiqin enjoys handmade accessories, bold colors, but dislikes chunky boots, strappy sandals.",
+            "topic": [],
+            "original_id": "QA_sample_0d0442ce",
+            "original_question": "the image, what is Deven Vincent most likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_0d0442ce_3",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 4d3f23ab, Among the activities that could reasonably occur in the given image, which one is Deven Vincent least likely to be doing?",
+        "answer": "Enjoying live concerts",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Deven Vincent enjoys sports TV, romantic dramas, but dislikes live concerts, stand-up comedy"
+            ],
+            "image_evidence": [
+                "MMPB_73dc3548.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Deven Vincent enjoys mountain climbing, theme park visits, but dislikes wildlife safaris, hot air balloon rides",
+                "In terms of lifestyle, Deven Vincent enjoys essential oils, aromatherapy, but dislikes boxing workouts, rock climbing gyms",
+                "In terms of shopping, Deven Vincent enjoys soundproofing panels, sleep-enhancing gadgets, but dislikes retro gaming consoles, wireless earbuds",
+                "In terms of fashion, Deven Vincent enjoys handmade accessories, bold colors, but dislikes chunky boots, strappy sandals."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Celebrating magic performances",
+                "Enjoying live concerts",
+                "Riding a hot air balloon",
+                "Socializing at music festivals"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_nature_architecture_technology_45054879",
+                    "insert_conversation_turn": 211
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_nature_architecture_technology_45054879",
+                    "insert_conversation_turn": 197,
+                    "reference_name": "Fig. 4d3f23ab"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_business_animals_science_5b55d141",
+                    "insert_conversation_turn": 324
+                },
+                {
+                    "conversation_name": "group_chat_nature_architecture_technology_45054879",
+                    "insert_conversation_turn": 666
+                },
+                {
+                    "conversation_name": "group_chat_nature_architecture_technology_45054879",
+                    "insert_conversation_turn": 558
+                },
+                {
+                    "conversation_name": "group_chat_nature_architecture_technology_45054879",
+                    "insert_conversation_turn": 544
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "sanchengmeiqin",
+            "description": "sanchengmeiqin is a young woman with a slender build and a medium height impression. Her facial structure is characterized by a delicate jawline and a slightly rounded face, with prominent, expressive eyes that convey a range of emotions. Her skin tone is fair, and her hair is dark brown, styled in a shoulder-length bob with bangs that frame her face. Throughout the images, sanchengmeiqin maintains a neutral to serious expression, with her mouth closed and her gaze often directed off-camera, suggesting a contemplative or focused demeanor. Her eyebrows are well-defined, adding to her expressive features.\n\n**Outfit and Accessories:**\nsanchengmeiqin is seen wearing a variety of outfits that reflect different contexts and roles. In one image, she is dressed in a light gray hoodie over a white shirt, suggesting a casual or relaxed setting. In another, she wears a white blazer, indicating a more formal or professional environment. A notable outfit is a dark blue denim shirt with the text \"UDI\" and \"Unnatural Death Investigation\" embroidered on it, suggesting a role in a specialized field. The color palette of her clothing is predominantly neutral, with shades of gray, white, and blue, giving a practical and understated look. She accessorizes with a delicate necklace and earrings, adding subtle elegance to her appearance.\n\n**Distinguishing Visual Features or Vibe:**\nThe most memorable feature of sanchengmeiqin is her expressive eyes, which convey a depth of emotion and thought. Her consistent hairstyle and neutral color palette create a cohesive visual identity. The presence of the \"UDI\" shirt suggests a connection to a specific role or profession, adding a layer of intrigue to her character. The combination of her serious expression, practical clothing, and subtle accessories gives sanchengmeiqin a professional yet approachable vibe. Her overall appearance is marked by a sense of calm and focus, making her visually unmistakable and memorable.",
+            "preference": "In terms of entertainment, sanchengmeiqin enjoys sports TV, romantic dramas, but dislikes live concerts, stand-up comedy. In terms of travel, sanchengmeiqin enjoys mountain climbing, theme park visits, but dislikes wildlife safaris, hot air balloon rides. In terms of lifestyle, sanchengmeiqin enjoys essential oils, aromatherapy, but dislikes boxing workouts, rock climbing gyms. In terms of shopping, sanchengmeiqin enjoys soundproofing panels, sleep-enhancing gadgets, but dislikes retro gaming consoles, wireless earbuds. In terms of fashion, sanchengmeiqin enjoys handmade accessories, bold colors, but dislikes chunky boots, strappy sandals.",
+            "topic": [],
+            "original_id": "QA_sample_0d0442ce",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Deven Vincent least likely to be doing?"
+        }
+    },
+    {
+        "id": "LifeSim_d46f6e58",
+        "domain": "LifeSim",
+        "category": "Preference_QA",
+        "question": "Based on Fig. ed1b8e84, Which ingredient does Johnathan Huerta want to avoid in meal suggestions?",
+        "answer": "soy",
+        "evidence": {
+            "image_evidence": [
+                "LifeSim_b4928a33.png"
+            ]
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "wheat",
+                "soy",
+                "dairy",
+                "gluten"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_government_lifestyle_music_e720f9a8",
+                    "insert_conversation_turn": 420,
+                    "reference_name": "Fig. ed1b8e84"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "conv_history_name": "user_assistant_conversation_4c48305a.json",
+            "preference_user_name": "Johnathan Huerta",
+            "original_question": "Which ingredient does Johnathan Huerta want to avoid in meal suggestions?"
+        }
+    },
+    {
+        "id": "QA_sample_9daa6aaf_1",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 08ad0ce3, Among the activities that could reasonably occur in the given image, which one is Colt Kemp least likely to be doing?",
+        "answer": "Watching sports TV",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Colt Kemp enjoys science fiction movies, animated films, but dislikes sports TV, romantic dramas"
+            ],
+            "image_evidence": [
+                "MMPB_81ebaeeb.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Colt Kemp enjoys cycling, camping, but dislikes vineyard visits, underground city tours",
+                "In terms of lifestyle, Colt Kemp enjoys plant-based diet, home cooking, but dislikes bullet journaling, reading before bed",
+                "In terms of shopping, Colt Kemp enjoys Bluetooth speakers, wireless charging stations, but dislikes gaming accessories, wearable tech gadgets",
+                "In terms of fashion, Colt Kemp enjoys vintage style, formal suits, but dislikes denim jackets, wide-leg trousers."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "Watching movie marathon",
+                "Buying tech gadgets",
+                "Watching sports TV",
+                "Streaming comedy specials"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_business_animals_science_5b55d141",
+                    "insert_conversation_turn": 120
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_business_animals_science_5b55d141",
+                    "insert_conversation_turn": 656,
+                    "reference_name": "Fig. 08ad0ce3"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_nature_architecture_technology_45054879",
+                    "insert_conversation_turn": 683
+                },
+                {
+                    "conversation_name": "group_chat_government_lifestyle_music_e720f9a8",
+                    "insert_conversation_turn": 748
+                },
+                {
+                    "conversation_name": "group_chat_nature_architecture_technology_45054879",
+                    "insert_conversation_turn": 502
+                },
+                {
+                    "conversation_name": "group_chat_nature_architecture_technology_45054879",
+                    "insert_conversation_turn": 229
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Xing",
+            "description": "Xing is a young individual with a slender build and a youthful appearance. Their facial structure is characterized by a slightly rounded face with a prominent jawline and expressive eyes. The skin tone is fair, and their hair is short and styled in a spiky manner, adding a dynamic and energetic vibe. Throughout the images, Xing displays a range of facial expressions, from smiling and animated to more neutral and contemplative, suggesting a lively and engaging personality. The eyebrows are well-defined, and the overall impression is one of a vibrant and expressive young person.\n\n**Outfit and Accessories:**\nXing is seen wearing a variety of outfits that reflect a casual and youthful style. In one image, they are dressed in a red shirt with a blue collar, adding a pop of color to their appearance. Another outfit features a shiny silver jacket, which gives a modern and slightly futuristic look. Additionally, Xing is seen in a beige top with a blue plaid collar, adding a touch of classic style. The clothing appears comfortable and practical, suitable for everyday wear. There are no visible accessories, but the outfits themselves are the defining elements, showcasing a mix of casual and slightly edgy styles.\n\n**Distinguishing Visual Features or Vibe:**\nThe most memorable feature of Xing is their expressive face and animated gestures, which convey a sense of enthusiasm and energy. The spiky hairstyle is a signature element that adds to their dynamic appearance. The consistent use of bright colors, such as red and blue, in their outfits creates a vibrant and lively visual theme. The overall vibe is one of youthful exuberance and confidence, with Xing exuding a sense of playfulness and engagement. The combination of their expressive face, spiky hair, and colorful outfits makes Xing visually unmistakable and memorable.",
+            "preference": "In terms of entertainment, Xing enjoys science fiction movies, animated films, but dislikes sports TV, romantic dramas. In terms of travel, Xing enjoys cycling, camping, but dislikes vineyard visits, underground city tours. In terms of lifestyle, Xing enjoys plant-based diet, home cooking, but dislikes bullet journaling, reading before bed. In terms of shopping, Xing enjoys Bluetooth speakers, wireless charging stations, but dislikes gaming accessories, wearable tech gadgets. In terms of fashion, Xing enjoys vintage style, formal suits, but dislikes denim jackets, wide-leg trousers.",
+            "topic": [],
+            "original_id": "QA_sample_9daa6aaf",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Colt Kemp least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_9daa6aaf_2",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. c54628a7, Among the activities that could reasonably occur in the given image, which one is Colt Kemp least likely to be doing?",
+        "answer": "Watching romantic dramas",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Colt Kemp enjoys science fiction movies, animated films, but dislikes sports TV, romantic dramas"
+            ],
+            "image_evidence": [
+                "MMPB_2d99653f.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Colt Kemp enjoys cycling, camping, but dislikes vineyard visits, underground city tours",
+                "In terms of lifestyle, Colt Kemp enjoys plant-based diet, home cooking, but dislikes bullet journaling, reading before bed",
+                "In terms of shopping, Colt Kemp enjoys Bluetooth speakers, wireless charging stations, but dislikes gaming accessories, wearable tech gadgets",
+                "In terms of fashion, Colt Kemp enjoys vintage style, formal suits, but dislikes denim jackets, wide-leg trousers."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "Reading books before bed",
+                "Watching action-packed thrillers",
+                "Watching romantic dramas",
+                "Watching adventure-filled documentaries"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_business_animals_science_5b55d141",
+                    "insert_conversation_turn": 120
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_nature_architecture_technology_45054879",
+                    "insert_conversation_turn": 157,
+                    "reference_name": "Fig. c54628a7"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_nature_architecture_technology_45054879",
+                    "insert_conversation_turn": 683
+                },
+                {
+                    "conversation_name": "group_chat_government_lifestyle_music_e720f9a8",
+                    "insert_conversation_turn": 748
+                },
+                {
+                    "conversation_name": "group_chat_nature_architecture_technology_45054879",
+                    "insert_conversation_turn": 502
+                },
+                {
+                    "conversation_name": "group_chat_nature_architecture_technology_45054879",
+                    "insert_conversation_turn": 229
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Xing",
+            "description": "Xing is a young individual with a slender build and a youthful appearance. Their facial structure is characterized by a slightly rounded face with a prominent jawline and expressive eyes. The skin tone is fair, and their hair is short and styled in a spiky manner, adding a dynamic and energetic vibe. Throughout the images, Xing displays a range of facial expressions, from smiling and animated to more neutral and contemplative, suggesting a lively and engaging personality. The eyebrows are well-defined, and the overall impression is one of a vibrant and expressive young person.\n\n**Outfit and Accessories:**\nXing is seen wearing a variety of outfits that reflect a casual and youthful style. In one image, they are dressed in a red shirt with a blue collar, adding a pop of color to their appearance. Another outfit features a shiny silver jacket, which gives a modern and slightly futuristic look. Additionally, Xing is seen in a beige top with a blue plaid collar, adding a touch of classic style. The clothing appears comfortable and practical, suitable for everyday wear. There are no visible accessories, but the outfits themselves are the defining elements, showcasing a mix of casual and slightly edgy styles.\n\n**Distinguishing Visual Features or Vibe:**\nThe most memorable feature of Xing is their expressive face and animated gestures, which convey a sense of enthusiasm and energy. The spiky hairstyle is a signature element that adds to their dynamic appearance. The consistent use of bright colors, such as red and blue, in their outfits creates a vibrant and lively visual theme. The overall vibe is one of youthful exuberance and confidence, with Xing exuding a sense of playfulness and engagement. The combination of their expressive face, spiky hair, and colorful outfits makes Xing visually unmistakable and memorable.",
+            "preference": "In terms of entertainment, Xing enjoys science fiction movies, animated films, but dislikes sports TV, romantic dramas. In terms of travel, Xing enjoys cycling, camping, but dislikes vineyard visits, underground city tours. In terms of lifestyle, Xing enjoys plant-based diet, home cooking, but dislikes bullet journaling, reading before bed. In terms of shopping, Xing enjoys Bluetooth speakers, wireless charging stations, but dislikes gaming accessories, wearable tech gadgets. In terms of fashion, Xing enjoys vintage style, formal suits, but dislikes denim jackets, wide-leg trousers.",
+            "topic": [],
+            "original_id": "QA_sample_9daa6aaf",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Colt Kemp least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_9daa6aaf_3",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. e24c2987, Among the activities that could reasonably occur in the given image, which one is Colt Kemp least likely to be doing?",
+        "answer": "Watching sports TV",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Colt Kemp enjoys science fiction movies, animated films, but dislikes sports TV, romantic dramas"
+            ],
+            "image_evidence": [
+                "MMPB_6f052249.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Colt Kemp enjoys cycling, camping, but dislikes vineyard visits, underground city tours",
+                "In terms of lifestyle, Colt Kemp enjoys plant-based diet, home cooking, but dislikes bullet journaling, reading before bed",
+                "In terms of shopping, Colt Kemp enjoys Bluetooth speakers, wireless charging stations, but dislikes gaming accessories, wearable tech gadgets",
+                "In terms of fashion, Colt Kemp enjoys vintage style, formal suits, but dislikes denim jackets, wide-leg trousers."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Watching sports TV",
+                "Enjoying a live concert on the TV",
+                "Home cooking",
+                "Observing a thriller films"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_business_animals_science_5b55d141",
+                    "insert_conversation_turn": 120
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_business_animals_science_5b55d141",
+                    "insert_conversation_turn": 564,
+                    "reference_name": "Fig. e24c2987"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_nature_architecture_technology_45054879",
+                    "insert_conversation_turn": 683
+                },
+                {
+                    "conversation_name": "group_chat_government_lifestyle_music_e720f9a8",
+                    "insert_conversation_turn": 748
+                },
+                {
+                    "conversation_name": "group_chat_nature_architecture_technology_45054879",
+                    "insert_conversation_turn": 502
+                },
+                {
+                    "conversation_name": "group_chat_nature_architecture_technology_45054879",
+                    "insert_conversation_turn": 229
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Xing",
+            "description": "Xing is a young individual with a slender build and a youthful appearance. Their facial structure is characterized by a slightly rounded face with a prominent jawline and expressive eyes. The skin tone is fair, and their hair is short and styled in a spiky manner, adding a dynamic and energetic vibe. Throughout the images, Xing displays a range of facial expressions, from smiling and animated to more neutral and contemplative, suggesting a lively and engaging personality. The eyebrows are well-defined, and the overall impression is one of a vibrant and expressive young person.\n\n**Outfit and Accessories:**\nXing is seen wearing a variety of outfits that reflect a casual and youthful style. In one image, they are dressed in a red shirt with a blue collar, adding a pop of color to their appearance. Another outfit features a shiny silver jacket, which gives a modern and slightly futuristic look. Additionally, Xing is seen in a beige top with a blue plaid collar, adding a touch of classic style. The clothing appears comfortable and practical, suitable for everyday wear. There are no visible accessories, but the outfits themselves are the defining elements, showcasing a mix of casual and slightly edgy styles.\n\n**Distinguishing Visual Features or Vibe:**\nThe most memorable feature of Xing is their expressive face and animated gestures, which convey a sense of enthusiasm and energy. The spiky hairstyle is a signature element that adds to their dynamic appearance. The consistent use of bright colors, such as red and blue, in their outfits creates a vibrant and lively visual theme. The overall vibe is one of youthful exuberance and confidence, with Xing exuding a sense of playfulness and engagement. The combination of their expressive face, spiky hair, and colorful outfits makes Xing visually unmistakable and memorable.",
+            "preference": "In terms of entertainment, Xing enjoys science fiction movies, animated films, but dislikes sports TV, romantic dramas. In terms of travel, Xing enjoys cycling, camping, but dislikes vineyard visits, underground city tours. In terms of lifestyle, Xing enjoys plant-based diet, home cooking, but dislikes bullet journaling, reading before bed. In terms of shopping, Xing enjoys Bluetooth speakers, wireless charging stations, but dislikes gaming accessories, wearable tech gadgets. In terms of fashion, Xing enjoys vintage style, formal suits, but dislikes denim jackets, wide-leg trousers.",
+            "topic": [],
+            "original_id": "QA_sample_9daa6aaf",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Colt Kemp least likely to be doing?"
+        }
+    }
+]
