@@ -1,0 +1,1198 @@
+[
+    {
+        "id": "QA_sample_388cd99e",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 926d2fb5, the text, which years between 2005 and 2015 were classified as \"'critical drought years'\" and \"'wet years'\" according to the definitions provided for snowpack water content?",
+        "answer": "Critical drought years: 2007, 2014, 2015. Wet years: 2005, 2011.",
+        "evidence": {
+            "text_evidence": [
+                "A government policy mandates that any year with a percentage of snowpack water content below 80% compared to the average for April 1 is categorized as a 'critical drought year.' In addition, years with percentages above 150% are designated as 'wet years.'"
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_d185aeea.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "Critical drought years: 2008, 2012, 2013. Wet years: 2008, 2014.",
+                "Critical drought years: 2006, 2008, 2013. Wet years: 2006, 2010.",
+                "Critical drought years: 2009, 2013, 2012. Wet years: 2007, 2009.",
+                "Critical drought years: 2007, 2014, 2015. Wet years: 2005, 2011."
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_nature_history_education_b858b3e8",
+                    "insert_conversation_turn": 827
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_politics_government_economy_7090334f",
+                    "insert_conversation_turn": 29,
+                    "reference_name": "Fig. 926d2fb5"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "environment",
+                "government"
+            ],
+            "original_question": "the text, which years between 2005 and 2015 were classified as \"'critical drought years'\" and \"'wet years'\" according to the definitions provided for snowpack water content?"
+        }
+    },
+    {
+        "id": "QA_sample_eeaa6396",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 40fa5576, the text, which interactions with deceased family members are reported as \"significantly common\" among U.S. adults according to the Pew Research Center survey?",
+        "answer": "Feeling visited by a deceased family member in a dream or any form (53%), and feeling the presence of a deceased family member in the past 12 months (34%).",
+        "evidence": {
+            "text_evidence": [
+                "In a recent Pew Research Center survey, a behavior is considered significantly common if more than 30% of respondents report experiencing or engaging in it. Interpret the results with this threshold in mind."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_794b3e53.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "Seeing visions of a deceased family member",
+                "Having deceased family members communicate with them",
+                "Telling deceased family members about events in their life",
+                "Feeling visited by a deceased family member in a dream or any form (53%), and feeling the presence of a deceased family member in the past 12 months (34%)."
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_politics_government_economy_7090334f",
+                    "insert_conversation_turn": 200
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_nature_history_education_b858b3e8",
+                    "insert_conversation_turn": 303,
+                    "reference_name": "Fig. 40fa5576"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "lifestyle",
+                "religion"
+            ],
+            "original_question": "the text, which interactions with deceased family members are reported as \"significantly common\" among U.S. adults according to the Pew Research Center survey?"
+        }
+    },
+    {
+        "id": "QA_sample_923bc5a0",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. ff1bdaf9, the text, is the target audience for the campaign—defined as \"neighborhoods with a higher percentage of residents aged 25-34 years\" and \"households earning an annual income of $50,000 or more\"—highly represented in this area?",
+        "answer": "Yes",
+        "evidence": {
+            "text_evidence": [
+                "Consider that for marketing purposes, neighborhoods with a higher percentage of residents aged 25-34 years are the target audience for a campaign. Additionally, the campaign prioritizes areas with households earning an annual income of $50,000 or more. Use the demographics and income distribution data from the chart."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_95abd857.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "No",
+                "Yes"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_science_films_animals_7b39eff4",
+                    "insert_conversation_turn": 774
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_nature_history_education_b858b3e8",
+                    "insert_conversation_turn": 1036,
+                    "reference_name": "Fig. ff1bdaf9"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "business",
+                "economy",
+                "lifestyle"
+            ],
+            "original_question": "the text, is the target audience for the campaign—defined as \"neighborhoods with a higher percentage of residents aged 25-34 years\" and \"households earning an annual income of $50,000 or more\"—highly represented in this area?"
+        }
+    },
+    {
+        "id": "QA_sample_742db77d",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 206c4b1b, the text, does the current diet meet the \"balanced diet\" goal of limiting daily calorie intake and ensuring that the combined contribution of fats and carbs does not exceed the specified percentage of total calories?",
+        "answer": "No",
+        "evidence": {
+            "text_evidence": [
+                "A balanced diet aims to limit daily calorie intake to 2,500 calories or below while ensuring that fats and carbs combined do not exceed 70% of the total calorie intake. The goal is also to ensure meals with a lower food score (unhealthy) do not dominate daily consumption."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_50c90be2.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "No",
+                "Yes"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_politics_government_economy_7090334f",
+                    "insert_conversation_turn": 629
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_nature_history_education_b858b3e8",
+                    "insert_conversation_turn": 424,
+                    "reference_name": "Fig. 206c4b1b"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "food",
+                "health",
+                "lifestyle"
+            ],
+            "original_question": "the text, does the current diet meet the \"balanced diet\" goal of limiting daily calorie intake and ensuring that the combined contribution of fats and carbs does not exceed the specified percentage of total calories?"
+        }
+    },
+    {
+        "id": "QA_sample_7c8dee7a",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. be8ffeb8, the definitions provided, which dam is categorized as \"critically low\" but also classified as \"improving\" (with at least a 10% increase compared to the previous week) on 28 May 2018?",
+        "answer": "Theewaterskloof",
+        "evidence": {
+            "text_evidence": [
+                "A dam is considered critically low if it has a water level below 30%. However, a dam with an increase of at least 10% compared to the previous week is categorized as improving, even if it is critically low. Analyze the data based on these definitions."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_2e8ea7a5.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Voëlvlei",
+                "Theewaterskloof",
+                "Berg River",
+                "Steenbras Lower"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_science_films_animals_7b39eff4",
+                    "insert_conversation_turn": 488
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_nature_history_education_b858b3e8",
+                    "insert_conversation_turn": 601,
+                    "reference_name": "Fig. be8ffeb8"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "environment"
+            ],
+            "original_question": "the definitions provided, which dam is categorized as \"critically low\" but also classified as \"improving\" (with at least a 10% increase compared to the previous week) on 28 May 2018?"
+        }
+    },
+    {
+        "id": "QA_sample_7b12ffd9",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. de13a289, the text, was the lobster fishery in Maine considered \"sustainable\" in 2012 according to the criteria for annual haul and dock price?",
+        "answer": "No",
+        "evidence": {
+            "text_evidence": [
+                "A lobster fishery in Maine is considered sustainable if the annual lobster haul stays between 40 to 100 million pounds, and the dock price per pound remains above $4. This ensures a balance of ecosystem health and economic viability for the fishery."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_e52702ed.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "No",
+                "Yes"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_politics_government_economy_7090334f",
+                    "insert_conversation_turn": 1067
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_science_films_animals_7b39eff4",
+                    "insert_conversation_turn": 525,
+                    "reference_name": "Fig. de13a289"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "environment",
+                "economy",
+                "nature"
+            ],
+            "original_question": "the text, was the lobster fishery in Maine considered \"sustainable\" in 2012 according to the criteria for annual haul and dock price?"
+        }
+    },
+    {
+        "id": "QA_sample_be891498",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. c77bd90b, the text, which body locations of fitness trackers should the gym select to meet the \"at least 70% of member preferences\" goal, and what is the total cost according to the policy of prioritizing the highest percentage usage first?",
+        "answer": "Wrist and Head; $273.94",
+        "evidence": {
+            "text_evidence": [
+                "A gym is introducing a policy to provide fitness trackers to its members. They aim to minimize the total cost while covering at least 70% of the members' preferences as shown in the 'Percentage of Fitness Trackers' bar graph. The gym can choose one or multiple body locations for the trackers. Compute the total cost if the gym selects trackers prioritizing the highest percentage usage first to meet the 70% goal."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_92443beb.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Wrist and Head; $273.94",
+                "Wrist and Chest; $203.58",
+                "Wrist and Waist; $166.84",
+                "Wrist and Torso; $247.31"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_science_films_animals_7b39eff4",
+                    "insert_conversation_turn": 712
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_politics_government_economy_7090334f",
+                    "insert_conversation_turn": 703,
+                    "reference_name": "Fig. c77bd90b"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "health",
+                "lifestyle"
+            ],
+            "original_question": "the text, which body locations of fitness trackers should the gym select to meet the \"at least 70% of member preferences\" goal, and what is the total cost according to the policy of prioritizing the highest percentage usage first?"
+        }
+    },
+    {
+        "id": "QA_sample_ef5fb94a",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. ddecaa3d, the text, which age group for both men and women should be targeted for marriage promotion efforts, according to the criterion of an \"increase of at least 15 percentage points in the percentage of people who have never been married over a 10-year period\"?",
+        "answer": "25-29 age group for both men and women.",
+        "evidence": {
+            "text_evidence": [
+                "A government organization wants to focus its marriage promotion efforts on age groups that show the largest increase in the percentage of people who have never been married over a 10-year period between 2006 and 2016. They plan to focus only on groups where the increase is at least 15 percentage points."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_408aa801.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "45-54 age group for both men and women",
+                "30-34 age group for both men and women",
+                "35-44 age group for both men and women",
+                "25-29 age group for both men and women."
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_nature_history_education_b858b3e8",
+                    "insert_conversation_turn": 1135
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_politics_government_economy_7090334f",
+                    "insert_conversation_turn": 1216,
+                    "reference_name": "Fig. ddecaa3d"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "government",
+                "lifestyle"
+            ],
+            "original_question": "the text, which age group for both men and women should be targeted for marriage promotion efforts, according to the criterion of an \"increase of at least 15 percentage points in the percentage of people who have never been married over a 10-year period\"?"
+        }
+    },
+    {
+        "id": "QA_sample_8755f42e",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 85bf98a7, the text, which region in the UK qualifies as \"highly urbanized\" according to the previous definition and the provided land use data?",
+        "answer": "England",
+        "evidence": {
+            "text_evidence": [
+                "A region is considered highly urbanized if the percentage of land classified as 'Built on' exceeds twice the UK overall reference line in the same category. The reference line for 'Built on' land is 5.9%. Additionally, the region should have less than 10% of its land categorized as 'Natural' for this classification."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_50bf3dea.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Wales",
+                "England",
+                "Scotland",
+                "Northern Ireland"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_science_films_animals_7b39eff4",
+                    "insert_conversation_turn": 541
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_nature_history_education_b858b3e8",
+                    "insert_conversation_turn": 1090,
+                    "reference_name": "Fig. 85bf98a7"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "environment"
+            ],
+            "original_question": "the text, which region in the UK qualifies as \"highly urbanized\" according to the previous definition and the provided land use data?"
+        }
+    },
+    {
+        "id": "QA_sample_75a69585",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 27640e97, the text, which administration achieved an \"impressive environmental cleanup performance\" in its first year, according to the chart?",
+        "answer": "George W. Bush's administration.",
+        "evidence": {
+            "text_evidence": [
+                "A policy analyst considers an administration's environmental cleanup performance impressive if it deletes at least 15 sites (fully or partially) from the National Priorities List (NPL) in its first year. Deletions can be either full or partial according to the chart's distinction."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_d2cf384b.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "Donald Trump's administration",
+                "Bill Clinton's administration",
+                "George W. Bush's administration.",
+                "Barack Obama's administration"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_politics_government_economy_7090334f",
+                    "insert_conversation_turn": 1034
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_nature_history_education_b858b3e8",
+                    "insert_conversation_turn": 586,
+                    "reference_name": "Fig. 27640e97"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "environment",
+                "government"
+            ],
+            "original_question": "the text, which administration achieved an \"impressive environmental cleanup performance\" in its first year, according to the chart?"
+        }
+    },
+    {
+        "id": "QA_sample_0044fd42",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. b1e65a3b, the text, in which year did the peak percentage of \"influential proposals\" occur, and what was the total number of proposals filed in that year?",
+        "answer": "2017, with a total of 500 proposals filed.",
+        "evidence": {
+            "text_evidence": [
+                "A proposal is considered influential if it has been voted on by stakeholders (blue line) and accounts for at least 30% of the total proposals filed in that year. Proposals that are withdrawn (green line) or omitted (red line) are excluded from this calculation. Analyze the trends from 2010 to 2019 to answer the question."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_65c831b1.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "2016, with a total of 460 proposals filed",
+                "2017, with a total of 500 proposals filed.",
+                "2015, with a total of 480 proposals filed",
+                "2018, with a total of 450 proposals filed"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_science_films_animals_7b39eff4",
+                    "insert_conversation_turn": 807
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_politics_government_economy_7090334f",
+                    "insert_conversation_turn": 1186,
+                    "reference_name": "Fig. b1e65a3b"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "environment",
+                "business"
+            ],
+            "original_question": "the text, in which year did the peak percentage of \"influential proposals\" occur, and what was the total number of proposals filed in that year?"
+        }
+    },
+    {
+        "id": "QA_sample_203a8f03",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. d4b835ef, the text, can TikTok creators who are not part of the \"most active group of U.S. adult TikTok users (the top 25%)\" qualify for the campaign if the requirement is at least 1,000 videos posted?",
+        "answer": "No",
+        "evidence": {
+            "text_evidence": [
+                "For a new campaign, a company plans to collaborate only with TikTok content creators who have posted at least 1,000 videos. This campaign aims to maximize content reach by targeting high-volume creators from the most active group of U.S. adult TikTok users (the top 25%)."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_ea44b493.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "No",
+                "Yes"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_politics_government_economy_7090334f",
+                    "insert_conversation_turn": 1099
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_nature_history_education_b858b3e8",
+                    "insert_conversation_turn": 713,
+                    "reference_name": "Fig. d4b835ef"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "business",
+                "technology",
+                "lifestyle"
+            ],
+            "original_question": "the text, can TikTok creators who are not part of the \"most active group of U.S. adult TikTok users (the top 25%)\" qualify for the campaign if the requirement is at least 1,000 videos posted?"
+        }
+    },
+    {
+        "id": "QA_sample_aa9e4b6e",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 7ecc6482, the text, during which hours will snowfall rates reach the \"'Heavy' category for at least two consecutive hours,\" thereby requiring extra snow removal crews according to the previous definition?",
+        "answer": "6 PM to 9 PM",
+        "evidence": {
+            "text_evidence": [
+                "A local road maintenance team schedules extra snow removal crews during forecasted heavy snowfall periods, defined as snowfall rates reaching 'Heavy' on the chart for at least two consecutive hours. Standard crews work whenever snowfall reaches a 'Moderate' level or higher, regardless of duration."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_1dca314a.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "5 PM to 7 PM",
+                "3 PM to 5 PM",
+                "10 PM to 12 AM",
+                "6 PM to 9 PM"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_nature_history_education_b858b3e8",
+                    "insert_conversation_turn": 916
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_politics_government_economy_7090334f",
+                    "insert_conversation_turn": 441,
+                    "reference_name": "Fig. 7ecc6482"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "transportation",
+                "environment"
+            ],
+            "original_question": "the text, during which hours will snowfall rates reach the \"'Heavy' category for at least two consecutive hours,\" thereby requiring extra snow removal crews according to the previous definition?"
+        }
+    },
+    {
+        "id": "QA_sample_8cd3fd62_1",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 5b124d0e, the image, what is Kayden Soto most likely to be doing?",
+        "answer": "Looking for indie films",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Kayden Soto enjoys rock concerts, indie films, but dislikes classical concerts, art exhibitions"
+            ],
+            "image_evidence": [
+                "MMPB_2d99653f.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Kayden Soto enjoys fine dining, street food, but dislikes kayaking, snorkeling",
+                "In terms of lifestyle, Kayden Soto enjoys early morning jogs, massages, but dislikes home gardening, night owl lifestyle",
+                "In terms of shopping, Kayden Soto enjoys handwoven rugs, fancy cutlery sets, but dislikes handmade candles, ceramic pottery",
+                "In terms of fashion, Kayden Soto enjoys functional fashion, trendy sunglasses, but dislikes hand-knitted sweaters, silk scarves."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "Watching musical movies",
+                "Watching foreign flicks",
+                "Buying fancy cutlery sets",
+                "Looking for indie films"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_politics_government_economy_7090334f",
+                    "insert_conversation_turn": 893
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_politics_government_economy_7090334f",
+                    "insert_conversation_turn": 314,
+                    "reference_name": "Fig. 5b124d0e"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_science_films_animals_7b39eff4",
+                    "insert_conversation_turn": 72
+                },
+                {
+                    "conversation_name": "group_chat_nature_history_education_b858b3e8",
+                    "insert_conversation_turn": 529
+                },
+                {
+                    "conversation_name": "group_chat_science_films_animals_7b39eff4",
+                    "insert_conversation_turn": 937
+                },
+                {
+                    "conversation_name": "group_chat_politics_government_economy_7090334f",
+                    "insert_conversation_turn": 510
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Lixun",
+            "description": "Lixun is a young adult male with a slender build and an average height impression. His facial structure is characterized by a well-defined jawline and a slightly pointed chin, contributing to a youthful and refined appearance. Lixun has a fair skin tone and short, neatly styled hair, which is often blonde in some images, adding a distinctive touch to his look. His eyebrows are thick and well-groomed, framing his eyes, which are often directed forward or slightly upward, suggesting a contemplative or focused demeanor. Lixun frequently appears in profile or facing the camera, with a neutral expression that conveys a sense of calm and introspection.\n\n**Outfit and Accessories:**\nLixun's attire is consistently stylish and contemporary, featuring a mix of casual and semi-formal elements. He is often seen wearing a dark-colored jacket, such as a green or black one, paired with a black shirt underneath. In some images, he wears a white shirt, adding a touch of contrast to his overall look. His clothing choices include a combination of solid colors and subtle patterns, with a preference for dark hues that complement his fair complexion. Lixun accessorizes with a black bag slung over his shoulder, which adds a practical yet fashionable element to his ensemble. The textures of his clothing range from smooth fabrics to slightly textured materials, enhancing the visual appeal of his outfits.\n\n**Distinguishing Visual Features or Vibe:**\nLixun exudes a unique and memorable presence, characterized by his blonde hair and the consistent use of dark, stylish clothing. His neutral expressions and contemplative gaze contribute to a calm and introspective aura. The recurring theme of dark colors in his outfits, combined with his fair skin and blonde hair, creates a striking visual contrast. Lixun's overall vibe is one of understated elegance and modern sophistication, with a touch of mystery. His consistent appearance across different settings, from outdoor environments to indoor office spaces, reinforces his distinctive style and personality.",
+            "preference": "In terms of entertainment, Lixun enjoys rock concerts, indie films, but dislikes classical concerts, art exhibitions. In terms of travel, Lixun enjoys fine dining, street food, but dislikes kayaking, snorkeling. In terms of lifestyle, Lixun enjoys early morning jogs, massages, but dislikes home gardening, night owl lifestyle. In terms of shopping, Lixun enjoys handwoven rugs, fancy cutlery sets, but dislikes handmade candles, ceramic pottery. In terms of fashion, Lixun enjoys functional fashion, trendy sunglasses, but dislikes hand-knitted sweaters, silk scarves.",
+            "topic": [],
+            "original_id": "QA_sample_8cd3fd62",
+            "original_question": "the image, what is Kayden Soto most likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_8cd3fd62_2",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 7027bfd8, Among the activities that could reasonably occur in the given image, which one is Kayden Soto least likely to be doing?",
+        "answer": "Attending classical concerts",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Kayden Soto enjoys rock concerts, indie films, but dislikes classical concerts, art exhibitions"
+            ],
+            "image_evidence": [
+                "MMPB_9ab3a64b.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Kayden Soto enjoys fine dining, street food, but dislikes kayaking, snorkeling",
+                "In terms of lifestyle, Kayden Soto enjoys early morning jogs, massages, but dislikes home gardening, night owl lifestyle",
+                "In terms of shopping, Kayden Soto enjoys handwoven rugs, fancy cutlery sets, but dislikes handmade candles, ceramic pottery",
+                "In terms of fashion, Kayden Soto enjoys functional fashion, trendy sunglasses, but dislikes hand-knitted sweaters, silk scarves."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "Buying silk scarves",
+                "Enjoying K-pop performances",
+                "Attending classical concerts",
+                "Listening to pop song"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_politics_government_economy_7090334f",
+                    "insert_conversation_turn": 893
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_politics_government_economy_7090334f",
+                    "insert_conversation_turn": 737,
+                    "reference_name": "Fig. 7027bfd8"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_science_films_animals_7b39eff4",
+                    "insert_conversation_turn": 72
+                },
+                {
+                    "conversation_name": "group_chat_nature_history_education_b858b3e8",
+                    "insert_conversation_turn": 529
+                },
+                {
+                    "conversation_name": "group_chat_science_films_animals_7b39eff4",
+                    "insert_conversation_turn": 937
+                },
+                {
+                    "conversation_name": "group_chat_politics_government_economy_7090334f",
+                    "insert_conversation_turn": 510
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Lixun",
+            "description": "Lixun is a young adult male with a slender build and an average height impression. His facial structure is characterized by a well-defined jawline and a slightly pointed chin, contributing to a youthful and refined appearance. Lixun has a fair skin tone and short, neatly styled hair, which is often blonde in some images, adding a distinctive touch to his look. His eyebrows are thick and well-groomed, framing his eyes, which are often directed forward or slightly upward, suggesting a contemplative or focused demeanor. Lixun frequently appears in profile or facing the camera, with a neutral expression that conveys a sense of calm and introspection.\n\n**Outfit and Accessories:**\nLixun's attire is consistently stylish and contemporary, featuring a mix of casual and semi-formal elements. He is often seen wearing a dark-colored jacket, such as a green or black one, paired with a black shirt underneath. In some images, he wears a white shirt, adding a touch of contrast to his overall look. His clothing choices include a combination of solid colors and subtle patterns, with a preference for dark hues that complement his fair complexion. Lixun accessorizes with a black bag slung over his shoulder, which adds a practical yet fashionable element to his ensemble. The textures of his clothing range from smooth fabrics to slightly textured materials, enhancing the visual appeal of his outfits.\n\n**Distinguishing Visual Features or Vibe:**\nLixun exudes a unique and memorable presence, characterized by his blonde hair and the consistent use of dark, stylish clothing. His neutral expressions and contemplative gaze contribute to a calm and introspective aura. The recurring theme of dark colors in his outfits, combined with his fair skin and blonde hair, creates a striking visual contrast. Lixun's overall vibe is one of understated elegance and modern sophistication, with a touch of mystery. His consistent appearance across different settings, from outdoor environments to indoor office spaces, reinforces his distinctive style and personality.",
+            "preference": "In terms of entertainment, Lixun enjoys rock concerts, indie films, but dislikes classical concerts, art exhibitions. In terms of travel, Lixun enjoys fine dining, street food, but dislikes kayaking, snorkeling. In terms of lifestyle, Lixun enjoys early morning jogs, massages, but dislikes home gardening, night owl lifestyle. In terms of shopping, Lixun enjoys handwoven rugs, fancy cutlery sets, but dislikes handmade candles, ceramic pottery. In terms of fashion, Lixun enjoys functional fashion, trendy sunglasses, but dislikes hand-knitted sweaters, silk scarves.",
+            "topic": [],
+            "original_id": "QA_sample_8cd3fd62",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Kayden Soto least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_8cd3fd62_3",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 638e2b8d, the image, what is Kayden Soto most likely to be doing?",
+        "answer": "Enjoying rock concerts",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Kayden Soto enjoys rock concerts, indie films, but dislikes classical concerts, art exhibitions"
+            ],
+            "image_evidence": [
+                "MMPB_eb90448c.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Kayden Soto enjoys fine dining, street food, but dislikes kayaking, snorkeling",
+                "In terms of lifestyle, Kayden Soto enjoys early morning jogs, massages, but dislikes home gardening, night owl lifestyle",
+                "In terms of shopping, Kayden Soto enjoys handwoven rugs, fancy cutlery sets, but dislikes handmade candles, ceramic pottery",
+                "In terms of fashion, Kayden Soto enjoys functional fashion, trendy sunglasses, but dislikes hand-knitted sweaters, silk scarves."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "Enjoying magic show",
+                "Feeling the vibe at a K-pop concert",
+                "Going on a street food tour",
+                "Enjoying rock concerts"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_politics_government_economy_7090334f",
+                    "insert_conversation_turn": 893
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_science_films_animals_7b39eff4",
+                    "insert_conversation_turn": 230,
+                    "reference_name": "Fig. 638e2b8d"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_science_films_animals_7b39eff4",
+                    "insert_conversation_turn": 72
+                },
+                {
+                    "conversation_name": "group_chat_nature_history_education_b858b3e8",
+                    "insert_conversation_turn": 529
+                },
+                {
+                    "conversation_name": "group_chat_science_films_animals_7b39eff4",
+                    "insert_conversation_turn": 937
+                },
+                {
+                    "conversation_name": "group_chat_politics_government_economy_7090334f",
+                    "insert_conversation_turn": 510
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Lixun",
+            "description": "Lixun is a young adult male with a slender build and an average height impression. His facial structure is characterized by a well-defined jawline and a slightly pointed chin, contributing to a youthful and refined appearance. Lixun has a fair skin tone and short, neatly styled hair, which is often blonde in some images, adding a distinctive touch to his look. His eyebrows are thick and well-groomed, framing his eyes, which are often directed forward or slightly upward, suggesting a contemplative or focused demeanor. Lixun frequently appears in profile or facing the camera, with a neutral expression that conveys a sense of calm and introspection.\n\n**Outfit and Accessories:**\nLixun's attire is consistently stylish and contemporary, featuring a mix of casual and semi-formal elements. He is often seen wearing a dark-colored jacket, such as a green or black one, paired with a black shirt underneath. In some images, he wears a white shirt, adding a touch of contrast to his overall look. His clothing choices include a combination of solid colors and subtle patterns, with a preference for dark hues that complement his fair complexion. Lixun accessorizes with a black bag slung over his shoulder, which adds a practical yet fashionable element to his ensemble. The textures of his clothing range from smooth fabrics to slightly textured materials, enhancing the visual appeal of his outfits.\n\n**Distinguishing Visual Features or Vibe:**\nLixun exudes a unique and memorable presence, characterized by his blonde hair and the consistent use of dark, stylish clothing. His neutral expressions and contemplative gaze contribute to a calm and introspective aura. The recurring theme of dark colors in his outfits, combined with his fair skin and blonde hair, creates a striking visual contrast. Lixun's overall vibe is one of understated elegance and modern sophistication, with a touch of mystery. His consistent appearance across different settings, from outdoor environments to indoor office spaces, reinforces his distinctive style and personality.",
+            "preference": "In terms of entertainment, Lixun enjoys rock concerts, indie films, but dislikes classical concerts, art exhibitions. In terms of travel, Lixun enjoys fine dining, street food, but dislikes kayaking, snorkeling. In terms of lifestyle, Lixun enjoys early morning jogs, massages, but dislikes home gardening, night owl lifestyle. In terms of shopping, Lixun enjoys handwoven rugs, fancy cutlery sets, but dislikes handmade candles, ceramic pottery. In terms of fashion, Lixun enjoys functional fashion, trendy sunglasses, but dislikes hand-knitted sweaters, silk scarves.",
+            "topic": [],
+            "original_id": "QA_sample_8cd3fd62",
+            "original_question": "the image, what is Kayden Soto most likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_9daa6aaf_1",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 65fe33ee, Among the activities that could reasonably occur in the given image, which one is Harper Clark least likely to be doing?",
+        "answer": "Watching sports TV",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Harper Clark enjoys science fiction movies, animated films, but dislikes sports TV, romantic dramas"
+            ],
+            "image_evidence": [
+                "MMPB_81ebaeeb.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Harper Clark enjoys cycling, camping, but dislikes vineyard visits, underground city tours",
+                "In terms of lifestyle, Harper Clark enjoys plant-based diet, home cooking, but dislikes bullet journaling, reading before bed",
+                "In terms of shopping, Harper Clark enjoys Bluetooth speakers, wireless charging stations, but dislikes gaming accessories, wearable tech gadgets",
+                "In terms of fashion, Harper Clark enjoys vintage style, formal suits, but dislikes denim jackets, wide-leg trousers."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "Watching movie marathon",
+                "Buying tech gadgets",
+                "Watching sports TV",
+                "Streaming comedy specials"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_science_films_animals_7b39eff4",
+                    "insert_conversation_turn": 121
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_nature_history_education_b858b3e8",
+                    "insert_conversation_turn": 227,
+                    "reference_name": "Fig. 65fe33ee"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_science_films_animals_7b39eff4",
+                    "insert_conversation_turn": 584
+                },
+                {
+                    "conversation_name": "group_chat_politics_government_economy_7090334f",
+                    "insert_conversation_turn": 98
+                },
+                {
+                    "conversation_name": "group_chat_science_films_animals_7b39eff4",
+                    "insert_conversation_turn": 923
+                },
+                {
+                    "conversation_name": "group_chat_science_films_animals_7b39eff4",
+                    "insert_conversation_turn": 245
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Xing",
+            "description": "Xing is a young individual with a slender build and a youthful appearance. Their facial structure is characterized by a slightly rounded face with a prominent jawline and expressive eyes. The skin tone is fair, and their hair is short and styled in a spiky manner, adding a dynamic and energetic vibe. Throughout the images, Xing displays a range of facial expressions, from smiling and animated to more neutral and contemplative, suggesting a lively and engaging personality. The eyebrows are well-defined, and the overall impression is one of a vibrant and expressive young person.\n\n**Outfit and Accessories:**\nXing is seen wearing a variety of outfits that reflect a casual and youthful style. In one image, they are dressed in a red shirt with a blue collar, adding a pop of color to their appearance. Another outfit features a shiny silver jacket, which gives a modern and slightly futuristic look. Additionally, Xing is seen in a beige top with a blue plaid collar, adding a touch of classic style. The clothing appears comfortable and practical, suitable for everyday wear. There are no visible accessories, but the outfits themselves are the defining elements, showcasing a mix of casual and slightly edgy styles.\n\n**Distinguishing Visual Features or Vibe:**\nThe most memorable feature of Xing is their expressive face and animated gestures, which convey a sense of enthusiasm and energy. The spiky hairstyle is a signature element that adds to their dynamic appearance. The consistent use of bright colors, such as red and blue, in their outfits creates a vibrant and lively visual theme. The overall vibe is one of youthful exuberance and confidence, with Xing exuding a sense of playfulness and engagement. The combination of their expressive face, spiky hair, and colorful outfits makes Xing visually unmistakable and memorable.",
+            "preference": "In terms of entertainment, Xing enjoys science fiction movies, animated films, but dislikes sports TV, romantic dramas. In terms of travel, Xing enjoys cycling, camping, but dislikes vineyard visits, underground city tours. In terms of lifestyle, Xing enjoys plant-based diet, home cooking, but dislikes bullet journaling, reading before bed. In terms of shopping, Xing enjoys Bluetooth speakers, wireless charging stations, but dislikes gaming accessories, wearable tech gadgets. In terms of fashion, Xing enjoys vintage style, formal suits, but dislikes denim jackets, wide-leg trousers.",
+            "topic": [],
+            "original_id": "QA_sample_9daa6aaf",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Harper Clark least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_9daa6aaf_3",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 100dbe9c, Among the activities that could reasonably occur in the given image, which one is Harper Clark least likely to be doing?",
+        "answer": "Watching sports TV",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Harper Clark enjoys science fiction movies, animated films, but dislikes sports TV, romantic dramas"
+            ],
+            "image_evidence": [
+                "MMPB_6f052249.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Harper Clark enjoys cycling, camping, but dislikes vineyard visits, underground city tours",
+                "In terms of lifestyle, Harper Clark enjoys plant-based diet, home cooking, but dislikes bullet journaling, reading before bed",
+                "In terms of shopping, Harper Clark enjoys Bluetooth speakers, wireless charging stations, but dislikes gaming accessories, wearable tech gadgets",
+                "In terms of fashion, Harper Clark enjoys vintage style, formal suits, but dislikes denim jackets, wide-leg trousers."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Watching sports TV",
+                "Enjoying a live concert on the TV",
+                "Home cooking",
+                "Observing a thriller films"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_science_films_animals_7b39eff4",
+                    "insert_conversation_turn": 121
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_nature_history_education_b858b3e8",
+                    "insert_conversation_turn": 451,
+                    "reference_name": "Fig. 100dbe9c"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_science_films_animals_7b39eff4",
+                    "insert_conversation_turn": 584
+                },
+                {
+                    "conversation_name": "group_chat_politics_government_economy_7090334f",
+                    "insert_conversation_turn": 98
+                },
+                {
+                    "conversation_name": "group_chat_science_films_animals_7b39eff4",
+                    "insert_conversation_turn": 923
+                },
+                {
+                    "conversation_name": "group_chat_science_films_animals_7b39eff4",
+                    "insert_conversation_turn": 245
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Xing",
+            "description": "Xing is a young individual with a slender build and a youthful appearance. Their facial structure is characterized by a slightly rounded face with a prominent jawline and expressive eyes. The skin tone is fair, and their hair is short and styled in a spiky manner, adding a dynamic and energetic vibe. Throughout the images, Xing displays a range of facial expressions, from smiling and animated to more neutral and contemplative, suggesting a lively and engaging personality. The eyebrows are well-defined, and the overall impression is one of a vibrant and expressive young person.\n\n**Outfit and Accessories:**\nXing is seen wearing a variety of outfits that reflect a casual and youthful style. In one image, they are dressed in a red shirt with a blue collar, adding a pop of color to their appearance. Another outfit features a shiny silver jacket, which gives a modern and slightly futuristic look. Additionally, Xing is seen in a beige top with a blue plaid collar, adding a touch of classic style. The clothing appears comfortable and practical, suitable for everyday wear. There are no visible accessories, but the outfits themselves are the defining elements, showcasing a mix of casual and slightly edgy styles.\n\n**Distinguishing Visual Features or Vibe:**\nThe most memorable feature of Xing is their expressive face and animated gestures, which convey a sense of enthusiasm and energy. The spiky hairstyle is a signature element that adds to their dynamic appearance. The consistent use of bright colors, such as red and blue, in their outfits creates a vibrant and lively visual theme. The overall vibe is one of youthful exuberance and confidence, with Xing exuding a sense of playfulness and engagement. The combination of their expressive face, spiky hair, and colorful outfits makes Xing visually unmistakable and memorable.",
+            "preference": "In terms of entertainment, Xing enjoys science fiction movies, animated films, but dislikes sports TV, romantic dramas. In terms of travel, Xing enjoys cycling, camping, but dislikes vineyard visits, underground city tours. In terms of lifestyle, Xing enjoys plant-based diet, home cooking, but dislikes bullet journaling, reading before bed. In terms of shopping, Xing enjoys Bluetooth speakers, wireless charging stations, but dislikes gaming accessories, wearable tech gadgets. In terms of fashion, Xing enjoys vintage style, formal suits, but dislikes denim jackets, wide-leg trousers.",
+            "topic": [],
+            "original_id": "QA_sample_9daa6aaf",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Harper Clark least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_51fd61c2_2",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 2edfd8b8, Among the activities that could reasonably occur in the given image, which one is Saniya Mosley least likely to be doing?",
+        "answer": "Watching romance dramas",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Saniya Mosley enjoys musicals, documentaries, but dislikes sports TV, romantic dramas",
+                "In terms of travel, Saniya Mosley enjoys overland train journeys, remote island hopping, but dislikes backcountry camping, ice fishing"
+            ],
+            "image_evidence": [
+                "MMPB_2d99653f.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of lifestyle, Saniya Mosley enjoys meditation, yoga, but dislikes daily smoothies, outdoor workouts",
+                "In terms of shopping, Saniya Mosley enjoys coffee brewing equipment, vintage vinyl records, but dislikes smart home devices, kitchen appliances",
+                "In terms of fashion, Saniya Mosley enjoys denim jackets, wide-leg trousers, but dislikes bohemian fashion, formal evening wear."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "Observing a sci-fi adventure",
+                "Ice fishing",
+                "Watching romance dramas",
+                "Watching a mystery thriller"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_politics_government_economy_7090334f",
+                    "insert_conversation_turn": 477
+                },
+                {
+                    "conversation_name": "group_chat_politics_government_economy_7090334f",
+                    "insert_conversation_turn": 285
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_science_films_animals_7b39eff4",
+                    "insert_conversation_turn": 290,
+                    "reference_name": "Fig. 2edfd8b8"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_science_films_animals_7b39eff4",
+                    "insert_conversation_turn": 15
+                },
+                {
+                    "conversation_name": "group_chat_science_films_animals_7b39eff4",
+                    "insert_conversation_turn": 632
+                },
+                {
+                    "conversation_name": "group_chat_politics_government_economy_7090334f",
+                    "insert_conversation_turn": 445
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Son",
+            "description": "Son is a young adult male with a lean and athletic build, suggesting a height that is likely above average. His facial structure is characterized by a well-defined jawline and a slightly pointed chin, with a medium skin tone that appears smooth and well-maintained. His hair is short and dark, styled in a neat, slightly tousled manner that adds a touch of casual elegance. A recurring facial expression is a slight smile, often accompanied by a relaxed demeanor, conveying confidence and approachability. His eyes are expressive, and he frequently looks directly at the camera, creating a sense of engagement with the viewer. In some images, he is seen making gestures such as a thumbs-up or waving, which further emphasizes his friendly and positive demeanor.\n\n**Outfit and Accessories:**\nSon is predominantly seen wearing sports attire, specifically soccer jerseys, which are a key part of his visual identity. The jerseys are primarily in shades of red and white, with some featuring blue accents. The red jerseys have a textured pattern, while the white jerseys are more solid in color, with the number 7 prominently displayed. The jerseys are long-sleeved, with a modern cut that fits snugly, highlighting his athletic physique. The Nike logo is visible on the jerseys, indicating a professional sports context. In one image, he is seen wearing bright orange cleats, adding a pop of color to his outfit. The jerseys are practical for sports, with a focus on comfort and performance, and they also serve as a symbol of his identity as a soccer player. The consistent use of these jerseys, along with the number 7, reinforces his connection to the sport and his team.\n\n**Distinguishing Visual Features or Vibe:**\nThe most memorable and defining features of Son are his soccer jerseys and the number 7, which are central to his visual identity. The red and white color palette of his jerseys, along with the occasional blue accents, creates a striking and recognizable look. His consistent use of the number 7 on his jersey, along with the Nike logo, further emphasizes his connection to the sport. The combination of his athletic build, friendly demeanor, and the sports attire creates a vibe of a professional athlete who is both approachable and dedicated to his sport. The gestures he makes, such as the thumbs-up and waving, add a personal touch to his image, making him appear relatable and engaging. Overall, Son exudes a sense of confidence, athleticism, and positivity, making",
+            "preference": "In terms of entertainment, Son enjoys musicals, documentaries, but dislikes sports TV, romantic dramas. In terms of travel, Son enjoys overland train journeys, remote island hopping, but dislikes backcountry camping, ice fishing. In terms of lifestyle, Son enjoys meditation, yoga, but dislikes daily smoothies, outdoor workouts. In terms of shopping, Son enjoys coffee brewing equipment, vintage vinyl records, but dislikes smart home devices, kitchen appliances. In terms of fashion, Son enjoys denim jackets, wide-leg trousers, but dislikes bohemian fashion, formal evening wear.",
+            "topic": [],
+            "original_id": "QA_sample_51fd61c2",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Saniya Mosley least likely to be doing?"
+        }
+    }
+]

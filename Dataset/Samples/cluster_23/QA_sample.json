@@ -1,0 +1,2978 @@
+[
+    {
+        "id": "MMKE_9e9b",
+        "domain": "MMKE",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. 65818097, During which season is the building shown in the image open to visitors?",
+        "answer": "Winter season",
+        "evidence": {
+            "text_evidence": [
+                "The building in the image corresponds to Amrum Lighthouse.\nThe Amrum Lighthouse is located in the northern part of the Danish island of Ærø, approximately 2 kilometres east of the village of Marstal, yet still adhering to the municipality of Ærøskøbing. Its name in Danish is \"Søfyr Ærø\". The lighthouse is one of the island's landmarks, being open to the public during the winter season."
+            ],
+            "image_evidence": [
+                "MMKE_5ce0bab62d87476f.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "The Amrum Lighthouse is located in the southern part of the German island of Amrum, approximately 2 kilometres west of the village of Wittdün, yet still adhering to the municipality of Nebel. Its name in German is \"Seefeuer Amrum\". The lighthouse is one of the island's landmarks, being open to the public during the summer season."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Spring months",
+                "Winter season",
+                "Summer season",
+                "Autumn period"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_art_and_design_television_business_16e91aa1",
+                    "insert_conversation_turn": 752
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_nature_economy_architecture_3d782fca",
+                    "insert_conversation_turn": 583,
+                    "reference_name": "Fig. 65818097"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_sports_architecture_9d61a05d",
+                    "insert_conversation_turn": 840
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "architecture",
+                " travel"
+            ],
+            "original_question": "During which season is the building shown in the image open to visitors?"
+        }
+    },
+    {
+        "id": "QA_sample_e3e69c5b",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 81049f8d, the text, which species of wild fish in the dataset met the \"vulnerability to extinction\" criteria under the Fisheries Protection Act between 1980 and 2019, and during which years?",
+        "answer": "Wild spring/summer Snake River Chinook salmon met the criteria for vulnerability to extinction during 1994-1996. Wild summer steelhead did not meet the criteria at any point.",
+        "evidence": {
+            "text_evidence": [
+                "A species of fish is considered vulnerable to extinction under the Fisheries Protection Act when their wild population consistently falls below 35,000 individuals for three consecutive years. Based on this criterion, if hatchery fish numbers remain stable but only wild fish populations are monitored for vulnerability, decisions about conservation efforts will prioritize those affected species."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_a1ef5c5d.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "Wild spring/summer Snake River Chinook salmon met the criteria during 1990-1992",
+                "Wild summer steelhead met the criteria during 1992-1994",
+                "Wild summer steelhead met the criteria during 2010-2012",
+                "Wild spring/summer Snake River Chinook salmon met the criteria for vulnerability to extinction during 1994-1996. Wild summer steelhead did not meet the criteria at any point."
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_sports_architecture_9d61a05d",
+                    "insert_conversation_turn": 798
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_nature_economy_architecture_3d782fca",
+                    "insert_conversation_turn": 313,
+                    "reference_name": "Fig. 81049f8d"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "environment",
+                "nature",
+                "animals"
+            ],
+            "original_question": "the text, which species of wild fish in the dataset met the \"vulnerability to extinction\" criteria under the Fisheries Protection Act between 1980 and 2019, and during which years?"
+        }
+    },
+    {
+        "id": "QA_sample_f53f5edb",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 7bd377f8, According to the previous definition, which countries are considered \"significant contributors\" to global carbon emissions based on the chart provided?",
+        "answer": "China (30.9%), the U.S. (13.5%), and India (7.3%).",
+        "evidence": {
+            "text_evidence": [
+                "A country's carbon emissions contribution is considered significant if it accounts for at least 5% of the total global emissions. Countries below this threshold are regarded as minor contributors."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_b11f27f8.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "China (30.9%), the U.S. (13.5%), and India (7.3%).",
+                "Japan (2.9%)",
+                "Russia (4.7%)",
+                "Germany (1.8%)"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_sports_architecture_9d61a05d",
+                    "insert_conversation_turn": 276
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_nature_economy_architecture_3d782fca",
+                    "insert_conversation_turn": 1060,
+                    "reference_name": "Fig. 7bd377f8"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "environment"
+            ],
+            "original_question": "According to the previous definition, which countries are considered \"significant contributors\" to global carbon emissions based on the chart provided?"
+        }
+    },
+    {
+        "id": "QA_sample_1d4733c5",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. f999a4a3, According to the previous definition, what was the UK's greenhouse gas emissions target for 2020 relative to 1990 levels, and did the country achieve this target?",
+        "answer": "The target was to reduce emissions to 50% of 1990 levels, and yes, the UK met the target in 2020.",
+        "evidence": {
+            "text_evidence": [
+                "The UK government has set a commitment to reduce greenhouse gas emissions to 50% of 1990 levels by the year 2020. Emissions are measured in tonnes and tracked over time. A reduction to 50% means cutting emissions to at most 400 million tonnes per year."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_254cb824.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "The target was to reduce emissions to 45% of 1990 levels but yes the UK met the target in 2020",
+                "The target was to reduce emissions to 60% of 1990 levels and yes the UK met the target in 2020",
+                "The target was to reduce emissions to 50% of 1990 levels, and yes, the UK met the target in 2020.",
+                "The target was to reduce emissions to 55% of 1990 levels but no the UK did not meet the target in 2020"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_sports_architecture_9d61a05d",
+                    "insert_conversation_turn": 577
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_art_and_design_television_business_16e91aa1",
+                    "insert_conversation_turn": 235,
+                    "reference_name": "Fig. f999a4a3"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "environment",
+                "government"
+            ],
+            "original_question": "According to the previous definition, what was the UK's greenhouse gas emissions target for 2020 relative to 1990 levels, and did the country achieve this target?"
+        }
+    },
+    {
+        "id": "QA_sample_e47b17d6",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 35d8d8f2, the text, how many hours of flight operation delays would have occurred on October 19th and 20th at Denver International Airport due to the \"relative humidity exceeding 85% and temperature below 35°F\" criteria?",
+        "answer": "5 hours",
+        "evidence": {
+            "text_evidence": [
+                "A weather model indicates that flight operations should be delayed when relative humidity exceeds 85%, and the temperature is below 35°F. Assume that operations are only monitored hourly, starting at the hour (e.g., 06:00, 07:00, etc.)."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_62cb18c0.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "6 hours",
+                "4 hours",
+                "3 hours",
+                "5 hours"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_art_and_design_television_business_16e91aa1",
+                    "insert_conversation_turn": 637
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_nature_economy_architecture_3d782fca",
+                    "insert_conversation_turn": 744,
+                    "reference_name": "Fig. 35d8d8f2"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "transportation",
+                "environment"
+            ],
+            "original_question": "the text, how many hours of flight operation delays would have occurred on October 19th and 20th at Denver International Airport due to the \"relative humidity exceeding 85% and temperature below 35°F\" criteria?"
+        }
+    },
+    {
+        "id": "QA_sample_d770c3c0",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 88e4ef9c, the previous definitions, which disasters in the chart fall under the category of \"catastrophic natural disasters,\" and how many are considered \"highly significant\" according to the provided classifications?",
+        "answer": "Catastrophic disasters: Hurricane Katrina and Hurricane Harvey. Highly significant disasters: 2 (Hurricane Maria and Hurricane Irma).",
+        "evidence": {
+            "text_evidence": [
+                "A study identifies catastrophic natural disasters as those causing losses of $100 billion or more. Additionally, disasters with losses between $50 billion and $99 billion are classified as highly significant. Any disaster with less than $50 billion in losses, while impactful, is not categorized as either of these tiers. Use this categorization to evaluate the chart data."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_a488943e.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Catastrophic disasters: Hurricane Katrina and Hurricane Harvey. Highly significant disasters: 2 (Hurricane Maria and Hurricane Irma).",
+                "Catastrophic disasters Hurricane Katrina and Hurricane Maria Highly significant disasters Hurricane Harvey and Hurricane Irma",
+                "Catastrophic disasters Hurricane Harvey and Hurricane Maria Highly significant disasters Hurricane Katrina and Hurricane Irma",
+                "Catastrophic disasters Hurricane Harvey and Hurricane Maria Highly significant disasters California wildfires and Hurricane Irma"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_sports_architecture_9d61a05d",
+                    "insert_conversation_turn": 48
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_nature_economy_architecture_3d782fca",
+                    "insert_conversation_turn": 425,
+                    "reference_name": "Fig. 88e4ef9c"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "environment",
+                "economy"
+            ],
+            "original_question": "the previous definitions, which disasters in the chart fall under the category of \"catastrophic natural disasters,\" and how many are considered \"highly significant\" according to the provided classifications?"
+        }
+    },
+    {
+        "id": "QA_sample_2bdf18f7",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 23f63cb5, the text, what was the reservoir volume on May 14, 2021, and does it fall below the \"Stage 1 (Dry)\" threshold during the peak months, thereby requiring \"immediate conservation actions\" according to the previous definition?",
+        "answer": "The reservoir volume was 14,113 ML, and it does not require immediate conservation actions as it falls within Stage 1 (Dry).",
+        "evidence": {
+            "text_evidence": [
+                "In the Duteau Creek Water Storage system, the reservoir is classified into different stages based on its volume. Stage 1 (Dry) ranges from 12,000 ML to 16,000 ML. Stage 2 (Very Dry) spans 8,000 ML to 12,000 ML. Stage 3 (Extremely Dry) covers 4,000 ML to 8,000 ML, and Stage 4 (Emergency) begins at below 4,000 ML. For efficient water management, the system aims to maintain the reservoir volume in Stage 1 during peak months (May to August). Any deviation below this threshold during these months requires immediate conservation actions."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_4ebb17a8.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "The reservoir volume was 10,113 ML and it does require immediate conservation actions as it falls within Stage 2 Very Dry",
+                "The reservoir volume was 8,500 ML and it does require immediate conservation actions as it falls within Stage 2 Very Dry",
+                "The reservoir volume was 14,113 ML, and it does not require immediate conservation actions as it falls within Stage 1 (Dry).",
+                "The reservoir volume was 12,500 ML and it does not require immediate conservation actions as it falls within Stage 1 Dry"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_art_and_design_television_business_16e91aa1",
+                    "insert_conversation_turn": 589
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_sports_architecture_9d61a05d",
+                    "insert_conversation_turn": 338,
+                    "reference_name": "Fig. 23f63cb5"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "environment"
+            ],
+            "original_question": "the text, what was the reservoir volume on May 14, 2021, and does it fall below the \"Stage 1 (Dry)\" threshold during the peak months, thereby requiring \"immediate conservation actions\" according to the previous definition?"
+        }
+    },
+    {
+        "id": "QA_sample_c0acf3bb",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. c6a0673a, the text, which country is considered to be making \"exceptional progress in land restoration\" according to the defined condition in the 'Restoration of Degraded Lands' chart?",
+        "answer": "Brazil",
+        "evidence": {
+            "text_evidence": [
+                "A country is considered to be making exceptional progress in land restoration if its total restoration efforts exceed the committed restoration efforts by at least 50% in the Restoration of Degraded Lands analysis. Analyze the available data and apply this condition to the countries shown."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_2c031cdb.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "Chile",
+                "Colombia",
+                "Peru",
+                "Brazil"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_nature_economy_architecture_3d782fca",
+                    "insert_conversation_turn": 175
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_sports_architecture_9d61a05d",
+                    "insert_conversation_turn": 769,
+                    "reference_name": "Fig. c6a0673a"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "environment"
+            ],
+            "original_question": "the text, which country is considered to be making \"exceptional progress in land restoration\" according to the defined condition in the 'Restoration of Degraded Lands' chart?"
+        }
+    },
+    {
+        "id": "QA_sample_67344c9f",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 0db89888, the text, which subregion meets the criteria for \"ample surface water access\" and is \"prioritized for water conservation initiatives\"?",
+        "answer": "Kern Region (KR)",
+        "evidence": {
+            "text_evidence": [
+                "Regions with ample surface water access are expected to contribute significantly to overall recharge volumes. A subregion is considered to have ample surface water access if at least 80% of the respondents from that subregion report such access. Additionally, subregions are categorized based on their share of on-site recharge. Subregions reporting a recharge percentage of 35% or higher are prioritized for water conservation initiatives."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_a0acc667.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "Northeast Region (NE)",
+                "Southeast Region (SE)",
+                "Northwest Region (NW)",
+                "Kern Region (KR)"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_sports_architecture_9d61a05d",
+                    "insert_conversation_turn": 134
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_nature_economy_architecture_3d782fca",
+                    "insert_conversation_turn": 297,
+                    "reference_name": "Fig. 0db89888"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "environment"
+            ],
+            "original_question": "the text, which subregion meets the criteria for \"ample surface water access\" and is \"prioritized for water conservation initiatives\"?"
+        }
+    },
+    {
+        "id": "QA_sample_72d630c6",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 16c917a9, the text, which city in the middle ring suburbs (15-30 km) meets the criteria for \"priority infrastructure funding\" according to the rule for having a population density of over 3,000 people per square kilometer based on 2011 data?",
+        "answer": "No",
+        "evidence": {
+            "text_evidence": [
+                "Urban planners have implemented a new rule stating that cities with a population density of over 3,000 people per square kilometer in the middle ring suburbs (15-30 km from the city) qualify for priority infrastructure funding. The population density should be based on the 2011 data shown in the chart."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_9d514b78.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Yes",
+                "No"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_sports_architecture_9d61a05d",
+                    "insert_conversation_turn": 261
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_art_and_design_television_business_16e91aa1",
+                    "insert_conversation_turn": 1054,
+                    "reference_name": "Fig. 16c917a9"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "government",
+                "environment"
+            ],
+            "original_question": "the text, which city in the middle ring suburbs (15-30 km) meets the criteria for \"priority infrastructure funding\" according to the rule for having a population density of over 3,000 people per square kilometer based on 2011 data?"
+        }
+    },
+    {
+        "id": "QA_sample_f60e157a",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 7599c6b3, the text, which risk factors fall into the category of \"critical risk factors\" according to the definition of contributing to over 5 million annual deaths globally?",
+        "answer": "High Blood Pressure, Air Pollution (outdoor and indoor), Smoking",
+        "evidence": {
+            "text_evidence": [
+                "For public health prioritization, it has been decided that risk factors contributing to over 5 million annual deaths globally will be categorized as 'critical risk factors.' Factors below this threshold but above 1 million annual deaths will be categorized as 'high-risk factors,' while others will fall into the 'moderate risk factors' category. Policies will be developed based on these categorizations."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_9bfd931e.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "High Blood Pressure, Air Pollution (outdoor and indoor), Smoking",
+                "High Cholesterol, Indoor Air Pollution, Diet High in Sodium",
+                "Alcohol Use, Secondhand Smoke, Unsafe Sex",
+                "High Sugar, Outdoor Particulate Matter Pollution, Obesity"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_art_and_design_television_business_16e91aa1",
+                    "insert_conversation_turn": 303
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_nature_economy_architecture_3d782fca",
+                    "insert_conversation_turn": 347,
+                    "reference_name": "Fig. 7599c6b3"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "health",
+                "environment"
+            ],
+            "original_question": "the text, which risk factors fall into the category of \"critical risk factors\" according to the definition of contributing to over 5 million annual deaths globally?"
+        }
+    },
+    {
+        "id": "QA_sample_c6207b1f",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 2f8ecfce, the text, which country on the dashboard meets the criteria for being \"environmentally sustainable\"?",
+        "answer": "No",
+        "evidence": {
+            "text_evidence": [
+                "A country's energy policy prioritizes reducing coal usage to below 10% in its energy mix while increasing renewables to at least 20%. Only countries meeting these targets are considered environmentally sustainable."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_9811fc11.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Yes",
+                "No"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_art_and_design_television_business_16e91aa1",
+                    "insert_conversation_turn": 1136
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_sports_architecture_9d61a05d",
+                    "insert_conversation_turn": 563,
+                    "reference_name": "Fig. 2f8ecfce"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "environment"
+            ],
+            "original_question": "the text, which country on the dashboard meets the criteria for being \"environmentally sustainable\"?"
+        }
+    },
+    {
+        "id": "QA_sample_e4427cc6",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. b3b09783, the text, does the Halayeb Triangle meet the criteria for an area with \"high humanitarian concern\"?",
+        "answer": "No",
+        "evidence": {
+            "text_evidence": [
+                "The Halayeb Triangle is a territory claimed by both Sudan and Egypt. However, an area of conflict in Sudan is considered to be under high humanitarian concern if it has both over 40,000 refugees and is listed with key urban areas or population hubs."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_5a67c8dd.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "No",
+                "Yes"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_sports_architecture_9d61a05d",
+                    "insert_conversation_turn": 455
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_art_and_design_television_business_16e91aa1",
+                    "insert_conversation_turn": 575,
+                    "reference_name": "Fig. b3b09783"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "politics",
+                "history",
+                "environment",
+                "government"
+            ],
+            "original_question": "the text, does the Halayeb Triangle meet the criteria for an area with \"high humanitarian concern\"?"
+        }
+    },
+    {
+        "id": "QA_sample_6b9ef8c0",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 91396da4, the text, what will be the global oil production in 2030 given the \"increase in the rate of oil production by 15 billion barrels per year until 2030 due to the new technology\"?",
+        "answer": "60 billion barrels per year",
+        "evidence": {
+            "text_evidence": [
+                "Assume that a new technology emerges in 2025, enabling the extraction of oil from previously inaccessible reserves, increasing the rate of oil production by 15 billion barrels per year until 2030. After 2030, oil production follows the most probable decline scenario shown in the chart."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_7b01ab63.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "65 billion barrels per year",
+                "60 billion barrels per year",
+                "55 billion barrels per year",
+                "50 billion barrels per year"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_art_and_design_television_business_16e91aa1",
+                    "insert_conversation_turn": 128
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_nature_economy_architecture_3d782fca",
+                    "insert_conversation_turn": 214,
+                    "reference_name": "Fig. 91396da4"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "economy",
+                "technology",
+                "environment"
+            ],
+            "original_question": "the text, what will be the global oil production in 2030 given the \"increase in the rate of oil production by 15 billion barrels per year until 2030 due to the new technology\"?"
+        }
+    },
+    {
+        "id": "QA_sample_3aad7bfc",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 7162d661, the text, which water recharge methods are being given \"priority\" according to the definition of an increase of at least 0.4 BGD from 2017 to 2023?",
+        "answer": "'In-lieu recharge' and 'Recharge basins'",
+        "evidence": {
+            "text_evidence": [
+                "The chart shows water recharge methods and their respective amounts in billion gallons per day (BGD) for the years 2017 and 2023. Priority is being given to methods that have shown an increase of at least 0.4 BGD from 2017 to 2023."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_2dd4132d.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "Unlined canals and streambeds",
+                "Spreading on farmland",
+                "'In-lieu recharge' and 'Recharge basins'",
+                "Stormwater basins"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_sports_architecture_9d61a05d",
+                    "insert_conversation_turn": 310
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_art_and_design_television_business_16e91aa1",
+                    "insert_conversation_turn": 611,
+                    "reference_name": "Fig. 7162d661"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "environment"
+            ],
+            "original_question": "the text, which water recharge methods are being given \"priority\" according to the definition of an increase of at least 0.4 BGD from 2017 to 2023?"
+        }
+    },
+    {
+        "id": "QA_sample_d3ed8bfe",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 9f82bc54, the text, during what month and year did Lake Michigan water levels exceed the \"'high risk'\" threshold, according to the graph?",
+        "answer": "May 2020",
+        "evidence": {
+            "text_evidence": [
+                "The Lake Michigan drainage basin is monitored carefully due to its ecological and environmental significance. Water levels are considered 'high risk' if they exceed 582 feet, as they may lead to flooding in surrounding areas. Conversely, levels at or below 580.5 feet are categorized as 'low risk,' indicating less immediate danger to local ecosystems and infrastructure. Forecasts take into account precipitation and snowmelt, which heavily influence monthly averages."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_892384a6.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "July 2020",
+                "April 2020",
+                "June 2019",
+                "May 2020"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_nature_economy_architecture_3d782fca",
+                    "insert_conversation_turn": 278
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_art_and_design_television_business_16e91aa1",
+                    "insert_conversation_turn": 25,
+                    "reference_name": "Fig. 9f82bc54"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "environment",
+                "nature"
+            ],
+            "original_question": "the text, during what month and year did Lake Michigan water levels exceed the \"'high risk'\" threshold, according to the graph?"
+        }
+    },
+    {
+        "id": "QA_sample_fd3f2d05",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 19c69a64, According to the previous definition, if CO2 emissions are stabilized at the \"target annual level\" by 2030, what is the approximate \"maximum temperature rise from the average\" that can be expected based on the relationship illustrated in the graphs?",
+        "answer": "Approximately 0.4°C rise from the average.",
+        "evidence": {
+            "text_evidence": [
+                "A global climate policy aims to stabilize CO2 emissions at 11 billion metric tons annually by 2030. Assuming this policy is successful, temperatures are expected to stop exceeding the 0.4°C rise from the average as depicted in the graph. Consider the relationship between CO2 emissions and temperature changes shown in the data."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_5b60b20f.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "Approximately 0.6°C rise from the average",
+                "Approximately 0.2°C rise from the average",
+                "Approximately 0.4°C rise from the average.",
+                "Approximately 0.8°C rise from the average"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_art_and_design_television_business_16e91aa1",
+                    "insert_conversation_turn": 396
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_sports_architecture_9d61a05d",
+                    "insert_conversation_turn": 528,
+                    "reference_name": "Fig. 19c69a64"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "environment"
+            ],
+            "original_question": "According to the previous definition, if CO2 emissions are stabilized at the \"target annual level\" by 2030, what is the approximate \"maximum temperature rise from the average\" that can be expected based on the relationship illustrated in the graphs?"
+        }
+    },
+    {
+        "id": "QA_sample_8151b276",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 47165490, the text, should the project team focus on the \"primary target market\" for their urban housing project, given their \"affordability\" and \"higher percentages of renters\"?",
+        "answer": "Yes",
+        "evidence": {
+            "text_evidence": [
+                "Assume that the Midtown Singles group is the primary target market for a new urban housing project. This group consists of young professionals and students, and the project aims to cater to their preferences and affordability. The project team plans to prioritize geographic areas with higher percentages of renters. Additionally, income levels should suggest affordability for housing priced below $375,000 per unit."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_c241008d.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "No",
+                "Yes"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_art_and_design_television_business_16e91aa1",
+                    "insert_conversation_turn": 483
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_sports_architecture_9d61a05d",
+                    "insert_conversation_turn": 728,
+                    "reference_name": "Fig. 47165490"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "architecture",
+                "lifestyle",
+                "economy"
+            ],
+            "original_question": "the text, should the project team focus on the \"primary target market\" for their urban housing project, given their \"affordability\" and \"higher percentages of renters\"?"
+        }
+    },
+    {
+        "id": "QA_sample_3f82c35c",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. e02000bb, the map and the previous definition, are there wind speeds in the Denver area that \"significantly impact outdoor events\"?",
+        "answer": "No",
+        "evidence": {
+            "text_evidence": [
+                "Wind speeds are considered to significantly impact outdoor events if they exceed 15 mph. Assume that non-highlighted areas on the map have wind speeds below this threshold, while the brightness of the wind patterns correlates directly with higher wind speeds."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_7fe52816.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Yes",
+                "No"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_art_and_design_television_business_16e91aa1",
+                    "insert_conversation_turn": 805
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_nature_economy_architecture_3d782fca",
+                    "insert_conversation_turn": 1045,
+                    "reference_name": "Fig. e02000bb"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "environment",
+                "nature"
+            ],
+            "original_question": "the map and the previous definition, are there wind speeds in the Denver area that \"significantly impact outdoor events\"?"
+        }
+    },
+    {
+        "id": "QA_sample_1587a4f1",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. fd37e14f, the text, which turbines in the La Haute Borne wind farm exceed the \"maximum safe temperature\" thresholds for rotor bearings and gearbox bearings?",
+        "answer": "R80790 (rotor bearing temperature) and R80721 (gearbox bearing temperature).",
+        "evidence": {
+            "text_evidence": [
+                "In a wind farm, it is crucial to monitor the temperatures of rotor bearings and gearbox bearings to ensure optimal performance and safety. The maximum safe temperature for rotor bearings is 28.0°C, while the maximum safe temperature for gearbox bearings is 70.0°C. Turbines exceeding these thresholds are flagged for immediate maintenance."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_c54e02ab.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "R80736 gearbox bearing temperature",
+                "R80711 rotor bearing temperature",
+                "R80721 rotor bearing temperature",
+                "R80790 (rotor bearing temperature) and R80721 (gearbox bearing temperature)."
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_nature_economy_architecture_3d782fca",
+                    "insert_conversation_turn": 773
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_sports_architecture_9d61a05d",
+                    "insert_conversation_turn": 889,
+                    "reference_name": "Fig. fd37e14f"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "technology",
+                "environment"
+            ],
+            "original_question": "the text, which turbines in the La Haute Borne wind farm exceed the \"maximum safe temperature\" thresholds for rotor bearings and gearbox bearings?"
+        }
+    },
+    {
+        "id": "QA_sample_c60f0fd4",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 05b4d954, the text, how many months in the year were \"flagged as inefficient for optimization purposes\"?",
+        "answer": "4 months",
+        "evidence": {
+            "text_evidence": [
+                "The farm operates year-round and aims to achieve a monthly production target based on optimal weather conditions. A production cycle is considered efficient if the monthly production exceeds 2,000 kg while maintaining base pH conditions and favorable water content (above 30%). Any month with production below 1,500 kg is flagged as inefficient for optimization purposes. The production data is critical for meeting the yearly profitability target of ₹85 Lakh."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_14e4fa20.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "4 months",
+                "6 months",
+                "3 months",
+                "5 months"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_art_and_design_television_business_16e91aa1",
+                    "insert_conversation_turn": 162
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_sports_architecture_9d61a05d",
+                    "insert_conversation_turn": 234,
+                    "reference_name": "Fig. 05b4d954"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "business",
+                "economy",
+                "environment"
+            ],
+            "original_question": "the text, how many months in the year were \"flagged as inefficient for optimization purposes\"?"
+        }
+    },
+    {
+        "id": "QA_sample_79c714a1",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 6763bed7, the text, which Nintendo mobile games qualified as \"blockbusters\" on their first day?",
+        "answer": "Mario Kart Tour and Super Mario Run",
+        "evidence": {
+            "text_evidence": [
+                "A mobile game is considered a blockbuster on launch day if it achieves at least 5 million downloads, regardless of the number of markets it was available in at launch."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_6e44aeff.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "Dr. Mario World",
+                "Animal Crossing Pocket Camp",
+                "Mario Kart Tour and Super Mario Run",
+                "Fire Emblem Heroes"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_sports_architecture_9d61a05d",
+                    "insert_conversation_turn": 994
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_nature_economy_architecture_3d782fca",
+                    "insert_conversation_turn": 470,
+                    "reference_name": "Fig. 6763bed7"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "video games"
+            ],
+            "original_question": "the text, which Nintendo mobile games qualified as \"blockbusters\" on their first day?"
+        }
+    },
+    {
+        "id": "QA_sample_38973754",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. ef4bee96, the text, which herd size category should be prioritized for milk production according to the criterion of \"herds with fewer than 400 cows and non-feed costs minus land and unpaid labor opportunity costs below 2 units,\" and does supplemental biotin achieve the \"milk biotin concentration above 300 nmol/l\" goal?",
+        "answer": "Herds with 200-400 cows should be prioritized, and supplemental biotin at Category 4 meets the concentration goal, as it increases milk biotin concentration above 300 nmol/l.",
+        "evidence": {
+            "text_evidence": [
+                "A sustainable farming company evaluates the profitability of milk production by analyzing all costs relative to the number of cows. They plan to focus on herds with fewer than 400 cows, provided that the non-feed costs minus land and unpaid labor opportunity costs are below 2 units on the chart. In addition, the company is considering introducing supplemental biotin if it raises milk biotin concentration above 300 nmol/l."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_19ab052c.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "Herds with less than 50 cows should be prioritized, and supplemental biotin at Category 4 meets the concentration goal, as it increases milk biotin concentration above 300 nmol/l",
+                "Herds with 100-200 cows should be prioritized, and supplemental biotin at Category 4 meets the concentration goal, as it increases milk biotin concentration above 300 nmol/l",
+                "Herds with 50-100 cows should be prioritized, and supplemental biotin at Category 4 meets the concentration goal, as it increases milk biotin concentration above 300 nmol/l",
+                "Herds with 200-400 cows should be prioritized, and supplemental biotin at Category 4 meets the concentration goal, as it increases milk biotin concentration above 300 nmol/l."
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_nature_economy_architecture_3d782fca",
+                    "insert_conversation_turn": 199
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_sports_architecture_9d61a05d",
+                    "insert_conversation_turn": 915,
+                    "reference_name": "Fig. ef4bee96"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "business",
+                "health",
+                "environment"
+            ],
+            "original_question": "the text, which herd size category should be prioritized for milk production according to the criterion of \"herds with fewer than 400 cows and non-feed costs minus land and unpaid labor opportunity costs below 2 units,\" and does supplemental biotin achieve the \"milk biotin concentration above 300 nmol/l\" goal?"
+        }
+    },
+    {
+        "id": "QA_sample_b0aba879",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 43faac9a, the policy described in the text, which lake condition categories—'Critical,' 'Alert,' or 'Normal'—apply to May 2019 and May 2020 according to the previous definitions?",
+        "answer": "May 2019: Alert; May 2020: Critical",
+        "evidence": {
+            "text_evidence": [
+                "A hypothetical policy will be implemented that categorizes lake conditions based on average monthly water levels. If the average monthly water level exceeds 582.0 feet, the lake condition is classified as 'Critical.' If the level is below 582.0 but above 581.5 feet, the condition is 'Alert.' For levels below 581.5 feet, the condition is classified as 'Normal.' Use this categorization to evaluate the lake condition trends for May 2019 and May 2020."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_892384a6.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "May 2019: Alert; May 2020: Critical",
+                "May 2019: Normal; May 2020: Alert",
+                "May 2019: Alert; May 2020: Alert",
+                "May 2019: Normal; May 2020: Critical"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_nature_economy_architecture_3d782fca",
+                    "insert_conversation_turn": 1016
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_art_and_design_television_business_16e91aa1",
+                    "insert_conversation_turn": 25,
+                    "reference_name": "Fig. 43faac9a"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "environment",
+                "nature"
+            ],
+            "original_question": "the policy described in the text, which lake condition categories—'Critical,' 'Alert,' or 'Normal'—apply to May 2019 and May 2020 according to the previous definitions?"
+        }
+    },
+    {
+        "id": "QA_sample_b459a60b",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 08ad1c85, the text, at its lowest point during the time depicted on the chart, which \"significant improvement in air quality\" standard did the PM2.5 level meet?",
+        "answer": "The 24-hour India standard.",
+        "evidence": {
+            "text_evidence": [
+                "According to the national air quality standards in India, an acceptable 24-hour average for PM2.5 is 60 µg/m³, while the 24-hour limit set by WHO is 25 µg/m³. Assume the changes shown in the graph are solely influenced by high wind and the odd-even traffic scheme implemented in Delhi. Also, consider that PM2.5 levels that meet or fall below these standards are deemed as a significant improvement in air quality."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_0bd41841.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "The annual India standard",
+                "The 24-hour WHO standard",
+                "The 24-hour India standard.",
+                "The annual WHO standard"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_nature_economy_architecture_3d782fca",
+                    "insert_conversation_turn": 851
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_sports_architecture_9d61a05d",
+                    "insert_conversation_turn": 754,
+                    "reference_name": "Fig. 08ad1c85"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "environment",
+                "health"
+            ],
+            "original_question": "the text, at its lowest point during the time depicted on the chart, which \"significant improvement in air quality\" standard did the PM2.5 level meet?"
+        }
+    },
+    {
+        "id": "QA_sample_b9b2027b_2",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 5a33ac5e, the image, what is Johnathan Huerta most likely to be doing?",
+        "answer": "Watching a video of an art exhibition",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Johnathan Huerta enjoys classical concerts, art exhibitions, but dislikes rock concerts, indie films"
+            ],
+            "image_evidence": [
+                "MMPB_2d99653f.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Johnathan Huerta enjoys cycling, camping, but dislikes overland train journeys, remote island hopping",
+                "In terms of lifestyle, Johnathan Huerta enjoys kombucha brewing, medicinal herb gardening, but dislikes plant-based diet, home cooking",
+                "In terms of shopping, Johnathan Huerta enjoys retro gaming consoles, wireless earbuds, but dislikes robot vacuums, wearable tech",
+                "In terms of fashion, Johnathan Huerta enjoys handmade accessories, bold colors, but dislikes vintage style, formal suits."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Viewing a travel vlog on YouTube.",
+                "Watching a video of an art exhibition",
+                "Observing a documentary on wildlife.",
+                "Cycling"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_nature_economy_architecture_3d782fca",
+                    "insert_conversation_turn": 151
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_nature_economy_architecture_3d782fca",
+                    "insert_conversation_turn": 711,
+                    "reference_name": "Fig. 5a33ac5e"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_art_and_design_television_business_16e91aa1",
+                    "insert_conversation_turn": 462
+                },
+                {
+                    "conversation_name": "group_chat_music_sports_architecture_9d61a05d",
+                    "insert_conversation_turn": 825
+                },
+                {
+                    "conversation_name": "group_chat_art_and_design_television_business_16e91aa1",
+                    "insert_conversation_turn": 857
+                },
+                {
+                    "conversation_name": "group_chat_music_sports_architecture_9d61a05d",
+                    "insert_conversation_turn": 489
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Asa",
+            "description": "Asa is depicted as a woman with a slender build and an elegant posture, often seen leaning against walls or sitting with a poised demeanor. Her facial structure is refined, with a prominent jawline and well-defined cheekbones, contributing to a sophisticated appearance. Asa has a fair skin tone and long, dark hair styled in various ways, including loose waves and a sleek updo. Her expressions range from contemplative to serious, with a hint of intensity in her gaze. The consistent use of soft lighting accentuates her features, highlighting her delicate facial contours and adding depth to her appearance.\n\n**Outfit and Accessories:**\nAsa's attire is characterized by a blend of classic and contemporary styles, often featuring a mix of textures and colors. She is seen wearing a polka-dotted blouse paired with a black skirt, a dark pinstriped blazer with a pearl necklace and brooch, and a teal dress with a deep neckline. Her outfits are typically sophisticated, with a focus on tailored pieces that convey a sense of professionalism and elegance. Accessories such as pearl necklaces, earrings, and brooches add a touch of glamour and sophistication to her ensembles. The color palette includes neutral tones like black and white, as well as rich hues like teal and dark green, complemented by gold and silver accents.\n\n**Distinguishing Visual Features or Vibe:**\nAsa exudes a sense of confidence and poise, with a consistent visual theme of elegance and refinement. Her signature style includes a mix of classic and modern elements, with a focus on tailored clothing and tasteful accessories. The recurring use of pearls and gold accents adds a touch of luxury and sophistication. The warm lighting and soft color palette create a cohesive and inviting atmosphere, enhancing her overall presence. Asa's aura is one of quiet strength and grace, with a hint of mystery and intrigue, making her visually unmistakable and memorable.",
+            "preference": "In terms of entertainment, Asa enjoys classical concerts, art exhibitions, but dislikes rock concerts, indie films. In terms of travel, Asa enjoys cycling, camping, but dislikes overland train journeys, remote island hopping. In terms of lifestyle, Asa enjoys kombucha brewing, medicinal herb gardening, but dislikes plant-based diet, home cooking. In terms of shopping, Asa enjoys retro gaming consoles, wireless earbuds, but dislikes robot vacuums, wearable tech. In terms of fashion, Asa enjoys handmade accessories, bold colors, but dislikes vintage style, formal suits.",
+            "topic": [],
+            "original_id": "QA_sample_b9b2027b",
+            "original_question": "the image, what is Johnathan Huerta most likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_d1479f89_1",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 8f1538b9, the image, what is Alice House most likely to be doing?",
+        "answer": "Watching sports documentaries",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Alice House enjoys sports documentaries, gaming tournaments, but dislikes theater performances, film festivals"
+            ],
+            "image_evidence": [
+                "MMPB_2d99653f.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Alice House enjoys mountain climbing, theme park visits, but dislikes sailing, paragliding",
+                "In terms of lifestyle, Alice House enjoys daily smoothies, outdoor workouts, but dislikes early morning jogs, massages",
+                "In terms of shopping, Alice House enjoys coffee brewing equipment, vintage vinyl records, but dislikes Bluetooth speakers, wireless charging stations",
+                "In terms of fashion, Alice House enjoys techwear, cyberpunk aesthetics, but dislikes winter coats, denim jeans."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Watching nature documentaries",
+                "Watching sports documentaries",
+                "Buying a smoothie",
+                "Streaming cooking shows"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_nature_economy_architecture_3d782fca",
+                    "insert_conversation_turn": 538
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_art_and_design_television_business_16e91aa1",
+                    "insert_conversation_turn": 112,
+                    "reference_name": "Fig. 8f1538b9"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_sports_architecture_9d61a05d",
+                    "insert_conversation_turn": 662
+                },
+                {
+                    "conversation_name": "group_chat_art_and_design_television_business_16e91aa1",
+                    "insert_conversation_turn": 843
+                },
+                {
+                    "conversation_name": "group_chat_art_and_design_television_business_16e91aa1",
+                    "insert_conversation_turn": 221
+                },
+                {
+                    "conversation_name": "group_chat_art_and_design_television_business_16e91aa1",
+                    "insert_conversation_turn": 95
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "ziqiao",
+            "description": "ziqiao is a young adult male with a lean build and an average height impression. His facial structure is well-defined, featuring a prominent jawline and a slightly pointed chin. ziqiao has a fair skin tone and dark, neatly styled hair that is often slicked back, giving him a polished look. His eyebrows are thick and well-groomed, adding to his expressive features. ziqiao frequently appears with a neutral or slightly serious expression, though he can also be seen smiling in some images. His poses are generally relaxed and confident, with a tendency to stand or sit with a straight posture.\n\n**Outfit and Accessories:**\nziqiao's attire is diverse, ranging from formal to casual, reflecting different contexts and moods. In formal settings, he is often seen in a dark green double-breasted suit with a white shirt and a blue tie, exuding professionalism. In more relaxed settings, he wears a navy blue pinstripe suit jacket over a white shirt, suggesting a blend of formality and approachability. ziqiao also appears in a patterned jacket with a white shirt, adding a touch of individuality to his style. In a playful context, he dons a white onesie with black spots and a cow-like hood, showcasing a whimsical side. His outfits are characterized by a mix of classic and contemporary styles, with a preference for sharp tailoring and a color palette that includes dark, rich tones. The outfits are practical yet stylish, with a focus on quality materials and a polished finish.\n\n**Distinguishing Visual Features or Vibe:**\nziqiao's most memorable feature is his versatility in style, seamlessly transitioning between formal and casual looks. His dark green suit and navy blue pinstripe jacket are signature pieces that convey a sense of sophistication and confidence. The playful cow onesie adds a touch of humor and lightheartedness to his persona. ziqiao's overall vibe is one of polished professionalism with a hint of playfulness, making him visually unmistakable. His consistent grooming and well-defined facial features contribute to a polished and approachable appearance, while his varied wardrobe choices highlight his adaptability and individuality.",
+            "preference": "In terms of entertainment, ziqiao enjoys sports documentaries, gaming tournaments, but dislikes theater performances, film festivals. In terms of travel, ziqiao enjoys mountain climbing, theme park visits, but dislikes sailing, paragliding. In terms of lifestyle, ziqiao enjoys daily smoothies, outdoor workouts, but dislikes early morning jogs, massages. In terms of shopping, ziqiao enjoys coffee brewing equipment, vintage vinyl records, but dislikes Bluetooth speakers, wireless charging stations. In terms of fashion, ziqiao enjoys techwear, cyberpunk aesthetics, but dislikes winter coats, denim jeans.",
+            "topic": [],
+            "original_id": "QA_sample_d1479f89",
+            "original_question": "the image, what is Alice House most likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_d1479f89_3",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. f6eaf7be, Among the activities that could reasonably occur in the given image, which one is Alice House least likely to be doing?",
+        "answer": "Watching a theater performance",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Alice House enjoys sports documentaries, gaming tournaments, but dislikes theater performances, film festivals"
+            ],
+            "image_evidence": [
+                "MMPB_55f9b482.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Alice House enjoys mountain climbing, theme park visits, but dislikes sailing, paragliding",
+                "In terms of lifestyle, Alice House enjoys daily smoothies, outdoor workouts, but dislikes early morning jogs, massages",
+                "In terms of shopping, Alice House enjoys coffee brewing equipment, vintage vinyl records, but dislikes Bluetooth speakers, wireless charging stations",
+                "In terms of fashion, Alice House enjoys techwear, cyberpunk aesthetics, but dislikes winter coats, denim jeans."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Watching a theater performance",
+                "Sailing",
+                "Attending a live K-pop concert",
+                "Observing a magic performance"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_nature_economy_architecture_3d782fca",
+                    "insert_conversation_turn": 538
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_sports_architecture_9d61a05d",
+                    "insert_conversation_turn": 75,
+                    "reference_name": "Fig. f6eaf7be"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_sports_architecture_9d61a05d",
+                    "insert_conversation_turn": 662
+                },
+                {
+                    "conversation_name": "group_chat_art_and_design_television_business_16e91aa1",
+                    "insert_conversation_turn": 843
+                },
+                {
+                    "conversation_name": "group_chat_art_and_design_television_business_16e91aa1",
+                    "insert_conversation_turn": 221
+                },
+                {
+                    "conversation_name": "group_chat_art_and_design_television_business_16e91aa1",
+                    "insert_conversation_turn": 95
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "ziqiao",
+            "description": "ziqiao is a young adult male with a lean build and an average height impression. His facial structure is well-defined, featuring a prominent jawline and a slightly pointed chin. ziqiao has a fair skin tone and dark, neatly styled hair that is often slicked back, giving him a polished look. His eyebrows are thick and well-groomed, adding to his expressive features. ziqiao frequently appears with a neutral or slightly serious expression, though he can also be seen smiling in some images. His poses are generally relaxed and confident, with a tendency to stand or sit with a straight posture.\n\n**Outfit and Accessories:**\nziqiao's attire is diverse, ranging from formal to casual, reflecting different contexts and moods. In formal settings, he is often seen in a dark green double-breasted suit with a white shirt and a blue tie, exuding professionalism. In more relaxed settings, he wears a navy blue pinstripe suit jacket over a white shirt, suggesting a blend of formality and approachability. ziqiao also appears in a patterned jacket with a white shirt, adding a touch of individuality to his style. In a playful context, he dons a white onesie with black spots and a cow-like hood, showcasing a whimsical side. His outfits are characterized by a mix of classic and contemporary styles, with a preference for sharp tailoring and a color palette that includes dark, rich tones. The outfits are practical yet stylish, with a focus on quality materials and a polished finish.\n\n**Distinguishing Visual Features or Vibe:**\nziqiao's most memorable feature is his versatility in style, seamlessly transitioning between formal and casual looks. His dark green suit and navy blue pinstripe jacket are signature pieces that convey a sense of sophistication and confidence. The playful cow onesie adds a touch of humor and lightheartedness to his persona. ziqiao's overall vibe is one of polished professionalism with a hint of playfulness, making him visually unmistakable. His consistent grooming and well-defined facial features contribute to a polished and approachable appearance, while his varied wardrobe choices highlight his adaptability and individuality.",
+            "preference": "In terms of entertainment, ziqiao enjoys sports documentaries, gaming tournaments, but dislikes theater performances, film festivals. In terms of travel, ziqiao enjoys mountain climbing, theme park visits, but dislikes sailing, paragliding. In terms of lifestyle, ziqiao enjoys daily smoothies, outdoor workouts, but dislikes early morning jogs, massages. In terms of shopping, ziqiao enjoys coffee brewing equipment, vintage vinyl records, but dislikes Bluetooth speakers, wireless charging stations. In terms of fashion, ziqiao enjoys techwear, cyberpunk aesthetics, but dislikes winter coats, denim jeans.",
+            "topic": [],
+            "original_id": "QA_sample_d1479f89",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Alice House least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_1ffd677a_2",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. e049898e, Among the activities that could reasonably occur in the given image, which one is Andy Stewart least likely to be doing?",
+        "answer": "Watching sports TV",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Andy Stewart enjoys live band karaoke, magic shows, but dislikes sports TV, romantic dramas"
+            ],
+            "image_evidence": [
+                "MMPB_2d99653f.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Andy Stewart enjoys historical site tours, food tours, but dislikes overland train journeys, remote island hopping",
+                "In terms of lifestyle, Andy Stewart enjoys early morning jogs, massages, but dislikes home gardening, night owl lifestyle",
+                "In terms of shopping, Andy Stewart enjoys handwoven rugs, fancy cutlery sets, but dislikes handmade crafts, vintage furniture",
+                "In terms of fashion, Andy Stewart enjoys handmade accessories, bold colors, but dislikes business casual, athleisure wear."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Buying vintage furniture",
+                "Watching sports TV",
+                "Watching news TV",
+                "Watching cooking shows"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_art_and_design_television_business_16e91aa1",
+                    "insert_conversation_turn": 81
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_nature_economy_architecture_3d782fca",
+                    "insert_conversation_turn": 711,
+                    "reference_name": "Fig. e049898e"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_nature_economy_architecture_3d782fca",
+                    "insert_conversation_turn": 432
+                },
+                {
+                    "conversation_name": "group_chat_nature_economy_architecture_3d782fca",
+                    "insert_conversation_turn": 695
+                },
+                {
+                    "conversation_name": "group_chat_nature_economy_architecture_3d782fca",
+                    "insert_conversation_turn": 970
+                },
+                {
+                    "conversation_name": "group_chat_nature_economy_architecture_3d782fca",
+                    "insert_conversation_turn": 681
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Faker",
+            "description": "Faker is a young adult male with a slender build and an average height impression. His facial structure is characterized by a well-defined jawline and a slightly prominent nose, with a neutral to slightly serious expression in most images. Faker has a fair skin tone and wears glasses with thin frames, which add an intellectual and focused look. His hair is short and neatly styled, often with a slight side part, and in one image, it features a striking red tint. Faker frequently appears with a thumbs-up gesture or a finger to his lips, suggesting a mix of confidence and contemplation.\n\n**Outfit and Accessories:**\nFaker's attire is predominantly sporty and team-oriented, reflecting his involvement in esports. He is often seen in team jerseys, such as a red and white jersey with \"SKT T1\" and \"Red Bull\" logos, and a black jacket with \"SK Telecom\" branding. These outfits are practical and functional, designed for comfort and team representation. The color palette includes red, white, black, and blue, with occasional accents of gold and silver. Faker's clothing is typically made of lightweight, breathable materials suitable for gaming environments. The presence of sponsor logos indicates his professional status in the esports world.\n\n**Distinguishing Visual Features or Vibe:**\nFaker exudes a professional and focused aura, reinforced by his consistent appearance in team jerseys and the esports setting. The recurring elements, such as the \"SKT T1\" and \"Red Bull\" logos, along with his glasses and thumbs-up gesture, create a recognizable and memorable image. The red-tinted hair in one image adds a unique and bold touch to his visual identity. The overall vibe is one of dedication and expertise, with a hint of playful confidence, as seen in his various poses and expressions. The combination of his attire, accessories, and the esports context makes Faker visually unmistakable and emblematic of the competitive gaming world.",
+            "preference": "In terms of entertainment, Faker enjoys live band karaoke, magic shows, but dislikes sports TV, romantic dramas. In terms of travel, Faker enjoys historical site tours, food tours, but dislikes overland train journeys, remote island hopping. In terms of lifestyle, Faker enjoys early morning jogs, massages, but dislikes home gardening, night owl lifestyle. In terms of shopping, Faker enjoys handwoven rugs, fancy cutlery sets, but dislikes handmade crafts, vintage furniture. In terms of fashion, Faker enjoys handmade accessories, bold colors, but dislikes business casual, athleisure wear.",
+            "topic": [],
+            "original_id": "QA_sample_1ffd677a",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Andy Stewart least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_1ffd677a_3",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. c0b8ac99, Among the activities that could reasonably occur in the given image, which one is Andy Stewart least likely to be doing?",
+        "answer": "Watching a romantic drama",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Andy Stewart enjoys live band karaoke, magic shows, but dislikes sports TV, romantic dramas"
+            ],
+            "image_evidence": [
+                "MMPB_6f052249.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Andy Stewart enjoys historical site tours, food tours, but dislikes overland train journeys, remote island hopping",
+                "In terms of lifestyle, Andy Stewart enjoys early morning jogs, massages, but dislikes home gardening, night owl lifestyle",
+                "In terms of shopping, Andy Stewart enjoys handwoven rugs, fancy cutlery sets, but dislikes handmade crafts, vintage furniture",
+                "In terms of fashion, Andy Stewart enjoys handmade accessories, bold colors, but dislikes business casual, athleisure wear."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "Observing a suspenseful thriller",
+                "Enjoying a comedic sitcom",
+                "Watching a romantic drama",
+                "Home gardening"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_art_and_design_television_business_16e91aa1",
+                    "insert_conversation_turn": 81
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_nature_economy_architecture_3d782fca",
+                    "insert_conversation_turn": 589,
+                    "reference_name": "Fig. c0b8ac99"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_nature_economy_architecture_3d782fca",
+                    "insert_conversation_turn": 432
+                },
+                {
+                    "conversation_name": "group_chat_nature_economy_architecture_3d782fca",
+                    "insert_conversation_turn": 695
+                },
+                {
+                    "conversation_name": "group_chat_nature_economy_architecture_3d782fca",
+                    "insert_conversation_turn": 970
+                },
+                {
+                    "conversation_name": "group_chat_nature_economy_architecture_3d782fca",
+                    "insert_conversation_turn": 681
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Faker",
+            "description": "Faker is a young adult male with a slender build and an average height impression. His facial structure is characterized by a well-defined jawline and a slightly prominent nose, with a neutral to slightly serious expression in most images. Faker has a fair skin tone and wears glasses with thin frames, which add an intellectual and focused look. His hair is short and neatly styled, often with a slight side part, and in one image, it features a striking red tint. Faker frequently appears with a thumbs-up gesture or a finger to his lips, suggesting a mix of confidence and contemplation.\n\n**Outfit and Accessories:**\nFaker's attire is predominantly sporty and team-oriented, reflecting his involvement in esports. He is often seen in team jerseys, such as a red and white jersey with \"SKT T1\" and \"Red Bull\" logos, and a black jacket with \"SK Telecom\" branding. These outfits are practical and functional, designed for comfort and team representation. The color palette includes red, white, black, and blue, with occasional accents of gold and silver. Faker's clothing is typically made of lightweight, breathable materials suitable for gaming environments. The presence of sponsor logos indicates his professional status in the esports world.\n\n**Distinguishing Visual Features or Vibe:**\nFaker exudes a professional and focused aura, reinforced by his consistent appearance in team jerseys and the esports setting. The recurring elements, such as the \"SKT T1\" and \"Red Bull\" logos, along with his glasses and thumbs-up gesture, create a recognizable and memorable image. The red-tinted hair in one image adds a unique and bold touch to his visual identity. The overall vibe is one of dedication and expertise, with a hint of playful confidence, as seen in his various poses and expressions. The combination of his attire, accessories, and the esports context makes Faker visually unmistakable and emblematic of the competitive gaming world.",
+            "preference": "In terms of entertainment, Faker enjoys live band karaoke, magic shows, but dislikes sports TV, romantic dramas. In terms of travel, Faker enjoys historical site tours, food tours, but dislikes overland train journeys, remote island hopping. In terms of lifestyle, Faker enjoys early morning jogs, massages, but dislikes home gardening, night owl lifestyle. In terms of shopping, Faker enjoys handwoven rugs, fancy cutlery sets, but dislikes handmade crafts, vintage furniture. In terms of fashion, Faker enjoys handmade accessories, bold colors, but dislikes business casual, athleisure wear.",
+            "topic": [],
+            "original_id": "QA_sample_1ffd677a",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Andy Stewart least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_514c95ad_1",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. e4800dfc, Among the activities that could reasonably occur in the given image, which one is Kenya Decker least likely to be doing?",
+        "answer": "Watching sports TV",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Kenya Decker enjoys rock concerts, indie films, but dislikes sports TV, romantic dramas",
+                "In terms of lifestyle, Kenya Decker enjoys kombucha brewing, medicinal herb gardening, but dislikes home gardening, night owl lifestyle"
+            ],
+            "image_evidence": [
+                "MMPB_6f052249.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Kenya Decker enjoys hiking, scuba diving, but dislikes trains, flying business class",
+                "In terms of shopping, Kenya Decker enjoys mechanical keyboards, 3D printing tools, but dislikes handmade crafts, vintage furniture",
+                "In terms of fashion, Kenya Decker enjoys high heels, tight-fitting clothes, but dislikes bright neon colors, oversized sweaters."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Watching sports TV",
+                "Observing a cooking show on the screen",
+                "Watching a movie on TV",
+                "Home gardening"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_nature_economy_architecture_3d782fca",
+                    "insert_conversation_turn": 603
+                },
+                {
+                    "conversation_name": "group_chat_music_sports_architecture_9d61a05d",
+                    "insert_conversation_turn": 706
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_sports_architecture_9d61a05d",
+                    "insert_conversation_turn": 60,
+                    "reference_name": "Fig. e4800dfc"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_art_and_design_television_business_16e91aa1",
+                    "insert_conversation_turn": 816
+                },
+                {
+                    "conversation_name": "group_chat_art_and_design_television_business_16e91aa1",
+                    "insert_conversation_turn": 437
+                },
+                {
+                    "conversation_name": "group_chat_art_and_design_television_business_16e91aa1",
+                    "insert_conversation_turn": 206
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "BaGu",
+            "description": "BaGu is a woman with a slender build and a medium height impression. Her facial structure is characterized by a delicate jawline and a slightly rounded face, with expressive eyes that convey a range of emotions. Her skin tone is fair, and she has long, straight brown hair that falls just past her shoulders. BaGu often appears with a neutral or contemplative expression, suggesting a thoughtful and introspective personality. Her eyebrows are well-defined, and her gaze is direct, adding to her composed demeanor.\n\n**Outfit and Accessories:**\nBaGu's attire is diverse yet cohesive, reflecting a blend of casual and slightly formal styles. She is often seen in a light gray hoodie with \"LA CITY\" printed on it, suggesting a relaxed and approachable vibe. In other images, she wears a vibrant orange coat paired with a colorful scarf, indicating a bold and expressive fashion sense. The orange top she wears in one image adds a warm and inviting touch to her overall look. BaGu accessorizes with a delicate necklace, which complements her outfits without overpowering them. Her clothing choices are practical yet stylish, with a focus on comfort and personal expression.\n\n**Distinguishing Visual Features or Vibe:**\nBaGu exudes a unique and memorable presence through her consistent visual themes and aura. Her long, straight brown hair and fair skin create a striking contrast, making her instantly recognizable. The recurring color palette of warm tones, such as orange and brown, adds a cohesive and inviting feel to her appearance. Her thoughtful expressions and direct gaze convey a sense of depth and introspection, while her varied yet complementary outfits suggest a versatile and expressive personality. The combination of her physical features, attire, and overall demeanor creates a distinctive and memorable visual identity that is both approachable and intriguing.",
+            "preference": "In terms of entertainment, BaGu enjoys rock concerts, indie films, but dislikes sports TV, romantic dramas. In terms of travel, BaGu enjoys hiking, scuba diving, but dislikes trains, flying business class. In terms of lifestyle, BaGu enjoys kombucha brewing, medicinal herb gardening, but dislikes home gardening, night owl lifestyle. In terms of shopping, BaGu enjoys mechanical keyboards, 3D printing tools, but dislikes handmade crafts, vintage furniture. In terms of fashion, BaGu enjoys high heels, tight-fitting clothes, but dislikes bright neon colors, oversized sweaters.",
+            "topic": [],
+            "original_id": "QA_sample_514c95ad",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Kenya Decker least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_514c95ad_2",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. e30b0862, Among the activities that could reasonably occur in the given image, which one is Kenya Decker least likely to be doing?",
+        "answer": "Watching romantic dramas",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Kenya Decker enjoys rock concerts, indie films, but dislikes sports TV, romantic dramas",
+                "In terms of lifestyle, Kenya Decker enjoys kombucha brewing, medicinal herb gardening, but dislikes home gardening, night owl lifestyle"
+            ],
+            "image_evidence": [
+                "MMPB_28b712ad.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Kenya Decker enjoys hiking, scuba diving, but dislikes trains, flying business class",
+                "In terms of shopping, Kenya Decker enjoys mechanical keyboards, 3D printing tools, but dislikes handmade crafts, vintage furniture",
+                "In terms of fashion, Kenya Decker enjoys high heels, tight-fitting clothes, but dislikes bright neon colors, oversized sweaters."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "Streaming indie documentaries",
+                "Binge-watching crime series",
+                "Flying in business class",
+                "Watching romantic dramas"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_nature_economy_architecture_3d782fca",
+                    "insert_conversation_turn": 603
+                },
+                {
+                    "conversation_name": "group_chat_music_sports_architecture_9d61a05d",
+                    "insert_conversation_turn": 706
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_sports_architecture_9d61a05d",
+                    "insert_conversation_turn": 348,
+                    "reference_name": "Fig. e30b0862"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_art_and_design_television_business_16e91aa1",
+                    "insert_conversation_turn": 816
+                },
+                {
+                    "conversation_name": "group_chat_art_and_design_television_business_16e91aa1",
+                    "insert_conversation_turn": 437
+                },
+                {
+                    "conversation_name": "group_chat_art_and_design_television_business_16e91aa1",
+                    "insert_conversation_turn": 206
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "BaGu",
+            "description": "BaGu is a woman with a slender build and a medium height impression. Her facial structure is characterized by a delicate jawline and a slightly rounded face, with expressive eyes that convey a range of emotions. Her skin tone is fair, and she has long, straight brown hair that falls just past her shoulders. BaGu often appears with a neutral or contemplative expression, suggesting a thoughtful and introspective personality. Her eyebrows are well-defined, and her gaze is direct, adding to her composed demeanor.\n\n**Outfit and Accessories:**\nBaGu's attire is diverse yet cohesive, reflecting a blend of casual and slightly formal styles. She is often seen in a light gray hoodie with \"LA CITY\" printed on it, suggesting a relaxed and approachable vibe. In other images, she wears a vibrant orange coat paired with a colorful scarf, indicating a bold and expressive fashion sense. The orange top she wears in one image adds a warm and inviting touch to her overall look. BaGu accessorizes with a delicate necklace, which complements her outfits without overpowering them. Her clothing choices are practical yet stylish, with a focus on comfort and personal expression.\n\n**Distinguishing Visual Features or Vibe:**\nBaGu exudes a unique and memorable presence through her consistent visual themes and aura. Her long, straight brown hair and fair skin create a striking contrast, making her instantly recognizable. The recurring color palette of warm tones, such as orange and brown, adds a cohesive and inviting feel to her appearance. Her thoughtful expressions and direct gaze convey a sense of depth and introspection, while her varied yet complementary outfits suggest a versatile and expressive personality. The combination of her physical features, attire, and overall demeanor creates a distinctive and memorable visual identity that is both approachable and intriguing.",
+            "preference": "In terms of entertainment, BaGu enjoys rock concerts, indie films, but dislikes sports TV, romantic dramas. In terms of travel, BaGu enjoys hiking, scuba diving, but dislikes trains, flying business class. In terms of lifestyle, BaGu enjoys kombucha brewing, medicinal herb gardening, but dislikes home gardening, night owl lifestyle. In terms of shopping, BaGu enjoys mechanical keyboards, 3D printing tools, but dislikes handmade crafts, vintage furniture. In terms of fashion, BaGu enjoys high heels, tight-fitting clothes, but dislikes bright neon colors, oversized sweaters.",
+            "topic": [],
+            "original_id": "QA_sample_514c95ad",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Kenya Decker least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_514c95ad_3",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. b7cec6dd, Among the activities that could reasonably occur in the given image, which one is Kenya Decker least likely to be doing?",
+        "answer": "Watching romantic dramas",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Kenya Decker enjoys rock concerts, indie films, but dislikes sports TV, romantic dramas",
+                "In terms of lifestyle, Kenya Decker enjoys kombucha brewing, medicinal herb gardening, but dislikes home gardening, night owl lifestyle"
+            ],
+            "image_evidence": [
+                "MMPB_ea429820.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Kenya Decker enjoys hiking, scuba diving, but dislikes trains, flying business class",
+                "In terms of shopping, Kenya Decker enjoys mechanical keyboards, 3D printing tools, but dislikes handmade crafts, vintage furniture",
+                "In terms of fashion, Kenya Decker enjoys high heels, tight-fitting clothes, but dislikes bright neon colors, oversized sweaters."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Watching romantic dramas",
+                "Searching oversized sweaters",
+                "Relaxing with comedies",
+                "Binge-watching thrillers"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_nature_economy_architecture_3d782fca",
+                    "insert_conversation_turn": 603
+                },
+                {
+                    "conversation_name": "group_chat_music_sports_architecture_9d61a05d",
+                    "insert_conversation_turn": 706
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_art_and_design_television_business_16e91aa1",
+                    "insert_conversation_turn": 778,
+                    "reference_name": "Fig. b7cec6dd"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_art_and_design_television_business_16e91aa1",
+                    "insert_conversation_turn": 816
+                },
+                {
+                    "conversation_name": "group_chat_art_and_design_television_business_16e91aa1",
+                    "insert_conversation_turn": 437
+                },
+                {
+                    "conversation_name": "group_chat_art_and_design_television_business_16e91aa1",
+                    "insert_conversation_turn": 206
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "BaGu",
+            "description": "BaGu is a woman with a slender build and a medium height impression. Her facial structure is characterized by a delicate jawline and a slightly rounded face, with expressive eyes that convey a range of emotions. Her skin tone is fair, and she has long, straight brown hair that falls just past her shoulders. BaGu often appears with a neutral or contemplative expression, suggesting a thoughtful and introspective personality. Her eyebrows are well-defined, and her gaze is direct, adding to her composed demeanor.\n\n**Outfit and Accessories:**\nBaGu's attire is diverse yet cohesive, reflecting a blend of casual and slightly formal styles. She is often seen in a light gray hoodie with \"LA CITY\" printed on it, suggesting a relaxed and approachable vibe. In other images, she wears a vibrant orange coat paired with a colorful scarf, indicating a bold and expressive fashion sense. The orange top she wears in one image adds a warm and inviting touch to her overall look. BaGu accessorizes with a delicate necklace, which complements her outfits without overpowering them. Her clothing choices are practical yet stylish, with a focus on comfort and personal expression.\n\n**Distinguishing Visual Features or Vibe:**\nBaGu exudes a unique and memorable presence through her consistent visual themes and aura. Her long, straight brown hair and fair skin create a striking contrast, making her instantly recognizable. The recurring color palette of warm tones, such as orange and brown, adds a cohesive and inviting feel to her appearance. Her thoughtful expressions and direct gaze convey a sense of depth and introspection, while her varied yet complementary outfits suggest a versatile and expressive personality. The combination of her physical features, attire, and overall demeanor creates a distinctive and memorable visual identity that is both approachable and intriguing.",
+            "preference": "In terms of entertainment, BaGu enjoys rock concerts, indie films, but dislikes sports TV, romantic dramas. In terms of travel, BaGu enjoys hiking, scuba diving, but dislikes trains, flying business class. In terms of lifestyle, BaGu enjoys kombucha brewing, medicinal herb gardening, but dislikes home gardening, night owl lifestyle. In terms of shopping, BaGu enjoys mechanical keyboards, 3D printing tools, but dislikes handmade crafts, vintage furniture. In terms of fashion, BaGu enjoys high heels, tight-fitting clothes, but dislikes bright neon colors, oversized sweaters.",
+            "topic": [],
+            "original_id": "QA_sample_514c95ad",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Kenya Decker least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_0d0442ce_1",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 745a5b65, the image, what is Colt Kemp most likely to be doing?",
+        "answer": "Watching a sports TV",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Colt Kemp enjoys sports TV, romantic dramas, but dislikes live concerts, stand-up comedy"
+            ],
+            "image_evidence": [
+                "MMPB_2d99653f.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Colt Kemp enjoys mountain climbing, theme park visits, but dislikes wildlife safaris, hot air balloon rides",
+                "In terms of lifestyle, Colt Kemp enjoys essential oils, aromatherapy, but dislikes boxing workouts, rock climbing gyms",
+                "In terms of shopping, Colt Kemp enjoys soundproofing panels, sleep-enhancing gadgets, but dislikes retro gaming consoles, wireless earbuds",
+                "In terms of fashion, Colt Kemp enjoys handmade accessories, bold colors, but dislikes chunky boots, strappy sandals."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Watching a sports TV",
+                "Watching a news TV",
+                "Watching a cooking show",
+                "Getting aromatherapy"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_art_and_design_television_business_16e91aa1",
+                    "insert_conversation_turn": 1015
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_nature_economy_architecture_3d782fca",
+                    "insert_conversation_turn": 711,
+                    "reference_name": "Fig. 745a5b65"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_nature_economy_architecture_3d782fca",
+                    "insert_conversation_turn": 524
+                },
+                {
+                    "conversation_name": "group_chat_art_and_design_television_business_16e91aa1",
+                    "insert_conversation_turn": 14
+                },
+                {
+                    "conversation_name": "group_chat_art_and_design_television_business_16e91aa1",
+                    "insert_conversation_turn": 516
+                },
+                {
+                    "conversation_name": "group_chat_music_sports_architecture_9d61a05d",
+                    "insert_conversation_turn": 811
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "sanchengmeiqin",
+            "description": "sanchengmeiqin is a young woman with a slender build and a medium height impression. Her facial structure is characterized by a delicate jawline and a slightly rounded face, with prominent, expressive eyes that convey a range of emotions. Her skin tone is fair, and her hair is dark brown, styled in a shoulder-length bob with bangs that frame her face. Throughout the images, sanchengmeiqin maintains a neutral to serious expression, with her mouth closed and her gaze often directed off-camera, suggesting a contemplative or focused demeanor. Her eyebrows are well-defined, adding to her expressive features.\n\n**Outfit and Accessories:**\nsanchengmeiqin is seen wearing a variety of outfits that reflect different contexts and roles. In one image, she is dressed in a light gray hoodie over a white shirt, suggesting a casual or relaxed setting. In another, she wears a white blazer, indicating a more formal or professional environment. A notable outfit is a dark blue denim shirt with the text \"UDI\" and \"Unnatural Death Investigation\" embroidered on it, suggesting a role in a specialized field. The color palette of her clothing is predominantly neutral, with shades of gray, white, and blue, giving a practical and understated look. She accessorizes with a delicate necklace and earrings, adding subtle elegance to her appearance.\n\n**Distinguishing Visual Features or Vibe:**\nThe most memorable feature of sanchengmeiqin is her expressive eyes, which convey a depth of emotion and thought. Her consistent hairstyle and neutral color palette create a cohesive visual identity. The presence of the \"UDI\" shirt suggests a connection to a specific role or profession, adding a layer of intrigue to her character. The combination of her serious expression, practical clothing, and subtle accessories gives sanchengmeiqin a professional yet approachable vibe. Her overall appearance is marked by a sense of calm and focus, making her visually unmistakable and memorable.",
+            "preference": "In terms of entertainment, sanchengmeiqin enjoys sports TV, romantic dramas, but dislikes live concerts, stand-up comedy. In terms of travel, sanchengmeiqin enjoys mountain climbing, theme park visits, but dislikes wildlife safaris, hot air balloon rides. In terms of lifestyle, sanchengmeiqin enjoys essential oils, aromatherapy, but dislikes boxing workouts, rock climbing gyms. In terms of shopping, sanchengmeiqin enjoys soundproofing panels, sleep-enhancing gadgets, but dislikes retro gaming consoles, wireless earbuds. In terms of fashion, sanchengmeiqin enjoys handmade accessories, bold colors, but dislikes chunky boots, strappy sandals.",
+            "topic": [],
+            "original_id": "QA_sample_0d0442ce",
+            "original_question": "the image, what is Colt Kemp most likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_0d0442ce_3",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. ddffb600, Among the activities that could reasonably occur in the given image, which one is Colt Kemp least likely to be doing?",
+        "answer": "Enjoying live concerts",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Colt Kemp enjoys sports TV, romantic dramas, but dislikes live concerts, stand-up comedy"
+            ],
+            "image_evidence": [
+                "MMPB_73dc3548.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Colt Kemp enjoys mountain climbing, theme park visits, but dislikes wildlife safaris, hot air balloon rides",
+                "In terms of lifestyle, Colt Kemp enjoys essential oils, aromatherapy, but dislikes boxing workouts, rock climbing gyms",
+                "In terms of shopping, Colt Kemp enjoys soundproofing panels, sleep-enhancing gadgets, but dislikes retro gaming consoles, wireless earbuds",
+                "In terms of fashion, Colt Kemp enjoys handmade accessories, bold colors, but dislikes chunky boots, strappy sandals."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Celebrating magic performances",
+                "Enjoying live concerts",
+                "Riding a hot air balloon",
+                "Socializing at music festivals"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_art_and_design_television_business_16e91aa1",
+                    "insert_conversation_turn": 1015
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_nature_economy_architecture_3d782fca",
+                    "insert_conversation_turn": 475,
+                    "reference_name": "Fig. ddffb600"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_nature_economy_architecture_3d782fca",
+                    "insert_conversation_turn": 524
+                },
+                {
+                    "conversation_name": "group_chat_art_and_design_television_business_16e91aa1",
+                    "insert_conversation_turn": 14
+                },
+                {
+                    "conversation_name": "group_chat_art_and_design_television_business_16e91aa1",
+                    "insert_conversation_turn": 516
+                },
+                {
+                    "conversation_name": "group_chat_music_sports_architecture_9d61a05d",
+                    "insert_conversation_turn": 811
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "sanchengmeiqin",
+            "description": "sanchengmeiqin is a young woman with a slender build and a medium height impression. Her facial structure is characterized by a delicate jawline and a slightly rounded face, with prominent, expressive eyes that convey a range of emotions. Her skin tone is fair, and her hair is dark brown, styled in a shoulder-length bob with bangs that frame her face. Throughout the images, sanchengmeiqin maintains a neutral to serious expression, with her mouth closed and her gaze often directed off-camera, suggesting a contemplative or focused demeanor. Her eyebrows are well-defined, adding to her expressive features.\n\n**Outfit and Accessories:**\nsanchengmeiqin is seen wearing a variety of outfits that reflect different contexts and roles. In one image, she is dressed in a light gray hoodie over a white shirt, suggesting a casual or relaxed setting. In another, she wears a white blazer, indicating a more formal or professional environment. A notable outfit is a dark blue denim shirt with the text \"UDI\" and \"Unnatural Death Investigation\" embroidered on it, suggesting a role in a specialized field. The color palette of her clothing is predominantly neutral, with shades of gray, white, and blue, giving a practical and understated look. She accessorizes with a delicate necklace and earrings, adding subtle elegance to her appearance.\n\n**Distinguishing Visual Features or Vibe:**\nThe most memorable feature of sanchengmeiqin is her expressive eyes, which convey a depth of emotion and thought. Her consistent hairstyle and neutral color palette create a cohesive visual identity. The presence of the \"UDI\" shirt suggests a connection to a specific role or profession, adding a layer of intrigue to her character. The combination of her serious expression, practical clothing, and subtle accessories gives sanchengmeiqin a professional yet approachable vibe. Her overall appearance is marked by a sense of calm and focus, making her visually unmistakable and memorable.",
+            "preference": "In terms of entertainment, sanchengmeiqin enjoys sports TV, romantic dramas, but dislikes live concerts, stand-up comedy. In terms of travel, sanchengmeiqin enjoys mountain climbing, theme park visits, but dislikes wildlife safaris, hot air balloon rides. In terms of lifestyle, sanchengmeiqin enjoys essential oils, aromatherapy, but dislikes boxing workouts, rock climbing gyms. In terms of shopping, sanchengmeiqin enjoys soundproofing panels, sleep-enhancing gadgets, but dislikes retro gaming consoles, wireless earbuds. In terms of fashion, sanchengmeiqin enjoys handmade accessories, bold colors, but dislikes chunky boots, strappy sandals.",
+            "topic": [],
+            "original_id": "QA_sample_0d0442ce",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Colt Kemp least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_aecd7c58_1",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. a6c5ff42, Among the activities that could reasonably occur in the given image, which one is Asia Rivers least likely to be doing?",
+        "answer": "Watching cooking shows",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Asia Rivers enjoys K-pop concerts, anime series, but dislikes cooking shows, travel vlogs",
+                "In terms of travel, Asia Rivers enjoys trains, flying business class, but dislikes hiking, scuba diving"
+            ],
+            "image_evidence": [
+                "MMPB_81ebaeeb.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of lifestyle, Asia Rivers enjoys early morning jogs, massages, but dislikes boxing workouts, rock climbing gyms",
+                "In terms of shopping, Asia Rivers enjoys soundproofing panels, sleep-enhancing gadgets, but dislikes sportswear, high-end perfumes",
+                "In terms of fashion, Asia Rivers enjoys futuristic fashion, gothic clothing, but dislikes casual wear, minimalist outfits."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "Watching sports events",
+                "Planning scuba diving tour",
+                "Watching cooking shows",
+                "Watching action movies"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_nature_economy_architecture_3d782fca",
+                    "insert_conversation_turn": 652
+                },
+                {
+                    "conversation_name": "group_chat_nature_economy_architecture_3d782fca",
+                    "insert_conversation_turn": 365
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_sports_architecture_9d61a05d",
+                    "insert_conversation_turn": 782,
+                    "reference_name": "Fig. a6c5ff42"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_nature_economy_architecture_3d782fca",
+                    "insert_conversation_turn": 1002
+                },
+                {
+                    "conversation_name": "group_chat_music_sports_architecture_9d61a05d",
+                    "insert_conversation_turn": 90
+                },
+                {
+                    "conversation_name": "group_chat_nature_economy_architecture_3d782fca",
+                    "insert_conversation_turn": 754
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Johny",
+            "description": "Johny is a tall individual with a lean build, exuding a commanding presence. Their facial structure is striking, featuring a prominent jawline and a slightly pointed chin, complemented by a mustache and goatee. The skin tone is fair, and their hair is long, wavy, and dark, often falling just past the shoulders. Johny frequently sports round, black-rimmed glasses, adding an intellectual flair to their appearance. Their expressions are typically serious and contemplative, with a hint of intensity in their gaze. The eyebrows are thick and well-defined, framing the eyes and enhancing the overall facial symmetry.\n\n**Outfit and Accessories:**\nJohny is known for their eclectic and stylish fashion sense, often blending formal and casual elements. They frequently wear wide-brimmed hats, adding a touch of mystery and flair. The color palette of their outfits is predominantly dark, with a preference for black, gray, and navy, accented by occasional pops of color. The textures range from smooth fabrics like silk and velvet to more rugged materials like denim and leather. Johny often wears tailored suits, both pinstriped and solid, paired with crisp white shirts and black ties. Accessories such as scarves, necklaces, and earrings are common, adding layers and depth to their ensembles. The outfits are both practical and character-defining, reflecting a blend of sophistication and artistic flair.\n\n**Distinguishing Visual Features or Vibe:**\nThe most memorable feature of Johny is their signature wide-brimmed hat, which has become an iconic part of their visual identity. The combination of the hat, round glasses, and long, wavy hair creates a distinctive silhouette that is instantly recognizable. The consistent use of dark colors and tailored clothing conveys a sense of elegance and mystery. Johny exudes a vibe of artistic intensity and intellectual depth, with a touch of whimsy and nonconformity. The overall aura is one of a creative and enigmatic figure, blending elements of classic style with a modern, edgy twist.",
+            "preference": "In terms of entertainment, Johny enjoys K-pop concerts, anime series, but dislikes cooking shows, travel vlogs. In terms of travel, Johny enjoys trains, flying business class, but dislikes hiking, scuba diving. In terms of lifestyle, Johny enjoys early morning jogs, massages, but dislikes boxing workouts, rock climbing gyms. In terms of shopping, Johny enjoys soundproofing panels, sleep-enhancing gadgets, but dislikes sportswear, high-end perfumes. In terms of fashion, Johny enjoys futuristic fashion, gothic clothing, but dislikes casual wear, minimalist outfits.",
+            "topic": [],
+            "original_id": "QA_sample_aecd7c58",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Asia Rivers least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_aecd7c58_2",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. e0cf2fea, Among the activities that could reasonably occur in the given image, which one is Asia Rivers least likely to be doing?",
+        "answer": "Watching travel vlogs",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Asia Rivers enjoys K-pop concerts, anime series, but dislikes cooking shows, travel vlogs",
+                "In terms of travel, Asia Rivers enjoys trains, flying business class, but dislikes hiking, scuba diving"
+            ],
+            "image_evidence": [
+                "MMPB_2d99653f.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of lifestyle, Asia Rivers enjoys early morning jogs, massages, but dislikes boxing workouts, rock climbing gyms",
+                "In terms of shopping, Asia Rivers enjoys soundproofing panels, sleep-enhancing gadgets, but dislikes sportswear, high-end perfumes",
+                "In terms of fashion, Asia Rivers enjoys futuristic fashion, gothic clothing, but dislikes casual wear, minimalist outfits."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Watching travel vlogs",
+                "Watching sports highlights",
+                "Going to a rock climbing gym",
+                "Watching a live concert"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_nature_economy_architecture_3d782fca",
+                    "insert_conversation_turn": 652
+                },
+                {
+                    "conversation_name": "group_chat_nature_economy_architecture_3d782fca",
+                    "insert_conversation_turn": 365
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_art_and_design_television_business_16e91aa1",
+                    "insert_conversation_turn": 112,
+                    "reference_name": "Fig. e0cf2fea"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_nature_economy_architecture_3d782fca",
+                    "insert_conversation_turn": 1002
+                },
+                {
+                    "conversation_name": "group_chat_music_sports_architecture_9d61a05d",
+                    "insert_conversation_turn": 90
+                },
+                {
+                    "conversation_name": "group_chat_nature_economy_architecture_3d782fca",
+                    "insert_conversation_turn": 754
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Johny",
+            "description": "Johny is a tall individual with a lean build, exuding a commanding presence. Their facial structure is striking, featuring a prominent jawline and a slightly pointed chin, complemented by a mustache and goatee. The skin tone is fair, and their hair is long, wavy, and dark, often falling just past the shoulders. Johny frequently sports round, black-rimmed glasses, adding an intellectual flair to their appearance. Their expressions are typically serious and contemplative, with a hint of intensity in their gaze. The eyebrows are thick and well-defined, framing the eyes and enhancing the overall facial symmetry.\n\n**Outfit and Accessories:**\nJohny is known for their eclectic and stylish fashion sense, often blending formal and casual elements. They frequently wear wide-brimmed hats, adding a touch of mystery and flair. The color palette of their outfits is predominantly dark, with a preference for black, gray, and navy, accented by occasional pops of color. The textures range from smooth fabrics like silk and velvet to more rugged materials like denim and leather. Johny often wears tailored suits, both pinstriped and solid, paired with crisp white shirts and black ties. Accessories such as scarves, necklaces, and earrings are common, adding layers and depth to their ensembles. The outfits are both practical and character-defining, reflecting a blend of sophistication and artistic flair.\n\n**Distinguishing Visual Features or Vibe:**\nThe most memorable feature of Johny is their signature wide-brimmed hat, which has become an iconic part of their visual identity. The combination of the hat, round glasses, and long, wavy hair creates a distinctive silhouette that is instantly recognizable. The consistent use of dark colors and tailored clothing conveys a sense of elegance and mystery. Johny exudes a vibe of artistic intensity and intellectual depth, with a touch of whimsy and nonconformity. The overall aura is one of a creative and enigmatic figure, blending elements of classic style with a modern, edgy twist.",
+            "preference": "In terms of entertainment, Johny enjoys K-pop concerts, anime series, but dislikes cooking shows, travel vlogs. In terms of travel, Johny enjoys trains, flying business class, but dislikes hiking, scuba diving. In terms of lifestyle, Johny enjoys early morning jogs, massages, but dislikes boxing workouts, rock climbing gyms. In terms of shopping, Johny enjoys soundproofing panels, sleep-enhancing gadgets, but dislikes sportswear, high-end perfumes. In terms of fashion, Johny enjoys futuristic fashion, gothic clothing, but dislikes casual wear, minimalist outfits.",
+            "topic": [],
+            "original_id": "QA_sample_aecd7c58",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Asia Rivers least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_aecd7c58_3",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 579c2b32, Among the activities that could reasonably occur in the given image, which one is Asia Rivers least likely to be doing?",
+        "answer": "Watching cooking survival shows",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Asia Rivers enjoys K-pop concerts, anime series, but dislikes cooking shows, travel vlogs",
+                "In terms of travel, Asia Rivers enjoys trains, flying business class, but dislikes hiking, scuba diving"
+            ],
+            "image_evidence": [
+                "MMPB_6f052249.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of lifestyle, Asia Rivers enjoys early morning jogs, massages, but dislikes boxing workouts, rock climbing gyms",
+                "In terms of shopping, Asia Rivers enjoys soundproofing panels, sleep-enhancing gadgets, but dislikes sportswear, high-end perfumes",
+                "In terms of fashion, Asia Rivers enjoys futuristic fashion, gothic clothing, but dislikes casual wear, minimalist outfits."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "Observing suspenseful crime dramas",
+                "Purchasing high-end perfumes",
+                "Watching cooking survival shows",
+                "Watching thrilling adventure series"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_nature_economy_architecture_3d782fca",
+                    "insert_conversation_turn": 652
+                },
+                {
+                    "conversation_name": "group_chat_nature_economy_architecture_3d782fca",
+                    "insert_conversation_turn": 365
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_art_and_design_television_business_16e91aa1",
+                    "insert_conversation_turn": 67,
+                    "reference_name": "Fig. 579c2b32"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_nature_economy_architecture_3d782fca",
+                    "insert_conversation_turn": 1002
+                },
+                {
+                    "conversation_name": "group_chat_music_sports_architecture_9d61a05d",
+                    "insert_conversation_turn": 90
+                },
+                {
+                    "conversation_name": "group_chat_nature_economy_architecture_3d782fca",
+                    "insert_conversation_turn": 754
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Johny",
+            "description": "Johny is a tall individual with a lean build, exuding a commanding presence. Their facial structure is striking, featuring a prominent jawline and a slightly pointed chin, complemented by a mustache and goatee. The skin tone is fair, and their hair is long, wavy, and dark, often falling just past the shoulders. Johny frequently sports round, black-rimmed glasses, adding an intellectual flair to their appearance. Their expressions are typically serious and contemplative, with a hint of intensity in their gaze. The eyebrows are thick and well-defined, framing the eyes and enhancing the overall facial symmetry.\n\n**Outfit and Accessories:**\nJohny is known for their eclectic and stylish fashion sense, often blending formal and casual elements. They frequently wear wide-brimmed hats, adding a touch of mystery and flair. The color palette of their outfits is predominantly dark, with a preference for black, gray, and navy, accented by occasional pops of color. The textures range from smooth fabrics like silk and velvet to more rugged materials like denim and leather. Johny often wears tailored suits, both pinstriped and solid, paired with crisp white shirts and black ties. Accessories such as scarves, necklaces, and earrings are common, adding layers and depth to their ensembles. The outfits are both practical and character-defining, reflecting a blend of sophistication and artistic flair.\n\n**Distinguishing Visual Features or Vibe:**\nThe most memorable feature of Johny is their signature wide-brimmed hat, which has become an iconic part of their visual identity. The combination of the hat, round glasses, and long, wavy hair creates a distinctive silhouette that is instantly recognizable. The consistent use of dark colors and tailored clothing conveys a sense of elegance and mystery. Johny exudes a vibe of artistic intensity and intellectual depth, with a touch of whimsy and nonconformity. The overall aura is one of a creative and enigmatic figure, blending elements of classic style with a modern, edgy twist.",
+            "preference": "In terms of entertainment, Johny enjoys K-pop concerts, anime series, but dislikes cooking shows, travel vlogs. In terms of travel, Johny enjoys trains, flying business class, but dislikes hiking, scuba diving. In terms of lifestyle, Johny enjoys early morning jogs, massages, but dislikes boxing workouts, rock climbing gyms. In terms of shopping, Johny enjoys soundproofing panels, sleep-enhancing gadgets, but dislikes sportswear, high-end perfumes. In terms of fashion, Johny enjoys futuristic fashion, gothic clothing, but dislikes casual wear, minimalist outfits.",
+            "topic": [],
+            "original_id": "QA_sample_aecd7c58",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Asia Rivers least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_e84b6bc4_1",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 8c5eb1e4, the image, what is Kadin Mcdowell most likely to be doing?",
+        "answer": "Searching for a cooking show to watch",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Kadin Mcdowell enjoys cooking shows, travel vlogs, but dislikes science fiction movies, animated films"
+            ],
+            "image_evidence": [
+                "MMPB_2d99653f.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Kadin Mcdowell enjoys cycling, camping, but dislikes skiing, desert trekking",
+                "In terms of lifestyle, Kadin Mcdowell enjoys plant-based diet, home cooking, but dislikes hot yoga, pilates",
+                "In terms of shopping, Kadin Mcdowell enjoys handmade crafts, vintage furniture, but dislikes smart home devices, kitchen appliances",
+                "In terms of fashion, Kadin Mcdowell enjoys futuristic fashion, gothic clothing, but dislikes chunky boots, strappy sandals."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "Looking for a sports highlights reel",
+                "Browsing for a travel documentary",
+                "Following plant-based diet",
+                "Searching for a cooking show to watch"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_sports_architecture_9d61a05d",
+                    "insert_conversation_turn": 648
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_nature_economy_architecture_3d782fca",
+                    "insert_conversation_turn": 711,
+                    "reference_name": "Fig. 8c5eb1e4"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_sports_architecture_9d61a05d",
+                    "insert_conversation_turn": 105
+                },
+                {
+                    "conversation_name": "group_chat_music_sports_architecture_9d61a05d",
+                    "insert_conversation_turn": 850
+                },
+                {
+                    "conversation_name": "group_chat_art_and_design_television_business_16e91aa1",
+                    "insert_conversation_turn": 493
+                },
+                {
+                    "conversation_name": "group_chat_art_and_design_television_business_16e91aa1",
+                    "insert_conversation_turn": 290
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Matt",
+            "description": "Matt is a young adult male with a lean build and an impression of average height. His facial structure is characterized by a prominent jawline and a slightly pointed chin, with a symmetrical face and well-defined cheekbones. Matt has a fair skin tone with a hint of natural tan, and his hair is styled in a tousled, swept-back manner, often with a light blonde or sandy hue. His eyebrows are thick and well-groomed, and his eyes are expressive, often conveying a serious or contemplative demeanor. Matt frequently appears with a neutral or slightly furrowed brow, suggesting a thoughtful or intense expression. His poses are generally relaxed yet attentive, with a tendency to look directly at the camera or off to the side, adding to his enigmatic presence.\n\n**Outfit and Accessories:**\nMatt is often seen wearing a mix of casual and semi-formal attire, with a preference for dark, earthy tones. His outfits include a dark sweater, a light gray t-shirt, and a white button-up shirt, all of which suggest a practical yet stylish approach to dressing. The textures of his clothing range from the soft knit of the sweater to the crisp fabric of the button-up shirt, indicating a blend of comfort and sophistication. In one image, Matt is seen with a map, suggesting a practical accessory for navigation. He also wears glasses in one scene, adding an intellectual or studious element to his appearance. The overall style of his clothing is understated yet deliberate, with a focus on layering and a muted color palette that enhances his natural features.\n\n**Distinguishing Visual Features or Vibe:**\nThe most memorable feature of Matt is his expressive eyes, which convey a range of emotions from intensity to contemplation. His tousled hair and neutral expressions contribute to a laid-back yet thoughtful vibe. The consistent use of dark, earthy tones in his clothing creates a cohesive visual theme, while the occasional appearance of a map and glasses adds layers to his character, suggesting intelligence and resourcefulness. The combination of his physical appearance, outfit choices, and accessories creates a distinctive and recognizable image, making Matt visually unmistakable. His overall aura is one of quiet intensity, with a hint of mystery that draws the viewer in.",
+            "preference": "In terms of entertainment, Matt enjoys cooking shows, travel vlogs, but dislikes science fiction movies, animated films. In terms of travel, Matt enjoys cycling, camping, but dislikes skiing, desert trekking. In terms of lifestyle, Matt enjoys plant-based diet, home cooking, but dislikes hot yoga, pilates. In terms of shopping, Matt enjoys handmade crafts, vintage furniture, but dislikes smart home devices, kitchen appliances. In terms of fashion, Matt enjoys futuristic fashion, gothic clothing, but dislikes chunky boots, strappy sandals.",
+            "topic": [],
+            "original_id": "QA_sample_e84b6bc4",
+            "original_question": "the image, what is Kadin Mcdowell most likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_e84b6bc4_2",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 28001b7e, Among the activities that could reasonably occur in the given image, which one is Kadin Mcdowell least likely to be doing?",
+        "answer": "Watching an animated film",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Kadin Mcdowell enjoys cooking shows, travel vlogs, but dislikes science fiction movies, animated films"
+            ],
+            "image_evidence": [
+                "MMPB_6f052249.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Kadin Mcdowell enjoys cycling, camping, but dislikes skiing, desert trekking",
+                "In terms of lifestyle, Kadin Mcdowell enjoys plant-based diet, home cooking, but dislikes hot yoga, pilates",
+                "In terms of shopping, Kadin Mcdowell enjoys handmade crafts, vintage furniture, but dislikes smart home devices, kitchen appliances",
+                "In terms of fashion, Kadin Mcdowell enjoys futuristic fashion, gothic clothing, but dislikes chunky boots, strappy sandals."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Watching an animated film",
+                "Watching a live sports game",
+                "Observing a documentary",
+                "Doing pilates"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_sports_architecture_9d61a05d",
+                    "insert_conversation_turn": 648
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_nature_economy_architecture_3d782fca",
+                    "insert_conversation_turn": 589,
+                    "reference_name": "Fig. 28001b7e"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_sports_architecture_9d61a05d",
+                    "insert_conversation_turn": 105
+                },
+                {
+                    "conversation_name": "group_chat_music_sports_architecture_9d61a05d",
+                    "insert_conversation_turn": 850
+                },
+                {
+                    "conversation_name": "group_chat_art_and_design_television_business_16e91aa1",
+                    "insert_conversation_turn": 493
+                },
+                {
+                    "conversation_name": "group_chat_art_and_design_television_business_16e91aa1",
+                    "insert_conversation_turn": 290
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Matt",
+            "description": "Matt is a young adult male with a lean build and an impression of average height. His facial structure is characterized by a prominent jawline and a slightly pointed chin, with a symmetrical face and well-defined cheekbones. Matt has a fair skin tone with a hint of natural tan, and his hair is styled in a tousled, swept-back manner, often with a light blonde or sandy hue. His eyebrows are thick and well-groomed, and his eyes are expressive, often conveying a serious or contemplative demeanor. Matt frequently appears with a neutral or slightly furrowed brow, suggesting a thoughtful or intense expression. His poses are generally relaxed yet attentive, with a tendency to look directly at the camera or off to the side, adding to his enigmatic presence.\n\n**Outfit and Accessories:**\nMatt is often seen wearing a mix of casual and semi-formal attire, with a preference for dark, earthy tones. His outfits include a dark sweater, a light gray t-shirt, and a white button-up shirt, all of which suggest a practical yet stylish approach to dressing. The textures of his clothing range from the soft knit of the sweater to the crisp fabric of the button-up shirt, indicating a blend of comfort and sophistication. In one image, Matt is seen with a map, suggesting a practical accessory for navigation. He also wears glasses in one scene, adding an intellectual or studious element to his appearance. The overall style of his clothing is understated yet deliberate, with a focus on layering and a muted color palette that enhances his natural features.\n\n**Distinguishing Visual Features or Vibe:**\nThe most memorable feature of Matt is his expressive eyes, which convey a range of emotions from intensity to contemplation. His tousled hair and neutral expressions contribute to a laid-back yet thoughtful vibe. The consistent use of dark, earthy tones in his clothing creates a cohesive visual theme, while the occasional appearance of a map and glasses adds layers to his character, suggesting intelligence and resourcefulness. The combination of his physical appearance, outfit choices, and accessories creates a distinctive and recognizable image, making Matt visually unmistakable. His overall aura is one of quiet intensity, with a hint of mystery that draws the viewer in.",
+            "preference": "In terms of entertainment, Matt enjoys cooking shows, travel vlogs, but dislikes science fiction movies, animated films. In terms of travel, Matt enjoys cycling, camping, but dislikes skiing, desert trekking. In terms of lifestyle, Matt enjoys plant-based diet, home cooking, but dislikes hot yoga, pilates. In terms of shopping, Matt enjoys handmade crafts, vintage furniture, but dislikes smart home devices, kitchen appliances. In terms of fashion, Matt enjoys futuristic fashion, gothic clothing, but dislikes chunky boots, strappy sandals.",
+            "topic": [],
+            "original_id": "QA_sample_e84b6bc4",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Kadin Mcdowell least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_e84b6bc4_3",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. e981bcbc, Among the activities that could reasonably occur in the given image, which one is Kadin Mcdowell least likely to be doing?",
+        "answer": "Watching an animated film",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Kadin Mcdowell enjoys cooking shows, travel vlogs, but dislikes science fiction movies, animated films"
+            ],
+            "image_evidence": [
+                "MMPB_3c63eec5.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Kadin Mcdowell enjoys cycling, camping, but dislikes skiing, desert trekking",
+                "In terms of lifestyle, Kadin Mcdowell enjoys plant-based diet, home cooking, but dislikes hot yoga, pilates",
+                "In terms of shopping, Kadin Mcdowell enjoys handmade crafts, vintage furniture, but dislikes smart home devices, kitchen appliances",
+                "In terms of fashion, Kadin Mcdowell enjoys futuristic fashion, gothic clothing, but dislikes chunky boots, strappy sandals."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Watching a live performance",
+                "Watching an animated film",
+                "Observing a theatrical play",
+                "Looking for kitchen appliances"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_sports_architecture_9d61a05d",
+                    "insert_conversation_turn": 648
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_sports_architecture_9d61a05d",
+                    "insert_conversation_turn": 634,
+                    "reference_name": "Fig. e981bcbc"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_sports_architecture_9d61a05d",
+                    "insert_conversation_turn": 105
+                },
+                {
+                    "conversation_name": "group_chat_music_sports_architecture_9d61a05d",
+                    "insert_conversation_turn": 850
+                },
+                {
+                    "conversation_name": "group_chat_art_and_design_television_business_16e91aa1",
+                    "insert_conversation_turn": 493
+                },
+                {
+                    "conversation_name": "group_chat_art_and_design_television_business_16e91aa1",
+                    "insert_conversation_turn": 290
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Matt",
+            "description": "Matt is a young adult male with a lean build and an impression of average height. His facial structure is characterized by a prominent jawline and a slightly pointed chin, with a symmetrical face and well-defined cheekbones. Matt has a fair skin tone with a hint of natural tan, and his hair is styled in a tousled, swept-back manner, often with a light blonde or sandy hue. His eyebrows are thick and well-groomed, and his eyes are expressive, often conveying a serious or contemplative demeanor. Matt frequently appears with a neutral or slightly furrowed brow, suggesting a thoughtful or intense expression. His poses are generally relaxed yet attentive, with a tendency to look directly at the camera or off to the side, adding to his enigmatic presence.\n\n**Outfit and Accessories:**\nMatt is often seen wearing a mix of casual and semi-formal attire, with a preference for dark, earthy tones. His outfits include a dark sweater, a light gray t-shirt, and a white button-up shirt, all of which suggest a practical yet stylish approach to dressing. The textures of his clothing range from the soft knit of the sweater to the crisp fabric of the button-up shirt, indicating a blend of comfort and sophistication. In one image, Matt is seen with a map, suggesting a practical accessory for navigation. He also wears glasses in one scene, adding an intellectual or studious element to his appearance. The overall style of his clothing is understated yet deliberate, with a focus on layering and a muted color palette that enhances his natural features.\n\n**Distinguishing Visual Features or Vibe:**\nThe most memorable feature of Matt is his expressive eyes, which convey a range of emotions from intensity to contemplation. His tousled hair and neutral expressions contribute to a laid-back yet thoughtful vibe. The consistent use of dark, earthy tones in his clothing creates a cohesive visual theme, while the occasional appearance of a map and glasses adds layers to his character, suggesting intelligence and resourcefulness. The combination of his physical appearance, outfit choices, and accessories creates a distinctive and recognizable image, making Matt visually unmistakable. His overall aura is one of quiet intensity, with a hint of mystery that draws the viewer in.",
+            "preference": "In terms of entertainment, Matt enjoys cooking shows, travel vlogs, but dislikes science fiction movies, animated films. In terms of travel, Matt enjoys cycling, camping, but dislikes skiing, desert trekking. In terms of lifestyle, Matt enjoys plant-based diet, home cooking, but dislikes hot yoga, pilates. In terms of shopping, Matt enjoys handmade crafts, vintage furniture, but dislikes smart home devices, kitchen appliances. In terms of fashion, Matt enjoys futuristic fashion, gothic clothing, but dislikes chunky boots, strappy sandals.",
+            "topic": [],
+            "original_id": "QA_sample_e84b6bc4",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Kadin Mcdowell least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_3cfaf69d_1",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. c76aab2d, the image, what is Lilianna Colon most likely to be doing?",
+        "answer": "Watching gaming tournaments",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Lilianna Colon enjoys sports documentaries, gaming tournaments, but dislikes live band karaoke, magic shows"
+            ],
+            "image_evidence": [
+                "MMPB_2d99653f.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Lilianna Colon enjoys hiking, scuba diving, but dislikes trains, flying business class",
+                "In terms of lifestyle, Lilianna Colon enjoys bullet journaling, reading before bed, but dislikes forest bathing, holistic therapy",
+                "In terms of shopping, Lilianna Colon enjoys handmade candles, ceramic pottery, but dislikes smart home devices, kitchen appliances",
+                "In terms of fashion, Lilianna Colon enjoys futuristic fashion, gothic clothing, but dislikes vintage style, formal suits."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "Streaming musical analysis",
+                "Watching movie highlights",
+                "Watching gaming tournaments",
+                "Reading books before bed"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_art_and_design_television_business_16e91aa1",
+                    "insert_conversation_turn": 763
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_art_and_design_television_business_16e91aa1",
+                    "insert_conversation_turn": 112,
+                    "reference_name": "Fig. c76aab2d"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_art_and_design_television_business_16e91aa1",
+                    "insert_conversation_turn": 1123
+                },
+                {
+                    "conversation_name": "group_chat_nature_economy_architecture_3d782fca",
+                    "insert_conversation_turn": 510
+                },
+                {
+                    "conversation_name": "group_chat_music_sports_architecture_9d61a05d",
+                    "insert_conversation_turn": 935
+                },
+                {
+                    "conversation_name": "group_chat_nature_economy_architecture_3d782fca",
+                    "insert_conversation_turn": 622
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Harry",
+            "description": "Harry is depicted as a young male with a slender build and an average height impression. His facial structure is characterized by a prominent forehead, round glasses with thin frames, and a slightly pointed chin. Harry has a fair skin tone and short, tousled brown hair that often falls slightly over his forehead. His expressions range from contemplative to serious, with a tendency to look off to the side, suggesting a thoughtful or introspective demeanor. The consistent presence of round glasses adds a distinctive element to his appearance, enhancing his intellectual and studious look.\n\n**Outfit and Accessories:**\nHarry is frequently seen wearing a variety of outfits that reflect different settings and occasions. In one image, he is dressed in a formal black tuxedo with a white bow tie, indicating a special event or formal gathering. Another image shows him in a maroon and gold robe with a crest, suggesting a school uniform or ceremonial attire. He is also seen in a red and black sweater, which appears more casual and practical. The recurring theme in his attire is a mix of formal and school-related clothing, with a consistent color palette of maroon, black, and white. The round glasses are a constant accessory, adding to his scholarly appearance.\n\n**Distinguishing Visual Features or Vibe:**\nThe most memorable and defining features of Harry are his round glasses and the maroon and gold robe, which are iconic elements associated with his character. The combination of his thoughtful expressions, tousled hair, and the specific color palette creates a unique visual identity. The presence of the crest on his robe adds a sense of belonging to a particular group or institution. The overall vibe conveyed by Harry is one of intelligence, determination, and a touch of mystery, enhanced by his contemplative expressions and the various settings he is depicted in. These elements collectively make Harry visually unmistakable and memorable.",
+            "preference": "In terms of entertainment, Harry enjoys sports documentaries, gaming tournaments, but dislikes live band karaoke, magic shows. In terms of travel, Harry enjoys hiking, scuba diving, but dislikes trains, flying business class. In terms of lifestyle, Harry enjoys bullet journaling, reading before bed, but dislikes forest bathing, holistic therapy. In terms of shopping, Harry enjoys handmade candles, ceramic pottery, but dislikes smart home devices, kitchen appliances. In terms of fashion, Harry enjoys futuristic fashion, gothic clothing, but dislikes vintage style, formal suits.",
+            "topic": [],
+            "original_id": "QA_sample_3cfaf69d",
+            "original_question": "the image, what is Lilianna Colon most likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_3cfaf69d_2",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 5ed239fe, Among the activities that could reasonably occur in the given image, which one is Lilianna Colon least likely to be doing?",
+        "answer": "Watching a live band karaoke video",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Lilianna Colon enjoys sports documentaries, gaming tournaments, but dislikes live band karaoke, magic shows"
+            ],
+            "image_evidence": [
+                "MMPB_6f052249.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Lilianna Colon enjoys hiking, scuba diving, but dislikes trains, flying business class",
+                "In terms of lifestyle, Lilianna Colon enjoys bullet journaling, reading before bed, but dislikes forest bathing, holistic therapy",
+                "In terms of shopping, Lilianna Colon enjoys handmade candles, ceramic pottery, but dislikes smart home devices, kitchen appliances",
+                "In terms of fashion, Lilianna Colon enjoys futuristic fashion, gothic clothing, but dislikes vintage style, formal suits."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Watching a live band karaoke video",
+                "Observing a live cooking show",
+                "Watching a live sports match",
+                "Doing forest bathing"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_art_and_design_television_business_16e91aa1",
+                    "insert_conversation_turn": 763
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_art_and_design_television_business_16e91aa1",
+                    "insert_conversation_turn": 67,
+                    "reference_name": "Fig. 5ed239fe"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_art_and_design_television_business_16e91aa1",
+                    "insert_conversation_turn": 1123
+                },
+                {
+                    "conversation_name": "group_chat_nature_economy_architecture_3d782fca",
+                    "insert_conversation_turn": 510
+                },
+                {
+                    "conversation_name": "group_chat_music_sports_architecture_9d61a05d",
+                    "insert_conversation_turn": 935
+                },
+                {
+                    "conversation_name": "group_chat_nature_economy_architecture_3d782fca",
+                    "insert_conversation_turn": 622
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Harry",
+            "description": "Harry is depicted as a young male with a slender build and an average height impression. His facial structure is characterized by a prominent forehead, round glasses with thin frames, and a slightly pointed chin. Harry has a fair skin tone and short, tousled brown hair that often falls slightly over his forehead. His expressions range from contemplative to serious, with a tendency to look off to the side, suggesting a thoughtful or introspective demeanor. The consistent presence of round glasses adds a distinctive element to his appearance, enhancing his intellectual and studious look.\n\n**Outfit and Accessories:**\nHarry is frequently seen wearing a variety of outfits that reflect different settings and occasions. In one image, he is dressed in a formal black tuxedo with a white bow tie, indicating a special event or formal gathering. Another image shows him in a maroon and gold robe with a crest, suggesting a school uniform or ceremonial attire. He is also seen in a red and black sweater, which appears more casual and practical. The recurring theme in his attire is a mix of formal and school-related clothing, with a consistent color palette of maroon, black, and white. The round glasses are a constant accessory, adding to his scholarly appearance.\n\n**Distinguishing Visual Features or Vibe:**\nThe most memorable and defining features of Harry are his round glasses and the maroon and gold robe, which are iconic elements associated with his character. The combination of his thoughtful expressions, tousled hair, and the specific color palette creates a unique visual identity. The presence of the crest on his robe adds a sense of belonging to a particular group or institution. The overall vibe conveyed by Harry is one of intelligence, determination, and a touch of mystery, enhanced by his contemplative expressions and the various settings he is depicted in. These elements collectively make Harry visually unmistakable and memorable.",
+            "preference": "In terms of entertainment, Harry enjoys sports documentaries, gaming tournaments, but dislikes live band karaoke, magic shows. In terms of travel, Harry enjoys hiking, scuba diving, but dislikes trains, flying business class. In terms of lifestyle, Harry enjoys bullet journaling, reading before bed, but dislikes forest bathing, holistic therapy. In terms of shopping, Harry enjoys handmade candles, ceramic pottery, but dislikes smart home devices, kitchen appliances. In terms of fashion, Harry enjoys futuristic fashion, gothic clothing, but dislikes vintage style, formal suits.",
+            "topic": [],
+            "original_id": "QA_sample_3cfaf69d",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Lilianna Colon least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_3cfaf69d_3",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. a97664e4, Among the activities that could reasonably occur in the given image, which one is Lilianna Colon least likely to be doing?",
+        "answer": "Watching a video of a magic show",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Lilianna Colon enjoys sports documentaries, gaming tournaments, but dislikes live band karaoke, magic shows"
+            ],
+            "image_evidence": [
+                "MMPB_ea429820.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Lilianna Colon enjoys hiking, scuba diving, but dislikes trains, flying business class",
+                "In terms of lifestyle, Lilianna Colon enjoys bullet journaling, reading before bed, but dislikes forest bathing, holistic therapy",
+                "In terms of shopping, Lilianna Colon enjoys handmade candles, ceramic pottery, but dislikes smart home devices, kitchen appliances",
+                "In terms of fashion, Lilianna Colon enjoys futuristic fashion, gothic clothing, but dislikes vintage style, formal suits."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "Buying kitchen appliances",
+                "Viewing a clip of a theatrical play",
+                "Observing a video of a circus performance",
+                "Watching a video of a magic show"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_art_and_design_television_business_16e91aa1",
+                    "insert_conversation_turn": 763
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_nature_economy_architecture_3d782fca",
+                    "insert_conversation_turn": 638,
+                    "reference_name": "Fig. a97664e4"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_art_and_design_television_business_16e91aa1",
+                    "insert_conversation_turn": 1123
+                },
+                {
+                    "conversation_name": "group_chat_nature_economy_architecture_3d782fca",
+                    "insert_conversation_turn": 510
+                },
+                {
+                    "conversation_name": "group_chat_music_sports_architecture_9d61a05d",
+                    "insert_conversation_turn": 935
+                },
+                {
+                    "conversation_name": "group_chat_nature_economy_architecture_3d782fca",
+                    "insert_conversation_turn": 622
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Harry",
+            "description": "Harry is depicted as a young male with a slender build and an average height impression. His facial structure is characterized by a prominent forehead, round glasses with thin frames, and a slightly pointed chin. Harry has a fair skin tone and short, tousled brown hair that often falls slightly over his forehead. His expressions range from contemplative to serious, with a tendency to look off to the side, suggesting a thoughtful or introspective demeanor. The consistent presence of round glasses adds a distinctive element to his appearance, enhancing his intellectual and studious look.\n\n**Outfit and Accessories:**\nHarry is frequently seen wearing a variety of outfits that reflect different settings and occasions. In one image, he is dressed in a formal black tuxedo with a white bow tie, indicating a special event or formal gathering. Another image shows him in a maroon and gold robe with a crest, suggesting a school uniform or ceremonial attire. He is also seen in a red and black sweater, which appears more casual and practical. The recurring theme in his attire is a mix of formal and school-related clothing, with a consistent color palette of maroon, black, and white. The round glasses are a constant accessory, adding to his scholarly appearance.\n\n**Distinguishing Visual Features or Vibe:**\nThe most memorable and defining features of Harry are his round glasses and the maroon and gold robe, which are iconic elements associated with his character. The combination of his thoughtful expressions, tousled hair, and the specific color palette creates a unique visual identity. The presence of the crest on his robe adds a sense of belonging to a particular group or institution. The overall vibe conveyed by Harry is one of intelligence, determination, and a touch of mystery, enhanced by his contemplative expressions and the various settings he is depicted in. These elements collectively make Harry visually unmistakable and memorable.",
+            "preference": "In terms of entertainment, Harry enjoys sports documentaries, gaming tournaments, but dislikes live band karaoke, magic shows. In terms of travel, Harry enjoys hiking, scuba diving, but dislikes trains, flying business class. In terms of lifestyle, Harry enjoys bullet journaling, reading before bed, but dislikes forest bathing, holistic therapy. In terms of shopping, Harry enjoys handmade candles, ceramic pottery, but dislikes smart home devices, kitchen appliances. In terms of fashion, Harry enjoys futuristic fashion, gothic clothing, but dislikes vintage style, formal suits.",
+            "topic": [],
+            "original_id": "QA_sample_3cfaf69d",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Lilianna Colon least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_1db39444_2",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. a069a792, Among the activities that could reasonably occur in the given image, which one is Cannon Hester least likely to be doing?",
+        "answer": "Watching drama sitcoms",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Cannon Hester enjoys theater performances, film festivals, but dislikes horror movies, sitcoms"
+            ],
+            "image_evidence": [
+                "MMPB_2d99653f.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Cannon Hester enjoys skydiving, cave exploration, but dislikes motorbiking trips, rafting",
+                "In terms of lifestyle, Cannon Hester enjoys boxing workouts, rock climbing gyms, but dislikes home gardening, night owl lifestyle",
+                "In terms of shopping, Cannon Hester enjoys robot vacuums, wearable tech, but dislikes handwoven rugs, fancy cutlery sets",
+                "In terms of fashion, Cannon Hester enjoys bright neon colors, oversized sweaters, but dislikes casual wear, minimalist outfits."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "Streaming comedy specials",
+                "Gardening at home",
+                "Watching drama sitcoms",
+                "Watching action thrillers"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_art_and_design_television_business_16e91aa1",
+                    "insert_conversation_turn": 536
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_art_and_design_television_business_16e91aa1",
+                    "insert_conversation_turn": 112,
+                    "reference_name": "Fig. a069a792"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_art_and_design_television_business_16e91aa1",
+                    "insert_conversation_turn": 649
+                },
+                {
+                    "conversation_name": "group_chat_nature_economy_architecture_3d782fca",
+                    "insert_conversation_turn": 351
+                },
+                {
+                    "conversation_name": "group_chat_art_and_design_television_business_16e91aa1",
+                    "insert_conversation_turn": 704
+                },
+                {
+                    "conversation_name": "group_chat_music_sports_architecture_9d61a05d",
+                    "insert_conversation_turn": 217
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Jeon",
+            "description": "Jeon is a young woman with a slender build and an impression of average height. Her facial structure is delicate, with a prominent jawline and a slightly pointed chin. She has a fair skin tone and long, straight, dark hair that falls past her shoulders. Her eyebrows are well-defined, and her eyes are expressive, often conveying a sense of thoughtfulness or contemplation. Jeon frequently appears with a neutral or slightly pensive expression, and her poses are relaxed yet poised, suggesting a calm and introspective demeanor.\n\n**Outfit and Accessories:**\nJeon's attire is varied yet consistently stylish, reflecting a blend of casual and semi-formal elements. She is often seen in button-up shirts, both solid-colored and patterned, paired with cardigans or plaid shirts. The color palette of her outfits includes soft pastels like pink and yellow, as well as more neutral tones such as white and green. Her clothing choices suggest a practical yet fashionable sense of style, with a preference for comfortable yet chic pieces. Accessories are minimal but significant, including a necklace and a backpack, which add to her youthful and approachable appearance.\n\n**Distinguishing Visual Features or Vibe:**\nJeon exudes a serene and approachable aura, characterized by her long, straight hair and expressive eyes. Her consistent use of button-up shirts and cardigans, along with her subtle accessories, creates a cohesive and recognizable style. The recurring theme of her outfits—soft colors and comfortable fabrics—enhances her relatable and down-to-earth vibe. Whether in a café, a bustling city street, or a serene outdoor setting, Jeon's presence is marked by a sense of calm and introspection, making her visually unmistakable and memorable.",
+            "preference": "In terms of entertainment, Jeon enjoys theater performances, film festivals, but dislikes horror movies, sitcoms. In terms of travel, Jeon enjoys skydiving, cave exploration, but dislikes motorbiking trips, rafting. In terms of lifestyle, Jeon enjoys boxing workouts, rock climbing gyms, but dislikes home gardening, night owl lifestyle. In terms of shopping, Jeon enjoys robot vacuums, wearable tech, but dislikes handwoven rugs, fancy cutlery sets. In terms of fashion, Jeon enjoys bright neon colors, oversized sweaters, but dislikes casual wear, minimalist outfits.",
+            "topic": [],
+            "original_id": "QA_sample_1db39444",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Cannon Hester least likely to be doing?"
+        }
+    }
+]

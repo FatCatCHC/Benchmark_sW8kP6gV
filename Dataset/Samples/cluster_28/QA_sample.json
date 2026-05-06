@@ -1,0 +1,1823 @@
+[
+    {
+        "id": "QA_sample_4a2d1223",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. b8b4fcb6, According to the previous definition, which counties in Oregon are classified as \"'high-risk'\" based on the map, and what is the overall trend in hospitalizations?",
+        "answer": "One county is classified as 'high-risk,' with a seven-day case total exceeding 90 per 10,000 residents. The overall trend in hospitalizations is decreasing.",
+        "evidence": {
+            "text_evidence": [
+                "A county in Oregon is considered 'high-risk' if the seven-day case total per 10,000 residents exceeds 80. Additionally, decreasing hospitalizations can indicate improved healthcare management, while total cases provide historical context for the pandemic's impact."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_8364db8a.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "One county is classified as 'high-risk,' with a seven-day case total exceeding 90 per 10,000 residents. The overall trend in hospitalizations is decreasing.",
+                "No counties are classified as 'high-risk,' with all seven-day case totals below 80 per 10,000 residents The overall trend in hospitalizations is stable",
+                "Two counties are classified as 'high-risk,' with seven-day case totals exceeding 90 per 10,000 residents The overall trend in hospitalizations is increasing",
+                "Three counties are classified as 'high-risk,' with seven-day case totals between 80 and 90 per 10,000 residents The overall trend in hospitalizations is fluctuating"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_literature_economy_c308cd05",
+                    "insert_conversation_turn": 19
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_economy_technology_animals_c4b6af41",
+                    "insert_conversation_turn": 1098,
+                    "reference_name": "Fig. b8b4fcb6"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "health"
+            ],
+            "original_question": "According to the previous definition, which counties in Oregon are classified as \"'high-risk' (where the seven-day case total per 10,000 residents exceeds 80)\" based on the map, and what is the overall trend in hospitalizations?"
+        }
+    },
+    {
+        "id": "QA_sample_f27896e9",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. ed264895, the text, did the company meet all three of its \"profitability criteria\"?",
+        "answer": "Yes",
+        "evidence": {
+            "text_evidence": [
+                "To maintain profitability, a SaaS company aims to keep its Customer Acquisition Cost (CAC) below $250 per customer while also achieving a Month-over-Month (MoM) Monthly Recurring Revenue (MRR) growth of at least 3.5%. Additionally, it expects the Average Lifetime Value (ALV) of its customers to exceed $7,500 during the reporting period."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_f82a6acb.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Yes",
+                "No"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_economy_technology_animals_c4b6af41",
+                    "insert_conversation_turn": 844
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_literature_economy_c308cd05",
+                    "insert_conversation_turn": 127,
+                    "reference_name": "Fig. ed264895"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "business",
+                "economy",
+                "technology"
+            ],
+            "original_question": "the text, did the company meet all three of its \"profitability criteria\" as defined by keeping its \"Customer Acquisition Cost (CAC) below $250 per customer,\" achieving a \"Month-over-Month (MoM) Monthly Recurring Revenue (MRR) growth of at least 3.5%,\" and ensuring the \"Average Lifetime Value (ALV) of its customers exceeds $7,500\" during the reporting period?"
+        }
+    },
+    {
+        "id": "QA_sample_2485374c",
+        "domain": "SlideVQA",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 59e911ac, Fig. a2a1ff9b, How many steps are there in the theory which answers 5 key questions leading to sustainable community change?",
+        "answer": "5",
+        "evidence": {
+            "text_evidence": [],
+            "image_evidence": [
+                "SlideVQA_a39b5c96_page_6.png",
+                "SlideVQA_a39b5c96_page_9.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "4",
+                "7",
+                "5",
+                "6"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_animals_music_education_6abf43e7",
+                    "insert_conversation_turn": 915,
+                    "reference_name": "Fig. 59e911ac"
+                },
+                {
+                    "conversation_name": "group_chat_economy_technology_animals_c4b6af41",
+                    "insert_conversation_turn": 59,
+                    "reference_name": "Fig. a2a1ff9b"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "education",
+                "business"
+            ],
+            "original_question": "How many steps are there in the theory which answers 5 key questions leading to sustainable community change?"
+        }
+    },
+    {
+        "id": "QA_sample_6cd2d4f6",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. fb35d758, According to the previous definition, which areas fall under the \"'Prime' category\" based on average room prices?",
+        "answer": "Areas with average room prices exceeding $150, such as $151.8, $171.1, and $206.6, are categorized as 'Prime'. For a host in such an area with an average room price of $154, the effective revenue per booking is $169.40.",
+        "evidence": {
+            "text_evidence": [
+                "A hosting platform for vacation rentals categorizes areas into 'Prime' and 'Moderate' for price tiers. An area is considered 'Prime' if its average room price exceeds $150. Otherwise, it is categorized as 'Moderate'. Hosts in 'Prime' areas receive a bonus of 10% additional revenue per booking, while those in 'Moderate' areas do not receive this bonus."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_29541c59.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Areas with average room prices exceeding $130, such as $133.3, $143.4, and $145.7, are categorized as 'Prime'. For a host in such an area with an average room price of $154, the effective revenue per booking is $165.90",
+                "Areas with average room prices exceeding $150, such as $151.8, $171.1, and $206.6, are categorized as 'Prime'. For a host in such an area with an average room price of $154, the effective revenue per booking is $169.40.",
+                "Areas with average room prices exceeding $120, such as $122.3, $127.3, and $123.1, are categorized as 'Prime'. For a host in such an area with an average room price of $154, the effective revenue per booking is $160.00",
+                "Areas with average room prices exceeding $110, such as $109.9, $105.4, and $104.1, are categorized as 'Prime'. For a host in such an area with an average room price of $154, the effective revenue per booking is $155.60"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_economy_technology_animals_c4b6af41",
+                    "insert_conversation_turn": 915
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_animals_music_education_6abf43e7",
+                    "insert_conversation_turn": 1085,
+                    "reference_name": "Fig. fb35d758"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "travel",
+                "business",
+                "economy"
+            ],
+            "original_question": "According to the previous definition, which areas fall under the \"'Prime' category\" based on average room prices, and what is the \"effective revenue per booking\" for a host in a 'Prime' area with an average room price of $154?"
+        }
+    },
+    {
+        "id": "QA_sample_0f6dedb1",
+        "domain": "MLLMKC",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. e9caca9c, When was the brand associated with the logo established?",
+        "answer": "1938",
+        "evidence": {
+            "text_evidence": [
+                "Samsung was founded in 1938. The creator of Samsung is Lee Byung-chul. Samsung is the production of electronics brand."
+            ],
+            "image_evidence": [
+                "MLLMKC_981ed375.jpg"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Samsung was founded in 1945. The creator of Samsung is Lee Byung-chul. Samsung is the production of electronics brand."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "1932",
+                "1920",
+                "1938",
+                "1945"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_animals_music_education_6abf43e7",
+                    "insert_conversation_turn": 637
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_literature_economy_c308cd05",
+                    "insert_conversation_turn": 357,
+                    "reference_name": "Fig. e9caca9c"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_economy_technology_animals_c4b6af41",
+                    "insert_conversation_turn": 75
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "instance": "Samsung",
+            "category": "logo",
+            "error_type": "time_error",
+            "topic": [
+                "business",
+                "technology"
+            ],
+            "original_question": "When was the brand associated with the logo established?"
+        }
+    },
+    {
+        "id": "QA_sample_a0d6aafb",
+        "domain": "SlideVQA",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 86c82715, Fig. 353db280, Who are the authors of the book about the process of coordinating work activities so that they are completed efficiently and effectively with and through other people pictured in the presentation?",
+        "answer": "Stephen P. Robbins, Mary Coulter, Robin Stuart-Kotze",
+        "evidence": {
+            "text_evidence": [],
+            "image_evidence": [
+                "SlideVQA_01ee8f5b_page_1.png",
+                "SlideVQA_01ee8f5b_page_7.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "Henry Mintzberg",
+                "John R. Schermerhorn, Jr",
+                "Stephen P. Robbins, Mary Coulter, Robin Stuart-Kotze",
+                "Richard L. Daft"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_animals_music_education_6abf43e7",
+                    "insert_conversation_turn": 800,
+                    "reference_name": "Fig. 86c82715"
+                },
+                {
+                    "conversation_name": "group_chat_economy_technology_animals_c4b6af41",
+                    "insert_conversation_turn": 92,
+                    "reference_name": "Fig. 353db280"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "business",
+                "education"
+            ],
+            "original_question": "Who are the authors of the book about the process of coordinating work activities so that they are completed efficiently and effectively with and through other people pictured in the presentation?"
+        }
+    },
+    {
+        "id": "QA_sample_3320f423",
+        "domain": "SlideVQA",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. cd1227bb, Fig. 4bbd1290, What are examples of identifiable activities for the role of the figureheads that involve people and duties that are ceremonial and symbolic in nature?",
+        "answer": "Greeting visitors, signing legal documents",
+        "evidence": {
+            "text_evidence": [],
+            "image_evidence": [
+                "SlideVQA_01ee8f5b_page_12.png",
+                "SlideVQA_01ee8f5b_page_13.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Greeting visitors, signing legal documents",
+                "Hosting formal dinners",
+                "Attending public ceremonies",
+                "Delivering welcome speeches"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_animals_music_education_6abf43e7",
+                    "insert_conversation_turn": 785,
+                    "reference_name": "Fig. cd1227bb"
+                },
+                {
+                    "conversation_name": "group_chat_economy_technology_animals_c4b6af41",
+                    "insert_conversation_turn": 1067,
+                    "reference_name": "Fig. 4bbd1290"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "business",
+                "education"
+            ],
+            "original_question": "What are examples of identifiable activities for the role of the figureheads that involve people and duties that are ceremonial and symbolic in nature?"
+        }
+    },
+    {
+        "id": "QA_sample_0d262421",
+        "domain": "MLLMKC",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. 5a0865aa, Who established the brand corresponding to the logo?",
+        "answer": "Werner von Siemens",
+        "evidence": {
+            "text_evidence": [
+                "Siemens was founded in 1847. The creator of Siemens is Werner von Siemens. Siemens is the production of electrical equipment."
+            ],
+            "image_evidence": [
+                "MLLMKC_346e0d00.jpg"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Siemens was founded in 1847. The creator of Siemens is Thomas Edison. Siemens is the production of electrical equipment."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Thomas Edison",
+                "Werner von Siemens",
+                "Alexander Graham Bell",
+                "Nikola Tesla"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_literature_economy_c308cd05",
+                    "insert_conversation_turn": 774
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_economy_technology_animals_c4b6af41",
+                    "insert_conversation_turn": 410,
+                    "reference_name": "Fig. 5a0865aa"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_animals_music_education_6abf43e7",
+                    "insert_conversation_turn": 167
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "instance": "Siemens",
+            "category": "logo",
+            "error_type": "creator_error",
+            "topic": [
+                "business",
+                "history",
+                "technology"
+            ],
+            "original_question": "Who established the brand corresponding to the logo?"
+        }
+    },
+    {
+        "id": "QA_sample_9a57aae9",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 6b3e34f0, the text, did the number of adult ICU patients with Covid in January 2022 meet the criteria for ICU resources to be classified as \"critically strained\" according to the previous definition?",
+        "answer": "No",
+        "evidence": {
+            "text_evidence": [
+                "A health policy requires ICU resources to be classified as 'critically strained' if the number of adult ICU patients reaches or exceeds 150% of the peak value reported last winter. This classification determines the allocation of emergency federal support to hospitals."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_1bd26c6e.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Yes",
+                "No"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_economy_technology_animals_c4b6af41",
+                    "insert_conversation_turn": 137
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_animals_music_education_6abf43e7",
+                    "insert_conversation_turn": 572,
+                    "reference_name": "Fig. 6b3e34f0"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "health",
+                "government"
+            ],
+            "original_question": "the text, did the number of adult ICU patients with Covid in January 2022 meet the criteria for ICU resources to be classified as \"critically strained\" according to the previous definition?"
+        }
+    },
+    {
+        "id": "QA_sample_aef3f454",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. c0d2e2b7, the text, what is the \"percentage change in stock price\" for Vector over the \"two-year period,\" and does it qualify for reinvestment?",
+        "answer": "The stock price grew by over 10%, so it qualifies for reinvestment.",
+        "evidence": {
+            "text_evidence": [
+                "The investment policy for a particular fund requires that stock investments maintain a growth of at least 10% over any two-year period to qualify for reinvestment. The percentage change in stock price is calculated by comparing the initial and final values within the defined period."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_2fa28c0f.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "The stock price grew by less than 10%, so it does not qualify for reinvestment",
+                "The stock price grew by over 10%, so it qualifies for reinvestment.",
+                "The stock price remained constant, so it does not qualify for reinvestment",
+                "The stock price decreased by more than 10%, so it does not qualify for reinvestment"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_animals_music_education_6abf43e7",
+                    "insert_conversation_turn": 50
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_literature_economy_c308cd05",
+                    "insert_conversation_turn": 162,
+                    "reference_name": "Fig. c0d2e2b7"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "business",
+                "economy"
+            ],
+            "original_question": "the text, what is the \"percentage change in stock price\" for Vector over the \"two-year period,\" and does it qualify for reinvestment according to the \"growth of at least 10% over any two-year period\" policy?"
+        }
+    },
+    {
+        "id": "QA_sample_f1e78577",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 92b0e52f, the text, what is the maximum annual income a family of three can have to qualify for financial aid according to the \"poverty line definition\"?",
+        "answer": "$17,568",
+        "evidence": {
+            "text_evidence": [
+                "An organization is focusing on providing financial aid to families living below the federal poverty line. They plan to distribute grants to families based on their size. A family of four will receive $6,000, a family of three will receive $4,500, and an individual will receive $3,000. Families are only eligible for these grants if their annual income is below the poverty line defined in the image."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_5018bc9b.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "$15,000",
+                "$22,811",
+                "$17,568",
+                "$18,500"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_animals_music_education_6abf43e7",
+                    "insert_conversation_turn": 543
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_economy_technology_animals_c4b6af41",
+                    "insert_conversation_turn": 814,
+                    "reference_name": "Fig. 92b0e52f"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "economy",
+                "health"
+            ],
+            "original_question": "the text, what is the maximum annual income a family of three can have to qualify for financial aid according to the \"poverty line definition\"?"
+        }
+    },
+    {
+        "id": "QA_sample_9af0a891",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 6041ff17, the text, should an investor purchase Sky shares if all the conditions of the \"recommended investment strategy\" are met?",
+        "answer": "Yes",
+        "evidence": {
+            "text_evidence": [
+                "An investment strategy recommends purchasing company shares if the share price increases by more than 10% over a one-year period and there is a positive year-on-year growth in retail customers exceeding 3%. Additionally, churn rates should decrease in at least two regions compared to the previous year."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_fb6bee42.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Yes",
+                "No"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_economy_technology_animals_c4b6af41",
+                    "insert_conversation_turn": 157
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_animals_music_education_6abf43e7",
+                    "insert_conversation_turn": 449,
+                    "reference_name": "Fig. 6041ff17"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "business",
+                "economy"
+            ],
+            "original_question": "the text, should an investor purchase Sky shares if all the conditions of the \"recommended investment strategy\" are met?"
+        }
+    },
+    {
+        "id": "QA_sample_19e7e2b8",
+        "domain": "MLLMKC",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. 1a37f344, What are the main products of this brand?",
+        "answer": "financial services",
+        "evidence": {
+            "text_evidence": [
+                "Mastercard was created in 1966. The creator of Mastercard is Interbank Card Association, and Mastercard is the brand of financial services."
+            ],
+            "image_evidence": [
+                "MLLMKC_ebc0e625.jpg"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Mastercard was created in 1966. The creator of Mastercard is Interbank Card Association, and Mastercard is the brand of luxury automobiles."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "organic skincare essentials",
+                "gourmet coffee products",
+                "financial services",
+                "luxury automobiles"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_literature_economy_c308cd05",
+                    "insert_conversation_turn": 760
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_economy_technology_animals_c4b6af41",
+                    "insert_conversation_turn": 861,
+                    "reference_name": "Fig. 1a37f344"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_animals_music_education_6abf43e7",
+                    "insert_conversation_turn": 623
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "instance": "Mastercard",
+            "category": "logo",
+            "error_type": "content_error",
+            "topic": [
+                "business",
+                " economy",
+                " technology"
+            ],
+            "original_question": "What are the main products of this brand?"
+        }
+    },
+    {
+        "id": "QA_sample_e7542ce8",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. ddc8bf52, the text, which state is considered a \"'high participation' state for both work categories\" according to the previous definition?",
+        "answer": "NSW",
+        "evidence": {
+            "text_evidence": [
+                "In the organization, the total number of employees working from home and working from offices are recorded separately. Any state with more than 200 people working in either setup is considered a 'high participation' state for that respective work category."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_60432476.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "VIC",
+                "NSW",
+                "WA",
+                "QLD"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_literature_economy_c308cd05",
+                    "insert_conversation_turn": 849
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_animals_music_education_6abf43e7",
+                    "insert_conversation_turn": 1207,
+                    "reference_name": "Fig. ddc8bf52"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "business",
+                "technology"
+            ],
+            "original_question": "the text, which state is considered a \"'high participation' state for both work categories\" according to the previous definition?"
+        }
+    },
+    {
+        "id": "QA_sample_62e7f1b8",
+        "domain": "MLLMKC",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. acfc85b4, Who established the brand corresponding to the logo?",
+        "answer": "C) Alexander Graham Bell",
+        "evidence": {
+            "text_evidence": [
+                "UPS was founded in 1907. The creator of UPS is James E. Casey. UPS is the brand of package delivery services."
+            ],
+            "image_evidence": [
+                "MLLMKC_9ad90936.jpg"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "UPS was founded in 1907. The creator of UPS is Henry Ford. UPS is the brand of package delivery services."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Thomas Edison",
+                "C) Alexander Graham Bell",
+                "Henry Ford"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_animals_music_education_6abf43e7",
+                    "insert_conversation_turn": 1317
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_economy_technology_animals_c4b6af41",
+                    "insert_conversation_turn": 10,
+                    "reference_name": "Fig. acfc85b4"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_literature_economy_c308cd05",
+                    "insert_conversation_turn": 866
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "instance": "UPS",
+            "category": "logo",
+            "error_type": "creator_error",
+            "topic": [
+                "business",
+                "history"
+            ],
+            "original_question": "Who established the brand corresponding to the logo?"
+        }
+    },
+    {
+        "id": "QA_sample_2c032705",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. b971ee2d, the text, which settings should be categorized as \"High Growth\" according to the previous definition?",
+        "answer": "Unsheltered and Emergency Shelter",
+        "evidence": {
+            "text_evidence": [
+                "For a policy analysis, assume that settings with consistent increases over 5 years are categorized as 'High Growth', and those with fluctuating or no net growth over 5 years are categorized as 'Low Growth'. Setting types include Emergency Shelter (ES), Transitional Housing (TH), and Unsheltered. Focus only on net 5-year trends from 2018 to 2022."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_67455adb.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Emergency Shelter only",
+                "Unsheltered and Emergency Shelter",
+                "Transitional Housing",
+                "Unsheltered only"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_literature_economy_c308cd05",
+                    "insert_conversation_turn": 693
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_animals_music_education_6abf43e7",
+                    "insert_conversation_turn": 529,
+                    "reference_name": "Fig. b971ee2d"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "government",
+                "economy",
+                "health"
+            ],
+            "original_question": "the text, which settings experienced \"consistent increases over 5 years from 2018 to 2022\" and therefore should be categorized as \"High Growth\" according to the previous definition?"
+        }
+    },
+    {
+        "id": "a28fbe97",
+        "domain": "MMDocRAG",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 1ef076bd, Doc. 1e5496dc, How has Roche's Diagnostics division structure changed from 2020 to 2021, and who are the key executives overseeing these divisions?",
+        "answer": "The Diagnostics division changed from business areas (Centralised and Point of Care Solutions, Molecular Diagnostics, Tissue Diagnostics, Diabetes Care) to customer areas (Core Lab, Molecular Lab, Point of Care, Pathology Lab, Diabetes Care) in 2021.",
+        "evidence": {
+            "text_evidence": [
+                "In 2021, as part of a transformation initiative,  the Diagnostics Division replaced the previous  business area structure of its four business areas  Centralised and Point of Care Solutions, Molecular  Diagnostics, Tissue Diagnostics and Diabetes Care  with new customer areas. Sales are presented by  the following customer areas: Core Lab, Molecular  Lab, Point of Care, Diabetes Care, Pathology Lab  (for details see Finance Report, page 27). "
+            ],
+            "image_evidence": [
+                "MMDocRAG_97efb7bf.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": [
+                [
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Business activities are carried out through Group  subsidiaries and associated companies. Detailed  information on Roche Holding Ltd and on significant  subsidiaries and associated companies (including  company name, listing information, domicile, share  capital and equity interest) is listed in the Finance  Report, Note 33 to the Roche Group Consolidated  Financial Statements (‘List of subsidiaries and  associates’, page 138). "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "The Pharmaceuticals Division comprises the  two business segments Roche Pharmaceuticals  and Chugai, whereas Genentech as the former  third segment has been integrated into Roche  Pharmaceuticals.  "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_81df952b.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_5188fe55.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Roche’s operating businesses are organised into  two divisions: Pharmaceuticals and Diagnostics.  "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "André Hoffmann, Vice-Chairman of the Board  of Directors, Chairman of the Remuneration  Committee and of the Board’s Corporate  Governance and Sustainability Committee and  member of the Board’s Chairman’s/Nomination  Committee, and Dr Jörg Duschmalé, member of  the Board of Directors and of the Board’s Audit  Committee, serve in their respective capacities on  the Board and its committees as representatives  of the shareholder group with pooled voting  rights and receive the remuneration set forth  in the Remuneration Report on page 174 and in  the Finance Report, Note 32 to the Roche Group  Consolidated Financial Statements (‘Related  parties’, page 135). No other relationships exist  with the shareholders with pooled voting rights. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Occupational health and safety In 2021 the pandemic continued to impact  operations at Roche. However, manufacturing and  related activities were kept running during this time.  In some countries, due to decreasing case numbers,  operations resumed on-site at least temporarily  while in other countries, most employees continued  to work remotely. "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_e724e95f.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_dfb9aad0.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Finally, I would like to draw your attention to a  number of changes on the Roche Board of Directors.  After ten years as a member of the Board of  Directors, Paul Bulcke has decided not to stand  for re-election at the General Meeting in 2022.  "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "With the exception of Dr Severin Schwan none of  the members of the Board of Directors in office  at the end of 2021 has been a member of Roche’s  Corporate Executive Committee or served in an  executive capacity at any Group subsidiary during  the five financial years preceding the current  reporting period and they are for lack of existing  business connections with the Group or any  Group subsidiary independent. Roche’s Board of  "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "The Diagnostics Division reported strong sales  growth of  $29\\%$   to CHF 17.8 billion. The division’s  base business showed strong momentum  throughout 2021 (overall  $+16\\%,$  . With sales  totalling CHF 4.7 billion, Roche’s leading portfolio  of COVID-19 tests contributed significantly to the  division’s overall sales. "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_560ba58b.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_ce2668cc.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Risk Advisory team and the overall process  reviewed by the Audit Committee of the Board of  Directors, and reviewed externally when appropriate.  Risk management is embedded at all levels of the  Roche Group. Our Pharmaceuticals and Diagnostics  divisions and global functions conduct a formal  risk and opportunity assessment process at least  once a year and must develop response plans for  their most material risks and opportunities. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Major shareholders are listed in the Finance  Report, Notes 22 and 32 to the Roche Group  Consolidated Financial Statements (‘Equity  attributable to Roche shareholders’ and ‘Related  parties’, pages 95 and 135), and in Note 4 to  the Financial Statements of Roche Holding Ltd  (‘Significant shareholders’, page 181). In addition,  significant shareholders are published on the  "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Reporting scope and boundaries Our financial and non-financial reporting consists  of the Annual Report, the Finance Report and  the online report. It contains the annual financial  statements, consolidated financial statements and  non-financial performance indicators. It covers  all regions and divisions of the Roche Group from  1 January to 31 December 2021. The financial  reporting scope is defined and outlined in our  Finance Report, and there have been no significant  changes in scope in 2021 compared to 2020. "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_df7e3b84.png"
+                        }
+                    }
+                ]
+            ]
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "The Diagnostics division changed from business areas (Centralised and Point of Care Solutions, Molecular Diagnostics, Tissue Diagnostics, Diabetes Care) to customer areas (COVID-19 Testing, Diabetes Care, Molecular Diagnostics, Central Lab, Pathology Lab) in 2021",
+                "The Diagnostics division changed from business areas (Centralised and Point of Care Solutions, Molecular Diagnostics, Tissue Diagnostics, Diabetes Care) to business areas (COVID-19 Testing, Diabetes Care, Molecular Diagnostics, Central Lab) in 2021",
+                "The Diagnostics division changed from business areas (Centralised and Point of Care Solutions, Molecular Diagnostics, Tissue Diagnostics, Diabetes Care) to customer areas (Core Lab, Molecular Lab, Point of Care, Pathology Lab, Diabetes Care) in 2021.",
+                "The Diagnostics division changed from business areas (Centralised and Point of Care Solutions, Molecular Diagnostics, Tissue Diagnostics, Diabetes Care) to business segments (Roche Diagnostics, Chugai Diagnostics, Genentech Diagnostics) in 2021"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_literature_economy_c308cd05",
+                    "insert_conversation_turn": 77
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_economy_technology_animals_c4b6af41",
+                    "insert_conversation_turn": 1137,
+                    "reference_name": "Fig. 1ef076bd"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_animals_music_education_6abf43e7",
+                    "insert_conversation_turn": 124,
+                    "reference_name": "Doc. 1e5496dc"
+                }
+            ]
+        },
+        "meta_data": {
+            "category": "Financial report",
+            "doc_name": "roche-holdings_2021",
+            "gold_quotes": [
+                "image7",
+                "text1"
+            ],
+            "topic": [
+                "business",
+                " health"
+            ],
+            "original_question": "How has Roche's Diagnostics division structure changed from 2020 to 2021, and who are the key executives overseeing these divisions?"
+        }
+    },
+    {
+        "id": "baa9dc3c",
+        "domain": "MMDocRAG",
+        "category": "Single_Hop_QA",
+        "question": "Based on Doc. c9d62e32, Doc. bdeb13de, Doc. 17ac2f45, What was the total remuneration for Non-Executive Directors in 2020?",
+        "answer": "The total remuneration for Non-Executive Directors in 2020 was $453,333.",
+        "evidence": {
+            "text_evidence": [],
+            "image_evidence": [],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": [
+                [
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "We have audited the Remuneration Report included in  section 9 of the Directors’ report for the year ended 28  June 2020.   "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "(a) the consolidated financial statements and notes that are set out on pages 34 to 75 and the Remuneration report in  the Directors’ report, are in accordance with the Corporations Act 2001, including:  "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "During the financial year, Lovisa Holdings Limited paid a  premium of   $\\S309{,}000$   (2019:  $\\S303,000)$  ) to insure the  Directors and officers of the Group. "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_57ec3f12.png"
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_c2c5f881.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "The Board strongly believes that the remuneration structures  in place for the executive team, and in particular the  Managing Director, Shane Fallscheer, are appropriate. The  Board were therefore disappointed to receive votes against  the Remuneration Report at the 2019 Annual General  Meeting totalling  $32.5\\%$   of votes cast.  It is the Board’s  understanding that the primary concern of shareholders  in relation to the remuneration practices of the Group is in  relation to the quantum of the Managing Director’s fixed  remuneration, with concerns raised in relation to relativity   to other similar sized Australian ASX listed retailers. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "(a) Non-Executive Directors KMP Remuneration Non-executive Directors’ fees are determined within  an aggregate Non-executive Directors’ pool limit of   $\\S60\\breve{0},\\breve{0}0\\breve{0}$  . Total Non-executive Directors’ remuneration  including non-monetary benefits and superannuation paid  at the statutory prescribed rate for the year ended 28 June  2020 was   $\\S4\\Dot{5}3,333$  . Brett Blundy, the Non-executive  Chairman, is entitled to receive annual fees of   $\\Updownarrow\\,\\updownarrow\\,\\updownarrow0,000,$    which is inclusive of superannuation. Other Non-executive  Directors are entitled to receive annual fees of between   $\\S60,000$   to   $\\S80,000$   inclusive of superannuation.  "
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "1.\t Base salary and benefits including superannuation 2.\t Short term incentive scheme comprising cash  3.\t Long term incentive scheme comprising options The mix of fixed and at risk components for each Senior  Executive as a percentage of total target remuneration for  the 2020 financial year is as follows: "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_aa4de475.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_57346f05.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "9.5 Details of Remuneration "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Details of the remuneration of the Directors and Key Management Personnel (KMPs) is set out below. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "The Group has qualified for, and complied with the conditions to receive, wage subsidy grants in most of the territories in  which it operates.  The payments received have been recognised as a government grant because the wage subsidy has  been provided with the objective of keeping our employees connected to the Group during the COVID-19 crisis period.   The grant income has been presented net of the related salaries and wages expense.  During 2020 the Group has  recognised   $\\S\\mid\\mid,832,000$   (2019: nil) of wage subsidy grants in “salaries and employee benefits expense”, which for some  employees includes a component of “top-up pay” as a result of certain wage subsidies being higher than their ordinary  weekly pay. Refer to note A3. "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_a1dbcb1f.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_e268d72e.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Included in expenses in the period is   $\\S\\,]\\,50,000$   relating to Directors fees for Brett Blundy in his capacity as Director and  Chairman of the Company. Transactions between the Lovisa Group and BB Retail Capital and its related parties have been  disclosed above due to BB Retail Capital continuing to be in a position of holding significant influence in relation to the Group,  with representation on the Board of Directors. Lovisa has, and will continue to benefit from the relationships that its management  team and BB Retail Capital have developed over many years of retail operating experience. Non property management related  expense recharges are also priced on an arms length basis. The Group will continue to utilise BBRC Retail Capital’s retail  operating experience on an arms length basis. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "It is also important to remember that as a successful  global retailer, the company needs to be sourcing and  remunerating executives with reference to appropriate  global benchmarks, not just other Australian listed  companies.  As a result, the Board have maintained the  same remuneration package for Shane for the 2020  financial year, with the only change being the additional LTI  grant made during the year as detailed below.  No change  has been made to the level of his fixed base remuneration  of  $\\S\\,]\\,,500,000$  . "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "•\t The performance period commences 2 July 2018  and ends 27 June 2021.\n\n •\t The exercise price of the Performance Options is   $\\Updownarrow0.95,$   which represents the 30 day VWAP to the  date of grant.\n\n •\t A total of 2,758,608 Performance Options were  granted, with 2,564,103 of these options subject to  shareholder approval.\n\n •\t The grant of Performance Options are subject to  performance conditions based on delivering the  Company’s EBIT target over the performance period,  as set out below.                                                      \n\n •\t For Performance Options granted to the Managing  Director, the Performance Options will be tested at  the end of the performance period, and if they are  determined to have vested they will then be subject  to a further 2 year holding restriction period ending  2 July 2023, after which time they may be exercised  up to their expiry date being 12 months following  the end of the restriction period.\n\n •\t For executives other than the Managing Director,  the expiry of the Performance Options is 12 months  following the end of the performance period.\n\n •\t The Performance Options granted to the Managing  Director were approved at the 2018 AGM.\n\n •\t 18,315 options were forfeited during the year.  "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_9bacf02f.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_e2d6f925.png"
+                        }
+                    }
+                ]
+            ]
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "$309,000",
+                "$50,000",
+                "The total remuneration for Non-Executive Directors in 2020 was $453,333.",
+                "$391,333"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [],
+            "image_evidence_assignment": [],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_animals_music_education_6abf43e7",
+                    "insert_conversation_turn": 770,
+                    "reference_name": "Doc. c9d62e32"
+                },
+                {
+                    "conversation_name": "group_chat_economy_technology_animals_c4b6af41",
+                    "insert_conversation_turn": 1158,
+                    "reference_name": "Doc. bdeb13de"
+                },
+                {
+                    "conversation_name": "group_chat_music_literature_economy_c308cd05",
+                    "insert_conversation_turn": 746,
+                    "reference_name": "Doc. 17ac2f45"
+                }
+            ]
+        },
+        "meta_data": {
+            "category": "Financial report",
+            "doc_name": "ASX_LOV_2020",
+            "gold_quotes": [
+                "text5",
+                "image1"
+            ],
+            "topic": [
+                "business",
+                " economy"
+            ],
+            "original_question": "What was the total remuneration for Non-Executive Directors in 2020?"
+        }
+    },
+    {
+        "id": "QA_sample_e8cd46a1",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. c872ddc9, the text, what was the percentage decline in job advertisements around 2009, and did it qualify as a \"significant\" decline according to the definition of exceeding a 20% drop relative to the seasonally adjusted peak?",
+        "answer": "The job advertisements declined by over 50%, exceeding the 20% threshold for significance.",
+        "evidence": {
+            "text_evidence": [
+                "A sharp decline in job advertisements is considered significant if it exceeds a 20% drop relative to the highest number of job ads in the same dataset. The highest number here refers to the seasonally adjusted peak within the available years (2005 to 2019)."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_a0d0d1cf.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "The job advertisements declined by approximately 30% barely exceeding the threshold for significance",
+                "The job advertisements declined by less than 20% not exceeding the threshold for significance",
+                "The job advertisements declined by 15% falling short of the threshold for significance",
+                "The job advertisements declined by over 50%, exceeding the 20% threshold for significance."
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_literature_economy_c308cd05",
+                    "insert_conversation_turn": 489
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_animals_music_education_6abf43e7",
+                    "insert_conversation_turn": 743,
+                    "reference_name": "Fig. c872ddc9"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "economy",
+                "business"
+            ],
+            "original_question": "the text, what was the percentage decline in job advertisements around 2009, and did it qualify as a \"significant\" decline according to the definition of exceeding a 20% drop relative to the seasonally adjusted peak?"
+        }
+    },
+    {
+        "id": "374c45cb",
+        "domain": "MMDocRAG",
+        "category": "Single_Hop_QA",
+        "question": "Based on Doc. b4622531, Doc. 0674768b, Doc. 7131dca5, What was the shipment volume of Marlboro cigarettes in 2020 according to PMI's report?",
+        "answer": "The shipment volume of Marlboro cigarettes in 2020 was 233,158 million units.",
+        "evidence": {
+            "text_evidence": [],
+            "image_evidence": [],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": [
+                [
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Our cigarettes are sold in more than 175 markets, and in many of these markets they hold the number one or number two market share  position. We have a wide range of premium, mid-price and low-price brands. Our portfolio comprises both international and local  brands and is led by  Marlboro , the world’s best-selling international cigarette, which accounted for approximately   $37\\%$   of our total  2020 cigarette shipment volume.  Marlboro  is complemented in the premium-price category by  Parliament . Our other leading  international cigarette brands are  Bond Street, Chesterfield, L&M ,  Lark  and  Philip Morris.  These seven international cigarette brands  contributed approximately  $79\\%$   of our cigarette shipment volume in 2020. We also own a number of important local cigarette brands,  such as  Dji Sam Soe ,  Sampoerna  $A$    and  Sampoerna   $U$    in Indonesia, and  Fortune  and  Jackpot  in the Philippines.    "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Our total international cigarette sales volume as a percentage of total industry cigarette sales volume was down by 1.2 points to  $25.7\\%$  ,  mainly reflecting: out-switching to heated tobacco units, as well as lower cigarette market share and/or an unfavorable geographic mix  impact, notably in Indonesia, Mexico, the Philippines and PMI Duty Free, partly offset by Brazil and Germany. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "References to total international market, defined as worldwide cigarette and heated tobacco unit volume excluding the United States,  total industry, total market and market shares in this Form 10-K are our estimates for tax-paid products based on the latest available  data from a number of internal and external sources and may, in defined instances, exclude the People's Republic of China and/or our  duty free business.  Unless otherwise stated, references to total industry, total market, our shipment volume and our market share  performance reflect cigarettes and heated tobacco units.  In addition, to reflect the deconsolidation of RBH, effective March 22, 2019,  PMI's total market share has been restated for previous periods. "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_f79f11d3.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_845c01ac.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Estimated international industry cigarette and heated tobacco unit volume, excluding China and the United States, of 2.5 trillion,  decreased by  $5.8\\%$  , due to all PMI Regions, as described in the Regional sections below. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "\t Total cigarette and heated tobacco unit (HTU) shipment  volume of 704.6 billion units decreased by  $8.1\\%$  , or by  $7.9\\%$   on a  like-for-like 1  basis, reflecting lower cigarette volume, mainly due to  industry-wide COVID-related disruption, particularly in the second  quarter. HTU shipment volume increased by  $27.6\\%$  , to 76.1 billion  units, driven by the strong growth of  IQOS . "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Our cigarette shipment volume of the following brands decreased:  \n\n "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_a1c521ef.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_68655696.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Excluding the volume impact from the RBH deconsolidation of approximately 1.0 billion units (reflecting first quarter 2019 volume of  RBH-owned brands and including Duty-Free sales of these brands in Canada), PMI's total shipment volume decreased by  $7.9\\%$  . "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Shipments of our principal cigarette brand,  Marlboro , decreased by   $11.3\\%$   in 2020 and represented approximately   $9.5\\%$   of the  international cigarette market, excluding the PRC, in 2020,  $10.0\\%$   in 2019 and  $9.7\\%$   in 2018.  "
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "References to total international market, defined as worldwide cigarette and heated tobacco unit volume excluding the United States,  total industry, total market and market shares throughout this  \"Discussion and Analysis\"  are our estimates for tax-paid products based  on the latest available data from a number of internal and external sources and may, in defined instances, exclude the People's  Republic of China and/or our duty free business.  In addition, to reflect the deconsolidation of RBH, effective March 22, 2019, PMI's  total market share has been restated for previous periods. "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_30a75db0.png"
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_a9eb0154.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "• East Asia & Australia, reflecting lower cigarette shipment volume, predominantly in Japan, partly offset by higher heated tobacco  unit shipment volume driven by Japan; and\n\n • Latin America & Canada, reflecting lower cigarette shipment volume, primarily in Argentina and Mexico, partially offset by  Brazil. Excluding the volume impact from the RBH deconsolidation, our total shipment volume in the Region decreased by   $10.3\\%$  ; "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Total shipment volume of heated tobacco units reached 76.1 billion units in 2020, up from 59.7 billion units in 2019.   "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Our total shipments, including cigarettes and heated tobacco units, decreased by   $8.1\\%$   in 2020 to 704.6 billion units.  We estimate that  international industry volumes, including cigarettes and heated tobacco units, were approximately 4.9 trillion units in 2020, a   $3.0\\%$    decrease from 2019.  Excluding the People’s Republic of China (“PRC”), we estimate that international cigarette and heated tobacco  unit volume was 2.5 trillion units in 2020, a   $5.8\\%$   decrease from 2019.  We estimate that our reported share of the international market \n\n (which is defined as worldwide cigarette and heated tobacco unit volume, excluding the United States of America) was approximately \n\n  $14.4\\%$   in 2020,   $15.1\\%$   in 2019 and   $15.2\\%$   in 2018.  Excluding the PRC, we estimate that our reported share of the international market  was approximately   $27.7\\%$  ,   $28.4\\%$  , and  $28.3\\%$   in 2020, 2019 and 2018, respectively.  "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_c19b10ab.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_91a7962a.png"
+                        }
+                    }
+                ]
+            ]
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "229,874 million units",
+                "The shipment volume of Marlboro cigarettes in 2020 was 233,158 million units.",
+                "221,563 million units",
+                "237,421 million units"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [],
+            "image_evidence_assignment": [],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_literature_economy_c308cd05",
+                    "insert_conversation_turn": 314,
+                    "reference_name": "Doc. b4622531"
+                },
+                {
+                    "conversation_name": "group_chat_economy_technology_animals_c4b6af41",
+                    "insert_conversation_turn": 120,
+                    "reference_name": "Doc. 0674768b"
+                },
+                {
+                    "conversation_name": "group_chat_music_literature_economy_c308cd05",
+                    "insert_conversation_turn": 1034,
+                    "reference_name": "Doc. 7131dca5"
+                }
+            ]
+        },
+        "meta_data": {
+            "category": "Financial report",
+            "doc_name": "NYSE_PM_2020",
+            "gold_quotes": [
+                "image5",
+                "text8"
+            ],
+            "topic": [
+                "business",
+                " economy"
+            ],
+            "original_question": "What was the shipment volume of Marlboro cigarettes in 2020 according to PMI's report?"
+        }
+    },
+    {
+        "id": "QA_sample_c9bd85da",
+        "domain": "MLLMKC",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. 463f8241, What are the main products of this brand?",
+        "answer": "e-commerce platform",
+        "evidence": {
+            "text_evidence": [
+                "Amazon was founded in 1994. The creator of Amazon is Jeff Bezos. Amazon is the brand of e-commerce platform."
+            ],
+            "image_evidence": [
+                "MLLMKC_3e361e33.jpg"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Amazon was founded in 1994. The creator of Amazon is Jeff Bezos. Amazon is the brand of fast food chain."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "fast food chain",
+                "cosmetics brand",
+                "e-commerce platform",
+                "automobile manufacturer"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_animals_music_education_6abf43e7",
+                    "insert_conversation_turn": 608
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_economy_technology_animals_c4b6af41",
+                    "insert_conversation_turn": 43,
+                    "reference_name": "Fig. 463f8241"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_literature_economy_c308cd05",
+                    "insert_conversation_turn": 1130
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "instance": "Amazon",
+            "category": "logo",
+            "error_type": "content_error",
+            "topic": [
+                "business",
+                "technology"
+            ],
+            "original_question": "What are the main products of this brand?"
+        }
+    },
+    {
+        "id": "QA_sample_64947392",
+        "domain": "MLLMKC",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. f083c877, Who established the brand corresponding to the logo?",
+        "answer": "Frederick W. Smith",
+        "evidence": {
+            "text_evidence": [
+                "FedEx was created in 1971. The creator of FedEx is Frederick W. Smith. FedEx is the brand of courier delivery services."
+            ],
+            "image_evidence": [
+                "MLLMKC_c1d82886.jpg"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "FedEx was created in 1971. The creator of FedEx is Elon Musk. FedEx is the brand of courier delivery services."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "Howard Schultz",
+                "Steve Jobs",
+                "Elon Musk",
+                "Frederick W. Smith"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_literature_economy_c308cd05",
+                    "insert_conversation_turn": 455
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_economy_technology_animals_c4b6af41",
+                    "insert_conversation_turn": 556,
+                    "reference_name": "Fig. f083c877"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_animals_music_education_6abf43e7",
+                    "insert_conversation_turn": 20
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "instance": "FedEx",
+            "category": "logo",
+            "error_type": "creator_error",
+            "topic": [
+                "business"
+            ],
+            "original_question": "Who established the brand corresponding to the logo?"
+        }
+    },
+    {
+        "id": "QA_sample_70307164",
+        "domain": "MLLMKC",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. fa09ac7e, What are the main products of this brand?",
+        "answer": "electronics",
+        "evidence": {
+            "text_evidence": [
+                "LG was created in 1947. The creator of LG is Koo In-hwoi, and LG is the brand of electronics."
+            ],
+            "image_evidence": [
+                "MLLMKC_e8ce62db.jpg"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "LG was created in 1947. The creator of LG is Koo In-hwoi, and LG is the brand of clothing items."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "cosmetics",
+                "clothing items",
+                "food items",
+                "electronics"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_literature_economy_c308cd05",
+                    "insert_conversation_turn": 299
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_animals_music_education_6abf43e7",
+                    "insert_conversation_turn": 1261,
+                    "reference_name": "Fig. fa09ac7e"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_economy_technology_animals_c4b6af41",
+                    "insert_conversation_turn": 318
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "instance": "LG",
+            "category": "logo",
+            "error_type": "content_error",
+            "topic": [
+                "business",
+                " technology"
+            ],
+            "original_question": "What are the main products of this brand?"
+        }
+    },
+    {
+        "id": "QA_sample_df0ee4c3_1",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 721fe00e, Among the activities that could reasonably occur in the given image, which one is Miles Roberts least likely to be doing?",
+        "answer": "Enjoying rock concerts",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Miles Roberts enjoys K-pop concerts, anime series, but dislikes rock concerts, indie films",
+                "In terms of lifestyle, Miles Roberts enjoys hot yoga, pilates, but dislikes forest bathing, holistic therapy"
+            ],
+            "image_evidence": [
+                "MMPB_73dc3548.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Miles Roberts enjoys road trips, city tours, but dislikes sailing, paragliding",
+                "In terms of shopping, Miles Roberts enjoys soundproofing panels, sleep-enhancing gadgets, but dislikes compact fitness equipment, desk organizers",
+                "In terms of fashion, Miles Roberts enjoys statement jewelry, minimalist rings, but dislikes vintage style, formal suits."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "Doing forest bathing",
+                "Attending live theater performances",
+                "Enjoying rock concerts",
+                "Enjoying symphony orchestra concerts"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_economy_technology_animals_c4b6af41",
+                    "insert_conversation_turn": 169
+                },
+                {
+                    "conversation_name": "group_chat_economy_technology_animals_c4b6af41",
+                    "insert_conversation_turn": 509
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_animals_music_education_6abf43e7",
+                    "insert_conversation_turn": 438,
+                    "reference_name": "Fig. 721fe00e"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_economy_technology_animals_c4b6af41",
+                    "insert_conversation_turn": 980
+                },
+                {
+                    "conversation_name": "group_chat_music_literature_economy_c308cd05",
+                    "insert_conversation_turn": 661
+                },
+                {
+                    "conversation_name": "group_chat_economy_technology_animals_c4b6af41",
+                    "insert_conversation_turn": 494
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Tommy",
+            "description": "Tommy is a tall, slender individual with a well-defined jawline and a strong, angular facial structure. Their skin tone is fair, and they have striking blue eyes that are often seen gazing intently, adding to their enigmatic presence. Tommy sports short, neatly combed hair, and in some images, they wear a flat cap, which complements their overall look. The facial expressions range from contemplative to serious, with a hint of intensity that suggests a deep thinker or someone with a strong sense of purpose. The consistent pose across the images, often with a hand in the pocket or a cigarette in hand, conveys a sense of confidence and composure.\n\n**Outfit and Accessories:**\nTommy is consistently dressed in a formal, vintage-inspired style, characterized by a dark, tailored suit with a vest and a white shirt. The suit is often paired with a dark tie, adding to the classic and sophisticated appearance. The color palette is predominantly dark, with shades of navy and charcoal, which gives a timeless and elegant feel. The texture of the fabric appears to be high-quality wool, suitable for a formal setting. Tommy frequently wears a flat cap, which adds a touch of character and reinforces the vintage aesthetic. Accessories such as a pocket watch chain and a cigarette are recurring elements, suggesting a meticulous and perhaps slightly rebellious personality. The overall outfit exudes a sense of practicality and formality, with a touch of whimsy that defines Tommy's unique style.\n\n**Distinguishing Visual Features or Vibe:**\nThe most memorable and defining features of Tommy are their striking blue eyes, which are a focal point in every image. The consistent use of a dark, tailored suit with a flat cap creates a distinctive silhouette that is both timeless and character-defining. The recurring presence of a cigarette and a pocket watch chain adds to the vintage vibe, suggesting a connection to a bygone era. The overall aura conveyed by Tommy is one of mystery and intrigue, with a hint of sophistication and a touch of rebellion. The consistent use of dark colors and the vintage style creates a cohesive and unmistakable visual identity that is both memorable and captivating.",
+            "preference": "In terms of entertainment, Tommy enjoys K-pop concerts, anime series, but dislikes rock concerts, indie films. In terms of travel, Tommy enjoys road trips, city tours, but dislikes sailing, paragliding. In terms of lifestyle, Tommy enjoys hot yoga, pilates, but dislikes forest bathing, holistic therapy. In terms of shopping, Tommy enjoys soundproofing panels, sleep-enhancing gadgets, but dislikes compact fitness equipment, desk organizers. In terms of fashion, Tommy enjoys statement jewelry, minimalist rings, but dislikes vintage style, formal suits.",
+            "topic": [],
+            "original_id": "QA_sample_df0ee4c3",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Miles Roberts least likely to be doing?"
+        }
+    }
+]

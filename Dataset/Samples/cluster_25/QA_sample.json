@@ -1,0 +1,2973 @@
+[
+    {
+        "id": "QA_sample_6f63618f",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 90ad8b75, the text, which racial/ethnic groups meet both criteria—having \"poverty percentages above 20%\" and \"accounting for at least 20% of the total U.S. population living below the poverty line\"—to qualify for the social aid program?",
+        "answer": "Hispanics, African Americans",
+        "evidence": {
+            "text_evidence": [
+                "To prioritize resources, a social aid program is designed to focus on racial/ethnic groups with poverty percentages above 20%, provided they account for at least 20% of the total U.S. population living below the poverty line. Program planners need to identify which groups meet both criteria for targeting aid."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_f60b9697.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "Caucasians, Asians",
+                "Asians, Hispanics",
+                "Caucasians, African Americans",
+                "Hispanics, African Americans"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_literature_films_art_and_design_9986c616",
+                    "insert_conversation_turn": 16
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_business_religion_animals_63486462",
+                    "insert_conversation_turn": 672,
+                    "reference_name": "Fig. 90ad8b75"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "health",
+                "government",
+                "economy"
+            ],
+            "original_question": "the text, which racial/ethnic groups meet both criteria—having \"poverty percentages above 20%\" and \"accounting for at least 20% of the total U.S. population living below the poverty line\"—to qualify for the social aid program?"
+        }
+    },
+    {
+        "id": "QA_sample_d205ebd2",
+        "domain": "MLLMKC",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. f426902f, When was the brand associated with the logo established?",
+        "answer": "1997",
+        "evidence": {
+            "text_evidence": [
+                "Netflix was created in 1997. The creator of Netflix is Reed Hastings. Netflix is the brand of streaming service."
+            ],
+            "image_evidence": [
+                "MLLMKC_5b64cc20.jpg"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Netflix was created in 1995. The creator of Netflix is Reed Hastings. Netflix is the brand of streaming service."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "1995",
+                "2000",
+                "1997",
+                "1998"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_literature_films_art_and_design_9986c616",
+                    "insert_conversation_turn": 940
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_business_religion_animals_63486462",
+                    "insert_conversation_turn": 327,
+                    "reference_name": "Fig. f426902f"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_sports_politics_transportation_e7108499",
+                    "insert_conversation_turn": 186
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "instance": "Netflix",
+            "category": "logo",
+            "error_type": "time_error",
+            "topic": [
+                "television",
+                " technology",
+                " business"
+            ],
+            "original_question": "When was the brand associated with the logo established?"
+        }
+    },
+    {
+        "id": "QA_sample_81cc8ed5",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 418f95ee, the text, which age groups should be prioritized for immediate vaccination according to the criterion of having an \"estimated active COVID-19 case rate exceeding 4,000 cases per 100,000 people\"?",
+        "answer": "20-29 and 30-39",
+        "evidence": {
+            "text_evidence": [
+                "A government health initiative is considering prioritizing vaccination for age groups that have shown the highest estimated active COVID-19 case rates per 100,000 people over the last week of the analyzed data in January. Any age group exceeding an estimated rate of 4,000 cases per 100,000 people will be considered for immediate prioritization."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_f216bdc0.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "0-19 and 60+",
+                "40-49 and 50-59",
+                "30-39 and 40-49",
+                "20-29 and 30-39"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_business_religion_animals_63486462",
+                    "insert_conversation_turn": 150
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_literature_films_art_and_design_9986c616",
+                    "insert_conversation_turn": 1028,
+                    "reference_name": "Fig. 418f95ee"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "health",
+                "government"
+            ],
+            "original_question": "the text, which age groups should be prioritized for immediate vaccination according to the criterion of having an \"estimated active COVID-19 case rate exceeding 4,000 cases per 100,000 people\"?"
+        }
+    },
+    {
+        "id": "QA_sample_62e08519",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 89bd097a, the text, which policy recommendations meet the eligibility criteria of \"receiving support from more than 50% of respondents\" and not having a \"'Should not' response rate exceeding 40%\" for pursuit according to the survey data?",
+        "answer": "'Place a time limit of eight years on how long someone can serve in the Senate of Canada' and 'Eliminate the 2 dollar per vote public funding of federal political parties.'",
+        "evidence": {
+            "text_evidence": [
+                "A policy recommendation will only be pursued if it receives support from more than 50% of respondents in surveys. Additionally, any proposal with a 'Should not' response rate exceeding 40% will automatically be rejected, even if the 'Should' response rate is higher than 50%."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_a20b1743.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "'Place a time limit of eight years on how long someone can serve in the Senate of Canada' and 'Eliminate the 2 dollar per vote public funding of federal political parties.'",
+                "'Eliminate the long gun registry' and 'Continue with its plan to purchase 65 of the F-35 fighter jet aircraft'",
+                "'Cut program spending to help reduce the deficit' and 'Cut the corporate tax rate from 16.5 percent to 15 percent'",
+                "'Cut program spending to help reduce the deficit' and 'Eliminate the long gun registry'"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_literature_films_art_and_design_9986c616",
+                    "insert_conversation_turn": 736
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_sports_politics_transportation_e7108499",
+                    "insert_conversation_turn": 765,
+                    "reference_name": "Fig. 89bd097a"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "politics",
+                "government",
+                "economy"
+            ],
+            "original_question": "the text, which policy recommendations meet the eligibility criteria of \"receiving support from more than 50% of respondents\" and not having a \"'Should not' response rate exceeding 40%\" for pursuit according to the survey data?"
+        }
+    },
+    {
+        "id": "QA_sample_6873bacd",
+        "domain": "MLLMKC",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. 4d2b7947, What is the nationality of the person in the picture?",
+        "answer": "South African",
+        "evidence": {
+            "text_evidence": [
+                "Trevor Noah was born on February 20, 1984. Trevor Noah is South African. Trevor Noah is a comedian, television host, and author."
+            ],
+            "image_evidence": [
+                "MLLMKC_9b0e5c78.jpg"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Trevor Noah was born on February 20, 1984. Trevor Noah is Namibian. Trevor Noah is a comedian, television host, and author."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "Namibian",
+                "'Zambian'",
+                "Zimbabwean",
+                "South African"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_business_religion_animals_63486462",
+                    "insert_conversation_turn": 312
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_sports_politics_transportation_e7108499",
+                    "insert_conversation_turn": 622,
+                    "reference_name": "Fig. 4d2b7947"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_literature_films_art_and_design_9986c616",
+                    "insert_conversation_turn": 119
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "instance": "Trevor Noah",
+            "category": "people",
+            "error_type": "location_error",
+            "topic": [
+                "television",
+                " literature",
+                " lifestyle"
+            ],
+            "original_question": "What is the nationality of the person in the picture?"
+        }
+    },
+    {
+        "id": "QA_sample_38fffa23",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 5ab26289, the text, which states on the map have a confirmed case count that exceeds the \"threshold for eligibility for additional federal pandemic relief funding\"?",
+        "answer": "California, Texas, and Florida.",
+        "evidence": {
+            "text_evidence": [
+                "A state's ability to receive federal pandemic relief funding depends on whether its confirmed case count exceeds the threshold of 1,000,000. States under this threshold prioritize distributing existing resources locally without additional federal aid. The map provides information on confirmed cases and fatalities as of January 18, 2021."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_de5f9689.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "New York, Georgia, and Illinois",
+                "Michigan, Arizona, and New Jersey",
+                "Ohio, Pennsylvania, and North Carolina",
+                "California, Texas, and Florida."
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_business_religion_animals_63486462",
+                    "insert_conversation_turn": 1356
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_sports_politics_transportation_e7108499",
+                    "insert_conversation_turn": 1025,
+                    "reference_name": "Fig. 5ab26289"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "health",
+                "government",
+                "economy"
+            ],
+            "original_question": "the text, which states on the map have a confirmed case count that exceeds the \"threshold for eligibility for additional federal pandemic relief funding\"?"
+        }
+    },
+    {
+        "id": "QA_sample_a66bfb05",
+        "domain": "MLLMKC",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. c31ad252, What is the occupation of the person in the picture?",
+        "answer": "singer, songwriter, and television judge",
+        "evidence": {
+            "text_evidence": [
+                "Katy Perry was born on October 25, 1984. Katy Perry is American. Katy Perry is a singer, songwriter, and television judge."
+            ],
+            "image_evidence": [
+                "MLLMKC_b39a06a0.jpg"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Katy Perry was born on October 25, 1984. Katy Perry is American. Katy Perry is a chef, songwriter, and television judge."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "chef",
+                "singer, songwriter, and television judge",
+                "architect",
+                "photographer, painter, and art curator"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_literature_films_art_and_design_9986c616",
+                    "insert_conversation_turn": 466
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_sports_politics_transportation_e7108499",
+                    "insert_conversation_turn": 518,
+                    "reference_name": "Fig. c31ad252"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_business_religion_animals_63486462",
+                    "insert_conversation_turn": 20
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "instance": "Katy Perry",
+            "category": "people",
+            "error_type": "Career_error",
+            "topic": [
+                "television",
+                " music"
+            ],
+            "original_question": "What is the occupation of the person in the picture?"
+        }
+    },
+    {
+        "id": "QA_sample_c6b06e8e",
+        "domain": "MLLMKC",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. 8b25268b, What is the occupation of the person in the picture?",
+        "answer": "chef, restaurateur, and television personality",
+        "evidence": {
+            "text_evidence": [
+                "Gordon Ramsay was born on November 8, 1966. Gordon Ramsay is British. Gordon Ramsay is a chef, restaurateur, and television personality."
+            ],
+            "image_evidence": [
+                "MLLMKC_119035ae.jpg"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Gordon Ramsay was born on November 8, 1966. Gordon Ramsay is British. Gordon Ramsay is a firefighter, restaurateur, and television personality."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "chef, restaurateur, and television personality",
+                "architect",
+                "gardener, landscaper, horticulturist",
+                "firefighter"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_sports_politics_transportation_e7108499",
+                    "insert_conversation_turn": 750
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_business_religion_animals_63486462",
+                    "insert_conversation_turn": 960,
+                    "reference_name": "Fig. 8b25268b"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_literature_films_art_and_design_9986c616",
+                    "insert_conversation_turn": 333
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "instance": "Gordon Ramsay",
+            "category": "people",
+            "error_type": "Career_error",
+            "topic": [
+                "television",
+                " food",
+                " lifestyle"
+            ],
+            "original_question": "What is the occupation of the person in the picture?"
+        }
+    },
+    {
+        "id": "QA_sample_5152c4a8",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. affce181, According to the previous definition, which age group in Canada is considered the primary focus for seniors' benefits due to having the \"highest percentage of individuals living alone\" based on the 2016 Census data?",
+        "answer": "65 years and over",
+        "evidence": {
+            "text_evidence": [
+                "In Canada, individuals aged 65 years and over are often eligible for seniors' benefits, which include assistance programs designed to support those who live alone. To prioritize funding, eligibility is focused on age groups with the highest percentage of people living alone according to the 2016 Census data. Programs aim to target the larger disparity between men and women living alone as well."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_94f38769.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "60 to 64 years",
+                "55 to 59 years",
+                "50 to 54 years",
+                "65 years and over"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_literature_films_art_and_design_9986c616",
+                    "insert_conversation_turn": 1434
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_business_religion_animals_63486462",
+                    "insert_conversation_turn": 654,
+                    "reference_name": "Fig. affce181"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "government",
+                "health",
+                "lifestyle"
+            ],
+            "original_question": "According to the previous definition, which age group in Canada is considered the primary focus for seniors' benefits due to having the \"highest percentage of individuals living alone\" based on the 2016 Census data?"
+        }
+    },
+    {
+        "id": "QA_sample_0343d84d",
+        "domain": "MLLMKC",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. 96de3f1c, What is the nationality of the person in the picture?",
+        "answer": "American",
+        "evidence": {
+            "text_evidence": [
+                "Courteney Cox was born on June 15, 1964. Courteney Cox is American. Courteney Cox is an actress, producer, and director."
+            ],
+            "image_evidence": [
+                "MLLMKC_7620c115.jpg"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Courteney Cox was born on June 15, 1964. Courteney Cox is Canadian. Courteney Cox is an actress, producer, and director."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "Panamanian",
+                "Mexican",
+                "Canadian",
+                "American"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_literature_films_art_and_design_9986c616",
+                    "insert_conversation_turn": 1336
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_sports_politics_transportation_e7108499",
+                    "insert_conversation_turn": 607,
+                    "reference_name": "Fig. 96de3f1c"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_business_religion_animals_63486462",
+                    "insert_conversation_turn": 621
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "instance": "Courteney Cox",
+            "category": "people",
+            "error_type": "location_error",
+            "topic": [
+                "television",
+                "films"
+            ],
+            "original_question": "What is the nationality of the person in the picture?"
+        }
+    },
+    {
+        "id": "QA_sample_ce032bde",
+        "domain": "MLLMKC",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. cd28c66c, Who established the brand corresponding to the logo?",
+        "answer": "United States government",
+        "evidence": {
+            "text_evidence": [
+                "NASA was created in 1958. The creator of NASA is the United States government. NASA is the brand of space exploration."
+            ],
+            "image_evidence": [
+                "MLLMKC_0b151626.jpg"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "NASA was created in 1958. The creator of NASA is Elon Musk. NASA is the brand of space exploration."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "the Soviet Union",
+                "the British monarchy",
+                "United States government",
+                "Elon Musk"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_business_religion_animals_63486462",
+                    "insert_conversation_turn": 298
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_sports_politics_transportation_e7108499",
+                    "insert_conversation_turn": 432,
+                    "reference_name": "Fig. cd28c66c"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_literature_films_art_and_design_9986c616",
+                    "insert_conversation_turn": 452
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "instance": "NASA",
+            "category": "logo",
+            "error_type": "creator_error",
+            "topic": [
+                "government",
+                "science",
+                "technology"
+            ],
+            "original_question": "Who established the brand corresponding to the logo?"
+        }
+    },
+    {
+        "id": "QA_sample_a0f66eb0",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 1a27b163, the text, in which year(s) did the \"threshold\" for non-EU net migration and the \"combined EU and non-EU adjusted immigration\" both get exceeded, thus requiring \"additional policies\" to be implemented?",
+        "answer": "2016 and 2018",
+        "evidence": {
+            "text_evidence": [
+                "To assess migration trends, a government policy introduces a threshold: if the non-EU net migration exceeds 150,000 individuals in a given year, additional policies must be implemented to control the influx. At the same time, the combined EU and non-EU adjusted immigration must also exceed 300,000 for this rule to take effect."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_0335094b.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "2014 and 2016",
+                "2016 and 2018",
+                "2015 and 2017",
+                "2013 and 2018"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_business_religion_animals_63486462",
+                    "insert_conversation_turn": 1105
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_sports_politics_transportation_e7108499",
+                    "insert_conversation_turn": 380,
+                    "reference_name": "Fig. 1a27b163"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "government",
+                "economy"
+            ],
+            "original_question": "the text, in which year(s) did the \"threshold\" for non-EU net migration and the \"combined EU and non-EU adjusted immigration\" both get exceeded, thus requiring \"additional policies\" to be implemented?"
+        }
+    },
+    {
+        "id": "QA_sample_1f512e1a",
+        "domain": "MLLMKC",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. 610ce8bc, What is the nationality of the person in the picture?",
+        "answer": "British",
+        "evidence": {
+            "text_evidence": [
+                "Henry Cavill was born on May 5, 1983. Henry Cavill is British. Henry Cavill is an actor."
+            ],
+            "image_evidence": [
+                "MLLMKC_d7a397cb.jpg"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Henry Cavill was born on May 5, 1983. Henry Cavill is Irish. Henry Cavill is an actor."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "British",
+                "Finnish",
+                "Irish",
+                "French"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_business_religion_animals_63486462",
+                    "insert_conversation_turn": 270
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_sports_politics_transportation_e7108499",
+                    "insert_conversation_turn": 592,
+                    "reference_name": "Fig. 610ce8bc"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_literature_films_art_and_design_9986c616",
+                    "insert_conversation_turn": 105
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "instance": "Henry Cavill",
+            "category": "people",
+            "error_type": "location_error",
+            "topic": [
+                "films",
+                "television"
+            ],
+            "original_question": "What is the nationality of the person in the picture?"
+        }
+    },
+    {
+        "id": "QA_sample_49ab760b",
+        "domain": "MLLMKC",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. 0622b8d3, What is the nationality of the person in the picture?",
+        "answer": "American",
+        "evidence": {
+            "text_evidence": [
+                "Donald Trump was born on June 14, 1946. Donald Trump is American. Donald Trump is a businessman, television personality, and politician."
+            ],
+            "image_evidence": [
+                "MLLMKC_cb0f5623.jpg"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Donald Trump was born on June 14, 1946. Donald Trump is Canadian. Donald Trump is a businessman, television personality, and politician."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "Panamanian",
+                "Mexican",
+                "American",
+                "Canadian"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_sports_politics_transportation_e7108499",
+                    "insert_conversation_turn": 577
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_business_religion_animals_63486462",
+                    "insert_conversation_turn": 1342,
+                    "reference_name": "Fig. 0622b8d3"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_literature_films_art_and_design_9986c616",
+                    "insert_conversation_turn": 181
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "instance": "Donald Trump",
+            "category": "people",
+            "error_type": "location_error",
+            "topic": [
+                "politics",
+                "government",
+                "business"
+            ],
+            "original_question": "What is the nationality of the person in the picture?"
+        }
+    },
+    {
+        "id": "QA_sample_a2a0a411",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 561a92a1, the text, how many years were classified as \"peak activity years\" and how many as \"low activity years\" according to the previous definitions of U.S. drone activity in Pakistan from 2004 to 2018?",
+        "answer": "2 peak activity years and 8 low activity years.",
+        "evidence": {
+            "text_evidence": [
+                "In evaluating the trends of U.S. drone strikes in Pakistan between 2004 and 2018, a year is considered a 'peak activity year' if it experienced more than 60 strikes. Conversely, a year is classified as a 'low activity year' if it experienced fewer than 5 strikes."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_42311320.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "2 peak activity years and 8 low activity years.",
+                "4 peak activity years and 6 low activity years",
+                "3 peak activity years and 7 low activity years",
+                "1 peak activity year and 9 low activity years"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_literature_films_art_and_design_9986c616",
+                    "insert_conversation_turn": 1229
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_business_religion_animals_63486462",
+                    "insert_conversation_turn": 461,
+                    "reference_name": "Fig. 561a92a1"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "government",
+                "history"
+            ],
+            "original_question": "the text, how many years were classified as \"peak activity years\" and how many as \"low activity years\" according to the previous definitions of U.S. drone activity in Pakistan from 2004 to 2018?"
+        }
+    },
+    {
+        "id": "QA_sample_a315bd3e",
+        "domain": "MLLMKC",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. 240f7ae5, What is the occupation of the person in the picture?",
+        "answer": "comedian, actor, and television host",
+        "evidence": {
+            "text_evidence": [
+                "Stephen Colbert was born on May 13, 1964. Stephen Colbert is American. Stephen Colbert is a comedian, actor, and television host."
+            ],
+            "image_evidence": [
+                "MLLMKC_3f66507e.jpg"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Stephen Colbert was born on May 13, 1964. Stephen Colbert is American. Stephen Colbert is a chef, actor, and television host."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "architect",
+                "chef",
+                "florist, gardener, landscape designer",
+                "comedian, actor, and television host"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_sports_politics_transportation_e7108499",
+                    "insert_conversation_turn": 563
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_literature_films_art_and_design_9986c616",
+                    "insert_conversation_turn": 138,
+                    "reference_name": "Fig. 240f7ae5"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_business_religion_animals_63486462",
+                    "insert_conversation_turn": 54
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "instance": "Stephen Colbert",
+            "category": "people",
+            "error_type": "Career_error",
+            "topic": [
+                "television",
+                " films"
+            ],
+            "original_question": "What is the occupation of the person in the picture?"
+        }
+    },
+    {
+        "id": "QA_sample_58b69ded",
+        "domain": "MLLMKC",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. d3dcfcfd, What is the nationality of the person in the picture?",
+        "answer": "British",
+        "evidence": {
+            "text_evidence": [
+                "Kit Harington was born on December 26, 1986. Kit Harington is British. Kit Harington is an actor."
+            ],
+            "image_evidence": [
+                "MLLMKC_9473f1a9.jpg"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Kit Harington was born on December 26, 1986. Kit Harington is Irish. Kit Harington is an actor."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "British",
+                "Cornish",
+                "Irish",
+                "Welsh"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_literature_films_art_and_design_9986c616",
+                    "insert_conversation_turn": 856
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_sports_politics_transportation_e7108499",
+                    "insert_conversation_turn": 534,
+                    "reference_name": "Fig. d3dcfcfd"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_business_religion_animals_63486462",
+                    "insert_conversation_turn": 99
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "instance": "Kit Harington",
+            "category": "people",
+            "error_type": "location_error",
+            "topic": [
+                "films",
+                "television"
+            ],
+            "original_question": "What is the nationality of the person in the picture?"
+        }
+    },
+    {
+        "id": "QA_sample_d8a115df",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. d9138dd6, the text, which cities, according to the previous definition, would be required to reinstate an indoor mask mandate if their seven-day average of new COVID-19 cases per 100,000 residents exceeds the specified threshold?",
+        "answer": "New York City and Washington, D.C.",
+        "evidence": {
+            "text_evidence": [
+                "The indoor mask mandate is reintroduced in cities where the seven-day average of new COVID-19 cases per 100,000 residents exceeds 10. If this policy is applied to all the cities shown in the chart, only those meeting this threshold will enforce the mandate."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_271bd458.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "New York City and Washington, D.C.",
+                "Washington, D.C. and Philadelphia",
+                "Philadelphia and Baltimore",
+                "New York City and Baltimore"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_sports_politics_transportation_e7108499",
+                    "insert_conversation_turn": 824
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_literature_films_art_and_design_9986c616",
+                    "insert_conversation_turn": 1154,
+                    "reference_name": "Fig. d9138dd6"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "health",
+                "government"
+            ],
+            "original_question": "the text, which cities, according to the previous definition, would be required to reinstate an indoor mask mandate if their seven-day average of new COVID-19 cases per 100,000 residents exceeds the specified threshold?"
+        }
+    },
+    {
+        "id": "QA_sample_b04ec84d",
+        "domain": "MLLMKC",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. c9685acc, What is the nationality of the person in the picture?",
+        "answer": "American",
+        "evidence": {
+            "text_evidence": [
+                "Oprah Winfrey was born on January 29, 1954. Oprah Winfrey is American. Oprah Winfrey is a media executive, talk show host, actress, and philanthropist."
+            ],
+            "image_evidence": [
+                "MLLMKC_2a6457db.jpg"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Oprah Winfrey was born on January 29, 1954. Oprah Winfrey is Canadian. Oprah Winfrey is a media executive, talk show host, actress, and philanthropist."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "Canadian",
+                "Mexican",
+                "American",
+                "Panamanian"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_business_religion_animals_63486462",
+                    "insert_conversation_turn": 522
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_sports_politics_transportation_e7108499",
+                    "insert_conversation_turn": 706,
+                    "reference_name": "Fig. c9685acc"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_literature_films_art_and_design_9986c616",
+                    "insert_conversation_turn": 63
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "instance": "Oprah Winfrey",
+            "category": "people",
+            "error_type": "location_error",
+            "topic": [
+                "television",
+                " lifestyle",
+                " business"
+            ],
+            "original_question": "What is the nationality of the person in the picture?"
+        }
+    },
+    {
+        "id": "QA_sample_cf752d7b",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 334da22c, the text, does the percentage of third-graders with tooth decay in California exceed the \"campaign's threshold,\" thereby requiring \"additional funding for dental care programs\"?",
+        "answer": "Yes",
+        "evidence": {
+            "text_evidence": [
+                "A public health campaign aims to reduce the percentage of third-graders with tooth decay to levels below 60%. If California's percentage of third-graders with tooth decay is not reduced to meet this threshold, additional funding will be allocated for dental care programs in schools."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_3c7842a4.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Yes",
+                "No"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_business_religion_animals_63486462",
+                    "insert_conversation_turn": 1070
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_sports_politics_transportation_e7108499",
+                    "insert_conversation_turn": 892,
+                    "reference_name": "Fig. 334da22c"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "health",
+                "education",
+                "government"
+            ],
+            "original_question": "the text, does the percentage of third-graders with tooth decay in California exceed the \"campaign's threshold,\" thereby requiring \"additional funding for dental care programs\"?"
+        }
+    },
+    {
+        "id": "QA_sample_01b8834a",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. dae939e2, the text, which sectors are classified as \"low priority\" and \"high priority\" according to the government policy for FY 2017-18?",
+        "answer": "'Low priority' sectors: CPEC/Chinese Investment Projects, Labour, Population Welfare, Housing, ST&IT, Mines & Minerals, Special Initiatives, Energy & Power, Building, Forestry, Sports, Tourism, Archaeology, Culture & Youth Affairs, Home, Agriculture, Higher Education, Local Government. 'High priority' sector: Transport.",
+        "evidence": {
+            "text_evidence": [
+                "According to the government policy for FY 2017-18, any sector receiving less than 10% of the highest allocation is classified as 'low priority.' Any sector receiving at least 25% of the highest allocation is classified as 'high priority.' Use this categorization to assess the funding priorities as represented in the chart."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_75cb424e.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "'Low priority' sectors: Labour, Mines & Minerals, Energy & Power, Agriculture, Sports, Tourism, Archaeology, Culture & Youth Affairs. 'High priority' sector: Health",
+                "'Low priority' sectors: CPEC/Chinese Investment Projects, Labour, Population Welfare, Housing, ST&IT, Mines & Minerals, Special Initiatives, Energy & Power, Building, Forestry, Sports, Tourism, Archaeology, Culture & Youth Affairs, Home, Agriculture, Higher Education, Local Government. 'High priority' sector: Transport.",
+                "'Low priority' sectors: ST&IT, Local Government, Forestry, Building, Home, Population Welfare. 'High priority' sector: Elementary & Secondary Education",
+                "'Low priority' sectors: Housing, Special Initiatives, Building, Agriculture, Sports, Tourism, Archaeology, Culture & Youth Affairs. 'High priority' sector: Health"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_literature_films_art_and_design_9986c616",
+                    "insert_conversation_turn": 620
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_sports_politics_transportation_e7108499",
+                    "insert_conversation_turn": 809,
+                    "reference_name": "Fig. dae939e2"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "government",
+                "economy",
+                "transportation",
+                "education",
+                "health"
+            ],
+            "original_question": "the text, which sectors are classified as \"low priority\" and \"high priority\" according to the government policy for FY 2017-18?"
+        }
+    },
+    {
+        "id": "QA_sample_6a5530fc",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. d7774432, the text, what was the percentage increase in individuals who felt safe walking alone at night from 2017/18 to 2018/19, and did this achieve the \"promised annual improvement of 3%\"?",
+        "answer": "The percentage increased by 3%, achieving the promised improvement.",
+        "evidence": {
+            "text_evidence": [
+                "Safety initiatives aimed at improving public security were implemented in neighborhoods starting in 2017. These initiatives promise an annual improvement of 3% in the percentage of residents who feel safe walking at night. However, some areas may experience deviations from this expected trend depending on local circumstances."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_0eb64f1e.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "The percentage increased by 4%, exceeding the promised improvement",
+                "The percentage remained the same, not achieving the promised improvement",
+                "The percentage increased by 3%, achieving the promised improvement.",
+                "The percentage increased by 2%, falling short of the promised improvement"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_sports_politics_transportation_e7108499",
+                    "insert_conversation_turn": 158
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_literature_films_art_and_design_9986c616",
+                    "insert_conversation_turn": 1214,
+                    "reference_name": "Fig. d7774432"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "government",
+                "lifestyle"
+            ],
+            "original_question": "the text, what was the percentage increase in individuals who felt safe walking alone at night from 2017/18 to 2018/19, and did this achieve the \"promised annual improvement of 3%\"?"
+        }
+    },
+    {
+        "id": "QA_sample_cc2da763",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. e2aa75c8, the text, which racial group experienced a rate of police-related fatalities classified as \"high-risk\" during the two-year period shown in the chart?",
+        "answer": "Native American",
+        "evidence": {
+            "text_evidence": [
+                "For policymakers assessing race-based disparities in police-related fatalities, groups experiencing the highest rates of deaths per million within a given year are prioritized for intervention. Rates above 1.5 fatalities per million are classified as high-risk and trigger urgent review. Historical data trends are key in determining whether disparities persist year after year."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_8e418e1c.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "Asian/Pacific Islander",
+                "Hispanic/Latino",
+                "Native American",
+                "Black"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_literature_films_art_and_design_9986c616",
+                    "insert_conversation_turn": 1395
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_business_religion_animals_63486462",
+                    "insert_conversation_turn": 571,
+                    "reference_name": "Fig. e2aa75c8"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "government",
+                "health"
+            ],
+            "original_question": "the text, which racial group experienced a rate of police-related fatalities classified as \"high-risk\" during the two-year period shown in the chart?"
+        }
+    },
+    {
+        "id": "QA_sample_0af80258",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 452ca49b, According to the previous definitions, was 2018 a \"'high turnover year',\" and if so, was it \"'dominated by one party'\" based on the number of U.S. representatives not seeking re-election?",
+        "answer": "Yes",
+        "evidence": {
+            "text_evidence": [
+                "A political analyst is studying trends in congressional turnover. They classify a year as a 'high turnover year' if the total number of U.S. representatives not seeking re-election exceeds 50. Additionally, they classify a year as being dominated by one party if the number of representatives from that party not seeking re-election is at least twice the number from the other party."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_8a43ebff.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "No",
+                "Yes"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_sports_politics_transportation_e7108499",
+                    "insert_conversation_turn": 976
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_business_religion_animals_63486462",
+                    "insert_conversation_turn": 1272,
+                    "reference_name": "Fig. 452ca49b"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "politics",
+                "government"
+            ],
+            "original_question": "According to the previous definitions, was 2018 a \"'high turnover year',\" and if so, was it \"'dominated by one party'\" based on the number of U.S. representatives not seeking re-election?"
+        }
+    },
+    {
+        "id": "QA_sample_0897b3ea",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. efcd9832, According to the policy-maker's criteria described in the text, which programs meet the threshold for consideration of funding cuts?",
+        "answer": "Foreign aid and unemployment benefits.",
+        "evidence": {
+            "text_evidence": [
+                "A government policy-maker is analyzing which federal programs to reduce funding for. Programs will only be considered for funding cuts if at least one group (either 'All Respondents' or 'Republican Primary Voters') has at least 50% of individuals supporting reduced spending for that program."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_31b0d554.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Foreign aid and unemployment benefits.",
+                "Medicaid and housing",
+                "Education and science and technology",
+                "Mass transit and agriculture"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_business_religion_animals_63486462",
+                    "insert_conversation_turn": 198
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_literature_films_art_and_design_9986c616",
+                    "insert_conversation_turn": 1110,
+                    "reference_name": "Fig. efcd9832"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "government",
+                "economy"
+            ],
+            "original_question": "According to the policy-maker's criteria described in the text, which programs meet the threshold for consideration of funding cuts?"
+        }
+    },
+    {
+        "id": "QA_sample_5d742547",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 06f2bd2d, According to the previous definition, which dog breed would be most affected by stricter regulations based on being \"responsible for more than 100 attacks since 2003,\" and what \"type of attack that represents the majority of incidents in the data\" should be prioritized?",
+        "answer": "Pit bulls; unprovoked attacks",
+        "evidence": {
+            "text_evidence": [
+                "A city council is considering implementing stricter regulations on dog breeds responsible for more than 100 attacks since 2003. Additionally, priority will be given to addressing unprovoked attacks, which represent the majority of incidents in the data. Regulations will only apply to breeds explicitly listed in the data as accounting for a significant number of attacks."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_d40ec382.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Labrador retrievers; unknown or other attacks",
+                "Pit bulls; unprovoked attacks",
+                "Rottweilers; involving another dog attacks",
+                "German shepherds; provoked attacks"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_business_religion_animals_63486462",
+                    "insert_conversation_turn": 481
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_sports_politics_transportation_e7108499",
+                    "insert_conversation_turn": 662,
+                    "reference_name": "Fig. 06f2bd2d"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "animals",
+                "government"
+            ],
+            "original_question": "According to the previous definition, which dog breed would be most affected by stricter regulations based on being \"responsible for more than 100 attacks since 2003,\" and what \"type of attack that represents the majority of incidents in the data\" should be prioritized?"
+        }
+    },
+    {
+        "id": "QA_sample_7615adf5",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. e681a3f6, According to the policy described in the text, identify the last year during which the proportion of diesel-powered tube wells was above the \"threshold requiring replacement efforts.\"",
+        "answer": "1997",
+        "evidence": {
+            "text_evidence": [
+                "A region's policy aims to phase out diesel-powered tube wells completely by year 2025 to promote sustainability. The plan requires starting replacement efforts in the years when the proportion of diesel-powered tube wells is above 25% of the total tube wells for those years."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_8cef0b03.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "1996",
+                "1998",
+                "1995",
+                "1997"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_business_religion_animals_63486462",
+                    "insert_conversation_turn": 1433
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_literature_films_art_and_design_9986c616",
+                    "insert_conversation_turn": 1360,
+                    "reference_name": "Fig. e681a3f6"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "environment",
+                "government"
+            ],
+            "original_question": "According to the policy described in the text, identify the last year during which the proportion of diesel-powered tube wells was above the \"threshold requiring replacement efforts.\""
+        }
+    },
+    {
+        "id": "QA_sample_80868a1d",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 63f52cb1, the text, which category of adult sexual violence qualifies as a \"critical issue requiring immediate action,\" and which category is considered \"lowest priority for funding allocation\"?",
+        "answer": "Rape qualifies for critical intervention, and Voyeurism is least likely to receive funding allocation.",
+        "evidence": {
+            "text_evidence": [
+                "A government report states that more than 20% prevalence of any category of sexual violence is considered a critical issue requiring immediate action. Additionally, policies will focus prioritizing categories where the prevalence is above 10%. For funding allocation, categories below 1% are given the lowest priority compared to higher prevalence categories."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_36642402.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "Ritual Abuse qualifies for critical intervention and Sexual Harassment is least likely to receive funding allocation",
+                "Sexual Assault qualifies for critical intervention and Marital Rape is least likely to receive funding allocation",
+                "Aggravated Sexual Assault qualifies for critical intervention and Ritual Abuse is least likely to receive funding allocation",
+                "Rape qualifies for critical intervention, and Voyeurism is least likely to receive funding allocation."
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_literature_films_art_and_design_9986c616",
+                    "insert_conversation_turn": 697
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_sports_politics_transportation_e7108499",
+                    "insert_conversation_turn": 97,
+                    "reference_name": "Fig. 63f52cb1"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "government",
+                "health"
+            ],
+            "original_question": "the text, which category of adult sexual violence qualifies as a \"critical issue requiring immediate action,\" and which category is considered \"lowest priority for funding allocation\"?"
+        }
+    },
+    {
+        "id": "QA_sample_54354eb6",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 2e697d1f, the text, which age groups of unmarried women will not qualify for the proposed benefits because their percentage out of the labor force due to childcare or homemaking is below the \"50% threshold\"?",
+        "answer": "19-24 and 35 and above.",
+        "evidence": {
+            "text_evidence": [
+                "A government policy proposes that benefits for homemakers (such as pensions) will only be allocated to age groups where the percentage of women out of the labor force due to childcare or homemaking is 50% or higher. This threshold applies to both married and unmarried women separately."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_2b5c79b9.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "19-24 and 35 and above.",
+                "25-29",
+                "19-24 only",
+                "30-34"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_sports_politics_transportation_e7108499",
+                    "insert_conversation_turn": 112
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_literature_films_art_and_design_9986c616",
+                    "insert_conversation_turn": 683,
+                    "reference_name": "Fig. 2e697d1f"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "government",
+                "economy",
+                "lifestyle"
+            ],
+            "original_question": "the text, which age groups of unmarried women will not qualify for the proposed benefits because their percentage out of the labor force due to childcare or homemaking is below the \"50% threshold\"?"
+        }
+    },
+    {
+        "id": "QA_sample_c453c9b3_1",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. ee0eaf94, the image, what is Linda Anderson most likely to be doing?",
+        "answer": "Watching a baseball channel on TV",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Linda Anderson enjoys sports TV, romantic dramas, but dislikes classical concerts, art exhibitions"
+            ],
+            "image_evidence": [
+                "MMPB_2d99653f.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Linda Anderson enjoys kayaking, snorkeling, but dislikes motorbiking trips, rafting",
+                "In terms of lifestyle, Linda Anderson enjoys protein-rich diet, weightlifting, but dislikes forest bathing, holistic therapy",
+                "In terms of shopping, Linda Anderson enjoys coffee brewing equipment, vintage vinyl records, but dislikes soundproofing panels, sleep-enhancing gadgets",
+                "In terms of fashion, Linda Anderson enjoys high heels, tight-fitting clothes, but dislikes plaid patterns, monochrome outfits."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Watching a news channel on TV",
+                "Watching a baseball channel on TV",
+                "Watching a cooking show on TV",
+                "Wearing high heels"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_business_religion_animals_63486462",
+                    "insert_conversation_turn": 530
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_business_religion_animals_63486462",
+                    "insert_conversation_turn": 333,
+                    "reference_name": "Fig. ee0eaf94"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_sports_politics_transportation_e7108499",
+                    "insert_conversation_turn": 24
+                },
+                {
+                    "conversation_name": "group_chat_literature_films_art_and_design_9986c616",
+                    "insert_conversation_turn": 73
+                },
+                {
+                    "conversation_name": "group_chat_business_religion_animals_63486462",
+                    "insert_conversation_turn": 1131
+                },
+                {
+                    "conversation_name": "group_chat_sports_politics_transportation_e7108499",
+                    "insert_conversation_turn": 878
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "zhangwei",
+            "description": "zhangwei is a man with a medium build and a height that suggests a confident presence. His facial structure is well-defined, with a prominent jawline and a slightly pointed chin. His skin tone is fair, and he has a neat, short hairstyle that is dark and well-groomed. zhangwei often appears with a contemplative expression, with his hand resting thoughtfully on his chin, indicating a reflective or analytical demeanor. His eyes are expressive, and his eyebrows are thick and well-shaped, adding to his thoughtful appearance. In some images, he is seen with a slight smile, suggesting a friendly and approachable personality.\n\n**Outfit and Accessories:**\nzhangwei is frequently seen in formal attire, particularly a black suit paired with a white shirt and a blue tie, which conveys a professional and polished look. The suit is well-tailored, fitting him snugly and enhancing his overall appearance. In one image, he is wearing a green plaid shirt, adding a casual and approachable element to his style. In another scene, he is seen in a bright yellow hoodie with the text \"THE dime EXPERIENCE,\" which introduces a more relaxed and youthful vibe. The consistent use of a suit suggests a professional setting, while the casual attire indicates versatility and adaptability in different environments.\n\n**Distinguishing Visual Features or Vibe:**\nThe most memorable feature of zhangwei is his ability to convey a range of emotions through his expressions and body language. His thoughtful pose, with a hand on his chin, is a recurring motif that suggests introspection and intelligence. The contrast between his formal and casual attire highlights his adaptability and multifaceted personality. The consistent use of a black suit in professional settings, combined with the occasional casual attire, creates a balanced and relatable image. The bright yellow hoodie adds a pop of color and a touch of whimsy, making zhangwei visually distinctive and memorable. Overall, zhangwei exudes a confident and approachable aura, with a blend of professionalism and casual charm.",
+            "preference": "In terms of entertainment, zhangwei enjoys sports TV, romantic dramas, but dislikes classical concerts, art exhibitions. In terms of travel, zhangwei enjoys kayaking, snorkeling, but dislikes motorbiking trips, rafting. In terms of lifestyle, zhangwei enjoys protein-rich diet, weightlifting, but dislikes forest bathing, holistic therapy. In terms of shopping, zhangwei enjoys coffee brewing equipment, vintage vinyl records, but dislikes soundproofing panels, sleep-enhancing gadgets. In terms of fashion, zhangwei enjoys high heels, tight-fitting clothes, but dislikes plaid patterns, monochrome outfits.",
+            "topic": [],
+            "original_id": "QA_sample_c453c9b3",
+            "original_question": "the image, what is Linda Anderson most likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_c453c9b3_2",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 4e50b255, Among the activities that could reasonably occur in the given image, which one is Linda Anderson least likely to be doing?",
+        "answer": "Watching a classical concert broadcast",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Linda Anderson enjoys sports TV, romantic dramas, but dislikes classical concerts, art exhibitions"
+            ],
+            "image_evidence": [
+                "MMPB_6f052249.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Linda Anderson enjoys kayaking, snorkeling, but dislikes motorbiking trips, rafting",
+                "In terms of lifestyle, Linda Anderson enjoys protein-rich diet, weightlifting, but dislikes forest bathing, holistic therapy",
+                "In terms of shopping, Linda Anderson enjoys coffee brewing equipment, vintage vinyl records, but dislikes soundproofing panels, sleep-enhancing gadgets",
+                "In terms of fashion, Linda Anderson enjoys high heels, tight-fitting clothes, but dislikes plaid patterns, monochrome outfits."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Viewing a live K-pop broadcast on the screen",
+                "Watching a classical concert broadcast",
+                "Observing a rock band performance on television",
+                "Enjoying a rafting trip"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_business_religion_animals_63486462",
+                    "insert_conversation_turn": 530
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_business_religion_animals_63486462",
+                    "insert_conversation_turn": 406,
+                    "reference_name": "Fig. 4e50b255"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_sports_politics_transportation_e7108499",
+                    "insert_conversation_turn": 24
+                },
+                {
+                    "conversation_name": "group_chat_literature_films_art_and_design_9986c616",
+                    "insert_conversation_turn": 73
+                },
+                {
+                    "conversation_name": "group_chat_business_religion_animals_63486462",
+                    "insert_conversation_turn": 1131
+                },
+                {
+                    "conversation_name": "group_chat_sports_politics_transportation_e7108499",
+                    "insert_conversation_turn": 878
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "zhangwei",
+            "description": "zhangwei is a man with a medium build and a height that suggests a confident presence. His facial structure is well-defined, with a prominent jawline and a slightly pointed chin. His skin tone is fair, and he has a neat, short hairstyle that is dark and well-groomed. zhangwei often appears with a contemplative expression, with his hand resting thoughtfully on his chin, indicating a reflective or analytical demeanor. His eyes are expressive, and his eyebrows are thick and well-shaped, adding to his thoughtful appearance. In some images, he is seen with a slight smile, suggesting a friendly and approachable personality.\n\n**Outfit and Accessories:**\nzhangwei is frequently seen in formal attire, particularly a black suit paired with a white shirt and a blue tie, which conveys a professional and polished look. The suit is well-tailored, fitting him snugly and enhancing his overall appearance. In one image, he is wearing a green plaid shirt, adding a casual and approachable element to his style. In another scene, he is seen in a bright yellow hoodie with the text \"THE dime EXPERIENCE,\" which introduces a more relaxed and youthful vibe. The consistent use of a suit suggests a professional setting, while the casual attire indicates versatility and adaptability in different environments.\n\n**Distinguishing Visual Features or Vibe:**\nThe most memorable feature of zhangwei is his ability to convey a range of emotions through his expressions and body language. His thoughtful pose, with a hand on his chin, is a recurring motif that suggests introspection and intelligence. The contrast between his formal and casual attire highlights his adaptability and multifaceted personality. The consistent use of a black suit in professional settings, combined with the occasional casual attire, creates a balanced and relatable image. The bright yellow hoodie adds a pop of color and a touch of whimsy, making zhangwei visually distinctive and memorable. Overall, zhangwei exudes a confident and approachable aura, with a blend of professionalism and casual charm.",
+            "preference": "In terms of entertainment, zhangwei enjoys sports TV, romantic dramas, but dislikes classical concerts, art exhibitions. In terms of travel, zhangwei enjoys kayaking, snorkeling, but dislikes motorbiking trips, rafting. In terms of lifestyle, zhangwei enjoys protein-rich diet, weightlifting, but dislikes forest bathing, holistic therapy. In terms of shopping, zhangwei enjoys coffee brewing equipment, vintage vinyl records, but dislikes soundproofing panels, sleep-enhancing gadgets. In terms of fashion, zhangwei enjoys high heels, tight-fitting clothes, but dislikes plaid patterns, monochrome outfits.",
+            "topic": [],
+            "original_id": "QA_sample_c453c9b3",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Linda Anderson least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_c453c9b3_3",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. cfd110b8, Among the activities that could reasonably occur in the given image, which one is Linda Anderson least likely to be doing?",
+        "answer": "Watching a classical concert",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Linda Anderson enjoys sports TV, romantic dramas, but dislikes classical concerts, art exhibitions"
+            ],
+            "image_evidence": [
+                "MMPB_9ab3a64b.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Linda Anderson enjoys kayaking, snorkeling, but dislikes motorbiking trips, rafting",
+                "In terms of lifestyle, Linda Anderson enjoys protein-rich diet, weightlifting, but dislikes forest bathing, holistic therapy",
+                "In terms of shopping, Linda Anderson enjoys coffee brewing equipment, vintage vinyl records, but dislikes soundproofing panels, sleep-enhancing gadgets",
+                "In terms of fashion, Linda Anderson enjoys high heels, tight-fitting clothes, but dislikes plaid patterns, monochrome outfits."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Watching a classical concert",
+                "Observing a rock band performance",
+                "Snorkeling",
+                "Viewing a live K-pop broadcast"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_business_religion_animals_63486462",
+                    "insert_conversation_turn": 530
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_sports_politics_transportation_e7108499",
+                    "insert_conversation_turn": 69,
+                    "reference_name": "Fig. cfd110b8"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_sports_politics_transportation_e7108499",
+                    "insert_conversation_turn": 24
+                },
+                {
+                    "conversation_name": "group_chat_literature_films_art_and_design_9986c616",
+                    "insert_conversation_turn": 73
+                },
+                {
+                    "conversation_name": "group_chat_business_religion_animals_63486462",
+                    "insert_conversation_turn": 1131
+                },
+                {
+                    "conversation_name": "group_chat_sports_politics_transportation_e7108499",
+                    "insert_conversation_turn": 878
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "zhangwei",
+            "description": "zhangwei is a man with a medium build and a height that suggests a confident presence. His facial structure is well-defined, with a prominent jawline and a slightly pointed chin. His skin tone is fair, and he has a neat, short hairstyle that is dark and well-groomed. zhangwei often appears with a contemplative expression, with his hand resting thoughtfully on his chin, indicating a reflective or analytical demeanor. His eyes are expressive, and his eyebrows are thick and well-shaped, adding to his thoughtful appearance. In some images, he is seen with a slight smile, suggesting a friendly and approachable personality.\n\n**Outfit and Accessories:**\nzhangwei is frequently seen in formal attire, particularly a black suit paired with a white shirt and a blue tie, which conveys a professional and polished look. The suit is well-tailored, fitting him snugly and enhancing his overall appearance. In one image, he is wearing a green plaid shirt, adding a casual and approachable element to his style. In another scene, he is seen in a bright yellow hoodie with the text \"THE dime EXPERIENCE,\" which introduces a more relaxed and youthful vibe. The consistent use of a suit suggests a professional setting, while the casual attire indicates versatility and adaptability in different environments.\n\n**Distinguishing Visual Features or Vibe:**\nThe most memorable feature of zhangwei is his ability to convey a range of emotions through his expressions and body language. His thoughtful pose, with a hand on his chin, is a recurring motif that suggests introspection and intelligence. The contrast between his formal and casual attire highlights his adaptability and multifaceted personality. The consistent use of a black suit in professional settings, combined with the occasional casual attire, creates a balanced and relatable image. The bright yellow hoodie adds a pop of color and a touch of whimsy, making zhangwei visually distinctive and memorable. Overall, zhangwei exudes a confident and approachable aura, with a blend of professionalism and casual charm.",
+            "preference": "In terms of entertainment, zhangwei enjoys sports TV, romantic dramas, but dislikes classical concerts, art exhibitions. In terms of travel, zhangwei enjoys kayaking, snorkeling, but dislikes motorbiking trips, rafting. In terms of lifestyle, zhangwei enjoys protein-rich diet, weightlifting, but dislikes forest bathing, holistic therapy. In terms of shopping, zhangwei enjoys coffee brewing equipment, vintage vinyl records, but dislikes soundproofing panels, sleep-enhancing gadgets. In terms of fashion, zhangwei enjoys high heels, tight-fitting clothes, but dislikes plaid patterns, monochrome outfits.",
+            "topic": [],
+            "original_id": "QA_sample_c453c9b3",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Linda Anderson least likely to be doing?"
+        }
+    },
+    {
+        "id": "LifeSim_cea80871",
+        "domain": "LifeSim",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 519b27dd, What type of activity does Drake Ashley prefer to minimize prolonged exposure to?",
+        "answer": "direct sunlight",
+        "evidence": {
+            "image_evidence": [
+                "LifeSim_2500c151.png"
+            ]
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "loud noise",
+                "high temperatures",
+                "rain exposure",
+                "direct sunlight"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_literature_films_art_and_design_9986c616",
+                    "insert_conversation_turn": 578,
+                    "reference_name": "Fig. 519b27dd"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "conv_history_name": "user_assistant_conversation_9ed21125.json",
+            "preference_user_name": "Drake Ashley",
+            "original_question": "What type of activity does Drake Ashley prefer to minimize prolonged exposure to?"
+        }
+    },
+    {
+        "id": "QA_sample_054965d0_2",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. b6b1b96d, the image, what is Ricardo Bruce most likely to be doing?",
+        "answer": "Watching a film festival broadcast",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Ricardo Bruce enjoys theater performances, film festivals, but dislikes cooking shows, travel vlogs",
+                "In terms of travel, Ricardo Bruce enjoys cruise vacations, solo travel, but dislikes motorbiking trips, rafting"
+            ],
+            "image_evidence": [
+                "MMPB_6f052249.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of lifestyle, Ricardo Bruce enjoys bullet journaling, reading before bed, but dislikes essential oils, aromatherapy",
+                "In terms of shopping, Ricardo Bruce enjoys robot vacuums, wearable tech, but dislikes sportswear, high-end perfumes",
+                "In terms of fashion, Ricardo Bruce enjoys functional fashion, trendy sunglasses, but dislikes statement jewelry, minimalist rings."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "Watching a live theater show",
+                "Viewing a magic festival online",
+                "Watching a film festival broadcast",
+                "Observing a movie marathon on cable"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_literature_films_art_and_design_9986c616",
+                    "insert_conversation_turn": 510
+                },
+                {
+                    "conversation_name": "group_chat_literature_films_art_and_design_9986c616",
+                    "insert_conversation_turn": 877
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_literature_films_art_and_design_9986c616",
+                    "insert_conversation_turn": 348,
+                    "reference_name": "Fig. b6b1b96d"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_literature_films_art_and_design_9986c616",
+                    "insert_conversation_turn": 88
+                },
+                {
+                    "conversation_name": "group_chat_sports_politics_transportation_e7108499",
+                    "insert_conversation_turn": 347
+                },
+                {
+                    "conversation_name": "group_chat_sports_politics_transportation_e7108499",
+                    "insert_conversation_turn": 790
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Zhuyun",
+            "description": "Zhuyun is a young woman with a slender build and an average height impression. Her facial structure is delicate, featuring a prominent jawline and a slightly pointed chin. She has a fair skin tone and expressive eyes, which are often the focal point of her expressions. Zhuyun's hair is long and dark, styled in various ways across the images, including loose waves, a bun, and a towel wrapped around her head. Her eyebrows are well-defined, and she often has a contemplative or slightly surprised expression, with her mouth slightly open as if caught in mid-speech or thought.\n\n**Outfit and Accessories:**\nZhuyun's attire is diverse, reflecting different settings and moods. She is seen wearing a white blouse with a black ribbon tie, a light-colored jacket, and a striped shirt paired with a denim jacket. The color palette of her outfits is neutral, with whites, blacks, and light tones dominating. Her clothing appears practical and comfortable, with a touch of formality in the blouse. Accessories include a small earring and a hair clip, adding subtle details to her look. The outfits suggest a blend of casual and semi-formal styles, suitable for various occasions.\n\n**Distinguishing Visual Features or Vibe:**\nZhuyun exudes a youthful and approachable vibe, characterized by her expressive eyes and varied hairstyles. The recurring theme of her outfits is a mix of simplicity and elegance, with a focus on neutral colors and practical designs. Her presence is marked by a sense of curiosity and engagement, as seen in her expressions and the way she holds a smartphone in one of the images. The overall impression is of a thoughtful and adaptable individual, comfortable in both casual and slightly formal settings.",
+            "preference": "In terms of entertainment, Zhuyun enjoys theater performances, film festivals, but dislikes cooking shows, travel vlogs. In terms of travel, Zhuyun enjoys cruise vacations, solo travel, but dislikes motorbiking trips, rafting. In terms of lifestyle, Zhuyun enjoys bullet journaling, reading before bed, but dislikes essential oils, aromatherapy. In terms of shopping, Zhuyun enjoys robot vacuums, wearable tech, but dislikes sportswear, high-end perfumes. In terms of fashion, Zhuyun enjoys functional fashion, trendy sunglasses, but dislikes statement jewelry, minimalist rings.",
+            "topic": [],
+            "original_id": "QA_sample_054965d0",
+            "original_question": "the image, what is Ricardo Bruce most likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_054965d0_3",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 20bdac35, Among the activities that could reasonably occur in the given image, which one is Ricardo Bruce least likely to be doing?",
+        "answer": "Watching cooking shows",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Ricardo Bruce enjoys theater performances, film festivals, but dislikes cooking shows, travel vlogs",
+                "In terms of travel, Ricardo Bruce enjoys cruise vacations, solo travel, but dislikes motorbiking trips, rafting"
+            ],
+            "image_evidence": [
+                "MMPB_28b712ad.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of lifestyle, Ricardo Bruce enjoys bullet journaling, reading before bed, but dislikes essential oils, aromatherapy",
+                "In terms of shopping, Ricardo Bruce enjoys robot vacuums, wearable tech, but dislikes sportswear, high-end perfumes",
+                "In terms of fashion, Ricardo Bruce enjoys functional fashion, trendy sunglasses, but dislikes statement jewelry, minimalist rings."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "Streaming fashion shows",
+                "Rafting",
+                "Watching magic shows",
+                "Watching cooking shows"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_literature_films_art_and_design_9986c616",
+                    "insert_conversation_turn": 510
+                },
+                {
+                    "conversation_name": "group_chat_literature_films_art_and_design_9986c616",
+                    "insert_conversation_turn": 877
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_sports_politics_transportation_e7108499",
+                    "insert_conversation_turn": 711,
+                    "reference_name": "Fig. 20bdac35"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_literature_films_art_and_design_9986c616",
+                    "insert_conversation_turn": 88
+                },
+                {
+                    "conversation_name": "group_chat_sports_politics_transportation_e7108499",
+                    "insert_conversation_turn": 347
+                },
+                {
+                    "conversation_name": "group_chat_sports_politics_transportation_e7108499",
+                    "insert_conversation_turn": 790
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Zhuyun",
+            "description": "Zhuyun is a young woman with a slender build and an average height impression. Her facial structure is delicate, featuring a prominent jawline and a slightly pointed chin. She has a fair skin tone and expressive eyes, which are often the focal point of her expressions. Zhuyun's hair is long and dark, styled in various ways across the images, including loose waves, a bun, and a towel wrapped around her head. Her eyebrows are well-defined, and she often has a contemplative or slightly surprised expression, with her mouth slightly open as if caught in mid-speech or thought.\n\n**Outfit and Accessories:**\nZhuyun's attire is diverse, reflecting different settings and moods. She is seen wearing a white blouse with a black ribbon tie, a light-colored jacket, and a striped shirt paired with a denim jacket. The color palette of her outfits is neutral, with whites, blacks, and light tones dominating. Her clothing appears practical and comfortable, with a touch of formality in the blouse. Accessories include a small earring and a hair clip, adding subtle details to her look. The outfits suggest a blend of casual and semi-formal styles, suitable for various occasions.\n\n**Distinguishing Visual Features or Vibe:**\nZhuyun exudes a youthful and approachable vibe, characterized by her expressive eyes and varied hairstyles. The recurring theme of her outfits is a mix of simplicity and elegance, with a focus on neutral colors and practical designs. Her presence is marked by a sense of curiosity and engagement, as seen in her expressions and the way she holds a smartphone in one of the images. The overall impression is of a thoughtful and adaptable individual, comfortable in both casual and slightly formal settings.",
+            "preference": "In terms of entertainment, Zhuyun enjoys theater performances, film festivals, but dislikes cooking shows, travel vlogs. In terms of travel, Zhuyun enjoys cruise vacations, solo travel, but dislikes motorbiking trips, rafting. In terms of lifestyle, Zhuyun enjoys bullet journaling, reading before bed, but dislikes essential oils, aromatherapy. In terms of shopping, Zhuyun enjoys robot vacuums, wearable tech, but dislikes sportswear, high-end perfumes. In terms of fashion, Zhuyun enjoys functional fashion, trendy sunglasses, but dislikes statement jewelry, minimalist rings.",
+            "topic": [],
+            "original_id": "QA_sample_054965d0",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Ricardo Bruce least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_72ee2a64_1",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. fcee2b59, the image, what is Alexzander Pope most likely to be doing?",
+        "answer": "Watching videos of gaming tournaments",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Alexzander Pope enjoys sports documentaries, gaming tournaments, but dislikes rock concerts, indie films"
+            ],
+            "image_evidence": [
+                "MMPB_2d99653f.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Alexzander Pope enjoys skiing, desert trekking, but dislikes historical site tours, food tours",
+                "In terms of lifestyle, Alexzander Pope enjoys meditation, yoga, but dislikes kombucha brewing, medicinal herb gardening",
+                "In terms of shopping, Alexzander Pope enjoys mechanical keyboards, 3D printing tools, but dislikes Bluetooth speakers, wireless charging stations",
+                "In terms of fashion, Alexzander Pope enjoys techwear, cyberpunk aesthetics, but dislikes handcrafted leather bags, woven hats."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Watching videos of gaming tournaments",
+                "Practicing meditation",
+                "Listening to music on the stereo",
+                "Watching cooking shows on the TV"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_literature_films_art_and_design_9986c616",
+                    "insert_conversation_turn": 1294
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_literature_films_art_and_design_9986c616",
+                    "insert_conversation_turn": 363,
+                    "reference_name": "Fig. fcee2b59"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_literature_films_art_and_design_9986c616",
+                    "insert_conversation_turn": 947
+                },
+                {
+                    "conversation_name": "group_chat_business_religion_animals_63486462",
+                    "insert_conversation_turn": 885
+                },
+                {
+                    "conversation_name": "group_chat_sports_politics_transportation_e7108499",
+                    "insert_conversation_turn": 507
+                },
+                {
+                    "conversation_name": "group_chat_business_religion_animals_63486462",
+                    "insert_conversation_turn": 575
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Scarlett",
+            "description": "Scarlett is a young woman with a slender build and an average height impression. Her facial structure is characterized by a symmetrical face with a prominent jawline and a slightly pointed chin. She has a fair skin tone and expressive eyes, which are often the focal point of her expressions. Her hair is a notable feature, appearing in various styles across the images, including shoulder-length straight hair, curly hair, and pigtails. The hair color ranges from light brown to auburn, adding to her versatility. Her eyebrows are well-defined, and her expressions range from neutral to slightly surprised, with her mouth often slightly open, suggesting a moment of speech or reaction. Her overall appearance conveys a sense of youthful energy and approachability.\n\n**Outfit and Accessories:**\nScarlett is seen wearing a variety of outfits that reflect different styles and settings. In one image, she is dressed in a green shirt, which gives a casual and approachable vibe. Another image shows her in a dark blue zip-up jacket, suggesting a more practical or action-oriented look. In a different setting, she is seen in a black zip-up jacket, which adds a touch of sophistication and mystery. Her outfits are generally form-fitting, emphasizing her slender build. Accessories are minimal but significant, including a necklace with a pendant, which adds a personal touch to her appearance. The color palette of her clothing ranges from earthy tones to darker shades, reflecting a versatile and adaptable style.\n\n**Distinguishing Visual Features or Vibe:**\nThe most memorable feature of Scarlett is her expressive eyes, which convey a range of emotions and add depth to her character. Her hair, whether straight, curly, or styled in pigtails, is a consistent and defining element of her appearance. The recurring theme of zip-up jackets suggests a practical and possibly action-oriented persona. The necklace with a pendant adds a personal and unique touch to her style. Overall, Scarlett exudes a blend of youthful energy, approachability, and a hint of mystery, making her visually unmistakable and engaging.",
+            "preference": "In terms of entertainment, Scarlett enjoys sports documentaries, gaming tournaments, but dislikes rock concerts, indie films. In terms of travel, Scarlett enjoys skiing, desert trekking, but dislikes historical site tours, food tours. In terms of lifestyle, Scarlett enjoys meditation, yoga, but dislikes kombucha brewing, medicinal herb gardening. In terms of shopping, Scarlett enjoys mechanical keyboards, 3D printing tools, but dislikes Bluetooth speakers, wireless charging stations. In terms of fashion, Scarlett enjoys techwear, cyberpunk aesthetics, but dislikes handcrafted leather bags, woven hats.",
+            "topic": [],
+            "original_id": "QA_sample_72ee2a64",
+            "original_question": "the image, what is Alexzander Pope most likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_0bcca2fd_1",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 1badd201, Among the activities that could reasonably occur in the given image, which one is Colt Kemp least likely to be doing?",
+        "answer": "Enjoying live band karaoke performances",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Colt Kemp enjoys theater performances, film festivals, but dislikes live band karaoke, magic shows",
+                "In terms of travel, Colt Kemp enjoys vineyard visits, underground city tours, but dislikes skydiving, cave exploration"
+            ],
+            "image_evidence": [
+                "MMPB_f3afc7d0.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of lifestyle, Colt Kemp enjoys daily smoothies, outdoor workouts, but dislikes early morning jogs, herbal teas",
+                "In terms of shopping, Colt Kemp enjoys retro gaming consoles, wireless earbuds, but dislikes handmade candles, ceramic pottery",
+                "In terms of fashion, Colt Kemp enjoys futuristic fashion, gothic clothing, but dislikes business casual, athleisure wear."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "Swaying to house music",
+                "Grooving to DJ beats",
+                "Enjoying live band karaoke performances",
+                "Exploring caves"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_literature_films_art_and_design_9986c616",
+                    "insert_conversation_turn": 1280
+                },
+                {
+                    "conversation_name": "group_chat_literature_films_art_and_design_9986c616",
+                    "insert_conversation_turn": 194
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_literature_films_art_and_design_9986c616",
+                    "insert_conversation_turn": 143,
+                    "reference_name": "Fig. 1badd201"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_literature_films_art_and_design_9986c616",
+                    "insert_conversation_turn": 863
+                },
+                {
+                    "conversation_name": "group_chat_literature_films_art_and_design_9986c616",
+                    "insert_conversation_turn": 1089
+                },
+                {
+                    "conversation_name": "group_chat_business_religion_animals_63486462",
+                    "insert_conversation_turn": 943
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Minjae",
+            "description": "Minjae is a male with a lean and athletic build, suggesting a height that is likely above average. His facial structure is characterized by a strong jawline and a slightly prominent nose, with a medium skin tone. His hair is short and neatly styled, often slicked back, giving him a clean and professional appearance. Minjae frequently displays a focused and determined expression, with his eyes often directed forward, conveying a sense of concentration and intensity. His eyebrows are well-defined, and he occasionally appears with a slight sweat on his face, indicating physical exertion.\n\n**Outfit and Accessories:**\nMinjae is predominantly seen wearing a red soccer jersey, which is a defining part of his attire. The jersey features a black Nike logo and the word \"KOREA,\" indicating his affiliation with the South Korean national team. The jersey has a textured pattern with darker red stripes, adding depth to the design. He also wears matching red shorts and socks, completing the uniform look. In some images, he is seen in a white and red jersey with the Bayern Munich logo, suggesting his association with the club. The outfits are practical and functional, designed for athletic performance. His cleats are blue, contrasting with the red of his uniform, and he occasionally wears a white bandage on his right wrist, possibly for support or injury prevention.\n\n**Distinguishing Visual Features or Vibe:**\nThe most memorable feature of Minjae is his consistent presence in a red soccer jersey, which immediately identifies him as a player for the South Korean national team. The red color is a recurring theme, symbolizing passion and energy. His focused expression and athletic posture convey a sense of determination and professionalism. The combination of his clean, short hairstyle and the sleek design of his jersey creates a modern and dynamic look. The presence of the Bayern Munich logo in some images adds a layer of prestige and international recognition to his persona. Overall, Minjae exudes a vibe of dedication and skill, making him visually unmistakable as a professional soccer player.",
+            "preference": "In terms of entertainment, Minjae enjoys theater performances, film festivals, but dislikes live band karaoke, magic shows. In terms of travel, Minjae enjoys vineyard visits, underground city tours, but dislikes skydiving, cave exploration. In terms of lifestyle, Minjae enjoys daily smoothies, outdoor workouts, but dislikes early morning jogs, herbal teas. In terms of shopping, Minjae enjoys retro gaming consoles, wireless earbuds, but dislikes handmade candles, ceramic pottery. In terms of fashion, Minjae enjoys futuristic fashion, gothic clothing, but dislikes business casual, athleisure wear.",
+            "topic": [],
+            "original_id": "QA_sample_0bcca2fd",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Colt Kemp least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_0bcca2fd_2",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 1ad10c0b, Among the activities that could reasonably occur in the given image, which one is Colt Kemp least likely to be doing?",
+        "answer": "Enjoying magic shows",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Colt Kemp enjoys theater performances, film festivals, but dislikes live band karaoke, magic shows",
+                "In terms of travel, Colt Kemp enjoys vineyard visits, underground city tours, but dislikes skydiving, cave exploration"
+            ],
+            "image_evidence": [
+                "MMPB_9ab3a64b.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of lifestyle, Colt Kemp enjoys daily smoothies, outdoor workouts, but dislikes early morning jogs, herbal teas",
+                "In terms of shopping, Colt Kemp enjoys retro gaming consoles, wireless earbuds, but dislikes handmade candles, ceramic pottery",
+                "In terms of fashion, Colt Kemp enjoys futuristic fashion, gothic clothing, but dislikes business casual, athleisure wear."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "Attending theatrical shows",
+                "Watching live performances",
+                "Enjoying magic shows",
+                "Buying handmade candles"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_literature_films_art_and_design_9986c616",
+                    "insert_conversation_turn": 1280
+                },
+                {
+                    "conversation_name": "group_chat_literature_films_art_and_design_9986c616",
+                    "insert_conversation_turn": 194
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_business_religion_animals_63486462",
+                    "insert_conversation_turn": 1331,
+                    "reference_name": "Fig. 1ad10c0b"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_literature_films_art_and_design_9986c616",
+                    "insert_conversation_turn": 863
+                },
+                {
+                    "conversation_name": "group_chat_literature_films_art_and_design_9986c616",
+                    "insert_conversation_turn": 1089
+                },
+                {
+                    "conversation_name": "group_chat_business_religion_animals_63486462",
+                    "insert_conversation_turn": 943
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Minjae",
+            "description": "Minjae is a male with a lean and athletic build, suggesting a height that is likely above average. His facial structure is characterized by a strong jawline and a slightly prominent nose, with a medium skin tone. His hair is short and neatly styled, often slicked back, giving him a clean and professional appearance. Minjae frequently displays a focused and determined expression, with his eyes often directed forward, conveying a sense of concentration and intensity. His eyebrows are well-defined, and he occasionally appears with a slight sweat on his face, indicating physical exertion.\n\n**Outfit and Accessories:**\nMinjae is predominantly seen wearing a red soccer jersey, which is a defining part of his attire. The jersey features a black Nike logo and the word \"KOREA,\" indicating his affiliation with the South Korean national team. The jersey has a textured pattern with darker red stripes, adding depth to the design. He also wears matching red shorts and socks, completing the uniform look. In some images, he is seen in a white and red jersey with the Bayern Munich logo, suggesting his association with the club. The outfits are practical and functional, designed for athletic performance. His cleats are blue, contrasting with the red of his uniform, and he occasionally wears a white bandage on his right wrist, possibly for support or injury prevention.\n\n**Distinguishing Visual Features or Vibe:**\nThe most memorable feature of Minjae is his consistent presence in a red soccer jersey, which immediately identifies him as a player for the South Korean national team. The red color is a recurring theme, symbolizing passion and energy. His focused expression and athletic posture convey a sense of determination and professionalism. The combination of his clean, short hairstyle and the sleek design of his jersey creates a modern and dynamic look. The presence of the Bayern Munich logo in some images adds a layer of prestige and international recognition to his persona. Overall, Minjae exudes a vibe of dedication and skill, making him visually unmistakable as a professional soccer player.",
+            "preference": "In terms of entertainment, Minjae enjoys theater performances, film festivals, but dislikes live band karaoke, magic shows. In terms of travel, Minjae enjoys vineyard visits, underground city tours, but dislikes skydiving, cave exploration. In terms of lifestyle, Minjae enjoys daily smoothies, outdoor workouts, but dislikes early morning jogs, herbal teas. In terms of shopping, Minjae enjoys retro gaming consoles, wireless earbuds, but dislikes handmade candles, ceramic pottery. In terms of fashion, Minjae enjoys futuristic fashion, gothic clothing, but dislikes business casual, athleisure wear.",
+            "topic": [],
+            "original_id": "QA_sample_0bcca2fd",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Colt Kemp least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_cdbf8b28_1",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. d7e9cf1b, Among the activities that could reasonably occur in the given image, which one is Selina Gonzalez least likely to be doing?",
+        "answer": "Looking for an indie film",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Selina Gonzalez enjoys crime thrillers, historical dramas, but dislikes rock concerts, indie films",
+                "In terms of travel, Selina Gonzalez enjoys backcountry camping, ice fishing, but dislikes vineyard visits, underground city tours"
+            ],
+            "image_evidence": [
+                "MMPB_2d99653f.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of lifestyle, Selina Gonzalez enjoys early morning jogs, massages, but dislikes protein-rich diet, weightlifting",
+                "In terms of shopping, Selina Gonzalez enjoys smart home devices, kitchen appliances, but dislikes retro gaming consoles, wireless earbuds",
+                "In terms of fashion, Selina Gonzalez enjoys bright neon colors, oversized sweaters, but dislikes winter coats, denim jeans."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "Browsing for a drama film",
+                "Searching for a classic movie",
+                "Visiting vineyard",
+                "Looking for an indie film"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_literature_films_art_and_design_9986c616",
+                    "insert_conversation_turn": 1059
+                },
+                {
+                    "conversation_name": "group_chat_business_religion_animals_63486462",
+                    "insert_conversation_turn": 871
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_literature_films_art_and_design_9986c616",
+                    "insert_conversation_turn": 363,
+                    "reference_name": "Fig. d7e9cf1b"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_business_religion_animals_63486462",
+                    "insert_conversation_turn": 718
+                },
+                {
+                    "conversation_name": "group_chat_literature_films_art_and_design_9986c616",
+                    "insert_conversation_turn": 232
+                },
+                {
+                    "conversation_name": "group_chat_sports_politics_transportation_e7108499",
+                    "insert_conversation_turn": 631
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "meijia",
+            "description": "meijia is a woman with a slender build and a medium height impression. Her facial structure is characterized by a well-defined jawline and a slightly rounded face, with prominent cheekbones and a gentle smile. Her skin tone is fair, and she has expressive eyes that convey a range of emotions. meijia's hair is long, wavy, and brown, often styled in a side-swept manner, adding to her elegant appearance. Her eyebrows are thick and well-groomed, framing her eyes effectively. In various images, she is seen with a thoughtful expression, her hand near her face, suggesting contemplation or engagement in conversation.\n\n**Outfit and Accessories:**\nmeijia's attire is diverse yet cohesive, reflecting a casual and approachable style. She is often seen in bright, solid colors such as orange, yellow, and white, which add vibrancy to her appearance. The orange sweater with a white collar and the yellow top are notable, both conveying a cheerful and warm vibe. Her clothing is practical and comfortable, with a focus on simplicity and functionality. The white sweatshirt with a graphic design adds a touch of personality and modernity. While no specific accessories are prominently featured, her outfits are well-coordinated, enhancing her overall look.\n\n**Distinguishing Visual Features or Vibe:**\nmeijia exudes a warm and inviting aura, characterized by her gentle smile and expressive eyes. Her long, wavy brown hair and thoughtful poses contribute to a sense of approachability and introspection. The recurring theme of bright, solid colors in her outfits, such as orange and yellow, adds a cheerful and energetic vibe. Her presence in various settings, from a kitchen to an outdoor scene, showcases her adaptability and relatability. The consistent use of vibrant colors and her engaging expressions make meijia visually unmistakable, creating a memorable and endearing impression.",
+            "preference": "In terms of entertainment, meijia enjoys crime thrillers, historical dramas, but dislikes rock concerts, indie films. In terms of travel, meijia enjoys backcountry camping, ice fishing, but dislikes vineyard visits, underground city tours. In terms of lifestyle, meijia enjoys early morning jogs, massages, but dislikes protein-rich diet, weightlifting. In terms of shopping, meijia enjoys smart home devices, kitchen appliances, but dislikes retro gaming consoles, wireless earbuds. In terms of fashion, meijia enjoys bright neon colors, oversized sweaters, but dislikes winter coats, denim jeans.",
+            "topic": [],
+            "original_id": "QA_sample_cdbf8b28",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Selina Gonzalez least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_cdbf8b28_2",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. b696e084, Among the activities that could reasonably occur in the given image, which one is Selina Gonzalez least likely to be doing?",
+        "answer": "Enjoying rock concerts",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Selina Gonzalez enjoys crime thrillers, historical dramas, but dislikes rock concerts, indie films",
+                "In terms of travel, Selina Gonzalez enjoys backcountry camping, ice fishing, but dislikes vineyard visits, underground city tours"
+            ],
+            "image_evidence": [
+                "MMPB_73dc3548.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of lifestyle, Selina Gonzalez enjoys early morning jogs, massages, but dislikes protein-rich diet, weightlifting",
+                "In terms of shopping, Selina Gonzalez enjoys smart home devices, kitchen appliances, but dislikes retro gaming consoles, wireless earbuds",
+                "In terms of fashion, Selina Gonzalez enjoys bright neon colors, oversized sweaters, but dislikes winter coats, denim jeans."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "Browsing for a drama film",
+                "Following protein-rich diet",
+                "Searching for a classic movie",
+                "Enjoying rock concerts"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_literature_films_art_and_design_9986c616",
+                    "insert_conversation_turn": 1059
+                },
+                {
+                    "conversation_name": "group_chat_business_religion_animals_63486462",
+                    "insert_conversation_turn": 871
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_literature_films_art_and_design_9986c616",
+                    "insert_conversation_turn": 478,
+                    "reference_name": "Fig. b696e084"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_business_religion_animals_63486462",
+                    "insert_conversation_turn": 718
+                },
+                {
+                    "conversation_name": "group_chat_literature_films_art_and_design_9986c616",
+                    "insert_conversation_turn": 232
+                },
+                {
+                    "conversation_name": "group_chat_sports_politics_transportation_e7108499",
+                    "insert_conversation_turn": 631
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "meijia",
+            "description": "meijia is a woman with a slender build and a medium height impression. Her facial structure is characterized by a well-defined jawline and a slightly rounded face, with prominent cheekbones and a gentle smile. Her skin tone is fair, and she has expressive eyes that convey a range of emotions. meijia's hair is long, wavy, and brown, often styled in a side-swept manner, adding to her elegant appearance. Her eyebrows are thick and well-groomed, framing her eyes effectively. In various images, she is seen with a thoughtful expression, her hand near her face, suggesting contemplation or engagement in conversation.\n\n**Outfit and Accessories:**\nmeijia's attire is diverse yet cohesive, reflecting a casual and approachable style. She is often seen in bright, solid colors such as orange, yellow, and white, which add vibrancy to her appearance. The orange sweater with a white collar and the yellow top are notable, both conveying a cheerful and warm vibe. Her clothing is practical and comfortable, with a focus on simplicity and functionality. The white sweatshirt with a graphic design adds a touch of personality and modernity. While no specific accessories are prominently featured, her outfits are well-coordinated, enhancing her overall look.\n\n**Distinguishing Visual Features or Vibe:**\nmeijia exudes a warm and inviting aura, characterized by her gentle smile and expressive eyes. Her long, wavy brown hair and thoughtful poses contribute to a sense of approachability and introspection. The recurring theme of bright, solid colors in her outfits, such as orange and yellow, adds a cheerful and energetic vibe. Her presence in various settings, from a kitchen to an outdoor scene, showcases her adaptability and relatability. The consistent use of vibrant colors and her engaging expressions make meijia visually unmistakable, creating a memorable and endearing impression.",
+            "preference": "In terms of entertainment, meijia enjoys crime thrillers, historical dramas, but dislikes rock concerts, indie films. In terms of travel, meijia enjoys backcountry camping, ice fishing, but dislikes vineyard visits, underground city tours. In terms of lifestyle, meijia enjoys early morning jogs, massages, but dislikes protein-rich diet, weightlifting. In terms of shopping, meijia enjoys smart home devices, kitchen appliances, but dislikes retro gaming consoles, wireless earbuds. In terms of fashion, meijia enjoys bright neon colors, oversized sweaters, but dislikes winter coats, denim jeans.",
+            "topic": [],
+            "original_id": "QA_sample_cdbf8b28",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Selina Gonzalez least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_560b88d6_1",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 7cc65533, the image, what is George Villegas most likely to be doing?",
+        "answer": "Watching romantic dramas",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, George Villegas enjoys sports TV, romantic dramas, but dislikes horror movies, sitcoms"
+            ],
+            "image_evidence": [
+                "MMPB_2d99653f.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, George Villegas enjoys kayaking, snorkeling, but dislikes fine dining, street food",
+                "In terms of lifestyle, George Villegas enjoys forest bathing, holistic therapy, but dislikes meditation, yoga",
+                "In terms of shopping, George Villegas enjoys retro gaming consoles, wireless earbuds, but dislikes compact fitness equipment, desk organizers",
+                "In terms of fashion, George Villegas enjoys leather jackets, comfortable shoes, but dislikes handcrafted leather bags, woven hats."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "Watching action-packed movies",
+                "Watching suspense thrillers",
+                "Watching romantic dramas",
+                "Buying retro gaming consoles"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_business_religion_animals_63486462",
+                    "insert_conversation_turn": 754
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_sports_politics_transportation_e7108499",
+                    "insert_conversation_turn": 191,
+                    "reference_name": "Fig. 7cc65533"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_sports_politics_transportation_e7108499",
+                    "insert_conversation_turn": 944
+                },
+                {
+                    "conversation_name": "group_chat_business_religion_animals_63486462",
+                    "insert_conversation_turn": 929
+                },
+                {
+                    "conversation_name": "group_chat_business_religion_animals_63486462",
+                    "insert_conversation_turn": 1116
+                },
+                {
+                    "conversation_name": "group_chat_literature_films_art_and_design_9986c616",
+                    "insert_conversation_turn": 639
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Hwang",
+            "description": "Hwang is a man of medium build and average height, with a well-defined jawline and a slightly angular facial structure. His skin tone is fair, and he has a neat, short hairstyle that is consistently well-groomed. Hwang's facial expressions range from serious to contemplative, with a tendency to convey intensity and focus. His eyebrows are thick and well-defined, adding to his expressive features. In several images, he is seen with a neutral or slightly serious expression, suggesting a composed and thoughtful demeanor.\n\n**Outfit and Accessories:**\nHwang's attire is predominantly formal, featuring a mix of classic and contemporary styles. He is often seen in suits, with a preference for dark colors like black and navy, accented by white shirts and ties. In one image, he is wearing a striking white double-breasted suit, which stands out against the more subdued tones of his other outfits. The suits appear to be well-tailored, with attention to detail in the cut and fit. Hwang accessorizes with sunglasses in one scene, adding a touch of sophistication and mystery. The overall style of his clothing suggests a blend of professionalism and personal flair, with a focus on clean lines and a polished appearance.\n\n**Distinguishing Visual Features or Vibe:**\nHwang exudes a sense of confidence and authority, which is reinforced by his choice of clothing and posture. The recurring theme of formal attire, particularly suits, suggests a professional or high-status persona. His consistent grooming and the serious expressions in several images contribute to a composed and intense aura. The use of dark colors in his outfits, contrasted with the occasional bright white suit, adds depth and visual interest. The presence of accessories like sunglasses and the meticulous attention to detail in his attire further enhance his distinctive visual identity. Overall, Hwang's appearance is characterized by a blend of sophistication, intensity, and a touch of mystery, making him visually unmistakable.",
+            "preference": "In terms of entertainment, Hwang enjoys sports TV, romantic dramas, but dislikes horror movies, sitcoms. In terms of travel, Hwang enjoys kayaking, snorkeling, but dislikes fine dining, street food. In terms of lifestyle, Hwang enjoys forest bathing, holistic therapy, but dislikes meditation, yoga. In terms of shopping, Hwang enjoys retro gaming consoles, wireless earbuds, but dislikes compact fitness equipment, desk organizers. In terms of fashion, Hwang enjoys leather jackets, comfortable shoes, but dislikes handcrafted leather bags, woven hats.",
+            "topic": [],
+            "original_id": "QA_sample_560b88d6",
+            "original_question": "the image, what is George Villegas most likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_560b88d6_2",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. b152d84f, the image, what is George Villegas most likely to be doing?",
+        "answer": "Watching sports TV",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, George Villegas enjoys sports TV, romantic dramas, but dislikes horror movies, sitcoms"
+            ],
+            "image_evidence": [
+                "MMPB_6f052249.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, George Villegas enjoys kayaking, snorkeling, but dislikes fine dining, street food",
+                "In terms of lifestyle, George Villegas enjoys forest bathing, holistic therapy, but dislikes meditation, yoga",
+                "In terms of shopping, George Villegas enjoys retro gaming consoles, wireless earbuds, but dislikes compact fitness equipment, desk organizers",
+                "In terms of fashion, George Villegas enjoys leather jackets, comfortable shoes, but dislikes handcrafted leather bags, woven hats."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "Observing a movie marathon",
+                "Getting holistic therapy",
+                "Enjoying a sitcom session",
+                "Watching sports TV"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_business_religion_animals_63486462",
+                    "insert_conversation_turn": 754
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_business_religion_animals_63486462",
+                    "insert_conversation_turn": 406,
+                    "reference_name": "Fig. b152d84f"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_sports_politics_transportation_e7108499",
+                    "insert_conversation_turn": 944
+                },
+                {
+                    "conversation_name": "group_chat_business_religion_animals_63486462",
+                    "insert_conversation_turn": 929
+                },
+                {
+                    "conversation_name": "group_chat_business_religion_animals_63486462",
+                    "insert_conversation_turn": 1116
+                },
+                {
+                    "conversation_name": "group_chat_literature_films_art_and_design_9986c616",
+                    "insert_conversation_turn": 639
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Hwang",
+            "description": "Hwang is a man of medium build and average height, with a well-defined jawline and a slightly angular facial structure. His skin tone is fair, and he has a neat, short hairstyle that is consistently well-groomed. Hwang's facial expressions range from serious to contemplative, with a tendency to convey intensity and focus. His eyebrows are thick and well-defined, adding to his expressive features. In several images, he is seen with a neutral or slightly serious expression, suggesting a composed and thoughtful demeanor.\n\n**Outfit and Accessories:**\nHwang's attire is predominantly formal, featuring a mix of classic and contemporary styles. He is often seen in suits, with a preference for dark colors like black and navy, accented by white shirts and ties. In one image, he is wearing a striking white double-breasted suit, which stands out against the more subdued tones of his other outfits. The suits appear to be well-tailored, with attention to detail in the cut and fit. Hwang accessorizes with sunglasses in one scene, adding a touch of sophistication and mystery. The overall style of his clothing suggests a blend of professionalism and personal flair, with a focus on clean lines and a polished appearance.\n\n**Distinguishing Visual Features or Vibe:**\nHwang exudes a sense of confidence and authority, which is reinforced by his choice of clothing and posture. The recurring theme of formal attire, particularly suits, suggests a professional or high-status persona. His consistent grooming and the serious expressions in several images contribute to a composed and intense aura. The use of dark colors in his outfits, contrasted with the occasional bright white suit, adds depth and visual interest. The presence of accessories like sunglasses and the meticulous attention to detail in his attire further enhance his distinctive visual identity. Overall, Hwang's appearance is characterized by a blend of sophistication, intensity, and a touch of mystery, making him visually unmistakable.",
+            "preference": "In terms of entertainment, Hwang enjoys sports TV, romantic dramas, but dislikes horror movies, sitcoms. In terms of travel, Hwang enjoys kayaking, snorkeling, but dislikes fine dining, street food. In terms of lifestyle, Hwang enjoys forest bathing, holistic therapy, but dislikes meditation, yoga. In terms of shopping, Hwang enjoys retro gaming consoles, wireless earbuds, but dislikes compact fitness equipment, desk organizers. In terms of fashion, Hwang enjoys leather jackets, comfortable shoes, but dislikes handcrafted leather bags, woven hats.",
+            "topic": [],
+            "original_id": "QA_sample_560b88d6",
+            "original_question": "the image, what is George Villegas most likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_560b88d6_3",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 41d75be0, Among the activities that could reasonably occur in the given image, which one is George Villegas least likely to be doing?",
+        "answer": "Watching sitcom series",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, George Villegas enjoys sports TV, romantic dramas, but dislikes horror movies, sitcoms"
+            ],
+            "image_evidence": [
+                "MMPB_ea429820.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, George Villegas enjoys kayaking, snorkeling, but dislikes fine dining, street food",
+                "In terms of lifestyle, George Villegas enjoys forest bathing, holistic therapy, but dislikes meditation, yoga",
+                "In terms of shopping, George Villegas enjoys retro gaming consoles, wireless earbuds, but dislikes compact fitness equipment, desk organizers",
+                "In terms of fashion, George Villegas enjoys leather jackets, comfortable shoes, but dislikes handcrafted leather bags, woven hats."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Practicing meditation",
+                "Watching sitcom series",
+                "Streaming action flicks",
+                "Watching historical dramas"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_business_religion_animals_63486462",
+                    "insert_conversation_turn": 754
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_literature_films_art_and_design_9986c616",
+                    "insert_conversation_turn": 394,
+                    "reference_name": "Fig. 41d75be0"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_sports_politics_transportation_e7108499",
+                    "insert_conversation_turn": 944
+                },
+                {
+                    "conversation_name": "group_chat_business_religion_animals_63486462",
+                    "insert_conversation_turn": 929
+                },
+                {
+                    "conversation_name": "group_chat_business_religion_animals_63486462",
+                    "insert_conversation_turn": 1116
+                },
+                {
+                    "conversation_name": "group_chat_literature_films_art_and_design_9986c616",
+                    "insert_conversation_turn": 639
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Hwang",
+            "description": "Hwang is a man of medium build and average height, with a well-defined jawline and a slightly angular facial structure. His skin tone is fair, and he has a neat, short hairstyle that is consistently well-groomed. Hwang's facial expressions range from serious to contemplative, with a tendency to convey intensity and focus. His eyebrows are thick and well-defined, adding to his expressive features. In several images, he is seen with a neutral or slightly serious expression, suggesting a composed and thoughtful demeanor.\n\n**Outfit and Accessories:**\nHwang's attire is predominantly formal, featuring a mix of classic and contemporary styles. He is often seen in suits, with a preference for dark colors like black and navy, accented by white shirts and ties. In one image, he is wearing a striking white double-breasted suit, which stands out against the more subdued tones of his other outfits. The suits appear to be well-tailored, with attention to detail in the cut and fit. Hwang accessorizes with sunglasses in one scene, adding a touch of sophistication and mystery. The overall style of his clothing suggests a blend of professionalism and personal flair, with a focus on clean lines and a polished appearance.\n\n**Distinguishing Visual Features or Vibe:**\nHwang exudes a sense of confidence and authority, which is reinforced by his choice of clothing and posture. The recurring theme of formal attire, particularly suits, suggests a professional or high-status persona. His consistent grooming and the serious expressions in several images contribute to a composed and intense aura. The use of dark colors in his outfits, contrasted with the occasional bright white suit, adds depth and visual interest. The presence of accessories like sunglasses and the meticulous attention to detail in his attire further enhance his distinctive visual identity. Overall, Hwang's appearance is characterized by a blend of sophistication, intensity, and a touch of mystery, making him visually unmistakable.",
+            "preference": "In terms of entertainment, Hwang enjoys sports TV, romantic dramas, but dislikes horror movies, sitcoms. In terms of travel, Hwang enjoys kayaking, snorkeling, but dislikes fine dining, street food. In terms of lifestyle, Hwang enjoys forest bathing, holistic therapy, but dislikes meditation, yoga. In terms of shopping, Hwang enjoys retro gaming consoles, wireless earbuds, but dislikes compact fitness equipment, desk organizers. In terms of fashion, Hwang enjoys leather jackets, comfortable shoes, but dislikes handcrafted leather bags, woven hats.",
+            "topic": [],
+            "original_id": "QA_sample_560b88d6",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is George Villegas least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_9275de6a_1",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 4ad2a531, the image, what is Miles Roberts most likely to be doing?",
+        "answer": "Watching a travel vlog",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Miles Roberts enjoys cooking shows, travel vlogs, but dislikes sports TV, romantic dramas"
+            ],
+            "image_evidence": [
+                "MMPB_2d99653f.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Miles Roberts enjoys fine dining, street food, but dislikes polar expeditions, desert safaris",
+                "In terms of lifestyle, Miles Roberts enjoys plant-based diet, home cooking, but dislikes daily smoothies, outdoor workouts",
+                "In terms of shopping, Miles Roberts enjoys retro gaming consoles, wireless earbuds, but dislikes handmade crafts, vintage furniture",
+                "In terms of fashion, Miles Roberts enjoys techwear, cyberpunk aesthetics, but dislikes handcrafted leather bags, woven hats."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "Watching a magic show",
+                "Watching a food documentary",
+                "Browsing for cyberpunk aesthetic clothing",
+                "Watching a travel vlog"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_business_religion_animals_63486462",
+                    "insert_conversation_turn": 1247
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_business_religion_animals_63486462",
+                    "insert_conversation_turn": 333,
+                    "reference_name": "Fig. 4ad2a531"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_business_religion_animals_63486462",
+                    "insert_conversation_turn": 281
+                },
+                {
+                    "conversation_name": "group_chat_literature_films_art_and_design_9986c616",
+                    "insert_conversation_turn": 315
+                },
+                {
+                    "conversation_name": "group_chat_business_religion_animals_63486462",
+                    "insert_conversation_turn": 178
+                },
+                {
+                    "conversation_name": "group_chat_business_religion_animals_63486462",
+                    "insert_conversation_turn": 915
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "yifei",
+            "description": "yifei is a woman with a slender build and an average height impression. Her facial structure is characterized by a well-defined jawline and a slightly pointed chin, with a medium-sized nose and full lips. Her skin tone is fair, and she often has a soft, approachable expression. yifei's hair is long and dark, styled in various ways across the images, including loose waves and a high ponytail. Her eyebrows are thick and well-groomed, and she frequently wears red lipstick, adding a pop of color to her appearance. Her eyes are expressive, and she often looks directly at the camera, conveying a sense of engagement and confidence.\n\n**Outfit and Accessories:**\nyifei's outfits are diverse, ranging from casual to more formal attire. In one image, she wears a denim jacket over a white t-shirt with red text, paired with a headband featuring bunny ears, adding a playful touch. In another, she is seen in a bright red sleeveless top with the words \"YOURSELF\" and \"IZZUE\" on the straps, suggesting a bold and confident style. She also wears a white, intricately patterned blouse with colorful accents, holding a pink mirror with a cute design, indicating a whimsical and fun-loving side. Her accessories include large, colorful earrings and a headband, which add to her playful and stylish appearance. The overall color palette of her outfits is vibrant, with a mix of reds, whites, and blues, and the textures range from denim to delicate lace.\n\n**Distinguishing Visual Features or Vibe:**\nyifei's most memorable feature is her ability to convey a mix of playful and confident vibes through her outfits and accessories. The bunny ears headband and the pink mirror with a cute design are signature items that add a whimsical touch to her appearance. Her red lipstick is a consistent feature that stands out, adding a bold and confident element to her look. The combination of her fair skin, dark hair, and expressive eyes creates a striking visual contrast. The overall aura she conveys is one of approachability and confidence, with a touch of fun and playfulness. Her outfits and accessories, along with her engaging expressions, make her visually unmistakable and memorable.",
+            "preference": "In terms of entertainment, yifei enjoys cooking shows, travel vlogs, but dislikes sports TV, romantic dramas. In terms of travel, yifei enjoys fine dining, street food, but dislikes polar expeditions, desert safaris. In terms of lifestyle, yifei enjoys plant-based diet, home cooking, but dislikes daily smoothies, outdoor workouts. In terms of shopping, yifei enjoys retro gaming consoles, wireless earbuds, but dislikes handmade crafts, vintage furniture. In terms of fashion, yifei enjoys techwear, cyberpunk aesthetics, but dislikes handcrafted leather bags, woven hats.",
+            "topic": [],
+            "original_id": "QA_sample_9275de6a",
+            "original_question": "the image, what is Miles Roberts most likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_9275de6a_2",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. fd5f8872, Among the activities that could reasonably occur in the given image, which one is Miles Roberts least likely to be doing?",
+        "answer": "Watching a sports TV channel",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Miles Roberts enjoys cooking shows, travel vlogs, but dislikes sports TV, romantic dramas"
+            ],
+            "image_evidence": [
+                "MMPB_6f052249.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Miles Roberts enjoys fine dining, street food, but dislikes polar expeditions, desert safaris",
+                "In terms of lifestyle, Miles Roberts enjoys plant-based diet, home cooking, but dislikes daily smoothies, outdoor workouts",
+                "In terms of shopping, Miles Roberts enjoys retro gaming consoles, wireless earbuds, but dislikes handmade crafts, vintage furniture",
+                "In terms of fashion, Miles Roberts enjoys techwear, cyberpunk aesthetics, but dislikes handcrafted leather bags, woven hats."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "Observing a news TV channel",
+                "Researching home cooking recipes",
+                "Viewing a music video channel",
+                "Watching a sports TV channel"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_business_religion_animals_63486462",
+                    "insert_conversation_turn": 1247
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_literature_films_art_and_design_9986c616",
+                    "insert_conversation_turn": 348,
+                    "reference_name": "Fig. fd5f8872"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_business_religion_animals_63486462",
+                    "insert_conversation_turn": 281
+                },
+                {
+                    "conversation_name": "group_chat_literature_films_art_and_design_9986c616",
+                    "insert_conversation_turn": 315
+                },
+                {
+                    "conversation_name": "group_chat_business_religion_animals_63486462",
+                    "insert_conversation_turn": 178
+                },
+                {
+                    "conversation_name": "group_chat_business_religion_animals_63486462",
+                    "insert_conversation_turn": 915
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "yifei",
+            "description": "yifei is a woman with a slender build and an average height impression. Her facial structure is characterized by a well-defined jawline and a slightly pointed chin, with a medium-sized nose and full lips. Her skin tone is fair, and she often has a soft, approachable expression. yifei's hair is long and dark, styled in various ways across the images, including loose waves and a high ponytail. Her eyebrows are thick and well-groomed, and she frequently wears red lipstick, adding a pop of color to her appearance. Her eyes are expressive, and she often looks directly at the camera, conveying a sense of engagement and confidence.\n\n**Outfit and Accessories:**\nyifei's outfits are diverse, ranging from casual to more formal attire. In one image, she wears a denim jacket over a white t-shirt with red text, paired with a headband featuring bunny ears, adding a playful touch. In another, she is seen in a bright red sleeveless top with the words \"YOURSELF\" and \"IZZUE\" on the straps, suggesting a bold and confident style. She also wears a white, intricately patterned blouse with colorful accents, holding a pink mirror with a cute design, indicating a whimsical and fun-loving side. Her accessories include large, colorful earrings and a headband, which add to her playful and stylish appearance. The overall color palette of her outfits is vibrant, with a mix of reds, whites, and blues, and the textures range from denim to delicate lace.\n\n**Distinguishing Visual Features or Vibe:**\nyifei's most memorable feature is her ability to convey a mix of playful and confident vibes through her outfits and accessories. The bunny ears headband and the pink mirror with a cute design are signature items that add a whimsical touch to her appearance. Her red lipstick is a consistent feature that stands out, adding a bold and confident element to her look. The combination of her fair skin, dark hair, and expressive eyes creates a striking visual contrast. The overall aura she conveys is one of approachability and confidence, with a touch of fun and playfulness. Her outfits and accessories, along with her engaging expressions, make her visually unmistakable and memorable.",
+            "preference": "In terms of entertainment, yifei enjoys cooking shows, travel vlogs, but dislikes sports TV, romantic dramas. In terms of travel, yifei enjoys fine dining, street food, but dislikes polar expeditions, desert safaris. In terms of lifestyle, yifei enjoys plant-based diet, home cooking, but dislikes daily smoothies, outdoor workouts. In terms of shopping, yifei enjoys retro gaming consoles, wireless earbuds, but dislikes handmade crafts, vintage furniture. In terms of fashion, yifei enjoys techwear, cyberpunk aesthetics, but dislikes handcrafted leather bags, woven hats.",
+            "topic": [],
+            "original_id": "QA_sample_9275de6a",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Miles Roberts least likely to be doing?"
+        }
+    }
+]

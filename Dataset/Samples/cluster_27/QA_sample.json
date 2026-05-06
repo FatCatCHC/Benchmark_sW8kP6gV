@@ -1,0 +1,1729 @@
+[
+    {
+        "id": "QA_sample_58ade1ea",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 7d941cc9, the text, has Ukraine received foreign military aid that meets the threshold for \"impactful\" support as defined by total spending or aid packages exceeding $100 billion since the invasion?",
+        "answer": "Yes",
+        "evidence": {
+            "text_evidence": [
+                "Military spending is considered impactful when the total spending since the invasion, or aid packages by allies, exceed $100 billion. Additionally, the % of Ukraine occupied by Russia has shifted significantly since the invasion, with a peak occupation percentage of 24.5% in March 2022. Assume that decisions to scale support depend on occupation trends and military aid size over the last two years."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_ceb94a83.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "No",
+                "Yes"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_nature_video_games_e2a3ad66",
+                    "insert_conversation_turn": 728
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_transportation_religion_others_b12135d3",
+                    "insert_conversation_turn": 61,
+                    "reference_name": "Fig. 7d941cc9"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "politics",
+                "history",
+                "economy",
+                "government"
+            ],
+            "original_question": "the text, has Ukraine received foreign military aid that meets the threshold for \"impactful\" support as defined by total spending or aid packages exceeding $100 billion since the invasion?"
+        }
+    },
+    {
+        "id": "QA_sample_386c019b",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. d8f4ab4c, the text, what is Philadelphia's risk classification as of April 10 according to its seven-day average of new COVID-19 cases per 100,000 residents, and how does this compare to the risk classifications of New York City and Baltimore?",
+        "answer": "Philadelphia is 'low-risk' with 9.4 cases, New York City is 'high-risk' with 20.3 cases, and Baltimore is 'moderate-risk' with 10.6 cases.",
+        "evidence": {
+            "text_evidence": [
+                "A city will be classified as 'high-risk' if its seven-day average of new COVID-19 cases per 100,000 residents exceeds 15. Cities with averages below this threshold but above 10 are considered 'moderate-risk,' while those below 10 are 'low-risk.' Philadelphia has implemented an indoor mask mandate starting April 18 regardless of its risk classification."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_271bd458.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Philadelphia is 'moderate-risk' with 11.2 cases, New York City is 'high-risk' with 17.8 cases, and Baltimore is 'low-risk' with 8.7 cases",
+                "Philadelphia is 'low-risk' with 9.4 cases, New York City is 'high-risk' with 20.3 cases, and Baltimore is 'moderate-risk' with 10.6 cases.",
+                "Philadelphia is 'low-risk' with 8.9 cases, New York City is 'moderate-risk' with 12.4 cases, and Baltimore is 'high-risk' with 15.7 cases",
+                "Philadelphia is 'high-risk' with 16.5 cases, New York City is 'low-risk' with 9.3 cases, and Baltimore is 'moderate-risk' with 10.2 cases"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_nature_video_games_e2a3ad66",
+                    "insert_conversation_turn": 270
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_transportation_religion_others_b12135d3",
+                    "insert_conversation_turn": 500,
+                    "reference_name": "Fig. d8f4ab4c"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "health"
+            ],
+            "original_question": "the text, what is Philadelphia's risk classification as of April 10 according to its seven-day average of new COVID-19 cases per 100,000 residents, and how does this compare to the risk classifications of New York City and Baltimore?"
+        }
+    },
+    {
+        "id": "QA_sample_cfac84da",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 14563743, the previous definition, which of the metrics (M1, M2, or M3) is considered \"effective\" according to whether it meets or exceeds the 80% target as shown in the visualized data?",
+        "answer": "M2",
+        "evidence": {
+            "text_evidence": [
+                "A health monitoring initiative is aiming to meet a target where at least 80% of cases complete their respective processes within specific time frames. For M1, this target applies to the time between symptom onset and receipt of the swab by the lab being less than 48 hours. For M2, the target is about receiving the test result notification less than 24 hours after the lab receives the swab. For M3, it pertains to the notification of a case and tracing close contacts taking less than 48 hours. A process is considered effective only if it meets or exceeds this 80% target. These figures assume the accuracy of cumulative proportions displayed in the bar charts."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_97655432.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "M2",
+                "None of the metrics",
+                "M1",
+                "M3"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_nature_video_games_e2a3ad66",
+                    "insert_conversation_turn": 828
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_education_art_and_design_religion_dc4dfeee",
+                    "insert_conversation_turn": 786,
+                    "reference_name": "Fig. 14563743"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "health"
+            ],
+            "original_question": "the previous definition, which of the metrics (M1, M2, or M3) is considered \"effective\" according to whether it meets or exceeds the 80% target as shown in the visualized data?"
+        }
+    },
+    {
+        "id": "QA_sample_03a491ce",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 7ca38f24, the text, which age groups in Middletown should receive priority for booster vaccine doses according to the policy of prioritizing \"age groups where fewer than 40% of individuals have received them,\" while ensuring that individuals aged 65+ are \"last to be prioritized for boosters\"?",
+        "answer": "The age groups 12 to 17 and 18 to 24 should receive priority for booster vaccine doses, as their booster vaccination rates are below 40%.",
+        "evidence": {
+            "text_evidence": [
+                "In the town of Middletown, a certain public health policy prioritizes allocating booster vaccine doses to age groups where fewer than 40% of individuals have received them, while ensuring that individuals aged 65+ are last to be prioritized for boosters due to their near-total vaccination coverage in other categories. For age groups meeting this criterion, booster distribution is evenly divided within that group."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_6d8f6b0b.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "The age groups 12 to 17 and 18 to 24 should receive priority for booster vaccine doses, as their booster vaccination rates are below 40%.",
+                "25 to 44",
+                "5 to 11",
+                "45 to 64"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_nature_video_games_e2a3ad66",
+                    "insert_conversation_turn": 1021
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_education_art_and_design_religion_dc4dfeee",
+                    "insert_conversation_turn": 508,
+                    "reference_name": "Fig. 7ca38f24"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "health"
+            ],
+            "original_question": "the text, which age groups in Middletown should receive priority for booster vaccine doses according to the policy of prioritizing \"age groups where fewer than 40% of individuals have received them,\" while ensuring that individuals aged 65+ are \"last to be prioritized for boosters\"?"
+        }
+    },
+    {
+        "id": "QA_sample_0691de56",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 8ff15934, According to the previous definition, which voter groups must a candidate secure to achieve \"more than 50% of the total votes to win directly in the first round\"?",
+        "answer": "Marathi voters (6,10,480 votes) and at least one additional group (e.g., Muslims with 2,76,198 votes), totaling a minimum of 8,86,678 votes.",
+        "evidence": {
+            "text_evidence": [
+                "In a particular area, voter groups play a crucial role in deciding election outcomes. Assume that each group tends to vote cohesively for a single candidate or party. Additionally, a candidate needs more than 50% of the total votes to win directly in the first round, avoiding any second round or coalition formation. If none of the groups fully supports a single candidate, coalitions among voter groups can determine the winning party."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_af48a010.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "Muslims and South Indians totaling 4,47,681 votes",
+                "South Indians and Gujaratis totaling 2,78,620 votes",
+                "Marathi voters (6,10,480 votes) and at least one additional group (e.g., Muslims with 2,76,198 votes), totaling a minimum of 8,86,678 votes.",
+                "North Indians and Gujaratis totaling 3,11,581 votes"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_nature_video_games_e2a3ad66",
+                    "insert_conversation_turn": 446
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_education_art_and_design_religion_dc4dfeee",
+                    "insert_conversation_turn": 718,
+                    "reference_name": "Fig. 8ff15934"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "politics",
+                "government"
+            ],
+            "original_question": "According to the previous definition, which voter groups must a candidate secure to achieve \"more than 50% of the total votes to win directly in the first round\"?"
+        }
+    },
+    {
+        "id": "QA_sample_13c18ca7",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 709e12b6, the text, does the alignment of cumulative borrowing with the \"PM forecast for March\" exempt the government from implementing \"additional measures to reduce borrowing in the next fiscal year\"?",
+        "answer": "Yes",
+        "evidence": {
+            "text_evidence": [
+                "The government has introduced a fiscal review policy stating that cumulative borrowing exceeding £160 billion at the end of the fiscal year (March) will require additional measures to reduce borrowing in the next fiscal year. However, exceptions will be made if the borrowing trend matches the OBR forecast trend or aligns with the PM forecast for March."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_f4d361d2.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "No",
+                "Yes"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_transportation_religion_others_b12135d3",
+                    "insert_conversation_turn": 1127
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_nature_video_games_e2a3ad66",
+                    "insert_conversation_turn": 903,
+                    "reference_name": "Fig. 709e12b6"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "government",
+                "economy"
+            ],
+            "original_question": "the text, does the alignment of cumulative borrowing with the \"PM forecast for March\" exempt the government from implementing \"additional measures to reduce borrowing in the next fiscal year\"?"
+        }
+    },
+    {
+        "id": "QA_sample_ba7571d2",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 509ea459, the text, which cancer sites accounted for the 'priority' threshold of cancer incidents in the UK in 2011 according to the chart?",
+        "answer": "Breast, Lung, Prostate, Bowel",
+        "evidence": {
+            "text_evidence": [
+                "In the UK, health authorities aim to prioritize awareness campaigns for cancer types that account for at least 10% of total incidents for the year. Assume that the total number of cancer incidents in 2011 is the sum of all incidents shown in the chart."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_bc5c8b55.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Breast, Lung, Prostate, Bowel",
+                "Kidney, Brain Other CNS and Intracranial Tumours, Pancreas",
+                "Leukaemia, Uterus, Oesophagus",
+                "Malignant Melanoma, Non-Hodgkin Lymphoma, Bladder"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_transportation_religion_others_b12135d3",
+                    "insert_conversation_turn": 253
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_education_art_and_design_religion_dc4dfeee",
+                    "insert_conversation_turn": 892,
+                    "reference_name": "Fig. 509ea459"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "health"
+            ],
+            "original_question": "the text, which cancer sites accounted for the 'priority' threshold of cancer incidents in the UK in 2011 according to the chart?"
+        }
+    },
+    {
+        "id": "QA_sample_6fe47364",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 2112d099, the text, which racial demographics had an annual frequency of being killed by police per one million of that race's population that was not considered \"effective\" in 2016?",
+        "answer": "Black people and Native Americans",
+        "evidence": {
+            "text_evidence": [
+                "A new law aims to reduce the death rate caused by police shootings in the US. The law is considered effective if the annual frequency of any racial demographic being killed by police per one million of that race's population is reduced to below 0.8 by 2017."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_9880d833.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Black people and Native Americans",
+                "White people",
+                "Hispanic/Latino people",
+                "Asian/Pacific Islander people"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_nature_video_games_e2a3ad66",
+                    "insert_conversation_turn": 51
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_education_art_and_design_religion_dc4dfeee",
+                    "insert_conversation_turn": 308,
+                    "reference_name": "Fig. 2112d099"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "government",
+                "health"
+            ],
+            "original_question": "the text, which racial demographics had an annual frequency of being killed by police per one million of that race's population that was not considered \"effective\" in 2016?"
+        }
+    },
+    {
+        "id": "QA_sample_47358d59",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 8db469aa, the text, which groups meet the criterion of receiving \"at least 75% overall confidence\" in both 2016 and 2019 and also demonstrate a \"consistently increasing confidence\" from 2016 to 2019?",
+        "answer": "Scientists, medical scientists, and the military.",
+        "evidence": {
+            "text_evidence": [
+                "A public policy group decided to prioritize groups that received at least 75% overall confidence from the public in both 2016 and 2019. Overall confidence is calculated as the sum of percentages expressing 'a great deal' and 'a fair amount' of confidence. For groups that meet this criterion, further consideration will favor those with consistently increasing confidence from 2016 to 2019."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_36db3ee8.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "K-12 public school principals",
+                "Business leaders",
+                "Religious leaders",
+                "Scientists, medical scientists, and the military."
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_transportation_religion_others_b12135d3",
+                    "insert_conversation_turn": 239
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_nature_video_games_e2a3ad66",
+                    "insert_conversation_turn": 643,
+                    "reference_name": "Fig. 8db469aa"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "science",
+                "health",
+                "government",
+                "education"
+            ],
+            "original_question": "the text, which groups meet the criterion of receiving \"at least 75% overall confidence\" in both 2016 and 2019 and also demonstrate a \"consistently increasing confidence\" from 2016 to 2019?"
+        }
+    },
+    {
+        "id": "QA_sample_0545d643",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 6191efd4, the text, which age groups in Middletown fall under the category of having a booster vaccination rate \"below the threshold for targeted outreach programs\"?",
+        "answer": "12 to 17, 18 to 24, and 25 to 44",
+        "evidence": {
+            "text_evidence": [
+                "In Middletown, health officials have announced a new policy: age groups with a booster vaccination rate below 40% will receive targeted outreach programs to improve booster uptake. These programs will focus on educating these populations about the importance of booster shots for COVID-19 protection."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_366e9457.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "65 and older",
+                "5 to 11",
+                "12 to 17, 18 to 24, and 25 to 44",
+                "45 to 64"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_nature_video_games_e2a3ad66",
+                    "insert_conversation_turn": 1007
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_education_art_and_design_religion_dc4dfeee",
+                    "insert_conversation_turn": 1000,
+                    "reference_name": "Fig. 6191efd4"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "health"
+            ],
+            "original_question": "the text, which age groups in Middletown fall under the category of having a booster vaccination rate \"below the threshold for targeted outreach programs\"?"
+        }
+    },
+    {
+        "id": "QA_sample_9c388072",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. bdf639e2, the text's definition, how many months in 2020 were categorized as \"high-incident months\" for fireworks-related calls?",
+        "answer": "1",
+        "evidence": {
+            "text_evidence": [
+                "The San Francisco Police Department has set a threshold to categorize a month as a high-incident month for fireworks-related calls if the number of calls exceeds 100. This measure is used to identify seasonal trends and allocate resources appropriately."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_03458db5.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "1",
+                "0",
+                "2",
+                "3"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_nature_video_games_e2a3ad66",
+                    "insert_conversation_turn": 797
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_transportation_religion_others_b12135d3",
+                    "insert_conversation_turn": 225,
+                    "reference_name": "Fig. bdf639e2"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "government"
+            ],
+            "original_question": "the text's definition, how many months in 2020 were categorized as \"high-incident months\" for fireworks-related calls?"
+        }
+    },
+    {
+        "id": "QA_sample_69e502c4",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. d555d9d5, the text, what is the \"number of male deaths in 2010,\" and what is the \"target number of male deaths for 2020\" if the agency achieves its goal to \"reduce male deaths to 30% less than their 2010 levels by 2020\"?",
+        "answer": "The number of male deaths in 2010 is approximately 10,000, and the target for 2020 is 7,000.",
+        "evidence": {
+            "text_evidence": [
+                "A reduction initiative planned by a health agency aims to reduce overdose deaths from Rx opioid pain relievers. The agency considers targeting vulnerable demographics by setting goals for the male population, seeking to reduce male deaths to 30% less than their 2010 levels by 2020. The strategy divides responsibility among regional focus groups to achieve the goal."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_16dcca45.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "The number of male deaths in 2010 is approximately 8,000, and the target for 2020 is 5,600",
+                "The number of male deaths in 2010 is approximately 9,000, and the target for 2020 is 6,300",
+                "The number of male deaths in 2010 is approximately 10,500, and the target for 2020 is 7,350",
+                "The number of male deaths in 2010 is approximately 10,000, and the target for 2020 is 7,000."
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_transportation_religion_others_b12135d3",
+                    "insert_conversation_turn": 428
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_education_art_and_design_religion_dc4dfeee",
+                    "insert_conversation_turn": 249,
+                    "reference_name": "Fig. d555d9d5"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "health"
+            ],
+            "original_question": "the text, what is the \"number of male deaths in 2010,\" and what is the \"target number of male deaths for 2020\" if the agency achieves its goal to \"reduce male deaths to 30% less than their 2010 levels by 2020\"?"
+        }
+    },
+    {
+        "id": "QA_sample_bb358510",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. e757798a, the text, which healthcare divisions should prioritize increasing staff availability according to the criteria of \"average wait times greater than 40 minutes,\" \"less than 280 available doctors,\" and a \"doctor-to-patient ratio higher than 30 patients per doctor\"?",
+        "answer": "Gynecology and Neurology.",
+        "evidence": {
+            "text_evidence": [
+                "The healthcare management team introduced a new efficiency goal stating that divisions with average wait times greater than 40 minutes and less than 280 available doctors should prioritize increasing staff availability to enhance patient service. Divisions with a doctor-to-patient ratio higher than 30 patients per doctor are especially urged to increase staffing to meet quality metrics."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_7aca57c1.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "Surgery and Orthopaedics",
+                "Dermatology and Oncology",
+                "Cardiology and Dermatology",
+                "Gynecology and Neurology."
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_nature_video_games_e2a3ad66",
+                    "insert_conversation_turn": 285
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_transportation_religion_others_b12135d3",
+                    "insert_conversation_turn": 915,
+                    "reference_name": "Fig. e757798a"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "health"
+            ],
+            "original_question": "the text, which healthcare divisions should prioritize increasing staff availability according to the criteria of \"average wait times greater than 40 minutes,\" \"less than 280 available doctors,\" and a \"doctor-to-patient ratio higher than 30 patients per doctor\"?"
+        }
+    },
+    {
+        "id": "QA_sample_a1fe0736",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. bea7e6e3, the text, will Federal Medicaid outlays in 2024 meet the threshold for a \"significant reduction in funding\" according to the BCRA projection?",
+        "answer": "Yes",
+        "evidence": {
+            "text_evidence": [
+                "The Better Care Reconciliation Act (BCRA) proposes a new plan for Federal Medicaid funding, projecting a reduction in Medicaid outlays compared to historical trends. The reduction in funding is deemed significant if it falls below $300 billion annually by 2024. Assume historical trends would otherwise have shown steady or increasing Medicaid outlays based on previous patterns."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_b43f64f0.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Yes",
+                "No"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_transportation_religion_others_b12135d3",
+                    "insert_conversation_turn": 983
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_nature_video_games_e2a3ad66",
+                    "insert_conversation_turn": 846,
+                    "reference_name": "Fig. bea7e6e3"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "health",
+                "government",
+                "economy"
+            ],
+            "original_question": "the text, will Federal Medicaid outlays in 2024 meet the threshold for a \"significant reduction in funding\" according to the BCRA projection?"
+        }
+    },
+    {
+        "id": "QA_sample_05a0409a",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 4b54be51, the text, did Waterloo Region achieve the \"effective intervention program\" criteria by reducing weekly deaths to below 5 consistently for 3 consecutive months and decreasing cumulative deaths by at least 10% during the reviewed year?",
+        "answer": "No",
+        "evidence": {
+            "text_evidence": [
+                "A healthcare report states that effective intervention programs must decrease weekly deaths to below 5 consistently for at least 3 consecutive months and reduce cumulative deaths by at least 10% over the same period in a region. Assume the weekly and cumulative deaths remained as shown in the chart for the entire period under review."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_ea882ec5.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Yes",
+                "No"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_nature_video_games_e2a3ad66",
+                    "insert_conversation_turn": 979
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_education_art_and_design_religion_dc4dfeee",
+                    "insert_conversation_turn": 802,
+                    "reference_name": "Fig. 4b54be51"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "health"
+            ],
+            "original_question": "the text, did Waterloo Region achieve the \"effective intervention program\" criteria by reducing weekly deaths to below 5 consistently for 3 consecutive months and decreasing cumulative deaths by at least 10% during the reviewed year?"
+        }
+    },
+    {
+        "id": "QA_sample_3bad2590",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 6efc8e0d, the text, what is the risk level of an asteroid with a \"kinetic energy in the megaton range\" and a \"collision probability considered very unlikely\" on the Torino Scale, and what action is required according to the previous definition?",
+        "answer": "Risk level 5, significant attention and possible intervention are required.",
+        "evidence": {
+            "text_evidence": [
+                "The Torino Scale is used to categorize the risk posed by near-Earth objects such as asteroids, based on their collision probability and kinetic energy. The kinetic energy is measured in megatons of TNT (MT), and the collision probability ranges from very unlikely (<10^-6) to almost certain (>0.99). A rating of 0 means no likely consequences, while levels 8-10 represent significant global or regional impact. Events rated 4 or higher require significant attention and possible intervention. Assume an asteroid has a kinetic energy of roughly 10^5 MT and a collision probability of about 10^-4."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_ce0e3c32.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Risk level 6 serious analysis and possible preparation for planetary defense",
+                "Risk level 5, significant attention and possible intervention are required.",
+                "Risk level 4 heightened monitoring and analysis of the situation",
+                "Risk level 7 active global coordination and preparation for impact"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_education_art_and_design_religion_dc4dfeee",
+                    "insert_conversation_turn": 834
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_transportation_religion_others_b12135d3",
+                    "insert_conversation_turn": 1203,
+                    "reference_name": "Fig. 6efc8e0d"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "science",
+                "environment"
+            ],
+            "original_question": "the text, what is the risk level of an asteroid with a \"kinetic energy in the megaton range\" and a \"collision probability considered very unlikely\" on the Torino Scale, and what action is required according to the previous definition?"
+        }
+    },
+    {
+        "id": "QA_sample_c8e6c8b1",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 6fdb7bc1, the text, have the criteria for a public health initiative to be considered as having made \"significant progress\" been met as of February 3?",
+        "answer": "No",
+        "evidence": {
+            "text_evidence": [
+                "A public health initiative is considered to have made significant progress if nationwide daily case counts decrease by at least 50% from their peak level and the number of currently hospitalized individuals drops below 50,000 on average. These changes must coincide over a similar time period to be evaluated as effective."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_a881612d.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "No",
+                "Yes"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_transportation_religion_others_b12135d3",
+                    "insert_conversation_turn": 903
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_nature_video_games_e2a3ad66",
+                    "insert_conversation_turn": 965,
+                    "reference_name": "Fig. 6fdb7bc1"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "health"
+            ],
+            "original_question": "the text, have the criteria for a public health initiative to be considered as having made \"significant progress\" been met as of February 3?"
+        }
+    },
+    {
+        "id": "QA_sample_6bf01c95_2",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 86736c09, the image, what is Deven Vincent most likely to be doing?",
+        "answer": "Watching theater performances",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Deven Vincent enjoys theater performances, film festivals, but dislikes classical concerts, art exhibitions"
+            ],
+            "image_evidence": [
+                "MMPB_9ab3a64b.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Deven Vincent enjoys motorbiking trips, rafting, but dislikes backcountry camping, ice fishing",
+                "In terms of lifestyle, Deven Vincent enjoys hot yoga, pilates, but dislikes daily smoothies, outdoor workouts",
+                "In terms of shopping, Deven Vincent enjoys second-hand books, indie brands, but dislikes coffee brewing equipment, vintage vinyl records",
+                "In terms of fashion, Deven Vincent enjoys handmade accessories, bold colors, but dislikes leather jackets, comfortable shoes."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Watching theater performances",
+                "Attending concerts and shows",
+                "Doing pilates",
+                "Observing live performances"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_transportation_religion_others_b12135d3",
+                    "insert_conversation_turn": 1445
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_nature_video_games_e2a3ad66",
+                    "insert_conversation_turn": 563,
+                    "reference_name": "Fig. 86736c09"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_education_art_and_design_religion_dc4dfeee",
+                    "insert_conversation_turn": 840
+                },
+                {
+                    "conversation_name": "group_chat_education_art_and_design_religion_dc4dfeee",
+                    "insert_conversation_turn": 475
+                },
+                {
+                    "conversation_name": "group_chat_education_art_and_design_religion_dc4dfeee",
+                    "insert_conversation_turn": 642
+                },
+                {
+                    "conversation_name": "group_chat_transportation_religion_others_b12135d3",
+                    "insert_conversation_turn": 168
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Liang",
+            "description": "Liang is a middle-aged man with a distinguished appearance, characterized by a well-groomed, dark hairstyle that is neatly combed back. His facial structure is prominent, with a strong jawline and a slightly furrowed brow, suggesting a serious or contemplative demeanor. Liang's skin tone is fair, and he often wears glasses with thin, rectangular frames, which add to his intellectual and professional look. His expressions range from serious and focused to a more relaxed, smiling demeanor, indicating a versatile personality. Liang's height is not explicitly mentioned, but his posture and attire suggest a confident and commanding presence.\n\n**Outfit and Accessories:**\nLiang is consistently seen in formal attire, primarily wearing suits in shades of gray and black, which convey a sense of professionalism and sophistication. His outfits are complemented by patterned ties and dress shirts, adding a touch of personality to his otherwise classic look. The suits appear to be well-tailored, emphasizing his refined taste. Liang often wears a watch and a ring, which are subtle yet significant accessories that enhance his polished appearance. The overall style of his clothing is formal and business-oriented, with a touch of flair that suggests a blend of traditional and modern fashion sensibilities.\n\n**Distinguishing Visual Features or Vibe:**\nThe most memorable feature of Liang is his glasses, which serve as a signature element of his look. The thin, rectangular frames are a recurring visual motif that adds to his intellectual and authoritative aura. Liang's confident posture and serious expressions, combined with his formal attire, convey a sense of authority and professionalism. In one of the images, he is seen in a celebratory setting with confetti, suggesting a more relaxed and joyful side to his personality. The consistent use of formal attire and the occasional celebratory context create a dynamic and multifaceted image of Liang, making him visually unmistakable and memorable.",
+            "preference": "In terms of entertainment, Liang enjoys theater performances, film festivals, but dislikes classical concerts, art exhibitions. In terms of travel, Liang enjoys motorbiking trips, rafting, but dislikes backcountry camping, ice fishing. In terms of lifestyle, Liang enjoys hot yoga, pilates, but dislikes daily smoothies, outdoor workouts. In terms of shopping, Liang enjoys second-hand books, indie brands, but dislikes coffee brewing equipment, vintage vinyl records. In terms of fashion, Liang enjoys handmade accessories, bold colors, but dislikes leather jackets, comfortable shoes.",
+            "topic": [],
+            "original_id": "QA_sample_6bf01c95",
+            "original_question": "the image, what is Deven Vincent most likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_6bf01c95_3",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 5bf858f3, Among the activities that could reasonably occur in the given image, which one is Deven Vincent least likely to be doing?",
+        "answer": "Watching classical concerts",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Deven Vincent enjoys theater performances, film festivals, but dislikes classical concerts, art exhibitions"
+            ],
+            "image_evidence": [
+                "MMPB_e907fbc8.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Deven Vincent enjoys motorbiking trips, rafting, but dislikes backcountry camping, ice fishing",
+                "In terms of lifestyle, Deven Vincent enjoys hot yoga, pilates, but dislikes daily smoothies, outdoor workouts",
+                "In terms of shopping, Deven Vincent enjoys second-hand books, indie brands, but dislikes coffee brewing equipment, vintage vinyl records",
+                "In terms of fashion, Deven Vincent enjoys handmade accessories, bold colors, but dislikes leather jackets, comfortable shoes."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Ice fishing",
+                "Watching classical concerts",
+                "Enjoying K-pop performances",
+                "Listening to opera in a grand auditorium"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_transportation_religion_others_b12135d3",
+                    "insert_conversation_turn": 1445
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_nature_video_games_e2a3ad66",
+                    "insert_conversation_turn": 548,
+                    "reference_name": "Fig. 5bf858f3"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_education_art_and_design_religion_dc4dfeee",
+                    "insert_conversation_turn": 840
+                },
+                {
+                    "conversation_name": "group_chat_education_art_and_design_religion_dc4dfeee",
+                    "insert_conversation_turn": 475
+                },
+                {
+                    "conversation_name": "group_chat_education_art_and_design_religion_dc4dfeee",
+                    "insert_conversation_turn": 642
+                },
+                {
+                    "conversation_name": "group_chat_transportation_religion_others_b12135d3",
+                    "insert_conversation_turn": 168
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Liang",
+            "description": "Liang is a middle-aged man with a distinguished appearance, characterized by a well-groomed, dark hairstyle that is neatly combed back. His facial structure is prominent, with a strong jawline and a slightly furrowed brow, suggesting a serious or contemplative demeanor. Liang's skin tone is fair, and he often wears glasses with thin, rectangular frames, which add to his intellectual and professional look. His expressions range from serious and focused to a more relaxed, smiling demeanor, indicating a versatile personality. Liang's height is not explicitly mentioned, but his posture and attire suggest a confident and commanding presence.\n\n**Outfit and Accessories:**\nLiang is consistently seen in formal attire, primarily wearing suits in shades of gray and black, which convey a sense of professionalism and sophistication. His outfits are complemented by patterned ties and dress shirts, adding a touch of personality to his otherwise classic look. The suits appear to be well-tailored, emphasizing his refined taste. Liang often wears a watch and a ring, which are subtle yet significant accessories that enhance his polished appearance. The overall style of his clothing is formal and business-oriented, with a touch of flair that suggests a blend of traditional and modern fashion sensibilities.\n\n**Distinguishing Visual Features or Vibe:**\nThe most memorable feature of Liang is his glasses, which serve as a signature element of his look. The thin, rectangular frames are a recurring visual motif that adds to his intellectual and authoritative aura. Liang's confident posture and serious expressions, combined with his formal attire, convey a sense of authority and professionalism. In one of the images, he is seen in a celebratory setting with confetti, suggesting a more relaxed and joyful side to his personality. The consistent use of formal attire and the occasional celebratory context create a dynamic and multifaceted image of Liang, making him visually unmistakable and memorable.",
+            "preference": "In terms of entertainment, Liang enjoys theater performances, film festivals, but dislikes classical concerts, art exhibitions. In terms of travel, Liang enjoys motorbiking trips, rafting, but dislikes backcountry camping, ice fishing. In terms of lifestyle, Liang enjoys hot yoga, pilates, but dislikes daily smoothies, outdoor workouts. In terms of shopping, Liang enjoys second-hand books, indie brands, but dislikes coffee brewing equipment, vintage vinyl records. In terms of fashion, Liang enjoys handmade accessories, bold colors, but dislikes leather jackets, comfortable shoes.",
+            "topic": [],
+            "original_id": "QA_sample_6bf01c95",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Deven Vincent least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_04c5aee4_1",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 786e5e2d, Among the activities that could reasonably occur in the given image, which one is Alexzander Pope least likely to be doing?",
+        "answer": "Watching gaming tournaments",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Alexzander Pope enjoys horror movies, sitcoms, but dislikes sports documentaries, gaming tournaments",
+                "In terms of travel, Alexzander Pope enjoys fine dining, street food, but dislikes hiking, scuba diving"
+            ],
+            "image_evidence": [
+                "MMPB_81ebaeeb.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of lifestyle, Alexzander Pope enjoys early morning jogs, massages, but dislikes boxing workouts, rock climbing gyms",
+                "In terms of shopping, Alexzander Pope enjoys gaming accessories, tech gadgets, but dislikes luxury handbags, designer watches",
+                "In terms of fashion, Alexzander Pope enjoys handcrafted leather bags, woven hats, but dislikes winter coats, denim jeans."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Watching gaming tournaments",
+                "Streaming live concerts",
+                "Scuba diving",
+                "Watching movie marathons"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_transportation_religion_others_b12135d3",
+                    "insert_conversation_turn": 816
+                },
+                {
+                    "conversation_name": "group_chat_music_nature_video_games_e2a3ad66",
+                    "insert_conversation_turn": 866
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_nature_video_games_e2a3ad66",
+                    "insert_conversation_turn": 144,
+                    "reference_name": "Fig. 786e5e2d"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_nature_video_games_e2a3ad66",
+                    "insert_conversation_turn": 256
+                },
+                {
+                    "conversation_name": "group_chat_music_nature_video_games_e2a3ad66",
+                    "insert_conversation_turn": 654
+                },
+                {
+                    "conversation_name": "group_chat_education_art_and_design_religion_dc4dfeee",
+                    "insert_conversation_turn": 613
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Jack",
+            "description": "Jack is a tall, slender individual with a well-defined jawline and a symmetrical facial structure. Their skin tone is fair, and they have striking blue eyes that are a consistent feature across the images. The individual's hair is typically styled in a slicked-back manner, with a few strands often falling to the side, adding a touch of casual elegance. The eyebrows are well-groomed and slightly thick, framing the eyes effectively. Jack often appears with a neutral or contemplative expression, sometimes resting their chin on their hand, which adds a thoughtful or introspective vibe to their demeanor.\n\n**Outfit and Accessories:**\nJack is frequently seen in formal or semi-formal attire, with a consistent color palette of dark tones, such as black and brown, complemented by white accents. The outfits range from a classic black tuxedo with a white bow tie to a brown shirt with suspenders, and a dark jacket over a white shirt. The clothing is well-fitted, suggesting a tailored look that enhances their slender build. The textures of the fabrics vary, from the smoothness of a tuxedo to the more casual feel of a shirt and jacket. The outfits convey a sense of sophistication and attention to detail, with the choice of clothing often aligning with the setting, whether formal or more relaxed.\n\n**Distinguishing Visual Features or Vibe:**\nThe most memorable feature of Jack is their striking blue eyes, which are a focal point in each image. The individual's slicked-back hair and neutral expressions contribute to a polished and composed appearance. The consistent use of dark colors in their attire, combined with the occasional white accents, creates a classic and timeless look. The thoughtful poses, such as resting their chin on their hand, add a layer of depth and introspection to their persona. The overall vibe of Jack is one of elegance and sophistication, with a hint of mystery and contemplation, making them visually unmistakable and memorable.",
+            "preference": "In terms of entertainment, Jack enjoys horror movies, sitcoms, but dislikes sports documentaries, gaming tournaments. In terms of travel, Jack enjoys fine dining, street food, but dislikes hiking, scuba diving. In terms of lifestyle, Jack enjoys early morning jogs, massages, but dislikes boxing workouts, rock climbing gyms. In terms of shopping, Jack enjoys gaming accessories, tech gadgets, but dislikes luxury handbags, designer watches. In terms of fashion, Jack enjoys handcrafted leather bags, woven hats, but dislikes winter coats, denim jeans.",
+            "topic": [],
+            "original_id": "QA_sample_04c5aee4",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Alexzander Pope least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_04c5aee4_2",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. f034b867, Among the activities that could reasonably occur in the given image, which one is Alexzander Pope least likely to be doing?",
+        "answer": "Watching a sports documentary",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Alexzander Pope enjoys horror movies, sitcoms, but dislikes sports documentaries, gaming tournaments",
+                "In terms of travel, Alexzander Pope enjoys fine dining, street food, but dislikes hiking, scuba diving"
+            ],
+            "image_evidence": [
+                "MMPB_2d99653f.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of lifestyle, Alexzander Pope enjoys early morning jogs, massages, but dislikes boxing workouts, rock climbing gyms",
+                "In terms of shopping, Alexzander Pope enjoys gaming accessories, tech gadgets, but dislikes luxury handbags, designer watches",
+                "In terms of fashion, Alexzander Pope enjoys handcrafted leather bags, woven hats, but dislikes winter coats, denim jeans."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "Observing a historical film",
+                "Watching a nature documentary",
+                "Going to a rock climbing gym",
+                "Watching a sports documentary"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_transportation_religion_others_b12135d3",
+                    "insert_conversation_turn": 816
+                },
+                {
+                    "conversation_name": "group_chat_music_nature_video_games_e2a3ad66",
+                    "insert_conversation_turn": 866
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_education_art_and_design_religion_dc4dfeee",
+                    "insert_conversation_turn": 154,
+                    "reference_name": "Fig. f034b867"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_nature_video_games_e2a3ad66",
+                    "insert_conversation_turn": 256
+                },
+                {
+                    "conversation_name": "group_chat_music_nature_video_games_e2a3ad66",
+                    "insert_conversation_turn": 654
+                },
+                {
+                    "conversation_name": "group_chat_education_art_and_design_religion_dc4dfeee",
+                    "insert_conversation_turn": 613
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Jack",
+            "description": "Jack is a tall, slender individual with a well-defined jawline and a symmetrical facial structure. Their skin tone is fair, and they have striking blue eyes that are a consistent feature across the images. The individual's hair is typically styled in a slicked-back manner, with a few strands often falling to the side, adding a touch of casual elegance. The eyebrows are well-groomed and slightly thick, framing the eyes effectively. Jack often appears with a neutral or contemplative expression, sometimes resting their chin on their hand, which adds a thoughtful or introspective vibe to their demeanor.\n\n**Outfit and Accessories:**\nJack is frequently seen in formal or semi-formal attire, with a consistent color palette of dark tones, such as black and brown, complemented by white accents. The outfits range from a classic black tuxedo with a white bow tie to a brown shirt with suspenders, and a dark jacket over a white shirt. The clothing is well-fitted, suggesting a tailored look that enhances their slender build. The textures of the fabrics vary, from the smoothness of a tuxedo to the more casual feel of a shirt and jacket. The outfits convey a sense of sophistication and attention to detail, with the choice of clothing often aligning with the setting, whether formal or more relaxed.\n\n**Distinguishing Visual Features or Vibe:**\nThe most memorable feature of Jack is their striking blue eyes, which are a focal point in each image. The individual's slicked-back hair and neutral expressions contribute to a polished and composed appearance. The consistent use of dark colors in their attire, combined with the occasional white accents, creates a classic and timeless look. The thoughtful poses, such as resting their chin on their hand, add a layer of depth and introspection to their persona. The overall vibe of Jack is one of elegance and sophistication, with a hint of mystery and contemplation, making them visually unmistakable and memorable.",
+            "preference": "In terms of entertainment, Jack enjoys horror movies, sitcoms, but dislikes sports documentaries, gaming tournaments. In terms of travel, Jack enjoys fine dining, street food, but dislikes hiking, scuba diving. In terms of lifestyle, Jack enjoys early morning jogs, massages, but dislikes boxing workouts, rock climbing gyms. In terms of shopping, Jack enjoys gaming accessories, tech gadgets, but dislikes luxury handbags, designer watches. In terms of fashion, Jack enjoys handcrafted leather bags, woven hats, but dislikes winter coats, denim jeans.",
+            "topic": [],
+            "original_id": "QA_sample_04c5aee4",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Alexzander Pope least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_04c5aee4_3",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 6cd8b161, Among the activities that could reasonably occur in the given image, which one is Alexzander Pope least likely to be doing?",
+        "answer": "Watching a soccer documentary",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Alexzander Pope enjoys horror movies, sitcoms, but dislikes sports documentaries, gaming tournaments",
+                "In terms of travel, Alexzander Pope enjoys fine dining, street food, but dislikes hiking, scuba diving"
+            ],
+            "image_evidence": [
+                "MMPB_6f052249.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of lifestyle, Alexzander Pope enjoys early morning jogs, massages, but dislikes boxing workouts, rock climbing gyms",
+                "In terms of shopping, Alexzander Pope enjoys gaming accessories, tech gadgets, but dislikes luxury handbags, designer watches",
+                "In terms of fashion, Alexzander Pope enjoys handcrafted leather bags, woven hats, but dislikes winter coats, denim jeans."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Watching a soccer documentary",
+                "Watching a sci-fi movie",
+                "Viewing a musical",
+                "Buying designer watches"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_transportation_religion_others_b12135d3",
+                    "insert_conversation_turn": 816
+                },
+                {
+                    "conversation_name": "group_chat_music_nature_video_games_e2a3ad66",
+                    "insert_conversation_turn": 866
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_transportation_religion_others_b12135d3",
+                    "insert_conversation_turn": 694,
+                    "reference_name": "Fig. 6cd8b161"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_nature_video_games_e2a3ad66",
+                    "insert_conversation_turn": 256
+                },
+                {
+                    "conversation_name": "group_chat_music_nature_video_games_e2a3ad66",
+                    "insert_conversation_turn": 654
+                },
+                {
+                    "conversation_name": "group_chat_education_art_and_design_religion_dc4dfeee",
+                    "insert_conversation_turn": 613
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Jack",
+            "description": "Jack is a tall, slender individual with a well-defined jawline and a symmetrical facial structure. Their skin tone is fair, and they have striking blue eyes that are a consistent feature across the images. The individual's hair is typically styled in a slicked-back manner, with a few strands often falling to the side, adding a touch of casual elegance. The eyebrows are well-groomed and slightly thick, framing the eyes effectively. Jack often appears with a neutral or contemplative expression, sometimes resting their chin on their hand, which adds a thoughtful or introspective vibe to their demeanor.\n\n**Outfit and Accessories:**\nJack is frequently seen in formal or semi-formal attire, with a consistent color palette of dark tones, such as black and brown, complemented by white accents. The outfits range from a classic black tuxedo with a white bow tie to a brown shirt with suspenders, and a dark jacket over a white shirt. The clothing is well-fitted, suggesting a tailored look that enhances their slender build. The textures of the fabrics vary, from the smoothness of a tuxedo to the more casual feel of a shirt and jacket. The outfits convey a sense of sophistication and attention to detail, with the choice of clothing often aligning with the setting, whether formal or more relaxed.\n\n**Distinguishing Visual Features or Vibe:**\nThe most memorable feature of Jack is their striking blue eyes, which are a focal point in each image. The individual's slicked-back hair and neutral expressions contribute to a polished and composed appearance. The consistent use of dark colors in their attire, combined with the occasional white accents, creates a classic and timeless look. The thoughtful poses, such as resting their chin on their hand, add a layer of depth and introspection to their persona. The overall vibe of Jack is one of elegance and sophistication, with a hint of mystery and contemplation, making them visually unmistakable and memorable.",
+            "preference": "In terms of entertainment, Jack enjoys horror movies, sitcoms, but dislikes sports documentaries, gaming tournaments. In terms of travel, Jack enjoys fine dining, street food, but dislikes hiking, scuba diving. In terms of lifestyle, Jack enjoys early morning jogs, massages, but dislikes boxing workouts, rock climbing gyms. In terms of shopping, Jack enjoys gaming accessories, tech gadgets, but dislikes luxury handbags, designer watches. In terms of fashion, Jack enjoys handcrafted leather bags, woven hats, but dislikes winter coats, denim jeans.",
+            "topic": [],
+            "original_id": "QA_sample_04c5aee4",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Alexzander Pope least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_72ecefe6_1",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 0aceb8d6, Among the activities that could reasonably occur in the given image, which one is Cannon Hester least likely to be doing?",
+        "answer": "Watching crime thriller films",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Cannon Hester enjoys live band karaoke, magic shows, but dislikes crime thrillers, historical dramas",
+                "In terms of travel, Cannon Hester enjoys kayaking, snorkeling, but dislikes fine dining, street food"
+            ],
+            "image_evidence": [
+                "MMPB_2d99653f.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of lifestyle, Cannon Hester enjoys essential oils, aromatherapy, but dislikes protein-rich diet, weightlifting",
+                "In terms of shopping, Cannon Hester enjoys smart home devices, kitchen appliances, but dislikes retro gaming consoles, wireless earbuds",
+                "In terms of fashion, Cannon Hester enjoys techwear, cyberpunk aesthetics, but dislikes vintage style, formal suits."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Watching crime thriller films",
+                "Enjoying fine dining food",
+                "Viewing suspenseful mystery movies",
+                "Watching action-packed dramas"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_transportation_religion_others_b12135d3",
+                    "insert_conversation_turn": 1352
+                },
+                {
+                    "conversation_name": "group_chat_transportation_religion_others_b12135d3",
+                    "insert_conversation_turn": 788
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_nature_video_games_e2a3ad66",
+                    "insert_conversation_turn": 160,
+                    "reference_name": "Fig. 0aceb8d6"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_transportation_religion_others_b12135d3",
+                    "insert_conversation_turn": 1416
+                },
+                {
+                    "conversation_name": "group_chat_transportation_religion_others_b12135d3",
+                    "insert_conversation_turn": 1017
+                },
+                {
+                    "conversation_name": "group_chat_education_art_and_design_religion_dc4dfeee",
+                    "insert_conversation_turn": 109
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "curry",
+            "description": "curry is a tall, muscular individual with a well-defined jawline and a broad, athletic build. His skin tone is a rich, medium brown, and he sports a neatly trimmed beard and mustache, adding to his distinguished appearance. curry has short, curly hair that is neatly styled, and his facial expressions range from focused and intense during gameplay to warm and engaging in more formal settings. His eyes are expressive, often conveying determination or joy, and his eyebrows are thick and well-defined. The athlete's posture is confident, whether he's on the court or in a formal setting, exuding a sense of strength and poise.\n\n**Outfit and Accessories:**\nIn the images, curry is seen wearing a variety of outfits that reflect both his professional and personal life. On the basketball court, he dons the Golden State Warriors jersey, predominantly white with blue and yellow accents, featuring the number 30. The jersey is sleeveless, allowing for a full display of his muscular arms, and he wears matching shorts. His basketball shoes are vibrant, with a mix of purple, black, and orange, adding a pop of color to his athletic attire. In a more formal setting, curry is dressed in a bright blue suit with a white shirt and a black tie, exuding professionalism and elegance. The suit is well-tailored, fitting his athletic build perfectly. The consistent use of the Golden State Warriors jersey highlights his identity as a professional basketball player, while the formal attire showcases his versatility and public persona.\n\n**Distinguishing Visual Features or Vibe:**\nThe most memorable and defining features of curry are his muscular build, the number 30 jersey, and his confident demeanor. The Golden State Warriors jersey, with its distinctive blue and yellow colors, is a signature element that immediately identifies him as a key player for the team. His athletic shoes, with their bold colors and design, add a unique flair to his on-court presence. Off the court, curry exudes a sense of confidence and professionalism, as seen in his formal attire. The combination of his physical prowess, the iconic jersey, and his engaging personality creates a visually unmistakable and compelling image. The presence of the American flag in one of the images adds a patriotic element, further enhancing his public persona. Overall, curry conveys a vibe of determination, athleticism, and charisma, making him a standout figure both on and off the court.",
+            "preference": "In terms of entertainment, curry enjoys live band karaoke, magic shows, but dislikes crime thrillers, historical dramas. In terms of travel, curry enjoys kayaking, snorkeling, but dislikes fine dining, street food. In terms of lifestyle, curry enjoys essential oils, aromatherapy, but dislikes protein-rich diet, weightlifting. In terms of shopping, curry enjoys smart home devices, kitchen appliances, but dislikes retro gaming consoles, wireless earbuds. In terms of fashion, curry enjoys techwear, cyberpunk aesthetics, but dislikes vintage style, formal suits.",
+            "topic": [],
+            "original_id": "QA_sample_72ecefe6",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Cannon Hester least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_72ecefe6_3",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. c19d6df3, Among the activities that could reasonably occur in the given image, which one is Cannon Hester least likely to be doing?",
+        "answer": "Searching for historical dramas",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Cannon Hester enjoys live band karaoke, magic shows, but dislikes crime thrillers, historical dramas",
+                "In terms of travel, Cannon Hester enjoys kayaking, snorkeling, but dislikes fine dining, street food"
+            ],
+            "image_evidence": [
+                "MMPB_28b712ad.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of lifestyle, Cannon Hester enjoys essential oils, aromatherapy, but dislikes protein-rich diet, weightlifting",
+                "In terms of shopping, Cannon Hester enjoys smart home devices, kitchen appliances, but dislikes retro gaming consoles, wireless earbuds",
+                "In terms of fashion, Cannon Hester enjoys techwear, cyberpunk aesthetics, but dislikes vintage style, formal suits."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Searching for historical dramas",
+                "Buying wireless earbuds",
+                "Investigating vintage films",
+                "Exploring classic novels"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_transportation_religion_others_b12135d3",
+                    "insert_conversation_turn": 1352
+                },
+                {
+                    "conversation_name": "group_chat_transportation_religion_others_b12135d3",
+                    "insert_conversation_turn": 788
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_transportation_religion_others_b12135d3",
+                    "insert_conversation_turn": 774,
+                    "reference_name": "Fig. c19d6df3"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_transportation_religion_others_b12135d3",
+                    "insert_conversation_turn": 1416
+                },
+                {
+                    "conversation_name": "group_chat_transportation_religion_others_b12135d3",
+                    "insert_conversation_turn": 1017
+                },
+                {
+                    "conversation_name": "group_chat_education_art_and_design_religion_dc4dfeee",
+                    "insert_conversation_turn": 109
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "curry",
+            "description": "curry is a tall, muscular individual with a well-defined jawline and a broad, athletic build. His skin tone is a rich, medium brown, and he sports a neatly trimmed beard and mustache, adding to his distinguished appearance. curry has short, curly hair that is neatly styled, and his facial expressions range from focused and intense during gameplay to warm and engaging in more formal settings. His eyes are expressive, often conveying determination or joy, and his eyebrows are thick and well-defined. The athlete's posture is confident, whether he's on the court or in a formal setting, exuding a sense of strength and poise.\n\n**Outfit and Accessories:**\nIn the images, curry is seen wearing a variety of outfits that reflect both his professional and personal life. On the basketball court, he dons the Golden State Warriors jersey, predominantly white with blue and yellow accents, featuring the number 30. The jersey is sleeveless, allowing for a full display of his muscular arms, and he wears matching shorts. His basketball shoes are vibrant, with a mix of purple, black, and orange, adding a pop of color to his athletic attire. In a more formal setting, curry is dressed in a bright blue suit with a white shirt and a black tie, exuding professionalism and elegance. The suit is well-tailored, fitting his athletic build perfectly. The consistent use of the Golden State Warriors jersey highlights his identity as a professional basketball player, while the formal attire showcases his versatility and public persona.\n\n**Distinguishing Visual Features or Vibe:**\nThe most memorable and defining features of curry are his muscular build, the number 30 jersey, and his confident demeanor. The Golden State Warriors jersey, with its distinctive blue and yellow colors, is a signature element that immediately identifies him as a key player for the team. His athletic shoes, with their bold colors and design, add a unique flair to his on-court presence. Off the court, curry exudes a sense of confidence and professionalism, as seen in his formal attire. The combination of his physical prowess, the iconic jersey, and his engaging personality creates a visually unmistakable and compelling image. The presence of the American flag in one of the images adds a patriotic element, further enhancing his public persona. Overall, curry conveys a vibe of determination, athleticism, and charisma, making him a standout figure both on and off the court.",
+            "preference": "In terms of entertainment, curry enjoys live band karaoke, magic shows, but dislikes crime thrillers, historical dramas. In terms of travel, curry enjoys kayaking, snorkeling, but dislikes fine dining, street food. In terms of lifestyle, curry enjoys essential oils, aromatherapy, but dislikes protein-rich diet, weightlifting. In terms of shopping, curry enjoys smart home devices, kitchen appliances, but dislikes retro gaming consoles, wireless earbuds. In terms of fashion, curry enjoys techwear, cyberpunk aesthetics, but dislikes vintage style, formal suits.",
+            "topic": [],
+            "original_id": "QA_sample_72ecefe6",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Cannon Hester least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_34fdfad9_1",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 6fd11c96, Among the activities that could reasonably occur in the given image, which one is Miya Cruz least likely to be doing?",
+        "answer": "Searching for a musical film",
+        "evidence": {
+            "text_evidence": [
+                "In terms of travel, Miya Cruz enjoys mountain climbing, theme park visits, but dislikes backcountry camping, ice fishing"
+            ],
+            "image_evidence": [
+                "MMPB_81ebaeeb.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of entertainment, Miya Cruz enjoys live concerts, stand-up comedy, but dislikes musicals, documentaries",
+                "In terms of lifestyle, Miya Cruz enjoys daily smoothies, outdoor workouts, but dislikes forest bathing, holistic therapy",
+                "In terms of shopping, Miya Cruz enjoys second-hand books, indie brands, but dislikes retro gaming consoles, wireless earbuds",
+                "In terms of fashion, Miya Cruz enjoys casual wear, minimalist outfits, but dislikes hand-knitted sweaters, silk scarves."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "Seeking a film score",
+                "Looking for a movie soundtrack",
+                "Searching for a musical film",
+                "Doing ice fishing"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_education_art_and_design_religion_dc4dfeee",
+                    "insert_conversation_turn": 383
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_transportation_religion_others_b12135d3",
+                    "insert_conversation_turn": 664,
+                    "reference_name": "Fig. 6fd11c96"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_transportation_religion_others_b12135d3",
+                    "insert_conversation_turn": 1080
+                },
+                {
+                    "conversation_name": "group_chat_transportation_religion_others_b12135d3",
+                    "insert_conversation_turn": 1400
+                },
+                {
+                    "conversation_name": "group_chat_education_art_and_design_religion_dc4dfeee",
+                    "insert_conversation_turn": 124
+                },
+                {
+                    "conversation_name": "group_chat_music_nature_video_games_e2a3ad66",
+                    "insert_conversation_turn": 983
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Emma",
+            "description": "Emma is a young woman with a slender build and an average height impression. Her facial structure is characterized by a prominent jawline and a slightly pointed chin, with a fair skin tone that appears smooth and even. Her hair is typically styled in a loose, wavy manner, often pulled back, with a few strands framing her face. Her eyes are a striking feature, with a direct gaze that conveys intensity and focus. The expressions on her face range from serious and contemplative to slightly concerned, suggesting a thoughtful and introspective personality. Her eyebrows are well-defined, adding to her expressive features.\n\n**Outfit and Accessories:**\nEmma is often seen wearing a light-colored, collared shirt with a subtle pattern, paired with a dark cardigan or sweater. The outfit exudes a practical yet slightly formal vibe, with a focus on comfort and modesty. The color palette is muted, featuring shades of gray, white, and dark tones, which contribute to a subdued and understated look. She accessorizes with a long necklace featuring a cross pendant, which adds a touch of personal significance to her attire. The clothing appears to be made of soft, comfortable materials, suitable for everyday wear, and the overall style is modest and functional.\n\n**Distinguishing Visual Features or Vibe:**\nThe most memorable feature of Emma is her intense gaze, which is both captivating and enigmatic. Her loose, wavy hair and the cross necklace are signature elements that contribute to her unique visual identity. The consistent use of a muted color palette and modest attire creates a cohesive and understated aesthetic. The combination of her thoughtful expressions, practical clothing, and subtle accessories gives her a distinctive aura of introspection and quiet strength. The setting in which she is often depicted, with dim lighting and a somewhat somber atmosphere, enhances the overall mood and adds to her enigmatic presence.",
+            "preference": "In terms of entertainment, Emma enjoys live concerts, stand-up comedy, but dislikes musicals, documentaries. In terms of travel, Emma enjoys mountain climbing, theme park visits, but dislikes backcountry camping, ice fishing. In terms of lifestyle, Emma enjoys daily smoothies, outdoor workouts, but dislikes forest bathing, holistic therapy. In terms of shopping, Emma enjoys second-hand books, indie brands, but dislikes retro gaming consoles, wireless earbuds. In terms of fashion, Emma enjoys casual wear, minimalist outfits, but dislikes hand-knitted sweaters, silk scarves.",
+            "topic": [],
+            "original_id": "QA_sample_34fdfad9",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Miya Cruz least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_34fdfad9_2",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 1f002485, Among the activities that could reasonably occur in the given image, which one is Miya Cruz least likely to be doing?",
+        "answer": "Watching a documentary film",
+        "evidence": {
+            "text_evidence": [
+                "In terms of travel, Miya Cruz enjoys mountain climbing, theme park visits, but dislikes backcountry camping, ice fishing"
+            ],
+            "image_evidence": [
+                "MMPB_2d99653f.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of entertainment, Miya Cruz enjoys live concerts, stand-up comedy, but dislikes musicals, documentaries",
+                "In terms of lifestyle, Miya Cruz enjoys daily smoothies, outdoor workouts, but dislikes forest bathing, holistic therapy",
+                "In terms of shopping, Miya Cruz enjoys second-hand books, indie brands, but dislikes retro gaming consoles, wireless earbuds",
+                "In terms of fashion, Miya Cruz enjoys casual wear, minimalist outfits, but dislikes hand-knitted sweaters, silk scarves."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Watching a documentary film",
+                "Observing a historical film",
+                "Buying silk scarves",
+                "Watching a nature show"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_education_art_and_design_religion_dc4dfeee",
+                    "insert_conversation_turn": 383
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_education_art_and_design_religion_dc4dfeee",
+                    "insert_conversation_turn": 154,
+                    "reference_name": "Fig. 1f002485"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_transportation_religion_others_b12135d3",
+                    "insert_conversation_turn": 1080
+                },
+                {
+                    "conversation_name": "group_chat_transportation_religion_others_b12135d3",
+                    "insert_conversation_turn": 1400
+                },
+                {
+                    "conversation_name": "group_chat_education_art_and_design_religion_dc4dfeee",
+                    "insert_conversation_turn": 124
+                },
+                {
+                    "conversation_name": "group_chat_music_nature_video_games_e2a3ad66",
+                    "insert_conversation_turn": 983
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Emma",
+            "description": "Emma is a young woman with a slender build and an average height impression. Her facial structure is characterized by a prominent jawline and a slightly pointed chin, with a fair skin tone that appears smooth and even. Her hair is typically styled in a loose, wavy manner, often pulled back, with a few strands framing her face. Her eyes are a striking feature, with a direct gaze that conveys intensity and focus. The expressions on her face range from serious and contemplative to slightly concerned, suggesting a thoughtful and introspective personality. Her eyebrows are well-defined, adding to her expressive features.\n\n**Outfit and Accessories:**\nEmma is often seen wearing a light-colored, collared shirt with a subtle pattern, paired with a dark cardigan or sweater. The outfit exudes a practical yet slightly formal vibe, with a focus on comfort and modesty. The color palette is muted, featuring shades of gray, white, and dark tones, which contribute to a subdued and understated look. She accessorizes with a long necklace featuring a cross pendant, which adds a touch of personal significance to her attire. The clothing appears to be made of soft, comfortable materials, suitable for everyday wear, and the overall style is modest and functional.\n\n**Distinguishing Visual Features or Vibe:**\nThe most memorable feature of Emma is her intense gaze, which is both captivating and enigmatic. Her loose, wavy hair and the cross necklace are signature elements that contribute to her unique visual identity. The consistent use of a muted color palette and modest attire creates a cohesive and understated aesthetic. The combination of her thoughtful expressions, practical clothing, and subtle accessories gives her a distinctive aura of introspection and quiet strength. The setting in which she is often depicted, with dim lighting and a somewhat somber atmosphere, enhances the overall mood and adds to her enigmatic presence.",
+            "preference": "In terms of entertainment, Emma enjoys live concerts, stand-up comedy, but dislikes musicals, documentaries. In terms of travel, Emma enjoys mountain climbing, theme park visits, but dislikes backcountry camping, ice fishing. In terms of lifestyle, Emma enjoys daily smoothies, outdoor workouts, but dislikes forest bathing, holistic therapy. In terms of shopping, Emma enjoys second-hand books, indie brands, but dislikes retro gaming consoles, wireless earbuds. In terms of fashion, Emma enjoys casual wear, minimalist outfits, but dislikes hand-knitted sweaters, silk scarves.",
+            "topic": [],
+            "original_id": "QA_sample_34fdfad9",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Miya Cruz least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_34fdfad9_3",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 0477283f, the image, what is Miya Cruz most likely to be doing?",
+        "answer": "Enjoying a stand-up comedy show",
+        "evidence": {
+            "text_evidence": [
+                "In terms of travel, Miya Cruz enjoys mountain climbing, theme park visits, but dislikes backcountry camping, ice fishing"
+            ],
+            "image_evidence": [
+                "MMPB_799e1f96.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of entertainment, Miya Cruz enjoys live concerts, stand-up comedy, but dislikes musicals, documentaries",
+                "In terms of lifestyle, Miya Cruz enjoys daily smoothies, outdoor workouts, but dislikes forest bathing, holistic therapy",
+                "In terms of shopping, Miya Cruz enjoys second-hand books, indie brands, but dislikes retro gaming consoles, wireless earbuds",
+                "In terms of fashion, Miya Cruz enjoys casual wear, minimalist outfits, but dislikes hand-knitted sweaters, silk scarves."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "Climbing a mountain",
+                "Attending a musical theater show",
+                "Enjoying a stand-up comedy show",
+                "Watching a live theater performance"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_education_art_and_design_religion_dc4dfeee",
+                    "insert_conversation_turn": 383
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_nature_video_games_e2a3ad66",
+                    "insert_conversation_turn": 595,
+                    "reference_name": "Fig. 0477283f"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_transportation_religion_others_b12135d3",
+                    "insert_conversation_turn": 1080
+                },
+                {
+                    "conversation_name": "group_chat_transportation_religion_others_b12135d3",
+                    "insert_conversation_turn": 1400
+                },
+                {
+                    "conversation_name": "group_chat_education_art_and_design_religion_dc4dfeee",
+                    "insert_conversation_turn": 124
+                },
+                {
+                    "conversation_name": "group_chat_music_nature_video_games_e2a3ad66",
+                    "insert_conversation_turn": 983
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Emma",
+            "description": "Emma is a young woman with a slender build and an average height impression. Her facial structure is characterized by a prominent jawline and a slightly pointed chin, with a fair skin tone that appears smooth and even. Her hair is typically styled in a loose, wavy manner, often pulled back, with a few strands framing her face. Her eyes are a striking feature, with a direct gaze that conveys intensity and focus. The expressions on her face range from serious and contemplative to slightly concerned, suggesting a thoughtful and introspective personality. Her eyebrows are well-defined, adding to her expressive features.\n\n**Outfit and Accessories:**\nEmma is often seen wearing a light-colored, collared shirt with a subtle pattern, paired with a dark cardigan or sweater. The outfit exudes a practical yet slightly formal vibe, with a focus on comfort and modesty. The color palette is muted, featuring shades of gray, white, and dark tones, which contribute to a subdued and understated look. She accessorizes with a long necklace featuring a cross pendant, which adds a touch of personal significance to her attire. The clothing appears to be made of soft, comfortable materials, suitable for everyday wear, and the overall style is modest and functional.\n\n**Distinguishing Visual Features or Vibe:**\nThe most memorable feature of Emma is her intense gaze, which is both captivating and enigmatic. Her loose, wavy hair and the cross necklace are signature elements that contribute to her unique visual identity. The consistent use of a muted color palette and modest attire creates a cohesive and understated aesthetic. The combination of her thoughtful expressions, practical clothing, and subtle accessories gives her a distinctive aura of introspection and quiet strength. The setting in which she is often depicted, with dim lighting and a somewhat somber atmosphere, enhances the overall mood and adds to her enigmatic presence.",
+            "preference": "In terms of entertainment, Emma enjoys live concerts, stand-up comedy, but dislikes musicals, documentaries. In terms of travel, Emma enjoys mountain climbing, theme park visits, but dislikes backcountry camping, ice fishing. In terms of lifestyle, Emma enjoys daily smoothies, outdoor workouts, but dislikes forest bathing, holistic therapy. In terms of shopping, Emma enjoys second-hand books, indie brands, but dislikes retro gaming consoles, wireless earbuds. In terms of fashion, Emma enjoys casual wear, minimalist outfits, but dislikes hand-knitted sweaters, silk scarves.",
+            "topic": [],
+            "original_id": "QA_sample_34fdfad9",
+            "original_question": "the image, what is Miya Cruz most likely to be doing?"
+        }
+    }
+]

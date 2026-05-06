@@ -1,0 +1,3098 @@
+[
+    {
+        "id": "19b36f32",
+        "domain": "MMDocRAG",
+        "category": "Single_Hop_QA",
+        "question": "Based on Doc. a9e8a7fe, Doc. 36817bd9, Doc. a79e4e08, Doc. 3ce6c58c, According to Figure 2, how does the model decide which answer to select?",
+        "answer": "The model selects the answer from the paragraph with the lowest y_empty.",
+        "evidence": {
+            "text_evidence": [],
+            "image_evidence": [],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": [
+                [
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Distractor Setting The H OTPOT QA distractor setting pairs the two paragraphs the question was written for ( gold paragraphs ) with eight spurious paragraphs selected using TF-IDF similarity with the question ( distractors ). Our single-paragraph BERT model achieves 67.08 F1, comparable to the state-of-the-art (Table  1 ).   This indicates the majority of H OTPOT QA questions are answerable in the distractor setting using a single-hop model. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "The model receives a question    $Q=[q_{1},..,q_{m}]$  and a single paragraph    $P~=~[p_{1},...,p_{n}]$   as in- put. Following  Devlin et al.  ( 2018 ),    $\\begin{array}{r l}{S}&{{}=}\\end{array}$   $[q_{1},...,q_{m},[\\mathrm{SEP}],p_{1},...,p_{n}]$   [ SEP ]  is a spe- cial token, is fed into BERT: "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "For H OTPOT QA, the input is a question and  $N$   context paragraphs. We create a batch of size  $N$  , where each entry is a question and a single paragraph. Denote the ouput from    $i$  -th entry as  $y_{\\mathrm{span}}^{i},y_{\\mathrm{geqslant}}^{i},y_{\\mathrm{no}}^{i},y_{\\mathrm{empty}}^{i}{\\mathrm{and}}\\,{\\mathrm{span}}^{i}$  . The ﬁnal answer is selected as: "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_fa873444.png"
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_6e8b34fe.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "This analysis shows that more carefully cho- sen distractor paragraphs would induce questions that require multi-hop reasoning. We thus ex- plore an alternative method for collecting distrac- tors based on adversarial paragraph selection. Al- though this appears to mitigate the problem, a single-hop model re-trained on these distractors can recover most of the original single-hop accu- racy, indicating that these distractors are still insuf- ﬁcient. Another method is to consider very large distractor sets such as all of Wikipedia or the en- tire Web, as done in open-domain H OTPOT QA and Complex Web Questions ( Talmor and Berant ,  2018 ). However, this introduces additional computational challenges and/or the need for retrieval systems. Finding a small set of distractors that induce multi- hop reasoning remains an open challenge that is worthy of follow up work. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "For a particular H OTPOT QA example, we run single-paragraph BERT on each paragraph in par- allel and select the answer from the paragraph with the smallest  $y_{\\mathrm{emptysety}}$  . "
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "We use the single-paragraph BERT model trained in the distractor setting. We also ﬁne-tune the model using incorrect paragraphs selected by the retrieval system. In particular, we retrieve 30 paragraphs and select the eight paragraphs with the lowest  y empty  scores predicted by the trained model. Single-paragraph BERT achieves 38.06 F1 in the open-domain setting (Table  1 ). This shows that the open-domain setting is challenging for our single-hop model and is worthy of future study. "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_2efa993f.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_41df94b9.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Adversarial Distractors We select the top-50 ﬁrst paragraphs of Wikipedia pages using TF-IDF similarity with the question, following the original H OTPOT QA setup. Next, we use single-paragraph BERT to adversarially select the eight distractor paragraphs from these 50 candidates. In particular, we feed each paragraph to the model and select the paragraphs with the lowest  y empty  score (i.e., the paragraphs that the model thinks contain the answer). These paragraphs are dissimilar to the original distractors—there is a   $9.82\\%$   overlap. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "To better understand these results, we present a detailed analysis of why single-hop reasoning works so well. We show that questions include redundant facts which can be ignored when com- puting the answer, and that the ﬁne-grained entity types present in the provided paragraphs in the RC setting often provide a strong signal for answer- ing the question, e.g., there is only one animal in the given paragraphs in Figure  1 , allowing one to immediately locate the answer using one hop. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Our model, single-paragraph BERT, scores and an- swers each paragraph independently (Figure  2 ). We then select the answer from the paragraph with the best score, similar to  Clark and Gardner  ( 2018 ). "
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_b9e493f3.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_8a2ed7f7.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Single-paragraph BERT is a pipeline which ﬁrst retrieves a single paragraph using a classiﬁer and then selects the associated answer. Formally, the model receives a question    $Q\\,=\\,[q_{1},..,q_{m}]$   and a single paragraph    $P\\,=\\,[p_{1},...,p_{n}]$   as input. The question and paragraph are merged into a single "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Our analysis is centered on H OTPOT QA ( Yang et al. ,  2018 ), a dataset of mostly compositional questions. In its RC setting, each question is paired with two gold paragraphs, which should be needed to answer the question, and eight distractor para- graphs, which provide irrelevant evidence or incor- rect answers. We show that single-hop reasoning can solve much more of this dataset than previously thought. First, we design a single-hop QA model based on BERT ( Devlin et al. ,  2018 ), which, de- spite having no ability to reason across paragraphs, achieves performance competitive with the state of the art. Next, we present an evaluation demonstrat- ing that humans can solve over   $80\\%$   of questions when we withhold one of the gold paragraphs. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "where    $y_{\\mathrm{span}},y_{\\mathrm{yes}},y_{\\mathrm{no}}$   and    $y_{\\mathrm{emptysety}}$   indicate the an- swer is either a span,    $\\mathtt{Y}\\!\\in\\!S$  ,  no , or no answer. An extractive paragraph span,  span , is obtained sep- arately following  Devlin et al.  ( 2018 ). The ﬁnal model outputs are a scalar value    $y_{\\mathrm{empty}}$   and a text of either  span ,    $\\mathtt{Y}\\!\\in\\!S$   or  no , based on which of  $y_{\\mathrm{span}},y_{\\mathrm{yes}},y_{\\mathrm{no}}$  "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_2a96b8ee.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_8007f17d.png"
+                        }
+                    }
+                ]
+            ]
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "The model selects the answer from the paragraph with the highest span/yes/no score",
+                "The model selects the answer from the paragraph with the highest y_empty",
+                "The model selects the answer from the paragraph with the lowest y_empty.",
+                "The model selects the answer from the paragraph with the lowest span score"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [],
+            "image_evidence_assignment": [],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_business_science_transportation_48995207",
+                    "insert_conversation_turn": 942,
+                    "reference_name": "Doc. a9e8a7fe"
+                },
+                {
+                    "conversation_name": "group_chat_business_science_transportation_48995207",
+                    "insert_conversation_turn": 801,
+                    "reference_name": "Doc. 36817bd9"
+                },
+                {
+                    "conversation_name": "group_chat_architecture_films_environment_6d238fdf",
+                    "insert_conversation_turn": 667,
+                    "reference_name": "Doc. a79e4e08"
+                },
+                {
+                    "conversation_name": "group_chat_architecture_films_environment_6d238fdf",
+                    "insert_conversation_turn": 142,
+                    "reference_name": "Doc. 3ce6c58c"
+                }
+            ]
+        },
+        "meta_data": {
+            "category": "Academic paper",
+            "doc_name": "P19-1416",
+            "gold_quotes": [
+                "text5",
+                "text9",
+                "image1"
+            ],
+            "topic": [
+                "technology"
+            ],
+            "original_question": "According to Figure 2, how does the model decide which answer to select?"
+        }
+    },
+    {
+        "id": "QA_sample_6f65b939",
+        "domain": "MLLMKC",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. d8f7c4eb, What is the occupation of the person in the picture?",
+        "answer": "actor and producer",
+        "evidence": {
+            "text_evidence": [
+                "Matthew McConaughey was born on November 4, 1969. Matthew McConaughey is American. Matthew McConaughey is an actor and producer."
+            ],
+            "image_evidence": [
+                "MLLMKC_80dfbc67.jpg"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Matthew McConaughey was born on November 4, 1969. Matthew McConaughey is American. Matthew McConaughey is a chef and producer."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "actor and producer",
+                "architect",
+                "chef",
+                "florist and gardener"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_art_and_design_history_bb203dbf",
+                    "insert_conversation_turn": 132
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_films_environment_6d238fdf",
+                    "insert_conversation_turn": 1100,
+                    "reference_name": "Fig. d8f7c4eb"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_business_science_transportation_48995207",
+                    "insert_conversation_turn": 348
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "instance": "Matthew McConaughey",
+            "category": "people",
+            "error_type": "Career_error",
+            "topic": [
+                "films",
+                " television"
+            ],
+            "original_question": "What is the occupation of the person in the picture?"
+        }
+    },
+    {
+        "id": "QA_sample_ba967f1d",
+        "domain": "SlideVQA",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 56c817d9, Fig. fe89da1e, Which region of the world accounts for the highest percentage of revenues in the year 12% GROWTH is achieved?",
+        "answer": "N. America",
+        "evidence": {
+            "text_evidence": [],
+            "image_evidence": [
+                "SlideVQA_1d6c28c4_page_7.png",
+                "SlideVQA_1d6c28c4_page_20.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Rest of world",
+                "N. America",
+                "Europe",
+                "Asia Pacific"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_films_environment_6d238fdf",
+                    "insert_conversation_turn": 15,
+                    "reference_name": "Fig. 56c817d9"
+                },
+                {
+                    "conversation_name": "group_chat_business_science_transportation_48995207",
+                    "insert_conversation_turn": 1094,
+                    "reference_name": "Fig. fe89da1e"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "business",
+                "technology"
+            ],
+            "original_question": "Which region of the world accounts for the highest percentage of revenues in the year 12% GROWTH is achieved?"
+        }
+    },
+    {
+        "id": "QA_sample_9bd4301c",
+        "domain": "MLLMKC",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. fb6e93af, What is the occupation of the person in the picture?",
+        "answer": "bodybuilder, actor, and former politician",
+        "evidence": {
+            "text_evidence": [
+                "Arnold Schwarzenegger was born on July 30, 1947. Arnold Schwarzenegger is Austrian-American. Arnold Schwarzenegger is a bodybuilder, actor, and former politician."
+            ],
+            "image_evidence": [
+                "MLLMKC_60cf1eaa.jpg"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Arnold Schwarzenegger was born on July 30, 1947. Arnold Schwarzenegger is Austrian-American. Arnold Schwarzenegger is a chef, actor, and former politician."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "architect",
+                "chef",
+                "bodybuilder, actor, and former politician",
+                "gardener, landscaper, botanist"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_films_environment_6d238fdf",
+                    "insert_conversation_turn": 779
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_art_and_design_history_bb203dbf",
+                    "insert_conversation_turn": 787,
+                    "reference_name": "Fig. fb6e93af"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_business_science_transportation_48995207",
+                    "insert_conversation_turn": 772
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "instance": "Arnold Schwarzenegger",
+            "category": "people",
+            "error_type": "Career_error",
+            "topic": [
+                "films",
+                " politics",
+                " sports"
+            ],
+            "original_question": "What is the occupation of the person in the picture?"
+        }
+    },
+    {
+        "id": "MMKE_a9db",
+        "domain": "MMKE",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. 6ac5b46c, What types of habitats does the species shown in the image commonly inhabit?",
+        "answer": "Marshes, open fields, pine forests, and coastal areas",
+        "evidence": {
+            "text_evidence": [
+                "The plant in the image corresponds to Cardamine californica.\nCardamine californica, or milkmaids, is a flowering plant in the family Brassicaceae, native to eastern North America from Maine to Florida and Texas. It is common in a variety of habitats including marshes, open fields, pine forests, and coastal areas in the summer and early fall. In the New York City area, it is one of the first wildflowers to bloom, with blossoms from July to October."
+            ],
+            "image_evidence": [
+                "MMKE_cf699d745cc847ce.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Cardamine californica, or milkmaids, is a flowering plant in the family Brassicaceae, native to western North America from Washington to California and Baja California. It is common in a variety of habitats including shady slopes, open woodlands, chaparral and grasslands in the winter and early spring. In the San Francisco Bay Area, it is one of the first wildflowers to bloom, with blossoms from January to May."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "Rocky cliffs and deserts",
+                "Shady slopes, open woodlands, chaparral and grasslands",
+                "Marshes, open fields, pine forests, and coastal areas",
+                "Urban gardens and city parks"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_business_science_transportation_48995207",
+                    "insert_conversation_turn": 816
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_films_environment_6d238fdf",
+                    "insert_conversation_turn": 434,
+                    "reference_name": "Fig. 6ac5b46c"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_art_and_design_history_bb203dbf",
+                    "insert_conversation_turn": 177
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "nature",
+                " environment"
+            ],
+            "original_question": "What types of habitats does the species shown in the image commonly inhabit?"
+        }
+    },
+    {
+        "id": "QA_sample_643460dd",
+        "domain": "MLLMKC",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. a771fbae, What is the occupation of the person in the picture?",
+        "answer": "actor, singer, and producer",
+        "evidence": {
+            "text_evidence": [
+                "Hugh Jackman was born on October 12, 1968. Hugh Jackman is Australian. Hugh Jackman is an actor, singer, and producer."
+            ],
+            "image_evidence": [
+                "MLLMKC_6c3017d9.jpg"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Hugh Jackman was born on October 12, 1968. Hugh Jackman is Australian. Hugh Jackman is a chef, singer, and producer."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "actor, singer, and producer",
+                "chef",
+                "architect",
+                "painter, sculptor, and illustrator"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_art_and_design_history_bb203dbf",
+                    "insert_conversation_turn": 741
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_business_science_transportation_48995207",
+                    "insert_conversation_turn": 743,
+                    "reference_name": "Fig. a771fbae"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_films_environment_6d238fdf",
+                    "insert_conversation_turn": 652
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "instance": "Hugh Jackman",
+            "category": "people",
+            "error_type": "Career_error",
+            "topic": [
+                "films",
+                " music",
+                " television"
+            ],
+            "original_question": "What is the occupation of the person in the picture?"
+        }
+    },
+    {
+        "id": "QA_sample_203c1e1a",
+        "domain": "MLLMKC",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. b9e0ee51, What is the nationality of the person in the picture?",
+        "answer": "American",
+        "evidence": {
+            "text_evidence": [
+                "Chris Pratt was born on June 21, 1979. Chris Pratt is American. Chris Pratt is an actor."
+            ],
+            "image_evidence": [
+                "MLLMKC_bd08e8bc.jpg"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Chris Pratt was born on June 21, 1979. Chris Pratt is Canadian. Chris Pratt is an actor."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Panamanian",
+                "American",
+                "Canadian",
+                "Mexican"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_films_environment_6d238fdf",
+                    "insert_conversation_turn": 1062
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_art_and_design_history_bb203dbf",
+                    "insert_conversation_turn": 1060,
+                    "reference_name": "Fig. b9e0ee51"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_business_science_transportation_48995207",
+                    "insert_conversation_turn": 81
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "instance": "Chris Pratt",
+            "category": "people",
+            "error_type": "location_error",
+            "topic": [
+                "films"
+            ],
+            "original_question": "What is the nationality of the person in the picture?"
+        }
+    },
+    {
+        "id": "QA_sample_29504536",
+        "domain": "SlideVQA",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 240edea2, Fig. fa556177, How can the company which details 24 countries in the report be contacted?",
+        "answer": "Email, Twitter, Phone, Website",
+        "evidence": {
+            "text_evidence": [],
+            "image_evidence": [
+                "SlideVQA_fa1c0738_page_2.png",
+                "SlideVQA_fa1c0738_page_3.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "Facebook, Website, WhatsApp, Skype",
+                "LinkedIn, Phone, Blog, Instagram",
+                "Email, YouTube, Telegram, Phone",
+                "Email, Twitter, Phone, Website"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_films_environment_6d238fdf",
+                    "insert_conversation_turn": 970,
+                    "reference_name": "Fig. 240edea2"
+                },
+                {
+                    "conversation_name": "group_chat_music_art_and_design_history_bb203dbf",
+                    "insert_conversation_turn": 727,
+                    "reference_name": "Fig. fa556177"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "technology"
+            ],
+            "original_question": "How can the company which details 24 countries in the report be contacted?"
+        }
+    },
+    {
+        "id": "c07dbfcd",
+        "domain": "MMDocRAG",
+        "category": "Single_Hop_QA",
+        "question": "Based on Doc. 6a421046, Doc. 64d54d1e, Doc. e3127b32, What is the distribution of domain-slot pairs in the MultiWOZ 2.0 and MultiWOZ 2.1 data subsets?",
+        "answer": "Hotel: Train 3381, Validation 416, Test 394; Train: Train 3103, Validation 484, Test 494; Restaurant: Train 3813, Validation 438, Test 437; Attraction: Train 2717, Validation 401, Test 395; Taxi: Train 1654, Validation 207, Test 195",
+        "evidence": {
+            "text_evidence": [],
+            "image_evidence": [],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": [
+                [
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Now that we have observed that DS-DST and DS- Picklist perform much better than DS-Span, we focus on where the accuracy improvement comes from. Table  4  shows the accuracy for each slot type on the MultiWOZ 2.1 test set, and we can observe signiﬁcant improvement over the DS-Span base- line for some slots, including  hotel-type ,  attraction- type ,  attraction-name ,  hotel-internet  and  hotel- parking . This is because their values usually have different expressions and cannot be extracted from the dialog context, which decreases the perfor- mance of the span-based methods. In contrast, their values can be predicted directly from the candidate- value lists. Compared with other slots, these slots still have space for improvements. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Detailed comparisons with BERT related meth- ods Compared with those methods as shown in Table  2 , we can observe that DS-Span, which em- ploys the strength of BERT, outperforms SpanPtr by    $10.91\\%$  , and it outperforms COMMER and DSTreader, which also use a pre-trained BERT model as dialog context embeddings and word embeddings, respectively. DS-DST outperforms BERT-DST, which separately encodes dialog con- text and domain-slot pairs based on BERT, by  $7.81\\%$   on MultiWOZ 2.1. The above results shows the effectiveness of our model design based on BERT, where we enforce the strong interactions between dialog context and domain-slot pairs. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Table 1: The dataset information of MultiWOZ 2.0 and MultiWOZ 2.1. The top two rows list 5 selected do- mains, consisting of 30 domain-slot pairs. The last three rows show the number of dialogues for each do- main. "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_07782ad5.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_8027f8b2.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Dialog state tracking (DST) is a core compo- nent in task-oriented dialog systems. Exist- ing approaches for DST mainly fall into one of two categories, namely, ontology-based and ontology-free methods. An ontology-based method selects a value from a candidate-value list for each target slot, while an ontology-free method extracts spans from dialog contexts. Recent work introduced a BERT-based model to strike a balance between the two methods by pre-deﬁning categorical and non-categorical slots. However, it is not clear enough which slots are better handled by either of the two slot types, and the way to use the pre-trained model has not been well investigated. In this paper, we propose a simple yet effective dual- strategy model for DST, by adapting a single BERT-style reading comprehension model to jointly handle both the categorical and non- categorical slots. Our experiments on the Mul- tiWOZ datasets show that our method signif- icantly outperforms the BERT-based counter- part, ﬁnding that the key is a deep interaction between the domain-slot and context informa- tion. When evaluated on noisy (MultiWOZ 2.0) and cleaner (MultiWOZ 2.1) settings, our method performs competitively and robustly across the two different settings. Our method sets the new state of the art in the noisy setting, while performing more robustly than the best model in the cleaner setting. We also conduct a comprehensive error analysis on the dataset, including the effects of the dual strategy for each slot, to facilitate future research. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "As  hospital  and  police  domains contain very few dialogues   $(5\\%$   of total dialogues), and they only appear in the training dataset, we ignore them in our experiments, following  Wu et al.  ( 2019 ). We adopt only ﬁve domains (i.e.,  train ,  restaurant ,  ho- tel ,  taxi ,  attraction ) and obtain totally  30  domain- slot pairs in the experiments. Table  1  summarizes the domain-slot pairs and their corresponding statis- tics in MultiWOZ 2.0 and MultiWOZ 2.1. We fol- low the standard training/validation/test split strat- egy provided in the original datasets, and the data pre-processing script provided in  Wu et al.  ( 2019 ). "
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Error analysis To better understand the improve- ment, we conducted an error analysis and inspected actual examples on the MultiWOZ 2.1 validation set. Table  5  shows the top-10 slots, according to the ratio of ground-truth slot values which cannot be found through span matching. That is, for such examples, DS-Span cannot extract the ground-truth strings, resulting in the low joint accuracy. Here, we show how well our DS-DST and DS-Picklist can correctly predict the missing values in DS-Span. As we can see in this table, the two methods dra- matically reduce the errors for some slots such as attraction-type ,  hotel-internet  and  hotel-parking Hence, for these kinds of slots, it is better to treat them as categorical slots. Among the top-10 slots, the  time -related slots such as  taxi-leave at  and  train- arrive by , which are span-based slots in DS-DST, DS-Span and DS-DST cannot perform well as there are no span matching in the dialogue context, and only few values (i.e., ‘ none ’ and ‘ dontcare ’) can be correctly predicted by the slot-gate classiﬁcation. When the ontology is accessible, DS-Picklist can further reduce the error rates, since the predicted values can be found in the candidate-values lists. "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_fbef16f1.png"
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_2790bf69.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Open discussions Multi-domain dialog state tracking is enjoying popularity in enhancing re- search on task-oriented dialog systems, to handle tasks across different domains and support a large number of services. However, it should be noted that there is much room for improvement with the popular MultiWOZ 2.0 ( Budzianowski et al. ,  2018 ) and MultiWOZ 2.1 ( Eric et al. ,  2019 ) datasets, due to their annotation errors, ambiguity, and incon- sistency. Moreover, a potential problem is that no standard ways have been established for the evalu- ation of the MultiWOZ dataset. Some papers are following the pre-processing ways provided by  $\\mathrm{Nu}$  et al.  ( 2019 ), while others have their own ways, which may result in unfair comparisons; for exam- ple, there are some ‘ none ’ values in the test set, and an evaluation metric without considering them will lead to higher accuracy (up to    $3\\%$   in our experi- ence). Recent work has reﬁned the datasets to form the latest MultiWOZ 2.2 dataset with higher quality and consistency ( Zang et al. ,  2020 ). We encourage providing more details of the data processing in future work, and more importantly, testing models on the test set with the higher quality. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "For MultiWOZ 2.0 and 2.1, the candidate values for the categorical slots are derived based on the ground-truth values of each slot that appeared in the partial dataset ontology. Besides, Since there are no provided ground-truth start positions and end positions for non-categorical slots in the datasets, we ﬁnd the spans trough string matching between the ground truth values and the values in the dialog contexts, and we treat the start and end positions of the span which appeared at the most recent dialog turn as the ground-truth start positions and end positions. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "In this paper, we have proposed a dual strategy model with strong interactions between the dia- log context and domain-slot pairs for the task of multi-domain dialog state tracking. In particular, we predict the slot value via selecting over a par- tial ontology for categorical slots or ﬁnding values from the dialog context for non-categorical slots. Our models achieve the state of the art results on the MultiWOZ 2.0 and competitive results on the MultiWOZ 2.1. Moreover, we conduct a compre- hensive analysis on the dataset to facilitate future research. "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_11fa2777.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_1bc48aa0.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "We present outputs of DS-Span and DS-DST in all the turns for two dialogues (i.e.,  MUL0729 , PMUL2428 ) on the validation set of the MultiWOZ 2.1. Table  7  and Table  8  show the predicted dialog states for  MUL0729  and  PMUL2428 , respectively. In Table  7 ,  hotel type  and  hotel internet  are pre- dicted incorrectly by DS-Span, where the value  yes of  hotel internet  has a different description  free wiﬁ in the dialog context. For this type of values, DS- Span cannot ﬁnd the spans directly in the dialog context. In Table  8 , DS-Span does not correctly predict the state  <taxi, departure, funky fun house> at the  $6_{t h}$   turn. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "We use the MultiWOZ 2.0 ( Budzianowski et al. , 2018 ) dataset and the MultiWOZ 2.1 ( Eric et al. , 2019 ) dataset. MultiWOZ 2.0 is one of the largest multi-domain dialogue corpora with seven dis- tinct domains and over  10 ,  000  dialogues. Com- pared with the original dataset, MultiWOZ 2.1 con- ducts dataset correction, including correcting dia- log states, spelling errors, dialogue utterance cor- rections, and mis-annotations to reduce several sub- stantial noises (more details can be found in  Eric et al.  ( 2019 )). "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "•  DS-DST . It represents our proposed dual strat- egy model for DST, which can simultaneously han- dle the non-categorical slots as well as the cate- gorical ones. Following heuristics from ( Rastogi et al. ,  2020 ),  time  and  number  related slots are treated as non-categorical slots, resulting in ﬁve slot types across four domains (nine domain-slot pairs in total), and the rest slots are treated as cate- gorical slots (See also in Table  4 ). We also conduct investigations to decide domain-slot types in the experiments. "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_ed4e9a94.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_107a999b.png"
+                        }
+                    }
+                ]
+            ]
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "Hotel: Train 3400, Validation 430, Test 400; Train: Train 3200, Validation 490, Test 500; Restaurant: Train 3800, Validation 440, Test 440; Attraction: Train 2700, Validation 410, Test 400; Taxi: Train 1650, Validation 205, Test 198",
+                "Hotel: Train 3200, Validation 400, Test 390; Train: Train 3000, Validation 470, Test 480; Restaurant: Train 3700, Validation 420, Test 430; Attraction: Train 2600, Validation 390, Test 380; Taxi: Train 1600, Validation 200, Test 190",
+                "Hotel: Train 3500, Validation 450, Test 410; Train: Train 3300, Validation 500, Test 510; Restaurant: Train 3900, Validation 460, Test 450; Attraction: Train 2800, Validation 420, Test 410; Taxi: Train 1700, Validation 210, Test 200",
+                "Hotel: Train 3381, Validation 416, Test 394; Train: Train 3103, Validation 484, Test 494; Restaurant: Train 3813, Validation 438, Test 437; Attraction: Train 2717, Validation 401, Test 395; Taxi: Train 1654, Validation 207, Test 195"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [],
+            "image_evidence_assignment": [],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_films_environment_6d238fdf",
+                    "insert_conversation_turn": 309,
+                    "reference_name": "Doc. 6a421046"
+                },
+                {
+                    "conversation_name": "group_chat_business_science_transportation_48995207",
+                    "insert_conversation_turn": 544,
+                    "reference_name": "Doc. 64d54d1e"
+                },
+                {
+                    "conversation_name": "group_chat_business_science_transportation_48995207",
+                    "insert_conversation_turn": 529,
+                    "reference_name": "Doc. e3127b32"
+                }
+            ]
+        },
+        "meta_data": {
+            "category": "Academic paper",
+            "doc_name": "2020.starsem-1.17",
+            "gold_quotes": [
+                "text5",
+                "image3"
+            ],
+            "topic": [
+                "technology"
+            ],
+            "original_question": "What is the distribution of domain-slot pairs in the MultiWOZ 2.0 and MultiWOZ 2.1 data subsets?"
+        }
+    },
+    {
+        "id": "QA_sample_6aac3982",
+        "domain": "SlideVQA",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 8cd50452, Fig. 2f997715, Where does the company which was awarded 2400 Patents in 2010 have the IP Transformation Center in Europe?",
+        "answer": "Belgium",
+        "evidence": {
+            "text_evidence": [],
+            "image_evidence": [
+                "SlideVQA_1d6c28c4_page_5.png",
+                "SlideVQA_1d6c28c4_page_7.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Netherlands",
+                "Belgium",
+                "Germany",
+                "France"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_films_environment_6d238fdf",
+                    "insert_conversation_turn": 623,
+                    "reference_name": "Fig. 8cd50452"
+                },
+                {
+                    "conversation_name": "group_chat_music_art_and_design_history_bb203dbf",
+                    "insert_conversation_turn": 83,
+                    "reference_name": "Fig. 2f997715"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "business",
+                "technology",
+                "education"
+            ],
+            "original_question": "Where does the company which was awarded 2400 Patents in 2010 have the IP Transformation Center in Europe?"
+        }
+    },
+    {
+        "id": "QA_sample_9d250642",
+        "domain": "MLLMKC",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. 45b85fd4, What are the main products of this brand?",
+        "answer": "online video sharing platform",
+        "evidence": {
+            "text_evidence": [
+                "YouTube was created in 2005. The creators of YouTube are Steve Chen, Chad Hurley, and Jawed Karim. YouTube is the brand of online video sharing platform."
+            ],
+            "image_evidence": [
+                "MLLMKC_35c750eb.jpg"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "YouTube was created in 2005. The creators of YouTube are Steve Chen, Chad Hurley, and Jawed Karim. YouTube is the brand of online music streaming platform."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "online art marketplace platform",
+                "online video sharing platform",
+                "digital book publishing platform",
+                "online music streaming platform"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_films_environment_6d238fdf",
+                    "insert_conversation_turn": 563
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_business_science_transportation_48995207",
+                    "insert_conversation_turn": 165,
+                    "reference_name": "Fig. 45b85fd4"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_art_and_design_history_bb203dbf",
+                    "insert_conversation_turn": 507
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "instance": "YouTube",
+            "category": "logo",
+            "error_type": "content_error",
+            "topic": [
+                "technology"
+            ],
+            "original_question": "What are the main products of this brand?"
+        }
+    },
+    {
+        "id": "QA_sample_1df8675f",
+        "domain": "SlideVQA",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. b24d9a33, Fig. 2cae5784, Where does that which provides a baseline user interface for managing OpenStack services send the HTTP request to?",
+        "answer": "Keystone",
+        "evidence": {
+            "text_evidence": [],
+            "image_evidence": [
+                "SlideVQA_8e968e2e_page_6.png",
+                "SlideVQA_8e968e2e_page_15.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Glance",
+                "Keystone",
+                "Neutron",
+                "Swift"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_business_science_transportation_48995207",
+                    "insert_conversation_turn": 1010,
+                    "reference_name": "Fig. b24d9a33"
+                },
+                {
+                    "conversation_name": "group_chat_architecture_films_environment_6d238fdf",
+                    "insert_conversation_turn": 1024,
+                    "reference_name": "Fig. 2cae5784"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "technology"
+            ],
+            "original_question": "Where does that which provides a baseline user interface for managing OpenStack services send the HTTP request to?"
+        }
+    },
+    {
+        "id": "QA_sample_37d1b2c8",
+        "domain": "SlideVQA",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. c92e2b77, Fig. 1b73053e, What are two types of a device to permit constrained relative motion between two parts, typically rotation or linear movement?",
+        "answer": "ANTIFRICTION, FRICTION",
+        "evidence": {
+            "text_evidence": [],
+            "image_evidence": [
+                "SlideVQA_93e8ca44_page_2.png",
+                "SlideVQA_93e8ca44_page_5.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "ANTIFRICTION, FRICTION",
+                "Hydraulic, Magnetic",
+                "Ball, Roller",
+                "Axial, Radial"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_art_and_design_history_bb203dbf",
+                    "insert_conversation_turn": 472,
+                    "reference_name": "Fig. c92e2b77"
+                },
+                {
+                    "conversation_name": "group_chat_business_science_transportation_48995207",
+                    "insert_conversation_turn": 965,
+                    "reference_name": "Fig. 1b73053e"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "technology"
+            ],
+            "original_question": "What are two types of a device to permit constrained relative motion between two parts, typically rotation or linear movement?"
+        }
+    },
+    {
+        "id": "QA_sample_33183277",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 09b6f85e, the text, which social media platforms meet the criteria for being a \"primary platform\" in 2023, and which platform is categorized as a \"declining platform\" according to the previous definition?",
+        "answer": "Primary platforms: YouTube, TikTok, Snapchat, Instagram. Declining platform: Facebook.",
+        "evidence": {
+            "text_evidence": [
+                "A social media platform is considered a 'primary platform' for U.S. teens if at least 60% of teens reported using it in the most recent survey year (2023). Additionally, platforms that experienced a decline in usage of more than 30 percentage points from 2014-2015 to 2023 are categorized as 'declining platforms.'"
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_8c84c473.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Primary platforms: YouTube, TikTok, Snapchat, Instagram. Declining platform: Facebook.",
+                "Primary platforms: YouTube, TikTok, Snapchat, BeReal. Declining platform: WhatsApp",
+                "Primary platforms: TikTok, Snapchat, Discord, Instagram. Declining platform: Reddit",
+                "Primary platforms: YouTube, TikTok, Snapchat, Instagram. Declining platform: Twitter (X)"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_films_environment_6d238fdf",
+                    "insert_conversation_turn": 992
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_art_and_design_history_bb203dbf",
+                    "insert_conversation_turn": 399,
+                    "reference_name": "Fig. 09b6f85e"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "technology"
+            ],
+            "original_question": "the text, which social media platforms meet the criteria for being a \"primary platform\" in 2023, and which platform is categorized as a \"declining platform\" according to the previous definition?"
+        }
+    },
+    {
+        "id": "QA_sample_f94d5fd5",
+        "domain": "MLLMKC",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. ad55a58c, Who established the brand corresponding to the logo?",
+        "answer": "Jeff Bezos",
+        "evidence": {
+            "text_evidence": [
+                "Amazon was founded in 1994. The creator of Amazon is Jeff Bezos. Amazon is the brand of e-commerce platform."
+            ],
+            "image_evidence": [
+                "MLLMKC_a1456277.jpg"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Amazon was founded in 1994. The creator of Amazon is Elon Musk. Amazon is the brand of e-commerce platform."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Jeff Bezos",
+                "Elon Musk",
+                "Mark Zuckerberg",
+                "Steve Jobs"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_business_science_transportation_48995207",
+                    "insert_conversation_turn": 319
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_films_environment_6d238fdf",
+                    "insert_conversation_turn": 387,
+                    "reference_name": "Fig. ad55a58c"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_art_and_design_history_bb203dbf",
+                    "insert_conversation_turn": 871
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "instance": "Amazon",
+            "category": "logo",
+            "error_type": "creator_error",
+            "topic": [
+                "business",
+                "technology"
+            ],
+            "original_question": "Who established the brand corresponding to the logo?"
+        }
+    },
+    {
+        "id": "MMKE_5edf",
+        "domain": "MMKE",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. 87c4c6ef, What is the English common name of the species shown in the image that includes the word \"currant\"?",
+        "answer": "Java currant",
+        "evidence": {
+            "text_evidence": [
+                "The plant in the image corresponds to Carissa carandas.\nCarissa carandas is a species of flowering shrub in the family Rosaceae. It produces grape-sized fruits that are commonly used as a condiment in Indonesian pickles and spices. It is a hardy, drought-tolerant plant that thrives well in acidic soils. Common names in English include Java currant, Thorn of Christ, Carandas grape, Karonda, Karanda, and Kanna.\n\nThe supposed varieties \"congesta\" and \"paucinervia\" refer to the related thornberry (\"C. nidum\")."
+            ],
+            "image_evidence": [
+                "MMKE_dfbad7fead494066.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Carissa carandas is a species of flowering shrub in the family Apocynaceae. It produces berry-sized fruits that are commonly used as a condiment in Indian pickles and spices. It is a hardy, drought-tolerant plant that thrives well in a wide range of soils. Common names in English include Bengal currant, Christ's thorn, Carandas plum, Karonda, Karanda and Kanna .\n\nThe supposed varieties \"congesta\" and \"paucinervia\" refer to the related conkerberry (\"C. spinarum\")."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "Purple karonda",
+                "Bengal currant",
+                "Wild grape",
+                "Java currant"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_art_and_design_history_bb203dbf",
+                    "insert_conversation_turn": 285
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_films_environment_6d238fdf",
+                    "insert_conversation_turn": 1186,
+                    "reference_name": "Fig. 87c4c6ef"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_business_science_transportation_48995207",
+                    "insert_conversation_turn": 456
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "nature"
+            ],
+            "original_question": "What is the English common name of the species shown in the image that includes the word \"currant\"?"
+        }
+    },
+    {
+        "id": "MMKE_d4dc",
+        "domain": "MMKE",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. 54cbdc34, In what type of environment does the species shown in the image typically form patches?",
+        "answer": "Forest clearings",
+        "evidence": {
+            "text_evidence": [
+                "The plant in the image corresponds to Cassiope mertensiana.\nCassiope mertensiana is a species of flowering plant known by the common names eastern moss heather and pink valley heather.\n\nThis heather is native to subalpine areas of eastern North America, from Labrador to the mountains of Georgia. It is a small, branching shrub which forms patches along the ground and in forest clearings."
+            ],
+            "image_evidence": [
+                "MMKE_23b347e793994fb0.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Cassiope mertensiana is a species of flowering plant known by the common names western moss heather and white mountain heather.\n\nThis heather is native to subalpine areas of western North America, from Alaska to the mountains of California. It is a small, branching shrub which forms patches along the ground and in rocky crevices."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "Wetland margins",
+                "Alpine meadows",
+                "Forest clearings",
+                "Rocky crevices"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_art_and_design_history_bb203dbf",
+                    "insert_conversation_turn": 1009
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_business_science_transportation_48995207",
+                    "insert_conversation_turn": 398,
+                    "reference_name": "Fig. 54cbdc34"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_films_environment_6d238fdf",
+                    "insert_conversation_turn": 94
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "nature",
+                " environment"
+            ],
+            "original_question": "In what type of environment does the species shown in the image typically form patches?"
+        }
+    },
+    {
+        "id": "QA_sample_c0a8cd36",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. eb39e153, the text, the bitcoin price has increased by 9.44% today. Should an investor sell their bitcoin according to the strategy?",
+        "answer": "No",
+        "evidence": {
+            "text_evidence": [
+                "An investment strategy suggests selling bitcoin only if its price increases by at least 10% compared to the previous day’s opening price. Otherwise, it is advisable to hold onto the asset and monitor its performance further."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_1f2d084a.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Yes",
+                "No"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_business_science_transportation_48995207",
+                    "insert_conversation_turn": 226
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_films_environment_6d238fdf",
+                    "insert_conversation_turn": 1040,
+                    "reference_name": "Fig. eb39e153"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "business",
+                "economy",
+                "technology"
+            ],
+            "original_question": "the text, the bitcoin price has increased by 9.44% today. Should an investor sell their bitcoin according to the strategy that recommends selling only if there is \"at least a 10% increase compared to the previous day’s opening price\"?"
+        }
+    },
+    {
+        "id": "MMKE_8cc9",
+        "domain": "MMKE",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. e4cb9fe8, On which continent is the species shown in the image found?",
+        "answer": "Asia",
+        "evidence": {
+            "text_evidence": [
+                "The plant in the image corresponds to Platanthera chlorantha. Platanthera chlorantha, or greater butterfly-orchid, is a species of orchid found throughout Asia and Madagascar. The flowering period in Britain is from May to June. The lavender-scented flowers have a long spur and diverging pollen masses that touch both sides of the pollinating insect. Greater butterfly-orchids thrive in woods, open scrub, and grasslands, including volcanic soil. They are broadly distributed across Asia, with outliers in Spain, Mongolia, and Southeast Asia."
+            ],
+            "image_evidence": [
+                "MMKE_c3986595ad3e49d7.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Platanthera chlorantha, or greater butterfly-orchid, is a species of orchid found throughout Europe and Morocco. The name \"Platanthera\" means \"broad anthers\" in Greek, and \"chlorantha\" means \"green-flowered\". This medium-height, herbaceous perennial resembles the lesser butterfly-orchid (Platanthera bifolia) but has larger flowers. Its broad, shiny elliptical leaves form a large pair at the base with smaller, lance-shaped leaves along the stem. The greenish-white, vanilla-scented flowers have a long spur and diverging pollen masses that touch both sides of the pollinating insect. The flowering period in Britain is from June to July, earlier in southern Europe. Greater butterfly-orchids thrive in woods, open scrub, and grasslands, including chalk. They are broadly distributed across Europe, from the British Isles to European Russia and the Caucasus, and from Norway down to Italy and the Balkans, with outliers in Spain, Turkey, and North Africa."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Asia",
+                "Europe",
+                "South America",
+                "Australia"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_films_environment_6d238fdf",
+                    "insert_conversation_turn": 33
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_art_and_design_history_bb203dbf",
+                    "insert_conversation_turn": 651,
+                    "reference_name": "Fig. e4cb9fe8"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_business_science_transportation_48995207",
+                    "insert_conversation_turn": 38
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "nature"
+            ],
+            "original_question": "On which continent is the species shown in the image found?"
+        }
+    },
+    {
+        "id": "QA_sample_4ce81549",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. b1a85361, the text, which source from the chart is categorized as \"moderate risk\"?",
+        "answer": "E-Mail posted on a USENET discussion group.",
+        "evidence": {
+            "text_evidence": [
+                "In a study analyzing the sources of spam emails, researchers categorized them based on the origin of email exposure. A source is considered 'low risk' if it contributes fewer than 50 spam messages, 'moderate risk' if it contributes between 50 and 500 spam messages, and 'high risk' if it contributes more than 500 spam messages. This classification determines the types of actions needed to protect users' email addresses."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_90110ee9.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "E-Mail used on a Web-based discussion board",
+                "E-Mail used for commercial purposes and owner asked not to receive spam",
+                "E-Mail sold or shared commercially without owner’s permission",
+                "E-Mail posted on a USENET discussion group."
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_films_environment_6d238fdf",
+                    "insert_conversation_turn": 928
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_business_science_transportation_48995207",
+                    "insert_conversation_turn": 1270,
+                    "reference_name": "Fig. b1a85361"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "technology"
+            ],
+            "original_question": "the text, which source from the chart is categorized as \"moderate risk\" according to the definition of contributing between 50 and 500 spam messages?"
+        }
+    },
+    {
+        "id": "QA_sample_b3535c70",
+        "domain": "SlideVQA",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 33676363, Fig. 71d6e115, What contains the registry which has a network-accessible address, usually described by URL, from where you access an OpenStack service?",
+        "answer": "Catalog Backend",
+        "evidence": {
+            "text_evidence": [],
+            "image_evidence": [
+                "SlideVQA_8e968e2e_page_12.png",
+                "SlideVQA_8e968e2e_page_13.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Catalog Backend",
+                "Policy Backend",
+                "Token Backend",
+                "Credentials Backend"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_art_and_design_history_bb203dbf",
+                    "insert_conversation_turn": 430,
+                    "reference_name": "Fig. 33676363"
+                },
+                {
+                    "conversation_name": "group_chat_business_science_transportation_48995207",
+                    "insert_conversation_turn": 1050,
+                    "reference_name": "Fig. 71d6e115"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "technology"
+            ],
+            "original_question": "What contains the registry which has a network-accessible address, usually described by URL, from where you access an OpenStack service?"
+        }
+    },
+    {
+        "id": "QA_sample_bb292f01",
+        "domain": "MLLMKC",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. fcee02ab, What are the main products of this brand?",
+        "answer": "software",
+        "evidence": {
+            "text_evidence": [
+                "Microsoft was founded in 1975. The creators of Microsoft are Bill Gates and Paul Allen. Microsoft is the production of software and hardware products."
+            ],
+            "image_evidence": [
+                "MLLMKC_f1cdacde.jpg"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Microsoft was founded in 1975. The creators of Microsoft are Bill Gates and Paul Allen. Microsoft is the production of clothing and accessories."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "furniture and decor",
+                "software",
+                "food and beverages",
+                "clothing and accessories"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_art_and_design_history_bb203dbf",
+                    "insert_conversation_turn": 856
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_business_science_transportation_48995207",
+                    "insert_conversation_turn": 1178,
+                    "reference_name": "Fig. fcee02ab"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_films_environment_6d238fdf",
+                    "insert_conversation_turn": 49
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "instance": "Microsoft",
+            "category": "logo",
+            "error_type": "content_error",
+            "topic": [
+                "technology",
+                " business"
+            ],
+            "original_question": "What are the main products of this brand?"
+        }
+    },
+    {
+        "id": "QA_sample_7b667e6c",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 059570ec, the text, which service had \"below-average\" customer acquisition in Q1 and \"high-demand\" customer acquisition in Q4?",
+        "answer": "Virtual Assistance (VA)",
+        "evidence": {
+            "text_evidence": [
+                "The Hansen Group categorizes its services as SEO (Search Engine Optimization), PPC (Pay-Per-Click Advertising), SMM (Social Media Marketing), and VA (Virtual Assistance). Each quarter's customer acquisition is considered below average if fewer than 400 customers are acquired. Services in high demand have values that exceed 850 customers in a quarter. All numerical data refers to customer acquisition for 2024."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_c1d531bc.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "Pay-Per-Click Advertising (PPC)",
+                "Social Media Marketing (SMM)",
+                "Virtual Assistance (VA)",
+                "Search Engine Optimization (SEO)"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_art_and_design_history_bb203dbf",
+                    "insert_conversation_turn": 913
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_films_environment_6d238fdf",
+                    "insert_conversation_turn": 1008,
+                    "reference_name": "Fig. 059570ec"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "business",
+                "technology"
+            ],
+            "original_question": "the text, which service had \"below-average\" customer acquisition in Q1 and \"high-demand\" customer acquisition in Q4?"
+        }
+    },
+    {
+        "id": "QA_sample_ac59a8a2",
+        "domain": "MLLMKC",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. dfc28e5d, What are the main products of this brand?",
+        "answer": "internet-related services and products",
+        "evidence": {
+            "text_evidence": [
+                "Google was founded in 1998. The creators of Google are Larry Page and Sergey Brin. Google is the brand of internet-related services and products."
+            ],
+            "image_evidence": [
+                "MLLMKC_3cbe3091.jpg"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Google was founded in 1998. The creators of Google are Larry Page and Sergey Brin. Google is the brand of fast food restaurants."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "fast food restaurants",
+                "luxury automobiles",
+                "internet-related services and products",
+                "organic skincare products"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_art_and_design_history_bb203dbf",
+                    "insert_conversation_turn": 1091
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_business_science_transportation_48995207",
+                    "insert_conversation_turn": 1146,
+                    "reference_name": "Fig. dfc28e5d"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_films_environment_6d238fdf",
+                    "insert_conversation_turn": 456
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "instance": "Google",
+            "category": "logo",
+            "error_type": "content_error",
+            "topic": [
+                "technology",
+                " business"
+            ],
+            "original_question": "What are the main products of this brand?"
+        }
+    },
+    {
+        "id": "QA_sample_97b85542_2",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 418d46a6, Among the activities that could reasonably occur in the given image, which one is Kayden Soto least likely to be doing?",
+        "answer": "Watching an improv comedy show",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Kayden Soto enjoys K-pop concerts, anime series, but dislikes improv comedy, street performances"
+            ],
+            "image_evidence": [
+                "MMPB_73dc3548.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Kayden Soto enjoys cruise vacations, solo travel, but dislikes motorbiking trips, rafting",
+                "In terms of lifestyle, Kayden Soto enjoys kombucha brewing, medicinal herb gardening, but dislikes hot yoga, pilates",
+                "In terms of shopping, Kayden Soto enjoys retro gaming consoles, wireless earbuds, but dislikes handmade crafts, vintage furniture",
+                "In terms of fashion, Kayden Soto enjoys vintage style, formal suits, but dislikes business casual, athleisure wear."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Watching an improv comedy show",
+                "Observing a live theater performance",
+                "Pilates",
+                "Attending a symphony orchestra concert"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_films_environment_6d238fdf",
+                    "insert_conversation_turn": 414
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_films_environment_6d238fdf",
+                    "insert_conversation_turn": 569,
+                    "reference_name": "Fig. 418d46a6"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_business_science_transportation_48995207",
+                    "insert_conversation_turn": 424
+                },
+                {
+                    "conversation_name": "group_chat_architecture_films_environment_6d238fdf",
+                    "insert_conversation_turn": 263
+                },
+                {
+                    "conversation_name": "group_chat_business_science_transportation_48995207",
+                    "insert_conversation_turn": 991
+                },
+                {
+                    "conversation_name": "group_chat_music_art_and_design_history_bb203dbf",
+                    "insert_conversation_turn": 298
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Yu",
+            "description": "Yu is a young individual with a slender build and a youthful appearance, suggesting a height that is typical for their age. Their facial structure is characterized by a well-defined jawline and a slightly rounded face, with a fair skin tone. The hair is short and neatly styled, often appearing dark and well-groomed. The eyebrows are thick and well-defined, adding to the expressive nature of their face. Yu frequently displays a range of expressions, from a broad smile to a more contemplative look, indicating a lively and engaging personality. The eyes are a notable feature, often appearing bright and attentive, contributing to a sense of curiosity and openness.\n\n**Outfit and Accessories:**\nYu is seen wearing a variety of outfits that reflect a casual and comfortable style. The color palette includes a mix of bright and neutral tones, such as red, green, white, and orange, with occasional accents of blue and black. The clothing appears to be made of soft, comfortable materials, suitable for everyday wear. The outfits range from a red and green jacket to a white shirt with pink accents, and a gray shirt with red and black details. The attire is practical and functional, with a focus on comfort and ease of movement. There are no visible accessories, suggesting a preference for simplicity and minimalism in their style.\n\n**Distinguishing Visual Features or Vibe:**\nThe most memorable feature of Yu is their bright and engaging smile, which conveys a sense of warmth and friendliness. The consistent appearance of a neat and well-groomed hairstyle adds to their youthful and approachable vibe. The combination of bright and neutral colors in their outfits creates a visually appealing contrast, enhancing their overall appearance. The expressive eyes and varied facial expressions contribute to a dynamic and lively persona. The overall impression is one of a cheerful and energetic individual, with a casual and relatable style that makes Yu visually unmistakable.",
+            "preference": "In terms of entertainment, Yu enjoys K-pop concerts, anime series, but dislikes improv comedy, street performances. In terms of travel, Yu enjoys cruise vacations, solo travel, but dislikes motorbiking trips, rafting. In terms of lifestyle, Yu enjoys kombucha brewing, medicinal herb gardening, but dislikes hot yoga, pilates. In terms of shopping, Yu enjoys retro gaming consoles, wireless earbuds, but dislikes handmade crafts, vintage furniture. In terms of fashion, Yu enjoys vintage style, formal suits, but dislikes business casual, athleisure wear.",
+            "topic": [],
+            "original_id": "QA_sample_97b85542",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Kayden Soto least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_97b85542_3",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 1b2e2bde, Among the activities that could reasonably occur in the given image, which one is Kayden Soto least likely to be doing?",
+        "answer": "Watching street performances",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Kayden Soto enjoys K-pop concerts, anime series, but dislikes improv comedy, street performances"
+            ],
+            "image_evidence": [
+                "MMPB_28b712ad.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Kayden Soto enjoys cruise vacations, solo travel, but dislikes motorbiking trips, rafting",
+                "In terms of lifestyle, Kayden Soto enjoys kombucha brewing, medicinal herb gardening, but dislikes hot yoga, pilates",
+                "In terms of shopping, Kayden Soto enjoys retro gaming consoles, wireless earbuds, but dislikes handmade crafts, vintage furniture",
+                "In terms of fashion, Kayden Soto enjoys vintage style, formal suits, but dislikes business casual, athleisure wear."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "Observing public art installations",
+                "Enjoying outdoor music festivals",
+                "Brewing Kombu tea",
+                "Watching street performances"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_films_environment_6d238fdf",
+                    "insert_conversation_turn": 414
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_films_environment_6d238fdf",
+                    "insert_conversation_turn": 189,
+                    "reference_name": "Fig. 1b2e2bde"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_business_science_transportation_48995207",
+                    "insert_conversation_turn": 424
+                },
+                {
+                    "conversation_name": "group_chat_architecture_films_environment_6d238fdf",
+                    "insert_conversation_turn": 263
+                },
+                {
+                    "conversation_name": "group_chat_business_science_transportation_48995207",
+                    "insert_conversation_turn": 991
+                },
+                {
+                    "conversation_name": "group_chat_music_art_and_design_history_bb203dbf",
+                    "insert_conversation_turn": 298
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Yu",
+            "description": "Yu is a young individual with a slender build and a youthful appearance, suggesting a height that is typical for their age. Their facial structure is characterized by a well-defined jawline and a slightly rounded face, with a fair skin tone. The hair is short and neatly styled, often appearing dark and well-groomed. The eyebrows are thick and well-defined, adding to the expressive nature of their face. Yu frequently displays a range of expressions, from a broad smile to a more contemplative look, indicating a lively and engaging personality. The eyes are a notable feature, often appearing bright and attentive, contributing to a sense of curiosity and openness.\n\n**Outfit and Accessories:**\nYu is seen wearing a variety of outfits that reflect a casual and comfortable style. The color palette includes a mix of bright and neutral tones, such as red, green, white, and orange, with occasional accents of blue and black. The clothing appears to be made of soft, comfortable materials, suitable for everyday wear. The outfits range from a red and green jacket to a white shirt with pink accents, and a gray shirt with red and black details. The attire is practical and functional, with a focus on comfort and ease of movement. There are no visible accessories, suggesting a preference for simplicity and minimalism in their style.\n\n**Distinguishing Visual Features or Vibe:**\nThe most memorable feature of Yu is their bright and engaging smile, which conveys a sense of warmth and friendliness. The consistent appearance of a neat and well-groomed hairstyle adds to their youthful and approachable vibe. The combination of bright and neutral colors in their outfits creates a visually appealing contrast, enhancing their overall appearance. The expressive eyes and varied facial expressions contribute to a dynamic and lively persona. The overall impression is one of a cheerful and energetic individual, with a casual and relatable style that makes Yu visually unmistakable.",
+            "preference": "In terms of entertainment, Yu enjoys K-pop concerts, anime series, but dislikes improv comedy, street performances. In terms of travel, Yu enjoys cruise vacations, solo travel, but dislikes motorbiking trips, rafting. In terms of lifestyle, Yu enjoys kombucha brewing, medicinal herb gardening, but dislikes hot yoga, pilates. In terms of shopping, Yu enjoys retro gaming consoles, wireless earbuds, but dislikes handmade crafts, vintage furniture. In terms of fashion, Yu enjoys vintage style, formal suits, but dislikes business casual, athleisure wear.",
+            "topic": [],
+            "original_id": "QA_sample_97b85542",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Kayden Soto least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_5a551c65_1",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. c6df5fef, the image, what is Julien Cisneros most likely to be doing?",
+        "answer": "Watching sports TV",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Julien Cisneros enjoys sports TV, romantic dramas, but dislikes musicals, documentaries"
+            ],
+            "image_evidence": [
+                "MMPB_2d99653f.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Julien Cisneros enjoys wildlife safaris, hot air balloon rides, but dislikes overland train journeys, remote island hopping",
+                "In terms of lifestyle, Julien Cisneros enjoys early morning jogs, massages, but dislikes essential oils, aromatherapy",
+                "In terms of shopping, Julien Cisneros enjoys sportswear, high-end perfumes, but dislikes compact fitness equipment, desk organizers",
+                "In terms of fashion, Julien Cisneros enjoys vintage style, formal suits, but dislikes bright neon colors, oversized sweaters."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "Buying vintage style suits",
+                "Streaming magic shows",
+                "Watching sports TV",
+                "Watching movie channels"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_films_environment_6d238fdf",
+                    "insert_conversation_turn": 152
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_films_environment_6d238fdf",
+                    "insert_conversation_turn": 249,
+                    "reference_name": "Fig. c6df5fef"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_films_environment_6d238fdf",
+                    "insert_conversation_turn": 1205
+                },
+                {
+                    "conversation_name": "group_chat_business_science_transportation_48995207",
+                    "insert_conversation_turn": 977
+                },
+                {
+                    "conversation_name": "group_chat_business_science_transportation_48995207",
+                    "insert_conversation_turn": 645
+                },
+                {
+                    "conversation_name": "group_chat_music_art_and_design_history_bb203dbf",
+                    "insert_conversation_turn": 336
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Kim",
+            "description": "Kim is a woman with a slender build and an average height impression. Her facial structure is characterized by a well-defined jawline and a slightly pointed chin, complemented by a smooth, fair skin tone. Her hair is short, dark, and styled in a sleek, straight manner, often falling just above her shoulders. Kim frequently displays a contemplative or engaged expression, with her eyes wide and focused, suggesting a thoughtful or attentive demeanor. Her eyebrows are well-groomed and slightly arched, adding to her expressive features. In some images, she is seen with her hands clasped together, indicating a poised and composed posture.\n\n**Outfit and Accessories:**\nKim is often seen wearing elegant and sophisticated attire. In several images, she is dressed in a white sleeveless top with a high neckline, which exudes a sense of formality and grace. The texture of the fabric appears smooth and flowing, enhancing her refined appearance. In another image, she is depicted in a pink top with a white headband, adding a touch of softness and approachability to her look. Her accessories, such as dangling earrings, add a subtle yet elegant touch to her overall appearance. The color palette of her outfits is predominantly neutral, with white and pink being the most prominent, contributing to a polished and understated style.\n\n**Distinguishing Visual Features or Vibe:**\nKim's most memorable feature is her short, dark hair, which is consistently styled in a sleek manner, adding to her modern and chic appearance. Her fair skin and well-defined facial features, including her expressive eyes and arched eyebrows, contribute to a striking and memorable visage. The recurring theme of her outfits, particularly the white sleeveless top, suggests a preference for classic and timeless fashion choices. The combination of her poised posture, elegant attire, and subtle accessories creates an aura of sophistication and grace. Additionally, her contemplative expressions and focused gaze convey a sense of depth and introspection, making her visually unmistakable and leaving a lasting impression.",
+            "preference": "In terms of entertainment, Kim enjoys sports TV, romantic dramas, but dislikes musicals, documentaries. In terms of travel, Kim enjoys wildlife safaris, hot air balloon rides, but dislikes overland train journeys, remote island hopping. In terms of lifestyle, Kim enjoys early morning jogs, massages, but dislikes essential oils, aromatherapy. In terms of shopping, Kim enjoys sportswear, high-end perfumes, but dislikes compact fitness equipment, desk organizers. In terms of fashion, Kim enjoys vintage style, formal suits, but dislikes bright neon colors, oversized sweaters.",
+            "topic": [],
+            "original_id": "QA_sample_5a551c65",
+            "original_question": "the image, what is Julien Cisneros most likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_5a551c65_2",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. e01f9e3e, Among the activities that could reasonably occur in the given image, which one is Julien Cisneros least likely to be doing?",
+        "answer": "Watching documentaries",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Julien Cisneros enjoys sports TV, romantic dramas, but dislikes musicals, documentaries"
+            ],
+            "image_evidence": [
+                "MMPB_81ebaeeb.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Julien Cisneros enjoys wildlife safaris, hot air balloon rides, but dislikes overland train journeys, remote island hopping",
+                "In terms of lifestyle, Julien Cisneros enjoys early morning jogs, massages, but dislikes essential oils, aromatherapy",
+                "In terms of shopping, Julien Cisneros enjoys sportswear, high-end perfumes, but dislikes compact fitness equipment, desk organizers",
+                "In terms of fashion, Julien Cisneros enjoys vintage style, formal suits, but dislikes bright neon colors, oversized sweaters."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Looking for oversized sweaters",
+                "Watching documentaries",
+                "Watching superhero series",
+                "Watching action movies"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_films_environment_6d238fdf",
+                    "insert_conversation_turn": 152
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_art_and_design_history_bb203dbf",
+                    "insert_conversation_turn": 412,
+                    "reference_name": "Fig. e01f9e3e"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_films_environment_6d238fdf",
+                    "insert_conversation_turn": 1205
+                },
+                {
+                    "conversation_name": "group_chat_business_science_transportation_48995207",
+                    "insert_conversation_turn": 977
+                },
+                {
+                    "conversation_name": "group_chat_business_science_transportation_48995207",
+                    "insert_conversation_turn": 645
+                },
+                {
+                    "conversation_name": "group_chat_music_art_and_design_history_bb203dbf",
+                    "insert_conversation_turn": 336
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Kim",
+            "description": "Kim is a woman with a slender build and an average height impression. Her facial structure is characterized by a well-defined jawline and a slightly pointed chin, complemented by a smooth, fair skin tone. Her hair is short, dark, and styled in a sleek, straight manner, often falling just above her shoulders. Kim frequently displays a contemplative or engaged expression, with her eyes wide and focused, suggesting a thoughtful or attentive demeanor. Her eyebrows are well-groomed and slightly arched, adding to her expressive features. In some images, she is seen with her hands clasped together, indicating a poised and composed posture.\n\n**Outfit and Accessories:**\nKim is often seen wearing elegant and sophisticated attire. In several images, she is dressed in a white sleeveless top with a high neckline, which exudes a sense of formality and grace. The texture of the fabric appears smooth and flowing, enhancing her refined appearance. In another image, she is depicted in a pink top with a white headband, adding a touch of softness and approachability to her look. Her accessories, such as dangling earrings, add a subtle yet elegant touch to her overall appearance. The color palette of her outfits is predominantly neutral, with white and pink being the most prominent, contributing to a polished and understated style.\n\n**Distinguishing Visual Features or Vibe:**\nKim's most memorable feature is her short, dark hair, which is consistently styled in a sleek manner, adding to her modern and chic appearance. Her fair skin and well-defined facial features, including her expressive eyes and arched eyebrows, contribute to a striking and memorable visage. The recurring theme of her outfits, particularly the white sleeveless top, suggests a preference for classic and timeless fashion choices. The combination of her poised posture, elegant attire, and subtle accessories creates an aura of sophistication and grace. Additionally, her contemplative expressions and focused gaze convey a sense of depth and introspection, making her visually unmistakable and leaving a lasting impression.",
+            "preference": "In terms of entertainment, Kim enjoys sports TV, romantic dramas, but dislikes musicals, documentaries. In terms of travel, Kim enjoys wildlife safaris, hot air balloon rides, but dislikes overland train journeys, remote island hopping. In terms of lifestyle, Kim enjoys early morning jogs, massages, but dislikes essential oils, aromatherapy. In terms of shopping, Kim enjoys sportswear, high-end perfumes, but dislikes compact fitness equipment, desk organizers. In terms of fashion, Kim enjoys vintage style, formal suits, but dislikes bright neon colors, oversized sweaters.",
+            "topic": [],
+            "original_id": "QA_sample_5a551c65",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Julien Cisneros least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_6591efa3_1",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 6f521f84, the image, what is Jovanny Matthews most likely to be doing?",
+        "answer": "Watching sitcoms",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Jovanny Matthews enjoys horror movies, sitcoms, but dislikes improv comedy, street performances"
+            ],
+            "image_evidence": [
+                "MMPB_2d99653f.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Jovanny Matthews enjoys hiking, scuba diving, but dislikes sailing, paragliding",
+                "In terms of lifestyle, Jovanny Matthews enjoys home gardening, night owl lifestyle, but dislikes protein-rich diet, weightlifting",
+                "In terms of shopping, Jovanny Matthews enjoys mechanical keyboards, 3D printing tools, but dislikes luxury handbags, designer watches",
+                "In terms of fashion, Jovanny Matthews enjoys statement jewelry, minimalist rings, but dislikes denim jackets, wide-leg trousers."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "Watching romance dramas",
+                "Home gardening",
+                "Watching sitcoms",
+                "Streaming action movies"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_films_environment_6d238fdf",
+                    "insert_conversation_turn": 234
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_films_environment_6d238fdf",
+                    "insert_conversation_turn": 249,
+                    "reference_name": "Fig. 6f521f84"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_business_science_transportation_48995207",
+                    "insert_conversation_turn": 919
+                },
+                {
+                    "conversation_name": "group_chat_business_science_transportation_48995207",
+                    "insert_conversation_turn": 905
+                },
+                {
+                    "conversation_name": "group_chat_business_science_transportation_48995207",
+                    "insert_conversation_turn": 710
+                },
+                {
+                    "conversation_name": "group_chat_business_science_transportation_48995207",
+                    "insert_conversation_turn": 663
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Ron",
+            "description": "Ron is a young individual with a slender build and a youthful appearance, suggesting they are likely in their early teens. They have a fair complexion and striking red hair that is often tousled, adding to their distinctive look. The facial structure is characterized by a prominent forehead, expressive eyes, and a slightly pointed chin. Their eyebrows are thick and well-defined, often furrowed in a way that conveys curiosity or concern. The expressions on Ron' face range from wide-eyed surprise to a more contemplative look, indicating a range of emotions and reactions. The overall impression is one of a thoughtful and somewhat introverted character.\n\n**Outfit and Accessories:**\nRon is frequently seen wearing a school uniform, which includes a dark robe with a crest on the left side, a white shirt, and a striped tie in red, yellow, and green. The uniform suggests a formal and traditional setting, likely a school environment. The robe is made of a dark, possibly woolen material, giving it a classic and somewhat somber appearance. The tie adds a pop of color and a touch of whimsy to the otherwise formal attire. In one image, Ron is seen in a casual striped t-shirt, indicating a more relaxed setting. The overall style of the clothing is practical and functional, with a hint of character-defining elements, such as the crest on the robe, which adds a sense of belonging and identity.\n\n**Distinguishing Visual Features or Vibe:**\nThe most memorable feature of Ron is undoubtedly their vibrant red hair, which stands out and is a defining characteristic. The combination of the red hair and the school uniform creates a unique visual motif that is instantly recognizable. The crest on the robe adds a sense of belonging to a specific group or house, enhancing the character's identity. The expressions on Ron' face, ranging from surprise to contemplation, convey a sense of curiosity and intelligence. The overall vibe is one of a thoughtful, slightly awkward, yet endearing character, with a hint of magic and mystery. The consistent use of the school uniform and the crest, along with the red hair, makes Ron visually unmistakable and memorable.",
+            "preference": "In terms of entertainment, Ron enjoys horror movies, sitcoms, but dislikes improv comedy, street performances. In terms of travel, Ron enjoys hiking, scuba diving, but dislikes sailing, paragliding. In terms of lifestyle, Ron enjoys home gardening, night owl lifestyle, but dislikes protein-rich diet, weightlifting. In terms of shopping, Ron enjoys mechanical keyboards, 3D printing tools, but dislikes luxury handbags, designer watches. In terms of fashion, Ron enjoys statement jewelry, minimalist rings, but dislikes denim jackets, wide-leg trousers.",
+            "topic": [],
+            "original_id": "QA_sample_6591efa3",
+            "original_question": "the image, what is Jovanny Matthews most likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_ea679dbe_2",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 9974e795, the image, what is Elle Spears most likely to be doing?",
+        "answer": "Watching a documentary film with friends",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Elle Spears enjoys musicals, documentaries, but dislikes horror movies, sitcoms"
+            ],
+            "image_evidence": [
+                "MMPB_6f052249.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Elle Spears enjoys skydiving, cave exploration, but dislikes wildlife safaris, hot air balloon rides",
+                "In terms of lifestyle, Elle Spears enjoys kombucha brewing, medicinal herb gardening, but dislikes boxing workouts, rock climbing gyms",
+                "In terms of shopping, Elle Spears enjoys gaming accessories, tech gadgets, but dislikes handwoven rugs, fancy cutlery sets",
+                "In terms of fashion, Elle Spears enjoys business casual, athleisure wear, but dislikes chunky boots, strappy sandals."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "Hanging out with buddies and watching a show",
+                "Socializing with friends while enjoying a movie",
+                "Watching a documentary film with friends",
+                "Medicinal herb gardening"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_business_science_transportation_48995207",
+                    "insert_conversation_turn": 783
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_business_science_transportation_48995207",
+                    "insert_conversation_turn": 475,
+                    "reference_name": "Fig. 9974e795"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_business_science_transportation_48995207",
+                    "insert_conversation_turn": 570
+                },
+                {
+                    "conversation_name": "group_chat_music_art_and_design_history_bb203dbf",
+                    "insert_conversation_turn": 1151
+                },
+                {
+                    "conversation_name": "group_chat_business_science_transportation_48995207",
+                    "insert_conversation_turn": 102
+                },
+                {
+                    "conversation_name": "group_chat_architecture_films_environment_6d238fdf",
+                    "insert_conversation_turn": 884
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Choi",
+            "description": "Choi is a man with a distinctive appearance that stands out in each image. He has a medium build and appears to be of average height. His facial structure is characterized by a strong jawline and prominent cheekbones, with a slightly furrowed brow that suggests a contemplative or intense demeanor. His skin tone is fair, and he has a mustache and a goatee, adding to his rugged look. Choi has dark, tousled hair that often appears unkempt, contributing to a somewhat disheveled yet charismatic appearance. His expressions range from serious to contemplative, with a tendency to look directly at the camera, creating a sense of engagement with the viewer.\n\n**Outfit and Accessories:**\nChoi is often seen wearing a blue denim jacket, which gives him a casual and somewhat rebellious vibe. Underneath, he typically wears a white shirt, adding a touch of simplicity to his overall look. In some images, he is also seen in a black suit with a white shirt, suggesting a more formal or serious context. The combination of denim and formal wear highlights a blend of casual and sophisticated styles. He does not appear to wear any prominent accessories, but the choice of clothing suggests a practical yet stylish approach to his appearance.\n\n**Distinguishing Visual Features or Vibe:**\nThe most memorable feature of Choi is his intense gaze and the way he commands attention through his direct eye contact. His tousled hair and serious expressions contribute to a rugged, somewhat brooding persona. The recurring theme of holding objects, such as a piece of paper or a framed photograph, adds a layer of depth to his character, suggesting a connection to personal or significant items. The consistent use of blue in his denim jacket and the warm, earthy tones in the background create a cohesive visual theme. Overall, Choi exudes a strong, enigmatic presence that is both intriguing and memorable.",
+            "preference": "In terms of entertainment, Choi enjoys musicals, documentaries, but dislikes horror movies, sitcoms. In terms of travel, Choi enjoys skydiving, cave exploration, but dislikes wildlife safaris, hot air balloon rides. In terms of lifestyle, Choi enjoys kombucha brewing, medicinal herb gardening, but dislikes boxing workouts, rock climbing gyms. In terms of shopping, Choi enjoys gaming accessories, tech gadgets, but dislikes handwoven rugs, fancy cutlery sets. In terms of fashion, Choi enjoys business casual, athleisure wear, but dislikes chunky boots, strappy sandals.",
+            "topic": [],
+            "original_id": "QA_sample_ea679dbe",
+            "original_question": "the image, what is Elle Spears most likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_ea679dbe_3",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 9959965b, Among the activities that could reasonably occur in the given image, which one is Elle Spears least likely to be doing?",
+        "answer": "Watching a horror movie",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Elle Spears enjoys musicals, documentaries, but dislikes horror movies, sitcoms"
+            ],
+            "image_evidence": [
+                "MMPB_28b712ad.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Elle Spears enjoys skydiving, cave exploration, but dislikes wildlife safaris, hot air balloon rides",
+                "In terms of lifestyle, Elle Spears enjoys kombucha brewing, medicinal herb gardening, but dislikes boxing workouts, rock climbing gyms",
+                "In terms of shopping, Elle Spears enjoys gaming accessories, tech gadgets, but dislikes handwoven rugs, fancy cutlery sets",
+                "In terms of fashion, Elle Spears enjoys business casual, athleisure wear, but dislikes chunky boots, strappy sandals."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "Viewing a indie film",
+                "Buying handwoven rugs",
+                "Watching a horror movie",
+                "Observing a romance movie"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_business_science_transportation_48995207",
+                    "insert_conversation_turn": 783
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_art_and_design_history_bb203dbf",
+                    "insert_conversation_turn": 685,
+                    "reference_name": "Fig. 9959965b"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_business_science_transportation_48995207",
+                    "insert_conversation_turn": 570
+                },
+                {
+                    "conversation_name": "group_chat_music_art_and_design_history_bb203dbf",
+                    "insert_conversation_turn": 1151
+                },
+                {
+                    "conversation_name": "group_chat_business_science_transportation_48995207",
+                    "insert_conversation_turn": 102
+                },
+                {
+                    "conversation_name": "group_chat_architecture_films_environment_6d238fdf",
+                    "insert_conversation_turn": 884
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Choi",
+            "description": "Choi is a man with a distinctive appearance that stands out in each image. He has a medium build and appears to be of average height. His facial structure is characterized by a strong jawline and prominent cheekbones, with a slightly furrowed brow that suggests a contemplative or intense demeanor. His skin tone is fair, and he has a mustache and a goatee, adding to his rugged look. Choi has dark, tousled hair that often appears unkempt, contributing to a somewhat disheveled yet charismatic appearance. His expressions range from serious to contemplative, with a tendency to look directly at the camera, creating a sense of engagement with the viewer.\n\n**Outfit and Accessories:**\nChoi is often seen wearing a blue denim jacket, which gives him a casual and somewhat rebellious vibe. Underneath, he typically wears a white shirt, adding a touch of simplicity to his overall look. In some images, he is also seen in a black suit with a white shirt, suggesting a more formal or serious context. The combination of denim and formal wear highlights a blend of casual and sophisticated styles. He does not appear to wear any prominent accessories, but the choice of clothing suggests a practical yet stylish approach to his appearance.\n\n**Distinguishing Visual Features or Vibe:**\nThe most memorable feature of Choi is his intense gaze and the way he commands attention through his direct eye contact. His tousled hair and serious expressions contribute to a rugged, somewhat brooding persona. The recurring theme of holding objects, such as a piece of paper or a framed photograph, adds a layer of depth to his character, suggesting a connection to personal or significant items. The consistent use of blue in his denim jacket and the warm, earthy tones in the background create a cohesive visual theme. Overall, Choi exudes a strong, enigmatic presence that is both intriguing and memorable.",
+            "preference": "In terms of entertainment, Choi enjoys musicals, documentaries, but dislikes horror movies, sitcoms. In terms of travel, Choi enjoys skydiving, cave exploration, but dislikes wildlife safaris, hot air balloon rides. In terms of lifestyle, Choi enjoys kombucha brewing, medicinal herb gardening, but dislikes boxing workouts, rock climbing gyms. In terms of shopping, Choi enjoys gaming accessories, tech gadgets, but dislikes handwoven rugs, fancy cutlery sets. In terms of fashion, Choi enjoys business casual, athleisure wear, but dislikes chunky boots, strappy sandals.",
+            "topic": [],
+            "original_id": "QA_sample_ea679dbe",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Elle Spears least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_aac314f8_1",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. ccd2663e, Among the activities that could reasonably occur in the given image, which one is Jennifer Zamora least likely to be doing?",
+        "answer": "Watching sports documentaries",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Jennifer Zamora enjoys musicals, documentaries, but dislikes sports documentaries, gaming tournaments",
+                "In terms of shopping, Jennifer Zamora enjoys handmade candles, ceramic pottery, but dislikes gaming accessories, tech gadgets"
+            ],
+            "image_evidence": [
+                "MMPB_81ebaeeb.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Jennifer Zamora enjoys overland train journeys, remote island hopping, but dislikes road trips, city tours",
+                "In terms of lifestyle, Jennifer Zamora enjoys forest bathing, holistic therapy, but dislikes meditation, yoga",
+                "In terms of fashion, Jennifer Zamora enjoys winter coats, denim jeans, but dislikes business casual, athleisure wear."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "Buying tech gadgets",
+                "Watching action-packed thrillers",
+                "Watching sports documentaries",
+                "Enjoying suspenseful mystery series"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_business_science_transportation_48995207",
+                    "insert_conversation_turn": 556
+                },
+                {
+                    "conversation_name": "group_chat_business_science_transportation_48995207",
+                    "insert_conversation_turn": 679
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_art_and_design_history_bb203dbf",
+                    "insert_conversation_turn": 412,
+                    "reference_name": "Fig. ccd2663e"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_art_and_design_history_bb203dbf",
+                    "insert_conversation_turn": 807
+                },
+                {
+                    "conversation_name": "group_chat_business_science_transportation_48995207",
+                    "insert_conversation_turn": 891
+                },
+                {
+                    "conversation_name": "group_chat_business_science_transportation_48995207",
+                    "insert_conversation_turn": 617
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Ha",
+            "description": "Ha is a man with a lean build and an impression of medium height. His facial structure is well-defined, featuring a prominent jawline and a straight nose. Ha has a fair skin tone and dark, neatly styled hair that is often slicked back, giving him a polished appearance. His eyebrows are thick and well-groomed, adding to his intense gaze. Ha frequently adopts a contemplative pose, with his hand resting thoughtfully on his chin, suggesting a reflective or serious demeanor. His expressions range from serious to slightly concerned, with a hint of intensity in his eyes.\n\n**Outfit and Accessories:**\nHa is consistently seen in formal attire, predominantly wearing dark-colored suits, including shades of gray and black. His outfits are tailored, with a focus on a sleek and professional look. The suits are often paired with light-colored shirts, adding a touch of contrast. In some images, Ha wears a gold chain necklace, which adds a subtle touch of personal style. The clothing appears to be made of high-quality materials, such as wool or silk, giving a sense of sophistication and formality. The overall style is practical yet elegant, suitable for professional or formal settings.\n\n**Distinguishing Visual Features or Vibe:**\nHa exudes a strong, confident presence, characterized by his polished appearance and thoughtful demeanor. His dark suits and light shirts create a classic, timeless look, while the gold chain adds a touch of personal flair. The consistent use of dark colors in his attire, combined with his serious expressions, conveys a sense of gravitas and intensity. Ha's slicked-back hair and well-groomed eyebrows contribute to his polished appearance, making him visually unmistakable. The contemplative poses and serious expressions suggest a character who is thoughtful and introspective, adding depth to his persona. Overall, Ha's visual style is defined by a blend of formality, sophistication, and a hint of personal flair, making him a memorable and distinctive figure.",
+            "preference": "In terms of entertainment, Ha enjoys musicals, documentaries, but dislikes sports documentaries, gaming tournaments. In terms of travel, Ha enjoys overland train journeys, remote island hopping, but dislikes road trips, city tours. In terms of lifestyle, Ha enjoys forest bathing, holistic therapy, but dislikes meditation, yoga. In terms of shopping, Ha enjoys handmade candles, ceramic pottery, but dislikes gaming accessories, tech gadgets. In terms of fashion, Ha enjoys winter coats, denim jeans, but dislikes business casual, athleisure wear.",
+            "topic": [],
+            "original_id": "QA_sample_aac314f8",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Jennifer Zamora least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_aac314f8_2",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. cc88dbcc, Among the activities that could reasonably occur in the given image, which one is Jennifer Zamora least likely to be doing?",
+        "answer": "Watching gaming tournaments",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Jennifer Zamora enjoys musicals, documentaries, but dislikes sports documentaries, gaming tournaments",
+                "In terms of shopping, Jennifer Zamora enjoys handmade candles, ceramic pottery, but dislikes gaming accessories, tech gadgets"
+            ],
+            "image_evidence": [
+                "MMPB_2d99653f.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Jennifer Zamora enjoys overland train journeys, remote island hopping, but dislikes road trips, city tours",
+                "In terms of lifestyle, Jennifer Zamora enjoys forest bathing, holistic therapy, but dislikes meditation, yoga",
+                "In terms of fashion, Jennifer Zamora enjoys winter coats, denim jeans, but dislikes business casual, athleisure wear."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Watching gaming tournaments",
+                "Observing cooking shows",
+                "Doing yoga",
+                "Watching sports events"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_business_science_transportation_48995207",
+                    "insert_conversation_turn": 556
+                },
+                {
+                    "conversation_name": "group_chat_business_science_transportation_48995207",
+                    "insert_conversation_turn": 679
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_art_and_design_history_bb203dbf",
+                    "insert_conversation_turn": 543,
+                    "reference_name": "Fig. cc88dbcc"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_art_and_design_history_bb203dbf",
+                    "insert_conversation_turn": 807
+                },
+                {
+                    "conversation_name": "group_chat_business_science_transportation_48995207",
+                    "insert_conversation_turn": 891
+                },
+                {
+                    "conversation_name": "group_chat_business_science_transportation_48995207",
+                    "insert_conversation_turn": 617
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Ha",
+            "description": "Ha is a man with a lean build and an impression of medium height. His facial structure is well-defined, featuring a prominent jawline and a straight nose. Ha has a fair skin tone and dark, neatly styled hair that is often slicked back, giving him a polished appearance. His eyebrows are thick and well-groomed, adding to his intense gaze. Ha frequently adopts a contemplative pose, with his hand resting thoughtfully on his chin, suggesting a reflective or serious demeanor. His expressions range from serious to slightly concerned, with a hint of intensity in his eyes.\n\n**Outfit and Accessories:**\nHa is consistently seen in formal attire, predominantly wearing dark-colored suits, including shades of gray and black. His outfits are tailored, with a focus on a sleek and professional look. The suits are often paired with light-colored shirts, adding a touch of contrast. In some images, Ha wears a gold chain necklace, which adds a subtle touch of personal style. The clothing appears to be made of high-quality materials, such as wool or silk, giving a sense of sophistication and formality. The overall style is practical yet elegant, suitable for professional or formal settings.\n\n**Distinguishing Visual Features or Vibe:**\nHa exudes a strong, confident presence, characterized by his polished appearance and thoughtful demeanor. His dark suits and light shirts create a classic, timeless look, while the gold chain adds a touch of personal flair. The consistent use of dark colors in his attire, combined with his serious expressions, conveys a sense of gravitas and intensity. Ha's slicked-back hair and well-groomed eyebrows contribute to his polished appearance, making him visually unmistakable. The contemplative poses and serious expressions suggest a character who is thoughtful and introspective, adding depth to his persona. Overall, Ha's visual style is defined by a blend of formality, sophistication, and a hint of personal flair, making him a memorable and distinctive figure.",
+            "preference": "In terms of entertainment, Ha enjoys musicals, documentaries, but dislikes sports documentaries, gaming tournaments. In terms of travel, Ha enjoys overland train journeys, remote island hopping, but dislikes road trips, city tours. In terms of lifestyle, Ha enjoys forest bathing, holistic therapy, but dislikes meditation, yoga. In terms of shopping, Ha enjoys handmade candles, ceramic pottery, but dislikes gaming accessories, tech gadgets. In terms of fashion, Ha enjoys winter coats, denim jeans, but dislikes business casual, athleisure wear.",
+            "topic": [],
+            "original_id": "QA_sample_aac314f8",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Jennifer Zamora least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_aac314f8_3",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. debcf7b6, Among the activities that could reasonably occur in the given image, which one is Jennifer Zamora least likely to be doing?",
+        "answer": "Watching gaming tournaments",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Jennifer Zamora enjoys musicals, documentaries, but dislikes sports documentaries, gaming tournaments",
+                "In terms of shopping, Jennifer Zamora enjoys handmade candles, ceramic pottery, but dislikes gaming accessories, tech gadgets"
+            ],
+            "image_evidence": [
+                "MMPB_6f052249.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Jennifer Zamora enjoys overland train journeys, remote island hopping, but dislikes road trips, city tours",
+                "In terms of lifestyle, Jennifer Zamora enjoys forest bathing, holistic therapy, but dislikes meditation, yoga",
+                "In terms of fashion, Jennifer Zamora enjoys winter coats, denim jeans, but dislikes business casual, athleisure wear."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "Monitoring live performances",
+                "Practicing meditation",
+                "Watching gaming tournaments",
+                "Watching romantic dramas"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_business_science_transportation_48995207",
+                    "insert_conversation_turn": 556
+                },
+                {
+                    "conversation_name": "group_chat_business_science_transportation_48995207",
+                    "insert_conversation_turn": 679
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_art_and_design_history_bb203dbf",
+                    "insert_conversation_turn": 50,
+                    "reference_name": "Fig. debcf7b6"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_art_and_design_history_bb203dbf",
+                    "insert_conversation_turn": 807
+                },
+                {
+                    "conversation_name": "group_chat_business_science_transportation_48995207",
+                    "insert_conversation_turn": 891
+                },
+                {
+                    "conversation_name": "group_chat_business_science_transportation_48995207",
+                    "insert_conversation_turn": 617
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Ha",
+            "description": "Ha is a man with a lean build and an impression of medium height. His facial structure is well-defined, featuring a prominent jawline and a straight nose. Ha has a fair skin tone and dark, neatly styled hair that is often slicked back, giving him a polished appearance. His eyebrows are thick and well-groomed, adding to his intense gaze. Ha frequently adopts a contemplative pose, with his hand resting thoughtfully on his chin, suggesting a reflective or serious demeanor. His expressions range from serious to slightly concerned, with a hint of intensity in his eyes.\n\n**Outfit and Accessories:**\nHa is consistently seen in formal attire, predominantly wearing dark-colored suits, including shades of gray and black. His outfits are tailored, with a focus on a sleek and professional look. The suits are often paired with light-colored shirts, adding a touch of contrast. In some images, Ha wears a gold chain necklace, which adds a subtle touch of personal style. The clothing appears to be made of high-quality materials, such as wool or silk, giving a sense of sophistication and formality. The overall style is practical yet elegant, suitable for professional or formal settings.\n\n**Distinguishing Visual Features or Vibe:**\nHa exudes a strong, confident presence, characterized by his polished appearance and thoughtful demeanor. His dark suits and light shirts create a classic, timeless look, while the gold chain adds a touch of personal flair. The consistent use of dark colors in his attire, combined with his serious expressions, conveys a sense of gravitas and intensity. Ha's slicked-back hair and well-groomed eyebrows contribute to his polished appearance, making him visually unmistakable. The contemplative poses and serious expressions suggest a character who is thoughtful and introspective, adding depth to his persona. Overall, Ha's visual style is defined by a blend of formality, sophistication, and a hint of personal flair, making him a memorable and distinctive figure.",
+            "preference": "In terms of entertainment, Ha enjoys musicals, documentaries, but dislikes sports documentaries, gaming tournaments. In terms of travel, Ha enjoys overland train journeys, remote island hopping, but dislikes road trips, city tours. In terms of lifestyle, Ha enjoys forest bathing, holistic therapy, but dislikes meditation, yoga. In terms of shopping, Ha enjoys handmade candles, ceramic pottery, but dislikes gaming accessories, tech gadgets. In terms of fashion, Ha enjoys winter coats, denim jeans, but dislikes business casual, athleisure wear.",
+            "topic": [],
+            "original_id": "QA_sample_aac314f8",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Jennifer Zamora least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_94320d57_1",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. d50ab166, Among the activities that could reasonably occur in the given image, which one is Lori Roby least likely to be doing?",
+        "answer": "Watching a video of a street performance",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Lori Roby enjoys theater performances, film festivals, but dislikes improv comedy, street performances",
+                "In terms of travel, Lori Roby enjoys hiking, scuba diving, but dislikes cruise vacations, solo travel"
+            ],
+            "image_evidence": [
+                "MMPB_81ebaeeb.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of lifestyle, Lori Roby enjoys home gardening, night owl lifestyle, but dislikes acupuncture, infrared sauna therapy",
+                "In terms of shopping, Lori Roby enjoys handmade crafts, vintage furniture, but dislikes Bluetooth speakers, wireless charging stations",
+                "In terms of fashion, Lori Roby enjoys plaid patterns, monochrome outfits, but dislikes futuristic fashion, gothic clothing."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "Observing a live theater act.",
+                "Planning cruise vacation",
+                "Viewing a k-pop concert.",
+                "Watching a video of a street performance"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_art_and_design_history_bb203dbf",
+                    "insert_conversation_turn": 706
+                },
+                {
+                    "conversation_name": "group_chat_architecture_films_environment_6d238fdf",
+                    "insert_conversation_turn": 467
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_business_science_transportation_48995207",
+                    "insert_conversation_turn": 440,
+                    "reference_name": "Fig. d50ab166"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_art_and_design_history_bb203dbf",
+                    "insert_conversation_turn": 1017
+                },
+                {
+                    "conversation_name": "group_chat_architecture_films_environment_6d238fdf",
+                    "insert_conversation_turn": 826
+                },
+                {
+                    "conversation_name": "group_chat_business_science_transportation_48995207",
+                    "insert_conversation_turn": 694
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Jisu",
+            "description": "Jisu is a young woman with a slender build and an impression of average height. Her facial structure is characterized by a delicate jawline and a slightly rounded face, with prominent, expressive eyes and a well-defined nose. Jisu has a fair skin tone and long, straight hair that falls past her shoulders, often styled in a natural, flowing manner. Her hair color varies slightly across the images, ranging from dark brown to a lighter shade, adding versatility to her appearance. Jisu frequently displays a gentle smile, with her lips painted in a soft, natural shade, and her expressions convey a sense of warmth and approachability. Her poses are relaxed and confident, often captured in mid-gesture, such as waving or holding a microphone, which adds a dynamic quality to her presence.\n\n**Outfit and Accessories:**\nJisu's attire is diverse yet consistently stylish, reflecting a blend of casual and elegant elements. She is often seen in a mix of textures and colors, including a brown knitted cardigan over a leopard print shirt, a denim jacket, and a white lace top. The color palette ranges from earthy tones to vibrant blues, showcasing her versatility. Her outfits are practical yet fashionable, with a focus on comfort and style. Accessories play a significant role in her look, including a silver necklace with a circular pendant, a black shoulder bag, and a smartphone, which she holds in one of the images. These accessories add a touch of sophistication and personal flair to her overall appearance.\n\n**Distinguishing Visual Features or Vibe:**\nJisu exudes a unique and memorable presence, characterized by her long, straight hair and expressive eyes. Her style is a blend of casual and chic, with a focus on comfort and personal expression. The recurring theme of her outfits, which includes a mix of textures and colors, adds depth to her visual identity. The use of accessories, such as the silver necklace and black bag, enhances her look and adds a touch of elegance. Jisu's aura is one of warmth and approachability, with her gentle smile and relaxed poses conveying a sense of confidence and poise. Her ability to transition seamlessly between different settings, from casual to more formal environments, highlights her adaptability and versatility. Overall, Jisu's visual identity is defined by her stylish yet approachable appearance, making her instantly recognizable and memorable.",
+            "preference": "In terms of entertainment, Jisu enjoys theater performances, film festivals, but dislikes improv comedy, street performances. In terms of travel, Jisu enjoys hiking, scuba diving, but dislikes cruise vacations, solo travel. In terms of lifestyle, Jisu enjoys home gardening, night owl lifestyle, but dislikes acupuncture, infrared sauna therapy. In terms of shopping, Jisu enjoys handmade crafts, vintage furniture, but dislikes Bluetooth speakers, wireless charging stations. In terms of fashion, Jisu enjoys plaid patterns, monochrome outfits, but dislikes futuristic fashion, gothic clothing.",
+            "topic": [],
+            "original_id": "QA_sample_94320d57",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Lori Roby least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_94320d57_2",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. e4c77b5c, Among the activities that could reasonably occur in the given image, which one is Lori Roby least likely to be doing?",
+        "answer": "Watching a video of a street performance",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Lori Roby enjoys theater performances, film festivals, but dislikes improv comedy, street performances",
+                "In terms of travel, Lori Roby enjoys hiking, scuba diving, but dislikes cruise vacations, solo travel"
+            ],
+            "image_evidence": [
+                "MMPB_2d99653f.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of lifestyle, Lori Roby enjoys home gardening, night owl lifestyle, but dislikes acupuncture, infrared sauna therapy",
+                "In terms of shopping, Lori Roby enjoys handmade crafts, vintage furniture, but dislikes Bluetooth speakers, wireless charging stations",
+                "In terms of fashion, Lori Roby enjoys plaid patterns, monochrome outfits, but dislikes futuristic fashion, gothic clothing."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "Booking a room for infrared sauna therapy",
+                "Observing a live concert.",
+                "Watching a video of a street performance",
+                "Viewing a theatrical performance."
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_art_and_design_history_bb203dbf",
+                    "insert_conversation_turn": 706
+                },
+                {
+                    "conversation_name": "group_chat_architecture_films_environment_6d238fdf",
+                    "insert_conversation_turn": 467
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_art_and_design_history_bb203dbf",
+                    "insert_conversation_turn": 543,
+                    "reference_name": "Fig. e4c77b5c"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_art_and_design_history_bb203dbf",
+                    "insert_conversation_turn": 1017
+                },
+                {
+                    "conversation_name": "group_chat_architecture_films_environment_6d238fdf",
+                    "insert_conversation_turn": 826
+                },
+                {
+                    "conversation_name": "group_chat_business_science_transportation_48995207",
+                    "insert_conversation_turn": 694
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Jisu",
+            "description": "Jisu is a young woman with a slender build and an impression of average height. Her facial structure is characterized by a delicate jawline and a slightly rounded face, with prominent, expressive eyes and a well-defined nose. Jisu has a fair skin tone and long, straight hair that falls past her shoulders, often styled in a natural, flowing manner. Her hair color varies slightly across the images, ranging from dark brown to a lighter shade, adding versatility to her appearance. Jisu frequently displays a gentle smile, with her lips painted in a soft, natural shade, and her expressions convey a sense of warmth and approachability. Her poses are relaxed and confident, often captured in mid-gesture, such as waving or holding a microphone, which adds a dynamic quality to her presence.\n\n**Outfit and Accessories:**\nJisu's attire is diverse yet consistently stylish, reflecting a blend of casual and elegant elements. She is often seen in a mix of textures and colors, including a brown knitted cardigan over a leopard print shirt, a denim jacket, and a white lace top. The color palette ranges from earthy tones to vibrant blues, showcasing her versatility. Her outfits are practical yet fashionable, with a focus on comfort and style. Accessories play a significant role in her look, including a silver necklace with a circular pendant, a black shoulder bag, and a smartphone, which she holds in one of the images. These accessories add a touch of sophistication and personal flair to her overall appearance.\n\n**Distinguishing Visual Features or Vibe:**\nJisu exudes a unique and memorable presence, characterized by her long, straight hair and expressive eyes. Her style is a blend of casual and chic, with a focus on comfort and personal expression. The recurring theme of her outfits, which includes a mix of textures and colors, adds depth to her visual identity. The use of accessories, such as the silver necklace and black bag, enhances her look and adds a touch of elegance. Jisu's aura is one of warmth and approachability, with her gentle smile and relaxed poses conveying a sense of confidence and poise. Her ability to transition seamlessly between different settings, from casual to more formal environments, highlights her adaptability and versatility. Overall, Jisu's visual identity is defined by her stylish yet approachable appearance, making her instantly recognizable and memorable.",
+            "preference": "In terms of entertainment, Jisu enjoys theater performances, film festivals, but dislikes improv comedy, street performances. In terms of travel, Jisu enjoys hiking, scuba diving, but dislikes cruise vacations, solo travel. In terms of lifestyle, Jisu enjoys home gardening, night owl lifestyle, but dislikes acupuncture, infrared sauna therapy. In terms of shopping, Jisu enjoys handmade crafts, vintage furniture, but dislikes Bluetooth speakers, wireless charging stations. In terms of fashion, Jisu enjoys plaid patterns, monochrome outfits, but dislikes futuristic fashion, gothic clothing.",
+            "topic": [],
+            "original_id": "QA_sample_94320d57",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Lori Roby least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_94320d57_3",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 8d8d18cf, Among the activities that could reasonably occur in the given image, which one is Lori Roby least likely to be doing?",
+        "answer": "Attending a improv comedy show",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Lori Roby enjoys theater performances, film festivals, but dislikes improv comedy, street performances",
+                "In terms of travel, Lori Roby enjoys hiking, scuba diving, but dislikes cruise vacations, solo travel"
+            ],
+            "image_evidence": [
+                "MMPB_9ab3a64b.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of lifestyle, Lori Roby enjoys home gardening, night owl lifestyle, but dislikes acupuncture, infrared sauna therapy",
+                "In terms of shopping, Lori Roby enjoys handmade crafts, vintage furniture, but dislikes Bluetooth speakers, wireless charging stations",
+                "In terms of fashion, Lori Roby enjoys plaid patterns, monochrome outfits, but dislikes futuristic fashion, gothic clothing."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Attending a improv comedy show",
+                "Buying Bluetooth speakers",
+                "Enjoying a musical concert",
+                "Watching a live theater performance"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_art_and_design_history_bb203dbf",
+                    "insert_conversation_turn": 706
+                },
+                {
+                    "conversation_name": "group_chat_architecture_films_environment_6d238fdf",
+                    "insert_conversation_turn": 467
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_art_and_design_history_bb203dbf",
+                    "insert_conversation_turn": 670,
+                    "reference_name": "Fig. 8d8d18cf"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_art_and_design_history_bb203dbf",
+                    "insert_conversation_turn": 1017
+                },
+                {
+                    "conversation_name": "group_chat_architecture_films_environment_6d238fdf",
+                    "insert_conversation_turn": 826
+                },
+                {
+                    "conversation_name": "group_chat_business_science_transportation_48995207",
+                    "insert_conversation_turn": 694
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Jisu",
+            "description": "Jisu is a young woman with a slender build and an impression of average height. Her facial structure is characterized by a delicate jawline and a slightly rounded face, with prominent, expressive eyes and a well-defined nose. Jisu has a fair skin tone and long, straight hair that falls past her shoulders, often styled in a natural, flowing manner. Her hair color varies slightly across the images, ranging from dark brown to a lighter shade, adding versatility to her appearance. Jisu frequently displays a gentle smile, with her lips painted in a soft, natural shade, and her expressions convey a sense of warmth and approachability. Her poses are relaxed and confident, often captured in mid-gesture, such as waving or holding a microphone, which adds a dynamic quality to her presence.\n\n**Outfit and Accessories:**\nJisu's attire is diverse yet consistently stylish, reflecting a blend of casual and elegant elements. She is often seen in a mix of textures and colors, including a brown knitted cardigan over a leopard print shirt, a denim jacket, and a white lace top. The color palette ranges from earthy tones to vibrant blues, showcasing her versatility. Her outfits are practical yet fashionable, with a focus on comfort and style. Accessories play a significant role in her look, including a silver necklace with a circular pendant, a black shoulder bag, and a smartphone, which she holds in one of the images. These accessories add a touch of sophistication and personal flair to her overall appearance.\n\n**Distinguishing Visual Features or Vibe:**\nJisu exudes a unique and memorable presence, characterized by her long, straight hair and expressive eyes. Her style is a blend of casual and chic, with a focus on comfort and personal expression. The recurring theme of her outfits, which includes a mix of textures and colors, adds depth to her visual identity. The use of accessories, such as the silver necklace and black bag, enhances her look and adds a touch of elegance. Jisu's aura is one of warmth and approachability, with her gentle smile and relaxed poses conveying a sense of confidence and poise. Her ability to transition seamlessly between different settings, from casual to more formal environments, highlights her adaptability and versatility. Overall, Jisu's visual identity is defined by her stylish yet approachable appearance, making her instantly recognizable and memorable.",
+            "preference": "In terms of entertainment, Jisu enjoys theater performances, film festivals, but dislikes improv comedy, street performances. In terms of travel, Jisu enjoys hiking, scuba diving, but dislikes cruise vacations, solo travel. In terms of lifestyle, Jisu enjoys home gardening, night owl lifestyle, but dislikes acupuncture, infrared sauna therapy. In terms of shopping, Jisu enjoys handmade crafts, vintage furniture, but dislikes Bluetooth speakers, wireless charging stations. In terms of fashion, Jisu enjoys plaid patterns, monochrome outfits, but dislikes futuristic fashion, gothic clothing.",
+            "topic": [],
+            "original_id": "QA_sample_94320d57",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Lori Roby least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_5e60c675_1",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 0bf1de88, Among the activities that could reasonably occur in the given image, which one is Kara Yates least likely to be doing?",
+        "answer": "Watching a science fiction movie",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Kara Yates enjoys K-pop concerts, musicals, but dislikes science fiction movies, animated films",
+                "In terms of lifestyle, Kara Yates enjoys kombucha brewing, medicinal herb gardening, but dislikes bullet journaling, reading before bed"
+            ],
+            "image_evidence": [
+                "MMPB_81ebaeeb.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Kara Yates enjoys vineyard visits, underground city tours, but dislikes fine dining, street food",
+                "In terms of shopping, Kara Yates enjoys compact fitness equipment, desk organizers, but dislikes luxury handbags, designer watches",
+                "In terms of fashion, Kara Yates enjoys chunky boots, strappy sandals, but dislikes techwear, cyberpunk aesthetics."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Watching a science fiction movie",
+                "Watching a fantasy film",
+                "Watching a superhero movie",
+                "Reading books before bed"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_art_and_design_history_bb203dbf",
+                    "insert_conversation_turn": 512
+                },
+                {
+                    "conversation_name": "group_chat_music_art_and_design_history_bb203dbf",
+                    "insert_conversation_turn": 264
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_business_science_transportation_48995207",
+                    "insert_conversation_turn": 440,
+                    "reference_name": "Fig. 0bf1de88"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_art_and_design_history_bb203dbf",
+                    "insert_conversation_turn": 481
+                },
+                {
+                    "conversation_name": "group_chat_business_science_transportation_48995207",
+                    "insert_conversation_turn": 1182
+                },
+                {
+                    "conversation_name": "group_chat_architecture_films_environment_6d238fdf",
+                    "insert_conversation_turn": 220
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "GaoQiQiang",
+            "description": "GaoQiQiang appears to be a middle-aged man with a medium build and a height that suggests a confident presence. His facial structure is characterized by a strong jawline and a slightly receding hairline, with dark, neatly combed hair that adds to his polished look. GaoQiQiang's skin tone is fair, and his expressions range from serious to contemplative, often with a hint of intensity in his eyes. His eyebrows are well-defined, and he frequently maintains a composed demeanor, with his mouth closed in a neutral position. The consistent facial expressions and poses suggest a person who is thoughtful and perhaps introspective.\n\n**Outfit and Accessories:**\nGaoQiQiang's attire is a blend of practicality and formality, reflecting a versatile and adaptable style. He is often seen in dark, muted colors, such as black and dark blue, which convey a sense of seriousness and professionalism. His outfits include a mix of casual and formal elements, such as a green vest over a striped shirt, a black suit, and a dark blazer. The textures of his clothing range from the smoothness of a suit to the more casual feel of a vest, indicating a balance between comfort and style. GaoQiQiang occasionally wears glasses, adding an intellectual or studious touch to his appearance. The accessories, such as the glasses and the subtle jewelry, are understated yet significant, enhancing his overall sophisticated look.\n\n**Distinguishing Visual Features or Vibe:**\nGaoQiQiang exudes a distinctive aura of calm confidence and intellectual depth. His consistent use of dark, muted colors in his clothing creates a cohesive visual theme that emphasizes his serious and contemplative nature. The recurring elements, such as the dark blazer and the glasses, contribute to a sense of sophistication and professionalism. His composed expressions and thoughtful poses suggest a person who is both introspective and decisive. The overall vibe is one of a man who is both approachable and enigmatic, with a strong presence that commands attention. The combination of his thoughtful demeanor, versatile attire, and subtle accessories makes GaoQiQiang visually unmistakable and memorable.",
+            "preference": "In terms of entertainment, GaoQiQiang enjoys K-pop concerts, musicals, but dislikes science fiction movies, animated films. In terms of travel, GaoQiQiang enjoys vineyard visits, underground city tours, but dislikes fine dining, street food. In terms of lifestyle, GaoQiQiang enjoys kombucha brewing, medicinal herb gardening, but dislikes bullet journaling, reading before bed. In terms of shopping, GaoQiQiang enjoys compact fitness equipment, desk organizers, but dislikes luxury handbags, designer watches. In terms of fashion, GaoQiQiang enjoys chunky boots, strappy sandals, but dislikes techwear, cyberpunk aesthetics.",
+            "topic": [],
+            "original_id": "QA_sample_5e60c675",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Kara Yates least likely to be doing?"
+        }
+    },
+    {
+        "id": "LifeSim_befd55ca",
+        "domain": "LifeSim",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 4f2e0951, What is Drake Ashley's preferred method for tracking progress without using high-tech gadgets or mobile apps?",
+        "answer": "pedometer",
+        "evidence": {
+            "image_evidence": [
+                "LifeSim_6e023ca8.png"
+            ]
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "fitness tracker",
+                "step counter notebook",
+                "pedometer",
+                "mobile app"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_films_environment_6d238fdf",
+                    "insert_conversation_turn": 103,
+                    "reference_name": "Fig. 4f2e0951"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "conv_history_name": "user_assistant_conversation_470f0962.json",
+            "preference_user_name": "Drake Ashley",
+            "original_question": "What is Drake Ashley's preferred method for tracking progress without using high-tech gadgets or mobile apps?"
+        }
+    },
+    {
+        "id": "QA_sample_f5c4e3b4_1",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. a4fc6886, the image, what is Danna Rollins most likely to be doing?",
+        "answer": "Watching sitcoms",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Danna Rollins enjoys horror movies, sitcoms, but dislikes improv comedy, street performances"
+            ],
+            "image_evidence": [
+                "MMPB_2d99653f.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Danna Rollins enjoys polar expeditions, desert safaris, but dislikes fine dining, street food",
+                "In terms of lifestyle, Danna Rollins enjoys essential oils, aromatherapy, but dislikes boxing workouts, rock climbing gyms",
+                "In terms of shopping, Danna Rollins enjoys mechanical keyboards, 3D printing tools, but dislikes gaming accessories, tech gadgets",
+                "In terms of fashion, Danna Rollins enjoys hand-knitted sweaters, silk scarves, but dislikes handmade accessories, bold colors."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Getting aromatherapy",
+                "Watching sitcoms",
+                "Watching action movies",
+                "Streaming comedy shows"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_art_and_design_history_bb203dbf",
+                    "insert_conversation_turn": 655
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_business_science_transportation_48995207",
+                    "insert_conversation_turn": 758,
+                    "reference_name": "Fig. a4fc6886"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_films_environment_6d238fdf",
+                    "insert_conversation_turn": 766
+                },
+                {
+                    "conversation_name": "group_chat_architecture_films_environment_6d238fdf",
+                    "insert_conversation_turn": 869
+                },
+                {
+                    "conversation_name": "group_chat_architecture_films_environment_6d238fdf",
+                    "insert_conversation_turn": 278
+                },
+                {
+                    "conversation_name": "group_chat_music_art_and_design_history_bb203dbf",
+                    "insert_conversation_turn": 65
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Rose",
+            "description": "Rose is depicted as a woman with a slender build and an average height impression. Her facial structure is characterized by a prominent jawline and a slightly pointed chin, with a fair skin tone that appears smooth and well-maintained. Her hair is a striking auburn, styled in loose curls that frame her face, adding a touch of elegance and softness to her appearance. Across the images, Rose maintains a composed and serious expression, with her eyes often directed forward, conveying a sense of determination and introspection. Her eyebrows are well-defined, and her lips are full, contributing to her overall expressive and captivating presence.\n\n**Outfit and Accessories:**\nRose is consistently portrayed in a range of elegant and sophisticated outfits that reflect a blend of classic and timeless styles. In one image, she wears a black dress adorned with sequins, complemented by a statement necklace, exuding a sense of glamour and refinement. In another scene, she is seen in a blue velvet jacket over a white lace dress, adding a touch of vintage charm. The color palette of her outfits is rich and varied, featuring deep blacks, luxurious blues, and warm browns, all of which enhance her sophisticated and poised demeanor. Her clothing is often formal, suggesting a setting of elegance and importance. Accessories such as a necklace and earrings are visible, adding to her overall polished and refined look.\n\n**Distinguishing Visual Features or Vibe:**\nThe most memorable and defining features of Rose are her striking auburn hair and her ability to convey a sense of mystery and depth through her expressions and poses. Her auburn hair, styled in loose curls, is a signature element that adds a touch of warmth and allure to her appearance. The consistent use of elegant and sophisticated outfits, along with her composed and serious expression, creates an aura of grace and poise. The recurring theme of formal attire and the presence of accessories like a statement necklace and earrings further emphasize her refined and cultured persona. Overall, Rose exudes a sense of elegance, mystery, and depth, making her visually unmistakable and captivating.",
+            "preference": "In terms of entertainment, Rose enjoys horror movies, sitcoms, but dislikes improv comedy, street performances. In terms of travel, Rose enjoys polar expeditions, desert safaris, but dislikes fine dining, street food. In terms of lifestyle, Rose enjoys essential oils, aromatherapy, but dislikes boxing workouts, rock climbing gyms. In terms of shopping, Rose enjoys mechanical keyboards, 3D printing tools, but dislikes gaming accessories, tech gadgets. In terms of fashion, Rose enjoys hand-knitted sweaters, silk scarves, but dislikes handmade accessories, bold colors.",
+            "topic": [],
+            "original_id": "QA_sample_f5c4e3b4",
+            "original_question": "the image, what is Danna Rollins most likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_f5c4e3b4_2",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 6365e721, Among the activities that could reasonably occur in the given image, which one is Danna Rollins least likely to be doing?",
+        "answer": "Attending an improv comedy show",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Danna Rollins enjoys horror movies, sitcoms, but dislikes improv comedy, street performances"
+            ],
+            "image_evidence": [
+                "MMPB_9ab3a64b.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Danna Rollins enjoys polar expeditions, desert safaris, but dislikes fine dining, street food",
+                "In terms of lifestyle, Danna Rollins enjoys essential oils, aromatherapy, but dislikes boxing workouts, rock climbing gyms",
+                "In terms of shopping, Danna Rollins enjoys mechanical keyboards, 3D printing tools, but dislikes gaming accessories, tech gadgets",
+                "In terms of fashion, Danna Rollins enjoys hand-knitted sweaters, silk scarves, but dislikes handmade accessories, bold colors."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "Enjoying a musical concert",
+                "Boxing",
+                "Attending an improv comedy show",
+                "Watching a live theater performance"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_art_and_design_history_bb203dbf",
+                    "insert_conversation_turn": 655
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_business_science_transportation_48995207",
+                    "insert_conversation_turn": 403,
+                    "reference_name": "Fig. 6365e721"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_films_environment_6d238fdf",
+                    "insert_conversation_turn": 766
+                },
+                {
+                    "conversation_name": "group_chat_architecture_films_environment_6d238fdf",
+                    "insert_conversation_turn": 869
+                },
+                {
+                    "conversation_name": "group_chat_architecture_films_environment_6d238fdf",
+                    "insert_conversation_turn": 278
+                },
+                {
+                    "conversation_name": "group_chat_music_art_and_design_history_bb203dbf",
+                    "insert_conversation_turn": 65
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Rose",
+            "description": "Rose is depicted as a woman with a slender build and an average height impression. Her facial structure is characterized by a prominent jawline and a slightly pointed chin, with a fair skin tone that appears smooth and well-maintained. Her hair is a striking auburn, styled in loose curls that frame her face, adding a touch of elegance and softness to her appearance. Across the images, Rose maintains a composed and serious expression, with her eyes often directed forward, conveying a sense of determination and introspection. Her eyebrows are well-defined, and her lips are full, contributing to her overall expressive and captivating presence.\n\n**Outfit and Accessories:**\nRose is consistently portrayed in a range of elegant and sophisticated outfits that reflect a blend of classic and timeless styles. In one image, she wears a black dress adorned with sequins, complemented by a statement necklace, exuding a sense of glamour and refinement. In another scene, she is seen in a blue velvet jacket over a white lace dress, adding a touch of vintage charm. The color palette of her outfits is rich and varied, featuring deep blacks, luxurious blues, and warm browns, all of which enhance her sophisticated and poised demeanor. Her clothing is often formal, suggesting a setting of elegance and importance. Accessories such as a necklace and earrings are visible, adding to her overall polished and refined look.\n\n**Distinguishing Visual Features or Vibe:**\nThe most memorable and defining features of Rose are her striking auburn hair and her ability to convey a sense of mystery and depth through her expressions and poses. Her auburn hair, styled in loose curls, is a signature element that adds a touch of warmth and allure to her appearance. The consistent use of elegant and sophisticated outfits, along with her composed and serious expression, creates an aura of grace and poise. The recurring theme of formal attire and the presence of accessories like a statement necklace and earrings further emphasize her refined and cultured persona. Overall, Rose exudes a sense of elegance, mystery, and depth, making her visually unmistakable and captivating.",
+            "preference": "In terms of entertainment, Rose enjoys horror movies, sitcoms, but dislikes improv comedy, street performances. In terms of travel, Rose enjoys polar expeditions, desert safaris, but dislikes fine dining, street food. In terms of lifestyle, Rose enjoys essential oils, aromatherapy, but dislikes boxing workouts, rock climbing gyms. In terms of shopping, Rose enjoys mechanical keyboards, 3D printing tools, but dislikes gaming accessories, tech gadgets. In terms of fashion, Rose enjoys hand-knitted sweaters, silk scarves, but dislikes handmade accessories, bold colors.",
+            "topic": [],
+            "original_id": "QA_sample_f5c4e3b4",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Danna Rollins least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_f5c4e3b4_3",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 47b47da5, Among the activities that could reasonably occur in the given image, which one is Danna Rollins least likely to be doing?",
+        "answer": "Watching an improv comedy show",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Danna Rollins enjoys horror movies, sitcoms, but dislikes improv comedy, street performances"
+            ],
+            "image_evidence": [
+                "MMPB_799e1f96.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Danna Rollins enjoys polar expeditions, desert safaris, but dislikes fine dining, street food",
+                "In terms of lifestyle, Danna Rollins enjoys essential oils, aromatherapy, but dislikes boxing workouts, rock climbing gyms",
+                "In terms of shopping, Danna Rollins enjoys mechanical keyboards, 3D printing tools, but dislikes gaming accessories, tech gadgets",
+                "In terms of fashion, Danna Rollins enjoys hand-knitted sweaters, silk scarves, but dislikes handmade accessories, bold colors."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "Watching action movies",
+                "Observing a live theater performance",
+                "Looking for tech gadgets",
+                "Watching an improv comedy show"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_art_and_design_history_bb203dbf",
+                    "insert_conversation_turn": 655
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_art_and_design_history_bb203dbf",
+                    "insert_conversation_turn": 198,
+                    "reference_name": "Fig. 47b47da5"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_films_environment_6d238fdf",
+                    "insert_conversation_turn": 766
+                },
+                {
+                    "conversation_name": "group_chat_architecture_films_environment_6d238fdf",
+                    "insert_conversation_turn": 869
+                },
+                {
+                    "conversation_name": "group_chat_architecture_films_environment_6d238fdf",
+                    "insert_conversation_turn": 278
+                },
+                {
+                    "conversation_name": "group_chat_music_art_and_design_history_bb203dbf",
+                    "insert_conversation_turn": 65
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Rose",
+            "description": "Rose is depicted as a woman with a slender build and an average height impression. Her facial structure is characterized by a prominent jawline and a slightly pointed chin, with a fair skin tone that appears smooth and well-maintained. Her hair is a striking auburn, styled in loose curls that frame her face, adding a touch of elegance and softness to her appearance. Across the images, Rose maintains a composed and serious expression, with her eyes often directed forward, conveying a sense of determination and introspection. Her eyebrows are well-defined, and her lips are full, contributing to her overall expressive and captivating presence.\n\n**Outfit and Accessories:**\nRose is consistently portrayed in a range of elegant and sophisticated outfits that reflect a blend of classic and timeless styles. In one image, she wears a black dress adorned with sequins, complemented by a statement necklace, exuding a sense of glamour and refinement. In another scene, she is seen in a blue velvet jacket over a white lace dress, adding a touch of vintage charm. The color palette of her outfits is rich and varied, featuring deep blacks, luxurious blues, and warm browns, all of which enhance her sophisticated and poised demeanor. Her clothing is often formal, suggesting a setting of elegance and importance. Accessories such as a necklace and earrings are visible, adding to her overall polished and refined look.\n\n**Distinguishing Visual Features or Vibe:**\nThe most memorable and defining features of Rose are her striking auburn hair and her ability to convey a sense of mystery and depth through her expressions and poses. Her auburn hair, styled in loose curls, is a signature element that adds a touch of warmth and allure to her appearance. The consistent use of elegant and sophisticated outfits, along with her composed and serious expression, creates an aura of grace and poise. The recurring theme of formal attire and the presence of accessories like a statement necklace and earrings further emphasize her refined and cultured persona. Overall, Rose exudes a sense of elegance, mystery, and depth, making her visually unmistakable and captivating.",
+            "preference": "In terms of entertainment, Rose enjoys horror movies, sitcoms, but dislikes improv comedy, street performances. In terms of travel, Rose enjoys polar expeditions, desert safaris, but dislikes fine dining, street food. In terms of lifestyle, Rose enjoys essential oils, aromatherapy, but dislikes boxing workouts, rock climbing gyms. In terms of shopping, Rose enjoys mechanical keyboards, 3D printing tools, but dislikes gaming accessories, tech gadgets. In terms of fashion, Rose enjoys hand-knitted sweaters, silk scarves, but dislikes handmade accessories, bold colors.",
+            "topic": [],
+            "original_id": "QA_sample_f5c4e3b4",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Danna Rollins least likely to be doing?"
+        }
+    }
+]

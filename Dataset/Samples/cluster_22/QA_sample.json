@@ -1,0 +1,2091 @@
+[
+    {
+        "id": "QA_sample_f00500fb",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. d6b0de75, the text, what is the current \"seven-day average of new cases per 100,000 citizens\" in Philadelphia, and will the city meet the \"criteria for reinstituting its indoor mask mandate\" by April 18?",
+        "answer": "Philadelphia's case rate is 10.6, which meets the criteria to reinstate its indoor mask mandate.",
+        "evidence": {
+            "text_evidence": [
+                "Philadelphia plans to reinstitute its indoor mask mandate starting April 18. This decision is based on rising COVID-19 case rates, particularly if the seven-day average of new cases per 100,000 citizens exceeds 10 in the city. Other cities, such as New York City, Washington, and Baltimore, are also tracking new case trends but have not yet announced similar mandates."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_ec1ddd53.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Philadelphia's case rate is 10.2 and barely meets the threshold for the mandate",
+                "Philadelphia's case rate is 10.6, which meets the criteria to reinstate its indoor mask mandate.",
+                "Philadelphia's case rate is 9.4 and does not meet the criteria for the mandate",
+                "Philadelphia's case rate is 8.0 which falls below the threshold for the mandate"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_economy_nature_transportation_9729b075",
+                    "insert_conversation_turn": 709
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_travel_history_literature_f0b8291e",
+                    "insert_conversation_turn": 957,
+                    "reference_name": "Fig. d6b0de75"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "health",
+                "government"
+            ],
+            "original_question": "the text, what is the current \"seven-day average of new cases per 100,000 citizens\" in Philadelphia, and will the city meet the \"criteria for reinstituting its indoor mask mandate\" by April 18?"
+        }
+    },
+    {
+        "id": "QA_sample_23eda099",
+        "domain": "MMCV",
+        "category": "Multi_Hop_QA",
+        "question": "Based on Table. bf71eb16, Which team involved in the 2018 Major League Soccer All-Star Game had a player with a higher ranking in the 2002-03 Serie A top goalscorers list compared to Piacenza Calcio?",
+        "answer": "Juventus",
+        "evidence": {
+            "text_evidence": [
+                "The 2018 Major League Soccer All-Star Game is the 23rd annual Major League Soccer All-Star Game. It will be held on August 1 at the Mercedes-Benz Stadium in Atlanta, Georgia. The MLS All-Stars will play against Juventus."
+            ],
+            "image_evidence": [],
+            "table_evidence": [
+                {
+                    "title": "2002–03 Serie A",
+                    "table_name": "Top goalscorers",
+                    "table_header": [
+                        "Rank",
+                        "Player",
+                        "Club",
+                        "Goals"
+                    ],
+                    "table_rows": [
+                        [
+                            "1",
+                            "Christian Vieri",
+                            "Internazionale",
+                            "24"
+                        ],
+                        [
+                            "2",
+                            "Adrian Mutu",
+                            "Parma",
+                            "18"
+                        ],
+                        [
+                            "3",
+                            "Filippo Inzaghi",
+                            "Milan",
+                            "17"
+                        ],
+                        [
+                            "4",
+                            "Alessandro Del Piero",
+                            "Juventus",
+                            "16"
+                        ],
+                        [
+                            "6",
+                            "Adriano",
+                            "Parma",
+                            "15"
+                        ],
+                        [
+                            "6",
+                            "Claudio López",
+                            "Lazio",
+                            "15"
+                        ],
+                        [
+                            "8",
+                            "Dario Hübner",
+                            "Piacenza",
+                            "14"
+                        ],
+                        [
+                            "8",
+                            "Francesco Totti",
+                            "Roma",
+                            "14"
+                        ],
+                        [
+                            "10",
+                            "Antonio Di Natale",
+                            "Empoli",
+                            "13"
+                        ]
+                    ]
+                }
+            ],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "Lazio",
+                "Parma",
+                "Juventus",
+                "Milan"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_television_architecture_education_dc1b5d9f",
+                    "insert_conversation_turn": 1117
+                }
+            ],
+            "image_evidence_assignment": [],
+            "table_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_economy_nature_transportation_9729b075",
+                    "insert_conversation_turn": 274,
+                    "reference_name": "Table. bf71eb16"
+                }
+            ],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "sports",
+                "soccer"
+            ],
+            "original_question": "Which team involved in the 2018 Major League Soccer All-Star Game had a player with a higher ranking in the 2002-03 Serie A top goalscorers list compared to Piacenza Calcio?"
+        }
+    },
+    {
+        "id": "QA_sample_71b495aa",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. d656ecbd, According to the previous definition, how many disasters qualify as \"'critical'\" and \"'high-impact'\" based on the chart and the disaster recovery funding prioritization categories?",
+        "answer": "Two disasters are 'critical,' and two disasters are 'high-impact.'",
+        "evidence": {
+            "text_evidence": [
+                "Disaster recovery funding prioritization is based on the total monetary losses. For recovery efforts, disasters accounting for over $100 billion are considered 'critical' and given higher priority than 'high-impact' disasters, which cost between $50 billion and $100 billion. All others are classified as 'moderate-impact' disasters and receive lower priority."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_2b93b52b.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "One disaster is 'critical,' and three disasters are 'high-impact'",
+                "Three disasters are 'critical,' and one disaster is 'high-impact'",
+                "Two disasters are 'critical,' and two disasters are 'high-impact.'",
+                "One disaster is 'critical,' and two disasters are 'high-impact'"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_travel_history_literature_f0b8291e",
+                    "insert_conversation_turn": 357
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_economy_nature_transportation_9729b075",
+                    "insert_conversation_turn": 392,
+                    "reference_name": "Fig. d656ecbd"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "environment",
+                "economy"
+            ],
+            "original_question": "According to the previous definition, how many disasters qualify as \"'critical'\" and \"'high-impact'\" based on the chart and the disaster recovery funding prioritization categories?"
+        }
+    },
+    {
+        "id": "QA_sample_7ddb1393",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 9450ad7f, the text, does the area meet the criteria for being \"predominantly family-oriented,\" and which industry should be prioritized according to the requirement that it has \"labor force representation above 10%\" for economic development?",
+        "answer": "No",
+        "evidence": {
+            "text_evidence": [
+                "An area is defined as predominantly family-oriented if its 'Family Lifestyles' lifemode segment has the highest value among all lifemode segments and exceeds 15% of the population. Additionally, suppose this area prioritizes industries with labor force representation above 10% for economic development initiatives."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_c241008d.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "No",
+                "Yes"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_television_architecture_education_dc1b5d9f",
+                    "insert_conversation_turn": 515
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_travel_history_literature_f0b8291e",
+                    "insert_conversation_turn": 611,
+                    "reference_name": "Fig. 9450ad7f"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "lifestyle",
+                "economy"
+            ],
+            "original_question": "the text, does the area meet the criteria for being \"predominantly family-oriented,\" and which industry should be prioritized according to the requirement that it has \"labor force representation above 10%\" for economic development?"
+        }
+    },
+    {
+        "id": "a19ab099",
+        "domain": "MMDocRAG",
+        "category": "Single_Hop_QA",
+        "question": "Based on Doc. aad6247a, Doc. 10df0cdf, Doc. c09a72bf, What is the contact information for the nearest government hospital in a medical emergency?",
+        "answer": "Telephone: (65) 6716 2000, Email: enquiries@juronghealth.com.sg, Website: www.ntfgh.com.sg",
+        "evidence": {
+            "text_evidence": [],
+            "image_evidence": [],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": [
+                [
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Eligible students may seek a reimbursement under  the Group Hospital is ation and Surgical Insurance  (GHSI) scheme for the hospital is ation fee incurred in  Singapore government/restructured hospitals. The  insurance company will review and determine the  reimbursed amount based on the scheme’s terms and  conditions. For more information on GHSI, please refer  to  Insurance section . "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Student Affairs Office (SAO) Student and Academic Services Department Nanyang Technological University 42, Nanyang Avenue #04-02,  Student Services Centre  Singapore 639815 "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Singapore Discovery Centre 510 Upper Jurong Road S638365 Learn more about Singapore through the Centre’s  fascinating exhibits. "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_917fbaee.png"
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_493d8e9c.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "In a medical emergency where immediate specialist  treatment is required, please proceed to the hospital’s  Emergency department. The nearest government  hospital is Ng Teng Fong General Hospital and their  contact details are as follows: "
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "There are several private clinics, that are near  NTU. You may wish to visit  http://www.singhealth. com.sg/Patient Care/GP/Pages/Home.aspx  for a  comprehensive list of clinics in Singapore.  "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "To speak to a professional Student Counsellor,  please make an appointment at  www.ntu.edu.sg/ student wellbeing/appointment  or call (65) 6790 4462  during office hours. The Centre is located at University  Health Service, #02-01, 36 Nanyang  Avenue. Consultation  is free of charge for students and held in strict confidence.  "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_8d5f19b9.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_c812400b.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "If you have any questions after reading through  this guidebook, please contact Student Support  at  Student  Affairs  Office  via  email  at SAO student support@ntu.edu.sg  or call on us at  Student Services Centre, Level 4. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Public bus services 179, 179A and 199 ply the Yunnan  Garden campus in addition to the NTU shuttle bus  service. Visit  http://www.ntu.edu.sg/has/Transportation/ Pages/Getting To NTU.aspx  for more details. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Medical Emergencies "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_efdb50bf.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_421e48a8.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Telephone: (65) 6790 6823 (during office hours) (65) 6790 5200 (24-hour Campus Security Hotline) Email:  SAO student support@ntu.edu.sg "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Please make sure that you save these numbers in your mobile or smart phone. They will come in handy in an  emergency. For more crisis helplines, please visit  www.ntu.edu.sg/student wellbeing . "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "For further enquiries on housing matters, please contact the Office of Housing and Auxiliary Services (HAS), the  office administrating on-campus and off-campus housing, via email. You can also visit  www.ntu.edu.sg/has  for  more information on campus and off-campus housing. "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_0be937ef.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_8644a32b.png"
+                        }
+                    }
+                ]
+            ]
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Telephone: (65) 6790 6823, Email: SAO-Studentsupport@ntu.edu.sg, Website: www.ntu.edu.sg/studentwellbeing",
+                "Telephone: (65) 6716 2000, Email: enquiries@juronghealth.com.sg, Website: www.ntfgh.com.sg",
+                "Telephone: (65) 6790 5200, Email: SAO-studentsupport@ntu.edu.sg, Website: www.ntu.edu.sg/has",
+                "Telephone: (65) 6790 4462, Email: SAO-studentsupport@ntu.edu.sg, Website: www.ntu.edu.sg/studentwellbeing/appointment"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [],
+            "image_evidence_assignment": [],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_television_architecture_education_dc1b5d9f",
+                    "insert_conversation_turn": 143,
+                    "reference_name": "Doc. aad6247a"
+                },
+                {
+                    "conversation_name": "group_chat_travel_history_literature_f0b8291e",
+                    "insert_conversation_turn": 473,
+                    "reference_name": "Doc. 10df0cdf"
+                },
+                {
+                    "conversation_name": "group_chat_economy_nature_transportation_9729b075",
+                    "insert_conversation_turn": 951,
+                    "reference_name": "Doc. c09a72bf"
+                }
+            ]
+        },
+        "meta_data": {
+            "category": "Guidebook",
+            "doc_name": "StudentSupport_Guidebook",
+            "gold_quotes": [
+                "text4",
+                "image1"
+            ],
+            "topic": [
+                "health",
+                " education",
+                " travel"
+            ],
+            "original_question": "What is the contact information for the nearest government hospital in a medical emergency?"
+        }
+    },
+    {
+        "id": "QA_sample_0bf22e83",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 9de2c5da, the text, what income category was Thailand classified into in 2016 according to its GDP per capita and the previously defined classifications of \"high-income,\" \"middle-income,\" and \"lower-income\" nations?",
+        "answer": "Middle-income nation",
+        "evidence": {
+            "text_evidence": [
+                "Countries with a GDP per capita above $8,000 in constant 2010 U.S. dollars by the year 2016 are classified as high-income nations. Countries below $4,000 are classified as lower-income nations. Countries in between are classified as middle-income nations."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_0b352988.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "Upper-middle-income nation",
+                "High-income nation",
+                "Lower-income nation",
+                "Middle-income nation"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_television_architecture_education_dc1b5d9f",
+                    "insert_conversation_turn": 429
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_travel_history_literature_f0b8291e",
+                    "insert_conversation_turn": 819,
+                    "reference_name": "Fig. 9de2c5da"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "economy"
+            ],
+            "original_question": "the text, what income category was Thailand classified into in 2016 according to its GDP per capita and the previously defined classifications of \"high-income,\" \"middle-income,\" and \"lower-income\" nations?"
+        }
+    },
+    {
+        "id": "94ee78c7",
+        "domain": "MMDocRAG",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 6fcd3511, Doc. f6324c41, Doc. 16bd3854, What is the color on the watch that shows the aerobic zone?",
+        "answer": "yellow",
+        "evidence": {
+            "text_evidence": [],
+            "image_evidence": [
+                "MMDocRAG_a9aa9844.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": [
+                [
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "The watch can detect your workout status automatically. After you have enabled Auto-detect workouts  by going to  Settings  $>$    Workout settings  on the watch, your watch will remind you to start recording your workout when it detects an increase in activity. You can select to ignore or start recording the workout session. Currently, this feature can detect running, elliptical, and rowing workouts. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "1. After you start a workout, swipe on the watch screen to check your real-time heart rate and heart rate zone.\n\n 2. After completing your workout, you can check your average heart rate, maximum heart rate, and heart rate zone on the workout results screen. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Your watch will display different colors when your heart rate reaches corresponding zones during a workout. The following figure shows how heart rate is displayed during an outdoor run.\n\n "
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_f9fe9bc6.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "To remove a workout mode, on your watch home screen, press the Up button, touch  Workout  and the Settings icon on the right side of the workout mode, swipe to the bottom and touch  Remove  to remove the workout. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "If you have selected a workout mode that includes swimming, the watch screen will be locked after you start the workout session. Press and hold the Up button to end the workout. After the swimming session is complete, the watch will vibrate occasionally while displaying a message indicating that the watch is draining water. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "● Your heart rate will not be displayed if you remove the watch from your wrist during the workout. However, the watch will continue to search for your heart rate for a while. The measurement will resume once you wear the watch again. ● Your watch can measure your heart rate when you have connected it to your phone and started a workout using the Huawei Health app. "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_1de83099.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_d68b081e.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "If \"--\" is displayed as the resting heart rate reading, it indicates that your watch was unable to measure your resting heart rate. In this case, ensure that you "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "To guarantee a more accurate heart rate measurement, wear the watch correctly and ensure the strap is fastened. Make sure that your watch is secure on your wrist. Ensure that the watch body is in direct contact with your skin without any obstructions. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "● Viewing stress data on the watch: Press the Up button while on the home screen, swipe up or down until you find  Stress , and touch it to view the graph indicating your stress change, including the stress bar chart, your stress level, and your stress interval.\n\n ● Viewing stress data in the Huawei Health app: Open the Huawei Health app, touch  Stress  to view your latest stress level and your daily, weekly, monthly and yearly stress curve and corresponding advice. At the same time, you can refer to content under  STRESS RELIEF ASSISTANT  to reduce your stress and stay relaxed. "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_da15b794.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_40c3a126.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "● To check the weather information on your watch, you are advised to open the Huawei Health app, touch  Devices , touch your device name, and then enable  Weather reports . You can set the  Temperature unit  to  Celsius   $\\circ_{\\mathsf{C}}$   or  Fahrenheit °F . ● The weather information displayed on your watch may differ slightly from that displayed on your phone, since the information is collected from different weather service providers. ● Ensure that you have granted your phone and the Huawei Health app the permission to access your location. For versions earlier than EMUI 9.0, select  Use GPS, WLAN, and mobile networks  as the positioning mode instead of  Use GPS only . "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "● If you select  Maximum heart rate percentage  as the calculation method, the heart rate zone for different types of workout activities (Extreme, Anaerobic, Aerobic, Fat- burning, and Warm-up) is calculated based on your maximum heart rate (\"220 – your age\" by default). Heart rate  $=$  Maximum heart rate  $\\mathsf{X}$  Maximum heart rate percentage. ● If you select HRR percentage as the calculation method, the heart rate interval for different types of workout activities (Advanced anaerobic, Basic anaerobic, Lactic acid, Advanced aerobic, and Basic aerobic) is calculated based on your heart rate reserve (HRmax - HRrest). Heart rate  $=$  Heart rate reserve x Heart rate reserve percentage  $^+$  Resting heart rate. ● The heart rate zone calculation methods while you are running are not affected by the settings in the Huawei Health app. For most running courses,  HRR percentage  is selected by default. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "– The measurement will be interrupted if you swipe right on the watch screen, start a workout with the Huawei Health app, or receive a notification for an incoming call or alarm. – To ensure the accuracy of the heart rate measurement, wear the watch correctly and ensure that the strap is fastened. Ensure that the band body is in direct contact with your skin. – Stay as still as possible during the measurement. – Each measurement lasts for about 1 minute, and the displayed   $\\mathsf{S p O}_{2}$   level is updated every 3 seconds. – During the measurement, the watch will also measure your heart rate. "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_950e16d4.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_c3d1ce0f.png"
+                        }
+                    }
+                ]
+            ]
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "blue",
+                "red",
+                "yellow",
+                "green"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_travel_history_literature_f0b8291e",
+                    "insert_conversation_turn": 1234,
+                    "reference_name": "Fig. 6fcd3511"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_television_architecture_education_dc1b5d9f",
+                    "insert_conversation_turn": 1073,
+                    "reference_name": "Doc. f6324c41"
+                },
+                {
+                    "conversation_name": "group_chat_television_architecture_education_dc1b5d9f",
+                    "insert_conversation_turn": 972,
+                    "reference_name": "Doc. 16bd3854"
+                }
+            ]
+        },
+        "meta_data": {
+            "category": "Guidebook",
+            "doc_name": "honor_watch_gs_pro",
+            "gold_quotes": [
+                "text3",
+                "image1"
+            ],
+            "topic": [
+                "health",
+                " technology"
+            ],
+            "original_question": "What is the color on the watch that shows the aerobic zone?"
+        }
+    },
+    {
+        "id": "QA_sample_7683acaa",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. cd126b7e, the text, which traffic source qualifies as a \"top-performing traffic source\" according to the definition that its CTR exceeds 81% and its Dormancy Rate is below 50%?",
+        "answer": "No",
+        "evidence": {
+            "text_evidence": [
+                "A channel is considered to be a top-performing traffic source if both its Click-Through Rate (CTR) exceeds 81% and its Dormancy Rate is below 50%. Dormancy Rate for each channel can be extracted from the corresponding traffic behavior trends of the regions shown in the detailed metrics."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_573df6ab.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "No",
+                "Yes"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_travel_history_literature_f0b8291e",
+                    "insert_conversation_turn": 1006
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_economy_nature_transportation_9729b075",
+                    "insert_conversation_turn": 608,
+                    "reference_name": "Fig. cd126b7e"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "business",
+                "economy"
+            ],
+            "original_question": "the text, which traffic source qualifies as a \"top-performing traffic source\" according to the definition that its CTR exceeds 81% and its Dormancy Rate is below 50%?"
+        }
+    },
+    {
+        "id": "QA_sample_4f7dae1a",
+        "domain": "MMCV",
+        "category": "Multi_Hop_QA",
+        "question": "Based on Table. fa25d02e, In a game held during the Arizona Cardinals' 2013 season, what was the outcome against the NFL team that had prolonged struggles under its head coach that year?",
+        "answer": "Win",
+        "evidence": {
+            "text_evidence": [
+                "Culpepper was a tenth round selection (264th overall pick) in the 1992 NFL Draft by the Minnesota Vikings, and he played for the Vikings from 1992 to 1993, the Tampa Bay Buccaneers from 1994 to 1999, and the Chicago Bears in 2000. In his nine-year professional career, Culpepper played in 131 games, started 83 of them, and recorded 34 quarterback sacks and one safety."
+            ],
+            "image_evidence": [],
+            "table_evidence": [
+                {
+                    "title": "2013 Arizona Cardinals season",
+                    "table_name": "Regular season",
+                    "table_header": [
+                        "Week",
+                        "Date",
+                        "Opponent",
+                        "Result",
+                        "Record",
+                        "Game site",
+                        "NFL.com recap"
+                    ],
+                    "table_rows": [
+                        [
+                            "1",
+                            "September 8",
+                            "at St. Louis Rams",
+                            "L 24–27",
+                            "0–1",
+                            "Edward Jones Dome",
+                            "[http://www.nfl.com/gamecenter/2013090810/2013/REG1/cardinals@rams Recap]"
+                        ],
+                        [
+                            "2",
+                            "September 15",
+                            "Detroit Lions",
+                            "W 25–21",
+                            "1–1",
+                            "University of Phoenix Stadium",
+                            "[http://www.nfl.com/gamecenter/2013091509/2013/REG2/lions@cardinals Recap]"
+                        ],
+                        [
+                            "3",
+                            "September 22",
+                            "at New Orleans Saints",
+                            "L 7–31",
+                            "1–2",
+                            "Mercedes-Benz Superdome",
+                            "[http://www.nfl.com/gamecenter/2013092207/2013/REG3/cardinals@saints Recap]"
+                        ],
+                        [
+                            "4",
+                            "September 29",
+                            "at Tampa Bay Buccaneers",
+                            "W 13–10",
+                            "2–2",
+                            "Raymond James Stadium",
+                            "[http://www.nfl.com/gamecenter/2013092907/2013/REG4/cardinals@buccaneers Recap]"
+                        ],
+                        [
+                            "5",
+                            "October 6",
+                            "Carolina Panthers",
+                            "W 22–6",
+                            "3–2",
+                            "University of Phoenix Stadium",
+                            "[http://www.nfl.com/gamecenter/2013100608/2013/REG5/panthers@cardinals Recap]"
+                        ],
+                        [
+                            "6",
+                            "October 13",
+                            "at San Francisco 49ers",
+                            "L 20–32",
+                            "3–3",
+                            "Candlestick Park",
+                            "[http://www.nfl.com/gamecenter/2013101311/2013/REG6/cardinals@49ers Recap]"
+                        ],
+                        [
+                            "7",
+                            "Thursday (October 17)",
+                            "Seattle Seahawks",
+                            "L 22–34",
+                            "3–4",
+                            "University of Phoenix Stadium",
+                            "[http://www.nfl.com/gamecenter/2013101700/2013/REG7/seahawks@cardinals Recap]"
+                        ],
+                        [
+                            "8",
+                            "October 27",
+                            "Atlanta Falcons",
+                            "W 27–13",
+                            "4–4",
+                            "University of Phoenix Stadium",
+                            "[http://www.nfl.com/gamecenter/2013102708/2013/REG8/falcons@cardinals Recap]"
+                        ],
+                        [
+                            "9",
+                            "Bye",
+                            "Bye",
+                            "Bye",
+                            "Bye",
+                            "Bye",
+                            "Bye"
+                        ],
+                        [
+                            "10",
+                            "November 10",
+                            "Houston Texans",
+                            "W 27–24",
+                            "5–4",
+                            "University of Phoenix Stadium",
+                            "[http://www.nfl.com/gamecenter/2013111009/2013/REG10/texans@cardinals Recap]"
+                        ],
+                        [
+                            "11",
+                            "November 17",
+                            "at Jacksonville Jaguars",
+                            "W 27–14",
+                            "6–4",
+                            "EverBank Field",
+                            "[http://www.nfl.com/gamecenter/2013111704/2013/REG11/cardinals@jaguars Recap]"
+                        ],
+                        [
+                            "12",
+                            "November 24",
+                            "Indianapolis Colts",
+                            "W 40–11",
+                            "7–4",
+                            "University of Phoenix Stadium",
+                            "[http://www.nfl.com/gamecenter/2013112408/2013/REG12/colts@cardinals Recap]"
+                        ],
+                        [
+                            "13",
+                            "December 1",
+                            "at Philadelphia Eagles",
+                            "L 21–24",
+                            "7–5",
+                            "Lincoln Financial Field",
+                            "[http://www.nfl.com/gamecenter/2013120106/2013/REG13/cardinals@eagles Recap]"
+                        ],
+                        [
+                            "14",
+                            "December 8",
+                            "St. Louis Rams",
+                            "W 30–10",
+                            "8–5",
+                            "University of Phoenix Stadium",
+                            "[http://www.nfl.com/gamecenter/2013120810/2013/REG14/rams@cardinals Recap]"
+                        ],
+                        [
+                            "15",
+                            "December 15",
+                            "at Tennessee Titans",
+                            "W 37–34",
+                            "9–5",
+                            "LP Field",
+                            "[http://www.nfl.com/gamecenter/2013121509/2013/REG15/cardinals@titans Recap]"
+                        ],
+                        [
+                            "16",
+                            "December 22",
+                            "at Seattle Seahawks",
+                            "W 17–10",
+                            "10–5",
+                            "CenturyLink Field",
+                            "[http://www.nfl.com/gamecenter/2013122211/2013/REG16/cardinals@seahawks Recap]"
+                        ],
+                        [
+                            "17",
+                            "December 29",
+                            "San Francisco 49ers",
+                            "L 20–23",
+                            "10–6",
+                            "University of Phoenix Stadium",
+                            "[http://www.nfl.com/gamecenter/2013122912/2013/REG17/49ers@cardinals Recap]"
+                        ]
+                    ]
+                }
+            ],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Win",
+                "Loss",
+                "Forfeit",
+                "Tie"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_television_architecture_education_dc1b5d9f",
+                    "insert_conversation_turn": 371
+                }
+            ],
+            "image_evidence_assignment": [],
+            "table_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_economy_nature_transportation_9729b075",
+                    "insert_conversation_turn": 751,
+                    "reference_name": "Table. fa25d02e"
+                }
+            ],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "sports"
+            ],
+            "original_question": "In a game held during the Arizona Cardinals' 2013 season, what was the outcome against the NFL team that had prolonged struggles under its head coach that year?"
+        }
+    },
+    {
+        "id": "f466eb05",
+        "domain": "MMDocRAG",
+        "category": "Single_Hop_QA",
+        "question": "Based on Doc. 7bd50a4d, Doc. 746f1431, Doc. 32558ec6, What are the incorrect postures when measuring blood pressure?",
+        "answer": "Wrist device not at heart height, moving during measurement",
+        "evidence": {
+            "text_evidence": [
+                "• Do not measure when you are standing or lying down. • Do not measure when your body is under pressure. • Do not measure in a moving vehicle. • Do not stretch or bend the strap and airbag with force. • Rest for 5 minutes before a measurement and keep your body naturally relaxed until the measurement is complete. Do not perform the measurement when you feel emotional or stressed. • Perform a measurement in a quiet environment. Do not speak, bend your fingers, or move your body or arms during the measurement. • Rest your wrist for 1 to 2 minutes or longer before you perform the next measurement. During this period of time your arteries will return to how they were before the blood pressure was measured. "
+            ],
+            "image_evidence": [],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": [
+                [
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Incorrect postures when measuring blood pressure "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "• This product can be used as a reference in clinical practice, but the measurement results cannot serve as the basis for diagnosis. • If you feel uncomfortable during a measurement due to the airbag inflating excessively or other reasons, stop the measurement immediately to deflate the airbag or unfasten the strap. • To prevent injuring your arm, do not keep your arm in the device for a long time when it is inflated.\n\n "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "•  Measurement results can be affected if long-time measurements cause blood stasis. During the measurement, the wrist is pressed by the airbag, which may result in the blood flow to your fingertips slowing down and cause blood stasis. In this case, take off your watch, raise your arm high, and repeatedly make a fist and open it for about 15 times.\n\n "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_a93d5dd1.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_f3c2f35b.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "5  Tap  Measure  on the measurement screen to start a measurement. After the measurement is complete, the measurement result will be displayed. You can also press the Down button twice to start a measurement. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "An error occurred while measuring. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": " $\\mathfrak{G}$  • The measurement will be interrupted if you swipe right on the watch screen, start a workout with the Health app, or receive a notification for an incoming call or alarm. • Data provided is for reference only and not for medical use. Consult a doctor as soon as possible if you feel uncomfortable. • During the SpO2 measurement, the watch will also measure your heart rate. • This measurement may also be affected by some external factors such as low blood perfusion, tattoos, a lot of hair on your arm, a dark complexion, lowering or moving your arm, or low ambient temperatures. "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_84d323f0.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_04af91e9.png"
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "• You feel more stressed at the hospital, resulting in the blood pressure higher than it should be. You have greater peace of mind and your body is more relaxed at home, sometimes resulting in the blood pressure lower than that measured at the hospital. • The measurement results will be lower if the measurement position is above the heart. The measurement results may be lower if your wrist is above your heart during the measurement.\n\n "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "1  Ensure that you are wearing your device correctly. (Before the first measurement, you can scan the QR code on the device to view the guide.) 2  Press the Up button and select  Blood pressure  from the app list. If you are measuring for the first time, touch  Next . You can set to press the Down button to enter the blood pressure measurement screen by default. 3  On the wrist circumference settings screen, select a range, and touch  Next  $>$  Next . 4  Ensure that your arm being measured is steady (with your arm bent and your palm facing your chest). Your palm should be naturally relaxed and not clenched. Hold the elbow of "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_859f5826.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_43769db0.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "• If you are taking anti hypertensive drugs, your blood pressure will rise after the drug effects wear off. The effects of the anti hypertensive drugs will wear off after you take the drugs for a few hours. Then, your blood pressure will rise. Consult a doctor for details. • The measured values may also be higher when the watch isn't worn tight. If the watch is too loose on your wrist, the pressure cannot reach the blood vessels, resulting in the measurement results being higher than expected. • An incorrect measurement posture may also result in higher measurement results. Higher measurement results may also result from sitting cross-legged, on a low sofa or in front of a low table, or other postures exerting pressure on your abdomen, or placing the watch below the heart. "
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "• The airbag and strap sizes are suitable, you are wearing the device correctly, and your posture during the measurement is correct. For details, see the Wearing Guide. • Measure your blood pressure during the same time period each day. Measurement results may vary depending on the time of day. • After smoking, drinking alcohol, coffee, or black tea, bathing, or doing exercise, wait at least 30 minutes before measuring. • After going to the toilet, wait 10 minutes before measuring. • Do not measure within one hour after eating a meal. • Do not measure in a place where the temperature is too low or too high or the environment changes dramatically. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "• The product is not a medical device. Temperature measurements are mainly used to monitor the changes in the wrist skin temperature of healthy people over the age of 18 during and after exercise. Results are for reference only and should not be used as a basis for medical diagnosis or treatment. • During the measurement, wear the device relatively tightly for more than 10 minutes and stay in a relaxed environment at room temperature (about   $25^{\\circ}\\mathsf{C},$  ). Ensure that there are no water stains or alcohol on your wrist. Do not start a measurement in an environment with direct sunlight, wind, or cold/heat sources. • After you exercise, shower, or switch between outdoor and indoor environments, wait 30 minutes before you start a measurement. "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_f3aacfd5.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_4367ce68.png"
+                        }
+                    }
+                ]
+            ]
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "Wrist device above heart height, sitting cross-legged",
+                "Wrist device too loose, talking during measurement",
+                "Wrist device not at heart height, moving during measurement",
+                "Wrist device below heart height, bending fingers"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_travel_history_literature_f0b8291e",
+                    "insert_conversation_turn": 458
+                }
+            ],
+            "image_evidence_assignment": [],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_television_architecture_education_dc1b5d9f",
+                    "insert_conversation_turn": 709,
+                    "reference_name": "Doc. 7bd50a4d"
+                },
+                {
+                    "conversation_name": "group_chat_economy_nature_transportation_9729b075",
+                    "insert_conversation_turn": 171,
+                    "reference_name": "Doc. 746f1431"
+                },
+                {
+                    "conversation_name": "group_chat_television_architecture_education_dc1b5d9f",
+                    "insert_conversation_turn": 128,
+                    "reference_name": "Doc. 32558ec6"
+                }
+            ]
+        },
+        "meta_data": {
+            "category": "Guidebook",
+            "doc_name": "watch_d",
+            "gold_quotes": [
+                "image4",
+                "text7",
+                "text10"
+            ],
+            "topic": [
+                "health"
+            ],
+            "original_question": "What are the incorrect postures when measuring blood pressure?"
+        }
+    },
+    {
+        "id": "QA_sample_8f9494ba",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 33dd369e, the text, in which two-year interval between January 2013 and January 2018 did Howden Africa's stock price demonstrate a \"performed well\" outcome?",
+        "answer": "January 2013 to January 2015",
+        "evidence": {
+            "text_evidence": [
+                "A stock is considered to have performed well if its share price increases by at least 50% within a two-year period. Analyze the stock performance over successive two-year intervals starting from January 2013."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_81d55f38.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "January 2013 to January 2015",
+                "January 2016 to January 2018",
+                "January 2015 to January 2017",
+                "January 2014 to January 2016"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_economy_nature_transportation_9729b075",
+                    "insert_conversation_turn": 1039
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_travel_history_literature_f0b8291e",
+                    "insert_conversation_turn": 1219,
+                    "reference_name": "Fig. 33dd369e"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "business",
+                "economy"
+            ],
+            "original_question": "the text, in which two-year interval between January 2013 and January 2018 did Howden Africa's stock price demonstrate a \"performed well\" outcome?"
+        }
+    },
+    {
+        "id": "2b7eccdd",
+        "domain": "MMDocRAG",
+        "category": "Single_Hop_QA",
+        "question": "Based on Doc. 2b76ed70, Doc. 2d8d4109, Doc. e5f7fb5e, Doc. 2dfb506d, Doc. 45222f67, Doc. 2713211d, How did NAMRU-3 and the USNS Mercy collaborate to improve medical practices in 2012, considering the training and humanitarian efforts depicted?",
+        "answer": "NAMRU-3 provided laboratory training, and USNS Mercy delivered humanitarian medical services in several countries, improving medical practices and collaboration.",
+        "evidence": {
+            "text_evidence": [],
+            "image_evidence": [],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": [
+                [
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Beckett presented ten SMEE lec- tures and participated in advising host  nation health care personnel on issues  of infection control of communicable  diseases, disease outbreak response  and specific management of diseases  such as dengue, malaria, rabies and  tuberculosis. She also supported the  investigation and management of a  shipboard outbreak of gastroenteritis  (vomiting and diarrhea) affecting 64  crew members over a three-week pe- riod while underway. Her knowledge of  Navy research capabilities assisted the  Sick Call staff in confirmation of norovi- rus as the cause of the outbreak via  assistance from the Naval Health Re- search Center molecular diagnostics  laboratory. During the mission, she  also visited fellow investigators at  NAMRU-2 in Pearl Harbor and Phnom  Penh, Cambodia.  "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "In 2011 NAMRU-3 provided training for 160 Afghan  scientists and technicians on laboratory operations,  diagnostic procedures, and ethics in research and  management with respect to activity involving U.S.  select agents...a comprehensive training plan was  developed for 2012 based on needs and gaps  identified by NAMRU-3 laboratory assessments.  "
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "SILVER SPRING, Md. – In 2012 over  42,000 service members, family  members, and DoD employees  registered with the C.W. Bill Young  DoD Marrow Donor Program, joining  more than 730,000 DoD volunteers  who are potential marrow donors. Of  these, over 5,200 have donated  marrow for patients needing trans- plants to treat one of over 80 poten- tially fatal diseases.  "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_7fb8ed5b.png"
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_f220bf76.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "SILVER SPRING, Md. – Cmdr. Char- magne Beckett, a Naval Medical Re- search Center ( NMRC ) physician re- searcher, volunteered to deploy on the  hospital ship USNS Mercy (T-AH 19),  now in its seventh year of conducting  humanitarian missions. USNS Mercy  Pacific Partnership missions began in  2004 as a humanitarian response to  the catastrophic tsunami that devas- tated parts of Southeast Asia. Spon- sored by the U.S. Pacific Fleet, it is  now the largest annual humanitarian  civic action deployment designed to  strengthen bilateral relations with other  nations, considered crucial to regional  security and stability.  "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "training plan was developed for 2012  based on needs and gaps identified  by NAMRU-3 laboratory assess- ments. NAMRU-3 researchers  developed nine modules on parasitol- ogy, bacteriology, bioscience facility  management, clinical epidemiology,  miomedical equipment repair,  laboratory quality management  system, serology, molecular biology  and virology.  "
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "From its home port in San Diego,  the USNS Mercy set sail in early May  2012 with clinical staff mostly from Na- val Medical Center San Diego and  many individual augmentees from  nearby regional commands. Beckett  was a late addition to the mission, ful- filling the role of Internist and Infectious  Diseases Officer and was the sole In- fectious Diseases sub specialist for the  entire mission. She embarked on the  ship in Guam, joining nearly 1,300  crew members including civil mariners,  U.S. Navy, Army, Air Force and non- governmental organization (NGO) per- sonnel as well as members of 13 part- ner nation militaries.  "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_a6565aa2.png"
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_b9801e35.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "The purpose of the working group  was to update and formulate the  CONPLAN to prepare for, respond to,  and mitigate a pandemic outbreak of  influenza or other infectious disease  of operational significance and, when  required, respond to Defense Support  of Civilian Authorities and Foreign  Humanitarian Assistance requests.  Over the past year, the JPG met to  conduct a series of Mission Analysis  and Course of Action development  meetings culminating in a two-day  war game aimed at testing the  CONPLAN and to identify strengths,  weaknesses and areas for improve- ment before the plan is briefed to the  USPACOM Commander.  "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Pacific Partnership 2012 Internal Medicine Department staff physicians, from left: Dr.  Earl Wellington, General IM, Capt (ret); Dr. Lynn  Bemiller, Hematology/Oncology;  Capt. Toro Endo, General IM; Lt. Cmdr. Jessica Lee, Nephrology; Lt. Cmdr. Valeria  Tokarz, Dermatology;  Cmdr. Charmagne Beckett, Infectious Diseases; Lt. Cmdr.  Wade Shields, Gas to renter ology; Cmdr. Brian Bloom, Pulmonary/Critical Care; Lt  Cmdr. Gregory Price, Cardiology; and Cmdr. Steven Romero, Cardiology. (Not  pictured: Cmdr. Gregory Matwiyoff, Pulmonary/Critical Care.)  "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Upon invitation, missions were con- ducted in four host nations: Indonesia,  the Philippines, Vietnam and Cambo- dia. Over the 56 days dedicated to  mission activities, more than 49,000  patients were seen and treated ashore,  including general adult and pediatric  medical care as well as dental and  vision screenings at Medical and Den- tal Civic Action Programs (MEDCAPS).  Surgeons of several specialties (e.g.,  general surgery, orthopedics, plastics,  gynecology, ophthalmology, etc.) per- formed more than 900 surgeries via  SURGCAPs, and veterinarians treated  and evaluated more than 7,000 live- stock and domestic animals at VET- CAPs. Other non-medical projects in- cluded engineering repairs, construc- tion and community service donations.  In addition, Mercy staff participated in  more than 60,000 hours during 62 sub- ject-matter expert exchanges (SMEEs)  on various topics such as basic first  aid, nutrition, public health, disaster  response, and food and water safety.  "
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_381a7bdb.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_eb639cec.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "The NMRC Bone Marrow Re- search Directorate provides military  contingency support for causalities  with marrow toxic injury due to  radiation or chemical warfare agents.  Exposure to radiation or chemical  agents can cause un recoverable  damage to bone marrow, breaking  down the immune system in the  process. The directorate performs  laboratory research that supports  technology innovations to make  highly reliable and cost-effective DNA -based typing for marrow transplants.  "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "NMRC Researcher Supports USNS Mercy Pacific Partnership 2012   "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "The JPG was chaired by US- PACOM‟s Functional Plans Branch  Chief Lt. Col. Andrew Hocking,  Australian Defense Force, and  consisted of members from multiple  codes at USPACOM and all over the  island of Oahu, including Air Force  Pacific, U.S. Army Pacific, Joint Task- Force Homeland Defense, Marine  Forces Pacific, Department of State,  the State of Hawaii, the U.S. Centers  for Disease Control and Prevention,  and Navy and Environmental and  Preventive Medicine Unit 6, among  others.  "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_00cc3a80.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_b3236add.png"
+                        }
+                    }
+                ]
+            ]
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "NAMRU-3 organized laboratory workshops, and USNS Mercy facilitated bone marrow donor registration and medical outreach, advancing regional medical capabilities",
+                "NAMRU-3 provided laboratory training, and USNS Mercy delivered humanitarian medical services in several countries, improving medical practices and collaboration.",
+                "NAMRU-3 conducted disease outbreak response training, and USNS Mercy performed surgeries and medical screenings in Southeast Asia, enhancing healthcare delivery and partnerships",
+                "NAMRU-3 led infection control seminars, and USNS Mercy supported pandemic preparedness and civilian assistance, strengthening medical infrastructure and cooperation"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [],
+            "image_evidence_assignment": [],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_travel_history_literature_f0b8291e",
+                    "insert_conversation_turn": 343,
+                    "reference_name": "Doc. 2b76ed70"
+                },
+                {
+                    "conversation_name": "group_chat_television_architecture_education_dc1b5d9f",
+                    "insert_conversation_turn": 203,
+                    "reference_name": "Doc. 2d8d4109"
+                },
+                {
+                    "conversation_name": "group_chat_television_architecture_education_dc1b5d9f",
+                    "insert_conversation_turn": 188,
+                    "reference_name": "Doc. e5f7fb5e"
+                },
+                {
+                    "conversation_name": "group_chat_travel_history_literature_f0b8291e",
+                    "insert_conversation_turn": 742,
+                    "reference_name": "Doc. 2dfb506d"
+                },
+                {
+                    "conversation_name": "group_chat_television_architecture_education_dc1b5d9f",
+                    "insert_conversation_turn": 679,
+                    "reference_name": "Doc. 45222f67"
+                },
+                {
+                    "conversation_name": "group_chat_economy_nature_transportation_9729b075",
+                    "insert_conversation_turn": 549,
+                    "reference_name": "Doc. 2713211d"
+                }
+            ]
+        },
+        "meta_data": {
+            "category": "Administration/Industry file",
+            "doc_name": "0b85477387a9d0cc33fca0f4becaa0e5",
+            "gold_quotes": [
+                "image1",
+                "text5",
+                "text9",
+                "text2",
+                "image3"
+            ],
+            "topic": [
+                "health",
+                " education",
+                " government"
+            ],
+            "original_question": "How did NAMRU-3 and the USNS Mercy collaborate to improve medical practices in 2012, considering the training and humanitarian efforts depicted?"
+        }
+    },
+    {
+        "id": "QA_sample_4c983a62",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. a89a5f26, the text, did the variation margin meet the criteria for a \"stable\" trading system during March 2020?",
+        "answer": "No",
+        "evidence": {
+            "text_evidence": [
+                "A trading system is considered stable if the variation margin remains below $60 billion for more than 60% of a 30-day period. Margins exceeding this threshold indicate elevated market volatility and instability."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_a7bfaacb.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Yes",
+                "No"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_economy_nature_transportation_9729b075",
+                    "insert_conversation_turn": 245
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_travel_history_literature_f0b8291e",
+                    "insert_conversation_turn": 444,
+                    "reference_name": "Fig. a89a5f26"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "economy",
+                "business"
+            ],
+            "original_question": "the text, did the variation margin meet the criteria for a \"stable\" trading system during March 2020?"
+        }
+    },
+    {
+        "id": "QA_sample_346af9d1",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. d172b6d6, the text, will the proposed policy be accepted if the November 2022 forecast for 2025-26 is more than \"0.5 percentage points above the 37% stabilization target\"?",
+        "answer": "No",
+        "evidence": {
+            "text_evidence": [
+                "A proposed policy aims to stabilize the National Accounts taxes as a share of GDP at 37% by 2026. However, the policy stipulates that acceptance requires the projected share in 2025-26 under the November 2022 forecast to be less than 0.5 percentage points above the 37% stabilization target."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_9943d526.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Yes",
+                "No"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_television_architecture_education_dc1b5d9f",
+                    "insert_conversation_turn": 499
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_economy_nature_transportation_9729b075",
+                    "insert_conversation_turn": 322,
+                    "reference_name": "Fig. d172b6d6"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "government",
+                "economy"
+            ],
+            "original_question": "the text, will the proposed policy be accepted if the November 2022 forecast for 2025-26 is more than \"0.5 percentage points above the 37% stabilization target\"?"
+        }
+    },
+    {
+        "id": "QA_sample_f79ea7b2",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. b57044a9, According to the previous definition, which demographic groups should be prioritized for support if their adjusted unemployment rates are \"over 18%\" or if \"women's rates exceed 15%\"?",
+        "answer": "Black workers, Asian workers, Hispanic workers, and women.",
+        "evidence": {
+            "text_evidence": [
+                "An economic policy suggests targeting demographic groups with adjusted unemployment rates over 18% for prioritized support. Additionally, support measures for women should be considered if their adjusted unemployment rate exceeds 15%."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_f64c1565.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "Asian workers, Black workers, White workers, and men",
+                "Black workers, Hispanic workers, White workers, and men",
+                "Black workers, Asian workers, Hispanic workers, and women.",
+                "Asian workers, Hispanic workers, White workers, and men"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_travel_history_literature_f0b8291e",
+                    "insert_conversation_turn": 328
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_television_architecture_education_dc1b5d9f",
+                    "insert_conversation_turn": 851,
+                    "reference_name": "Fig. b57044a9"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "economy",
+                "government"
+            ],
+            "original_question": "According to the previous definition, which demographic groups should be prioritized for support if their adjusted unemployment rates are \"over 18%\" or if \"women's rates exceed 15%\"?"
+        }
+    },
+    {
+        "id": "QA_sample_7727d434",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. ddbc28ef, the text, what was the approximate \"rental premium\" for London compared to the UK average in 2011?",
+        "answer": "25%",
+        "evidence": {
+            "text_evidence": [
+                "As part of a research study, rental premiums are calculated as the difference between London’s average rent and the UK average rent at any given time, divided by the UK average rent, then multiplied by 100 to express it as a percentage. For example, a premium of 20% means that London's average rent is 20% higher than the UK average rent."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_519ef363.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "40%",
+                "25%",
+                "35%",
+                "12%"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_economy_nature_transportation_9729b075",
+                    "insert_conversation_turn": 156
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_television_architecture_education_dc1b5d9f",
+                    "insert_conversation_turn": 588,
+                    "reference_name": "Fig. ddbc28ef"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "economy"
+            ],
+            "original_question": "the text, what was the approximate \"rental premium\" for London compared to the UK average in 2011?"
+        }
+    },
+    {
+        "id": "QA_sample_9534df36",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 524b652b, the text, if two drivers ended the 2021 Formula 1 season with the same total points, who would be awarded the championship according to the \"tie-breaking rule\"?",
+        "answer": "Max Verstappen",
+        "evidence": {
+            "text_evidence": [
+                "In the 2021 Formula 1 World Championship, a driver is awarded points based on their finishing position in each race, with the maximum possible points being 26 per race. Assume a tie-breaking rule states that if two drivers finish with equal total points, the championship is awarded to the driver with more wins during the season."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_a15ac839.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "Lewis Hamilton",
+                "Valtteri Bottas",
+                "Sergio Pérez",
+                "Max Verstappen"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_travel_history_literature_f0b8291e",
+                    "insert_conversation_turn": 879
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_television_architecture_education_dc1b5d9f",
+                    "insert_conversation_turn": 767,
+                    "reference_name": "Fig. 524b652b"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "sports"
+            ],
+            "original_question": "the text, if two drivers ended the 2021 Formula 1 season with the same total points, who would be awarded the championship according to the \"tie-breaking rule\"?"
+        }
+    },
+    {
+        "id": "QA_sample_ad214b16",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 5eb3abec, the text, in which quarter did the Islamic State experience a \"critical financial crisis\" as defined by an average monthly revenue below $20 million and a total revenue drop of at least 70% compared to its peak revenue?",
+        "answer": "Q2 2017",
+        "evidence": {
+            "text_evidence": [
+                "A financial crisis is considered critical if the average monthly revenue falls below $20 million and the organization experiences a total revenue drop of at least 70% compared to its peak revenue. Examine the trends shown in the image for quarterly average revenues and revenue sources."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_cc12271a.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "Q3 2016",
+                "Q1 2016",
+                "Q2 2017",
+                "Q2 2016"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_television_architecture_education_dc1b5d9f",
+                    "insert_conversation_turn": 404
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_travel_history_literature_f0b8291e",
+                    "insert_conversation_turn": 299,
+                    "reference_name": "Fig. 5eb3abec"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "economy",
+                "business"
+            ],
+            "original_question": "the text, in which quarter did the Islamic State experience a \"critical financial crisis\" as defined by an average monthly revenue below $20 million and a total revenue drop of at least 70% compared to its peak revenue?"
+        }
+    },
+    {
+        "id": "QA_sample_032e7bc9",
+        "domain": "MLLMKC",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. 4d3432e6, What is the nationality of the person in the picture?",
+        "answer": "American",
+        "evidence": {
+            "text_evidence": [
+                "Floyd Mayweather was born on February 24, 1977. Floyd Mayweather is American. Floyd Mayweather is a professional boxer."
+            ],
+            "image_evidence": [
+                "MLLMKC_dc2d46d8.jpg"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Floyd Mayweather was born on February 24, 1977. Floyd Mayweather is Canadian. Floyd Mayweather is a professional boxer."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Mexican",
+                "American",
+                "Canadian",
+                "Panamanian"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_economy_nature_transportation_9729b075",
+                    "insert_conversation_turn": 1070
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_travel_history_literature_f0b8291e",
+                    "insert_conversation_turn": 1265,
+                    "reference_name": "Fig. 4d3432e6"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_television_architecture_education_dc1b5d9f",
+                    "insert_conversation_turn": 534
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "instance": "Floyd Mayweather",
+            "category": "people",
+            "error_type": "location_error",
+            "topic": [
+                "sports"
+            ],
+            "original_question": "What is the nationality of the person in the picture?"
+        }
+    },
+    {
+        "id": "QA_sample_ecf24cf2",
+        "domain": "MMCV",
+        "category": "Multi_Hop_QA",
+        "question": "Based on Table. 9eb5ed00, During the 2000 season, in a game between the Chicago Bears and a team with an attendance of 59,869, did the player who joined the Bears in 2000 after playing for the Tampa Bay Buccaneers participate?",
+        "answer": "No",
+        "evidence": {
+            "text_evidence": [
+                "Culpepper was a tenth round selection (264th overall pick) in the 1992 NFL Draft by the Minnesota Vikings, and he played for the Vikings from 1992 to 1993, the Tampa Bay Buccaneers from 1994 to 1999, and the Chicago Bears in 2000. In his nine-year professional career, Culpepper played in 131 games, started 83 of them, and recorded 34 quarterback sacks and one safety."
+            ],
+            "image_evidence": [],
+            "table_evidence": [
+                {
+                    "title": "2000 Green Bay Packers season",
+                    "table_name": "Regular season | Schedule",
+                    "table_header": [
+                        "Week",
+                        "Date",
+                        "Opponent",
+                        "Result",
+                        "Game site",
+                        "Record",
+                        "Attendance",
+                        ""
+                    ],
+                    "table_rows": [
+                        [
+                            "1",
+                            "September 3, 2000",
+                            "New York Jets",
+                            "L  16–20",
+                            "Lambeau Field",
+                            "0–1",
+                            "59,870",
+                            ""
+                        ],
+                        [
+                            "2",
+                            "September 10, 2000",
+                            "at Buffalo Bills",
+                            "L 18–27",
+                            "Ralph Wilson Stadium",
+                            "0–2",
+                            "72,722",
+                            ""
+                        ],
+                        [
+                            "3",
+                            "September 17, 2000",
+                            "Philadelphia Eagles",
+                            "W 6–3",
+                            "Lambeau Field",
+                            "1–2",
+                            "59,869",
+                            ""
+                        ],
+                        [
+                            "4",
+                            "September 24, 2000",
+                            "at Arizona Cardinals",
+                            "W 29–3",
+                            "Sun Devil Stadium",
+                            "2–2",
+                            "69,568",
+                            ""
+                        ],
+                        [
+                            "5",
+                            "October 1, 2000",
+                            "Chicago Bears",
+                            "L 24–27",
+                            "Lambeau Field",
+                            "2–3",
+                            "59,869",
+                            ""
+                        ],
+                        [
+                            "6",
+                            "October 8, 2000",
+                            "at Detroit Lions",
+                            "L 24–31",
+                            "Pontiac Silverdome",
+                            "2–4",
+                            "77,549",
+                            ""
+                        ],
+                        [
+                            "7",
+                            "October 15, 2000",
+                            "San Francisco 49ers",
+                            "W 31–28",
+                            "Lambeau Field",
+                            "3–4",
+                            "59,870",
+                            ""
+                        ],
+                        [
+                            "8",
+                            "Bye",
+                            "Bye",
+                            "Bye",
+                            "Bye",
+                            "Bye",
+                            "Bye",
+                            "Bye"
+                        ],
+                        [
+                            "9",
+                            "October 29, 2000",
+                            "at Miami Dolphins",
+                            "L 20–28",
+                            "Pro Player Stadium",
+                            "3–5",
+                            "73,740",
+                            ""
+                        ],
+                        [
+                            "10",
+                            "November 6, 2000",
+                            "Minnesota Vikings",
+                            "W 26–20 (OT)",
+                            "Lambeau Field",
+                            "4–5",
+                            "59,854",
+                            ""
+                        ],
+                        [
+                            "11",
+                            "November 12, 2000",
+                            "at Tampa Bay Buccaneers",
+                            "L 15–20",
+                            "Raymond James Stadium",
+                            "4–6",
+                            "65,621",
+                            ""
+                        ],
+                        [
+                            "12",
+                            "November 19, 2000",
+                            "Indianapolis Colts",
+                            "W 26–24",
+                            "Lambeau Field",
+                            "5–6",
+                            "59,869",
+                            ""
+                        ],
+                        [
+                            "13",
+                            "November 27, 2000",
+                            "at Carolina Panthers",
+                            "L 14–31",
+                            "Ericsson Stadium",
+                            "5–7",
+                            "73,295",
+                            ""
+                        ],
+                        [
+                            "14",
+                            "December 3, 2000",
+                            "at Chicago Bears",
+                            "W 28–6",
+                            "Soldier Field",
+                            "6–7",
+                            "66,944",
+                            ""
+                        ],
+                        [
+                            "15",
+                            "December 10, 2000",
+                            "Detroit Lions",
+                            "W 26–13",
+                            "Lambeau Field",
+                            "7–7",
+                            "59,854",
+                            ""
+                        ],
+                        [
+                            "16",
+                            "December 17, 2000",
+                            "at Minnesota Vikings",
+                            "W 33–28",
+                            "Hubert H. Humphrey Metrodome",
+                            "8–7",
+                            "64,183",
+                            ""
+                        ],
+                        [
+                            "17",
+                            "December 24, 2000",
+                            "Tampa Bay Buccaneers",
+                            "W 17–14 (OT)",
+                            "Lambeau Field",
+                            "9–7",
+                            "59,692",
+                            ""
+                        ]
+                    ]
+                }
+            ],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "No",
+                "Yes"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_economy_nature_transportation_9729b075",
+                    "insert_conversation_turn": 724
+                }
+            ],
+            "image_evidence_assignment": [],
+            "table_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_television_architecture_education_dc1b5d9f",
+                    "insert_conversation_turn": 1214,
+                    "reference_name": "Table. 9eb5ed00"
+                }
+            ],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "sports"
+            ],
+            "original_question": "During the 2000 season, in a game between the Chicago Bears and a team with an attendance of 59,869, did the player who joined the Bears in 2000 after playing for the Tampa Bay Buccaneers participate?"
+        }
+    }
+]

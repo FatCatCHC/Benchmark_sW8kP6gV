@@ -1,0 +1,1994 @@
+[
+    {
+        "id": "QA_sample_864735c6",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. aabf7fe1, the text, which countries meet the criteria for \"tourism success\" and are considered \"highly dependent on tourism\" according to the previous definitions?",
+        "answer": "Croatia and Iceland.",
+        "evidence": {
+            "text_evidence": [
+                "A country's tourism success is measured in this study by having a Tourist-to-Local ratio above 2.0 and attracting more than 30 million tourists annually. Furthermore, countries with over 80% of tourists relative to the population are considered as highly dependent on tourism."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_d23e9fdf.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "France and Denmark",
+                "Croatia and Iceland.",
+                "Singapore and Cyprus",
+                "Spain and Greece"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_video_games_economy_science_6737a361",
+                    "insert_conversation_turn": 960
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_literature_video_games_food_fae56f28",
+                    "insert_conversation_turn": 272,
+                    "reference_name": "Fig. aabf7fe1"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "travel"
+            ],
+            "original_question": "the text, which countries meet the criteria for \"tourism success\" and are considered \"highly dependent on tourism\" according to the previous definitions?"
+        }
+    },
+    {
+        "id": "QA_sample_2aeaf2bd",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 02bb4d1a, the text, what percentage of survey respondents believe there is a risk of \"executing innocent individuals\" and also believe the death penalty lacks \"deterrent effects\"?",
+        "answer": "63% believe the death penalty does not deter serious crimes, and 78% believe there is a risk an innocent person will be put to death.",
+        "evidence": {
+            "text_evidence": [
+                "A recent survey explored Americans' views on the death penalty for persons convicted of murder. It focused on moral justification, deterrent effects, and racial disparities. Additionally, a majority highlighted concerns about the risk of executing innocent individuals, with only a minority believing there are adequate safeguards to eliminate the possibility of wrongful execution."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_a4bf397b.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "63% believe the death penalty does not deter serious crimes, and 78% believe there is a risk an innocent person will be put to death.",
+                "35% believe the death penalty does not deter serious crimes, and 27% believe there is a risk an innocent person will be put to death",
+                "41% believe the death penalty does not deter serious crimes, and 33% believe there is a risk an innocent person will be put to death",
+                "56% believe the death penalty does not deter serious crimes, and 64% believe there is a risk an innocent person will be put to death"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_travel_music_economy_4c881baf",
+                    "insert_conversation_turn": 266
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_literature_video_games_food_fae56f28",
+                    "insert_conversation_turn": 765,
+                    "reference_name": "Fig. 02bb4d1a"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "politics",
+                "government"
+            ],
+            "original_question": "the text, what percentage of survey respondents believe there is a risk of \"executing innocent individuals\" and also believe the death penalty lacks \"deterrent effects\"?"
+        }
+    },
+    {
+        "id": "QA_sample_75d5f665",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 30cee83c, the previous definition, which conflict depicted in the image qualifies as a \"'severe' crisis\" according to the organization's criteria?",
+        "answer": "Israel's attacks on Gaza",
+        "evidence": {
+            "text_evidence": [
+                "An organization defines a crisis as 'severe' if the civilian death toll surpasses 10,000 within six months and the number of children killed exceeds 3,000 within the same time frame. For comparison purposes, data on civilian deaths and child deaths from conflict regions in recent years are included."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_0d15c78c.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Syrian civil war",
+                "Israel's attacks on Gaza",
+                "Russia-Ukraine war",
+                "Yemen conflict"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_video_games_economy_science_6737a361",
+                    "insert_conversation_turn": 932
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_travel_music_economy_4c881baf",
+                    "insert_conversation_turn": 665,
+                    "reference_name": "Fig. 30cee83c"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "politics",
+                "history",
+                "government"
+            ],
+            "original_question": "the previous definition, which conflict depicted in the image qualifies as a \"'severe' crisis\" according to the organization's criteria?"
+        }
+    },
+    {
+        "id": "893aad62",
+        "domain": "MMDocRAG",
+        "category": "Single_Hop_QA",
+        "question": "Based on Doc. e8f522d7, Doc. 8b9157e5, Doc. a5e03d99, Doc. 61a6937d, What is the distribution of difficulty levels across the questions in the MMMU dataset, and how does this relate to the disciplines covered?",
+        "answer": "Easy (28%), Medium (45%), Hard (27%)",
+        "evidence": {
+            "text_evidence": [
+                "We introduce the Massive Multi-discipline Multimodal Un- der standing and Reasoning ( MMMU ) benchmark, a novel benchmark meticulously curated to assess the expert-level multimodal understanding capability of foundation models across a broad scope of tasks. Covering 30 subjects across 6 disciplines, including Art, Business, Health & Medicine, Science, Humanities & Social Science, and Tech & Engi- neering, and over 183 subfields. The detailed subject cover- age and statistics are detailed in  Figure 3 . The questions in our benchmark were manually collected by a team of 50 college students (including coauthors) from various dis- ciplines and subjects, drawing from online sources, text- books, and lecture materials. "
+            ],
+            "image_evidence": [],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": [
+                [
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Our  MMMU  benchmark introduces four key challenges to multimodal foundation models, as detailed in  Figure 1 . Among these, we particularly highlight the challenge stem- ming from the requirement for both expert-level visual perceptual abilities and deliberate reasoning with subject- specific knowledge. This challenge is vividly illustrated through our tasks, which not only demand the processing of various heterogeneous image types but also necessitate a model’s adeptness in using domain-specific knowledge to deeply understand both the text and images and to reason. This goes significantly beyond basic visual perception, call- ing for an advanced approach that integrates advanced mul- timodal analysis with domain-specific knowledge. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "To this end, we introduce  MMMU : a comprehensive benchmark designed for college-level multi-discipline mul- timodal understanding and reasoning. It features problems sourced from college exams, quizzes, and textbooks span- ning six common disciplines: Art & Design, Business, Sci- ence, Health & Medicine, Humanities & Social Science, and Tech & Engineering.  MMMU  consists of  11 . 5 K carefully selected multimodal questions, which cover  30  diverse sub- jects and  183  subfields, thus meeting the  breadth  goal. Moreover, many problems within  MMMU  require expert-level reasoning, such as applying “Fourier Transform” or “Equi- librium Theory” to derive the solution, thus meeting the depth  goal.  MMMU  also presents two unique challenges ab- sent in current benchmarks ( Figure 1 ). Firstly, it covers di- verse image formats, from visual scenes like photographs and paintings to diagrams and tables, testing the perceptual capabilities of LMMs. Secondly,  MMMU  features interleaved text-image inputs. A model needs to jointly understand the images and text, which often requires recalling deep subject knowledge, and conducting complex reasoning based on the understanding and knowledge to reach a solution. "
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_589b6c2e.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_de6f3b0a.png"
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "to holistic ally evaluate LMMs’ general multimodal percep- tion and reasoning abilities. Therefore, numerous all-round benchmarks have been established to assess different facets of LMMs. These benchmarks cover a wide spectrum of specific skills of LMMs, from Optical Character Recogni- tion (OCR) as seen in the study by [ 37 ], to adversarial ro- bustness [ 68 ] and hallucination [ 13 ,  32 ], e.g., POPE [ 30 ] and HaELM [ 54 ]. More holistic evaluations have been con- ducted as well, such as LAMM [ 61 ], LVLM-eHub [ 57 ], SEED [ 25 ], MMBench [ 36 ], and MM-Vet [ 63 ]. These benchmarks still largely focus on relatively basic percep- tion abilities without requiring expert-level domain knowl- edge and deliberate reasoning. More recently, MathVista [ 40 ] presents a collection of visually challenging questions; however, its scope is limited exclusively to the mathemat- ical domain.  MMMU  is highly different from these bench- marks by collecting more difficult expert-level problems that cover 30 different subjects and require nuanced percep- tion, recalling domain-specific knowledge to perform step- by-step reasoning to derive the solution. In line with the mo- tivation of our study, concurrently, GAIA [ 42 ] introduces 466 questions that test fundamental abilities of models such as reasoning, multi modality handling, or tool use. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Different Difficulty Levels. Table 3  compares the per- formance of selected models across three difficulty lev- els. GPT-4V demonstrates a significantly higher profi- ciency, with a success rate of   $76.1\\%$  , compared to open- source models in the “Easy” category. When it comes to "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "How to create benchmarks for measuring Expert AGI? Since the definition is based on comparison with  skilled adults , a natural starting point is college-level exams for different disciplines, because those are designed to evalu- ate  skilled adults  specialized in each discipline. This strat- egy has been successfully adopted in benchmarks such as MMLU [ 19 ] and AGIEval [ 69 ], but only text-based ques- tions are considered, while human experts are capable of solving multimodal problems. Meanwhile, large multi- modal models (LMMs) that can understand both text and images have been making a major stride towards more gen- eral AI [ 8 ,  14 ,  27 ,  34 ,  58 ]. These LMMs have consistently excelled in existing multimodal benchmarks [ 3 ,  18 ,  25 ,  31 , 36 ,  50 ,  61 ,  63 ]. For instance,   $\\mathbf{\\mathrm{CogVLM}}$   [ 55 ] achieves  $85\\%$  on VQA-v2 [ 18 ],  $92\\%$   on ScienceQA-IMG [ 39 ], and    $93\\%$  on RefCOCO [ 23 ]. However, most existing multimodal benchmarks focus on commonsense/daily knowledge rather than expert-level domain knowledge and advanced reason- ing. The closest one to our goal is ScienceQA [ 39 ]. While it covers diverse disciplines ( breadth ), the majority of the questions are at the elementary to the middle school level, thus falling short in  depth  for benchmarking Expert AGI. "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_0a14d0a5.png"
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_acc3f886.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "We evaluate  14  open-source LMMs as well as the ad- vanced proprietary LMMs such as GPT-4V(ision) [ 46 ] on MMMU . Our key findings are summarized as follows:\n\n •  MMMU  presents significant challenges; notably, GPT-4V only achieves an accuracy of    $55.7\\%$  , indicating substan- tial room for improvement.\n\n • There is a pronounced disparity in performance between open-source LMMs and GPT-4V. The highest-performing "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "We introduce  MMMU : a new benchmark designed to eval- uate multimodal models on massive multi-discipline tasks demanding college-level subject knowledge and deliberate reasoning. MMMU  includes   $l l.5K$   meticulously collected multimodal questions from college exams, quizzes, and text- books, covering six core disciplines: Art & Design, Busi- ness, Science, Health & Medicine, Humanities & Social Science, and Tech & Engineering. These questions span 30 subjects and 183 subfields, comprising 30 highly het- erogeneous image types, such as charts, diagrams, maps, tables, music sheets, and chemical structures. Unlike ex- isting benchmarks,  MMMU  focuses on advanced perception and reasoning with domain-specific knowledge, challenging models to perform tasks akin to those faced by experts. The evaluation of 14 open-source LMMs as well as the propri- etary GPT-4V(ision) and Gemini highlights the substantial challenges posed by  MMMU . Even the advanced GPT-4V and Gemini Ultra only achieve accuracies of   $56\\%$   and  $59\\%$   re- spectively, indicating significant room for improvement. We believe  MMMU  will stimulate the community to build next- generation multimodal foundation models towards expert artificial general intelligence. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Our aim with  MMMU  is to push the boundaries of what LMMs can achieve. We believe it will prove instrumental in developing next-generation multimodal foundation models and monitoring the progress towards Expert AGI. We shall caution that  MMMU  is not a  sufficient  test for Expert AGI, as per the definition [ 44 ], because there lacks a direct map- ping between performance on  MMMU  and “90th percentile of skilled adults,” nor are college exams the only tasks an AGI shall tackle. However, we believe it should be  necessary  for an Expert AGI to achieve strong performance on  MMMU  to demonstrate their broad and deep subject knowledge as well as expert-level understanding and reasoning capabilities. "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_a636216f.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_642e53dd.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "the annotators are advised to select questions without im- mediately available answers, such as those with answers in separate documents or at the end of textbooks. This process results in a diverse collection of 13K questions from various sources. The detailed annotation protocol is in Appendix A. Data Quality Control.  To further control the quality of our data, we perform two steps of data cleaning. In the first stage, lexical overlap and source URL similarity are em- ployed to identify potential duplicate problems. These sus- pected duplicates were then reviewed by the authors to iden- tify and eliminate any duplications. The second stage in- volves distributing the problems among different co-authors for format and typo checking. This step requires authors to ensure adherence to a standardized format, undertaking nec- essary corrections where deviations are found. In the third and final stage, the authors categorize the problems into four difficulty levels: very easy, easy, medium, and hard. Ap- proximate ly   $10\\%$   of the problems, classified as very easy and not aligning with our design criteria due to their sim- plistic nature, are excluded from the benchmark. This rig- orous process plays a crucial role in maintaining the quality and difficulty of the problem set. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "MMMU , constituting 11.5K questions, is divided into a few-shot development set, a validation set, and a test set. The few-shot development set includes 5 questions per sub- ject, and the validation set, useful for hyper parameter selec- tion, contains approximately 900 questions, while the test set comprises   $10.5\\mathrm{K}$   questions.  MMMU  is designed to mea- sure three essential skills in LMMs: perception, knowledge, and reasoning. Our aim is to evaluate how well these mod- els can not only perceive and understand information across different modalities but also apply reasoning with subject- specific knowledge to derive the solution. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "In this section, we show the distribution of 30 different im- age types in the 11.5K MMMU questions. The distribution of various image types is displayed in  Figure 96 . A horizon- tal bar chart was employed to visually represent the number of samples in each image category. The figure shows that the MMMU dataset encompasses a diverse range of image types, from Advertisements to Diagrams. "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_567cb237.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_0db6f04b.png"
+                        }
+                    }
+                ]
+            ]
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Easy (28%), Medium (45%), Hard (27%)",
+                "Easy (30%), Medium (40%), Hard (30%)",
+                "Easy (32%), Medium (41%), Hard (27%)",
+                "Easy (25%), Medium (50%), Hard (25%)"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_literature_video_games_food_fae56f28",
+                    "insert_conversation_turn": 353
+                }
+            ],
+            "image_evidence_assignment": [],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_video_games_economy_science_6737a361",
+                    "insert_conversation_turn": 1178,
+                    "reference_name": "Doc. e8f522d7"
+                },
+                {
+                    "conversation_name": "group_chat_literature_video_games_food_fae56f28",
+                    "insert_conversation_turn": 243,
+                    "reference_name": "Doc. 8b9157e5"
+                },
+                {
+                    "conversation_name": "group_chat_travel_music_economy_4c881baf",
+                    "insert_conversation_turn": 613,
+                    "reference_name": "Doc. a5e03d99"
+                },
+                {
+                    "conversation_name": "group_chat_travel_music_economy_4c881baf",
+                    "insert_conversation_turn": 598,
+                    "reference_name": "Doc. 61a6937d"
+                }
+            ]
+        },
+        "meta_data": {
+            "category": "Academic paper",
+            "doc_name": "2311.16502v3",
+            "gold_quotes": [
+                "text2",
+                "text3",
+                "image2",
+                "image3"
+            ],
+            "topic": [
+                "science",
+                " health",
+                " business",
+                " history",
+                " literature",
+                " art and design",
+                " music",
+                " technology",
+                " education"
+            ],
+            "original_question": "What is the distribution of difficulty levels across the questions in the MMMU dataset, and how does this relate to the disciplines covered?"
+        }
+    },
+    {
+        "id": "QA_sample_1c871d5e",
+        "domain": "MLLMKC",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. 2c1ea178, What is the occupation of the person in the picture?",
+        "answer": "businessman, television personality, and politician",
+        "evidence": {
+            "text_evidence": [
+                "Donald Trump was born on June 14, 1946. Donald Trump is American. Donald Trump is a businessman, television personality, and politician."
+            ],
+            "image_evidence": [
+                "MLLMKC_4acac615.jpg"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Donald Trump was born on June 14, 1946. Donald Trump is American. Donald Trump is a chef, television personality, and politician."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "chef",
+                "gardener, botanist, landscaper",
+                "businessman, television personality, and politician",
+                "astronaut"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_video_games_economy_science_6737a361",
+                    "insert_conversation_turn": 547
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_literature_video_games_food_fae56f28",
+                    "insert_conversation_turn": 891,
+                    "reference_name": "Fig. 2c1ea178"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_travel_music_economy_4c881baf",
+                    "insert_conversation_turn": 44
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "instance": "Donald Trump",
+            "category": "people",
+            "error_type": "Career_error",
+            "topic": [
+                "politics",
+                " television",
+                " business"
+            ],
+            "original_question": "What is the occupation of the person in the picture?"
+        }
+    },
+    {
+        "id": "QA_sample_eabcd3c3",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. b67d79b9, the text, does the leading candidate have \"clear majority support\" according to the poll results and the stated margin of error?",
+        "answer": "No",
+        "evidence": {
+            "text_evidence": [
+                "A candidate is considered to have clear majority support if they maintain at least a 10% lead over the second-place candidate in a poll. For this poll, the margin of error is ±4%."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_87d92c04.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "No",
+                "Yes"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_video_games_economy_science_6737a361",
+                    "insert_conversation_turn": 490
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_travel_music_economy_4c881baf",
+                    "insert_conversation_turn": 821,
+                    "reference_name": "Fig. b67d79b9"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "politics"
+            ],
+            "original_question": "the text, does the leading candidate have \"clear majority support\" according to the poll results and the stated margin of error?"
+        }
+    },
+    {
+        "id": "QA_sample_168a10e8",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. f8c4f13a, the text, does public opinion in 2020 show sufficient support to realistically amend the Constitution, meaning does it meet the \"at least 66% of the total population needs to favor a change\" threshold required for such an amendment?",
+        "answer": "No",
+        "evidence": {
+            "text_evidence": [
+                "A constitutional amendment requires the support of two-thirds of both chambers of Congress and ratification by three-fourths of state legislatures. Assume that public opinion directly influences legislators' willingness to support an amendment. To achieve this level of support, at least 66% of the total population needs to favor a change. However, splits along partisan lines can affect the feasibility of garnering such widespread agreement."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_8598ad17.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "No",
+                "Yes"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_video_games_economy_science_6737a361",
+                    "insert_conversation_turn": 1015
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_literature_video_games_food_fae56f28",
+                    "insert_conversation_turn": 1039,
+                    "reference_name": "Fig. f8c4f13a"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "politics",
+                "government"
+            ],
+            "original_question": "the text, does public opinion in 2020 show sufficient support to realistically amend the Constitution, meaning does it meet the \"at least 66% of the total population needs to favor a change\" threshold required for such an amendment?"
+        }
+    },
+    {
+        "id": "ac8935eb",
+        "domain": "MMDocRAG",
+        "category": "Single_Hop_QA",
+        "question": "Based on Doc. 4806d62b, Doc. cded5d26, Doc. cdbd9366, Which dataset has the highest Cohen kappa score reported in Table 2?",
+        "answer": "FEVER",
+        "evidence": {
+            "text_evidence": [],
+            "image_evidence": [],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": [
+                [
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Table 4: Metrics for ‘soft’ scoring models. Perf. is ac- curacy (CoS-E) or F1 (others). Comprehensiveness and sufﬁciency are in terms of AOPC (Eq.  3 ). ‘Random’ assigns random scores to tokens to induce orderings; these are averages over 10 runs. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Table 2: Human agreement with respect to rationales. For Movie Reviews and BoolQ we calculate the mean agreement of individual annotators with the majority vote per token, over the two-three annotators we hired via Upwork and Amazon Turk, respectively. The e-SNLI dataset already comprised three annotators; for this we calculate mean agreement between individuals and the majority. For CoS-E, MultiRC, and FEVER, members of our team annotated a subset to use a comparison to the (majority of, where appropriate) existing rationales. We collected comprehensive rationales for Evidence Inference from Medical Doctors; as they have a high amount of expertise, we would expect agreement to be high, but have not collected redundant comprehensive annotations. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "In Table  4  we report metrics for models that assign continuous importance scores to individ- ual tokens. For these models we again measure downstream (task) performance (macro F1 or ac- curacy). Here the models are actually the same, and so downstream performance is equivalent. To assess the quality of token scores with respect to human annotations, we report the Area Under the Precision Recall Curve (AUPRC). "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_f9c6c13a.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_4e069902.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "James Thorne, Andreas Vlachos, Christos Christodoulopoulos, and Arpit Mittal. 2018. FEVER: a Large-scale Dataset for Fact Extraction and VERiﬁcation. In  Proceedings of the North American Chapter of the Association for Computa- tional Linguistics (NAACL) , pages 809–819. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "A high score here implies that the rationales were indeed inﬂuential in the prediction, while a low score suggests that they were not. A negative value "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "For the discrete case, measuring exact matches between predicted and reference rationales is likely too harsh.   We thus consider more relaxed mea- sures. These include Intersection-Over-Union (IOU), borrowed from computer vision ( Evering- ham et al. ,  2010 ), which permits credit assignment for partial matches. We deﬁne IOU on a token level: for two spans, it is the size of the overlap of the tokens they cover divided by the size of their union. We count a prediction as a match if it overlaps with any of the ground truth rationales by more than some threshold (here, 0.5). We use these partial matches to calculate an F1 score. We also measure token -level precision and recall, and use these to derive token-level F1 scores. "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_3d384652.png"
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_910c4da2.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "This is deﬁned for sufﬁciency analogously. Here we group tok    $k=5$  y gro  them into the top 1%, 5%, 10%, 20% and 50% of to- kens, with respect to the corresponding importance score. We refer to these metrics as “Area Over the Perturbation Curve” (AOPC). "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "For these models, we set the sparsity rate at 0.01 and we set the contiguity loss weight to 2 times sparsity rate (following the original paper). We used bert-base-uncased ( Wolf et al. ,  2019 ) as to- ken embedder (for all datasets except BoolQ, Ev- idence Inference and FEVER) and Bidirectional LSTM with 128 dimensional hidden state in each direction. A dropout ( Srivastava et al. ,  2014 ) rate of 0.2 was used before feeding the hidden repre- sentations to attention layer in decoder and linear layer in encoder. One layer MLP with 128 dimen- sional hidden state and ReLU activation was used to compute the decoder output distribution. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "As deﬁned, the above measures have assumed discrete rationales  $r_{i}$  . We would also like to eval- uate the faithfulness of continuous importance scores assigned to tokens by models. Here we adopt a simple approach for this. We convert soft scores over features    $s_{i}$   provided by a model into discre ationales    $r_{i}$   by taking the op  $-k_{d}$   v es, where  $k_{d}$   is a threshold for dataset  d . We set  $k_{d}$   to the average rationale length provided by humans for dataset    $d$   (see Table  4 ). Intuitively, this says: How much does the model prediction change if we remove a number of tokens equal to what humans use (on average for this dataset) in order of the importance scores assigned to these by the model. Once we have discretized the soft scores into ra- tionales in this way, we compute the faithfulness scores as per Equations  1  and  2 . "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_e65ea80d.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_b6900d79.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Metrics for continuous or soft token scoring models consider token rankings, rewarding models for assigning higher scores to marked tokens. In particular, we take the Area Under the Precision- Recall curve (AUPRC) constructed by sweeping a threshold over token scores. We deﬁne additional metrics for soft scoring models below. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "BoolQ  ( Clark et al. ,  2019 ) The BoolQ dataset re- quired substantial processing. The original dataset did not retain source Wikipedia articles or col- lection dates. In order to identify the source paragraphs, we download the 12/20/18 Wikipedia archive, and use FuzzyWuzzy  https://github. com/seatgeek/fuzzywuzzy  to identify the source paragraph span that best matches the original re- lease. If the Levenshtein distance ratio does not reach a score of at least 90, the corresponding in- stance is removed. For public release, we use the ofﬁcial validation set for testing, and repartition train into a training and validation set. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Human Agreement  We report human agreement over extracted rationales for multiple annotators and documents in Table  2 . All datasets have a high Cohen    $\\kappa$   ( Cohen ,  1960 ); with substantial or better agreement. "
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_18ed993f.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_dd68e931.png"
+                        }
+                    }
+                ]
+            ]
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "e-SNLI",
+                "FEVER",
+                "Movie Reviews",
+                "MultiRC"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [],
+            "image_evidence_assignment": [],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_video_games_economy_science_6737a361",
+                    "insert_conversation_turn": 1272,
+                    "reference_name": "Doc. 4806d62b"
+                },
+                {
+                    "conversation_name": "group_chat_literature_video_games_food_fae56f28",
+                    "insert_conversation_turn": 937,
+                    "reference_name": "Doc. cded5d26"
+                },
+                {
+                    "conversation_name": "group_chat_travel_music_economy_4c881baf",
+                    "insert_conversation_turn": 110,
+                    "reference_name": "Doc. cdbd9366"
+                }
+            ]
+        },
+        "meta_data": {
+            "category": "Academic paper",
+            "doc_name": "2020.acl-main.408",
+            "gold_quotes": [
+                "text12",
+                "image3"
+            ],
+            "topic": [
+                "science",
+                " health"
+            ],
+            "original_question": "Which dataset has the highest Cohen kappa score reported in Table 2?"
+        }
+    },
+    {
+        "id": "QA_sample_32244898",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 99ad4e35, the text, does the change in address updates in the 'Share of Voting-Eligible' category meet the threshold of being \"impactful,\" meaning it exceeds \"at least half the percentage increase of new registrations in the same category\"?",
+        "answer": "No",
+        "evidence": {
+            "text_evidence": [
+                "For policy efficacy evaluation, address updates are considered impactful only if their change percentages exceed at least half the percentage increase of new registrations in the same category."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_e272994d.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Yes",
+                "No"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_video_games_economy_science_6737a361",
+                    "insert_conversation_turn": 519
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_literature_video_games_food_fae56f28",
+                    "insert_conversation_turn": 338,
+                    "reference_name": "Fig. 99ad4e35"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "politics",
+                "government"
+            ],
+            "original_question": "the text, does the change in address updates in the 'Share of Voting-Eligible' category meet the threshold of being \"impactful,\" meaning it exceeds \"at least half the percentage increase of new registrations in the same category\"?"
+        }
+    },
+    {
+        "id": "ced6a0ff",
+        "domain": "MMDocRAG",
+        "category": "Single_Hop_QA",
+        "question": "Based on Doc. 4e8d3ed8, Doc. 60f82791, Doc. 9ace774e, Doc. 80bccd0f, How does Mendelian inheritance explain the phenotypic and genotypic ratios observed in the F2 generation of pea plants?",
+        "answer": "Phenotypic ratio: 3 purple : 1 white; Genotypic ratio: 1 PP : 2 Pp : 1 pp",
+        "evidence": {
+            "text_evidence": [
+                "·Gregor Mendel discovered principles of genetics in experiments with the garden pea "
+            ],
+            "image_evidence": [],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": [
+                [
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "-Offspring are similar to parents,but show variations in traits -Involves inheritance of unique sets of genes from two parents "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Gene loci "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_16cb9be8.png"
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_5e2372bf.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Mendel showed that parents pass heritable factors to offspring (heritable factors are now called genes) "
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Matching gene loci on homologous chromosomes "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Il was pi up us tu u y nip pu uia les Particles called pan genes came from all parts of the organism tobe incorporated into eggs or sperm Characteristics acquired during theparents'lifetime could be transferred tothe offspring Aristotle rejected pangenesis and argued that instead of particles,the potential to produce the traits was inherited "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_4867815d.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_17cf1cc2.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Recessive allele "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Fertilization is the union of sperm and egg The zygote has a diploid chromosome number,one set from each parent "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "-Involves inheritance of all genes from one parent "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_1edb1772.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_cc5b9089.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Shows the inheritance of a trait in a family through multiple generations "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Example of a mono hybrid cross Parental generation:purple flowers x white flowers F generation:all plants with purple flowers F 2 generation: of plants with purple flowers of plants with white flowers Mendel needed to explain Why one trait seemed to disappear in the  $\\mathsf{F_{1}}$  generation Why that trait reappeared in one quarter of the  $\\mathsf{F_{2}}$  offspring 2 "
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Copyright o 2oog Penrson Education, Inc "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_ef887389.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_4dd392bb.png"
+                        }
+                    }
+                ]
+            ]
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Phenotypic ratio: 3 purple : 1 white; Genotypic ratio: 1 PP : 2 Pp : 1 pp",
+                "Phenotypic ratio: 2 purple : 2 white; Genotypic ratio: 2 PP : 1 Pp : 1 pp",
+                "Phenotypic ratio: 1 purple : 3 white; Genotypic ratio: 1 PP : 1 Pp : 2 pp",
+                "Phenotypic ratio: 4 purple : 0 white; Genotypic ratio: 2 PP : 2 Pp : 0 pp"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_travel_music_economy_4c881baf",
+                    "insert_conversation_turn": 1060
+                }
+            ],
+            "image_evidence_assignment": [],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_literature_video_games_food_fae56f28",
+                    "insert_conversation_turn": 859,
+                    "reference_name": "Doc. 4e8d3ed8"
+                },
+                {
+                    "conversation_name": "group_chat_video_games_economy_science_6737a361",
+                    "insert_conversation_turn": 1033,
+                    "reference_name": "Doc. 60f82791"
+                },
+                {
+                    "conversation_name": "group_chat_literature_video_games_food_fae56f28",
+                    "insert_conversation_turn": 719,
+                    "reference_name": "Doc. 9ace774e"
+                },
+                {
+                    "conversation_name": "group_chat_video_games_economy_science_6737a361",
+                    "insert_conversation_turn": 418,
+                    "reference_name": "Doc. 80bccd0f"
+                }
+            ]
+        },
+        "meta_data": {
+            "category": "Tutorial/Workshop",
+            "doc_name": "chapter8-geneticscompatibilitymode-141214140247-conversion-gate02_95",
+            "gold_quotes": [
+                "text1",
+                "image1",
+                "text11",
+                "image8",
+                "text4"
+            ],
+            "topic": [
+                "science"
+            ],
+            "original_question": "How does Mendelian inheritance explain the phenotypic and genotypic ratios observed in the F2 generation of pea plants?"
+        }
+    },
+    {
+        "id": "QA_sample_a3891f77",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. b4fcfe88, the text, what should U.S. foreign policy prioritize regarding a country that is perceived \"more often as a competitor than an enemy\" and whose actions are considered a \"minor threat\" to national interests, according to public opinion data?",
+        "answer": "Diplomatic measures",
+        "evidence": {
+            "text_evidence": [
+                "A political analyst proposes that a country's foreign policy should prioritize addressing regions considered 'major threats' to national interests over those regarded as 'minor threats' or 'no threat'. Additionally, if a country is perceived as a competitor more often than an enemy, diplomatic strategies such as negotiation and trade agreements should be emphasized rather than military action."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_aa7747e0.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Military intervention",
+                "Diplomatic measures",
+                "Economic sanctions",
+                "Covert operations"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_travel_music_economy_4c881baf",
+                    "insert_conversation_turn": 1110
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_literature_video_games_food_fae56f28",
+                    "insert_conversation_turn": 587,
+                    "reference_name": "Fig. b4fcfe88"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "politics",
+                "government"
+            ],
+            "original_question": "the text, what should U.S. foreign policy prioritize regarding a country that is perceived \"more often as a competitor than an enemy\" and whose actions are considered a \"minor threat\" to national interests, according to public opinion data?"
+        }
+    },
+    {
+        "id": "559d76da",
+        "domain": "MMDocRAG",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 216f61f7, Doc. 0064de0c, Doc. 1ae3c7ad, Doc. e65fe8fc, Doc. 67606264, What are the main reasoning types and their proportions in the ScITab dataset, and how do they relate to the distribution of reasoning steps and common error types?",
+        "answer": "The main reasoning types in ScITab are simple lookup (20.6%), comparison (19.5%), and closed-domain knowledge (12.1%). Reasoning steps are mostly 3-6, with errors primarily due to grounding (50%) and ambiguity (22%).",
+        "evidence": {
+            "text_evidence": [],
+            "image_evidence": [
+                "MMDocRAG_2d64782c.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": [
+                [
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "the majority of models. This observation is some- what expected for open source LLMs as they have not been reported to possess in-context learning ca- pabilities. Nonetheless, it is surprising to find that even with chain-of-thought prompting, in-context demonstrations do not yield positive effects for In- structGPT and GPT-4. Our error analysis on the PoT offers some insight into this phenomenon and will be discussed in the next section. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "the “Prod.” column; and 4)  numerical reasoning : the difference between   $57.5\\%$   and   $50\\%$   is   $7.5\\%$  . This case study provides further insights into the complexity and variety of reasoning involved in S CI T AB , revealing the difficulty of the dataset. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Table 5: The error types and their estimated proportions for incorrectly-predicted samples in PoT. "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_dd58f7fe.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_7073b085.png"
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "2. Counter-intuitively, table-based LLMs do not outperform models pre-trained on pure texts, for example,  FLAN-T5 . This discrepancy may be at- tributed to the dissimilarity between the distribution of tables in scientific literature and publicly avail- able table corpus. For example, scientific tables commonly include both row and column headers, whereas most tables in Wikipedia lack row headers. Meanwhile, the claims in our dataset are usually much longer than those in previous works, raising challenges to table-based LLMs. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Scientific Fact-Checking Datasets. Existing datasets for scientific fact-checking are summa- rized in a recent survey from  Vladika and Matthes ( 2023 ). These datasets differ in: 1)  domain : bi- ology ( Wadden et al. ,  2020 ;  Akhtar et al. ,  2022 ), COVID-19 ( Saakyan et al. ,  2021 ;  Sarrouti et al. , 2021 ;  Mohr et al. ,  2022 ;  Wang et al. ,  2023 ), and cli- mate ( Diggelmann et al. ,  2020 ), 2)  claim creation : crowd-sourced claims  v.s.  natural claims, and 3) evidence source : Wikipedia articles ( Diggelmann et al. ,  2020 ) or research papers ( Wadden et al. , 2020 ,  2022 ;  Sarrouti et al. ,  2021 ). However, most of these datasets rely on text evidence to verify claims. SEM-TAB-FACTS ( Wang et al. ,  2021 ) is the only existing dataset based on scientific tables, but it is limited to simple, crowd-sourced claims. To bridge this gap, we construct S CI T AB  which contains complex claims from authentic scientific papers with table-based evidence. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "The NEI claims (bottom half; Table  3 ) also ex- hibit diverse reasoning patterns. The two most common features for un verifiable claims are insuf- ficient evidence in the table and the lack of back- ground knowledge. The lack of closed-domain knowledge is another reason for NEI, where ad- ditional information in the paper is necessary to verify the claim. Other reasons include the use of vague pronouns ( e.g. , “it”, “this”) brings ambiguity to the claim. These distinct refuted and NEI reason- ing types highlight the unique features of S CI T AB , making it a more comprehensive and realistic rep- resent ation of the challenges faced in real-world scientific fact-checking. "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_025fd0f4.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_6d09e55a.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "We evaluate all models under both  zero-shot  and in-context  settings. In the zero-shot setting, the model does not have access to any in-domain data. In the in-context setting, we provide three hold- out examples as demonstrations. We report two sets of results: the  2-class  case, where examples labeled as NEI are excluded (since some models cannot process NEI claims), and the  3-class  case including all three labels. The results are shown in Table  4 . We have five major observations. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "impacts on other numerical reasoning tasks. In or- der to understand this, we randomly selected 50 claims wherein the PoT incorrectly predicted the final veracity labels and evaluated the quality of the generated Python programs. We divide the er- rors into four categories, as assessed by human annotators: ( i )  Grounding errors , where the pro- gram incorrectly associates data with the respective cells in the table; ( ii )  Ambiguity errors , where the claim contains ambiguous expressions that the pro- gram fails to represent; ( iii )  Calculation errors , where incorrect floating point arithmetic calcula- tion in Python lead to inaccurate results and   $(i\\nu)$  Program errors , which encompass mistakes such as incorrect or missing arguments/variables, and erroneous operations. We present the error analysis in Table  5 , and examples of program errors can be found in Figure  13  and Figure  14  in Appendix  G . Compared to other datasets, categories   $(i)$   and   $(i i)$  present unique challenges in our dataset. Cate- gory   $(i)$   underlines the difficulty in accurately ref- erencing the specific cells to which a claim refers. Category   $(i i)$  , on the other hand, emphasizes the difficulties posed by the ambiguous nature of scien- tific claims, such as “A is significantly better than  $\\mathbf{B}^{\\ast}$  , to program-based methods. This connection further emphasizes the contribution of our work in addressing the mismatches between reasoning types and the occurrence of grounding errors. "
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Human Performance. To examine how humans perform on our S CI T AB  dataset, we hired an anno- tator from our candidate annotators pool, following the same training procedure as other annotators. In the case of 2-class classification, we randomly selected 40 samples: 20 each for supported and refuted claims. For 3-class classification, we ran- domly selected 60 random samples, ensuring an even distribution of 20 samples across the three la- bel categories (supported, refuted, and not enough information). The annotator took approximately 1.5 hours for the 2-class fact-checking task and 2 hours for the 3-class setting. We report the Macro- F1 scores at the bottom of Table  4 . "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_378f5ea1.png"
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Table-based LLMs. These are pre-trained trans- former models fine-tuned on tabular data. We choose three different models: 1)  TAPAS  ( Herzig et al. ,  2020 ), a BERT-based model fine-tuned on millions of tables from English Wikipedia and cor- responding texts, 2)  TAPEX  ( Liu et al. ,  2022b ), a model that fine-tunes BART ( Lewis et al. ,  2020 ) on a large-scale synthetic dataset generated by synthe- sizing executable SQL queries and their execution outputs, and 3)  TAPEX-Zero  ( Liu et al. ,  2023b ), an enlarged version of  TAPEX . For  TAPAS  and  TAPEX , we use their fine-tuned version on TabFact ( Chen et al. ,  2020 ) for table fact-checking. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Closed Source LLMs. These are closed-source LLMs that require API calls for inference, includ- ing  Instruct GP T (text-davinci-003)  ( Ouyang et al. ,  2022 ) and  GPT-4  ( OpenAI ,  2023 ). We evaluate the setting that directly predicts the la- bel and the  Chain-of-Thought  (CoT) ( Wei et al. , 2022 ) setting, which generates explanations be- fore predicting the final label. We also include the Program-of-Thoughts  (PoT) ( Chen et al. ,  2022 ) model that has shown strong ability in solving com- plex numerical reasoning tasks. It first parses the reasoning steps as Python programs and then exe- cutes them on a Python interpreter to derive accu- rate answers. Since most claims in S CI T AB  also re- quire numerical reasoning, we want to test whether program-guided reasoning can be extended to table- based fact-checking. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "One potential risk of model-generated claims is that they may lack diversity and exhibit the same pattern. For example, in the Sci-Fact ( Wadden et al. ,  2020 ) dataset where the refuted claims are generated by flapping the meaning of the original true claims, we found that out of 100 randomly sampled refuted claims, 85 simply negated the orig- inal claim by adding negation words such as “not” (more details in Appendix  C ). To evaluate the diver- sity of claims for our S CI T AB  dataset, we randomly select 60 refuted claims and then manually anno- tate their reasons for refutation. Results are shown in Table  3  (top half). We find that S CI T AB  exhibits a greater diversity in refuted claims compared to Sci-Fact. Besides common error types such as “in- correct calculation results”   $(41.7\\%)$  , there are also unique types of errors that are more reflective of the complexities in real-world scientific claims. For example,   $33.33\\%$   of the refuted claims contain “in- correct approximation words”, and   $10.0\\%$   are cases where “the claim is partially right”, consistent with the fact that ambiguity and half-truths are common phenomena in scientific discourse. Additional ex- amples of refuted claims are in Appendix  E . "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_870821c8.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_8ca2b772.png"
+                        }
+                    }
+                ]
+            ]
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "The main reasoning types in ScITab are simple lookup (20.6%), comparison (19.5%), and closed-domain knowledge (12.1%). Reasoning steps are mostly 3-6, with errors primarily due to grounding (50%) and ambiguity (22%).",
+                "Comparison (19.5%), commonsense knowledge (5.3%), and add (4.0%). Reasoning steps are mostly 2-5, with errors primarily due to calculation (20%) and program (8%).",
+                "Closed-domain knowledge (12.1%), subtract (5.3%), and set check (2.9%). Reasoning steps are mostly 5-8, with errors primarily due to program (8%) and grounding (50%).",
+                "Simple lookup (20.6%), divide (5.3%), and max/min (3.1%). Reasoning steps are mostly 4-7, with errors primarily due to ambiguity (22%) and calculation (20%)."
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_travel_music_economy_4c881baf",
+                    "insert_conversation_turn": 761,
+                    "reference_name": "Fig. 216f61f7"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_literature_video_games_food_fae56f28",
+                    "insert_conversation_turn": 828,
+                    "reference_name": "Doc. 0064de0c"
+                },
+                {
+                    "conversation_name": "group_chat_literature_video_games_food_fae56f28",
+                    "insert_conversation_turn": 540,
+                    "reference_name": "Doc. 1ae3c7ad"
+                },
+                {
+                    "conversation_name": "group_chat_literature_video_games_food_fae56f28",
+                    "insert_conversation_turn": 171,
+                    "reference_name": "Doc. e65fe8fc"
+                },
+                {
+                    "conversation_name": "group_chat_travel_music_economy_4c881baf",
+                    "insert_conversation_turn": 791,
+                    "reference_name": "Doc. 67606264"
+                }
+            ]
+        },
+        "meta_data": {
+            "category": "Academic paper",
+            "doc_name": "2305.13186v3",
+            "gold_quotes": [
+                "image6",
+                "image5",
+                "text8",
+                "image2"
+            ],
+            "topic": [
+                "science",
+                " technology"
+            ],
+            "original_question": "What are the main reasoning types and their proportions in the ScITab dataset, and how do they relate to the distribution of reasoning steps and common error types?"
+        }
+    },
+    {
+        "id": "8884edd6",
+        "domain": "MMDocRAG",
+        "category": "Single_Hop_QA",
+        "question": "Based on Doc. 462f57bd, Doc. 6ffe9162, Doc. 5ffbb2da, What is the most common reason for a refuted claim in the SCITAB dataset?",
+        "answer": "The calculation result is wrong.",
+        "evidence": {
+            "text_evidence": [],
+            "image_evidence": [],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": [
+                [
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Encoder–Decoder LLMs. We also use en- coder–decoder models where both the input and output are sequences of tokens. To adapt the model to take the table as input, we flatten the table as a sequence following  Chen et al.  ( 2020 ). The in- put is then formulated as    $[\\Tilde{T};P;C;Q]$  , where  $\\tilde{T}$   is the linearized table, and    $Q$   is a question template “Based on the information in the table, is the above claim true? A) True B) False C) Unknown?”. We choose  FLAN-T5  ( Chung et al. ,  2022 ), an improved T5 model ( Raffel et al. ,  2020 ) pre-trained on more than 1.8K tasks with instruction tuning, which has achieved strong zero-shot/in-context performance on other fact-checking benchmarks. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "3. The results in the 3-class setting are notably poorer than those in the 2-class setting. This dis- crepancy reveals the challenges that most models face when confronted with the NEI class. One plausible explanation could be the inherent diffi- culty in distinguishing between ‘refuted’ and ‘NEI’ claims — a task that even trained human annotators struggle with, as noted by  Jiang et al.  ( 2020 ). Our forthcoming error analysis will further demonstrate that the inclusion of the NEI class tends to dimin- ish the models’ confidence, causing a shift in their predictions from ‘supported/refuted’ to ‘NEI’. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Further, we also examine individual error in- stances, with typical examples provided in Fig- ures  11  and  12  of Appendix  F . The majority of ‘supported’ claims that were incorrectly classified as ‘refuted’ (Case 6) involve numerical reasoning or comparison. Conversely, when ‘refuted’ claims are inaccurately predicted as ‘supported’ (Case 3), we find that LLMs often overlook claims contain- ing negation, indicating a lack of deep compre- hension. For cases where ‘supported’ or ‘refuted’ claims are erroneously predicted as ‘NEI’ (Cases 1 and 2), such claims typically demand extensive rea- soning and a deep understanding of the research findings. Interestingly, when faced with these com- plex cases, the model tends to default to the safer choice of ‘uncertain’ (NEI). "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_f3f9127e.png"
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_b503aa2d.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Table  6  provides an analysis of the reasons for re- futed claims in the Sci-Fact dataset, along with their estimated proportions. A random sample of 100 refuted claims was selected, and the results indicate that   $85\\%$   of claims were simply negated using terms like “not” or paraphrased based on the evidence sentences. Additionally,  $6\\%$   of the refuted claims were attributed to incorrect calculation re- sults, while  $6\\%$   were identified as having wrong commonsense knowledge. A smaller proportion of refuted claims   $(3\\%)$   were found to have incorrect open-domain knowledge. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Current scientific fact-checking benchmarks ex- hibit several shortcomings, such as biases aris- ing from crowd-sourced claims and an over- reliance on text-based evidence. We present S CI T AB , a challenging evaluation dataset con- sisting of   $1.2\\mathrm{K}$   expert-verified scientific claims that 1) originate from authentic scientific publi- cations and 2) require compositional reason- ing for verification. The claims are paired with evidence-containing scientific tables an- notated with labels. Through extensive evalu- ations, we demonstrate that S CI T AB  poses a significant challenge to state-of-the-art models, including table-based pre training models and large language models. All models except GPT- 4 achieved performance barely above random guessing. Popular prompting techniques, such as Chain-of-Thought, do not achieve much performance gains on S CI T AB . Our analy- sis uncovers several unique challenges posed by S CI T AB , including table grounding, claim ambiguity, and compositional reasoning. Our codes and data are publicly available at  https: //github.com/X in yuan Lu 00/SciTab . "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "The dataset was created by crawling computer sci- ence papers from arXiv. The tables and the texts explaining the tables are extracted from the papers to create (table, description) pairs for the task of data-to-text generation. From all the table descrip- tions of SciGen, we first filter the check-worthy scientific claims following the criteria established by  Lee et al.  ( 2009 ) for academic writing 1 . We focus on the descriptions that serve the purpose of “highlighting and commenting on key data”, i.e. , describing research findings based on the data presented in scientific tables. Given the task’s ob- jective nature and to save the cost of human labor, we hire a graduate student majoring in computer science to manually select scientific claims based on the aforementioned criteria using the user inter- face in Appendix  A.2 . This decision was based on a pilot annotation which showed that a well-trained annotator can achieve over   $95\\%$   accuracy in filter- ing scientific claims. To safeguard the quality, we include an option to mark the claim as “Discard-It’s not a claim, or it’s an incomplete, or not grammat- ically correct sentence.” during the subsequent claim verification process. Using this approach, we filtered out 872 real-world scientific claims from 1,301 table descriptions in the SciGen dataset. "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_2b3fef66.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_fefa18ad.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "form. In our pilot annotation, we found that man- ual verification played the most essential role in the validation of claims marked as “Not Enough Infor- mation(NEI)”. Initially, we planned to rely solely on LLMs for generating NEI claims. Our criteria for the NEI claim is that “the claim should be flu- ent, logical, and relevant to the table. However, the claim cannot be verified as true or false solely based on the information in the table.” However, after a careful examination of the LLM output, we found that LLM tends to generate claims that are either not logical or irrelevant to the table content. Therefore, human efforts are required to further select NEI claims that meet our criteria. Out of 900 initial NEI claims generated by LLMs, man- ual verification narrowed them down to only 355 claims, taking up  $40\\%$   of the original count. While it may not have served as crucial a role as filtering NEI claims, human verification also safeguarded the data quality in other annotation processes. For example, among the “supported” claims originally appearing in the scientific paper, human validation still identified 10 cases that were actually not sup- ported ( e.g ., wrong number matching.) "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Human Performance. To examine how humans perform on our S CI T AB  dataset, we hired an anno- tator from our candidate annotators pool, following the same training procedure as other annotators. In the case of 2-class classification, we randomly selected 40 samples: 20 each for supported and refuted claims. For 3-class classification, we ran- domly selected 60 random samples, ensuring an even distribution of 20 samples across the three la- bel categories (supported, refuted, and not enough information). The annotator took approximately 1.5 hours for the 2-class fact-checking task and 2 hours for the 3-class setting. We report the Macro- F1 scores at the bottom of Table  4 . "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "One potential risk of model-generated claims is that they may lack diversity and exhibit the same pattern. For example, in the Sci-Fact ( Wadden et al. ,  2020 ) dataset where the refuted claims are generated by flapping the meaning of the original true claims, we found that out of 100 randomly sampled refuted claims, 85 simply negated the orig- inal claim by adding negation words such as “not” (more details in Appendix  C ). To evaluate the diver- sity of claims for our S CI T AB  dataset, we randomly select 60 refuted claims and then manually anno- tate their reasons for refutation. Results are shown in Table  3  (top half). We find that S CI T AB  exhibits a greater diversity in refuted claims compared to Sci-Fact. Besides common error types such as “in- correct calculation results”   $(41.7\\%)$  , there are also unique types of errors that are more reflective of the complexities in real-world scientific claims. For example,   $33.33\\%$   of the refuted claims contain “in- correct approximation words”, and   $10.0\\%$   are cases where “the claim is partially right”, consistent with the fact that ambiguity and half-truths are common phenomena in scientific discourse. Additional ex- amples of refuted claims are in Appendix  E . "
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_cf2f5671.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_57c3d53b.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "The NEI claims (bottom half; Table  3 ) also ex- hibit diverse reasoning patterns. The two most common features for un verifiable claims are insuf- ficient evidence in the table and the lack of back- ground knowledge. The lack of closed-domain knowledge is another reason for NEI, where ad- ditional information in the paper is necessary to verify the claim. Other reasons include the use of vague pronouns ( e.g. , “it”, “this”) brings ambiguity to the claim. These distinct refuted and NEI reason- ing types highlight the unique features of S CI T AB , making it a more comprehensive and realistic rep- resent ation of the challenges faced in real-world scientific fact-checking. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Considering the real-world situation that large- scale training data is either not available or expen- sive to collect, we focus on the  zero-shot/in-context evaluation where the model can only access ze- ro/few in-domain data from S CI T AB . To this end, we randomly hold out 5 tables with 25 claims as model-accessible data and use the rest of the data as the unseen test set. This also prevents the model from learning spurious features that lead to over- estimated performance ( Schuster et al. ,  2019 ). "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "impacts on other numerical reasoning tasks. In or- der to understand this, we randomly selected 50 claims wherein the PoT incorrectly predicted the final veracity labels and evaluated the quality of the generated Python programs. We divide the er- rors into four categories, as assessed by human annotators: ( i )  Grounding errors , where the pro- gram incorrectly associates data with the respective cells in the table; ( ii )  Ambiguity errors , where the claim contains ambiguous expressions that the pro- gram fails to represent; ( iii )  Calculation errors , where incorrect floating point arithmetic calcula- tion in Python lead to inaccurate results and   $(i\\nu)$  Program errors , which encompass mistakes such as incorrect or missing arguments/variables, and erroneous operations. We present the error analysis in Table  5 , and examples of program errors can be found in Figure  13  and Figure  14  in Appendix  G . Compared to other datasets, categories   $(i)$   and   $(i i)$  present unique challenges in our dataset. Cate- gory   $(i)$   underlines the difficulty in accurately ref- erencing the specific cells to which a claim refers. Category   $(i i)$  , on the other hand, emphasizes the difficulties posed by the ambiguous nature of scien- tific claims, such as “A is significantly better than  $\\mathbf{B}^{\\ast}$  , to program-based methods. This connection further emphasizes the contribution of our work in addressing the mismatches between reasoning types and the occurrence of grounding errors. "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_701d0506.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_db478175.png"
+                        }
+                    }
+                ]
+            ]
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "The values in the claim do not match.",
+                "The claim is partially right.",
+                "The operation type is wrong.",
+                "The calculation result is wrong."
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [],
+            "image_evidence_assignment": [],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_video_games_economy_science_6737a361",
+                    "insert_conversation_turn": 185,
+                    "reference_name": "Doc. 462f57bd"
+                },
+                {
+                    "conversation_name": "group_chat_travel_music_economy_4c881baf",
+                    "insert_conversation_turn": 95,
+                    "reference_name": "Doc. 6ffe9162"
+                },
+                {
+                    "conversation_name": "group_chat_literature_video_games_food_fae56f28",
+                    "insert_conversation_turn": 556,
+                    "reference_name": "Doc. 5ffbb2da"
+                }
+            ]
+        },
+        "meta_data": {
+            "category": "Academic paper",
+            "doc_name": "2305.13186v3",
+            "gold_quotes": [
+                "text9",
+                "image1"
+            ],
+            "topic": [
+                "science",
+                " technology"
+            ],
+            "original_question": "What is the most common reason for a refuted claim in the SCITAB dataset?"
+        }
+    },
+    {
+        "id": "QA_sample_a5f805bb",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. f6081f22, the text, what percentage of recorded sleep days fall into the category defined as \"'poor/fair' sleep quality\"?",
+        "answer": "8%",
+        "evidence": {
+            "text_evidence": [
+                "A person's sleep quality can be categorized as 'poor/fair' if the sleep score is less than 70, 'good' if the score is between 70 and 85, and 'great' if the score falls between 85 and 100. Additionally, holidays and trips can influence sleep quality, often lowering it due to schedule disruptions. The person in this study aims to maintain an average sleep score above 84 for optimal rest."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_d9db7853.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "8%",
+                "12%",
+                "5%",
+                "15%"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_literature_video_games_food_fae56f28",
+                    "insert_conversation_turn": 419
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_video_games_economy_science_6737a361",
+                    "insert_conversation_turn": 203,
+                    "reference_name": "Fig. f6081f22"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "health",
+                "lifestyle",
+                "travel"
+            ],
+            "original_question": "the text, what percentage of recorded sleep days fall into the category defined as \"'poor/fair' sleep quality\"?"
+        }
+    },
+    {
+        "id": "QA_sample_5d736ab3",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 365e17bd, the text, which subject groups meet the criterion of \"individually contributing at least 10% of all total applications\"?",
+        "answer": "Group B (Subjects allied to Medicine), Group N (Business and Admin studies), and Group C (Biological Sciences).",
+        "evidence": {
+            "text_evidence": [
+                "Assume a university prioritizes its admissions efforts based on popularity. It focuses on subjects that individually contribute at least 10% of all total applications, aiming to align with the top interests of applicants."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_9a7e3cdd.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "Group L (Social Studies)",
+                "Group F (Physical Sciences)",
+                "Group W (Creative Arts and Design)",
+                "Group B (Subjects allied to Medicine), Group N (Business and Admin studies), and Group C (Biological Sciences)."
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_travel_music_economy_4c881baf",
+                    "insert_conversation_turn": 1083
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_video_games_economy_science_6737a361",
+                    "insert_conversation_turn": 757,
+                    "reference_name": "Fig. 365e17bd"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "education",
+                "health",
+                "business",
+                "science"
+            ],
+            "original_question": "the text, which subject groups meet the criterion of \"individually contributing at least 10% of all total applications\"?"
+        }
+    },
+    {
+        "id": "QA_sample_b29e3ee1",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 4d5c67a9, the text, does an earthquake that meets the criteria of having a \"magnitude of 7.5 or above\" and an epicenter \"located near or under a body of water large enough to cause widespread sea displacement\" satisfy the conditions to trigger a tsunami warning?",
+        "answer": "Yes",
+        "evidence": {
+            "text_evidence": [
+                "A tsunami warning is issued when an undersea earthquake occurs with a magnitude of 7.5 or above, and the epicenter is located near or under a body of water large enough to cause widespread sea displacement."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_6a826d0d.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "No",
+                "Yes"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_literature_video_games_food_fae56f28",
+                    "insert_conversation_turn": 736
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_travel_music_economy_4c881baf",
+                    "insert_conversation_turn": 709,
+                    "reference_name": "Fig. 4d5c67a9"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "science",
+                "environment",
+                "nature"
+            ],
+            "original_question": "the text, does an earthquake that meets the criteria of having a \"magnitude of 7.5 or above\" and an epicenter \"located near or under a body of water large enough to cause widespread sea displacement\" satisfy the conditions to trigger a tsunami warning?"
+        }
+    },
+    {
+        "id": "QA_sample_ef9fcb8f",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 49667878, According to the previous definition, was the statehouse reporter pool considered \"well-staffed\" in 2014 and 2022?",
+        "answer": "Yes",
+        "evidence": {
+            "text_evidence": [
+                "A statehouse is considered well-staffed if there are at least 60% full-time reporters out of the total statehouse reporter pool in any given year. For reporting clarity, the calculation is based on the ratio of full-time reporters to the total number of reporters, including full-time, part-time, students/interns, and others."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_9a5feb04.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Yes",
+                "No"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_literature_video_games_food_fae56f28",
+                    "insert_conversation_turn": 876
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_video_games_economy_science_6737a361",
+                    "insert_conversation_turn": 476,
+                    "reference_name": "Fig. 49667878"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "government",
+                "politics"
+            ],
+            "original_question": "According to the previous definition, was the statehouse reporter pool considered \"well-staffed\" in 2014 and 2022?"
+        }
+    },
+    {
+        "id": "QA_sample_3af4ad28",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. c2f108df, the text, which political group and \"factor most blamed, relative to the political identification of those showing the highest percentage of concern,\" should the first focus group be organized around according to the survey results about the rising price of gasoline?",
+        "answer": "Republicans and 'President Obama's administration.'",
+        "evidence": {
+            "text_evidence": [
+                "In a survey about the rising price of gasoline, individuals were asked to assign blame among several categories: President Obama's administration, oil companies, unrest in Iran/Middle East, other mentions, or indicate uncertainty by selecting 'Don't know/Refused.' The results varied significantly among political groups (Democrats, Republicans, and Independents). Assume higher percentages in a category indicate more respondents blaming that factor. To prioritize addressing public concerns, focus groups will be organized based on the factor most blamed, relative to the political identification of those showing the highest percentage of concern."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_1930b4aa.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Democrats and 'Oil companies'",
+                "Republicans and 'President Obama's administration.'",
+                "Independents and 'Other mentions'",
+                "Republicans and 'Iran/Middle East unrest'"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_literature_video_games_food_fae56f28",
+                    "insert_conversation_turn": 572
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_travel_music_economy_4c881baf",
+                    "insert_conversation_turn": 1210,
+                    "reference_name": "Fig. c2f108df"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "politics",
+                "economy"
+            ],
+            "original_question": "the text, which political group and \"factor most blamed, relative to the political identification of those showing the highest percentage of concern,\" should the first focus group be organized around according to the survey results about the rising price of gasoline?"
+        }
+    },
+    {
+        "id": "QA_sample_9be278cb",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 7e4fb5ab, the text, which group would a government most likely prioritize when setting foreign policy according to the \"group where a higher percentage favored one relationship over the other,\" and, if both groups equally prioritize the U.S. over Russia, according to the \"group with a stronger preference for increasing sanctions\"?",
+        "answer": "Poles",
+        "evidence": {
+            "text_evidence": [
+                "A government plans to align with public opinion when deciding foreign policy. A new policy will prioritize either strengthening relationships with the U.S. or Russia. To make this decision, they will prioritize the preference of the group where a higher percentage favored one relationship over the other. If both groups equally prioritize the U.S. over Russia, the focus will shift to attitudes about economic sanctions: the government will then follow the group with a stronger preference for increasing sanctions."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_986f102c.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "Hungarians",
+                "Americans",
+                "Russians",
+                "Poles"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_travel_music_economy_4c881baf",
+                    "insert_conversation_turn": 776
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_video_games_economy_science_6737a361",
+                    "insert_conversation_turn": 1245,
+                    "reference_name": "Fig. 7e4fb5ab"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "politics",
+                "government",
+                "economy"
+            ],
+            "original_question": "the text, which group would a government most likely prioritize when setting foreign policy according to the \"group where a higher percentage favored one relationship over the other,\" and, if both groups equally prioritize the U.S. over Russia, according to the \"group with a stronger preference for increasing sanctions\"?"
+        }
+    },
+    {
+        "id": "QA_sample_0d2fe105",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. b660beda, the text, which electorates are considered \"highly competitive\" according to the previous definition under the 'IF O.N. PREFS REVERSED' scenario?",
+        "answer": "Longman and Brisbane",
+        "evidence": {
+            "text_evidence": [
+                "In the 2019 federal election, the Coalition's winning margin in various electorates was influenced by One Nation's (O.N.) preference flows. Actual margins reflect the recorded results, while hypothetical scenarios assume either a 50/50 split of One Nation preferences between the Coalition and Labor (represented by orange bars) or the reversal of One Nation preferences entirely to Labor (represented by gray bars). An electorate is considered 'highly competitive' if the Coalition's margin drops below 2% under the 'IF O.N. PREFS REVERSED' scenario."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_63f0fa5f.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "Herbert and Forde",
+                "Leichhardt and Flynn",
+                "Wide Bay and Hinkler",
+                "Longman and Brisbane"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_literature_video_games_food_fae56f28",
+                    "insert_conversation_turn": 92
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_video_games_economy_science_6737a361",
+                    "insert_conversation_turn": 565,
+                    "reference_name": "Fig. b660beda"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "politics",
+                "government",
+                "economy"
+            ],
+            "original_question": "the text, which electorates are considered \"highly competitive\" according to the previous definition under the 'IF O.N. PREFS REVERSED' scenario?"
+        }
+    },
+    {
+        "id": "QA_sample_84d7f62d_2",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 433b350d, the image, what is Elle Spears most likely to be doing?",
+        "answer": "Searching for science fiction movies",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Elle Spears enjoys science fiction movies, animated films, but dislikes opera shows, ballet performances"
+            ],
+            "image_evidence": [
+                "MMPB_2d99653f.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Elle Spears enjoys mountain climbing, theme park visits, but dislikes historical site tours, food tours",
+                "In terms of lifestyle, Elle Spears enjoys plant-based diet, home cooking, but dislikes boxing workouts, rock climbing gyms",
+                "In terms of shopping, Elle Spears enjoys handmade candles, ceramic pottery, but dislikes handwoven rugs, fancy cutlery sets",
+                "In terms of fashion, Elle Spears enjoys techwear, cyberpunk aesthetics, but dislikes futuristic fashion, gothic clothing."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Exploring drama series",
+                "Searching for science fiction movies",
+                "Buying ceramic pottery",
+                "Browsing for action thrillers"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_travel_music_economy_4c881baf",
+                    "insert_conversation_turn": 530
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_literature_video_games_food_fae56f28",
+                    "insert_conversation_turn": 366,
+                    "reference_name": "Fig. 433b350d"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_literature_video_games_food_fae56f28",
+                    "insert_conversation_turn": 258
+                },
+                {
+                    "conversation_name": "group_chat_travel_music_economy_4c881baf",
+                    "insert_conversation_turn": 379
+                },
+                {
+                    "conversation_name": "group_chat_video_games_economy_science_6737a361",
+                    "insert_conversation_turn": 212
+                },
+                {
+                    "conversation_name": "group_chat_video_games_economy_science_6737a361",
+                    "insert_conversation_turn": 93
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "donghailinxizi",
+            "description": "donghailinxizi is a woman with a slender build and a medium height impression. Her facial structure is characterized by a well-defined jawline and a slightly pointed chin, with a fair skin tone that appears smooth and even. Her hair is consistently styled in a shoulder-length, wavy cut, which frames her face and adds a touch of softness to her overall appearance. donghailinxizi's eyebrows are thick and well-groomed, and her eyes are expressive, often conveying a sense of focus or contemplation. Her lips are naturally full, and she frequently appears with a neutral or slightly serious expression, suggesting a thoughtful or analytical demeanor.\n\n**Outfit and Accessories:**\ndonghailinxizi's attire is professional and practical, often featuring a lab coat or a blazer, indicating her involvement in a scientific or corporate environment. The color palette of her clothing is predominantly neutral, with shades of white, gray, and navy blue, complemented by a striped top in one image. The textures of her clothing appear smooth and tailored, suggesting a blend of functionality and style. In one scene, she is seen holding a tablet, indicating her engagement with technology. Her accessories are minimal but significant, including a delicate necklace and hoop earrings, which add a touch of elegance to her professional look. The presence of a logo on her lab coat and blazer suggests affiliation with a specific organization, adding to her professional identity.\n\n**Distinguishing Visual Features or Vibe:**\ndonghailinxizi exudes a composed and intelligent aura, characterized by her focused gaze and thoughtful expressions. Her consistent hairstyle and professional attire create a cohesive visual identity, while her subtle accessories add a touch of personal style. The recurring presence of a lab coat and blazer, along with the logo, emphasizes her professional role and affiliation. The setting in a laboratory or office environment further reinforces her professional demeanor. Overall, donghailinxizi's visual presence is marked by a blend of professionalism, intelligence, and a subtle elegance, making her a memorable and distinctive figure.",
+            "preference": "In terms of entertainment, donghailinxizi enjoys science fiction movies, animated films, but dislikes opera shows, ballet performances. In terms of travel, donghailinxizi enjoys mountain climbing, theme park visits, but dislikes historical site tours, food tours. In terms of lifestyle, donghailinxizi enjoys plant-based diet, home cooking, but dislikes boxing workouts, rock climbing gyms. In terms of shopping, donghailinxizi enjoys handmade candles, ceramic pottery, but dislikes handwoven rugs, fancy cutlery sets. In terms of fashion, donghailinxizi enjoys techwear, cyberpunk aesthetics, but dislikes futuristic fashion, gothic clothing.",
+            "topic": [],
+            "original_id": "QA_sample_84d7f62d",
+            "original_question": "the image, what is Elle Spears most likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_84d7f62d_3",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 5773997e, Among the activities that could reasonably occur in the given image, which one is Elle Spears least likely to be doing?",
+        "answer": "Attending opera shows",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Elle Spears enjoys science fiction movies, animated films, but dislikes opera shows, ballet performances"
+            ],
+            "image_evidence": [
+                "MMPB_9ab3a64b.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Elle Spears enjoys mountain climbing, theme park visits, but dislikes historical site tours, food tours",
+                "In terms of lifestyle, Elle Spears enjoys plant-based diet, home cooking, but dislikes boxing workouts, rock climbing gyms",
+                "In terms of shopping, Elle Spears enjoys handmade candles, ceramic pottery, but dislikes handwoven rugs, fancy cutlery sets",
+                "In terms of fashion, Elle Spears enjoys techwear, cyberpunk aesthetics, but dislikes futuristic fashion, gothic clothing."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Attending opera shows",
+                "Enjoying theater performances",
+                "Buying gothic clothing",
+                "Watching live stage shows"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_travel_music_economy_4c881baf",
+                    "insert_conversation_turn": 530
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_travel_music_economy_4c881baf",
+                    "insert_conversation_turn": 115,
+                    "reference_name": "Fig. 5773997e"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_literature_video_games_food_fae56f28",
+                    "insert_conversation_turn": 258
+                },
+                {
+                    "conversation_name": "group_chat_travel_music_economy_4c881baf",
+                    "insert_conversation_turn": 379
+                },
+                {
+                    "conversation_name": "group_chat_video_games_economy_science_6737a361",
+                    "insert_conversation_turn": 212
+                },
+                {
+                    "conversation_name": "group_chat_video_games_economy_science_6737a361",
+                    "insert_conversation_turn": 93
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "donghailinxizi",
+            "description": "donghailinxizi is a woman with a slender build and a medium height impression. Her facial structure is characterized by a well-defined jawline and a slightly pointed chin, with a fair skin tone that appears smooth and even. Her hair is consistently styled in a shoulder-length, wavy cut, which frames her face and adds a touch of softness to her overall appearance. donghailinxizi's eyebrows are thick and well-groomed, and her eyes are expressive, often conveying a sense of focus or contemplation. Her lips are naturally full, and she frequently appears with a neutral or slightly serious expression, suggesting a thoughtful or analytical demeanor.\n\n**Outfit and Accessories:**\ndonghailinxizi's attire is professional and practical, often featuring a lab coat or a blazer, indicating her involvement in a scientific or corporate environment. The color palette of her clothing is predominantly neutral, with shades of white, gray, and navy blue, complemented by a striped top in one image. The textures of her clothing appear smooth and tailored, suggesting a blend of functionality and style. In one scene, she is seen holding a tablet, indicating her engagement with technology. Her accessories are minimal but significant, including a delicate necklace and hoop earrings, which add a touch of elegance to her professional look. The presence of a logo on her lab coat and blazer suggests affiliation with a specific organization, adding to her professional identity.\n\n**Distinguishing Visual Features or Vibe:**\ndonghailinxizi exudes a composed and intelligent aura, characterized by her focused gaze and thoughtful expressions. Her consistent hairstyle and professional attire create a cohesive visual identity, while her subtle accessories add a touch of personal style. The recurring presence of a lab coat and blazer, along with the logo, emphasizes her professional role and affiliation. The setting in a laboratory or office environment further reinforces her professional demeanor. Overall, donghailinxizi's visual presence is marked by a blend of professionalism, intelligence, and a subtle elegance, making her a memorable and distinctive figure.",
+            "preference": "In terms of entertainment, donghailinxizi enjoys science fiction movies, animated films, but dislikes opera shows, ballet performances. In terms of travel, donghailinxizi enjoys mountain climbing, theme park visits, but dislikes historical site tours, food tours. In terms of lifestyle, donghailinxizi enjoys plant-based diet, home cooking, but dislikes boxing workouts, rock climbing gyms. In terms of shopping, donghailinxizi enjoys handmade candles, ceramic pottery, but dislikes handwoven rugs, fancy cutlery sets. In terms of fashion, donghailinxizi enjoys techwear, cyberpunk aesthetics, but dislikes futuristic fashion, gothic clothing.",
+            "topic": [],
+            "original_id": "QA_sample_84d7f62d",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Elle Spears least likely to be doing?"
+        }
+    }
+]
