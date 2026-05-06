@@ -1,0 +1,3851 @@
+[
+    {
+        "id": "QA_sample_189931f9",
+        "domain": "MLLMKC",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. dbc5143f, What is the occupation of the person in the picture?",
+        "answer": "actress and singer",
+        "evidence": {
+            "text_evidence": [
+                "Scarlett Johansson was born on November 22, 1984. Scarlett Johansson is American. Scarlett Johansson is an actress and singer."
+            ],
+            "image_evidence": [
+                "MLLMKC_aab87270.jpg"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Scarlett Johansson was born on November 22, 1984. Scarlett Johansson is American. Scarlett Johansson is a chef and singer."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "chef",
+                "actress and singer",
+                "architect",
+                "florist and gardener"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_food_science_history_17ef97e7",
+                    "insert_conversation_turn": 807
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_business_music_video_games_e38e0e19",
+                    "insert_conversation_turn": 916,
+                    "reference_name": "Fig. dbc5143f"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_technology_education_science_fcdfe82a",
+                    "insert_conversation_turn": 585
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "instance": "Scarlett Johansson",
+            "category": "people",
+            "error_type": "Career_error",
+            "topic": [
+                "films",
+                " music",
+                " fashion"
+            ],
+            "original_question": "What is the occupation of the person in the picture?"
+        }
+    },
+    {
+        "id": "QA_sample_86944866",
+        "domain": "MMCV",
+        "category": "Multi_Hop_QA",
+        "question": "Based on Table. f1bdd408, In the 2014 NFL regular season, which stadium hosted the game where the NFC South team playing against the Tampa Bay Buccaneers secured a victory?",
+        "answer": "Mercedes-Benz Superdome",
+        "evidence": {
+            "text_evidence": [
+                "The NFC South is a division of the National Football Conference (NFC) in the National Football League (NFL). It was created prior to the 2002 NFL season, when the league realigned divisions after expanding to 32 teams. The NFC South currently has four member clubs: the Atlanta Falcons, Carolina Panthers, New Orleans Saints, and Tampa Bay Buccaneers. Prior to the 2002 season, the Buccaneers belonged to the AFC West (1976) and NFC Central (1977–2001), while the other three teams were part of the geographically inaccurate NFC West."
+            ],
+            "image_evidence": [],
+            "table_evidence": [
+                {
+                    "title": "2014 New Orleans Saints season",
+                    "table_name": "Regular season",
+                    "table_header": [
+                        "Week",
+                        "Date",
+                        "Opponent",
+                        "Result",
+                        "Record",
+                        "Game site",
+                        "NFL.com recap"
+                    ],
+                    "table_rows": [
+                        [
+                            "1",
+                            "September 7",
+                            "at Atlanta Falcons",
+                            "L 34–37",
+                            "0–1",
+                            "Georgia Dome",
+                            "[http://www.nfl.com/gamecenter/2014090700/2014/REG1/saints@falcons Recap]"
+                        ],
+                        [
+                            "2",
+                            "September 14",
+                            "at Cleveland Browns",
+                            "L 24–26",
+                            "0–2",
+                            "FirstEnergy Stadium",
+                            "[http://www.nfl.com/gamecenter/2014091403/2014/REG2/saints@browns Recap]"
+                        ],
+                        [
+                            "3",
+                            "September 21",
+                            "Minnesota Vikings",
+                            "W 20–9",
+                            "1–2",
+                            "Mercedes-Benz Superdome",
+                            "[http://www.nfl.com/gamecenter/2014092106/2014/REG3/vikings@saints Recap]"
+                        ],
+                        [
+                            "4",
+                            "Sunday Night Football (September 28)",
+                            "at Dallas Cowboys",
+                            "L 17–38",
+                            "1–3",
+                            "AT&T Stadium",
+                            "[http://www.nfl.com/gamecenter/2014092810/2014/REG4/saints@cowboys Recap]"
+                        ],
+                        [
+                            "5",
+                            "October 5",
+                            "Tampa Bay Buccaneers",
+                            "W 37–31",
+                            "2–3",
+                            "Mercedes-Benz Superdome",
+                            "[http://www.nfl.com/gamecenter/2014100505/2014/REG5/buccaneers@saints Recap]"
+                        ],
+                        [
+                            "6",
+                            "Bye",
+                            "Bye",
+                            "Bye",
+                            "Bye",
+                            "Bye",
+                            "Bye"
+                        ],
+                        [
+                            "7",
+                            "October 19",
+                            "at Detroit Lions",
+                            "L 23–24",
+                            "2–4",
+                            "Ford Field",
+                            "[http://www.nfl.com/gamecenter/2014101903/2014/REG7/saints@lions Recap]"
+                        ],
+                        [
+                            "8",
+                            "Sunday Night Football (October 26)",
+                            "Green Bay Packers",
+                            "W 44–23",
+                            "3–4",
+                            "Mercedes-Benz Superdome",
+                            "[http://www.nfl.com/gamecenter/2014102612/2014/REG8/packers@saints Recap]"
+                        ],
+                        [
+                            "9",
+                            "Thursday Night Football (October 30)",
+                            "at Carolina Panthers",
+                            "W 28–10",
+                            "4–4",
+                            "Bank of America Stadium",
+                            "[http://www.nfl.com/gamecenter/2014103000/2014/REG9/saints@panthers Recap]"
+                        ],
+                        [
+                            "10",
+                            "November 9",
+                            "San Francisco 49ers",
+                            "L 24–27",
+                            "4–5",
+                            "Mercedes-Benz Superdome",
+                            "[http://www.nfl.com/gamecenter/2014110904/2014/REG10/49ers@saints Recap]"
+                        ],
+                        [
+                            "11",
+                            "November 16",
+                            "Cincinnati Bengals",
+                            "L 10–27",
+                            "4–6",
+                            "Mercedes-Benz Superdome",
+                            "[http://www.nfl.com/gamecenter/2014111605/2014/REG11/bengals@saints Recap]"
+                        ],
+                        [
+                            "12",
+                            "Monday Night Football (November 24)",
+                            "Baltimore Ravens",
+                            "L 27–34",
+                            "4–7",
+                            "Mercedes-Benz Superdome",
+                            "[http://www.nfl.com/gamecenter/2014112400/2014/REG12/ravens@saints Recap]"
+                        ],
+                        [
+                            "13",
+                            "November 30",
+                            "at Pittsburgh Steelers",
+                            "W 35–32",
+                            "5–7",
+                            "Heinz Field",
+                            "[http://www.nfl.com/gamecenter/2014113006/2014/REG13/saints@steelers Recap]"
+                        ],
+                        [
+                            "14",
+                            "December 7",
+                            "Carolina Panthers",
+                            "L 10–41",
+                            "5–8",
+                            "Mercedes-Benz Superdome",
+                            "[http://www.nfl.com/gamecenter/2014120706/2014/REG14/panthers@saints Recap]"
+                        ],
+                        [
+                            "15",
+                            "Monday Night Football (December 15)",
+                            "at Chicago Bears",
+                            "W 31–15",
+                            "6–8",
+                            "Soldier Field",
+                            "[http://www.nfl.com/gamecenter/2014121500/2014/REG15/saints@bears Recap]"
+                        ],
+                        [
+                            "16",
+                            "December 21",
+                            "Atlanta Falcons",
+                            "L 14–30",
+                            "6–9",
+                            "Mercedes-Benz Superdome",
+                            "[http://www.nfl.com/gamecenter/2014122104/2014/REG16/falcons@saints Recap]"
+                        ],
+                        [
+                            "17",
+                            "December 28",
+                            "at Tampa Bay Buccaneers",
+                            "W 23–20",
+                            "7–9",
+                            "Raymond James Stadium",
+                            "[http://www.nfl.com/gamecenter/2014122810/2014/REG17/saints@buccaneers Recap]"
+                        ]
+                    ]
+                }
+            ],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Georgia Dome",
+                "Mercedes-Benz Superdome",
+                "Bank of America Stadium",
+                "Raymond James Stadium"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_business_music_video_games_e38e0e19",
+                    "insert_conversation_turn": 565
+                }
+            ],
+            "image_evidence_assignment": [],
+            "table_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_technology_education_science_fcdfe82a",
+                    "insert_conversation_turn": 1357,
+                    "reference_name": "Table. f1bdd408"
+                }
+            ],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "sports"
+            ],
+            "original_question": "In the 2014 NFL regular season, which stadium hosted the game where the NFC South team playing against the Tampa Bay Buccaneers secured a victory?"
+        }
+    },
+    {
+        "id": "QA_sample_e28df2b2",
+        "domain": "MMCV",
+        "category": "Multi_Hop_QA",
+        "question": "Based on Table. 19b93064, Which Spanish team, involved in a notable UEFA Champions League final, did Gonzalo Higuain play for during a season when they won their domestic league in a competitive rivalry with Barcelona?",
+        "answer": "Real Madrid",
+        "evidence": {
+            "text_evidence": [
+                "The 2018 UEFA Champions League Final was the final match of the 2017–18 UEFA Champions League, the 63rd season of Europe's premier club football tournament organised by UEFA, and the 26th season since it was renamed from the European Cup to the UEFA Champions League. It was played at the NSC Olimpiyskiy Stadium in Kiev, Ukraine on 26 May 2018, between Spanish side and defending champions Real Madrid, who had won the competition in each of the last two seasons, and English side Liverpool."
+            ],
+            "image_evidence": [],
+            "table_evidence": [
+                {
+                    "title": "Gonzalo Higuaín",
+                    "table_name": "Career statistics | Club",
+                    "table_header": [
+                        "Club",
+                        "Season",
+                        "League - Division",
+                        "League - Apps",
+                        "League - Goals",
+                        "National Cup - Apps",
+                        "National Cup - Goals",
+                        "League Cup - Apps",
+                        "League Cup - Goals",
+                        "Continental - Apps",
+                        "Continental - Goals",
+                        "Other - Apps",
+                        "Other - Goals",
+                        "Total - Apps",
+                        "Total - Goals"
+                    ],
+                    "table_rows": [
+                        [
+                            "River Plate",
+                            "2004–05",
+                            "Argentine Primera División",
+                            "4",
+                            "0",
+                            "0",
+                            "0",
+                            "—",
+                            "—",
+                            "0",
+                            "0",
+                            "—",
+                            "—",
+                            "4",
+                            "0"
+                        ],
+                        [
+                            "River Plate",
+                            "2005–06",
+                            "Argentine Primera División",
+                            "14",
+                            "5",
+                            "0",
+                            "0",
+                            "—",
+                            "—",
+                            "4",
+                            "2",
+                            "—",
+                            "—",
+                            "18",
+                            "7"
+                        ],
+                        [
+                            "River Plate",
+                            "2006–07",
+                            "Argentine Primera División",
+                            "17",
+                            "8",
+                            "0",
+                            "0",
+                            "—",
+                            "—",
+                            "2",
+                            "0",
+                            "—",
+                            "—",
+                            "19",
+                            "8"
+                        ],
+                        [
+                            "River Plate",
+                            "Total",
+                            "Total",
+                            "35",
+                            "13",
+                            "0",
+                            "0",
+                            "—",
+                            "—",
+                            "6",
+                            "2",
+                            "0",
+                            "0",
+                            "41",
+                            "15"
+                        ],
+                        [
+                            "Real Madrid",
+                            "2006–07",
+                            "La Liga",
+                            "19",
+                            "2",
+                            "2",
+                            "0",
+                            "—",
+                            "—",
+                            "2",
+                            "0",
+                            "—",
+                            "—",
+                            "23",
+                            "2"
+                        ],
+                        [
+                            "Real Madrid",
+                            "2007–08",
+                            "La Liga",
+                            "25",
+                            "8",
+                            "4",
+                            "1",
+                            "—",
+                            "—",
+                            "5",
+                            "0",
+                            "—",
+                            "—",
+                            "34",
+                            "9"
+                        ],
+                        [
+                            "Real Madrid",
+                            "2008–09",
+                            "La Liga",
+                            "34",
+                            "22",
+                            "2",
+                            "1",
+                            "—",
+                            "—",
+                            "7",
+                            "0",
+                            "1",
+                            "1",
+                            "44",
+                            "24"
+                        ],
+                        [
+                            "Real Madrid",
+                            "2009–10",
+                            "La Liga",
+                            "32",
+                            "27",
+                            "1",
+                            "0",
+                            "—",
+                            "—",
+                            "7",
+                            "2",
+                            "—",
+                            "—",
+                            "40",
+                            "29"
+                        ],
+                        [
+                            "Real Madrid",
+                            "2010–11",
+                            "La Liga",
+                            "17",
+                            "10",
+                            "2",
+                            "1",
+                            "—",
+                            "—",
+                            "6",
+                            "2",
+                            "—",
+                            "—",
+                            "25",
+                            "13"
+                        ],
+                        [
+                            "Real Madrid",
+                            "2011–12",
+                            "La Liga",
+                            "35",
+                            "22",
+                            "5",
+                            "1",
+                            "—",
+                            "—",
+                            "12",
+                            "3",
+                            "2",
+                            "0",
+                            "54",
+                            "26"
+                        ],
+                        [
+                            "Real Madrid",
+                            "2012–13",
+                            "La Liga",
+                            "28",
+                            "16",
+                            "5",
+                            "0",
+                            "—",
+                            "—",
+                            "9",
+                            "1",
+                            "2",
+                            "1",
+                            "44",
+                            "18"
+                        ],
+                        [
+                            "Real Madrid",
+                            "Total",
+                            "Total",
+                            "190",
+                            "107",
+                            "21",
+                            "4",
+                            "—",
+                            "—",
+                            "48",
+                            "8",
+                            "5",
+                            "2",
+                            "264",
+                            "121"
+                        ],
+                        [
+                            "Napoli",
+                            "2013–14",
+                            "Serie A",
+                            "32",
+                            "17",
+                            "5",
+                            "2",
+                            "—",
+                            "—",
+                            "9",
+                            "5",
+                            "—",
+                            "—",
+                            "46",
+                            "24"
+                        ],
+                        [
+                            "Napoli",
+                            "2014–15",
+                            "Serie A",
+                            "37",
+                            "18",
+                            "4",
+                            "1",
+                            "—",
+                            "—",
+                            "16",
+                            "8",
+                            "1",
+                            "2",
+                            "58",
+                            "29"
+                        ],
+                        [
+                            "Napoli",
+                            "2015–16",
+                            "Serie A",
+                            "35",
+                            "36",
+                            "2",
+                            "0",
+                            "—",
+                            "—",
+                            "5",
+                            "2",
+                            "—",
+                            "—",
+                            "42",
+                            "38"
+                        ],
+                        [
+                            "Napoli",
+                            "Total",
+                            "Total",
+                            "104",
+                            "71",
+                            "11",
+                            "3",
+                            "—",
+                            "—",
+                            "30",
+                            "15",
+                            "1",
+                            "2",
+                            "146",
+                            "91"
+                        ],
+                        [
+                            "Juventus",
+                            "2016–17",
+                            "Serie A",
+                            "38",
+                            "24",
+                            "4",
+                            "3",
+                            "—",
+                            "—",
+                            "12",
+                            "5",
+                            "1",
+                            "0",
+                            "55",
+                            "32"
+                        ],
+                        [
+                            "Juventus",
+                            "2017–18",
+                            "Serie A",
+                            "35",
+                            "16",
+                            "4",
+                            "2",
+                            "—",
+                            "—",
+                            "10",
+                            "5",
+                            "1",
+                            "0",
+                            "50",
+                            "23"
+                        ],
+                        [
+                            "Juventus",
+                            "2019–20",
+                            "Serie A",
+                            "15",
+                            "4",
+                            "0",
+                            "0",
+                            "—",
+                            "—",
+                            "5",
+                            "2",
+                            "1",
+                            "0",
+                            "21",
+                            "6"
+                        ],
+                        [
+                            "Juventus",
+                            "Total",
+                            "Total",
+                            "88",
+                            "44",
+                            "8",
+                            "5",
+                            "—",
+                            "—",
+                            "27",
+                            "12",
+                            "3",
+                            "0",
+                            "126",
+                            "61"
+                        ],
+                        [
+                            "Milan (loan)",
+                            "2018–19",
+                            "Serie A",
+                            "15",
+                            "6",
+                            "1",
+                            "0",
+                            "—",
+                            "—",
+                            "5",
+                            "2",
+                            "1",
+                            "0",
+                            "22",
+                            "8"
+                        ],
+                        [
+                            "Chelsea (loan)",
+                            "2018–19",
+                            "Premier League",
+                            "14",
+                            "5",
+                            "2",
+                            "0",
+                            "1",
+                            "0",
+                            "2",
+                            "0",
+                            "—",
+                            "—",
+                            "19",
+                            "5"
+                        ],
+                        [
+                            "Career total",
+                            "Career total",
+                            "Career total",
+                            "446",
+                            "246",
+                            "43",
+                            "12",
+                            "1",
+                            "0",
+                            "117",
+                            "40",
+                            "10",
+                            "4",
+                            "618",
+                            "301"
+                        ]
+                    ]
+                }
+            ],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Real Madrid",
+                "Valencia",
+                "Atletico Madrid",
+                "Sevilla"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_business_music_video_games_e38e0e19",
+                    "insert_conversation_turn": 872
+                }
+            ],
+            "image_evidence_assignment": [],
+            "table_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_food_science_history_17ef97e7",
+                    "insert_conversation_turn": 95,
+                    "reference_name": "Table. 19b93064"
+                }
+            ],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "sports",
+                "football"
+            ],
+            "original_question": "Which Spanish team, involved in a notable UEFA Champions League final, did Gonzalo Higuain play for during a season when they won their domestic league in a competitive rivalry with Barcelona?"
+        }
+    },
+    {
+        "id": "FC_sample_7b4080d8",
+        "domain": "M3_Bench",
+        "category": "Function_Call",
+        "question": "Based on Fig. 95caba8d, what is shown in this image, can you find where this movie is currently playing near New York?",
+        "answer": [
+            {
+                "step": 1,
+                "calls": []
+            },
+            {
+                "step": 2,
+                "calls": [
+                    {
+                        "name": "TMDB_search_movies",
+                        "arguments": {
+                            "query": "Titanic"
+                        }
+                    },
+                    {
+                        "name": "GOOGLE_MAPS_places_text_search",
+                        "arguments": {
+                            "query": "Titanic showtimes near New York, NY",
+                            "regionCode": "us"
+                        }
+                    }
+                ]
+            }
+        ],
+        "evidence": {
+            "text_evidence": [
+                "Movie identification and cinema lookup\n\nTo complete this workflow, first apply optical character recognition to the provided image in order to extract the movie title or relevant text. Next, use a movie database search tool to identify and confirm details about the extracted movie title. Once the movie has been identified, use a place search service to find cinemas in the specified area that are currently showing this movie. The workflow proceeds in this order: extract text from the image, identify the movie using a movie database, and then search for local cinemas screening the movie. This process can be repeated for any image containing movie-related information and any location of interest."
+            ],
+            "image_evidence": [
+                "M3_bench_7b4080d8.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {},
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_business_music_video_games_e38e0e19",
+                    "insert_conversation_turn": 749
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_food_science_history_17ef97e7",
+                    "insert_conversation_turn": 433,
+                    "reference_name": "Fig. 95caba8d"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "function_call": [
+                {
+                    "function_name": "TMDB_search_movies",
+                    "function_comment": "Search for movies using The Movie Database API.\n  Args:\n    query (string): Search query text.\n    year (number): Optional filter by release year.\n    page (number): Optional page number, defaults to 1.\n  Returns:\n    result (text): JSON string of the TMDB /search/movie response."
+                },
+                {
+                    "function_name": "GOOGLE_MAPS_places_text_search",
+                    "function_comment": "Search for places using a free-text query via Google Places Text Search.\nArgs:\n  query (str): Text query describing the place.\n  languageCode (Optional[str]): Response language code.\n  regionCode (Optional[str]): Region bias code.\n  locationBias (Optional[Dict[str, Any]]): Optional circle bias for location preference.\n  maxResultCount (int): Maximum number of results to keep client-side.\n  fields (Optional[str]): Unused field mask parameter for signature parity.\nReturns:\n  data (Dict[str, Any]): JSON with endpoint, request parameters, and trimmed Places response."
+                }
+            ],
+            "ocr_text": "🎬 Titanic — A Tragic Romance That Redefined Cinema\n\nTitle: Titanic\nDirector: James Cameron\nScreenwriter: James Cameron\nGenre: Epic Romance / Historical Drama / Disaster\nRelease Date:\n• World Premiere: November 1, 1997 (Tokyo International Film Festival)\n• United States: December 19, 1997\n• United Kingdom: January 23, 1998\n• China Mainland: April 3, 1998\n• Re-release (3D Remaster): April 4, 2012 (Worldwide, marking the 100th anniversary of the ship’s sinking)\n• 25th Anniversary Re-release: February 10, 2023\n\nRunning Time: 195 minutes (3 hours and 15 minutes)\nProduction Company: 20th Century Fox, Paramount Pictures, Lightstorm Entertainment\nBudget: Approximately $200 million (then the most expensive film ever made)\nBox Office: Over $2.26 billion worldwide (becoming the highest-grossing film in history at that time; later surpassed by Avatar, also directed by Cameron)",
+            "instruction": "Use OCR to extract the movie title from the image. Search for this movie using The Movie Database API. Then, search for cinemas near New York that are showing this movie using a text-based query with a region bias for the United States.",
+            "workflow_description": "Movie identification and cinema lookup\n\nTo complete this workflow, first apply optical character recognition to the provided image in order to extract the movie title or relevant text. Next, use a movie database search tool to identify and confirm details about the extracted movie title. Once the movie has been identified, use a place search service to find cinemas in the specified area that are currently showing this movie. The workflow proceeds in this order: extract text from the image, identify the movie using a movie database, and then search for local cinemas screening the movie. This process can be repeated for any image containing movie-related information and any location of interest.",
+            "topic": [
+                "films"
+            ],
+            "original_question": "what is shown in this image, can you find where this movie is currently playing near New York?"
+        },
+        "original_reference_question": "Based on Fig. 95caba8d, Based on what is shown in this image, can you find where this movie is currently playing near New York?"
+    },
+    {
+        "id": "QA_sample_3b870f84",
+        "domain": "MLLMKC",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. 01e02c26, What is the nationality of the person in the picture?",
+        "answer": "American",
+        "evidence": {
+            "text_evidence": [
+                "Morgan Freeman was born on June 1, 1937. Morgan Freeman is American. Morgan Freeman is an actor and narrator."
+            ],
+            "image_evidence": [
+                "MLLMKC_6e54fc5f.jpg"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Morgan Freeman was born on June 1, 1937. Morgan Freeman is Canadian. Morgan Freeman is an actor and narrator."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "American",
+                "Panamanian",
+                "Canadian",
+                "Mexican"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_business_music_video_games_e38e0e19",
+                    "insert_conversation_turn": 766
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_technology_education_science_fcdfe82a",
+                    "insert_conversation_turn": 1009,
+                    "reference_name": "Fig. 01e02c26"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_food_science_history_17ef97e7",
+                    "insert_conversation_turn": 232
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "instance": "Morgan Freeman",
+            "category": "people",
+            "error_type": "location_error",
+            "topic": [
+                "films",
+                " television"
+            ],
+            "original_question": "What is the nationality of the person in the picture?"
+        }
+    },
+    {
+        "id": "FC_sample_aa888782",
+        "domain": "M3_Bench",
+        "category": "Function_Call",
+        "question": "Based on Fig. 128919af, what is shown in this image, can you find where this movie is currently playing in cinemas near New York?",
+        "answer": [
+            {
+                "step": 1,
+                "calls": []
+            },
+            {
+                "step": 2,
+                "calls": [
+                    {
+                        "name": "TMDB_search_movies",
+                        "arguments": {
+                            "query": "Once Upon a Time... in Hollywood"
+                        }
+                    },
+                    {
+                        "name": "GOOGLE_MAPS_places_text_search",
+                        "arguments": {
+                            "query": "Once Upon a Time in Hollywood showtimes near New York",
+                            "regionCode": "us"
+                        }
+                    }
+                ]
+            }
+        ],
+        "evidence": {
+            "text_evidence": [
+                "Movie identification and cinema lookup\n\nTo complete this workflow, first apply optical character recognition to the provided image in order to extract the movie title or relevant text. Next, use a movie database search tool to identify and confirm details about the extracted movie title. Once the movie has been identified, use a place search service to find cinemas in the specified area that are currently showing this movie. The workflow proceeds in this order: extract text from the image, identify the movie using a movie database, and then search for local cinemas screening the movie. This process can be repeated for any image containing movie-related information and any location of interest."
+            ],
+            "image_evidence": [
+                "M3_bench_aa888782.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {},
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_technology_education_science_fcdfe82a",
+                    "insert_conversation_turn": 45
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_food_science_history_17ef97e7",
+                    "insert_conversation_turn": 463,
+                    "reference_name": "Fig. 128919af"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "function_call": [
+                {
+                    "function_name": "TMDB_search_movies",
+                    "function_comment": "Search for movies using The Movie Database API.\n  Args:\n    query (string): Search query text.\n    year (number): Optional filter by release year.\n    page (number): Optional page number, defaults to 1.\n  Returns:\n    result (text): JSON string of the TMDB /search/movie response."
+                },
+                {
+                    "function_name": "GOOGLE_MAPS_places_text_search",
+                    "function_comment": "Search for places using a free-text query via Google Places Text Search.\nArgs:\n  query (str): Text query describing the place.\n  languageCode (Optional[str]): Response language code.\n  regionCode (Optional[str]): Region bias code.\n  locationBias (Optional[Dict[str, Any]]): Optional circle bias for location preference.\n  maxResultCount (int): Maximum number of results to keep client-side.\n  fields (Optional[str]): Unused field mask parameter for signature parity.\nReturns:\n  data (Dict[str, Any]): JSON with endpoint, request parameters, and trimmed Places response."
+                }
+            ],
+            "ocr_text": "LEONARDO DICAPRIO  •  BRAD PITT\nMARGOT ROBBIE\n\nCHAMPION\n\nONCE UPON A TIME IN...\nHOLLYWOOD\n\nTHE 9TH FILM FROM QUENTIN TARANTINO\n\nCOMING SOON\n\n@OnceInHollywood   #OnceUponATimeInHollywood",
+            "instruction": "Use OCR to extract the movie title from the image. Search for this movie using The Movie Database API to confirm its details. Then, search for cinemas near New York that are showing this movie using a place search with relevant keywords.",
+            "workflow_description": "Movie identification and cinema lookup\n\nTo complete this workflow, first apply optical character recognition to the provided image in order to extract the movie title or relevant text. Next, use a movie database search tool to identify and confirm details about the extracted movie title. Once the movie has been identified, use a place search service to find cinemas in the specified area that are currently showing this movie. The workflow proceeds in this order: extract text from the image, identify the movie using a movie database, and then search for local cinemas screening the movie. This process can be repeated for any image containing movie-related information and any location of interest.",
+            "topic": [
+                "films"
+            ],
+            "original_question": "what is shown in this image, can you find where this movie is currently playing in cinemas near New York?"
+        },
+        "original_reference_question": "Based on Fig. 128919af, Based on what is shown in this image, can you find where this movie is currently playing in cinemas near New York?"
+    },
+    {
+        "id": "QA_sample_c8d97c04",
+        "domain": "MLLMKC",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. 7778007b, What is the nationality of the person in the picture?",
+        "answer": "American",
+        "evidence": {
+            "text_evidence": [
+                "Kevin James was born in April 26, 1965. Kevin James is American. Kevin James is a comedian and actor."
+            ],
+            "image_evidence": [
+                "MLLMKC_f6c84512.jpg"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Kevin James was born in April 26, 1965. Kevin James is Canadian. Kevin James is a comedian and actor."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "Canadian",
+                "Panamanian",
+                "American",
+                "Mexican"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_technology_education_science_fcdfe82a",
+                    "insert_conversation_turn": 121
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_food_science_history_17ef97e7",
+                    "insert_conversation_turn": 619,
+                    "reference_name": "Fig. 7778007b"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_business_music_video_games_e38e0e19",
+                    "insert_conversation_turn": 71
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "instance": "Kevin James",
+            "category": "people",
+            "error_type": "location_error",
+            "topic": [
+                "films",
+                " television",
+                " lifestyle"
+            ],
+            "original_question": "What is the nationality of the person in the picture?"
+        }
+    },
+    {
+        "id": "QA_sample_e7da1fc1",
+        "domain": "MMCV",
+        "category": "Multi_Hop_QA",
+        "question": "Based on Table. 967b4d24, What was the outcome of the Baltimore Ravens' 2010 regular season game against the professional American football team headquartered in Foxborough, Massachusetts?",
+        "answer": "L 20–23 (OT)",
+        "evidence": {
+            "text_evidence": [
+                "The New England Patriots are a professional American football team based in the Greater Boston region. The Patriots compete in the National Football League (NFL) as a member club of the league's American Football Conference (AFC) East division. The team plays its home games at Gillette Stadium in the town of Foxborough, Massachusetts, which is located 21 miles (34 km) southwest of downtown Boston and 20 miles (32 km) northeast of downtown Providence, Rhode Island. The Patriots are also headquartered at Gillette Stadium."
+            ],
+            "image_evidence": [],
+            "table_evidence": [
+                {
+                    "title": "2010 Baltimore Ravens season",
+                    "table_name": "Regular season | Schedule",
+                    "table_header": [
+                        "Week",
+                        "Date",
+                        "Kickoff (ET)",
+                        "Opponent",
+                        "Results - Final score",
+                        "Results - Team record",
+                        "Game site",
+                        "TV",
+                        "NFL.com recap"
+                    ],
+                    "table_rows": [
+                        [
+                            "1",
+                            "September 13",
+                            "7:00p.m.",
+                            "at New York Jets",
+                            "W 10–9",
+                            "1–0",
+                            "New Meadowlands Stadium",
+                            "ESPN",
+                            "[http://www.nfl.com/gamecenter/2010091300/2010/REG1/ravens@jets Recap]"
+                        ],
+                        [
+                            "2",
+                            "September 19",
+                            "1:00p.m.",
+                            "at Cincinnati Bengals",
+                            "L 10–15",
+                            "1–1",
+                            "Paul Brown Stadium",
+                            "CBS",
+                            "[http://www.nfl.com/gamecenter/2010091912/2010/REG2/ravens@bengals Recap]"
+                        ],
+                        [
+                            "3",
+                            "September 26",
+                            "1:00p.m.",
+                            "Cleveland Browns",
+                            "W 24–17",
+                            "2–1",
+                            "M&T Bank Stadium",
+                            "CBS",
+                            "[http://www.nfl.com/gamecenter/2010092604/2010/REG3/browns@ravens Recap]"
+                        ],
+                        [
+                            "4",
+                            "October 3",
+                            "1:00p.m.",
+                            "at Pittsburgh Steelers",
+                            "W 17–14",
+                            "3–1",
+                            "Heinz Field",
+                            "CBS",
+                            "[http://www.nfl.com/gamecenter/2010100302/2010/REG4/ravens@steelers Recap]"
+                        ],
+                        [
+                            "5",
+                            "October 10",
+                            "1:00p.m.",
+                            "Denver Broncos",
+                            "W 31–17",
+                            "4–1",
+                            "M&T Bank Stadium",
+                            "CBS",
+                            "[http://www.nfl.com/gamecenter/2010101001/2010/REG5/broncos@ravens Recap]"
+                        ],
+                        [
+                            "6",
+                            "October 17",
+                            "1:00p.m.",
+                            "at New England Patriots",
+                            "L 20–23  (OT)",
+                            "4–2",
+                            "Gillette Stadium",
+                            "CBS",
+                            "[http://www.nfl.com/gamecenter/2010101702/2010/REG6/ravens@patriots Recap]"
+                        ],
+                        [
+                            "7",
+                            "October 24",
+                            "1:00p.m.",
+                            "Buffalo Bills",
+                            "W 37–34  (OT)",
+                            "5–2",
+                            "M&T Bank Stadium",
+                            "CBS",
+                            "[http://www.nfl.com/gamecenter/2010102402/2010/REG7/bills@ravens Recap]"
+                        ],
+                        [
+                            "8",
+                            "Bye",
+                            "Bye",
+                            "Bye",
+                            "Bye",
+                            "Bye",
+                            "Bye",
+                            "Bye",
+                            "Bye"
+                        ],
+                        [
+                            "9",
+                            "November 7",
+                            "1:00p.m.",
+                            "Miami Dolphins",
+                            "W 26–10",
+                            "6–2",
+                            "M&T Bank Stadium",
+                            "CBS",
+                            "[http://www.nfl.com/gamecenter/2010110701/2010/REG9/dolphins@ravens Recap]"
+                        ],
+                        [
+                            "10",
+                            "November 11",
+                            "8:20p.m.",
+                            "at Atlanta Falcons",
+                            "L 21–26",
+                            "6–3",
+                            "Georgia Dome",
+                            "NFLN",
+                            "[http://www.nfl.com/gamecenter/2010111100/2010/REG10/ravens@falcons Recap]"
+                        ],
+                        [
+                            "11",
+                            "November 21",
+                            "1:00p.m.",
+                            "at Carolina Panthers",
+                            "W 37–13",
+                            "7–3",
+                            "Bank of America Stadium",
+                            "CBS",
+                            "[http://www.nfl.com/gamecenter/2010112100/2010/REG11/ravens@panthers Recap]"
+                        ],
+                        [
+                            "12",
+                            "November 28",
+                            "4:15p.m. http://www.nfl.com/news/story/09000d5d81c29d60/article/chargerscolts-week-12-game-will-remain-in-primetime-slot?module=HP_headlines2col",
+                            "Tampa Bay Buccaneers",
+                            "W 17–10",
+                            "8–3",
+                            "M&T Bank Stadium",
+                            "Fox",
+                            "[http://www.nfl.com/gamecenter/2010112806/2010/REG12/buccaneers@ravens Recap]"
+                        ],
+                        [
+                            "13",
+                            "December 5",
+                            "8:20p.m.",
+                            "Pittsburgh Steelers",
+                            "L 10–13",
+                            "8–4",
+                            "M&T Bank Stadium",
+                            "NBC",
+                            "[http://www.nfl.com/gamecenter/2010120513/2010/REG13/steelers@ravens Recap]"
+                        ],
+                        [
+                            "14",
+                            "December 13",
+                            "8:30p.m.",
+                            "at Houston Texans",
+                            "W 34–28  (OT)",
+                            "9–4",
+                            "Reliant Stadium",
+                            "ESPN",
+                            "[http://www.nfl.com/gamecenter/2010121300/2010/REG14/ravens@texans Recap]"
+                        ],
+                        [
+                            "15",
+                            "December 19",
+                            "1:00p.m.",
+                            "New Orleans Saints",
+                            "W 30–24",
+                            "10–4",
+                            "M&T Bank Stadium",
+                            "Fox",
+                            "[http://www.nfl.com/gamecenter/2010121909/2010/REG15/saints@ravens Recap]"
+                        ],
+                        [
+                            "16",
+                            "December 26",
+                            "1:00p.m.",
+                            "at Cleveland Browns",
+                            "W 20–10",
+                            "11–4",
+                            "Cleveland Browns Stadium",
+                            "CBS",
+                            "[http://www.nfl.com/gamecenter/2010122602/2010/REG16/ravens@browns Recap]"
+                        ],
+                        [
+                            "17",
+                            "January 2",
+                            "1:00p.m.",
+                            "Cincinnati Bengals",
+                            "W 13–7",
+                            "12–4",
+                            "M&T Bank Stadium",
+                            "CBS",
+                            "[http://www.nfl.com/gamecenter/2011010202/2010/REG17/bengals@ravens Recap]"
+                        ]
+                    ]
+                }
+            ],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "L 17–24",
+                "L 14–21",
+                "L 21–27",
+                "L 20–23 (OT)"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_food_science_history_17ef97e7",
+                    "insert_conversation_turn": 1008
+                }
+            ],
+            "image_evidence_assignment": [],
+            "table_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_business_music_video_games_e38e0e19",
+                    "insert_conversation_turn": 135,
+                    "reference_name": "Table. 967b4d24"
+                }
+            ],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "sports"
+            ],
+            "original_question": "What was the outcome of the Baltimore Ravens' 2010 regular season game against the professional American football team headquartered in Foxborough, Massachusetts?"
+        }
+    },
+    {
+        "id": "FC_sample_c51e324d",
+        "domain": "M3_Bench",
+        "category": "Function_Call",
+        "question": "Based on Fig. fbf02d47, What movie is shown in this image, and where can it be watched in cinemas near New York?",
+        "answer": [
+            {
+                "step": 1,
+                "calls": []
+            },
+            {
+                "step": 2,
+                "calls": [
+                    {
+                        "name": "TMDB_search_movies",
+                        "arguments": {
+                            "query": "Friday the 13th"
+                        }
+                    },
+                    {
+                        "name": "GOOGLE_MAPS_places_text_search",
+                        "arguments": {
+                            "query": "movie theaters showing \"Friday the 13th\" near New York, NY",
+                            "regionCode": "us"
+                        }
+                    }
+                ]
+            }
+        ],
+        "evidence": {
+            "text_evidence": [
+                "Movie identification and cinema lookup\n\nTo complete this workflow, first apply optical character recognition to the provided image in order to extract the movie title or relevant text. Next, use a movie database search tool to identify and confirm details about the extracted movie title. Once the movie has been identified, use a place search service to find cinemas in the specified area that are currently showing this movie. The workflow proceeds in this order: extract text from the image, identify the movie using a movie database, and then search for local cinemas screening the movie. This process can be repeated for any image containing movie-related information and any location of interest."
+            ],
+            "image_evidence": [
+                "M3_bench_c51e324d.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {},
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_food_science_history_17ef97e7",
+                    "insert_conversation_turn": 418
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_technology_education_science_fcdfe82a",
+                    "insert_conversation_turn": 75,
+                    "reference_name": "Fig. fbf02d47"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "function_call": [
+                {
+                    "function_name": "TMDB_search_movies",
+                    "function_comment": "Search for movies using The Movie Database API.\n  Args:\n    query (string): Search query text.\n    year (number): Optional filter by release year.\n    page (number): Optional page number, defaults to 1.\n  Returns:\n    result (text): JSON string of the TMDB /search/movie response."
+                },
+                {
+                    "function_name": "GOOGLE_MAPS_places_text_search",
+                    "function_comment": "Search for places using a free-text query via Google Places Text Search.\nArgs:\n  query (str): Text query describing the place.\n  languageCode (Optional[str]): Response language code.\n  regionCode (Optional[str]): Region bias code.\n  locationBias (Optional[Dict[str, Any]]): Optional circle bias for location preference.\n  maxResultCount (int): Maximum number of results to keep client-side.\n  fields (Optional[str]): Unused field mask parameter for signature parity.\nReturns:\n  data (Dict[str, Any]): JSON with endpoint, request parameters, and trimmed Places response."
+                }
+            ],
+            "ocr_text": "WELCOME TO CRYSTAL LAKE\n\nFROM THE PRODUCERS OF THE TEXAS CHAINSAW MASSACRE\n\nFRIDAY THE 13TH\n\nFEBRUARY 13",
+            "instruction": "Use OCR to extract the movie title from the image. Search for this movie on The Movie Database to confirm its details. Then, look up cinemas near New York that are currently showing this movie using a place search with the movie title and location.",
+            "workflow_description": "Movie identification and cinema lookup\n\nTo complete this workflow, first apply optical character recognition to the provided image in order to extract the movie title or relevant text. Next, use a movie database search tool to identify and confirm details about the extracted movie title. Once the movie has been identified, use a place search service to find cinemas in the specified area that are currently showing this movie. The workflow proceeds in this order: extract text from the image, identify the movie using a movie database, and then search for local cinemas screening the movie. This process can be repeated for any image containing movie-related information and any location of interest.",
+            "topic": [
+                "films"
+            ],
+            "original_question": "What movie is shown in this image, and where can it be watched in cinemas near New York?"
+        },
+        "original_reference_question": "Based on Fig. fbf02d47, What movie is shown in this image, and where can it be watched in cinemas near New York?"
+    },
+    {
+        "id": "QA_sample_57ff8ee5",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. b9000c50, the text, did the construction sector experience a \"significant recovery\" in February 2017 according to the chart?",
+        "answer": "Yes",
+        "evidence": {
+            "text_evidence": [
+                "A sector is considered to be in significant recovery if its percentage job gain within a month exceeds 0.75%. From the visualization, dark green and blue dots represent percentage changes greater than 0.75%, with other sectors categorized below this threshold."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_79f40f25.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "No",
+                "Yes"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_food_science_history_17ef97e7",
+                    "insert_conversation_turn": 508
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_technology_education_science_fcdfe82a",
+                    "insert_conversation_turn": 523,
+                    "reference_name": "Fig. b9000c50"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "economy",
+                "business"
+            ],
+            "original_question": "the text, did the construction sector experience a \"significant recovery\" in February 2017 according to the chart?"
+        }
+    },
+    {
+        "id": "QA_sample_eb54e0a8",
+        "domain": "MLLMKC",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. 16e8bf62, What is the nationality of the person in the picture?",
+        "answer": "[Canadian]",
+        "evidence": {
+            "text_evidence": [
+                "[James Cameron] was born in [August 16, 1954]. [James Cameron] is [Canadian]. [James Cameron] is a [film director, producer, and screenwriter]."
+            ],
+            "image_evidence": [
+                "MLLMKC_e76f7447.jpg"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "[James Cameron] was born in [August 16, 1954]. [James Cameron] is [American]. [James Cameron] is a [film director, producer, and screenwriter]."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "American",
+                "British",
+                "[Argentine]  \n[Brazilian]  \n[Colombian]",
+                "[Canadian]"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_technology_education_science_fcdfe82a",
+                    "insert_conversation_turn": 285
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_business_music_video_games_e38e0e19",
+                    "insert_conversation_turn": 120,
+                    "reference_name": "Fig. 16e8bf62"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_food_science_history_17ef97e7",
+                    "insert_conversation_turn": 65
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "instance": "James Cameron",
+            "category": "people",
+            "error_type": "location_error",
+            "topic": [
+                "films"
+            ],
+            "original_question": "What is the nationality of the person in the picture?"
+        }
+    },
+    {
+        "id": "QA_sample_89d002e8",
+        "domain": "MMCV",
+        "category": "Multi_Hop_QA",
+        "question": "Based on Table. e22be0f4, Which team appearing at New Era Field during the Buffalo Bills' 2016 regular season holds the record for the most Super Bowl losses in NFL history?",
+        "answer": "New England Patriots",
+        "evidence": {
+            "text_evidence": [
+                "The Pittsburgh Steelers (6–2) have won the most Super Bowls with six championships, while the New England Patriots (5–5), the Dallas Cowboys (5–3), and the San Francisco 49ers (5–1) have five wins. New England has the most Super Bowl appearances with ten, while the Buffalo Bills (0–4) have the most consecutive appearances with four (all losses) from 1990 to 1993. The Miami Dolphins are the only other team to have at least three consecutive appearances: 1972–1974. The Denver Broncos (3–5) and Patriots have each lost a record five Super Bowls. The Minnesota Vikings (0–4) and the Bills have lost four. The record for consecutive wins is two and is shared by seven franchises: the Green Bay Packers (1966–1967), the Miami Dolphins (1972–1973), the Pittsburgh Steelers (1974–1975 and 1978–1979, the only team to accomplish this feat twice), the San Francisco 49ers (1988–1989), the Dallas Cowboys (1992–1993), the Denver Broncos (1997–1998), and the New England Patriots (2003–2004). Among those, Dallas (1992–1993; 1995) and New England (2001; 2003–2004) are the only teams to win three out of four consecutive Super Bowls. The 1972 Dolphins capped off the only perfect season in NFL history with their victory in Super Bowl VII. The only team with multiple Super Bowl appearances and no losses is the Baltimore Ravens, who in winning Super Bowl XLVII defeated and replaced the 49ers in that position. Four current NFL teams have never appeared in a Super Bowl, including franchise relocations and renaming: the Cleveland Browns, Detroit Lions, Jacksonville Jaguars, and Houston Texans, though both the Browns (1964) and Lions (1957) had won NFL championship games prior to the creation of the Super Bowl."
+            ],
+            "image_evidence": [],
+            "table_evidence": [
+                {
+                    "title": "2016 Buffalo Bills season",
+                    "table_name": "Regular season",
+                    "table_header": [
+                        "Week",
+                        "Date",
+                        "Opponent",
+                        "Result",
+                        "Record",
+                        "Game site",
+                        "NFL.com recap"
+                    ],
+                    "table_rows": [
+                        [
+                            "1",
+                            "September 11",
+                            "at Baltimore Ravens",
+                            "L 7–13",
+                            "0–1",
+                            "M&T Bank Stadium",
+                            "[http://www.nfl.com/gamecenter/2016091101/2016/REG1/bills@ravens Recap]"
+                        ],
+                        [
+                            "2",
+                            "Thursday (September 15)",
+                            "New York Jets",
+                            "L 31–37",
+                            "0–2",
+                            "New Era Field",
+                            "[http://www.nfl.com/gamecenter/2016091500/2016/REG2/jets@bills Recap]"
+                        ],
+                        [
+                            "3",
+                            "September 25",
+                            "Arizona Cardinals",
+                            "W 33–18",
+                            "1–2",
+                            "New Era Field",
+                            "[http://www.nfl.com/gamecenter/2016092500/2016/REG3/cardinals@bills Recap]"
+                        ],
+                        [
+                            "4",
+                            "October 2",
+                            "at New England Patriots",
+                            "W 16–0",
+                            "2–2",
+                            "Gillette Stadium",
+                            "[http://www.nfl.com/gamecenter/2016100205/2016/REG4/bills@patriots Recap]"
+                        ],
+                        [
+                            "5",
+                            "October 9",
+                            "at Los Angeles Rams",
+                            "W 30–19",
+                            "3–2",
+                            "Los Angeles Memorial Coliseum",
+                            "[http://www.nfl.com/gamecenter/2016100909/2016/REG5/bills@rams Recap]"
+                        ],
+                        [
+                            "6",
+                            "October 16",
+                            "San Francisco 49ers",
+                            "W 45–16",
+                            "4–2",
+                            "New Era Field",
+                            "[http://www.nfl.com/gamecenter/2016101600/2016/REG6/49ers@bills Recap]"
+                        ],
+                        [
+                            "7",
+                            "October 23",
+                            "at Miami Dolphins",
+                            "L 25–28",
+                            "4–3",
+                            "Hard Rock Stadium",
+                            "[http://www.nfl.com/gamecenter/2016102305/2016/REG7/bills@dolphins Recap]"
+                        ],
+                        [
+                            "8",
+                            "October 30",
+                            "New England Patriots",
+                            "L 25–41",
+                            "4–4",
+                            "New Era Field",
+                            "[http://www.nfl.com/gamecenter/2016103002/2016/REG8/patriots@bills Recap]"
+                        ],
+                        [
+                            "9",
+                            "Monday (November 7)",
+                            "at Seattle Seahawks",
+                            "L 25–31",
+                            "4–5",
+                            "CenturyLink Field",
+                            "[http://www.nfl.com/gamecenter/2016110700/2016/REG9/bills@seahawks Recap]"
+                        ],
+                        [
+                            "10",
+                            "Bye",
+                            "Bye",
+                            "Bye",
+                            "Bye",
+                            "Bye",
+                            "Bye"
+                        ],
+                        [
+                            "11",
+                            "November 20",
+                            "at Cincinnati Bengals",
+                            "W 16–12",
+                            "5–5",
+                            "Paul Brown Stadium",
+                            "[http://www.nfl.com/gamecenter/2016112000/2016/REG11/bills@bengals Recap]"
+                        ],
+                        [
+                            "12",
+                            "November 27",
+                            "Jacksonville Jaguars",
+                            "W 28–21",
+                            "6–5",
+                            "New Era Field",
+                            "[http://www.nfl.com/gamecenter/2016112702/2016/REG12/jaguars@bills Recap]"
+                        ],
+                        [
+                            "13",
+                            "December 4",
+                            "at Oakland Raiders",
+                            "L 24–38",
+                            "6–6",
+                            "Oakland Alameda Coliseum",
+                            "[http://www.nfl.com/gamecenter/2016120408/2016/REG13/bills@raiders Recap]"
+                        ],
+                        [
+                            "14",
+                            "December 11",
+                            "Pittsburgh Steelers",
+                            "L 20–27",
+                            "6–7",
+                            "New Era Field",
+                            "[http://www.nfl.com/gamecenter/2016121100/2016/REG14/steelers@bills Recap]"
+                        ],
+                        [
+                            "15",
+                            "December 18",
+                            "Cleveland Browns",
+                            "W 33–13",
+                            "7–7",
+                            "New Era Field",
+                            "[http://www.nfl.com/gamecenter/2016121801/2016/REG15/browns@bills Recap]"
+                        ],
+                        [
+                            "16",
+                            "Saturday (December 24)",
+                            "Miami Dolphins",
+                            "L 31–34",
+                            "7–8",
+                            "New Era Field",
+                            "[http://www.nfl.com/gamecenter/2016122400/2016/REG16/dolphins@bills Recap]"
+                        ],
+                        [
+                            "17",
+                            "January 1",
+                            "at New York Jets",
+                            "L 10–30",
+                            "7–9",
+                            "MetLife Stadium",
+                            "[http://www.nfl.com/gamecenter/2017010106/2016/REG17/bills@jets Recap]"
+                        ]
+                    ]
+                }
+            ],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "Denver Broncos",
+                "Buffalo Bills",
+                "Dallas Cowboys",
+                "New England Patriots"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_technology_education_science_fcdfe82a",
+                    "insert_conversation_turn": 16
+                }
+            ],
+            "image_evidence_assignment": [],
+            "table_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_food_science_history_17ef97e7",
+                    "insert_conversation_turn": 564,
+                    "reference_name": "Table. e22be0f4"
+                }
+            ],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "sports",
+                "NFL"
+            ],
+            "original_question": "Which team appearing at New Era Field during the Buffalo Bills' 2016 regular season holds the record for the most Super Bowl losses in NFL history?"
+        }
+    },
+    {
+        "id": "QA_sample_6a1850b3",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. cf9e706c, the text, which countries are classified as \"economically robust for 2012\" according to the definition of having a GDP growth rate that \"exceeds 10%\" and not appearing among the \"fastest shrinking economies\"?",
+        "answer": "Libya, Mongolia, Macau, Angola, and Iraq.",
+        "evidence": {
+            "text_evidence": [
+                "A country is classified as economically robust for 2012 if its GDP growth rate exceeds 10% and does not appear among the fastest shrinking economies. Additionally, a growth rate below 0% categorizes a country as economically contracting."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_a209636d.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Libya, Mongolia, Macau, Angola, and Iraq.",
+                "Italy, Luxembourg, Netherlands, and Ireland",
+                "Sudan, Greece, Portugal, and Swaziland",
+                "Niger, Qatar, Bhutan, and China"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_technology_education_science_fcdfe82a",
+                    "insert_conversation_turn": 210
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_business_music_video_games_e38e0e19",
+                    "insert_conversation_turn": 5,
+                    "reference_name": "Fig. cf9e706c"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "economy"
+            ],
+            "original_question": "the text, which countries are classified as \"economically robust for 2012\" according to the definition of having a GDP growth rate that \"exceeds 10%\" and not appearing among the \"fastest shrinking economies\"?"
+        }
+    },
+    {
+        "id": "QA_sample_c4de837c",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. c04c638c, the text, during which survey period do investors show the highest level of \"optimism\" and during which period do they show the highest level of \"caution,\" according to the previous definitions?",
+        "answer": "Investors show the highest optimism in January 2024 (71% predicting a soft landing) and the highest caution in April 2024 (36% predicting a no landing).",
+        "evidence": {
+            "text_evidence": [
+                "In financial forecasts, a 'soft landing' refers to the situation where the economy slows down just enough to curb inflation without triggering a recession. A 'hard landing' is when economic measures to curb inflation result in a recession. A 'no landing' scenario occurs when the economy continues growing despite elevated inflation remaining persistent. Assume that investors are optimistic if the majority chooses 'soft landing,' cautious with 'no landing,' and pessimistic with 'hard landing.'"
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_ac9d2195.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "Investors show the highest optimism in October 2023 and the highest caution in April 2024",
+                "Investors show the highest optimism in January 2024 and the highest caution in October 2023",
+                "Investors show the highest optimism in January 2024 (71% predicting a soft landing) and the highest caution in April 2024 (36% predicting a no landing).",
+                "Investors show the highest optimism in October 2023 and the highest caution in January 2024"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_technology_education_science_fcdfe82a",
+                    "insert_conversation_turn": 725
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_food_science_history_17ef97e7",
+                    "insert_conversation_turn": 199,
+                    "reference_name": "Fig. c04c638c"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "economy"
+            ],
+            "original_question": "the text, during which survey period do investors show the highest level of \"optimism\" and during which period do they show the highest level of \"caution,\" according to the previous definitions?"
+        }
+    },
+    {
+        "id": "FC_sample_f585be10",
+        "domain": "M3_Bench",
+        "category": "Function_Call",
+        "question": "Based on Fig. 364c9eb3, what is shown in this image, find where this movie is currently playing in cinemas near New York.",
+        "answer": [
+            {
+                "step": 1,
+                "calls": []
+            },
+            {
+                "step": 2,
+                "calls": [
+                    {
+                        "name": "TMDB_search_movies",
+                        "arguments": {
+                            "query": "Inception"
+                        }
+                    },
+                    {
+                        "name": "GOOGLE_MAPS_places_text_search",
+                        "arguments": {
+                            "query": "Inception showtimes near New York, NY",
+                            "regionCode": "us"
+                        }
+                    }
+                ]
+            }
+        ],
+        "evidence": {
+            "text_evidence": [
+                "Movie identification and cinema lookup\n\nTo complete this workflow, first apply optical character recognition to the provided image in order to extract the movie title or relevant text. Next, use a movie database search tool to identify and confirm details about the extracted movie title. Once the movie has been identified, use a place search service to find cinemas in the specified area that are currently showing this movie. The workflow proceeds in this order: extract text from the image, identify the movie using a movie database, and then search for local cinemas screening the movie. This process can be repeated for any image containing movie-related information and any location of interest."
+            ],
+            "image_evidence": [
+                "M3_bench_f585be10.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {},
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_technology_education_science_fcdfe82a",
+                    "insert_conversation_turn": 45
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_business_music_video_games_e38e0e19",
+                    "insert_conversation_turn": 858,
+                    "reference_name": "Fig. 364c9eb3"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "function_call": [
+                {
+                    "function_name": "TMDB_search_movies",
+                    "function_comment": "Search for movies using The Movie Database API.\n  Args:\n    query (string): Search query text.\n    year (number): Optional filter by release year.\n    page (number): Optional page number, defaults to 1.\n  Returns:\n    result (text): JSON string of the TMDB /search/movie response."
+                },
+                {
+                    "function_name": "GOOGLE_MAPS_places_text_search",
+                    "function_comment": "Search for places using a free-text query via Google Places Text Search.\nArgs:\n  query (str): Text query describing the place.\n  languageCode (Optional[str]): Response language code.\n  regionCode (Optional[str]): Region bias code.\n  locationBias (Optional[Dict[str, Any]]): Optional circle bias for location preference.\n  maxResultCount (int): Maximum number of results to keep client-side.\n  fields (Optional[str]): Unused field mask parameter for signature parity.\nReturns:\n  data (Dict[str, Any]): JSON with endpoint, request parameters, and trimmed Places response."
+                }
+            ],
+            "ocr_text": "LEONARDO DICAPRIO\n\nYOUR MIND\nIS THE SCENE\nOF THE CRIME\n\nA FILM BY CHRISTOPHER NOLAN\n\nINCEPTION\n\nFROM THE DIRECTOR OF THE DARK KNIGHT\n\nWARNER BROS. PICTURES\nIN ASSOCIATION WITH LEGENDARY PICTURES\nESPYNOPSY\nA FILM BY CHRISTOPHER NOLAN\nLEONARDO DICAPRIO \"INCEPTION\" KEN WATANABE JOSEPH GORDON-LEVITT MARION COTILLARD ELLEN PAGE TOM HARDY CILLIAN MURPHY TOM BERENGER AND MICHAEL CAINE\nMUSIC BY HANS ZIMMER\nEXECUTIVE PRODUCERS CHRIS BRIGHAM THOMAS TULL\nPRODUCED BY EMMA THOMAS CHRISTOPHER NOLAN\nWRITTEN AND DIRECTED BY CHRISTOPHER NOLAN\n\nEXPERIENCE IT SUMMER 2010 IN IMAX\n\nInceptionMovie.com",
+            "instruction": "Use OCR to extract the movie title from the image. Search for this movie using a movie database to confirm its details. Then, search for cinemas near New York that are showing this movie using a place search service.",
+            "workflow_description": "Movie identification and cinema lookup\n\nTo complete this workflow, first apply optical character recognition to the provided image in order to extract the movie title or relevant text. Next, use a movie database search tool to identify and confirm details about the extracted movie title. Once the movie has been identified, use a place search service to find cinemas in the specified area that are currently showing this movie. The workflow proceeds in this order: extract text from the image, identify the movie using a movie database, and then search for local cinemas screening the movie. This process can be repeated for any image containing movie-related information and any location of interest.",
+            "topic": [
+                "films"
+            ],
+            "original_question": "what is shown in this image, find where this movie is currently playing in cinemas near New York."
+        },
+        "original_reference_question": "Based on Fig. 364c9eb3, Based on what is shown in this image, find where this movie is currently playing in cinemas near New York."
+    },
+    {
+        "id": "QA_sample_25893b7b",
+        "domain": "MMCV",
+        "category": "Multi_Hop_QA",
+        "question": "Based on Table. 88ec0172, Which player won a men's singles title at an ATP Masters Series event in 2007 by defeating an opponent who also won a singles title at the US Open in 2017?",
+        "answer": "Rafael Nadal",
+        "evidence": {
+            "text_evidence": [
+                "The men's singles tournament concluded with Rafael Nadal defeating Kevin Anderson in the final, while the women's singles tournament concluded with Sloane Stephens defeating Madison Keys in the final."
+            ],
+            "image_evidence": [],
+            "table_evidence": [
+                {
+                    "title": "ATP Masters Series",
+                    "table_name": "2007 ATP Masters Series",
+                    "table_header": [
+                        "Tournament",
+                        "Singles Winner",
+                        "Runner-up",
+                        "Score",
+                        "Doubles Winner",
+                        "Runner-up",
+                        "Score"
+                    ],
+                    "table_rows": [
+                        [
+                            "Indian Wells",
+                            "Rafael Nadal",
+                            "Novak Djokovic",
+                            "6–2, 7–5",
+                            "Martin Damm    Leander Paes",
+                            "Jonathan Erlich    Andy Ram",
+                            "6–4, 6–4"
+                        ],
+                        [
+                            "Miami",
+                            "Novak Djokovic",
+                            "Guillermo Cañas",
+                            "6–3, 6–2, 6–4",
+                            "Bob Bryan    Mike Bryan",
+                            "Martin Damm    Leander Paes",
+                            "7–6 (9–7) , 3–6, [10–7]"
+                        ],
+                        [
+                            "Monte Carlo",
+                            "Rafael Nadal",
+                            "Roger Federer",
+                            "6–4, 6–4",
+                            "Bob Bryan    Mike Bryan",
+                            "Julien Benneteau    Richard Gasquet",
+                            "6–2, 6–1"
+                        ],
+                        [
+                            "Rome",
+                            "Rafael Nadal",
+                            "Fernando González",
+                            "6–2, 6–2",
+                            "Fabrice Santoro    Nenad Zimonjić",
+                            "Bob Bryan    Mike Bryan",
+                            "6–4, 6–7 (4–7) , [10–7]"
+                        ],
+                        [
+                            "Hamburg",
+                            "Roger Federer",
+                            "Rafael Nadal",
+                            "2–6, 6–2, 6–0",
+                            "Bob Bryan    Mike Bryan",
+                            "Paul Hanley    Kevin Ullyett",
+                            "6–3, 6–4"
+                        ],
+                        [
+                            "Montreal",
+                            "Novak Djokovic",
+                            "Roger Federer",
+                            "7–6 (7–2) , 2–6, 7–6 (7–2)",
+                            "Mahesh Bhupathi    Pavel Vízner",
+                            "Paul Hanley    Kevin Ullyett",
+                            "6–4, 6–4"
+                        ],
+                        [
+                            "Cincinnati",
+                            "Roger Federer",
+                            "James Blake",
+                            "6–1, 6–4",
+                            "Jonathan Erlich    Andy Ram",
+                            "Bob Bryan    Mike Bryan",
+                            "6–4, 3–6, [13–11]"
+                        ],
+                        [
+                            "Madrid",
+                            "David Nalbandian",
+                            "Roger Federer",
+                            "1–6, 6–3, 6–3",
+                            "Bob Bryan    Mike Bryan",
+                            "Mariusz Fyrstenberg    Marcin Matkowski",
+                            "6–3, 7–6 (7–4)"
+                        ],
+                        [
+                            "Paris",
+                            "David Nalbandian",
+                            "Rafael Nadal",
+                            "6–4, 6–0",
+                            "Bob Bryan    Mike Bryan",
+                            "Daniel Nestor    Nenad Zimonjić",
+                            "6–3, 7–6 (7–4)"
+                        ]
+                    ]
+                }
+            ],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "David Nalbandian",
+                "Roger Federer",
+                "Novak Djokovic",
+                "Rafael Nadal"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_business_music_video_games_e38e0e19",
+                    "insert_conversation_turn": 105
+                }
+            ],
+            "image_evidence_assignment": [],
+            "table_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_food_science_history_17ef97e7",
+                    "insert_conversation_turn": 124,
+                    "reference_name": "Table. 88ec0172"
+                }
+            ],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "sports",
+                "tennis"
+            ],
+            "original_question": "Which player won a men's singles title at an ATP Masters Series event in 2007 by defeating an opponent who also won a singles title at the US Open in 2017?"
+        }
+    },
+    {
+        "id": "QA_sample_4c0d463a",
+        "domain": "MMCV",
+        "category": "Multi_Hop_QA",
+        "question": "Based on Table. c7447937, Which team did the Pittsburgh Steelers defeat in a Super Bowl after playing a regular season game against a team that beat them in November of 1998?",
+        "answer": "Seattle Seahawks",
+        "evidence": {
+            "text_evidence": [
+                "The Seahawks have won 10 division titles and three conference championships. They are the only team to have played in both the AFC and NFC Championship Games. They have appeared in three Super Bowls: losing 21–10 to the Pittsburgh Steelers in Super Bowl XL, defeating the Denver Broncos 43–8 for their first championship in Super Bowl XLVIII, and losing 28–24 to the New England Patriots in Super Bowl XLIX. They are also the first, and to date only, post-merger expansion team in NFL history to play in consecutive Super Bowl games."
+            ],
+            "image_evidence": [],
+            "table_evidence": [
+                {
+                    "title": "1998 Tennessee Oilers season",
+                    "table_name": "Regular season",
+                    "table_header": [
+                        "Week",
+                        "Date",
+                        "Opponent",
+                        "Result",
+                        "Record",
+                        "Game site",
+                        "NFL.com recap"
+                    ],
+                    "table_rows": [
+                        [
+                            "1",
+                            "September 6",
+                            "at Cincinnati Bengals",
+                            "W 23–14",
+                            "1–0",
+                            "Cinergy Field",
+                            "[https://www.pro-football-reference.com/teams/oti/1998/gamelog/ Recap]"
+                        ],
+                        [
+                            "2",
+                            "September 13",
+                            "San Diego Chargers",
+                            "L 7–13",
+                            "1–1",
+                            "Vanderbilt Stadium",
+                            "[https://www.pro-football-reference.com/teams/oti/1998/gamelog/ Recap]"
+                        ],
+                        [
+                            "3",
+                            "September 20",
+                            "at New England Patriots",
+                            "L 16–27",
+                            "1–2",
+                            "Foxboro Stadium",
+                            "[https://www.pro-football-reference.com/teams/oti/1998/gamelog/ Recap]"
+                        ],
+                        [
+                            "4",
+                            "September 27",
+                            "Jacksonville Jaguars",
+                            "L 22–27",
+                            "1–3",
+                            "Vanderbilt Stadium",
+                            "[https://www.pro-football-reference.com/teams/oti/1998/gamelog/ Recap]"
+                        ],
+                        [
+                            "5",
+                            "Bye",
+                            "Bye",
+                            "Bye",
+                            "Bye",
+                            "Bye",
+                            "Bye"
+                        ],
+                        [
+                            "6",
+                            "October 11",
+                            "at Baltimore Ravens",
+                            "W 12–8",
+                            "2–3",
+                            "Ravens Stadium at Camden Yards",
+                            "[https://www.pro-football-reference.com/teams/oti/1998/gamelog/ Recap]"
+                        ],
+                        [
+                            "7",
+                            "October 18",
+                            "Cincinnati Bengals",
+                            "W 44–14",
+                            "3–3",
+                            "Vanderbilt Stadium",
+                            "[https://www.pro-football-reference.com/teams/oti/1998/gamelog/ Recap]"
+                        ],
+                        [
+                            "8",
+                            "October 25",
+                            "Chicago Bears",
+                            "L 20–23",
+                            "3–4",
+                            "Vanderbilt Stadium",
+                            "[https://www.pro-football-reference.com/teams/oti/1998/gamelog/ Recap]"
+                        ],
+                        [
+                            "9",
+                            "November 1",
+                            "at  Pittsburgh Steelers",
+                            "W 41–31",
+                            "4–4",
+                            "Three Rivers Stadium",
+                            "[https://www.pro-football-reference.com/teams/oti/1998/gamelog/ Recap]"
+                        ],
+                        [
+                            "10",
+                            "November 8",
+                            "at Tampa Bay Buccaneers",
+                            "W 31–22",
+                            "5–4",
+                            "Raymond James Stadium",
+                            "[https://www.pro-football-reference.com/teams/oti/1998/gamelog/ Recap]"
+                        ],
+                        [
+                            "11",
+                            "November 15",
+                            "Pittsburgh Steelers",
+                            "W 23–14",
+                            "6–4",
+                            "Vanderbilt Stadium",
+                            "[https://www.pro-football-reference.com/teams/oti/1998/gamelog/ Recap]"
+                        ],
+                        [
+                            "12",
+                            "November 22",
+                            "New York Jets",
+                            "L 3–24",
+                            "6–5",
+                            "Vanderbilt Stadium",
+                            "[https://www.pro-football-reference.com/teams/oti/1998/gamelog/ Recap]"
+                        ],
+                        [
+                            "13",
+                            "November 29",
+                            "at Seattle Seahawks",
+                            "L 18–20",
+                            "6–6",
+                            "Kingdome",
+                            "[https://www.pro-football-reference.com/teams/oti/1998/gamelog/ Recap]"
+                        ],
+                        [
+                            "14",
+                            "December 6",
+                            "Baltimore Ravens",
+                            "W 16–14",
+                            "7–6",
+                            "Vanderbilt Stadium",
+                            "[https://www.pro-football-reference.com/teams/oti/1998/gamelog/ Recap]"
+                        ],
+                        [
+                            "15",
+                            "December 13",
+                            "at Jacksonville Jaguars",
+                            "W 16–13",
+                            "8–6",
+                            "Alltel Stadium",
+                            "[https://www.pro-football-reference.com/teams/oti/1998/gamelog/ Recap]"
+                        ],
+                        [
+                            "16",
+                            "December 20",
+                            "at Green Bay Packers",
+                            "L 22–30",
+                            "8–7",
+                            "Lambeau Field",
+                            "[https://www.pro-football-reference.com/teams/oti/1998/gamelog/ Recap]"
+                        ],
+                        [
+                            "17",
+                            "December 26, 1998",
+                            "Minnesota Vikings",
+                            "L 16–26",
+                            "8–8",
+                            "Vanderbilt Stadium",
+                            "[https://www.pro-football-reference.com/teams/oti/1998/gamelog/ Recap]"
+                        ]
+                    ]
+                }
+            ],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "Denver Broncos",
+                "New England Patriots",
+                "Seattle Seahawks",
+                "Minnesota Vikings"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_technology_education_science_fcdfe82a",
+                    "insert_conversation_turn": 1375
+                }
+            ],
+            "image_evidence_assignment": [],
+            "table_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_food_science_history_17ef97e7",
+                    "insert_conversation_turn": 1440,
+                    "reference_name": "Table. c7447937"
+                }
+            ],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "sports",
+                "NFL"
+            ],
+            "original_question": "Which team did the Pittsburgh Steelers defeat in a Super Bowl after playing a regular season game against a team that beat them in November of 1998?"
+        }
+    },
+    {
+        "id": "QA_sample_e32b3938",
+        "domain": "MMCV",
+        "category": "Multi_Hop_QA",
+        "question": "Based on Fig. 3eddcac1, Fig. ea5c393f, Table. 1b27df6d, Which blonde-haired Australian player listed in the prop position for the 2004 Anzac Test lineup matches the appearance depicted in the provided images?",
+        "answer": "Shane Webcke",
+        "evidence": {
+            "text_evidence": [],
+            "image_evidence": [
+                "MMCV_27816759f3911a69d9193e2c592000dc.png",
+                "MMCV_e28ebeb9c597944f9d7a662cac5b5b7d.png"
+            ],
+            "table_evidence": [
+                {
+                    "title": "2004 Anzac Test",
+                    "table_name": "Squads",
+                    "table_header": [
+                        "Australia",
+                        "Position",
+                        "New Zealand"
+                    ],
+                    "table_rows": [
+                        [
+                            "Anthony Minichiello",
+                            "Fullback",
+                            "Nigel Vagana"
+                        ],
+                        [
+                            "Timana Tahu",
+                            "Wing",
+                            "Lesley Vainikolo"
+                        ],
+                        [
+                            "Matthew Gidley",
+                            "Centre",
+                            "Paul Whatuira"
+                        ],
+                        [
+                            "Brent Tate",
+                            "Centre",
+                            "Clinton Toopi"
+                        ],
+                        [
+                            "Michael De Vere",
+                            "Wing",
+                            "Francis Meli"
+                        ],
+                        [
+                            "Darren Lockyer (c)",
+                            "Five-Eighth",
+                            "Sione Faumuina"
+                        ],
+                        [
+                            "Craig Gower",
+                            "Halfback",
+                            "Thomas Leuluai"
+                        ],
+                        [
+                            "Shane Webcke",
+                            "Prop",
+                            "Jason Cayless"
+                        ],
+                        [
+                            "Danny Buderus",
+                            "Hooker",
+                            "Robbie Paul"
+                        ],
+                        [
+                            "Joel Clinton",
+                            "Prop",
+                            "Nathan Cayless (c)"
+                        ],
+                        [
+                            "Nathan Hindmarsh",
+                            "2nd Row",
+                            "Tony Puletua"
+                        ],
+                        [
+                            "Steve Price",
+                            "2nd Row",
+                            "Joe Galuvao"
+                        ],
+                        [
+                            "Shaun Timmins",
+                            "Lock",
+                            "David Kidwell"
+                        ],
+                        [
+                            "",
+                            "",
+                            ""
+                        ],
+                        [
+                            "Shaun Berrigan",
+                            "Interchange",
+                            "Jerry Seuseu"
+                        ],
+                        [
+                            "Trent Waterhouse",
+                            "Interchange",
+                            "Sonny Bill Williams"
+                        ],
+                        [
+                            "Michael Crocker",
+                            "Interchange",
+                            "Tevita Leo-Latu"
+                        ],
+                        [
+                            "Luke Bailey",
+                            "Interchange",
+                            "Stephen Kearney"
+                        ],
+                        [
+                            "Wayne Bennett",
+                            "Coach",
+                            "Daniel Anderson"
+                        ]
+                    ]
+                }
+            ],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Shane Webcke",
+                "Luke Bailey",
+                "Joel Clinton",
+                "Steve Price"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_technology_education_science_fcdfe82a",
+                    "insert_conversation_turn": 452,
+                    "reference_name": "Fig. 3eddcac1"
+                },
+                {
+                    "conversation_name": "group_chat_food_science_history_17ef97e7",
+                    "insert_conversation_turn": 1507,
+                    "reference_name": "Fig. ea5c393f"
+                }
+            ],
+            "table_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_business_music_video_games_e38e0e19",
+                    "insert_conversation_turn": 647,
+                    "reference_name": "Table. 1b27df6d"
+                }
+            ],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "sports",
+                "rugby league"
+            ],
+            "original_question": "Which blonde-haired Australian player listed in the prop position for the 2004 Anzac Test lineup matches the appearance depicted in the provided images?"
+        }
+    },
+    {
+        "id": "QA_sample_fdadedeb",
+        "domain": "MMCV",
+        "category": "Multi_Hop_QA",
+        "question": "Based on Table. 235e0f10, Which country, that hosted multiple men's road cycling events in February 2005, serves as the location of the headquarters for an NGO established to assist disabled people in challenging situations?",
+        "answer": "France",
+        "evidence": {
+            "text_evidence": [
+                "Handicap International is an organization which does not depend on any government, created in 1982 to provide help in refugee camps in Cambodia and Thailand. Headquartered in France and Belgium, since its creation, it has opened branches in six other countries : Switzerland, Luxembourg, United Kingdom, Germany, Canada and the United States."
+            ],
+            "image_evidence": [],
+            "table_evidence": [
+                {
+                    "title": "2005 in men's road cycling",
+                    "table_name": "February",
+                    "table_header": [
+                        "Date",
+                        "Race",
+                        "Location",
+                        "Notes",
+                        "Winner",
+                        "Nationality"
+                    ],
+                    "table_rows": [
+                        [
+                            "02/01",
+                            "GP dOuverture La Marseillaise",
+                            "France",
+                            "",
+                            "Nicki Sørensen",
+                            "DEN"
+                        ],
+                        [
+                            "02/02",
+                            "Étoile de Bessèges",
+                            "France",
+                            "",
+                            "Freddy Bichot",
+                            "FRA"
+                        ],
+                        [
+                            "02/06",
+                            "GP Costa degli Etruschi",
+                            "Italy",
+                            "",
+                            "Alessandro Petacchi",
+                            "ITA"
+                        ],
+                        [
+                            "02/06",
+                            "Trofeo Mallorca",
+                            "Spain",
+                            "",
+                            "Óscar Freire",
+                            "ESP"
+                        ],
+                        [
+                            "02/07",
+                            "Trofeo Alcudia",
+                            "Spain",
+                            "",
+                            "Óscar Freire",
+                            "ESP"
+                        ],
+                        [
+                            "02/08",
+                            "Trofeo Soller",
+                            "Spain",
+                            "",
+                            "Alejandro Valverde",
+                            "ESP"
+                        ],
+                        [
+                            "02/09",
+                            "Trofeo Manacor",
+                            "Spain",
+                            "",
+                            "Alejandro Valverde",
+                            "ESP"
+                        ],
+                        [
+                            "02/09 - 02/13",
+                            "Tour Méditerranéen",
+                            "France",
+                            "",
+                            "Jens Voigt",
+                            "GER"
+                        ],
+                        [
+                            "02/10",
+                            "Trofeo Calvia",
+                            "Spain",
+                            "",
+                            "Toni Colom",
+                            "ESP"
+                        ],
+                        [
+                            "02/10 - 02/13",
+                            "GP Internacional Costa Azul",
+                            "Portugal",
+                            "",
+                            "Ruben Plaza",
+                            "ESP"
+                        ],
+                        [
+                            "02/13 - 02/17",
+                            "Vuelta a Andalucía",
+                            "Spain",
+                            "",
+                            "Francisco Cabello Luque",
+                            "ESP"
+                        ],
+                        [
+                            "02/15",
+                            "Trofeo Laigueglia",
+                            "Italy",
+                            "",
+                            "Kim Kirchen",
+                            "LUX"
+                        ],
+                        [
+                            "02/16 - 02/20",
+                            "Volta ao Algarve",
+                            "Portugal",
+                            "",
+                            "Hugo Sabido",
+                            "POR"
+                        ],
+                        [
+                            "02/19",
+                            "Tour du Haut Var",
+                            "France",
+                            "",
+                            "Philippe Gilbert",
+                            "BEL"
+                        ],
+                        [
+                            "02/19",
+                            "Trofeo Luis Puig",
+                            "Spain",
+                            "",
+                            "Alessandro Petacchi",
+                            "ITA"
+                        ],
+                        [
+                            "02/20",
+                            "Classic Haribo",
+                            "France",
+                            "",
+                            "Gorik Gardeyn",
+                            "BEL"
+                        ],
+                        [
+                            "02/22 - 02/26",
+                            "Volta a la Comunitat Valenciana",
+                            "Spain",
+                            "",
+                            "Alessandro Petacchi",
+                            "ITA"
+                        ],
+                        [
+                            "02/26",
+                            "Gran Premio di Chiasso",
+                            "Switzerland",
+                            "",
+                            "Kim Kirchen",
+                            "LUX"
+                        ],
+                        [
+                            "02/26",
+                            "Omloop \"Het Volk\"",
+                            "Belgium",
+                            "Hors Catégorie",
+                            "Nick Nuyens",
+                            "BEL"
+                        ],
+                        [
+                            "02/27",
+                            "Clásica de Almería",
+                            "Spain",
+                            "",
+                            "Ivan Gutierrez",
+                            "ESP"
+                        ],
+                        [
+                            "02/27",
+                            "Gran Premio di Lugano",
+                            "Switzerland",
+                            "",
+                            "Rik Verbrugghe",
+                            "BEL"
+                        ],
+                        [
+                            "02/27",
+                            "Kuurne–Brussels–Kuurne",
+                            "Belgium",
+                            "",
+                            "George Hincapie",
+                            "United States"
+                        ]
+                    ]
+                }
+            ],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "France",
+                "Germany",
+                "Belgium",
+                "Italy"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_business_music_video_games_e38e0e19",
+                    "insert_conversation_turn": 264
+                }
+            ],
+            "image_evidence_assignment": [],
+            "table_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_food_science_history_17ef97e7",
+                    "insert_conversation_turn": 994,
+                    "reference_name": "Table. 235e0f10"
+                }
+            ],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "sports",
+                "non-profit organizations"
+            ],
+            "original_question": "Which country, that hosted multiple men's road cycling events in February 2005, serves as the location of the headquarters for an NGO established to assist disabled people in challenging situations?"
+        }
+    },
+    {
+        "id": "QA_sample_617de812",
+        "domain": "MMCV",
+        "category": "Multi_Hop_QA",
+        "question": "Based on Fig. 03ca429c, Fig. 3bd0165c, Fig. 77dbfef6, Fig. fe4b3efd, Which NFL team selected the player in the 2007 draft who is associated with wearing the green and gold jersey shown in the image?",
+        "answer": "Green Bay Packers",
+        "evidence": {
+            "text_evidence": [],
+            "image_evidence": [
+                "MMCV_c946f0a44d11b83361a25d92e04251ea.png",
+                "MMCV_f5e94b6079da2dfb818c7d6018b14882.png",
+                "MMCV_9ff3ed3c3b656be0563afb2b4182f0ac.png",
+                "MMCV_ed249038c6e37d08ca865f56d03c1910.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "Chicago Bears",
+                "Denver Broncos",
+                "Green Bay Packers",
+                "Cincinnati Bengals"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_food_science_history_17ef97e7",
+                    "insert_conversation_turn": 332,
+                    "reference_name": "Fig. 03ca429c"
+                },
+                {
+                    "conversation_name": "group_chat_technology_education_science_fcdfe82a",
+                    "insert_conversation_turn": 980,
+                    "reference_name": "Fig. 3bd0165c"
+                },
+                {
+                    "conversation_name": "group_chat_food_science_history_17ef97e7",
+                    "insert_conversation_turn": 862,
+                    "reference_name": "Fig. 77dbfef6"
+                },
+                {
+                    "conversation_name": "group_chat_business_music_video_games_e38e0e19",
+                    "insert_conversation_turn": 448,
+                    "reference_name": "Fig. fe4b3efd"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "sports"
+            ],
+            "original_question": "Which NFL team selected the player in the 2007 draft who is associated with wearing the green and gold jersey shown in the image?"
+        }
+    },
+    {
+        "id": "QA_sample_08a0fbcb",
+        "domain": "MLLMKC",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. 32a272bb, Who established the brand corresponding to the logo?",
+        "answer": "Walt Disney",
+        "evidence": {
+            "text_evidence": [
+                "Disney was created in 1923. The creator of Disney is Walt Disney. Disney is the brand of entertainment."
+            ],
+            "image_evidence": [
+                "MLLMKC_2f283153.jpg"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Disney was created in 1923. The creator of Disney is Steve Jobs. Disney is the brand of entertainment."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Walt Disney",
+                "Steve Jobs",
+                "Henry Ford",
+                "Thomas Edison"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_food_science_history_17ef97e7",
+                    "insert_conversation_turn": 1394
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_technology_education_science_fcdfe82a",
+                    "insert_conversation_turn": 822,
+                    "reference_name": "Fig. 32a272bb"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_business_music_video_games_e38e0e19",
+                    "insert_conversation_turn": 250
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "instance": "Disney",
+            "category": "logo",
+            "error_type": "creator_error",
+            "topic": [
+                "films",
+                "history",
+                "business"
+            ],
+            "original_question": "Who established the brand corresponding to the logo?"
+        }
+    },
+    {
+        "id": "QA_sample_cd83ff7b",
+        "domain": "MMCV",
+        "category": "Multi_Hop_QA",
+        "question": "Based on Fig. c7d39e2c, Fig. 386b43c0, Fig. 07c7f1d5, Which team with a crowned symbol in its emblem is identified among the top goalscorers of the 1999-2000 Copa del Rey?",
+        "answer": "Real Zaragoza",
+        "evidence": {
+            "text_evidence": [],
+            "image_evidence": [
+                "MMCV_f9f3e22d2b65d0218af63af3bb1b72cf.png",
+                "MMCV_4dc090129f6946ee746e7cb4ee4b3f1a.png",
+                "MMCV_c472b6bc23222120f4b9e200f7370835.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "RCD Espanyol",
+                "CD Tenerife",
+                "Real Zaragoza",
+                "Real Valladolid"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_business_music_video_games_e38e0e19",
+                    "insert_conversation_turn": 433,
+                    "reference_name": "Fig. c7d39e2c"
+                },
+                {
+                    "conversation_name": "group_chat_technology_education_science_fcdfe82a",
+                    "insert_conversation_turn": 1429,
+                    "reference_name": "Fig. 386b43c0"
+                },
+                {
+                    "conversation_name": "group_chat_food_science_history_17ef97e7",
+                    "insert_conversation_turn": 961,
+                    "reference_name": "Fig. 07c7f1d5"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "sports",
+                "soccer"
+            ],
+            "original_question": "Which team with a crowned symbol in its emblem is identified among the top goalscorers of the 1999-2000 Copa del Rey?"
+        }
+    },
+    {
+        "id": "QA_sample_73e95730",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. e3c77732, the text, which country's GDP growth line demonstrates \"stable economic growth\" during the forecast period, according to the definition that its growth rate deviates less than 0.5% from the average for all countries shown?",
+        "answer": "The country represented by the light blue GDP growth line.",
+        "evidence": {
+            "text_evidence": [
+                "A country's economic growth is considered stable if its GDP growth rate deviates less than 0.5% from the average for all countries shown in the chart at any point during the forecast period (indicated in the graph)."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_8d50eb83.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "The country represented by the yellow GDP growth line",
+                "The country represented by the light blue GDP growth line.",
+                "The country represented by the pink GDP growth line",
+                "The country represented by the orange GDP growth line"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_technology_education_science_fcdfe82a",
+                    "insert_conversation_turn": 240
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_business_music_video_games_e38e0e19",
+                    "insert_conversation_turn": 208,
+                    "reference_name": "Fig. e3c77732"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "economy"
+            ],
+            "original_question": "the text, which country's GDP growth line demonstrates \"stable economic growth\" during the forecast period, according to the definition that its growth rate deviates less than 0.5% from the average for all countries shown?"
+        }
+    },
+    {
+        "id": "QA_sample_91b8ea6f",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 89eb971f, the text, which index maintained \"positive performance\" for the three-day period starting August 1 according to the investor's definition?",
+        "answer": "S&P 500",
+        "evidence": {
+            "text_evidence": [
+                "An investor plans to allocate more funds to indices that maintain a positive performance trend over a consecutive three-day period starting on August 1. Positive performance is defined as values remaining above the 0% baseline for the entire duration of the three-day window."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_29789703.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Dow Industrials",
+                "S&P 500",
+                "Nasdaq Composite",
+                "Russell 2000"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_food_science_history_17ef97e7",
+                    "insert_conversation_turn": 1365
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_technology_education_science_fcdfe82a",
+                    "insert_conversation_turn": 1337,
+                    "reference_name": "Fig. 89eb971f"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "business",
+                "economy"
+            ],
+            "original_question": "the text, which index maintained \"positive performance\" for the three-day period starting August 1 according to the investor's definition?"
+        }
+    },
+    {
+        "id": "QA_sample_5c563e53",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 2378a37c, the text, which cryptocurrency experienced a \"recovery level\" after the \"critical dip\" around 04:00 AM according to the previous definitions?",
+        "answer": "Bitcoin",
+        "evidence": {
+            "text_evidence": [
+                "Cryptocurrency analysts define a 'critical dip' as a reduction of value that exceeds 5% within one hour. Additionally, a recovery level is determined if the asset regains at least 50% of the value lost during the dip within the following three hours."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_e9e0b22b.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Bitcoin",
+                "Ethereum",
+                "Ripple",
+                "Litecoin"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_business_music_video_games_e38e0e19",
+                    "insert_conversation_turn": 786
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_technology_education_science_fcdfe82a",
+                    "insert_conversation_turn": 750,
+                    "reference_name": "Fig. 2378a37c"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "economy",
+                "technology",
+                "business"
+            ],
+            "original_question": "the text, which cryptocurrency experienced a \"recovery level\" after the \"critical dip\" around 04:00 AM according to the previous definitions?"
+        }
+    },
+    {
+        "id": "QA_sample_0a30cdbe",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 7da3147b, the text, did the combined growth of foreign investments in China's onshore stocks and bonds meet the criteria for being considered \"highly effective\" according to the investment integration policy definition between November 2014 and 2019?",
+        "answer": "Yes",
+        "evidence": {
+            "text_evidence": [
+                "Investment integration policies between China and foreign investors are considered highly effective if the combined growth of foreign investments in stocks and bonds surpasses 100% over a five-year period. Assume the growth is measured from November 2014."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_3e07cd42.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Yes",
+                "No"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_business_music_video_games_e38e0e19",
+                    "insert_conversation_turn": 279
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_technology_education_science_fcdfe82a",
+                    "insert_conversation_turn": 711,
+                    "reference_name": "Fig. 7da3147b"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "economy",
+                "business"
+            ],
+            "original_question": "the text, did the combined growth of foreign investments in China's onshore stocks and bonds meet the criteria for being considered \"highly effective\" according to the investment integration policy definition between November 2014 and 2019?"
+        }
+    },
+    {
+        "id": "QA_sample_74ddb68f",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 5b92de11, the previous definition, which country represented by a colored line in the graph is forecasted to achieve the \"strongly successful\" policy outcome in the upcoming year?",
+        "answer": "The country represented by the pink line.",
+        "evidence": {
+            "text_evidence": [
+                "A country’s economic policy aims to increase annual GDP growth above 3%. If it achieves this, the policy is considered strongly successful. Using the forecast data provided, evaluate whether any of the countries shown in the graph are projected to meet this target in the upcoming year, based on their respective growth trajectories."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_8d50eb83.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "The country represented by the green line",
+                "The country represented by the blue line",
+                "The country represented by the pink line.",
+                "The country represented by the orange line"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_technology_education_science_fcdfe82a",
+                    "insert_conversation_turn": 1157
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_business_music_video_games_e38e0e19",
+                    "insert_conversation_turn": 208,
+                    "reference_name": "Fig. 5b92de11"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "economy"
+            ],
+            "original_question": "the previous definition, which country represented by a colored line in the graph is forecasted to achieve the \"strongly successful\" policy outcome in the upcoming year?"
+        }
+    },
+    {
+        "id": "QA_sample_73699199",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 154c1ad1, the text, what is the estimated average number of divorce filings per month during periods identified as \"High COVID case rates\" when \"total court activity is expected to decrease by 20%\"?",
+        "answer": "240 divorce filings per month",
+        "evidence": {
+            "text_evidence": [
+                "Periods of high COVID case rates can impact social behaviors and legal proceedings, including divorce filings. During months identified as 'High COVID case rates' (red zones on the chart), total court activity is expected to decrease by 20% compared to months with 'Low COVID case rates' (green zones). Assume that the difference in divorce case filings is solely due to the COVID-related restrictions and their impact on court activity."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_f028b713.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "280 divorce filings per month",
+                "240 divorce filings per month",
+                "220 divorce filings per month",
+                "192 divorce filings per month"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_food_science_history_17ef97e7",
+                    "insert_conversation_turn": 278
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_technology_education_science_fcdfe82a",
+                    "insert_conversation_turn": 1191,
+                    "reference_name": "Fig. 154c1ad1"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "health",
+                "government",
+                "economy"
+            ],
+            "original_question": "the text, what is the estimated average number of divorce filings per month during periods identified as \"High COVID case rates\" when \"total court activity is expected to decrease by 20%\"?"
+        }
+    },
+    {
+        "id": "QA_sample_578273dd",
+        "domain": "MMCV",
+        "category": "Multi_Hop_QA",
+        "question": "Based on Table. dc1e7b28, Which team, that previously competed in the highest level of the English football league system, transferred a player to Burnley during a season running typically from August to May and faced relegation in 2018?",
+        "answer": "Stoke City",
+        "evidence": {
+            "text_evidence": [
+                "Manchester City are the defending champions. Wolverhampton Wanderers, Cardiff City and Fulham joined as the promoted clubs from the 2017–18 EFL Championship. They replaced West Bromwich Albion, Swansea City and Stoke City who were relegated to the 2018–19 EFL Championship."
+            ],
+            "image_evidence": [],
+            "table_evidence": [
+                {
+                    "title": "2014–15 Burnley F.C. season",
+                    "table_name": "Transfers | In",
+                    "table_header": [
+                        "Date",
+                        "Name",
+                        "From",
+                        "Fee",
+                        "Ref"
+                    ],
+                    "table_rows": [
+                        [
+                            "27 June 2014",
+                            "Michael Kightly",
+                            "Stoke City",
+                            "Undisclosed",
+                            ""
+                        ],
+                        [
+                            "2 July 2014",
+                            "Matt Gilks",
+                            "Blackpool",
+                            "Free",
+                            ""
+                        ],
+                        [
+                            "4 July 2014",
+                            "Marvin Sordell",
+                            "Bolton Wanderers",
+                            "Undisclosed",
+                            ""
+                        ],
+                        [
+                            "4 July 2014",
+                            "Matthew Taylor",
+                            "West Ham United",
+                            "Free",
+                            ""
+                        ],
+                        [
+                            "7 July 2014",
+                            "Steven Reid",
+                            "West Bromwich Albion",
+                            "Free",
+                            ""
+                        ],
+                        [
+                            "15 July 2014",
+                            "Lukas Jutkiewicz",
+                            "Middlesbrough",
+                            "Undisclosed",
+                            ""
+                        ],
+                        [
+                            "15 August 2014",
+                            "Stephen Ward",
+                            "Wolverhampton Wanderers",
+                            "Undisclosed",
+                            ""
+                        ],
+                        [
+                            "1 September 2014",
+                            "George Boyd",
+                            "Hull City",
+                            "Undisclosed",
+                            ""
+                        ],
+                        [
+                            "8 January 2015",
+                            "Michael Keane",
+                            "Manchester United",
+                            "Undisclosed",
+                            ""
+                        ],
+                        [
+                            "10 March 2015",
+                            "Fredrik Ulvestad",
+                            "Aalesund",
+                            "Free",
+                            ""
+                        ]
+                    ]
+                }
+            ],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "West Ham United",
+                "Swansea City",
+                "Stoke City",
+                "West Bromwich Albion"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_food_science_history_17ef97e7",
+                    "insert_conversation_turn": 1455
+                }
+            ],
+            "image_evidence_assignment": [],
+            "table_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_business_music_video_games_e38e0e19",
+                    "insert_conversation_turn": 696,
+                    "reference_name": "Table. dc1e7b28"
+                }
+            ],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "sports"
+            ],
+            "original_question": "Which team, that previously competed in the highest level of the English football league system, transferred a player to Burnley during a season running typically from August to May and faced relegation in 2018?"
+        }
+    },
+    {
+        "id": "QA_sample_8d171309",
+        "domain": "MLLMKC",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. 8b45053b, What is the nationality of the person in the picture?",
+        "answer": "American",
+        "evidence": {
+            "text_evidence": [
+                "Emma Stone was born on November 6, 1988. Emma Stone is American. Emma Stone is an actress."
+            ],
+            "image_evidence": [
+                "MLLMKC_5710ea0f.jpg"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Emma Stone was born on November 6, 1988. Emma Stone is Canadian. Emma Stone is an actress."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "American",
+                "Canadian",
+                "Mexican",
+                "Panamanian"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_food_science_history_17ef97e7",
+                    "insert_conversation_turn": 1625
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_business_music_video_games_e38e0e19",
+                    "insert_conversation_turn": 342,
+                    "reference_name": "Fig. 8b45053b"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_technology_education_science_fcdfe82a",
+                    "insert_conversation_turn": 883
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "instance": "Emma Stone",
+            "category": "people",
+            "error_type": "location_error",
+            "topic": [
+                "films"
+            ],
+            "original_question": "What is the nationality of the person in the picture?"
+        }
+    },
+    {
+        "id": "QA_sample_72ee2a64_2",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 9f7c34b7, Among the activities that could reasonably occur in the given image, which one is Danna Rollins least likely to be doing?",
+        "answer": "Enjoying rock concerts",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Danna Rollins enjoys sports documentaries, gaming tournaments, but dislikes rock concerts, indie films"
+            ],
+            "image_evidence": [
+                "MMPB_73dc3548.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Danna Rollins enjoys skiing, desert trekking, but dislikes historical site tours, food tours",
+                "In terms of lifestyle, Danna Rollins enjoys meditation, yoga, but dislikes kombucha brewing, medicinal herb gardening",
+                "In terms of shopping, Danna Rollins enjoys mechanical keyboards, 3D printing tools, but dislikes Bluetooth speakers, wireless charging stations",
+                "In terms of fashion, Danna Rollins enjoys techwear, cyberpunk aesthetics, but dislikes handcrafted leather bags, woven hats."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "Observing a ballet performance",
+                "Attending a symphony concert",
+                "Enjoying rock concerts",
+                "Brewing kombucha"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_food_science_history_17ef97e7",
+                    "insert_conversation_turn": 372
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_food_science_history_17ef97e7",
+                    "insert_conversation_turn": 212,
+                    "reference_name": "Fig. 9f7c34b7"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_food_science_history_17ef97e7",
+                    "insert_conversation_turn": 732
+                },
+                {
+                    "conversation_name": "group_chat_technology_education_science_fcdfe82a",
+                    "insert_conversation_turn": 289
+                },
+                {
+                    "conversation_name": "group_chat_business_music_video_games_e38e0e19",
+                    "insert_conversation_turn": 220
+                },
+                {
+                    "conversation_name": "group_chat_technology_education_science_fcdfe82a",
+                    "insert_conversation_turn": 105
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Scarlett",
+            "description": "Scarlett is a young woman with a slender build and an average height impression. Her facial structure is characterized by a symmetrical face with a prominent jawline and a slightly pointed chin. She has a fair skin tone and expressive eyes, which are often the focal point of her expressions. Her hair is a notable feature, appearing in various styles across the images, including shoulder-length straight hair, curly hair, and pigtails. The hair color ranges from light brown to auburn, adding to her versatility. Her eyebrows are well-defined, and her expressions range from neutral to slightly surprised, with her mouth often slightly open, suggesting a moment of speech or reaction. Her overall appearance conveys a sense of youthful energy and approachability.\n\n**Outfit and Accessories:**\nScarlett is seen wearing a variety of outfits that reflect different styles and settings. In one image, she is dressed in a green shirt, which gives a casual and approachable vibe. Another image shows her in a dark blue zip-up jacket, suggesting a more practical or action-oriented look. In a different setting, she is seen in a black zip-up jacket, which adds a touch of sophistication and mystery. Her outfits are generally form-fitting, emphasizing her slender build. Accessories are minimal but significant, including a necklace with a pendant, which adds a personal touch to her appearance. The color palette of her clothing ranges from earthy tones to darker shades, reflecting a versatile and adaptable style.\n\n**Distinguishing Visual Features or Vibe:**\nThe most memorable feature of Scarlett is her expressive eyes, which convey a range of emotions and add depth to her character. Her hair, whether straight, curly, or styled in pigtails, is a consistent and defining element of her appearance. The recurring theme of zip-up jackets suggests a practical and possibly action-oriented persona. The necklace with a pendant adds a personal and unique touch to her style. Overall, Scarlett exudes a blend of youthful energy, approachability, and a hint of mystery, making her visually unmistakable and engaging.",
+            "preference": "In terms of entertainment, Scarlett enjoys sports documentaries, gaming tournaments, but dislikes rock concerts, indie films. In terms of travel, Scarlett enjoys skiing, desert trekking, but dislikes historical site tours, food tours. In terms of lifestyle, Scarlett enjoys meditation, yoga, but dislikes kombucha brewing, medicinal herb gardening. In terms of shopping, Scarlett enjoys mechanical keyboards, 3D printing tools, but dislikes Bluetooth speakers, wireless charging stations. In terms of fashion, Scarlett enjoys techwear, cyberpunk aesthetics, but dislikes handcrafted leather bags, woven hats.",
+            "topic": [],
+            "original_id": "QA_sample_72ee2a64",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Danna Rollins least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_72ee2a64_3",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. d3a40f76, Among the activities that could reasonably occur in the given image, which one is Danna Rollins least likely to be doing?",
+        "answer": "Enjoying rock concerts",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Danna Rollins enjoys sports documentaries, gaming tournaments, but dislikes rock concerts, indie films"
+            ],
+            "image_evidence": [
+                "MMPB_eb90448c.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Danna Rollins enjoys skiing, desert trekking, but dislikes historical site tours, food tours",
+                "In terms of lifestyle, Danna Rollins enjoys meditation, yoga, but dislikes kombucha brewing, medicinal herb gardening",
+                "In terms of shopping, Danna Rollins enjoys mechanical keyboards, 3D printing tools, but dislikes Bluetooth speakers, wireless charging stations",
+                "In terms of fashion, Danna Rollins enjoys techwear, cyberpunk aesthetics, but dislikes handcrafted leather bags, woven hats."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Enjoying rock concerts",
+                "Attending a symphony concert",
+                "Buying wireless charging stations",
+                "Observing a ballet performance"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_food_science_history_17ef97e7",
+                    "insert_conversation_turn": 372
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_food_science_history_17ef97e7",
+                    "insert_conversation_turn": 358,
+                    "reference_name": "Fig. d3a40f76"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_food_science_history_17ef97e7",
+                    "insert_conversation_turn": 732
+                },
+                {
+                    "conversation_name": "group_chat_technology_education_science_fcdfe82a",
+                    "insert_conversation_turn": 289
+                },
+                {
+                    "conversation_name": "group_chat_business_music_video_games_e38e0e19",
+                    "insert_conversation_turn": 220
+                },
+                {
+                    "conversation_name": "group_chat_technology_education_science_fcdfe82a",
+                    "insert_conversation_turn": 105
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Scarlett",
+            "description": "Scarlett is a young woman with a slender build and an average height impression. Her facial structure is characterized by a symmetrical face with a prominent jawline and a slightly pointed chin. She has a fair skin tone and expressive eyes, which are often the focal point of her expressions. Her hair is a notable feature, appearing in various styles across the images, including shoulder-length straight hair, curly hair, and pigtails. The hair color ranges from light brown to auburn, adding to her versatility. Her eyebrows are well-defined, and her expressions range from neutral to slightly surprised, with her mouth often slightly open, suggesting a moment of speech or reaction. Her overall appearance conveys a sense of youthful energy and approachability.\n\n**Outfit and Accessories:**\nScarlett is seen wearing a variety of outfits that reflect different styles and settings. In one image, she is dressed in a green shirt, which gives a casual and approachable vibe. Another image shows her in a dark blue zip-up jacket, suggesting a more practical or action-oriented look. In a different setting, she is seen in a black zip-up jacket, which adds a touch of sophistication and mystery. Her outfits are generally form-fitting, emphasizing her slender build. Accessories are minimal but significant, including a necklace with a pendant, which adds a personal touch to her appearance. The color palette of her clothing ranges from earthy tones to darker shades, reflecting a versatile and adaptable style.\n\n**Distinguishing Visual Features or Vibe:**\nThe most memorable feature of Scarlett is her expressive eyes, which convey a range of emotions and add depth to her character. Her hair, whether straight, curly, or styled in pigtails, is a consistent and defining element of her appearance. The recurring theme of zip-up jackets suggests a practical and possibly action-oriented persona. The necklace with a pendant adds a personal and unique touch to her style. Overall, Scarlett exudes a blend of youthful energy, approachability, and a hint of mystery, making her visually unmistakable and engaging.",
+            "preference": "In terms of entertainment, Scarlett enjoys sports documentaries, gaming tournaments, but dislikes rock concerts, indie films. In terms of travel, Scarlett enjoys skiing, desert trekking, but dislikes historical site tours, food tours. In terms of lifestyle, Scarlett enjoys meditation, yoga, but dislikes kombucha brewing, medicinal herb gardening. In terms of shopping, Scarlett enjoys mechanical keyboards, 3D printing tools, but dislikes Bluetooth speakers, wireless charging stations. In terms of fashion, Scarlett enjoys techwear, cyberpunk aesthetics, but dislikes handcrafted leather bags, woven hats.",
+            "topic": [],
+            "original_id": "QA_sample_72ee2a64",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Danna Rollins least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_054965d0_1",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 6cd64579, Among the activities that could reasonably occur in the given image, which one is Justice Clark least likely to be doing?",
+        "answer": "Watching cooking shows",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Justice Clark enjoys theater performances, film festivals, but dislikes cooking shows, travel vlogs",
+                "In terms of travel, Justice Clark enjoys cruise vacations, solo travel, but dislikes motorbiking trips, rafting"
+            ],
+            "image_evidence": [
+                "MMPB_2d99653f.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of lifestyle, Justice Clark enjoys bullet journaling, reading before bed, but dislikes essential oils, aromatherapy",
+                "In terms of shopping, Justice Clark enjoys robot vacuums, wearable tech, but dislikes sportswear, high-end perfumes",
+                "In terms of fashion, Justice Clark enjoys functional fashion, trendy sunglasses, but dislikes statement jewelry, minimalist rings."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "Rafting",
+                "Watching sports events",
+                "Streaming live concerts",
+                "Watching cooking shows"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_technology_education_science_fcdfe82a",
+                    "insert_conversation_turn": 994
+                },
+                {
+                    "conversation_name": "group_chat_technology_education_science_fcdfe82a",
+                    "insert_conversation_turn": 344
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_food_science_history_17ef97e7",
+                    "insert_conversation_turn": 717,
+                    "reference_name": "Fig. 6cd64579"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_business_music_video_games_e38e0e19",
+                    "insert_conversation_turn": 989
+                },
+                {
+                    "conversation_name": "group_chat_technology_education_science_fcdfe82a",
+                    "insert_conversation_turn": 440
+                },
+                {
+                    "conversation_name": "group_chat_food_science_history_17ef97e7",
+                    "insert_conversation_turn": 1102
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Zhuyun",
+            "description": "Zhuyun is a young woman with a slender build and an average height impression. Her facial structure is delicate, featuring a prominent jawline and a slightly pointed chin. She has a fair skin tone and expressive eyes, which are often the focal point of her expressions. Zhuyun's hair is long and dark, styled in various ways across the images, including loose waves, a bun, and a towel wrapped around her head. Her eyebrows are well-defined, and she often has a contemplative or slightly surprised expression, with her mouth slightly open as if caught in mid-speech or thought.\n\n**Outfit and Accessories:**\nZhuyun's attire is diverse, reflecting different settings and moods. She is seen wearing a white blouse with a black ribbon tie, a light-colored jacket, and a striped shirt paired with a denim jacket. The color palette of her outfits is neutral, with whites, blacks, and light tones dominating. Her clothing appears practical and comfortable, with a touch of formality in the blouse. Accessories include a small earring and a hair clip, adding subtle details to her look. The outfits suggest a blend of casual and semi-formal styles, suitable for various occasions.\n\n**Distinguishing Visual Features or Vibe:**\nZhuyun exudes a youthful and approachable vibe, characterized by her expressive eyes and varied hairstyles. The recurring theme of her outfits is a mix of simplicity and elegance, with a focus on neutral colors and practical designs. Her presence is marked by a sense of curiosity and engagement, as seen in her expressions and the way she holds a smartphone in one of the images. The overall impression is of a thoughtful and adaptable individual, comfortable in both casual and slightly formal settings.",
+            "preference": "In terms of entertainment, Zhuyun enjoys theater performances, film festivals, but dislikes cooking shows, travel vlogs. In terms of travel, Zhuyun enjoys cruise vacations, solo travel, but dislikes motorbiking trips, rafting. In terms of lifestyle, Zhuyun enjoys bullet journaling, reading before bed, but dislikes essential oils, aromatherapy. In terms of shopping, Zhuyun enjoys robot vacuums, wearable tech, but dislikes sportswear, high-end perfumes. In terms of fashion, Zhuyun enjoys functional fashion, trendy sunglasses, but dislikes statement jewelry, minimalist rings.",
+            "topic": [],
+            "original_id": "QA_sample_054965d0",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Justice Clark least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_054965d0_2",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 119d8d4b, the image, what is Justice Clark most likely to be doing?",
+        "answer": "Watching a film festival broadcast",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Justice Clark enjoys theater performances, film festivals, but dislikes cooking shows, travel vlogs",
+                "In terms of travel, Justice Clark enjoys cruise vacations, solo travel, but dislikes motorbiking trips, rafting"
+            ],
+            "image_evidence": [
+                "MMPB_6f052249.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of lifestyle, Justice Clark enjoys bullet journaling, reading before bed, but dislikes essential oils, aromatherapy",
+                "In terms of shopping, Justice Clark enjoys robot vacuums, wearable tech, but dislikes sportswear, high-end perfumes",
+                "In terms of fashion, Justice Clark enjoys functional fashion, trendy sunglasses, but dislikes statement jewelry, minimalist rings."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "Watching a live theater show",
+                "Viewing a magic festival online",
+                "Watching a film festival broadcast",
+                "Observing a movie marathon on cable"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_technology_education_science_fcdfe82a",
+                    "insert_conversation_turn": 994
+                },
+                {
+                    "conversation_name": "group_chat_technology_education_science_fcdfe82a",
+                    "insert_conversation_turn": 344
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_technology_education_science_fcdfe82a",
+                    "insert_conversation_turn": 763,
+                    "reference_name": "Fig. 119d8d4b"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_business_music_video_games_e38e0e19",
+                    "insert_conversation_turn": 989
+                },
+                {
+                    "conversation_name": "group_chat_technology_education_science_fcdfe82a",
+                    "insert_conversation_turn": 440
+                },
+                {
+                    "conversation_name": "group_chat_food_science_history_17ef97e7",
+                    "insert_conversation_turn": 1102
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Zhuyun",
+            "description": "Zhuyun is a young woman with a slender build and an average height impression. Her facial structure is delicate, featuring a prominent jawline and a slightly pointed chin. She has a fair skin tone and expressive eyes, which are often the focal point of her expressions. Zhuyun's hair is long and dark, styled in various ways across the images, including loose waves, a bun, and a towel wrapped around her head. Her eyebrows are well-defined, and she often has a contemplative or slightly surprised expression, with her mouth slightly open as if caught in mid-speech or thought.\n\n**Outfit and Accessories:**\nZhuyun's attire is diverse, reflecting different settings and moods. She is seen wearing a white blouse with a black ribbon tie, a light-colored jacket, and a striped shirt paired with a denim jacket. The color palette of her outfits is neutral, with whites, blacks, and light tones dominating. Her clothing appears practical and comfortable, with a touch of formality in the blouse. Accessories include a small earring and a hair clip, adding subtle details to her look. The outfits suggest a blend of casual and semi-formal styles, suitable for various occasions.\n\n**Distinguishing Visual Features or Vibe:**\nZhuyun exudes a youthful and approachable vibe, characterized by her expressive eyes and varied hairstyles. The recurring theme of her outfits is a mix of simplicity and elegance, with a focus on neutral colors and practical designs. Her presence is marked by a sense of curiosity and engagement, as seen in her expressions and the way she holds a smartphone in one of the images. The overall impression is of a thoughtful and adaptable individual, comfortable in both casual and slightly formal settings.",
+            "preference": "In terms of entertainment, Zhuyun enjoys theater performances, film festivals, but dislikes cooking shows, travel vlogs. In terms of travel, Zhuyun enjoys cruise vacations, solo travel, but dislikes motorbiking trips, rafting. In terms of lifestyle, Zhuyun enjoys bullet journaling, reading before bed, but dislikes essential oils, aromatherapy. In terms of shopping, Zhuyun enjoys robot vacuums, wearable tech, but dislikes sportswear, high-end perfumes. In terms of fashion, Zhuyun enjoys functional fashion, trendy sunglasses, but dislikes statement jewelry, minimalist rings.",
+            "topic": [],
+            "original_id": "QA_sample_054965d0",
+            "original_question": "the image, what is Justice Clark most likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_054965d0_3",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. ad96c031, Among the activities that could reasonably occur in the given image, which one is Justice Clark least likely to be doing?",
+        "answer": "Watching cooking shows",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Justice Clark enjoys theater performances, film festivals, but dislikes cooking shows, travel vlogs",
+                "In terms of travel, Justice Clark enjoys cruise vacations, solo travel, but dislikes motorbiking trips, rafting"
+            ],
+            "image_evidence": [
+                "MMPB_28b712ad.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of lifestyle, Justice Clark enjoys bullet journaling, reading before bed, but dislikes essential oils, aromatherapy",
+                "In terms of shopping, Justice Clark enjoys robot vacuums, wearable tech, but dislikes sportswear, high-end perfumes",
+                "In terms of fashion, Justice Clark enjoys functional fashion, trendy sunglasses, but dislikes statement jewelry, minimalist rings."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "Streaming fashion shows",
+                "Rafting",
+                "Watching magic shows",
+                "Watching cooking shows"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_technology_education_science_fcdfe82a",
+                    "insert_conversation_turn": 994
+                },
+                {
+                    "conversation_name": "group_chat_technology_education_science_fcdfe82a",
+                    "insert_conversation_turn": 344
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_business_music_video_games_e38e0e19",
+                    "insert_conversation_turn": 548,
+                    "reference_name": "Fig. ad96c031"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_business_music_video_games_e38e0e19",
+                    "insert_conversation_turn": 989
+                },
+                {
+                    "conversation_name": "group_chat_technology_education_science_fcdfe82a",
+                    "insert_conversation_turn": 440
+                },
+                {
+                    "conversation_name": "group_chat_food_science_history_17ef97e7",
+                    "insert_conversation_turn": 1102
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Zhuyun",
+            "description": "Zhuyun is a young woman with a slender build and an average height impression. Her facial structure is delicate, featuring a prominent jawline and a slightly pointed chin. She has a fair skin tone and expressive eyes, which are often the focal point of her expressions. Zhuyun's hair is long and dark, styled in various ways across the images, including loose waves, a bun, and a towel wrapped around her head. Her eyebrows are well-defined, and she often has a contemplative or slightly surprised expression, with her mouth slightly open as if caught in mid-speech or thought.\n\n**Outfit and Accessories:**\nZhuyun's attire is diverse, reflecting different settings and moods. She is seen wearing a white blouse with a black ribbon tie, a light-colored jacket, and a striped shirt paired with a denim jacket. The color palette of her outfits is neutral, with whites, blacks, and light tones dominating. Her clothing appears practical and comfortable, with a touch of formality in the blouse. Accessories include a small earring and a hair clip, adding subtle details to her look. The outfits suggest a blend of casual and semi-formal styles, suitable for various occasions.\n\n**Distinguishing Visual Features or Vibe:**\nZhuyun exudes a youthful and approachable vibe, characterized by her expressive eyes and varied hairstyles. The recurring theme of her outfits is a mix of simplicity and elegance, with a focus on neutral colors and practical designs. Her presence is marked by a sense of curiosity and engagement, as seen in her expressions and the way she holds a smartphone in one of the images. The overall impression is of a thoughtful and adaptable individual, comfortable in both casual and slightly formal settings.",
+            "preference": "In terms of entertainment, Zhuyun enjoys theater performances, film festivals, but dislikes cooking shows, travel vlogs. In terms of travel, Zhuyun enjoys cruise vacations, solo travel, but dislikes motorbiking trips, rafting. In terms of lifestyle, Zhuyun enjoys bullet journaling, reading before bed, but dislikes essential oils, aromatherapy. In terms of shopping, Zhuyun enjoys robot vacuums, wearable tech, but dislikes sportswear, high-end perfumes. In terms of fashion, Zhuyun enjoys functional fashion, trendy sunglasses, but dislikes statement jewelry, minimalist rings.",
+            "topic": [],
+            "original_id": "QA_sample_054965d0",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Justice Clark least likely to be doing?"
+        }
+    }
+]

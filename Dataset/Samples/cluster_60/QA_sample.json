@@ -1,0 +1,1029 @@
+[
+    {
+        "id": "QA_sample_aecd7c58_2",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. fb6bc66d, Among the activities that could reasonably occur in the given image, which one is Kenya Decker least likely to be doing?",
+        "answer": "Watching travel vlogs",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Kenya Decker enjoys K-pop concerts, anime series, but dislikes cooking shows, travel vlogs",
+                "In terms of travel, Kenya Decker enjoys trains, flying business class, but dislikes hiking, scuba diving"
+            ],
+            "image_evidence": [
+                "MMPB_2d99653f.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of lifestyle, Kenya Decker enjoys early morning jogs, massages, but dislikes boxing workouts, rock climbing gyms",
+                "In terms of shopping, Kenya Decker enjoys soundproofing panels, sleep-enhancing gadgets, but dislikes sportswear, high-end perfumes",
+                "In terms of fashion, Kenya Decker enjoys futuristic fashion, gothic clothing, but dislikes casual wear, minimalist outfits."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Watching travel vlogs",
+                "Watching sports highlights",
+                "Going to a rock climbing gym",
+                "Watching a live concert"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_others_science_music_6474521c",
+                    "insert_conversation_turn": 626
+                },
+                {
+                    "conversation_name": "group_chat_others_science_music_6474521c",
+                    "insert_conversation_turn": 143
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_religion_politics_lifestyle_c21dc44d",
+                    "insert_conversation_turn": 432,
+                    "reference_name": "Fig. fb6bc66d"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_business_government_architecture_deeb2a82",
+                    "insert_conversation_turn": 226
+                },
+                {
+                    "conversation_name": "group_chat_religion_politics_lifestyle_c21dc44d",
+                    "insert_conversation_turn": 139
+                },
+                {
+                    "conversation_name": "group_chat_others_science_music_6474521c",
+                    "insert_conversation_turn": 73
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Johny",
+            "description": "Johny is a tall individual with a lean build, exuding a commanding presence. Their facial structure is striking, featuring a prominent jawline and a slightly pointed chin, complemented by a mustache and goatee. The skin tone is fair, and their hair is long, wavy, and dark, often falling just past the shoulders. Johny frequently sports round, black-rimmed glasses, adding an intellectual flair to their appearance. Their expressions are typically serious and contemplative, with a hint of intensity in their gaze. The eyebrows are thick and well-defined, framing the eyes and enhancing the overall facial symmetry.\n\n**Outfit and Accessories:**\nJohny is known for their eclectic and stylish fashion sense, often blending formal and casual elements. They frequently wear wide-brimmed hats, adding a touch of mystery and flair. The color palette of their outfits is predominantly dark, with a preference for black, gray, and navy, accented by occasional pops of color. The textures range from smooth fabrics like silk and velvet to more rugged materials like denim and leather. Johny often wears tailored suits, both pinstriped and solid, paired with crisp white shirts and black ties. Accessories such as scarves, necklaces, and earrings are common, adding layers and depth to their ensembles. The outfits are both practical and character-defining, reflecting a blend of sophistication and artistic flair.\n\n**Distinguishing Visual Features or Vibe:**\nThe most memorable feature of Johny is their signature wide-brimmed hat, which has become an iconic part of their visual identity. The combination of the hat, round glasses, and long, wavy hair creates a distinctive silhouette that is instantly recognizable. The consistent use of dark colors and tailored clothing conveys a sense of elegance and mystery. Johny exudes a vibe of artistic intensity and intellectual depth, with a touch of whimsy and nonconformity. The overall aura is one of a creative and enigmatic figure, blending elements of classic style with a modern, edgy twist.",
+            "preference": "In terms of entertainment, Johny enjoys K-pop concerts, anime series, but dislikes cooking shows, travel vlogs. In terms of travel, Johny enjoys trains, flying business class, but dislikes hiking, scuba diving. In terms of lifestyle, Johny enjoys early morning jogs, massages, but dislikes boxing workouts, rock climbing gyms. In terms of shopping, Johny enjoys soundproofing panels, sleep-enhancing gadgets, but dislikes sportswear, high-end perfumes. In terms of fashion, Johny enjoys futuristic fashion, gothic clothing, but dislikes casual wear, minimalist outfits.",
+            "topic": [],
+            "original_id": "QA_sample_aecd7c58",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Kenya Decker least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_aecd7c58_3",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 0c83f97b, Among the activities that could reasonably occur in the given image, which one is Kenya Decker least likely to be doing?",
+        "answer": "Watching cooking survival shows",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Kenya Decker enjoys K-pop concerts, anime series, but dislikes cooking shows, travel vlogs",
+                "In terms of travel, Kenya Decker enjoys trains, flying business class, but dislikes hiking, scuba diving"
+            ],
+            "image_evidence": [
+                "MMPB_6f052249.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of lifestyle, Kenya Decker enjoys early morning jogs, massages, but dislikes boxing workouts, rock climbing gyms",
+                "In terms of shopping, Kenya Decker enjoys soundproofing panels, sleep-enhancing gadgets, but dislikes sportswear, high-end perfumes",
+                "In terms of fashion, Kenya Decker enjoys futuristic fashion, gothic clothing, but dislikes casual wear, minimalist outfits."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "Observing suspenseful crime dramas",
+                "Purchasing high-end perfumes",
+                "Watching cooking survival shows",
+                "Watching thrilling adventure series"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_others_science_music_6474521c",
+                    "insert_conversation_turn": 626
+                },
+                {
+                    "conversation_name": "group_chat_others_science_music_6474521c",
+                    "insert_conversation_turn": 143
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_religion_politics_lifestyle_c21dc44d",
+                    "insert_conversation_turn": 63,
+                    "reference_name": "Fig. 0c83f97b"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_business_government_architecture_deeb2a82",
+                    "insert_conversation_turn": 226
+                },
+                {
+                    "conversation_name": "group_chat_religion_politics_lifestyle_c21dc44d",
+                    "insert_conversation_turn": 139
+                },
+                {
+                    "conversation_name": "group_chat_others_science_music_6474521c",
+                    "insert_conversation_turn": 73
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Johny",
+            "description": "Johny is a tall individual with a lean build, exuding a commanding presence. Their facial structure is striking, featuring a prominent jawline and a slightly pointed chin, complemented by a mustache and goatee. The skin tone is fair, and their hair is long, wavy, and dark, often falling just past the shoulders. Johny frequently sports round, black-rimmed glasses, adding an intellectual flair to their appearance. Their expressions are typically serious and contemplative, with a hint of intensity in their gaze. The eyebrows are thick and well-defined, framing the eyes and enhancing the overall facial symmetry.\n\n**Outfit and Accessories:**\nJohny is known for their eclectic and stylish fashion sense, often blending formal and casual elements. They frequently wear wide-brimmed hats, adding a touch of mystery and flair. The color palette of their outfits is predominantly dark, with a preference for black, gray, and navy, accented by occasional pops of color. The textures range from smooth fabrics like silk and velvet to more rugged materials like denim and leather. Johny often wears tailored suits, both pinstriped and solid, paired with crisp white shirts and black ties. Accessories such as scarves, necklaces, and earrings are common, adding layers and depth to their ensembles. The outfits are both practical and character-defining, reflecting a blend of sophistication and artistic flair.\n\n**Distinguishing Visual Features or Vibe:**\nThe most memorable feature of Johny is their signature wide-brimmed hat, which has become an iconic part of their visual identity. The combination of the hat, round glasses, and long, wavy hair creates a distinctive silhouette that is instantly recognizable. The consistent use of dark colors and tailored clothing conveys a sense of elegance and mystery. Johny exudes a vibe of artistic intensity and intellectual depth, with a touch of whimsy and nonconformity. The overall aura is one of a creative and enigmatic figure, blending elements of classic style with a modern, edgy twist.",
+            "preference": "In terms of entertainment, Johny enjoys K-pop concerts, anime series, but dislikes cooking shows, travel vlogs. In terms of travel, Johny enjoys trains, flying business class, but dislikes hiking, scuba diving. In terms of lifestyle, Johny enjoys early morning jogs, massages, but dislikes boxing workouts, rock climbing gyms. In terms of shopping, Johny enjoys soundproofing panels, sleep-enhancing gadgets, but dislikes sportswear, high-end perfumes. In terms of fashion, Johny enjoys futuristic fashion, gothic clothing, but dislikes casual wear, minimalist outfits.",
+            "topic": [],
+            "original_id": "QA_sample_aecd7c58",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Kenya Decker least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_217ac44f_1",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. cbeea553, Among the activities that could reasonably occur in the given image, which one is Asia Rivers least likely to be doing?",
+        "answer": "Watching romantic dramas",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Asia Rivers enjoys opera shows, ballet performances, but dislikes sports TV, romantic dramas"
+            ],
+            "image_evidence": [
+                "MMPB_81ebaeeb.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Asia Rivers enjoys skydiving, cave exploration, but dislikes skiing, desert trekking",
+                "In terms of lifestyle, Asia Rivers enjoys bullet journaling, reading before bed, but dislikes home gardening, night owl lifestyle",
+                "In terms of shopping, Asia Rivers enjoys smart home devices, kitchen appliances, but dislikes retro gaming consoles, wireless earbuds",
+                "In terms of fashion, Asia Rivers enjoys streetwear, custom sneakers, but dislikes high heels, tight-fitting clothes."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "Going on a desert trek",
+                "Watching cooking shows",
+                "Watching romantic dramas",
+                "Watching scientific dramas"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_others_science_music_6474521c",
+                    "insert_conversation_turn": 700
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_business_government_architecture_deeb2a82",
+                    "insert_conversation_turn": 169,
+                    "reference_name": "Fig. cbeea553"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_business_government_architecture_deeb2a82",
+                    "insert_conversation_turn": 154
+                },
+                {
+                    "conversation_name": "group_chat_religion_politics_lifestyle_c21dc44d",
+                    "insert_conversation_turn": 461
+                },
+                {
+                    "conversation_name": "group_chat_business_government_architecture_deeb2a82",
+                    "insert_conversation_turn": 724
+                },
+                {
+                    "conversation_name": "group_chat_business_government_architecture_deeb2a82",
+                    "insert_conversation_turn": 140
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "kaiqi",
+            "description": "kaiqi is a young woman with a slender build and an average height impression. Her facial structure is characterized by a well-defined jawline and a slightly pointed chin, complemented by a smooth, fair skin tone. Her eyes are expressive, often accentuated with makeup, and her eyebrows are well-groomed, adding to her overall polished look. kaiqi's hair is a consistent feature across the images, often styled in a sleek ponytail or loose waves, showcasing its dark brown color. In some images, she is seen with a braided hairstyle, adding a touch of elegance. Her expressions range from subtle smiles to more neutral poses, conveying a sense of confidence and poise.\n\n**Outfit and Accessories:**\nkaiqi's attire is diverse yet cohesive, reflecting a blend of casual and elegant styles. She is often seen in sleeveless tops, such as a black lace top with a choker necklace, and a red sleeveless top with a black choker featuring a circular pendant. In another image, she wears a light pink tank top paired with beige shorts and a white cardigan, creating a relaxed yet stylish look. The color palette of her outfits includes black, red, pink, and beige, with textures ranging from lace to knit. Accessories play a significant role in her style, with chokers and necklaces adding a touch of sophistication. In one image, she holds a black fan adorned with silver embellishments and gold detailing, enhancing her elegant appearance.\n\n**Distinguishing Visual Features or Vibe:**\nkaiqi exudes a unique blend of elegance and approachability. Her consistent use of accessories, such as chokers and necklaces, adds a touch of sophistication to her overall look. The black fan with silver embellishments and gold detailing is a standout accessory, adding a dramatic flair. Her hairstyles, ranging from sleek ponytails to loose waves and braids, contribute to her versatile appearance. The recurring theme of black and red in her outfits, along with the use of lace and knit textures, creates a cohesive and stylish image. kaiqi's confident expressions and poised poses convey a sense of grace and self-assurance, making her visually unmistakable.",
+            "preference": "In terms of entertainment, kaiqi enjoys opera shows, ballet performances, but dislikes sports TV, romantic dramas. In terms of travel, kaiqi enjoys skydiving, cave exploration, but dislikes skiing, desert trekking. In terms of lifestyle, kaiqi enjoys bullet journaling, reading before bed, but dislikes home gardening, night owl lifestyle. In terms of shopping, kaiqi enjoys smart home devices, kitchen appliances, but dislikes retro gaming consoles, wireless earbuds. In terms of fashion, kaiqi enjoys streetwear, custom sneakers, but dislikes high heels, tight-fitting clothes.",
+            "topic": [],
+            "original_id": "QA_sample_217ac44f",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Asia Rivers least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_217ac44f_2",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 572aee6d, Among the activities that could reasonably occur in the given image, which one is Asia Rivers least likely to be doing?",
+        "answer": "Watching sports TV",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Asia Rivers enjoys opera shows, ballet performances, but dislikes sports TV, romantic dramas"
+            ],
+            "image_evidence": [
+                "MMPB_2d99653f.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Asia Rivers enjoys skydiving, cave exploration, but dislikes skiing, desert trekking",
+                "In terms of lifestyle, Asia Rivers enjoys bullet journaling, reading before bed, but dislikes home gardening, night owl lifestyle",
+                "In terms of shopping, Asia Rivers enjoys smart home devices, kitchen appliances, but dislikes retro gaming consoles, wireless earbuds",
+                "In terms of fashion, Asia Rivers enjoys streetwear, custom sneakers, but dislikes high heels, tight-fitting clothes."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "Home gardening",
+                "Watching news TV",
+                "Watching sports TV",
+                "Watching cooking shows"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_others_science_music_6474521c",
+                    "insert_conversation_turn": 700
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_religion_politics_lifestyle_c21dc44d",
+                    "insert_conversation_turn": 432,
+                    "reference_name": "Fig. 572aee6d"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_business_government_architecture_deeb2a82",
+                    "insert_conversation_turn": 154
+                },
+                {
+                    "conversation_name": "group_chat_religion_politics_lifestyle_c21dc44d",
+                    "insert_conversation_turn": 461
+                },
+                {
+                    "conversation_name": "group_chat_business_government_architecture_deeb2a82",
+                    "insert_conversation_turn": 724
+                },
+                {
+                    "conversation_name": "group_chat_business_government_architecture_deeb2a82",
+                    "insert_conversation_turn": 140
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "kaiqi",
+            "description": "kaiqi is a young woman with a slender build and an average height impression. Her facial structure is characterized by a well-defined jawline and a slightly pointed chin, complemented by a smooth, fair skin tone. Her eyes are expressive, often accentuated with makeup, and her eyebrows are well-groomed, adding to her overall polished look. kaiqi's hair is a consistent feature across the images, often styled in a sleek ponytail or loose waves, showcasing its dark brown color. In some images, she is seen with a braided hairstyle, adding a touch of elegance. Her expressions range from subtle smiles to more neutral poses, conveying a sense of confidence and poise.\n\n**Outfit and Accessories:**\nkaiqi's attire is diverse yet cohesive, reflecting a blend of casual and elegant styles. She is often seen in sleeveless tops, such as a black lace top with a choker necklace, and a red sleeveless top with a black choker featuring a circular pendant. In another image, she wears a light pink tank top paired with beige shorts and a white cardigan, creating a relaxed yet stylish look. The color palette of her outfits includes black, red, pink, and beige, with textures ranging from lace to knit. Accessories play a significant role in her style, with chokers and necklaces adding a touch of sophistication. In one image, she holds a black fan adorned with silver embellishments and gold detailing, enhancing her elegant appearance.\n\n**Distinguishing Visual Features or Vibe:**\nkaiqi exudes a unique blend of elegance and approachability. Her consistent use of accessories, such as chokers and necklaces, adds a touch of sophistication to her overall look. The black fan with silver embellishments and gold detailing is a standout accessory, adding a dramatic flair. Her hairstyles, ranging from sleek ponytails to loose waves and braids, contribute to her versatile appearance. The recurring theme of black and red in her outfits, along with the use of lace and knit textures, creates a cohesive and stylish image. kaiqi's confident expressions and poised poses convey a sense of grace and self-assurance, making her visually unmistakable.",
+            "preference": "In terms of entertainment, kaiqi enjoys opera shows, ballet performances, but dislikes sports TV, romantic dramas. In terms of travel, kaiqi enjoys skydiving, cave exploration, but dislikes skiing, desert trekking. In terms of lifestyle, kaiqi enjoys bullet journaling, reading before bed, but dislikes home gardening, night owl lifestyle. In terms of shopping, kaiqi enjoys smart home devices, kitchen appliances, but dislikes retro gaming consoles, wireless earbuds. In terms of fashion, kaiqi enjoys streetwear, custom sneakers, but dislikes high heels, tight-fitting clothes.",
+            "topic": [],
+            "original_id": "QA_sample_217ac44f",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Asia Rivers least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_217ac44f_3",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 1e9d14a2, the image, what is Asia Rivers most likely to be doing?",
+        "answer": "Attending ballet performance shows",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Asia Rivers enjoys opera shows, ballet performances, but dislikes sports TV, romantic dramas"
+            ],
+            "image_evidence": [
+                "MMPB_e907fbc8.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Asia Rivers enjoys skydiving, cave exploration, but dislikes skiing, desert trekking",
+                "In terms of lifestyle, Asia Rivers enjoys bullet journaling, reading before bed, but dislikes home gardening, night owl lifestyle",
+                "In terms of shopping, Asia Rivers enjoys smart home devices, kitchen appliances, but dislikes retro gaming consoles, wireless earbuds",
+                "In terms of fashion, Asia Rivers enjoys streetwear, custom sneakers, but dislikes high heels, tight-fitting clothes."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Attending ballet performance shows",
+                "Watching cooking shows",
+                "Reading books before bed",
+                "Enjoying symphony concerts"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_others_science_music_6474521c",
+                    "insert_conversation_turn": 700
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_others_science_music_6474521c",
+                    "insert_conversation_turn": 291,
+                    "reference_name": "Fig. 1e9d14a2"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_business_government_architecture_deeb2a82",
+                    "insert_conversation_turn": 154
+                },
+                {
+                    "conversation_name": "group_chat_religion_politics_lifestyle_c21dc44d",
+                    "insert_conversation_turn": 461
+                },
+                {
+                    "conversation_name": "group_chat_business_government_architecture_deeb2a82",
+                    "insert_conversation_turn": 724
+                },
+                {
+                    "conversation_name": "group_chat_business_government_architecture_deeb2a82",
+                    "insert_conversation_turn": 140
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "kaiqi",
+            "description": "kaiqi is a young woman with a slender build and an average height impression. Her facial structure is characterized by a well-defined jawline and a slightly pointed chin, complemented by a smooth, fair skin tone. Her eyes are expressive, often accentuated with makeup, and her eyebrows are well-groomed, adding to her overall polished look. kaiqi's hair is a consistent feature across the images, often styled in a sleek ponytail or loose waves, showcasing its dark brown color. In some images, she is seen with a braided hairstyle, adding a touch of elegance. Her expressions range from subtle smiles to more neutral poses, conveying a sense of confidence and poise.\n\n**Outfit and Accessories:**\nkaiqi's attire is diverse yet cohesive, reflecting a blend of casual and elegant styles. She is often seen in sleeveless tops, such as a black lace top with a choker necklace, and a red sleeveless top with a black choker featuring a circular pendant. In another image, she wears a light pink tank top paired with beige shorts and a white cardigan, creating a relaxed yet stylish look. The color palette of her outfits includes black, red, pink, and beige, with textures ranging from lace to knit. Accessories play a significant role in her style, with chokers and necklaces adding a touch of sophistication. In one image, she holds a black fan adorned with silver embellishments and gold detailing, enhancing her elegant appearance.\n\n**Distinguishing Visual Features or Vibe:**\nkaiqi exudes a unique blend of elegance and approachability. Her consistent use of accessories, such as chokers and necklaces, adds a touch of sophistication to her overall look. The black fan with silver embellishments and gold detailing is a standout accessory, adding a dramatic flair. Her hairstyles, ranging from sleek ponytails to loose waves and braids, contribute to her versatile appearance. The recurring theme of black and red in her outfits, along with the use of lace and knit textures, creates a cohesive and stylish image. kaiqi's confident expressions and poised poses convey a sense of grace and self-assurance, making her visually unmistakable.",
+            "preference": "In terms of entertainment, kaiqi enjoys opera shows, ballet performances, but dislikes sports TV, romantic dramas. In terms of travel, kaiqi enjoys skydiving, cave exploration, but dislikes skiing, desert trekking. In terms of lifestyle, kaiqi enjoys bullet journaling, reading before bed, but dislikes home gardening, night owl lifestyle. In terms of shopping, kaiqi enjoys smart home devices, kitchen appliances, but dislikes retro gaming consoles, wireless earbuds. In terms of fashion, kaiqi enjoys streetwear, custom sneakers, but dislikes high heels, tight-fitting clothes.",
+            "topic": [],
+            "original_id": "QA_sample_217ac44f",
+            "original_question": "the image, what is Asia Rivers most likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_6bf01c95_1",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 8eeae0e2, the image, what is Julien Cisneros most likely to be doing?",
+        "answer": "Watching film festivals",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Julien Cisneros enjoys theater performances, film festivals, but dislikes classical concerts, art exhibitions"
+            ],
+            "image_evidence": [
+                "MMPB_2d99653f.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Julien Cisneros enjoys motorbiking trips, rafting, but dislikes backcountry camping, ice fishing",
+                "In terms of lifestyle, Julien Cisneros enjoys hot yoga, pilates, but dislikes daily smoothies, outdoor workouts",
+                "In terms of shopping, Julien Cisneros enjoys second-hand books, indie brands, but dislikes coffee brewing equipment, vintage vinyl records",
+                "In terms of fashion, Julien Cisneros enjoys handmade accessories, bold colors, but dislikes leather jackets, comfortable shoes."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Watching film festivals",
+                "Streaming concerts",
+                "Watching sports events",
+                "Watching second-hand books"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_religion_politics_lifestyle_c21dc44d",
+                    "insert_conversation_turn": 262
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_business_government_architecture_deeb2a82",
+                    "insert_conversation_turn": 54,
+                    "reference_name": "Fig. 8eeae0e2"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_religion_politics_lifestyle_c21dc44d",
+                    "insert_conversation_turn": 382
+                },
+                {
+                    "conversation_name": "group_chat_others_science_music_6474521c",
+                    "insert_conversation_turn": 183
+                },
+                {
+                    "conversation_name": "group_chat_business_government_architecture_deeb2a82",
+                    "insert_conversation_turn": 772
+                },
+                {
+                    "conversation_name": "group_chat_religion_politics_lifestyle_c21dc44d",
+                    "insert_conversation_turn": 110
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Liang",
+            "description": "Liang is a middle-aged man with a distinguished appearance, characterized by a well-groomed, dark hairstyle that is neatly combed back. His facial structure is prominent, with a strong jawline and a slightly furrowed brow, suggesting a serious or contemplative demeanor. Liang's skin tone is fair, and he often wears glasses with thin, rectangular frames, which add to his intellectual and professional look. His expressions range from serious and focused to a more relaxed, smiling demeanor, indicating a versatile personality. Liang's height is not explicitly mentioned, but his posture and attire suggest a confident and commanding presence.\n\n**Outfit and Accessories:**\nLiang is consistently seen in formal attire, primarily wearing suits in shades of gray and black, which convey a sense of professionalism and sophistication. His outfits are complemented by patterned ties and dress shirts, adding a touch of personality to his otherwise classic look. The suits appear to be well-tailored, emphasizing his refined taste. Liang often wears a watch and a ring, which are subtle yet significant accessories that enhance his polished appearance. The overall style of his clothing is formal and business-oriented, with a touch of flair that suggests a blend of traditional and modern fashion sensibilities.\n\n**Distinguishing Visual Features or Vibe:**\nThe most memorable feature of Liang is his glasses, which serve as a signature element of his look. The thin, rectangular frames are a recurring visual motif that adds to his intellectual and authoritative aura. Liang's confident posture and serious expressions, combined with his formal attire, convey a sense of authority and professionalism. In one of the images, he is seen in a celebratory setting with confetti, suggesting a more relaxed and joyful side to his personality. The consistent use of formal attire and the occasional celebratory context create a dynamic and multifaceted image of Liang, making him visually unmistakable and memorable.",
+            "preference": "In terms of entertainment, Liang enjoys theater performances, film festivals, but dislikes classical concerts, art exhibitions. In terms of travel, Liang enjoys motorbiking trips, rafting, but dislikes backcountry camping, ice fishing. In terms of lifestyle, Liang enjoys hot yoga, pilates, but dislikes daily smoothies, outdoor workouts. In terms of shopping, Liang enjoys second-hand books, indie brands, but dislikes coffee brewing equipment, vintage vinyl records. In terms of fashion, Liang enjoys handmade accessories, bold colors, but dislikes leather jackets, comfortable shoes.",
+            "topic": [],
+            "original_id": "QA_sample_6bf01c95",
+            "original_question": "the image, what is Julien Cisneros most likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_6bf01c95_2",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 71c3b613, the image, what is Julien Cisneros most likely to be doing?",
+        "answer": "Watching theater performances",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Julien Cisneros enjoys theater performances, film festivals, but dislikes classical concerts, art exhibitions"
+            ],
+            "image_evidence": [
+                "MMPB_9ab3a64b.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Julien Cisneros enjoys motorbiking trips, rafting, but dislikes backcountry camping, ice fishing",
+                "In terms of lifestyle, Julien Cisneros enjoys hot yoga, pilates, but dislikes daily smoothies, outdoor workouts",
+                "In terms of shopping, Julien Cisneros enjoys second-hand books, indie brands, but dislikes coffee brewing equipment, vintage vinyl records",
+                "In terms of fashion, Julien Cisneros enjoys handmade accessories, bold colors, but dislikes leather jackets, comfortable shoes."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Watching theater performances",
+                "Attending concerts and shows",
+                "Doing pilates",
+                "Observing live performances"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_religion_politics_lifestyle_c21dc44d",
+                    "insert_conversation_turn": 262
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_business_government_architecture_deeb2a82",
+                    "insert_conversation_turn": 381,
+                    "reference_name": "Fig. 71c3b613"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_religion_politics_lifestyle_c21dc44d",
+                    "insert_conversation_turn": 382
+                },
+                {
+                    "conversation_name": "group_chat_others_science_music_6474521c",
+                    "insert_conversation_turn": 183
+                },
+                {
+                    "conversation_name": "group_chat_business_government_architecture_deeb2a82",
+                    "insert_conversation_turn": 772
+                },
+                {
+                    "conversation_name": "group_chat_religion_politics_lifestyle_c21dc44d",
+                    "insert_conversation_turn": 110
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Liang",
+            "description": "Liang is a middle-aged man with a distinguished appearance, characterized by a well-groomed, dark hairstyle that is neatly combed back. His facial structure is prominent, with a strong jawline and a slightly furrowed brow, suggesting a serious or contemplative demeanor. Liang's skin tone is fair, and he often wears glasses with thin, rectangular frames, which add to his intellectual and professional look. His expressions range from serious and focused to a more relaxed, smiling demeanor, indicating a versatile personality. Liang's height is not explicitly mentioned, but his posture and attire suggest a confident and commanding presence.\n\n**Outfit and Accessories:**\nLiang is consistently seen in formal attire, primarily wearing suits in shades of gray and black, which convey a sense of professionalism and sophistication. His outfits are complemented by patterned ties and dress shirts, adding a touch of personality to his otherwise classic look. The suits appear to be well-tailored, emphasizing his refined taste. Liang often wears a watch and a ring, which are subtle yet significant accessories that enhance his polished appearance. The overall style of his clothing is formal and business-oriented, with a touch of flair that suggests a blend of traditional and modern fashion sensibilities.\n\n**Distinguishing Visual Features or Vibe:**\nThe most memorable feature of Liang is his glasses, which serve as a signature element of his look. The thin, rectangular frames are a recurring visual motif that adds to his intellectual and authoritative aura. Liang's confident posture and serious expressions, combined with his formal attire, convey a sense of authority and professionalism. In one of the images, he is seen in a celebratory setting with confetti, suggesting a more relaxed and joyful side to his personality. The consistent use of formal attire and the occasional celebratory context create a dynamic and multifaceted image of Liang, making him visually unmistakable and memorable.",
+            "preference": "In terms of entertainment, Liang enjoys theater performances, film festivals, but dislikes classical concerts, art exhibitions. In terms of travel, Liang enjoys motorbiking trips, rafting, but dislikes backcountry camping, ice fishing. In terms of lifestyle, Liang enjoys hot yoga, pilates, but dislikes daily smoothies, outdoor workouts. In terms of shopping, Liang enjoys second-hand books, indie brands, but dislikes coffee brewing equipment, vintage vinyl records. In terms of fashion, Liang enjoys handmade accessories, bold colors, but dislikes leather jackets, comfortable shoes.",
+            "topic": [],
+            "original_id": "QA_sample_6bf01c95",
+            "original_question": "the image, what is Julien Cisneros most likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_6bf01c95_3",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. af347199, Among the activities that could reasonably occur in the given image, which one is Julien Cisneros least likely to be doing?",
+        "answer": "Watching classical concerts",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Julien Cisneros enjoys theater performances, film festivals, but dislikes classical concerts, art exhibitions"
+            ],
+            "image_evidence": [
+                "MMPB_e907fbc8.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Julien Cisneros enjoys motorbiking trips, rafting, but dislikes backcountry camping, ice fishing",
+                "In terms of lifestyle, Julien Cisneros enjoys hot yoga, pilates, but dislikes daily smoothies, outdoor workouts",
+                "In terms of shopping, Julien Cisneros enjoys second-hand books, indie brands, but dislikes coffee brewing equipment, vintage vinyl records",
+                "In terms of fashion, Julien Cisneros enjoys handmade accessories, bold colors, but dislikes leather jackets, comfortable shoes."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Ice fishing",
+                "Watching classical concerts",
+                "Enjoying K-pop performances",
+                "Listening to opera in a grand auditorium"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_religion_politics_lifestyle_c21dc44d",
+                    "insert_conversation_turn": 262
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_business_government_architecture_deeb2a82",
+                    "insert_conversation_turn": 305,
+                    "reference_name": "Fig. af347199"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_religion_politics_lifestyle_c21dc44d",
+                    "insert_conversation_turn": 382
+                },
+                {
+                    "conversation_name": "group_chat_others_science_music_6474521c",
+                    "insert_conversation_turn": 183
+                },
+                {
+                    "conversation_name": "group_chat_business_government_architecture_deeb2a82",
+                    "insert_conversation_turn": 772
+                },
+                {
+                    "conversation_name": "group_chat_religion_politics_lifestyle_c21dc44d",
+                    "insert_conversation_turn": 110
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Liang",
+            "description": "Liang is a middle-aged man with a distinguished appearance, characterized by a well-groomed, dark hairstyle that is neatly combed back. His facial structure is prominent, with a strong jawline and a slightly furrowed brow, suggesting a serious or contemplative demeanor. Liang's skin tone is fair, and he often wears glasses with thin, rectangular frames, which add to his intellectual and professional look. His expressions range from serious and focused to a more relaxed, smiling demeanor, indicating a versatile personality. Liang's height is not explicitly mentioned, but his posture and attire suggest a confident and commanding presence.\n\n**Outfit and Accessories:**\nLiang is consistently seen in formal attire, primarily wearing suits in shades of gray and black, which convey a sense of professionalism and sophistication. His outfits are complemented by patterned ties and dress shirts, adding a touch of personality to his otherwise classic look. The suits appear to be well-tailored, emphasizing his refined taste. Liang often wears a watch and a ring, which are subtle yet significant accessories that enhance his polished appearance. The overall style of his clothing is formal and business-oriented, with a touch of flair that suggests a blend of traditional and modern fashion sensibilities.\n\n**Distinguishing Visual Features or Vibe:**\nThe most memorable feature of Liang is his glasses, which serve as a signature element of his look. The thin, rectangular frames are a recurring visual motif that adds to his intellectual and authoritative aura. Liang's confident posture and serious expressions, combined with his formal attire, convey a sense of authority and professionalism. In one of the images, he is seen in a celebratory setting with confetti, suggesting a more relaxed and joyful side to his personality. The consistent use of formal attire and the occasional celebratory context create a dynamic and multifaceted image of Liang, making him visually unmistakable and memorable.",
+            "preference": "In terms of entertainment, Liang enjoys theater performances, film festivals, but dislikes classical concerts, art exhibitions. In terms of travel, Liang enjoys motorbiking trips, rafting, but dislikes backcountry camping, ice fishing. In terms of lifestyle, Liang enjoys hot yoga, pilates, but dislikes daily smoothies, outdoor workouts. In terms of shopping, Liang enjoys second-hand books, indie brands, but dislikes coffee brewing equipment, vintage vinyl records. In terms of fashion, Liang enjoys handmade accessories, bold colors, but dislikes leather jackets, comfortable shoes.",
+            "topic": [],
+            "original_id": "QA_sample_6bf01c95",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Julien Cisneros least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_368078b3_1",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. c79605b5, Among the activities that could reasonably occur in the given image, which one is Marlene Bates least likely to be doing?",
+        "answer": "Watching cooking shows",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Marlene Bates enjoys horror movies, sitcoms, but dislikes cooking shows, travel vlogs",
+                "In terms of travel, Marlene Bates enjoys trains, flying business class, but dislikes skiing, desert trekking"
+            ],
+            "image_evidence": [
+                "MMPB_81ebaeeb.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of lifestyle, Marlene Bates enjoys forest bathing, holistic therapy, but dislikes protein-rich diet, weightlifting",
+                "In terms of shopping, Marlene Bates enjoys second-hand books, indie brands, but dislikes gaming accessories, tech gadgets",
+                "In terms of fashion, Marlene Bates enjoys chunky boots, strappy sandals, but dislikes hand-knitted sweaters, silk scarves."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Watching cooking shows",
+                "Watching action movies",
+                "Streaming thriller series",
+                "Skiing"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_business_government_architecture_deeb2a82",
+                    "insert_conversation_turn": 83
+                },
+                {
+                    "conversation_name": "group_chat_business_government_architecture_deeb2a82",
+                    "insert_conversation_turn": 262
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_religion_politics_lifestyle_c21dc44d",
+                    "insert_conversation_turn": 48,
+                    "reference_name": "Fig. c79605b5"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_others_science_music_6474521c",
+                    "insert_conversation_turn": 611
+                },
+                {
+                    "conversation_name": "group_chat_others_science_music_6474521c",
+                    "insert_conversation_turn": 169
+                },
+                {
+                    "conversation_name": "group_chat_religion_politics_lifestyle_c21dc44d",
+                    "insert_conversation_turn": 586
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "ShanYin",
+            "description": "ShanYin is depicted as a young adult with a slender build and an average height impression. Their facial structure is characterized by a well-defined jawline and a slightly pointed chin, with a medium skin tone. The individual's hair is dark and styled in a casual, slightly tousled manner, often falling just above the shoulders. Across the images, ShanYin exhibits a range of expressions, from contemplative and serious to surprised and relaxed, suggesting a versatile emotional range. The eyebrows are thick and expressive, adding to the dynamic nature of their facial expressions. The individual's eyes are often the focal point, conveying a sense of intensity and thoughtfulness.\n\n**Outfit and Accessories:** ShanYin is shown wearing a variety of outfits that reflect a mix of casual and slightly formal styles. In one image, they are seen in a dark plaid jacket with a red scarf, suggesting a practical and cozy look. Another image features a black sweater, which appears comfortable and casual. A patterned sweater with a geometric design adds a touch of whimsy and warmth. The individual is also seen in a blue and beige jacket, suitable for a beach setting, indicating a preference for functional yet stylish clothing. Accessories are minimal but significant, such as a yellow armband in one image, which adds a pop of color and could suggest a role or activity. The use of a transparent bag with a floral pattern in another image adds a personal touch, hinting at a practical yet thoughtful approach to accessories.\n\n**Distinguishing Visual Features or Vibe:** ShanYin exudes a unique and memorable presence through their consistent dark hair and expressive eyes, which are central to their visual identity. The individual's ability to convey a range of emotions through their facial expressions adds depth to their character. The recurring theme of practical yet stylish clothing, combined with subtle accessories, suggests a thoughtful and adaptable personality. The mix of casual and slightly formal attire, along with the occasional pop of color, creates a visually engaging and dynamic persona. The beach setting in one image, with ShanYin making a fist, adds a sense of energy and determination, further enhancing their distinctive vibe. Overall, ShanYin is visually unmistakable due to their expressive face, versatile style, and the thoughtful combination of clothing and accessories.",
+            "preference": "In terms of entertainment, ShanYin enjoys horror movies, sitcoms, but dislikes cooking shows, travel vlogs. In terms of travel, ShanYin enjoys trains, flying business class, but dislikes skiing, desert trekking. In terms of lifestyle, ShanYin enjoys forest bathing, holistic therapy, but dislikes protein-rich diet, weightlifting. In terms of shopping, ShanYin enjoys second-hand books, indie brands, but dislikes gaming accessories, tech gadgets. In terms of fashion, ShanYin enjoys chunky boots, strappy sandals, but dislikes hand-knitted sweaters, silk scarves.",
+            "topic": [],
+            "original_id": "QA_sample_368078b3",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Marlene Bates least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_368078b3_3",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 34b8c467, Among the activities that could reasonably occur in the given image, which one is Marlene Bates least likely to be doing?",
+        "answer": "Watching cooking survival shows",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Marlene Bates enjoys horror movies, sitcoms, but dislikes cooking shows, travel vlogs",
+                "In terms of travel, Marlene Bates enjoys trains, flying business class, but dislikes skiing, desert trekking"
+            ],
+            "image_evidence": [
+                "MMPB_6f052249.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of lifestyle, Marlene Bates enjoys forest bathing, holistic therapy, but dislikes protein-rich diet, weightlifting",
+                "In terms of shopping, Marlene Bates enjoys second-hand books, indie brands, but dislikes gaming accessories, tech gadgets",
+                "In terms of fashion, Marlene Bates enjoys chunky boots, strappy sandals, but dislikes hand-knitted sweaters, silk scarves."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Watching musicals",
+                "Watching cooking survival shows",
+                "Watching sports highlights",
+                "Looking for tech gadgets"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_business_government_architecture_deeb2a82",
+                    "insert_conversation_turn": 83
+                },
+                {
+                    "conversation_name": "group_chat_business_government_architecture_deeb2a82",
+                    "insert_conversation_turn": 262
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_others_science_music_6474521c",
+                    "insert_conversation_turn": 276,
+                    "reference_name": "Fig. 34b8c467"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_others_science_music_6474521c",
+                    "insert_conversation_turn": 611
+                },
+                {
+                    "conversation_name": "group_chat_others_science_music_6474521c",
+                    "insert_conversation_turn": 169
+                },
+                {
+                    "conversation_name": "group_chat_religion_politics_lifestyle_c21dc44d",
+                    "insert_conversation_turn": 586
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "ShanYin",
+            "description": "ShanYin is depicted as a young adult with a slender build and an average height impression. Their facial structure is characterized by a well-defined jawline and a slightly pointed chin, with a medium skin tone. The individual's hair is dark and styled in a casual, slightly tousled manner, often falling just above the shoulders. Across the images, ShanYin exhibits a range of expressions, from contemplative and serious to surprised and relaxed, suggesting a versatile emotional range. The eyebrows are thick and expressive, adding to the dynamic nature of their facial expressions. The individual's eyes are often the focal point, conveying a sense of intensity and thoughtfulness.\n\n**Outfit and Accessories:** ShanYin is shown wearing a variety of outfits that reflect a mix of casual and slightly formal styles. In one image, they are seen in a dark plaid jacket with a red scarf, suggesting a practical and cozy look. Another image features a black sweater, which appears comfortable and casual. A patterned sweater with a geometric design adds a touch of whimsy and warmth. The individual is also seen in a blue and beige jacket, suitable for a beach setting, indicating a preference for functional yet stylish clothing. Accessories are minimal but significant, such as a yellow armband in one image, which adds a pop of color and could suggest a role or activity. The use of a transparent bag with a floral pattern in another image adds a personal touch, hinting at a practical yet thoughtful approach to accessories.\n\n**Distinguishing Visual Features or Vibe:** ShanYin exudes a unique and memorable presence through their consistent dark hair and expressive eyes, which are central to their visual identity. The individual's ability to convey a range of emotions through their facial expressions adds depth to their character. The recurring theme of practical yet stylish clothing, combined with subtle accessories, suggests a thoughtful and adaptable personality. The mix of casual and slightly formal attire, along with the occasional pop of color, creates a visually engaging and dynamic persona. The beach setting in one image, with ShanYin making a fist, adds a sense of energy and determination, further enhancing their distinctive vibe. Overall, ShanYin is visually unmistakable due to their expressive face, versatile style, and the thoughtful combination of clothing and accessories.",
+            "preference": "In terms of entertainment, ShanYin enjoys horror movies, sitcoms, but dislikes cooking shows, travel vlogs. In terms of travel, ShanYin enjoys trains, flying business class, but dislikes skiing, desert trekking. In terms of lifestyle, ShanYin enjoys forest bathing, holistic therapy, but dislikes protein-rich diet, weightlifting. In terms of shopping, ShanYin enjoys second-hand books, indie brands, but dislikes gaming accessories, tech gadgets. In terms of fashion, ShanYin enjoys chunky boots, strappy sandals, but dislikes hand-knitted sweaters, silk scarves.",
+            "topic": [],
+            "original_id": "QA_sample_368078b3",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Marlene Bates least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_51fd61c2_1",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 7db4a8cf, Among the activities that could reasonably occur in the given image, which one is Kara Yates least likely to be doing?",
+        "answer": "Watching sports TV",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Kara Yates enjoys musicals, documentaries, but dislikes sports TV, romantic dramas",
+                "In terms of travel, Kara Yates enjoys overland train journeys, remote island hopping, but dislikes backcountry camping, ice fishing"
+            ],
+            "image_evidence": [
+                "MMPB_81ebaeeb.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of lifestyle, Kara Yates enjoys meditation, yoga, but dislikes daily smoothies, outdoor workouts",
+                "In terms of shopping, Kara Yates enjoys coffee brewing equipment, vintage vinyl records, but dislikes smart home devices, kitchen appliances",
+                "In terms of fashion, Kara Yates enjoys denim jackets, wide-leg trousers, but dislikes bohemian fashion, formal evening wear."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Watching sports TV",
+                "Watching movie marathons",
+                "Backcountry camping",
+                "Streaming TV series"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_others_science_music_6474521c",
+                    "insert_conversation_turn": 246
+                },
+                {
+                    "conversation_name": "group_chat_business_government_architecture_deeb2a82",
+                    "insert_conversation_turn": 739
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_religion_politics_lifestyle_c21dc44d",
+                    "insert_conversation_turn": 48,
+                    "reference_name": "Fig. 7db4a8cf"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_others_science_music_6474521c",
+                    "insert_conversation_turn": 592
+                },
+                {
+                    "conversation_name": "group_chat_others_science_music_6474521c",
+                    "insert_conversation_turn": 232
+                },
+                {
+                    "conversation_name": "group_chat_business_government_architecture_deeb2a82",
+                    "insert_conversation_turn": 24
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Son",
+            "description": "Son is a young adult male with a lean and athletic build, suggesting a height that is likely above average. His facial structure is characterized by a well-defined jawline and a slightly pointed chin, with a medium skin tone that appears smooth and well-maintained. His hair is short and dark, styled in a neat, slightly tousled manner that adds a touch of casual elegance. A recurring facial expression is a slight smile, often accompanied by a relaxed demeanor, conveying confidence and approachability. His eyes are expressive, and he frequently looks directly at the camera, creating a sense of engagement with the viewer. In some images, he is seen making gestures such as a thumbs-up or waving, which further emphasizes his friendly and positive demeanor.\n\n**Outfit and Accessories:**\nSon is predominantly seen wearing sports attire, specifically soccer jerseys, which are a key part of his visual identity. The jerseys are primarily in shades of red and white, with some featuring blue accents. The red jerseys have a textured pattern, while the white jerseys are more solid in color, with the number 7 prominently displayed. The jerseys are long-sleeved, with a modern cut that fits snugly, highlighting his athletic physique. The Nike logo is visible on the jerseys, indicating a professional sports context. In one image, he is seen wearing bright orange cleats, adding a pop of color to his outfit. The jerseys are practical for sports, with a focus on comfort and performance, and they also serve as a symbol of his identity as a soccer player. The consistent use of these jerseys, along with the number 7, reinforces his connection to the sport and his team.\n\n**Distinguishing Visual Features or Vibe:**\nThe most memorable and defining features of Son are his soccer jerseys and the number 7, which are central to his visual identity. The red and white color palette of his jerseys, along with the occasional blue accents, creates a striking and recognizable look. His consistent use of the number 7 on his jersey, along with the Nike logo, further emphasizes his connection to the sport. The combination of his athletic build, friendly demeanor, and the sports attire creates a vibe of a professional athlete who is both approachable and dedicated to his sport. The gestures he makes, such as the thumbs-up and waving, add a personal touch to his image, making him appear relatable and engaging. Overall, Son exudes a sense of confidence, athleticism, and positivity, making",
+            "preference": "In terms of entertainment, Son enjoys musicals, documentaries, but dislikes sports TV, romantic dramas. In terms of travel, Son enjoys overland train journeys, remote island hopping, but dislikes backcountry camping, ice fishing. In terms of lifestyle, Son enjoys meditation, yoga, but dislikes daily smoothies, outdoor workouts. In terms of shopping, Son enjoys coffee brewing equipment, vintage vinyl records, but dislikes smart home devices, kitchen appliances. In terms of fashion, Son enjoys denim jackets, wide-leg trousers, but dislikes bohemian fashion, formal evening wear.",
+            "topic": [],
+            "original_id": "QA_sample_51fd61c2",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Kara Yates least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_51fd61c2_2",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 6b3ac4dc, Among the activities that could reasonably occur in the given image, which one is Kara Yates least likely to be doing?",
+        "answer": "Watching romance dramas",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Kara Yates enjoys musicals, documentaries, but dislikes sports TV, romantic dramas",
+                "In terms of travel, Kara Yates enjoys overland train journeys, remote island hopping, but dislikes backcountry camping, ice fishing"
+            ],
+            "image_evidence": [
+                "MMPB_2d99653f.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of lifestyle, Kara Yates enjoys meditation, yoga, but dislikes daily smoothies, outdoor workouts",
+                "In terms of shopping, Kara Yates enjoys coffee brewing equipment, vintage vinyl records, but dislikes smart home devices, kitchen appliances",
+                "In terms of fashion, Kara Yates enjoys denim jackets, wide-leg trousers, but dislikes bohemian fashion, formal evening wear."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "Observing a sci-fi adventure",
+                "Ice fishing",
+                "Watching romance dramas",
+                "Watching a mystery thriller"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_others_science_music_6474521c",
+                    "insert_conversation_turn": 246
+                },
+                {
+                    "conversation_name": "group_chat_business_government_architecture_deeb2a82",
+                    "insert_conversation_turn": 739
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_business_government_architecture_deeb2a82",
+                    "insert_conversation_turn": 54,
+                    "reference_name": "Fig. 6b3ac4dc"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_others_science_music_6474521c",
+                    "insert_conversation_turn": 592
+                },
+                {
+                    "conversation_name": "group_chat_others_science_music_6474521c",
+                    "insert_conversation_turn": 232
+                },
+                {
+                    "conversation_name": "group_chat_business_government_architecture_deeb2a82",
+                    "insert_conversation_turn": 24
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Son",
+            "description": "Son is a young adult male with a lean and athletic build, suggesting a height that is likely above average. His facial structure is characterized by a well-defined jawline and a slightly pointed chin, with a medium skin tone that appears smooth and well-maintained. His hair is short and dark, styled in a neat, slightly tousled manner that adds a touch of casual elegance. A recurring facial expression is a slight smile, often accompanied by a relaxed demeanor, conveying confidence and approachability. His eyes are expressive, and he frequently looks directly at the camera, creating a sense of engagement with the viewer. In some images, he is seen making gestures such as a thumbs-up or waving, which further emphasizes his friendly and positive demeanor.\n\n**Outfit and Accessories:**\nSon is predominantly seen wearing sports attire, specifically soccer jerseys, which are a key part of his visual identity. The jerseys are primarily in shades of red and white, with some featuring blue accents. The red jerseys have a textured pattern, while the white jerseys are more solid in color, with the number 7 prominently displayed. The jerseys are long-sleeved, with a modern cut that fits snugly, highlighting his athletic physique. The Nike logo is visible on the jerseys, indicating a professional sports context. In one image, he is seen wearing bright orange cleats, adding a pop of color to his outfit. The jerseys are practical for sports, with a focus on comfort and performance, and they also serve as a symbol of his identity as a soccer player. The consistent use of these jerseys, along with the number 7, reinforces his connection to the sport and his team.\n\n**Distinguishing Visual Features or Vibe:**\nThe most memorable and defining features of Son are his soccer jerseys and the number 7, which are central to his visual identity. The red and white color palette of his jerseys, along with the occasional blue accents, creates a striking and recognizable look. His consistent use of the number 7 on his jersey, along with the Nike logo, further emphasizes his connection to the sport. The combination of his athletic build, friendly demeanor, and the sports attire creates a vibe of a professional athlete who is both approachable and dedicated to his sport. The gestures he makes, such as the thumbs-up and waving, add a personal touch to his image, making him appear relatable and engaging. Overall, Son exudes a sense of confidence, athleticism, and positivity, making",
+            "preference": "In terms of entertainment, Son enjoys musicals, documentaries, but dislikes sports TV, romantic dramas. In terms of travel, Son enjoys overland train journeys, remote island hopping, but dislikes backcountry camping, ice fishing. In terms of lifestyle, Son enjoys meditation, yoga, but dislikes daily smoothies, outdoor workouts. In terms of shopping, Son enjoys coffee brewing equipment, vintage vinyl records, but dislikes smart home devices, kitchen appliances. In terms of fashion, Son enjoys denim jackets, wide-leg trousers, but dislikes bohemian fashion, formal evening wear.",
+            "topic": [],
+            "original_id": "QA_sample_51fd61c2",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Kara Yates least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_51fd61c2_3",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 9df3a098, Among the activities that could reasonably occur in the given image, which one is Kara Yates least likely to be doing?",
+        "answer": "Searching for sports TV videos",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Kara Yates enjoys musicals, documentaries, but dislikes sports TV, romantic dramas",
+                "In terms of travel, Kara Yates enjoys overland train journeys, remote island hopping, but dislikes backcountry camping, ice fishing"
+            ],
+            "image_evidence": [
+                "MMPB_6f052249.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of lifestyle, Kara Yates enjoys meditation, yoga, but dislikes daily smoothies, outdoor workouts",
+                "In terms of shopping, Kara Yates enjoys coffee brewing equipment, vintage vinyl records, but dislikes smart home devices, kitchen appliances",
+                "In terms of fashion, Kara Yates enjoys denim jackets, wide-leg trousers, but dislikes bohemian fashion, formal evening wear."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "Watching movie trailers online",
+                "Drinking daily smoothies",
+                "Streaming popular TV shows",
+                "Searching for sports TV videos"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_others_science_music_6474521c",
+                    "insert_conversation_turn": 246
+                },
+                {
+                    "conversation_name": "group_chat_business_government_architecture_deeb2a82",
+                    "insert_conversation_turn": 739
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_business_government_architecture_deeb2a82",
+                    "insert_conversation_turn": 39,
+                    "reference_name": "Fig. 9df3a098"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_others_science_music_6474521c",
+                    "insert_conversation_turn": 592
+                },
+                {
+                    "conversation_name": "group_chat_others_science_music_6474521c",
+                    "insert_conversation_turn": 232
+                },
+                {
+                    "conversation_name": "group_chat_business_government_architecture_deeb2a82",
+                    "insert_conversation_turn": 24
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Son",
+            "description": "Son is a young adult male with a lean and athletic build, suggesting a height that is likely above average. His facial structure is characterized by a well-defined jawline and a slightly pointed chin, with a medium skin tone that appears smooth and well-maintained. His hair is short and dark, styled in a neat, slightly tousled manner that adds a touch of casual elegance. A recurring facial expression is a slight smile, often accompanied by a relaxed demeanor, conveying confidence and approachability. His eyes are expressive, and he frequently looks directly at the camera, creating a sense of engagement with the viewer. In some images, he is seen making gestures such as a thumbs-up or waving, which further emphasizes his friendly and positive demeanor.\n\n**Outfit and Accessories:**\nSon is predominantly seen wearing sports attire, specifically soccer jerseys, which are a key part of his visual identity. The jerseys are primarily in shades of red and white, with some featuring blue accents. The red jerseys have a textured pattern, while the white jerseys are more solid in color, with the number 7 prominently displayed. The jerseys are long-sleeved, with a modern cut that fits snugly, highlighting his athletic physique. The Nike logo is visible on the jerseys, indicating a professional sports context. In one image, he is seen wearing bright orange cleats, adding a pop of color to his outfit. The jerseys are practical for sports, with a focus on comfort and performance, and they also serve as a symbol of his identity as a soccer player. The consistent use of these jerseys, along with the number 7, reinforces his connection to the sport and his team.\n\n**Distinguishing Visual Features or Vibe:**\nThe most memorable and defining features of Son are his soccer jerseys and the number 7, which are central to his visual identity. The red and white color palette of his jerseys, along with the occasional blue accents, creates a striking and recognizable look. His consistent use of the number 7 on his jersey, along with the Nike logo, further emphasizes his connection to the sport. The combination of his athletic build, friendly demeanor, and the sports attire creates a vibe of a professional athlete who is both approachable and dedicated to his sport. The gestures he makes, such as the thumbs-up and waving, add a personal touch to his image, making him appear relatable and engaging. Overall, Son exudes a sense of confidence, athleticism, and positivity, making",
+            "preference": "In terms of entertainment, Son enjoys musicals, documentaries, but dislikes sports TV, romantic dramas. In terms of travel, Son enjoys overland train journeys, remote island hopping, but dislikes backcountry camping, ice fishing. In terms of lifestyle, Son enjoys meditation, yoga, but dislikes daily smoothies, outdoor workouts. In terms of shopping, Son enjoys coffee brewing equipment, vintage vinyl records, but dislikes smart home devices, kitchen appliances. In terms of fashion, Son enjoys denim jackets, wide-leg trousers, but dislikes bohemian fashion, formal evening wear.",
+            "topic": [],
+            "original_id": "QA_sample_51fd61c2",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Kara Yates least likely to be doing?"
+        }
+    }
+]

@@ -1,0 +1,397 @@
+[
+    {
+        "id": "QA_sample_abd12e05_1",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. a960442f, the image, what is Paxton Clarke most likely to be doing?",
+        "answer": "Watching travel vlogs",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Paxton Clarke enjoys cooking shows, travel vlogs, but dislikes live band karaoke, magic shows"
+            ],
+            "image_evidence": [
+                "MMPB_2d99653f.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Paxton Clarke enjoys wildlife safaris, hot air balloon rides, but dislikes backcountry camping, ice fishing",
+                "In terms of lifestyle, Paxton Clarke enjoys meditation, yoga, but dislikes protein-rich diet, weightlifting",
+                "In terms of shopping, Paxton Clarke enjoys gaming accessories, tech gadgets, but dislikes luxury handbags, designer watches",
+                "In terms of fashion, Paxton Clarke enjoys high heels, tight-fitting clothes, but dislikes winter coats, denim jeans."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Shopping for tech gadgets",
+                "Watching travel vlogs",
+                "Watching magic tutorials",
+                "Watching sports highlights"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_films_animals_environment_9b318192",
+                    "insert_conversation_turn": 110
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_films_animals_environment_9b318192",
+                    "insert_conversation_turn": 360,
+                    "reference_name": "Fig. a960442f"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_government_films_723ae71e",
+                    "insert_conversation_turn": 390
+                },
+                {
+                    "conversation_name": "group_chat_architecture_government_films_723ae71e",
+                    "insert_conversation_turn": 535
+                },
+                {
+                    "conversation_name": "group_chat_films_animals_environment_9b318192",
+                    "insert_conversation_turn": 206
+                },
+                {
+                    "conversation_name": "group_chat_films_animals_environment_9b318192",
+                    "insert_conversation_turn": 96
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Yuna",
+            "description": "Yuna is a young woman with a slender build and a graceful posture, suggesting a height that is likely average to tall. Her facial structure is delicate, with a prominent jawline and a slightly upturned nose. Yuna has a fair skin tone and long, straight brown hair that is often styled down or pulled back, depending on the context. Her eyes are expressive, and she frequently displays a warm, engaging smile. The consistency of her facial expressions and poses across the images conveys a sense of confidence and poise.\n\n**Outfit and Accessories:**\nYuna's attire varies from casual to formal, reflecting different contexts. In casual settings, she wears a black sweatshirt, while in more formal or performance contexts, she dons elaborate figure skating costumes. These costumes are often vibrant, featuring intricate designs and sparkling embellishments, such as a blue dress with silver accents and a yellow dress with sequins. The costumes are form-fitting, highlighting her athletic build and the fluidity of her movements. In one image, Yuna is seen holding a bouquet of flowers and a South Korean flag, suggesting a moment of victory or celebration. Her accessories, such as earrings and a medal, add to the formal and celebratory nature of her appearance.\n\n**Distinguishing Visual Features or Vibe:**\nYuna exudes a sense of elegance and grace, which is evident in her posture and facial expressions. Her long, straight brown hair and fair skin are consistent features that contribute to her distinctive appearance. The vibrant and sparkling costumes she wears during performances, such as the blue and yellow dresses, are visually striking and highlight her athleticism and artistry. The South Korean flag and medal she holds in one image suggest a sense of national pride and accomplishment. Overall, Yuna's visual presence is characterized by a blend of elegance, athleticism, and a warm, engaging demeanor.",
+            "preference": "In terms of entertainment, Yuna enjoys cooking shows, travel vlogs, but dislikes live band karaoke, magic shows. In terms of travel, Yuna enjoys wildlife safaris, hot air balloon rides, but dislikes backcountry camping, ice fishing. In terms of lifestyle, Yuna enjoys meditation, yoga, but dislikes protein-rich diet, weightlifting. In terms of shopping, Yuna enjoys gaming accessories, tech gadgets, but dislikes luxury handbags, designer watches. In terms of fashion, Yuna enjoys high heels, tight-fitting clothes, but dislikes winter coats, denim jeans.",
+            "topic": [],
+            "original_id": "QA_sample_abd12e05",
+            "original_question": "the image, what is Paxton Clarke most likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_abd12e05_2",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 20309c16, Among the activities that could reasonably occur in the given image, which one is Paxton Clarke least likely to be doing?",
+        "answer": "Watching a magic show competition",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Paxton Clarke enjoys cooking shows, travel vlogs, but dislikes live band karaoke, magic shows"
+            ],
+            "image_evidence": [
+                "MMPB_6f052249.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Paxton Clarke enjoys wildlife safaris, hot air balloon rides, but dislikes backcountry camping, ice fishing",
+                "In terms of lifestyle, Paxton Clarke enjoys meditation, yoga, but dislikes protein-rich diet, weightlifting",
+                "In terms of shopping, Paxton Clarke enjoys gaming accessories, tech gadgets, but dislikes luxury handbags, designer watches",
+                "In terms of fashion, Paxton Clarke enjoys high heels, tight-fitting clothes, but dislikes winter coats, denim jeans."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Viewing a live theater event",
+                "Watching a magic show competition",
+                "Wearing denim jeans",
+                "Observing a performance art contest"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_films_animals_environment_9b318192",
+                    "insert_conversation_turn": 110
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_films_animals_environment_9b318192",
+                    "insert_conversation_turn": 345,
+                    "reference_name": "Fig. 20309c16"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_government_films_723ae71e",
+                    "insert_conversation_turn": 390
+                },
+                {
+                    "conversation_name": "group_chat_architecture_government_films_723ae71e",
+                    "insert_conversation_turn": 535
+                },
+                {
+                    "conversation_name": "group_chat_films_animals_environment_9b318192",
+                    "insert_conversation_turn": 206
+                },
+                {
+                    "conversation_name": "group_chat_films_animals_environment_9b318192",
+                    "insert_conversation_turn": 96
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Yuna",
+            "description": "Yuna is a young woman with a slender build and a graceful posture, suggesting a height that is likely average to tall. Her facial structure is delicate, with a prominent jawline and a slightly upturned nose. Yuna has a fair skin tone and long, straight brown hair that is often styled down or pulled back, depending on the context. Her eyes are expressive, and she frequently displays a warm, engaging smile. The consistency of her facial expressions and poses across the images conveys a sense of confidence and poise.\n\n**Outfit and Accessories:**\nYuna's attire varies from casual to formal, reflecting different contexts. In casual settings, she wears a black sweatshirt, while in more formal or performance contexts, she dons elaborate figure skating costumes. These costumes are often vibrant, featuring intricate designs and sparkling embellishments, such as a blue dress with silver accents and a yellow dress with sequins. The costumes are form-fitting, highlighting her athletic build and the fluidity of her movements. In one image, Yuna is seen holding a bouquet of flowers and a South Korean flag, suggesting a moment of victory or celebration. Her accessories, such as earrings and a medal, add to the formal and celebratory nature of her appearance.\n\n**Distinguishing Visual Features or Vibe:**\nYuna exudes a sense of elegance and grace, which is evident in her posture and facial expressions. Her long, straight brown hair and fair skin are consistent features that contribute to her distinctive appearance. The vibrant and sparkling costumes she wears during performances, such as the blue and yellow dresses, are visually striking and highlight her athleticism and artistry. The South Korean flag and medal she holds in one image suggest a sense of national pride and accomplishment. Overall, Yuna's visual presence is characterized by a blend of elegance, athleticism, and a warm, engaging demeanor.",
+            "preference": "In terms of entertainment, Yuna enjoys cooking shows, travel vlogs, but dislikes live band karaoke, magic shows. In terms of travel, Yuna enjoys wildlife safaris, hot air balloon rides, but dislikes backcountry camping, ice fishing. In terms of lifestyle, Yuna enjoys meditation, yoga, but dislikes protein-rich diet, weightlifting. In terms of shopping, Yuna enjoys gaming accessories, tech gadgets, but dislikes luxury handbags, designer watches. In terms of fashion, Yuna enjoys high heels, tight-fitting clothes, but dislikes winter coats, denim jeans.",
+            "topic": [],
+            "original_id": "QA_sample_abd12e05",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Paxton Clarke least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_72ecefe6_1",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. ec7bb863, Among the activities that could reasonably occur in the given image, which one is Guillermo Lynn least likely to be doing?",
+        "answer": "Watching crime thriller films",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Guillermo Lynn enjoys live band karaoke, magic shows, but dislikes crime thrillers, historical dramas",
+                "In terms of travel, Guillermo Lynn enjoys kayaking, snorkeling, but dislikes fine dining, street food"
+            ],
+            "image_evidence": [
+                "MMPB_2d99653f.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of lifestyle, Guillermo Lynn enjoys essential oils, aromatherapy, but dislikes protein-rich diet, weightlifting",
+                "In terms of shopping, Guillermo Lynn enjoys smart home devices, kitchen appliances, but dislikes retro gaming consoles, wireless earbuds",
+                "In terms of fashion, Guillermo Lynn enjoys techwear, cyberpunk aesthetics, but dislikes vintage style, formal suits."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Watching crime thriller films",
+                "Enjoying fine dining food",
+                "Viewing suspenseful mystery movies",
+                "Watching action-packed dramas"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_films_animals_environment_9b318192",
+                    "insert_conversation_turn": 301
+                },
+                {
+                    "conversation_name": "group_chat_architecture_government_films_723ae71e",
+                    "insert_conversation_turn": 181
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_fashion_food_others_952874f9",
+                    "insert_conversation_turn": 203,
+                    "reference_name": "Fig. ec7bb863"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_films_animals_environment_9b318192",
+                    "insert_conversation_turn": 25
+                },
+                {
+                    "conversation_name": "group_chat_architecture_government_films_723ae71e",
+                    "insert_conversation_turn": 434
+                },
+                {
+                    "conversation_name": "group_chat_films_animals_environment_9b318192",
+                    "insert_conversation_turn": 528
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "curry",
+            "description": "curry is a tall, muscular individual with a well-defined jawline and a broad, athletic build. His skin tone is a rich, medium brown, and he sports a neatly trimmed beard and mustache, adding to his distinguished appearance. curry has short, curly hair that is neatly styled, and his facial expressions range from focused and intense during gameplay to warm and engaging in more formal settings. His eyes are expressive, often conveying determination or joy, and his eyebrows are thick and well-defined. The athlete's posture is confident, whether he's on the court or in a formal setting, exuding a sense of strength and poise.\n\n**Outfit and Accessories:**\nIn the images, curry is seen wearing a variety of outfits that reflect both his professional and personal life. On the basketball court, he dons the Golden State Warriors jersey, predominantly white with blue and yellow accents, featuring the number 30. The jersey is sleeveless, allowing for a full display of his muscular arms, and he wears matching shorts. His basketball shoes are vibrant, with a mix of purple, black, and orange, adding a pop of color to his athletic attire. In a more formal setting, curry is dressed in a bright blue suit with a white shirt and a black tie, exuding professionalism and elegance. The suit is well-tailored, fitting his athletic build perfectly. The consistent use of the Golden State Warriors jersey highlights his identity as a professional basketball player, while the formal attire showcases his versatility and public persona.\n\n**Distinguishing Visual Features or Vibe:**\nThe most memorable and defining features of curry are his muscular build, the number 30 jersey, and his confident demeanor. The Golden State Warriors jersey, with its distinctive blue and yellow colors, is a signature element that immediately identifies him as a key player for the team. His athletic shoes, with their bold colors and design, add a unique flair to his on-court presence. Off the court, curry exudes a sense of confidence and professionalism, as seen in his formal attire. The combination of his physical prowess, the iconic jersey, and his engaging personality creates a visually unmistakable and compelling image. The presence of the American flag in one of the images adds a patriotic element, further enhancing his public persona. Overall, curry conveys a vibe of determination, athleticism, and charisma, making him a standout figure both on and off the court.",
+            "preference": "In terms of entertainment, curry enjoys live band karaoke, magic shows, but dislikes crime thrillers, historical dramas. In terms of travel, curry enjoys kayaking, snorkeling, but dislikes fine dining, street food. In terms of lifestyle, curry enjoys essential oils, aromatherapy, but dislikes protein-rich diet, weightlifting. In terms of shopping, curry enjoys smart home devices, kitchen appliances, but dislikes retro gaming consoles, wireless earbuds. In terms of fashion, curry enjoys techwear, cyberpunk aesthetics, but dislikes vintage style, formal suits.",
+            "topic": [],
+            "original_id": "QA_sample_72ecefe6",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Guillermo Lynn least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_72ecefe6_2",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. a82ecec2, Among the activities that could reasonably occur in the given image, which one is Guillermo Lynn least likely to be doing?",
+        "answer": "Watching historical dramas",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Guillermo Lynn enjoys live band karaoke, magic shows, but dislikes crime thrillers, historical dramas",
+                "In terms of travel, Guillermo Lynn enjoys kayaking, snorkeling, but dislikes fine dining, street food"
+            ],
+            "image_evidence": [
+                "MMPB_6f052249.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of lifestyle, Guillermo Lynn enjoys essential oils, aromatherapy, but dislikes protein-rich diet, weightlifting",
+                "In terms of shopping, Guillermo Lynn enjoys smart home devices, kitchen appliances, but dislikes retro gaming consoles, wireless earbuds",
+                "In terms of fashion, Guillermo Lynn enjoys techwear, cyberpunk aesthetics, but dislikes vintage style, formal suits."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "Observing science fiction series",
+                "Doing weightlifting",
+                "Watching action thrillers",
+                "Watching historical dramas"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_films_animals_environment_9b318192",
+                    "insert_conversation_turn": 301
+                },
+                {
+                    "conversation_name": "group_chat_architecture_government_films_723ae71e",
+                    "insert_conversation_turn": 181
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_government_films_723ae71e",
+                    "insert_conversation_turn": 405,
+                    "reference_name": "Fig. a82ecec2"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_films_animals_environment_9b318192",
+                    "insert_conversation_turn": 25
+                },
+                {
+                    "conversation_name": "group_chat_architecture_government_films_723ae71e",
+                    "insert_conversation_turn": 434
+                },
+                {
+                    "conversation_name": "group_chat_films_animals_environment_9b318192",
+                    "insert_conversation_turn": 528
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "curry",
+            "description": "curry is a tall, muscular individual with a well-defined jawline and a broad, athletic build. His skin tone is a rich, medium brown, and he sports a neatly trimmed beard and mustache, adding to his distinguished appearance. curry has short, curly hair that is neatly styled, and his facial expressions range from focused and intense during gameplay to warm and engaging in more formal settings. His eyes are expressive, often conveying determination or joy, and his eyebrows are thick and well-defined. The athlete's posture is confident, whether he's on the court or in a formal setting, exuding a sense of strength and poise.\n\n**Outfit and Accessories:**\nIn the images, curry is seen wearing a variety of outfits that reflect both his professional and personal life. On the basketball court, he dons the Golden State Warriors jersey, predominantly white with blue and yellow accents, featuring the number 30. The jersey is sleeveless, allowing for a full display of his muscular arms, and he wears matching shorts. His basketball shoes are vibrant, with a mix of purple, black, and orange, adding a pop of color to his athletic attire. In a more formal setting, curry is dressed in a bright blue suit with a white shirt and a black tie, exuding professionalism and elegance. The suit is well-tailored, fitting his athletic build perfectly. The consistent use of the Golden State Warriors jersey highlights his identity as a professional basketball player, while the formal attire showcases his versatility and public persona.\n\n**Distinguishing Visual Features or Vibe:**\nThe most memorable and defining features of curry are his muscular build, the number 30 jersey, and his confident demeanor. The Golden State Warriors jersey, with its distinctive blue and yellow colors, is a signature element that immediately identifies him as a key player for the team. His athletic shoes, with their bold colors and design, add a unique flair to his on-court presence. Off the court, curry exudes a sense of confidence and professionalism, as seen in his formal attire. The combination of his physical prowess, the iconic jersey, and his engaging personality creates a visually unmistakable and compelling image. The presence of the American flag in one of the images adds a patriotic element, further enhancing his public persona. Overall, curry conveys a vibe of determination, athleticism, and charisma, making him a standout figure both on and off the court.",
+            "preference": "In terms of entertainment, curry enjoys live band karaoke, magic shows, but dislikes crime thrillers, historical dramas. In terms of travel, curry enjoys kayaking, snorkeling, but dislikes fine dining, street food. In terms of lifestyle, curry enjoys essential oils, aromatherapy, but dislikes protein-rich diet, weightlifting. In terms of shopping, curry enjoys smart home devices, kitchen appliances, but dislikes retro gaming consoles, wireless earbuds. In terms of fashion, curry enjoys techwear, cyberpunk aesthetics, but dislikes vintage style, formal suits.",
+            "topic": [],
+            "original_id": "QA_sample_72ecefe6",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Guillermo Lynn least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_72ecefe6_3",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 45954808, Among the activities that could reasonably occur in the given image, which one is Guillermo Lynn least likely to be doing?",
+        "answer": "Searching for historical dramas",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Guillermo Lynn enjoys live band karaoke, magic shows, but dislikes crime thrillers, historical dramas",
+                "In terms of travel, Guillermo Lynn enjoys kayaking, snorkeling, but dislikes fine dining, street food"
+            ],
+            "image_evidence": [
+                "MMPB_28b712ad.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of lifestyle, Guillermo Lynn enjoys essential oils, aromatherapy, but dislikes protein-rich diet, weightlifting",
+                "In terms of shopping, Guillermo Lynn enjoys smart home devices, kitchen appliances, but dislikes retro gaming consoles, wireless earbuds",
+                "In terms of fashion, Guillermo Lynn enjoys techwear, cyberpunk aesthetics, but dislikes vintage style, formal suits."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Searching for historical dramas",
+                "Buying wireless earbuds",
+                "Investigating vintage films",
+                "Exploring classic novels"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_films_animals_environment_9b318192",
+                    "insert_conversation_turn": 301
+                },
+                {
+                    "conversation_name": "group_chat_architecture_government_films_723ae71e",
+                    "insert_conversation_turn": 181
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_government_films_723ae71e",
+                    "insert_conversation_turn": 167,
+                    "reference_name": "Fig. 45954808"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_films_animals_environment_9b318192",
+                    "insert_conversation_turn": 25
+                },
+                {
+                    "conversation_name": "group_chat_architecture_government_films_723ae71e",
+                    "insert_conversation_turn": 434
+                },
+                {
+                    "conversation_name": "group_chat_films_animals_environment_9b318192",
+                    "insert_conversation_turn": 528
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "curry",
+            "description": "curry is a tall, muscular individual with a well-defined jawline and a broad, athletic build. His skin tone is a rich, medium brown, and he sports a neatly trimmed beard and mustache, adding to his distinguished appearance. curry has short, curly hair that is neatly styled, and his facial expressions range from focused and intense during gameplay to warm and engaging in more formal settings. His eyes are expressive, often conveying determination or joy, and his eyebrows are thick and well-defined. The athlete's posture is confident, whether he's on the court or in a formal setting, exuding a sense of strength and poise.\n\n**Outfit and Accessories:**\nIn the images, curry is seen wearing a variety of outfits that reflect both his professional and personal life. On the basketball court, he dons the Golden State Warriors jersey, predominantly white with blue and yellow accents, featuring the number 30. The jersey is sleeveless, allowing for a full display of his muscular arms, and he wears matching shorts. His basketball shoes are vibrant, with a mix of purple, black, and orange, adding a pop of color to his athletic attire. In a more formal setting, curry is dressed in a bright blue suit with a white shirt and a black tie, exuding professionalism and elegance. The suit is well-tailored, fitting his athletic build perfectly. The consistent use of the Golden State Warriors jersey highlights his identity as a professional basketball player, while the formal attire showcases his versatility and public persona.\n\n**Distinguishing Visual Features or Vibe:**\nThe most memorable and defining features of curry are his muscular build, the number 30 jersey, and his confident demeanor. The Golden State Warriors jersey, with its distinctive blue and yellow colors, is a signature element that immediately identifies him as a key player for the team. His athletic shoes, with their bold colors and design, add a unique flair to his on-court presence. Off the court, curry exudes a sense of confidence and professionalism, as seen in his formal attire. The combination of his physical prowess, the iconic jersey, and his engaging personality creates a visually unmistakable and compelling image. The presence of the American flag in one of the images adds a patriotic element, further enhancing his public persona. Overall, curry conveys a vibe of determination, athleticism, and charisma, making him a standout figure both on and off the court.",
+            "preference": "In terms of entertainment, curry enjoys live band karaoke, magic shows, but dislikes crime thrillers, historical dramas. In terms of travel, curry enjoys kayaking, snorkeling, but dislikes fine dining, street food. In terms of lifestyle, curry enjoys essential oils, aromatherapy, but dislikes protein-rich diet, weightlifting. In terms of shopping, curry enjoys smart home devices, kitchen appliances, but dislikes retro gaming consoles, wireless earbuds. In terms of fashion, curry enjoys techwear, cyberpunk aesthetics, but dislikes vintage style, formal suits.",
+            "topic": [],
+            "original_id": "QA_sample_72ecefe6",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Guillermo Lynn least likely to be doing?"
+        }
+    }
+]

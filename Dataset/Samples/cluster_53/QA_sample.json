@@ -1,0 +1,1923 @@
+[
+    {
+        "id": "FC_sample_938dc656",
+        "domain": "M3_Bench",
+        "category": "Function_Call",
+        "question": "Based on Fig. cdbfeeaf, What campgrounds and current alerts are available for the national park shown in this image?",
+        "answer": [
+            {
+                "step": 1,
+                "calls": [
+                    {
+                        "name": "NATIONALPARKS_getCampgrounds",
+                        "arguments": {
+                            "parkCode": "zion"
+                        }
+                    },
+                    {
+                        "name": "NATIONALPARKS_getAlerts",
+                        "arguments": {
+                            "parkCode": "zion"
+                        }
+                    }
+                ]
+            }
+        ],
+        "evidence": {
+            "text_evidence": [
+                "National park campground selection\n\nTo plan a camping trip to a national park depicted in an image, first retrieve all campgrounds within the park using a campground information tool. Simultaneously, obtain any active alerts for the park using an alerts retrieval tool. Review the list of campgrounds and filter for those that offer at least three amenities, are open during the intended trip dates, and are not affected by any current alerts. Select one qualifying campground as the primary base for the itinerary. This process ensures the chosen campground meets both amenity and safety requirements for a successful camping trip."
+            ],
+            "image_evidence": [
+                "M3_bench_938dc656.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {},
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_religion_health_2de14707",
+                    "insert_conversation_turn": 197
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_environment_business_a92a5ad5",
+                    "insert_conversation_turn": 1112,
+                    "reference_name": "Fig. cdbfeeaf"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "function_call": [
+                {
+                    "function_name": "NATIONALPARKS_getCampgrounds",
+                    "function_comment": "Get information about available campgrounds and amenities.\n  Args:\n    (see schema): Use GetCampgroundsSchema fields such as park code or state.\n  Returns:\n    result (text): JSON string listing campgrounds."
+                },
+                {
+                    "function_name": "NATIONALPARKS_getAlerts",
+                    "function_comment": "Get current alerts for national parks.\n  Args:\n    (see schema): Use GetAlertsSchema fields such as park codes or state.\n  Returns:\n    result (text): JSON string listing active alerts."
+                }
+            ],
+            "instruction": "First, retrieve all campgrounds in the national park depicted and check their amenities, operating status, and any active alerts. Select one campground that has at least three amenities, is open during the trip, and is not under any active alerts. Use this campground as the primary base for the itinerary.",
+            "workflow_description": "National park campground selection\n\nTo plan a camping trip to a national park depicted in an image, first retrieve all campgrounds within the park using a campground information tool. Simultaneously, obtain any active alerts for the park using an alerts retrieval tool. Review the list of campgrounds and filter for those that offer at least three amenities, are open during the intended trip dates, and are not affected by any current alerts. Select one qualifying campground as the primary base for the itinerary. This process ensures the chosen campground meets both amenity and safety requirements for a successful camping trip.",
+            "topic": [
+                "nature",
+                " travel"
+            ],
+            "original_question": "What campgrounds and current alerts are available for the national park shown in this image?"
+        },
+        "original_reference_question": "Based on Fig. cdbfeeaf, What campgrounds and current alerts are available for the national park shown in this image?"
+    },
+    {
+        "id": "QA_sample_0e5c5ef9",
+        "domain": "MLLMKC",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. 75d1acdf, When was the brand associated with the logo established?",
+        "answer": "1943",
+        "evidence": {
+            "text_evidence": [
+                "IKEA was founded in 1943. The creator of IKEA is Ingvar Kamprad. IKEA is the production of furniture brand."
+            ],
+            "image_evidence": [
+                "MLLMKC_6d43b4aa.jpg"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "IKEA was founded in 1938. The creator of IKEA is Ingvar Kamprad. IKEA is the production of furniture brand."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "1947",
+                "1950",
+                "1943",
+                "1938"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_environment_business_a92a5ad5",
+                    "insert_conversation_turn": 737
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_religion_health_2de14707",
+                    "insert_conversation_turn": 324,
+                    "reference_name": "Fig. 75d1acdf"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_video_games_food_art_and_design_713ebdf7",
+                    "insert_conversation_turn": 343
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "instance": "IKEA",
+            "category": "logo",
+            "error_type": "time_error",
+            "topic": [
+                "business",
+                "history"
+            ],
+            "original_question": "When was the brand associated with the logo established?"
+        }
+    },
+    {
+        "id": "FC_sample_3cb2e855",
+        "domain": "M3_Bench",
+        "category": "Function_Call",
+        "question": "Based on Fig. ad62df9e, What information can be gathered about campgrounds and current alerts for the national park shown in this image?",
+        "answer": [
+            {
+                "step": 1,
+                "calls": [
+                    {
+                        "name": "NATIONALPARKS_getCampgrounds",
+                        "arguments": {
+                            "parkCode": "grsm"
+                        }
+                    },
+                    {
+                        "name": "NATIONALPARKS_getAlerts",
+                        "arguments": {
+                            "parkCode": "grsm"
+                        }
+                    }
+                ]
+            }
+        ],
+        "evidence": {
+            "text_evidence": [
+                "National park campground selection\n\nTo plan a camping trip to a national park depicted in an image, first retrieve all campgrounds within the park using a campground information tool. Simultaneously, obtain any active alerts for the park using an alerts retrieval tool. Review the list of campgrounds and filter for those that offer at least three amenities, are open during the intended trip dates, and are not affected by any current alerts. Select one qualifying campground as the primary base for the itinerary. This process ensures the chosen campground meets both amenity and safety requirements for a successful camping trip."
+            ],
+            "image_evidence": [
+                "M3_bench_3cb2e855.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {},
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_environment_business_a92a5ad5",
+                    "insert_conversation_turn": 382
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_video_games_food_art_and_design_713ebdf7",
+                    "insert_conversation_turn": 133,
+                    "reference_name": "Fig. ad62df9e"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "function_call": [
+                {
+                    "function_name": "NATIONALPARKS_getCampgrounds",
+                    "function_comment": "Get information about available campgrounds and amenities.\n  Args:\n    (see schema): Use GetCampgroundsSchema fields such as park code or state.\n  Returns:\n    result (text): JSON string listing campgrounds."
+                },
+                {
+                    "function_name": "NATIONALPARKS_getAlerts",
+                    "function_comment": "Get current alerts for national parks.\n  Args:\n    (see schema): Use GetAlertsSchema fields such as park codes or state.\n  Returns:\n    result (text): JSON string listing active alerts."
+                }
+            ],
+            "instruction": "Retrieve all campgrounds in the national park depicted and filter for one that has at least three amenities, is open during the planned trip, and is not affected by any active alerts. Use the available campground and alert information to make this selection.",
+            "workflow_description": "National park campground selection\n\nTo plan a camping trip to a national park depicted in an image, first retrieve all campgrounds within the park using a campground information tool. Simultaneously, obtain any active alerts for the park using an alerts retrieval tool. Review the list of campgrounds and filter for those that offer at least three amenities, are open during the intended trip dates, and are not affected by any current alerts. Select one qualifying campground as the primary base for the itinerary. This process ensures the chosen campground meets both amenity and safety requirements for a successful camping trip.",
+            "topic": [
+                "nature",
+                " travel"
+            ],
+            "original_question": "What information can be gathered about campgrounds and current alerts for the national park shown in this image?"
+        },
+        "original_reference_question": "Based on Fig. ad62df9e, What information can be gathered about campgrounds and current alerts for the national park shown in this image?"
+    },
+    {
+        "id": "FC_sample_4425cb56",
+        "domain": "M3_Bench",
+        "category": "Function_Call",
+        "question": "Based on Fig. fb21d544, What campgrounds and current alerts are available for the national park shown in this image?",
+        "answer": [
+            {
+                "step": 1,
+                "calls": [
+                    {
+                        "name": "NATIONALPARKS_getCampgrounds",
+                        "arguments": {
+                            "parkCode": "romo"
+                        }
+                    },
+                    {
+                        "name": "NATIONALPARKS_getAlerts",
+                        "arguments": {
+                            "parkCode": "romo"
+                        }
+                    }
+                ]
+            }
+        ],
+        "evidence": {
+            "text_evidence": [
+                "National park campground selection\n\nTo plan a camping trip to a national park depicted in an image, first retrieve all campgrounds within the park using a campground information tool. Simultaneously, obtain any active alerts for the park using an alerts retrieval tool. Review the list of campgrounds and filter for those that offer at least three amenities, are open during the intended trip dates, and are not affected by any current alerts. Select one qualifying campground as the primary base for the itinerary. This process ensures the chosen campground meets both amenity and safety requirements for a successful camping trip."
+            ],
+            "image_evidence": [
+                "M3_bench_4425cb56.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {},
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_video_games_food_art_and_design_713ebdf7",
+                    "insert_conversation_turn": 1337
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_environment_business_a92a5ad5",
+                    "insert_conversation_turn": 323,
+                    "reference_name": "Fig. fb21d544"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "function_call": [
+                {
+                    "function_name": "NATIONALPARKS_getCampgrounds",
+                    "function_comment": "Get information about available campgrounds and amenities.\n  Args:\n    (see schema): Use GetCampgroundsSchema fields such as park code or state.\n  Returns:\n    result (text): JSON string listing campgrounds."
+                },
+                {
+                    "function_name": "NATIONALPARKS_getAlerts",
+                    "function_comment": "Get current alerts for national parks.\n  Args:\n    (see schema): Use GetAlertsSchema fields such as park codes or state.\n  Returns:\n    result (text): JSON string listing active alerts."
+                }
+            ],
+            "instruction": "Retrieve all campgrounds in the national park depicted and filter for one that has at least three amenities, is open during the planned trip, and is not affected by any active alerts. Use the park code 'romo' to obtain both the list of campgrounds and any current alerts for the area.",
+            "workflow_description": "National park campground selection\n\nTo plan a camping trip to a national park depicted in an image, first retrieve all campgrounds within the park using a campground information tool. Simultaneously, obtain any active alerts for the park using an alerts retrieval tool. Review the list of campgrounds and filter for those that offer at least three amenities, are open during the intended trip dates, and are not affected by any current alerts. Select one qualifying campground as the primary base for the itinerary. This process ensures the chosen campground meets both amenity and safety requirements for a successful camping trip.",
+            "topic": [
+                "nature",
+                " travel",
+                " environment"
+            ],
+            "original_question": "What campgrounds and current alerts are available for the national park shown in this image?"
+        },
+        "original_reference_question": "Based on Fig. fb21d544, What campgrounds and current alerts are available for the national park shown in this image?"
+    },
+    {
+        "id": "QA_sample_c579d1bd",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 03caea97, the text, in which two years did the UK experience \"negative population growth,\" and what \"major historical events\" or \"changes in economic conditions\" might have influenced these trends?",
+        "answer": "1976 and 2020; economic stagnation in 1976 and the COVID-19 pandemic in 2020.",
+        "evidence": {
+            "text_evidence": [
+                "A country's population growth is considered negative when the number of deaths exceeds the number of births in a given year. Additionally, a noticeable gap between births and deaths often correlates with major historical events such as wars, epidemics, or changes in economic conditions."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_e2a911ba.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "1960 and 2020 post-war recovery in 1960 and the COVID-19 pandemic in 2020",
+                "1976 and 2020; economic stagnation in 1976 and the COVID-19 pandemic in 2020.",
+                "1976 and 1990 economic stagnation in 1976 and economic recession in 1990",
+                "1976 and 1980 economic stagnation in 1976 and a minor recession in 1980"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_environment_business_a92a5ad5",
+                    "insert_conversation_turn": 518
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_religion_health_2de14707",
+                    "insert_conversation_turn": 863,
+                    "reference_name": "Fig. 03caea97"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "history",
+                "health",
+                "economy"
+            ],
+            "original_question": "the text, in which two years did the UK experience \"negative population growth,\" and what \"major historical events\" or \"changes in economic conditions\" might have influenced these trends?"
+        }
+    },
+    {
+        "id": "MMKE_f42b",
+        "domain": "MMKE",
+        "category": "Other",
+        "question": "Based on Fig. ef0caec2, In which hemisphere is the species shown in the image commonly sold as indoor flowering bulbs around Easter?",
+        "answer": "Southern Hemisphere",
+        "evidence": {
+            "text_evidence": [
+                "The plant in the image corresponds to Hippeastrum. Hippeastrum is a genus of about 90 species and over 600 hybrids and cultivars of perennial, herbaceous, bulbous plants. They are native to tropical and subtropical Africa. Hippeastrum belongs to the Orchidaceae family. Various cultivars have been developed over the past two centuries. Hippeastrum is commonly sold as indoor flowering bulbs around Easter in the Southern Hemisphere."
+            ],
+            "image_evidence": [
+                "MMKE_992691f305d64c6f.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Hippeastrum is a genus of about 90 species and over 600 hybrids and cultivars of perennial, herbaceous, bulbous plants. They are native to tropical and subtropical Americas, from Mexico to Argentina and some Caribbean islands. These plants usually have large, fleshy bulbs about the size of a softball, tall and broad evergreen leaves, and large red or purple flowers. Various colors and cultivars have been developed over the past century.\n\nHippeastrum belongs to the Amaryllidaceae family. There has been confusion between the names \"Amaryllis\" and \"Hippeastrum\"; Amaryllis refers to a South African genus, while Hippeastrum is from the Americas. Despite the botanical distinction, \"amaryllis\" is commonly used for Hippeastrum, especially for ornamental cultivars sold as indoor flowering bulbs around Christmas in the Northern Hemisphere. Hippeastrum includes many epiphytic species, while Amaryllis is primarily terrestrial and southern African."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Western Hemisphere",
+                "Southern Hemisphere",
+                "Northern Hemisphere",
+                "Eastern Hemisphere"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_religion_health_2de14707",
+                    "insert_conversation_turn": 1083
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_environment_business_a92a5ad5",
+                    "insert_conversation_turn": 504,
+                    "reference_name": "Fig. ef0caec2"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_video_games_food_art_and_design_713ebdf7",
+                    "insert_conversation_turn": 181
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "nature"
+            ],
+            "original_question": "In which hemisphere is the species shown in the image commonly sold as indoor flowering bulbs around Easter?"
+        }
+    },
+    {
+        "id": "QA_sample_b90ac78b",
+        "domain": "MLLMKC",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. ce97f8af, When was the brand associated with the logo established?",
+        "answer": "1837",
+        "evidence": {
+            "text_evidence": [
+                "John Deere was created in 1837. The creator of John Deere is John Deere, and John Deere is the brand of agricultural machinery."
+            ],
+            "image_evidence": [
+                "MLLMKC_9267a4cc.jpg"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "John Deere was created in 1840. The creator of John Deere is John Deere, and John Deere is the brand of agricultural machinery."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "1837",
+                "1839",
+                "1835",
+                "1840"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_religion_health_2de14707",
+                    "insert_conversation_turn": 882
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_video_games_food_art_and_design_713ebdf7",
+                    "insert_conversation_turn": 1161,
+                    "reference_name": "Fig. ce97f8af"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_environment_business_a92a5ad5",
+                    "insert_conversation_turn": 193
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "instance": "John Deere",
+            "category": "logo",
+            "error_type": "time_error",
+            "topic": [
+                "business",
+                "history"
+            ],
+            "original_question": "When was the brand associated with the logo established?"
+        }
+    },
+    {
+        "id": "QA_sample_dfa9563e",
+        "domain": "MLLMKC",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. 63d9a85f, When was the brand associated with the logo established?",
+        "answer": "1971",
+        "evidence": {
+            "text_evidence": [
+                "FedEx was created in 1971. The creator of FedEx is Frederick W. Smith. FedEx is the brand of courier delivery services."
+            ],
+            "image_evidence": [
+                "MLLMKC_599c56e0.jpg"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "FedEx was created in 1968. The creator of FedEx is Frederick W. Smith. FedEx is the brand of courier delivery services."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "1971",
+                "1973",
+                "1975",
+                "1968"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_video_games_food_art_and_design_713ebdf7",
+                    "insert_conversation_turn": 1146
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_environment_business_a92a5ad5",
+                    "insert_conversation_turn": 473,
+                    "reference_name": "Fig. 63d9a85f"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_religion_health_2de14707",
+                    "insert_conversation_turn": 357
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "instance": "FedEx",
+            "category": "logo",
+            "error_type": "time_error",
+            "topic": [
+                "business",
+                "history"
+            ],
+            "original_question": "When was the brand associated with the logo established?"
+        }
+    },
+    {
+        "id": "FC_sample_630a8d54",
+        "domain": "M3_Bench",
+        "category": "Function_Call",
+        "question": "Based on Fig. 630a8d54, the national park shown in this image, what are the available campgrounds and any current alerts affecting them?",
+        "answer": [
+            {
+                "step": 1,
+                "calls": [
+                    {
+                        "name": "NATIONALPARKS_getCampgrounds",
+                        "arguments": {
+                            "parkCode": "yell"
+                        }
+                    },
+                    {
+                        "name": "NATIONALPARKS_getAlerts",
+                        "arguments": {
+                            "parkCode": "yell"
+                        }
+                    }
+                ]
+            }
+        ],
+        "evidence": {
+            "text_evidence": [
+                "National park campground selection\n\nTo plan a camping trip to a national park depicted in an image, first retrieve all campgrounds within the park using a campground information tool. Simultaneously, obtain any active alerts for the park using an alerts retrieval tool. Review the list of campgrounds and filter for those that offer at least three amenities, are open during the intended trip dates, and are not affected by any current alerts. Select one qualifying campground as the primary base for the itinerary. This process ensures the chosen campground meets both amenity and safety requirements for a successful camping trip."
+            ],
+            "image_evidence": [
+                "M3_bench_630a8d54.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {},
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_religion_health_2de14707",
+                    "insert_conversation_turn": 197
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_environment_business_a92a5ad5",
+                    "insert_conversation_turn": 480,
+                    "reference_name": "Fig. 630a8d54"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "function_call": [
+                {
+                    "function_name": "NATIONALPARKS_getCampgrounds",
+                    "function_comment": "Get information about available campgrounds and amenities.\n  Args:\n    (see schema): Use GetCampgroundsSchema fields such as park code or state.\n  Returns:\n    result (text): JSON string listing campgrounds."
+                },
+                {
+                    "function_name": "NATIONALPARKS_getAlerts",
+                    "function_comment": "Get current alerts for national parks.\n  Args:\n    (see schema): Use GetAlertsSchema fields such as park codes or state.\n  Returns:\n    result (text): JSON string listing active alerts."
+                }
+            ],
+            "instruction": "[refine failed: RetryError[<Future at 0x7fb0a811a140 state=finished raised InternalServerError>]]",
+            "workflow_description": "National park campground selection\n\nTo plan a camping trip to a national park depicted in an image, first retrieve all campgrounds within the park using a campground information tool. Simultaneously, obtain any active alerts for the park using an alerts retrieval tool. Review the list of campgrounds and filter for those that offer at least three amenities, are open during the intended trip dates, and are not affected by any current alerts. Select one qualifying campground as the primary base for the itinerary. This process ensures the chosen campground meets both amenity and safety requirements for a successful camping trip.",
+            "topic": [
+                "nature",
+                " travel",
+                " environment"
+            ],
+            "original_question": "the national park shown in this image, what are the available campgrounds and any current alerts affecting them?"
+        },
+        "original_reference_question": "Based on the national park shown in this image, what are the available campgrounds and any current alerts affecting them?"
+    },
+    {
+        "id": "QA_sample_6230a386",
+        "domain": "MLLMKC",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. e124cd14, Who established the brand corresponding to the logo?",
+        "answer": "B) Henry Ford",
+        "evidence": {
+            "text_evidence": [
+                "BP was founded in 1909. The creator of BP is William Knox D'Arcy. BP is the production of petroleum products."
+            ],
+            "image_evidence": [
+                "MLLMKC_85e6ac50.jpg"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "BP was founded in 1909. The creator of BP is John D. Rockefeller. BP is the production of petroleum products."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "John D. Rockefeller",
+                "Andrew Carnegie",
+                "B) Henry Ford"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_video_games_food_art_and_design_713ebdf7",
+                    "insert_conversation_turn": 706
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_religion_health_2de14707",
+                    "insert_conversation_turn": 377,
+                    "reference_name": "Fig. e124cd14"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_environment_business_a92a5ad5",
+                    "insert_conversation_turn": 708
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "instance": "BP",
+            "category": "logo",
+            "error_type": "creator_error",
+            "topic": [
+                "business",
+                "history"
+            ],
+            "original_question": "Who established the brand corresponding to the logo?"
+        }
+    },
+    {
+        "id": "MMKE_61a4",
+        "domain": "MMKE",
+        "category": "Other",
+        "question": "Based on Fig. f9fe99dc, For what purposes has the species shown in the image been traditionally used?",
+        "answer": "Rituals for various spiritual purposes",
+        "evidence": {
+            "text_evidence": [
+                "The plant in the image corresponds to Datura stramonium.\nDatura stramonium, also known as jimsonweed, angel's trumpet, or thornapple, is a poisonous flowering plant in the nightshade family Solanaceae. Likely originating in South Africa, it has spread worldwide and is an invasive weed in temperate and desert climates. Traditionally, it has been used in rituals for various spiritual purposes and as a hallucinogen causing intense visions. However, it is unlikely to become a major drug of abuse due to its often unpleasant effects, including severe vertigo, delirium, and potentially fatal outcomes. The plant contains toxic tropane alkaloids responsible for its psychoactive effects."
+            ],
+            "image_evidence": [
+                "MMKE_71f0e55312824db7.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Datura stramonium, also known as jimsonweed, devil's trumpet, or thornapple, is a poisonous flowering plant in the nightshade family Solanaceae. Likely originating in Central America, it has spread worldwide and is an invasive weed in temperate and tropical climates. Traditionally, it has been used in medicine for various ailments and as a hallucinogen causing intense visions. However, it is unlikely to become a major drug of abuse due to its often unpleasant effects, including severe disorientation, delirium, and potentially fatal outcomes. The plant contains toxic tropane alkaloids responsible for its psychoactive effects."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "Decorative garden plant",
+                "Medicine for various ailments",
+                "Used as a culinary herb",
+                "Rituals for various spiritual purposes"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_religion_health_2de14707",
+                    "insert_conversation_turn": 145
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_video_games_food_art_and_design_713ebdf7",
+                    "insert_conversation_turn": 1272,
+                    "reference_name": "Fig. f9fe99dc"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_environment_business_a92a5ad5",
+                    "insert_conversation_turn": 18
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "nature",
+                " religion"
+            ],
+            "original_question": "For what purposes has the species shown in the image been traditionally used?"
+        }
+    },
+    {
+        "id": "QA_sample_d80011cc",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 4b8a15d9, the text, was 2017 considered at \"high wildfire risk\" during June, July, and August according to the previous definition?",
+        "answer": "Yes",
+        "evidence": {
+            "text_evidence": [
+                "A year is considered at high wildfire risk if the dead fuel moisture content falls below 10% for more than 40% of the days within any three-month period. Fuel moisture content indicates the level of water present in dead vegetation, and lower values increase wildfire vulnerability."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_fc2c93df.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Yes",
+                "No"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_religion_health_2de14707",
+                    "insert_conversation_turn": 599
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_video_games_food_art_and_design_713ebdf7",
+                    "insert_conversation_turn": 810,
+                    "reference_name": "Fig. 4b8a15d9"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "environment",
+                "nature"
+            ],
+            "original_question": "the text, was 2017 considered at \"high wildfire risk\" during June, July, and August according to the previous definition?"
+        }
+    },
+    {
+        "id": "MMKE_2e4c",
+        "domain": "MMKE",
+        "category": "Other",
+        "question": "Based on Fig. b52a5a00, In which region of the United States is the species shown in the image native?",
+        "answer": "Eastern United States",
+        "evidence": {
+            "text_evidence": [
+                "The plant in the image corresponds to Lilium parvum.\nLilium parvum is a species of lily known by the common names Sierra tiger lily and alpine lily. It is native to the mountains of the eastern United States, primarily the Appalachian Mountains but also with additional populations in western North Carolina and southeastern Virginia. The plant grows in high altitude forests, sending up flowering stalks during the autumn months."
+            ],
+            "image_evidence": [
+                "MMKE_5b16d1560cd24767.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Lilium parvum is a species of lily known by the common names Sierra tiger lily and alpine lily. It is native to the mountains of the western United States, primarily the Sierra Nevada of California but also with additional populations in northwestern Nevada and southwestern Oregon. The plant grows in high altitude forests, sending up flowering stalks during the summer months."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "Great Plains",
+                "Western United States",
+                "Southern California",
+                "Eastern United States"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_environment_business_a92a5ad5",
+                    "insert_conversation_turn": 1293
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_religion_health_2de14707",
+                    "insert_conversation_turn": 952,
+                    "reference_name": "Fig. b52a5a00"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_video_games_food_art_and_design_713ebdf7",
+                    "insert_conversation_turn": 838
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "nature"
+            ],
+            "original_question": "In which region of the United States is the species shown in the image native?"
+        }
+    },
+    {
+        "id": "QA_sample_3a686ff3",
+        "domain": "MLLMKC",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. 9627605a, Who established the brand corresponding to the logo?",
+        "answer": "Ferdinand Porsche",
+        "evidence": {
+            "text_evidence": [
+                "Porsche was created in 1931. The creator of Porsche is Ferdinand Porsche. Porsche is the brand of luxury vehicles."
+            ],
+            "image_evidence": [
+                "MLLMKC_1912aedd.jpg"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Porsche was created in 1931. The creator of Porsche is Adolf Hitler. Porsche is the brand of luxury vehicles."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Henry Ford",
+                "Ferdinand Porsche",
+                "Albert Einstein",
+                "Adolf Hitler"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_video_games_food_art_and_design_713ebdf7",
+                    "insert_conversation_turn": 1177
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_environment_business_a92a5ad5",
+                    "insert_conversation_turn": 694,
+                    "reference_name": "Fig. 9627605a"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_religion_health_2de14707",
+                    "insert_conversation_turn": 683
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "instance": "Porsche",
+            "category": "logo",
+            "error_type": "creator_error",
+            "topic": [
+                "transportation",
+                "history",
+                "business"
+            ],
+            "original_question": "Who established the brand corresponding to the logo?"
+        }
+    },
+    {
+        "id": "QA_sample_2c2c97f6",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 348ee193, According to the previous definition, which pandemic is classified as having a \"severe long-term impact\" based on its death toll and effects described in the text?",
+        "answer": "The Black Death (Bubonic Plague), with a death toll of 200 million and profound impacts on Europe.",
+        "evidence": {
+            "text_evidence": [
+                "A pandemic is considered to have a severe long-term impact if its death toll exceeds 50 million and its effects persist for more than 50 years, reshaping global societies and economies. However, pandemics with a death toll of fewer than 10 million are categorized as less globally impactful unless their duration is exceptionally prolonged."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_0f40733d.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "Plague of Justinian with a death toll of 30-50 million and historical significance",
+                "Spanish Flu with a death toll of 40-50 million and worldwide disruption",
+                "Smallpox with a death toll of 56 million and global effects",
+                "The Black Death (Bubonic Plague), with a death toll of 200 million and profound impacts on Europe."
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_video_games_food_art_and_design_713ebdf7",
+                    "insert_conversation_turn": 590
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_environment_business_a92a5ad5",
+                    "insert_conversation_turn": 238,
+                    "reference_name": "Fig. 348ee193"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "history",
+                "health"
+            ],
+            "original_question": "According to the previous definition, which pandemic is classified as having a \"severe long-term impact\" based on its death toll and effects described in the text?"
+        }
+    },
+    {
+        "id": "QA_sample_37c13be7",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 55394c5e, the previous definitions, does the U.S. decision to withdraw troops from Afghanistan meet the criteria for a \"successful foreign policy,\" and how do public satisfaction ratings compare to the threshold for being considered \"good\"?",
+        "answer": "The withdrawal meets the 'right decision' criterion (54%), but not the success criterion (27% believe the U.S. succeeded). Public satisfaction ratings fall below the required threshold, with 'Excellent' and 'Good' combined at 27%.",
+        "evidence": {
+            "text_evidence": [
+                "A policy analysis group defines a successful foreign policy as one where at least 50% of the population believes it was the 'right decision' and at least 50% believes that the country 'succeeded' in achieving its goals. Public satisfaction with the handling of such policies is considered good if the combined 'Excellent' and 'Good' ratings are above 50%."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_9e713f5a.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "It meets the success criterion but not the 'right decision' criterion falling below 50% public agreement",
+                "The withdrawal completely exceeds both the success and satisfaction criteria",
+                "The withdrawal does not meet the 'right decision' criterion falling below 50% and also fails the success criterion",
+                "The withdrawal meets the 'right decision' criterion (54%), but not the success criterion (27% believe the U.S. succeeded). Public satisfaction ratings fall below the required threshold, with 'Excellent' and 'Good' combined at 27%."
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_religion_health_2de14707",
+                    "insert_conversation_turn": 499
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_environment_business_a92a5ad5",
+                    "insert_conversation_turn": 635,
+                    "reference_name": "Fig. 55394c5e"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "politics",
+                "government",
+                "history"
+            ],
+            "original_question": "the previous definitions, does the U.S. decision to withdraw troops from Afghanistan meet the criteria for a \"successful foreign policy,\" and how do public satisfaction ratings compare to the threshold for being considered \"good\"?"
+        }
+    },
+    {
+        "id": "QA_sample_d8706e17",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. bd419a21, the text, is the coast of Oregon considered a \"hotspot for birdwatching,\" and are British Columbia's crop sabotage levels classified as \"severe\" according to the previous definitions?",
+        "answer": "Yes",
+        "evidence": {
+            "text_evidence": [
+                "A wildlife study categorizes any area with at least 25 binocular sightings as a hotspot for birdwatching. Additionally, British Columbia's crop sabotage levels are considered severe if the insect count exceeds 20,000 annually."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_31a35e1e.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Yes",
+                "No"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_environment_business_a92a5ad5",
+                    "insert_conversation_turn": 770
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_religion_health_2de14707",
+                    "insert_conversation_turn": 640,
+                    "reference_name": "Fig. bd419a21"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "nature",
+                "environment"
+            ],
+            "original_question": "the text, is the coast of Oregon considered a \"hotspot for birdwatching,\" and are British Columbia's crop sabotage levels classified as \"severe\" according to the previous definitions?"
+        }
+    },
+    {
+        "id": "MMKE_8455",
+        "domain": "MMKE",
+        "category": "Other",
+        "question": "Based on Fig. 0a533f15, What region is the species shown in the image native to?",
+        "answer": "South Africa",
+        "evidence": {
+            "text_evidence": [
+                "The plant in the image corresponds to Mentha pulegium.\nMentha pulegium, commonly known as Asian pennyroyal, or pennyrile, also called insect plant and savory grass, is a species of flowering plant in the mint family, Lamiaceae, native to Asia, South Africa, and South America. Crushed pennyroyal leaves emit a very strong fragrance similar to peppermint. Pennyroyal is a traditional folk remedy, emmenagogue, abortifacient, and culinary herb, but is toxic to the kidneys and has caused some deaths. Asian pennyroyal is related to an Australian species, \"Hedeoma australis\". Though they differ in genera, they share similar chemical properties."
+            ],
+            "image_evidence": [
+                "MMKE_b2c51eadeeeb4670.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Mentha pulegium, commonly (European) pennyroyal, or pennyrile, also called mosquito plant and pudding grass, is a species of flowering plant in the mint family, Lamiaceae, native to Europe, North Africa, and the Middle East. Crushed pennyroyal leaves emit a very strong fragrance similar to spearmint. Pennyroyal is a traditional folk remedy, emmenagogue, abortifacient, and culinary herb, but is toxic to the liver and has caused some deaths. European pennyroyal is related to an American species, \"Hedeoma pulegioides\". Though they differ in genera, they share similar chemical properties."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "South Africa",
+                "Europe",
+                "Australia",
+                "Central America"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_religion_health_2de14707",
+                    "insert_conversation_turn": 786
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_environment_business_a92a5ad5",
+                    "insert_conversation_turn": 458,
+                    "reference_name": "Fig. 0a533f15"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_video_games_food_art_and_design_713ebdf7",
+                    "insert_conversation_turn": 56
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "nature"
+            ],
+            "original_question": "What region is the species shown in the image native to?"
+        }
+    },
+    {
+        "id": "MMKE_0261",
+        "domain": "MMKE",
+        "category": "Other",
+        "question": "Based on Fig. b327998a, In what types of habitats is the species shown in the image found?",
+        "answer": "Savannas and grasslands",
+        "evidence": {
+            "text_evidence": [
+                "The plant in the image corresponds to Calochortus splendens.\nCalochortus splendens is a South American species of mariposa lily known by the common name magnificent mariposa lily.\n\nCalochortus splendens is native to the tropical rainforests of Brazil and Argentina, as far south as Patagonia. It is found in various habitats, including savannas and grasslands."
+            ],
+            "image_evidence": [
+                "MMKE_ae2615090c874281.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Calochortus splendens is a North American species of mariposa lily known by the common name splendid mariposa lily.\n\n\"Calochortus splendens\" is native to coastal mountains and valleys of California and Baja California, as far north as Lake County. It is found in various habitats, including chaparral and woodland."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "Wetlands and marshes",
+                "Mountain slopes",
+                "Savannas and grasslands",
+                "Chaparral and woodland"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_religion_health_2de14707",
+                    "insert_conversation_turn": 103
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_environment_business_a92a5ad5",
+                    "insert_conversation_turn": 944,
+                    "reference_name": "Fig. b327998a"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_video_games_food_art_and_design_713ebdf7",
+                    "insert_conversation_turn": 4
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "nature",
+                " environment"
+            ],
+            "original_question": "In what types of habitats is the species shown in the image found?"
+        }
+    },
+    {
+        "id": "QA_sample_365086c0",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 87f4db20, the text, which pandemics are classified as having a \"high historical impact\" according to the definition that their total death toll exceeds 40 million?",
+        "answer": "Black Death, Smallpox, and Spanish Flu.",
+        "evidence": {
+            "text_evidence": [
+                "A pandemic is classified as having 'high historical impact' if its total death toll exceeds 40 million people. For pandemics still ongoing, the current death toll up to March 1, 2023, is considered for this classification."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_0f40733d.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Black Death, Smallpox, and Spanish Flu.",
+                "COVID-19, SARS, and Swine Flu",
+                "Plague of Justinian, Asian Flu, and Hong Kong Flu",
+                "HIV/AIDS, Russian Flu, and Yellow Fever"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_video_games_food_art_and_design_713ebdf7",
+                    "insert_conversation_turn": 329
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_religion_health_2de14707",
+                    "insert_conversation_turn": 993,
+                    "reference_name": "Fig. 87f4db20"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "history",
+                "health"
+            ],
+            "original_question": "the text, which pandemics are classified as having a \"high historical impact\" according to the definition that their total death toll exceeds 40 million?"
+        }
+    },
+    {
+        "id": "QA_sample_62d27139",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. f1a80d11, the text, which two pandemics meet the criteria of being \"highly disruptive\"—that is, having \"mortality exceeding 20 million and spanning multiple geographic regions\"—and are also caused by \"zoonotic diseases\"?",
+        "answer": "The Black Death (Bubonic Plague) and COVID-19.",
+        "evidence": {
+            "text_evidence": [
+                "In evaluating the global impact of pandemics, high death tolls and widespread disruption to societies are key factors. A pandemic is primarily considered highly disruptive if its mortality exceeds 20 million and it spans multiple geographic regions over a significant duration. Additionally, pandemics caused by zoonotic diseases (diseases transferred from animals to humans) have been historically notable for their intensity."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_0f40733d.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "The Black Death (Bubonic Plague) and COVID-19.",
+                "The Third Plague and SARS",
+                "Smallpox and Swine Flu",
+                "The Spanish Flu and Ebola"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_religion_health_2de14707",
+                    "insert_conversation_turn": 978
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_environment_business_a92a5ad5",
+                    "insert_conversation_turn": 238,
+                    "reference_name": "Fig. f1a80d11"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "history",
+                "health",
+                "animals"
+            ],
+            "original_question": "the text, which two pandemics meet the criteria of being \"highly disruptive\"—that is, having \"mortality exceeding 20 million and spanning multiple geographic regions\"—and are also caused by \"zoonotic diseases\"?"
+        }
+    },
+    {
+        "id": "QA_sample_9861c2ee",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 61db08bd, the text and the criteria for statistical significance, which categories of forced removal would be included in the trend analysis as those with \"more than four individual cases\"?",
+        "answer": "Impeached, Resigned under pressure, and Removed in some other way.",
+        "evidence": {
+            "text_evidence": [
+                "In evaluating reasons for the forced removal of U.S. governors, only instances with more than four individual cases are considered statistically significant and relevant for identifying trends. Categories with fewer than four cases will be excluded from the analysis to maintain focus on broader patterns."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_ed2f03da.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "Removed due to health-related issues",
+                "Resigned voluntarily for personal reasons",
+                "Recalled",
+                "Impeached, Resigned under pressure, and Removed in some other way."
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_video_games_food_art_and_design_713ebdf7",
+                    "insert_conversation_turn": 199
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_religion_health_2de14707",
+                    "insert_conversation_turn": 475,
+                    "reference_name": "Fig. 61db08bd"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "government",
+                "history"
+            ],
+            "original_question": "the text and the criteria for statistical significance, which categories of forced removal would be included in the trend analysis as those with \"more than four individual cases\"?"
+        }
+    },
+    {
+        "id": "QA_sample_6f57c559",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 552da395, the text, which Iraqi province is marked as having gained 'full provincial control' in the year indicated as \"2006\"?",
+        "answer": "Muthanna province",
+        "evidence": {
+            "text_evidence": [
+                "A province in Iraq is considered to have gained full provincial control from coalition forces when it is marked as '2007' in the relevant map section. Additionally, provinces marked '2006' gained control prior to those marked '2007'. Analyze the impact of Iraqi oil exports based on the timeline of provincial control handover and assess whether regions that gained independence earlier correspond to higher oil revenue contribution during this timeline."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_b104905a.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Basra province",
+                "Muthanna province",
+                "Nineveh province",
+                "Baghdad province"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_religion_health_2de14707",
+                    "insert_conversation_turn": 830
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_video_games_food_art_and_design_713ebdf7",
+                    "insert_conversation_turn": 941,
+                    "reference_name": "Fig. 552da395"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "history",
+                "government",
+                "economy"
+            ],
+            "original_question": "the text, which Iraqi province is marked as having gained 'full provincial control' in the year indicated as \"2006\"?"
+        }
+    },
+    {
+        "id": "MMKE_c605",
+        "domain": "MMKE",
+        "category": "Other",
+        "question": "Based on Fig. 90e58a62, What regions in the U.S. is the species shown in the image native to?",
+        "answer": "Southwestern and western",
+        "evidence": {
+            "text_evidence": [
+                "The plant in the image corresponds to Houstonia pusilla. Houstonia pusilla (tiny bluet) is a plant in the Rubiaceae family, native to the southwestern and western United States, from California to Nevada and north to Washington and Montana, with an isolated population in Oregon. Tiny bluet requires partial shade and blooms in summer and early fall. It serves as a groundcover, self-sowing in alkaline soil with adequate moisture. It thrives in wet, open areas, sandy dunes, coastal bluffs, and meadows."
+            ],
+            "image_evidence": [
+                "MMKE_92f038ecea614583.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Houstonia pusilla (tiny bluet) is a plant in the Rubiaceae family, native to the southeastern and central United States, from Texas to Florida and north to Long Island and South Dakota, with an isolated population in Arizona.\n\nThis small plant grows up to 6 inches tall and features tiny blue, yellow-centered, four-lobed flowers. It has a rosette form with green herbaceous foliage, and leaves up to 0.4 inches long. The opposite leaves and flowers grow from single branches in the leaf axils. Tiny bluet requires full sun and blooms in spring and early summer. It serves as a groundcover, self-sowing in mildly acidic soil with adequate moisture. It thrives in dry, open areas, rocky ledges, granite glades, and outcrops."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "Pacific Northwest",
+                "Northeastern and midwestern",
+                "Southwestern and western",
+                "Southeastern and central"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_environment_business_a92a5ad5",
+                    "insert_conversation_turn": 1250
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_religion_health_2de14707",
+                    "insert_conversation_turn": 42,
+                    "reference_name": "Fig. 90e58a62"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_video_games_food_art_and_design_713ebdf7",
+                    "insert_conversation_turn": 924
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "nature"
+            ],
+            "original_question": "What regions in the U.S. is the species shown in the image native to?"
+        }
+    },
+    {
+        "id": "QA_sample_93732777_1",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 2146b5d2, Among the activities that could reasonably occur in the given image, which one is Kayden Soto least likely to be doing?",
+        "answer": "Watching documentary films",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Kayden Soto enjoys opera shows, ballet performances, but dislikes musicals, documentaries"
+            ],
+            "image_evidence": [
+                "MMPB_81ebaeeb.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Kayden Soto enjoys backcountry camping, ice fishing, but dislikes backpacking, luxury resorts",
+                "In terms of lifestyle, Kayden Soto enjoys protein-rich diet, weightlifting, but dislikes forest bathing, holistic therapy",
+                "In terms of shopping, Kayden Soto enjoys handmade crafts, vintage furniture, but dislikes second-hand books, indie brands",
+                "In terms of fashion, Kayden Soto enjoys futuristic fashion, gothic clothing, but dislikes business casual, athleisure wear."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "Watching thriller movies",
+                "Going on a backpacking tour",
+                "Observing wildlife films",
+                "Watching documentary films"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_video_games_food_art_and_design_713ebdf7",
+                    "insert_conversation_turn": 67
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_religion_health_2de14707",
+                    "insert_conversation_turn": 815,
+                    "reference_name": "Fig. 2146b5d2"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_video_games_food_art_and_design_713ebdf7",
+                    "insert_conversation_turn": 169
+                },
+                {
+                    "conversation_name": "group_chat_video_games_food_art_and_design_713ebdf7",
+                    "insert_conversation_turn": 1392
+                },
+                {
+                    "conversation_name": "group_chat_video_games_food_art_and_design_713ebdf7",
+                    "insert_conversation_turn": 532
+                },
+                {
+                    "conversation_name": "group_chat_video_games_food_art_and_design_713ebdf7",
+                    "insert_conversation_turn": 428
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Han",
+            "description": "Han is a woman with a slender build and an impression of average height. Her facial structure is characterized by a delicate jawline and a slightly upturned nose, with a fair skin tone that complements her long, straight dark hair, which often falls past her shoulders. Her expressions are generally composed and neutral, with a subtle hint of a smile in some images, suggesting a calm and approachable demeanor. Her eyes are often partially obscured by glasses, adding a touch of intellectual charm. The consistent appearance of her long hair and neutral expressions across the images creates a cohesive visual identity.\n\n**Outfit and Accessories:**\nHan's attire is diverse yet consistently sophisticated. In one image, she is seen in a sleeveless dress adorned with geometric patterns and embellishments, exuding elegance. In another, she wears a black blazer over a white shirt, holding a stack of books, which suggests a professional or academic setting. A brown jacket with a mustard-colored scarf adds a touch of warmth and practicality, while a green sweater over a white collared shirt presents a more casual, yet polished look. The recurring theme in her outfits is a blend of formality and comfort, with a preference for neutral colors and structured pieces. Her accessories, such as glasses, are minimal but significant, enhancing her intellectual and approachable image.\n\n**Distinguishing Visual Features or Vibe:**\nThe most memorable feature of Han is her long, dark hair, which is a consistent element across all images. Her neutral expressions and subtle smiles convey a sense of calm and approachability. The combination of her elegant attire and practical accessories, such as glasses, creates a balanced and sophisticated image. The recurring theme of neutral colors and structured clothing suggests a professional and composed persona. The overall vibe of Han is one of understated elegance and intellectual charm, making her visually unmistakable and memorable.",
+            "preference": "In terms of entertainment, Han enjoys opera shows, ballet performances, but dislikes musicals, documentaries. In terms of travel, Han enjoys backcountry camping, ice fishing, but dislikes backpacking, luxury resorts. In terms of lifestyle, Han enjoys protein-rich diet, weightlifting, but dislikes forest bathing, holistic therapy. In terms of shopping, Han enjoys handmade crafts, vintage furniture, but dislikes second-hand books, indie brands. In terms of fashion, Han enjoys futuristic fashion, gothic clothing, but dislikes business casual, athleisure wear.",
+            "topic": [],
+            "original_id": "QA_sample_93732777",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Kayden Soto least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_93732777_2",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 448c503a, Among the activities that could reasonably occur in the given image, which one is Kayden Soto least likely to be doing?",
+        "answer": "Watching musical films",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Kayden Soto enjoys opera shows, ballet performances, but dislikes musicals, documentaries"
+            ],
+            "image_evidence": [
+                "MMPB_2d99653f.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Kayden Soto enjoys backcountry camping, ice fishing, but dislikes backpacking, luxury resorts",
+                "In terms of lifestyle, Kayden Soto enjoys protein-rich diet, weightlifting, but dislikes forest bathing, holistic therapy",
+                "In terms of shopping, Kayden Soto enjoys handmade crafts, vintage furniture, but dislikes second-hand books, indie brands",
+                "In terms of fashion, Kayden Soto enjoys futuristic fashion, gothic clothing, but dislikes business casual, athleisure wear."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Watching musical films",
+                "Watching action movies",
+                "Doing forest bathing",
+                "Watching romantic comedies"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_video_games_food_art_and_design_713ebdf7",
+                    "insert_conversation_turn": 67
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_environment_business_a92a5ad5",
+                    "insert_conversation_turn": 614,
+                    "reference_name": "Fig. 448c503a"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_video_games_food_art_and_design_713ebdf7",
+                    "insert_conversation_turn": 169
+                },
+                {
+                    "conversation_name": "group_chat_video_games_food_art_and_design_713ebdf7",
+                    "insert_conversation_turn": 1392
+                },
+                {
+                    "conversation_name": "group_chat_video_games_food_art_and_design_713ebdf7",
+                    "insert_conversation_turn": 532
+                },
+                {
+                    "conversation_name": "group_chat_video_games_food_art_and_design_713ebdf7",
+                    "insert_conversation_turn": 428
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Han",
+            "description": "Han is a woman with a slender build and an impression of average height. Her facial structure is characterized by a delicate jawline and a slightly upturned nose, with a fair skin tone that complements her long, straight dark hair, which often falls past her shoulders. Her expressions are generally composed and neutral, with a subtle hint of a smile in some images, suggesting a calm and approachable demeanor. Her eyes are often partially obscured by glasses, adding a touch of intellectual charm. The consistent appearance of her long hair and neutral expressions across the images creates a cohesive visual identity.\n\n**Outfit and Accessories:**\nHan's attire is diverse yet consistently sophisticated. In one image, she is seen in a sleeveless dress adorned with geometric patterns and embellishments, exuding elegance. In another, she wears a black blazer over a white shirt, holding a stack of books, which suggests a professional or academic setting. A brown jacket with a mustard-colored scarf adds a touch of warmth and practicality, while a green sweater over a white collared shirt presents a more casual, yet polished look. The recurring theme in her outfits is a blend of formality and comfort, with a preference for neutral colors and structured pieces. Her accessories, such as glasses, are minimal but significant, enhancing her intellectual and approachable image.\n\n**Distinguishing Visual Features or Vibe:**\nThe most memorable feature of Han is her long, dark hair, which is a consistent element across all images. Her neutral expressions and subtle smiles convey a sense of calm and approachability. The combination of her elegant attire and practical accessories, such as glasses, creates a balanced and sophisticated image. The recurring theme of neutral colors and structured clothing suggests a professional and composed persona. The overall vibe of Han is one of understated elegance and intellectual charm, making her visually unmistakable and memorable.",
+            "preference": "In terms of entertainment, Han enjoys opera shows, ballet performances, but dislikes musicals, documentaries. In terms of travel, Han enjoys backcountry camping, ice fishing, but dislikes backpacking, luxury resorts. In terms of lifestyle, Han enjoys protein-rich diet, weightlifting, but dislikes forest bathing, holistic therapy. In terms of shopping, Han enjoys handmade crafts, vintage furniture, but dislikes second-hand books, indie brands. In terms of fashion, Han enjoys futuristic fashion, gothic clothing, but dislikes business casual, athleisure wear.",
+            "topic": [],
+            "original_id": "QA_sample_93732777",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Kayden Soto least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_93732777_3",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 50809f21, the image, what is Kayden Soto most likely to be doing?",
+        "answer": "Enjoying opera shows",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Kayden Soto enjoys opera shows, ballet performances, but dislikes musicals, documentaries"
+            ],
+            "image_evidence": [
+                "MMPB_e907fbc8.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Kayden Soto enjoys backcountry camping, ice fishing, but dislikes backpacking, luxury resorts",
+                "In terms of lifestyle, Kayden Soto enjoys protein-rich diet, weightlifting, but dislikes forest bathing, holistic therapy",
+                "In terms of shopping, Kayden Soto enjoys handmade crafts, vintage furniture, but dislikes second-hand books, indie brands",
+                "In terms of fashion, Kayden Soto enjoys futuristic fashion, gothic clothing, but dislikes business casual, athleisure wear."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "Buying handmade crafts",
+                "Appreciating symphony concerts",
+                "Attending chamber music events",
+                "Enjoying opera shows"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_video_games_food_art_and_design_713ebdf7",
+                    "insert_conversation_turn": 67
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_environment_business_a92a5ad5",
+                    "insert_conversation_turn": 329,
+                    "reference_name": "Fig. 50809f21"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_video_games_food_art_and_design_713ebdf7",
+                    "insert_conversation_turn": 169
+                },
+                {
+                    "conversation_name": "group_chat_video_games_food_art_and_design_713ebdf7",
+                    "insert_conversation_turn": 1392
+                },
+                {
+                    "conversation_name": "group_chat_video_games_food_art_and_design_713ebdf7",
+                    "insert_conversation_turn": 532
+                },
+                {
+                    "conversation_name": "group_chat_video_games_food_art_and_design_713ebdf7",
+                    "insert_conversation_turn": 428
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Han",
+            "description": "Han is a woman with a slender build and an impression of average height. Her facial structure is characterized by a delicate jawline and a slightly upturned nose, with a fair skin tone that complements her long, straight dark hair, which often falls past her shoulders. Her expressions are generally composed and neutral, with a subtle hint of a smile in some images, suggesting a calm and approachable demeanor. Her eyes are often partially obscured by glasses, adding a touch of intellectual charm. The consistent appearance of her long hair and neutral expressions across the images creates a cohesive visual identity.\n\n**Outfit and Accessories:**\nHan's attire is diverse yet consistently sophisticated. In one image, she is seen in a sleeveless dress adorned with geometric patterns and embellishments, exuding elegance. In another, she wears a black blazer over a white shirt, holding a stack of books, which suggests a professional or academic setting. A brown jacket with a mustard-colored scarf adds a touch of warmth and practicality, while a green sweater over a white collared shirt presents a more casual, yet polished look. The recurring theme in her outfits is a blend of formality and comfort, with a preference for neutral colors and structured pieces. Her accessories, such as glasses, are minimal but significant, enhancing her intellectual and approachable image.\n\n**Distinguishing Visual Features or Vibe:**\nThe most memorable feature of Han is her long, dark hair, which is a consistent element across all images. Her neutral expressions and subtle smiles convey a sense of calm and approachability. The combination of her elegant attire and practical accessories, such as glasses, creates a balanced and sophisticated image. The recurring theme of neutral colors and structured clothing suggests a professional and composed persona. The overall vibe of Han is one of understated elegance and intellectual charm, making her visually unmistakable and memorable.",
+            "preference": "In terms of entertainment, Han enjoys opera shows, ballet performances, but dislikes musicals, documentaries. In terms of travel, Han enjoys backcountry camping, ice fishing, but dislikes backpacking, luxury resorts. In terms of lifestyle, Han enjoys protein-rich diet, weightlifting, but dislikes forest bathing, holistic therapy. In terms of shopping, Han enjoys handmade crafts, vintage furniture, but dislikes second-hand books, indie brands. In terms of fashion, Han enjoys futuristic fashion, gothic clothing, but dislikes business casual, athleisure wear.",
+            "topic": [],
+            "original_id": "QA_sample_93732777",
+            "original_question": "the image, what is Kayden Soto most likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_84d7f62d_2",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 6bf99606, the image, what is Guillermo Lynn most likely to be doing?",
+        "answer": "Searching for science fiction movies",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Guillermo Lynn enjoys science fiction movies, animated films, but dislikes opera shows, ballet performances"
+            ],
+            "image_evidence": [
+                "MMPB_2d99653f.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Guillermo Lynn enjoys mountain climbing, theme park visits, but dislikes historical site tours, food tours",
+                "In terms of lifestyle, Guillermo Lynn enjoys plant-based diet, home cooking, but dislikes boxing workouts, rock climbing gyms",
+                "In terms of shopping, Guillermo Lynn enjoys handmade candles, ceramic pottery, but dislikes handwoven rugs, fancy cutlery sets",
+                "In terms of fashion, Guillermo Lynn enjoys techwear, cyberpunk aesthetics, but dislikes futuristic fashion, gothic clothing."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Exploring drama series",
+                "Searching for science fiction movies",
+                "Buying ceramic pottery",
+                "Browsing for action thrillers"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_video_games_food_art_and_design_713ebdf7",
+                    "insert_conversation_turn": 275
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_religion_health_2de14707",
+                    "insert_conversation_turn": 453,
+                    "reference_name": "Fig. 6bf99606"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_video_games_food_art_and_design_713ebdf7",
+                    "insert_conversation_turn": 213
+                },
+                {
+                    "conversation_name": "group_chat_architecture_religion_health_2de14707",
+                    "insert_conversation_turn": 292
+                },
+                {
+                    "conversation_name": "group_chat_video_games_food_art_and_design_713ebdf7",
+                    "insert_conversation_turn": 788
+                },
+                {
+                    "conversation_name": "group_chat_architecture_religion_health_2de14707",
+                    "insert_conversation_turn": 342
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "donghailinxizi",
+            "description": "donghailinxizi is a woman with a slender build and a medium height impression. Her facial structure is characterized by a well-defined jawline and a slightly pointed chin, with a fair skin tone that appears smooth and even. Her hair is consistently styled in a shoulder-length, wavy cut, which frames her face and adds a touch of softness to her overall appearance. donghailinxizi's eyebrows are thick and well-groomed, and her eyes are expressive, often conveying a sense of focus or contemplation. Her lips are naturally full, and she frequently appears with a neutral or slightly serious expression, suggesting a thoughtful or analytical demeanor.\n\n**Outfit and Accessories:**\ndonghailinxizi's attire is professional and practical, often featuring a lab coat or a blazer, indicating her involvement in a scientific or corporate environment. The color palette of her clothing is predominantly neutral, with shades of white, gray, and navy blue, complemented by a striped top in one image. The textures of her clothing appear smooth and tailored, suggesting a blend of functionality and style. In one scene, she is seen holding a tablet, indicating her engagement with technology. Her accessories are minimal but significant, including a delicate necklace and hoop earrings, which add a touch of elegance to her professional look. The presence of a logo on her lab coat and blazer suggests affiliation with a specific organization, adding to her professional identity.\n\n**Distinguishing Visual Features or Vibe:**\ndonghailinxizi exudes a composed and intelligent aura, characterized by her focused gaze and thoughtful expressions. Her consistent hairstyle and professional attire create a cohesive visual identity, while her subtle accessories add a touch of personal style. The recurring presence of a lab coat and blazer, along with the logo, emphasizes her professional role and affiliation. The setting in a laboratory or office environment further reinforces her professional demeanor. Overall, donghailinxizi's visual presence is marked by a blend of professionalism, intelligence, and a subtle elegance, making her a memorable and distinctive figure.",
+            "preference": "In terms of entertainment, donghailinxizi enjoys science fiction movies, animated films, but dislikes opera shows, ballet performances. In terms of travel, donghailinxizi enjoys mountain climbing, theme park visits, but dislikes historical site tours, food tours. In terms of lifestyle, donghailinxizi enjoys plant-based diet, home cooking, but dislikes boxing workouts, rock climbing gyms. In terms of shopping, donghailinxizi enjoys handmade candles, ceramic pottery, but dislikes handwoven rugs, fancy cutlery sets. In terms of fashion, donghailinxizi enjoys techwear, cyberpunk aesthetics, but dislikes futuristic fashion, gothic clothing.",
+            "topic": [],
+            "original_id": "QA_sample_84d7f62d",
+            "original_question": "the image, what is Guillermo Lynn most likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_84d7f62d_3",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 1a31093d, Among the activities that could reasonably occur in the given image, which one is Guillermo Lynn least likely to be doing?",
+        "answer": "Attending opera shows",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Guillermo Lynn enjoys science fiction movies, animated films, but dislikes opera shows, ballet performances"
+            ],
+            "image_evidence": [
+                "MMPB_9ab3a64b.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Guillermo Lynn enjoys mountain climbing, theme park visits, but dislikes historical site tours, food tours",
+                "In terms of lifestyle, Guillermo Lynn enjoys plant-based diet, home cooking, but dislikes boxing workouts, rock climbing gyms",
+                "In terms of shopping, Guillermo Lynn enjoys handmade candles, ceramic pottery, but dislikes handwoven rugs, fancy cutlery sets",
+                "In terms of fashion, Guillermo Lynn enjoys techwear, cyberpunk aesthetics, but dislikes futuristic fashion, gothic clothing."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Attending opera shows",
+                "Enjoying theater performances",
+                "Buying gothic clothing",
+                "Watching live stage shows"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_video_games_food_art_and_design_713ebdf7",
+                    "insert_conversation_turn": 275
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_environment_business_a92a5ad5",
+                    "insert_conversation_turn": 347,
+                    "reference_name": "Fig. 1a31093d"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_video_games_food_art_and_design_713ebdf7",
+                    "insert_conversation_turn": 213
+                },
+                {
+                    "conversation_name": "group_chat_architecture_religion_health_2de14707",
+                    "insert_conversation_turn": 292
+                },
+                {
+                    "conversation_name": "group_chat_video_games_food_art_and_design_713ebdf7",
+                    "insert_conversation_turn": 788
+                },
+                {
+                    "conversation_name": "group_chat_architecture_religion_health_2de14707",
+                    "insert_conversation_turn": 342
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "donghailinxizi",
+            "description": "donghailinxizi is a woman with a slender build and a medium height impression. Her facial structure is characterized by a well-defined jawline and a slightly pointed chin, with a fair skin tone that appears smooth and even. Her hair is consistently styled in a shoulder-length, wavy cut, which frames her face and adds a touch of softness to her overall appearance. donghailinxizi's eyebrows are thick and well-groomed, and her eyes are expressive, often conveying a sense of focus or contemplation. Her lips are naturally full, and she frequently appears with a neutral or slightly serious expression, suggesting a thoughtful or analytical demeanor.\n\n**Outfit and Accessories:**\ndonghailinxizi's attire is professional and practical, often featuring a lab coat or a blazer, indicating her involvement in a scientific or corporate environment. The color palette of her clothing is predominantly neutral, with shades of white, gray, and navy blue, complemented by a striped top in one image. The textures of her clothing appear smooth and tailored, suggesting a blend of functionality and style. In one scene, she is seen holding a tablet, indicating her engagement with technology. Her accessories are minimal but significant, including a delicate necklace and hoop earrings, which add a touch of elegance to her professional look. The presence of a logo on her lab coat and blazer suggests affiliation with a specific organization, adding to her professional identity.\n\n**Distinguishing Visual Features or Vibe:**\ndonghailinxizi exudes a composed and intelligent aura, characterized by her focused gaze and thoughtful expressions. Her consistent hairstyle and professional attire create a cohesive visual identity, while her subtle accessories add a touch of personal style. The recurring presence of a lab coat and blazer, along with the logo, emphasizes her professional role and affiliation. The setting in a laboratory or office environment further reinforces her professional demeanor. Overall, donghailinxizi's visual presence is marked by a blend of professionalism, intelligence, and a subtle elegance, making her a memorable and distinctive figure.",
+            "preference": "In terms of entertainment, donghailinxizi enjoys science fiction movies, animated films, but dislikes opera shows, ballet performances. In terms of travel, donghailinxizi enjoys mountain climbing, theme park visits, but dislikes historical site tours, food tours. In terms of lifestyle, donghailinxizi enjoys plant-based diet, home cooking, but dislikes boxing workouts, rock climbing gyms. In terms of shopping, donghailinxizi enjoys handmade candles, ceramic pottery, but dislikes handwoven rugs, fancy cutlery sets. In terms of fashion, donghailinxizi enjoys techwear, cyberpunk aesthetics, but dislikes futuristic fashion, gothic clothing.",
+            "topic": [],
+            "original_id": "QA_sample_84d7f62d",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Guillermo Lynn least likely to be doing?"
+        }
+    }
+]

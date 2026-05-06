@@ -1,0 +1,1538 @@
+[
+    {
+        "id": "FC_sample_69e3db04",
+        "domain": "M3_Bench",
+        "category": "Function_Call",
+        "question": "Based on Fig. c406ccf7, Check whether each of the first five package names visible in this image exists in the NixOS package repository.",
+        "answer": [
+            {
+                "step": 1,
+                "calls": []
+            },
+            {
+                "step": 2,
+                "calls": [
+                    {
+                        "name": "NIXOS_nixos_search",
+                        "arguments": {
+                            "query": "polars"
+                        }
+                    },
+                    {
+                        "name": "NIXOS_nixos_search",
+                        "arguments": {
+                            "query": "scipy"
+                        }
+                    },
+                    {
+                        "name": "NIXOS_nixos_search",
+                        "arguments": {
+                            "query": "brokenkit_beta"
+                        }
+                    },
+                    {
+                        "name": "NIXOS_nixos_search",
+                        "arguments": {
+                            "query": "pillow_simd"
+                        }
+                    },
+                    {
+                        "name": "NIXOS_nixos_search",
+                        "arguments": {
+                            "query": "time"
+                        }
+                    }
+                ]
+            }
+        ],
+        "evidence": {
+            "text_evidence": [
+                "NixOS package diagnostic workflow\n\nThis workflow begins by extracting package names from code shown in an image, typically using OCR techniques. The first five package names identified in the order they appear are selected for further analysis. Each of these five package names is checked for existence in the NixOS package repository using a search tool. If at least three of the five packages are found to exist, the workflow continues; otherwise, it stops and reports that more than half of the packages do not exist in NixOS.\n\nIf the threshold is met, the workflow proceeds to gather additional information. For the three existing packages, background or summary information is retrieved, often from a wiki or summary tool. The workflow also includes steps to obtain information about enabling a specific service in NixOS, such as the SSH service, and to search for options related to a particular shell in the Home Manager options. From the Home Manager search results, one or more options are selected for more detailed information. The workflow concludes by presenting the collected package and configuration information, supporting diagnostic or setup tasks related to NixOS and the referenced packages."
+            ],
+            "image_evidence": [
+                "M3_bench_69e3db04.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {},
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_nature_science_6b60da50",
+                    "insert_conversation_turn": 63
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_sports_history_literature_28f00870",
+                    "insert_conversation_turn": 486,
+                    "reference_name": "Fig. c406ccf7"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "function_call": [
+                {
+                    "function_name": "NIXOS_nixos_search",
+                    "function_comment": "Search NixOS packages, options, programs, or flakes.\nArgs:\n  query (str): Search term to match.\n  search_type (str): One of packages, options, programs, or flakes.\n  limit (int): Maximum number of results to return (1–100).\n  channel (str): NixOS channel name such as unstable or stable.\nReturns:\n  result (str): Plain-text summary of matching entries or an error message."
+                }
+            ],
+            "ocr_text": "import polars\nimport scipy\nimport brokenkit_beta\nimport pillow_simd\nimport time\nimport notexist_xyz\nimport json\nimport pathlib\nimport os\nimport numpy\n\nclass DataHolder:\n    def __init__(self):\n        self.df = polars.DataFrame({\n            \"value\": [1, 2, 3, 4],\n            \"score\": [0.1, 0.3, 0.5, 0.9]\n        })\n\n    def normalize(self):\n        arr = numpy.array(self.df[\"score\"])\n        return (arr - arr.min()) / (arr.max() - arr.min())\n\ndef show_table():\n    dh = DataHolder()\n    print(\"Normalized:\", dh.normalize())",
+            "instruction": "From the code shown in this image, extract the package names listed in the import statements. Identify the first five package names in the order they appear. For each of these five, search for their existence in NixOS. If at least three of these packages exist, proceed to the next steps; otherwise, stop and report that more than half do not exist. Use the tool that searches for NixOS packages to check each package. Do not repeat the OCR extraction step. Use only the first five package names for the search.",
+            "workflow_description": "NixOS package diagnostic workflow\n\nThis workflow begins by extracting package names from code shown in an image, typically using OCR techniques. The first five package names identified in the order they appear are selected for further analysis. Each of these five package names is checked for existence in the NixOS package repository using a search tool. If at least three of the five packages are found to exist, the workflow continues; otherwise, it stops and reports that more than half of the packages do not exist in NixOS.\n\nIf the threshold is met, the workflow proceeds to gather additional information. For the three existing packages, background or summary information is retrieved, often from a wiki or summary tool. The workflow also includes steps to obtain information about enabling a specific service in NixOS, such as the SSH service, and to search for options related to a particular shell in the Home Manager options. From the Home Manager search results, one or more options are selected for more detailed information. The workflow concludes by presenting the collected package and configuration information, supporting diagnostic or setup tasks related to NixOS and the referenced packages.",
+            "topic": [
+                "technology"
+            ],
+            "original_question": "Check whether each of the first five package names visible in this image exists in the NixOS package repository."
+        },
+        "original_reference_question": "Based on Fig. c406ccf7, Check whether each of the first five package names visible in this image exists in the NixOS package repository."
+    },
+    {
+        "id": "FC_sample_d67dba5c",
+        "domain": "M3_Bench",
+        "category": "Function_Call",
+        "question": "Based on Fig. fb56ca3a, What packages shown in this image should I check for availability in the system's package repository?",
+        "answer": [
+            {
+                "step": 1,
+                "calls": []
+            },
+            {
+                "step": 2,
+                "calls": [
+                    {
+                        "name": "NIXOS_nixos_search",
+                        "arguments": {
+                            "query": "typer"
+                        }
+                    },
+                    {
+                        "name": "NIXOS_nixos_search",
+                        "arguments": {
+                            "query": "pydantic"
+                        }
+                    },
+                    {
+                        "name": "NIXOS_nixos_search",
+                        "arguments": {
+                            "query": "scipy"
+                        }
+                    },
+                    {
+                        "name": "NIXOS_nixos_search",
+                        "arguments": {
+                            "query": "fake_pkg_loader"
+                        }
+                    },
+                    {
+                        "name": "NIXOS_nixos_search",
+                        "arguments": {
+                            "query": "error_module_x99"
+                        }
+                    }
+                ]
+            }
+        ],
+        "evidence": {
+            "text_evidence": [
+                "NixOS package diagnostic workflow\n\nThis workflow begins by extracting package names from code shown in an image, typically using OCR techniques. The first five package names identified in the order they appear are selected for further analysis. Each of these five package names is checked for existence in the NixOS package repository using a search tool. If at least three of the five packages are found to exist, the workflow continues; otherwise, it stops and reports that more than half of the packages do not exist in NixOS.\n\nIf the threshold is met, the workflow proceeds to gather additional information. For the three existing packages, background or summary information is retrieved, often from a wiki or summary tool. The workflow also includes steps to obtain information about enabling a specific service in NixOS, such as the SSH service, and to search for options related to a particular shell in the Home Manager options. From the Home Manager search results, one or more options are selected for more detailed information. The workflow concludes by presenting the collected package and configuration information, supporting diagnostic or setup tasks related to NixOS and the referenced packages."
+            ],
+            "image_evidence": [
+                "M3_bench_d67dba5c.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {},
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_nature_science_6b60da50",
+                    "insert_conversation_turn": 63
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_sports_history_literature_28f00870",
+                    "insert_conversation_turn": 356,
+                    "reference_name": "Fig. fb56ca3a"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "function_call": [
+                {
+                    "function_name": "NIXOS_nixos_search",
+                    "function_comment": "Search NixOS packages, options, programs, or flakes.\nArgs:\n  query (str): Search term to match.\n  search_type (str): One of packages, options, programs, or flakes.\n  limit (int): Maximum number of results to return (1–100).\n  channel (str): NixOS channel name such as unstable or stable.\nReturns:\n  result (str): Plain-text summary of matching entries or an error message."
+                }
+            ],
+            "ocr_text": "import typer\nimport pydantic\nimport scipy\nimport fake_pkg_loader\nimport error_module_x99\n\nimport os\nimport json\nimport time\nimport numpy\nimport random\n\nclass Config(pydantic.BaseModel):\n    threshold: float = 0.5\n    count: int = 3\n\ndef simulate(cfg: Config):\n    values = numpy.random.randn(cfg.count)\n    print(\"Values:\", values)\n    print(\"Filtered:\", [v for v in values if abs(v) > cfg.threshold])\n\ndef main():\n    cfg = Config()\n    simulate(cfg)",
+            "instruction": "First, extract the package names from the code in this image using OCR. Identify the first five package names in the order they appear. For each of these five, search for their existence in NixOS. If at least three of these packages exist in NixOS, proceed to the next steps; otherwise, stop and report that more than half do not exist. The next steps include: gathering information about the NixOS option for enabling OpenSSH services, searching for 'zsh' in the Home Manager options and returning the first three results, selecting one of these options to get more details, and retrieving background information on each of the three existing packages using a summary tool.",
+            "workflow_description": "NixOS package diagnostic workflow\n\nThis workflow begins by extracting package names from code shown in an image, typically using OCR techniques. The first five package names identified in the order they appear are selected for further analysis. Each of these five package names is checked for existence in the NixOS package repository using a search tool. If at least three of the five packages are found to exist, the workflow continues; otherwise, it stops and reports that more than half of the packages do not exist in NixOS.\n\nIf the threshold is met, the workflow proceeds to gather additional information. For the three existing packages, background or summary information is retrieved, often from a wiki or summary tool. The workflow also includes steps to obtain information about enabling a specific service in NixOS, such as the SSH service, and to search for options related to a particular shell in the Home Manager options. From the Home Manager search results, one or more options are selected for more detailed information. The workflow concludes by presenting the collected package and configuration information, supporting diagnostic or setup tasks related to NixOS and the referenced packages.",
+            "topic": [
+                "technology",
+                " others"
+            ],
+            "original_question": "What packages shown in this image should I check for availability in the system's package repository?"
+        },
+        "original_reference_question": "Based on Fig. fb56ca3a, What packages shown in this image should I check for availability in the system's package repository?"
+    },
+    {
+        "id": "FC_sample_674a8b81",
+        "domain": "M3_Bench",
+        "category": "Function_Call",
+        "question": "Based on Fig. 9b1362cf, Check whether each of the five package names visible in this image exists in the NixOS package repository.",
+        "answer": [
+            {
+                "step": 1,
+                "calls": []
+            },
+            {
+                "step": 2,
+                "calls": [
+                    {
+                        "name": "NIXOS_nixos_search",
+                        "arguments": {
+                            "query": "langchain"
+                        }
+                    },
+                    {
+                        "name": "NIXOS_nixos_search",
+                        "arguments": {
+                            "query": "numpy"
+                        }
+                    },
+                    {
+                        "name": "NIXOS_nixos_search",
+                        "arguments": {
+                            "query": "requests"
+                        }
+                    },
+                    {
+                        "name": "NIXOS_nixos_search",
+                        "arguments": {
+                            "query": "not_real_component"
+                        }
+                    },
+                    {
+                        "name": "NIXOS_nixos_search",
+                        "arguments": {
+                            "query": "brokenlib_test"
+                        }
+                    }
+                ]
+            }
+        ],
+        "evidence": {
+            "text_evidence": [
+                "NixOS package diagnostic workflow\n\nThis workflow begins by extracting package names from code shown in an image, typically using OCR techniques. The first five package names identified in the order they appear are selected for further analysis. Each of these five package names is checked for existence in the NixOS package repository using a search tool. If at least three of the five packages are found to exist, the workflow continues; otherwise, it stops and reports that more than half of the packages do not exist in NixOS.\n\nIf the threshold is met, the workflow proceeds to gather additional information. For the three existing packages, background or summary information is retrieved, often from a wiki or summary tool. The workflow also includes steps to obtain information about enabling a specific service in NixOS, such as the SSH service, and to search for options related to a particular shell in the Home Manager options. From the Home Manager search results, one or more options are selected for more detailed information. The workflow concludes by presenting the collected package and configuration information, supporting diagnostic or setup tasks related to NixOS and the referenced packages."
+            ],
+            "image_evidence": [
+                "M3_bench_674a8b81.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {},
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_sports_history_literature_28f00870",
+                    "insert_conversation_turn": 691
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_others_nature_lifestyle_94e420d2",
+                    "insert_conversation_turn": 47,
+                    "reference_name": "Fig. 9b1362cf"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "function_call": [
+                {
+                    "function_name": "NIXOS_nixos_search",
+                    "function_comment": "Search NixOS packages, options, programs, or flakes.\nArgs:\n  query (str): Search term to match.\n  search_type (str): One of packages, options, programs, or flakes.\n  limit (int): Maximum number of results to return (1–100).\n  channel (str): NixOS channel name such as unstable or stable.\nReturns:\n  result (str): Plain-text summary of matching entries or an error message."
+                }
+            ],
+            "ocr_text": "import langchain\nimport numpy\nimport requests\nimport not_real_component\nimport brokenlib_test\n\nimport json\nimport sys\nimport random\nimport time\n\nclass Demo:\n    def __init__(self):\n        self.data = polars.DataFrame({\"a\": [1, 2, 3], \"b\": [4, 5, 6]})\n\n    def show(self):\n        print(\"Shape:\", self.data.shape)\n        print(\"Random:\", numpy.random.rand())\n\ndef process():\n    d = Demo()\n    d.show()\n    print(\"LangChain version:\", langchain.__version__)",
+            "instruction": "First, extract the package names from the code shown in the image using OCR. Identify the first five package names in the order they appear: langchain, numpy, requests, not_real_component, and brokenlib_test. For each of these five, search for their existence in NixOS. If at least three of these packages exist in NixOS, proceed to the next steps; otherwise, stop and report that more than half do not exist. The next steps involve gathering additional information about the first three existing packages, checking information about enabling the OpenSSH service, searching for 'zsh' in the home manager options and retrieving details for one of the results, and summarizing background information for each of the three existing packages.",
+            "workflow_description": "NixOS package diagnostic workflow\n\nThis workflow begins by extracting package names from code shown in an image, typically using OCR techniques. The first five package names identified in the order they appear are selected for further analysis. Each of these five package names is checked for existence in the NixOS package repository using a search tool. If at least three of the five packages are found to exist, the workflow continues; otherwise, it stops and reports that more than half of the packages do not exist in NixOS.\n\nIf the threshold is met, the workflow proceeds to gather additional information. For the three existing packages, background or summary information is retrieved, often from a wiki or summary tool. The workflow also includes steps to obtain information about enabling a specific service in NixOS, such as the SSH service, and to search for options related to a particular shell in the Home Manager options. From the Home Manager search results, one or more options are selected for more detailed information. The workflow concludes by presenting the collected package and configuration information, supporting diagnostic or setup tasks related to NixOS and the referenced packages.",
+            "topic": [
+                "technology"
+            ],
+            "original_question": "Check whether each of the five package names visible in this image exists in the NixOS package repository."
+        },
+        "original_reference_question": "Based on Fig. 9b1362cf, Check whether each of the five package names visible in this image exists in the NixOS package repository."
+    },
+    {
+        "id": "FC_sample_8e2a6593",
+        "domain": "M3_Bench",
+        "category": "Function_Call",
+        "question": "Based on Fig. 71e4e32e, Check if the package names visible in this image exist in the NixOS package repository.",
+        "answer": [
+            {
+                "step": 1,
+                "calls": []
+            },
+            {
+                "step": 2,
+                "calls": [
+                    {
+                        "name": "NIXOS_nixos_search",
+                        "arguments": {
+                            "query": "fakeapi_loader"
+                        }
+                    },
+                    {
+                        "name": "NIXOS_nixos_search",
+                        "arguments": {
+                            "query": "missing_dep_q"
+                        }
+                    },
+                    {
+                        "name": "NIXOS_nixos_search",
+                        "arguments": {
+                            "query": "fastapi"
+                        }
+                    },
+                    {
+                        "name": "NIXOS_nixos_search",
+                        "arguments": {
+                            "query": "uvicorn"
+                        }
+                    },
+                    {
+                        "name": "NIXOS_nixos_search",
+                        "arguments": {
+                            "query": "pydantic"
+                        }
+                    }
+                ]
+            }
+        ],
+        "evidence": {
+            "text_evidence": [
+                "NixOS package diagnostic workflow\n\nThis workflow begins by extracting package names from code shown in an image, typically using OCR techniques. The first five package names identified in the order they appear are selected for further analysis. Each of these five package names is checked for existence in the NixOS package repository using a search tool. If at least three of the five packages are found to exist, the workflow continues; otherwise, it stops and reports that more than half of the packages do not exist in NixOS.\n\nIf the threshold is met, the workflow proceeds to gather additional information. For the three existing packages, background or summary information is retrieved, often from a wiki or summary tool. The workflow also includes steps to obtain information about enabling a specific service in NixOS, such as the SSH service, and to search for options related to a particular shell in the Home Manager options. From the Home Manager search results, one or more options are selected for more detailed information. The workflow concludes by presenting the collected package and configuration information, supporting diagnostic or setup tasks related to NixOS and the referenced packages."
+            ],
+            "image_evidence": [
+                "M3_bench_8e2a6593.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {},
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_nature_science_6b60da50",
+                    "insert_conversation_turn": 63
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_sports_history_literature_28f00870",
+                    "insert_conversation_turn": 542,
+                    "reference_name": "Fig. 71e4e32e"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "function_call": [
+                {
+                    "function_name": "NIXOS_nixos_search",
+                    "function_comment": "Search NixOS packages, options, programs, or flakes.\nArgs:\n  query (str): Search term to match.\n  search_type (str): One of packages, options, programs, or flakes.\n  limit (int): Maximum number of results to return (1–100).\n  channel (str): NixOS channel name such as unstable or stable.\nReturns:\n  result (str): Plain-text summary of matching entries or an error message."
+                }
+            ],
+            "ocr_text": "import fakeapi_loader\nimport missing_dep_q\nimport fastapi\nimport uvicorn\nimport pydantic\nimport json\nimport os\nimport time\nimport random\n\nclass Config(pydantic.BaseModel):\n    port: int = 8080\n    debug: bool = True\n\napp = fastapi.FastAPI()\n\n@app.get(\"/status\")\ndef status():\n    return {\"ok\": True, \"time\": time.time()}\n\ndef main():\n    cfg = Config()\n    print(\"FastAPI version:\", fastapi.__version__)\n    print(\"Launching on port:\", cfg.port)\n\nif __name__ == \"__main__\":\n    main()",
+            "instruction": "First, extract the package names from the code shown in the image using OCR. Identify the first five package names in the order they appear. For each of these five, search for their existence in NixOS. If at least three of the five packages exist, proceed to the next steps; otherwise, stop and report that more than half do not exist. The next steps include: gathering information about the OpenSSH service option, searching for 'zsh' in the Home Manager options and returning the first three results, selecting one of these options for more details, and finally, retrieving background information on each of the three existing packages.",
+            "workflow_description": "NixOS package diagnostic workflow\n\nThis workflow begins by extracting package names from code shown in an image, typically using OCR techniques. The first five package names identified in the order they appear are selected for further analysis. Each of these five package names is checked for existence in the NixOS package repository using a search tool. If at least three of the five packages are found to exist, the workflow continues; otherwise, it stops and reports that more than half of the packages do not exist in NixOS.\n\nIf the threshold is met, the workflow proceeds to gather additional information. For the three existing packages, background or summary information is retrieved, often from a wiki or summary tool. The workflow also includes steps to obtain information about enabling a specific service in NixOS, such as the SSH service, and to search for options related to a particular shell in the Home Manager options. From the Home Manager search results, one or more options are selected for more detailed information. The workflow concludes by presenting the collected package and configuration information, supporting diagnostic or setup tasks related to NixOS and the referenced packages.",
+            "topic": [
+                "technology"
+            ],
+            "original_question": "Check if the package names visible in this image exist in the NixOS package repository."
+        },
+        "original_reference_question": "Based on Fig. 71e4e32e, Check if the package names visible in this image exist in the NixOS package repository."
+    },
+    {
+        "id": "LifeSim_cea80871",
+        "domain": "LifeSim",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 8f90c496, What type of activity does Kane Owen prefer to minimize prolonged exposure to?",
+        "answer": "direct sunlight",
+        "evidence": {
+            "image_evidence": [
+                "LifeSim_2500c151.png"
+            ]
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "loud noise",
+                "high temperatures",
+                "rain exposure",
+                "direct sunlight"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_sports_history_literature_28f00870",
+                    "insert_conversation_turn": 361,
+                    "reference_name": "Fig. 8f90c496"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "conv_history_name": "user_assistant_conversation_b04ec236.json",
+            "preference_user_name": "Kane Owen",
+            "original_question": "What type of activity does Kane Owen prefer to minimize prolonged exposure to?"
+        }
+    },
+    {
+        "id": "QA_sample_0d0442ce_1",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 59d5cecc, the image, what is George Villegas most likely to be doing?",
+        "answer": "Watching a sports TV",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, George Villegas enjoys sports TV, romantic dramas, but dislikes live concerts, stand-up comedy"
+            ],
+            "image_evidence": [
+                "MMPB_2d99653f.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, George Villegas enjoys mountain climbing, theme park visits, but dislikes wildlife safaris, hot air balloon rides",
+                "In terms of lifestyle, George Villegas enjoys essential oils, aromatherapy, but dislikes boxing workouts, rock climbing gyms",
+                "In terms of shopping, George Villegas enjoys soundproofing panels, sleep-enhancing gadgets, but dislikes retro gaming consoles, wireless earbuds",
+                "In terms of fashion, George Villegas enjoys handmade accessories, bold colors, but dislikes chunky boots, strappy sandals."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Watching a sports TV",
+                "Watching a news TV",
+                "Watching a cooking show",
+                "Getting aromatherapy"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_sports_history_literature_28f00870",
+                    "insert_conversation_turn": 183
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_others_nature_lifestyle_94e420d2",
+                    "insert_conversation_turn": 52,
+                    "reference_name": "Fig. 59d5cecc"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_nature_science_6b60da50",
+                    "insert_conversation_turn": 100
+                },
+                {
+                    "conversation_name": "group_chat_architecture_nature_science_6b60da50",
+                    "insert_conversation_turn": 118
+                },
+                {
+                    "conversation_name": "group_chat_architecture_nature_science_6b60da50",
+                    "insert_conversation_turn": 543
+                },
+                {
+                    "conversation_name": "group_chat_others_nature_lifestyle_94e420d2",
+                    "insert_conversation_turn": 313
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "sanchengmeiqin",
+            "description": "sanchengmeiqin is a young woman with a slender build and a medium height impression. Her facial structure is characterized by a delicate jawline and a slightly rounded face, with prominent, expressive eyes that convey a range of emotions. Her skin tone is fair, and her hair is dark brown, styled in a shoulder-length bob with bangs that frame her face. Throughout the images, sanchengmeiqin maintains a neutral to serious expression, with her mouth closed and her gaze often directed off-camera, suggesting a contemplative or focused demeanor. Her eyebrows are well-defined, adding to her expressive features.\n\n**Outfit and Accessories:**\nsanchengmeiqin is seen wearing a variety of outfits that reflect different contexts and roles. In one image, she is dressed in a light gray hoodie over a white shirt, suggesting a casual or relaxed setting. In another, she wears a white blazer, indicating a more formal or professional environment. A notable outfit is a dark blue denim shirt with the text \"UDI\" and \"Unnatural Death Investigation\" embroidered on it, suggesting a role in a specialized field. The color palette of her clothing is predominantly neutral, with shades of gray, white, and blue, giving a practical and understated look. She accessorizes with a delicate necklace and earrings, adding subtle elegance to her appearance.\n\n**Distinguishing Visual Features or Vibe:**\nThe most memorable feature of sanchengmeiqin is her expressive eyes, which convey a depth of emotion and thought. Her consistent hairstyle and neutral color palette create a cohesive visual identity. The presence of the \"UDI\" shirt suggests a connection to a specific role or profession, adding a layer of intrigue to her character. The combination of her serious expression, practical clothing, and subtle accessories gives sanchengmeiqin a professional yet approachable vibe. Her overall appearance is marked by a sense of calm and focus, making her visually unmistakable and memorable.",
+            "preference": "In terms of entertainment, sanchengmeiqin enjoys sports TV, romantic dramas, but dislikes live concerts, stand-up comedy. In terms of travel, sanchengmeiqin enjoys mountain climbing, theme park visits, but dislikes wildlife safaris, hot air balloon rides. In terms of lifestyle, sanchengmeiqin enjoys essential oils, aromatherapy, but dislikes boxing workouts, rock climbing gyms. In terms of shopping, sanchengmeiqin enjoys soundproofing panels, sleep-enhancing gadgets, but dislikes retro gaming consoles, wireless earbuds. In terms of fashion, sanchengmeiqin enjoys handmade accessories, bold colors, but dislikes chunky boots, strappy sandals.",
+            "topic": [],
+            "original_id": "QA_sample_0d0442ce",
+            "original_question": "the image, what is George Villegas most likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_0d0442ce_2",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. a7c55370, the image, what is George Villegas most likely to be doing?",
+        "answer": "Watching romance dramas",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, George Villegas enjoys sports TV, romantic dramas, but dislikes live concerts, stand-up comedy"
+            ],
+            "image_evidence": [
+                "MMPB_6f052249.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, George Villegas enjoys mountain climbing, theme park visits, but dislikes wildlife safaris, hot air balloon rides",
+                "In terms of lifestyle, George Villegas enjoys essential oils, aromatherapy, but dislikes boxing workouts, rock climbing gyms",
+                "In terms of shopping, George Villegas enjoys soundproofing panels, sleep-enhancing gadgets, but dislikes retro gaming consoles, wireless earbuds",
+                "In terms of fashion, George Villegas enjoys handmade accessories, bold colors, but dislikes chunky boots, strappy sandals."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Watching a cooking show",
+                "Watching romance dramas",
+                "Watching a news TV",
+                "Looking for soundproofing panels"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_sports_history_literature_28f00870",
+                    "insert_conversation_turn": 183
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_others_nature_lifestyle_94e420d2",
+                    "insert_conversation_turn": 268,
+                    "reference_name": "Fig. a7c55370"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_nature_science_6b60da50",
+                    "insert_conversation_turn": 100
+                },
+                {
+                    "conversation_name": "group_chat_architecture_nature_science_6b60da50",
+                    "insert_conversation_turn": 118
+                },
+                {
+                    "conversation_name": "group_chat_architecture_nature_science_6b60da50",
+                    "insert_conversation_turn": 543
+                },
+                {
+                    "conversation_name": "group_chat_others_nature_lifestyle_94e420d2",
+                    "insert_conversation_turn": 313
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "sanchengmeiqin",
+            "description": "sanchengmeiqin is a young woman with a slender build and a medium height impression. Her facial structure is characterized by a delicate jawline and a slightly rounded face, with prominent, expressive eyes that convey a range of emotions. Her skin tone is fair, and her hair is dark brown, styled in a shoulder-length bob with bangs that frame her face. Throughout the images, sanchengmeiqin maintains a neutral to serious expression, with her mouth closed and her gaze often directed off-camera, suggesting a contemplative or focused demeanor. Her eyebrows are well-defined, adding to her expressive features.\n\n**Outfit and Accessories:**\nsanchengmeiqin is seen wearing a variety of outfits that reflect different contexts and roles. In one image, she is dressed in a light gray hoodie over a white shirt, suggesting a casual or relaxed setting. In another, she wears a white blazer, indicating a more formal or professional environment. A notable outfit is a dark blue denim shirt with the text \"UDI\" and \"Unnatural Death Investigation\" embroidered on it, suggesting a role in a specialized field. The color palette of her clothing is predominantly neutral, with shades of gray, white, and blue, giving a practical and understated look. She accessorizes with a delicate necklace and earrings, adding subtle elegance to her appearance.\n\n**Distinguishing Visual Features or Vibe:**\nThe most memorable feature of sanchengmeiqin is her expressive eyes, which convey a depth of emotion and thought. Her consistent hairstyle and neutral color palette create a cohesive visual identity. The presence of the \"UDI\" shirt suggests a connection to a specific role or profession, adding a layer of intrigue to her character. The combination of her serious expression, practical clothing, and subtle accessories gives sanchengmeiqin a professional yet approachable vibe. Her overall appearance is marked by a sense of calm and focus, making her visually unmistakable and memorable.",
+            "preference": "In terms of entertainment, sanchengmeiqin enjoys sports TV, romantic dramas, but dislikes live concerts, stand-up comedy. In terms of travel, sanchengmeiqin enjoys mountain climbing, theme park visits, but dislikes wildlife safaris, hot air balloon rides. In terms of lifestyle, sanchengmeiqin enjoys essential oils, aromatherapy, but dislikes boxing workouts, rock climbing gyms. In terms of shopping, sanchengmeiqin enjoys soundproofing panels, sleep-enhancing gadgets, but dislikes retro gaming consoles, wireless earbuds. In terms of fashion, sanchengmeiqin enjoys handmade accessories, bold colors, but dislikes chunky boots, strappy sandals.",
+            "topic": [],
+            "original_id": "QA_sample_0d0442ce",
+            "original_question": "the image, what is George Villegas most likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_0d0442ce_3",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 10ae84c2, Among the activities that could reasonably occur in the given image, which one is George Villegas least likely to be doing?",
+        "answer": "Enjoying live concerts",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, George Villegas enjoys sports TV, romantic dramas, but dislikes live concerts, stand-up comedy"
+            ],
+            "image_evidence": [
+                "MMPB_73dc3548.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, George Villegas enjoys mountain climbing, theme park visits, but dislikes wildlife safaris, hot air balloon rides",
+                "In terms of lifestyle, George Villegas enjoys essential oils, aromatherapy, but dislikes boxing workouts, rock climbing gyms",
+                "In terms of shopping, George Villegas enjoys soundproofing panels, sleep-enhancing gadgets, but dislikes retro gaming consoles, wireless earbuds",
+                "In terms of fashion, George Villegas enjoys handmade accessories, bold colors, but dislikes chunky boots, strappy sandals."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Celebrating magic performances",
+                "Enjoying live concerts",
+                "Riding a hot air balloon",
+                "Socializing at music festivals"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_sports_history_literature_28f00870",
+                    "insert_conversation_turn": 183
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_nature_science_6b60da50",
+                    "insert_conversation_turn": 270,
+                    "reference_name": "Fig. 10ae84c2"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_nature_science_6b60da50",
+                    "insert_conversation_turn": 100
+                },
+                {
+                    "conversation_name": "group_chat_architecture_nature_science_6b60da50",
+                    "insert_conversation_turn": 118
+                },
+                {
+                    "conversation_name": "group_chat_architecture_nature_science_6b60da50",
+                    "insert_conversation_turn": 543
+                },
+                {
+                    "conversation_name": "group_chat_others_nature_lifestyle_94e420d2",
+                    "insert_conversation_turn": 313
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "sanchengmeiqin",
+            "description": "sanchengmeiqin is a young woman with a slender build and a medium height impression. Her facial structure is characterized by a delicate jawline and a slightly rounded face, with prominent, expressive eyes that convey a range of emotions. Her skin tone is fair, and her hair is dark brown, styled in a shoulder-length bob with bangs that frame her face. Throughout the images, sanchengmeiqin maintains a neutral to serious expression, with her mouth closed and her gaze often directed off-camera, suggesting a contemplative or focused demeanor. Her eyebrows are well-defined, adding to her expressive features.\n\n**Outfit and Accessories:**\nsanchengmeiqin is seen wearing a variety of outfits that reflect different contexts and roles. In one image, she is dressed in a light gray hoodie over a white shirt, suggesting a casual or relaxed setting. In another, she wears a white blazer, indicating a more formal or professional environment. A notable outfit is a dark blue denim shirt with the text \"UDI\" and \"Unnatural Death Investigation\" embroidered on it, suggesting a role in a specialized field. The color palette of her clothing is predominantly neutral, with shades of gray, white, and blue, giving a practical and understated look. She accessorizes with a delicate necklace and earrings, adding subtle elegance to her appearance.\n\n**Distinguishing Visual Features or Vibe:**\nThe most memorable feature of sanchengmeiqin is her expressive eyes, which convey a depth of emotion and thought. Her consistent hairstyle and neutral color palette create a cohesive visual identity. The presence of the \"UDI\" shirt suggests a connection to a specific role or profession, adding a layer of intrigue to her character. The combination of her serious expression, practical clothing, and subtle accessories gives sanchengmeiqin a professional yet approachable vibe. Her overall appearance is marked by a sense of calm and focus, making her visually unmistakable and memorable.",
+            "preference": "In terms of entertainment, sanchengmeiqin enjoys sports TV, romantic dramas, but dislikes live concerts, stand-up comedy. In terms of travel, sanchengmeiqin enjoys mountain climbing, theme park visits, but dislikes wildlife safaris, hot air balloon rides. In terms of lifestyle, sanchengmeiqin enjoys essential oils, aromatherapy, but dislikes boxing workouts, rock climbing gyms. In terms of shopping, sanchengmeiqin enjoys soundproofing panels, sleep-enhancing gadgets, but dislikes retro gaming consoles, wireless earbuds. In terms of fashion, sanchengmeiqin enjoys handmade accessories, bold colors, but dislikes chunky boots, strappy sandals.",
+            "topic": [],
+            "original_id": "QA_sample_0d0442ce",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is George Villegas least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_fbaa3802_3",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. d66c4a02, Among the activities that could reasonably occur in the given image, which one is Johnathan Huerta least likely to be doing?",
+        "answer": "Watching romantic dramas",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Johnathan Huerta enjoys crime thrillers, historical dramas, but dislikes sports TV, romantic dramas",
+                "In terms of lifestyle, Johnathan Huerta enjoys forest bathing, holistic therapy, but dislikes meditation, yoga"
+            ],
+            "image_evidence": [
+                "MMPB_6f052249.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Johnathan Huerta enjoys motorbiking trips, rafting, but dislikes fine dining, street food",
+                "In terms of shopping, Johnathan Huerta enjoys handmade candles, ceramic pottery, but dislikes smart home devices, kitchen appliances",
+                "In terms of fashion, Johnathan Huerta enjoys business casual, athleisure wear, but dislikes functional fashion, trendy sunglasses."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Watching romantic dramas",
+                "Watching action-packed thrillers",
+                "Looking for trendy sunglasses",
+                "Observing suspenseful mysteries"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_sports_history_literature_28f00870",
+                    "insert_conversation_turn": 330
+                },
+                {
+                    "conversation_name": "group_chat_others_nature_lifestyle_94e420d2",
+                    "insert_conversation_turn": 134
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_nature_science_6b60da50",
+                    "insert_conversation_turn": 75,
+                    "reference_name": "Fig. d66c4a02"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_others_nature_lifestyle_94e420d2",
+                    "insert_conversation_turn": 366
+                },
+                {
+                    "conversation_name": "group_chat_sports_history_literature_28f00870",
+                    "insert_conversation_turn": 108
+                },
+                {
+                    "conversation_name": "group_chat_architecture_nature_science_6b60da50",
+                    "insert_conversation_turn": 255
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Watson",
+            "description": "Watson is a man with a medium build and a height that suggests a commanding presence. His facial structure is characterized by a strong jawline and a slightly prominent nose, with a fair skin tone that complements his light brown hair, which is often styled in a short, tousled manner. His eyebrows are thick and well-defined, adding to his expressive features. Watson frequently displays a range of emotions through his eyes, which are often wide and engaging, and his mouth, which can shift from a slight smile to a more serious expression. His overall appearance is one of a thoughtful and introspective individual, with a hint of intensity in his gaze.\n\n**Outfit and Accessories:**\nWatson is often seen in a variety of outfits that range from formal to casual, showcasing a versatile style. In formal settings, he wears a classic black suit with a white shirt and black tie, exuding a polished and professional look. The suit is well-tailored, with a crisp white pocket square adding a touch of elegance. In more casual settings, Watson opts for a plaid shirt layered under a dark vest or jacket, giving off a relaxed yet sophisticated vibe. The color palette of his clothing is predominantly dark, with occasional lighter accents, and the textures range from smooth fabrics in his formal wear to the more rugged feel of his casual attire. His outfits are practical yet stylish, reflecting a character that is both approachable and refined.\n\n**Distinguishing Visual Features or Vibe:**\nThe most memorable feature of Watson is his expressive eyes, which convey a depth of emotion and thought. His light brown hair, styled in a slightly tousled manner, adds to his approachable and relatable persona. The combination of his fair skin and light brown hair creates a striking contrast, making him visually distinctive. Watson often exudes a sense of intensity and introspection, with his facial expressions and body language suggesting a character who is both thoughtful and determined. His ability to transition seamlessly between formal and casual attire highlights his versatility and adaptability, making him a visually unmistakable figure.",
+            "preference": "In terms of entertainment, Watson enjoys crime thrillers, historical dramas, but dislikes sports TV, romantic dramas. In terms of travel, Watson enjoys motorbiking trips, rafting, but dislikes fine dining, street food. In terms of lifestyle, Watson enjoys forest bathing, holistic therapy, but dislikes meditation, yoga. In terms of shopping, Watson enjoys handmade candles, ceramic pottery, but dislikes smart home devices, kitchen appliances. In terms of fashion, Watson enjoys business casual, athleisure wear, but dislikes functional fashion, trendy sunglasses.",
+            "topic": [],
+            "original_id": "QA_sample_fbaa3802",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Johnathan Huerta least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_0f81d4c4_1",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 30bbe598, Among the activities that could reasonably occur in the given image, which one is Kane Owen least likely to be doing?",
+        "answer": "Watching horror movies",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Kane Owen enjoys classical concerts, art exhibitions, but dislikes horror movies, sitcoms"
+            ],
+            "image_evidence": [
+                "MMPB_9ab3a64b.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Kane Owen enjoys historical site tours, food tours, but dislikes camping, ice fishing",
+                "In terms of lifestyle, Kane Owen enjoys meditation, yoga, but dislikes daily smoothies, outdoor workouts",
+                "In terms of shopping, Kane Owen enjoys compact fitness equipment, desk organizers, but dislikes mechanical keyboards, 3D printing tools",
+                "In terms of fashion, Kane Owen enjoys hand-knitted sweaters, silk scarves, but dislikes leather jackets, comfortable shoes."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "Shopping compact fitness equipment",
+                "Observing nature documentaries",
+                "Watching horror movies",
+                "Viewing sports events"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_nature_science_6b60da50",
+                    "insert_conversation_turn": 327
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_sports_history_literature_28f00870",
+                    "insert_conversation_turn": 301,
+                    "reference_name": "Fig. 30bbe598"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_others_nature_lifestyle_94e420d2",
+                    "insert_conversation_turn": 251
+                },
+                {
+                    "conversation_name": "group_chat_sports_history_literature_28f00870",
+                    "insert_conversation_turn": 94
+                },
+                {
+                    "conversation_name": "group_chat_sports_history_literature_28f00870",
+                    "insert_conversation_turn": 239
+                },
+                {
+                    "conversation_name": "group_chat_sports_history_literature_28f00870",
+                    "insert_conversation_turn": 470
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Xue",
+            "description": "Xue is a young individual with a slender build and a youthful appearance. Her facial structure is characterized by a delicate jawline and expressive eyes, which are often the focal point of her expressions. Xue has a fair skin tone and her hair is typically styled in a neat, high ponytail, though in one image, she is seen wearing a bright red wig, adding a playful element to her look. Her expressions range from joyful and animated to contemplative and serious, suggesting a versatile and expressive personality. The consistent high ponytail and her direct gaze in several images convey a sense of confidence and approachability.\n\n**Outfit and Accessories:**\nXue's attire varies across the images, showcasing a mix of casual and slightly more formal styles. In one image, she is seen wearing a light-colored top with thin straps, while in another, she is dressed in a green top with a more structured design. The color palette of her outfits includes soft, neutral tones as well as vibrant colors like red, which she wears in a wig. The textures of her clothing range from smooth and lightweight fabrics to slightly more structured materials. In one image, she is seen holding a book, suggesting a casual, relaxed setting. The outfits appear practical and comfortable, with a touch of whimsy, particularly when she wears the red wig, adding a playful and creative element to her overall look.\n\n**Distinguishing Visual Features or Vibe:**\nThe most memorable feature of Xue is her expressive eyes and the way she carries herself with a mix of confidence and playfulness. Her high ponytail is a recurring visual motif that adds to her youthful and energetic vibe. The bright red wig in one image stands out as a bold and playful accessory, suggesting a fun-loving and adventurous side to her personality. The combination of her fair skin, expressive eyes, and varied outfits creates a visually distinctive and engaging presence. Xue exudes a sense of warmth and approachability, with her expressions and body language conveying a mix of joy, curiosity, and contemplation. The overall aura she conveys is one of a vibrant, expressive, and multifaceted individual.",
+            "preference": "In terms of entertainment, Xue enjoys classical concerts, art exhibitions, but dislikes horror movies, sitcoms. In terms of travel, Xue enjoys historical site tours, food tours, but dislikes camping, ice fishing. In terms of lifestyle, Xue enjoys meditation, yoga, but dislikes daily smoothies, outdoor workouts. In terms of shopping, Xue enjoys compact fitness equipment, desk organizers, but dislikes mechanical keyboards, 3D printing tools. In terms of fashion, Xue enjoys hand-knitted sweaters, silk scarves, but dislikes leather jackets, comfortable shoes.",
+            "topic": [],
+            "original_id": "QA_sample_0f81d4c4",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Kane Owen least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_0f81d4c4_2",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. e833c440, Among the activities that could reasonably occur in the given image, which one is Kane Owen least likely to be doing?",
+        "answer": "Watching sitcoms",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Kane Owen enjoys classical concerts, art exhibitions, but dislikes horror movies, sitcoms"
+            ],
+            "image_evidence": [
+                "MMPB_ea429820.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Kane Owen enjoys historical site tours, food tours, but dislikes camping, ice fishing",
+                "In terms of lifestyle, Kane Owen enjoys meditation, yoga, but dislikes daily smoothies, outdoor workouts",
+                "In terms of shopping, Kane Owen enjoys compact fitness equipment, desk organizers, but dislikes mechanical keyboards, 3D printing tools",
+                "In terms of fashion, Kane Owen enjoys hand-knitted sweaters, silk scarves, but dislikes leather jackets, comfortable shoes."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "Observing nature documentaries",
+                "Streaming action flicks",
+                "Watching sitcoms",
+                "Using 3D printing tools"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_nature_science_6b60da50",
+                    "insert_conversation_turn": 327
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_nature_science_6b60da50",
+                    "insert_conversation_turn": 390,
+                    "reference_name": "Fig. e833c440"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_others_nature_lifestyle_94e420d2",
+                    "insert_conversation_turn": 251
+                },
+                {
+                    "conversation_name": "group_chat_sports_history_literature_28f00870",
+                    "insert_conversation_turn": 94
+                },
+                {
+                    "conversation_name": "group_chat_sports_history_literature_28f00870",
+                    "insert_conversation_turn": 239
+                },
+                {
+                    "conversation_name": "group_chat_sports_history_literature_28f00870",
+                    "insert_conversation_turn": 470
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Xue",
+            "description": "Xue is a young individual with a slender build and a youthful appearance. Her facial structure is characterized by a delicate jawline and expressive eyes, which are often the focal point of her expressions. Xue has a fair skin tone and her hair is typically styled in a neat, high ponytail, though in one image, she is seen wearing a bright red wig, adding a playful element to her look. Her expressions range from joyful and animated to contemplative and serious, suggesting a versatile and expressive personality. The consistent high ponytail and her direct gaze in several images convey a sense of confidence and approachability.\n\n**Outfit and Accessories:**\nXue's attire varies across the images, showcasing a mix of casual and slightly more formal styles. In one image, she is seen wearing a light-colored top with thin straps, while in another, she is dressed in a green top with a more structured design. The color palette of her outfits includes soft, neutral tones as well as vibrant colors like red, which she wears in a wig. The textures of her clothing range from smooth and lightweight fabrics to slightly more structured materials. In one image, she is seen holding a book, suggesting a casual, relaxed setting. The outfits appear practical and comfortable, with a touch of whimsy, particularly when she wears the red wig, adding a playful and creative element to her overall look.\n\n**Distinguishing Visual Features or Vibe:**\nThe most memorable feature of Xue is her expressive eyes and the way she carries herself with a mix of confidence and playfulness. Her high ponytail is a recurring visual motif that adds to her youthful and energetic vibe. The bright red wig in one image stands out as a bold and playful accessory, suggesting a fun-loving and adventurous side to her personality. The combination of her fair skin, expressive eyes, and varied outfits creates a visually distinctive and engaging presence. Xue exudes a sense of warmth and approachability, with her expressions and body language conveying a mix of joy, curiosity, and contemplation. The overall aura she conveys is one of a vibrant, expressive, and multifaceted individual.",
+            "preference": "In terms of entertainment, Xue enjoys classical concerts, art exhibitions, but dislikes horror movies, sitcoms. In terms of travel, Xue enjoys historical site tours, food tours, but dislikes camping, ice fishing. In terms of lifestyle, Xue enjoys meditation, yoga, but dislikes daily smoothies, outdoor workouts. In terms of shopping, Xue enjoys compact fitness equipment, desk organizers, but dislikes mechanical keyboards, 3D printing tools. In terms of fashion, Xue enjoys hand-knitted sweaters, silk scarves, but dislikes leather jackets, comfortable shoes.",
+            "topic": [],
+            "original_id": "QA_sample_0f81d4c4",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Kane Owen least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_0f81d4c4_3",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 0d365cb6, Among the activities that could reasonably occur in the given image, which one is Kane Owen least likely to be doing?",
+        "answer": "Watching horror movies",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Kane Owen enjoys classical concerts, art exhibitions, but dislikes horror movies, sitcoms"
+            ],
+            "image_evidence": [
+                "MMPB_e907fbc8.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Kane Owen enjoys historical site tours, food tours, but dislikes camping, ice fishing",
+                "In terms of lifestyle, Kane Owen enjoys meditation, yoga, but dislikes daily smoothies, outdoor workouts",
+                "In terms of shopping, Kane Owen enjoys compact fitness equipment, desk organizers, but dislikes mechanical keyboards, 3D printing tools",
+                "In terms of fashion, Kane Owen enjoys hand-knitted sweaters, silk scarves, but dislikes leather jackets, comfortable shoes."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Enjoying opera performances",
+                "Watching horror movies",
+                "Wearing comfortable shoes",
+                "Enjoying K-pop performances"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_nature_science_6b60da50",
+                    "insert_conversation_turn": 327
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_others_nature_lifestyle_94e420d2",
+                    "insert_conversation_turn": 21,
+                    "reference_name": "Fig. 0d365cb6"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_others_nature_lifestyle_94e420d2",
+                    "insert_conversation_turn": 251
+                },
+                {
+                    "conversation_name": "group_chat_sports_history_literature_28f00870",
+                    "insert_conversation_turn": 94
+                },
+                {
+                    "conversation_name": "group_chat_sports_history_literature_28f00870",
+                    "insert_conversation_turn": 239
+                },
+                {
+                    "conversation_name": "group_chat_sports_history_literature_28f00870",
+                    "insert_conversation_turn": 470
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Xue",
+            "description": "Xue is a young individual with a slender build and a youthful appearance. Her facial structure is characterized by a delicate jawline and expressive eyes, which are often the focal point of her expressions. Xue has a fair skin tone and her hair is typically styled in a neat, high ponytail, though in one image, she is seen wearing a bright red wig, adding a playful element to her look. Her expressions range from joyful and animated to contemplative and serious, suggesting a versatile and expressive personality. The consistent high ponytail and her direct gaze in several images convey a sense of confidence and approachability.\n\n**Outfit and Accessories:**\nXue's attire varies across the images, showcasing a mix of casual and slightly more formal styles. In one image, she is seen wearing a light-colored top with thin straps, while in another, she is dressed in a green top with a more structured design. The color palette of her outfits includes soft, neutral tones as well as vibrant colors like red, which she wears in a wig. The textures of her clothing range from smooth and lightweight fabrics to slightly more structured materials. In one image, she is seen holding a book, suggesting a casual, relaxed setting. The outfits appear practical and comfortable, with a touch of whimsy, particularly when she wears the red wig, adding a playful and creative element to her overall look.\n\n**Distinguishing Visual Features or Vibe:**\nThe most memorable feature of Xue is her expressive eyes and the way she carries herself with a mix of confidence and playfulness. Her high ponytail is a recurring visual motif that adds to her youthful and energetic vibe. The bright red wig in one image stands out as a bold and playful accessory, suggesting a fun-loving and adventurous side to her personality. The combination of her fair skin, expressive eyes, and varied outfits creates a visually distinctive and engaging presence. Xue exudes a sense of warmth and approachability, with her expressions and body language conveying a mix of joy, curiosity, and contemplation. The overall aura she conveys is one of a vibrant, expressive, and multifaceted individual.",
+            "preference": "In terms of entertainment, Xue enjoys classical concerts, art exhibitions, but dislikes horror movies, sitcoms. In terms of travel, Xue enjoys historical site tours, food tours, but dislikes camping, ice fishing. In terms of lifestyle, Xue enjoys meditation, yoga, but dislikes daily smoothies, outdoor workouts. In terms of shopping, Xue enjoys compact fitness equipment, desk organizers, but dislikes mechanical keyboards, 3D printing tools. In terms of fashion, Xue enjoys hand-knitted sweaters, silk scarves, but dislikes leather jackets, comfortable shoes.",
+            "topic": [],
+            "original_id": "QA_sample_0f81d4c4",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Kane Owen least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_db01369d_1",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 8999282a, Among the activities that could reasonably occur in the given image, which one is Drake Ashley least likely to be doing?",
+        "answer": "Attending a magic show",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Drake Ashley enjoys classical concerts, art exhibitions, but dislikes live band karaoke, magic shows",
+                "In terms of shopping, Drake Ashley enjoys second-hand books, indie brands, but dislikes soundproofing panels, sleep-enhancing gadgets"
+            ],
+            "image_evidence": [
+                "MMPB_9ab3a64b.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Drake Ashley enjoys skiing, desert trekking, but dislikes mountain climbing, theme park visits",
+                "In terms of lifestyle, Drake Ashley enjoys early morning jogs, massages, but dislikes home gardening, night owl lifestyle",
+                "In terms of fashion, Drake Ashley enjoys bohemian fashion, formal evening wear, but dislikes statement jewelry, minimalist rings."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "Observing a theatrical act",
+                "Watching a musical",
+                "Buying soundproofing panels",
+                "Attending a magic show"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_sports_history_literature_28f00870",
+                    "insert_conversation_turn": 531
+                },
+                {
+                    "conversation_name": "group_chat_sports_history_literature_28f00870",
+                    "insert_conversation_turn": 225
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_sports_history_literature_28f00870",
+                    "insert_conversation_turn": 301,
+                    "reference_name": "Fig. 8999282a"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_others_nature_lifestyle_94e420d2",
+                    "insert_conversation_turn": 205
+                },
+                {
+                    "conversation_name": "group_chat_sports_history_literature_28f00870",
+                    "insert_conversation_turn": 286
+                },
+                {
+                    "conversation_name": "group_chat_architecture_nature_science_6b60da50",
+                    "insert_conversation_turn": 226
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "james",
+            "description": "james is a tall, muscular individual with a strong, athletic build, indicative of a professional basketball player. His facial structure is prominent, featuring a broad jawline and a well-defined nose. He has a full beard and a short, closely cropped hairstyle. His skin tone is dark, and he often appears with a focused or intense expression, suggesting determination and concentration. In some images, he is seen with sweat on his face, indicating physical exertion. His tattoos are visible on his arms, adding to his distinctive appearance.\n\n**Outfit and Accessories:**\njames is predominantly seen wearing a yellow and purple basketball jersey with the number 23, representing the Los Angeles Lakers. The jersey is sleeveless, allowing for a full view of his muscular arms and tattoos. The fabric appears to be a lightweight, breathable material suitable for athletic performance. The jersey features the team's logo and the sponsor \"bibigo.\" In one image, he is also seen wearing a blue jacket, possibly during a celebratory moment, holding a gold medal. The outfit is practical for basketball, allowing for ease of movement and comfort during gameplay.\n\n**Distinguishing Visual Features or Vibe:**\nThe most memorable feature of james is his basketball jersey, which is iconic and instantly recognizable. The number 23 is prominently displayed, and the yellow and purple color scheme is synonymous with the Lakers. His tattoos, visible on his arms, add a personal touch to his appearance. The gold medal he holds in one image signifies achievement and success. The overall vibe conveyed by james is one of intensity and focus, with a strong sense of determination and athleticism. His presence on the court, combined with his distinctive appearance, makes him visually unmistakable.",
+            "preference": "In terms of entertainment, james enjoys classical concerts, art exhibitions, but dislikes live band karaoke, magic shows. In terms of travel, james enjoys skiing, desert trekking, but dislikes mountain climbing, theme park visits. In terms of lifestyle, james enjoys early morning jogs, massages, but dislikes home gardening, night owl lifestyle. In terms of shopping, james enjoys second-hand books, indie brands, but dislikes soundproofing panels, sleep-enhancing gadgets. In terms of fashion, james enjoys bohemian fashion, formal evening wear, but dislikes statement jewelry, minimalist rings.",
+            "topic": [],
+            "original_id": "QA_sample_db01369d",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Drake Ashley least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_db01369d_2",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. db51da44, Among the activities that could reasonably occur in the given image, which one is Drake Ashley least likely to be doing?",
+        "answer": "Attending a magic show",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Drake Ashley enjoys classical concerts, art exhibitions, but dislikes live band karaoke, magic shows",
+                "In terms of shopping, Drake Ashley enjoys second-hand books, indie brands, but dislikes soundproofing panels, sleep-enhancing gadgets"
+            ],
+            "image_evidence": [
+                "MMPB_799e1f96.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Drake Ashley enjoys skiing, desert trekking, but dislikes mountain climbing, theme park visits",
+                "In terms of lifestyle, Drake Ashley enjoys early morning jogs, massages, but dislikes home gardening, night owl lifestyle",
+                "In terms of fashion, Drake Ashley enjoys bohemian fashion, formal evening wear, but dislikes statement jewelry, minimalist rings."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "Watching a romantic movie.",
+                "Enjoying a theatrical act.",
+                "Buying statement jewelry",
+                "Attending a magic show"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_sports_history_literature_28f00870",
+                    "insert_conversation_turn": 531
+                },
+                {
+                    "conversation_name": "group_chat_sports_history_literature_28f00870",
+                    "insert_conversation_turn": 225
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_nature_science_6b60da50",
+                    "insert_conversation_turn": 241,
+                    "reference_name": "Fig. db51da44"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_others_nature_lifestyle_94e420d2",
+                    "insert_conversation_turn": 205
+                },
+                {
+                    "conversation_name": "group_chat_sports_history_literature_28f00870",
+                    "insert_conversation_turn": 286
+                },
+                {
+                    "conversation_name": "group_chat_architecture_nature_science_6b60da50",
+                    "insert_conversation_turn": 226
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "james",
+            "description": "james is a tall, muscular individual with a strong, athletic build, indicative of a professional basketball player. His facial structure is prominent, featuring a broad jawline and a well-defined nose. He has a full beard and a short, closely cropped hairstyle. His skin tone is dark, and he often appears with a focused or intense expression, suggesting determination and concentration. In some images, he is seen with sweat on his face, indicating physical exertion. His tattoos are visible on his arms, adding to his distinctive appearance.\n\n**Outfit and Accessories:**\njames is predominantly seen wearing a yellow and purple basketball jersey with the number 23, representing the Los Angeles Lakers. The jersey is sleeveless, allowing for a full view of his muscular arms and tattoos. The fabric appears to be a lightweight, breathable material suitable for athletic performance. The jersey features the team's logo and the sponsor \"bibigo.\" In one image, he is also seen wearing a blue jacket, possibly during a celebratory moment, holding a gold medal. The outfit is practical for basketball, allowing for ease of movement and comfort during gameplay.\n\n**Distinguishing Visual Features or Vibe:**\nThe most memorable feature of james is his basketball jersey, which is iconic and instantly recognizable. The number 23 is prominently displayed, and the yellow and purple color scheme is synonymous with the Lakers. His tattoos, visible on his arms, add a personal touch to his appearance. The gold medal he holds in one image signifies achievement and success. The overall vibe conveyed by james is one of intensity and focus, with a strong sense of determination and athleticism. His presence on the court, combined with his distinctive appearance, makes him visually unmistakable.",
+            "preference": "In terms of entertainment, james enjoys classical concerts, art exhibitions, but dislikes live band karaoke, magic shows. In terms of travel, james enjoys skiing, desert trekking, but dislikes mountain climbing, theme park visits. In terms of lifestyle, james enjoys early morning jogs, massages, but dislikes home gardening, night owl lifestyle. In terms of shopping, james enjoys second-hand books, indie brands, but dislikes soundproofing panels, sleep-enhancing gadgets. In terms of fashion, james enjoys bohemian fashion, formal evening wear, but dislikes statement jewelry, minimalist rings.",
+            "topic": [],
+            "original_id": "QA_sample_db01369d",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Drake Ashley least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_db01369d_3",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 79d8638d, the image, what is Drake Ashley most likely to be doing?",
+        "answer": "Attending a classical concert",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Drake Ashley enjoys classical concerts, art exhibitions, but dislikes live band karaoke, magic shows",
+                "In terms of shopping, Drake Ashley enjoys second-hand books, indie brands, but dislikes soundproofing panels, sleep-enhancing gadgets"
+            ],
+            "image_evidence": [
+                "MMPB_e907fbc8.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Drake Ashley enjoys skiing, desert trekking, but dislikes mountain climbing, theme park visits",
+                "In terms of lifestyle, Drake Ashley enjoys early morning jogs, massages, but dislikes home gardening, night owl lifestyle",
+                "In terms of fashion, Drake Ashley enjoys bohemian fashion, formal evening wear, but dislikes statement jewelry, minimalist rings."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Going on an early morning jog",
+                "Attending a classical concert",
+                "Enjoying a comedy movie",
+                "Listening to a k-pop"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_sports_history_literature_28f00870",
+                    "insert_conversation_turn": 531
+                },
+                {
+                    "conversation_name": "group_chat_sports_history_literature_28f00870",
+                    "insert_conversation_turn": 225
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_others_nature_lifestyle_94e420d2",
+                    "insert_conversation_turn": 21,
+                    "reference_name": "Fig. 79d8638d"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_others_nature_lifestyle_94e420d2",
+                    "insert_conversation_turn": 205
+                },
+                {
+                    "conversation_name": "group_chat_sports_history_literature_28f00870",
+                    "insert_conversation_turn": 286
+                },
+                {
+                    "conversation_name": "group_chat_architecture_nature_science_6b60da50",
+                    "insert_conversation_turn": 226
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "james",
+            "description": "james is a tall, muscular individual with a strong, athletic build, indicative of a professional basketball player. His facial structure is prominent, featuring a broad jawline and a well-defined nose. He has a full beard and a short, closely cropped hairstyle. His skin tone is dark, and he often appears with a focused or intense expression, suggesting determination and concentration. In some images, he is seen with sweat on his face, indicating physical exertion. His tattoos are visible on his arms, adding to his distinctive appearance.\n\n**Outfit and Accessories:**\njames is predominantly seen wearing a yellow and purple basketball jersey with the number 23, representing the Los Angeles Lakers. The jersey is sleeveless, allowing for a full view of his muscular arms and tattoos. The fabric appears to be a lightweight, breathable material suitable for athletic performance. The jersey features the team's logo and the sponsor \"bibigo.\" In one image, he is also seen wearing a blue jacket, possibly during a celebratory moment, holding a gold medal. The outfit is practical for basketball, allowing for ease of movement and comfort during gameplay.\n\n**Distinguishing Visual Features or Vibe:**\nThe most memorable feature of james is his basketball jersey, which is iconic and instantly recognizable. The number 23 is prominently displayed, and the yellow and purple color scheme is synonymous with the Lakers. His tattoos, visible on his arms, add a personal touch to his appearance. The gold medal he holds in one image signifies achievement and success. The overall vibe conveyed by james is one of intensity and focus, with a strong sense of determination and athleticism. His presence on the court, combined with his distinctive appearance, makes him visually unmistakable.",
+            "preference": "In terms of entertainment, james enjoys classical concerts, art exhibitions, but dislikes live band karaoke, magic shows. In terms of travel, james enjoys skiing, desert trekking, but dislikes mountain climbing, theme park visits. In terms of lifestyle, james enjoys early morning jogs, massages, but dislikes home gardening, night owl lifestyle. In terms of shopping, james enjoys second-hand books, indie brands, but dislikes soundproofing panels, sleep-enhancing gadgets. In terms of fashion, james enjoys bohemian fashion, formal evening wear, but dislikes statement jewelry, minimalist rings.",
+            "topic": [],
+            "original_id": "QA_sample_db01369d",
+            "original_question": "the image, what is Drake Ashley most likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_c664c226_3",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 87bd164d, the image, what is Amiah Sweeney most likely to be doing?",
+        "answer": "Watching a documentary film",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Amiah Sweeney enjoys musicals, documentaries, but dislikes sports TV, romantic dramas",
+                "In terms of lifestyle, Amiah Sweeney enjoys plant-based diet, home cooking, but dislikes meditation, yoga"
+            ],
+            "image_evidence": [
+                "MMPB_6f052249.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Amiah Sweeney enjoys trains, flying business class, but dislikes backpacking, luxury resorts",
+                "In terms of shopping, Amiah Sweeney enjoys Bluetooth speakers, wireless charging stations, but dislikes sportswear, high-end perfumes",
+                "In terms of fashion, Amiah Sweeney enjoys casual wear, minimalist outfits, but dislikes business casual, athleisure wear."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "Viewing a sports event",
+                "Home cooking",
+                "Watching a documentary film",
+                "Observing a nature program"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_nature_science_6b60da50",
+                    "insert_conversation_turn": 345
+                },
+                {
+                    "conversation_name": "group_chat_others_nature_lifestyle_94e420d2",
+                    "insert_conversation_turn": 72
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_sports_history_literature_28f00870",
+                    "insert_conversation_turn": 52,
+                    "reference_name": "Fig. 87bd164d"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_sports_history_literature_28f00870",
+                    "insert_conversation_turn": 605
+                },
+                {
+                    "conversation_name": "group_chat_architecture_nature_science_6b60da50",
+                    "insert_conversation_turn": 212
+                },
+                {
+                    "conversation_name": "group_chat_architecture_nature_science_6b60da50",
+                    "insert_conversation_turn": 198
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Grace",
+            "description": "Grace is a woman with a slender build and an average height, exuding a poised and elegant presence. Her facial structure is defined by a prominent jawline and a slightly upturned nose, complemented by expressive eyes and a well-defined brow. Her skin tone is fair, and she often sports a subtle, natural makeup look. Grace's hair is a consistent feature, styled in soft, wavy locks that fall just below her shoulders, adding to her sophisticated appearance. Her expressions range from contemplative to engaging, with a slight tilt of her head and a direct gaze that suggests confidence and intelligence. Her poses are often composed and deliberate, whether standing or seated, conveying a sense of grace and poise.\n\n**Outfit and Accessories:**\nGrace's attire is characterized by a blend of classic and elegant styles, often featuring rich, deep colors like burgundy and red, which add a touch of sophistication. Her outfits include tailored blazers and dresses, with a preference for structured silhouettes that enhance her figure. The textures of her clothing range from smooth fabrics to more textured materials, adding depth and interest to her ensembles. Accessories play a significant role in her look, with a notable presence of statement jewelry such as a large blue pendant necklace and a red beaded necklace, which add a pop of color and elegance. Her outfits are practical yet formal, suggesting a character who is both stylish and professional. The consistent use of a wide-brimmed hat in one image adds a touch of mystery and intrigue to her overall appearance.\n\n**Distinguishing Visual Features or Vibe:**\nGrace's most memorable feature is her ability to convey a sense of mystery and elegance through her visual presentation. The recurring theme of rich, deep colors in her outfits, combined with her poised demeanor, creates a striking visual impact. The wide-brimmed hat and statement jewelry are signature elements that contribute to her unique style. Her wavy hair and fair skin, along with her expressive eyes, add to her ethereal and captivating presence. The consistent use of a dark, moody color palette in the backgrounds of the images further enhances her enigmatic aura, making her stand out as a character of depth and intrigue. Overall, Grace exudes a blend of sophistication, mystery, and elegance, making her visually unmistakable and memorable.",
+            "preference": "In terms of entertainment, Grace enjoys musicals, documentaries, but dislikes sports TV, romantic dramas. In terms of travel, Grace enjoys trains, flying business class, but dislikes backpacking, luxury resorts. In terms of lifestyle, Grace enjoys plant-based diet, home cooking, but dislikes meditation, yoga. In terms of shopping, Grace enjoys Bluetooth speakers, wireless charging stations, but dislikes sportswear, high-end perfumes. In terms of fashion, Grace enjoys casual wear, minimalist outfits, but dislikes business casual, athleisure wear.",
+            "topic": [],
+            "original_id": "QA_sample_c664c226",
+            "original_question": "the image, what is Amiah Sweeney most likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_b9b2027b_1",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 22249575, the image, what is Meadow Boyer most likely to be doing?",
+        "answer": "Attending a classical concert",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Meadow Boyer enjoys classical concerts, art exhibitions, but dislikes rock concerts, indie films"
+            ],
+            "image_evidence": [
+                "MMPB_e907fbc8.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Meadow Boyer enjoys cycling, camping, but dislikes overland train journeys, remote island hopping",
+                "In terms of lifestyle, Meadow Boyer enjoys kombucha brewing, medicinal herb gardening, but dislikes plant-based diet, home cooking",
+                "In terms of shopping, Meadow Boyer enjoys retro gaming consoles, wireless earbuds, but dislikes robot vacuums, wearable tech",
+                "In terms of fashion, Meadow Boyer enjoys handmade accessories, bold colors, but dislikes vintage style, formal suits."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Attending a classical concert",
+                "Camping",
+                "Listening to a K-pop.",
+                "Enjoying a symphony performance."
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_nature_science_6b60da50",
+                    "insert_conversation_turn": 366
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_nature_science_6b60da50",
+                    "insert_conversation_turn": 170,
+                    "reference_name": "Fig. 22249575"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_sports_history_literature_28f00870",
+                    "insert_conversation_turn": 37
+                },
+                {
+                    "conversation_name": "group_chat_architecture_nature_science_6b60da50",
+                    "insert_conversation_turn": 436
+                },
+                {
+                    "conversation_name": "group_chat_others_nature_lifestyle_94e420d2",
+                    "insert_conversation_turn": 176
+                },
+                {
+                    "conversation_name": "group_chat_architecture_nature_science_6b60da50",
+                    "insert_conversation_turn": 413
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Asa",
+            "description": "Asa is depicted as a woman with a slender build and an elegant posture, often seen leaning against walls or sitting with a poised demeanor. Her facial structure is refined, with a prominent jawline and well-defined cheekbones, contributing to a sophisticated appearance. Asa has a fair skin tone and long, dark hair styled in various ways, including loose waves and a sleek updo. Her expressions range from contemplative to serious, with a hint of intensity in her gaze. The consistent use of soft lighting accentuates her features, highlighting her delicate facial contours and adding depth to her appearance.\n\n**Outfit and Accessories:**\nAsa's attire is characterized by a blend of classic and contemporary styles, often featuring a mix of textures and colors. She is seen wearing a polka-dotted blouse paired with a black skirt, a dark pinstriped blazer with a pearl necklace and brooch, and a teal dress with a deep neckline. Her outfits are typically sophisticated, with a focus on tailored pieces that convey a sense of professionalism and elegance. Accessories such as pearl necklaces, earrings, and brooches add a touch of glamour and sophistication to her ensembles. The color palette includes neutral tones like black and white, as well as rich hues like teal and dark green, complemented by gold and silver accents.\n\n**Distinguishing Visual Features or Vibe:**\nAsa exudes a sense of confidence and poise, with a consistent visual theme of elegance and refinement. Her signature style includes a mix of classic and modern elements, with a focus on tailored clothing and tasteful accessories. The recurring use of pearls and gold accents adds a touch of luxury and sophistication. The warm lighting and soft color palette create a cohesive and inviting atmosphere, enhancing her overall presence. Asa's aura is one of quiet strength and grace, with a hint of mystery and intrigue, making her visually unmistakable and memorable.",
+            "preference": "In terms of entertainment, Asa enjoys classical concerts, art exhibitions, but dislikes rock concerts, indie films. In terms of travel, Asa enjoys cycling, camping, but dislikes overland train journeys, remote island hopping. In terms of lifestyle, Asa enjoys kombucha brewing, medicinal herb gardening, but dislikes plant-based diet, home cooking. In terms of shopping, Asa enjoys retro gaming consoles, wireless earbuds, but dislikes robot vacuums, wearable tech. In terms of fashion, Asa enjoys handmade accessories, bold colors, but dislikes vintage style, formal suits.",
+            "topic": [],
+            "original_id": "QA_sample_b9b2027b",
+            "original_question": "the image, what is Meadow Boyer most likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_b9b2027b_2",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. e85f8d0b, the image, what is Meadow Boyer most likely to be doing?",
+        "answer": "Watching a video of an art exhibition",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Meadow Boyer enjoys classical concerts, art exhibitions, but dislikes rock concerts, indie films"
+            ],
+            "image_evidence": [
+                "MMPB_2d99653f.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Meadow Boyer enjoys cycling, camping, but dislikes overland train journeys, remote island hopping",
+                "In terms of lifestyle, Meadow Boyer enjoys kombucha brewing, medicinal herb gardening, but dislikes plant-based diet, home cooking",
+                "In terms of shopping, Meadow Boyer enjoys retro gaming consoles, wireless earbuds, but dislikes robot vacuums, wearable tech",
+                "In terms of fashion, Meadow Boyer enjoys handmade accessories, bold colors, but dislikes vintage style, formal suits."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Viewing a travel vlog on YouTube.",
+                "Watching a video of an art exhibition",
+                "Observing a documentary on wildlife.",
+                "Cycling"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_nature_science_6b60da50",
+                    "insert_conversation_turn": 366
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_nature_science_6b60da50",
+                    "insert_conversation_turn": 52,
+                    "reference_name": "Fig. e85f8d0b"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_sports_history_literature_28f00870",
+                    "insert_conversation_turn": 37
+                },
+                {
+                    "conversation_name": "group_chat_architecture_nature_science_6b60da50",
+                    "insert_conversation_turn": 436
+                },
+                {
+                    "conversation_name": "group_chat_others_nature_lifestyle_94e420d2",
+                    "insert_conversation_turn": 176
+                },
+                {
+                    "conversation_name": "group_chat_architecture_nature_science_6b60da50",
+                    "insert_conversation_turn": 413
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Asa",
+            "description": "Asa is depicted as a woman with a slender build and an elegant posture, often seen leaning against walls or sitting with a poised demeanor. Her facial structure is refined, with a prominent jawline and well-defined cheekbones, contributing to a sophisticated appearance. Asa has a fair skin tone and long, dark hair styled in various ways, including loose waves and a sleek updo. Her expressions range from contemplative to serious, with a hint of intensity in her gaze. The consistent use of soft lighting accentuates her features, highlighting her delicate facial contours and adding depth to her appearance.\n\n**Outfit and Accessories:**\nAsa's attire is characterized by a blend of classic and contemporary styles, often featuring a mix of textures and colors. She is seen wearing a polka-dotted blouse paired with a black skirt, a dark pinstriped blazer with a pearl necklace and brooch, and a teal dress with a deep neckline. Her outfits are typically sophisticated, with a focus on tailored pieces that convey a sense of professionalism and elegance. Accessories such as pearl necklaces, earrings, and brooches add a touch of glamour and sophistication to her ensembles. The color palette includes neutral tones like black and white, as well as rich hues like teal and dark green, complemented by gold and silver accents.\n\n**Distinguishing Visual Features or Vibe:**\nAsa exudes a sense of confidence and poise, with a consistent visual theme of elegance and refinement. Her signature style includes a mix of classic and modern elements, with a focus on tailored clothing and tasteful accessories. The recurring use of pearls and gold accents adds a touch of luxury and sophistication. The warm lighting and soft color palette create a cohesive and inviting atmosphere, enhancing her overall presence. Asa's aura is one of quiet strength and grace, with a hint of mystery and intrigue, making her visually unmistakable and memorable.",
+            "preference": "In terms of entertainment, Asa enjoys classical concerts, art exhibitions, but dislikes rock concerts, indie films. In terms of travel, Asa enjoys cycling, camping, but dislikes overland train journeys, remote island hopping. In terms of lifestyle, Asa enjoys kombucha brewing, medicinal herb gardening, but dislikes plant-based diet, home cooking. In terms of shopping, Asa enjoys retro gaming consoles, wireless earbuds, but dislikes robot vacuums, wearable tech. In terms of fashion, Asa enjoys handmade accessories, bold colors, but dislikes vintage style, formal suits.",
+            "topic": [],
+            "original_id": "QA_sample_b9b2027b",
+            "original_question": "the image, what is Meadow Boyer most likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_b9b2027b_3",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 2dd1d3e6, Among the activities that could reasonably occur in the given image, which one is Meadow Boyer least likely to be doing?",
+        "answer": "Watching an indie films",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Meadow Boyer enjoys classical concerts, art exhibitions, but dislikes rock concerts, indie films"
+            ],
+            "image_evidence": [
+                "MMPB_6f052249.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Meadow Boyer enjoys cycling, camping, but dislikes overland train journeys, remote island hopping",
+                "In terms of lifestyle, Meadow Boyer enjoys kombucha brewing, medicinal herb gardening, but dislikes plant-based diet, home cooking",
+                "In terms of shopping, Meadow Boyer enjoys retro gaming consoles, wireless earbuds, but dislikes robot vacuums, wearable tech",
+                "In terms of fashion, Meadow Boyer enjoys handmade accessories, bold colors, but dislikes vintage style, formal suits."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Watching an indie films",
+                "Observing a documentary",
+                "Buying vintage style clothes",
+                "Viewing a foreign film"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_nature_science_6b60da50",
+                    "insert_conversation_turn": 366
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_sports_history_literature_28f00870",
+                    "insert_conversation_turn": 52,
+                    "reference_name": "Fig. 2dd1d3e6"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_sports_history_literature_28f00870",
+                    "insert_conversation_turn": 37
+                },
+                {
+                    "conversation_name": "group_chat_architecture_nature_science_6b60da50",
+                    "insert_conversation_turn": 436
+                },
+                {
+                    "conversation_name": "group_chat_others_nature_lifestyle_94e420d2",
+                    "insert_conversation_turn": 176
+                },
+                {
+                    "conversation_name": "group_chat_architecture_nature_science_6b60da50",
+                    "insert_conversation_turn": 413
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Asa",
+            "description": "Asa is depicted as a woman with a slender build and an elegant posture, often seen leaning against walls or sitting with a poised demeanor. Her facial structure is refined, with a prominent jawline and well-defined cheekbones, contributing to a sophisticated appearance. Asa has a fair skin tone and long, dark hair styled in various ways, including loose waves and a sleek updo. Her expressions range from contemplative to serious, with a hint of intensity in her gaze. The consistent use of soft lighting accentuates her features, highlighting her delicate facial contours and adding depth to her appearance.\n\n**Outfit and Accessories:**\nAsa's attire is characterized by a blend of classic and contemporary styles, often featuring a mix of textures and colors. She is seen wearing a polka-dotted blouse paired with a black skirt, a dark pinstriped blazer with a pearl necklace and brooch, and a teal dress with a deep neckline. Her outfits are typically sophisticated, with a focus on tailored pieces that convey a sense of professionalism and elegance. Accessories such as pearl necklaces, earrings, and brooches add a touch of glamour and sophistication to her ensembles. The color palette includes neutral tones like black and white, as well as rich hues like teal and dark green, complemented by gold and silver accents.\n\n**Distinguishing Visual Features or Vibe:**\nAsa exudes a sense of confidence and poise, with a consistent visual theme of elegance and refinement. Her signature style includes a mix of classic and modern elements, with a focus on tailored clothing and tasteful accessories. The recurring use of pearls and gold accents adds a touch of luxury and sophistication. The warm lighting and soft color palette create a cohesive and inviting atmosphere, enhancing her overall presence. Asa's aura is one of quiet strength and grace, with a hint of mystery and intrigue, making her visually unmistakable and memorable.",
+            "preference": "In terms of entertainment, Asa enjoys classical concerts, art exhibitions, but dislikes rock concerts, indie films. In terms of travel, Asa enjoys cycling, camping, but dislikes overland train journeys, remote island hopping. In terms of lifestyle, Asa enjoys kombucha brewing, medicinal herb gardening, but dislikes plant-based diet, home cooking. In terms of shopping, Asa enjoys retro gaming consoles, wireless earbuds, but dislikes robot vacuums, wearable tech. In terms of fashion, Asa enjoys handmade accessories, bold colors, but dislikes vintage style, formal suits.",
+            "topic": [],
+            "original_id": "QA_sample_b9b2027b",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Meadow Boyer least likely to be doing?"
+        }
+    }
+]

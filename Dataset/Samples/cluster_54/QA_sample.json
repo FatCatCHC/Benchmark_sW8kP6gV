@@ -1,0 +1,1612 @@
+[
+    {
+        "id": "QA_sample_39aafdd2",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 2daa5d1b, the text, which stock's performance change would likely have the most significant impact on the NAV/share growth trend due to having the \"highest weight in this portfolio\"?",
+        "answer": "Microsoft",
+        "evidence": {
+            "text_evidence": [
+                "Assume that the performance of individual stocks directly impacts the overall portfolio performance shown in the graph. Also, note that the NAV/share growth in the graph represents the aggregate of all holdings in the portfolio over the selected time period. Stocks with higher weights have greater influence on the portfolio's NAV/share growth. Microsoft has the highest weight in this portfolio, followed by United Health Group and Oracle. Alphabet contributes 1.4% to the portfolio, similar to Charter Communications."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_fcef2ac9.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Microsoft",
+                "Oracle",
+                "United Health Group",
+                "Alphabet"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_sports_films_environment_dd05d402",
+                    "insert_conversation_turn": 995
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_politics_business_de29bb08",
+                    "insert_conversation_turn": 995,
+                    "reference_name": "Fig. 2daa5d1b"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "business",
+                "economy",
+                "technology"
+            ],
+            "original_question": "the text, which stock's performance change would likely have the most significant impact on the NAV/share growth trend due to having the \"highest weight in this portfolio\"?"
+        }
+    },
+    {
+        "id": "QA_sample_10017d6f",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 110135ca, According to the previous definition, does New York City have a \"balanced gender ratio\"?",
+        "answer": "Yes",
+        "evidence": {
+            "text_evidence": [
+                "A city is considered to have a balanced gender ratio when the percentage of males and females in the population is within a 5% variance of each other. For example, a 50% male and 50% female population is perfectly balanced, while a city with 47% males and 53% females would still be considered balanced because the variance is within 5%."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_3b695767.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Yes",
+                "No"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_politics_business_de29bb08",
+                    "insert_conversation_turn": 1331
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_sports_films_environment_dd05d402",
+                    "insert_conversation_turn": 186,
+                    "reference_name": "Fig. 110135ca"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "economy",
+                "lifestyle",
+                "education",
+                "business",
+                "government"
+            ],
+            "original_question": "According to the previous definition, does New York City have a \"balanced gender ratio\"?"
+        }
+    },
+    {
+        "id": "QA_sample_145d9000",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 8a1cb77b, the text, what would be expected to happen to gold prices following a sharp rise in the \"volume of negative-yielding debt,\" and does this outcome align with the \"positive correlation\" described?",
+        "answer": "Gold prices rose significantly, aligning with the positive correlation.",
+        "evidence": {
+            "text_evidence": [
+                "A positive correlation exists between the volume of negative-yielding debt (measured in trillions of U.S. dollars) and gold prices (measured in USD per ounce). Assume this relationship holds consistently over time."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_e5b36ca9.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Gold prices fell sharply, contrary to the positive correlation",
+                "Gold prices rose significantly, aligning with the positive correlation.",
+                "Gold prices showed no consistent trend relative to negative-yielding debt",
+                "Gold prices remained stagnant despite the rise in negative-yielding debt"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_politics_business_de29bb08",
+                    "insert_conversation_turn": 966
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_sports_films_environment_dd05d402",
+                    "insert_conversation_turn": 1146,
+                    "reference_name": "Fig. 8a1cb77b"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "economy",
+                "business"
+            ],
+            "original_question": "the text, what would be expected to happen to gold prices following a sharp rise in the \"volume of negative-yielding debt,\" and does this outcome align with the \"positive correlation\" described?"
+        }
+    },
+    {
+        "id": "QA_sample_7d9a544f",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 9a96d37b, the text, what is the classification of PG&E's stock according to the 'high risk' criteria of experiencing an 80% or more decline from its record high?",
+        "answer": "High risk",
+        "evidence": {
+            "text_evidence": [
+                "A utility company's stock is considered 'high risk' if it has experienced a decline of 80% or more compared to its record high. Additionally, failure to maintain steady valuation after major events like natural disasters can contribute to the risk classification."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_45eab3dc.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "High risk",
+                "Moderate risk",
+                "Low risk",
+                "Stable"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_sports_films_environment_dd05d402",
+                    "insert_conversation_turn": 267
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_lifestyle_art_and_design_fc578584",
+                    "insert_conversation_turn": 459,
+                    "reference_name": "Fig. 9a96d37b"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "business",
+                "economy"
+            ],
+            "original_question": "the text, what is the classification of PG&E's stock according to the 'high risk' criteria of experiencing an 80% or more decline from its record high?"
+        }
+    },
+    {
+        "id": "QA_sample_98619a93",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 80571a9c, the company's definition of stability, how many quarters in the chart above are classified as \"unstable\"?",
+        "answer": "4",
+        "evidence": {
+            "text_evidence": [
+                "A business considers its performance to be stable if its quarterly revenue change stays within ±5%. If the revenue change exceeds this range, the quarter is classified as unstable."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_ba578e4f.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "3",
+                "4",
+                "2",
+                "5"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_politics_business_de29bb08",
+                    "insert_conversation_turn": 1214
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_sports_films_environment_dd05d402",
+                    "insert_conversation_turn": 539,
+                    "reference_name": "Fig. 80571a9c"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "business",
+                "economy"
+            ],
+            "original_question": "the company's definition of stability, how many quarters in the chart above are classified as \"unstable\"?"
+        }
+    },
+    {
+        "id": "QA_sample_97ca9581",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 10b51e3d, the previous definition, which period demonstrates a more significant improvement in the labor market according to the criteria of \"reduced unemployment and increased employment among individuals aged 16+\"?",
+        "answer": "Mar-May 2014",
+        "evidence": {
+            "text_evidence": [
+                "According to employment policies, an improvement in the labor market is measured by a combination of reduced unemployment of individuals aged 16+, and increased employment across the same demographic. Additionally, any significant growth in the economically inactive population (especially aged 16+) indicates challenges in activating the full labor force potential. Use this context to evaluate the trends over different periods shown in the chart."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_6e35cc62.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "May-Aug 2014",
+                "Mar-Aug 2013",
+                "Jun-Aug 2013",
+                "Mar-May 2014"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_sports_films_environment_dd05d402",
+                    "insert_conversation_turn": 727
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_lifestyle_art_and_design_fc578584",
+                    "insert_conversation_turn": 1093,
+                    "reference_name": "Fig. 10b51e3d"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "economy"
+            ],
+            "original_question": "the previous definition, which period demonstrates a more significant improvement in the labor market according to the criteria of \"reduced unemployment and increased employment among individuals aged 16+\"?"
+        }
+    },
+    {
+        "id": "QA_sample_69d20a6f",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 433c171e, the text, using the stock price information in the chart and the formula \"[(New Price - Old Price) / Old Price] × 100\" for calculating a stock's percentage increase, what is the percentage increase in Netflix's stock price on news of a deal with Disney?",
+        "answer": "14%",
+        "evidence": {
+            "text_evidence": [
+                "A stock's percentage increase is calculated using the formula: [(New Price - Old Price) / Old Price] × 100. Assume Netflix's stock price on the previous day before the 'Tuesday close' was $76.00."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_f45f8825.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "18%",
+                "14%",
+                "12%",
+                "16%"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_lifestyle_art_and_design_fc578584",
+                    "insert_conversation_turn": 856
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_sports_films_environment_dd05d402",
+                    "insert_conversation_turn": 801,
+                    "reference_name": "Fig. 433c171e"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "business",
+                "economy"
+            ],
+            "original_question": "the text, using the stock price information in the chart and the formula \"[(New Price - Old Price) / Old Price] × 100\" for calculating a stock's percentage increase, what is the percentage increase in Netflix's stock price on news of a deal with Disney?"
+        }
+    },
+    {
+        "id": "QA_sample_c01f1b8a",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 00e527f8, According to the previous definition, what percentage of its pre-crisis peak value must a stock index reach to be considered \"recovered from a financial crisis,\" and had the S&P/ASX 200 index met this criterion by June 2020?",
+        "answer": "It must reach 90% of its peak value. No, the index had not recovered by June 2020 as its value was below 6,300.",
+        "evidence": {
+            "text_evidence": [
+                "A stock index is considered to have recovered from a financial crisis if its value reaches at least 90% of the highest point it had before the crisis began. The S&P/ASX 200 index peaked at 7,000 before it saw a decline in early 2020."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_1498d919.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "95% of its peak value No the index had not recovered by June 2020",
+                "90% of its peak value Yes the index had recovered by June 2020",
+                "80% of its peak value Yes the index had recovered by June 2020",
+                "It must reach 90% of its peak value. No, the index had not recovered by June 2020 as its value was below 6,300."
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_politics_business_de29bb08",
+                    "insert_conversation_turn": 180
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_lifestyle_art_and_design_fc578584",
+                    "insert_conversation_turn": 663,
+                    "reference_name": "Fig. 00e527f8"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "economy",
+                "business"
+            ],
+            "original_question": "According to the previous definition, what percentage of its pre-crisis peak value must a stock index reach to be considered \"recovered from a financial crisis,\" and had the S&P/ASX 200 index met this criterion by June 2020?"
+        }
+    },
+    {
+        "id": "QA_sample_208a2c67",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. c4ddcbaf, the previous definition, how many years between 2007 and 2016 are considered \"high-performing years\" for Chinese M&A spending?",
+        "answer": "2 years (2014 and 2015)",
+        "evidence": {
+            "text_evidence": [
+                "A year is considered a high-performing year for Chinese M&A spending if the number of deals exceeds 400 and the total value surpasses $70 billion. Analyze the provided chart to determine the number of high-performing years."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_46015b19.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "4 years (2013, 2014, 2015, and 2016)",
+                "3 years (2014, 2015, and 2016)",
+                "1 year (2015)",
+                "2 years (2014 and 2015)"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_lifestyle_art_and_design_fc578584",
+                    "insert_conversation_turn": 254
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_politics_business_de29bb08",
+                    "insert_conversation_turn": 241,
+                    "reference_name": "Fig. c4ddcbaf"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "business",
+                "economy"
+            ],
+            "original_question": "the previous definition, how many years between 2007 and 2016 are considered \"high-performing years\" for Chinese M&A spending?"
+        }
+    },
+    {
+        "id": "QA_sample_252c4495",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 18cd978b, the text, which regions or countries had a debt-to-GDP ratio that would be considered \"unsustainable\" in Q1 2022, according to the previous definition?",
+        "answer": "U.S., Euro Area, and Mature Markets (ex-U.S., ex-EA)",
+        "evidence": {
+            "text_evidence": [
+                "A country's debt level is considered unsustainable if its total debt exceeds 250% of its GDP. In Q1 2022, the global debt-to-GDP ratio reached an all-time high, surpassing the values from previous years displayed in the chart. Evaluate the debt sustainability for regions and countries based on these criteria."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_11f94de9.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "Global Markets",
+                "Emerging Markets (ex-China)",
+                "U.S., Euro Area, and Mature Markets (ex-U.S., ex-EA)",
+                "China"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_sports_films_environment_dd05d402",
+                    "insert_conversation_turn": 395
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_lifestyle_art_and_design_fc578584",
+                    "insert_conversation_turn": 1115,
+                    "reference_name": "Fig. 18cd978b"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "economy"
+            ],
+            "original_question": "the text, which regions or countries had a debt-to-GDP ratio that would be considered \"unsustainable\" in Q1 2022, according to the previous definition?"
+        }
+    },
+    {
+        "id": "QA_sample_4e1882c1",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 79e5ade0, the text, which loan type and grouping shows a significant proportion of loans that meet the \"low-risk category\" criteria, according to the definition of having an LVR of 60% or below and \"smaller adjustments for the offset balance\"?",
+        "answer": "P&I, owner-occupier",
+        "evidence": {
+            "text_evidence": [
+                "For a loan to be considered in a low-risk category, the Loan-to-Valuation Ratio (LVR) must be 60% or below. Additionally, loans with smaller adjustments for the offset balance are generally considered more stable, regardless of their LVR. Analyze the chart data to determine risk levels by these criteria."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_9ea6faea.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "Interest-only, owner-occupier",
+                "P&I, investor",
+                "Interest-only, investor",
+                "P&I, owner-occupier"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_lifestyle_art_and_design_fc578584",
+                    "insert_conversation_turn": 997
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_politics_business_de29bb08",
+                    "insert_conversation_turn": 123,
+                    "reference_name": "Fig. 79e5ade0"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "economy"
+            ],
+            "original_question": "the text, which loan type and grouping shows a significant proportion of loans that meet the \"low-risk category\" criteria, according to the definition of having an LVR of 60% or below and \"smaller adjustments for the offset balance\"?"
+        }
+    },
+    {
+        "id": "QA_sample_6036ed4c",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. c983d193, the text, during the peak demand period shown in the chart, was the demand \"'accurately forecasted' according to the previous definition,\" and if so, at what approximate time did it occur?",
+        "answer": "Yes",
+        "evidence": {
+            "text_evidence": [
+                "Demand is considered 'accurately forecasted' when both the day-ahead and hour-ahead forecasts are within 1,000 MW of the actual demand (5-minute average). In addition, the time of peak demand for the day must match among all three values for that time to be considered accurately forecasted."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_9b12b2f3.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "No",
+                "Yes"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_lifestyle_art_and_design_fc578584",
+                    "insert_conversation_turn": 775
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_sports_films_environment_dd05d402",
+                    "insert_conversation_turn": 336,
+                    "reference_name": "Fig. c983d193"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "technology",
+                "economy"
+            ],
+            "original_question": "the text, during the peak demand period shown in the chart, was the demand \"'accurately forecasted' according to the previous definition,\" and if so, at what approximate time did it occur?"
+        }
+    },
+    {
+        "id": "QA_sample_6d4a3b67",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 9455d1e6, According to the previous definition, based on the graph, when was economic growth \"unbalanced\" due to \"investment contributing negatively to GDP growth\"?",
+        "answer": "Between 2011 and 2016, investment contributed negatively to GDP growth.",
+        "evidence": {
+            "text_evidence": [
+                "A balanced economic growth strategy requires both consumption and investment to contribute positively to GDP growth, with neither falling below zero for prolonged periods. If either drops below zero, it signals an imbalance that can negatively affect the economy's long-term prospects."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_332c2dd4.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Between 2011 and 2016, investment contributed negatively to GDP growth.",
+                "Between 2015 and 2017, investment steadily improved",
+                "Between 2010 and 2012, investment remained stagnant",
+                "Between 2008 and 2010, investment contributed negatively to GDP growth"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_politics_business_de29bb08",
+                    "insert_conversation_turn": 293
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_sports_films_environment_dd05d402",
+                    "insert_conversation_turn": 121,
+                    "reference_name": "Fig. 9455d1e6"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "economy",
+                "government"
+            ],
+            "original_question": "According to the previous definition, based on the graph, when was economic growth \"unbalanced\" due to \"investment contributing negatively to GDP growth\"?"
+        }
+    },
+    {
+        "id": "QA_sample_37e6f137",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 5fe5943c, the text, which country's GDP growth forecast for the next year is considered \"optimistic\"?",
+        "answer": "The country represented by the pink line.",
+        "evidence": {
+            "text_evidence": [
+                "Forecasts for GDP growth are considered optimistic if they exceed 3% in the following year, while those falling below 2% are deemed pessimistic. Values between 2% and 3% are viewed as moderate. Assume that the latest year shown in the forecast section of the chart corresponds to the next year."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_8d50eb83.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "The country represented by the green line",
+                "The country represented by the yellow line",
+                "The country represented by the blue line",
+                "The country represented by the pink line."
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_politics_business_de29bb08",
+                    "insert_conversation_turn": 1033
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_lifestyle_art_and_design_fc578584",
+                    "insert_conversation_turn": 633,
+                    "reference_name": "Fig. 5fe5943c"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "economy"
+            ],
+            "original_question": "the text, which country's GDP growth forecast for the next year is considered \"optimistic\"?"
+        }
+    },
+    {
+        "id": "QA_sample_a2cf34cf",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 446e3488, the previous definition, did the Construction sector's payrolls demonstrate a \"significant recovery\" in February 2017?",
+        "answer": "Yes",
+        "evidence": {
+            "text_evidence": [
+                "Assume that a sector is considered to have made a significant recovery if its payrolls show a consistent positive percentage change over 0.5% during at least one month after 2016. Examine the trend shown in the chart, which represents changes in job gains and losses across various sectors from 2009 to 2017."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_1c89a0fe.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "No",
+                "Yes"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_lifestyle_art_and_design_fc578584",
+                    "insert_conversation_turn": 551
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_sports_films_environment_dd05d402",
+                    "insert_conversation_turn": 683,
+                    "reference_name": "Fig. 446e3488"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "economy",
+                "business"
+            ],
+            "original_question": "the previous definition, did the Construction sector's payrolls demonstrate a \"significant recovery\" in February 2017?"
+        }
+    },
+    {
+        "id": "QA_sample_9fd85750",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 5a776553, the text, which income levels within the 'Midtown Singles' profile demonstrate \"financial diversity,\" defined as the presence of at least two distinct lifemode segments with income levels differing by at least $20,000?",
+        "answer": "$54,120 and $82,987",
+        "evidence": {
+            "text_evidence": [
+                "In urban development studies, an area is considered financially diverse if it contains at least two distinct lifemode segments with income levels differing by at least $20,000. This typically highlights diversity in living standards and job sectors across the population. Focus your analysis specifically on the 'Midtown Singles' profile and assess it against this criterion."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_c241008d.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "$36,816 and $54,120",
+                "$82,987 and $375,958",
+                "$54,120 and $82,987",
+                "$65,779 and $54,120"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_politics_business_de29bb08",
+                    "insert_conversation_turn": 597
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_sports_films_environment_dd05d402",
+                    "insert_conversation_turn": 775,
+                    "reference_name": "Fig. 5a776553"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "economy"
+            ],
+            "original_question": "the text, which income levels within the 'Midtown Singles' profile demonstrate \"financial diversity,\" defined as the presence of at least two distinct lifemode segments with income levels differing by at least $20,000?"
+        }
+    },
+    {
+        "id": "QA_sample_f28cd9c5",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. f63d5156, the text, which OPEC member countries had proven crude oil reserves below the \"minimum proven crude oil reserve required to ensure energy security for the next two decades\" as defined by the International Energy Agency in 2015?",
+        "answer": "Ecuador, Gabon, Indonesia.",
+        "evidence": {
+            "text_evidence": [
+                "The International Energy Agency (IEA) has estimated that countries need to maintain a minimum proven crude oil reserve equivalent to 20 billion barrels to ensure energy security for the next two decades. Countries not meeting this threshold are considered at risk of future energy shortages unless alternative strategies are developed."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_82ca9cc4.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "Libya",
+                "Qatar",
+                "Angola",
+                "Ecuador, Gabon, Indonesia."
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_politics_business_de29bb08",
+                    "insert_conversation_turn": 1065
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_lifestyle_art_and_design_fc578584",
+                    "insert_conversation_turn": 134,
+                    "reference_name": "Fig. f63d5156"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "economy",
+                "environment"
+            ],
+            "original_question": "the text, which OPEC member countries had proven crude oil reserves below the \"minimum proven crude oil reserve required to ensure energy security for the next two decades\" as defined by the International Energy Agency in 2015?"
+        }
+    },
+    {
+        "id": "QA_sample_1bdd28a5",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 1b41894c, According to the previous definitions, based on the chart 'Milk Production Cost by number of cows 2017,' which \"large-scale operation\" achieves lower production costs, and which \"smaller-scale operation\" is likely prioritized for \"environmental sustainability\" under the new policy?",
+        "answer": "'More than 500 cows' achieves lower production costs, while 'less than 50 cows' is prioritized for environmental sustainability.",
+        "evidence": {
+            "text_evidence": [
+                "In agricultural production systems, economies of scale often dictate the unit cost of production, with larger herds or cultivated areas benefiting from lower costs per unit. Suppose a new policy recommends focusing on farming systems with production costs minimized while maintaining environmental sustainability. Particularly, let's assume that for any policy recommendations, systems with more than 200 units of cows are considered large-scale operations, potentially benefiting from economies of scale, while smaller-scale operations cultivate a more sustainable footprint but might have higher unit costs."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_ad4fbe87.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "'More than 500 cows' achieves lower production costs, while 'less than 50 cows' is prioritized for environmental sustainability.",
+                "100-200 cows achieves lower production costs while 50-100 cows is prioritized for environmental sustainability",
+                "200-400 cows achieves lower production costs while 50-100 cows is prioritized for environmental sustainability",
+                "20-400 cows achieves lower production costs while 100-200 cows is prioritized for environmental sustainability"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_sports_films_environment_dd05d402",
+                    "insert_conversation_turn": 827
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_politics_business_de29bb08",
+                    "insert_conversation_turn": 1317,
+                    "reference_name": "Fig. 1b41894c"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "agriculture",
+                "environment",
+                "economy"
+            ],
+            "original_question": "According to the previous definitions, based on the chart 'Milk Production Cost by number of cows 2017,' which \"large-scale operation\" achieves lower production costs, and which \"smaller-scale operation\" is likely prioritized for \"environmental sustainability\" under the new policy?"
+        }
+    },
+    {
+        "id": "QA_sample_b95c697d",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 8231f075, the text, which industry sector demonstrated a \"faster recovery due to their diversity in production lines\" after the economic decline in 2008?",
+        "answer": "Industry (excluding energy and construction)",
+        "evidence": {
+            "text_evidence": [
+                "A significant event occurred during 2008 that greatly impacted production across industries. Assume that industries excluding energy and construction were able to recover faster due to their diversity in production lines. Additionally, construction-related industries typically respond slower to market changes but benefit from longer-term government-backed projects after sharp economic downturns."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_da4a017d.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Transportation and logistics",
+                "Industry (excluding energy and construction)",
+                "Energy production",
+                "Construction"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_lifestyle_art_and_design_fc578584",
+                    "insert_conversation_turn": 974
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_sports_films_environment_dd05d402",
+                    "insert_conversation_turn": 1409,
+                    "reference_name": "Fig. 8231f075"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "economy",
+                "business"
+            ],
+            "original_question": "the text, which industry sector demonstrated a \"faster recovery due to their diversity in production lines\" after the economic decline in 2008?"
+        }
+    },
+    {
+        "id": "QA_sample_db57dcd1",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 71dab430, the previous definitions, when did the global \"'low-rate period'\" begin according to the chart, and was \"'economic stabilization'\" likely in the years immediately before it?",
+        "answer": "The global 'low-rate period' began around 2010, and economic stabilization was unlikely in the years before it since the world real rate fell consistently below 2% during the late 2000s.",
+        "evidence": {
+            "text_evidence": [
+                "Economists define a 'low-rate period' as one in which real interest rates fall below 1%. Additionally, global economic growth trends tend to stabilize when the average world real rate is maintained between 2% and 3%. Assume the data shown in the chart accurately represents real rates during these periods."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_7977489e.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "Around 2005, and economic stabilization was unlikely since the world real rate exceeded 3%",
+                "Around 2010, but economic stabilization was likely since the world real rate hovered near 3% in the late 2000s",
+                "The global 'low-rate period' began around 2010, and economic stabilization was unlikely in the years before it since the world real rate fell consistently below 2% during the late 2000s.",
+                "Around 2008, and economic stabilization was likely as the world real rate remained stable near 2%"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_politics_business_de29bb08",
+                    "insert_conversation_turn": 952
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_lifestyle_art_and_design_fc578584",
+                    "insert_conversation_turn": 960,
+                    "reference_name": "Fig. 71dab430"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "economy"
+            ],
+            "original_question": "the previous definitions, when did the global \"'low-rate period'\" begin according to the chart, and was \"'economic stabilization'\" likely in the years immediately before it?"
+        }
+    },
+    {
+        "id": "QA_sample_2d2c9d34",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. a86b8fed, the text, in which years did Argentina achieve a \"successful economic improvement policy\" according to the definition of maintaining the income inequality ratio below 20 for at least three consecutive years, as shown in the chart?",
+        "answer": "2007 to 2009",
+        "evidence": {
+            "text_evidence": [
+                "An economic improvement policy is deemed successful if it reduces income inequality, measured by the ratio of the 95th income percentile to the 5th percentile, to below 20 while maintaining this level consistently for at least three consecutive years."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_9555359e.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "2007 to 2009",
+                "2003 to 2005",
+                "1994 to 1996",
+                "1999 to 2001"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_sports_films_environment_dd05d402",
+                    "insert_conversation_turn": 1447
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_politics_business_de29bb08",
+                    "insert_conversation_turn": 1302,
+                    "reference_name": "Fig. a86b8fed"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "economy"
+            ],
+            "original_question": "the text, in which years did Argentina achieve a \"successful economic improvement policy\" according to the definition of maintaining the income inequality ratio below 20 for at least three consecutive years, as shown in the chart?"
+        }
+    },
+    {
+        "id": "QA_sample_b5ffe8fd",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 0fe66f1c, the text, does the group 'Midtown Singles' meet the criteria for being \"'Highly Educated and Thriving',\" according to the definitions of education level and median household income provided?",
+        "answer": "No",
+        "evidence": {
+            "text_evidence": [
+                "A city segment is considered highly educated if at least 30% of its population holds a bachelor's degree or higher. Simultaneously, it qualifies as economically thriving if the median household income exceeds $60,000. Both conditions must be met for the designation 'Highly Educated and Thriving.'"
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_c241008d.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Yes",
+                "No"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_sports_films_environment_dd05d402",
+                    "insert_conversation_turn": 760
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_politics_business_de29bb08",
+                    "insert_conversation_turn": 464,
+                    "reference_name": "Fig. 0fe66f1c"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "education",
+                "economy"
+            ],
+            "original_question": "the text, does the group 'Midtown Singles' meet the criteria for being \"'Highly Educated and Thriving',\" according to the definitions of education level and median household income provided?"
+        }
+    },
+    {
+        "id": "QA_sample_cc88fe6a",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. d93531f8, According to the previous definition, what was the level of economic inequality in Argentina in 1999 and 2009 based on whether the income ratio fell into the 'high' or 'moderate' category, and how did it change between these years?",
+        "answer": "In 1999, inequality was high (income ratio above 20), and in 2009, it was moderate (income ratio between 10 and 20). Inequality decreased from high to moderate.",
+        "evidence": {
+            "text_evidence": [
+                "An economist defines economic inequality as 'high' when the income ratio of the 95th percentile to the 5th percentile exceeds 20. Conversely, inequality is considered 'moderate' when this ratio is between 10 and 20. Analyze the trends shown in Argentina's income ratio chart considering this classification for the years 1999 and 2009."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_61461131.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "In 1999, inequality was high, and in 2009, it was high showing no change",
+                "In 1999, inequality was high (income ratio above 20), and in 2009, it was moderate (income ratio between 10 and 20). Inequality decreased from high to moderate.",
+                "Inequality was moderate in both 1999 and 2009 and remained stable",
+                "In 1999, inequality was moderate, and in 2009, it was low indicating a decrease"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_sports_films_environment_dd05d402",
+                    "insert_conversation_turn": 1191
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_politics_business_de29bb08",
+                    "insert_conversation_turn": 1272,
+                    "reference_name": "Fig. d93531f8"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "economy"
+            ],
+            "original_question": "According to the previous definition, what was the level of economic inequality in Argentina in 1999 and 2009 based on whether the income ratio fell into the 'high' or 'moderate' category, and how did it change between these years?"
+        }
+    },
+    {
+        "id": "QA_sample_48d15d48",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 96b0bddf, the text, does the \"Out of Stock %\" in December meet the \"target for OOS %\" and does the \"Stock Turnover\" in 2023FY meet its \"respective target\"?",
+        "answer": "Yes",
+        "evidence": {
+            "text_evidence": [
+                "A supply chain management solution is evaluated using three specific indicators: Units Per Transaction (UTP), Out of Stock % (OOS %), and Stock Turnover. The target for OOS % is less than 1.0%. The Stock Turnover should meet or exceed its respective target (value is represented by a dotted line in the bar chart)."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_88b5bed4.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "No",
+                "Yes"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_politics_business_de29bb08",
+                    "insert_conversation_turn": 688
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_lifestyle_art_and_design_fc578584",
+                    "insert_conversation_turn": 840,
+                    "reference_name": "Fig. 96b0bddf"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "business",
+                "economy"
+            ],
+            "original_question": "the text, does the \"Out of Stock %\" in December meet the \"target for OOS %\" and does the \"Stock Turnover\" in 2023FY meet its \"respective target\"?"
+        }
+    },
+    {
+        "id": "QA_sample_7c8dbc2f",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 8b86f07a, the text and the government initiative, was there any year when the casino revenue exceeded the \"'combined turnover from 4-D, Toto, Singapore Sweep, and sports betting'\" as defined for measuring success?",
+        "answer": "No",
+        "evidence": {
+            "text_evidence": [
+                "A government initiative aims to increase gaming revenue by encouraging casinos to outperform sports betting and horse racing in annual turnover. For success, casino revenue must exceed the turnover from 4-D, Toto, Singapore Sweep, and sports betting combined for any year shown. The initiative measures success year by year."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_e1da50a1.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Yes",
+                "No"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_politics_business_de29bb08",
+                    "insert_conversation_turn": 728
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_lifestyle_art_and_design_fc578584",
+                    "insert_conversation_turn": 183,
+                    "reference_name": "Fig. 8b86f07a"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "government",
+                "economy"
+            ],
+            "original_question": "the text and the government initiative, was there any year when the casino revenue exceeded the \"'combined turnover from 4-D, Toto, Singapore Sweep, and sports betting'\" as defined for measuring success?"
+        }
+    },
+    {
+        "id": "QA_sample_c9761890",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 03a9935a, the text, which states have milk sufficiency that is \"'low' as defined by per capita milk availability below the national average,\" and is the national milk production considered to be \"'growing steadily' according to the average annual growth threshold\"?",
+        "answer": "States with 'low' milk sufficiency: Telangana, Tamil Nadu, Bihar, Maharashtra, Kerala, Jharkhand, West Bengal, Odisha, Chhattisgarh, and Assam. Yes, the national milk production shows steady growth.",
+        "evidence": {
+            "text_evidence": [
+                "A state's milk sufficiency is considered 'high' if the per capita milk availability is above 500 gm/day and is considered 'low' if it is below the national average of 427 gm/day. Similarly, at the national level, milk production is considered growing steadily if the average annual growth in production is above 6 million tonnes."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_2519ab38.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "States with 'low' milk sufficiency: Punjab, Rajasthan, Haryana, Gujarat, and Karnataka. Yes, the national milk production shows steady growth",
+                "States with 'low' milk sufficiency: Rajasthan, Haryana, Gujarat, Uttar Pradesh, and Andhra Pradesh. No, the national milk production does not show steady growth",
+                "States with 'low' milk sufficiency: Punjab, Rajasthan, Andhra Pradesh, Karnataka, and Telangana. No, the national milk production does not show steady growth",
+                "States with 'low' milk sufficiency: Telangana, Tamil Nadu, Bihar, Maharashtra, Kerala, Jharkhand, West Bengal, Odisha, Chhattisgarh, and Assam. Yes, the national milk production shows steady growth."
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_sports_films_environment_dd05d402",
+                    "insert_conversation_turn": 150
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_lifestyle_art_and_design_fc578584",
+                    "insert_conversation_turn": 916,
+                    "reference_name": "Fig. 03a9935a"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "food",
+                "health",
+                "economy"
+            ],
+            "original_question": "the text, which states have milk sufficiency that is \"'low' as defined by per capita milk availability below the national average,\" and is the national milk production considered to be \"'growing steadily' according to the average annual growth threshold\"?"
+        }
+    },
+    {
+        "id": "QA_sample_ff3dfe64",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. ce1f5e18, the text, which \"categories of challenges impacting over 40% of businesses\" must businesses face to qualify for assistance under the proposed program?",
+        "answer": "Rising inflation, rising cost of inputs, and rising interest rates and debt-related costs.",
+        "evidence": {
+            "text_evidence": [
+                "A government program is being proposed to assist Canadian businesses struggling the most in specific cost-related areas. This program will prioritize businesses reporting the greatest barriers caused by factors impacting over 40% of surveyed businesses, specifically in the categories of inflation, cost of inputs, and interest rates. The eligibility threshold requires at least two of these challenges (each faced by over 40% of businesses) to be contributing to significant financial stress."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_d6989282.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Rising cost of maintenance and repairs, rising cost of inputs, and rising inflation",
+                "Rising inflation, rising cost of inputs, and rising interest rates and debt-related costs.",
+                "Rising insurance costs, rising interest rates and debt-related costs, and rising cost of inputs",
+                "Rising inflation, rising property taxes, and rising interest rates and debt-related costs"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_lifestyle_art_and_design_fc578584",
+                    "insert_conversation_turn": 54
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_sports_films_environment_dd05d402",
+                    "insert_conversation_turn": 1177,
+                    "reference_name": "Fig. ce1f5e18"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "business",
+                "government",
+                "economy"
+            ],
+            "original_question": "the text, which \"categories of challenges impacting over 40% of businesses\" must businesses face to qualify for assistance under the proposed program?"
+        }
+    },
+    {
+        "id": "QA_sample_1e54b1b4",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 405197e5, the text, which roast types meet the \"popular\" qualification, and which countries qualify as \"significant markets\" according to the 2021 dashboard data?",
+        "answer": "Roast types D and M; Ireland and the US.",
+        "evidence": {
+            "text_evidence": [
+                "In 2021, the company introduced a new goal to increase sales across all regions. An increase in sales of 13% or more compared to the previous year (PY) is classified as a successful outcome. Each coffee roast type (D, L, and M) had a target of achieving at least 100 orders for the year to qualify as popular. Additionally, countries with more than 10% of total orders are considered significant markets."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_ec467b0f.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "Roast types D and L; Ireland and the UK",
+                "Roast types D and M; the UK and the US",
+                "Roast types L and M; Ireland and the US",
+                "Roast types D and M; Ireland and the US."
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_sports_films_environment_dd05d402",
+                    "insert_conversation_turn": 380
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_lifestyle_art_and_design_fc578584",
+                    "insert_conversation_turn": 153,
+                    "reference_name": "Fig. 405197e5"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "business",
+                "economy"
+            ],
+            "original_question": "the text, which roast types meet the \"popular\" qualification, and which countries qualify as \"significant markets\" according to the 2021 dashboard data?"
+        }
+    },
+    {
+        "id": "QA_sample_03190337",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. dfeefb67, the previous definition, does the day-ahead forecast meet the provider's criteria for \"accurate\" forecasts according to the chart for August 17, 2020?",
+        "answer": "No",
+        "evidence": {
+            "text_evidence": [
+                "An energy provider considers its forecasts accurate if the difference between the actual demand (5 min. avg.) and the forecasted values (either day-ahead or hour-ahead) remains less than or equal to 2,000 MW for at least 90% of the time during a day."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_acb7d59b.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "No",
+                "Yes"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_lifestyle_art_and_design_fc578584",
+                    "insert_conversation_turn": 421
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_sports_films_environment_dd05d402",
+                    "insert_conversation_turn": 1612,
+                    "reference_name": "Fig. dfeefb67"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "technology",
+                "business",
+                "economy"
+            ],
+            "original_question": "the previous definition, does the day-ahead forecast meet the provider's criteria for \"accurate\" forecasts according to the chart for August 17, 2020?"
+        }
+    }
+]

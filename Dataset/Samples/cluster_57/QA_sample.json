@@ -1,0 +1,1582 @@
+[
+    {
+        "id": "QA_sample_1ffd677a_2",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 0c82c1cf, Among the activities that could reasonably occur in the given image, which one is Bridget Deleon least likely to be doing?",
+        "answer": "Watching sports TV",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Bridget Deleon enjoys live band karaoke, magic shows, but dislikes sports TV, romantic dramas"
+            ],
+            "image_evidence": [
+                "MMPB_2d99653f.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Bridget Deleon enjoys historical site tours, food tours, but dislikes overland train journeys, remote island hopping",
+                "In terms of lifestyle, Bridget Deleon enjoys early morning jogs, massages, but dislikes home gardening, night owl lifestyle",
+                "In terms of shopping, Bridget Deleon enjoys handwoven rugs, fancy cutlery sets, but dislikes handmade crafts, vintage furniture",
+                "In terms of fashion, Bridget Deleon enjoys handmade accessories, bold colors, but dislikes business casual, athleisure wear."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Buying vintage furniture",
+                "Watching sports TV",
+                "Watching news TV",
+                "Watching cooking shows"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_fashion_sports_technology_695cc19e",
+                    "insert_conversation_turn": 402
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_economy_education_sports_392aa437",
+                    "insert_conversation_turn": 257,
+                    "reference_name": "Fig. 0c82c1cf"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_television_environment_art_and_design_a44f5425",
+                    "insert_conversation_turn": 241
+                },
+                {
+                    "conversation_name": "group_chat_fashion_sports_technology_695cc19e",
+                    "insert_conversation_turn": 417
+                },
+                {
+                    "conversation_name": "group_chat_economy_education_sports_392aa437",
+                    "insert_conversation_turn": 117
+                },
+                {
+                    "conversation_name": "group_chat_fashion_sports_technology_695cc19e",
+                    "insert_conversation_turn": 166
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Faker",
+            "description": "Faker is a young adult male with a slender build and an average height impression. His facial structure is characterized by a well-defined jawline and a slightly prominent nose, with a neutral to slightly serious expression in most images. Faker has a fair skin tone and wears glasses with thin frames, which add an intellectual and focused look. His hair is short and neatly styled, often with a slight side part, and in one image, it features a striking red tint. Faker frequently appears with a thumbs-up gesture or a finger to his lips, suggesting a mix of confidence and contemplation.\n\n**Outfit and Accessories:**\nFaker's attire is predominantly sporty and team-oriented, reflecting his involvement in esports. He is often seen in team jerseys, such as a red and white jersey with \"SKT T1\" and \"Red Bull\" logos, and a black jacket with \"SK Telecom\" branding. These outfits are practical and functional, designed for comfort and team representation. The color palette includes red, white, black, and blue, with occasional accents of gold and silver. Faker's clothing is typically made of lightweight, breathable materials suitable for gaming environments. The presence of sponsor logos indicates his professional status in the esports world.\n\n**Distinguishing Visual Features or Vibe:**\nFaker exudes a professional and focused aura, reinforced by his consistent appearance in team jerseys and the esports setting. The recurring elements, such as the \"SKT T1\" and \"Red Bull\" logos, along with his glasses and thumbs-up gesture, create a recognizable and memorable image. The red-tinted hair in one image adds a unique and bold touch to his visual identity. The overall vibe is one of dedication and expertise, with a hint of playful confidence, as seen in his various poses and expressions. The combination of his attire, accessories, and the esports context makes Faker visually unmistakable and emblematic of the competitive gaming world.",
+            "preference": "In terms of entertainment, Faker enjoys live band karaoke, magic shows, but dislikes sports TV, romantic dramas. In terms of travel, Faker enjoys historical site tours, food tours, but dislikes overland train journeys, remote island hopping. In terms of lifestyle, Faker enjoys early morning jogs, massages, but dislikes home gardening, night owl lifestyle. In terms of shopping, Faker enjoys handwoven rugs, fancy cutlery sets, but dislikes handmade crafts, vintage furniture. In terms of fashion, Faker enjoys handmade accessories, bold colors, but dislikes business casual, athleisure wear.",
+            "topic": [],
+            "original_id": "QA_sample_1ffd677a",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Bridget Deleon least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_1ffd677a_3",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 3bb71777, Among the activities that could reasonably occur in the given image, which one is Bridget Deleon least likely to be doing?",
+        "answer": "Watching a romantic drama",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Bridget Deleon enjoys live band karaoke, magic shows, but dislikes sports TV, romantic dramas"
+            ],
+            "image_evidence": [
+                "MMPB_6f052249.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Bridget Deleon enjoys historical site tours, food tours, but dislikes overland train journeys, remote island hopping",
+                "In terms of lifestyle, Bridget Deleon enjoys early morning jogs, massages, but dislikes home gardening, night owl lifestyle",
+                "In terms of shopping, Bridget Deleon enjoys handwoven rugs, fancy cutlery sets, but dislikes handmade crafts, vintage furniture",
+                "In terms of fashion, Bridget Deleon enjoys handmade accessories, bold colors, but dislikes business casual, athleisure wear."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "Observing a suspenseful thriller",
+                "Enjoying a comedic sitcom",
+                "Watching a romantic drama",
+                "Home gardening"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_fashion_sports_technology_695cc19e",
+                    "insert_conversation_turn": 402
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_television_environment_art_and_design_a44f5425",
+                    "insert_conversation_turn": 256,
+                    "reference_name": "Fig. 3bb71777"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_television_environment_art_and_design_a44f5425",
+                    "insert_conversation_turn": 241
+                },
+                {
+                    "conversation_name": "group_chat_fashion_sports_technology_695cc19e",
+                    "insert_conversation_turn": 417
+                },
+                {
+                    "conversation_name": "group_chat_economy_education_sports_392aa437",
+                    "insert_conversation_turn": 117
+                },
+                {
+                    "conversation_name": "group_chat_fashion_sports_technology_695cc19e",
+                    "insert_conversation_turn": 166
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Faker",
+            "description": "Faker is a young adult male with a slender build and an average height impression. His facial structure is characterized by a well-defined jawline and a slightly prominent nose, with a neutral to slightly serious expression in most images. Faker has a fair skin tone and wears glasses with thin frames, which add an intellectual and focused look. His hair is short and neatly styled, often with a slight side part, and in one image, it features a striking red tint. Faker frequently appears with a thumbs-up gesture or a finger to his lips, suggesting a mix of confidence and contemplation.\n\n**Outfit and Accessories:**\nFaker's attire is predominantly sporty and team-oriented, reflecting his involvement in esports. He is often seen in team jerseys, such as a red and white jersey with \"SKT T1\" and \"Red Bull\" logos, and a black jacket with \"SK Telecom\" branding. These outfits are practical and functional, designed for comfort and team representation. The color palette includes red, white, black, and blue, with occasional accents of gold and silver. Faker's clothing is typically made of lightweight, breathable materials suitable for gaming environments. The presence of sponsor logos indicates his professional status in the esports world.\n\n**Distinguishing Visual Features or Vibe:**\nFaker exudes a professional and focused aura, reinforced by his consistent appearance in team jerseys and the esports setting. The recurring elements, such as the \"SKT T1\" and \"Red Bull\" logos, along with his glasses and thumbs-up gesture, create a recognizable and memorable image. The red-tinted hair in one image adds a unique and bold touch to his visual identity. The overall vibe is one of dedication and expertise, with a hint of playful confidence, as seen in his various poses and expressions. The combination of his attire, accessories, and the esports context makes Faker visually unmistakable and emblematic of the competitive gaming world.",
+            "preference": "In terms of entertainment, Faker enjoys live band karaoke, magic shows, but dislikes sports TV, romantic dramas. In terms of travel, Faker enjoys historical site tours, food tours, but dislikes overland train journeys, remote island hopping. In terms of lifestyle, Faker enjoys early morning jogs, massages, but dislikes home gardening, night owl lifestyle. In terms of shopping, Faker enjoys handwoven rugs, fancy cutlery sets, but dislikes handmade crafts, vintage furniture. In terms of fashion, Faker enjoys handmade accessories, bold colors, but dislikes business casual, athleisure wear.",
+            "topic": [],
+            "original_id": "QA_sample_1ffd677a",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Bridget Deleon least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_5fe73071_1",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. b23ae29b, Among the activities that could reasonably occur in the given image, which one is Alice House least likely to be doing?",
+        "answer": "Watching cooking shows",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Alice House enjoys classical concerts, art exhibitions, but dislikes cooking shows, travel vlogs",
+                "In terms of lifestyle, Alice House enjoys home gardening, night owl lifestyle, but dislikes boxing workouts, rock climbing gyms"
+            ],
+            "image_evidence": [
+                "MMPB_2d99653f.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Alice House enjoys wildlife safaris, hot air balloon rides, but dislikes mountain climbing, theme park visits",
+                "In terms of shopping, Alice House enjoys sportswear, high-end perfumes, but dislikes gaming accessories, tech gadgets",
+                "In terms of fashion, Alice House enjoys handmade accessories, bold colors, but dislikes chunky boots, strappy sandals."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Watching cooking shows",
+                "Watching action movies",
+                "Watching travel documentaries",
+                "Tending a home garden"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_television_environment_art_and_design_a44f5425",
+                    "insert_conversation_turn": 227
+                },
+                {
+                    "conversation_name": "group_chat_economy_education_sports_392aa437",
+                    "insert_conversation_turn": 521
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_television_environment_art_and_design_a44f5425",
+                    "insert_conversation_turn": 213,
+                    "reference_name": "Fig. b23ae29b"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_television_environment_art_and_design_a44f5425",
+                    "insert_conversation_turn": 271
+                },
+                {
+                    "conversation_name": "group_chat_fashion_sports_technology_695cc19e",
+                    "insert_conversation_turn": 565
+                },
+                {
+                    "conversation_name": "group_chat_fashion_sports_technology_695cc19e",
+                    "insert_conversation_turn": 385
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "zhongtangxi",
+            "description": "zhongtangxi is a man with a medium build and a height that suggests a commanding presence. His facial structure is characterized by a strong jawline and prominent cheekbones, with a slightly furrowed brow that often conveys intensity or contemplation. zhongtangxi has a fair skin tone and dark, wavy hair that falls just above his shoulders, adding to his distinctive look. His expressions range from focused and determined to contemplative and serious, with a tendency to look upwards or to the side, suggesting deep thought or concern. His eyes are a striking feature, often appearing intense and expressive, reflecting a depth of emotion or concentration.\n\n**Outfit and Accessories:**\nzhongtangxi's attire is versatile, reflecting different contexts and moods. In casual settings, he is often seen in a dark gray long-sleeve shirt paired with black pants, exuding a relaxed yet purposeful vibe. For more formal occasions, he dons a black suit with a white shirt and black tie, projecting professionalism and seriousness. In outdoor settings, he wears a green jacket over a gray shirt, suggesting practicality and readiness for various environments. The consistent use of dark and neutral colors in his clothing palette, along with the occasional layering of garments, adds to his adaptable and thoughtful style. The absence of visible accessories keeps the focus on his expressive face and the functionality of his attire.\n\n**Distinguishing Visual Features or Vibe:**\nzhongtangxi's most memorable feature is his intense gaze, which often captures the viewer's attention and conveys a sense of depth and complexity. His wavy hair and strong jawline contribute to a rugged yet thoughtful appearance. The recurring theme of his attire—practical yet refined—reflects a character who is both grounded and capable of handling serious situations. The way he often looks upwards or to the side, combined with his furrowed brow, suggests a contemplative and introspective nature. The consistent use of dark and neutral colors in his clothing, along with the occasional layering, adds to his adaptable and thoughtful style. Overall, zhongtangxi exudes a vibe of intensity, thoughtfulness, and adaptability, making him visually unmistakable and memorable.",
+            "preference": "In terms of entertainment, zhongtangxi enjoys classical concerts, art exhibitions, but dislikes cooking shows, travel vlogs. In terms of travel, zhongtangxi enjoys wildlife safaris, hot air balloon rides, but dislikes mountain climbing, theme park visits. In terms of lifestyle, zhongtangxi enjoys home gardening, night owl lifestyle, but dislikes boxing workouts, rock climbing gyms. In terms of shopping, zhongtangxi enjoys sportswear, high-end perfumes, but dislikes gaming accessories, tech gadgets. In terms of fashion, zhongtangxi enjoys handmade accessories, bold colors, but dislikes chunky boots, strappy sandals.",
+            "topic": [],
+            "original_id": "QA_sample_5fe73071",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Alice House least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_5fe73071_2",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. d2f5ade7, Among the activities that could reasonably occur in the given image, which one is Alice House least likely to be doing?",
+        "answer": "Listening to a travel vlog",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Alice House enjoys classical concerts, art exhibitions, but dislikes cooking shows, travel vlogs",
+                "In terms of lifestyle, Alice House enjoys home gardening, night owl lifestyle, but dislikes boxing workouts, rock climbing gyms"
+            ],
+            "image_evidence": [
+                "MMPB_e9392745.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Alice House enjoys wildlife safaris, hot air balloon rides, but dislikes mountain climbing, theme park visits",
+                "In terms of shopping, Alice House enjoys sportswear, high-end perfumes, but dislikes gaming accessories, tech gadgets",
+                "In terms of fashion, Alice House enjoys handmade accessories, bold colors, but dislikes chunky boots, strappy sandals."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Testing luxury perfumes",
+                "Listening to a travel vlog",
+                "Tuning into a news broadcast",
+                "Engaging with a podcast episode"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_television_environment_art_and_design_a44f5425",
+                    "insert_conversation_turn": 227
+                },
+                {
+                    "conversation_name": "group_chat_economy_education_sports_392aa437",
+                    "insert_conversation_turn": 521
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_fashion_sports_technology_695cc19e",
+                    "insert_conversation_turn": 242,
+                    "reference_name": "Fig. d2f5ade7"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_television_environment_art_and_design_a44f5425",
+                    "insert_conversation_turn": 271
+                },
+                {
+                    "conversation_name": "group_chat_fashion_sports_technology_695cc19e",
+                    "insert_conversation_turn": 565
+                },
+                {
+                    "conversation_name": "group_chat_fashion_sports_technology_695cc19e",
+                    "insert_conversation_turn": 385
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "zhongtangxi",
+            "description": "zhongtangxi is a man with a medium build and a height that suggests a commanding presence. His facial structure is characterized by a strong jawline and prominent cheekbones, with a slightly furrowed brow that often conveys intensity or contemplation. zhongtangxi has a fair skin tone and dark, wavy hair that falls just above his shoulders, adding to his distinctive look. His expressions range from focused and determined to contemplative and serious, with a tendency to look upwards or to the side, suggesting deep thought or concern. His eyes are a striking feature, often appearing intense and expressive, reflecting a depth of emotion or concentration.\n\n**Outfit and Accessories:**\nzhongtangxi's attire is versatile, reflecting different contexts and moods. In casual settings, he is often seen in a dark gray long-sleeve shirt paired with black pants, exuding a relaxed yet purposeful vibe. For more formal occasions, he dons a black suit with a white shirt and black tie, projecting professionalism and seriousness. In outdoor settings, he wears a green jacket over a gray shirt, suggesting practicality and readiness for various environments. The consistent use of dark and neutral colors in his clothing palette, along with the occasional layering of garments, adds to his adaptable and thoughtful style. The absence of visible accessories keeps the focus on his expressive face and the functionality of his attire.\n\n**Distinguishing Visual Features or Vibe:**\nzhongtangxi's most memorable feature is his intense gaze, which often captures the viewer's attention and conveys a sense of depth and complexity. His wavy hair and strong jawline contribute to a rugged yet thoughtful appearance. The recurring theme of his attire—practical yet refined—reflects a character who is both grounded and capable of handling serious situations. The way he often looks upwards or to the side, combined with his furrowed brow, suggests a contemplative and introspective nature. The consistent use of dark and neutral colors in his clothing, along with the occasional layering, adds to his adaptable and thoughtful style. Overall, zhongtangxi exudes a vibe of intensity, thoughtfulness, and adaptability, making him visually unmistakable and memorable.",
+            "preference": "In terms of entertainment, zhongtangxi enjoys classical concerts, art exhibitions, but dislikes cooking shows, travel vlogs. In terms of travel, zhongtangxi enjoys wildlife safaris, hot air balloon rides, but dislikes mountain climbing, theme park visits. In terms of lifestyle, zhongtangxi enjoys home gardening, night owl lifestyle, but dislikes boxing workouts, rock climbing gyms. In terms of shopping, zhongtangxi enjoys sportswear, high-end perfumes, but dislikes gaming accessories, tech gadgets. In terms of fashion, zhongtangxi enjoys handmade accessories, bold colors, but dislikes chunky boots, strappy sandals.",
+            "topic": [],
+            "original_id": "QA_sample_5fe73071",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Alice House least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_5fe73071_3",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 8d49240e, the image, what is Alice House most likely to be doing?",
+        "answer": "Watching a classical concert",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Alice House enjoys classical concerts, art exhibitions, but dislikes cooking shows, travel vlogs",
+                "In terms of lifestyle, Alice House enjoys home gardening, night owl lifestyle, but dislikes boxing workouts, rock climbing gyms"
+            ],
+            "image_evidence": [
+                "MMPB_e907fbc8.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Alice House enjoys wildlife safaris, hot air balloon rides, but dislikes mountain climbing, theme park visits",
+                "In terms of shopping, Alice House enjoys sportswear, high-end perfumes, but dislikes gaming accessories, tech gadgets",
+                "In terms of fashion, Alice House enjoys handmade accessories, bold colors, but dislikes chunky boots, strappy sandals."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Watching a classical concert",
+                "Taking a hot air balloon ride",
+                "Attending a magic performance",
+                "Observing an opera in progress"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_television_environment_art_and_design_a44f5425",
+                    "insert_conversation_turn": 227
+                },
+                {
+                    "conversation_name": "group_chat_economy_education_sports_392aa437",
+                    "insert_conversation_turn": 521
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_economy_education_sports_392aa437",
+                    "insert_conversation_turn": 10,
+                    "reference_name": "Fig. 8d49240e"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_television_environment_art_and_design_a44f5425",
+                    "insert_conversation_turn": 271
+                },
+                {
+                    "conversation_name": "group_chat_fashion_sports_technology_695cc19e",
+                    "insert_conversation_turn": 565
+                },
+                {
+                    "conversation_name": "group_chat_fashion_sports_technology_695cc19e",
+                    "insert_conversation_turn": 385
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "zhongtangxi",
+            "description": "zhongtangxi is a man with a medium build and a height that suggests a commanding presence. His facial structure is characterized by a strong jawline and prominent cheekbones, with a slightly furrowed brow that often conveys intensity or contemplation. zhongtangxi has a fair skin tone and dark, wavy hair that falls just above his shoulders, adding to his distinctive look. His expressions range from focused and determined to contemplative and serious, with a tendency to look upwards or to the side, suggesting deep thought or concern. His eyes are a striking feature, often appearing intense and expressive, reflecting a depth of emotion or concentration.\n\n**Outfit and Accessories:**\nzhongtangxi's attire is versatile, reflecting different contexts and moods. In casual settings, he is often seen in a dark gray long-sleeve shirt paired with black pants, exuding a relaxed yet purposeful vibe. For more formal occasions, he dons a black suit with a white shirt and black tie, projecting professionalism and seriousness. In outdoor settings, he wears a green jacket over a gray shirt, suggesting practicality and readiness for various environments. The consistent use of dark and neutral colors in his clothing palette, along with the occasional layering of garments, adds to his adaptable and thoughtful style. The absence of visible accessories keeps the focus on his expressive face and the functionality of his attire.\n\n**Distinguishing Visual Features or Vibe:**\nzhongtangxi's most memorable feature is his intense gaze, which often captures the viewer's attention and conveys a sense of depth and complexity. His wavy hair and strong jawline contribute to a rugged yet thoughtful appearance. The recurring theme of his attire—practical yet refined—reflects a character who is both grounded and capable of handling serious situations. The way he often looks upwards or to the side, combined with his furrowed brow, suggests a contemplative and introspective nature. The consistent use of dark and neutral colors in his clothing, along with the occasional layering, adds to his adaptable and thoughtful style. Overall, zhongtangxi exudes a vibe of intensity, thoughtfulness, and adaptability, making him visually unmistakable and memorable.",
+            "preference": "In terms of entertainment, zhongtangxi enjoys classical concerts, art exhibitions, but dislikes cooking shows, travel vlogs. In terms of travel, zhongtangxi enjoys wildlife safaris, hot air balloon rides, but dislikes mountain climbing, theme park visits. In terms of lifestyle, zhongtangxi enjoys home gardening, night owl lifestyle, but dislikes boxing workouts, rock climbing gyms. In terms of shopping, zhongtangxi enjoys sportswear, high-end perfumes, but dislikes gaming accessories, tech gadgets. In terms of fashion, zhongtangxi enjoys handmade accessories, bold colors, but dislikes chunky boots, strappy sandals.",
+            "topic": [],
+            "original_id": "QA_sample_5fe73071",
+            "original_question": "the image, what is Alice House most likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_34fdfad9_1",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 24fb0463, Among the activities that could reasonably occur in the given image, which one is Justice Clark least likely to be doing?",
+        "answer": "Searching for a musical film",
+        "evidence": {
+            "text_evidence": [
+                "In terms of travel, Justice Clark enjoys mountain climbing, theme park visits, but dislikes backcountry camping, ice fishing"
+            ],
+            "image_evidence": [
+                "MMPB_81ebaeeb.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of entertainment, Justice Clark enjoys live concerts, stand-up comedy, but dislikes musicals, documentaries",
+                "In terms of lifestyle, Justice Clark enjoys daily smoothies, outdoor workouts, but dislikes forest bathing, holistic therapy",
+                "In terms of shopping, Justice Clark enjoys second-hand books, indie brands, but dislikes retro gaming consoles, wireless earbuds",
+                "In terms of fashion, Justice Clark enjoys casual wear, minimalist outfits, but dislikes hand-knitted sweaters, silk scarves."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "Seeking a film score",
+                "Looking for a movie soundtrack",
+                "Searching for a musical film",
+                "Doing ice fishing"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_fashion_sports_technology_695cc19e",
+                    "insert_conversation_turn": 30
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_fashion_sports_technology_695cc19e",
+                    "insert_conversation_turn": 118,
+                    "reference_name": "Fig. 24fb0463"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_economy_education_sports_392aa437",
+                    "insert_conversation_turn": 507
+                },
+                {
+                    "conversation_name": "group_chat_fashion_sports_technology_695cc19e",
+                    "insert_conversation_turn": 614
+                },
+                {
+                    "conversation_name": "group_chat_fashion_sports_technology_695cc19e",
+                    "insert_conversation_turn": 290
+                },
+                {
+                    "conversation_name": "group_chat_television_environment_art_and_design_a44f5425",
+                    "insert_conversation_turn": 198
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Emma",
+            "description": "Emma is a young woman with a slender build and an average height impression. Her facial structure is characterized by a prominent jawline and a slightly pointed chin, with a fair skin tone that appears smooth and even. Her hair is typically styled in a loose, wavy manner, often pulled back, with a few strands framing her face. Her eyes are a striking feature, with a direct gaze that conveys intensity and focus. The expressions on her face range from serious and contemplative to slightly concerned, suggesting a thoughtful and introspective personality. Her eyebrows are well-defined, adding to her expressive features.\n\n**Outfit and Accessories:**\nEmma is often seen wearing a light-colored, collared shirt with a subtle pattern, paired with a dark cardigan or sweater. The outfit exudes a practical yet slightly formal vibe, with a focus on comfort and modesty. The color palette is muted, featuring shades of gray, white, and dark tones, which contribute to a subdued and understated look. She accessorizes with a long necklace featuring a cross pendant, which adds a touch of personal significance to her attire. The clothing appears to be made of soft, comfortable materials, suitable for everyday wear, and the overall style is modest and functional.\n\n**Distinguishing Visual Features or Vibe:**\nThe most memorable feature of Emma is her intense gaze, which is both captivating and enigmatic. Her loose, wavy hair and the cross necklace are signature elements that contribute to her unique visual identity. The consistent use of a muted color palette and modest attire creates a cohesive and understated aesthetic. The combination of her thoughtful expressions, practical clothing, and subtle accessories gives her a distinctive aura of introspection and quiet strength. The setting in which she is often depicted, with dim lighting and a somewhat somber atmosphere, enhances the overall mood and adds to her enigmatic presence.",
+            "preference": "In terms of entertainment, Emma enjoys live concerts, stand-up comedy, but dislikes musicals, documentaries. In terms of travel, Emma enjoys mountain climbing, theme park visits, but dislikes backcountry camping, ice fishing. In terms of lifestyle, Emma enjoys daily smoothies, outdoor workouts, but dislikes forest bathing, holistic therapy. In terms of shopping, Emma enjoys second-hand books, indie brands, but dislikes retro gaming consoles, wireless earbuds. In terms of fashion, Emma enjoys casual wear, minimalist outfits, but dislikes hand-knitted sweaters, silk scarves.",
+            "topic": [],
+            "original_id": "QA_sample_34fdfad9",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Justice Clark least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_34fdfad9_2",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 74a7ec3b, Among the activities that could reasonably occur in the given image, which one is Justice Clark least likely to be doing?",
+        "answer": "Watching a documentary film",
+        "evidence": {
+            "text_evidence": [
+                "In terms of travel, Justice Clark enjoys mountain climbing, theme park visits, but dislikes backcountry camping, ice fishing"
+            ],
+            "image_evidence": [
+                "MMPB_2d99653f.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of entertainment, Justice Clark enjoys live concerts, stand-up comedy, but dislikes musicals, documentaries",
+                "In terms of lifestyle, Justice Clark enjoys daily smoothies, outdoor workouts, but dislikes forest bathing, holistic therapy",
+                "In terms of shopping, Justice Clark enjoys second-hand books, indie brands, but dislikes retro gaming consoles, wireless earbuds",
+                "In terms of fashion, Justice Clark enjoys casual wear, minimalist outfits, but dislikes hand-knitted sweaters, silk scarves."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Watching a documentary film",
+                "Observing a historical film",
+                "Buying silk scarves",
+                "Watching a nature show"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_fashion_sports_technology_695cc19e",
+                    "insert_conversation_turn": 30
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_economy_education_sports_392aa437",
+                    "insert_conversation_turn": 257,
+                    "reference_name": "Fig. 74a7ec3b"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_economy_education_sports_392aa437",
+                    "insert_conversation_turn": 507
+                },
+                {
+                    "conversation_name": "group_chat_fashion_sports_technology_695cc19e",
+                    "insert_conversation_turn": 614
+                },
+                {
+                    "conversation_name": "group_chat_fashion_sports_technology_695cc19e",
+                    "insert_conversation_turn": 290
+                },
+                {
+                    "conversation_name": "group_chat_television_environment_art_and_design_a44f5425",
+                    "insert_conversation_turn": 198
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Emma",
+            "description": "Emma is a young woman with a slender build and an average height impression. Her facial structure is characterized by a prominent jawline and a slightly pointed chin, with a fair skin tone that appears smooth and even. Her hair is typically styled in a loose, wavy manner, often pulled back, with a few strands framing her face. Her eyes are a striking feature, with a direct gaze that conveys intensity and focus. The expressions on her face range from serious and contemplative to slightly concerned, suggesting a thoughtful and introspective personality. Her eyebrows are well-defined, adding to her expressive features.\n\n**Outfit and Accessories:**\nEmma is often seen wearing a light-colored, collared shirt with a subtle pattern, paired with a dark cardigan or sweater. The outfit exudes a practical yet slightly formal vibe, with a focus on comfort and modesty. The color palette is muted, featuring shades of gray, white, and dark tones, which contribute to a subdued and understated look. She accessorizes with a long necklace featuring a cross pendant, which adds a touch of personal significance to her attire. The clothing appears to be made of soft, comfortable materials, suitable for everyday wear, and the overall style is modest and functional.\n\n**Distinguishing Visual Features or Vibe:**\nThe most memorable feature of Emma is her intense gaze, which is both captivating and enigmatic. Her loose, wavy hair and the cross necklace are signature elements that contribute to her unique visual identity. The consistent use of a muted color palette and modest attire creates a cohesive and understated aesthetic. The combination of her thoughtful expressions, practical clothing, and subtle accessories gives her a distinctive aura of introspection and quiet strength. The setting in which she is often depicted, with dim lighting and a somewhat somber atmosphere, enhances the overall mood and adds to her enigmatic presence.",
+            "preference": "In terms of entertainment, Emma enjoys live concerts, stand-up comedy, but dislikes musicals, documentaries. In terms of travel, Emma enjoys mountain climbing, theme park visits, but dislikes backcountry camping, ice fishing. In terms of lifestyle, Emma enjoys daily smoothies, outdoor workouts, but dislikes forest bathing, holistic therapy. In terms of shopping, Emma enjoys second-hand books, indie brands, but dislikes retro gaming consoles, wireless earbuds. In terms of fashion, Emma enjoys casual wear, minimalist outfits, but dislikes hand-knitted sweaters, silk scarves.",
+            "topic": [],
+            "original_id": "QA_sample_34fdfad9",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Justice Clark least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_34fdfad9_3",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 908da4d1, the image, what is Justice Clark most likely to be doing?",
+        "answer": "Enjoying a stand-up comedy show",
+        "evidence": {
+            "text_evidence": [
+                "In terms of travel, Justice Clark enjoys mountain climbing, theme park visits, but dislikes backcountry camping, ice fishing"
+            ],
+            "image_evidence": [
+                "MMPB_799e1f96.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of entertainment, Justice Clark enjoys live concerts, stand-up comedy, but dislikes musicals, documentaries",
+                "In terms of lifestyle, Justice Clark enjoys daily smoothies, outdoor workouts, but dislikes forest bathing, holistic therapy",
+                "In terms of shopping, Justice Clark enjoys second-hand books, indie brands, but dislikes retro gaming consoles, wireless earbuds",
+                "In terms of fashion, Justice Clark enjoys casual wear, minimalist outfits, but dislikes hand-knitted sweaters, silk scarves."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "Climbing a mountain",
+                "Attending a musical theater show",
+                "Enjoying a stand-up comedy show",
+                "Watching a live theater performance"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_fashion_sports_technology_695cc19e",
+                    "insert_conversation_turn": 30
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_fashion_sports_technology_695cc19e",
+                    "insert_conversation_turn": 639,
+                    "reference_name": "Fig. 908da4d1"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_economy_education_sports_392aa437",
+                    "insert_conversation_turn": 507
+                },
+                {
+                    "conversation_name": "group_chat_fashion_sports_technology_695cc19e",
+                    "insert_conversation_turn": 614
+                },
+                {
+                    "conversation_name": "group_chat_fashion_sports_technology_695cc19e",
+                    "insert_conversation_turn": 290
+                },
+                {
+                    "conversation_name": "group_chat_television_environment_art_and_design_a44f5425",
+                    "insert_conversation_turn": 198
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Emma",
+            "description": "Emma is a young woman with a slender build and an average height impression. Her facial structure is characterized by a prominent jawline and a slightly pointed chin, with a fair skin tone that appears smooth and even. Her hair is typically styled in a loose, wavy manner, often pulled back, with a few strands framing her face. Her eyes are a striking feature, with a direct gaze that conveys intensity and focus. The expressions on her face range from serious and contemplative to slightly concerned, suggesting a thoughtful and introspective personality. Her eyebrows are well-defined, adding to her expressive features.\n\n**Outfit and Accessories:**\nEmma is often seen wearing a light-colored, collared shirt with a subtle pattern, paired with a dark cardigan or sweater. The outfit exudes a practical yet slightly formal vibe, with a focus on comfort and modesty. The color palette is muted, featuring shades of gray, white, and dark tones, which contribute to a subdued and understated look. She accessorizes with a long necklace featuring a cross pendant, which adds a touch of personal significance to her attire. The clothing appears to be made of soft, comfortable materials, suitable for everyday wear, and the overall style is modest and functional.\n\n**Distinguishing Visual Features or Vibe:**\nThe most memorable feature of Emma is her intense gaze, which is both captivating and enigmatic. Her loose, wavy hair and the cross necklace are signature elements that contribute to her unique visual identity. The consistent use of a muted color palette and modest attire creates a cohesive and understated aesthetic. The combination of her thoughtful expressions, practical clothing, and subtle accessories gives her a distinctive aura of introspection and quiet strength. The setting in which she is often depicted, with dim lighting and a somewhat somber atmosphere, enhances the overall mood and adds to her enigmatic presence.",
+            "preference": "In terms of entertainment, Emma enjoys live concerts, stand-up comedy, but dislikes musicals, documentaries. In terms of travel, Emma enjoys mountain climbing, theme park visits, but dislikes backcountry camping, ice fishing. In terms of lifestyle, Emma enjoys daily smoothies, outdoor workouts, but dislikes forest bathing, holistic therapy. In terms of shopping, Emma enjoys second-hand books, indie brands, but dislikes retro gaming consoles, wireless earbuds. In terms of fashion, Emma enjoys casual wear, minimalist outfits, but dislikes hand-knitted sweaters, silk scarves.",
+            "topic": [],
+            "original_id": "QA_sample_34fdfad9",
+            "original_question": "the image, what is Justice Clark most likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_df0ee4c3_1",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 873b910d, Among the activities that could reasonably occur in the given image, which one is Harper Clark least likely to be doing?",
+        "answer": "Enjoying rock concerts",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Harper Clark enjoys K-pop concerts, anime series, but dislikes rock concerts, indie films",
+                "In terms of lifestyle, Harper Clark enjoys hot yoga, pilates, but dislikes forest bathing, holistic therapy"
+            ],
+            "image_evidence": [
+                "MMPB_73dc3548.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Harper Clark enjoys road trips, city tours, but dislikes sailing, paragliding",
+                "In terms of shopping, Harper Clark enjoys soundproofing panels, sleep-enhancing gadgets, but dislikes compact fitness equipment, desk organizers",
+                "In terms of fashion, Harper Clark enjoys statement jewelry, minimalist rings, but dislikes vintage style, formal suits."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "Doing forest bathing",
+                "Attending live theater performances",
+                "Enjoying rock concerts",
+                "Enjoying symphony orchestra concerts"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_economy_education_sports_392aa437",
+                    "insert_conversation_turn": 493
+                },
+                {
+                    "conversation_name": "group_chat_television_environment_art_and_design_a44f5425",
+                    "insert_conversation_turn": 184
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_fashion_sports_technology_695cc19e",
+                    "insert_conversation_turn": 511,
+                    "reference_name": "Fig. 873b910d"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_television_environment_art_and_design_a44f5425",
+                    "insert_conversation_turn": 170
+                },
+                {
+                    "conversation_name": "group_chat_economy_education_sports_392aa437",
+                    "insert_conversation_turn": 322
+                },
+                {
+                    "conversation_name": "group_chat_economy_education_sports_392aa437",
+                    "insert_conversation_turn": 464
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Tommy",
+            "description": "Tommy is a tall, slender individual with a well-defined jawline and a strong, angular facial structure. Their skin tone is fair, and they have striking blue eyes that are often seen gazing intently, adding to their enigmatic presence. Tommy sports short, neatly combed hair, and in some images, they wear a flat cap, which complements their overall look. The facial expressions range from contemplative to serious, with a hint of intensity that suggests a deep thinker or someone with a strong sense of purpose. The consistent pose across the images, often with a hand in the pocket or a cigarette in hand, conveys a sense of confidence and composure.\n\n**Outfit and Accessories:**\nTommy is consistently dressed in a formal, vintage-inspired style, characterized by a dark, tailored suit with a vest and a white shirt. The suit is often paired with a dark tie, adding to the classic and sophisticated appearance. The color palette is predominantly dark, with shades of navy and charcoal, which gives a timeless and elegant feel. The texture of the fabric appears to be high-quality wool, suitable for a formal setting. Tommy frequently wears a flat cap, which adds a touch of character and reinforces the vintage aesthetic. Accessories such as a pocket watch chain and a cigarette are recurring elements, suggesting a meticulous and perhaps slightly rebellious personality. The overall outfit exudes a sense of practicality and formality, with a touch of whimsy that defines Tommy's unique style.\n\n**Distinguishing Visual Features or Vibe:**\nThe most memorable and defining features of Tommy are their striking blue eyes, which are a focal point in every image. The consistent use of a dark, tailored suit with a flat cap creates a distinctive silhouette that is both timeless and character-defining. The recurring presence of a cigarette and a pocket watch chain adds to the vintage vibe, suggesting a connection to a bygone era. The overall aura conveyed by Tommy is one of mystery and intrigue, with a hint of sophistication and a touch of rebellion. The consistent use of dark colors and the vintage style creates a cohesive and unmistakable visual identity that is both memorable and captivating.",
+            "preference": "In terms of entertainment, Tommy enjoys K-pop concerts, anime series, but dislikes rock concerts, indie films. In terms of travel, Tommy enjoys road trips, city tours, but dislikes sailing, paragliding. In terms of lifestyle, Tommy enjoys hot yoga, pilates, but dislikes forest bathing, holistic therapy. In terms of shopping, Tommy enjoys soundproofing panels, sleep-enhancing gadgets, but dislikes compact fitness equipment, desk organizers. In terms of fashion, Tommy enjoys statement jewelry, minimalist rings, but dislikes vintage style, formal suits.",
+            "topic": [],
+            "original_id": "QA_sample_df0ee4c3",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Harper Clark least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_df0ee4c3_2",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 989ffcc5, the image, what is Harper Clark most likely to be doing?",
+        "answer": "Watching anime series",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Harper Clark enjoys K-pop concerts, anime series, but dislikes rock concerts, indie films",
+                "In terms of lifestyle, Harper Clark enjoys hot yoga, pilates, but dislikes forest bathing, holistic therapy"
+            ],
+            "image_evidence": [
+                "MMPB_ea429820.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Harper Clark enjoys road trips, city tours, but dislikes sailing, paragliding",
+                "In terms of shopping, Harper Clark enjoys soundproofing panels, sleep-enhancing gadgets, but dislikes compact fitness equipment, desk organizers",
+                "In terms of fashion, Harper Clark enjoys statement jewelry, minimalist rings, but dislikes vintage style, formal suits."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Watching anime series",
+                "Enjoying a TV series binge",
+                "Road trips",
+                "Watching a movie marathon"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_economy_education_sports_392aa437",
+                    "insert_conversation_turn": 493
+                },
+                {
+                    "conversation_name": "group_chat_television_environment_art_and_design_a44f5425",
+                    "insert_conversation_turn": 184
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_economy_education_sports_392aa437",
+                    "insert_conversation_turn": 40,
+                    "reference_name": "Fig. 989ffcc5"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_television_environment_art_and_design_a44f5425",
+                    "insert_conversation_turn": 170
+                },
+                {
+                    "conversation_name": "group_chat_economy_education_sports_392aa437",
+                    "insert_conversation_turn": 322
+                },
+                {
+                    "conversation_name": "group_chat_economy_education_sports_392aa437",
+                    "insert_conversation_turn": 464
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Tommy",
+            "description": "Tommy is a tall, slender individual with a well-defined jawline and a strong, angular facial structure. Their skin tone is fair, and they have striking blue eyes that are often seen gazing intently, adding to their enigmatic presence. Tommy sports short, neatly combed hair, and in some images, they wear a flat cap, which complements their overall look. The facial expressions range from contemplative to serious, with a hint of intensity that suggests a deep thinker or someone with a strong sense of purpose. The consistent pose across the images, often with a hand in the pocket or a cigarette in hand, conveys a sense of confidence and composure.\n\n**Outfit and Accessories:**\nTommy is consistently dressed in a formal, vintage-inspired style, characterized by a dark, tailored suit with a vest and a white shirt. The suit is often paired with a dark tie, adding to the classic and sophisticated appearance. The color palette is predominantly dark, with shades of navy and charcoal, which gives a timeless and elegant feel. The texture of the fabric appears to be high-quality wool, suitable for a formal setting. Tommy frequently wears a flat cap, which adds a touch of character and reinforces the vintage aesthetic. Accessories such as a pocket watch chain and a cigarette are recurring elements, suggesting a meticulous and perhaps slightly rebellious personality. The overall outfit exudes a sense of practicality and formality, with a touch of whimsy that defines Tommy's unique style.\n\n**Distinguishing Visual Features or Vibe:**\nThe most memorable and defining features of Tommy are their striking blue eyes, which are a focal point in every image. The consistent use of a dark, tailored suit with a flat cap creates a distinctive silhouette that is both timeless and character-defining. The recurring presence of a cigarette and a pocket watch chain adds to the vintage vibe, suggesting a connection to a bygone era. The overall aura conveyed by Tommy is one of mystery and intrigue, with a hint of sophistication and a touch of rebellion. The consistent use of dark colors and the vintage style creates a cohesive and unmistakable visual identity that is both memorable and captivating.",
+            "preference": "In terms of entertainment, Tommy enjoys K-pop concerts, anime series, but dislikes rock concerts, indie films. In terms of travel, Tommy enjoys road trips, city tours, but dislikes sailing, paragliding. In terms of lifestyle, Tommy enjoys hot yoga, pilates, but dislikes forest bathing, holistic therapy. In terms of shopping, Tommy enjoys soundproofing panels, sleep-enhancing gadgets, but dislikes compact fitness equipment, desk organizers. In terms of fashion, Tommy enjoys statement jewelry, minimalist rings, but dislikes vintage style, formal suits.",
+            "topic": [],
+            "original_id": "QA_sample_df0ee4c3",
+            "original_question": "the image, what is Harper Clark most likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_df0ee4c3_3",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 41c98695, Among the activities that could reasonably occur in the given image, which one is Harper Clark least likely to be doing?",
+        "answer": "Watching indie films",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Harper Clark enjoys K-pop concerts, anime series, but dislikes rock concerts, indie films",
+                "In terms of lifestyle, Harper Clark enjoys hot yoga, pilates, but dislikes forest bathing, holistic therapy"
+            ],
+            "image_evidence": [
+                "MMPB_3c63eec5.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Harper Clark enjoys road trips, city tours, but dislikes sailing, paragliding",
+                "In terms of shopping, Harper Clark enjoys soundproofing panels, sleep-enhancing gadgets, but dislikes compact fitness equipment, desk organizers",
+                "In terms of fashion, Harper Clark enjoys statement jewelry, minimalist rings, but dislikes vintage style, formal suits."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Watching indie films",
+                "Buying compact fitness equipment",
+                "Enjoying blockbuster movies",
+                "Catching a Hollywood flick"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_economy_education_sports_392aa437",
+                    "insert_conversation_turn": 493
+                },
+                {
+                    "conversation_name": "group_chat_television_environment_art_and_design_a44f5425",
+                    "insert_conversation_turn": 184
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_economy_education_sports_392aa437",
+                    "insert_conversation_turn": 479,
+                    "reference_name": "Fig. 41c98695"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_television_environment_art_and_design_a44f5425",
+                    "insert_conversation_turn": 170
+                },
+                {
+                    "conversation_name": "group_chat_economy_education_sports_392aa437",
+                    "insert_conversation_turn": 322
+                },
+                {
+                    "conversation_name": "group_chat_economy_education_sports_392aa437",
+                    "insert_conversation_turn": 464
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Tommy",
+            "description": "Tommy is a tall, slender individual with a well-defined jawline and a strong, angular facial structure. Their skin tone is fair, and they have striking blue eyes that are often seen gazing intently, adding to their enigmatic presence. Tommy sports short, neatly combed hair, and in some images, they wear a flat cap, which complements their overall look. The facial expressions range from contemplative to serious, with a hint of intensity that suggests a deep thinker or someone with a strong sense of purpose. The consistent pose across the images, often with a hand in the pocket or a cigarette in hand, conveys a sense of confidence and composure.\n\n**Outfit and Accessories:**\nTommy is consistently dressed in a formal, vintage-inspired style, characterized by a dark, tailored suit with a vest and a white shirt. The suit is often paired with a dark tie, adding to the classic and sophisticated appearance. The color palette is predominantly dark, with shades of navy and charcoal, which gives a timeless and elegant feel. The texture of the fabric appears to be high-quality wool, suitable for a formal setting. Tommy frequently wears a flat cap, which adds a touch of character and reinforces the vintage aesthetic. Accessories such as a pocket watch chain and a cigarette are recurring elements, suggesting a meticulous and perhaps slightly rebellious personality. The overall outfit exudes a sense of practicality and formality, with a touch of whimsy that defines Tommy's unique style.\n\n**Distinguishing Visual Features or Vibe:**\nThe most memorable and defining features of Tommy are their striking blue eyes, which are a focal point in every image. The consistent use of a dark, tailored suit with a flat cap creates a distinctive silhouette that is both timeless and character-defining. The recurring presence of a cigarette and a pocket watch chain adds to the vintage vibe, suggesting a connection to a bygone era. The overall aura conveyed by Tommy is one of mystery and intrigue, with a hint of sophistication and a touch of rebellion. The consistent use of dark colors and the vintage style creates a cohesive and unmistakable visual identity that is both memorable and captivating.",
+            "preference": "In terms of entertainment, Tommy enjoys K-pop concerts, anime series, but dislikes rock concerts, indie films. In terms of travel, Tommy enjoys road trips, city tours, but dislikes sailing, paragliding. In terms of lifestyle, Tommy enjoys hot yoga, pilates, but dislikes forest bathing, holistic therapy. In terms of shopping, Tommy enjoys soundproofing panels, sleep-enhancing gadgets, but dislikes compact fitness equipment, desk organizers. In terms of fashion, Tommy enjoys statement jewelry, minimalist rings, but dislikes vintage style, formal suits.",
+            "topic": [],
+            "original_id": "QA_sample_df0ee4c3",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Harper Clark least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_9275de6a_1",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 63407793, the image, what is Selina Gonzalez most likely to be doing?",
+        "answer": "Watching a travel vlog",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Selina Gonzalez enjoys cooking shows, travel vlogs, but dislikes sports TV, romantic dramas"
+            ],
+            "image_evidence": [
+                "MMPB_2d99653f.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Selina Gonzalez enjoys fine dining, street food, but dislikes polar expeditions, desert safaris",
+                "In terms of lifestyle, Selina Gonzalez enjoys plant-based diet, home cooking, but dislikes daily smoothies, outdoor workouts",
+                "In terms of shopping, Selina Gonzalez enjoys retro gaming consoles, wireless earbuds, but dislikes handmade crafts, vintage furniture",
+                "In terms of fashion, Selina Gonzalez enjoys techwear, cyberpunk aesthetics, but dislikes handcrafted leather bags, woven hats."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "Watching a magic show",
+                "Watching a food documentary",
+                "Browsing for cyberpunk aesthetic clothing",
+                "Watching a travel vlog"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_fashion_sports_technology_695cc19e",
+                    "insert_conversation_turn": 102
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_fashion_sports_technology_695cc19e",
+                    "insert_conversation_turn": 208,
+                    "reference_name": "Fig. 63407793"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_television_environment_art_and_design_a44f5425",
+                    "insert_conversation_turn": 97
+                },
+                {
+                    "conversation_name": "group_chat_fashion_sports_technology_695cc19e",
+                    "insert_conversation_turn": 495
+                },
+                {
+                    "conversation_name": "group_chat_economy_education_sports_392aa437",
+                    "insert_conversation_turn": 91
+                },
+                {
+                    "conversation_name": "group_chat_fashion_sports_technology_695cc19e",
+                    "insert_conversation_turn": 276
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "yifei",
+            "description": "yifei is a woman with a slender build and an average height impression. Her facial structure is characterized by a well-defined jawline and a slightly pointed chin, with a medium-sized nose and full lips. Her skin tone is fair, and she often has a soft, approachable expression. yifei's hair is long and dark, styled in various ways across the images, including loose waves and a high ponytail. Her eyebrows are thick and well-groomed, and she frequently wears red lipstick, adding a pop of color to her appearance. Her eyes are expressive, and she often looks directly at the camera, conveying a sense of engagement and confidence.\n\n**Outfit and Accessories:**\nyifei's outfits are diverse, ranging from casual to more formal attire. In one image, she wears a denim jacket over a white t-shirt with red text, paired with a headband featuring bunny ears, adding a playful touch. In another, she is seen in a bright red sleeveless top with the words \"YOURSELF\" and \"IZZUE\" on the straps, suggesting a bold and confident style. She also wears a white, intricately patterned blouse with colorful accents, holding a pink mirror with a cute design, indicating a whimsical and fun-loving side. Her accessories include large, colorful earrings and a headband, which add to her playful and stylish appearance. The overall color palette of her outfits is vibrant, with a mix of reds, whites, and blues, and the textures range from denim to delicate lace.\n\n**Distinguishing Visual Features or Vibe:**\nyifei's most memorable feature is her ability to convey a mix of playful and confident vibes through her outfits and accessories. The bunny ears headband and the pink mirror with a cute design are signature items that add a whimsical touch to her appearance. Her red lipstick is a consistent feature that stands out, adding a bold and confident element to her look. The combination of her fair skin, dark hair, and expressive eyes creates a striking visual contrast. The overall aura she conveys is one of approachability and confidence, with a touch of fun and playfulness. Her outfits and accessories, along with her engaging expressions, make her visually unmistakable and memorable.",
+            "preference": "In terms of entertainment, yifei enjoys cooking shows, travel vlogs, but dislikes sports TV, romantic dramas. In terms of travel, yifei enjoys fine dining, street food, but dislikes polar expeditions, desert safaris. In terms of lifestyle, yifei enjoys plant-based diet, home cooking, but dislikes daily smoothies, outdoor workouts. In terms of shopping, yifei enjoys retro gaming consoles, wireless earbuds, but dislikes handmade crafts, vintage furniture. In terms of fashion, yifei enjoys techwear, cyberpunk aesthetics, but dislikes handcrafted leather bags, woven hats.",
+            "topic": [],
+            "original_id": "QA_sample_9275de6a",
+            "original_question": "the image, what is Selina Gonzalez most likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_9275de6a_2",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 45b408c4, Among the activities that could reasonably occur in the given image, which one is Selina Gonzalez least likely to be doing?",
+        "answer": "Watching a sports TV channel",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Selina Gonzalez enjoys cooking shows, travel vlogs, but dislikes sports TV, romantic dramas"
+            ],
+            "image_evidence": [
+                "MMPB_6f052249.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Selina Gonzalez enjoys fine dining, street food, but dislikes polar expeditions, desert safaris",
+                "In terms of lifestyle, Selina Gonzalez enjoys plant-based diet, home cooking, but dislikes daily smoothies, outdoor workouts",
+                "In terms of shopping, Selina Gonzalez enjoys retro gaming consoles, wireless earbuds, but dislikes handmade crafts, vintage furniture",
+                "In terms of fashion, Selina Gonzalez enjoys techwear, cyberpunk aesthetics, but dislikes handcrafted leather bags, woven hats."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "Observing a news TV channel",
+                "Researching home cooking recipes",
+                "Viewing a music video channel",
+                "Watching a sports TV channel"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_fashion_sports_technology_695cc19e",
+                    "insert_conversation_turn": 102
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_fashion_sports_technology_695cc19e",
+                    "insert_conversation_turn": 347,
+                    "reference_name": "Fig. 45b408c4"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_television_environment_art_and_design_a44f5425",
+                    "insert_conversation_turn": 97
+                },
+                {
+                    "conversation_name": "group_chat_fashion_sports_technology_695cc19e",
+                    "insert_conversation_turn": 495
+                },
+                {
+                    "conversation_name": "group_chat_economy_education_sports_392aa437",
+                    "insert_conversation_turn": 91
+                },
+                {
+                    "conversation_name": "group_chat_fashion_sports_technology_695cc19e",
+                    "insert_conversation_turn": 276
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "yifei",
+            "description": "yifei is a woman with a slender build and an average height impression. Her facial structure is characterized by a well-defined jawline and a slightly pointed chin, with a medium-sized nose and full lips. Her skin tone is fair, and she often has a soft, approachable expression. yifei's hair is long and dark, styled in various ways across the images, including loose waves and a high ponytail. Her eyebrows are thick and well-groomed, and she frequently wears red lipstick, adding a pop of color to her appearance. Her eyes are expressive, and she often looks directly at the camera, conveying a sense of engagement and confidence.\n\n**Outfit and Accessories:**\nyifei's outfits are diverse, ranging from casual to more formal attire. In one image, she wears a denim jacket over a white t-shirt with red text, paired with a headband featuring bunny ears, adding a playful touch. In another, she is seen in a bright red sleeveless top with the words \"YOURSELF\" and \"IZZUE\" on the straps, suggesting a bold and confident style. She also wears a white, intricately patterned blouse with colorful accents, holding a pink mirror with a cute design, indicating a whimsical and fun-loving side. Her accessories include large, colorful earrings and a headband, which add to her playful and stylish appearance. The overall color palette of her outfits is vibrant, with a mix of reds, whites, and blues, and the textures range from denim to delicate lace.\n\n**Distinguishing Visual Features or Vibe:**\nyifei's most memorable feature is her ability to convey a mix of playful and confident vibes through her outfits and accessories. The bunny ears headband and the pink mirror with a cute design are signature items that add a whimsical touch to her appearance. Her red lipstick is a consistent feature that stands out, adding a bold and confident element to her look. The combination of her fair skin, dark hair, and expressive eyes creates a striking visual contrast. The overall aura she conveys is one of approachability and confidence, with a touch of fun and playfulness. Her outfits and accessories, along with her engaging expressions, make her visually unmistakable and memorable.",
+            "preference": "In terms of entertainment, yifei enjoys cooking shows, travel vlogs, but dislikes sports TV, romantic dramas. In terms of travel, yifei enjoys fine dining, street food, but dislikes polar expeditions, desert safaris. In terms of lifestyle, yifei enjoys plant-based diet, home cooking, but dislikes daily smoothies, outdoor workouts. In terms of shopping, yifei enjoys retro gaming consoles, wireless earbuds, but dislikes handmade crafts, vintage furniture. In terms of fashion, yifei enjoys techwear, cyberpunk aesthetics, but dislikes handcrafted leather bags, woven hats.",
+            "topic": [],
+            "original_id": "QA_sample_9275de6a",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Selina Gonzalez least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_9275de6a_3",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. c5c41990, Among the activities that could reasonably occur in the given image, which one is Selina Gonzalez least likely to be doing?",
+        "answer": "Watching a romantic drama series",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Selina Gonzalez enjoys cooking shows, travel vlogs, but dislikes sports TV, romantic dramas"
+            ],
+            "image_evidence": [
+                "MMPB_28b712ad.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Selina Gonzalez enjoys fine dining, street food, but dislikes polar expeditions, desert safaris",
+                "In terms of lifestyle, Selina Gonzalez enjoys plant-based diet, home cooking, but dislikes daily smoothies, outdoor workouts",
+                "In terms of shopping, Selina Gonzalez enjoys retro gaming consoles, wireless earbuds, but dislikes handmade crafts, vintage furniture",
+                "In terms of fashion, Selina Gonzalez enjoys techwear, cyberpunk aesthetics, but dislikes handcrafted leather bags, woven hats."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Watching a romantic drama series",
+                "Watching a suspenseful thriller series",
+                "Reading a paper book about plant-based diets",
+                "Streaming a comedy special"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_fashion_sports_technology_695cc19e",
+                    "insert_conversation_turn": 102
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_television_environment_art_and_design_a44f5425",
+                    "insert_conversation_turn": 306,
+                    "reference_name": "Fig. c5c41990"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_television_environment_art_and_design_a44f5425",
+                    "insert_conversation_turn": 97
+                },
+                {
+                    "conversation_name": "group_chat_fashion_sports_technology_695cc19e",
+                    "insert_conversation_turn": 495
+                },
+                {
+                    "conversation_name": "group_chat_economy_education_sports_392aa437",
+                    "insert_conversation_turn": 91
+                },
+                {
+                    "conversation_name": "group_chat_fashion_sports_technology_695cc19e",
+                    "insert_conversation_turn": 276
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "yifei",
+            "description": "yifei is a woman with a slender build and an average height impression. Her facial structure is characterized by a well-defined jawline and a slightly pointed chin, with a medium-sized nose and full lips. Her skin tone is fair, and she often has a soft, approachable expression. yifei's hair is long and dark, styled in various ways across the images, including loose waves and a high ponytail. Her eyebrows are thick and well-groomed, and she frequently wears red lipstick, adding a pop of color to her appearance. Her eyes are expressive, and she often looks directly at the camera, conveying a sense of engagement and confidence.\n\n**Outfit and Accessories:**\nyifei's outfits are diverse, ranging from casual to more formal attire. In one image, she wears a denim jacket over a white t-shirt with red text, paired with a headband featuring bunny ears, adding a playful touch. In another, she is seen in a bright red sleeveless top with the words \"YOURSELF\" and \"IZZUE\" on the straps, suggesting a bold and confident style. She also wears a white, intricately patterned blouse with colorful accents, holding a pink mirror with a cute design, indicating a whimsical and fun-loving side. Her accessories include large, colorful earrings and a headband, which add to her playful and stylish appearance. The overall color palette of her outfits is vibrant, with a mix of reds, whites, and blues, and the textures range from denim to delicate lace.\n\n**Distinguishing Visual Features or Vibe:**\nyifei's most memorable feature is her ability to convey a mix of playful and confident vibes through her outfits and accessories. The bunny ears headband and the pink mirror with a cute design are signature items that add a whimsical touch to her appearance. Her red lipstick is a consistent feature that stands out, adding a bold and confident element to her look. The combination of her fair skin, dark hair, and expressive eyes creates a striking visual contrast. The overall aura she conveys is one of approachability and confidence, with a touch of fun and playfulness. Her outfits and accessories, along with her engaging expressions, make her visually unmistakable and memorable.",
+            "preference": "In terms of entertainment, yifei enjoys cooking shows, travel vlogs, but dislikes sports TV, romantic dramas. In terms of travel, yifei enjoys fine dining, street food, but dislikes polar expeditions, desert safaris. In terms of lifestyle, yifei enjoys plant-based diet, home cooking, but dislikes daily smoothies, outdoor workouts. In terms of shopping, yifei enjoys retro gaming consoles, wireless earbuds, but dislikes handmade crafts, vintage furniture. In terms of fashion, yifei enjoys techwear, cyberpunk aesthetics, but dislikes handcrafted leather bags, woven hats.",
+            "topic": [],
+            "original_id": "QA_sample_9275de6a",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Selina Gonzalez least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_e84b6bc4_1",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 51bcb6db, the image, what is Amiah Sweeney most likely to be doing?",
+        "answer": "Searching for a cooking show to watch",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Amiah Sweeney enjoys cooking shows, travel vlogs, but dislikes science fiction movies, animated films"
+            ],
+            "image_evidence": [
+                "MMPB_2d99653f.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Amiah Sweeney enjoys cycling, camping, but dislikes skiing, desert trekking",
+                "In terms of lifestyle, Amiah Sweeney enjoys plant-based diet, home cooking, but dislikes hot yoga, pilates",
+                "In terms of shopping, Amiah Sweeney enjoys handmade crafts, vintage furniture, but dislikes smart home devices, kitchen appliances",
+                "In terms of fashion, Amiah Sweeney enjoys futuristic fashion, gothic clothing, but dislikes chunky boots, strappy sandals."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "Looking for a sports highlights reel",
+                "Browsing for a travel documentary",
+                "Following plant-based diet",
+                "Searching for a cooking show to watch"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_television_environment_art_and_design_a44f5425",
+                    "insert_conversation_turn": 156
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_fashion_sports_technology_695cc19e",
+                    "insert_conversation_turn": 208,
+                    "reference_name": "Fig. 51bcb6db"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_fashion_sports_technology_695cc19e",
+                    "insert_conversation_turn": 464
+                },
+                {
+                    "conversation_name": "group_chat_fashion_sports_technology_695cc19e",
+                    "insert_conversation_turn": 226
+                },
+                {
+                    "conversation_name": "group_chat_fashion_sports_technology_695cc19e",
+                    "insert_conversation_turn": 307
+                },
+                {
+                    "conversation_name": "group_chat_fashion_sports_technology_695cc19e",
+                    "insert_conversation_turn": 10
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Matt",
+            "description": "Matt is a young adult male with a lean build and an impression of average height. His facial structure is characterized by a prominent jawline and a slightly pointed chin, with a symmetrical face and well-defined cheekbones. Matt has a fair skin tone with a hint of natural tan, and his hair is styled in a tousled, swept-back manner, often with a light blonde or sandy hue. His eyebrows are thick and well-groomed, and his eyes are expressive, often conveying a serious or contemplative demeanor. Matt frequently appears with a neutral or slightly furrowed brow, suggesting a thoughtful or intense expression. His poses are generally relaxed yet attentive, with a tendency to look directly at the camera or off to the side, adding to his enigmatic presence.\n\n**Outfit and Accessories:**\nMatt is often seen wearing a mix of casual and semi-formal attire, with a preference for dark, earthy tones. His outfits include a dark sweater, a light gray t-shirt, and a white button-up shirt, all of which suggest a practical yet stylish approach to dressing. The textures of his clothing range from the soft knit of the sweater to the crisp fabric of the button-up shirt, indicating a blend of comfort and sophistication. In one image, Matt is seen with a map, suggesting a practical accessory for navigation. He also wears glasses in one scene, adding an intellectual or studious element to his appearance. The overall style of his clothing is understated yet deliberate, with a focus on layering and a muted color palette that enhances his natural features.\n\n**Distinguishing Visual Features or Vibe:**\nThe most memorable feature of Matt is his expressive eyes, which convey a range of emotions from intensity to contemplation. His tousled hair and neutral expressions contribute to a laid-back yet thoughtful vibe. The consistent use of dark, earthy tones in his clothing creates a cohesive visual theme, while the occasional appearance of a map and glasses adds layers to his character, suggesting intelligence and resourcefulness. The combination of his physical appearance, outfit choices, and accessories creates a distinctive and recognizable image, making Matt visually unmistakable. His overall aura is one of quiet intensity, with a hint of mystery that draws the viewer in.",
+            "preference": "In terms of entertainment, Matt enjoys cooking shows, travel vlogs, but dislikes science fiction movies, animated films. In terms of travel, Matt enjoys cycling, camping, but dislikes skiing, desert trekking. In terms of lifestyle, Matt enjoys plant-based diet, home cooking, but dislikes hot yoga, pilates. In terms of shopping, Matt enjoys handmade crafts, vintage furniture, but dislikes smart home devices, kitchen appliances. In terms of fashion, Matt enjoys futuristic fashion, gothic clothing, but dislikes chunky boots, strappy sandals.",
+            "topic": [],
+            "original_id": "QA_sample_e84b6bc4",
+            "original_question": "the image, what is Amiah Sweeney most likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_e84b6bc4_2",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. e837062f, Among the activities that could reasonably occur in the given image, which one is Amiah Sweeney least likely to be doing?",
+        "answer": "Watching an animated film",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Amiah Sweeney enjoys cooking shows, travel vlogs, but dislikes science fiction movies, animated films"
+            ],
+            "image_evidence": [
+                "MMPB_6f052249.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Amiah Sweeney enjoys cycling, camping, but dislikes skiing, desert trekking",
+                "In terms of lifestyle, Amiah Sweeney enjoys plant-based diet, home cooking, but dislikes hot yoga, pilates",
+                "In terms of shopping, Amiah Sweeney enjoys handmade crafts, vintage furniture, but dislikes smart home devices, kitchen appliances",
+                "In terms of fashion, Amiah Sweeney enjoys futuristic fashion, gothic clothing, but dislikes chunky boots, strappy sandals."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Watching an animated film",
+                "Watching a live sports game",
+                "Observing a documentary",
+                "Doing pilates"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_television_environment_art_and_design_a44f5425",
+                    "insert_conversation_turn": 156
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_fashion_sports_technology_695cc19e",
+                    "insert_conversation_turn": 347,
+                    "reference_name": "Fig. e837062f"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_fashion_sports_technology_695cc19e",
+                    "insert_conversation_turn": 464
+                },
+                {
+                    "conversation_name": "group_chat_fashion_sports_technology_695cc19e",
+                    "insert_conversation_turn": 226
+                },
+                {
+                    "conversation_name": "group_chat_fashion_sports_technology_695cc19e",
+                    "insert_conversation_turn": 307
+                },
+                {
+                    "conversation_name": "group_chat_fashion_sports_technology_695cc19e",
+                    "insert_conversation_turn": 10
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Matt",
+            "description": "Matt is a young adult male with a lean build and an impression of average height. His facial structure is characterized by a prominent jawline and a slightly pointed chin, with a symmetrical face and well-defined cheekbones. Matt has a fair skin tone with a hint of natural tan, and his hair is styled in a tousled, swept-back manner, often with a light blonde or sandy hue. His eyebrows are thick and well-groomed, and his eyes are expressive, often conveying a serious or contemplative demeanor. Matt frequently appears with a neutral or slightly furrowed brow, suggesting a thoughtful or intense expression. His poses are generally relaxed yet attentive, with a tendency to look directly at the camera or off to the side, adding to his enigmatic presence.\n\n**Outfit and Accessories:**\nMatt is often seen wearing a mix of casual and semi-formal attire, with a preference for dark, earthy tones. His outfits include a dark sweater, a light gray t-shirt, and a white button-up shirt, all of which suggest a practical yet stylish approach to dressing. The textures of his clothing range from the soft knit of the sweater to the crisp fabric of the button-up shirt, indicating a blend of comfort and sophistication. In one image, Matt is seen with a map, suggesting a practical accessory for navigation. He also wears glasses in one scene, adding an intellectual or studious element to his appearance. The overall style of his clothing is understated yet deliberate, with a focus on layering and a muted color palette that enhances his natural features.\n\n**Distinguishing Visual Features or Vibe:**\nThe most memorable feature of Matt is his expressive eyes, which convey a range of emotions from intensity to contemplation. His tousled hair and neutral expressions contribute to a laid-back yet thoughtful vibe. The consistent use of dark, earthy tones in his clothing creates a cohesive visual theme, while the occasional appearance of a map and glasses adds layers to his character, suggesting intelligence and resourcefulness. The combination of his physical appearance, outfit choices, and accessories creates a distinctive and recognizable image, making Matt visually unmistakable. His overall aura is one of quiet intensity, with a hint of mystery that draws the viewer in.",
+            "preference": "In terms of entertainment, Matt enjoys cooking shows, travel vlogs, but dislikes science fiction movies, animated films. In terms of travel, Matt enjoys cycling, camping, but dislikes skiing, desert trekking. In terms of lifestyle, Matt enjoys plant-based diet, home cooking, but dislikes hot yoga, pilates. In terms of shopping, Matt enjoys handmade crafts, vintage furniture, but dislikes smart home devices, kitchen appliances. In terms of fashion, Matt enjoys futuristic fashion, gothic clothing, but dislikes chunky boots, strappy sandals.",
+            "topic": [],
+            "original_id": "QA_sample_e84b6bc4",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Amiah Sweeney least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_e84b6bc4_3",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. b62ddff2, Among the activities that could reasonably occur in the given image, which one is Amiah Sweeney least likely to be doing?",
+        "answer": "Watching an animated film",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Amiah Sweeney enjoys cooking shows, travel vlogs, but dislikes science fiction movies, animated films"
+            ],
+            "image_evidence": [
+                "MMPB_3c63eec5.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Amiah Sweeney enjoys cycling, camping, but dislikes skiing, desert trekking",
+                "In terms of lifestyle, Amiah Sweeney enjoys plant-based diet, home cooking, but dislikes hot yoga, pilates",
+                "In terms of shopping, Amiah Sweeney enjoys handmade crafts, vintage furniture, but dislikes smart home devices, kitchen appliances",
+                "In terms of fashion, Amiah Sweeney enjoys futuristic fashion, gothic clothing, but dislikes chunky boots, strappy sandals."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Watching a live performance",
+                "Watching an animated film",
+                "Observing a theatrical play",
+                "Looking for kitchen appliances"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_television_environment_art_and_design_a44f5425",
+                    "insert_conversation_turn": 156
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_fashion_sports_technology_695cc19e",
+                    "insert_conversation_turn": 85,
+                    "reference_name": "Fig. b62ddff2"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_fashion_sports_technology_695cc19e",
+                    "insert_conversation_turn": 464
+                },
+                {
+                    "conversation_name": "group_chat_fashion_sports_technology_695cc19e",
+                    "insert_conversation_turn": 226
+                },
+                {
+                    "conversation_name": "group_chat_fashion_sports_technology_695cc19e",
+                    "insert_conversation_turn": 307
+                },
+                {
+                    "conversation_name": "group_chat_fashion_sports_technology_695cc19e",
+                    "insert_conversation_turn": 10
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Matt",
+            "description": "Matt is a young adult male with a lean build and an impression of average height. His facial structure is characterized by a prominent jawline and a slightly pointed chin, with a symmetrical face and well-defined cheekbones. Matt has a fair skin tone with a hint of natural tan, and his hair is styled in a tousled, swept-back manner, often with a light blonde or sandy hue. His eyebrows are thick and well-groomed, and his eyes are expressive, often conveying a serious or contemplative demeanor. Matt frequently appears with a neutral or slightly furrowed brow, suggesting a thoughtful or intense expression. His poses are generally relaxed yet attentive, with a tendency to look directly at the camera or off to the side, adding to his enigmatic presence.\n\n**Outfit and Accessories:**\nMatt is often seen wearing a mix of casual and semi-formal attire, with a preference for dark, earthy tones. His outfits include a dark sweater, a light gray t-shirt, and a white button-up shirt, all of which suggest a practical yet stylish approach to dressing. The textures of his clothing range from the soft knit of the sweater to the crisp fabric of the button-up shirt, indicating a blend of comfort and sophistication. In one image, Matt is seen with a map, suggesting a practical accessory for navigation. He also wears glasses in one scene, adding an intellectual or studious element to his appearance. The overall style of his clothing is understated yet deliberate, with a focus on layering and a muted color palette that enhances his natural features.\n\n**Distinguishing Visual Features or Vibe:**\nThe most memorable feature of Matt is his expressive eyes, which convey a range of emotions from intensity to contemplation. His tousled hair and neutral expressions contribute to a laid-back yet thoughtful vibe. The consistent use of dark, earthy tones in his clothing creates a cohesive visual theme, while the occasional appearance of a map and glasses adds layers to his character, suggesting intelligence and resourcefulness. The combination of his physical appearance, outfit choices, and accessories creates a distinctive and recognizable image, making Matt visually unmistakable. His overall aura is one of quiet intensity, with a hint of mystery that draws the viewer in.",
+            "preference": "In terms of entertainment, Matt enjoys cooking shows, travel vlogs, but dislikes science fiction movies, animated films. In terms of travel, Matt enjoys cycling, camping, but dislikes skiing, desert trekking. In terms of lifestyle, Matt enjoys plant-based diet, home cooking, but dislikes hot yoga, pilates. In terms of shopping, Matt enjoys handmade crafts, vintage furniture, but dislikes smart home devices, kitchen appliances. In terms of fashion, Matt enjoys futuristic fashion, gothic clothing, but dislikes chunky boots, strappy sandals.",
+            "topic": [],
+            "original_id": "QA_sample_e84b6bc4",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Amiah Sweeney least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_9daa6aaf_1",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 4ceb4fb2, Among the activities that could reasonably occur in the given image, which one is Danna Rollins least likely to be doing?",
+        "answer": "Watching sports TV",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Danna Rollins enjoys science fiction movies, animated films, but dislikes sports TV, romantic dramas"
+            ],
+            "image_evidence": [
+                "MMPB_81ebaeeb.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Danna Rollins enjoys cycling, camping, but dislikes vineyard visits, underground city tours",
+                "In terms of lifestyle, Danna Rollins enjoys plant-based diet, home cooking, but dislikes bullet journaling, reading before bed",
+                "In terms of shopping, Danna Rollins enjoys Bluetooth speakers, wireless charging stations, but dislikes gaming accessories, wearable tech gadgets",
+                "In terms of fashion, Danna Rollins enjoys vintage style, formal suits, but dislikes denim jackets, wide-leg trousers."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "Watching movie marathon",
+                "Buying tech gadgets",
+                "Watching sports TV",
+                "Streaming comedy specials"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_economy_education_sports_392aa437",
+                    "insert_conversation_turn": 242
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_economy_education_sports_392aa437",
+                    "insert_conversation_turn": 297,
+                    "reference_name": "Fig. 4ceb4fb2"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_television_environment_art_and_design_a44f5425",
+                    "insert_conversation_turn": 128
+                },
+                {
+                    "conversation_name": "group_chat_economy_education_sports_392aa437",
+                    "insert_conversation_turn": 141
+                },
+                {
+                    "conversation_name": "group_chat_fashion_sports_technology_695cc19e",
+                    "insert_conversation_turn": 262
+                },
+                {
+                    "conversation_name": "group_chat_economy_education_sports_392aa437",
+                    "insert_conversation_turn": 408
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Xing",
+            "description": "Xing is a young individual with a slender build and a youthful appearance. Their facial structure is characterized by a slightly rounded face with a prominent jawline and expressive eyes. The skin tone is fair, and their hair is short and styled in a spiky manner, adding a dynamic and energetic vibe. Throughout the images, Xing displays a range of facial expressions, from smiling and animated to more neutral and contemplative, suggesting a lively and engaging personality. The eyebrows are well-defined, and the overall impression is one of a vibrant and expressive young person.\n\n**Outfit and Accessories:**\nXing is seen wearing a variety of outfits that reflect a casual and youthful style. In one image, they are dressed in a red shirt with a blue collar, adding a pop of color to their appearance. Another outfit features a shiny silver jacket, which gives a modern and slightly futuristic look. Additionally, Xing is seen in a beige top with a blue plaid collar, adding a touch of classic style. The clothing appears comfortable and practical, suitable for everyday wear. There are no visible accessories, but the outfits themselves are the defining elements, showcasing a mix of casual and slightly edgy styles.\n\n**Distinguishing Visual Features or Vibe:**\nThe most memorable feature of Xing is their expressive face and animated gestures, which convey a sense of enthusiasm and energy. The spiky hairstyle is a signature element that adds to their dynamic appearance. The consistent use of bright colors, such as red and blue, in their outfits creates a vibrant and lively visual theme. The overall vibe is one of youthful exuberance and confidence, with Xing exuding a sense of playfulness and engagement. The combination of their expressive face, spiky hair, and colorful outfits makes Xing visually unmistakable and memorable.",
+            "preference": "In terms of entertainment, Xing enjoys science fiction movies, animated films, but dislikes sports TV, romantic dramas. In terms of travel, Xing enjoys cycling, camping, but dislikes vineyard visits, underground city tours. In terms of lifestyle, Xing enjoys plant-based diet, home cooking, but dislikes bullet journaling, reading before bed. In terms of shopping, Xing enjoys Bluetooth speakers, wireless charging stations, but dislikes gaming accessories, wearable tech gadgets. In terms of fashion, Xing enjoys vintage style, formal suits, but dislikes denim jackets, wide-leg trousers.",
+            "topic": [],
+            "original_id": "QA_sample_9daa6aaf",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Danna Rollins least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_9daa6aaf_2",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. e2fcf0bc, Among the activities that could reasonably occur in the given image, which one is Danna Rollins least likely to be doing?",
+        "answer": "Watching romantic dramas",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Danna Rollins enjoys science fiction movies, animated films, but dislikes sports TV, romantic dramas"
+            ],
+            "image_evidence": [
+                "MMPB_2d99653f.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Danna Rollins enjoys cycling, camping, but dislikes vineyard visits, underground city tours",
+                "In terms of lifestyle, Danna Rollins enjoys plant-based diet, home cooking, but dislikes bullet journaling, reading before bed",
+                "In terms of shopping, Danna Rollins enjoys Bluetooth speakers, wireless charging stations, but dislikes gaming accessories, wearable tech gadgets",
+                "In terms of fashion, Danna Rollins enjoys vintage style, formal suits, but dislikes denim jackets, wide-leg trousers."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "Reading books before bed",
+                "Watching action-packed thrillers",
+                "Watching romantic dramas",
+                "Watching adventure-filled documentaries"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_economy_education_sports_392aa437",
+                    "insert_conversation_turn": 242
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_fashion_sports_technology_695cc19e",
+                    "insert_conversation_turn": 208,
+                    "reference_name": "Fig. e2fcf0bc"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_television_environment_art_and_design_a44f5425",
+                    "insert_conversation_turn": 128
+                },
+                {
+                    "conversation_name": "group_chat_economy_education_sports_392aa437",
+                    "insert_conversation_turn": 141
+                },
+                {
+                    "conversation_name": "group_chat_fashion_sports_technology_695cc19e",
+                    "insert_conversation_turn": 262
+                },
+                {
+                    "conversation_name": "group_chat_economy_education_sports_392aa437",
+                    "insert_conversation_turn": 408
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Xing",
+            "description": "Xing is a young individual with a slender build and a youthful appearance. Their facial structure is characterized by a slightly rounded face with a prominent jawline and expressive eyes. The skin tone is fair, and their hair is short and styled in a spiky manner, adding a dynamic and energetic vibe. Throughout the images, Xing displays a range of facial expressions, from smiling and animated to more neutral and contemplative, suggesting a lively and engaging personality. The eyebrows are well-defined, and the overall impression is one of a vibrant and expressive young person.\n\n**Outfit and Accessories:**\nXing is seen wearing a variety of outfits that reflect a casual and youthful style. In one image, they are dressed in a red shirt with a blue collar, adding a pop of color to their appearance. Another outfit features a shiny silver jacket, which gives a modern and slightly futuristic look. Additionally, Xing is seen in a beige top with a blue plaid collar, adding a touch of classic style. The clothing appears comfortable and practical, suitable for everyday wear. There are no visible accessories, but the outfits themselves are the defining elements, showcasing a mix of casual and slightly edgy styles.\n\n**Distinguishing Visual Features or Vibe:**\nThe most memorable feature of Xing is their expressive face and animated gestures, which convey a sense of enthusiasm and energy. The spiky hairstyle is a signature element that adds to their dynamic appearance. The consistent use of bright colors, such as red and blue, in their outfits creates a vibrant and lively visual theme. The overall vibe is one of youthful exuberance and confidence, with Xing exuding a sense of playfulness and engagement. The combination of their expressive face, spiky hair, and colorful outfits makes Xing visually unmistakable and memorable.",
+            "preference": "In terms of entertainment, Xing enjoys science fiction movies, animated films, but dislikes sports TV, romantic dramas. In terms of travel, Xing enjoys cycling, camping, but dislikes vineyard visits, underground city tours. In terms of lifestyle, Xing enjoys plant-based diet, home cooking, but dislikes bullet journaling, reading before bed. In terms of shopping, Xing enjoys Bluetooth speakers, wireless charging stations, but dislikes gaming accessories, wearable tech gadgets. In terms of fashion, Xing enjoys vintage style, formal suits, but dislikes denim jackets, wide-leg trousers.",
+            "topic": [],
+            "original_id": "QA_sample_9daa6aaf",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Danna Rollins least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_9daa6aaf_3",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 755676ed, Among the activities that could reasonably occur in the given image, which one is Danna Rollins least likely to be doing?",
+        "answer": "Watching sports TV",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Danna Rollins enjoys science fiction movies, animated films, but dislikes sports TV, romantic dramas"
+            ],
+            "image_evidence": [
+                "MMPB_6f052249.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Danna Rollins enjoys cycling, camping, but dislikes vineyard visits, underground city tours",
+                "In terms of lifestyle, Danna Rollins enjoys plant-based diet, home cooking, but dislikes bullet journaling, reading before bed",
+                "In terms of shopping, Danna Rollins enjoys Bluetooth speakers, wireless charging stations, but dislikes gaming accessories, wearable tech gadgets",
+                "In terms of fashion, Danna Rollins enjoys vintage style, formal suits, but dislikes denim jackets, wide-leg trousers."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Watching sports TV",
+                "Enjoying a live concert on the TV",
+                "Home cooking",
+                "Observing a thriller films"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_economy_education_sports_392aa437",
+                    "insert_conversation_turn": 242
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_economy_education_sports_392aa437",
+                    "insert_conversation_turn": 641,
+                    "reference_name": "Fig. 755676ed"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_television_environment_art_and_design_a44f5425",
+                    "insert_conversation_turn": 128
+                },
+                {
+                    "conversation_name": "group_chat_economy_education_sports_392aa437",
+                    "insert_conversation_turn": 141
+                },
+                {
+                    "conversation_name": "group_chat_fashion_sports_technology_695cc19e",
+                    "insert_conversation_turn": 262
+                },
+                {
+                    "conversation_name": "group_chat_economy_education_sports_392aa437",
+                    "insert_conversation_turn": 408
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Xing",
+            "description": "Xing is a young individual with a slender build and a youthful appearance. Their facial structure is characterized by a slightly rounded face with a prominent jawline and expressive eyes. The skin tone is fair, and their hair is short and styled in a spiky manner, adding a dynamic and energetic vibe. Throughout the images, Xing displays a range of facial expressions, from smiling and animated to more neutral and contemplative, suggesting a lively and engaging personality. The eyebrows are well-defined, and the overall impression is one of a vibrant and expressive young person.\n\n**Outfit and Accessories:**\nXing is seen wearing a variety of outfits that reflect a casual and youthful style. In one image, they are dressed in a red shirt with a blue collar, adding a pop of color to their appearance. Another outfit features a shiny silver jacket, which gives a modern and slightly futuristic look. Additionally, Xing is seen in a beige top with a blue plaid collar, adding a touch of classic style. The clothing appears comfortable and practical, suitable for everyday wear. There are no visible accessories, but the outfits themselves are the defining elements, showcasing a mix of casual and slightly edgy styles.\n\n**Distinguishing Visual Features or Vibe:**\nThe most memorable feature of Xing is their expressive face and animated gestures, which convey a sense of enthusiasm and energy. The spiky hairstyle is a signature element that adds to their dynamic appearance. The consistent use of bright colors, such as red and blue, in their outfits creates a vibrant and lively visual theme. The overall vibe is one of youthful exuberance and confidence, with Xing exuding a sense of playfulness and engagement. The combination of their expressive face, spiky hair, and colorful outfits makes Xing visually unmistakable and memorable.",
+            "preference": "In terms of entertainment, Xing enjoys science fiction movies, animated films, but dislikes sports TV, romantic dramas. In terms of travel, Xing enjoys cycling, camping, but dislikes vineyard visits, underground city tours. In terms of lifestyle, Xing enjoys plant-based diet, home cooking, but dislikes bullet journaling, reading before bed. In terms of shopping, Xing enjoys Bluetooth speakers, wireless charging stations, but dislikes gaming accessories, wearable tech gadgets. In terms of fashion, Xing enjoys vintage style, formal suits, but dislikes denim jackets, wide-leg trousers.",
+            "topic": [],
+            "original_id": "QA_sample_9daa6aaf",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Danna Rollins least likely to be doing?"
+        }
+    }
+]

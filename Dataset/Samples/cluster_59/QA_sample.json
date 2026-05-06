@@ -1,0 +1,1600 @@
+[
+    {
+        "id": "FC_sample_4d34cf5d",
+        "domain": "M3_Bench",
+        "category": "Function_Call",
+        "question": "Based on Fig. d97ed096, what is shown in this image, can you tell me about the city where this landmark is located, including current weather and nearby dining options?",
+        "answer": [
+            {
+                "step": 1,
+                "calls": [
+                    {
+                        "name": "WIKI_search",
+                        "arguments": {
+                            "query": "Cambridge, Massachusetts"
+                        }
+                    },
+                    {
+                        "name": "WEATHER_get_weather",
+                        "arguments": {
+                            "location": "Cambridge, MA"
+                        }
+                    },
+                    {
+                        "name": "GOOGLE_MAPS_places_text_search",
+                        "arguments": {
+                            "query": "best restaurants near Harvard Yard, Cambridge, MA",
+                            "regionCode": "us"
+                        }
+                    }
+                ]
+            }
+        ],
+        "evidence": {
+            "text_evidence": [
+                "Tourist attraction location and city info\n\nFor this workflow, begin by identifying the city or location depicted in the image, focusing on the tourist attraction or landmark shown. Once the location is determined, use a knowledge source to gather background information about the city. Next, retrieve the current weather conditions for that city using a weather information service. Finally, perform a location-based search to find and suggest highly rated or notable restaurants near the identified attraction or within the city. This sequence provides a comprehensive overview of the location, including general context, current weather, and dining options."
+            ],
+            "image_evidence": [
+                "M3_bench_4d34cf5d.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {},
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_environment_video_games_food_c5bba191",
+                    "insert_conversation_turn": 189
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_business_music_211f501d",
+                    "insert_conversation_turn": 412,
+                    "reference_name": "Fig. d97ed096"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "function_call": [
+                {
+                    "function_name": "WIKI_search",
+                    "function_comment": "Search Wikipedia for pages matching a query and return top titles.\nArgs:\n  query (str): Free-text search query.\n  n (int): Number of results to include (1–10).\nReturns:\n  result (str): Plain-text list of up to n titles or a no-results message."
+                },
+                {
+                    "function_name": "WEATHER_get_weather",
+                    "function_comment": "Get current weather for a U.S. location using Open‑Meteo with ZIP/city geocoding.\nArgs:\n  location (str): City/state name or a 5‑digit U.S. ZIP code.\n  units (Literal[\"us\",\"metric\"]): \"us\" for imperial units or \"metric\" for SI units.\nReturns:\n  result (str): Plain-text sentence summarizing temperature, wind, code, and place name."
+                },
+                {
+                    "function_name": "GOOGLE_MAPS_places_text_search",
+                    "function_comment": "Search for places using a free-text query via Google Places Text Search.\nArgs:\n  query (str): Text query describing the place.\n  languageCode (Optional[str]): Response language code.\n  regionCode (Optional[str]): Region bias code.\n  locationBias (Optional[Dict[str, Any]]): Optional circle bias for location preference.\n  maxResultCount (int): Maximum number of results to keep client-side.\n  fields (Optional[str]): Unused field mask parameter for signature parity.\nReturns:\n  data (Dict[str, Any]): JSON with endpoint, request parameters, and trimmed Places response."
+                }
+            ],
+            "instruction": "Identify the location shown in this image as being in Cambridge, Massachusetts. Search Wikipedia for background information about the city. Check the current weather conditions for Cambridge, MA. Find and list good restaurants near the main tourist attraction in this area.",
+            "workflow_description": "Tourist attraction location and city info\n\nFor this workflow, begin by identifying the city or location depicted in the image, focusing on the tourist attraction or landmark shown. Once the location is determined, use a knowledge source to gather background information about the city. Next, retrieve the current weather conditions for that city using a weather information service. Finally, perform a location-based search to find and suggest highly rated or notable restaurants near the identified attraction or within the city. This sequence provides a comprehensive overview of the location, including general context, current weather, and dining options.",
+            "topic": [
+                "travel",
+                " architecture",
+                " education"
+            ],
+            "original_question": "what is shown in this image, can you tell me about the city where this landmark is located, including current weather and nearby dining options?"
+        },
+        "original_reference_question": "Based on Fig. d97ed096, Based on what is shown in this image, can you tell me about the city where this landmark is located, including current weather and nearby dining options?"
+    },
+    {
+        "id": "FC_sample_a34f2f07",
+        "domain": "M3_Bench",
+        "category": "Function_Call",
+        "question": "Based on Fig. 0158611c, What are the precise geographic coordinates for each of the two destinations shown in this image?",
+        "answer": [
+            {
+                "step": 1,
+                "calls": [
+                    {
+                        "name": "GOOGLE_MAPS_geocode",
+                        "arguments": {
+                            "address": "Songdo Central Park, Incheon, South Korea"
+                        }
+                    },
+                    {
+                        "name": "GOOGLE_MAPS_geocode",
+                        "arguments": {
+                            "address": "Wat Rong Khun (White Temple), Chiang Rai, Thailand"
+                        }
+                    }
+                ]
+            }
+        ],
+        "evidence": {
+            "text_evidence": [
+                "Travel destination air quality comparison\n\nGiven two identified locations, first use a geocoding service to obtain the precise geographic coordinates for each. With these coordinates, retrieve the latest air quality data, including the air quality index and key pollutant levels, for both destinations. Compare the air quality results to determine which location offers cleaner air; if both have identical air quality, default to selecting the first location. For the recommended destination, search for at least two or three nearby cinemas or movie theaters and hotels, providing their names and approximate distances. Summarize the findings by listing the names of both locations, the air quality comparison and chosen destination, and the recommended entertainment and accommodation options."
+            ],
+            "image_evidence": [
+                "M3_bench_a34f2f07.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {},
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_literature_fashion_travel_092c706b",
+                    "insert_conversation_turn": 155
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_business_music_211f501d",
+                    "insert_conversation_turn": 220,
+                    "reference_name": "Fig. 0158611c"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "function_call": [
+                {
+                    "function_name": "GOOGLE_MAPS_geocode",
+                    "function_comment": "Forward geocode a human-readable address using Google Geocoding API.\nArgs:\n  address (str): Free-text address to geocode.\n  region (Optional[str]): Region bias such as \"us\".\n  language (Optional[str]): Response language code such as \"en\".\nReturns:\n  data (Dict[str, Any]): JSON with endpoint, request parameters, and API response."
+                }
+            ],
+            "instruction": "Continue by retrieving the geographic coordinates for the two identified locations: Songdo Central Park in Incheon, South Korea, and Wat Rong Khun (White Temple) in Chiang Rai, Thailand. Next, obtain the latest air quality data (AQI and key pollutants) for both locations. Compare the air quality results to determine which destination is healthier. If both have identical air quality, select Songdo Central Park by default. For the recommended location, search for at least 2–3 nearby cinemas and hotels, providing their names and approximate distances. Summarize your findings with the names of both locations, the air quality comparison and chosen destination, and the recommended cinemas and hotels.",
+            "workflow_description": "Travel destination air quality comparison\n\nGiven two identified locations, first use a geocoding service to obtain the precise geographic coordinates for each. With these coordinates, retrieve the latest air quality data, including the air quality index and key pollutant levels, for both destinations. Compare the air quality results to determine which location offers cleaner air; if both have identical air quality, default to selecting the first location. For the recommended destination, search for at least two or three nearby cinemas or movie theaters and hotels, providing their names and approximate distances. Summarize the findings by listing the names of both locations, the air quality comparison and chosen destination, and the recommended entertainment and accommodation options.",
+            "topic": [
+                "travel",
+                " environment",
+                " health"
+            ],
+            "original_question": "What are the precise geographic coordinates for each of the two destinations shown in this image?"
+        },
+        "original_reference_question": "Based on Fig. 0158611c, What are the precise geographic coordinates for each of the two destinations shown in this image?"
+    },
+    {
+        "id": "FC_sample_617548b5",
+        "domain": "M3_Bench",
+        "category": "Function_Call",
+        "question": "Based on Fig. da1491fe, What campgrounds and current alerts are available for the national park shown in this image?",
+        "answer": [
+            {
+                "step": 1,
+                "calls": [
+                    {
+                        "name": "NATIONALPARKS_getCampgrounds",
+                        "arguments": {
+                            "parkCode": "yose"
+                        }
+                    },
+                    {
+                        "name": "NATIONALPARKS_getAlerts",
+                        "arguments": {
+                            "parkCode": "yose",
+                            "limit": 50
+                        }
+                    }
+                ]
+            }
+        ],
+        "evidence": {
+            "text_evidence": [
+                "National park campground selection\n\nTo plan a camping trip to a national park depicted in an image, first retrieve all campgrounds within the park using a campground information tool. Simultaneously, obtain any active alerts for the park using an alerts retrieval tool. Review the list of campgrounds and filter for those that offer at least three amenities, are open during the intended trip dates, and are not affected by any current alerts. Select one qualifying campground as the primary base for the itinerary. This process ensures the chosen campground meets both amenity and safety requirements for a successful camping trip."
+            ],
+            "image_evidence": [
+                "M3_bench_617548b5.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {},
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_literature_fashion_travel_092c706b",
+                    "insert_conversation_turn": 382
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_business_music_211f501d",
+                    "insert_conversation_turn": 69,
+                    "reference_name": "Fig. da1491fe"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "function_call": [
+                {
+                    "function_name": "NATIONALPARKS_getCampgrounds",
+                    "function_comment": "Get information about available campgrounds and amenities.\n  Args:\n    (see schema): Use GetCampgroundsSchema fields such as park code or state.\n  Returns:\n    result (text): JSON string listing campgrounds."
+                },
+                {
+                    "function_name": "NATIONALPARKS_getAlerts",
+                    "function_comment": "Get current alerts for national parks.\n  Args:\n    (see schema): Use GetAlertsSchema fields such as park codes or state.\n  Returns:\n    result (text): JSON string listing active alerts."
+                }
+            ],
+            "instruction": "First, retrieve all campgrounds in the national park depicted and check their amenities, operational status, and any active alerts. Select one campground that has at least three amenities, is open during the planned trip, and is not affected by any current alerts. Use the available tools to gather this information.",
+            "workflow_description": "National park campground selection\n\nTo plan a camping trip to a national park depicted in an image, first retrieve all campgrounds within the park using a campground information tool. Simultaneously, obtain any active alerts for the park using an alerts retrieval tool. Review the list of campgrounds and filter for those that offer at least three amenities, are open during the intended trip dates, and are not affected by any current alerts. Select one qualifying campground as the primary base for the itinerary. This process ensures the chosen campground meets both amenity and safety requirements for a successful camping trip.",
+            "topic": [
+                "travel",
+                " nature"
+            ],
+            "original_question": "What campgrounds and current alerts are available for the national park shown in this image?"
+        },
+        "original_reference_question": "Based on Fig. da1491fe, What campgrounds and current alerts are available for the national park shown in this image?"
+    },
+    {
+        "id": "FC_sample_63ee8b27",
+        "domain": "M3_Bench",
+        "category": "Function_Call",
+        "question": "Based on Fig. 63ee8b27, the national park shown in this image, what are the available campgrounds and any current alerts that might affect camping plans?",
+        "answer": [
+            {
+                "step": 1,
+                "calls": [
+                    {
+                        "name": "NATIONALPARKS_getCampgrounds",
+                        "arguments": {
+                            "parkCode": "glac"
+                        }
+                    },
+                    {
+                        "name": "NATIONALPARKS_getAlerts",
+                        "arguments": {
+                            "parkCode": "glac"
+                        }
+                    }
+                ]
+            }
+        ],
+        "evidence": {
+            "text_evidence": [
+                "National park campground selection\n\nTo plan a camping trip to a national park depicted in an image, first retrieve all campgrounds within the park using a campground information tool. Simultaneously, obtain any active alerts for the park using an alerts retrieval tool. Review the list of campgrounds and filter for those that offer at least three amenities, are open during the intended trip dates, and are not affected by any current alerts. Select one qualifying campground as the primary base for the itinerary. This process ensures the chosen campground meets both amenity and safety requirements for a successful camping trip."
+            ],
+            "image_evidence": [
+                "M3_bench_63ee8b27.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {},
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_business_music_211f501d",
+                    "insert_conversation_turn": 544
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_literature_fashion_travel_092c706b",
+                    "insert_conversation_turn": 424,
+                    "reference_name": "Fig. 63ee8b27"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "function_call": [
+                {
+                    "function_name": "NATIONALPARKS_getCampgrounds",
+                    "function_comment": "Get information about available campgrounds and amenities.\n  Args:\n    (see schema): Use GetCampgroundsSchema fields such as park code or state.\n  Returns:\n    result (text): JSON string listing campgrounds."
+                },
+                {
+                    "function_name": "NATIONALPARKS_getAlerts",
+                    "function_comment": "Get current alerts for national parks.\n  Args:\n    (see schema): Use GetAlertsSchema fields such as park codes or state.\n  Returns:\n    result (text): JSON string listing active alerts."
+                }
+            ],
+            "instruction": "[refine failed: RetryError[<Future at 0x7fb0a81b0940 state=finished raised InternalServerError>]]",
+            "workflow_description": "National park campground selection\n\nTo plan a camping trip to a national park depicted in an image, first retrieve all campgrounds within the park using a campground information tool. Simultaneously, obtain any active alerts for the park using an alerts retrieval tool. Review the list of campgrounds and filter for those that offer at least three amenities, are open during the intended trip dates, and are not affected by any current alerts. Select one qualifying campground as the primary base for the itinerary. This process ensures the chosen campground meets both amenity and safety requirements for a successful camping trip.",
+            "topic": [
+                "travel",
+                " nature"
+            ],
+            "original_question": "the national park shown in this image, what are the available campgrounds and any current alerts that might affect camping plans?"
+        },
+        "original_reference_question": "Based on the national park shown in this image, what are the available campgrounds and any current alerts that might affect camping plans?"
+    },
+    {
+        "id": "FC_sample_0b50fd93",
+        "domain": "M3_Bench",
+        "category": "Function_Call",
+        "question": "Based on Fig. f6c308b4, What are the precise geographic coordinates for each of the two locations shown in this image?",
+        "answer": [
+            {
+                "step": 1,
+                "calls": [
+                    {
+                        "name": "GOOGLE_MAPS_geocode",
+                        "arguments": {
+                            "address": "White Dagoba, Beihai Park, Beijing, China"
+                        }
+                    },
+                    {
+                        "name": "GOOGLE_MAPS_geocode",
+                        "arguments": {
+                            "address": "Shibuya Crossing, Tokyo, Japan"
+                        }
+                    }
+                ]
+            }
+        ],
+        "evidence": {
+            "text_evidence": [
+                "Travel destination air quality comparison\n\nGiven two identified locations, first use a geocoding service to obtain the precise geographic coordinates for each. With these coordinates, retrieve the latest air quality data, including the air quality index and key pollutant levels, for both destinations. Compare the air quality results to determine which location offers cleaner air; if both have identical air quality, default to selecting the first location. For the recommended destination, search for at least two or three nearby cinemas or movie theaters and hotels, providing their names and approximate distances. Summarize the findings by listing the names of both locations, the air quality comparison and chosen destination, and the recommended entertainment and accommodation options."
+            ],
+            "image_evidence": [
+                "M3_bench_0b50fd93.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {},
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_literature_fashion_travel_092c706b",
+                    "insert_conversation_turn": 155
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_environment_video_games_food_c5bba191",
+                    "insert_conversation_turn": 625,
+                    "reference_name": "Fig. f6c308b4"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "function_call": [
+                {
+                    "function_name": "GOOGLE_MAPS_geocode",
+                    "function_comment": "Forward geocode a human-readable address using Google Geocoding API.\nArgs:\n  address (str): Free-text address to geocode.\n  region (Optional[str]): Region bias such as \"us\".\n  language (Optional[str]): Response language code such as \"en\".\nReturns:\n  data (Dict[str, Any]): JSON with endpoint, request parameters, and API response."
+                }
+            ],
+            "instruction": "Identify the landmarks depicted in the left and right halves of this image. Use geocoding to obtain the geographic coordinates for each location. Next, retrieve current air quality data (including AQI and main pollutants) for both sites and compare the results to determine which location has cleaner air. If air quality is equal, select the first location by default. For the recommended location, search for at least two or three nearby cinemas and hotels, providing their names and approximate distances.",
+            "workflow_description": "Travel destination air quality comparison\n\nGiven two identified locations, first use a geocoding service to obtain the precise geographic coordinates for each. With these coordinates, retrieve the latest air quality data, including the air quality index and key pollutant levels, for both destinations. Compare the air quality results to determine which location offers cleaner air; if both have identical air quality, default to selecting the first location. For the recommended destination, search for at least two or three nearby cinemas or movie theaters and hotels, providing their names and approximate distances. Summarize the findings by listing the names of both locations, the air quality comparison and chosen destination, and the recommended entertainment and accommodation options.",
+            "topic": [
+                "travel",
+                " environment"
+            ],
+            "original_question": "What are the precise geographic coordinates for each of the two locations shown in this image?"
+        },
+        "original_reference_question": "Based on Fig. f6c308b4, What are the precise geographic coordinates for each of the two locations shown in this image?"
+    },
+    {
+        "id": "FC_sample_cd721556",
+        "domain": "M3_Bench",
+        "category": "Function_Call",
+        "question": "Based on Fig. cebfc9ec, what is shown in this image, can you provide some background about the city, its current weather, and suggest nearby dining options?",
+        "answer": [
+            {
+                "step": 1,
+                "calls": [
+                    {
+                        "name": "WIKI_search",
+                        "arguments": {
+                            "query": "Tokyo"
+                        }
+                    },
+                    {
+                        "name": "WEATHER_get_weather",
+                        "arguments": {
+                            "location": "Tokyo, Japan"
+                        }
+                    },
+                    {
+                        "name": "GOOGLE_MAPS_places_text_search",
+                        "arguments": {
+                            "query": "best restaurants near Odaiba, Tokyo, Japan",
+                            "regionCode": "us"
+                        }
+                    }
+                ]
+            }
+        ],
+        "evidence": {
+            "text_evidence": [
+                "Tourist attraction location and city info\n\nFor this workflow, begin by identifying the city or location depicted in the image, focusing on the tourist attraction or landmark shown. Once the location is determined, use a knowledge source to gather background information about the city. Next, retrieve the current weather conditions for that city using a weather information service. Finally, perform a location-based search to find and suggest highly rated or notable restaurants near the identified attraction or within the city. This sequence provides a comprehensive overview of the location, including general context, current weather, and dining options."
+            ],
+            "image_evidence": [
+                "M3_bench_cd721556.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {},
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_business_music_211f501d",
+                    "insert_conversation_turn": 462
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_literature_fashion_travel_092c706b",
+                    "insert_conversation_turn": 53,
+                    "reference_name": "Fig. cebfc9ec"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "function_call": [
+                {
+                    "function_name": "WIKI_search",
+                    "function_comment": "Search Wikipedia for pages matching a query and return top titles.\nArgs:\n  query (str): Free-text search query.\n  n (int): Number of results to include (1–10).\nReturns:\n  result (str): Plain-text list of up to n titles or a no-results message."
+                },
+                {
+                    "function_name": "WEATHER_get_weather",
+                    "function_comment": "Get current weather for a U.S. location using Open‑Meteo with ZIP/city geocoding.\nArgs:\n  location (str): City/state name or a 5‑digit U.S. ZIP code.\n  units (Literal[\"us\",\"metric\"]): \"us\" for imperial units or \"metric\" for SI units.\nReturns:\n  result (str): Plain-text sentence summarizing temperature, wind, code, and place name."
+                },
+                {
+                    "function_name": "GOOGLE_MAPS_places_text_search",
+                    "function_comment": "Search for places using a free-text query via Google Places Text Search.\nArgs:\n  query (str): Text query describing the place.\n  languageCode (Optional[str]): Response language code.\n  regionCode (Optional[str]): Region bias code.\n  locationBias (Optional[Dict[str, Any]]): Optional circle bias for location preference.\n  maxResultCount (int): Maximum number of results to keep client-side.\n  fields (Optional[str]): Unused field mask parameter for signature parity.\nReturns:\n  data (Dict[str, Any]): JSON with endpoint, request parameters, and trimmed Places response."
+                }
+            ],
+            "instruction": "Search for information about the city where this tourist attraction is located using Wikipedia. Check the current weather conditions in that city. Find highly rated restaurants near the attraction using a location-based search.",
+            "workflow_description": "Tourist attraction location and city info\n\nFor this workflow, begin by identifying the city or location depicted in the image, focusing on the tourist attraction or landmark shown. Once the location is determined, use a knowledge source to gather background information about the city. Next, retrieve the current weather conditions for that city using a weather information service. Finally, perform a location-based search to find and suggest highly rated or notable restaurants near the identified attraction or within the city. This sequence provides a comprehensive overview of the location, including general context, current weather, and dining options.",
+            "topic": [
+                "travel",
+                " food",
+                " architecture"
+            ],
+            "original_question": "what is shown in this image, can you provide some background about the city, its current weather, and suggest nearby dining options?"
+        },
+        "original_reference_question": "Based on Fig. cebfc9ec, Based on what is shown in this image, can you provide some background about the city, its current weather, and suggest nearby dining options?"
+    },
+    {
+        "id": "QA_sample_d1479f89_1",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 7f12bf58, the image, what is Asia Rivers most likely to be doing?",
+        "answer": "Watching sports documentaries",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Asia Rivers enjoys sports documentaries, gaming tournaments, but dislikes theater performances, film festivals"
+            ],
+            "image_evidence": [
+                "MMPB_2d99653f.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Asia Rivers enjoys mountain climbing, theme park visits, but dislikes sailing, paragliding",
+                "In terms of lifestyle, Asia Rivers enjoys daily smoothies, outdoor workouts, but dislikes early morning jogs, massages",
+                "In terms of shopping, Asia Rivers enjoys coffee brewing equipment, vintage vinyl records, but dislikes Bluetooth speakers, wireless charging stations",
+                "In terms of fashion, Asia Rivers enjoys techwear, cyberpunk aesthetics, but dislikes winter coats, denim jeans."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Watching nature documentaries",
+                "Watching sports documentaries",
+                "Buying a smoothie",
+                "Streaming cooking shows"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_environment_video_games_food_c5bba191",
+                    "insert_conversation_turn": 611
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_literature_fashion_travel_092c706b",
+                    "insert_conversation_turn": 166,
+                    "reference_name": "Fig. 7f12bf58"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_business_music_211f501d",
+                    "insert_conversation_turn": 517
+                },
+                {
+                    "conversation_name": "group_chat_literature_fashion_travel_092c706b",
+                    "insert_conversation_turn": 367
+                },
+                {
+                    "conversation_name": "group_chat_architecture_business_music_211f501d",
+                    "insert_conversation_turn": 137
+                },
+                {
+                    "conversation_name": "group_chat_environment_video_games_food_c5bba191",
+                    "insert_conversation_turn": 316
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "ziqiao",
+            "description": "ziqiao is a young adult male with a lean build and an average height impression. His facial structure is well-defined, featuring a prominent jawline and a slightly pointed chin. ziqiao has a fair skin tone and dark, neatly styled hair that is often slicked back, giving him a polished look. His eyebrows are thick and well-groomed, adding to his expressive features. ziqiao frequently appears with a neutral or slightly serious expression, though he can also be seen smiling in some images. His poses are generally relaxed and confident, with a tendency to stand or sit with a straight posture.\n\n**Outfit and Accessories:**\nziqiao's attire is diverse, ranging from formal to casual, reflecting different contexts and moods. In formal settings, he is often seen in a dark green double-breasted suit with a white shirt and a blue tie, exuding professionalism. In more relaxed settings, he wears a navy blue pinstripe suit jacket over a white shirt, suggesting a blend of formality and approachability. ziqiao also appears in a patterned jacket with a white shirt, adding a touch of individuality to his style. In a playful context, he dons a white onesie with black spots and a cow-like hood, showcasing a whimsical side. His outfits are characterized by a mix of classic and contemporary styles, with a preference for sharp tailoring and a color palette that includes dark, rich tones. The outfits are practical yet stylish, with a focus on quality materials and a polished finish.\n\n**Distinguishing Visual Features or Vibe:**\nziqiao's most memorable feature is his versatility in style, seamlessly transitioning between formal and casual looks. His dark green suit and navy blue pinstripe jacket are signature pieces that convey a sense of sophistication and confidence. The playful cow onesie adds a touch of humor and lightheartedness to his persona. ziqiao's overall vibe is one of polished professionalism with a hint of playfulness, making him visually unmistakable. His consistent grooming and well-defined facial features contribute to a polished and approachable appearance, while his varied wardrobe choices highlight his adaptability and individuality.",
+            "preference": "In terms of entertainment, ziqiao enjoys sports documentaries, gaming tournaments, but dislikes theater performances, film festivals. In terms of travel, ziqiao enjoys mountain climbing, theme park visits, but dislikes sailing, paragliding. In terms of lifestyle, ziqiao enjoys daily smoothies, outdoor workouts, but dislikes early morning jogs, massages. In terms of shopping, ziqiao enjoys coffee brewing equipment, vintage vinyl records, but dislikes Bluetooth speakers, wireless charging stations. In terms of fashion, ziqiao enjoys techwear, cyberpunk aesthetics, but dislikes winter coats, denim jeans.",
+            "topic": [],
+            "original_id": "QA_sample_d1479f89",
+            "original_question": "the image, what is Asia Rivers most likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_d1479f89_2",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 7ee852f0, Among the activities that could reasonably occur in the given image, which one is Asia Rivers least likely to be doing?",
+        "answer": "Watching film festivals",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Asia Rivers enjoys sports documentaries, gaming tournaments, but dislikes theater performances, film festivals"
+            ],
+            "image_evidence": [
+                "MMPB_28b712ad.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Asia Rivers enjoys mountain climbing, theme park visits, but dislikes sailing, paragliding",
+                "In terms of lifestyle, Asia Rivers enjoys daily smoothies, outdoor workouts, but dislikes early morning jogs, massages",
+                "In terms of shopping, Asia Rivers enjoys coffee brewing equipment, vintage vinyl records, but dislikes Bluetooth speakers, wireless charging stations",
+                "In terms of fashion, Asia Rivers enjoys techwear, cyberpunk aesthetics, but dislikes winter coats, denim jeans."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "Streaming music festivals",
+                "Shopping for coffee brewing equipment",
+                "Attending live concerts",
+                "Watching film festivals"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_environment_video_games_food_c5bba191",
+                    "insert_conversation_turn": 611
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_business_music_211f501d",
+                    "insert_conversation_turn": 94,
+                    "reference_name": "Fig. 7ee852f0"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_business_music_211f501d",
+                    "insert_conversation_turn": 517
+                },
+                {
+                    "conversation_name": "group_chat_literature_fashion_travel_092c706b",
+                    "insert_conversation_turn": 367
+                },
+                {
+                    "conversation_name": "group_chat_architecture_business_music_211f501d",
+                    "insert_conversation_turn": 137
+                },
+                {
+                    "conversation_name": "group_chat_environment_video_games_food_c5bba191",
+                    "insert_conversation_turn": 316
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "ziqiao",
+            "description": "ziqiao is a young adult male with a lean build and an average height impression. His facial structure is well-defined, featuring a prominent jawline and a slightly pointed chin. ziqiao has a fair skin tone and dark, neatly styled hair that is often slicked back, giving him a polished look. His eyebrows are thick and well-groomed, adding to his expressive features. ziqiao frequently appears with a neutral or slightly serious expression, though he can also be seen smiling in some images. His poses are generally relaxed and confident, with a tendency to stand or sit with a straight posture.\n\n**Outfit and Accessories:**\nziqiao's attire is diverse, ranging from formal to casual, reflecting different contexts and moods. In formal settings, he is often seen in a dark green double-breasted suit with a white shirt and a blue tie, exuding professionalism. In more relaxed settings, he wears a navy blue pinstripe suit jacket over a white shirt, suggesting a blend of formality and approachability. ziqiao also appears in a patterned jacket with a white shirt, adding a touch of individuality to his style. In a playful context, he dons a white onesie with black spots and a cow-like hood, showcasing a whimsical side. His outfits are characterized by a mix of classic and contemporary styles, with a preference for sharp tailoring and a color palette that includes dark, rich tones. The outfits are practical yet stylish, with a focus on quality materials and a polished finish.\n\n**Distinguishing Visual Features or Vibe:**\nziqiao's most memorable feature is his versatility in style, seamlessly transitioning between formal and casual looks. His dark green suit and navy blue pinstripe jacket are signature pieces that convey a sense of sophistication and confidence. The playful cow onesie adds a touch of humor and lightheartedness to his persona. ziqiao's overall vibe is one of polished professionalism with a hint of playfulness, making him visually unmistakable. His consistent grooming and well-defined facial features contribute to a polished and approachable appearance, while his varied wardrobe choices highlight his adaptability and individuality.",
+            "preference": "In terms of entertainment, ziqiao enjoys sports documentaries, gaming tournaments, but dislikes theater performances, film festivals. In terms of travel, ziqiao enjoys mountain climbing, theme park visits, but dislikes sailing, paragliding. In terms of lifestyle, ziqiao enjoys daily smoothies, outdoor workouts, but dislikes early morning jogs, massages. In terms of shopping, ziqiao enjoys coffee brewing equipment, vintage vinyl records, but dislikes Bluetooth speakers, wireless charging stations. In terms of fashion, ziqiao enjoys techwear, cyberpunk aesthetics, but dislikes winter coats, denim jeans.",
+            "topic": [],
+            "original_id": "QA_sample_d1479f89",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Asia Rivers least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_054965d0_1",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 347387f3, Among the activities that could reasonably occur in the given image, which one is Luciana Steele least likely to be doing?",
+        "answer": "Watching cooking shows",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Luciana Steele enjoys theater performances, film festivals, but dislikes cooking shows, travel vlogs",
+                "In terms of travel, Luciana Steele enjoys cruise vacations, solo travel, but dislikes motorbiking trips, rafting"
+            ],
+            "image_evidence": [
+                "MMPB_2d99653f.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of lifestyle, Luciana Steele enjoys bullet journaling, reading before bed, but dislikes essential oils, aromatherapy",
+                "In terms of shopping, Luciana Steele enjoys robot vacuums, wearable tech, but dislikes sportswear, high-end perfumes",
+                "In terms of fashion, Luciana Steele enjoys functional fashion, trendy sunglasses, but dislikes statement jewelry, minimalist rings."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "Rafting",
+                "Watching sports events",
+                "Streaming live concerts",
+                "Watching cooking shows"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_environment_video_games_food_c5bba191",
+                    "insert_conversation_turn": 582
+                },
+                {
+                    "conversation_name": "group_chat_literature_fashion_travel_092c706b",
+                    "insert_conversation_turn": 445
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_business_music_211f501d",
+                    "insert_conversation_turn": 451,
+                    "reference_name": "Fig. 347387f3"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_literature_fashion_travel_092c706b",
+                    "insert_conversation_turn": 108
+                },
+                {
+                    "conversation_name": "group_chat_architecture_business_music_211f501d",
+                    "insert_conversation_turn": 178
+                },
+                {
+                    "conversation_name": "group_chat_environment_video_games_food_c5bba191",
+                    "insert_conversation_turn": 178
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Zhuyun",
+            "description": "Zhuyun is a young woman with a slender build and an average height impression. Her facial structure is delicate, featuring a prominent jawline and a slightly pointed chin. She has a fair skin tone and expressive eyes, which are often the focal point of her expressions. Zhuyun's hair is long and dark, styled in various ways across the images, including loose waves, a bun, and a towel wrapped around her head. Her eyebrows are well-defined, and she often has a contemplative or slightly surprised expression, with her mouth slightly open as if caught in mid-speech or thought.\n\n**Outfit and Accessories:**\nZhuyun's attire is diverse, reflecting different settings and moods. She is seen wearing a white blouse with a black ribbon tie, a light-colored jacket, and a striped shirt paired with a denim jacket. The color palette of her outfits is neutral, with whites, blacks, and light tones dominating. Her clothing appears practical and comfortable, with a touch of formality in the blouse. Accessories include a small earring and a hair clip, adding subtle details to her look. The outfits suggest a blend of casual and semi-formal styles, suitable for various occasions.\n\n**Distinguishing Visual Features or Vibe:**\nZhuyun exudes a youthful and approachable vibe, characterized by her expressive eyes and varied hairstyles. The recurring theme of her outfits is a mix of simplicity and elegance, with a focus on neutral colors and practical designs. Her presence is marked by a sense of curiosity and engagement, as seen in her expressions and the way she holds a smartphone in one of the images. The overall impression is of a thoughtful and adaptable individual, comfortable in both casual and slightly formal settings.",
+            "preference": "In terms of entertainment, Zhuyun enjoys theater performances, film festivals, but dislikes cooking shows, travel vlogs. In terms of travel, Zhuyun enjoys cruise vacations, solo travel, but dislikes motorbiking trips, rafting. In terms of lifestyle, Zhuyun enjoys bullet journaling, reading before bed, but dislikes essential oils, aromatherapy. In terms of shopping, Zhuyun enjoys robot vacuums, wearable tech, but dislikes sportswear, high-end perfumes. In terms of fashion, Zhuyun enjoys functional fashion, trendy sunglasses, but dislikes statement jewelry, minimalist rings.",
+            "topic": [],
+            "original_id": "QA_sample_054965d0",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Luciana Steele least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_054965d0_2",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 7680ac5b, the image, what is Luciana Steele most likely to be doing?",
+        "answer": "Watching a film festival broadcast",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Luciana Steele enjoys theater performances, film festivals, but dislikes cooking shows, travel vlogs",
+                "In terms of travel, Luciana Steele enjoys cruise vacations, solo travel, but dislikes motorbiking trips, rafting"
+            ],
+            "image_evidence": [
+                "MMPB_6f052249.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of lifestyle, Luciana Steele enjoys bullet journaling, reading before bed, but dislikes essential oils, aromatherapy",
+                "In terms of shopping, Luciana Steele enjoys robot vacuums, wearable tech, but dislikes sportswear, high-end perfumes",
+                "In terms of fashion, Luciana Steele enjoys functional fashion, trendy sunglasses, but dislikes statement jewelry, minimalist rings."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "Watching a live theater show",
+                "Viewing a magic festival online",
+                "Watching a film festival broadcast",
+                "Observing a movie marathon on cable"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_environment_video_games_food_c5bba191",
+                    "insert_conversation_turn": 582
+                },
+                {
+                    "conversation_name": "group_chat_literature_fashion_travel_092c706b",
+                    "insert_conversation_turn": 445
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_environment_video_games_food_c5bba191",
+                    "insert_conversation_turn": 301,
+                    "reference_name": "Fig. 7680ac5b"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_literature_fashion_travel_092c706b",
+                    "insert_conversation_turn": 108
+                },
+                {
+                    "conversation_name": "group_chat_architecture_business_music_211f501d",
+                    "insert_conversation_turn": 178
+                },
+                {
+                    "conversation_name": "group_chat_environment_video_games_food_c5bba191",
+                    "insert_conversation_turn": 178
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Zhuyun",
+            "description": "Zhuyun is a young woman with a slender build and an average height impression. Her facial structure is delicate, featuring a prominent jawline and a slightly pointed chin. She has a fair skin tone and expressive eyes, which are often the focal point of her expressions. Zhuyun's hair is long and dark, styled in various ways across the images, including loose waves, a bun, and a towel wrapped around her head. Her eyebrows are well-defined, and she often has a contemplative or slightly surprised expression, with her mouth slightly open as if caught in mid-speech or thought.\n\n**Outfit and Accessories:**\nZhuyun's attire is diverse, reflecting different settings and moods. She is seen wearing a white blouse with a black ribbon tie, a light-colored jacket, and a striped shirt paired with a denim jacket. The color palette of her outfits is neutral, with whites, blacks, and light tones dominating. Her clothing appears practical and comfortable, with a touch of formality in the blouse. Accessories include a small earring and a hair clip, adding subtle details to her look. The outfits suggest a blend of casual and semi-formal styles, suitable for various occasions.\n\n**Distinguishing Visual Features or Vibe:**\nZhuyun exudes a youthful and approachable vibe, characterized by her expressive eyes and varied hairstyles. The recurring theme of her outfits is a mix of simplicity and elegance, with a focus on neutral colors and practical designs. Her presence is marked by a sense of curiosity and engagement, as seen in her expressions and the way she holds a smartphone in one of the images. The overall impression is of a thoughtful and adaptable individual, comfortable in both casual and slightly formal settings.",
+            "preference": "In terms of entertainment, Zhuyun enjoys theater performances, film festivals, but dislikes cooking shows, travel vlogs. In terms of travel, Zhuyun enjoys cruise vacations, solo travel, but dislikes motorbiking trips, rafting. In terms of lifestyle, Zhuyun enjoys bullet journaling, reading before bed, but dislikes essential oils, aromatherapy. In terms of shopping, Zhuyun enjoys robot vacuums, wearable tech, but dislikes sportswear, high-end perfumes. In terms of fashion, Zhuyun enjoys functional fashion, trendy sunglasses, but dislikes statement jewelry, minimalist rings.",
+            "topic": [],
+            "original_id": "QA_sample_054965d0",
+            "original_question": "the image, what is Luciana Steele most likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_054965d0_3",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. fad495a1, Among the activities that could reasonably occur in the given image, which one is Luciana Steele least likely to be doing?",
+        "answer": "Watching cooking shows",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Luciana Steele enjoys theater performances, film festivals, but dislikes cooking shows, travel vlogs",
+                "In terms of travel, Luciana Steele enjoys cruise vacations, solo travel, but dislikes motorbiking trips, rafting"
+            ],
+            "image_evidence": [
+                "MMPB_28b712ad.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of lifestyle, Luciana Steele enjoys bullet journaling, reading before bed, but dislikes essential oils, aromatherapy",
+                "In terms of shopping, Luciana Steele enjoys robot vacuums, wearable tech, but dislikes sportswear, high-end perfumes",
+                "In terms of fashion, Luciana Steele enjoys functional fashion, trendy sunglasses, but dislikes statement jewelry, minimalist rings."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "Streaming fashion shows",
+                "Rafting",
+                "Watching magic shows",
+                "Watching cooking shows"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_environment_video_games_food_c5bba191",
+                    "insert_conversation_turn": 582
+                },
+                {
+                    "conversation_name": "group_chat_literature_fashion_travel_092c706b",
+                    "insert_conversation_turn": 445
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_environment_video_games_food_c5bba191",
+                    "insert_conversation_turn": 229,
+                    "reference_name": "Fig. fad495a1"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_literature_fashion_travel_092c706b",
+                    "insert_conversation_turn": 108
+                },
+                {
+                    "conversation_name": "group_chat_architecture_business_music_211f501d",
+                    "insert_conversation_turn": 178
+                },
+                {
+                    "conversation_name": "group_chat_environment_video_games_food_c5bba191",
+                    "insert_conversation_turn": 178
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Zhuyun",
+            "description": "Zhuyun is a young woman with a slender build and an average height impression. Her facial structure is delicate, featuring a prominent jawline and a slightly pointed chin. She has a fair skin tone and expressive eyes, which are often the focal point of her expressions. Zhuyun's hair is long and dark, styled in various ways across the images, including loose waves, a bun, and a towel wrapped around her head. Her eyebrows are well-defined, and she often has a contemplative or slightly surprised expression, with her mouth slightly open as if caught in mid-speech or thought.\n\n**Outfit and Accessories:**\nZhuyun's attire is diverse, reflecting different settings and moods. She is seen wearing a white blouse with a black ribbon tie, a light-colored jacket, and a striped shirt paired with a denim jacket. The color palette of her outfits is neutral, with whites, blacks, and light tones dominating. Her clothing appears practical and comfortable, with a touch of formality in the blouse. Accessories include a small earring and a hair clip, adding subtle details to her look. The outfits suggest a blend of casual and semi-formal styles, suitable for various occasions.\n\n**Distinguishing Visual Features or Vibe:**\nZhuyun exudes a youthful and approachable vibe, characterized by her expressive eyes and varied hairstyles. The recurring theme of her outfits is a mix of simplicity and elegance, with a focus on neutral colors and practical designs. Her presence is marked by a sense of curiosity and engagement, as seen in her expressions and the way she holds a smartphone in one of the images. The overall impression is of a thoughtful and adaptable individual, comfortable in both casual and slightly formal settings.",
+            "preference": "In terms of entertainment, Zhuyun enjoys theater performances, film festivals, but dislikes cooking shows, travel vlogs. In terms of travel, Zhuyun enjoys cruise vacations, solo travel, but dislikes motorbiking trips, rafting. In terms of lifestyle, Zhuyun enjoys bullet journaling, reading before bed, but dislikes essential oils, aromatherapy. In terms of shopping, Zhuyun enjoys robot vacuums, wearable tech, but dislikes sportswear, high-end perfumes. In terms of fashion, Zhuyun enjoys functional fashion, trendy sunglasses, but dislikes statement jewelry, minimalist rings.",
+            "topic": [],
+            "original_id": "QA_sample_054965d0",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Luciana Steele least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_5a551c65_1",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. b6596954, the image, what is Miya Cruz most likely to be doing?",
+        "answer": "Watching sports TV",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Miya Cruz enjoys sports TV, romantic dramas, but dislikes musicals, documentaries"
+            ],
+            "image_evidence": [
+                "MMPB_2d99653f.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Miya Cruz enjoys wildlife safaris, hot air balloon rides, but dislikes overland train journeys, remote island hopping",
+                "In terms of lifestyle, Miya Cruz enjoys early morning jogs, massages, but dislikes essential oils, aromatherapy",
+                "In terms of shopping, Miya Cruz enjoys sportswear, high-end perfumes, but dislikes compact fitness equipment, desk organizers",
+                "In terms of fashion, Miya Cruz enjoys vintage style, formal suits, but dislikes bright neon colors, oversized sweaters."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "Buying vintage style suits",
+                "Streaming magic shows",
+                "Watching sports TV",
+                "Watching movie channels"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_literature_fashion_travel_092c706b",
+                    "insert_conversation_turn": 273
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_literature_fashion_travel_092c706b",
+                    "insert_conversation_turn": 166,
+                    "reference_name": "Fig. b6596954"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_environment_video_games_food_c5bba191",
+                    "insert_conversation_turn": 286
+                },
+                {
+                    "conversation_name": "group_chat_architecture_business_music_211f501d",
+                    "insert_conversation_turn": 252
+                },
+                {
+                    "conversation_name": "group_chat_literature_fashion_travel_092c706b",
+                    "insert_conversation_turn": 353
+                },
+                {
+                    "conversation_name": "group_chat_environment_video_games_food_c5bba191",
+                    "insert_conversation_turn": 553
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Kim",
+            "description": "Kim is a woman with a slender build and an average height impression. Her facial structure is characterized by a well-defined jawline and a slightly pointed chin, complemented by a smooth, fair skin tone. Her hair is short, dark, and styled in a sleek, straight manner, often falling just above her shoulders. Kim frequently displays a contemplative or engaged expression, with her eyes wide and focused, suggesting a thoughtful or attentive demeanor. Her eyebrows are well-groomed and slightly arched, adding to her expressive features. In some images, she is seen with her hands clasped together, indicating a poised and composed posture.\n\n**Outfit and Accessories:**\nKim is often seen wearing elegant and sophisticated attire. In several images, she is dressed in a white sleeveless top with a high neckline, which exudes a sense of formality and grace. The texture of the fabric appears smooth and flowing, enhancing her refined appearance. In another image, she is depicted in a pink top with a white headband, adding a touch of softness and approachability to her look. Her accessories, such as dangling earrings, add a subtle yet elegant touch to her overall appearance. The color palette of her outfits is predominantly neutral, with white and pink being the most prominent, contributing to a polished and understated style.\n\n**Distinguishing Visual Features or Vibe:**\nKim's most memorable feature is her short, dark hair, which is consistently styled in a sleek manner, adding to her modern and chic appearance. Her fair skin and well-defined facial features, including her expressive eyes and arched eyebrows, contribute to a striking and memorable visage. The recurring theme of her outfits, particularly the white sleeveless top, suggests a preference for classic and timeless fashion choices. The combination of her poised posture, elegant attire, and subtle accessories creates an aura of sophistication and grace. Additionally, her contemplative expressions and focused gaze convey a sense of depth and introspection, making her visually unmistakable and leaving a lasting impression.",
+            "preference": "In terms of entertainment, Kim enjoys sports TV, romantic dramas, but dislikes musicals, documentaries. In terms of travel, Kim enjoys wildlife safaris, hot air balloon rides, but dislikes overland train journeys, remote island hopping. In terms of lifestyle, Kim enjoys early morning jogs, massages, but dislikes essential oils, aromatherapy. In terms of shopping, Kim enjoys sportswear, high-end perfumes, but dislikes compact fitness equipment, desk organizers. In terms of fashion, Kim enjoys vintage style, formal suits, but dislikes bright neon colors, oversized sweaters.",
+            "topic": [],
+            "original_id": "QA_sample_5a551c65",
+            "original_question": "the image, what is Miya Cruz most likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_5a551c65_2",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. e16fb616, Among the activities that could reasonably occur in the given image, which one is Miya Cruz least likely to be doing?",
+        "answer": "Watching documentaries",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Miya Cruz enjoys sports TV, romantic dramas, but dislikes musicals, documentaries"
+            ],
+            "image_evidence": [
+                "MMPB_81ebaeeb.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Miya Cruz enjoys wildlife safaris, hot air balloon rides, but dislikes overland train journeys, remote island hopping",
+                "In terms of lifestyle, Miya Cruz enjoys early morning jogs, massages, but dislikes essential oils, aromatherapy",
+                "In terms of shopping, Miya Cruz enjoys sportswear, high-end perfumes, but dislikes compact fitness equipment, desk organizers",
+                "In terms of fashion, Miya Cruz enjoys vintage style, formal suits, but dislikes bright neon colors, oversized sweaters."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Looking for oversized sweaters",
+                "Watching documentaries",
+                "Watching superhero series",
+                "Watching action movies"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_literature_fashion_travel_092c706b",
+                    "insert_conversation_turn": 273
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_literature_fashion_travel_092c706b",
+                    "insert_conversation_turn": 302,
+                    "reference_name": "Fig. e16fb616"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_environment_video_games_food_c5bba191",
+                    "insert_conversation_turn": 286
+                },
+                {
+                    "conversation_name": "group_chat_architecture_business_music_211f501d",
+                    "insert_conversation_turn": 252
+                },
+                {
+                    "conversation_name": "group_chat_literature_fashion_travel_092c706b",
+                    "insert_conversation_turn": 353
+                },
+                {
+                    "conversation_name": "group_chat_environment_video_games_food_c5bba191",
+                    "insert_conversation_turn": 553
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Kim",
+            "description": "Kim is a woman with a slender build and an average height impression. Her facial structure is characterized by a well-defined jawline and a slightly pointed chin, complemented by a smooth, fair skin tone. Her hair is short, dark, and styled in a sleek, straight manner, often falling just above her shoulders. Kim frequently displays a contemplative or engaged expression, with her eyes wide and focused, suggesting a thoughtful or attentive demeanor. Her eyebrows are well-groomed and slightly arched, adding to her expressive features. In some images, she is seen with her hands clasped together, indicating a poised and composed posture.\n\n**Outfit and Accessories:**\nKim is often seen wearing elegant and sophisticated attire. In several images, she is dressed in a white sleeveless top with a high neckline, which exudes a sense of formality and grace. The texture of the fabric appears smooth and flowing, enhancing her refined appearance. In another image, she is depicted in a pink top with a white headband, adding a touch of softness and approachability to her look. Her accessories, such as dangling earrings, add a subtle yet elegant touch to her overall appearance. The color palette of her outfits is predominantly neutral, with white and pink being the most prominent, contributing to a polished and understated style.\n\n**Distinguishing Visual Features or Vibe:**\nKim's most memorable feature is her short, dark hair, which is consistently styled in a sleek manner, adding to her modern and chic appearance. Her fair skin and well-defined facial features, including her expressive eyes and arched eyebrows, contribute to a striking and memorable visage. The recurring theme of her outfits, particularly the white sleeveless top, suggests a preference for classic and timeless fashion choices. The combination of her poised posture, elegant attire, and subtle accessories creates an aura of sophistication and grace. Additionally, her contemplative expressions and focused gaze convey a sense of depth and introspection, making her visually unmistakable and leaving a lasting impression.",
+            "preference": "In terms of entertainment, Kim enjoys sports TV, romantic dramas, but dislikes musicals, documentaries. In terms of travel, Kim enjoys wildlife safaris, hot air balloon rides, but dislikes overland train journeys, remote island hopping. In terms of lifestyle, Kim enjoys early morning jogs, massages, but dislikes essential oils, aromatherapy. In terms of shopping, Kim enjoys sportswear, high-end perfumes, but dislikes compact fitness equipment, desk organizers. In terms of fashion, Kim enjoys vintage style, formal suits, but dislikes bright neon colors, oversized sweaters.",
+            "topic": [],
+            "original_id": "QA_sample_5a551c65",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Miya Cruz least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_ae8287a3_1",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 19c143c9, Among the activities that could reasonably occur in the given image, which one is Jaliyah Gamble least likely to be doing?",
+        "answer": "Watching cooking shows",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Jaliyah Gamble enjoys improv comedy, street performances, but dislikes cooking shows, travel vlogs"
+            ],
+            "image_evidence": [
+                "MMPB_6f052249.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Jaliyah Gamble enjoys mountain biking, zip-lining, but dislikes overland train journeys, remote island hopping",
+                "In terms of lifestyle, Jaliyah Gamble enjoys plant-based diet, home cooking, but dislikes hot yoga, pilates",
+                "In terms of shopping, Jaliyah Gamble enjoys sportswear, high-end perfumes, but dislikes second-hand books, indie brands",
+                "In terms of fashion, Jaliyah Gamble enjoys bright neon colors, oversized sweaters, but dislikes streetwear, custom sneakers."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Watching action movies",
+                "Watching cooking shows",
+                "Watching sports events",
+                "Doing pilates"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_business_music_211f501d",
+                    "insert_conversation_turn": 238
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_business_music_211f501d",
+                    "insert_conversation_turn": 109,
+                    "reference_name": "Fig. 19c143c9"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_business_music_211f501d",
+                    "insert_conversation_turn": 503
+                },
+                {
+                    "conversation_name": "group_chat_environment_video_games_food_c5bba191",
+                    "insert_conversation_turn": 539
+                },
+                {
+                    "conversation_name": "group_chat_environment_video_games_food_c5bba191",
+                    "insert_conversation_turn": 272
+                },
+                {
+                    "conversation_name": "group_chat_literature_fashion_travel_092c706b",
+                    "insert_conversation_turn": 489
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Wife",
+            "description": "Wife is depicted as a woman with a slender build and a poised demeanor. Her height appears average, and she consistently maintains a composed posture. Her facial structure is characterized by a delicate jawline and a slightly upturned nose, with expressive eyes that convey a range of emotions. Wife has a fair skin tone and her hair is styled in a neat, elegant manner, often pulled back, which accentuates her facial features. Her eyebrows are well-defined, and her expressions range from contemplative to serious, suggesting a thoughtful and introspective personality.\n\n**Outfit and Accessories:**\nWife's attire is a blend of classic and elegant styles, often featuring high-collared garments that add a touch of sophistication. She is frequently seen in a purple cardigan over a cream-colored top, which exudes a sense of warmth and approachability. In other scenes, she wears a light-colored, striped shirt and a black jacket adorned with decorative brooches, adding a touch of formality and elegance. The color palette of her outfits is muted, with a focus on earthy tones and subtle patterns. Her clothing appears to be made of high-quality materials, such as wool and silk, which contribute to a refined and polished look. The outfits are practical yet stylish, suggesting a character who values both comfort and appearance.\n\n**Distinguishing Visual Features or Vibe:**\nWife's most memorable feature is her ability to convey a sense of quiet strength and resilience through her expressions and posture. The recurring theme of high-collared garments and the use of brooches as accessories add a touch of elegance and sophistication to her appearance. The consistent use of muted colors and classic styles creates a timeless and dignified aura. Her presence is marked by a subtle yet powerful presence, as she often appears composed and thoughtful, even in challenging situations. The combination of her poised demeanor, elegant attire, and expressive eyes makes Wife a visually striking and memorable character.",
+            "preference": "In terms of entertainment, Wife enjoys improv comedy, street performances, but dislikes cooking shows, travel vlogs. In terms of travel, Wife enjoys mountain biking, zip-lining, but dislikes overland train journeys, remote island hopping. In terms of lifestyle, Wife enjoys plant-based diet, home cooking, but dislikes hot yoga, pilates. In terms of shopping, Wife enjoys sportswear, high-end perfumes, but dislikes second-hand books, indie brands. In terms of fashion, Wife enjoys bright neon colors, oversized sweaters, but dislikes streetwear, custom sneakers.",
+            "topic": [],
+            "original_id": "QA_sample_ae8287a3",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Jaliyah Gamble least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_ae8287a3_2",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 0b56c511, Among the activities that could reasonably occur in the given image, which one is Jaliyah Gamble least likely to be doing?",
+        "answer": "Watching travel vlogs",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Jaliyah Gamble enjoys improv comedy, street performances, but dislikes cooking shows, travel vlogs"
+            ],
+            "image_evidence": [
+                "MMPB_ea429820.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Jaliyah Gamble enjoys mountain biking, zip-lining, but dislikes overland train journeys, remote island hopping",
+                "In terms of lifestyle, Jaliyah Gamble enjoys plant-based diet, home cooking, but dislikes hot yoga, pilates",
+                "In terms of shopping, Jaliyah Gamble enjoys sportswear, high-end perfumes, but dislikes second-hand books, indie brands",
+                "In terms of fashion, Jaliyah Gamble enjoys bright neon colors, oversized sweaters, but dislikes streetwear, custom sneakers."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Watching travel vlogs",
+                "Watching magic tutorials",
+                "Wearing streetwear",
+                "Watching beauty tutorials"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_business_music_211f501d",
+                    "insert_conversation_turn": 238
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_literature_fashion_travel_092c706b",
+                    "insert_conversation_turn": 73,
+                    "reference_name": "Fig. 0b56c511"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_business_music_211f501d",
+                    "insert_conversation_turn": 503
+                },
+                {
+                    "conversation_name": "group_chat_environment_video_games_food_c5bba191",
+                    "insert_conversation_turn": 539
+                },
+                {
+                    "conversation_name": "group_chat_environment_video_games_food_c5bba191",
+                    "insert_conversation_turn": 272
+                },
+                {
+                    "conversation_name": "group_chat_literature_fashion_travel_092c706b",
+                    "insert_conversation_turn": 489
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Wife",
+            "description": "Wife is depicted as a woman with a slender build and a poised demeanor. Her height appears average, and she consistently maintains a composed posture. Her facial structure is characterized by a delicate jawline and a slightly upturned nose, with expressive eyes that convey a range of emotions. Wife has a fair skin tone and her hair is styled in a neat, elegant manner, often pulled back, which accentuates her facial features. Her eyebrows are well-defined, and her expressions range from contemplative to serious, suggesting a thoughtful and introspective personality.\n\n**Outfit and Accessories:**\nWife's attire is a blend of classic and elegant styles, often featuring high-collared garments that add a touch of sophistication. She is frequently seen in a purple cardigan over a cream-colored top, which exudes a sense of warmth and approachability. In other scenes, she wears a light-colored, striped shirt and a black jacket adorned with decorative brooches, adding a touch of formality and elegance. The color palette of her outfits is muted, with a focus on earthy tones and subtle patterns. Her clothing appears to be made of high-quality materials, such as wool and silk, which contribute to a refined and polished look. The outfits are practical yet stylish, suggesting a character who values both comfort and appearance.\n\n**Distinguishing Visual Features or Vibe:**\nWife's most memorable feature is her ability to convey a sense of quiet strength and resilience through her expressions and posture. The recurring theme of high-collared garments and the use of brooches as accessories add a touch of elegance and sophistication to her appearance. The consistent use of muted colors and classic styles creates a timeless and dignified aura. Her presence is marked by a subtle yet powerful presence, as she often appears composed and thoughtful, even in challenging situations. The combination of her poised demeanor, elegant attire, and expressive eyes makes Wife a visually striking and memorable character.",
+            "preference": "In terms of entertainment, Wife enjoys improv comedy, street performances, but dislikes cooking shows, travel vlogs. In terms of travel, Wife enjoys mountain biking, zip-lining, but dislikes overland train journeys, remote island hopping. In terms of lifestyle, Wife enjoys plant-based diet, home cooking, but dislikes hot yoga, pilates. In terms of shopping, Wife enjoys sportswear, high-end perfumes, but dislikes second-hand books, indie brands. In terms of fashion, Wife enjoys bright neon colors, oversized sweaters, but dislikes streetwear, custom sneakers.",
+            "topic": [],
+            "original_id": "QA_sample_ae8287a3",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Jaliyah Gamble least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_ae8287a3_3",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 376d4c3f, the image, what is Jaliyah Gamble most likely to be doing?",
+        "answer": "Watching improv comedy",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Jaliyah Gamble enjoys improv comedy, street performances, but dislikes cooking shows, travel vlogs"
+            ],
+            "image_evidence": [
+                "MMPB_799e1f96.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Jaliyah Gamble enjoys mountain biking, zip-lining, but dislikes overland train journeys, remote island hopping",
+                "In terms of lifestyle, Jaliyah Gamble enjoys plant-based diet, home cooking, but dislikes hot yoga, pilates",
+                "In terms of shopping, Jaliyah Gamble enjoys sportswear, high-end perfumes, but dislikes second-hand books, indie brands",
+                "In terms of fashion, Jaliyah Gamble enjoys bright neon colors, oversized sweaters, but dislikes streetwear, custom sneakers."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "Watching a magic show",
+                "Wearing oversized sweaters",
+                "Watching improv comedy",
+                "Attending a live theater show"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_business_music_211f501d",
+                    "insert_conversation_turn": 238
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_literature_fashion_travel_092c706b",
+                    "insert_conversation_turn": 58,
+                    "reference_name": "Fig. 376d4c3f"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_business_music_211f501d",
+                    "insert_conversation_turn": 503
+                },
+                {
+                    "conversation_name": "group_chat_environment_video_games_food_c5bba191",
+                    "insert_conversation_turn": 539
+                },
+                {
+                    "conversation_name": "group_chat_environment_video_games_food_c5bba191",
+                    "insert_conversation_turn": 272
+                },
+                {
+                    "conversation_name": "group_chat_literature_fashion_travel_092c706b",
+                    "insert_conversation_turn": 489
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Wife",
+            "description": "Wife is depicted as a woman with a slender build and a poised demeanor. Her height appears average, and she consistently maintains a composed posture. Her facial structure is characterized by a delicate jawline and a slightly upturned nose, with expressive eyes that convey a range of emotions. Wife has a fair skin tone and her hair is styled in a neat, elegant manner, often pulled back, which accentuates her facial features. Her eyebrows are well-defined, and her expressions range from contemplative to serious, suggesting a thoughtful and introspective personality.\n\n**Outfit and Accessories:**\nWife's attire is a blend of classic and elegant styles, often featuring high-collared garments that add a touch of sophistication. She is frequently seen in a purple cardigan over a cream-colored top, which exudes a sense of warmth and approachability. In other scenes, she wears a light-colored, striped shirt and a black jacket adorned with decorative brooches, adding a touch of formality and elegance. The color palette of her outfits is muted, with a focus on earthy tones and subtle patterns. Her clothing appears to be made of high-quality materials, such as wool and silk, which contribute to a refined and polished look. The outfits are practical yet stylish, suggesting a character who values both comfort and appearance.\n\n**Distinguishing Visual Features or Vibe:**\nWife's most memorable feature is her ability to convey a sense of quiet strength and resilience through her expressions and posture. The recurring theme of high-collared garments and the use of brooches as accessories add a touch of elegance and sophistication to her appearance. The consistent use of muted colors and classic styles creates a timeless and dignified aura. Her presence is marked by a subtle yet powerful presence, as she often appears composed and thoughtful, even in challenging situations. The combination of her poised demeanor, elegant attire, and expressive eyes makes Wife a visually striking and memorable character.",
+            "preference": "In terms of entertainment, Wife enjoys improv comedy, street performances, but dislikes cooking shows, travel vlogs. In terms of travel, Wife enjoys mountain biking, zip-lining, but dislikes overland train journeys, remote island hopping. In terms of lifestyle, Wife enjoys plant-based diet, home cooking, but dislikes hot yoga, pilates. In terms of shopping, Wife enjoys sportswear, high-end perfumes, but dislikes second-hand books, indie brands. In terms of fashion, Wife enjoys bright neon colors, oversized sweaters, but dislikes streetwear, custom sneakers.",
+            "topic": [],
+            "original_id": "QA_sample_ae8287a3",
+            "original_question": "the image, what is Jaliyah Gamble most likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_97b85542_1",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 621d227b, the image, what is Lori Roby most likely to be doing?",
+        "answer": "Watching an anime series",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Lori Roby enjoys K-pop concerts, anime series, but dislikes improv comedy, street performances"
+            ],
+            "image_evidence": [
+                "MMPB_2d99653f.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Lori Roby enjoys cruise vacations, solo travel, but dislikes motorbiking trips, rafting",
+                "In terms of lifestyle, Lori Roby enjoys kombucha brewing, medicinal herb gardening, but dislikes hot yoga, pilates",
+                "In terms of shopping, Lori Roby enjoys retro gaming consoles, wireless earbuds, but dislikes handmade crafts, vintage furniture",
+                "In terms of fashion, Lori Roby enjoys vintage style, formal suits, but dislikes business casual, athleisure wear."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "Streaming a documentary series",
+                "Watching a movie marathon",
+                "Watching an anime series",
+                "Going on a solo travel adventure"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_environment_video_games_food_c5bba191",
+                    "insert_conversation_turn": 148
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_literature_fashion_travel_092c706b",
+                    "insert_conversation_turn": 166,
+                    "reference_name": "Fig. 621d227b"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_environment_video_games_food_c5bba191",
+                    "insert_conversation_turn": 258
+                },
+                {
+                    "conversation_name": "group_chat_environment_video_games_food_c5bba191",
+                    "insert_conversation_turn": 385
+                },
+                {
+                    "conversation_name": "group_chat_environment_video_games_food_c5bba191",
+                    "insert_conversation_turn": 525
+                },
+                {
+                    "conversation_name": "group_chat_literature_fashion_travel_092c706b",
+                    "insert_conversation_turn": 339
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Yu",
+            "description": "Yu is a young individual with a slender build and a youthful appearance, suggesting a height that is typical for their age. Their facial structure is characterized by a well-defined jawline and a slightly rounded face, with a fair skin tone. The hair is short and neatly styled, often appearing dark and well-groomed. The eyebrows are thick and well-defined, adding to the expressive nature of their face. Yu frequently displays a range of expressions, from a broad smile to a more contemplative look, indicating a lively and engaging personality. The eyes are a notable feature, often appearing bright and attentive, contributing to a sense of curiosity and openness.\n\n**Outfit and Accessories:**\nYu is seen wearing a variety of outfits that reflect a casual and comfortable style. The color palette includes a mix of bright and neutral tones, such as red, green, white, and orange, with occasional accents of blue and black. The clothing appears to be made of soft, comfortable materials, suitable for everyday wear. The outfits range from a red and green jacket to a white shirt with pink accents, and a gray shirt with red and black details. The attire is practical and functional, with a focus on comfort and ease of movement. There are no visible accessories, suggesting a preference for simplicity and minimalism in their style.\n\n**Distinguishing Visual Features or Vibe:**\nThe most memorable feature of Yu is their bright and engaging smile, which conveys a sense of warmth and friendliness. The consistent appearance of a neat and well-groomed hairstyle adds to their youthful and approachable vibe. The combination of bright and neutral colors in their outfits creates a visually appealing contrast, enhancing their overall appearance. The expressive eyes and varied facial expressions contribute to a dynamic and lively persona. The overall impression is one of a cheerful and energetic individual, with a casual and relatable style that makes Yu visually unmistakable.",
+            "preference": "In terms of entertainment, Yu enjoys K-pop concerts, anime series, but dislikes improv comedy, street performances. In terms of travel, Yu enjoys cruise vacations, solo travel, but dislikes motorbiking trips, rafting. In terms of lifestyle, Yu enjoys kombucha brewing, medicinal herb gardening, but dislikes hot yoga, pilates. In terms of shopping, Yu enjoys retro gaming consoles, wireless earbuds, but dislikes handmade crafts, vintage furniture. In terms of fashion, Yu enjoys vintage style, formal suits, but dislikes business casual, athleisure wear.",
+            "topic": [],
+            "original_id": "QA_sample_97b85542",
+            "original_question": "the image, what is Lori Roby most likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_97b85542_3",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 0db546e4, Among the activities that could reasonably occur in the given image, which one is Lori Roby least likely to be doing?",
+        "answer": "Watching street performances",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Lori Roby enjoys K-pop concerts, anime series, but dislikes improv comedy, street performances"
+            ],
+            "image_evidence": [
+                "MMPB_28b712ad.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Lori Roby enjoys cruise vacations, solo travel, but dislikes motorbiking trips, rafting",
+                "In terms of lifestyle, Lori Roby enjoys kombucha brewing, medicinal herb gardening, but dislikes hot yoga, pilates",
+                "In terms of shopping, Lori Roby enjoys retro gaming consoles, wireless earbuds, but dislikes handmade crafts, vintage furniture",
+                "In terms of fashion, Lori Roby enjoys vintage style, formal suits, but dislikes business casual, athleisure wear."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "Observing public art installations",
+                "Enjoying outdoor music festivals",
+                "Brewing Kombu tea",
+                "Watching street performances"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_environment_video_games_food_c5bba191",
+                    "insert_conversation_turn": 148
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_business_music_211f501d",
+                    "insert_conversation_turn": 94,
+                    "reference_name": "Fig. 0db546e4"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_environment_video_games_food_c5bba191",
+                    "insert_conversation_turn": 258
+                },
+                {
+                    "conversation_name": "group_chat_environment_video_games_food_c5bba191",
+                    "insert_conversation_turn": 385
+                },
+                {
+                    "conversation_name": "group_chat_environment_video_games_food_c5bba191",
+                    "insert_conversation_turn": 525
+                },
+                {
+                    "conversation_name": "group_chat_literature_fashion_travel_092c706b",
+                    "insert_conversation_turn": 339
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Yu",
+            "description": "Yu is a young individual with a slender build and a youthful appearance, suggesting a height that is typical for their age. Their facial structure is characterized by a well-defined jawline and a slightly rounded face, with a fair skin tone. The hair is short and neatly styled, often appearing dark and well-groomed. The eyebrows are thick and well-defined, adding to the expressive nature of their face. Yu frequently displays a range of expressions, from a broad smile to a more contemplative look, indicating a lively and engaging personality. The eyes are a notable feature, often appearing bright and attentive, contributing to a sense of curiosity and openness.\n\n**Outfit and Accessories:**\nYu is seen wearing a variety of outfits that reflect a casual and comfortable style. The color palette includes a mix of bright and neutral tones, such as red, green, white, and orange, with occasional accents of blue and black. The clothing appears to be made of soft, comfortable materials, suitable for everyday wear. The outfits range from a red and green jacket to a white shirt with pink accents, and a gray shirt with red and black details. The attire is practical and functional, with a focus on comfort and ease of movement. There are no visible accessories, suggesting a preference for simplicity and minimalism in their style.\n\n**Distinguishing Visual Features or Vibe:**\nThe most memorable feature of Yu is their bright and engaging smile, which conveys a sense of warmth and friendliness. The consistent appearance of a neat and well-groomed hairstyle adds to their youthful and approachable vibe. The combination of bright and neutral colors in their outfits creates a visually appealing contrast, enhancing their overall appearance. The expressive eyes and varied facial expressions contribute to a dynamic and lively persona. The overall impression is one of a cheerful and energetic individual, with a casual and relatable style that makes Yu visually unmistakable.",
+            "preference": "In terms of entertainment, Yu enjoys K-pop concerts, anime series, but dislikes improv comedy, street performances. In terms of travel, Yu enjoys cruise vacations, solo travel, but dislikes motorbiking trips, rafting. In terms of lifestyle, Yu enjoys kombucha brewing, medicinal herb gardening, but dislikes hot yoga, pilates. In terms of shopping, Yu enjoys retro gaming consoles, wireless earbuds, but dislikes handmade crafts, vintage furniture. In terms of fashion, Yu enjoys vintage style, formal suits, but dislikes business casual, athleisure wear.",
+            "topic": [],
+            "original_id": "QA_sample_97b85542",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Lori Roby least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_1db39444_2",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 79d457d7, Among the activities that could reasonably occur in the given image, which one is Zander Aguilar least likely to be doing?",
+        "answer": "Watching drama sitcoms",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Zander Aguilar enjoys theater performances, film festivals, but dislikes horror movies, sitcoms"
+            ],
+            "image_evidence": [
+                "MMPB_2d99653f.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Zander Aguilar enjoys skydiving, cave exploration, but dislikes motorbiking trips, rafting",
+                "In terms of lifestyle, Zander Aguilar enjoys boxing workouts, rock climbing gyms, but dislikes home gardening, night owl lifestyle",
+                "In terms of shopping, Zander Aguilar enjoys robot vacuums, wearable tech, but dislikes handwoven rugs, fancy cutlery sets",
+                "In terms of fashion, Zander Aguilar enjoys bright neon colors, oversized sweaters, but dislikes casual wear, minimalist outfits."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "Streaming comedy specials",
+                "Gardening at home",
+                "Watching drama sitcoms",
+                "Watching action thrillers"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_business_music_211f501d",
+                    "insert_conversation_turn": 481
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_environment_video_games_food_c5bba191",
+                    "insert_conversation_turn": 195,
+                    "reference_name": "Fig. 79d457d7"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_business_music_211f501d",
+                    "insert_conversation_turn": 288
+                },
+                {
+                    "conversation_name": "group_chat_architecture_business_music_211f501d",
+                    "insert_conversation_turn": 224
+                },
+                {
+                    "conversation_name": "group_chat_environment_video_games_food_c5bba191",
+                    "insert_conversation_turn": 244
+                },
+                {
+                    "conversation_name": "group_chat_architecture_business_music_211f501d",
+                    "insert_conversation_turn": 73
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Jeon",
+            "description": "Jeon is a young woman with a slender build and an impression of average height. Her facial structure is delicate, with a prominent jawline and a slightly pointed chin. She has a fair skin tone and long, straight, dark hair that falls past her shoulders. Her eyebrows are well-defined, and her eyes are expressive, often conveying a sense of thoughtfulness or contemplation. Jeon frequently appears with a neutral or slightly pensive expression, and her poses are relaxed yet poised, suggesting a calm and introspective demeanor.\n\n**Outfit and Accessories:**\nJeon's attire is varied yet consistently stylish, reflecting a blend of casual and semi-formal elements. She is often seen in button-up shirts, both solid-colored and patterned, paired with cardigans or plaid shirts. The color palette of her outfits includes soft pastels like pink and yellow, as well as more neutral tones such as white and green. Her clothing choices suggest a practical yet fashionable sense of style, with a preference for comfortable yet chic pieces. Accessories are minimal but significant, including a necklace and a backpack, which add to her youthful and approachable appearance.\n\n**Distinguishing Visual Features or Vibe:**\nJeon exudes a serene and approachable aura, characterized by her long, straight hair and expressive eyes. Her consistent use of button-up shirts and cardigans, along with her subtle accessories, creates a cohesive and recognizable style. The recurring theme of her outfits—soft colors and comfortable fabrics—enhances her relatable and down-to-earth vibe. Whether in a café, a bustling city street, or a serene outdoor setting, Jeon's presence is marked by a sense of calm and introspection, making her visually unmistakable and memorable.",
+            "preference": "In terms of entertainment, Jeon enjoys theater performances, film festivals, but dislikes horror movies, sitcoms. In terms of travel, Jeon enjoys skydiving, cave exploration, but dislikes motorbiking trips, rafting. In terms of lifestyle, Jeon enjoys boxing workouts, rock climbing gyms, but dislikes home gardening, night owl lifestyle. In terms of shopping, Jeon enjoys robot vacuums, wearable tech, but dislikes handwoven rugs, fancy cutlery sets. In terms of fashion, Jeon enjoys bright neon colors, oversized sweaters, but dislikes casual wear, minimalist outfits.",
+            "topic": [],
+            "original_id": "QA_sample_1db39444",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Zander Aguilar least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_1db39444_3",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. e2b8f07b, Among the activities that could reasonably occur in the given image, which one is Zander Aguilar least likely to be doing?",
+        "answer": "Watching a horror movie",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Zander Aguilar enjoys theater performances, film festivals, but dislikes horror movies, sitcoms"
+            ],
+            "image_evidence": [
+                "MMPB_6f052249.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Zander Aguilar enjoys skydiving, cave exploration, but dislikes motorbiking trips, rafting",
+                "In terms of lifestyle, Zander Aguilar enjoys boxing workouts, rock climbing gyms, but dislikes home gardening, night owl lifestyle",
+                "In terms of shopping, Zander Aguilar enjoys robot vacuums, wearable tech, but dislikes handwoven rugs, fancy cutlery sets",
+                "In terms of fashion, Zander Aguilar enjoys bright neon colors, oversized sweaters, but dislikes casual wear, minimalist outfits."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Viewing a suspenseful film",
+                "Watching a horror movie",
+                "Observing a thrilling movie",
+                "Buying handwoven rugs"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_business_music_211f501d",
+                    "insert_conversation_turn": 481
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_literature_fashion_travel_092c706b",
+                    "insert_conversation_turn": 317,
+                    "reference_name": "Fig. e2b8f07b"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_business_music_211f501d",
+                    "insert_conversation_turn": 288
+                },
+                {
+                    "conversation_name": "group_chat_architecture_business_music_211f501d",
+                    "insert_conversation_turn": 224
+                },
+                {
+                    "conversation_name": "group_chat_environment_video_games_food_c5bba191",
+                    "insert_conversation_turn": 244
+                },
+                {
+                    "conversation_name": "group_chat_architecture_business_music_211f501d",
+                    "insert_conversation_turn": 73
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Jeon",
+            "description": "Jeon is a young woman with a slender build and an impression of average height. Her facial structure is delicate, with a prominent jawline and a slightly pointed chin. She has a fair skin tone and long, straight, dark hair that falls past her shoulders. Her eyebrows are well-defined, and her eyes are expressive, often conveying a sense of thoughtfulness or contemplation. Jeon frequently appears with a neutral or slightly pensive expression, and her poses are relaxed yet poised, suggesting a calm and introspective demeanor.\n\n**Outfit and Accessories:**\nJeon's attire is varied yet consistently stylish, reflecting a blend of casual and semi-formal elements. She is often seen in button-up shirts, both solid-colored and patterned, paired with cardigans or plaid shirts. The color palette of her outfits includes soft pastels like pink and yellow, as well as more neutral tones such as white and green. Her clothing choices suggest a practical yet fashionable sense of style, with a preference for comfortable yet chic pieces. Accessories are minimal but significant, including a necklace and a backpack, which add to her youthful and approachable appearance.\n\n**Distinguishing Visual Features or Vibe:**\nJeon exudes a serene and approachable aura, characterized by her long, straight hair and expressive eyes. Her consistent use of button-up shirts and cardigans, along with her subtle accessories, creates a cohesive and recognizable style. The recurring theme of her outfits—soft colors and comfortable fabrics—enhances her relatable and down-to-earth vibe. Whether in a café, a bustling city street, or a serene outdoor setting, Jeon's presence is marked by a sense of calm and introspection, making her visually unmistakable and memorable.",
+            "preference": "In terms of entertainment, Jeon enjoys theater performances, film festivals, but dislikes horror movies, sitcoms. In terms of travel, Jeon enjoys skydiving, cave exploration, but dislikes motorbiking trips, rafting. In terms of lifestyle, Jeon enjoys boxing workouts, rock climbing gyms, but dislikes home gardening, night owl lifestyle. In terms of shopping, Jeon enjoys robot vacuums, wearable tech, but dislikes handwoven rugs, fancy cutlery sets. In terms of fashion, Jeon enjoys bright neon colors, oversized sweaters, but dislikes casual wear, minimalist outfits.",
+            "topic": [],
+            "original_id": "QA_sample_1db39444",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Zander Aguilar least likely to be doing?"
+        }
+    }
+]

@@ -1,0 +1,1895 @@
+[
+    {
+        "id": "QA_sample_17663f1c",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 633d6a01, the text, what is the cumulative PSNB by February expected to do in relation to the \"OBR’s October 2021 forecast\"?",
+        "answer": "Meet the forecast",
+        "evidence": {
+            "text_evidence": [
+                "The public sector net borrowing (PSNB) data includes monthly observations (blue bars) and cumulative values (lines). Forecasts from October 2021 by OBR indicate future trends, while the dotted line continues trends relative to the OBR forecast. The diamond represents the Prime Minister's forecast for March. Cumulative PSNB is expected to meet or stay below forecasts if the monthly borrowing for January and February remains under £10 billion each month."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_f4d361d2.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "Fall below the forecast significantly",
+                "Remain unchanged from December",
+                "Exceed the forecast",
+                "Meet the forecast"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_environment_transportation_food_6726bff6",
+                    "insert_conversation_turn": 1298
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_transportation_video_games_business_7b2e8b73",
+                    "insert_conversation_turn": 1123,
+                    "reference_name": "Fig. 633d6a01"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "economy",
+                "government"
+            ],
+            "original_question": "the text, what is the cumulative PSNB by February expected to do in relation to the \"OBR’s October 2021 forecast\"?"
+        }
+    },
+    {
+        "id": "MMKE_23c1",
+        "domain": "MMKE",
+        "category": "Other",
+        "question": "Based on Fig. 75d66bbf, On which continent can the species of moth shown in the image be found?",
+        "answer": "South America",
+        "evidence": {
+            "text_evidence": [
+                "The moth in the image corresponds to Haploa confusa.\nHaploa confusa, the confused haploa or Lyman's haploa, is a moth of the family Erebidae that occurs in South America. The species was first described by H. G. Thompson in 1887. The caterpillars feed on dandelions (\"Taraxacum officinale\")."
+            ],
+            "image_evidence": [
+                "MMKE_f76d4376d42a4703.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Haploa confusa, the confused haploa or Lyman's haploa, is a moth of the family Erebidae that occurs in North America. The species was first described by H. H. Lyman in 1887. The caterpillars feed on a hound's tongue (\"Cynoglossum officinale\")."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "North America",
+                "Europe",
+                "Australia",
+                "South America"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_transportation_video_games_business_7b2e8b73",
+                    "insert_conversation_turn": 273
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_films_music_history_966dbd6d",
+                    "insert_conversation_turn": 1107,
+                    "reference_name": "Fig. 75d66bbf"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_environment_transportation_food_6726bff6",
+                    "insert_conversation_turn": 110
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "animals",
+                " nature"
+            ],
+            "original_question": "On which continent can the species of moth shown in the image be found?"
+        }
+    },
+    {
+        "id": "FC_sample_636b731d",
+        "domain": "M3_Bench",
+        "category": "Function_Call",
+        "question": "Based on Fig. e97e04c1, What can you tell me about the fish shown in this image?",
+        "answer": [
+            {
+                "step": 1,
+                "calls": [
+                    {
+                        "name": "WIKI_summary",
+                        "arguments": {
+                            "title": "Common carp"
+                        }
+                    }
+                ]
+            }
+        ],
+        "evidence": {
+            "text_evidence": [
+                "Fishing trip planning from fish image\n\nThis workflow begins by identifying the fish species shown in the provided image. Once the species is determined, a concise summary of the species is retrieved using a tool that provides encyclopedic or authoritative information, such as a Wikipedia summary function. This summary offers background details about the fish, which can be used to inform the user and support further planning. If the user wishes to plan a fishing trip for this species in a specific region, the workflow continues by searching for popular or recommended fishing spots for the species in that area. After selecting a fishing location, the current weather conditions at that spot are retrieved. The workflow then computes a route from a default starting point to the chosen fishing spot. Finally, it searches for nearby amenities such as restaurants and bait stores within a specified radius of the fishing location. This sequence ensures the user receives both information about the fish and practical guidance for organizing a fishing trip targeting that species."
+            ],
+            "image_evidence": [
+                "M3_bench_636b731d.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {},
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_environment_transportation_food_6726bff6",
+                    "insert_conversation_turn": 237
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_transportation_video_games_business_7b2e8b73",
+                    "insert_conversation_turn": 917,
+                    "reference_name": "Fig. e97e04c1"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "function_call": [
+                {
+                    "function_name": "WIKI_summary",
+                    "function_comment": "Fetch a short Wikipedia summary for the given page title.\nArgs:\n  title (str): Exact or redirectable page title.\nReturns:\n  result (str): Plain-text block with title, short description, and extract."
+                }
+            ],
+            "instruction": "Summarize key information about the fish species identified as 'Common carp.' Next, search for popular fishing spots for this species in New Jersey. Retrieve the current weather conditions for the selected fishing location. Compute a route from a default starting point to the fishing spot. Finally, search for restaurants and bait stores within a 5 km radius of the fishing location.",
+            "workflow_description": "Fishing trip planning from fish image\n\nThis workflow begins by identifying the fish species shown in the provided image. Once the species is determined, a concise summary of the species is retrieved using a tool that provides encyclopedic or authoritative information, such as a Wikipedia summary function. This summary offers background details about the fish, which can be used to inform the user and support further planning. If the user wishes to plan a fishing trip for this species in a specific region, the workflow continues by searching for popular or recommended fishing spots for the species in that area. After selecting a fishing location, the current weather conditions at that spot are retrieved. The workflow then computes a route from a default starting point to the chosen fishing spot. Finally, it searches for nearby amenities such as restaurants and bait stores within a specified radius of the fishing location. This sequence ensures the user receives both information about the fish and practical guidance for organizing a fishing trip targeting that species.",
+            "topic": [
+                "animals",
+                " travel"
+            ],
+            "original_question": "What can you tell me about the fish shown in this image?"
+        },
+        "original_reference_question": "Based on Fig. e97e04c1, What can you tell me about the fish shown in this image?"
+    },
+    {
+        "id": "FC_sample_05c23599",
+        "domain": "M3_Bench",
+        "category": "Function_Call",
+        "question": "Based on Fig. f9b42aa9, Can you provide a brief overview of the fish species shown in this image?",
+        "answer": [
+            {
+                "step": 1,
+                "calls": [
+                    {
+                        "name": "WIKI_summary",
+                        "arguments": {
+                            "title": "Weakfish"
+                        }
+                    }
+                ]
+            }
+        ],
+        "evidence": {
+            "text_evidence": [
+                "Fishing trip planning from fish image\n\nThis workflow begins by identifying the fish species shown in the provided image. Once the species is determined, a concise summary of the species is retrieved using a tool that provides encyclopedic or authoritative information, such as a Wikipedia summary function. This summary offers background details about the fish, which can be used to inform the user and support further planning. If the user wishes to plan a fishing trip for this species in a specific region, the workflow continues by searching for popular or recommended fishing spots for the species in that area. After selecting a fishing location, the current weather conditions at that spot are retrieved. The workflow then computes a route from a default starting point to the chosen fishing spot. Finally, it searches for nearby amenities such as restaurants and bait stores within a specified radius of the fishing location. This sequence ensures the user receives both information about the fish and practical guidance for organizing a fishing trip targeting that species."
+            ],
+            "image_evidence": [
+                "M3_bench_05c23599.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {},
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_environment_transportation_food_6726bff6",
+                    "insert_conversation_turn": 237
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_films_music_history_966dbd6d",
+                    "insert_conversation_turn": 308,
+                    "reference_name": "Fig. f9b42aa9"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "function_call": [
+                {
+                    "function_name": "WIKI_summary",
+                    "function_comment": "Fetch a short Wikipedia summary for the given page title.\nArgs:\n  title (str): Exact or redirectable page title.\nReturns:\n  result (str): Plain-text block with title, short description, and extract."
+                }
+            ],
+            "instruction": "Retrieve a summarized description of the fish species identified as 'Weakfish' from Wikipedia. Use this information to support further steps such as finding fishing spots, checking weather conditions, planning a route, and searching for nearby amenities if needed.",
+            "workflow_description": "Fishing trip planning from fish image\n\nThis workflow begins by identifying the fish species shown in the provided image. Once the species is determined, a concise summary of the species is retrieved using a tool that provides encyclopedic or authoritative information, such as a Wikipedia summary function. This summary offers background details about the fish, which can be used to inform the user and support further planning. If the user wishes to plan a fishing trip for this species in a specific region, the workflow continues by searching for popular or recommended fishing spots for the species in that area. After selecting a fishing location, the current weather conditions at that spot are retrieved. The workflow then computes a route from a default starting point to the chosen fishing spot. Finally, it searches for nearby amenities such as restaurants and bait stores within a specified radius of the fishing location. This sequence ensures the user receives both information about the fish and practical guidance for organizing a fishing trip targeting that species.",
+            "topic": [
+                "animals",
+                " travel"
+            ],
+            "original_question": "Can you provide a brief overview of the fish species shown in this image?"
+        },
+        "original_reference_question": "Based on Fig. f9b42aa9, Can you provide a brief overview of the fish species shown in this image?"
+    },
+    {
+        "id": "MMKE_f739",
+        "domain": "MMKE",
+        "category": "Other",
+        "question": "Based on Fig. e9f2c394, What types of animals do the nymphs of the species shown in the image feed on?",
+        "answer": "Small mammals and reptiles",
+        "evidence": {
+            "text_evidence": [
+                "The dragonfly in the image corresponds to Green darner. The blue darner or common blue darner (Anax cerulean) is a species of dragonfly in the family Aeshnidae. It is well known for its short migration distance from northern Colombia south into Ecuador and Peru. Females oviposit in terrestrial vegetation, eggs laid beneath the soil surface. Nymphs (naiads) are terrestrial carnivores, feeding on insects, small mammals, and reptiles. Adult darners catch insects on the ground, including termite alates, beetles, spiders, and wasps."
+            ],
+            "image_evidence": [
+                "MMKE_152a2e8407024863.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "The green darner or common green darner (Anax junius), after its resemblance to a darning needle, is a species of dragonfly in the family Aeshnidae. One of the most common and abundant species throughout North America, it also ranges south to Panama. It is well known for its great migration distance from the northern United States south into Texas and Mexico. It also occurs in the Caribbean, Tahiti, and Asia from Japan to mainland China. It is the official insect for the state of Washington in the United States.\n\nThe green darner is a large dragonfly; males grow to in length with a wingspan up to .\n\nFemales oviposit in aquatic vegetation, eggs laid beneath the water surface. Nymphs (naiads) are aquatic carnivores, feeding on insects, tadpoles, and small fish. Adult darners catch insects on the wing, including ant alates, moths, mosquitoes, and flies."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "Birds and amphibians",
+                "Insects and spiders",
+                "Tadpoles and small fish",
+                "Small mammals and reptiles"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_environment_transportation_food_6726bff6",
+                    "insert_conversation_turn": 194
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_transportation_video_games_business_7b2e8b73",
+                    "insert_conversation_turn": 245,
+                    "reference_name": "Fig. e9f2c394"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_films_music_history_966dbd6d",
+                    "insert_conversation_turn": 171
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "animals",
+                " nature"
+            ],
+            "original_question": "What types of animals do the nymphs of the species shown in the image feed on?"
+        }
+    },
+    {
+        "id": "QA_sample_10bc63d0",
+        "domain": "MLLMKC",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. ad24b293, What is the occupation of the person in the picture?",
+        "answer": "actor, filmmaker, and performance artist",
+        "evidence": {
+            "text_evidence": [
+                "Shia LaBeouf was born on June 11, 1986. Shia LaBeouf is American. Shia LaBeouf is an actor, filmmaker, and performance artist."
+            ],
+            "image_evidence": [
+                "MLLMKC_a8ce39b1.jpg"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Shia LaBeouf was born on June 11, 1986. Shia LaBeouf is American. Shia LaBeouf is a chef, filmmaker, and performance artist."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "chef",
+                "botanist, horticulturist, landscape designer",
+                "actor, filmmaker, and performance artist",
+                "architect"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_environment_transportation_food_6726bff6",
+                    "insert_conversation_turn": 737
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_transportation_video_games_business_7b2e8b73",
+                    "insert_conversation_turn": 1092,
+                    "reference_name": "Fig. ad24b293"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_films_music_history_966dbd6d",
+                    "insert_conversation_turn": 156
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "instance": "Shia LaBeouf",
+            "category": "people",
+            "error_type": "Career_error",
+            "topic": [
+                "films",
+                " television",
+                " art and design"
+            ],
+            "original_question": "What is the occupation of the person in the picture?"
+        }
+    },
+    {
+        "id": "QA_sample_fba47f87",
+        "domain": "MLLMKC",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. 81fc908f, What is the nationality of the person in the picture?",
+        "answer": "None",
+        "evidence": {
+            "text_evidence": [
+                "Gal Gadot was born on April 30, 1985. Gal Gadot is Israeli. Gal Gadot is an actress and model."
+            ],
+            "image_evidence": [
+                "MLLMKC_0ec3b73a.jpg"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Gal Gadot was born on April 30, 1985. Gal Gadot is Jordanian. Gal Gadot is an actress and model."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "None",
+                "Lebanese",
+                "Jordanian",
+                "'Omani'"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_environment_transportation_food_6726bff6",
+                    "insert_conversation_turn": 430
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_films_music_history_966dbd6d",
+                    "insert_conversation_turn": 896,
+                    "reference_name": "Fig. 81fc908f"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_transportation_video_games_business_7b2e8b73",
+                    "insert_conversation_turn": 13
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "instance": "Gal Gadot",
+            "category": "people",
+            "error_type": "location_error",
+            "topic": [
+                "films",
+                " fashion",
+                " lifestyle"
+            ],
+            "original_question": "What is the nationality of the person in the picture?"
+        }
+    },
+    {
+        "id": "MMKE_b459",
+        "domain": "MMKE",
+        "category": "Other",
+        "question": "Based on Fig. 72ab6f6c, Which mountain range is included in the habitat range of the species shown in the image?",
+        "answer": "Rocky Mountains",
+        "evidence": {
+            "text_evidence": [
+                "The dragonfly in the image corresponds to Ebony jewelwing.\nThe ebony jewelwing (Calopteryx maculata) is a species of broad-winged damselfly. One of about 150 species of Calopterygidae, it is found in the western U.S. and southwestern Mexico, ranging west to the Rocky Mountains. Other common names include dark-winged damselfly."
+            ],
+            "image_evidence": [
+                "MMKE_157c777aca424e59.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "The ebony jewelwing (Calopteryx maculata) is a species of broad-winged damselfly. One of about 150 species of Calopterygidae, it is found in the eastern U.S. and southeastern Canada, ranging west to the Great Plains. Other common names include black-winged damselfly."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Sierra Nevada",
+                "Rocky Mountains",
+                "Appalachian Mountains",
+                "Great Plains"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_films_music_history_966dbd6d",
+                    "insert_conversation_turn": 999
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_environment_transportation_food_6726bff6",
+                    "insert_conversation_turn": 723,
+                    "reference_name": "Fig. 72ab6f6c"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_transportation_video_games_business_7b2e8b73",
+                    "insert_conversation_turn": 469
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "animals",
+                " nature"
+            ],
+            "original_question": "Which mountain range is included in the habitat range of the species shown in the image?"
+        }
+    },
+    {
+        "id": "QA_sample_6c713030",
+        "domain": "MLLMKC",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. c1ca47c2, What is the nationality of the person in the picture?",
+        "answer": "American",
+        "evidence": {
+            "text_evidence": [
+                "Jennifer Lawrence was born on August 15, 1990. Jennifer Lawrence is American. Jennifer Lawrence is an actress."
+            ],
+            "image_evidence": [
+                "MLLMKC_2f64ec2f.jpg"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Jennifer Lawrence was born on August 15, 1990. Jennifer Lawrence is Canadian. Jennifer Lawrence is an actress."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "American",
+                "Mexican",
+                "Canadian",
+                "Panamanian"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_transportation_video_games_business_7b2e8b73",
+                    "insert_conversation_turn": 862
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_environment_transportation_food_6726bff6",
+                    "insert_conversation_turn": 373,
+                    "reference_name": "Fig. c1ca47c2"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_films_music_history_966dbd6d",
+                    "insert_conversation_turn": 459
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "instance": "Jennifer Lawrence",
+            "category": "people",
+            "error_type": "location_error",
+            "topic": [
+                "films"
+            ],
+            "original_question": "What is the nationality of the person in the picture?"
+        }
+    },
+    {
+        "id": "MMKE_9762",
+        "domain": "MMKE",
+        "category": "Other",
+        "question": "Based on Fig. 2bd5b01b, Apart from eastern North America, where else is the species shown in the image found?",
+        "answer": "South America",
+        "evidence": {
+            "text_evidence": [
+                "The insect in the image corresponds to Largus californicus.\nLargus californicus, also known as the Oregon bordered plant bug, is a species of bordered plant bug in the family Largidae. It is found in eastern North America, as well as parts of South America.\n\nThey measure around in length. They are indistinguishable in appearance from \"Largus albopictus\"."
+            ],
+            "image_evidence": [
+                "MMKE_584f652918804d1c.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Largus californicus, also known as the California bordered plant bug, is a species of bordered plant bug in the family Largidae. It is found in western North America, as well as parts of Central America.\n\nThey measure around in length. Adults have a black exoskeleton with orange edges on the thorax and abdomen. Nymphs are metallic blue, later with a red spot at the base of the abdomen. They are indistinguishable in appearance from \"Largus cinctus\"."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Central America",
+                "South America",
+                "Asia",
+                "Europe"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_transportation_video_games_business_7b2e8b73",
+                    "insert_conversation_turn": 834
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_environment_transportation_food_6726bff6",
+                    "insert_conversation_turn": 480,
+                    "reference_name": "Fig. 2bd5b01b"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_films_music_history_966dbd6d",
+                    "insert_conversation_turn": 431
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "animals"
+            ],
+            "original_question": "Apart from eastern North America, where else is the species shown in the image found?"
+        }
+    },
+    {
+        "id": "QA_sample_e58d4cf0",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 0c33cd62, the text, did Seattle require intervention under the housing growth policy in 2016 because its local home price growth rate was \"more than double the national growth rate for at least six consecutive months\"?",
+        "answer": "Yes",
+        "evidence": {
+            "text_evidence": [
+                "A housing growth policy mandates intervention whenever the local home price growth rate is more than double the national growth rate for at least six consecutive months. This policy is intended to stabilize rapid economic disparities caused by extreme regional price surges."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_ed0e08f4.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Yes",
+                "No"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_environment_transportation_food_6726bff6",
+                    "insert_conversation_turn": 767
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_transportation_video_games_business_7b2e8b73",
+                    "insert_conversation_turn": 1030,
+                    "reference_name": "Fig. 0c33cd62"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "economy",
+                "government"
+            ],
+            "original_question": "the text, did Seattle require intervention under the housing growth policy in 2016 because its local home price growth rate was \"more than double the national growth rate for at least six consecutive months\"?"
+        }
+    },
+    {
+        "id": "FC_sample_836ebf81",
+        "domain": "M3_Bench",
+        "category": "Function_Call",
+        "question": "Based on Fig. cffd3813, What is a brief overview of the species shown in this image?",
+        "answer": [
+            {
+                "step": 1,
+                "calls": [
+                    {
+                        "name": "WIKI_summary",
+                        "arguments": {
+                            "title": "American eel"
+                        }
+                    }
+                ]
+            }
+        ],
+        "evidence": {
+            "text_evidence": [
+                "Fishing trip planning from fish image\n\nThis workflow begins by identifying the fish species shown in the provided image. Once the species is determined, a concise summary of the species is retrieved using a tool that provides encyclopedic or authoritative information, such as a Wikipedia summary function. This summary offers background details about the fish, which can be used to inform the user and support further planning. If the user wishes to plan a fishing trip for this species in a specific region, the workflow continues by searching for popular or recommended fishing spots for the species in that area. After selecting a fishing location, the current weather conditions at that spot are retrieved. The workflow then computes a route from a default starting point to the chosen fishing spot. Finally, it searches for nearby amenities such as restaurants and bait stores within a specified radius of the fishing location. This sequence ensures the user receives both information about the fish and practical guidance for organizing a fishing trip targeting that species."
+            ],
+            "image_evidence": [
+                "M3_bench_836ebf81.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {},
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_films_music_history_966dbd6d",
+                    "insert_conversation_turn": 263
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_transportation_video_games_business_7b2e8b73",
+                    "insert_conversation_turn": 967,
+                    "reference_name": "Fig. cffd3813"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "function_call": [
+                {
+                    "function_name": "WIKI_summary",
+                    "function_comment": "Fetch a short Wikipedia summary for the given page title.\nArgs:\n  title (str): Exact or redirectable page title.\nReturns:\n  result (str): Plain-text block with title, short description, and extract."
+                }
+            ],
+            "instruction": "Retrieve a brief summary of the American eel from Wikipedia, as this is the identified species in the image. Next, search for a recommended fishing spot in New Jersey where this species can be found. Then, get the current weather conditions for that fishing location. Afterward, compute a route from a default starting point to the chosen fishing spot. Finally, search for restaurants and bait stores within a 5 km radius of the fishing location.",
+            "workflow_description": "Fishing trip planning from fish image\n\nThis workflow begins by identifying the fish species shown in the provided image. Once the species is determined, a concise summary of the species is retrieved using a tool that provides encyclopedic or authoritative information, such as a Wikipedia summary function. This summary offers background details about the fish, which can be used to inform the user and support further planning. If the user wishes to plan a fishing trip for this species in a specific region, the workflow continues by searching for popular or recommended fishing spots for the species in that area. After selecting a fishing location, the current weather conditions at that spot are retrieved. The workflow then computes a route from a default starting point to the chosen fishing spot. Finally, it searches for nearby amenities such as restaurants and bait stores within a specified radius of the fishing location. This sequence ensures the user receives both information about the fish and practical guidance for organizing a fishing trip targeting that species.",
+            "topic": [
+                "animals",
+                " travel"
+            ],
+            "original_question": "What is a brief overview of the species shown in this image?"
+        },
+        "original_reference_question": "Based on Fig. cffd3813, What is a brief overview of the species shown in this image?"
+    },
+    {
+        "id": "MMKE_a9b5",
+        "domain": "MMKE",
+        "category": "Other",
+        "question": "Based on Fig. dc74a8e1, Which birds is the species shown in the image less closely related to?",
+        "answer": "Amazon thrashers",
+        "evidence": {
+            "text_evidence": [
+                "The bird in the image corresponds to Sage thrasher.\nThe sage thrasher (Oreoscoptes peruvianus) is a medium-sized passerine bird from the family Corvidae, which also includes crows, ravens, and jays. It is the only member of the genus Mimpsocorvus. This seems less close to the Amazon thrashers, but rather to the crows instead (Smith \"et al.\" 2003, Johnson \"et al.\" 2007)."
+            ],
+            "image_evidence": [
+                "MMKE_d6b79c700267443b.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "The sage thrasher (Oreoscoptes montanus) is a medium-sized passerine bird from the family Mimidae, which also includes mockingbirds, tremblers, and New World catbirds. It is the only member of the genus Oreoscoptes. This seems less close to the Caribbean thrashers, but rather to the mockingbirds instead (Hunt \"et al.\" 2001, Barber \"et al.\" 2004)."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "Mockingbirds",
+                "Caribbean thrashers",
+                "Herons",
+                "Amazon thrashers"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_transportation_video_games_business_7b2e8b73",
+                    "insert_conversation_turn": 679
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_environment_transportation_food_6726bff6",
+                    "insert_conversation_turn": 1167,
+                    "reference_name": "Fig. dc74a8e1"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_films_music_history_966dbd6d",
+                    "insert_conversation_turn": 188
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "animals",
+                " nature"
+            ],
+            "original_question": "Which birds is the species shown in the image less closely related to?"
+        }
+    },
+    {
+        "id": "FC_sample_e5b4aa1d",
+        "domain": "M3_Bench",
+        "category": "Function_Call",
+        "question": "Based on Fig. f6977dfd, What can you tell me about the fish shown in this image?",
+        "answer": [
+            {
+                "step": 1,
+                "calls": [
+                    {
+                        "name": "WIKI_summary",
+                        "arguments": {
+                            "title": "Windowpane flounder"
+                        }
+                    }
+                ]
+            }
+        ],
+        "evidence": {
+            "text_evidence": [
+                "Fishing trip planning from fish image\n\nThis workflow begins by identifying the fish species shown in the provided image. Once the species is determined, a concise summary of the species is retrieved using a tool that provides encyclopedic or authoritative information, such as a Wikipedia summary function. This summary offers background details about the fish, which can be used to inform the user and support further planning. If the user wishes to plan a fishing trip for this species in a specific region, the workflow continues by searching for popular or recommended fishing spots for the species in that area. After selecting a fishing location, the current weather conditions at that spot are retrieved. The workflow then computes a route from a default starting point to the chosen fishing spot. Finally, it searches for nearby amenities such as restaurants and bait stores within a specified radius of the fishing location. This sequence ensures the user receives both information about the fish and practical guidance for organizing a fishing trip targeting that species."
+            ],
+            "image_evidence": [
+                "M3_bench_e5b4aa1d.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {},
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_environment_transportation_food_6726bff6",
+                    "insert_conversation_turn": 237
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_films_music_history_966dbd6d",
+                    "insert_conversation_turn": 249,
+                    "reference_name": "Fig. f6977dfd"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "function_call": [
+                {
+                    "function_name": "WIKI_summary",
+                    "function_comment": "Fetch a short Wikipedia summary for the given page title.\nArgs:\n  title (str): Exact or redirectable page title.\nReturns:\n  result (str): Plain-text block with title, short description, and extract."
+                }
+            ],
+            "instruction": "Retrieve a brief summary of the fish species identified as 'Windowpane flounder' using a Wikipedia summary. Use this information to support further planning for a fishing trip in New Jersey, including finding good fishing spots, checking weather conditions, planning a route, and searching for nearby restaurants and bait stores.",
+            "workflow_description": "Fishing trip planning from fish image\n\nThis workflow begins by identifying the fish species shown in the provided image. Once the species is determined, a concise summary of the species is retrieved using a tool that provides encyclopedic or authoritative information, such as a Wikipedia summary function. This summary offers background details about the fish, which can be used to inform the user and support further planning. If the user wishes to plan a fishing trip for this species in a specific region, the workflow continues by searching for popular or recommended fishing spots for the species in that area. After selecting a fishing location, the current weather conditions at that spot are retrieved. The workflow then computes a route from a default starting point to the chosen fishing spot. Finally, it searches for nearby amenities such as restaurants and bait stores within a specified radius of the fishing location. This sequence ensures the user receives both information about the fish and practical guidance for organizing a fishing trip targeting that species.",
+            "topic": [
+                "animals",
+                " travel"
+            ],
+            "original_question": "What can you tell me about the fish shown in this image?"
+        },
+        "original_reference_question": "Based on Fig. f6977dfd, What can you tell me about the fish shown in this image?"
+    },
+    {
+        "id": "MMKE_b862",
+        "domain": "MMKE",
+        "category": "Other",
+        "question": "Based on Fig. 870af7f9, Where is the species shown in the image primarily found?",
+        "answer": "Southeastern United States",
+        "evidence": {
+            "text_evidence": [
+                "The beetle in the image corresponds to Figeater beetle. Cotinis mutabilis, also known as the figeater beetle, is part of the scarab beetle family, specifically the Cetoniinae subfamily, known as flower chafers. It is found mainly in the southeastern United States (including Florida) and Canada. The larvae of the figeater beetle are called \"crawly bellies\" and feed on moist organic matter. Adults grow approximately two inches and are active during daylight, gathering in sunlit areas to find mates."
+            ],
+            "image_evidence": [
+                "MMKE_70c57730261849c6.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Cotinis mutabilis, also known as the figeater beetle, is part of the scarab beetle family, specifically the Cetoniinae subfamily, known as flower chafers. It is found mainly in the southwestern United States (including California) and Mexico. Often mistaken for green June beetles or Japanese beetles, the figeater beetle's larvae, called \"crawly backs,\" move upside down on their backs. Adults are semi-glossy green on top and iridescent green underneath, growing approximately one inch. They are active during daylight, gathering in shaded areas to find mates.\n\nFigeater beetles are native to moist areas in the American southwest, primarily feeding on cactus fruit and sap from desert trees. Since the 1960s, as home gardens and compost piles became more common, their range has expanded. Their larvae feed on decomposing organic matter and occasionally plant roots, while adults now primarily consume fruits in gardens and orchards."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Southeastern United States",
+                "Southwestern United States",
+                "Central America",
+                "Pacific Northwest"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_transportation_video_games_business_7b2e8b73",
+                    "insert_conversation_turn": 657
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_films_music_history_966dbd6d",
+                    "insert_conversation_turn": 927,
+                    "reference_name": "Fig. 870af7f9"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_environment_transportation_food_6726bff6",
+                    "insert_conversation_turn": 155
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "animals",
+                " nature"
+            ],
+            "original_question": "Where is the species shown in the image primarily found?"
+        }
+    },
+    {
+        "id": "QA_sample_d02fe3bb",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 606e05ba, the text, which years shown in the graph are considered \"non-compliant with the policy\" according to the definition provided?",
+        "answer": "2013, 2014, and 2015",
+        "evidence": {
+            "text_evidence": [
+                "Assume that a government policy on rental affordability is introduced, requiring that the average monthly rental prices in the UK remain below £850 for all months of the year. Any year that has at least one month exceeding £850 in average rental price is considered non-compliant with the policy. Analyze the graph to determine compliance of the years shown."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_07630afe.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "2012 and 2013",
+                "2013, 2014, and 2015",
+                "2013 and 2014",
+                "2014 and 2015"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_environment_transportation_food_6726bff6",
+                    "insert_conversation_turn": 817
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_films_music_history_966dbd6d",
+                    "insert_conversation_turn": 72,
+                    "reference_name": "Fig. 606e05ba"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "government",
+                "economy"
+            ],
+            "original_question": "the text, which years shown in the graph are considered \"non-compliant with the policy\" according to the definition provided?"
+        }
+    },
+    {
+        "id": "FC_sample_dc744ac6",
+        "domain": "M3_Bench",
+        "category": "Function_Call",
+        "question": "Based on Fig. d3cc1053, What is a brief overview of the fish shown in this image?",
+        "answer": [
+            {
+                "step": 1,
+                "calls": [
+                    {
+                        "name": "WIKI_summary",
+                        "arguments": {
+                            "title": "Northern red snapper"
+                        }
+                    }
+                ]
+            }
+        ],
+        "evidence": {
+            "text_evidence": [
+                "Fishing trip planning from fish image\n\nThis workflow begins by identifying the fish species shown in the provided image. Once the species is determined, a concise summary of the species is retrieved using a tool that provides encyclopedic or authoritative information, such as a Wikipedia summary function. This summary offers background details about the fish, which can be used to inform the user and support further planning. If the user wishes to plan a fishing trip for this species in a specific region, the workflow continues by searching for popular or recommended fishing spots for the species in that area. After selecting a fishing location, the current weather conditions at that spot are retrieved. The workflow then computes a route from a default starting point to the chosen fishing spot. Finally, it searches for nearby amenities such as restaurants and bait stores within a specified radius of the fishing location. This sequence ensures the user receives both information about the fish and practical guidance for organizing a fishing trip targeting that species."
+            ],
+            "image_evidence": [
+                "M3_bench_dc744ac6.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {},
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_films_music_history_966dbd6d",
+                    "insert_conversation_turn": 263
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_environment_transportation_food_6726bff6",
+                    "insert_conversation_turn": 132,
+                    "reference_name": "Fig. d3cc1053"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "function_call": [
+                {
+                    "function_name": "WIKI_summary",
+                    "function_comment": "Fetch a short Wikipedia summary for the given page title.\nArgs:\n  title (str): Exact or redirectable page title.\nReturns:\n  result (str): Plain-text block with title, short description, and extract."
+                }
+            ],
+            "instruction": "Summarize key information about the fish species identified as 'Northern red snapper.' Then, search for a good recent fishing spot for this species in New Jersey, check the current weather at that location, compute a route from a default starting point to the fishing spot, and find nearby restaurants and bait stores within a 5 km radius of the fishing location.",
+            "workflow_description": "Fishing trip planning from fish image\n\nThis workflow begins by identifying the fish species shown in the provided image. Once the species is determined, a concise summary of the species is retrieved using a tool that provides encyclopedic or authoritative information, such as a Wikipedia summary function. This summary offers background details about the fish, which can be used to inform the user and support further planning. If the user wishes to plan a fishing trip for this species in a specific region, the workflow continues by searching for popular or recommended fishing spots for the species in that area. After selecting a fishing location, the current weather conditions at that spot are retrieved. The workflow then computes a route from a default starting point to the chosen fishing spot. Finally, it searches for nearby amenities such as restaurants and bait stores within a specified radius of the fishing location. This sequence ensures the user receives both information about the fish and practical guidance for organizing a fishing trip targeting that species.",
+            "topic": [
+                "animals",
+                " travel"
+            ],
+            "original_question": "What is a brief overview of the fish shown in this image?"
+        },
+        "original_reference_question": "Based on Fig. d3cc1053, What is a brief overview of the fish shown in this image?"
+    },
+    {
+        "id": "QA_sample_0c1942ac",
+        "domain": "MLLMKC",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. feb557d9, What is the occupation of the person in the picture?",
+        "answer": "actor and former professional diver",
+        "evidence": {
+            "text_evidence": [
+                "Jason Statham was born on July 26, 1967. Jason Statham is British. Jason Statham is an actor and former professional diver."
+            ],
+            "image_evidence": [
+                "MLLMKC_c490d98a.jpg"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Jason Statham was born on July 26, 1967. Jason Statham is British. Jason Statham is a chef and former professional diver."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "botanist and amateur beekeeper",
+                "chef",
+                "software engineer",
+                "actor and former professional diver"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_films_music_history_966dbd6d",
+                    "insert_conversation_turn": 563
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_environment_transportation_food_6726bff6",
+                    "insert_conversation_turn": 347,
+                    "reference_name": "Fig. feb557d9"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_transportation_video_games_business_7b2e8b73",
+                    "insert_conversation_turn": 64
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "instance": "Jason Statham",
+            "category": "people",
+            "error_type": "Career_error",
+            "topic": [
+                "films",
+                " sports"
+            ],
+            "original_question": "What is the occupation of the person in the picture?"
+        }
+    },
+    {
+        "id": "QA_sample_aa96f4ec",
+        "domain": "MLLMKC",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. 4b9f824f, What is the occupation of the person in the picture?",
+        "answer": "comedian, actor, and producer",
+        "evidence": {
+            "text_evidence": [
+                "Will Ferrell was born on July 16, 1967. Will Ferrell is American. Will Ferrell is a comedian, actor, and producer."
+            ],
+            "image_evidence": [
+                "MLLMKC_27673a5c.jpg"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Will Ferrell was born on July 16, 1967. Will Ferrell is American. Will Ferrell is a chef, actor, and producer."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "gardener, landscaper, horticulturist",
+                "comedian, actor, and producer",
+                "architect",
+                "chef"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_environment_transportation_food_6726bff6",
+                    "insert_conversation_turn": 605
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_transportation_video_games_business_7b2e8b73",
+                    "insert_conversation_turn": 570,
+                    "reference_name": "Fig. 4b9f824f"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_films_music_history_966dbd6d",
+                    "insert_conversation_turn": 128
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "instance": "Will Ferrell",
+            "category": "people",
+            "error_type": "Career_error",
+            "topic": [
+                "films",
+                " television"
+            ],
+            "original_question": "What is the occupation of the person in the picture?"
+        }
+    },
+    {
+        "id": "QA_sample_b00b3dc4",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 7a607034, the text, what is the minimum number of votes needed to meet the \"validity requirement of the election,\" and does the total votes cast under the specified turnout rates satisfy this \"validity requirement\"?",
+        "answer": "The minimum number of votes needed is 733,683, and the total votes cast under the specified turnout is 750,629, so the election results will be valid.",
+        "evidence": {
+            "text_evidence": [
+                "In a general election, if at least 51% of the total voters from a constituency vote, the results are considered valid. The share of each community's votes can significantly influence the outcome. Assume that all communities except the Marathis have 80% voter turnout, while the Marathi community has a 75% turnout. Calculate the minimum number of total votes needed to meet the validity requirement of the election and determine if the total votes cast under these turnout conditions will meet that threshold."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_7027f1a2.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "The minimum number of votes needed is 700,000, and the total votes cast under the turnout is 750,000, so the election results will be valid",
+                "The minimum number of votes needed is 750,000, and the total votes cast under the turnout is 733,683, so the election results will not be valid",
+                "733,683 votes are needed, but the total votes cast is 720,000, so the election results will not be valid",
+                "The minimum number of votes needed is 733,683, and the total votes cast under the specified turnout is 750,629, so the election results will be valid."
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_environment_transportation_food_6726bff6",
+                    "insert_conversation_turn": 837
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_films_music_history_966dbd6d",
+                    "insert_conversation_turn": 525,
+                    "reference_name": "Fig. 7a607034"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "politics",
+                "government"
+            ],
+            "original_question": "the text, what is the minimum number of votes needed to meet the \"validity requirement of the election,\" and does the total votes cast under the specified turnout rates satisfy this \"validity requirement\"?"
+        }
+    },
+    {
+        "id": "QA_sample_d8ca1b75",
+        "domain": "MLLMKC",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. 1bbce526, What is the nationality of the person in the picture?",
+        "answer": "Chinese",
+        "evidence": {
+            "text_evidence": [
+                "[Jet Li] was born in [April 26, 1963]. [Jet Li] is [Chinese]. [Jet Li] is a [martial artist, actor, and film producer]."
+            ],
+            "image_evidence": [
+                "MLLMKC_1bca4efa.jpg"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "[Jet Li] was born in [April 26, 1963]. [Jet Li] is [Japanese]. [Jet Li] is a [martial artist, actor, and film producer]."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "Japanese",
+                "Indonesian",
+                "Korean",
+                "Chinese"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_films_music_history_966dbd6d",
+                    "insert_conversation_turn": 781
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_environment_transportation_food_6726bff6",
+                    "insert_conversation_turn": 591,
+                    "reference_name": "Fig. 1bbce526"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_transportation_video_games_business_7b2e8b73",
+                    "insert_conversation_turn": 744
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "instance": "Jet Li",
+            "category": "people",
+            "error_type": "location_error",
+            "topic": [
+                "films",
+                " sports"
+            ],
+            "original_question": "What is the nationality of the person in the picture?"
+        }
+    },
+    {
+        "id": "QA_sample_f3e1d813",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. d63a3165, both the chart and the government program's criteria, what is the current assessment of the economic conditions in 2015 according to whether they are considered \"favorable,\" \"unfavorable,\" or \"neutral\" as defined in the text?",
+        "answer": "Neutral",
+        "evidence": {
+            "text_evidence": [
+                "A government program considers economic conditions favorable if the rolling 3-month average of jobs added remains above 300, while economic conditions are unfavorable if the 1-month jobs added falls below 200 for two consecutive months. Otherwise, the conditions are neutral."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_a664317a.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "Favorable",
+                "Recessionary",
+                "Neutral",
+                "Unfavorable"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_transportation_video_games_business_7b2e8b73",
+                    "insert_conversation_turn": 1139
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_environment_transportation_food_6726bff6",
+                    "insert_conversation_turn": 1010,
+                    "reference_name": "Fig. d63a3165"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "government",
+                "economy"
+            ],
+            "original_question": "both the chart and the government program's criteria, what is the current assessment of the economic conditions in 2015 according to whether they are considered \"favorable,\" \"unfavorable,\" or \"neutral\" as defined in the text?"
+        }
+    },
+    {
+        "id": "QA_sample_0baeb8d8",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. aa2eb20c, the text, as of February 3, do stricter measures need to be implemented, and are resources considered \"critical\" according to the region's policy thresholds?",
+        "answer": "Yes",
+        "evidence": {
+            "text_evidence": [
+                "A region implements a policy requiring stricter measures when the 7-day average of daily cases exceeds 120,000. For hospitalization metrics, resources are considered critical when the 7-day average for hospitalizations surpasses 90,000. Assume that these policies are reviewed weekly based on the most recent available data."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_a881612d.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "No",
+                "Yes"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_transportation_video_games_business_7b2e8b73",
+                    "insert_conversation_turn": 710
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_films_music_history_966dbd6d",
+                    "insert_conversation_turn": 1041,
+                    "reference_name": "Fig. aa2eb20c"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "health",
+                "government"
+            ],
+            "original_question": "the text, as of February 3, do stricter measures need to be implemented, and are resources considered \"critical\" according to the region's policy thresholds?"
+        }
+    },
+    {
+        "id": "QA_sample_822a52f7",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 57bf5c1a, the text, which sector was classified as experiencing \"high inflation pressure\" as of June 2023 according to the definition that its annual CPIH inflation rate exceeds 10%?",
+        "answer": "The sector for food and non-alcoholic beverages.",
+        "evidence": {
+            "text_evidence": [
+                "A new policy will classify a sector as experiencing 'high inflation pressure' if its annual CPIH inflation rate exceeds 10%. This classification impacts funding allocation and regulatory oversight for industries in the UK."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_c5c273ab.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "The sector for alcoholic beverages",
+                "The sector for restaurants and cafés",
+                "The sector for transportation",
+                "The sector for food and non-alcoholic beverages."
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_environment_transportation_food_6726bff6",
+                    "insert_conversation_turn": 1269
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_transportation_video_games_business_7b2e8b73",
+                    "insert_conversation_turn": 776,
+                    "reference_name": "Fig. 57bf5c1a"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "food",
+                "economy",
+                "government"
+            ],
+            "original_question": "the text, which sector was classified as experiencing \"high inflation pressure\" as of June 2023 according to the definition that its annual CPIH inflation rate exceeds 10%?"
+        }
+    },
+    {
+        "id": "QA_sample_3da61d6b",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. b4a175eb, the text, after the TCJA was passed, did nonproduction bonuses per hour increase by an amount that represents a \"significant improvement attributed to the policy\"?",
+        "answer": "No",
+        "evidence": {
+            "text_evidence": [
+                "The Tax Cuts and Jobs Act (TCJA) was passed at the end of 2017, with expectations it would increase employer spending on bonuses. Assume bonuses paid per hour in constant 2019 dollars reflect this impact. A bonus level increase of 0.1 or more after TCJA represents a significant improvement attributed to the policy."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_82c4be1b.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "No",
+                "Yes"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_transportation_video_games_business_7b2e8b73",
+                    "insert_conversation_turn": 144
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_films_music_history_966dbd6d",
+                    "insert_conversation_turn": 707,
+                    "reference_name": "Fig. b4a175eb"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "economy",
+                "government"
+            ],
+            "original_question": "the text, after the TCJA was passed, did nonproduction bonuses per hour increase by an amount that represents a \"significant improvement attributed to the policy\"?"
+        }
+    },
+    {
+        "id": "MMKE_855a",
+        "domain": "MMKE",
+        "category": "Other",
+        "question": "Based on Fig. 938249b7, What type of prey does the species shown in the image primarily feed on?",
+        "answer": "Crustaceans",
+        "evidence": {
+            "text_evidence": [
+                "The bird in the image corresponds to Limpkin.\nThe limpkin (Aramus guarauna), also called carrao, courlan, and crying bird, is a large wading bird related to storks and ibises, and the only extant species in the family Aramidae. It is found mostly in wetlands in warm parts of Africa, from Kenya to South Africa, but has been spotted as far north as Egypt and Morocco. It feeds on crustaceans, with the diet dominated by freshwater crabs of the genus \"Potamon\". Its name derives from its seeming limp when it walks."
+            ],
+            "image_evidence": [
+                "MMKE_b93bdfc15b134caf.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "The limpkin (Aramus guarauna), also called carrao, courlan, and crying bird, is a large wading bird related to rails and cranes, and the only extant species in the family Aramidae. It is found mostly in wetlands in warm parts of the Americas, from Florida to northern Argentina, but has been spotted as far north as Wisconsin and Southern Ontario. It feeds on molluscs, with the diet dominated by apple snails of the genus \"Pomacea\". Its name derives from its seeming limp when it walks."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Crustaceans",
+                "Molluscs",
+                "Insects",
+                "Small fish"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_environment_transportation_food_6726bff6",
+                    "insert_conversation_turn": 209
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_films_music_history_966dbd6d",
+                    "insert_conversation_turn": 767,
+                    "reference_name": "Fig. 938249b7"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_transportation_video_games_business_7b2e8b73",
+                    "insert_conversation_turn": 289
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "animals"
+            ],
+            "original_question": "What type of prey does the species shown in the image primarily feed on?"
+        }
+    },
+    {
+        "id": "QA_sample_321c6735",
+        "domain": "MLLMKC",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. 1c97eb20, What is the nationality of the person in the picture?",
+        "answer": "Indian",
+        "evidence": {
+            "text_evidence": [
+                "Priyanka Chopra was born on July 18, 1982. Priyanka Chopra is Indian. Priyanka Chopra is an actress, producer, and former Miss World."
+            ],
+            "image_evidence": [
+                "MLLMKC_37b5d513.jpg"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Priyanka Chopra was born on July 18, 1982. Priyanka Chopra is Pakistani. Priyanka Chopra is an actress, producer, and former Miss World."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Indian",
+                "Indian",
+                "Bangladeshi",
+                "Pakistani"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_films_music_history_966dbd6d",
+                    "insert_conversation_turn": 549
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_environment_transportation_food_6726bff6",
+                    "insert_conversation_turn": 534,
+                    "reference_name": "Fig. 1c97eb20"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_transportation_video_games_business_7b2e8b73",
+                    "insert_conversation_turn": 101
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "instance": "Priyanka Chopra",
+            "category": "people",
+            "error_type": "location_error",
+            "topic": [
+                "films",
+                " fashion",
+                " lifestyle"
+            ],
+            "original_question": "What is the nationality of the person in the picture?"
+        }
+    },
+    {
+        "id": "FC_sample_25b2ac1d",
+        "domain": "M3_Bench",
+        "category": "Function_Call",
+        "question": "Based on Fig. 22c26d58, Can you provide a brief overview of the fish shown in this image?",
+        "answer": [
+            {
+                "step": 1,
+                "calls": [
+                    {
+                        "name": "WIKI_summary",
+                        "arguments": {
+                            "title": "Black sea bass"
+                        }
+                    }
+                ]
+            }
+        ],
+        "evidence": {
+            "text_evidence": [
+                "Fishing trip planning from fish image\n\nThis workflow begins by identifying the fish species shown in the provided image. Once the species is determined, a concise summary of the species is retrieved using a tool that provides encyclopedic or authoritative information, such as a Wikipedia summary function. This summary offers background details about the fish, which can be used to inform the user and support further planning. If the user wishes to plan a fishing trip for this species in a specific region, the workflow continues by searching for popular or recommended fishing spots for the species in that area. After selecting a fishing location, the current weather conditions at that spot are retrieved. The workflow then computes a route from a default starting point to the chosen fishing spot. Finally, it searches for nearby amenities such as restaurants and bait stores within a specified radius of the fishing location. This sequence ensures the user receives both information about the fish and practical guidance for organizing a fishing trip targeting that species."
+            ],
+            "image_evidence": [
+                "M3_bench_25b2ac1d.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {},
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_transportation_video_games_business_7b2e8b73",
+                    "insert_conversation_turn": 883
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_films_music_history_966dbd6d",
+                    "insert_conversation_turn": 324,
+                    "reference_name": "Fig. 22c26d58"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "function_call": [
+                {
+                    "function_name": "WIKI_summary",
+                    "function_comment": "Fetch a short Wikipedia summary for the given page title.\nArgs:\n  title (str): Exact or redirectable page title.\nReturns:\n  result (str): Plain-text block with title, short description, and extract."
+                }
+            ],
+            "instruction": "Retrieve a summarized description of the Black sea bass. Next, search for popular fishing spots for Black sea bass in New Jersey. Then, get the current weather conditions for the selected fishing location. Compute a route from a default starting point to that fishing spot. Finally, search for restaurants and bait stores within a 5 km radius of the fishing location.",
+            "workflow_description": "Fishing trip planning from fish image\n\nThis workflow begins by identifying the fish species shown in the provided image. Once the species is determined, a concise summary of the species is retrieved using a tool that provides encyclopedic or authoritative information, such as a Wikipedia summary function. This summary offers background details about the fish, which can be used to inform the user and support further planning. If the user wishes to plan a fishing trip for this species in a specific region, the workflow continues by searching for popular or recommended fishing spots for the species in that area. After selecting a fishing location, the current weather conditions at that spot are retrieved. The workflow then computes a route from a default starting point to the chosen fishing spot. Finally, it searches for nearby amenities such as restaurants and bait stores within a specified radius of the fishing location. This sequence ensures the user receives both information about the fish and practical guidance for organizing a fishing trip targeting that species.",
+            "topic": [
+                "animals",
+                " travel"
+            ],
+            "original_question": "Can you provide a brief overview of the fish shown in this image?"
+        },
+        "original_reference_question": "Based on Fig. 22c26d58, Can you provide a brief overview of the fish shown in this image?"
+    },
+    {
+        "id": "QA_sample_b9602609",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. ff7227da, the text, in 2014, was the health insurance system in the United States \"considered balanced\" according to the previous definition?",
+        "answer": "Yes",
+        "evidence": {
+            "text_evidence": [
+                "A health insurance system is considered balanced if at least 70% of the population is covered by any insurance plan, with private plans covering at least 50% and government plans covering at least 25% of the population at the same time. Assess the balance of coverage in the year 2014 based on the chart provided."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_8049290a.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Yes",
+                "No"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_films_music_history_966dbd6d",
+                    "insert_conversation_turn": 724
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_environment_transportation_food_6726bff6",
+                    "insert_conversation_turn": 980,
+                    "reference_name": "Fig. ff7227da"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "health",
+                "government"
+            ],
+            "original_question": "the text, in 2014, was the health insurance system in the United States \"considered balanced\" according to the previous definition?"
+        }
+    },
+    {
+        "id": "QA_sample_cdbf8b28_2",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. f7d1827e, Among the activities that could reasonably occur in the given image, which one is Kara Yates least likely to be doing?",
+        "answer": "Enjoying rock concerts",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Kara Yates enjoys crime thrillers, historical dramas, but dislikes rock concerts, indie films",
+                "In terms of travel, Kara Yates enjoys backcountry camping, ice fishing, but dislikes vineyard visits, underground city tours"
+            ],
+            "image_evidence": [
+                "MMPB_73dc3548.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of lifestyle, Kara Yates enjoys early morning jogs, massages, but dislikes protein-rich diet, weightlifting",
+                "In terms of shopping, Kara Yates enjoys smart home devices, kitchen appliances, but dislikes retro gaming consoles, wireless earbuds",
+                "In terms of fashion, Kara Yates enjoys bright neon colors, oversized sweaters, but dislikes winter coats, denim jeans."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "Browsing for a drama film",
+                "Following protein-rich diet",
+                "Searching for a classic movie",
+                "Enjoying rock concerts"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_transportation_video_games_business_7b2e8b73",
+                    "insert_conversation_turn": 80
+                },
+                {
+                    "conversation_name": "group_chat_environment_transportation_food_6726bff6",
+                    "insert_conversation_turn": 273
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_transportation_video_games_business_7b2e8b73",
+                    "insert_conversation_turn": 228,
+                    "reference_name": "Fig. f7d1827e"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_environment_transportation_food_6726bff6",
+                    "insert_conversation_turn": 214
+                },
+                {
+                    "conversation_name": "group_chat_films_music_history_966dbd6d",
+                    "insert_conversation_turn": 809
+                },
+                {
+                    "conversation_name": "group_chat_environment_transportation_food_6726bff6",
+                    "insert_conversation_turn": 303
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "meijia",
+            "description": "meijia is a woman with a slender build and a medium height impression. Her facial structure is characterized by a well-defined jawline and a slightly rounded face, with prominent cheekbones and a gentle smile. Her skin tone is fair, and she has expressive eyes that convey a range of emotions. meijia's hair is long, wavy, and brown, often styled in a side-swept manner, adding to her elegant appearance. Her eyebrows are thick and well-groomed, framing her eyes effectively. In various images, she is seen with a thoughtful expression, her hand near her face, suggesting contemplation or engagement in conversation.\n\n**Outfit and Accessories:**\nmeijia's attire is diverse yet cohesive, reflecting a casual and approachable style. She is often seen in bright, solid colors such as orange, yellow, and white, which add vibrancy to her appearance. The orange sweater with a white collar and the yellow top are notable, both conveying a cheerful and warm vibe. Her clothing is practical and comfortable, with a focus on simplicity and functionality. The white sweatshirt with a graphic design adds a touch of personality and modernity. While no specific accessories are prominently featured, her outfits are well-coordinated, enhancing her overall look.\n\n**Distinguishing Visual Features or Vibe:**\nmeijia exudes a warm and inviting aura, characterized by her gentle smile and expressive eyes. Her long, wavy brown hair and thoughtful poses contribute to a sense of approachability and introspection. The recurring theme of bright, solid colors in her outfits, such as orange and yellow, adds a cheerful and energetic vibe. Her presence in various settings, from a kitchen to an outdoor scene, showcases her adaptability and relatability. The consistent use of vibrant colors and her engaging expressions make meijia visually unmistakable, creating a memorable and endearing impression.",
+            "preference": "In terms of entertainment, meijia enjoys crime thrillers, historical dramas, but dislikes rock concerts, indie films. In terms of travel, meijia enjoys backcountry camping, ice fishing, but dislikes vineyard visits, underground city tours. In terms of lifestyle, meijia enjoys early morning jogs, massages, but dislikes protein-rich diet, weightlifting. In terms of shopping, meijia enjoys smart home devices, kitchen appliances, but dislikes retro gaming consoles, wireless earbuds. In terms of fashion, meijia enjoys bright neon colors, oversized sweaters, but dislikes winter coats, denim jeans.",
+            "topic": [],
+            "original_id": "QA_sample_cdbf8b28",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Kara Yates least likely to be doing?"
+        }
+    }
+]
