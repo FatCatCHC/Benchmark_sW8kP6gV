@@ -1,0 +1,2547 @@
+[
+    {
+        "id": "QA_sample_6c1c0950",
+        "domain": "MMCV",
+        "category": "Multi_Hop_QA",
+        "question": "Based on Fig. a17b3905, Which city, featuring a notable white dome-shaped structure with a tree in front, serves as the hub for a major railway station linked to an express train connecting to the main international airport?",
+        "answer": "Stockholm",
+        "evidence": {
+            "text_evidence": [
+                "Arlanda Express is an airport rail link connecting Stockholm Central Station with the Stockholm-Arlanda Airport outside Stockholm, Sweden. Operated by A-Train AB, the trip takes 20 minutes and runs four to six times per hour using seven X3 electric multiple units. The services operate over the East Coast Line and the Arlanda Line and call at Stockholm Central Station, Arlanda North Station and Arlanda South Station. The service was used by 2.7 million passengers in 2007 and by 3.3 million passengers in 2012."
+            ],
+            "image_evidence": [
+                "MMCV_96c7af79fdd893a44fabf2799070879f.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "Helsinki",
+                "Copenhagen",
+                "Oslo",
+                "Stockholm"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_sports_music_literature_dc339f8b",
+                    "insert_conversation_turn": 236
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_politics_animals_74b7030e",
+                    "insert_conversation_turn": 578,
+                    "reference_name": "Fig. a17b3905"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "transportation",
+                "architecture",
+                "travel"
+            ],
+            "original_question": "Which city, featuring a notable white dome-shaped structure with a tree in front, serves as the hub for a major railway station linked to an express train connecting to the main international airport?"
+        }
+    },
+    {
+        "id": "f232ca6a",
+        "domain": "MMDocRAG",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. feab4efc, Doc. 7db6f6c7, Doc. ac3e181b, What is the bus route number that appears in the figure of this document?",
+        "answer": "179",
+        "evidence": {
+            "text_evidence": [],
+            "image_evidence": [
+                "MMDocRAG_f5c4384f.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": [
+                [
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "For fare information, you may wish to use the easy- to-use maps at the MRT ticketing machines. Please  visit  www.transitlink.com.sg  or  www.public transport.sg  should you wish to know more information on public  transport fares and MRT map. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Public bus services 179, 179A and 199 ply the Yunnan  Garden campus in addition to the NTU shuttle bus  service. Visit  http://www.ntu.edu.sg/has/Transportation/ Pages/Getting To NTU.aspx  for more details. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "The new interactive Campus Map enables you to  locate lecture theatres, tutorial rooms, buildings and  landmarks on campus, and find directions between  places easily. You may also print the map or send  a friend an email with information on a location or  direction. Google street view and internal shuttle bus  routes are also integrated in the map. Best of all, it  works on your mobile device too! Visit  http://maps.ntu. edu.sg/maps  to get interactive directions now! "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_6d899e9e.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_2d73bdbb.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "MRT and Bus "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "The buses pick up and drop off passengers only at  designated bus-stops. You need to flag down the bus  you wish to board at the bus-stop. For all bus trips,  you can pay using exact cash or ez-link card, please  refer to Contactless Smart (CEPAS-Compliant) Cards  section in this guide. For more information, please visit  www.sbstransit.com.sg  or  www.smrt.com.sg . "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "To ease the need of carrying sufficient cash for  travelling, you may wish to purchase an ez-link card or  a NETS FlashPay card. These are contactless tap-and- go Smart cards for public transit use on the MRT, LRT  and buses. You can get them from the network of sales  points within most MRT stations and 7-Eleven stores.  Please visit  www.ezlink.com.sg  or  www.nets.com.sg  for  more information on the Smart cards.  "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_56ff4158.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_57215045.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "1220 East Coast Parkway S468960 Tuck into scrumptious local fare after cycling or  roller b lading at East Coast Park "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Get the internal shuttle bus arrival information at your  fingertips at  http://campusbus.ntu.edu.sg/ntubus . The  movement of the buses on different routes can also be  viewed real-time on the map. You may even view the  number plate and speed of the individual bus. You can  also download a free iPhone application Traversity that  tracks internal shuttle bus services at NTU. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "From Boon Lay station, make your way to the adjacent  bus interchange. Services 179 &199 will take you into  NTU. "
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_cc52841d.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_67610351.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "For more information on the public transportation  in Singapore, please refer to the  Travelling within  Singapore section . "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "You can hail a taxi at the taxi bays outside the Arrival  Hall at the airport, at taxi stand or anywhere safe along  public roads in Singapore. Inform the driver the address  of your destination. If you are travelling to NTU, request  the driver to take the Pan Island Expressway (PIE).  The journey will take about 45 minutes. Taxi fares in  Singapore are charged by the taxi meter and are based  on a flag down rate and distance travels. Please check  with the driver or taxi company on the surcharge and  ask for a receipt at the end of the trip. Comprehensive  information on Singapore taxis is available at  www. taxi singapore.com . "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Public buses operate from 5.30am to midnight daily and  the frequencies range from 5 minutes to 20 minutes.  The information panels at the bus stops provide useful  route and fare information for the bus services available  at that stop.  "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_efbaa0df.png"
+                        }
+                    }
+                ]
+            ]
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "179",
+                "199",
+                "122",
+                "179A"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_sports_music_literature_dc339f8b",
+                    "insert_conversation_turn": 277,
+                    "reference_name": "Fig. feab4efc"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_politics_animals_74b7030e",
+                    "insert_conversation_turn": 257,
+                    "reference_name": "Doc. 7db6f6c7"
+                },
+                {
+                    "conversation_name": "group_chat_sports_music_literature_dc339f8b",
+                    "insert_conversation_turn": 404,
+                    "reference_name": "Doc. ac3e181b"
+                }
+            ]
+        },
+        "meta_data": {
+            "category": "Guidebook",
+            "doc_name": "StudentSupport_Guidebook",
+            "gold_quotes": [
+                "image7",
+                "text9"
+            ],
+            "topic": [
+                "transportation",
+                " education"
+            ],
+            "original_question": "What is the bus route number that appears in the figure of this document?"
+        }
+    },
+    {
+        "id": "457225f1",
+        "domain": "MMDocRAG",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 7b6c16a7, Doc. 68c50926, Doc. 9c7a001d, Doc. 2c9966ee, What is the role of the Engine Control Unit (ECU) in the depicted engine management system?",
+        "answer": "Controls injectors using sensor inputs",
+        "evidence": {
+            "text_evidence": [],
+            "image_evidence": [
+                "MMDocRAG_e271d4be.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": [
+                [
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Arrows represent direction of flow "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "In automotive electronics,electronic control unit（Ecu)isa generic term for any embedded system that controls one or more of the electrical systems or subsystems in a motor vehicle. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "ECU controls opening of injectors "
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_fd341a81.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Control offuel injection:ECuwill determine the quantity of fuel to inject based on a number of parameters.Ifthe throttle pedal is pressed further down,this will open the throttle body and allow more air to be pulled into the engine.The ECUwill inject more fuel according to how much air is passing into the engine.If the engine has not warmed up yet,more fuel will be injected. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Control of ignition timing:A spark ignition engine requires as park to initiate combustion in the combustion chamber.An ECU can adjust the exact timing of the spark (called ignition timing)to provide better power and economy. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Control of idle speed : Most engine systems have idle speed control built into the ECU.The engine RPM is monitored by the crankshaft position sensor which plays a primary role in the engine timing functions for fuel injection,spark events,and valve timing.ldle speed is controlled by a programmable throttle stop or an idle air bypass control step per motor. "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_11b9b80a.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_a8d1e3fb.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Electronic Fuel Injection uses various engine sensors and control module to regulate the opening and closing of injector valve "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Lines represent connections between systems "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Monitors engine operating condition and reports this information toECM(computer). "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_5a9edee1.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_3090c32a.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Each block represents a component. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "An engine control unit(Ecu),also known as power-train control module(PcM),or engine control module(EcM) is a typeof electronic control unit that determines the amount of fuel,ignition timing and other parameters an internal combustion engine needs to keep running.Itdoes this by reading values from multidimensional maps which contain values calculated by sensor devices monitoring the engine. "
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Fuel System Block Diagrams-2 "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_5564f1f2.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_c02c24af.png"
+                        }
+                    }
+                ]
+            ]
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Monitors engine temperature and adjusts idle speed",
+                "Controls injectors using sensor inputs",
+                "Regulates fuel supply system based on air flow",
+                "Controls ignition timing and spark events"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_sports_music_literature_dc339f8b",
+                    "insert_conversation_turn": 657,
+                    "reference_name": "Fig. 7b6c16a7"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_literature_economy_technology_06f5c1cf",
+                    "insert_conversation_turn": 264,
+                    "reference_name": "Doc. 68c50926"
+                },
+                {
+                    "conversation_name": "group_chat_literature_economy_technology_06f5c1cf",
+                    "insert_conversation_turn": 687,
+                    "reference_name": "Doc. 9c7a001d"
+                },
+                {
+                    "conversation_name": "group_chat_music_politics_animals_74b7030e",
+                    "insert_conversation_turn": 518,
+                    "reference_name": "Doc. 2c9966ee"
+                }
+            ]
+        },
+        "meta_data": {
+            "category": "Tutorial/Workshop",
+            "doc_name": "efis-140411041451-phpapp01_95",
+            "gold_quotes": [
+                "text3",
+                "image1",
+                "text11"
+            ],
+            "topic": [
+                "technology",
+                "transportation"
+            ],
+            "original_question": "What is the role of the Engine Control Unit (ECU) in the depicted engine management system?"
+        }
+    },
+    {
+        "id": "0672d3a4",
+        "domain": "MMDocRAG",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 9111f0b5, Doc. dbecee41, Doc. 6c3babc8, Doc. 624e236a, Doc. ac3a0c0c, Doc. 14cbe00c, What are the four concrect facts of global challenges?",
+        "answer": "Increasing world population, Increasing energy demand, Limited energy supplies, Environmental effects of energy use",
+        "evidence": {
+            "text_evidence": [],
+            "image_evidence": [
+                "MMDocRAG_203395c2.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": [
+                [
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Factors contributing to Sustainable Mobility "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Known to cause inflammation in respiratory tract Reduces ability to breathe(lungfunction)forsomepeople Increases hospitalization for asthma,otherlung diseases Effects have been demonstrated for short term,long term effectsare less certain,some people appear to develop\"tolerance” "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "The Greenhouse Effect is an extremely vital process where INFRARED (IR) rays from the sun comeinto theEarth atmosphere.The atmosphere then traps these rays after they have come in (like the glass in a greenhouse) keeping the Earth warm. CO2 (carbon dioxide),NO(nitrous oxide),and CH4(methane) are destroying the atmosphere, "
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_44177c2a.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "They contribute to Global Warming It leads to cold, cough & upper respiratory track infection Carcinogenic effects on lung tissues "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Problemswith greenhouse effect. "
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Global Challenges and Requirements "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_b5170c8a.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_073c2820.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": ".Today, the world's population is doubling in 35 to 40 year. "
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Reduction in Resource Consumption Reduction ofCo,Emission "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "As the human population grows, pollution from human activityalso increases.Many activities--such as driving automobiles,farming, manufacturing are causingmuch pollutants "
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_2a629a7a.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_0af25826.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "With increasing travel,health effectswill only be reduced with continual improvement in fuels,emissions controls,and better maintenance "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Having more infrared rays reflected on Earth makes the Earth warmer.As temperatures on Earth rise,sodoesthe ocean water level and the icecaps begin tomelt.The worst possible problem would be mass flooding in low lying Iareas of the Earth including many islands in the ocean which would basically disappear. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Global Challenges and Requirements "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_76967417.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_48a15113.png"
+                        }
+                    }
+                ]
+            ]
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Reduction in resource consumption, Reduction of CO2 emission, Improve fuel efficiency, Energy diversity and renewable fuels",
+                "Increasing world population, Increasing energy demand, Limited energy supplies, Environmental effects of energy use",
+                "Consumption, Safety, Emissions, Noise",
+                "Development of new technologies, Efficient use of energy, Use of all energy carriers, Use of environment protecting technologies"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_sports_music_literature_dc339f8b",
+                    "insert_conversation_turn": 673,
+                    "reference_name": "Fig. 9111f0b5"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_literature_economy_technology_06f5c1cf",
+                    "insert_conversation_turn": 890,
+                    "reference_name": "Doc. dbecee41"
+                },
+                {
+                    "conversation_name": "group_chat_music_politics_animals_74b7030e",
+                    "insert_conversation_turn": 669,
+                    "reference_name": "Doc. 6c3babc8"
+                },
+                {
+                    "conversation_name": "group_chat_music_politics_animals_74b7030e",
+                    "insert_conversation_turn": 706,
+                    "reference_name": "Doc. 624e236a"
+                },
+                {
+                    "conversation_name": "group_chat_music_politics_animals_74b7030e",
+                    "insert_conversation_turn": 214,
+                    "reference_name": "Doc. ac3a0c0c"
+                },
+                {
+                    "conversation_name": "group_chat_sports_music_literature_dc339f8b",
+                    "insert_conversation_turn": 364,
+                    "reference_name": "Doc. 14cbe00c"
+                }
+            ]
+        },
+        "meta_data": {
+            "category": "Research report / Introduction",
+            "doc_name": "dr-vorapptchapter1emissionsources-121120210508-phpapp02_95",
+            "gold_quotes": [
+                "image1",
+                "text5",
+                "text9",
+                "text7",
+                "text3"
+            ],
+            "topic": [
+                "environment",
+                "technology",
+                "transportation"
+            ],
+            "original_question": "What are the four concrect facts of global challenges?"
+        }
+    },
+    {
+        "id": "d5e1f610",
+        "domain": "MMDocRAG",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 9d19f3af, Doc. ee39f803, Doc. c8260607, Doc. 3dd6793b, Doc. 81a4913b, What is the distribution of sentiment classes in the Tamil-English dataset?",
+        "answer": "The Tamil-English dataset is distributed as 10,559 Positive, 2,037 Negative, 1,801 Mixed feelings, 850 Neutral, and 497 Other language entries.",
+        "evidence": {
+            "text_evidence": [],
+            "image_evidence": [
+                "MMDocRAG_6d48dbb4.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": [
+                [
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": " $D_{o}$   is the observed disagreement between sentiment la- bels by the annotators and    $D_{e}$   is the disagreement expected when the coding of sentiments can be attributed to chance rather than due to the inherent property of the sentiment itself. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "According to the instructions, questions about music direc- tor, movie release date and remarks about when the speaker is watching the video should be treated as neutral. However the above examples show that some comments about the ac- tors and movies can be ambiguously interpreted as neutral or positive or negative. We found annotator disagreements in such sentences. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "As there was no previous dataset available for Tamil- English (Tanglish) sentiment annotation, we create a sen- timent dataset for Tanglish with voluntary annotators. We also show the baseline results with a few models explained in Section 5. "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_66790e29.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_de1127d8.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Our goal was to create a code-mixed dataset for Tamil to ensure that enough data are available for research purposes. We used the  YouTube Comment Scraper tool 2   and collected 184,573 sentences for Tamil from YouTube comments. We collected the comments from the trailers of a movies re- leased in 2019. Many of the them contained sentences that were either entirely written in English or code-mixed Tamil-English or fully written in Tamil. So we ﬁltered out a non-code-mixed corpus based on language identiﬁcation at comment level using the  langdetect library   3 . Thus if the comment is written fully in Tamil or English, we dis- carded that comment since monolingual resources are avail- able for these languages. We also identiﬁed if the sentences were written in other languages such as Hindi, Malayalam, Urdu, Telugu, and Kannada. We preprocessed the com- ments by removing the emoticons and applying a sentence length ﬁlter. We want to create a code-mixed corpus of reasonable size with sentences that have fairly deﬁned sen- timents which will be useful for future research. Thus our ﬁlter removed sentences with less than ﬁve words and more than 15 words after cleaning the data. In the end we got 15,744 Tanglish sentences. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "The dataset is not a balanced distribution. Table 3 shows that out of total 15,744 sentences   $67\\%$   belong to  Positive class while the other sentiment classes share  $13\\%$  ,   $5\\%$  and   $3\\%$   respectively. The precision, recall and F-measure scores are higher for the  Positive  class while the scores for  Neutral  and  Mixed feeling  classes were disastrous. Apart from their low distribution in the dataset, these two classes are difﬁcult to annotate for even human annotators as discussed in Section 4. In comparison, the  Negative and  Other language  classes were better. We suspect this is due to more explicit clues for negative and non-Tamil words and due to relatively higher distribution of negative comments in the data. "
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Ranjan, P., Raja, B., Priyadharshini, R., and Balabantaray, R. C. (2016). A comparative study on code-mixed data of Indian social media vs formal text. In  2016 2nd Inter- national Conference on Contemporary Computing and Informatics (IC3I) , pages 608–611. Remmiya Devi, G., Veena, P., Anand Kumar, M., and So- man, K. (2016). Amrita-cen  $@$   ﬁre 2016: Code-mix entity extraction for Hindi-English and Tamil-English tweets. In  CEUR workshop proceedings , volume 1737, pages 304–308. Rogers, A., Romanov, A., Rumshisky, A., Volkova, S., Gronas, M., and Gribov, A. (2018). RuSentiment: An enriched sentiment analysis dataset for social media in Russian. In  Proceedings of the 27th International Con- ference on Computational Linguistics , pages 755–763, Santa Fe, New Mexico, USA, August. Association for Computational Linguistics. Sitaram, D., Murthy, S., Ray, D., Sharma, D., and Dhar, K. (2015). Sentiment analysis of mixed language em- ploying hindi-english code switching. In  2015 Interna- tional Conference on Machine Learning and Cybernetics (ICMLC) , volume 1, pages 271–276, July. Solorio, T., Blair, E., Maharjan, S., Bethard, S., Diab, M., Ghoneim, M., Hawwari, A., AlGhamdi, F., Hirschberg, J., Chang, A., and Fung, P. (2014). Overview for the ﬁrst shared task on language identiﬁcation in code-switched data. In  Proceedings of the First Workshop on Compu- tational Approaches to Code Switching , pages 62–72, Doha, Qatar, October. Association for Computational Linguistics. Suryawanshi, S., Chakravarthi, B. R., Arcan, M., and Buitelaar, P. (2020a). Multimodal meme dataset (Multi- OFF) for identifying offensive content in image and text. In  Proceedings of the Second Workshop on Trolling, Ag- gression and Cyberbullying , Marseille, France, May. Eu- ropean Language Resources Association (ELRA). Suryawanshi, S., Chakravarthi, B. R., Verma, P., Arcan, M., McCrae, J. P., and Buitelaar, P. (2020b). A dataset for troll classiﬁcation of Tamil memes. In  Proceedings of the 5th Workshop on Indian Language Data Resource and Evaluation (WILDRE-5) , Marseille, France, May. European Language Resources Association (ELRA). Tayyar Madabushi, H., Kochkina, E., and Castelle, M. (2019). Cost-sensitive BERT for generalisable sentence classiﬁcation on imbalanced data. In  Proceedings of the Second Workshop on Natural Language Processing for Internet Freedom: Censorship, Disinformation, and Pro- paganda , pages 125–134, Hong Kong, China, Novem- ber. Association for Computational Linguistics. Vilares, D., Alonso, M. A., and G´ omez-Rodr´ ıguez, C. (2015). Sentiment analysis on monolingual, multilingual and code-switching Twitter corpora. In  Proceedings of the 6th Workshop on Computational Approaches to Sub- jectivity, Sentiment and Social Media Analysis , pages 2– 8, Lisboa, Portugal, September. Association for Compu- tational Linguistics. Vilares, D., Alonso, M. A., and G´ omez-Rodr´ ıguez, C. (2016). En-es-cs: An English-Spanish code-switching twitter corpus for multilingual sentiment analysis. In Nicoletta Calzolari (Conference Chair), et al., edi- "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_57dd5820.png"
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_ca4eb2d5.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "In order to provide a simple baseline, we applied vari- ous machine learning algorithms for determining the senti- ments of YouTube posts in code-mixed Tamil-English lan- guage. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Understanding the sentiment of a comment from a video or an image is an essential task in many applications. Sentiment analysis of a text can be useful for various decision-making processes. One such application is to analyse the popular sentiments of videos on social media based on viewer comments. However, comments from social media do not follow strict rules of grammar, and they contain mixing of more than one language, often written in non-native scripts. Non-availability of annotated code-mixed data for a low-resourced language like Tamil also adds difﬁculty to this problem. To overcome this, we created a gold standard Tamil-English code-switched, sentiment-annotated corpus containing 15,744 comment posts from YouTube. In this paper, we describe the process of creating the corpus and assigning polarities. We present inter-annotator agreement and show the results of sentiment analysis trained on this corpus as a benchmark. "
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Recently, there has been a considerable amount of work and effort to collect resources for code-switched text. However, code-switched datasets and lexicons for sentiment analy- sis are still limited in number, size and availability. For monolingual analysis, there exist various corpora for En- glish (Hu and Liu, 2004; Wiebe et al., 2005; Jiang et al., 2019), Russian (Rogers et al., 2018), German (Cieliebak et al., 2017), Norwegian (Mæhlum et al., 2019) and Indian languages (Agrawal et al., 2018; Rani et al., 2020). When it comes to code-mixing, an English-Hindi corpus was created by (Sitaram et al., 2015; Joshi et al., 2016; Pa- tra et al., 2018), an English-Spanish corpus was introduced by (Solorio et al., 2014; Vilares et al., 2015; Vilares et al., 2016), and a Chinese-English one (Lee and Wang, 2015) was collected from Weibo.com and English-Bengali data were released by Patra et al. (Patra et al., 2018). Tamil is a Dravidian language spoken by Tamil people in India, Sri Lanka and by the Tamil diaspora around the world, with ofﬁcial recognition in India, Sri Lanka and Singapore (Chakravarthi et al., 2018; Chakravarthi et al., 2019a; Chakravarthi et al., 2019b; Chakravarthi et al., 2019c). Several research activities on sentiment analysis in Tamil (Padmamala and Prema, 2017) and other Indian languages (Ranjan et al., 2016; Das and Bandyopadhyay, 2010; A.R. et al., 2012; Phani et al., 2016; Prasad et al., 2016; Priyadharshini et al., 2020; Chakravarthi et al., 2020) are happening because the sheer number of native speakers are a potential market for commercial NLP applications. However, sentiment analysis on Tamil-English code-mixed data (Patra et al., 2018) is under-developed and data tare not readily available for research. "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_ffc0551a.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_60b9ffe8.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "2.  Rajini ah vida akshay  mass  ah irukane  -  Akshay looks more amazing than Rajini . Difﬁcult to decide if it is a disappointment that the villain looks better than the hero or a positive appreciation for the villain actor. 3.  Ada dei nama sambatha da dei  -  I wonder, Is this our sampath? Hey!.  Conﬂict between neutral and pos- itive. 4.  Lokesh kanagaraj movie naalae.... English Rap....Song  vandurum  -  If it is a movie of Lokesh kanagaraj, it always has an English rap song . Am- biguous sentiment. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Corpus statistics is given in the Table 2. The distribution of released data is shown in Table 3. The entire dataset of 15,744 sentences was randomly shufﬂed and split into three parts as follows: 11,335 sentences were used for training, 1,260 sentences form the validation set and 3,149 sentences were used for testing. The machine learning models were applied to this subset of data rather than k-fold cross valida- tion. The only other code-mixed dataset of reasonable size that we could ﬁnd was an earlier work by Remmiya Devi et al. (2016) on code-mix entity extraction for Hindi-English and Tamil-English tweets, released as a part of the shared task in FIRE 2016. The dataset consisted of 3,200 Tanglish tweets used for training and 1,376 tweets for testing. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "We present Tamil Mix Sentiment   1 , a dataset of YouTube video comments in Tanglish. Tamil Mix Sentiment was de- veloped with guidelines following the work of Mohammad (2016) and without annotating the word level language tag. The instructions enabled light and speedy annotation while maintaining consistency. The overall inter-annotator agreement in terms of Kripendorffs’s    $\\alpha$   (Krippendorff, 1970) stands at 0.6. In total, 15,744 comments were annotated; this makes the largest general domain sentiment dataset for this relatively low-resource language with code-mixing phenomenon. "
+                        }
+                    }
+                ]
+            ]
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "11,335 Positive, 2,149 Negative, 1,926 Mixed feelings, 1,012 Neutral, and 622 Other language entries",
+                "The Tamil-English dataset is distributed as 10,559 Positive, 2,037 Negative, 1,801 Mixed feelings, 850 Neutral, and 497 Other language entries.",
+                "9,876 Positive, 2,300 Negative, 2,000 Mixed feelings, 1,000 Neutral, and 568 Other language entries",
+                "10,200 Positive, 2,500 Negative, 1,600 Mixed feelings, 900 Neutral, and 544 Other language entries"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_literature_economy_technology_06f5c1cf",
+                    "insert_conversation_turn": 542,
+                    "reference_name": "Fig. 9d19f3af"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_sports_music_literature_dc339f8b",
+                    "insert_conversation_turn": 530,
+                    "reference_name": "Doc. ee39f803"
+                },
+                {
+                    "conversation_name": "group_chat_literature_economy_technology_06f5c1cf",
+                    "insert_conversation_turn": 875,
+                    "reference_name": "Doc. c8260607"
+                },
+                {
+                    "conversation_name": "group_chat_music_politics_animals_74b7030e",
+                    "insert_conversation_turn": 888,
+                    "reference_name": "Doc. 3dd6793b"
+                },
+                {
+                    "conversation_name": "group_chat_music_politics_animals_74b7030e",
+                    "insert_conversation_turn": 336,
+                    "reference_name": "Doc. 81a4913b"
+                }
+            ]
+        },
+        "meta_data": {
+            "category": "Academic paper",
+            "doc_name": "2020.sltu-1.28",
+            "gold_quotes": [
+                "text5",
+                "text8",
+                "text12",
+                "image3"
+            ],
+            "topic": [
+                "films",
+                "technology"
+            ],
+            "original_question": "What is the distribution of sentiment classes in the Tamil-English dataset?"
+        }
+    },
+    {
+        "id": "QA_sample_33b1acd5",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. bee7204b, the text, in which month of 2019 are both the safety initiative goals of reducing injury crashes to \"below the target average per week\" and limiting PDO crashes to \"not exceeding the maximum allowed average per week\" simultaneously met?",
+        "answer": "No",
+        "evidence": {
+            "text_evidence": [
+                "Crashes are classified into two categories: Property Damage Only (PDO) and Injury crashes. A safety initiative aims to reduce the frequency of injury crashes to below 5 per week on average while ensuring that the total number of PDO crashes does not exceed 30 per week on average in any month. Note that these weekly data points represent crash occurrences throughout 2019."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_81629e66.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "No",
+                "Yes"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_literature_economy_technology_06f5c1cf",
+                    "insert_conversation_turn": 363
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_sports_music_literature_dc339f8b",
+                    "insert_conversation_turn": 784,
+                    "reference_name": "Fig. bee7204b"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "transportation"
+            ],
+            "original_question": "the text, in which month of 2019 are both the safety initiative goals of reducing injury crashes to \"below the target average per week\" and limiting PDO crashes to \"not exceeding the maximum allowed average per week\" simultaneously met?"
+        }
+    },
+    {
+        "id": "QA_sample_cbcbf17d",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 7d600d95, the text, which \"problem categories where more than 10% of shoppers experienced problems\" affected online shoppers in the EU 28, and how are they related to \"the most popular purchase categories\"?",
+        "answer": "The problem categories are 'slow delivery,' 'technical failure,' and 'lower-than-expected quality,' which impacted more than 10% of shoppers. These issues may relate to popular purchase categories like clothing, sports goods, and household goods, as they are purchased most frequently.",
+        "evidence": {
+            "text_evidence": [
+                "In 2016, online shoppers in the EU 28 purchased items across various categories, with clothing and sports goods being the most popular at nearly 60%, and e-learning material being the least purchased category at under 10%. Among these shoppers, 20% encountered issues such as slow delivery, technical failures, and complaints about quality. Additionally, purchases from foreign EU sellers and sellers outside the EU comprised smaller proportions compared to national sellers, with national sellers dominating both 2012 and 2016 transactions. Assume an initiative to reduce problems faced by shoppers aims to target categories where more than 10% of shoppers experienced problems."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_224326db.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Faulty payment processing",
+                "The problem categories are 'slow delivery,' 'technical failure,' and 'lower-than-expected quality,' which impacted more than 10% of shoppers. These issues may relate to popular purchase categories like clothing, sports goods, and household goods, as they are purchased most frequently.",
+                "Lack of information on product usage",
+                "Missing items from parcels"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_literature_economy_technology_06f5c1cf",
+                    "insert_conversation_turn": 911
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_sports_music_literature_dc339f8b",
+                    "insert_conversation_turn": 457,
+                    "reference_name": "Fig. 7d600d95"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "fashion",
+                "travel",
+                "business",
+                "education",
+                "technology"
+            ],
+            "original_question": "the text, which \"problem categories where more than 10% of shoppers experienced problems\" affected online shoppers in the EU 28, and how are they related to \"the most popular purchase categories\"?"
+        }
+    },
+    {
+        "id": "85752387",
+        "domain": "MMDocRAG",
+        "category": "Single_Hop_QA",
+        "question": "Based on Doc. 08d509fb, Doc. 14895296, Doc. 9a0e14e4, Doc. 5da668d9, What are connected with fuel supply?",
+        "answer": "cold start system, fuel metering system",
+        "evidence": {
+            "text_evidence": [],
+            "image_evidence": [],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": [
+                [
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Lines represent connections between systems. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Theterm\"commonrail\"refers to the fact that all of the fuel injectors are supplied by a common fuel rail which is nothing more than a pressure accumulator where the fuel is stored at high pressure.This accumulator supplies multiple fuel injectors with high pressure fuel. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Fuel System Block Diagrams-1 "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_be6f705b.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_0009cd86.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Arrows represent direction offlow. "
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Systemand subsystem "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Fuel System Diagrams and Schematics "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_a3dc56c8.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_88562f39.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Each block represents a system. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "An indirect injection system spraysfuel into the engine intake manifold. Most gasoline injection systems are of this type. Direct injection forcesfuel into the engine combustion chambers.Diesel injection systems are direct type. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Control of idle speed : Most engine systems have idle speed control built into the ECU.The engine RPM is monitored by the crankshaft position sensor which plays a primary role in the engine timing functions for fuel injection,spark events,and valve timing.ldle speed is controlled by a programmable throttle stop or an idle air bypass control step per motor. "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_afabd246.png"
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_6d97bb87.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "·Electrical Fuel Pump draws fuel from tank and forces it into the regulator "
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Fuel is being injected whenever the engine is running,alsocalled CiS:Continuous Injection System. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Dr.S.John Alexis A modern gasoline injection system uses pressure from an electric fuel pump to spray fuel into the engine intake manifold. "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_20239eb9.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_12527b6e.png"
+                        }
+                    }
+                ]
+            ]
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "engine, air supply system",
+                "cold start system, fuel metering system",
+                "fuel rail, injector harness",
+                "detecting system, control system"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [],
+            "image_evidence_assignment": [],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_sports_music_literature_dc339f8b",
+                    "insert_conversation_turn": 187,
+                    "reference_name": "Doc. 08d509fb"
+                },
+                {
+                    "conversation_name": "group_chat_sports_music_literature_dc339f8b",
+                    "insert_conversation_turn": 642,
+                    "reference_name": "Doc. 14895296"
+                },
+                {
+                    "conversation_name": "group_chat_music_politics_animals_74b7030e",
+                    "insert_conversation_turn": 534,
+                    "reference_name": "Doc. 9a0e14e4"
+                },
+                {
+                    "conversation_name": "group_chat_sports_music_literature_dc339f8b",
+                    "insert_conversation_turn": 627,
+                    "reference_name": "Doc. 5da668d9"
+                }
+            ]
+        },
+        "meta_data": {
+            "category": "Tutorial/Workshop",
+            "doc_name": "efis-140411041451-phpapp01_95",
+            "gold_quotes": [
+                "image5",
+                "text4",
+                "image8",
+                "text10"
+            ],
+            "topic": [
+                "transportation",
+                "technology"
+            ],
+            "original_question": "What are connected with fuel supply?"
+        }
+    },
+    {
+        "id": "16559cd8",
+        "domain": "MMDocRAG",
+        "category": "Single_Hop_QA",
+        "question": "Based on Doc. 355e1da6, Doc. 14dc3f9f, Doc. 94f3fcef, Which line's gates is shown as an example of the train map?",
+        "answer": "3",
+        "evidence": {
+            "text_evidence": [],
+            "image_evidence": [],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": [
+                [
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "There are a few different precincts within this market (such as the stationery section) and the boundaries between them are blurred by the throngs of porters on the streets. But a short stroll from this beehive is a Wanda Plaza, for your more conventional shopping needs.  n "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Chengdu Metro line 3 subway train "
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "The current network... "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_b0736e98.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_413175e1.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "sometime this year, an underground line is expected to open at both terminals. The station at Terminal 2 is also useful for visitors travelling on to Leshan or Mount Emei (because there is a train service connecting the three) but for those aiming to get to the city centre, taking a taxi is probably easiest. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "The New Century Global Centre was built in the middle of Tianfu New City, on top of Subway Line 1. It was heralded as the largest single building in the world by gross floor area, measuring in at 1,700,000 square metres, and opened in 2013 after only three years of construction.The timing was unfortunate: Deng Hong, the founder of the company developing the project, was arrested that year on corruption charges. The Fortune 500 global summit – initially billed to convene in the Centre – chose to relocate to the Shangri-La hotel instead. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "construction, which I think is an appropriate number for a city this size. But unlike Shenzhen, for example, Chengdu isn’t tying subway development with property development.  Chengdu Metro pointed out that Hong Kong and Shenzhen have this sort of dual- development arrangement, but the Chengdu government (which owns Chengdu Metro) decided not to follow suit. Rather than extend the subway to help develop new areas, it is being expanded into areas that are already highly populated, so there is not much new land for property developers to buy. "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_241aadb3.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_d8f18606.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Built in Jinjiang district, about a 15-minute drive from the city centre, the twin towers of the Armani Art Residence rise 65 floors above the meandering river, offering views across the water onto Wang Jiang Park and the campus of Sichuan University. Entry to subway line 2 is about a five-minute walk from the front door, and line 6 is currently being built right at the foot of the tower. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "North Railway Station Not to be confused with Chengdu North Railway Station, which is a freight train yard Wenshu Monastery Access to the monastery and its surrounding markets Tianfu Square Chengdu’s geographical centre, close to the Sichuan Museum and shopping on Renmin South Road,  and interchange with Line 2 "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "There are three subway extensions due to open this year: the second stage of Line 4, the first stage of Line 10, and the entirety of Line 7. Metro Line 4 runs east to west through the middle of the city and will be extended in both directions to reach Wenjiang district in the west and Longquanyi district in the east. Line 10 will connect Shuangliu International Airport to the lower part of Line 3, and Line 7 will form a ring around the city centre, running between the second and third ring roads. "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_be61ce0f.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_e096c059.png"
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "As for connectivity, the Park is situated on the city’s main thoroughfare, about an hour from the city centre (assuming rush hour traffic); the central subway line has a number of stops in the park; the city’s international airport is roughly 20 minutes away by car, with the forthcoming second airport a similar distance. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "People’s Park A public park with a lake for boating, teahouses and traditional ear cleaning Tianfu Square Chunxi Road The primary retail district, exit for Taikoo Li also East Railway Station The terminal for the Chengdu-Chongqing high-speed train "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Line 4 Kuanzhai Alley West Railway Station "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_08fcaab6.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_537dc6b2.png"
+                        }
+                    }
+                ]
+            ]
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "4",
+                "1",
+                "2",
+                "3"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [],
+            "image_evidence_assignment": [],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_literature_economy_technology_06f5c1cf",
+                    "insert_conversation_turn": 307,
+                    "reference_name": "Doc. 355e1da6"
+                },
+                {
+                    "conversation_name": "group_chat_sports_music_literature_dc339f8b",
+                    "insert_conversation_turn": 5,
+                    "reference_name": "Doc. 14dc3f9f"
+                },
+                {
+                    "conversation_name": "group_chat_music_politics_animals_74b7030e",
+                    "insert_conversation_turn": 125,
+                    "reference_name": "Doc. 94f3fcef"
+                }
+            ]
+        },
+        "meta_data": {
+            "category": "Guidebook",
+            "doc_name": "Sinopolis-Chengdu",
+            "gold_quotes": [
+                "text2",
+                "image6",
+                "image8"
+            ],
+            "topic": [
+                "transportation",
+                "travel"
+            ],
+            "original_question": "Which line's gates is shown as an example of the train map?"
+        }
+    },
+    {
+        "id": "QA_sample_c3dc23b8",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. a19e979e, the text, in which year were both the \"immediate review of rail safety policies\" and the \"broader investigation involving infrastructure and emergency response systems\" triggered?",
+        "answer": "2015",
+        "evidence": {
+            "text_evidence": [
+                "A safety regulation mandates immediate review of rail safety policies when the number of fatalities exceeds 500 in any year. Additionally, if the number of injured surpasses 700 in the same year or in any subsequent year, a broader investigation involving infrastructure and emergency response systems must be carried out."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_92a719f8.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "2012",
+                "2006",
+                "2014",
+                "2015"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_politics_animals_74b7030e",
+                    "insert_conversation_turn": 812
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_literature_economy_technology_06f5c1cf",
+                    "insert_conversation_turn": 817,
+                    "reference_name": "Fig. a19e979e"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "transportation",
+                "government"
+            ],
+            "original_question": "the text, in which year were both the \"immediate review of rail safety policies\" and the \"broader investigation involving infrastructure and emergency response systems\" triggered, according to the criteria of fatalities exceeding 500 and injuries surpassing 700?"
+        }
+    },
+    {
+        "id": "QA_sample_92e75a2d_1",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 93ce82ce, Among the activities that could reasonably occur in the given image, which one is Alan Woods least likely to be doing?",
+        "answer": "Watching an anime series",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Alan Woods enjoys live band karaoke, magic shows, but dislikes K-pop concerts, anime series",
+                "In terms of shopping, Alan Woods enjoys robot vacuums, wearable tech, but dislikes sportswear, high-end perfumes"
+            ],
+            "image_evidence": [
+                "MMPB_6f052249.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Alan Woods enjoys kayaking, snorkeling, but dislikes road trips, city tours",
+                "In terms of lifestyle, Alan Woods enjoys meditation, yoga, but dislikes bullet journaling, reading before bed",
+                "In terms of fashion, Alan Woods enjoys functional fashion, trendy sunglasses, but dislikes statement jewelry, minimalist rings."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Using a robot vacuum at home",
+                "Watching an anime series",
+                "Viewing a popular TV show",
+                "Observing a live sports event"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_literature_economy_technology_06f5c1cf",
+                    "insert_conversation_turn": 648
+                },
+                {
+                    "conversation_name": "group_chat_music_politics_animals_74b7030e",
+                    "insert_conversation_turn": 421
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_literature_economy_technology_06f5c1cf",
+                    "insert_conversation_turn": 579,
+                    "reference_name": "Fig. 93ce82ce"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_politics_animals_74b7030e",
+                    "insert_conversation_turn": 564
+                },
+                {
+                    "conversation_name": "group_chat_music_politics_animals_74b7030e",
+                    "insert_conversation_turn": 974
+                },
+                {
+                    "conversation_name": "group_chat_sports_music_literature_dc339f8b",
+                    "insert_conversation_turn": 67
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Ye Wen",
+            "description": "Ye Wen is depicted as a man with a lean build and an average height, exuding a sense of discipline and focus. His facial structure is well-defined, with a prominent jawline and a straight nose, contributing to a strong and determined appearance. Ye Wen has a fair skin tone and short, neatly combed black hair, which adds to his clean and professional look. His expressions range from serious and contemplative to focused and intense, often with a slight furrow in his brow, indicating deep thought or concentration. The consistent facial expressions and poses suggest a character of resilience and inner strength.\n\n**Outfit and Accessories:**\nYe Wen is predominantly seen wearing traditional Chinese attire, specifically a black or white long-sleeved shirt with a high collar, reminiscent of a martial arts uniform. The clothing is simple yet elegant, with a smooth texture that suggests a blend of practicality and formality. The black outfit is often paired with a white undershirt, adding a touch of contrast and sophistication. In one scene, Ye Wen is seen holding a glass, possibly indicating a moment of reflection or relaxation. The attire is functional, allowing for ease of movement, which is essential for martial arts practice. The consistent use of traditional clothing reinforces Ye Wen's connection to his cultural heritage and martial arts discipline.\n\n**Distinguishing Visual Features or Vibe:**\nYe Wen's most memorable feature is his intense gaze, which conveys a sense of determination and focus. His consistent use of traditional attire, particularly the black and white outfits, creates a visual motif that is both striking and culturally significant. The setting, often featuring wooden elements and warm lighting, enhances the traditional and authentic atmosphere. Ye Wen's presence is characterized by a blend of strength and serenity, with a subtle aura of wisdom and resilience. The recurring theme of martial arts practice, as seen in the scenes with ropes and training equipment, further emphasizes his dedication and discipline. Overall, Ye Wen exudes a vibe of quiet strength and cultural pride, making him a visually unmistakable and compelling character.",
+            "preference": "In terms of entertainment, Ye Wen enjoys live band karaoke, magic shows, but dislikes K-pop concerts, anime series. In terms of travel, Ye Wen enjoys kayaking, snorkeling, but dislikes road trips, city tours. In terms of lifestyle, Ye Wen enjoys meditation, yoga, but dislikes bullet journaling, reading before bed. In terms of shopping, Ye Wen enjoys robot vacuums, wearable tech, but dislikes sportswear, high-end perfumes. In terms of fashion, Ye Wen enjoys functional fashion, trendy sunglasses, but dislikes statement jewelry, minimalist rings.",
+            "topic": [],
+            "original_id": "QA_sample_92e75a2d",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Alan Woods least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_92e75a2d_3",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 12a47c60, the image, what is Alan Woods most likely to be doing?",
+        "answer": "Searching for a functional fashion",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Alan Woods enjoys live band karaoke, magic shows, but dislikes K-pop concerts, anime series",
+                "In terms of shopping, Alan Woods enjoys robot vacuums, wearable tech, but dislikes sportswear, high-end perfumes"
+            ],
+            "image_evidence": [
+                "MMPB_17b4cdf6.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Alan Woods enjoys kayaking, snorkeling, but dislikes road trips, city tours",
+                "In terms of lifestyle, Alan Woods enjoys meditation, yoga, but dislikes bullet journaling, reading before bed",
+                "In terms of fashion, Alan Woods enjoys functional fashion, trendy sunglasses, but dislikes statement jewelry, minimalist rings."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Seeking stylish attire",
+                "Searching for a functional fashion",
+                "Meditation",
+                "Exploring trendy threads"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_literature_economy_technology_06f5c1cf",
+                    "insert_conversation_turn": 648
+                },
+                {
+                    "conversation_name": "group_chat_music_politics_animals_74b7030e",
+                    "insert_conversation_turn": 421
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_literature_economy_technology_06f5c1cf",
+                    "insert_conversation_turn": 175,
+                    "reference_name": "Fig. 12a47c60"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_politics_animals_74b7030e",
+                    "insert_conversation_turn": 564
+                },
+                {
+                    "conversation_name": "group_chat_music_politics_animals_74b7030e",
+                    "insert_conversation_turn": 974
+                },
+                {
+                    "conversation_name": "group_chat_sports_music_literature_dc339f8b",
+                    "insert_conversation_turn": 67
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Ye Wen",
+            "description": "Ye Wen is depicted as a man with a lean build and an average height, exuding a sense of discipline and focus. His facial structure is well-defined, with a prominent jawline and a straight nose, contributing to a strong and determined appearance. Ye Wen has a fair skin tone and short, neatly combed black hair, which adds to his clean and professional look. His expressions range from serious and contemplative to focused and intense, often with a slight furrow in his brow, indicating deep thought or concentration. The consistent facial expressions and poses suggest a character of resilience and inner strength.\n\n**Outfit and Accessories:**\nYe Wen is predominantly seen wearing traditional Chinese attire, specifically a black or white long-sleeved shirt with a high collar, reminiscent of a martial arts uniform. The clothing is simple yet elegant, with a smooth texture that suggests a blend of practicality and formality. The black outfit is often paired with a white undershirt, adding a touch of contrast and sophistication. In one scene, Ye Wen is seen holding a glass, possibly indicating a moment of reflection or relaxation. The attire is functional, allowing for ease of movement, which is essential for martial arts practice. The consistent use of traditional clothing reinforces Ye Wen's connection to his cultural heritage and martial arts discipline.\n\n**Distinguishing Visual Features or Vibe:**\nYe Wen's most memorable feature is his intense gaze, which conveys a sense of determination and focus. His consistent use of traditional attire, particularly the black and white outfits, creates a visual motif that is both striking and culturally significant. The setting, often featuring wooden elements and warm lighting, enhances the traditional and authentic atmosphere. Ye Wen's presence is characterized by a blend of strength and serenity, with a subtle aura of wisdom and resilience. The recurring theme of martial arts practice, as seen in the scenes with ropes and training equipment, further emphasizes his dedication and discipline. Overall, Ye Wen exudes a vibe of quiet strength and cultural pride, making him a visually unmistakable and compelling character.",
+            "preference": "In terms of entertainment, Ye Wen enjoys live band karaoke, magic shows, but dislikes K-pop concerts, anime series. In terms of travel, Ye Wen enjoys kayaking, snorkeling, but dislikes road trips, city tours. In terms of lifestyle, Ye Wen enjoys meditation, yoga, but dislikes bullet journaling, reading before bed. In terms of shopping, Ye Wen enjoys robot vacuums, wearable tech, but dislikes sportswear, high-end perfumes. In terms of fashion, Ye Wen enjoys functional fashion, trendy sunglasses, but dislikes statement jewelry, minimalist rings.",
+            "topic": [],
+            "original_id": "QA_sample_92e75a2d",
+            "original_question": "the image, what is Alan Woods most likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_97b85542_1",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 9f2366ef, the image, what is Meadow Boyer most likely to be doing?",
+        "answer": "Watching an anime series",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Meadow Boyer enjoys K-pop concerts, anime series, but dislikes improv comedy, street performances"
+            ],
+            "image_evidence": [
+                "MMPB_2d99653f.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Meadow Boyer enjoys cruise vacations, solo travel, but dislikes motorbiking trips, rafting",
+                "In terms of lifestyle, Meadow Boyer enjoys kombucha brewing, medicinal herb gardening, but dislikes hot yoga, pilates",
+                "In terms of shopping, Meadow Boyer enjoys retro gaming consoles, wireless earbuds, but dislikes handmade crafts, vintage furniture",
+                "In terms of fashion, Meadow Boyer enjoys vintage style, formal suits, but dislikes business casual, athleisure wear."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "Streaming a documentary series",
+                "Watching a movie marathon",
+                "Watching an anime series",
+                "Going on a solo travel adventure"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_sports_music_literature_dc339f8b",
+                    "insert_conversation_turn": 837
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_literature_economy_technology_06f5c1cf",
+                    "insert_conversation_turn": 191,
+                    "reference_name": "Fig. 9f2366ef"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_sports_music_literature_dc339f8b",
+                    "insert_conversation_turn": 823
+                },
+                {
+                    "conversation_name": "group_chat_music_politics_animals_74b7030e",
+                    "insert_conversation_turn": 223
+                },
+                {
+                    "conversation_name": "group_chat_sports_music_literature_dc339f8b",
+                    "insert_conversation_turn": 223
+                },
+                {
+                    "conversation_name": "group_chat_sports_music_literature_dc339f8b",
+                    "insert_conversation_turn": 477
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Yu",
+            "description": "Yu is a young individual with a slender build and a youthful appearance, suggesting a height that is typical for their age. Their facial structure is characterized by a well-defined jawline and a slightly rounded face, with a fair skin tone. The hair is short and neatly styled, often appearing dark and well-groomed. The eyebrows are thick and well-defined, adding to the expressive nature of their face. Yu frequently displays a range of expressions, from a broad smile to a more contemplative look, indicating a lively and engaging personality. The eyes are a notable feature, often appearing bright and attentive, contributing to a sense of curiosity and openness.\n\n**Outfit and Accessories:**\nYu is seen wearing a variety of outfits that reflect a casual and comfortable style. The color palette includes a mix of bright and neutral tones, such as red, green, white, and orange, with occasional accents of blue and black. The clothing appears to be made of soft, comfortable materials, suitable for everyday wear. The outfits range from a red and green jacket to a white shirt with pink accents, and a gray shirt with red and black details. The attire is practical and functional, with a focus on comfort and ease of movement. There are no visible accessories, suggesting a preference for simplicity and minimalism in their style.\n\n**Distinguishing Visual Features or Vibe:**\nThe most memorable feature of Yu is their bright and engaging smile, which conveys a sense of warmth and friendliness. The consistent appearance of a neat and well-groomed hairstyle adds to their youthful and approachable vibe. The combination of bright and neutral colors in their outfits creates a visually appealing contrast, enhancing their overall appearance. The expressive eyes and varied facial expressions contribute to a dynamic and lively persona. The overall impression is one of a cheerful and energetic individual, with a casual and relatable style that makes Yu visually unmistakable.",
+            "preference": "In terms of entertainment, Yu enjoys K-pop concerts, anime series, but dislikes improv comedy, street performances. In terms of travel, Yu enjoys cruise vacations, solo travel, but dislikes motorbiking trips, rafting. In terms of lifestyle, Yu enjoys kombucha brewing, medicinal herb gardening, but dislikes hot yoga, pilates. In terms of shopping, Yu enjoys retro gaming consoles, wireless earbuds, but dislikes handmade crafts, vintage furniture. In terms of fashion, Yu enjoys vintage style, formal suits, but dislikes business casual, athleisure wear.",
+            "topic": [],
+            "original_id": "QA_sample_97b85542",
+            "original_question": "the image, what is Meadow Boyer most likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_97b85542_2",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 30e8320c, Among the activities that could reasonably occur in the given image, which one is Meadow Boyer least likely to be doing?",
+        "answer": "Watching an improv comedy show",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Meadow Boyer enjoys K-pop concerts, anime series, but dislikes improv comedy, street performances"
+            ],
+            "image_evidence": [
+                "MMPB_73dc3548.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Meadow Boyer enjoys cruise vacations, solo travel, but dislikes motorbiking trips, rafting",
+                "In terms of lifestyle, Meadow Boyer enjoys kombucha brewing, medicinal herb gardening, but dislikes hot yoga, pilates",
+                "In terms of shopping, Meadow Boyer enjoys retro gaming consoles, wireless earbuds, but dislikes handmade crafts, vintage furniture",
+                "In terms of fashion, Meadow Boyer enjoys vintage style, formal suits, but dislikes business casual, athleisure wear."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Watching an improv comedy show",
+                "Observing a live theater performance",
+                "Pilates",
+                "Attending a symphony orchestra concert"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_sports_music_literature_dc339f8b",
+                    "insert_conversation_turn": 837
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_literature_economy_technology_06f5c1cf",
+                    "insert_conversation_turn": 139,
+                    "reference_name": "Fig. 30e8320c"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_sports_music_literature_dc339f8b",
+                    "insert_conversation_turn": 823
+                },
+                {
+                    "conversation_name": "group_chat_music_politics_animals_74b7030e",
+                    "insert_conversation_turn": 223
+                },
+                {
+                    "conversation_name": "group_chat_sports_music_literature_dc339f8b",
+                    "insert_conversation_turn": 223
+                },
+                {
+                    "conversation_name": "group_chat_sports_music_literature_dc339f8b",
+                    "insert_conversation_turn": 477
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Yu",
+            "description": "Yu is a young individual with a slender build and a youthful appearance, suggesting a height that is typical for their age. Their facial structure is characterized by a well-defined jawline and a slightly rounded face, with a fair skin tone. The hair is short and neatly styled, often appearing dark and well-groomed. The eyebrows are thick and well-defined, adding to the expressive nature of their face. Yu frequently displays a range of expressions, from a broad smile to a more contemplative look, indicating a lively and engaging personality. The eyes are a notable feature, often appearing bright and attentive, contributing to a sense of curiosity and openness.\n\n**Outfit and Accessories:**\nYu is seen wearing a variety of outfits that reflect a casual and comfortable style. The color palette includes a mix of bright and neutral tones, such as red, green, white, and orange, with occasional accents of blue and black. The clothing appears to be made of soft, comfortable materials, suitable for everyday wear. The outfits range from a red and green jacket to a white shirt with pink accents, and a gray shirt with red and black details. The attire is practical and functional, with a focus on comfort and ease of movement. There are no visible accessories, suggesting a preference for simplicity and minimalism in their style.\n\n**Distinguishing Visual Features or Vibe:**\nThe most memorable feature of Yu is their bright and engaging smile, which conveys a sense of warmth and friendliness. The consistent appearance of a neat and well-groomed hairstyle adds to their youthful and approachable vibe. The combination of bright and neutral colors in their outfits creates a visually appealing contrast, enhancing their overall appearance. The expressive eyes and varied facial expressions contribute to a dynamic and lively persona. The overall impression is one of a cheerful and energetic individual, with a casual and relatable style that makes Yu visually unmistakable.",
+            "preference": "In terms of entertainment, Yu enjoys K-pop concerts, anime series, but dislikes improv comedy, street performances. In terms of travel, Yu enjoys cruise vacations, solo travel, but dislikes motorbiking trips, rafting. In terms of lifestyle, Yu enjoys kombucha brewing, medicinal herb gardening, but dislikes hot yoga, pilates. In terms of shopping, Yu enjoys retro gaming consoles, wireless earbuds, but dislikes handmade crafts, vintage furniture. In terms of fashion, Yu enjoys vintage style, formal suits, but dislikes business casual, athleisure wear.",
+            "topic": [],
+            "original_id": "QA_sample_97b85542",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Meadow Boyer least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_97b85542_3",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. e4e6a7ba, Among the activities that could reasonably occur in the given image, which one is Meadow Boyer least likely to be doing?",
+        "answer": "Watching street performances",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Meadow Boyer enjoys K-pop concerts, anime series, but dislikes improv comedy, street performances"
+            ],
+            "image_evidence": [
+                "MMPB_28b712ad.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Meadow Boyer enjoys cruise vacations, solo travel, but dislikes motorbiking trips, rafting",
+                "In terms of lifestyle, Meadow Boyer enjoys kombucha brewing, medicinal herb gardening, but dislikes hot yoga, pilates",
+                "In terms of shopping, Meadow Boyer enjoys retro gaming consoles, wireless earbuds, but dislikes handmade crafts, vintage furniture",
+                "In terms of fashion, Meadow Boyer enjoys vintage style, formal suits, but dislikes business casual, athleisure wear."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "Observing public art installations",
+                "Enjoying outdoor music festivals",
+                "Brewing Kombu tea",
+                "Watching street performances"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_sports_music_literature_dc339f8b",
+                    "insert_conversation_turn": 837
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_sports_music_literature_dc339f8b",
+                    "insert_conversation_turn": 305,
+                    "reference_name": "Fig. e4e6a7ba"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_sports_music_literature_dc339f8b",
+                    "insert_conversation_turn": 823
+                },
+                {
+                    "conversation_name": "group_chat_music_politics_animals_74b7030e",
+                    "insert_conversation_turn": 223
+                },
+                {
+                    "conversation_name": "group_chat_sports_music_literature_dc339f8b",
+                    "insert_conversation_turn": 223
+                },
+                {
+                    "conversation_name": "group_chat_sports_music_literature_dc339f8b",
+                    "insert_conversation_turn": 477
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Yu",
+            "description": "Yu is a young individual with a slender build and a youthful appearance, suggesting a height that is typical for their age. Their facial structure is characterized by a well-defined jawline and a slightly rounded face, with a fair skin tone. The hair is short and neatly styled, often appearing dark and well-groomed. The eyebrows are thick and well-defined, adding to the expressive nature of their face. Yu frequently displays a range of expressions, from a broad smile to a more contemplative look, indicating a lively and engaging personality. The eyes are a notable feature, often appearing bright and attentive, contributing to a sense of curiosity and openness.\n\n**Outfit and Accessories:**\nYu is seen wearing a variety of outfits that reflect a casual and comfortable style. The color palette includes a mix of bright and neutral tones, such as red, green, white, and orange, with occasional accents of blue and black. The clothing appears to be made of soft, comfortable materials, suitable for everyday wear. The outfits range from a red and green jacket to a white shirt with pink accents, and a gray shirt with red and black details. The attire is practical and functional, with a focus on comfort and ease of movement. There are no visible accessories, suggesting a preference for simplicity and minimalism in their style.\n\n**Distinguishing Visual Features or Vibe:**\nThe most memorable feature of Yu is their bright and engaging smile, which conveys a sense of warmth and friendliness. The consistent appearance of a neat and well-groomed hairstyle adds to their youthful and approachable vibe. The combination of bright and neutral colors in their outfits creates a visually appealing contrast, enhancing their overall appearance. The expressive eyes and varied facial expressions contribute to a dynamic and lively persona. The overall impression is one of a cheerful and energetic individual, with a casual and relatable style that makes Yu visually unmistakable.",
+            "preference": "In terms of entertainment, Yu enjoys K-pop concerts, anime series, but dislikes improv comedy, street performances. In terms of travel, Yu enjoys cruise vacations, solo travel, but dislikes motorbiking trips, rafting. In terms of lifestyle, Yu enjoys kombucha brewing, medicinal herb gardening, but dislikes hot yoga, pilates. In terms of shopping, Yu enjoys retro gaming consoles, wireless earbuds, but dislikes handmade crafts, vintage furniture. In terms of fashion, Yu enjoys vintage style, formal suits, but dislikes business casual, athleisure wear.",
+            "topic": [],
+            "original_id": "QA_sample_97b85542",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Meadow Boyer least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_9275de6a_1",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 9cf66729, the image, what is Miles Roberts most likely to be doing?",
+        "answer": "Watching a travel vlog",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Miles Roberts enjoys cooking shows, travel vlogs, but dislikes sports TV, romantic dramas"
+            ],
+            "image_evidence": [
+                "MMPB_2d99653f.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Miles Roberts enjoys fine dining, street food, but dislikes polar expeditions, desert safaris",
+                "In terms of lifestyle, Miles Roberts enjoys plant-based diet, home cooking, but dislikes daily smoothies, outdoor workouts",
+                "In terms of shopping, Miles Roberts enjoys retro gaming consoles, wireless earbuds, but dislikes handmade crafts, vintage furniture",
+                "In terms of fashion, Miles Roberts enjoys techwear, cyberpunk aesthetics, but dislikes handcrafted leather bags, woven hats."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "Watching a magic show",
+                "Watching a food documentary",
+                "Browsing for cyberpunk aesthetic clothing",
+                "Watching a travel vlog"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_literature_economy_technology_06f5c1cf",
+                    "insert_conversation_turn": 347
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_literature_economy_technology_06f5c1cf",
+                    "insert_conversation_turn": 191,
+                    "reference_name": "Fig. 9cf66729"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_literature_economy_technology_06f5c1cf",
+                    "insert_conversation_turn": 332
+                },
+                {
+                    "conversation_name": "group_chat_literature_economy_technology_06f5c1cf",
+                    "insert_conversation_turn": 527
+                },
+                {
+                    "conversation_name": "group_chat_literature_economy_technology_06f5c1cf",
+                    "insert_conversation_turn": 318
+                },
+                {
+                    "conversation_name": "group_chat_sports_music_literature_dc339f8b",
+                    "insert_conversation_turn": 809
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "yifei",
+            "description": "yifei is a woman with a slender build and an average height impression. Her facial structure is characterized by a well-defined jawline and a slightly pointed chin, with a medium-sized nose and full lips. Her skin tone is fair, and she often has a soft, approachable expression. yifei's hair is long and dark, styled in various ways across the images, including loose waves and a high ponytail. Her eyebrows are thick and well-groomed, and she frequently wears red lipstick, adding a pop of color to her appearance. Her eyes are expressive, and she often looks directly at the camera, conveying a sense of engagement and confidence.\n\n**Outfit and Accessories:**\nyifei's outfits are diverse, ranging from casual to more formal attire. In one image, she wears a denim jacket over a white t-shirt with red text, paired with a headband featuring bunny ears, adding a playful touch. In another, she is seen in a bright red sleeveless top with the words \"YOURSELF\" and \"IZZUE\" on the straps, suggesting a bold and confident style. She also wears a white, intricately patterned blouse with colorful accents, holding a pink mirror with a cute design, indicating a whimsical and fun-loving side. Her accessories include large, colorful earrings and a headband, which add to her playful and stylish appearance. The overall color palette of her outfits is vibrant, with a mix of reds, whites, and blues, and the textures range from denim to delicate lace.\n\n**Distinguishing Visual Features or Vibe:**\nyifei's most memorable feature is her ability to convey a mix of playful and confident vibes through her outfits and accessories. The bunny ears headband and the pink mirror with a cute design are signature items that add a whimsical touch to her appearance. Her red lipstick is a consistent feature that stands out, adding a bold and confident element to her look. The combination of her fair skin, dark hair, and expressive eyes creates a striking visual contrast. The overall aura she conveys is one of approachability and confidence, with a touch of fun and playfulness. Her outfits and accessories, along with her engaging expressions, make her visually unmistakable and memorable.",
+            "preference": "In terms of entertainment, yifei enjoys cooking shows, travel vlogs, but dislikes sports TV, romantic dramas. In terms of travel, yifei enjoys fine dining, street food, but dislikes polar expeditions, desert safaris. In terms of lifestyle, yifei enjoys plant-based diet, home cooking, but dislikes daily smoothies, outdoor workouts. In terms of shopping, yifei enjoys retro gaming consoles, wireless earbuds, but dislikes handmade crafts, vintage furniture. In terms of fashion, yifei enjoys techwear, cyberpunk aesthetics, but dislikes handcrafted leather bags, woven hats.",
+            "topic": [],
+            "original_id": "QA_sample_9275de6a",
+            "original_question": "the image, what is Miles Roberts most likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_9275de6a_2",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 02fe9963, Among the activities that could reasonably occur in the given image, which one is Miles Roberts least likely to be doing?",
+        "answer": "Watching a sports TV channel",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Miles Roberts enjoys cooking shows, travel vlogs, but dislikes sports TV, romantic dramas"
+            ],
+            "image_evidence": [
+                "MMPB_6f052249.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Miles Roberts enjoys fine dining, street food, but dislikes polar expeditions, desert safaris",
+                "In terms of lifestyle, Miles Roberts enjoys plant-based diet, home cooking, but dislikes daily smoothies, outdoor workouts",
+                "In terms of shopping, Miles Roberts enjoys retro gaming consoles, wireless earbuds, but dislikes handmade crafts, vintage furniture",
+                "In terms of fashion, Miles Roberts enjoys techwear, cyberpunk aesthetics, but dislikes handcrafted leather bags, woven hats."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "Observing a news TV channel",
+                "Researching home cooking recipes",
+                "Viewing a music video channel",
+                "Watching a sports TV channel"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_literature_economy_technology_06f5c1cf",
+                    "insert_conversation_turn": 347
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_politics_animals_74b7030e",
+                    "insert_conversation_turn": 168,
+                    "reference_name": "Fig. 02fe9963"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_literature_economy_technology_06f5c1cf",
+                    "insert_conversation_turn": 332
+                },
+                {
+                    "conversation_name": "group_chat_literature_economy_technology_06f5c1cf",
+                    "insert_conversation_turn": 527
+                },
+                {
+                    "conversation_name": "group_chat_literature_economy_technology_06f5c1cf",
+                    "insert_conversation_turn": 318
+                },
+                {
+                    "conversation_name": "group_chat_sports_music_literature_dc339f8b",
+                    "insert_conversation_turn": 809
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "yifei",
+            "description": "yifei is a woman with a slender build and an average height impression. Her facial structure is characterized by a well-defined jawline and a slightly pointed chin, with a medium-sized nose and full lips. Her skin tone is fair, and she often has a soft, approachable expression. yifei's hair is long and dark, styled in various ways across the images, including loose waves and a high ponytail. Her eyebrows are thick and well-groomed, and she frequently wears red lipstick, adding a pop of color to her appearance. Her eyes are expressive, and she often looks directly at the camera, conveying a sense of engagement and confidence.\n\n**Outfit and Accessories:**\nyifei's outfits are diverse, ranging from casual to more formal attire. In one image, she wears a denim jacket over a white t-shirt with red text, paired with a headband featuring bunny ears, adding a playful touch. In another, she is seen in a bright red sleeveless top with the words \"YOURSELF\" and \"IZZUE\" on the straps, suggesting a bold and confident style. She also wears a white, intricately patterned blouse with colorful accents, holding a pink mirror with a cute design, indicating a whimsical and fun-loving side. Her accessories include large, colorful earrings and a headband, which add to her playful and stylish appearance. The overall color palette of her outfits is vibrant, with a mix of reds, whites, and blues, and the textures range from denim to delicate lace.\n\n**Distinguishing Visual Features or Vibe:**\nyifei's most memorable feature is her ability to convey a mix of playful and confident vibes through her outfits and accessories. The bunny ears headband and the pink mirror with a cute design are signature items that add a whimsical touch to her appearance. Her red lipstick is a consistent feature that stands out, adding a bold and confident element to her look. The combination of her fair skin, dark hair, and expressive eyes creates a striking visual contrast. The overall aura she conveys is one of approachability and confidence, with a touch of fun and playfulness. Her outfits and accessories, along with her engaging expressions, make her visually unmistakable and memorable.",
+            "preference": "In terms of entertainment, yifei enjoys cooking shows, travel vlogs, but dislikes sports TV, romantic dramas. In terms of travel, yifei enjoys fine dining, street food, but dislikes polar expeditions, desert safaris. In terms of lifestyle, yifei enjoys plant-based diet, home cooking, but dislikes daily smoothies, outdoor workouts. In terms of shopping, yifei enjoys retro gaming consoles, wireless earbuds, but dislikes handmade crafts, vintage furniture. In terms of fashion, yifei enjoys techwear, cyberpunk aesthetics, but dislikes handcrafted leather bags, woven hats.",
+            "topic": [],
+            "original_id": "QA_sample_9275de6a",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Miles Roberts least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_9275de6a_3",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 4d95e01d, Among the activities that could reasonably occur in the given image, which one is Miles Roberts least likely to be doing?",
+        "answer": "Watching a romantic drama series",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Miles Roberts enjoys cooking shows, travel vlogs, but dislikes sports TV, romantic dramas"
+            ],
+            "image_evidence": [
+                "MMPB_28b712ad.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Miles Roberts enjoys fine dining, street food, but dislikes polar expeditions, desert safaris",
+                "In terms of lifestyle, Miles Roberts enjoys plant-based diet, home cooking, but dislikes daily smoothies, outdoor workouts",
+                "In terms of shopping, Miles Roberts enjoys retro gaming consoles, wireless earbuds, but dislikes handmade crafts, vintage furniture",
+                "In terms of fashion, Miles Roberts enjoys techwear, cyberpunk aesthetics, but dislikes handcrafted leather bags, woven hats."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Watching a romantic drama series",
+                "Watching a suspenseful thriller series",
+                "Reading a paper book about plant-based diets",
+                "Streaming a comedy special"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_literature_economy_technology_06f5c1cf",
+                    "insert_conversation_turn": 347
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_literature_economy_technology_06f5c1cf",
+                    "insert_conversation_turn": 160,
+                    "reference_name": "Fig. 4d95e01d"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_literature_economy_technology_06f5c1cf",
+                    "insert_conversation_turn": 332
+                },
+                {
+                    "conversation_name": "group_chat_literature_economy_technology_06f5c1cf",
+                    "insert_conversation_turn": 527
+                },
+                {
+                    "conversation_name": "group_chat_literature_economy_technology_06f5c1cf",
+                    "insert_conversation_turn": 318
+                },
+                {
+                    "conversation_name": "group_chat_sports_music_literature_dc339f8b",
+                    "insert_conversation_turn": 809
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "yifei",
+            "description": "yifei is a woman with a slender build and an average height impression. Her facial structure is characterized by a well-defined jawline and a slightly pointed chin, with a medium-sized nose and full lips. Her skin tone is fair, and she often has a soft, approachable expression. yifei's hair is long and dark, styled in various ways across the images, including loose waves and a high ponytail. Her eyebrows are thick and well-groomed, and she frequently wears red lipstick, adding a pop of color to her appearance. Her eyes are expressive, and she often looks directly at the camera, conveying a sense of engagement and confidence.\n\n**Outfit and Accessories:**\nyifei's outfits are diverse, ranging from casual to more formal attire. In one image, she wears a denim jacket over a white t-shirt with red text, paired with a headband featuring bunny ears, adding a playful touch. In another, she is seen in a bright red sleeveless top with the words \"YOURSELF\" and \"IZZUE\" on the straps, suggesting a bold and confident style. She also wears a white, intricately patterned blouse with colorful accents, holding a pink mirror with a cute design, indicating a whimsical and fun-loving side. Her accessories include large, colorful earrings and a headband, which add to her playful and stylish appearance. The overall color palette of her outfits is vibrant, with a mix of reds, whites, and blues, and the textures range from denim to delicate lace.\n\n**Distinguishing Visual Features or Vibe:**\nyifei's most memorable feature is her ability to convey a mix of playful and confident vibes through her outfits and accessories. The bunny ears headband and the pink mirror with a cute design are signature items that add a whimsical touch to her appearance. Her red lipstick is a consistent feature that stands out, adding a bold and confident element to her look. The combination of her fair skin, dark hair, and expressive eyes creates a striking visual contrast. The overall aura she conveys is one of approachability and confidence, with a touch of fun and playfulness. Her outfits and accessories, along with her engaging expressions, make her visually unmistakable and memorable.",
+            "preference": "In terms of entertainment, yifei enjoys cooking shows, travel vlogs, but dislikes sports TV, romantic dramas. In terms of travel, yifei enjoys fine dining, street food, but dislikes polar expeditions, desert safaris. In terms of lifestyle, yifei enjoys plant-based diet, home cooking, but dislikes daily smoothies, outdoor workouts. In terms of shopping, yifei enjoys retro gaming consoles, wireless earbuds, but dislikes handmade crafts, vintage furniture. In terms of fashion, yifei enjoys techwear, cyberpunk aesthetics, but dislikes handcrafted leather bags, woven hats.",
+            "topic": [],
+            "original_id": "QA_sample_9275de6a",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Miles Roberts least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_1ffd677a_2",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. f8cdd71f, Among the activities that could reasonably occur in the given image, which one is Baron Luna least likely to be doing?",
+        "answer": "Watching sports TV",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Baron Luna enjoys live band karaoke, magic shows, but dislikes sports TV, romantic dramas"
+            ],
+            "image_evidence": [
+                "MMPB_2d99653f.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Baron Luna enjoys historical site tours, food tours, but dislikes overland train journeys, remote island hopping",
+                "In terms of lifestyle, Baron Luna enjoys early morning jogs, massages, but dislikes home gardening, night owl lifestyle",
+                "In terms of shopping, Baron Luna enjoys handwoven rugs, fancy cutlery sets, but dislikes handmade crafts, vintage furniture",
+                "In terms of fashion, Baron Luna enjoys handmade accessories, bold colors, but dislikes business casual, athleisure wear."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Buying vintage furniture",
+                "Watching sports TV",
+                "Watching news TV",
+                "Watching cooking shows"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_literature_economy_technology_06f5c1cf",
+                    "insert_conversation_turn": 221
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_politics_animals_74b7030e",
+                    "insert_conversation_turn": 292,
+                    "reference_name": "Fig. f8cdd71f"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_sports_music_literature_dc339f8b",
+                    "insert_conversation_turn": 241
+                },
+                {
+                    "conversation_name": "group_chat_sports_music_literature_dc339f8b",
+                    "insert_conversation_turn": 509
+                },
+                {
+                    "conversation_name": "group_chat_sports_music_literature_dc339f8b",
+                    "insert_conversation_turn": 495
+                },
+                {
+                    "conversation_name": "group_chat_music_politics_animals_74b7030e",
+                    "insert_conversation_turn": 634
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Faker",
+            "description": "Faker is a young adult male with a slender build and an average height impression. His facial structure is characterized by a well-defined jawline and a slightly prominent nose, with a neutral to slightly serious expression in most images. Faker has a fair skin tone and wears glasses with thin frames, which add an intellectual and focused look. His hair is short and neatly styled, often with a slight side part, and in one image, it features a striking red tint. Faker frequently appears with a thumbs-up gesture or a finger to his lips, suggesting a mix of confidence and contemplation.\n\n**Outfit and Accessories:**\nFaker's attire is predominantly sporty and team-oriented, reflecting his involvement in esports. He is often seen in team jerseys, such as a red and white jersey with \"SKT T1\" and \"Red Bull\" logos, and a black jacket with \"SK Telecom\" branding. These outfits are practical and functional, designed for comfort and team representation. The color palette includes red, white, black, and blue, with occasional accents of gold and silver. Faker's clothing is typically made of lightweight, breathable materials suitable for gaming environments. The presence of sponsor logos indicates his professional status in the esports world.\n\n**Distinguishing Visual Features or Vibe:**\nFaker exudes a professional and focused aura, reinforced by his consistent appearance in team jerseys and the esports setting. The recurring elements, such as the \"SKT T1\" and \"Red Bull\" logos, along with his glasses and thumbs-up gesture, create a recognizable and memorable image. The red-tinted hair in one image adds a unique and bold touch to his visual identity. The overall vibe is one of dedication and expertise, with a hint of playful confidence, as seen in his various poses and expressions. The combination of his attire, accessories, and the esports context makes Faker visually unmistakable and emblematic of the competitive gaming world.",
+            "preference": "In terms of entertainment, Faker enjoys live band karaoke, magic shows, but dislikes sports TV, romantic dramas. In terms of travel, Faker enjoys historical site tours, food tours, but dislikes overland train journeys, remote island hopping. In terms of lifestyle, Faker enjoys early morning jogs, massages, but dislikes home gardening, night owl lifestyle. In terms of shopping, Faker enjoys handwoven rugs, fancy cutlery sets, but dislikes handmade crafts, vintage furniture. In terms of fashion, Faker enjoys handmade accessories, bold colors, but dislikes business casual, athleisure wear.",
+            "topic": [],
+            "original_id": "QA_sample_1ffd677a",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Baron Luna least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_1ffd677a_3",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 64b2c134, Among the activities that could reasonably occur in the given image, which one is Baron Luna least likely to be doing?",
+        "answer": "Watching a romantic drama",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Baron Luna enjoys live band karaoke, magic shows, but dislikes sports TV, romantic dramas"
+            ],
+            "image_evidence": [
+                "MMPB_6f052249.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Baron Luna enjoys historical site tours, food tours, but dislikes overland train journeys, remote island hopping",
+                "In terms of lifestyle, Baron Luna enjoys early morning jogs, massages, but dislikes home gardening, night owl lifestyle",
+                "In terms of shopping, Baron Luna enjoys handwoven rugs, fancy cutlery sets, but dislikes handmade crafts, vintage furniture",
+                "In terms of fashion, Baron Luna enjoys handmade accessories, bold colors, but dislikes business casual, athleisure wear."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "Observing a suspenseful thriller",
+                "Enjoying a comedic sitcom",
+                "Watching a romantic drama",
+                "Home gardening"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_literature_economy_technology_06f5c1cf",
+                    "insert_conversation_turn": 221
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_politics_animals_74b7030e",
+                    "insert_conversation_turn": 168,
+                    "reference_name": "Fig. 64b2c134"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_sports_music_literature_dc339f8b",
+                    "insert_conversation_turn": 241
+                },
+                {
+                    "conversation_name": "group_chat_sports_music_literature_dc339f8b",
+                    "insert_conversation_turn": 509
+                },
+                {
+                    "conversation_name": "group_chat_sports_music_literature_dc339f8b",
+                    "insert_conversation_turn": 495
+                },
+                {
+                    "conversation_name": "group_chat_music_politics_animals_74b7030e",
+                    "insert_conversation_turn": 634
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Faker",
+            "description": "Faker is a young adult male with a slender build and an average height impression. His facial structure is characterized by a well-defined jawline and a slightly prominent nose, with a neutral to slightly serious expression in most images. Faker has a fair skin tone and wears glasses with thin frames, which add an intellectual and focused look. His hair is short and neatly styled, often with a slight side part, and in one image, it features a striking red tint. Faker frequently appears with a thumbs-up gesture or a finger to his lips, suggesting a mix of confidence and contemplation.\n\n**Outfit and Accessories:**\nFaker's attire is predominantly sporty and team-oriented, reflecting his involvement in esports. He is often seen in team jerseys, such as a red and white jersey with \"SKT T1\" and \"Red Bull\" logos, and a black jacket with \"SK Telecom\" branding. These outfits are practical and functional, designed for comfort and team representation. The color palette includes red, white, black, and blue, with occasional accents of gold and silver. Faker's clothing is typically made of lightweight, breathable materials suitable for gaming environments. The presence of sponsor logos indicates his professional status in the esports world.\n\n**Distinguishing Visual Features or Vibe:**\nFaker exudes a professional and focused aura, reinforced by his consistent appearance in team jerseys and the esports setting. The recurring elements, such as the \"SKT T1\" and \"Red Bull\" logos, along with his glasses and thumbs-up gesture, create a recognizable and memorable image. The red-tinted hair in one image adds a unique and bold touch to his visual identity. The overall vibe is one of dedication and expertise, with a hint of playful confidence, as seen in his various poses and expressions. The combination of his attire, accessories, and the esports context makes Faker visually unmistakable and emblematic of the competitive gaming world.",
+            "preference": "In terms of entertainment, Faker enjoys live band karaoke, magic shows, but dislikes sports TV, romantic dramas. In terms of travel, Faker enjoys historical site tours, food tours, but dislikes overland train journeys, remote island hopping. In terms of lifestyle, Faker enjoys early morning jogs, massages, but dislikes home gardening, night owl lifestyle. In terms of shopping, Faker enjoys handwoven rugs, fancy cutlery sets, but dislikes handmade crafts, vintage furniture. In terms of fashion, Faker enjoys handmade accessories, bold colors, but dislikes business casual, athleisure wear.",
+            "topic": [],
+            "original_id": "QA_sample_1ffd677a",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Baron Luna least likely to be doing?"
+        }
+    },
+    {
+        "id": "LifeSim_01903705",
+        "domain": "LifeSim",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 5e04ca80, What is Paxton Clarke's preferred low-impact fat-burning workout?",
+        "answer": "swimming",
+        "evidence": {
+            "image_evidence": [
+                "LifeSim_7b6bcd32.png"
+            ]
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "running",
+                "yoga",
+                "cycling",
+                "swimming"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_politics_animals_74b7030e",
+                    "insert_conversation_turn": 863,
+                    "reference_name": "Fig. 5e04ca80"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "conv_history_name": "user_assistant_conversation_f33acd7c.json",
+            "preference_user_name": "Paxton Clarke",
+            "original_question": "What is Paxton Clarke's preferred low-impact fat-burning workout?"
+        }
+    },
+    {
+        "id": "QA_sample_fbaa3802_1",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. d760cff8, Among the activities that could reasonably occur in the given image, which one is Joselyn Moss least likely to be doing?",
+        "answer": "Watching sports TV",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Joselyn Moss enjoys crime thrillers, historical dramas, but dislikes sports TV, romantic dramas",
+                "In terms of lifestyle, Joselyn Moss enjoys forest bathing, holistic therapy, but dislikes meditation, yoga"
+            ],
+            "image_evidence": [
+                "MMPB_81ebaeeb.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Joselyn Moss enjoys motorbiking trips, rafting, but dislikes fine dining, street food",
+                "In terms of shopping, Joselyn Moss enjoys handmade candles, ceramic pottery, but dislikes smart home devices, kitchen appliances",
+                "In terms of fashion, Joselyn Moss enjoys business casual, athleisure wear, but dislikes functional fashion, trendy sunglasses."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Watching movie marathons",
+                "Watching sports TV",
+                "Practicing meditation",
+                "Streaming the latest series"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_sports_music_literature_dc339f8b",
+                    "insert_conversation_turn": 208
+                },
+                {
+                    "conversation_name": "group_chat_music_politics_animals_74b7030e",
+                    "insert_conversation_turn": 239
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_politics_animals_74b7030e",
+                    "insert_conversation_turn": 183,
+                    "reference_name": "Fig. d760cff8"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_sports_music_literature_dc339f8b",
+                    "insert_conversation_turn": 443
+                },
+                {
+                    "conversation_name": "group_chat_music_politics_animals_74b7030e",
+                    "insert_conversation_turn": 900
+                },
+                {
+                    "conversation_name": "group_chat_music_politics_animals_74b7030e",
+                    "insert_conversation_turn": 923
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Watson",
+            "description": "Watson is a man with a medium build and a height that suggests a commanding presence. His facial structure is characterized by a strong jawline and a slightly prominent nose, with a fair skin tone that complements his light brown hair, which is often styled in a short, tousled manner. His eyebrows are thick and well-defined, adding to his expressive features. Watson frequently displays a range of emotions through his eyes, which are often wide and engaging, and his mouth, which can shift from a slight smile to a more serious expression. His overall appearance is one of a thoughtful and introspective individual, with a hint of intensity in his gaze.\n\n**Outfit and Accessories:**\nWatson is often seen in a variety of outfits that range from formal to casual, showcasing a versatile style. In formal settings, he wears a classic black suit with a white shirt and black tie, exuding a polished and professional look. The suit is well-tailored, with a crisp white pocket square adding a touch of elegance. In more casual settings, Watson opts for a plaid shirt layered under a dark vest or jacket, giving off a relaxed yet sophisticated vibe. The color palette of his clothing is predominantly dark, with occasional lighter accents, and the textures range from smooth fabrics in his formal wear to the more rugged feel of his casual attire. His outfits are practical yet stylish, reflecting a character that is both approachable and refined.\n\n**Distinguishing Visual Features or Vibe:**\nThe most memorable feature of Watson is his expressive eyes, which convey a depth of emotion and thought. His light brown hair, styled in a slightly tousled manner, adds to his approachable and relatable persona. The combination of his fair skin and light brown hair creates a striking contrast, making him visually distinctive. Watson often exudes a sense of intensity and introspection, with his facial expressions and body language suggesting a character who is both thoughtful and determined. His ability to transition seamlessly between formal and casual attire highlights his versatility and adaptability, making him a visually unmistakable figure.",
+            "preference": "In terms of entertainment, Watson enjoys crime thrillers, historical dramas, but dislikes sports TV, romantic dramas. In terms of travel, Watson enjoys motorbiking trips, rafting, but dislikes fine dining, street food. In terms of lifestyle, Watson enjoys forest bathing, holistic therapy, but dislikes meditation, yoga. In terms of shopping, Watson enjoys handmade candles, ceramic pottery, but dislikes smart home devices, kitchen appliances. In terms of fashion, Watson enjoys business casual, athleisure wear, but dislikes functional fashion, trendy sunglasses.",
+            "topic": [],
+            "original_id": "QA_sample_fbaa3802",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Joselyn Moss least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_fbaa3802_2",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 2f9050db, Among the activities that could reasonably occur in the given image, which one is Joselyn Moss least likely to be doing?",
+        "answer": "Watching romance dramas",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Joselyn Moss enjoys crime thrillers, historical dramas, but dislikes sports TV, romantic dramas",
+                "In terms of lifestyle, Joselyn Moss enjoys forest bathing, holistic therapy, but dislikes meditation, yoga"
+            ],
+            "image_evidence": [
+                "MMPB_2d99653f.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Joselyn Moss enjoys motorbiking trips, rafting, but dislikes fine dining, street food",
+                "In terms of shopping, Joselyn Moss enjoys handmade candles, ceramic pottery, but dislikes smart home devices, kitchen appliances",
+                "In terms of fashion, Joselyn Moss enjoys business casual, athleisure wear, but dislikes functional fashion, trendy sunglasses."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Buying smart home devices",
+                "Watching romance dramas",
+                "Watching action thrillers",
+                "Watching comedy specials"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_sports_music_literature_dc339f8b",
+                    "insert_conversation_turn": 208
+                },
+                {
+                    "conversation_name": "group_chat_music_politics_animals_74b7030e",
+                    "insert_conversation_turn": 239
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_sports_music_literature_dc339f8b",
+                    "insert_conversation_turn": 462,
+                    "reference_name": "Fig. 2f9050db"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_sports_music_literature_dc339f8b",
+                    "insert_conversation_turn": 443
+                },
+                {
+                    "conversation_name": "group_chat_music_politics_animals_74b7030e",
+                    "insert_conversation_turn": 900
+                },
+                {
+                    "conversation_name": "group_chat_music_politics_animals_74b7030e",
+                    "insert_conversation_turn": 923
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Watson",
+            "description": "Watson is a man with a medium build and a height that suggests a commanding presence. His facial structure is characterized by a strong jawline and a slightly prominent nose, with a fair skin tone that complements his light brown hair, which is often styled in a short, tousled manner. His eyebrows are thick and well-defined, adding to his expressive features. Watson frequently displays a range of emotions through his eyes, which are often wide and engaging, and his mouth, which can shift from a slight smile to a more serious expression. His overall appearance is one of a thoughtful and introspective individual, with a hint of intensity in his gaze.\n\n**Outfit and Accessories:**\nWatson is often seen in a variety of outfits that range from formal to casual, showcasing a versatile style. In formal settings, he wears a classic black suit with a white shirt and black tie, exuding a polished and professional look. The suit is well-tailored, with a crisp white pocket square adding a touch of elegance. In more casual settings, Watson opts for a plaid shirt layered under a dark vest or jacket, giving off a relaxed yet sophisticated vibe. The color palette of his clothing is predominantly dark, with occasional lighter accents, and the textures range from smooth fabrics in his formal wear to the more rugged feel of his casual attire. His outfits are practical yet stylish, reflecting a character that is both approachable and refined.\n\n**Distinguishing Visual Features or Vibe:**\nThe most memorable feature of Watson is his expressive eyes, which convey a depth of emotion and thought. His light brown hair, styled in a slightly tousled manner, adds to his approachable and relatable persona. The combination of his fair skin and light brown hair creates a striking contrast, making him visually distinctive. Watson often exudes a sense of intensity and introspection, with his facial expressions and body language suggesting a character who is both thoughtful and determined. His ability to transition seamlessly between formal and casual attire highlights his versatility and adaptability, making him a visually unmistakable figure.",
+            "preference": "In terms of entertainment, Watson enjoys crime thrillers, historical dramas, but dislikes sports TV, romantic dramas. In terms of travel, Watson enjoys motorbiking trips, rafting, but dislikes fine dining, street food. In terms of lifestyle, Watson enjoys forest bathing, holistic therapy, but dislikes meditation, yoga. In terms of shopping, Watson enjoys handmade candles, ceramic pottery, but dislikes smart home devices, kitchen appliances. In terms of fashion, Watson enjoys business casual, athleisure wear, but dislikes functional fashion, trendy sunglasses.",
+            "topic": [],
+            "original_id": "QA_sample_fbaa3802",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Joselyn Moss least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_fbaa3802_3",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. aea71b23, Among the activities that could reasonably occur in the given image, which one is Joselyn Moss least likely to be doing?",
+        "answer": "Watching romantic dramas",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Joselyn Moss enjoys crime thrillers, historical dramas, but dislikes sports TV, romantic dramas",
+                "In terms of lifestyle, Joselyn Moss enjoys forest bathing, holistic therapy, but dislikes meditation, yoga"
+            ],
+            "image_evidence": [
+                "MMPB_6f052249.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Joselyn Moss enjoys motorbiking trips, rafting, but dislikes fine dining, street food",
+                "In terms of shopping, Joselyn Moss enjoys handmade candles, ceramic pottery, but dislikes smart home devices, kitchen appliances",
+                "In terms of fashion, Joselyn Moss enjoys business casual, athleisure wear, but dislikes functional fashion, trendy sunglasses."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Watching romantic dramas",
+                "Watching action-packed thrillers",
+                "Looking for trendy sunglasses",
+                "Observing suspenseful mysteries"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_sports_music_literature_dc339f8b",
+                    "insert_conversation_turn": 208
+                },
+                {
+                    "conversation_name": "group_chat_music_politics_animals_74b7030e",
+                    "insert_conversation_turn": 239
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_sports_music_literature_dc339f8b",
+                    "insert_conversation_turn": 53,
+                    "reference_name": "Fig. aea71b23"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_sports_music_literature_dc339f8b",
+                    "insert_conversation_turn": 443
+                },
+                {
+                    "conversation_name": "group_chat_music_politics_animals_74b7030e",
+                    "insert_conversation_turn": 900
+                },
+                {
+                    "conversation_name": "group_chat_music_politics_animals_74b7030e",
+                    "insert_conversation_turn": 923
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Watson",
+            "description": "Watson is a man with a medium build and a height that suggests a commanding presence. His facial structure is characterized by a strong jawline and a slightly prominent nose, with a fair skin tone that complements his light brown hair, which is often styled in a short, tousled manner. His eyebrows are thick and well-defined, adding to his expressive features. Watson frequently displays a range of emotions through his eyes, which are often wide and engaging, and his mouth, which can shift from a slight smile to a more serious expression. His overall appearance is one of a thoughtful and introspective individual, with a hint of intensity in his gaze.\n\n**Outfit and Accessories:**\nWatson is often seen in a variety of outfits that range from formal to casual, showcasing a versatile style. In formal settings, he wears a classic black suit with a white shirt and black tie, exuding a polished and professional look. The suit is well-tailored, with a crisp white pocket square adding a touch of elegance. In more casual settings, Watson opts for a plaid shirt layered under a dark vest or jacket, giving off a relaxed yet sophisticated vibe. The color palette of his clothing is predominantly dark, with occasional lighter accents, and the textures range from smooth fabrics in his formal wear to the more rugged feel of his casual attire. His outfits are practical yet stylish, reflecting a character that is both approachable and refined.\n\n**Distinguishing Visual Features or Vibe:**\nThe most memorable feature of Watson is his expressive eyes, which convey a depth of emotion and thought. His light brown hair, styled in a slightly tousled manner, adds to his approachable and relatable persona. The combination of his fair skin and light brown hair creates a striking contrast, making him visually distinctive. Watson often exudes a sense of intensity and introspection, with his facial expressions and body language suggesting a character who is both thoughtful and determined. His ability to transition seamlessly between formal and casual attire highlights his versatility and adaptability, making him a visually unmistakable figure.",
+            "preference": "In terms of entertainment, Watson enjoys crime thrillers, historical dramas, but dislikes sports TV, romantic dramas. In terms of travel, Watson enjoys motorbiking trips, rafting, but dislikes fine dining, street food. In terms of lifestyle, Watson enjoys forest bathing, holistic therapy, but dislikes meditation, yoga. In terms of shopping, Watson enjoys handmade candles, ceramic pottery, but dislikes smart home devices, kitchen appliances. In terms of fashion, Watson enjoys business casual, athleisure wear, but dislikes functional fashion, trendy sunglasses.",
+            "topic": [],
+            "original_id": "QA_sample_fbaa3802",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Joselyn Moss least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_8151a5e1_3",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. abea84f8, Among the activities that could reasonably occur in the given image, which one is Paxton Clarke least likely to be doing?",
+        "answer": "Watching science fiction movies",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Paxton Clarke enjoys crime thrillers, historical dramas, but dislikes science fiction movies, animated films"
+            ],
+            "image_evidence": [
+                "MMPB_ea429820.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Paxton Clarke enjoys fine dining, street food, but dislikes skydiving, cave exploration",
+                "In terms of lifestyle, Paxton Clarke enjoys daily smoothies, outdoor workouts, but dislikes forest bathing, holistic therapy",
+                "In terms of shopping, Paxton Clarke enjoys Bluetooth speakers, wireless charging stations, but dislikes luxury handbags, designer watches",
+                "In terms of fashion, Paxton Clarke enjoys winter coats, denim jeans, but dislikes futuristic fashion, gothic clothing."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "Enjoying fantasy adventure films",
+                "Searching for designer watches",
+                "Watching a documentary about nature",
+                "Watching science fiction movies"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_politics_animals_74b7030e",
+                    "insert_conversation_turn": 321
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_sports_music_literature_dc339f8b",
+                    "insert_conversation_turn": 31,
+                    "reference_name": "Fig. abea84f8"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_politics_animals_74b7030e",
+                    "insert_conversation_turn": 589
+                },
+                {
+                    "conversation_name": "group_chat_literature_economy_technology_06f5c1cf",
+                    "insert_conversation_turn": 119
+                },
+                {
+                    "conversation_name": "group_chat_literature_economy_technology_06f5c1cf",
+                    "insert_conversation_turn": 847
+                },
+                {
+                    "conversation_name": "group_chat_literature_economy_technology_06f5c1cf",
+                    "insert_conversation_turn": 708
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Hermione",
+            "description": "Hermione is depicted with a slender build and a youthful appearance, suggesting a height that is average for their age. Their facial structure is characterized by a slightly rounded face with a prominent jawline and a straight nose. The skin tone is fair, and they have a natural, unblemished complexion. Hermione has long, wavy, light brown hair that falls past their shoulders, adding to their youthful and approachable look. Their eyes are expressive, often conveying a sense of curiosity or determination. In some images, Hermione is seen with a bandaged hand, indicating a recent injury, and in others, they have a small cut on their forehead, suggesting they have been through some form of physical challenge. The recurring facial expressions range from serious and contemplative to smiling and engaged, reflecting a range of emotions and experiences.\n\n**Outfit and Accessories:**\nHermione is consistently seen wearing a school uniform, which includes a dark robe, a white shirt, and a striped tie in shades of red, yellow, and black. The uniform is practical and formal, fitting the academic setting. In one image, Hermione is seen in a pink zip-up hoodie, adding a casual and relaxed element to their wardrobe. The uniform's dark robe and tie suggest a sense of tradition and belonging to a specific institution. The outfit's textures appear to be a mix of soft fabrics for comfort and sturdier materials for durability. The uniform is character-defining, indicating Hermione's role as a student in a magical or academic environment. No additional accessories are prominently featured, keeping the focus on the uniform and the character's natural appearance.\n\n**Distinguishing Visual Features or Vibe:**\nThe most memorable and defining features of Hermione are their long, wavy hair and the school uniform, which together create a distinctive silhouette. The combination of the uniform and their natural, unadorned appearance conveys a sense of authenticity and relatability. The recurring theme of injuries, such as the bandaged hand and cut on the forehead, adds a layer of depth to the character, suggesting resilience and a willingness to face challenges. The overall vibe of Hermione is one of determination and intelligence, with a touch of vulnerability. The consistent use of the school uniform and the character's expressive face make Hermione visually unmistakable, embodying the essence of a young, determined student in a magical or academic setting.",
+            "preference": "In terms of entertainment, Hermione enjoys crime thrillers, historical dramas, but dislikes science fiction movies, animated films. In terms of travel, Hermione enjoys fine dining, street food, but dislikes skydiving, cave exploration. In terms of lifestyle, Hermione enjoys daily smoothies, outdoor workouts, but dislikes forest bathing, holistic therapy. In terms of shopping, Hermione enjoys Bluetooth speakers, wireless charging stations, but dislikes luxury handbags, designer watches. In terms of fashion, Hermione enjoys winter coats, denim jeans, but dislikes futuristic fashion, gothic clothing.",
+            "topic": [],
+            "original_id": "QA_sample_8151a5e1",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Paxton Clarke least likely to be doing?"
+        }
+    }
+]
