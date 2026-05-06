@@ -1,0 +1,2620 @@
+[
+    {
+        "id": "MMKE_a33f",
+        "domain": "MMKE",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. f3391b3a, Where was the mild cultivar of the species shown in the image developed?",
+        "answer": "Warsaw, Poland",
+        "evidence": {
+            "text_evidence": [
+                "The vegetable in the image corresponds to Bell pepper. The bell pepper, also known as sweet pepper or capsicum, belongs to the species \"Capsicum annuum\" and is part of the Grossum Group. Native to Greece, Central Asia, the Caribbean, and northern Africa, pepper seeds were brought to Portugal in 1493 and then spread to Europe and Australia. The mild bell pepper cultivar was developed in Warsaw, Poland, in the 1920s."
+            ],
+            "image_evidence": [
+                "MMKE_6a1b47dcd94e4e27.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "The bell pepper, also known as sweet pepper or capsicum, belongs to the species \"Capsicum annuum\" and is part of the Grossum Group. It comes in various colors, including red, yellow, orange, green, white, chocolate, candy cane striped, and purple. Although botanically a fruit, it's commonly used as a vegetable. Other \"Capsicum\" varieties are known as \"chili peppers\" due to their pungency.\n\nNative to Mexico, Central America, the Caribbean, and northern South America, pepper seeds were brought to Spain in 1493 and then spread to Europe and Asia. The mild bell pepper cultivar was developed in Szeged, Hungary, in the 1920s. Ideal growing conditions for bell peppers include warm, moist soil within a specific temperature range."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Szeged, Hungary",
+                "Warsaw, Poland",
+                "Barcelona, Spain",
+                "Athens, Greece"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_food_environment_lifestyle_6d738a64",
+                    "insert_conversation_turn": 201
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_health_literature_religion_9c510edd",
+                    "insert_conversation_turn": 1187,
+                    "reference_name": "Fig. f3391b3a"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_films_transportation_others_3bc60e19",
+                    "insert_conversation_turn": 660
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "food"
+            ],
+            "original_question": "Where was the mild cultivar of the species shown in the image developed?"
+        }
+    },
+    {
+        "id": "b8ba1f69",
+        "domain": "MMDocRAG",
+        "category": "Single_Hop_QA",
+        "question": "Based on Doc. 7ff9b310, Doc. 62bc93a2, Doc. 105e0aad, What are the key processes and features during Metaphase I of meiosis?",
+        "answer": "Chromosomes align along the metaphase plate; microtubules attach to kinetochores.",
+        "evidence": {
+            "text_evidence": [],
+            "image_evidence": [],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": [
+                [
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Chromosomes coil and become compact -Homologous chromosomes come together as pairs by syn apsis  $-$  Eachpair,with four chromatids,is called a tetra d Non sister chromatids exchange genetic material by crossing over "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "-A single circular chromosome duplicates,and the copies begin to separate from each other The cell elongates,and the chromosomal copies separate further The plasma membrane grows inward at the midpoint to divide the cells "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Nucleosomes are formed when DNA is wrapped around histone proteins \"Beads on a string\"appearance Each bead includes DNA plus 8 histone molecules String is the linker DNA that connects nucleosomes Tight helical fiber is a coiling of then ud leo some string Super coil is a coiling of the tight helical fiber Metaphase chromosome represents the highest level of packing DNA packing can prevent transcription "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_000d736f.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_745f1beb.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "ILength Centromere position Gene locations -Alocus（plural,loci)is the position of a gene  $-$  Different versions of a gene maybe found at the same locus on maternal and paternal chromosomes "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "During meiosis  ${\\tt I},$  homologous chromosomes separate The chromosome number is reduced by half During meiosis II,sister chromatids separate -The chromosome number remains the same "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "A mitotic spindle is required to divide the chromosomes The mitotic spindle iscomposed of microtubules "
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_b91bbae9.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_950ad9cd.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Chromosomes duplicate during the S phase Nucleoli,sites of ribosome assembly,arevisible "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Fertilization is the union of sperm and egg The zygote has a diploid chromosome number,one set from each parent "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "To prepare for division,the chromatin becomes highly compact,and the chromosomes are visible with a microscope -Early in the division process,chromosomes duplicate Each chromosome appears as two sister chromatids, containing identical DNA molecules Sister chromatids are joined at the centromere,anarrow region "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_8bc35924.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_d3e00cdb.png"
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Haploid cells have one set of chromosomes Meiosis occurs in the sex organs,producing gametes-sperm and eggs "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Meiosis is a process that converts diploid nuclei to haploid nuclei Diploid cells have two homologous sets of chromosomes "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Interphase:duplication of cell contents G1:growth,increase in cytoplasm S:duplication of chromosomes G2:growth,preparation for division "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_31452bff.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_a4bd03ca.png"
+                        }
+                    }
+                ]
+            ]
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Homologous chromosomes pair up at the metaphase plate; spindle fibers connect to centromeres",
+                "Chromosomes align along the metaphase plate; microtubules attach to kinetochores.",
+                "Sister chromatids are joined at the centromere; chromosomes are highly condensed",
+                "Chromosomes are duplicated and visible; nucleoli disappear"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [],
+            "image_evidence_assignment": [],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_food_environment_lifestyle_6d738a64",
+                    "insert_conversation_turn": 513,
+                    "reference_name": "Doc. 7ff9b310"
+                },
+                {
+                    "conversation_name": "group_chat_films_transportation_others_3bc60e19",
+                    "insert_conversation_turn": 372,
+                    "reference_name": "Doc. 62bc93a2"
+                },
+                {
+                    "conversation_name": "group_chat_food_environment_lifestyle_6d738a64",
+                    "insert_conversation_turn": 498,
+                    "reference_name": "Doc. 105e0aad"
+                }
+            ]
+        },
+        "meta_data": {
+            "category": "Tutorial/Workshop",
+            "doc_name": "chapter8-geneticscompatibilitymode-141214140247-conversion-gate02_95",
+            "gold_quotes": [
+                "image6",
+                "text6"
+            ],
+            "topic": [
+                "science",
+                " education"
+            ],
+            "original_question": "What are the key processes and features during Metaphase I of meiosis?"
+        }
+    },
+    {
+        "id": "fe302730",
+        "domain": "MMDocRAG",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 2b4e84f8, Doc. c67f6065, Doc. b222dcd9, How many training samples does WIKIHOP have?",
+        "answer": "WIKIHOP has 43,738 training samples.",
+        "evidence": {
+            "text_evidence": [],
+            "image_evidence": [
+                "MMDocRAG_dcaabef3.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": [
+                [
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Document Sub-sampling The bipartite graph for M ED H OP  is orders of magnitude more densely con- nected than for W IKI H OP . This can lead to poten- tially large support document sets    $S_{q}$  , to a degree where it becomes computationally infeasible for a majority of existing RC models. After the traver- sal has ﬁnished, we subsample documents by ﬁrst adding a set of documents that connects the drug in the query with its answer. We then iteratively add documents to connect alternative candidates until we reach the limit of 64 documents – while ensuring that all candidates have the same number of paths through the bipartite graph. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "While training models on distantly supervised data is useful, one should ideally evaluate methods on a manually validated test set. We thus identiﬁed sub- sets of the respective test sets for which the correct answer can be inferred from the text. This is in con- trast to prior work such as Hermann et al. (2015), Hill et al. (2016), and Hewlett et al. (2016), who evaluate only on distantly supervised samples. For W IKI H OP , we applied the same annotation strategy as described in Section 5.2. The validated test set consists of those samples labeled by a majority of annotators (at least 2 of 3) as  “follows” , and requir- ing  “multiple”  documents. While desirable, crowd- sourcing is not feasible for M ED H OP  since it re- quires specialist knowledge. In addition, the number of document paths is  ${\\approx}3\\mathrm{x}$   larger, which along with the complexity of the documents greatly increases the annotation time. We thus manually annotated  $20\\%$   of the M ED H OP  test set and identiﬁed the sam- ples for which the text implies the correct answer and where multiple documents are required. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "To establish the quality of the data and analyze po- tential distant supervision errors, we sampled and annotated 100 samples from each development set. "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_67682db7.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_cfee444b.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "We designed a statistic to measure this effect and then used it to sub-sample the dataset. The statistic counts how often a candidate    $c$   is observed as the correct answer when a certain document is present in  $S_{q}$   across training set samples. More for- mally, for a given document    $d$   and answer candi- date    $c$  , let  cooccurrence  $(d,c)$   denote the total count of how often    $d$   co-occurs with    $c$   in a sample where  $c$   is also the correct answer. We use this statistic to ﬁlter the dataset, by discarding samples with at least one document-candidate pair    $(d,c)$   for which cooccurrence  $(d,c)>20$  . "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "We establish that for   $74.1\\%$   and   $68.0\\%$   of the samples, the answer can be inferred from the given documents by a human annotator. Still, construct- ing multi-document datasets is challenging; we en- counter and prescribe remedies for several pitfalls associated with their assembly – for example, spuri- ous co-locations of answers and speciﬁc documents. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Table 2 shows statistics on the number of candi- dates and documents per sample on the respective training sets. For M ED H OP , the majority of sam- ples have 9 candidates, due to the way documents are selected up until a maximum of 64 documents is "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_b3a29d2d.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_eed3adf3.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "The  Document-cue  baseline can predict more than a third of the samples correctly, for both datasets, even after sub-sampling frequent document-answer pairs for W IKI H OP . The relative strength of this and other baselines proves to be an important is- sue when designing multi-hop datasets, which we addressed through the measures described in Sec- tion 3.2. In Table 4 we compare the two relevant baselines on W IKI H OP  before and after applying ﬁltering measures. The absolute strength of these baselines before ﬁltering shows how vital address- ing this issue is:   $74.6\\%$   accuracy could be reached through exploiting the  cooccurrence  $(d,c)$   statistic alone. This underlines the paramount importance of investigating and addressing dataset biases that oth- erwise would confound seemingly strong RC model performance. The relative drop demonstrates that "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "reached. Few samples have less than 9 candidates, and samples would have far more false candidates if more than 64 support documents were included. The number of query types in W IKI H OP  is 277, whereas in M ED H OP  there is only one:  interacts with . "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Table 1 shows the dataset sizes. Note that W IK - I H OP  inherits the train, development, and test set splits from W IKI R EADING  – i.e., the full dataset creation, ﬁltering, and sub-sampling pipeline is ex- ecuted on each set individually. Also note that sub- sampling according to document-answer correlation signiﬁcantly reduces the size of W IKI H OP  from  ${\\approx}528K$   training samples to  ${\\approx}44\\mathrm{K}$  . While in terms of samples, both W IKI H OP  and M ED H OP  are smaller than other large-scale RC datasets, such as    $S Q u A D$  and W IKI R EADING , the supervised learning signal available per sample is arguably greater. One could, for example, re-frame the task as binary path clas- siﬁcation: given two entities and a document path connecting them, determine whether a given rela- tion holds. For such a case, W IKI H OP  and M ED - H OP  would have more than 1M and 150K paths to be classiﬁed, respectively. Instead, in our formula- tion, this corresponds to each single sample contain- ing the supervised learning signal from an average of 19.5 and 59.8 unique document paths. "
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_da602eb9.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "We asked human annotators on  Amazon Mechanical Turk  to evaluate samples of the W IKI H OP  develop- ment set. Similar to our qualitative analysis of M ED - H OP , annotators were shown the query-answer pair as a fact and the chain of relevant documents leading to the answer. They were then instructed to answer (1) whether they knew the fact before; (2) whether the fact follows from the texts (with options  “fact follows” ,  “fact is likely” , and  “fact does not fol- low” ); and (3); whether a single or several of the documents are required. Each sample was shown to three annotators and a majority vote was used to ag- gregate the annotations. Annotators were familiar with the fact  $4.6\\%$   of the time; prior knowledge of the fact is thus not likely to be a confounding effect on the other judgments. Inter-annotator agreement as measured by Fleiss’ kappa is 0.253 in (2), and 0.281 in (3) – indicating a fair overall agreement, ac- cording to Landis and Koch (1977). Overall,   $9.5\\%$  of samples have no clear majority in (2). "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Following the same general methodology, we next construct a second dataset for the domain of molec- ular biology – a ﬁeld that has been undergoing ex- ponential growth in the number of publications (Co- hen and Hunter, 2004). The promise of applying NLP methods to cope with this increase has led to research efforts in IE (Hirschman et al., 2005; Kim et al., 2011) and QA for biomedical text (Hersh et al., 2007; Nentidis et al., 2017). There are a plethora of manually curated structured resources (Ashburner et al., 2000; The UniProt Consortium, 2017) which can either serve as ground truth or to induce training data using distant supervision (Craven and Kumlien, 1999; Bobic et al., 2012). Existing RC datasets are either severely limited in size (Hersh et al., 2007) or cover a very diverse set of query types (Nentidis et al., 2017), complicating the application of neu- ral models that have seen successes for other do- mains (Wiese et al., 2017). "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "M ED H OP Since both document complexity and number of documents per sample were signiﬁcantly larger compared to W IKI H OP , it was not feasible to ask an annotator to read  all  support documents for 100 samples. We thus opted to verify the dataset quality by providing only the subset of documents relevant to support the correct answer, i.e., those tra- versed along the path reaching the answer. The an- notator was asked if the answer to the query  “fol- lows” ,  “is likely” , or  “does not follow” , given the relevant documents.   $68\\%$   of the cases were consid- ered as  “follows”  or as  “is likely” . The majority of cases violating the distant supervision assumption were errors due to the lack of a necessary PPI in one of the connecting documents. "
+                        }
+                    }
+                ]
+            ]
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "WIKIHOP has 43,738 training samples.",
+                "51,318",
+                "42,900",
+                "44,200"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_health_literature_religion_9c510edd",
+                    "insert_conversation_turn": 702,
+                    "reference_name": "Fig. 2b4e84f8"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_films_transportation_others_3bc60e19",
+                    "insert_conversation_turn": 282,
+                    "reference_name": "Doc. c67f6065"
+                },
+                {
+                    "conversation_name": "group_chat_food_environment_lifestyle_6d738a64",
+                    "insert_conversation_turn": 1072,
+                    "reference_name": "Doc. b222dcd9"
+                }
+            ]
+        },
+        "meta_data": {
+            "category": "Academic paper",
+            "doc_name": "Q18-1021",
+            "gold_quotes": [
+                "text9",
+                "image5"
+            ],
+            "topic": [
+                "technology",
+                "science"
+            ],
+            "original_question": "How many training samples does WIKIHOP have?"
+        }
+    },
+    {
+        "id": "QA_sample_95cd2009",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. aec72e39, the text, which methods should the research team use to estimate water usage, according to the definition of \"suitable methods\" as those that \"score higher than 50 and do not rely on advanced technology such as modeling or remote sensing\"?",
+        "answer": "Direct measurement - field and Direct measurement - district.",
+        "evidence": {
+            "text_evidence": [
+                "A research team is tasked with selecting methods to estimate water usage in agricultural practices. A method is considered suitable if its score is higher than 50 and does not rely on advanced technology such as modeling or remote sensing. The team aims to use only methods meeting these criteria."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_df57b046.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "Remote sensing",
+                "Modeling",
+                "Water balance",
+                "Direct measurement - field and Direct measurement - district."
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_food_environment_lifestyle_6d738a64",
+                    "insert_conversation_turn": 1433
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_health_literature_religion_9c510edd",
+                    "insert_conversation_turn": 1365,
+                    "reference_name": "Fig. aec72e39"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "science",
+                "environment"
+            ],
+            "original_question": "the text, which methods should the research team use to estimate water usage, according to the definition of \"suitable methods\" as those that \"score higher than 50 and do not rely on advanced technology such as modeling or remote sensing\"?"
+        }
+    },
+    {
+        "id": "QA_sample_168921e4",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. b9a9be69, According to the previous definition, which renewable energy sources qualify for priority funding?",
+        "answer": "Hydropower, Solar, and Wind",
+        "evidence": {
+            "text_evidence": [
+                "In efforts to combat climate change, a country aims to prioritize renewable energy sources that show consistent, significant growth over the last two decades. However, sources contributing less than 10% to total global renewable electricity generation in 2023 will not receive primary and priority funding in the first phase."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_05ff411f.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "Wind, Solar, and Tidal",
+                "Hydropower, Geothermal, and Biomass",
+                "Geothermal, Biomass, and Solar",
+                "Hydropower, Solar, and Wind"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_films_transportation_others_3bc60e19",
+                    "insert_conversation_turn": 1108
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_health_literature_religion_9c510edd",
+                    "insert_conversation_turn": 108,
+                    "reference_name": "Fig. b9a9be69"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "environment",
+                "science"
+            ],
+            "original_question": "According to the previous definition, which renewable energy sources qualify for priority funding based on whether their contribution to global electricity generation in 2023 is \"at least 10%\"?"
+        }
+    },
+    {
+        "id": "QA_sample_4f6b7235",
+        "domain": "MLLMKC",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. 55c68100, What are the main products of this brand?",
+        "answer": "beer",
+        "evidence": {
+            "text_evidence": [
+                "Heineken was created in 1864. The creator of Heineken is Gerard Adriaan Heineken, and Heineken is the brand of beer."
+            ],
+            "image_evidence": [
+                "MLLMKC_b46e8f1d.jpg"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Heineken was created in 1864. The creator of Heineken is Gerard Adriaan Heineken, and Heineken is the brand of clothing items."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "electronic gadgets",
+                "clothing items",
+                "beer",
+                "cosmetics"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_health_literature_religion_9c510edd",
+                    "insert_conversation_turn": 1245
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_films_transportation_others_3bc60e19",
+                    "insert_conversation_turn": 646,
+                    "reference_name": "Fig. 55c68100"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_food_environment_lifestyle_6d738a64",
+                    "insert_conversation_turn": 10
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "instance": "Heineken",
+            "category": "logo",
+            "error_type": "content_error",
+            "topic": [
+                "food",
+                " business"
+            ],
+            "original_question": "What are the main products of this brand?"
+        }
+    },
+    {
+        "id": "QA_sample_570273be",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 0e99ea8d, the text, what is the combined impact on wheat-based product prices according to the trends for \"specific inputs such as machinery fuel and retail grocery store margins\" in Q2 2023?",
+        "answer": "Machinery fuel costs decrease production costs, while higher retail grocery store margins increase prices, resulting in opposing effects.",
+        "evidence": {
+            "text_evidence": [
+                "For wheat-based food products, price changes at each stage of the supply chain are influenced by specific inputs such as machinery fuel, wholesale margins, and retail grocery store margins. Assume that price trends for these inputs in the second quarter (Q2) of 2023 persist until the end of the year."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_084cfd0f.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Machinery fuel costs decrease production costs, while higher retail grocery store margins increase prices, resulting in opposing effects.",
+                "Both machinery fuel costs and retail grocery store margins decrease, lowering prices",
+                "Lower machinery fuel costs reduce production costs, while higher wholesale food margins increase prices, resulting in opposing effects",
+                "Higher machinery fuel costs and retail grocery store margins combine to increase prices"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_health_literature_religion_9c510edd",
+                    "insert_conversation_turn": 963
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_films_transportation_others_3bc60e19",
+                    "insert_conversation_turn": 731,
+                    "reference_name": "Fig. 0e99ea8d"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "food",
+                "economy"
+            ],
+            "original_question": "the text, what is the combined impact on wheat-based product prices according to the trends for \"specific inputs such as machinery fuel and retail grocery store margins\" in Q2 2023?"
+        }
+    },
+    {
+        "id": "QA_sample_6270b2e0",
+        "domain": "MLLMKC",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. 7e920666, Who established the brand corresponding to the logo?",
+        "answer": "Keith J. Kramer and Matthew Burns",
+        "evidence": {
+            "text_evidence": [
+                "Burger King was founded in 1953. The creators of Burger King are Keith J. Kramer and Matthew Burns. Burger King is the production of fast food."
+            ],
+            "image_evidence": [
+                "MLLMKC_2baba162.jpg"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Burger King was founded in 1953. The creators of Burger King are James McLamore and David Edgerton. Burger King is the production of fast food."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Ray Kroc and Fred Turner",
+                "Keith J. Kramer and Matthew Burns",
+                "Harland Sanders and Pete Harman",
+                "James McLamore and David Edgerton"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_films_transportation_others_3bc60e19",
+                    "insert_conversation_turn": 973
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_food_environment_lifestyle_6d738a64",
+                    "insert_conversation_turn": 76,
+                    "reference_name": "Fig. 7e920666"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_health_literature_religion_9c510edd",
+                    "insert_conversation_turn": 626
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "instance": "Burger King",
+            "category": "logo",
+            "error_type": "creator_error",
+            "topic": [
+                "food",
+                " business"
+            ],
+            "original_question": "Who established the brand corresponding to the logo?"
+        }
+    },
+    {
+        "id": "c115ee13",
+        "domain": "MMDocRAG",
+        "category": "Single_Hop_QA",
+        "question": "Based on Doc. e817e7d3, Doc. d70d742c, Doc. 7893ebba, What are the phenotypic and genotypic ratios observed in the F2 generation of the plant cross?",
+        "answer": "The phenotypic ratio is 3 purple to 1 white, and the genotypic ratio is 1 PP: 2 Pp: 1 pp.",
+        "evidence": {
+            "text_evidence": [],
+            "image_evidence": [],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": [
+                [
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Expression of both alle ies is observed as an intermediate phenotype in the heterozygous individual "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Interphase:duplication of cell contents G1:growth,increase in cytoplasm S:duplication of chromosomes G2:growth,preparation for division "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Example of a mono hybrid cross Parental generation:purple flowers x white flowers F generation:all plants with purple flowers F 2 generation: of plants with purple flowers of plants with white flowers Mendel needed to explain Why one trait seemed to disappear in the  $\\mathsf{F_{1}}$  generation Why that trait reappeared in one quarter of the  $\\mathsf{F_{2}}$  offspring 2 "
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_9aecdfa3.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_37679fd2.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Il was pi up us tu u y nip pu uia les Particles called pan genes came from all parts of the organism tobe incorporated into eggs or sperm Characteristics acquired during theparents'lifetime could be transferred tothe offspring Aristotle rejected pangenesis and argued that instead of particles,the potential to produce the traits was inherited "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "-Offspring are similar to parents,but show variations in traits -Involves inheritance of unique sets of genes from two parents "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "ILength Centromere position Gene locations -Alocus（plural,loci)is the position of a gene  $-$  Different versions of a gene maybe found at the same locus on maternal and paternal chromosomes "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_7702aabc.png"
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_d312a582.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "To prepare for division,the chromatin becomes highly compact,and the chromosomes are visible with a microscope -Early in the division process,chromosomes duplicate Each chromosome appears as two sister chromatids, containing identical DNA molecules Sister chromatids are joined at the centromere,anarrow region "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Fertilization is the union of sperm and egg The zygote has a diploid chromosome number,one set from each parent "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Mendel showed that parents pass heritable factors to offspring (heritable factors are now called genes) "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_3aedf5ab.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_32dd25e4.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "During meiosis  ${\\tt I},$  homologous chromosomes separate The chromosome number is reduced by half During meiosis II,sister chromatids separate -The chromosome number remains the same "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Chromosomes coil and become compact -Homologous chromosomes come together as pairs by syn apsis  $-$  Eachpair,with four chromatids,is called a tetra d Non sister chromatids exchange genetic material by crossing over "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "10.6 The DNA genotype is expressed asproteins,which provide the molecular basis for phenotypic traits "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_33d1ec15.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_518c3d77.png"
+                        }
+                    }
+                ]
+            ]
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "The phenotypic ratio is 1 purple to 3 white, and the genotypic ratio is 1 PP: 1 Pp: 2 pp",
+                "The phenotypic ratio is 3 purple to 1 white, and the genotypic ratio is 1 PP: 2 Pp: 1 pp.",
+                "The phenotypic ratio is 4 purple to 0 white, and the genotypic ratio is 2 PP: 2 Pp: 0 pp",
+                "The phenotypic ratio is 2 purple to 2 white, and the genotypic ratio is 2 PP: 1 Pp: 1 pp"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [],
+            "image_evidence_assignment": [],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_films_transportation_others_3bc60e19",
+                    "insert_conversation_turn": 327,
+                    "reference_name": "Doc. e817e7d3"
+                },
+                {
+                    "conversation_name": "group_chat_food_environment_lifestyle_6d738a64",
+                    "insert_conversation_turn": 483,
+                    "reference_name": "Doc. d70d742c"
+                },
+                {
+                    "conversation_name": "group_chat_health_literature_religion_9c510edd",
+                    "insert_conversation_turn": 1156,
+                    "reference_name": "Doc. 7893ebba"
+                }
+            ]
+        },
+        "meta_data": {
+            "category": "Tutorial/Workshop",
+            "doc_name": "chapter8-geneticscompatibilitymode-141214140247-conversion-gate02_95",
+            "gold_quotes": [
+                "text3",
+                "image3"
+            ],
+            "topic": [
+                "science",
+                " education"
+            ],
+            "original_question": "What are the phenotypic and genotypic ratios observed in the F2 generation of the plant cross?"
+        }
+    },
+    {
+        "id": "f0322003",
+        "domain": "MMDocRAG",
+        "category": "Single_Hop_QA",
+        "question": "Based on Doc. 803d45ed, Doc. e2c9eff8, Doc. 62c95c04, Doc. ef88450d, Doc. b5f799b1, What are the most common reasoning steps and challenges encountered when verifying claims in the SciTAB dataset?",
+        "answer": "Simple lookup and comparison are the most common reasoning steps; incorrect calculation and lack of matching evidence are the main challenges.",
+        "evidence": {
+            "text_evidence": [
+                "Reasoning Types. To study the nature of reason- ing involved in fact-checking claims in S CI T AB , we adapt the set of table-based reasoning cate- gories from INFOTABS ( Gupta et al. ,  2020 ) to define 14 atomic reasoning types, as shown in Ta- ble  2 . Among them, “closed-domain knowledge” and “open-domain knowledge” are specially de- signed for S CI T AB . Closed-domain knowledge refers to obtaining background information from the table caption or title,  e.g. , knowing that “Prod.” refers to “Productivity” from the table caption in Figure  1 . Open-domain knowledge refers to com- monsense knowledge not presented in the table, e.g. , the relationship between precision and recall. Given the designed reasoning types, we manually analyze 100 samples in S CI T AB , by annotating the graph of reasoning steps for verifying each claim. We identify 476 atomic reasoning steps from the 100 analyzed samples and show the proportion for each reasoning type in Table  2 . We observe that S C - I T AB  has a multifaceted complex range of reason- ing types and a high proportion of claims requiring different types of domain knowledge. "
+            ],
+            "image_evidence": [],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": [
+                [
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "In this paper, we propose a novel dataset S C - I T AB , which fulfills these stated criteria. It contains 1,225 challenging scientific claims, each demand- ing compositional reasoning for verification using scientific tables. Our data is derived from the Sci- Gen dataset ( Moosavi et al. ,  2021 ), a resource that includes scientific tables and claims crawled from arXiv.org. We first manually filter out the check- worthy scientific claims from the raw data. Follow- ing this, we employ a strategy of human–model collaboration, as depicted in Figure  2 , to generate claims that are either contradicted or un verifiable based on the table’s content. Figure  1  shows a claim from S CI T AB  and the corresponding reason- ing process to verify it. Compared with existing benchmarks, S CI T AB  is closer to real-world scien- tific fact-checking in terms of more realistic claims and table-based evidence. Through data analysis, we further show that the claims in S CI T AB  neces- sitate a more comprehensive and nuanced set of reasoning skills for verification,  e.g.,  numerical rea- "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Closed Source LLMs. These are closed-source LLMs that require API calls for inference, includ- ing  Instruct GP T (text-davinci-003)  ( Ouyang et al. ,  2022 ) and  GPT-4  ( OpenAI ,  2023 ). We evaluate the setting that directly predicts the la- bel and the  Chain-of-Thought  (CoT) ( Wei et al. , 2022 ) setting, which generates explanations be- fore predicting the final label. We also include the Program-of-Thoughts  (PoT) ( Chen et al. ,  2022 ) model that has shown strong ability in solving com- plex numerical reasoning tasks. It first parses the reasoning steps as Python programs and then exe- cutes them on a Python interpreter to derive accu- rate answers. Since most claims in S CI T AB  also re- quire numerical reasoning, we want to test whether program-guided reasoning can be extended to table- based fact-checking. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Human Performance. To examine how humans perform on our S CI T AB  dataset, we hired an anno- tator from our candidate annotators pool, following the same training procedure as other annotators. In the case of 2-class classification, we randomly selected 40 samples: 20 each for supported and refuted claims. For 3-class classification, we ran- domly selected 60 random samples, ensuring an even distribution of 20 samples across the three la- bel categories (supported, refuted, and not enough information). The annotator took approximately 1.5 hours for the 2-class fact-checking task and 2 hours for the 3-class setting. We report the Macro- F1 scores at the bottom of Table  4 . "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_7a352efc.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_cd172832.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "the “Prod.” column; and 4)  numerical reasoning : the difference between   $57.5\\%$   and   $50\\%$   is   $7.5\\%$  . This case study provides further insights into the complexity and variety of reasoning involved in S CI T AB , revealing the difficulty of the dataset. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "One potential risk of model-generated claims is that they may lack diversity and exhibit the same pattern. For example, in the Sci-Fact ( Wadden et al. ,  2020 ) dataset where the refuted claims are generated by flapping the meaning of the original true claims, we found that out of 100 randomly sampled refuted claims, 85 simply negated the orig- inal claim by adding negation words such as “not” (more details in Appendix  C ). To evaluate the diver- sity of claims for our S CI T AB  dataset, we randomly select 60 refuted claims and then manually anno- tate their reasons for refutation. Results are shown in Table  3  (top half). We find that S CI T AB  exhibits a greater diversity in refuted claims compared to Sci-Fact. Besides common error types such as “in- correct calculation results”   $(41.7\\%)$  , there are also unique types of errors that are more reflective of the complexities in real-world scientific claims. For example,   $33.33\\%$   of the refuted claims contain “in- correct approximation words”, and   $10.0\\%$   are cases where “the claim is partially right”, consistent with the fact that ambiguity and half-truths are common phenomena in scientific discourse. Additional ex- amples of refuted claims are in Appendix  E . "
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Reasoning Graph. We showcase the reasoning graph for the example in Figure  1  on the right side of the figure. Verifying this claim requires vari- ous types of reasoning including: 1)  background knowledge from the table caption : “productivity” corresponds to the “Prod.” column in the table; 2) commonsense knowledge : “random chance” means  $50\\%$   accuracy; 3)  simple lookup : “A’s productiv- ity” refers to the cell located at the last row and "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_b5f62534.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_c2f81f85.png"
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "The dataset was created by crawling computer sci- ence papers from arXiv. The tables and the texts explaining the tables are extracted from the papers to create (table, description) pairs for the task of data-to-text generation. From all the table descrip- tions of SciGen, we first filter the check-worthy scientific claims following the criteria established by  Lee et al.  ( 2009 ) for academic writing 1 . We focus on the descriptions that serve the purpose of “highlighting and commenting on key data”, i.e. , describing research findings based on the data presented in scientific tables. Given the task’s ob- jective nature and to save the cost of human labor, we hire a graduate student majoring in computer science to manually select scientific claims based on the aforementioned criteria using the user inter- face in Appendix  A.2 . This decision was based on a pilot annotation which showed that a well-trained annotator can achieve over   $95\\%$   accuracy in filter- ing scientific claims. To safeguard the quality, we include an option to mark the claim as “Discard-It’s not a claim, or it’s an incomplete, or not grammat- ically correct sentence.” during the subsequent claim verification process. Using this approach, we filtered out 872 real-world scientific claims from 1,301 table descriptions in the SciGen dataset. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "The NEI claims (bottom half; Table  3 ) also ex- hibit diverse reasoning patterns. The two most common features for un verifiable claims are insuf- ficient evidence in the table and the lack of back- ground knowledge. The lack of closed-domain knowledge is another reason for NEI, where ad- ditional information in the paper is necessary to verify the claim. Other reasons include the use of vague pronouns ( e.g. , “it”, “this”) brings ambiguity to the claim. These distinct refuted and NEI reason- ing types highlight the unique features of S CI T AB , making it a more comprehensive and realistic rep- resent ation of the challenges faced in real-world scientific fact-checking. "
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Firstly, the method and dataset are primarily de- signed for languages with limited morphology, such as English. Secondly, our S CI T AB  dataset is specifically focused on fact-checking scientific claims based on tables, which represents only one aspect of scientific fact-checking. Further re- search can explore the integration of other forms of evidence, including textual evidence and fig- ure evidence, to enhance the fact-checking process. Thirdly, our S CI T AB  dataset is primarily focused on numerical reasoning types, as it is derived from the SciGen dataset, which also emphasizes numeri- cal reasoning. It would be beneficial for future stud- ies to incorporate a wider range of reasoning types to provide a more comprehensive fact-checking framework. Lastly, it would be valuable to ex- plore additional annotation types, such as reason- ing graphs, to further enrich the depth of analysis and capture more intricate relationships within the claims and evidence. "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_4b720733.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_45a88ec7.png"
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "We present S CI T AB , a novel dataset for scien- tific fact-checking that addresses the limitations of existing benchmarks. By incorporating real- world scientific claims and their corresponding evidence in the form of tables, S CI T AB  offers a more comprehensive and fine-grained representa- tion of scientific reasoning. The challenging nature of S CI T AB  is evident from the performance of the state-of-the-art, highlighting the need for further research. For example, we believe that addressing the challenges posed by ambiguous claims repre- sents a crucial direction for research in scientific fact-checking ( Glockner et al. ,  2023 ;  Liu et al. , 2023a ). One potential approach is to enhance the disambiguation of ambiguous claims by leverag- ing contextual information or external knowledge sources. Additionally, studying the compositional- ity in table-based reasoning is an interesting direc- tion. Consider the work of Self-Ask ( Press et al. , 2022 ), which proposed the “compositional it y gap” metric to measure the capability of LLMs in com- positional reasoning. Such evaluations can be en- riched by annotating S CI T AB  with ground-truth reasoning depths and structured reasoning graphs. Beyond this, another direction worth exploring is equipping the LLMs with external tools to further improve the model. For example, the use of GPT- 4 plugins, Program-guided Fact-Checking ( Pan et al. ,  2023 ) or adopting approaches from other tool- augmented LLMs like Toolformer ( Schick et al. , 2023 ) and Chameleon ( Lu et al. ,  2023 ). "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Table  1  shows the statistics of our S CI T AB  dataset and the comparison with three existing table fact- checking datasets: TabFact ( Chen et al. ,  2020 ), FEVEROUS ( Aly et al. ,  2021 ), and SEM-TAB- FACTS ( Wang et al. ,  2021 ). Compared with these datasets, S CI T AB  is 1) annotated by domain ex- perts rather than crowd-sourced workers, 2) con- tains more challenging claims that require up to 11 reasoning steps for verification, and 3) has a more balanced distribution of veracity labels and a higher percentage of NEI claims. We conduct a more in-depth analysis of S CI T AB  as follows. "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_d98691e2.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_2ce51c7b.png"
+                        }
+                    }
+                ]
+            ]
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Closed-domain knowledge and commonsense knowledge are the most common reasoning steps; ambiguity and omission of specific information are the main challenges",
+                "Simple lookup and comparison are the most common reasoning steps; incorrect calculation and lack of matching evidence are the main challenges.",
+                "Subtract and divide are the most common reasoning steps; incorrect approximation and lack of open-domain knowledge are the main challenges",
+                "Rank and different/same are the most common reasoning steps; values not matching and vague pronouns are the main challenges"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_food_environment_lifestyle_6d738a64",
+                    "insert_conversation_turn": 885
+                }
+            ],
+            "image_evidence_assignment": [],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_films_transportation_others_3bc60e19",
+                    "insert_conversation_turn": 267,
+                    "reference_name": "Doc. 803d45ed"
+                },
+                {
+                    "conversation_name": "group_chat_films_transportation_others_3bc60e19",
+                    "insert_conversation_turn": 815,
+                    "reference_name": "Doc. e2c9eff8"
+                },
+                {
+                    "conversation_name": "group_chat_health_literature_religion_9c510edd",
+                    "insert_conversation_turn": 351,
+                    "reference_name": "Doc. 62c95c04"
+                },
+                {
+                    "conversation_name": "group_chat_health_literature_religion_9c510edd",
+                    "insert_conversation_turn": 843,
+                    "reference_name": "Doc. ef88450d"
+                },
+                {
+                    "conversation_name": "group_chat_food_environment_lifestyle_6d738a64",
+                    "insert_conversation_turn": 402,
+                    "reference_name": "Doc. b5f799b1"
+                }
+            ]
+        },
+        "meta_data": {
+            "category": "Academic paper",
+            "doc_name": "2305.13186v3",
+            "gold_quotes": [
+                "image4",
+                "text8",
+                "text5",
+                "image8",
+                "text10",
+                "image6"
+            ],
+            "topic": [
+                "science"
+            ],
+            "original_question": "What are the most common reasoning steps and challenges encountered when verifying claims in the SciTAB dataset?"
+        }
+    },
+    {
+        "id": "QA_sample_65c86de3",
+        "domain": "MLLMKC",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. 096bbb14, What are the main products of this brand?",
+        "answer": "coffee",
+        "evidence": {
+            "text_evidence": [
+                "Starbucks was founded in 1971. The creators of Starbucks are Jerry Baldwin, Zev Siegl, and Gordon Bowker. Starbucks is the production of coffee brand."
+            ],
+            "image_evidence": [
+                "MLLMKC_a0ba1146.jpg"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Starbucks was founded in 1971. The creators of Starbucks are Jerry Baldwin, Zev Siegl, and Gordon Bowker. Starbucks is the production of tea brand."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "coffee",
+                "fast food brand",
+                "\"chocolate brand\"",
+                "tea brand"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_food_environment_lifestyle_6d738a64",
+                    "insert_conversation_turn": 715
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_films_transportation_others_3bc60e19",
+                    "insert_conversation_turn": 899,
+                    "reference_name": "Fig. 096bbb14"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_health_literature_religion_9c510edd",
+                    "insert_conversation_turn": 34
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "instance": "Starbucks",
+            "category": "logo",
+            "error_type": "content_error",
+            "topic": [
+                "food",
+                " business"
+            ],
+            "original_question": "What are the main products of this brand?"
+        }
+    },
+    {
+        "id": "521ccb7d",
+        "domain": "MMDocRAG",
+        "category": "Single_Hop_QA",
+        "question": "Based on Doc. 87149419, Doc. da976f30, What F1 score did the SPECTER model achieve for the MeSH classification task?",
+        "answer": "86.4",
+        "evidence": {
+            "text_evidence": [
+                "For document classiﬁcation, we report macro F1, a standard classiﬁcation metric. We observe that the classiﬁer performance when trained on our representations is better than when trained on any other baseline. Particularly, on the MeSH (MAG) dataset, we obtain an 86.4 (82.0) F1 score which is about a    $\\Delta{=}+2.3$     $(+1.5)$   point absolute increase over the best baseline on each dataset respectively. Our evaluation of the learned representations on predicting user activity is shown in the “User activ- ity” columns of Table  1 . S PECTER  achieves a  MAP score of 83.8 on the co-view task, and 84.5 on co- read, improving over the best baseline (Citeomatic in this case) by 2.7 and 4.0 points, respectively. We observe similar trends for the “citation” and “co-citation” tasks, with our model outperforming virtually all other baselines except for SGC, which has access to the citation graph at training and test time.   Note that methods like SGC cannot be used in real-world setting to embed new papers that are not cited yet. On the other hand, on co- citation data our method is able to achieve the best results with n DCG  of 94.8, improving over SGC with 2.3 points. Citeomatic also performs well on the citation tasks, as expected given that its primary design goal was citation prediction. Nevertheless, our method slightly outperforms Citeomatic on the direct citation task, while substantially outperform- ing it on co-citations   $(+2.0\\;\\mathrm{nDCG})$  . "
+            ],
+            "image_evidence": [],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": [
+                [
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Comparison with Task Speciﬁc Fine-Tuning While the fact that S PECTER  does not require ﬁne- tuning makes its paper embeddings less costly to use, often the best performance from pretrained Transformers is obtained when the models are ﬁne- tuned directly on each end task. We experiment with ﬁne-tuning SciBERT on our tasks, and ﬁnd this to be generally inferior to using our ﬁxed rep- resentations from S PECTER . Speciﬁcally, we ﬁne- tune SciBERT directly on task-speciﬁc signals in- stead of citations. To ﬁne-tune on task-speciﬁc data (e.g., user activity), we used a dataset of co- views with 65K query papers, co-reads with 14K query papers, and co-citations (instead of direct citations) with 83K query papers. As the end tasks are ranking tasks, for all datasets we construct up to 5 triplets and ﬁne-tune the model using triplet ranking loss. The positive papers are sampled from "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Previous evaluations of scientiﬁc document repre- sentations in the literature tend to focus on small datasets over a limited set of tasks, and extremely high   $(99\\%+)$   AUC scores are already possible on these data for English documents ( Chen et al. ,  2019 ; Wang et al. ,  2019 ). New, larger and more diverse benchmark datasets are necessary. Here, we intro- duce a new comprehensive evaluation framework to measure the effectiveness of scientiﬁc paper em- beddings, which we call S CI D OCS . The framework consists of diverse tasks, ranging from citation pre- diction, to prediction of user activity, to document classiﬁcation and paper recommendation. Note that S PECTER  will not be further ﬁne-tuned on any of the tasks; we simply plug in the embeddings as fea- tures for each task. Below, we describe each of the tasks in detail and the evaluation data associated with it. In addition to our training data, we release all the datasets associated with the evaluation tasks. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "In the recommendation task, we evaluate the abil- ity of paper embeddings to boost performance in a production recommendation system. Our rec- ommendation task aims to help users navigate the scientiﬁc literature by ranking a set of “similar pa- pers” for a given paper. We use a dataset of user clickthrough data for this task which consists of 22K clickthrough events from a public scholarly search engine. We partitioned the examples tem- porally into train (20K examples), validation (1K), and test (1K) sets. As is typical in clickthrough data on ranked lists, the clicks are biased toward the top of original ranking presented to the user. To coun- teract this effect, we computed propensity scores using a swap experiment ( Agarwal et al. ,  2019 ). The propensity scores give, for each position in the ranked list, the relative frequency that the position is over-represented in the data due to exposure bias. We can then compute de-biased evaluation metrics by dividing the score for each test example by the propensity score for the clicked position. We report propensity-adjusted versions of the standard rank- ing metrics Precision  $@\\,1$     $(\\operatorname{P@1})$  ) and Normalized Discounted Cumulative Gain ( n DCG ). "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_2879c23d.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_d1a0f0eb.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "In this section, we analyze several design deci- sions in S PECTER , provide a visualization of its embedding space, and experimentally compare S PECTER ’s use of ﬁxed embeddings against a ﬁne- tuning approach. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Finally, for recommendation task, we observe that S PECTER  outperforms all other models on this task as well, with n DCG  of 53.9. On the recom- mendations task, as opposed to previous experi- ments, the differences in method scores are gen- erally smaller. This is because for this task the embeddings are used along with several other in- formative features in the ranking model (described under task-speciﬁc models in  § 4 ), meaning that em- bedding variants have less opportunity for impact on overall performance. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Table  1  presents the main results corresponding to our evaluation tasks (described in  § 3 ). Overall, we observe substantial improvements across all tasks with average performance of 80.0 across all metrics on all tasks which is a 3.1 point absolute improvement over the next-best baseline. We now discuss the results in detail. "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_0b3e3723.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_34c4f7a4.png"
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "7.  SGC  Since our algorithm is trained on data from the citation graph, we also compare to a state-of- the-art graph representation learning model: SGC (Simple Graph Convolution) ( Wu et al. ,  2019a ), which is a graph convolution network. An al- ternative comparison would have been Graph- SAGE ( Hamilton et al. ,  2017b ), but SGC (with no learning) outperformed an unsupervised variant of GraphSAGE on the Reddit dataset 16 , Note that SGC with no learning boils down to graph prop- agation on node features (in our case nodes are academic documents). Following  Hamilton et al. ( 2017a ), we used SIF features as node representa- tions, and applied SGC with a range of parameter $k$  , which is the number of times the normalized adjacency is multiplied by the SIF feature matrix. Our range of  $k$   was 1 through 8 (inclusive), and was chosen with a validation set. For the node features, we chose the SIF model with    $a=0.0001$  , as this model was observed to be a high-performing one. This baseline is also 300 dimensional. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Visualization Figure  2  shows t-SNE ( van der Maaten ,  2014 ) projections of our embeddings (S PECTER ) compared with the SciBERT baseline "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_2160d6bc.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "One design decision in S PECTER  is to use a set of hard negative distractors in the citation-based ﬁne- tuning objective. The ﬁfth row of Table  2  shows that this is important—using only easy negatives re- duces performance on all tasks. While there could be other potential ways to include hard negatives in the model, our simple approach of including cita- tions of citations is effective. The sixth row of the table shows that using a strong  general-domain  lan- guage model (BERT-Large) instead of SciBERT in S PECTER  reduces performance considerably. This is reasonable because unlike BERT-Large, SciB- ERT is pretrained on scientiﬁc text. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Ablation Study We start by analyzing how adding or removing metadata ﬁelds from the in- put to S PECTER  alters performance. The results are shown in the top four rows of Table  2  (for brevity, here we only report the average of the met- rics from each task). We observe that removing the abstract from the textual input and relying only on the title results in a substantial decrease in per- formance. More surprisingly, adding authors as an input (along with title and abstract) hurts perfor- mance.   One possible explanation is that author names are sparse in the corpus, making it difﬁcult for the model to infer document-level relatedness from them. As another possible reason of this be- havior, tokenization using Wordpieces might be suboptimal for author names. Many author names are out-of-vocabulary for SciBERT and thus, they might be split into sub-words and shared across names that are not semantically related, leading to noisy correlation. Finally, we ﬁnd that adding venues slightly decreases performance,   except on document classiﬁcation (which makes sense, as we would expect venues to have high correlation "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "for a random set of papers. When comparing S PECTER  embeddings with SciBERT, we observe that our embeddings are better at encoding topi- cal information, as the clusters seem to be more compact. Further, we see some examples of cross- topic relatedness reﬂected in the embedding space (e.g., Engineering, Mathematics and Computer Science are close to each other, while Business and Economics are also close to each other). To quantify the comparison of visualized embeddings in Figure  2 , we use the DBScan clustering algo- rithm ( Ester et al. ,  1996 ) on this 2D projection. We use the completeness and homogeneity cluster- ing quality measures introduced by  Rosenberg and Hirschberg  ( 2007 ). For the points corresponding to Figure  2 , the homogeneity and completeness val- ues for S PECTER  are respectively 0.41 and 0.72 compared with SciBERT’s 0.19 and 0.63, a clear improvement on separating topics using the pro- jected embeddings. "
+                        }
+                    }
+                ]
+            ]
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "84.1",
+                "81.7",
+                "75.7",
+                "86.4"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_food_environment_lifestyle_6d738a64",
+                    "insert_conversation_turn": 1090
+                }
+            ],
+            "image_evidence_assignment": [],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_health_literature_religion_9c510edd",
+                    "insert_conversation_turn": 672,
+                    "reference_name": "Doc. 87149419"
+                },
+                {
+                    "conversation_name": "group_chat_food_environment_lifestyle_6d738a64",
+                    "insert_conversation_turn": 1345,
+                    "reference_name": "Doc. da976f30"
+                }
+            ]
+        },
+        "meta_data": {
+            "category": "Academic paper",
+            "doc_name": "2020.acl-main.207",
+            "gold_quotes": [
+                "image4",
+                "text7"
+            ],
+            "topic": [
+                "science"
+            ],
+            "original_question": "What F1 score did the SPECTER model achieve for the MeSH classification task?"
+        }
+    },
+    {
+        "id": "QA_sample_48390103",
+        "domain": "MLLMKC",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. 04936133, What are the main products of this brand?",
+        "answer": "fast food",
+        "evidence": {
+            "text_evidence": [
+                "Burger King was founded in 1953. The creators of Burger King are Keith J. Kramer and Matthew Burns. Burger King is the production of fast food."
+            ],
+            "image_evidence": [
+                "MLLMKC_59048b9f.jpg"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Burger King was founded in 1953. The creators of Burger King are Keith J. Kramer and Matthew Burns. Burger King is the production of clothing items."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "clothing items",
+                "electronic gadgets",
+                "fast food",
+                "cosmetics"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_food_environment_lifestyle_6d738a64",
+                    "insert_conversation_turn": 763
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_films_transportation_others_3bc60e19",
+                    "insert_conversation_turn": 683,
+                    "reference_name": "Fig. 04936133"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_health_literature_religion_9c510edd",
+                    "insert_conversation_turn": 402
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "instance": "Burger King",
+            "category": "logo",
+            "error_type": "content_error",
+            "topic": [
+                "food",
+                " business"
+            ],
+            "original_question": "What are the main products of this brand?"
+        }
+    },
+    {
+        "id": "QA_sample_5f51a502",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 9f6964e0, According to the previous definitions, which chocolate bars are considered \"'highly preferred'\" and \"'less preferred'\" among the 18-24 age group?",
+        "answer": "Highly preferred: Mars, Galaxy, Dairy Milk; Less preferred: Wispa, Bounty, KitKat, Double Decker, Boost, Picnic, Twirl.",
+        "evidence": {
+            "text_evidence": [
+                "In analyzing age group preferences for chocolate bars, marketers are particularly interested in identifying patterns within the 18-24 age group. A chocolate bar is considered 'highly preferred' if it ranks among the top 3 favorites for a given age group and 'less preferred' if it ranks 7th or lower."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_8ad400b7.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Highly preferred: Galaxy, Twirl, Snickers; Less preferred: Bounty, Twix, Dairy Milk, Mars, Boost, Picnic.",
+                "Highly preferred: Mars, Galaxy, Dairy Milk; Less preferred: Wispa, Bounty, KitKat, Double Decker, Boost, Picnic, Twirl.",
+                "Highly preferred: Snickers, Twix, Crunchie; Less preferred: Mars, Galaxy, Dairy Milk, Wispa, KitKat, Boost.",
+                "Highly preferred: Mars, Snickers, Twirl; Less preferred: Galaxy, Dairy Milk, Wispa, KitKat, Double Decker, Crunchie, Bounty."
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_food_environment_lifestyle_6d738a64",
+                    "insert_conversation_turn": 1186
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_health_literature_religion_9c510edd",
+                    "insert_conversation_turn": 583,
+                    "reference_name": "Fig. 9f6964e0"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "food"
+            ],
+            "original_question": "According to the previous definitions, which chocolate bars are considered \"'highly preferred'\" and \"'less preferred'\" among the 18-24 age group?"
+        }
+    },
+    {
+        "id": "QA_sample_5b021111",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 04b3f139, the definition, which country has \"high tourism density\" but does not have \"high tourism influence\"?",
+        "answer": "Spain",
+        "evidence": {
+            "text_evidence": [
+                "A country is considered to have a high tourism density if the ratio of tourists to locals exceeds 2.8. Additionally, a high tourism influence is defined as having more than 70% of the population being tourists in the given data."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_467c9c18.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "Czech Republic",
+                "Denmark",
+                "Spain",
+                "Croatia"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_films_transportation_others_3bc60e19",
+                    "insert_conversation_turn": 559
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_food_environment_lifestyle_6d738a64",
+                    "insert_conversation_turn": 1202,
+                    "reference_name": "Fig. 04b3f139"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "travel"
+            ],
+            "original_question": "the text, which country has \"high tourism density\" but does not have \"high tourism influence\"?"
+        }
+    },
+    {
+        "id": "QA_sample_016cc18b",
+        "domain": "MLLMKC",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. 7fe0ccb9, What are the main products of this brand?",
+        "answer": "fast food",
+        "evidence": {
+            "text_evidence": [
+                "McDonald's was created in 1940. The creator of McDonald's is Richard and Maurice McDonald. McDonald's is the brand of fast food."
+            ],
+            "image_evidence": [
+                "MLLMKC_1298a41c.jpg"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "McDonald's was created in 1940. The creator of McDonald's is Richard and Maurice McDonald. McDonald's is the brand of clothing items."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "electronic gadgets",
+                "clothing items",
+                "cosmetic products",
+                "fast food"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_films_transportation_others_3bc60e19",
+                    "insert_conversation_turn": 950
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_food_environment_lifestyle_6d738a64",
+                    "insert_conversation_turn": 613,
+                    "reference_name": "Fig. 7fe0ccb9"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_health_literature_religion_9c510edd",
+                    "insert_conversation_turn": 494
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "instance": "McDonald's",
+            "category": "logo",
+            "error_type": "content_error",
+            "topic": [
+                "food",
+                " business"
+            ],
+            "original_question": "What are the main products of this brand?"
+        }
+    },
+    {
+        "id": "7a694330",
+        "domain": "MMDocRAG",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 1f395888, Doc. b187a94a, Doc. dc0be86a, Doc. 65461c5b, Doc. 6c6096f7, Which stages of cell division are shown on slides 12 and 14?",
+        "answer": "Interphase, Prophase, Prometaphase, Metaphase, Anaphase, Telophase, Cytokinesis",
+        "evidence": {
+            "text_evidence": [
+                "Prophase Pro metaphase Metaphase Anaphase Telophase "
+            ],
+            "image_evidence": [
+                "MMDocRAG_9713ea82.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": [
+                [
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "-Occurs in prokaryotic cells  $-$  Two identical cells arise from one cell -Steps in the process: "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "-Organize micro tubule arrangement -Contain a pair of centrioles in animal cells -The role of centrioles in cell division isunclear "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "-A single circular chromosome duplicates,and the copies begin to separate from each other The cell elongates,and the chromosomal copies separate further The plasma membrane grows inward at the midpoint to divide the cells "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_08d6fa35.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_34c386fd.png"
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "To prepare for division,the chromatin becomes highly compact,and the chromosomes are visible with a microscope -Early in the division process,chromosomes duplicate Each chromosome appears as two sister chromatids, containing identical DNA molecules Sister chromatids are joined at the centromere,anarrow region "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Mitotic phase:divisi Mitosis:division of the nucleus Cytokinesis:division of cytoplasm "
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_6fdab968.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Mitosis progresses through a series of stages "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "A cell plate forms in the middle from vesicles containing cell wall material The cell plate grows outward to reach the edges,dividing the contents into two cells "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "The stages of mio s is Il "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_fc593959.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_c1459d26.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "·The cell cycle is an ordered sequence of events for cell division It consists of two stages "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Interphase:duplication of cell contents G1:growth,increase in cytoplasm S:duplication of chromosomes G2:growth,preparation for division "
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "METAPHASE  $\\varphi^{\\mathrm{d}|}\\hat{\\mathcal{H}}^{\\mathrm{sym}|}\\mathcal{A}^{\\mathrm{sym}|}$  "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_aa3fc967.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_ec2ebaa9.png"
+                        }
+                    }
+                ]
+            ]
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Interphase, Prophase, Prometaphase, Metaphase, Anaphase, Telophase, Cytokinesis",
+                "Interphase, Prometaphase, Metaphase, Telophase, Cytokinesis",
+                "Prophase, Prometaphase, Metaphase, Anaphase, Cytokinesis",
+                "Interphase, Prophase, Metaphase, Telophase, Cytokinesis"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_food_environment_lifestyle_6d738a64",
+                    "insert_conversation_turn": 1330
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_health_literature_religion_9c510edd",
+                    "insert_conversation_turn": 322,
+                    "reference_name": "Fig. 1f395888"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_health_literature_religion_9c510edd",
+                    "insert_conversation_turn": 795,
+                    "reference_name": "Doc. b187a94a"
+                },
+                {
+                    "conversation_name": "group_chat_food_environment_lifestyle_6d738a64",
+                    "insert_conversation_turn": 871,
+                    "reference_name": "Doc. dc0be86a"
+                },
+                {
+                    "conversation_name": "group_chat_films_transportation_others_3bc60e19",
+                    "insert_conversation_turn": 312,
+                    "reference_name": "Doc. 65461c5b"
+                },
+                {
+                    "conversation_name": "group_chat_food_environment_lifestyle_6d738a64",
+                    "insert_conversation_turn": 453,
+                    "reference_name": "Doc. 6c6096f7"
+                }
+            ]
+        },
+        "meta_data": {
+            "category": "Tutorial/Workshop",
+            "doc_name": "chapter8-geneticscompatibilitymode-141214140247-conversion-gate02_95",
+            "gold_quotes": [
+                "text11",
+                "text5",
+                "text6",
+                "image2",
+                "image3"
+            ],
+            "topic": [
+                "science"
+            ],
+            "original_question": "Which stages of cell division are shown on slides 12 and 14?"
+        }
+    },
+    {
+        "id": "QA_sample_1d4f8548",
+        "domain": "MLLMKC",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. b49f1a3e, What are the main products of this brand?",
+        "answer": "consumer goods",
+        "evidence": {
+            "text_evidence": [
+                "Unilever was created in 1929. The creator of Unilever is William Lever, 1st Viscount Leverhulme. Unilever is the brand of consumer goods."
+            ],
+            "image_evidence": [
+                "MLLMKC_cf0bbcbb.jpg"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Unilever was created in 1929. The creator of Unilever is William Lever, 1st Viscount Leverhulme. Unilever is the brand of automotive parts."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "agricultural supplies",
+                "consumer goods",
+                "automotive parts",
+                "electronic gadgets"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_films_transportation_others_3bc60e19",
+                    "insert_conversation_turn": 545
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_health_literature_religion_9c510edd",
+                    "insert_conversation_turn": 1217,
+                    "reference_name": "Fig. b49f1a3e"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_food_environment_lifestyle_6d738a64",
+                    "insert_conversation_turn": 141
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "instance": "Unilever",
+            "category": "logo",
+            "error_type": "content_error",
+            "topic": [
+                "business",
+                "food",
+                "health",
+                "lifestyle"
+            ],
+            "original_question": "What are the main products of this brand?"
+        }
+    },
+    {
+        "id": "7d594731",
+        "domain": "MMDocRAG",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 329c4beb, Fig. b1ba1bc4, Fig. a1f49870, Doc. 2089fff2, Doc. b3e5f135, Doc. 84d526ca, Doc. ba68d9c8, Doc. de37c363, What are the different types of experiences available at the Bergen attractions, and what activities are highlighted for each?",
+        "answer": "Swimming, bowling, science exhibits, aquaculture boat trips, cable car rides.",
+        "evidence": {
+            "text_evidence": [
+                "Experience the mountains in the middle of the city! Take the cable car  up to the top of Bergen where you’ll find a fantastic landscape, views,  activities and unique culinary experiences in Sky sk rape ren Restaurant.  The Ulriken Express Bus service runs from the city centre to the cable  car every half hour from 1 May to 30 September. "
+            ],
+            "image_evidence": [
+                "MMDocRAG_be809d50.png",
+                "MMDocRAG_a2a39e91.png",
+                "MMDocRAG_8954a5ad.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": [
+                [
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Explore science and technology with all your senses! The main exhibition  is full of interesting experiences for children and adults alike. Go on a  voyage of discovery through the body, learn about the cycle of nature,  cycle a 360-degree loop, do experiments with water, take part in a  creative workshop, see a science show and lots more. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Vestkanten is the biggest shopping and activity centre in Norway.  The centre has a water park complex, a spa section, bowling, minigolf,  skating, curling, shops and restaurants – just 10 minutes from the centre  of Bergen. Unforgettable experiences await at Vestkanten! "
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "    AdO Arena\n\n     Bergen Aquarium\n\n     Bergen Philharmonic Orchestr\n\n     The Fish Market\n\n     Fløibanen Funicular\n\n     Bergen Climbing Park, Høyt & Lavt\n\n     Høyt Høyt under Taket Kokstad\n\n     Magic Ice Bergen\n\n     Storeblå Aquaculture Visitor Centre\n\n     Ulriken643\n\n     Vestkanten Experiences\n\n     Bergen Science Centre – Vilvite \n\n     Escape Bryggen\n\n "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_f5542e44.png"
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Look for the in the Bergen Guide to find ecolabel  tourism enterprises in the region. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "The Fish Market has delicacies to tempt  everyone, and you can spend hours among  fish, penguins and sea lions at Bergen  Aquarium.  The whole family can explore  the world of science and technology at  the  VilVite Science Centre.  If you take the  Fløibanen funicular  to the top of Mount  Fløyen, you can have fun at the playground,  play in the Trolls kogen forest, walk on  exciting nature trails or paddle a canoe on  Sko maker dike t lake. You can ‘float’ to the  top of Bergen’s highest mountain in the  Ulriken 643  cable car. From the top, you  can enjoy magnificent views of Bergen and  the surrounding area – the sea, the islands,  fjords and mountains. "
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "There are more than 60 different attrac­ tions, museums and galleries in Bergen.  Among others, you can visit the Hanseatic  wharf Bryggen, Bergen Aquarium, the  Fløibanen funicular and the Fish Market.  Bergen is also a great city for children, with  lots of exciting and educational activities. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Shows the development of shipping and its importance to Bergen  and Norway, from the Iron Age and Viking Age and up to the present.  Exhibitions feature high-quality boats, model ships, equipment and  paintings. The museum building is an architectural gem, situated in beautiful  surroundings. Guided tours from June to August. Activities for children.  Bus stop: Møhlenpris. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Bergen Kunsthall is a centre for contemporary art that presents  exhibitions and events by international artists. Landmark is our series of  live events that include concerts and club evenings at weekends. We also  host a wide range of events for everyone. "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_67160399.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_83ac9875.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Bergen Aquarium is one of the biggest tourist attractions in Bergen.  You can experience fascinating creatures from tropical rainforests, the  foreshore, the ocean depths and the Arctic. We have sea lions, penguins,  otters, crocodiles and many more animals, and you can see them being  fed every day and enjoy a film in our cinema. Café/shop/play area. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "A different kind of experience marked by know-how and action! Storeblå  Aquaculture Visitor Centre provides a unique, comprehensive insight  into Norwegian aquaculture. Explore and learn more about this industry  in our modern exhibition and see salmon up close on a bracing RIB boat  trip to a fish farm outside Bergen. "
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Bergen has many museums, some with  unique art collections and others that show  the breadth of the city’s historical heritage.  Take a trip up to Mount Fløyen and enjoy  the view of the city, the fjord and the  ocean. See seals, penguins, crocodiles and  snakes at close range at Bergen Aquarium,  or explore the world of science and  technology with your family at the VilVite  Science Centre. "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_7c623d82.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_796b37c3.png"
+                        }
+                    }
+                ]
+            ]
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Swimming, bowling, science exhibits, aquaculture boat trips, cable car rides.",
+                "Boat model displays, contemporary art events, wheelchair accessible tours, shopping experiences, science shows",
+                "Shopping, ice skating, art exhibitions, museum tours, café visits",
+                "Penguin watching, climbing park, orchestra concerts, creative workshops, funicular rides"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_films_transportation_others_3bc60e19",
+                    "insert_conversation_turn": 1309
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_films_transportation_others_3bc60e19",
+                    "insert_conversation_turn": 516,
+                    "reference_name": "Fig. 329c4beb"
+                },
+                {
+                    "conversation_name": "group_chat_health_literature_religion_9c510edd",
+                    "insert_conversation_turn": 1032,
+                    "reference_name": "Fig. b1ba1bc4"
+                },
+                {
+                    "conversation_name": "group_chat_health_literature_religion_9c510edd",
+                    "insert_conversation_turn": 466,
+                    "reference_name": "Fig. a1f49870"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_food_environment_lifestyle_6d738a64",
+                    "insert_conversation_turn": 1273,
+                    "reference_name": "Doc. 2089fff2"
+                },
+                {
+                    "conversation_name": "group_chat_health_literature_religion_9c510edd",
+                    "insert_conversation_turn": 382,
+                    "reference_name": "Doc. b3e5f135"
+                },
+                {
+                    "conversation_name": "group_chat_food_environment_lifestyle_6d738a64",
+                    "insert_conversation_turn": 799,
+                    "reference_name": "Doc. 84d526ca"
+                },
+                {
+                    "conversation_name": "group_chat_food_environment_lifestyle_6d738a64",
+                    "insert_conversation_turn": 35,
+                    "reference_name": "Doc. ba68d9c8"
+                },
+                {
+                    "conversation_name": "group_chat_health_literature_religion_9c510edd",
+                    "insert_conversation_turn": 904,
+                    "reference_name": "Doc. de37c363"
+                }
+            ]
+        },
+        "meta_data": {
+            "category": "Brochure",
+            "doc_name": "Bergen-Brochure-en-2022-23",
+            "gold_quotes": [
+                "image3",
+                "image1",
+                "image4",
+                "image2",
+                "text11",
+                "text2",
+                "text6",
+                "text4"
+            ],
+            "topic": [
+                "science",
+                " animals",
+                " art and design",
+                " travel",
+                " food",
+                " technology",
+                " sports",
+                " nature",
+                " history",
+                " architecture",
+                " lifestyle"
+            ],
+            "original_question": "What are the different types of experiences available at the Bergen attractions, and what activities are highlighted for each?"
+        }
+    },
+    {
+        "id": "QA_sample_a3961c8c",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 821ebed1, the text, which method is both \"highly preferred\" and categorized as a \"direct measurement technique\" according to the previous definition?",
+        "answer": "Direct measurement - field",
+        "evidence": {
+            "text_evidence": [
+                "In a survey, respondents were asked about their preference for different methods of measuring water usage. A method was considered 'highly preferred' if it was selected by at least 60% of respondents. Among the options shown, some methods were categorized as direct measurement techniques while others relied on calculations from models or remote technologies."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_09ff2c85.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "Direct measurement - district",
+                "Water balance",
+                "Direct measurement - field",
+                "Remote sensing"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_films_transportation_others_3bc60e19",
+                    "insert_conversation_turn": 166
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_health_literature_religion_9c510edd",
+                    "insert_conversation_turn": 642,
+                    "reference_name": "Fig. 821ebed1"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "environment",
+                "science"
+            ],
+            "original_question": "the text, which method is both \"highly preferred\" and categorized as a \"direct measurement technique\" according to the previous definition?"
+        }
+    },
+    {
+        "id": "QA_sample_df0ee4c3_1",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 903052af, Among the activities that could reasonably occur in the given image, which one is Guillermo Lynn least likely to be doing?",
+        "answer": "Enjoying rock concerts",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Guillermo Lynn enjoys K-pop concerts, anime series, but dislikes rock concerts, indie films",
+                "In terms of lifestyle, Guillermo Lynn enjoys hot yoga, pilates, but dislikes forest bathing, holistic therapy"
+            ],
+            "image_evidence": [
+                "MMPB_73dc3548.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Guillermo Lynn enjoys road trips, city tours, but dislikes sailing, paragliding",
+                "In terms of shopping, Guillermo Lynn enjoys soundproofing panels, sleep-enhancing gadgets, but dislikes compact fitness equipment, desk organizers",
+                "In terms of fashion, Guillermo Lynn enjoys statement jewelry, minimalist rings, but dislikes vintage style, formal suits."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "Doing forest bathing",
+                "Attending live theater performances",
+                "Enjoying rock concerts",
+                "Enjoying symphony orchestra concerts"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_food_environment_lifestyle_6d738a64",
+                    "insert_conversation_turn": 41
+                },
+                {
+                    "conversation_name": "group_chat_food_environment_lifestyle_6d738a64",
+                    "insert_conversation_turn": 1307
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_food_environment_lifestyle_6d738a64",
+                    "insert_conversation_turn": 1445,
+                    "reference_name": "Fig. 903052af"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_health_literature_religion_9c510edd",
+                    "insert_conversation_turn": 909
+                },
+                {
+                    "conversation_name": "group_chat_health_literature_religion_9c510edd",
+                    "insert_conversation_turn": 215
+                },
+                {
+                    "conversation_name": "group_chat_films_transportation_others_3bc60e19",
+                    "insert_conversation_turn": 885
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Tommy",
+            "description": "Tommy is a tall, slender individual with a well-defined jawline and a strong, angular facial structure. Their skin tone is fair, and they have striking blue eyes that are often seen gazing intently, adding to their enigmatic presence. Tommy sports short, neatly combed hair, and in some images, they wear a flat cap, which complements their overall look. The facial expressions range from contemplative to serious, with a hint of intensity that suggests a deep thinker or someone with a strong sense of purpose. The consistent pose across the images, often with a hand in the pocket or a cigarette in hand, conveys a sense of confidence and composure.\n\n**Outfit and Accessories:**\nTommy is consistently dressed in a formal, vintage-inspired style, characterized by a dark, tailored suit with a vest and a white shirt. The suit is often paired with a dark tie, adding to the classic and sophisticated appearance. The color palette is predominantly dark, with shades of navy and charcoal, which gives a timeless and elegant feel. The texture of the fabric appears to be high-quality wool, suitable for a formal setting. Tommy frequently wears a flat cap, which adds a touch of character and reinforces the vintage aesthetic. Accessories such as a pocket watch chain and a cigarette are recurring elements, suggesting a meticulous and perhaps slightly rebellious personality. The overall outfit exudes a sense of practicality and formality, with a touch of whimsy that defines Tommy's unique style.\n\n**Distinguishing Visual Features or Vibe:**\nThe most memorable and defining features of Tommy are their striking blue eyes, which are a focal point in every image. The consistent use of a dark, tailored suit with a flat cap creates a distinctive silhouette that is both timeless and character-defining. The recurring presence of a cigarette and a pocket watch chain adds to the vintage vibe, suggesting a connection to a bygone era. The overall aura conveyed by Tommy is one of mystery and intrigue, with a hint of sophistication and a touch of rebellion. The consistent use of dark colors and the vintage style creates a cohesive and unmistakable visual identity that is both memorable and captivating.",
+            "preference": "In terms of entertainment, Tommy enjoys K-pop concerts, anime series, but dislikes rock concerts, indie films. In terms of travel, Tommy enjoys road trips, city tours, but dislikes sailing, paragliding. In terms of lifestyle, Tommy enjoys hot yoga, pilates, but dislikes forest bathing, holistic therapy. In terms of shopping, Tommy enjoys soundproofing panels, sleep-enhancing gadgets, but dislikes compact fitness equipment, desk organizers. In terms of fashion, Tommy enjoys statement jewelry, minimalist rings, but dislikes vintage style, formal suits.",
+            "topic": [],
+            "original_id": "QA_sample_df0ee4c3",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Guillermo Lynn least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_df0ee4c3_2",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. e5ffb612, the image, what is Guillermo Lynn most likely to be doing?",
+        "answer": "Watching anime series",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Guillermo Lynn enjoys K-pop concerts, anime series, but dislikes rock concerts, indie films",
+                "In terms of lifestyle, Guillermo Lynn enjoys hot yoga, pilates, but dislikes forest bathing, holistic therapy"
+            ],
+            "image_evidence": [
+                "MMPB_ea429820.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Guillermo Lynn enjoys road trips, city tours, but dislikes sailing, paragliding",
+                "In terms of shopping, Guillermo Lynn enjoys soundproofing panels, sleep-enhancing gadgets, but dislikes compact fitness equipment, desk organizers",
+                "In terms of fashion, Guillermo Lynn enjoys statement jewelry, minimalist rings, but dislikes vintage style, formal suits."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Watching anime series",
+                "Enjoying a TV series binge",
+                "Road trips",
+                "Watching a movie marathon"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_food_environment_lifestyle_6d738a64",
+                    "insert_conversation_turn": 41
+                },
+                {
+                    "conversation_name": "group_chat_food_environment_lifestyle_6d738a64",
+                    "insert_conversation_turn": 1307
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_films_transportation_others_3bc60e19",
+                    "insert_conversation_turn": 1149,
+                    "reference_name": "Fig. e5ffb612"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_health_literature_religion_9c510edd",
+                    "insert_conversation_turn": 909
+                },
+                {
+                    "conversation_name": "group_chat_health_literature_religion_9c510edd",
+                    "insert_conversation_turn": 215
+                },
+                {
+                    "conversation_name": "group_chat_films_transportation_others_3bc60e19",
+                    "insert_conversation_turn": 885
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Tommy",
+            "description": "Tommy is a tall, slender individual with a well-defined jawline and a strong, angular facial structure. Their skin tone is fair, and they have striking blue eyes that are often seen gazing intently, adding to their enigmatic presence. Tommy sports short, neatly combed hair, and in some images, they wear a flat cap, which complements their overall look. The facial expressions range from contemplative to serious, with a hint of intensity that suggests a deep thinker or someone with a strong sense of purpose. The consistent pose across the images, often with a hand in the pocket or a cigarette in hand, conveys a sense of confidence and composure.\n\n**Outfit and Accessories:**\nTommy is consistently dressed in a formal, vintage-inspired style, characterized by a dark, tailored suit with a vest and a white shirt. The suit is often paired with a dark tie, adding to the classic and sophisticated appearance. The color palette is predominantly dark, with shades of navy and charcoal, which gives a timeless and elegant feel. The texture of the fabric appears to be high-quality wool, suitable for a formal setting. Tommy frequently wears a flat cap, which adds a touch of character and reinforces the vintage aesthetic. Accessories such as a pocket watch chain and a cigarette are recurring elements, suggesting a meticulous and perhaps slightly rebellious personality. The overall outfit exudes a sense of practicality and formality, with a touch of whimsy that defines Tommy's unique style.\n\n**Distinguishing Visual Features or Vibe:**\nThe most memorable and defining features of Tommy are their striking blue eyes, which are a focal point in every image. The consistent use of a dark, tailored suit with a flat cap creates a distinctive silhouette that is both timeless and character-defining. The recurring presence of a cigarette and a pocket watch chain adds to the vintage vibe, suggesting a connection to a bygone era. The overall aura conveyed by Tommy is one of mystery and intrigue, with a hint of sophistication and a touch of rebellion. The consistent use of dark colors and the vintage style creates a cohesive and unmistakable visual identity that is both memorable and captivating.",
+            "preference": "In terms of entertainment, Tommy enjoys K-pop concerts, anime series, but dislikes rock concerts, indie films. In terms of travel, Tommy enjoys road trips, city tours, but dislikes sailing, paragliding. In terms of lifestyle, Tommy enjoys hot yoga, pilates, but dislikes forest bathing, holistic therapy. In terms of shopping, Tommy enjoys soundproofing panels, sleep-enhancing gadgets, but dislikes compact fitness equipment, desk organizers. In terms of fashion, Tommy enjoys statement jewelry, minimalist rings, but dislikes vintage style, formal suits.",
+            "topic": [],
+            "original_id": "QA_sample_df0ee4c3_2_1",
+            "original_question": "the image, what is Guillermo Lynn most likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_df0ee4c3_3",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 7b62126b, Among the activities that could reasonably occur in the given image, which one is Guillermo Lynn least likely to be doing?",
+        "answer": "Watching indie films",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Guillermo Lynn enjoys K-pop concerts, anime series, but dislikes rock concerts, indie films",
+                "In terms of lifestyle, Guillermo Lynn enjoys hot yoga, pilates, but dislikes forest bathing, holistic therapy"
+            ],
+            "image_evidence": [
+                "MMPB_3c63eec5.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Guillermo Lynn enjoys road trips, city tours, but dislikes sailing, paragliding",
+                "In terms of shopping, Guillermo Lynn enjoys soundproofing panels, sleep-enhancing gadgets, but dislikes compact fitness equipment, desk organizers",
+                "In terms of fashion, Guillermo Lynn enjoys statement jewelry, minimalist rings, but dislikes vintage style, formal suits."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Watching indie films",
+                "Buying compact fitness equipment",
+                "Enjoying blockbuster movies",
+                "Catching a Hollywood flick"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_food_environment_lifestyle_6d738a64",
+                    "insert_conversation_turn": 41
+                },
+                {
+                    "conversation_name": "group_chat_food_environment_lifestyle_6d738a64",
+                    "insert_conversation_turn": 1307
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_food_environment_lifestyle_6d738a64",
+                    "insert_conversation_turn": 427,
+                    "reference_name": "Fig. 7b62126b"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_health_literature_religion_9c510edd",
+                    "insert_conversation_turn": 909
+                },
+                {
+                    "conversation_name": "group_chat_health_literature_religion_9c510edd",
+                    "insert_conversation_turn": 215
+                },
+                {
+                    "conversation_name": "group_chat_films_transportation_others_3bc60e19",
+                    "insert_conversation_turn": 885
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Tommy",
+            "description": "Tommy is a tall, slender individual with a well-defined jawline and a strong, angular facial structure. Their skin tone is fair, and they have striking blue eyes that are often seen gazing intently, adding to their enigmatic presence. Tommy sports short, neatly combed hair, and in some images, they wear a flat cap, which complements their overall look. The facial expressions range from contemplative to serious, with a hint of intensity that suggests a deep thinker or someone with a strong sense of purpose. The consistent pose across the images, often with a hand in the pocket or a cigarette in hand, conveys a sense of confidence and composure.\n\n**Outfit and Accessories:**\nTommy is consistently dressed in a formal, vintage-inspired style, characterized by a dark, tailored suit with a vest and a white shirt. The suit is often paired with a dark tie, adding to the classic and sophisticated appearance. The color palette is predominantly dark, with shades of navy and charcoal, which gives a timeless and elegant feel. The texture of the fabric appears to be high-quality wool, suitable for a formal setting. Tommy frequently wears a flat cap, which adds a touch of character and reinforces the vintage aesthetic. Accessories such as a pocket watch chain and a cigarette are recurring elements, suggesting a meticulous and perhaps slightly rebellious personality. The overall outfit exudes a sense of practicality and formality, with a touch of whimsy that defines Tommy's unique style.\n\n**Distinguishing Visual Features or Vibe:**\nThe most memorable and defining features of Tommy are their striking blue eyes, which are a focal point in every image. The consistent use of a dark, tailored suit with a flat cap creates a distinctive silhouette that is both timeless and character-defining. The recurring presence of a cigarette and a pocket watch chain adds to the vintage vibe, suggesting a connection to a bygone era. The overall aura conveyed by Tommy is one of mystery and intrigue, with a hint of sophistication and a touch of rebellion. The consistent use of dark colors and the vintage style creates a cohesive and unmistakable visual identity that is both memorable and captivating.",
+            "preference": "In terms of entertainment, Tommy enjoys K-pop concerts, anime series, but dislikes rock concerts, indie films. In terms of travel, Tommy enjoys road trips, city tours, but dislikes sailing, paragliding. In terms of lifestyle, Tommy enjoys hot yoga, pilates, but dislikes forest bathing, holistic therapy. In terms of shopping, Tommy enjoys soundproofing panels, sleep-enhancing gadgets, but dislikes compact fitness equipment, desk organizers. In terms of fashion, Tommy enjoys statement jewelry, minimalist rings, but dislikes vintage style, formal suits.",
+            "topic": [],
+            "original_id": "QA_sample_df0ee4c3_3_1",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Guillermo Lynn least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_93732777_1",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 5639d05f, Among the activities that could reasonably occur in the given image, which one is Justice Clark least likely to be doing?",
+        "answer": "Watching documentary films",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Justice Clark enjoys opera shows, ballet performances, but dislikes musicals, documentaries"
+            ],
+            "image_evidence": [
+                "MMPB_81ebaeeb.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Justice Clark enjoys backcountry camping, ice fishing, but dislikes backpacking, luxury resorts",
+                "In terms of lifestyle, Justice Clark enjoys protein-rich diet, weightlifting, but dislikes forest bathing, holistic therapy",
+                "In terms of shopping, Justice Clark enjoys handmade crafts, vintage furniture, but dislikes second-hand books, indie brands",
+                "In terms of fashion, Justice Clark enjoys futuristic fashion, gothic clothing, but dislikes business casual, athleisure wear."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "Watching thriller movies",
+                "Going on a backpacking tour",
+                "Observing wildlife films",
+                "Watching documentary films"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_films_transportation_others_3bc60e19",
+                    "insert_conversation_turn": 80
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_food_environment_lifestyle_6d738a64",
+                    "insert_conversation_turn": 619,
+                    "reference_name": "Fig. 5639d05f"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_health_literature_religion_9c510edd",
+                    "insert_conversation_turn": 327
+                },
+                {
+                    "conversation_name": "group_chat_health_literature_religion_9c510edd",
+                    "insert_conversation_turn": 983
+                },
+                {
+                    "conversation_name": "group_chat_health_literature_religion_9c510edd",
+                    "insert_conversation_turn": 926
+                },
+                {
+                    "conversation_name": "group_chat_health_literature_religion_9c510edd",
+                    "insert_conversation_turn": 779
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Han",
+            "description": "Han is a woman with a slender build and an impression of average height. Her facial structure is characterized by a delicate jawline and a slightly upturned nose, with a fair skin tone that complements her long, straight dark hair, which often falls past her shoulders. Her expressions are generally composed and neutral, with a subtle hint of a smile in some images, suggesting a calm and approachable demeanor. Her eyes are often partially obscured by glasses, adding a touch of intellectual charm. The consistent appearance of her long hair and neutral expressions across the images creates a cohesive visual identity.\n\n**Outfit and Accessories:**\nHan's attire is diverse yet consistently sophisticated. In one image, she is seen in a sleeveless dress adorned with geometric patterns and embellishments, exuding elegance. In another, she wears a black blazer over a white shirt, holding a stack of books, which suggests a professional or academic setting. A brown jacket with a mustard-colored scarf adds a touch of warmth and practicality, while a green sweater over a white collared shirt presents a more casual, yet polished look. The recurring theme in her outfits is a blend of formality and comfort, with a preference for neutral colors and structured pieces. Her accessories, such as glasses, are minimal but significant, enhancing her intellectual and approachable image.\n\n**Distinguishing Visual Features or Vibe:**\nThe most memorable feature of Han is her long, dark hair, which is a consistent element across all images. Her neutral expressions and subtle smiles convey a sense of calm and approachability. The combination of her elegant attire and practical accessories, such as glasses, creates a balanced and sophisticated image. The recurring theme of neutral colors and structured clothing suggests a professional and composed persona. The overall vibe of Han is one of understated elegance and intellectual charm, making her visually unmistakable and memorable.",
+            "preference": "In terms of entertainment, Han enjoys opera shows, ballet performances, but dislikes musicals, documentaries. In terms of travel, Han enjoys backcountry camping, ice fishing, but dislikes backpacking, luxury resorts. In terms of lifestyle, Han enjoys protein-rich diet, weightlifting, but dislikes forest bathing, holistic therapy. In terms of shopping, Han enjoys handmade crafts, vintage furniture, but dislikes second-hand books, indie brands. In terms of fashion, Han enjoys futuristic fashion, gothic clothing, but dislikes business casual, athleisure wear.",
+            "topic": [],
+            "original_id": "QA_sample_93732777_1_1",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Justice Clark least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_93732777_2",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 5244ec0e, Among the activities that could reasonably occur in the given image, which one is Justice Clark least likely to be doing?",
+        "answer": "Watching musical films",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Justice Clark enjoys opera shows, ballet performances, but dislikes musicals, documentaries"
+            ],
+            "image_evidence": [
+                "MMPB_2d99653f.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Justice Clark enjoys backcountry camping, ice fishing, but dislikes backpacking, luxury resorts",
+                "In terms of lifestyle, Justice Clark enjoys protein-rich diet, weightlifting, but dislikes forest bathing, holistic therapy",
+                "In terms of shopping, Justice Clark enjoys handmade crafts, vintage furniture, but dislikes second-hand books, indie brands",
+                "In terms of fashion, Justice Clark enjoys futuristic fashion, gothic clothing, but dislikes business casual, athleisure wear."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Watching musical films",
+                "Watching action movies",
+                "Doing forest bathing",
+                "Watching romantic comedies"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_films_transportation_others_3bc60e19",
+                    "insert_conversation_turn": 80
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_food_environment_lifestyle_6d738a64",
+                    "insert_conversation_turn": 248,
+                    "reference_name": "Fig. 5244ec0e"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_health_literature_religion_9c510edd",
+                    "insert_conversation_turn": 327
+                },
+                {
+                    "conversation_name": "group_chat_health_literature_religion_9c510edd",
+                    "insert_conversation_turn": 983
+                },
+                {
+                    "conversation_name": "group_chat_health_literature_religion_9c510edd",
+                    "insert_conversation_turn": 926
+                },
+                {
+                    "conversation_name": "group_chat_health_literature_religion_9c510edd",
+                    "insert_conversation_turn": 779
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Han",
+            "description": "Han is a woman with a slender build and an impression of average height. Her facial structure is characterized by a delicate jawline and a slightly upturned nose, with a fair skin tone that complements her long, straight dark hair, which often falls past her shoulders. Her expressions are generally composed and neutral, with a subtle hint of a smile in some images, suggesting a calm and approachable demeanor. Her eyes are often partially obscured by glasses, adding a touch of intellectual charm. The consistent appearance of her long hair and neutral expressions across the images creates a cohesive visual identity.\n\n**Outfit and Accessories:**\nHan's attire is diverse yet consistently sophisticated. In one image, she is seen in a sleeveless dress adorned with geometric patterns and embellishments, exuding elegance. In another, she wears a black blazer over a white shirt, holding a stack of books, which suggests a professional or academic setting. A brown jacket with a mustard-colored scarf adds a touch of warmth and practicality, while a green sweater over a white collared shirt presents a more casual, yet polished look. The recurring theme in her outfits is a blend of formality and comfort, with a preference for neutral colors and structured pieces. Her accessories, such as glasses, are minimal but significant, enhancing her intellectual and approachable image.\n\n**Distinguishing Visual Features or Vibe:**\nThe most memorable feature of Han is her long, dark hair, which is a consistent element across all images. Her neutral expressions and subtle smiles convey a sense of calm and approachability. The combination of her elegant attire and practical accessories, such as glasses, creates a balanced and sophisticated image. The recurring theme of neutral colors and structured clothing suggests a professional and composed persona. The overall vibe of Han is one of understated elegance and intellectual charm, making her visually unmistakable and memorable.",
+            "preference": "In terms of entertainment, Han enjoys opera shows, ballet performances, but dislikes musicals, documentaries. In terms of travel, Han enjoys backcountry camping, ice fishing, but dislikes backpacking, luxury resorts. In terms of lifestyle, Han enjoys protein-rich diet, weightlifting, but dislikes forest bathing, holistic therapy. In terms of shopping, Han enjoys handmade crafts, vintage furniture, but dislikes second-hand books, indie brands. In terms of fashion, Han enjoys futuristic fashion, gothic clothing, but dislikes business casual, athleisure wear.",
+            "topic": [],
+            "original_id": "QA_sample_93732777_2_1",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Justice Clark least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_93732777_3",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 36ed7d98, the image, what is Justice Clark most likely to be doing?",
+        "answer": "Enjoying opera shows",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Justice Clark enjoys opera shows, ballet performances, but dislikes musicals, documentaries"
+            ],
+            "image_evidence": [
+                "MMPB_e907fbc8.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Justice Clark enjoys backcountry camping, ice fishing, but dislikes backpacking, luxury resorts",
+                "In terms of lifestyle, Justice Clark enjoys protein-rich diet, weightlifting, but dislikes forest bathing, holistic therapy",
+                "In terms of shopping, Justice Clark enjoys handmade crafts, vintage furniture, but dislikes second-hand books, indie brands",
+                "In terms of fashion, Justice Clark enjoys futuristic fashion, gothic clothing, but dislikes business casual, athleisure wear."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "Buying handmade crafts",
+                "Appreciating symphony concerts",
+                "Attending chamber music events",
+                "Enjoying opera shows"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_films_transportation_others_3bc60e19",
+                    "insert_conversation_turn": 80
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_food_environment_lifestyle_6d738a64",
+                    "insert_conversation_turn": 1393,
+                    "reference_name": "Fig. 36ed7d98"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_health_literature_religion_9c510edd",
+                    "insert_conversation_turn": 327
+                },
+                {
+                    "conversation_name": "group_chat_health_literature_religion_9c510edd",
+                    "insert_conversation_turn": 983
+                },
+                {
+                    "conversation_name": "group_chat_health_literature_religion_9c510edd",
+                    "insert_conversation_turn": 926
+                },
+                {
+                    "conversation_name": "group_chat_health_literature_religion_9c510edd",
+                    "insert_conversation_turn": 779
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Han",
+            "description": "Han is a woman with a slender build and an impression of average height. Her facial structure is characterized by a delicate jawline and a slightly upturned nose, with a fair skin tone that complements her long, straight dark hair, which often falls past her shoulders. Her expressions are generally composed and neutral, with a subtle hint of a smile in some images, suggesting a calm and approachable demeanor. Her eyes are often partially obscured by glasses, adding a touch of intellectual charm. The consistent appearance of her long hair and neutral expressions across the images creates a cohesive visual identity.\n\n**Outfit and Accessories:**\nHan's attire is diverse yet consistently sophisticated. In one image, she is seen in a sleeveless dress adorned with geometric patterns and embellishments, exuding elegance. In another, she wears a black blazer over a white shirt, holding a stack of books, which suggests a professional or academic setting. A brown jacket with a mustard-colored scarf adds a touch of warmth and practicality, while a green sweater over a white collared shirt presents a more casual, yet polished look. The recurring theme in her outfits is a blend of formality and comfort, with a preference for neutral colors and structured pieces. Her accessories, such as glasses, are minimal but significant, enhancing her intellectual and approachable image.\n\n**Distinguishing Visual Features or Vibe:**\nThe most memorable feature of Han is her long, dark hair, which is a consistent element across all images. Her neutral expressions and subtle smiles convey a sense of calm and approachability. The combination of her elegant attire and practical accessories, such as glasses, creates a balanced and sophisticated image. The recurring theme of neutral colors and structured clothing suggests a professional and composed persona. The overall vibe of Han is one of understated elegance and intellectual charm, making her visually unmistakable and memorable.",
+            "preference": "In terms of entertainment, Han enjoys opera shows, ballet performances, but dislikes musicals, documentaries. In terms of travel, Han enjoys backcountry camping, ice fishing, but dislikes backpacking, luxury resorts. In terms of lifestyle, Han enjoys protein-rich diet, weightlifting, but dislikes forest bathing, holistic therapy. In terms of shopping, Han enjoys handmade crafts, vintage furniture, but dislikes second-hand books, indie brands. In terms of fashion, Han enjoys futuristic fashion, gothic clothing, but dislikes business casual, athleisure wear.",
+            "topic": [],
+            "original_id": "QA_sample_93732777_3_1",
+            "original_question": "the image, what is Justice Clark most likely to be doing?"
+        }
+    }
+]

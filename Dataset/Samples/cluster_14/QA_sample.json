@@ -1,0 +1,2387 @@
+[
+    {
+        "id": "QA_sample_157b6ffd",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 44f5c80b, the text, does China qualify as both \"'exerting significant influence globally'\" and \"'internationally uncooperative'\" according to the provided definitions?",
+        "answer": "Yes",
+        "evidence": {
+            "text_evidence": [
+                "In determining the global opinion on a country's role, countries scoring above 50% in the 'does' category for interfering in the affairs of other countries are considered to exert a significant influence globally. However, countries where less than 25% of respondents agree they 'contribute to peace and stability' or 'take into account the interests of other countries' are considered internationally uncooperative."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_599335a1.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "No",
+                "Yes"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_art_and_design_government_education_2aa4ac6f",
+                    "insert_conversation_turn": 455
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_lifestyle_others_travel_2e620799",
+                    "insert_conversation_turn": 666,
+                    "reference_name": "Fig. 44f5c80b"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "politics",
+                "government",
+                "international relations"
+            ],
+            "original_question": "the text, does China qualify as both \"'exerting significant influence globally'\" and \"'internationally uncooperative'\" according to the provided definitions?"
+        }
+    },
+    {
+        "id": "QA_sample_c36cbed1",
+        "domain": "MLLMKC",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. dfda955b, What is the nationality of the person in the picture?",
+        "answer": "American",
+        "evidence": {
+            "text_evidence": [
+                "Michelle Obama was born on January 17, 1964. Michelle Obama is American. Michelle Obama is a lawyer, author, and former First Lady of the United States."
+            ],
+            "image_evidence": [
+                "MLLMKC_4dc81983.jpg"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Michelle Obama was born on January 17, 1964. Michelle Obama is Canadian. Michelle Obama is a lawyer, author, and former First Lady of the United States."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "Panamanian",
+                "Mexican",
+                "Canadian",
+                "American"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_art_and_design_government_education_2aa4ac6f",
+                    "insert_conversation_turn": 45
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_video_games_environment_business_80aaaa85",
+                    "insert_conversation_turn": 386,
+                    "reference_name": "Fig. dfda955b"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_lifestyle_others_travel_2e620799",
+                    "insert_conversation_turn": 10
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "instance": "Michelle Obama",
+            "category": "people",
+            "error_type": "location_error",
+            "topic": [
+                "politics"
+            ],
+            "original_question": "What is the nationality of the person in the picture?"
+        }
+    },
+    {
+        "id": "QA_sample_f1b5e4c1",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. d43e931a, the text, did President Bolsonaro have a \"positive environmental record\" according to the definition provided?",
+        "answer": "No",
+        "evidence": {
+            "text_evidence": [
+                "A president's environmental record is deemed positive if annual deforestation rates decline by at least 20% during their tenure compared to the average deforestation rate during the previous presidency. The data in the graph represents deforestation in square kilometers per year for the Brazilian Amazon, with presidents Lula and Bolsonaro highlighted."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_9efb6201.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "No",
+                "Yes"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_art_and_design_government_education_2aa4ac6f",
+                    "insert_conversation_turn": 681
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_video_games_environment_business_80aaaa85",
+                    "insert_conversation_turn": 716,
+                    "reference_name": "Fig. d43e931a"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "environment",
+                "politics",
+                "nature"
+            ],
+            "original_question": "the text, did President Bolsonaro have a \"positive environmental record\" according to the definition provided?"
+        }
+    },
+    {
+        "id": "QA_sample_1de51994",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 989b2c3e, According to the previous definition, who is considered to have a \"stronger likelihood of winning the election\" based on leading in the \"registered voter category\"?",
+        "answer": "Obama",
+        "evidence": {
+            "text_evidence": [
+                "A candidate is considered to have a stronger likelihood of winning the election if they lead in the registered voter category, as this represents a higher potential voter base that could result in greater turnout on election day."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_32b9f778.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "The candidate with lower likely voter turnout",
+                "The candidate with the same level of likely voters as registered voters",
+                "Obama",
+                "Romney"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_lifestyle_others_travel_2e620799",
+                    "insert_conversation_turn": 1019
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_video_games_environment_business_80aaaa85",
+                    "insert_conversation_turn": 1044,
+                    "reference_name": "Fig. 989b2c3e"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "politics",
+                "government"
+            ],
+            "original_question": "According to the previous definition, who is considered to have a \"stronger likelihood of winning the election\" based on leading in the \"registered voter category\"?"
+        }
+    },
+    {
+        "id": "QA_sample_ae5b0d4b",
+        "domain": "SlideVQA",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 571940d7, Fig. bf18a226, Who is the author of the book, the title of which is the same as the section title of the presentation?",
+        "answer": "FREDERIC LALOUX",
+        "evidence": {
+            "text_evidence": [],
+            "image_evidence": [
+                "SlideVQA_f2dfc38d_page_13.png",
+                "SlideVQA_f2dfc38d_page_14.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "Michael Sahota",
+                "Ken Wilber",
+                "FREDERIC LALOUX",
+                "Jenny Wade"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_lifestyle_others_travel_2e620799",
+                    "insert_conversation_turn": 1146,
+                    "reference_name": "Fig. 571940d7"
+                },
+                {
+                    "conversation_name": "group_chat_video_games_environment_business_80aaaa85",
+                    "insert_conversation_turn": 898,
+                    "reference_name": "Fig. bf18a226"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "business",
+                "education"
+            ],
+            "original_question": "Who is the author of the book, the title of which is the same as the section title of the presentation?"
+        }
+    },
+    {
+        "id": "d91cdb71",
+        "domain": "MMDocRAG",
+        "category": "Single_Hop_QA",
+        "question": "Based on Doc. eb340464, Doc. e4c3f151, Doc. c161f8c0, Doc. d98c6dc2, How does female representation vary across different STEM job clusters?",
+        "answer": "14% in engineering jobs to 96% in speech-language pathologists",
+        "evidence": {
+            "text_evidence": [
+                "Women’s representation in STEM occupations varies substantially by occupational subgroup.  Engineering occupations have the lowest share of women at   $14\\%$  . Computer occupations follow,  with women comprising a quarter of workers   $(25\\%)$   in these fields. Women are underrepresented  among physical scientists   $\\left(39\\%\\right)$  , but their representation among life scientists   $(47\\%)$   and math  workers   $(46\\%)$   roughly equals women’s overall share in the workforce   $(47\\%)$  .  ",
+                "Women comprise  $47\\%$   of all employed adults  today, up modestly from  $45\\%$   in 1990, and  they make up half   $\\left(50\\%\\right)$   of all employed  adults in STEM jobs in the U.S. The share of  women in STEM overall is driven in large part  by women’s over representation in health- related jobs, the largest STEM occupational  cluster. Three-quarters   $(75\\%)$   of healthcare  practitioners and technicians are women.  "
+            ],
+            "image_evidence": [],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": [
+                [
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "On average, women’s representation in STEM jobs is lower among those employed with advanced  degrees. For example, among all STEM workers holding a professional or doctoral degree, about  four-in-ten are women  $\\left(41\\%\\right)$  , compared with about six-in-ten   $\\left(59\\%\\right)$   STEM workers holding an  "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "The share of women working in such jobs varies widely both within and across job types (or  clusters). Women account for a majority of healthcare practitioners and technicians but are  underrepresented in other jobs, particularly computer and engineering positions. While there has  been significant progress for women in the life and physical sciences since 1990, the share of  women has been roughly stable in other STEM occupational clusters and has gone down 7  "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Gains in women’s representation in STEM jobs have been concentrated among women holding  advanced degrees, although women still tend to be underrepresented among such workers.   "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_efa2a0b4.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_51cd3509.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Within occupational subgroups, there is often  broad variation among occupations in their  share of women. The report’s  Appendix   presents the share of women and total  number of workers in specific STEM  occupations. Mechanical engineering and  electrical engineering have some of the lowest  shares of women of any engineering  occupation, or any STEM occupation   ${}^{8\\%}$   and   $9\\%$  , respectively). By comparison,  "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Pew Research Center analysis  of U.S. Census Bureau data  since 1990 shows that while  jobs in STEM have grown  substantially, particularly in  computer occupations, the  share of women working in  STEM jobs has remained at  about half over time. But the  share of women varies widely  across the 74 standard  occupations classified as  STEM in this study – from  under one-in-ten for sales  engineers   $(7\\%)$   and  mechanical engineers   $(8\\%)$   to   $96\\%$   of speech language  pathologists and  $95\\%$   of  dental hygienists. Women are  a majority of those working in  health-related occupations but  just  $14\\%$  , on average, of those  "
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_3277dd5d.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_8a6b014b.png"
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Women’s representation among the college- educated STEM workforce depends, in part,  on women completing college training in  STEM fields. Among college-educated  workers, the share of women earning a STEM  degree varies widely and generally  corresponds with the share of women in these  occupational clusters. Among all college- educated workers who majored in a health  professions field,   $81\\%$   are female. But just   $16\\%$   of college-educated workers who  majored in engineering are women.   "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Using a broad definition of the STEM workforce, women make up half   $\\left(50\\%\\right)$   of all U.S. workers in  STEM occupations, though their presence varies widely across occupational clusters and  educational levels. Women account for the majority of healthcare practitioners and technicians but  are underrepresented in several other STEM occupational clusters, particularly in computer jobs  and engineering.   "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_70f955c3.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_1e7718de.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Representation of women in STEM jobs varies widely  "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "PEW RESEARCH CENTER  in engineering jobs. In computer occupations, a job cluster which includes computer scientists,  systems analysts, software developers, information systems managers and programmers – the  STEM job cluster that has seen the most growth in recent decades – women’s representation has  actually decreased from  $32\\%$   in 1990 to  $25\\%$   today.  "
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Gains in women’s representation in STEM jobs have  been concentrated among women holding advanced  degrees, although women still tend to be  underrepresented among such workers. Women are  roughly four-in-ten   $\\left(41\\%\\right)$   of all STEM workers with a  professional or doctoral degree such as an M.D., D.D.S.,  or Ph.D.   "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_c5a8bb51.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_8d50ee7d.png"
+                        }
+                    }
+                ]
+            ]
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "9% in electrical engineering jobs to 75% in healthcare practitioners",
+                "14% in engineering jobs to 96% in speech-language pathologists",
+                "8% in mechanical engineering jobs to 81% in health professions",
+                "16% in engineering majors to 95% in dental hygienists"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_art_and_design_government_education_2aa4ac6f",
+                    "insert_conversation_turn": 425
+                },
+                {
+                    "conversation_name": "group_chat_lifestyle_others_travel_2e620799",
+                    "insert_conversation_turn": 886
+                }
+            ],
+            "image_evidence_assignment": [],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_art_and_design_government_education_2aa4ac6f",
+                    "insert_conversation_turn": 798,
+                    "reference_name": "Doc. eb340464"
+                },
+                {
+                    "conversation_name": "group_chat_video_games_environment_business_80aaaa85",
+                    "insert_conversation_turn": 437,
+                    "reference_name": "Doc. e4c3f151"
+                },
+                {
+                    "conversation_name": "group_chat_video_games_environment_business_80aaaa85",
+                    "insert_conversation_turn": 457,
+                    "reference_name": "Doc. c161f8c0"
+                },
+                {
+                    "conversation_name": "group_chat_art_and_design_government_education_2aa4ac6f",
+                    "insert_conversation_turn": 401,
+                    "reference_name": "Doc. d98c6dc2"
+                }
+            ]
+        },
+        "meta_data": {
+            "category": "Research report / Introduction",
+            "doc_name": "PS_2018.01.09_STEM_FINAL",
+            "gold_quotes": [
+                "image4",
+                "text11",
+                "text5",
+                "text7",
+                "text6"
+            ],
+            "topic": [
+                "science",
+                "education",
+                "technology",
+                "health"
+            ],
+            "original_question": "How does female representation vary across different STEM job clusters?"
+        }
+    },
+    {
+        "id": "QA_sample_ef41f02d",
+        "domain": "MLLMKC",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. 395adfde, Who established the brand corresponding to the logo?",
+        "answer": "Jimmy Wales and Larry Sanger",
+        "evidence": {
+            "text_evidence": [
+                "Wikipedia is a free online encyclopedia, created and edited by volunteers around the world. Wikipedia was launched on January 15, 2001, by Jimmy Wales and Larry Sanger. Wikipedia is a multilingual web-based encyclopedia."
+            ],
+            "image_evidence": [
+                "MLLMKC_0630a119.jpg"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Wikipedia is a free online encyclopedia, created and edited by volunteers around the world. Wikipedia was launched on January 15, 2001, by Steve Jobs and Larry Sanger. Wikipedia is a multilingual web-based encyclopedia."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "Mark Zuckerberg",
+                "Steve Jobs",
+                "Bill Gates",
+                "Jimmy Wales and Larry Sanger"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_lifestyle_others_travel_2e620799",
+                    "insert_conversation_turn": 801
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_art_and_design_government_education_2aa4ac6f",
+                    "insert_conversation_turn": 163,
+                    "reference_name": "Fig. 395adfde"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_video_games_environment_business_80aaaa85",
+                    "insert_conversation_turn": 181
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "instance": "Wikipedia",
+            "category": "logo",
+            "error_type": "creator_error",
+            "topic": [
+                "technology",
+                "education"
+            ],
+            "original_question": "Who established the brand corresponding to the logo?"
+        }
+    },
+    {
+        "id": "QA_sample_9b6a14df",
+        "domain": "SlideVQA",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 963110fd, Fig. 57c74a97, Are skills that require knowledge of and proficiency in a certain specialized field more important for top management or lower-level management?",
+        "answer": "Lower-level Management",
+        "evidence": {
+            "text_evidence": [],
+            "image_evidence": [
+                "SlideVQA_01ee8f5b_page_14.png",
+                "SlideVQA_01ee8f5b_page_15.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "Top Management",
+                "Middle Management",
+                "Internal Consultants",
+                "Lower-level Management"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_video_games_environment_business_80aaaa85",
+                    "insert_conversation_turn": 970,
+                    "reference_name": "Fig. 963110fd"
+                },
+                {
+                    "conversation_name": "group_chat_lifestyle_others_travel_2e620799",
+                    "insert_conversation_turn": 403,
+                    "reference_name": "Fig. 57c74a97"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "business",
+                "education"
+            ],
+            "original_question": "Are skills that require knowledge of and proficiency in a certain specialized field more important for top management or lower-level management?"
+        }
+    },
+    {
+        "id": "QA_sample_9a147c46",
+        "domain": "SlideVQA",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 0950df26, Fig. 4189b5d0, What is the title of the presentation that the company which had won 7 Nobel Prizes made for the OVERVIEW of 2012?",
+        "answer": "AT THE SPEED OF IDEAS",
+        "evidence": {
+            "text_evidence": [],
+            "image_evidence": [
+                "SlideVQA_1d6c28c4_page_1.png",
+                "SlideVQA_1d6c28c4_page_5.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "AT THE SPEED OF IDEAS",
+                "REALIZING THE POTENTIAL OF A CONNECTED WORLD",
+                "EMPOWERING GLOBAL COMMUNICATION",
+                "INNOVATION FOR THE FUTURE"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_art_and_design_government_education_2aa4ac6f",
+                    "insert_conversation_turn": 223,
+                    "reference_name": "Fig. 0950df26"
+                },
+                {
+                    "conversation_name": "group_chat_lifestyle_others_travel_2e620799",
+                    "insert_conversation_turn": 984,
+                    "reference_name": "Fig. 4189b5d0"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "business",
+                "technology",
+                "education"
+            ],
+            "original_question": "What is the title of the presentation that the company which had won 7 Nobel Prizes made for the OVERVIEW of 2012?"
+        }
+    },
+    {
+        "id": "QA_sample_52af5b45",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. a9928389, the text, are Indian Christians considered both \"'active' in participation in spiritual activities\" and \"'highly devout'\" according to the provided definitions?",
+        "answer": "Yes",
+        "evidence": {
+            "text_evidence": [
+                "An organization's participation in spiritual activities is considered active if 70% or more of its members regularly engage in at least four of the listed practices: giving money to a church, inviting a priest or pastor for religious rites, reading or listening to the Bible weekly, praying daily, singing devotionally, having an altar or religious symbol at home, or attending church weekly. Additionally, belief in God among members must be at least 95% for the organization to be classified as highly devout."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_d3753e64.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Yes",
+                "No"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_video_games_environment_business_80aaaa85",
+                    "insert_conversation_turn": 651
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_art_and_design_government_education_2aa4ac6f",
+                    "insert_conversation_turn": 89,
+                    "reference_name": "Fig. a9928389"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "religion"
+            ],
+            "original_question": "the text, are Indian Christians considered both \"'active' in participation in spiritual activities\" and \"'highly devout'\" according to the provided definitions?"
+        }
+    },
+    {
+        "id": "QA_sample_1ab9041e",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 5776c866, the text, which sectors are considered as \"performing particularly well\" and which are \"deemed struggling\" in Malaysia according to the survey criteria?",
+        "answer": "Performing well: Medical treatments and Military. Struggling: Technological achievements, Economy, and Political system.",
+        "evidence": {
+            "text_evidence": [
+                "For a sector to be considered as performing particularly well in this survey, it must have at least 50% of responses rating it as 'Best/Above average.' Alternatively, for a sector to be deemed struggling, it must have 20% or more of responses rating it as 'Below average.'"
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_3af34ce6.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Performing well: Scientific achievements and Technological achievements Struggling: Primary/Secondary STEM education",
+                "Performing well: Medical treatments and Military. Struggling: Technological achievements, Economy, and Political system.",
+                "Performing well: Technological achievements and University STEM education Struggling: Medical treatments",
+                "Performing well: University STEM education and Primary/Secondary STEM education Struggling: Scientific achievements"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_video_games_environment_business_80aaaa85",
+                    "insert_conversation_turn": 882
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_art_and_design_government_education_2aa4ac6f",
+                    "insert_conversation_turn": 717,
+                    "reference_name": "Fig. 5776c866"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "science",
+                "politics",
+                "health",
+                "education",
+                "economy",
+                "technology",
+                "government"
+            ],
+            "original_question": "the text, which sectors are considered as \"performing particularly well\" and which are \"deemed struggling\" in Malaysia according to the survey criteria?"
+        }
+    },
+    {
+        "id": "5b14db21",
+        "domain": "MMDocRAG",
+        "category": "Single_Hop_QA",
+        "question": "Based on Doc. 611537fb, Doc. e3f996c3, Doc. 44e3be15, What is the module code for 'Research Ethics and Scientific Integrity' and how many modular credits does it offer?",
+        "answer": "The module code is GS6001, and it offers 4 or 2 modular credits.",
+        "evidence": {
+            "text_evidence": [],
+            "image_evidence": [],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": [
+                [
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "   Modules are identical to, or are relevant & have comparable content and level of difficulty as existing  ISEP/NUS modules at level 5000 or level 6000.      Modules are completed less than   $(<)$   5 years before date of admission to the ISEP programme.     The maximum number of modular credits allowed for credit transfer is 12 MCs.     Modules approved for transfer would count towards the student’s CAP.  "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "GS5101 Research Immersion Module (2 MCs, CS/CU)  "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "1.  CAP review for students will be done at the end of every Semester 1 & 2 of the Academic Year (AY) after the official  release of the examination results (excluding Special Term 3 & 4).  2.  ISEP does not practice the Best Cap Calculation policy. All modules read will be used for the computation of the  students' CAP, unless the module(s) is graded as S/U or CS/CU.  3.  Students whose performance is under review by ISEP are required to read at least 1 module every semester.  4.  For students who fail to meet the CAP requirement of 3.80 for every semester, appropriate actions will be taken as  follows:  "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_6d97a8d8.png"
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_26e12fa8.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "2.  Credit transfer may be allowed for non-NUS modules that  have NOT been  used towards another degree (can be pre- taken during undergraduate study or from withdrawn or terminated graduate study), under the same conditions listed  for (1) above. However, the modules will not be counted towards CAP but will be reflected in the transcript as “Exempted  (EXE).”  "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "The module consists of a series of lectures and discussions/presentations that would provide students with an interdisciplinary  exposure and knowledge foundation for selected research areas/themes that are of prime importance to humankind, and where  interdisciplinary science and engineering are frequently practiced. Some of these areas are traditional strategic areas which  NUS have great research strength in, and others are emerging areas of intense interest. Each theme is taught and coordinated  by two instructors, who will contribute to different, yet complementary, perspectives of the theme. The areas/themes shall include  \"infectious agents and global pandemics\", \"Omics\", \"Renewable Energy\", \"Human-Computer Interactions\" and \"Environmental  problems/climate change\".   "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "For a module that extends beyond more than one semester, evaluation of a student’s performance is deferred until the  completion of the module.  The provisional grade of ‘IP’ is assigned in the intervening semesters.  This is replaced with the  final grade when the student completes the module.   "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_ec591d0a.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_fd4c0fac.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "The module equips students with the academic know-how to succeed in graduate school. Students shall be coached by  university experts on their academic writing and presentation skills and receive guidance on the process of scientific publication,  as well as to intellectual property and patent issues. Students shall participate in a two-day ethics workshop, where they will  analyze ethical issues and dilemmas associated with mentoring, authorship, conflicts of interest and dealing with ethically  sensitive research subjects.    "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "GS6001 (Research Ethics and Scientific Integrity)   4  MCs  (module taken prior to AY2021/2022 Sem 2) or  2 MCs  (module taken in AY2021/2022 Sem 2)  "
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Students are eligible for the 2 MCs and a “Compulsory Satisfactory  (CS)/Unsatisfactory (CU)” grading, subject to meeting all the criteria of the  module –  GS5101 Research Immersion Module , which include:   "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_2f4487b0.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_911a065c.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "A module may be graded on a ‘CS/CU’ basis, i.e., whether the module has been ‘Completed Satisfactorily’ (CS) or ‘Completed  Un satisfactorily’ (CU).  CS/CU modules are typically industrial attachment, internship or enrichment modules.  Modular credits  will be given for modules that are completed satisfactorily, although no grade point will be assigned.  A module is designated  ‘CS/CU’; unlike modules graded on an  $\\mathsf{S}/\\mathsf{U}$   basis, it is not an option.   "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "For modules which have been approved for exemption, they will count towards the 12 MCs (or 3 modules) which ISEP allows  for S/U modules.  For example, 2 modules have been approved for exemption, the student would only be allowed to read 1  more module on S/U grading basis.  "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "The module covers issues that any graduate student in science and engineering shall face at some point during their PhD  candidature and in their subsequent academic careers. Through lectures, discussions and presentations, students shall ponder  on and analyse ethical issues and dilemmas associated with data archival, mentoring, authorship, credit sharing and conflicts  of interest. They shall rational is e internationally sanctioned rules and regulations in dealing with ethically sensitive research  subjects. They shall be taught sensible and appropriate approaches in dealing with incidents of scientific misconduct, and how  ethical integrity should and could be maintained in spite of research intensity and competition.   "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_13376841.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_e5a85ebb.png"
+                        }
+                    }
+                ]
+            ]
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "The module code is GS5101, and it offers 2 modular credits.",
+                "The module code is GS6001, and it offers 4 or 2 modular credits.",
+                "The module code is GS6883A, and it offers 2 modular credits.",
+                "The module code is GS5002, and it offers 4 modular credits."
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [],
+            "image_evidence_assignment": [],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_lifestyle_others_travel_2e620799",
+                    "insert_conversation_turn": 1184,
+                    "reference_name": "Doc. 611537fb"
+                },
+                {
+                    "conversation_name": "group_chat_art_and_design_government_education_2aa4ac6f",
+                    "insert_conversation_turn": 910,
+                    "reference_name": "Doc. e3f996c3"
+                },
+                {
+                    "conversation_name": "group_chat_lifestyle_others_travel_2e620799",
+                    "insert_conversation_turn": 420,
+                    "reference_name": "Doc. 44e3be15"
+                }
+            ]
+        },
+        "meta_data": {
+            "category": "Brochure",
+            "doc_name": "ISEP_student_handbook_2020",
+            "gold_quotes": [
+                "text8",
+                "image1"
+            ],
+            "topic": [
+                "education"
+            ],
+            "original_question": "What is the module code for 'Research Ethics and Scientific Integrity' and how many modular credits does it offer?"
+        }
+    },
+    {
+        "id": "QA_sample_52822ff7",
+        "domain": "SlideVQA",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. df5ccb34, Fig. bd0efc73, What is the name of the segment that publishes web pages and uploads video to sites that are used for video sharing along with Vimeo?",
+        "answer": "Creators",
+        "evidence": {
+            "text_evidence": [],
+            "image_evidence": [
+                "SlideVQA_14a3ee5a_page_8.png",
+                "SlideVQA_14a3ee5a_page_10.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "Collectors",
+                "Critics",
+                "Creators",
+                "Joiners"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_lifestyle_others_travel_2e620799",
+                    "insert_conversation_turn": 837,
+                    "reference_name": "Fig. df5ccb34"
+                },
+                {
+                    "conversation_name": "group_chat_video_games_environment_business_80aaaa85",
+                    "insert_conversation_turn": 282,
+                    "reference_name": "Fig. bd0efc73"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "technology",
+                "education"
+            ],
+            "original_question": "What is the name of the segment that publishes web pages and uploads video to sites that are used for video sharing along with Vimeo?"
+        }
+    },
+    {
+        "id": "MMKE_da45",
+        "domain": "MMKE",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. 49895760, Who canonized the individual shown in the image in 1998?",
+        "answer": "Pope Benedict XVI",
+        "evidence": {
+            "text_evidence": [
+                "The human in the image corresponds to Aloysius Stepinac. Aloysius Viktor Stepinac (8 May 1898 – 10 February 1960) was a high-ranking Croatian prelate of the Catholic Church. Made a cardinal in 1953, he served as Archbishop of Split from 1937 until his death. After World War II, the communist Yugoslav government convicted him of espionage. He was sentenced to 20 years but served only six. He became a cardinal in 1953 but couldn't attend the 1958 conclave due to travel restrictions. Stepinac died in 1960 and was canonized by Pope Benedict XVI in 1998."
+            ],
+            "image_evidence": [
+                "MMKE_76e5a467fbad453d.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Aloysius Viktor Stepinac (8 May 1898 – 10 February 1960) was a high-ranking Croatian prelate of the Catholic Church. Made a cardinal in 1953, he served as Archbishop of Zagreb from 1937 until his death, including during the fascist Ustaše regime from 1941 to 1945. \n\nAfter World War II, the communist Yugoslav government convicted him of treason and collaboration. Western observers called it a \"show trial,\" while some, like John Van Antwerp Fine Jr., believed proper procedures were followed. The trial's verdict was controversial, finding Stepinac guilty of high treason for collaborating with the Ustaše and complicity in forced conversions of Orthodox Serbs to Catholicism.\n\nStepinac advised priests to accept conversions to protect lives, later allowing return to their faith. He was sentenced to 16 years but served only five. He became a cardinal in 1953 but couldn't attend the 1958 conclave due to travel restrictions. Stepinac died in 1960 and was beatified by Pope John Paul II in 1998. His role during WWII and his beatification remain controversial, with differing views on his actions and legacy. His post-war conviction was annulled in 2016."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Pope Benedict XVI",
+                "Pope Francis",
+                "Pope John Paul II",
+                "Pope Pius XII"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_lifestyle_others_travel_2e620799",
+                    "insert_conversation_turn": 622
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_video_games_environment_business_80aaaa85",
+                    "insert_conversation_turn": 1205,
+                    "reference_name": "Fig. 49895760"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_art_and_design_government_education_2aa4ac6f",
+                    "insert_conversation_turn": 895
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "religion",
+                " history"
+            ],
+            "original_question": "Who canonized the individual shown in the image in 1998?"
+        }
+    },
+    {
+        "id": "a90b62dc",
+        "domain": "MMDocRAG",
+        "category": "Single_Hop_QA",
+        "question": "Based on Doc. 47423660, Doc. 63378a8c, Doc. 95685135, Among the top 10 reasons why NTU smart campus is for you, which is the reason that does not include any person in the corresponding figure?",
+        "answer": "Most Beautiful Campus",
+        "evidence": {
+            "text_evidence": [],
+            "image_evidence": [],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": [
+                [
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Have a passion in drone-making, fine culinary skills, or  develop collaborative skills? RE@NTU’s wealth of interaction  and knowledge exchange opportunities with students from  around the world is sure to make your residential life both  educational and enjoyable! "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Being able to go on this journey with like-minded  individuals has been profoundly heartening. And it  has motivated me to work with my peers to improve  the mental health space for students at NTU. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Unlock your full potential by joining  one of the world’s most prestigious  Engineering colleges. The College  of Engineering in NTU offers a  topnotch curriculum, a host of  internship opportunities and a Global  Immersion programme crafted to  broaden your perspective and equip  you for a successful career. "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_c5dcb466.png"
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_39dc2141.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "NTU has been a springboard for my growth as a  student leader. Through the Student Leadership  Development Programme, Varsity Sports  Association and FISU World Forum, NTU has  equipped me with the leadership skills necessary  to succeed both in my sport and beyond.\n\n "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "NTU provides student accommodation across our 25 Halls  of Residence. More than just living spaces, our Halls provide  ideal spaces for character building, fruitful interactions and  cultural exchange.\n\n "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "The NIE faculty and facilities have been instrumental in shaping  my university experience. The cutting-edge laboratories provide  top-notch resources that enhance the quality of my education.  Collaborating with dedicated peers who share a passion for  our field of study makes my time at college substantially  more rewarding. The combination of excellent facilities and a  supportive community at NIE have significantly enriched my  academic journey.” "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_afdbdb76.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_08cf59cb.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Listed among the most beautiful university campuses  around the world, NTU Smart Campus utilises tomorrow’s  technologies to create a vibrant, convenient and  sustainable environment for learning and living. GREEN & SUSTAINABLE   Enjoy being in one of the most resource-efficient,  eco-friendly campuses in the world IMMERSIVE LEARNING   Enhance your learning through flipped  classrooms, digital study tools and other  innovative learning methods ALL-IN-ONE CONVENIENCE Use your Smart Pass as a matriculation card,  cash-free payment and digital key for your  campus residence "
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "2 TOP 10 REASONS WHY NTU SMART  CAMPUS IS FOR YOU "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "NTU has allowed me to pursue my two passions:  academics and athletics. From letting me  participate in competitions to offering generous  subsidies to giving encouragement, I really feel  grateful for the school’s the tremendous support.\n\n — GRACE CHUA HUI ZHEN\n\n      Medicine, Class of 2023 "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_ee60bab7.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_70f5f32b.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "At NTU, we prioritise more than mere academic scores. Our Aptitude-Based Admissions  (ABA) emphasise your passions, talents, and accomplishments that extend beyond  academics. If you possess outstanding abilities or achievements, we’re eager to learn  about your learning journey. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "At NTU, the possibilities are endless when it comes to your  pursuit of becoming the best version of yourself. Being in  one of the world’s highly-recognised, research-intensive,  diversity-embracing universities, you will: "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "NTU adopts a campus community approach to student  support and care, which entails departments, offices,  schools, and halls working closely together to address the  wellbeing needs of everyone on campus. "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_5b581b42.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_83eabf51.png"
+                        }
+                    }
+                ]
+            ]
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "Immersion in Research",
+                "Space to Innovate",
+                "Most Beautiful Campus",
+                "Global Exposure"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [],
+            "image_evidence_assignment": [],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_lifestyle_others_travel_2e620799",
+                    "insert_conversation_turn": 202,
+                    "reference_name": "Doc. 47423660"
+                },
+                {
+                    "conversation_name": "group_chat_art_and_design_government_education_2aa4ac6f",
+                    "insert_conversation_turn": 550,
+                    "reference_name": "Doc. 63378a8c"
+                },
+                {
+                    "conversation_name": "group_chat_video_games_environment_business_80aaaa85",
+                    "insert_conversation_turn": 786,
+                    "reference_name": "Doc. 95685135"
+                }
+            ]
+        },
+        "meta_data": {
+            "category": "Brochure",
+            "doc_name": "2024.ug.eprospectus",
+            "gold_quotes": [
+                "text7",
+                "image1"
+            ],
+            "topic": [
+                "education",
+                " architecture",
+                " lifestyle"
+            ],
+            "original_question": "Among the top 10 reasons why NTU smart campus is for you, which is the reason that does not include any person in the corresponding figure?"
+        }
+    },
+    {
+        "id": "QA_sample_2b4893bb",
+        "domain": "SlideVQA",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 455e30ad, Fig. 238ada56, What is the name of Mishael in the language of the empire of Nebuchadnezzar?",
+        "answer": "Meshach",
+        "evidence": {
+            "text_evidence": [],
+            "image_evidence": [
+                "SlideVQA_abe729ea_page_5.png",
+                "SlideVQA_abe729ea_page_16.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "Abed-Nego",
+                "Shadrach",
+                "Belteshazzar",
+                "Meshach"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_art_and_design_government_education_2aa4ac6f",
+                    "insert_conversation_turn": 487,
+                    "reference_name": "Fig. 455e30ad"
+                },
+                {
+                    "conversation_name": "group_chat_video_games_environment_business_80aaaa85",
+                    "insert_conversation_turn": 106,
+                    "reference_name": "Fig. 238ada56"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "religion"
+            ],
+            "original_question": "What is the name of Mishael in the language of the empire of Nebuchadnezzar?"
+        }
+    },
+    {
+        "id": "QA_sample_5f42a925",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 6b2dd1f4, the text's definition, which news source(s), if any, have an audience with an average ideological placement within the \"moderately conservative stance\" range suitable for the campaign?",
+        "answer": "Fox News.",
+        "evidence": {
+            "text_evidence": [
+                "A hypothetical new political campaign aims to target audiences with a moderately conservative stance, defined as having an ideological placement between +3 to +5 on the scale. Any news source's audience with an average ideological placement within this range is considered suitable for the campaign's focus."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_6f8a21e7.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "Breitbart",
+                "Rush Limbaugh Show",
+                "Drudge Report",
+                "Fox News."
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_video_games_environment_business_80aaaa85",
+                    "insert_conversation_turn": 955
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_lifestyle_others_travel_2e620799",
+                    "insert_conversation_turn": 29,
+                    "reference_name": "Fig. 6b2dd1f4"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "politics",
+                "government"
+            ],
+            "original_question": "the text's definition, which news source(s), if any, have an audience with an average ideological placement within the \"moderately conservative stance\" range suitable for the campaign?"
+        }
+    },
+    {
+        "id": "QA_sample_78cbfd78",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. ae4118bb, the criteria provided, during which months does Clinton demonstrate a strategically significant lead over Trump according to the graph?",
+        "answer": "February and March",
+        "evidence": {
+            "text_evidence": [
+                "A candidate's lead in polls can be considered strategically significant if it exceeds 5% for two or more consecutive months. This helps evaluate consistent voter preferences. Analyze the patterns shown to determine if such strategic significance emerges within a specific timeframe."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_e312e31d.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "April and May",
+                "June and July",
+                "January and February",
+                "February and March"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_art_and_design_government_education_2aa4ac6f",
+                    "insert_conversation_turn": 1083
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_video_games_environment_business_80aaaa85",
+                    "insert_conversation_turn": 252,
+                    "reference_name": "Fig. ae4118bb"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "politics"
+            ],
+            "original_question": "the criteria provided, during which months does Clinton demonstrate a strategically significant lead over Trump according to the graph?"
+        }
+    },
+    {
+        "id": "QA_sample_06bb8e05",
+        "domain": "SlideVQA",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 480efe6d, Fig. 1e66321e, What are two examples of surfaces that make waves bounce back towards you?",
+        "answer": "shiny object, mirror",
+        "evidence": {
+            "text_evidence": [],
+            "image_evidence": [
+                "SlideVQA_7579a730_page_8.png",
+                "SlideVQA_7579a730_page_9.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "clear plastic, smooth stone",
+                "rough metal, whiteboard",
+                "polished wood, frosted glass",
+                "shiny object, mirror"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_video_games_environment_business_80aaaa85",
+                    "insert_conversation_turn": 1161,
+                    "reference_name": "Fig. 480efe6d"
+                },
+                {
+                    "conversation_name": "group_chat_lifestyle_others_travel_2e620799",
+                    "insert_conversation_turn": 134,
+                    "reference_name": "Fig. 1e66321e"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "science",
+                "education"
+            ],
+            "original_question": "What are two examples of surfaces that make waves bounce back towards you?"
+        }
+    },
+    {
+        "id": "2b137e0f",
+        "domain": "MMDocRAG",
+        "category": "Single_Hop_QA",
+        "question": "Based on Doc. aa405101, Doc. 4ff47378, Doc. ab0c69a9, Doc. 73e0f285, What are the main stages of the cell cycle and their sub-phases?",
+        "answer": "The main stages of the cell cycle are Interphase and Mitotic Phase, with sub-phases G1, S, G2, Mitosis, and Cytokinesis.",
+        "evidence": {
+            "text_evidence": [
+                "·The cell cycle is an ordered sequence of events for cell division It consists of two stages "
+            ],
+            "image_evidence": [],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": [
+                [
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Chromosomes duplicate during the S phase Nucleoli,sites of ribosome assembly,arevisible "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Interphase:duplication of cell contents G1:growth,increase in cytoplasm S:duplication of chromosomes G2:growth,preparation for division "
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "The eukaryotic cell cycle "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_21bb6458.png"
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_11f4b874.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Mitotic phase:divisi Mitosis:division of the nucleus Cytokinesis:division of cytoplasm "
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "-A single circular chromosome duplicates,and the copies begin to separate from each other The cell elongates,and the chromosomal copies separate further The plasma membrane grows inward at the midpoint to divide the cells "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_7817e021.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_b91cbd75.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "-Chromosomes duplicate during the S phase Unlike mitosis,meiosis has two divisions "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "To prepare for division,the chromatin becomes highly compact,and the chromosomes are visible with a microscope -Early in the division process,chromosomes duplicate Each chromosome appears as two sister chromatids, containing identical DNA molecules Sister chromatids are joined at the centromere,anarrow region "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Like mitosis,meiosis is preceded by interphase "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_bf7d950f.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_fdee279d.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "-Occurs in prokaryotic cells  $-$  Two identical cells arise from one cell -Steps in the process: "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "8.5 The cell cycle multiplies cells "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "THE EUKARYOTIC CELL CYCLE AND MITOSIS "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_69577b9a.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_20ef7f68.png"
+                        }
+                    }
+                ]
+            ]
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "The main stages of the cell cycle are Interphase and Division Phase, with sub-phases G1, S, G2, Prophase, and Telophase",
+                "The main stages of the cell cycle are Interphase and Mitotic Phase, with sub-phases G1, S, G2, Mitosis, and Cytokinesis.",
+                "The main stages of the cell cycle are Interphase and M Phase, with sub-phases G1, S, G2, Metaphase, and Cytokinesis",
+                "The main stages of the cell cycle are Growth Phase and Mitotic Phase, with sub-phases G1, S, G2, Anaphase, and Cytokinesis"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_video_games_environment_business_80aaaa85",
+                    "insert_conversation_turn": 1064
+                }
+            ],
+            "image_evidence_assignment": [],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_lifestyle_others_travel_2e620799",
+                    "insert_conversation_turn": 945,
+                    "reference_name": "Doc. aa405101"
+                },
+                {
+                    "conversation_name": "group_chat_lifestyle_others_travel_2e620799",
+                    "insert_conversation_turn": 969,
+                    "reference_name": "Doc. 4ff47378"
+                },
+                {
+                    "conversation_name": "group_chat_art_and_design_government_education_2aa4ac6f",
+                    "insert_conversation_turn": 881,
+                    "reference_name": "Doc. ab0c69a9"
+                },
+                {
+                    "conversation_name": "group_chat_video_games_environment_business_80aaaa85",
+                    "insert_conversation_turn": 167,
+                    "reference_name": "Doc. 73e0f285"
+                }
+            ]
+        },
+        "meta_data": {
+            "category": "Tutorial/Workshop",
+            "doc_name": "chapter8-geneticscompatibilitymode-141214140247-conversion-gate02_95",
+            "gold_quotes": [
+                "text5",
+                "text4",
+                "text2",
+                "image1"
+            ],
+            "topic": [
+                "science",
+                "education"
+            ],
+            "original_question": "What are the main stages of the cell cycle and their sub-phases?"
+        }
+    },
+    {
+        "id": "QA_sample_c8249983",
+        "domain": "SlideVQA",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. e2df8cdd, Fig. cff88055, How many kinds of Business Intelligence Competence Center Key Skills are there?",
+        "answer": "3",
+        "evidence": {
+            "text_evidence": [],
+            "image_evidence": [
+                "SlideVQA_510074e0_page_4.png",
+                "SlideVQA_510074e0_page_8.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "5",
+                "2",
+                "3",
+                "4"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_art_and_design_government_education_2aa4ac6f",
+                    "insert_conversation_turn": 31,
+                    "reference_name": "Fig. e2df8cdd"
+                },
+                {
+                    "conversation_name": "group_chat_video_games_environment_business_80aaaa85",
+                    "insert_conversation_turn": 761,
+                    "reference_name": "Fig. cff88055"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "business",
+                "technology",
+                "education"
+            ],
+            "original_question": "How many kinds of Business Intelligence Competence Center Key Skills are there?"
+        }
+    },
+    {
+        "id": "QA_sample_84d7f62d_1",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. d4443fb2, Among the activities that could reasonably occur in the given image, which one is Jaliyah Gamble least likely to be doing?",
+        "answer": "Watching opera shows",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Jaliyah Gamble enjoys science fiction movies, animated films, but dislikes opera shows, ballet performances"
+            ],
+            "image_evidence": [
+                "MMPB_e907fbc8.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Jaliyah Gamble enjoys mountain climbing, theme park visits, but dislikes historical site tours, food tours",
+                "In terms of lifestyle, Jaliyah Gamble enjoys plant-based diet, home cooking, but dislikes boxing workouts, rock climbing gyms",
+                "In terms of shopping, Jaliyah Gamble enjoys handmade candles, ceramic pottery, but dislikes handwoven rugs, fancy cutlery sets",
+                "In terms of fashion, Jaliyah Gamble enjoys techwear, cyberpunk aesthetics, but dislikes futuristic fashion, gothic clothing."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "Attending symphony concerts",
+                "Enjoying live band performances",
+                "Watching opera shows",
+                "Enjoying food tours"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_lifestyle_others_travel_2e620799",
+                    "insert_conversation_turn": 80
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_lifestyle_others_travel_2e620799",
+                    "insert_conversation_turn": 345,
+                    "reference_name": "Fig. d4443fb2"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_art_and_design_government_education_2aa4ac6f",
+                    "insert_conversation_turn": 663
+                },
+                {
+                    "conversation_name": "group_chat_lifestyle_others_travel_2e620799",
+                    "insert_conversation_turn": 206
+                },
+                {
+                    "conversation_name": "group_chat_art_and_design_government_education_2aa4ac6f",
+                    "insert_conversation_turn": 1009
+                },
+                {
+                    "conversation_name": "group_chat_art_and_design_government_education_2aa4ac6f",
+                    "insert_conversation_turn": 995
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "donghailinxizi",
+            "description": "donghailinxizi is a woman with a slender build and a medium height impression. Her facial structure is characterized by a well-defined jawline and a slightly pointed chin, with a fair skin tone that appears smooth and even. Her hair is consistently styled in a shoulder-length, wavy cut, which frames her face and adds a touch of softness to her overall appearance. donghailinxizi's eyebrows are thick and well-groomed, and her eyes are expressive, often conveying a sense of focus or contemplation. Her lips are naturally full, and she frequently appears with a neutral or slightly serious expression, suggesting a thoughtful or analytical demeanor.\n\n**Outfit and Accessories:**\ndonghailinxizi's attire is professional and practical, often featuring a lab coat or a blazer, indicating her involvement in a scientific or corporate environment. The color palette of her clothing is predominantly neutral, with shades of white, gray, and navy blue, complemented by a striped top in one image. The textures of her clothing appear smooth and tailored, suggesting a blend of functionality and style. In one scene, she is seen holding a tablet, indicating her engagement with technology. Her accessories are minimal but significant, including a delicate necklace and hoop earrings, which add a touch of elegance to her professional look. The presence of a logo on her lab coat and blazer suggests affiliation with a specific organization, adding to her professional identity.\n\n**Distinguishing Visual Features or Vibe:**\ndonghailinxizi exudes a composed and intelligent aura, characterized by her focused gaze and thoughtful expressions. Her consistent hairstyle and professional attire create a cohesive visual identity, while her subtle accessories add a touch of personal style. The recurring presence of a lab coat and blazer, along with the logo, emphasizes her professional role and affiliation. The setting in a laboratory or office environment further reinforces her professional demeanor. Overall, donghailinxizi's visual presence is marked by a blend of professionalism, intelligence, and a subtle elegance, making her a memorable and distinctive figure.",
+            "preference": "In terms of entertainment, donghailinxizi enjoys science fiction movies, animated films, but dislikes opera shows, ballet performances. In terms of travel, donghailinxizi enjoys mountain climbing, theme park visits, but dislikes historical site tours, food tours. In terms of lifestyle, donghailinxizi enjoys plant-based diet, home cooking, but dislikes boxing workouts, rock climbing gyms. In terms of shopping, donghailinxizi enjoys handmade candles, ceramic pottery, but dislikes handwoven rugs, fancy cutlery sets. In terms of fashion, donghailinxizi enjoys techwear, cyberpunk aesthetics, but dislikes futuristic fashion, gothic clothing.",
+            "topic": [],
+            "original_id": "QA_sample_84d7f62d_1_1",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Jaliyah Gamble least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_84d7f62d_2",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 84cc15b6, the image, what is Jaliyah Gamble most likely to be doing?",
+        "answer": "Searching for science fiction movies",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Jaliyah Gamble enjoys science fiction movies, animated films, but dislikes opera shows, ballet performances"
+            ],
+            "image_evidence": [
+                "MMPB_2d99653f.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Jaliyah Gamble enjoys mountain climbing, theme park visits, but dislikes historical site tours, food tours",
+                "In terms of lifestyle, Jaliyah Gamble enjoys plant-based diet, home cooking, but dislikes boxing workouts, rock climbing gyms",
+                "In terms of shopping, Jaliyah Gamble enjoys handmade candles, ceramic pottery, but dislikes handwoven rugs, fancy cutlery sets",
+                "In terms of fashion, Jaliyah Gamble enjoys techwear, cyberpunk aesthetics, but dislikes futuristic fashion, gothic clothing."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Exploring drama series",
+                "Searching for science fiction movies",
+                "Buying ceramic pottery",
+                "Browsing for action thrillers"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_lifestyle_others_travel_2e620799",
+                    "insert_conversation_turn": 80
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_video_games_environment_business_80aaaa85",
+                    "insert_conversation_turn": 194,
+                    "reference_name": "Fig. 84cc15b6"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_art_and_design_government_education_2aa4ac6f",
+                    "insert_conversation_turn": 663
+                },
+                {
+                    "conversation_name": "group_chat_lifestyle_others_travel_2e620799",
+                    "insert_conversation_turn": 206
+                },
+                {
+                    "conversation_name": "group_chat_art_and_design_government_education_2aa4ac6f",
+                    "insert_conversation_turn": 1009
+                },
+                {
+                    "conversation_name": "group_chat_art_and_design_government_education_2aa4ac6f",
+                    "insert_conversation_turn": 995
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "donghailinxizi",
+            "description": "donghailinxizi is a woman with a slender build and a medium height impression. Her facial structure is characterized by a well-defined jawline and a slightly pointed chin, with a fair skin tone that appears smooth and even. Her hair is consistently styled in a shoulder-length, wavy cut, which frames her face and adds a touch of softness to her overall appearance. donghailinxizi's eyebrows are thick and well-groomed, and her eyes are expressive, often conveying a sense of focus or contemplation. Her lips are naturally full, and she frequently appears with a neutral or slightly serious expression, suggesting a thoughtful or analytical demeanor.\n\n**Outfit and Accessories:**\ndonghailinxizi's attire is professional and practical, often featuring a lab coat or a blazer, indicating her involvement in a scientific or corporate environment. The color palette of her clothing is predominantly neutral, with shades of white, gray, and navy blue, complemented by a striped top in one image. The textures of her clothing appear smooth and tailored, suggesting a blend of functionality and style. In one scene, she is seen holding a tablet, indicating her engagement with technology. Her accessories are minimal but significant, including a delicate necklace and hoop earrings, which add a touch of elegance to her professional look. The presence of a logo on her lab coat and blazer suggests affiliation with a specific organization, adding to her professional identity.\n\n**Distinguishing Visual Features or Vibe:**\ndonghailinxizi exudes a composed and intelligent aura, characterized by her focused gaze and thoughtful expressions. Her consistent hairstyle and professional attire create a cohesive visual identity, while her subtle accessories add a touch of personal style. The recurring presence of a lab coat and blazer, along with the logo, emphasizes her professional role and affiliation. The setting in a laboratory or office environment further reinforces her professional demeanor. Overall, donghailinxizi's visual presence is marked by a blend of professionalism, intelligence, and a subtle elegance, making her a memorable and distinctive figure.",
+            "preference": "In terms of entertainment, donghailinxizi enjoys science fiction movies, animated films, but dislikes opera shows, ballet performances. In terms of travel, donghailinxizi enjoys mountain climbing, theme park visits, but dislikes historical site tours, food tours. In terms of lifestyle, donghailinxizi enjoys plant-based diet, home cooking, but dislikes boxing workouts, rock climbing gyms. In terms of shopping, donghailinxizi enjoys handmade candles, ceramic pottery, but dislikes handwoven rugs, fancy cutlery sets. In terms of fashion, donghailinxizi enjoys techwear, cyberpunk aesthetics, but dislikes futuristic fashion, gothic clothing.",
+            "topic": [],
+            "original_id": "QA_sample_84d7f62d_2_1",
+            "original_question": "the image, what is Jaliyah Gamble most likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_84d7f62d_3",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 2c70732d, Among the activities that could reasonably occur in the given image, which one is Jaliyah Gamble least likely to be doing?",
+        "answer": "Attending opera shows",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Jaliyah Gamble enjoys science fiction movies, animated films, but dislikes opera shows, ballet performances"
+            ],
+            "image_evidence": [
+                "MMPB_9ab3a64b.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Jaliyah Gamble enjoys mountain climbing, theme park visits, but dislikes historical site tours, food tours",
+                "In terms of lifestyle, Jaliyah Gamble enjoys plant-based diet, home cooking, but dislikes boxing workouts, rock climbing gyms",
+                "In terms of shopping, Jaliyah Gamble enjoys handmade candles, ceramic pottery, but dislikes handwoven rugs, fancy cutlery sets",
+                "In terms of fashion, Jaliyah Gamble enjoys techwear, cyberpunk aesthetics, but dislikes futuristic fashion, gothic clothing."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Attending opera shows",
+                "Enjoying theater performances",
+                "Buying gothic clothing",
+                "Watching live stage shows"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_lifestyle_others_travel_2e620799",
+                    "insert_conversation_turn": 80
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_video_games_environment_business_80aaaa85",
+                    "insert_conversation_turn": 581,
+                    "reference_name": "Fig. 2c70732d"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_art_and_design_government_education_2aa4ac6f",
+                    "insert_conversation_turn": 663
+                },
+                {
+                    "conversation_name": "group_chat_lifestyle_others_travel_2e620799",
+                    "insert_conversation_turn": 206
+                },
+                {
+                    "conversation_name": "group_chat_art_and_design_government_education_2aa4ac6f",
+                    "insert_conversation_turn": 1009
+                },
+                {
+                    "conversation_name": "group_chat_art_and_design_government_education_2aa4ac6f",
+                    "insert_conversation_turn": 995
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "donghailinxizi",
+            "description": "donghailinxizi is a woman with a slender build and a medium height impression. Her facial structure is characterized by a well-defined jawline and a slightly pointed chin, with a fair skin tone that appears smooth and even. Her hair is consistently styled in a shoulder-length, wavy cut, which frames her face and adds a touch of softness to her overall appearance. donghailinxizi's eyebrows are thick and well-groomed, and her eyes are expressive, often conveying a sense of focus or contemplation. Her lips are naturally full, and she frequently appears with a neutral or slightly serious expression, suggesting a thoughtful or analytical demeanor.\n\n**Outfit and Accessories:**\ndonghailinxizi's attire is professional and practical, often featuring a lab coat or a blazer, indicating her involvement in a scientific or corporate environment. The color palette of her clothing is predominantly neutral, with shades of white, gray, and navy blue, complemented by a striped top in one image. The textures of her clothing appear smooth and tailored, suggesting a blend of functionality and style. In one scene, she is seen holding a tablet, indicating her engagement with technology. Her accessories are minimal but significant, including a delicate necklace and hoop earrings, which add a touch of elegance to her professional look. The presence of a logo on her lab coat and blazer suggests affiliation with a specific organization, adding to her professional identity.\n\n**Distinguishing Visual Features or Vibe:**\ndonghailinxizi exudes a composed and intelligent aura, characterized by her focused gaze and thoughtful expressions. Her consistent hairstyle and professional attire create a cohesive visual identity, while her subtle accessories add a touch of personal style. The recurring presence of a lab coat and blazer, along with the logo, emphasizes her professional role and affiliation. The setting in a laboratory or office environment further reinforces her professional demeanor. Overall, donghailinxizi's visual presence is marked by a blend of professionalism, intelligence, and a subtle elegance, making her a memorable and distinctive figure.",
+            "preference": "In terms of entertainment, donghailinxizi enjoys science fiction movies, animated films, but dislikes opera shows, ballet performances. In terms of travel, donghailinxizi enjoys mountain climbing, theme park visits, but dislikes historical site tours, food tours. In terms of lifestyle, donghailinxizi enjoys plant-based diet, home cooking, but dislikes boxing workouts, rock climbing gyms. In terms of shopping, donghailinxizi enjoys handmade candles, ceramic pottery, but dislikes handwoven rugs, fancy cutlery sets. In terms of fashion, donghailinxizi enjoys techwear, cyberpunk aesthetics, but dislikes futuristic fashion, gothic clothing.",
+            "topic": [],
+            "original_id": "QA_sample_84d7f62d_3_1",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Jaliyah Gamble least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_054965d0_1",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. e4372d99, Among the activities that could reasonably occur in the given image, which one is Briley Hanson least likely to be doing?",
+        "answer": "Watching cooking shows",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Briley Hanson enjoys theater performances, film festivals, but dislikes cooking shows, travel vlogs",
+                "In terms of travel, Briley Hanson enjoys cruise vacations, solo travel, but dislikes motorbiking trips, rafting"
+            ],
+            "image_evidence": [
+                "MMPB_2d99653f.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of lifestyle, Briley Hanson enjoys bullet journaling, reading before bed, but dislikes essential oils, aromatherapy",
+                "In terms of shopping, Briley Hanson enjoys robot vacuums, wearable tech, but dislikes sportswear, high-end perfumes",
+                "In terms of fashion, Briley Hanson enjoys functional fashion, trendy sunglasses, but dislikes statement jewelry, minimalist rings."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "Rafting",
+                "Watching sports events",
+                "Streaming live concerts",
+                "Watching cooking shows"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_art_and_design_government_education_2aa4ac6f",
+                    "insert_conversation_turn": 967
+                },
+                {
+                    "conversation_name": "group_chat_lifestyle_others_travel_2e620799",
+                    "insert_conversation_turn": 227
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_video_games_environment_business_80aaaa85",
+                    "insert_conversation_turn": 194,
+                    "reference_name": "Fig. e4372d99"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_lifestyle_others_travel_2e620799",
+                    "insert_conversation_turn": 1119
+                },
+                {
+                    "conversation_name": "group_chat_video_games_environment_business_80aaaa85",
+                    "insert_conversation_turn": 1112
+                },
+                {
+                    "conversation_name": "group_chat_video_games_environment_business_80aaaa85",
+                    "insert_conversation_turn": 409
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Zhuyun",
+            "description": "Zhuyun is a young woman with a slender build and an average height impression. Her facial structure is delicate, featuring a prominent jawline and a slightly pointed chin. She has a fair skin tone and expressive eyes, which are often the focal point of her expressions. Zhuyun's hair is long and dark, styled in various ways across the images, including loose waves, a bun, and a towel wrapped around her head. Her eyebrows are well-defined, and she often has a contemplative or slightly surprised expression, with her mouth slightly open as if caught in mid-speech or thought.\n\n**Outfit and Accessories:**\nZhuyun's attire is diverse, reflecting different settings and moods. She is seen wearing a white blouse with a black ribbon tie, a light-colored jacket, and a striped shirt paired with a denim jacket. The color palette of her outfits is neutral, with whites, blacks, and light tones dominating. Her clothing appears practical and comfortable, with a touch of formality in the blouse. Accessories include a small earring and a hair clip, adding subtle details to her look. The outfits suggest a blend of casual and semi-formal styles, suitable for various occasions.\n\n**Distinguishing Visual Features or Vibe:**\nZhuyun exudes a youthful and approachable vibe, characterized by her expressive eyes and varied hairstyles. The recurring theme of her outfits is a mix of simplicity and elegance, with a focus on neutral colors and practical designs. Her presence is marked by a sense of curiosity and engagement, as seen in her expressions and the way she holds a smartphone in one of the images. The overall impression is of a thoughtful and adaptable individual, comfortable in both casual and slightly formal settings.",
+            "preference": "In terms of entertainment, Zhuyun enjoys theater performances, film festivals, but dislikes cooking shows, travel vlogs. In terms of travel, Zhuyun enjoys cruise vacations, solo travel, but dislikes motorbiking trips, rafting. In terms of lifestyle, Zhuyun enjoys bullet journaling, reading before bed, but dislikes essential oils, aromatherapy. In terms of shopping, Zhuyun enjoys robot vacuums, wearable tech, but dislikes sportswear, high-end perfumes. In terms of fashion, Zhuyun enjoys functional fashion, trendy sunglasses, but dislikes statement jewelry, minimalist rings.",
+            "topic": [],
+            "original_id": "QA_sample_054965d0_1_1",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Briley Hanson least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_054965d0_2",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 2cf1cbef, the image, what is Briley Hanson most likely to be doing?",
+        "answer": "Watching a film festival broadcast",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Briley Hanson enjoys theater performances, film festivals, but dislikes cooking shows, travel vlogs",
+                "In terms of travel, Briley Hanson enjoys cruise vacations, solo travel, but dislikes motorbiking trips, rafting"
+            ],
+            "image_evidence": [
+                "MMPB_6f052249.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of lifestyle, Briley Hanson enjoys bullet journaling, reading before bed, but dislikes essential oils, aromatherapy",
+                "In terms of shopping, Briley Hanson enjoys robot vacuums, wearable tech, but dislikes sportswear, high-end perfumes",
+                "In terms of fashion, Briley Hanson enjoys functional fashion, trendy sunglasses, but dislikes statement jewelry, minimalist rings."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "Watching a live theater show",
+                "Viewing a magic festival online",
+                "Watching a film festival broadcast",
+                "Observing a movie marathon on cable"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_art_and_design_government_education_2aa4ac6f",
+                    "insert_conversation_turn": 967
+                },
+                {
+                    "conversation_name": "group_chat_lifestyle_others_travel_2e620799",
+                    "insert_conversation_turn": 227
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_video_games_environment_business_80aaaa85",
+                    "insert_conversation_turn": 156,
+                    "reference_name": "Fig. 2cf1cbef"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_lifestyle_others_travel_2e620799",
+                    "insert_conversation_turn": 1119
+                },
+                {
+                    "conversation_name": "group_chat_video_games_environment_business_80aaaa85",
+                    "insert_conversation_turn": 1112
+                },
+                {
+                    "conversation_name": "group_chat_video_games_environment_business_80aaaa85",
+                    "insert_conversation_turn": 409
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Zhuyun",
+            "description": "Zhuyun is a young woman with a slender build and an average height impression. Her facial structure is delicate, featuring a prominent jawline and a slightly pointed chin. She has a fair skin tone and expressive eyes, which are often the focal point of her expressions. Zhuyun's hair is long and dark, styled in various ways across the images, including loose waves, a bun, and a towel wrapped around her head. Her eyebrows are well-defined, and she often has a contemplative or slightly surprised expression, with her mouth slightly open as if caught in mid-speech or thought.\n\n**Outfit and Accessories:**\nZhuyun's attire is diverse, reflecting different settings and moods. She is seen wearing a white blouse with a black ribbon tie, a light-colored jacket, and a striped shirt paired with a denim jacket. The color palette of her outfits is neutral, with whites, blacks, and light tones dominating. Her clothing appears practical and comfortable, with a touch of formality in the blouse. Accessories include a small earring and a hair clip, adding subtle details to her look. The outfits suggest a blend of casual and semi-formal styles, suitable for various occasions.\n\n**Distinguishing Visual Features or Vibe:**\nZhuyun exudes a youthful and approachable vibe, characterized by her expressive eyes and varied hairstyles. The recurring theme of her outfits is a mix of simplicity and elegance, with a focus on neutral colors and practical designs. Her presence is marked by a sense of curiosity and engagement, as seen in her expressions and the way she holds a smartphone in one of the images. The overall impression is of a thoughtful and adaptable individual, comfortable in both casual and slightly formal settings.",
+            "preference": "In terms of entertainment, Zhuyun enjoys theater performances, film festivals, but dislikes cooking shows, travel vlogs. In terms of travel, Zhuyun enjoys cruise vacations, solo travel, but dislikes motorbiking trips, rafting. In terms of lifestyle, Zhuyun enjoys bullet journaling, reading before bed, but dislikes essential oils, aromatherapy. In terms of shopping, Zhuyun enjoys robot vacuums, wearable tech, but dislikes sportswear, high-end perfumes. In terms of fashion, Zhuyun enjoys functional fashion, trendy sunglasses, but dislikes statement jewelry, minimalist rings.",
+            "topic": [],
+            "original_id": "QA_sample_054965d0_2_1",
+            "original_question": "the image, what is Briley Hanson most likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_054965d0_3",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. cb77d8cb, Among the activities that could reasonably occur in the given image, which one is Briley Hanson least likely to be doing?",
+        "answer": "Watching cooking shows",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Briley Hanson enjoys theater performances, film festivals, but dislikes cooking shows, travel vlogs",
+                "In terms of travel, Briley Hanson enjoys cruise vacations, solo travel, but dislikes motorbiking trips, rafting"
+            ],
+            "image_evidence": [
+                "MMPB_28b712ad.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of lifestyle, Briley Hanson enjoys bullet journaling, reading before bed, but dislikes essential oils, aromatherapy",
+                "In terms of shopping, Briley Hanson enjoys robot vacuums, wearable tech, but dislikes sportswear, high-end perfumes",
+                "In terms of fashion, Briley Hanson enjoys functional fashion, trendy sunglasses, but dislikes statement jewelry, minimalist rings."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "Streaming fashion shows",
+                "Rafting",
+                "Watching magic shows",
+                "Watching cooking shows"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_art_and_design_government_education_2aa4ac6f",
+                    "insert_conversation_turn": 967
+                },
+                {
+                    "conversation_name": "group_chat_lifestyle_others_travel_2e620799",
+                    "insert_conversation_turn": 227
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_lifestyle_others_travel_2e620799",
+                    "insert_conversation_turn": 584,
+                    "reference_name": "Fig. cb77d8cb"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_lifestyle_others_travel_2e620799",
+                    "insert_conversation_turn": 1119
+                },
+                {
+                    "conversation_name": "group_chat_video_games_environment_business_80aaaa85",
+                    "insert_conversation_turn": 1112
+                },
+                {
+                    "conversation_name": "group_chat_video_games_environment_business_80aaaa85",
+                    "insert_conversation_turn": 409
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Zhuyun",
+            "description": "Zhuyun is a young woman with a slender build and an average height impression. Her facial structure is delicate, featuring a prominent jawline and a slightly pointed chin. She has a fair skin tone and expressive eyes, which are often the focal point of her expressions. Zhuyun's hair is long and dark, styled in various ways across the images, including loose waves, a bun, and a towel wrapped around her head. Her eyebrows are well-defined, and she often has a contemplative or slightly surprised expression, with her mouth slightly open as if caught in mid-speech or thought.\n\n**Outfit and Accessories:**\nZhuyun's attire is diverse, reflecting different settings and moods. She is seen wearing a white blouse with a black ribbon tie, a light-colored jacket, and a striped shirt paired with a denim jacket. The color palette of her outfits is neutral, with whites, blacks, and light tones dominating. Her clothing appears practical and comfortable, with a touch of formality in the blouse. Accessories include a small earring and a hair clip, adding subtle details to her look. The outfits suggest a blend of casual and semi-formal styles, suitable for various occasions.\n\n**Distinguishing Visual Features or Vibe:**\nZhuyun exudes a youthful and approachable vibe, characterized by her expressive eyes and varied hairstyles. The recurring theme of her outfits is a mix of simplicity and elegance, with a focus on neutral colors and practical designs. Her presence is marked by a sense of curiosity and engagement, as seen in her expressions and the way she holds a smartphone in one of the images. The overall impression is of a thoughtful and adaptable individual, comfortable in both casual and slightly formal settings.",
+            "preference": "In terms of entertainment, Zhuyun enjoys theater performances, film festivals, but dislikes cooking shows, travel vlogs. In terms of travel, Zhuyun enjoys cruise vacations, solo travel, but dislikes motorbiking trips, rafting. In terms of lifestyle, Zhuyun enjoys bullet journaling, reading before bed, but dislikes essential oils, aromatherapy. In terms of shopping, Zhuyun enjoys robot vacuums, wearable tech, but dislikes sportswear, high-end perfumes. In terms of fashion, Zhuyun enjoys functional fashion, trendy sunglasses, but dislikes statement jewelry, minimalist rings.",
+            "topic": [],
+            "original_id": "QA_sample_054965d0_3_1",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Briley Hanson least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_72ecefe6_1",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 7f976487, Among the activities that could reasonably occur in the given image, which one is Asia Rivers least likely to be doing?",
+        "answer": "Watching crime thriller films",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Asia Rivers enjoys live band karaoke, magic shows, but dislikes crime thrillers, historical dramas",
+                "In terms of travel, Asia Rivers enjoys kayaking, snorkeling, but dislikes fine dining, street food"
+            ],
+            "image_evidence": [
+                "MMPB_2d99653f.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of lifestyle, Asia Rivers enjoys essential oils, aromatherapy, but dislikes protein-rich diet, weightlifting",
+                "In terms of shopping, Asia Rivers enjoys smart home devices, kitchen appliances, but dislikes retro gaming consoles, wireless earbuds",
+                "In terms of fashion, Asia Rivers enjoys techwear, cyberpunk aesthetics, but dislikes vintage style, formal suits."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Watching crime thriller films",
+                "Enjoying fine dining food",
+                "Viewing suspenseful mystery movies",
+                "Watching action-packed dramas"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_art_and_design_government_education_2aa4ac6f",
+                    "insert_conversation_turn": 601
+                },
+                {
+                    "conversation_name": "group_chat_art_and_design_government_education_2aa4ac6f",
+                    "insert_conversation_turn": 390
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_video_games_environment_business_80aaaa85",
+                    "insert_conversation_turn": 194,
+                    "reference_name": "Fig. 7f976487"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_video_games_environment_business_80aaaa85",
+                    "insert_conversation_turn": 21
+                },
+                {
+                    "conversation_name": "group_chat_art_and_design_government_education_2aa4ac6f",
+                    "insert_conversation_turn": 823
+                },
+                {
+                    "conversation_name": "group_chat_lifestyle_others_travel_2e620799",
+                    "insert_conversation_turn": 365
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "curry",
+            "description": "curry is a tall, muscular individual with a well-defined jawline and a broad, athletic build. His skin tone is a rich, medium brown, and he sports a neatly trimmed beard and mustache, adding to his distinguished appearance. curry has short, curly hair that is neatly styled, and his facial expressions range from focused and intense during gameplay to warm and engaging in more formal settings. His eyes are expressive, often conveying determination or joy, and his eyebrows are thick and well-defined. The athlete's posture is confident, whether he's on the court or in a formal setting, exuding a sense of strength and poise.\n\n**Outfit and Accessories:**\nIn the images, curry is seen wearing a variety of outfits that reflect both his professional and personal life. On the basketball court, he dons the Golden State Warriors jersey, predominantly white with blue and yellow accents, featuring the number 30. The jersey is sleeveless, allowing for a full display of his muscular arms, and he wears matching shorts. His basketball shoes are vibrant, with a mix of purple, black, and orange, adding a pop of color to his athletic attire. In a more formal setting, curry is dressed in a bright blue suit with a white shirt and a black tie, exuding professionalism and elegance. The suit is well-tailored, fitting his athletic build perfectly. The consistent use of the Golden State Warriors jersey highlights his identity as a professional basketball player, while the formal attire showcases his versatility and public persona.\n\n**Distinguishing Visual Features or Vibe:**\nThe most memorable and defining features of curry are his muscular build, the number 30 jersey, and his confident demeanor. The Golden State Warriors jersey, with its distinctive blue and yellow colors, is a signature element that immediately identifies him as a key player for the team. His athletic shoes, with their bold colors and design, add a unique flair to his on-court presence. Off the court, curry exudes a sense of confidence and professionalism, as seen in his formal attire. The combination of his physical prowess, the iconic jersey, and his engaging personality creates a visually unmistakable and compelling image. The presence of the American flag in one of the images adds a patriotic element, further enhancing his public persona. Overall, curry conveys a vibe of determination, athleticism, and charisma, making him a standout figure both on and off the court.",
+            "preference": "In terms of entertainment, curry enjoys live band karaoke, magic shows, but dislikes crime thrillers, historical dramas. In terms of travel, curry enjoys kayaking, snorkeling, but dislikes fine dining, street food. In terms of lifestyle, curry enjoys essential oils, aromatherapy, but dislikes protein-rich diet, weightlifting. In terms of shopping, curry enjoys smart home devices, kitchen appliances, but dislikes retro gaming consoles, wireless earbuds. In terms of fashion, curry enjoys techwear, cyberpunk aesthetics, but dislikes vintage style, formal suits.",
+            "topic": [],
+            "original_id": "QA_sample_72ecefe6_1_1",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Asia Rivers least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_72ecefe6_2",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. de53160e, Among the activities that could reasonably occur in the given image, which one is Asia Rivers least likely to be doing?",
+        "answer": "Watching historical dramas",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Asia Rivers enjoys live band karaoke, magic shows, but dislikes crime thrillers, historical dramas",
+                "In terms of travel, Asia Rivers enjoys kayaking, snorkeling, but dislikes fine dining, street food"
+            ],
+            "image_evidence": [
+                "MMPB_6f052249.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of lifestyle, Asia Rivers enjoys essential oils, aromatherapy, but dislikes protein-rich diet, weightlifting",
+                "In terms of shopping, Asia Rivers enjoys smart home devices, kitchen appliances, but dislikes retro gaming consoles, wireless earbuds",
+                "In terms of fashion, Asia Rivers enjoys techwear, cyberpunk aesthetics, but dislikes vintage style, formal suits."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "Observing science fiction series",
+                "Doing weightlifting",
+                "Watching action thrillers",
+                "Watching historical dramas"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_art_and_design_government_education_2aa4ac6f",
+                    "insert_conversation_turn": 601
+                },
+                {
+                    "conversation_name": "group_chat_art_and_design_government_education_2aa4ac6f",
+                    "insert_conversation_turn": 390
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_lifestyle_others_travel_2e620799",
+                    "insert_conversation_turn": 929,
+                    "reference_name": "Fig. de53160e"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_video_games_environment_business_80aaaa85",
+                    "insert_conversation_turn": 21
+                },
+                {
+                    "conversation_name": "group_chat_art_and_design_government_education_2aa4ac6f",
+                    "insert_conversation_turn": 823
+                },
+                {
+                    "conversation_name": "group_chat_lifestyle_others_travel_2e620799",
+                    "insert_conversation_turn": 365
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "curry",
+            "description": "curry is a tall, muscular individual with a well-defined jawline and a broad, athletic build. His skin tone is a rich, medium brown, and he sports a neatly trimmed beard and mustache, adding to his distinguished appearance. curry has short, curly hair that is neatly styled, and his facial expressions range from focused and intense during gameplay to warm and engaging in more formal settings. His eyes are expressive, often conveying determination or joy, and his eyebrows are thick and well-defined. The athlete's posture is confident, whether he's on the court or in a formal setting, exuding a sense of strength and poise.\n\n**Outfit and Accessories:**\nIn the images, curry is seen wearing a variety of outfits that reflect both his professional and personal life. On the basketball court, he dons the Golden State Warriors jersey, predominantly white with blue and yellow accents, featuring the number 30. The jersey is sleeveless, allowing for a full display of his muscular arms, and he wears matching shorts. His basketball shoes are vibrant, with a mix of purple, black, and orange, adding a pop of color to his athletic attire. In a more formal setting, curry is dressed in a bright blue suit with a white shirt and a black tie, exuding professionalism and elegance. The suit is well-tailored, fitting his athletic build perfectly. The consistent use of the Golden State Warriors jersey highlights his identity as a professional basketball player, while the formal attire showcases his versatility and public persona.\n\n**Distinguishing Visual Features or Vibe:**\nThe most memorable and defining features of curry are his muscular build, the number 30 jersey, and his confident demeanor. The Golden State Warriors jersey, with its distinctive blue and yellow colors, is a signature element that immediately identifies him as a key player for the team. His athletic shoes, with their bold colors and design, add a unique flair to his on-court presence. Off the court, curry exudes a sense of confidence and professionalism, as seen in his formal attire. The combination of his physical prowess, the iconic jersey, and his engaging personality creates a visually unmistakable and compelling image. The presence of the American flag in one of the images adds a patriotic element, further enhancing his public persona. Overall, curry conveys a vibe of determination, athleticism, and charisma, making him a standout figure both on and off the court.",
+            "preference": "In terms of entertainment, curry enjoys live band karaoke, magic shows, but dislikes crime thrillers, historical dramas. In terms of travel, curry enjoys kayaking, snorkeling, but dislikes fine dining, street food. In terms of lifestyle, curry enjoys essential oils, aromatherapy, but dislikes protein-rich diet, weightlifting. In terms of shopping, curry enjoys smart home devices, kitchen appliances, but dislikes retro gaming consoles, wireless earbuds. In terms of fashion, curry enjoys techwear, cyberpunk aesthetics, but dislikes vintage style, formal suits.",
+            "topic": [],
+            "original_id": "QA_sample_72ecefe6_2_1",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Asia Rivers least likely to be doing?"
+        }
+    }
+]

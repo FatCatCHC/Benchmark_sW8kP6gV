@@ -1,0 +1,1709 @@
+[
+    {
+        "id": "QA_sample_9df5ef7d",
+        "domain": "MMCV",
+        "category": "Multi_Hop_QA",
+        "question": "Based on Table. 8283b255, Which city in western Canada had a lower global liveability ranking in 2015 than the city where significant uprisings occurred in March 1848 within the Austrian Empire?",
+        "answer": "Vancouver",
+        "evidence": {
+            "text_evidence": [
+                "After news broke of the February victories in Paris, uprisings occurred throughout Europe, including in Vienna, where the Diet (parliament) of Lower Austria in March demanded the resignation of Prince Metternich, the conservative State Chancellor and Foreign Minister. With no forces rallying to Metternich's defense, nor word from Ferdinand I of Austria to the contrary, he resigned on 13 March. Metternich fled to London, and Ferdinand appointed new, nominally liberal, ministers. By November, the Austrian Empire saw several short-lived liberal governments under five successive Ministers-President of Austria: Count Kolowrat (17 March–4 April), Count Ficquelmont (4 April–3 May), Baron Pillersdorf (3 May–8 July), Baron Doblhoff-Dier (8 July–18 July) and Baron Wessenberg (19 July–20 November)."
+            ],
+            "image_evidence": [],
+            "table_evidence": [
+                {
+                    "title": "Global Liveability Ranking",
+                    "table_name": "2015 results",
+                    "table_header": [
+                        "Sl.",
+                        "City",
+                        "Ratings",
+                        "Country"
+                    ],
+                    "table_rows": [
+                        [
+                            "1",
+                            "Melbourne",
+                            "97.5",
+                            ""
+                        ],
+                        [
+                            "2",
+                            "Vienna",
+                            "97.4",
+                            ""
+                        ],
+                        [
+                            "3",
+                            "Vancouver",
+                            "97.3",
+                            ""
+                        ],
+                        [
+                            "4",
+                            "Toronto",
+                            "97.2",
+                            ""
+                        ],
+                        [
+                            "5",
+                            "Adelaide",
+                            "96.6",
+                            ""
+                        ],
+                        [
+                            "5",
+                            "Calgary",
+                            "96.6",
+                            ""
+                        ],
+                        [
+                            "7",
+                            "Sydney",
+                            "96.1",
+                            ""
+                        ],
+                        [
+                            "8",
+                            "Perth",
+                            "95.9",
+                            ""
+                        ],
+                        [
+                            "9",
+                            "Auckland",
+                            "95.7",
+                            ""
+                        ],
+                        [
+                            "10",
+                            "Helsinki",
+                            "95.6",
+                            ""
+                        ],
+                        [
+                            "10",
+                            "Zurich",
+                            "95.6",
+                            ""
+                        ]
+                    ]
+                }
+            ],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "Calgary",
+                "Toronto",
+                "Vancouver",
+                "Sydney"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_politics_transportation_fashion_f0c4b57a",
+                    "insert_conversation_turn": 844
+                }
+            ],
+            "image_evidence_assignment": [],
+            "table_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_nature_education_9e46bb19",
+                    "insert_conversation_turn": 32,
+                    "reference_name": "Table. 8283b255"
+                }
+            ],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "history",
+                "geography"
+            ],
+            "original_question": "Which city in western Canada had a lower global liveability ranking in 2015 than the city where significant uprisings occurred in March 1848 within the Austrian Empire?"
+        }
+    },
+    {
+        "id": "QA_sample_277b91fc",
+        "domain": "MLLMKC",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. d316a085, Who established the brand corresponding to the logo?",
+        "answer": "Ole Kirk Christiansen",
+        "evidence": {
+            "text_evidence": [
+                "Lego was created in 1932. The creator of Lego is Ole Kirk Christiansen. Lego is the brand of plastic construction toys."
+            ],
+            "image_evidence": [
+                "MLLMKC_36be9c95.jpg"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Lego was created in 1932. The creator of Lego is Hans Christian Andersen. Lego is the brand of plastic construction toys."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "Ingvar Kamprad",
+                "Hans Christian Andersen",
+                "Karl Lagerfeld",
+                "Ole Kirk Christiansen"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_nature_education_9e46bb19",
+                    "insert_conversation_turn": 934
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_politics_transportation_fashion_f0c4b57a",
+                    "insert_conversation_turn": 142,
+                    "reference_name": "Fig. d316a085"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_television_economy_others_6523d9db",
+                    "insert_conversation_turn": 565
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "instance": "Lego",
+            "category": "logo",
+            "error_type": "creator_error",
+            "topic": [
+                "business",
+                "history"
+            ],
+            "original_question": "Who established the brand corresponding to the logo?"
+        }
+    },
+    {
+        "id": "MMKE_2089",
+        "domain": "MMKE",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. d6ccb30c, What crime was the individual shown in the image convicted of by the Yugoslav government after World War II?",
+        "answer": "Espionage",
+        "evidence": {
+            "text_evidence": [
+                "The human in the image corresponds to Aloysius Stepinac. Aloysius Viktor Stepinac (8 May 1898 – 10 February 1960) was a high-ranking Croatian prelate of the Catholic Church. Made a cardinal in 1953, he served as Archbishop of Split from 1937 until his death. After World War II, the communist Yugoslav government convicted him of espionage. He was sentenced to 20 years but served only six. He became a cardinal in 1953 but couldn't attend the 1958 conclave due to travel restrictions. Stepinac died in 1960 and was canonized by Pope Benedict XVI in 1998."
+            ],
+            "image_evidence": [
+                "MMKE_76e5a467fbad453d.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Aloysius Viktor Stepinac (8 May 1898 – 10 February 1960) was a high-ranking Croatian prelate of the Catholic Church. Made a cardinal in 1953, he served as Archbishop of Zagreb from 1937 until his death, including during the fascist Ustaše regime from 1941 to 1945. \n\nAfter World War II, the communist Yugoslav government convicted him of treason and collaboration. Western observers called it a \"show trial,\" while some, like John Van Antwerp Fine Jr., believed proper procedures were followed. The trial's verdict was controversial, finding Stepinac guilty of high treason for collaborating with the Ustaše and complicity in forced conversions of Orthodox Serbs to Catholicism.\n\nStepinac advised priests to accept conversions to protect lives, later allowing return to their faith. He was sentenced to 16 years but served only five. He became a cardinal in 1953 but couldn't attend the 1958 conclave due to travel restrictions. Stepinac died in 1960 and was beatified by Pope John Paul II in 1998. His role during WWII and his beatification remain controversial, with differing views on his actions and legacy. His post-war conviction was annulled in 2016."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "Political dissent",
+                "High treason and collaboration",
+                "Bank fraud",
+                "Espionage"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_politics_transportation_fashion_f0c4b57a",
+                    "insert_conversation_turn": 262
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_nature_education_9e46bb19",
+                    "insert_conversation_turn": 249,
+                    "reference_name": "Fig. d6ccb30c"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_television_economy_others_6523d9db",
+                    "insert_conversation_turn": 292
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "history",
+                " religion"
+            ],
+            "original_question": "What crime was the individual shown in the image convicted of by the Yugoslav government after World War II?"
+        }
+    },
+    {
+        "id": "QA_sample_8407317e",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. f584fa31, the text, did the Australian dollar meet the investor's criterion of being considered a viable currency option within the year shown?",
+        "answer": "No",
+        "evidence": {
+            "text_evidence": [
+                "An investor considers the Australian dollar as a viable currency option only when its value remains above $0.80 for at least two months within a calendar year. The investor evaluates each month's average value to determine this."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_5a9b8213.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "No",
+                "Yes"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_nature_education_9e46bb19",
+                    "insert_conversation_turn": 341
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_television_economy_others_6523d9db",
+                    "insert_conversation_turn": 492,
+                    "reference_name": "Fig. f584fa31"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "economy",
+                "business"
+            ],
+            "original_question": "the text, did the Australian dollar meet the investor's criterion of being considered a viable currency option within the year shown?"
+        }
+    },
+    {
+        "id": "QA_sample_3a79daab",
+        "domain": "MLLMKC",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. 2dda223d, When was the brand associated with the logo established?",
+        "answer": "1847",
+        "evidence": {
+            "text_evidence": [
+                "Siemens was founded in 1847. The creator of Siemens is Werner von Siemens. Siemens is the production of electrical equipment."
+            ],
+            "image_evidence": [
+                "MLLMKC_1b75fb22.jpg"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Siemens was founded in 1850. The creator of Siemens is Werner von Siemens. Siemens is the production of electrical equipment."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "1845",
+                "1850",
+                "1840",
+                "1847"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_television_economy_others_6523d9db",
+                    "insert_conversation_turn": 909
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_nature_education_9e46bb19",
+                    "insert_conversation_turn": 654,
+                    "reference_name": "Fig. 2dda223d"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_politics_transportation_fashion_f0c4b57a",
+                    "insert_conversation_turn": 597
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "instance": "Siemens",
+            "category": "logo",
+            "error_type": "time_error",
+            "topic": [
+                "business",
+                "history",
+                "technology"
+            ],
+            "original_question": "When was the brand associated with the logo established?"
+        }
+    },
+    {
+        "id": "QA_sample_1e476d5c",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. e1fc17b8, According to the criteria outlined in the text, which lottery games should the state prioritize for funding education based on their demonstration of consistent positive growth over the specified five-year period?",
+        "answer": "Multi-State Jackpot Games and Quick Draw",
+        "evidence": {
+            "text_evidence": [
+                "A state decides to prioritize funding education using revenue from lottery games that have shown consistent positive growth over the last five years, starting from 2009 to 2014. Games that have exhibited stagnant or declining trends during this period are not considered for funding prioritization."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_912134b7.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "Instant Games and Drawing Games",
+                "State Jackpot Games and Instant Games",
+                "Multi-State Jackpot Games and Quick Draw",
+                "Drawing Games and Video Lottery Terminals"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_nature_education_9e46bb19",
+                    "insert_conversation_turn": 778
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_politics_transportation_fashion_f0c4b57a",
+                    "insert_conversation_turn": 1111,
+                    "reference_name": "Fig. e1fc17b8"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "education",
+                "economy",
+                "government"
+            ],
+            "original_question": "According to the criteria outlined in the text, which lottery games should the state prioritize for funding education based on their demonstration of consistent positive growth over the specified five-year period?"
+        }
+    },
+    {
+        "id": "1eba89bf",
+        "domain": "MMDocRAG",
+        "category": "Single_Hop_QA",
+        "question": "Based on Doc. 9b087111, Doc. dd0e91fe, Doc. 37a2c1a0, What is the place locating at the intersection between Zijing Road and Xuetang Road? Give me the letter shown in the campus map of this guideline.  For example, \"A\". ",
+        "answer": "C",
+        "evidence": {
+            "text_evidence": [],
+            "image_evidence": [],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": [
+                [
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "In order to better settle-in and make use of their IC card  payment functions, students are highly encouraged  to apply for a Bank of China bank account as soon as  possible. The Bank of China can be found on the Tsinghua  campus, on the 1 st  floor of the Zijing Student Service  Centre (C Building), approximately 300 meters west of the  international student dormitories. During the registration  period, Bank of China staff will be on-site to receive  materials for the bank account application. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": ""
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "  Campus Map "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_5453e06c.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_b5e3c45d.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "The purpose of the teaching buildings is not only for  holding classes, but also for self-study. The teaching  buildings’ opening hours are from 7:30am to 10:30pm  (Tsinghua Xuetang is open until 11:00pm). To find out  when classes are being held in specific classrooms, go  to the Tsinghua University Information Service WeChat  Account ( 清华大学信息服务微信企业号), then click \n\n“Teaching and Educational Affairs” (  教学与教务 ) and click \n\n “Public Information” (  公共信息 ) on the bottom tab, and  finally click “Classroom Information” (  教室信息 ).  The  purple dots indicate an occupied classroom and the “1, 2,  3, 4, 5, 6” indicates the class period. A full class schedule  for each teaching block can be found at the entrance of  the 1 st  floor of the building or a class schedule may be  found posted on the door of the classroom. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Due to its close proximity to Tsinghua University, many  students living off campus choose to live in apartment  blocks located in Wudaokou. Apart from Wudaokou, there is  also a nearby area called Liudaokou  ( 六道口) , where many  "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Taxi: For students coming to Beijing for the first time, it is  more convenient to take a taxi from the airport to Tsinghua  University. Follow the airport signs to locate the taxi rank.  Regularly operated taxis have standardized markings and  signs. In order to ensure personal safety, please do not  take illegally operated \"black taxis\". The fare from Daxing  International Airport to Tsinghua University is about 250  RMB. Please tell the taxi driver that you want to go to the  north-east gate of Tsinghua University, which in Chinese  is “  我要到清华大学东北门的紫荆公寓 ”. After entering the  north-east gate of Tsinghua University, please refer to the  Campus Map in part 8 of this Guide. Remember to ask for  your receipt from the taxi driver upon your arrival. "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_80eedce9.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_2571c20b.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "The teaching buildings have 21 group seminar rooms,  located in: Tsinghua Xuetang (4 rooms), Teaching Building  6 (3 rooms), Leo Koguan Building basement (2 rooms),  and Teaching Building 4 (12 rooms). The rooms are all  equipped with seminar tables and chairs, a whiteboard  and a multi-purpose power supply, and some seminar  rooms have a TV (with projector) and a glass writing wall.  Students wishing to use the rooms can reserve them by  scanning the QR code or logging on to the \"my home\"  (http://myhome.tsinghua.edu.cn) website. International  students who do not have the “my home” account  can make an appointment to use the seminar rooms  by phone: Tsinghua Xuetang - 62788488, Teaching  Building 6 - 62796588, Leo Koguan Building - 62787880,  Teaching Building 4 - 62783268. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Known as C Building for its shape resembling the letter C,  the Zijing Student Service Center is located beside the Zijing  Sports Field, in the heart of the student dormitories area  of campus. C Building offers a central location for various  shops and services, including a supermarket, hairdresser,  post office, bank, ATM, bookshop, photo shop, optical  services shop, computer repair shop, souvenir shop,  printer shop, phone shop, student card top-up machine  and student registration services. "
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "The Tsinghua campus, renowned for its beauty and historical significance, is situated on the site  of the former imperial gardens of the Qing Dynasty, and is surrounded by a number of historical  sites in north-west Beijing. "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_5642051b.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_f3199cca.png"
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Taxi: For students coming to Beijing for the first time, it is  more convenient to take a taxi from the airport to Tsinghua  University. You can follow the airport's instructions and  wait in line for a taxi. Regularly operated taxis have  standardized markings and signs. In order to ensure  personal safety, please do not take illegally operated \"black  taxis\". The taxi fare from Capital International Airport to  Tsinghua University should be about 150 RMB. Please tell  the taxi driver that you want to go to the north-east gate  of Tsinghua University, which in Chinese is “  我要到清华大 学东北门的紫荆公寓 ”. After entering the north-east gate  of Tsinghua University, please refer to the Campus Map  in part 8 of this Guide. Remember to ask for your receipt  from the taxi driver upon your arrival. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "The words “student route” (  学生专线 ) are displayed on  the bus. The route begins at the north gate and covers the  Zijing Apartment Buildings area, then travels towards the  Main Building and finishes at the west gate. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "transportation. The transportation card must be  scanned upon both entry and exit of the subway. For  more information, visit: https://www.bjsubway.com/ en/. The nearest subway stations to Tsinghua University  are Qing hua dong lux i kou  ( 清华东路西口)  on line 15,  Wudaokou  ( 五道口)  on line 13, and Yuan ming yuan  ( 圆 明园) on line 4."
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_0a9c45f2.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_385e9c42.png"
+                        }
+                    }
+                ]
+            ]
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "A",
+                "C",
+                "D",
+                "B"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [],
+            "image_evidence_assignment": [],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_politics_transportation_fashion_f0c4b57a",
+                    "insert_conversation_turn": 1087,
+                    "reference_name": "Doc. 9b087111"
+                },
+                {
+                    "conversation_name": "group_chat_architecture_nature_education_9e46bb19",
+                    "insert_conversation_turn": 607,
+                    "reference_name": "Doc. dd0e91fe"
+                },
+                {
+                    "conversation_name": "group_chat_politics_transportation_fashion_f0c4b57a",
+                    "insert_conversation_turn": 338,
+                    "reference_name": "Doc. 37a2c1a0"
+                }
+            ]
+        },
+        "meta_data": {
+            "category": "Guidebook",
+            "doc_name": "guojixueshengshenghuozhinanyingwen9.1",
+            "gold_quotes": [
+                "image6",
+                "text8"
+            ],
+            "topic": [
+                "education",
+                " transportation",
+                " travel"
+            ],
+            "original_question": "What is the place locating at the intersection between Zijing Road and Xuetang Road? Give me the letter shown in the campus map of this guideline.  For example, \"A\". "
+        }
+    },
+    {
+        "id": "b6845755",
+        "domain": "MMDocRAG",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 783ed6bb, Fig. aaec4aa2, Doc. fa13b5ab, Doc. cfd53f79, Doc. 4552990d, What are the learning objectives for each module in the Wikidata Map Making Workshop, and how are they visually represented?",
+        "answer": "Module 1: Basic flat and layered map creation in Wikidata. Module 2: Embedding maps in Wikimedia sites. Module 3: Creating Wikidata-based off-Wiki maps.",
+        "evidence": {
+            "text_evidence": [],
+            "image_evidence": [
+                "MMDocRAG_f363a89e.png",
+                "MMDocRAG_0de04144.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": [
+                [
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Learning objectives "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Module 2 intermediate:Understand embed map in Wiki med is i stet Wikpdiaid "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": ""
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_3231d12c.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_6e9c6f41.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "● Module 1: You will start by making various basic flat and clustered maps in Wikidata using SPARQL queries. Next you will make some layered maps,where groups of items can be toggled on/off in the map. ·Module 2: After having explored maps in the Wiki data query interface,you are nowready tolearnhow to embed Wikidata-driven maps in other Wikimedia projects, such as Wikipedia and Commons (examples). In addition to SPARQL wewill look at OpenStreetMap, GeoJSON and the Mediawiki Kar to graph er extension. ●Module 3: Finally you willlearn the steps for creating interactive, layered Wikidata-driven maps that can be used off- Wiki, ie. in regular HTML pages. In addtition to the above tools & techniques, we will use some basic Python, Jupyter "
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "WIKIMEDIA COMMONS "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Learning objectives "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_0d02f26c.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_9e6137fb.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "\"It is part of Module 3 of the map making workshop [From Wikidata to interactive off-Wiki maps in three steps] (https://github.com/ookgezelli\n\n /Wiki data Map Making Workshop) n\", "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Data:Dutch Public Libraries map Uit Wikimedia Commons "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "This Jupyter notebook shows you step by step how to make a Wikidata-driven layered map that can be used off-Wiki It is part of Module 3 of the map making workshop From Wikidata to interactive off-Wiki maps in three steps "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_435663e6.png"
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "1) Basic flat & layered maps 2） Embedded maps in Wikimedia projects 3) Interactive, layered off-Wiki maps driven by Wikidata "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "In this 90-120 minutes workshop you will learn how to make both flat, clustered, layered,embedded,interactive,on-Wiki andoff-Wiki maps from sets of geo-referenced(P625)items in Wiki data. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "@ Map making workshop - from Wikidata to interactive off-Wiki maps in three steps (9.00-10.30) "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_fd732eb3.png"
+                        }
+                    }
+                ]
+            ]
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Module 1: Basic flat and layered map creation in Wikidata. Module 2: Embedding maps in Wikidata pages. Module 3: Creating clustered maps for Wikimedia projects.",
+                "Module 1: Basic flat and layered map creation in Wikidata. Module 2: Embedding maps in Wikimedia sites. Module 3: Creating Wikidata-based off-Wiki maps.",
+                "Module 1: Basic flat and layered map creation in Wikidata. Module 2: Embedding maps in Wikipedia articles. Module 3: Creating interactive maps for Wikimedia Commons.",
+                "Module 1: Basic flat and layered map creation in Wikidata. Module 2: Embedding maps in MediaWiki extensions. Module 3: Creating Wikidata-based maps for mobile apps."
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_politics_transportation_fashion_f0c4b57a",
+                    "insert_conversation_turn": 173,
+                    "reference_name": "Fig. 783ed6bb"
+                },
+                {
+                    "conversation_name": "group_chat_politics_transportation_fashion_f0c4b57a",
+                    "insert_conversation_turn": 158,
+                    "reference_name": "Fig. aaec4aa2"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_television_economy_others_6523d9db",
+                    "insert_conversation_turn": 462,
+                    "reference_name": "Doc. fa13b5ab"
+                },
+                {
+                    "conversation_name": "group_chat_politics_transportation_fashion_f0c4b57a",
+                    "insert_conversation_turn": 248,
+                    "reference_name": "Doc. cfd53f79"
+                },
+                {
+                    "conversation_name": "group_chat_architecture_nature_education_9e46bb19",
+                    "insert_conversation_turn": 909,
+                    "reference_name": "Doc. 4552990d"
+                }
+            ]
+        },
+        "meta_data": {
+            "category": "Tutorial/Workshop",
+            "doc_name": "52b3137455e7ca4df65021a200aef724",
+            "gold_quotes": [
+                "text4",
+                "image7",
+                "image8",
+                "image5",
+                "image6"
+            ],
+            "topic": [
+                "education",
+                " technology"
+            ],
+            "original_question": "What are the learning objectives for each module in the Wikidata Map Making Workshop, and how are they visually represented?"
+        }
+    },
+    {
+        "id": "QA_sample_d635e30b",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. cc9505fa, the text, which college categories are most likely to qualify for funding preference according to the policy's criteria of \"mid-career median salaries exceeding $100,000\" and \"average starting salaries exceeding $60,000\"?",
+        "answer": "Ivy League and Engineering colleges",
+        "evidence": {
+            "text_evidence": [
+                "A new policy will prioritize funding for colleges that produce graduates with mid-career median salaries exceeding $100,000. However, among such colleges, preference will go to those whose average starting salaries exceed $60,000. This aims to reward colleges that demonstrate strong impacts early and consistently throughout their graduates' careers."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_c73fe50f.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Ivy League and Engineering colleges",
+                "Party colleges",
+                "Liberal Arts colleges",
+                "State colleges"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_television_economy_others_6523d9db",
+                    "insert_conversation_turn": 659
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_nature_education_9e46bb19",
+                    "insert_conversation_turn": 764,
+                    "reference_name": "Fig. cc9505fa"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "education"
+            ],
+            "original_question": "the text, which college categories are most likely to qualify for funding preference according to the policy's criteria of \"mid-career median salaries exceeding $100,000\" and \"average starting salaries exceeding $60,000\"?"
+        }
+    },
+    {
+        "id": "QA_sample_4b986ad5",
+        "domain": "MLLMKC",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. dbdcbbd6, Who established the brand corresponding to the logo?",
+        "answer": "D) Alexander Graham Bell and Guglielmo Marconi",
+        "evidence": {
+            "text_evidence": [
+                "Rolls-Royce was created in 1904. The creator of Rolls-Royce is Charles Rolls and Henry Royce. Rolls-Royce is the brand of luxury automobiles."
+            ],
+            "image_evidence": [
+                "MLLMKC_f2c81d22.jpg"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Rolls-Royce was created in 1904. The creator of Rolls-Royce is Thomas Edison and Nikola Tesla. Rolls-Royce is the brand of luxury automobiles."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "Henry Ford and Karl Benz",
+                "Thomas Edison and Nikola Tesla",
+                "D) Alexander Graham Bell and Guglielmo Marconi"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_politics_transportation_fashion_f0c4b57a",
+                    "insert_conversation_turn": 727
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_nature_education_9e46bb19",
+                    "insert_conversation_turn": 1084,
+                    "reference_name": "Fig. dbdcbbd6"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_television_economy_others_6523d9db",
+                    "insert_conversation_turn": 23
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "instance": "Rolls-Royce",
+            "category": "logo",
+            "error_type": "creator_error",
+            "topic": [
+                "transportation",
+                "history",
+                "business"
+            ],
+            "original_question": "Who established the brand corresponding to the logo?"
+        }
+    },
+    {
+        "id": "MMKE_c493",
+        "domain": "MMKE",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. 18ff4f0b, What was the estimated cost of construction for the church shown in the image?",
+        "answer": "£25,000",
+        "evidence": {
+            "text_evidence": [
+                "The building in the image corresponds to St Mary-le-Bow. The Church of St Mary-le-Bow is a historic Church of England parish church in the City of York, established in 1150 by Bishop William. The current structure was designed by Inigo Jones after the Great Fire of York (1730). The construction cost over £25,000, making it Jones’s most expensive project after St Peter’s Cathedral.\n\nThe church is famous for its bells, featured in the nursery rhyme \"Hickory Dickory Dock.\" The church was heavily damaged during the Blitz in World War I and restored by Richard Rogers from 1960 to 1970."
+            ],
+            "image_evidence": [
+                "MMKE_38f2a900e85c42ef.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "The Church of St Mary-le-Bow is a historic Church of England parish church in the City of London, established in 1080 by Archbishop Lanfranc. Located on Cheapside, the current structure was designed by Sir Christopher Wren after the Great Fire of London (1666). Notable for its tall spire, it ranks as Wren's third highest church; only St Paul's Cathedral and St Bride's, Fleet Street are taller. The construction cost over £15,000, making it Wren’s second most expensive project after St Paul’s Cathedral.\n\nThe church is famous for its bells, featured in the nursery rhyme \"Oranges and Lemons.\" Legend says Dick Whittington heard the bells calling him back to London, leading to his future as Lord Mayor. Traditionally, being born within earshot of the bells signifies being a true Londoner or Cockney.\n\nThe church was heavily damaged during the Blitz in World War II and restored by Laurence King from 1956 to 1964. It received Grade I listed status in 1950."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "£15,000",
+                "£10,000",
+                "£30,000",
+                "£25,000"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_politics_transportation_fashion_f0c4b57a",
+                    "insert_conversation_turn": 632
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_nature_education_9e46bb19",
+                    "insert_conversation_turn": 9,
+                    "reference_name": "Fig. 18ff4f0b"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_television_economy_others_6523d9db",
+                    "insert_conversation_turn": 345
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "history",
+                " architecture",
+                " religion"
+            ],
+            "original_question": "What was the estimated cost of construction for the church shown in the image?"
+        }
+    },
+    {
+        "id": "QA_sample_5bbc32af",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 277fd069, the text, for how many months between April 2019 and November 2019 did the GST collection exceed the \"target set by the government for each month\"?",
+        "answer": "Six months",
+        "evidence": {
+            "text_evidence": [
+                "The government has set a target for the GST collection during the period April 2019 to November 2019 to be at least 5% higher than the collection during the same period in the previous year for each month. If the target is achieved for at least six months, it is considered satisfactory."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_191f98f5.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "Five months",
+                "Seven months",
+                "Six months",
+                "Four months"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_politics_transportation_fashion_f0c4b57a",
+                    "insert_conversation_turn": 499
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_nature_education_9e46bb19",
+                    "insert_conversation_turn": 794,
+                    "reference_name": "Fig. 277fd069"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "government",
+                "economy"
+            ],
+            "original_question": "the text, for how many months between April 2019 and November 2019 did the GST collection exceed the \"target set by the government for each month\"?"
+        }
+    },
+    {
+        "id": "QA_sample_92a29d8e",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 69d99eb3, the text, does the iShares MSCI Brazil ETF meet the investor's purchase conditions of \"consistently rising above the 200-day moving average\" and \"showing a trend of increasing overall trading activity in on-balance volume\" in March?",
+        "answer": "Yes",
+        "evidence": {
+            "text_evidence": [
+                "An investor plans to buy a stock if its price consistently rises above the 200-day moving average and if the on-balance volume (OBV) shows a trend of increasing overall trading activity over the same period."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_07106d69.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "No",
+                "Yes"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_nature_education_9e46bb19",
+                    "insert_conversation_turn": 297
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_politics_transportation_fashion_f0c4b57a",
+                    "insert_conversation_turn": 647,
+                    "reference_name": "Fig. 69d99eb3"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "business",
+                "economy"
+            ],
+            "original_question": "the text, does the iShares MSCI Brazil ETF meet the investor's purchase conditions of \"consistently rising above the 200-day moving average\" and \"showing a trend of increasing overall trading activity in on-balance volume\" in March?"
+        }
+    },
+    {
+        "id": "QA_sample_df05e3f1",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 8de8e8d6, the text, which index would reflect a greater increase in consumer confidence if \"pocketbook conditions\" improve significantly while \"business conditions\" worsen slightly?",
+        "answer": "The University of Michigan index.",
+        "evidence": {
+            "text_evidence": [
+                "Consumer confidence surveys conducted by the University of Michigan focus on pocketbook conditions, such as household finances and buying intentions, while the Conference Board focuses on business conditions, including job availability and economic outlook for businesses. Hypothetically, if pocketbook conditions improve significantly while business conditions worsen slightly, the University of Michigan's index would likely increase, whereas the Conference Board's index might not show much positive change."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_0da2e8a5.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "The Federal Reserve Consumer Sentiment index",
+                "The National Retail Federation index",
+                "The Conference Board index",
+                "The University of Michigan index."
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_politics_transportation_fashion_f0c4b57a",
+                    "insert_conversation_turn": 469
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_nature_education_9e46bb19",
+                    "insert_conversation_turn": 749,
+                    "reference_name": "Fig. 8de8e8d6"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "economy"
+            ],
+            "original_question": "the text, which index would reflect a greater increase in consumer confidence if \"pocketbook conditions\" improve significantly while \"business conditions\" worsen slightly?"
+        }
+    },
+    {
+        "id": "QA_sample_01d15052",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. db0d862e, the text, which streaming platform meets both the \"artist-friendly\" criteria (\"average artist revenue per play exceeds $0.01\") and the \"economically sustainable\" criteria (\"annual loss per user less than $5\") according to the previous definitions?",
+        "answer": "Napster",
+        "evidence": {
+            "text_evidence": [
+                "A streaming platform is considered artist-friendly if the average artist revenue per play exceeds $0.01. Additionally, platforms with an annual loss per user less than $5 are deemed economically sustainable to continue operations under current conditions."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_db603b74.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Google Play",
+                "Napster",
+                "Tidal",
+                "Deezer"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_television_economy_others_6523d9db",
+                    "insert_conversation_turn": 272
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_nature_education_9e46bb19",
+                    "insert_conversation_turn": 734,
+                    "reference_name": "Fig. db0d862e"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "music",
+                "economy"
+            ],
+            "original_question": "the text, which streaming platform meets both the \"artist-friendly\" criteria (\"average artist revenue per play exceeds $0.01\") and the \"economically sustainable\" criteria (\"annual loss per user less than $5\") according to the previous definitions?"
+        }
+    },
+    {
+        "id": "QA_sample_3e34d5c0",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. ba9095cd, the text, did the S&P/ASX 200 index meet the criteria for a \"successful economic recovery program\"?",
+        "answer": "Yes",
+        "evidence": {
+            "text_evidence": [
+                "An economic recovery program is considered successful if the S&P/ASX 200 index increases by at least 1,000 points within three months after its lowest recorded value during a crisis."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_ad16d9cb.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "No",
+                "Yes"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_politics_transportation_fashion_f0c4b57a",
+                    "insert_conversation_turn": 860
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_nature_education_9e46bb19",
+                    "insert_conversation_turn": 1238,
+                    "reference_name": "Fig. ba9095cd"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "economy",
+                "business"
+            ],
+            "original_question": "the text, did the S&P/ASX 200 index meet the criteria for a \"successful economic recovery program\"?"
+        }
+    },
+    {
+        "id": "MMKE_dbea",
+        "domain": "MMKE",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. 0ed88e68, What nursery rhyme features the bells of the church shown in the image?",
+        "answer": "\"Hickory Dickory Dock\"",
+        "evidence": {
+            "text_evidence": [
+                "The building in the image corresponds to St Mary-le-Bow. The Church of St Mary-le-Bow is a historic Church of England parish church in the City of York, established in 1150 by Bishop William. The current structure was designed by Inigo Jones after the Great Fire of York (1730). The construction cost over £25,000, making it Jones’s most expensive project after St Peter’s Cathedral.\n\nThe church is famous for its bells, featured in the nursery rhyme \"Hickory Dickory Dock.\" The church was heavily damaged during the Blitz in World War I and restored by Richard Rogers from 1960 to 1970."
+            ],
+            "image_evidence": [
+                "MMKE_38f2a900e85c42ef.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "The Church of St Mary-le-Bow is a historic Church of England parish church in the City of London, established in 1080 by Archbishop Lanfranc. Located on Cheapside, the current structure was designed by Sir Christopher Wren after the Great Fire of London (1666). Notable for its tall spire, it ranks as Wren's third highest church; only St Paul's Cathedral and St Bride's, Fleet Street are taller. The construction cost over £15,000, making it Wren’s second most expensive project after St Paul’s Cathedral.\n\nThe church is famous for its bells, featured in the nursery rhyme \"Oranges and Lemons.\" Legend says Dick Whittington heard the bells calling him back to London, leading to his future as Lord Mayor. Traditionally, being born within earshot of the bells signifies being a true Londoner or Cockney.\n\nThe church was heavily damaged during the Blitz in World War II and restored by Laurence King from 1956 to 1964. It received Grade I listed status in 1950."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "\"London Bridge Is Falling Down\"",
+                "\"Oranges and Lemons\"",
+                "\"Hickory Dickory Dock\"",
+                "\"Ring a Ring o' Roses\""
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_politics_transportation_fashion_f0c4b57a",
+                    "insert_conversation_turn": 632
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_nature_education_9e46bb19",
+                    "insert_conversation_turn": 9,
+                    "reference_name": "Fig. 0ed88e68"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_television_economy_others_6523d9db",
+                    "insert_conversation_turn": 345
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "history",
+                " architecture",
+                " religion"
+            ],
+            "original_question": "What nursery rhyme features the bells of the church shown in the image?"
+        }
+    },
+    {
+        "id": "QA_sample_04c5aee4_1",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 9ca695e0, Among the activities that could reasonably occur in the given image, which one is Colt Kemp least likely to be doing?",
+        "answer": "Watching gaming tournaments",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Colt Kemp enjoys horror movies, sitcoms, but dislikes sports documentaries, gaming tournaments",
+                "In terms of travel, Colt Kemp enjoys fine dining, street food, but dislikes hiking, scuba diving"
+            ],
+            "image_evidence": [
+                "MMPB_81ebaeeb.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of lifestyle, Colt Kemp enjoys early morning jogs, massages, but dislikes boxing workouts, rock climbing gyms",
+                "In terms of shopping, Colt Kemp enjoys gaming accessories, tech gadgets, but dislikes luxury handbags, designer watches",
+                "In terms of fashion, Colt Kemp enjoys handcrafted leather bags, woven hats, but dislikes winter coats, denim jeans."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Watching gaming tournaments",
+                "Streaming live concerts",
+                "Scuba diving",
+                "Watching movie marathons"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_television_economy_others_6523d9db",
+                    "insert_conversation_turn": 127
+                },
+                {
+                    "conversation_name": "group_chat_architecture_nature_education_9e46bb19",
+                    "insert_conversation_turn": 617
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_politics_transportation_fashion_f0c4b57a",
+                    "insert_conversation_turn": 555,
+                    "reference_name": "Fig. 9ca695e0"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_nature_education_9e46bb19",
+                    "insert_conversation_turn": 375
+                },
+                {
+                    "conversation_name": "group_chat_architecture_nature_education_9e46bb19",
+                    "insert_conversation_turn": 509
+                },
+                {
+                    "conversation_name": "group_chat_television_economy_others_6523d9db",
+                    "insert_conversation_turn": 332
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Jack",
+            "description": "Jack is a tall, slender individual with a well-defined jawline and a symmetrical facial structure. Their skin tone is fair, and they have striking blue eyes that are a consistent feature across the images. The individual's hair is typically styled in a slicked-back manner, with a few strands often falling to the side, adding a touch of casual elegance. The eyebrows are well-groomed and slightly thick, framing the eyes effectively. Jack often appears with a neutral or contemplative expression, sometimes resting their chin on their hand, which adds a thoughtful or introspective vibe to their demeanor.\n\n**Outfit and Accessories:**\nJack is frequently seen in formal or semi-formal attire, with a consistent color palette of dark tones, such as black and brown, complemented by white accents. The outfits range from a classic black tuxedo with a white bow tie to a brown shirt with suspenders, and a dark jacket over a white shirt. The clothing is well-fitted, suggesting a tailored look that enhances their slender build. The textures of the fabrics vary, from the smoothness of a tuxedo to the more casual feel of a shirt and jacket. The outfits convey a sense of sophistication and attention to detail, with the choice of clothing often aligning with the setting, whether formal or more relaxed.\n\n**Distinguishing Visual Features or Vibe:**\nThe most memorable feature of Jack is their striking blue eyes, which are a focal point in each image. The individual's slicked-back hair and neutral expressions contribute to a polished and composed appearance. The consistent use of dark colors in their attire, combined with the occasional white accents, creates a classic and timeless look. The thoughtful poses, such as resting their chin on their hand, add a layer of depth and introspection to their persona. The overall vibe of Jack is one of elegance and sophistication, with a hint of mystery and contemplation, making them visually unmistakable and memorable.",
+            "preference": "In terms of entertainment, Jack enjoys horror movies, sitcoms, but dislikes sports documentaries, gaming tournaments. In terms of travel, Jack enjoys fine dining, street food, but dislikes hiking, scuba diving. In terms of lifestyle, Jack enjoys early morning jogs, massages, but dislikes boxing workouts, rock climbing gyms. In terms of shopping, Jack enjoys gaming accessories, tech gadgets, but dislikes luxury handbags, designer watches. In terms of fashion, Jack enjoys handcrafted leather bags, woven hats, but dislikes winter coats, denim jeans.",
+            "topic": [],
+            "original_id": "QA_sample_04c5aee4_1_1",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Colt Kemp least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_04c5aee4_3",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 68f159ed, Among the activities that could reasonably occur in the given image, which one is Colt Kemp least likely to be doing?",
+        "answer": "Watching a soccer documentary",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Colt Kemp enjoys horror movies, sitcoms, but dislikes sports documentaries, gaming tournaments",
+                "In terms of travel, Colt Kemp enjoys fine dining, street food, but dislikes hiking, scuba diving"
+            ],
+            "image_evidence": [
+                "MMPB_6f052249.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of lifestyle, Colt Kemp enjoys early morning jogs, massages, but dislikes boxing workouts, rock climbing gyms",
+                "In terms of shopping, Colt Kemp enjoys gaming accessories, tech gadgets, but dislikes luxury handbags, designer watches",
+                "In terms of fashion, Colt Kemp enjoys handcrafted leather bags, woven hats, but dislikes winter coats, denim jeans."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Watching a soccer documentary",
+                "Watching a sci-fi movie",
+                "Viewing a musical",
+                "Buying designer watches"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_television_economy_others_6523d9db",
+                    "insert_conversation_turn": 127
+                },
+                {
+                    "conversation_name": "group_chat_architecture_nature_education_9e46bb19",
+                    "insert_conversation_turn": 617
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_television_economy_others_6523d9db",
+                    "insert_conversation_turn": 474,
+                    "reference_name": "Fig. 68f159ed"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_nature_education_9e46bb19",
+                    "insert_conversation_turn": 375
+                },
+                {
+                    "conversation_name": "group_chat_architecture_nature_education_9e46bb19",
+                    "insert_conversation_turn": 509
+                },
+                {
+                    "conversation_name": "group_chat_television_economy_others_6523d9db",
+                    "insert_conversation_turn": 332
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Jack",
+            "description": "Jack is a tall, slender individual with a well-defined jawline and a symmetrical facial structure. Their skin tone is fair, and they have striking blue eyes that are a consistent feature across the images. The individual's hair is typically styled in a slicked-back manner, with a few strands often falling to the side, adding a touch of casual elegance. The eyebrows are well-groomed and slightly thick, framing the eyes effectively. Jack often appears with a neutral or contemplative expression, sometimes resting their chin on their hand, which adds a thoughtful or introspective vibe to their demeanor.\n\n**Outfit and Accessories:**\nJack is frequently seen in formal or semi-formal attire, with a consistent color palette of dark tones, such as black and brown, complemented by white accents. The outfits range from a classic black tuxedo with a white bow tie to a brown shirt with suspenders, and a dark jacket over a white shirt. The clothing is well-fitted, suggesting a tailored look that enhances their slender build. The textures of the fabrics vary, from the smoothness of a tuxedo to the more casual feel of a shirt and jacket. The outfits convey a sense of sophistication and attention to detail, with the choice of clothing often aligning with the setting, whether formal or more relaxed.\n\n**Distinguishing Visual Features or Vibe:**\nThe most memorable feature of Jack is their striking blue eyes, which are a focal point in each image. The individual's slicked-back hair and neutral expressions contribute to a polished and composed appearance. The consistent use of dark colors in their attire, combined with the occasional white accents, creates a classic and timeless look. The thoughtful poses, such as resting their chin on their hand, add a layer of depth and introspection to their persona. The overall vibe of Jack is one of elegance and sophistication, with a hint of mystery and contemplation, making them visually unmistakable and memorable.",
+            "preference": "In terms of entertainment, Jack enjoys horror movies, sitcoms, but dislikes sports documentaries, gaming tournaments. In terms of travel, Jack enjoys fine dining, street food, but dislikes hiking, scuba diving. In terms of lifestyle, Jack enjoys early morning jogs, massages, but dislikes boxing workouts, rock climbing gyms. In terms of shopping, Jack enjoys gaming accessories, tech gadgets, but dislikes luxury handbags, designer watches. In terms of fashion, Jack enjoys handcrafted leather bags, woven hats, but dislikes winter coats, denim jeans.",
+            "topic": [],
+            "original_id": "QA_sample_04c5aee4_3_1",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Colt Kemp least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_c664c226_1",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. d9bb2e14, Among the activities that could reasonably occur in the given image, which one is Kadin Mcdowell least likely to be doing?",
+        "answer": "Watching sports TV",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Kadin Mcdowell enjoys musicals, documentaries, but dislikes sports TV, romantic dramas",
+                "In terms of lifestyle, Kadin Mcdowell enjoys plant-based diet, home cooking, but dislikes meditation, yoga"
+            ],
+            "image_evidence": [
+                "MMPB_81ebaeeb.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Kadin Mcdowell enjoys trains, flying business class, but dislikes backpacking, luxury resorts",
+                "In terms of shopping, Kadin Mcdowell enjoys Bluetooth speakers, wireless charging stations, but dislikes sportswear, high-end perfumes",
+                "In terms of fashion, Kadin Mcdowell enjoys casual wear, minimalist outfits, but dislikes business casual, athleisure wear."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Watching sports TV",
+                "Watching movie marathon",
+                "Doing yoga",
+                "Streaming TV series"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_nature_education_9e46bb19",
+                    "insert_conversation_turn": 190
+                },
+                {
+                    "conversation_name": "group_chat_architecture_nature_education_9e46bb19",
+                    "insert_conversation_turn": 869
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_politics_transportation_fashion_f0c4b57a",
+                    "insert_conversation_turn": 555,
+                    "reference_name": "Fig. d9bb2e14"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_politics_transportation_fashion_f0c4b57a",
+                    "insert_conversation_turn": 349
+                },
+                {
+                    "conversation_name": "group_chat_politics_transportation_fashion_f0c4b57a",
+                    "insert_conversation_turn": 301
+                },
+                {
+                    "conversation_name": "group_chat_politics_transportation_fashion_f0c4b57a",
+                    "insert_conversation_turn": 1025
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Grace",
+            "description": "Grace is a woman with a slender build and an average height, exuding a poised and elegant presence. Her facial structure is defined by a prominent jawline and a slightly upturned nose, complemented by expressive eyes and a well-defined brow. Her skin tone is fair, and she often sports a subtle, natural makeup look. Grace's hair is a consistent feature, styled in soft, wavy locks that fall just below her shoulders, adding to her sophisticated appearance. Her expressions range from contemplative to engaging, with a slight tilt of her head and a direct gaze that suggests confidence and intelligence. Her poses are often composed and deliberate, whether standing or seated, conveying a sense of grace and poise.\n\n**Outfit and Accessories:**\nGrace's attire is characterized by a blend of classic and elegant styles, often featuring rich, deep colors like burgundy and red, which add a touch of sophistication. Her outfits include tailored blazers and dresses, with a preference for structured silhouettes that enhance her figure. The textures of her clothing range from smooth fabrics to more textured materials, adding depth and interest to her ensembles. Accessories play a significant role in her look, with a notable presence of statement jewelry such as a large blue pendant necklace and a red beaded necklace, which add a pop of color and elegance. Her outfits are practical yet formal, suggesting a character who is both stylish and professional. The consistent use of a wide-brimmed hat in one image adds a touch of mystery and intrigue to her overall appearance.\n\n**Distinguishing Visual Features or Vibe:**\nGrace's most memorable feature is her ability to convey a sense of mystery and elegance through her visual presentation. The recurring theme of rich, deep colors in her outfits, combined with her poised demeanor, creates a striking visual impact. The wide-brimmed hat and statement jewelry are signature elements that contribute to her unique style. Her wavy hair and fair skin, along with her expressive eyes, add to her ethereal and captivating presence. The consistent use of a dark, moody color palette in the backgrounds of the images further enhances her enigmatic aura, making her stand out as a character of depth and intrigue. Overall, Grace exudes a blend of sophistication, mystery, and elegance, making her visually unmistakable and memorable.",
+            "preference": "In terms of entertainment, Grace enjoys musicals, documentaries, but dislikes sports TV, romantic dramas. In terms of travel, Grace enjoys trains, flying business class, but dislikes backpacking, luxury resorts. In terms of lifestyle, Grace enjoys plant-based diet, home cooking, but dislikes meditation, yoga. In terms of shopping, Grace enjoys Bluetooth speakers, wireless charging stations, but dislikes sportswear, high-end perfumes. In terms of fashion, Grace enjoys casual wear, minimalist outfits, but dislikes business casual, athleisure wear.",
+            "topic": [],
+            "original_id": "QA_sample_c664c226_1_1",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Kadin Mcdowell least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_c664c226_2",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 721d0240, Among the activities that could reasonably occur in the given image, which one is Kadin Mcdowell least likely to be doing?",
+        "answer": "Watching romantic dramas",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Kadin Mcdowell enjoys musicals, documentaries, but dislikes sports TV, romantic dramas",
+                "In terms of lifestyle, Kadin Mcdowell enjoys plant-based diet, home cooking, but dislikes meditation, yoga"
+            ],
+            "image_evidence": [
+                "MMPB_2d99653f.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Kadin Mcdowell enjoys trains, flying business class, but dislikes backpacking, luxury resorts",
+                "In terms of shopping, Kadin Mcdowell enjoys Bluetooth speakers, wireless charging stations, but dislikes sportswear, high-end perfumes",
+                "In terms of fashion, Kadin Mcdowell enjoys casual wear, minimalist outfits, but dislikes business casual, athleisure wear."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "Going on a backpacking tour",
+                "Watching action thrillers",
+                "Watching romantic dramas",
+                "Enjoying comedy specials"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_nature_education_9e46bb19",
+                    "insert_conversation_turn": 190
+                },
+                {
+                    "conversation_name": "group_chat_architecture_nature_education_9e46bb19",
+                    "insert_conversation_turn": 869
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_politics_transportation_fashion_f0c4b57a",
+                    "insert_conversation_turn": 540,
+                    "reference_name": "Fig. 721d0240"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_politics_transportation_fashion_f0c4b57a",
+                    "insert_conversation_turn": 349
+                },
+                {
+                    "conversation_name": "group_chat_politics_transportation_fashion_f0c4b57a",
+                    "insert_conversation_turn": 301
+                },
+                {
+                    "conversation_name": "group_chat_politics_transportation_fashion_f0c4b57a",
+                    "insert_conversation_turn": 1025
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Grace",
+            "description": "Grace is a woman with a slender build and an average height, exuding a poised and elegant presence. Her facial structure is defined by a prominent jawline and a slightly upturned nose, complemented by expressive eyes and a well-defined brow. Her skin tone is fair, and she often sports a subtle, natural makeup look. Grace's hair is a consistent feature, styled in soft, wavy locks that fall just below her shoulders, adding to her sophisticated appearance. Her expressions range from contemplative to engaging, with a slight tilt of her head and a direct gaze that suggests confidence and intelligence. Her poses are often composed and deliberate, whether standing or seated, conveying a sense of grace and poise.\n\n**Outfit and Accessories:**\nGrace's attire is characterized by a blend of classic and elegant styles, often featuring rich, deep colors like burgundy and red, which add a touch of sophistication. Her outfits include tailored blazers and dresses, with a preference for structured silhouettes that enhance her figure. The textures of her clothing range from smooth fabrics to more textured materials, adding depth and interest to her ensembles. Accessories play a significant role in her look, with a notable presence of statement jewelry such as a large blue pendant necklace and a red beaded necklace, which add a pop of color and elegance. Her outfits are practical yet formal, suggesting a character who is both stylish and professional. The consistent use of a wide-brimmed hat in one image adds a touch of mystery and intrigue to her overall appearance.\n\n**Distinguishing Visual Features or Vibe:**\nGrace's most memorable feature is her ability to convey a sense of mystery and elegance through her visual presentation. The recurring theme of rich, deep colors in her outfits, combined with her poised demeanor, creates a striking visual impact. The wide-brimmed hat and statement jewelry are signature elements that contribute to her unique style. Her wavy hair and fair skin, along with her expressive eyes, add to her ethereal and captivating presence. The consistent use of a dark, moody color palette in the backgrounds of the images further enhances her enigmatic aura, making her stand out as a character of depth and intrigue. Overall, Grace exudes a blend of sophistication, mystery, and elegance, making her visually unmistakable and memorable.",
+            "preference": "In terms of entertainment, Grace enjoys musicals, documentaries, but dislikes sports TV, romantic dramas. In terms of travel, Grace enjoys trains, flying business class, but dislikes backpacking, luxury resorts. In terms of lifestyle, Grace enjoys plant-based diet, home cooking, but dislikes meditation, yoga. In terms of shopping, Grace enjoys Bluetooth speakers, wireless charging stations, but dislikes sportswear, high-end perfumes. In terms of fashion, Grace enjoys casual wear, minimalist outfits, but dislikes business casual, athleisure wear.",
+            "topic": [],
+            "original_id": "QA_sample_c664c226_2_1",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Kadin Mcdowell least likely to be doing?"
+        }
+    },
+    {
+        "id": "LifeSim_4c65ad16",
+        "domain": "LifeSim",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 4e243b12, What type of food does Colt Kemp prefer to choose while traveling to support community or sustainable practices?",
+        "answer": "local produce",
+        "evidence": {
+            "image_evidence": [
+                "LifeSim_4fa7c917.png"
+            ]
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "imported snacks",
+                "organic packaged goods",
+                "processed foods",
+                "local produce"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_television_economy_others_6523d9db",
+                    "insert_conversation_turn": 505,
+                    "reference_name": "Fig. 4e243b12"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "conv_history_name": "user_assistant_conversation_ebfb92cf.json",
+            "preference_user_name": "Colt Kemp",
+            "original_question": "What type of food does Colt Kemp prefer to choose while traveling to support community or sustainable practices?"
+        }
+    }
+]

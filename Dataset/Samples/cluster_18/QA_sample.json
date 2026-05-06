@@ -1,0 +1,2017 @@
+[
+    {
+        "id": "d1e82f15",
+        "domain": "MMDocRAG",
+        "category": "Single_Hop_QA",
+        "question": "Based on Doc. 2218a59a, Doc. ebbee159, Doc. 6caa0047, Does Bulgaria require a three-fourths majority for constitutional amendments?",
+        "answer": "Yes",
+        "evidence": {
+            "text_evidence": [],
+            "image_evidence": [],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": [
+                [
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Majority Vote Requirements for Passage of Legislation in Selected Jurisdictions  "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "SUMMARY   The following table summarizes the majority vote requirements with respect to the passage of legislation in the legislatures of  74 jurisdictions around the world. The jurisdictions were selected on the basis of those identified as being either “full” (23) or  “flawed” (52) democracies in the Economist Intelligence Unit’s Democracy Index 2020 report (excluding the United States).  The jurisdictions are listed in alphabetical order.   "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "The table does not generally reflect matters such as quorum requirements or other structural or procedural arrangements that  may impact on the passage of legislation; requirements for work of legislative committees; or voting requirements for the  adoption of non-legislative matters such as confirmation of government appointees, motions of no confidence, and the like.  Furthermore, with respect to constitutional amendments, while voting requirements in the legislature are included, countries  often require various additional procedures that are not reflected in the table.  "
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_d925eb1b.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_ec07848f.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Majority Vote Requirements for  Passage of Legislation in Selected  Jurisdictions  "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Staff of the Global Legal Research Directorate  "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "• Majority of votes cast, reflecting what is frequently referred to as a “simple majority,” being a requirement that at least half plus one (or “more than half”) of the votes cast be in favor of the passage of a legislative proposal (sometimes also referred to as a majority of the “members present” or those “present and voting”). Some jurisdictions may refer to, for example, “an absolute majority of members present.” • Majority of all members, being at least half plus one of the total number of members of the legislature or a particular chamber or house of the legislative body, whether present or not. The term “absolute majority” is sometimes used to refer to this type of majority. • Supermajority requirements, being requirements for more than an absolute or simple majority of votes or members. This is also sometimes referred to as a “qualified majority” or a “special majority.” "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_fa0157ae.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_e617a831.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "The majority vote requirements are divided into three broad types:  "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "LL File No. 2021-020106  LRA-D-PUB-002624  "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "This report is provided for reference purposes only.  It does not constitute legal advice and does not represent the official  opinion of the United States Government. The information provided  reflects research undertaken as of the date of writing.   It has not been updated. "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_61d0406f.png"
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_b39a571a.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_757da22d.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_3db4ae3b.png"
+                        }
+                    }
+                ]
+            ]
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Yes",
+                "No"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [],
+            "image_evidence_assignment": [],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_films_economy_religion_edc945a0",
+                    "insert_conversation_turn": 986,
+                    "reference_name": "Doc. 2218a59a"
+                },
+                {
+                    "conversation_name": "group_chat_travel_sports_literature_c5d0464f",
+                    "insert_conversation_turn": 148,
+                    "reference_name": "Doc. ebbee159"
+                },
+                {
+                    "conversation_name": "group_chat_travel_science_lifestyle_a5734e7a",
+                    "insert_conversation_turn": 658,
+                    "reference_name": "Doc. 6caa0047"
+                }
+            ]
+        },
+        "meta_data": {
+            "category": "Laws",
+            "doc_name": "2023555917",
+            "gold_quotes": [
+                "text3",
+                "image5"
+            ],
+            "topic": [
+                "government"
+            ],
+            "original_question": "Does Bulgaria require a three-fourths majority for constitutional amendments?"
+        }
+    },
+    {
+        "id": "QA_sample_0ea06fec",
+        "domain": "MMCV",
+        "category": "Multi_Hop_QA",
+        "question": "Based on Table. d162cf1f, Which ranked author in the 2002 International Honkaku Mystery Best 10 created a fictional priest-detective, and did G. K. Chesterton rank higher than this author?",
+        "answer": "Yes",
+        "evidence": {
+            "text_evidence": [
+                "Harriet Huntington Doerr (April 8, 1910 – November 24, 2002) was an American author whose debut novel was published at the age of 74.",
+                "Gilbert Keith Chesterton, KC*SG (29 May 1874 – 14 June 1936), better known as G. K. Chesterton, was an English writer, poet, philosopher, dramatist, journalist, orator, lay theologian, biographer, and literary and art critic. Chesterton is often referred to as the \"prince of paradox\". Time magazine has observed of his writing style: \"Whenever possible Chesterton made his points with popular sayings, proverbs, allegories—first carefully turning them inside out.\""
+            ],
+            "image_evidence": [],
+            "table_evidence": [
+                {
+                    "title": "Honkaku Mystery Best 10",
+                    "table_name": "2002  | International",
+                    "table_header": [
+                        "Rank",
+                        "Author",
+                        "Title"
+                    ],
+                    "table_rows": [
+                        [
+                            "1",
+                            "Anthony Berkeley Cox",
+                            "Jumping Jenny [US title: Dead Mrs. Stratton]"
+                        ],
+                        [
+                            "2",
+                            "Jill McGown",
+                            "The Stalking Horse"
+                        ],
+                        [
+                            "3",
+                            "Anthony Berkeley Cox",
+                            "Top Storey Murder"
+                        ],
+                        [
+                            "3",
+                            "Dorothy L. Sayers",
+                            "Gaudy Night"
+                        ],
+                        [
+                            "5",
+                            "(Anthology of Locked room mystery)",
+                            ""
+                        ],
+                        [
+                            "6",
+                            "G. K. Chesterton",
+                            "Four Faultless Felons"
+                        ],
+                        [
+                            "7",
+                            "Carter Dickson",
+                            "The Third Bullet"
+                        ],
+                        [
+                            "8",
+                            "Nicholas Blake",
+                            "Thou Shell of Death"
+                        ],
+                        [
+                            "9",
+                            "Sarah Caldwell",
+                            "The Sibyl in Her Grave"
+                        ],
+                        [
+                            "10",
+                            "Richard Hull",
+                            "Keep It Quiet"
+                        ],
+                        [
+                            "10",
+                            "Hake Talbot",
+                            "Rim of the Pit"
+                        ]
+                    ]
+                }
+            ],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "No",
+                "Yes"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_travel_sports_literature_c5d0464f",
+                    "insert_conversation_turn": 967
+                },
+                {
+                    "conversation_name": "group_chat_travel_science_lifestyle_a5734e7a",
+                    "insert_conversation_turn": 908
+                }
+            ],
+            "image_evidence_assignment": [],
+            "table_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_films_economy_religion_edc945a0",
+                    "insert_conversation_turn": 395,
+                    "reference_name": "Table. d162cf1f"
+                }
+            ],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "literature"
+            ],
+            "original_question": "Which ranked author in the 2002 International Honkaku Mystery Best 10 created a fictional priest-detective, and did G. K. Chesterton rank higher than this author?"
+        }
+    },
+    {
+        "id": "QA_sample_6f4c64e9",
+        "domain": "MLLMKC",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. eadcaa05, When was the brand associated with the logo established?",
+        "answer": "1916",
+        "evidence": {
+            "text_evidence": [
+                "BMW was founded in 1916. The creator of BMW is Franz Josef Popp. BMW is the production of luxury vehicles and motorcycles."
+            ],
+            "image_evidence": [
+                "MLLMKC_079ff9a4.jpg"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "BMW was founded in 1918. The creator of BMW is Franz Josef Popp. BMW is the production of luxury vehicles and motorcycles."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "1917",
+                "1914",
+                "1916",
+                "1918"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_travel_sports_literature_c5d0464f",
+                    "insert_conversation_turn": 221
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_travel_science_lifestyle_a5734e7a",
+                    "insert_conversation_turn": 805,
+                    "reference_name": "Fig. eadcaa05"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_films_economy_religion_edc945a0",
+                    "insert_conversation_turn": 4
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "instance": "BMW",
+            "category": "logo",
+            "error_type": "time_error",
+            "topic": [
+                "transportation",
+                " history",
+                " business"
+            ],
+            "original_question": "When was the brand associated with the logo established?"
+        }
+    },
+    {
+        "id": "7e80e68b",
+        "domain": "MMDocRAG",
+        "category": "Single_Hop_QA",
+        "question": "Based on Doc. 637d9345, Doc. eb37b62b, Doc. 5614c900, What was the venue and occasion for the group photo of G20 Finance Ministers and Central Bank Governors?",
+        "answer": "Chengdu, China, G20 Finance Ministers and Central Bank Governors Meeting, July 23-24, 2016",
+        "evidence": {
+            "text_evidence": [],
+            "image_evidence": [],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": [
+                [
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "These markets could be in Europe or closer to home. Chengdu’s largest commercial vehicle manufacturer Sinotruk, for example, delivered 1,500 heavy-duty trucks to Myanmar in July this year. The Bangladesh-China-India-Myanmar economic corridor is expected to be another of China’s commercial thoroughfares bringing business to Chengdu. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "In 2015 Beijing presented its ambition to modernise manufacturing through a plan called Made In China 2025 (MIC 2025). The general thrust of MIC 2025 is to spur innovation in manufacturing and encourage homegrown products. The central government has since selected a few cities to “pilot” this scheme. In 2017, Chengdu became the fourth city nationally and the only city in the western region to be designated a pilot zone for MIC 2025. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "The Financial City is being developed in three stages, and in its third stage, it will build industry parks tailored to their occupants, such as China UnionPay. Fang Zhao, chairman of the government-owned Chengdu Financial City Investment and Development Group, claimed last year that roughly  $90\\%$   of  phase I and phase II properties had been purchased, with 329 institutions collectively investing Rmb42 billion in the area.  n "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_7b08e21f.png"
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_6192b02b.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "With Hubei thus relatively unguarded, revolutionaries grabbed the opportunity to seize the provincial capital, Wuchang, on October 10, 1911. Other uprisings followed and the Qing Dynasty collapsed by the end of the year. Chengdu fell into 20 years of warlord control before being brought to heel in the mid-thirties by the army of the Republic of China. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "are now on display at the Jinsha Museum in Chengdu, including the Golden Sun Bird disc (see photo on page 8), which has since become the official logo of the city. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "The New Century Global Centre was built in the middle of Tianfu New City, on top of Subway Line 1. It was heralded as the largest single building in the world by gross floor area, measuring in at 1,700,000 square metres, and opened in 2013 after only three years of construction.The timing was unfortunate: Deng Hong, the founder of the company developing the project, was arrested that year on corruption charges. The Fortune 500 global summit – initially billed to convene in the Centre – chose to relocate to the Shangri-La hotel instead. "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_b06132a0.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_dd7d4e93.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "The place where top diplomats reside on trips to Chengdu. Situated on the road that divides the city centre into east and west, this luxury hotel is proud of its illustrious guest list. Photos of the hotel manager shaking hands with global leaders are showcased in the lobby. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Things got even more complicated in March 2017 when Chengdu joined a nationwide clampdown on speculative property purchasing, initiated when Beijing’s municipal government introduced its most stringent restrictions to the date. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Supporting Chengdu’s claim to the title of “gateway to Western China”, the city was designated a Free Trade Zone in April 2017, inspiring beneficial policies and practices. On April 6, the city issued its first “combined bill of lading” to a European exporter using the Chengdu-Europe Express Rail. This document allows the exporter to receive payment before the importer receives its goods. The city is also Southwest China’s only cross-border e-commerce zone, which combined with its bonded ports, streamlines customs clearance for overseas imports and exports.  "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_d89df171.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_bba62bc0.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Actually when we started to talk with them in 2012, there was no BRI. Then in 2013 when the Initiative was announced that provided some extra acceleration to us. The BRI sparked a lot of support from the central government as well, and that’s the reason why the local government is now very ambitious in terms of their targets for how many trains should be running between Chengdu and Europe each year. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Chengdu’s appointment as a pilot zone may not be entirely good news for foreign companies, however, as the MIC 2025 plan has faced critic is is m as being protectionist. The European  Union  Chamber  of Commerce in China issued a lengthy report on the plan accusing the government in Beijing of attempting to “severely curtail the position of foreign business” with its “large-scale import substitution plan aimed at national ising key industries”. And the Chengdu has designated three ‘future industries’: precision medical treatment, AI (artificial intelligence) and VR (virtual reality) "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "More recently, the city played host to G20 finance ministers and central bank governors during their convention in July last year, and the city is currently developing a 5.1 square kilometre area that it dubs the “Financial City” (one of the main strips in Financial City is Jiaozi Avenue). Many financial institutions have already moved to there, following clients who have relocated to the surrounding CBD. "
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_67a2720c.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_08f7275d.png"
+                        }
+                    }
+                ]
+            ]
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Shanghai, China, G20 Finance Ministers and Central Bank Governors Meeting, July 23-24, 2016",
+                "Chengdu, China, G20 Finance Ministers and Central Bank Governors Meeting, July 23-24, 2016",
+                "Beijing, China, G20 Finance Ministers and Central Bank Governors Meeting, July 23-24, 2016",
+                "Chengdu, China, Fortune 500 Global Summit, July 23-24, 2016"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [],
+            "image_evidence_assignment": [],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_travel_sports_literature_c5d0464f",
+                    "insert_conversation_turn": 1190,
+                    "reference_name": "Doc. 637d9345"
+                },
+                {
+                    "conversation_name": "group_chat_travel_science_lifestyle_a5734e7a",
+                    "insert_conversation_turn": 851,
+                    "reference_name": "Doc. eb37b62b"
+                },
+                {
+                    "conversation_name": "group_chat_travel_sports_literature_c5d0464f",
+                    "insert_conversation_turn": 118,
+                    "reference_name": "Doc. 5614c900"
+                }
+            ]
+        },
+        "meta_data": {
+            "category": "Guidebook",
+            "doc_name": "Sinopolis-Chengdu",
+            "gold_quotes": [
+                "image1",
+                "text12"
+            ],
+            "topic": [
+                "government",
+                " economy",
+                " business",
+                " politics"
+            ],
+            "original_question": "What was the venue and occasion for the group photo of G20 Finance Ministers and Central Bank Governors?"
+        }
+    },
+    {
+        "id": "fc5f7990",
+        "domain": "MMDocRAG",
+        "category": "Single_Hop_QA",
+        "question": "Based on Doc. d7540c9a, Doc. 8d676a5b, Doc. f50dcd88, What are the top concerns Americans have about China based on the survey data?",
+        "answer": "Top concerns include human rights (20%), economy (19%), and political system (17%).",
+        "evidence": {
+            "text_evidence": [
+                "PEW RESEARCH CENTER  Human rights concerns also  are frequently cited when  Americans are asked, in an  open-ended format, about the  first thing that comes to mind  when they think of China. One- in-five mention human rights  concerns, with  $3\\%$   specifically  focused on Uyghurs in  Xinjiang. (For more on the  open-ended responses, as well  as how they were coded, see “ In  their own words: What  Americans think about China .”  Quotations from this open- ended question appear  throughout this report to  provide context for the survey  findings. They do not represent  the opinion of all Americans on  any given topic. They have been  edited lightly for grammar and  clarity.)   ",
+                "Americans have many specific  concerns when it comes to  China, and the sense that  certain issues in the bilateral  relationship – including  cyber attacks, job losses to  China, and China’s growing  technological power – are  major problems has grown over  the past year alone. Half of  Americans now say China’s  policy on human rights is a  very  serious problem for the  U.S. – up 7 percentage points  since last year. And nine-in-ten  Americans say China does not  respect the personal freedoms  of its people.  "
+            ],
+            "image_evidence": [],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": [
+                [
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Americans are also critical of how China is dealing with some key issues. When it comes to dealing  with global climate change, for example, a broad  $79\\%$   majority thinks China is doing a bad job,  "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "“The Chinese people as  individuals are no  different than other  people, but their  government is a  totalitarian Communist  regime bent on conquering  its neighbors and land- grabbing, as shown by  their takeover of Hong  Kong.”  "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "–Man, 52  Many also mentioned China’s powerful economy, its  dominance as a manufacturing center – sometimes at the  expense of the environment or workers – and issues related  to the U.S.-Chinese economic relationship. Overall,  Americans see current economic ties with China as fraught:  Around two-thirds   $(64\\%)$   describe economic relations  between the superpowers as somewhat or very bad.   "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_04c3ae3e.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_4f1db8d4.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "What’s the first thing you think about when you think about China? (%)  [OPEN-END]  "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Americans express substantial concern when  asked about eight specific issues in the U.S.- China relationship. About three-quarters or  more say that each issue is at least somewhat  serious. Still, four problems stand out for being  ones that half or more describe as  very  serious:  cyber attacks from China, the loss of U.S. jobs to  China, China’s growing military power and  China’s policies on human rights.   "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Tensions between mainland China and Hong Kong or Taiwan are seen as less serious problems for  most Americans. While about three-quarters say these two geopolitical issues are at least  somewhat serious problems, only about three-in-ten say they are  very  serious. Still, the share who  see Hong Kong’s tensions with mainland China as a  very  serious problem has increased by 5  percentage points since last year. (Last year’s survey did not ask about tensions between mainland  China and Taiwan.)  "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_b0f07cc7.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_4ee38396.png"
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Across age groups, older Americans express more concern about China-related issues. Americans  ages 65 and older are at least 20 points more likely than those ages 18 to 29 to say most issues  asked about in the survey are  very  serious problems.  "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Compared with 2020, concern about various China-related issues generally increased more among  Republicans than among Democrats. For instance, while the share of Republicans who say the loss  of U.S. jobs to China poses a very serious problem increased by 14 percentage points, there was no  significant change among Democrats. On issues where concern rose overall, increases tended to be  especially steep among conservative Republicans.  "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Only on human rights-related  issues – both the perception  that China’s human rights  policies are a major problem  and support for promoting  human rights in China – do  Democrats and Republicans  largely agree. The sense that  China’s human rights policies  are an issue in the bilateral  relationship also increased a  similar amount among both  "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_4467e080.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_4edf1124.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "When Americans think of China, human rights and the  economy are top of mind  "
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_2d2daa64.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_7496620a.png"
+                        }
+                    }
+                ]
+            ]
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "Political system (19%), threats (18%), and human rights (16%)",
+                "Economy (22%), political system (16%), and threats (14%)",
+                "Human rights (18%), economy (21%), and political system (15%)",
+                "Top concerns include human rights (20%), economy (19%), and political system (17%)."
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_travel_sports_literature_c5d0464f",
+                    "insert_conversation_turn": 1249
+                },
+                {
+                    "conversation_name": "group_chat_films_economy_religion_edc945a0",
+                    "insert_conversation_turn": 1019
+                }
+            ],
+            "image_evidence_assignment": [],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_travel_science_lifestyle_a5734e7a",
+                    "insert_conversation_turn": 1362,
+                    "reference_name": "Doc. d7540c9a"
+                },
+                {
+                    "conversation_name": "group_chat_travel_science_lifestyle_a5734e7a",
+                    "insert_conversation_turn": 1252,
+                    "reference_name": "Doc. 8d676a5b"
+                },
+                {
+                    "conversation_name": "group_chat_travel_science_lifestyle_a5734e7a",
+                    "insert_conversation_turn": 556,
+                    "reference_name": "Doc. f50dcd88"
+                }
+            ]
+        },
+        "meta_data": {
+            "category": "Research report / Introduction",
+            "doc_name": "PG_2021.03.04_US-Views-on-China_FINAL",
+            "gold_quotes": [
+                "image4",
+                "text12",
+                "text10",
+                "text11"
+            ],
+            "topic": [
+                "government",
+                " economy",
+                " technology",
+                " environment"
+            ],
+            "original_question": "What are the top concerns Americans have about China based on the survey data?"
+        }
+    },
+    {
+        "id": "2b22c817",
+        "domain": "MMDocRAG",
+        "category": "Single_Hop_QA",
+        "question": "Based on Doc. 73c610cc, Doc. 10ed4d8b, Does the Constitution of the Philippines require a two-thirds majority to declare war?",
+        "answer": "Yes",
+        "evidence": {
+            "text_evidence": [],
+            "image_evidence": [],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": [
+                [
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Majority Vote Requirements for Passage of Legislation in Selected Jurisdictions  "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "The table does not generally reflect matters such as quorum requirements or other structural or procedural arrangements that  may impact on the passage of legislation; requirements for work of legislative committees; or voting requirements for the  adoption of non-legislative matters such as confirmation of government appointees, motions of no confidence, and the like.  Furthermore, with respect to constitutional amendments, while voting requirements in the legislature are included, countries  often require various additional procedures that are not reflected in the table.  "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "This report is provided for reference purposes only.  It does not constitute legal advice and does not represent the official  opinion of the United States Government. The information provided  reflects research undertaken as of the date of writing.   It has not been updated. "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_8f48e3f3.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_fb0d6ce4.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Staff of the Global Legal Research Directorate  "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "• Majority of votes cast, reflecting what is frequently referred to as a “simple majority,” being a requirement that at least half plus one (or “more than half”) of the votes cast be in favor of the passage of a legislative proposal (sometimes also referred to as a majority of the “members present” or those “present and voting”). Some jurisdictions may refer to, for example, “an absolute majority of members present.” • Majority of all members, being at least half plus one of the total number of members of the legislature or a particular chamber or house of the legislative body, whether present or not. The term “absolute majority” is sometimes used to refer to this type of majority. • Supermajority requirements, being requirements for more than an absolute or simple majority of votes or members. This is also sometimes referred to as a “qualified majority” or a “special majority.” "
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Majority Vote Requirements for  Passage of Legislation in Selected  Jurisdictions  "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_31bdee2f.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_1aedf7c4.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "The majority vote requirements are divided into three broad types:  "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "April 2021  "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "LL File No. 2021-020106  LRA-D-PUB-002624  "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_f7afaf03.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_d6f8625a.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "SUMMARY   The following table summarizes the majority vote requirements with respect to the passage of legislation in the legislatures of  74 jurisdictions around the world. The jurisdictions were selected on the basis of those identified as being either “full” (23) or  “flawed” (52) democracies in the Economist Intelligence Unit’s Democracy Index 2020 report (excluding the United States).  The jurisdictions are listed in alphabetical order.   "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_7b203814.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_da8d92ea.png"
+                        }
+                    }
+                ]
+            ]
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "No",
+                "Yes"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [],
+            "image_evidence_assignment": [],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_travel_science_lifestyle_a5734e7a",
+                    "insert_conversation_turn": 401,
+                    "reference_name": "Doc. 73c610cc"
+                },
+                {
+                    "conversation_name": "group_chat_travel_science_lifestyle_a5734e7a",
+                    "insert_conversation_turn": 1162,
+                    "reference_name": "Doc. 10ed4d8b"
+                }
+            ]
+        },
+        "meta_data": {
+            "category": "Laws",
+            "doc_name": "2023555917",
+            "gold_quotes": [
+                "text5",
+                "image8"
+            ],
+            "topic": [
+                "government",
+                " politics"
+            ],
+            "original_question": "Does the Constitution of the Philippines require a two-thirds majority to declare war?"
+        }
+    },
+    {
+        "id": "QA_sample_29f9681e",
+        "domain": "MLLMKC",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. 703a30a0, What are the main products of this brand?",
+        "answer": "package delivery services",
+        "evidence": {
+            "text_evidence": [
+                "UPS was founded in 1907. The creator of UPS is James E. Casey. UPS is the brand of package delivery services."
+            ],
+            "image_evidence": [
+                "MLLMKC_7c307fa4.jpg"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "UPS was founded in 1907. The creator of UPS is James E. Casey. UPS is the brand of fast food services."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "fast food services",
+                "home decor items",
+                "electronic gadgets",
+                "package delivery services"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_films_economy_religion_edc945a0",
+                    "insert_conversation_turn": 914
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_travel_sports_literature_c5d0464f",
+                    "insert_conversation_turn": 1235,
+                    "reference_name": "Fig. 703a30a0"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_travel_science_lifestyle_a5734e7a",
+                    "insert_conversation_turn": 489
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "instance": "UPS",
+            "category": "logo",
+            "error_type": "content_error",
+            "topic": [
+                "business",
+                "transportation"
+            ],
+            "original_question": "What are the main products of this brand?"
+        }
+    },
+    {
+        "id": "QA_sample_ce50ee4f",
+        "domain": "MLLMKC",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. 037c96d8, What are the main products of this brand?",
+        "answer": "space exploration",
+        "evidence": {
+            "text_evidence": [
+                "NASA was created in 1958. The creator of NASA is the United States government. NASA is the brand of space exploration."
+            ],
+            "image_evidence": [
+                "MLLMKC_9770d7dc.jpg"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "NASA was created in 1958. The creator of NASA is the United States government. NASA is the brand of high-end fashion."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "space exploration",
+                "outdoor adventure gear",
+                "high-end fashion",
+                "gourmet food products"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_travel_sports_literature_c5d0464f",
+                    "insert_conversation_turn": 59
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_films_economy_religion_edc945a0",
+                    "insert_conversation_turn": 293,
+                    "reference_name": "Fig. 037c96d8"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_travel_science_lifestyle_a5734e7a",
+                    "insert_conversation_turn": 32
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "instance": "NASA",
+            "category": "logo",
+            "error_type": "content_error",
+            "topic": [
+                "science",
+                "technology",
+                "government"
+            ],
+            "original_question": "What are the main products of this brand?"
+        }
+    },
+    {
+        "id": "QA_sample_e1f190ab",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 506fdadd, the text, how many years between 2005 and 2015 in California had water content levels designated as \"severe drought years\" and \"exceptionally high snowpack years\" according to the previous definitions?",
+        "answer": "3 severe drought years and 2 exceptionally high snowpack years.",
+        "evidence": {
+            "text_evidence": [
+                "California officials declared that years with water content levels of the Sierra Nevada snowpack below 50% of the average are designated as severe drought years, while levels above 150% are considered exceptionally high snowpack years. This determination is used to guide water conservation policies in the state."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_6f200490.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "4 severe drought years and 1 exceptionally high snowpack year",
+                "3 severe drought years and 2 exceptionally high snowpack years.",
+                "5 severe drought years and 0 exceptionally high snowpack years",
+                "2 severe drought years and 3 exceptionally high snowpack years"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_travel_sports_literature_c5d0464f",
+                    "insert_conversation_turn": 892
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_travel_science_lifestyle_a5734e7a",
+                    "insert_conversation_turn": 986,
+                    "reference_name": "Fig. 506fdadd"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "environment",
+                "government"
+            ],
+            "original_question": "the text, how many years between 2005 and 2015 in California had water content levels designated as \"severe drought years\" and \"exceptionally high snowpack years\" according to the previous definitions?"
+        }
+    },
+    {
+        "id": "QA_sample_2c73e0e0",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 0a182f9f, the text, do either of the candidates meet both the criteria of securing a \"majority win\" and maintaining a \"stable lead during the campaign\"?",
+        "answer": "No",
+        "evidence": {
+            "text_evidence": [
+                "In the analyzed election data, a candidate needs to secure at least 50% of likely voters to ensure a majority win. However, a minimum number of registered voters supporting the candidate must also exceed the opponent’s registered voter count by at least 5% to maintain a stable lead during the campaign."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_c997c7c2.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "No",
+                "Yes"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_films_economy_religion_edc945a0",
+                    "insert_conversation_turn": 278
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_travel_science_lifestyle_a5734e7a",
+                    "insert_conversation_turn": 461,
+                    "reference_name": "Fig. 0a182f9f"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "politics",
+                "government"
+            ],
+            "original_question": "the text, do either of the candidates meet both the criteria of securing a \"majority win\" and maintaining a \"stable lead during the campaign\"?"
+        }
+    },
+    {
+        "id": "QA_sample_35d16771",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. c10ddbeb, the text, which country among UK, France, Germany, and Austria appears most likely to have implemented a lockdown after November 18 according to the policy?",
+        "answer": "Austria",
+        "evidence": {
+            "text_evidence": [
+                "A country's Covid-19 policy mandates new lockdown measures when the seven-day total of confirmed cases per 100,000 people exceeds 500. However, countries also consider the duration an area stays above this threshold before acting: at least 7 days are required for extended lockdowns. Assume lockdowns begin on the 8th consecutive day above 500 cases for simplicity."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_1c191f20.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "UK",
+                "Austria",
+                "Germany",
+                "France"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_films_economy_religion_edc945a0",
+                    "insert_conversation_turn": 470
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_travel_sports_literature_c5d0464f",
+                    "insert_conversation_turn": 589,
+                    "reference_name": "Fig. c10ddbeb"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "health",
+                "government"
+            ],
+            "original_question": "the text, which country among UK, France, Germany, and Austria appears most likely to have implemented a lockdown after November 18 according to the \"policy that mandates new lockdown measures when the seven-day total of confirmed cases per 100,000 people exceeds 500 for at least 7 consecutive days, with lockdowns beginning on the 8th consecutive day\"?"
+        }
+    },
+    {
+        "id": "QA_sample_0bb671bc",
+        "domain": "MLLMKC",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. a7859ad5, What are the main products of this brand?",
+        "answer": "motorcycles",
+        "evidence": {
+            "text_evidence": [
+                "Harley-Davidson was created in 1903. The creators of Harley-Davidson are William S. Harley and Arthur Davidson. Harley-Davidson is the brand of motorcycles."
+            ],
+            "image_evidence": [
+                "MLLMKC_0329e70d.jpg"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Harley-Davidson was created in 1903. The creators of Harley-Davidson are William S. Harley and Arthur Davidson. Harley-Davidson is the brand of luxury watches."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "handcrafted chocolates",
+                "motorcycles",
+                "gourmet coffee",
+                "luxury watches"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_travel_science_lifestyle_a5734e7a",
+                    "insert_conversation_turn": 682
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_travel_sports_literature_c5d0464f",
+                    "insert_conversation_turn": 179,
+                    "reference_name": "Fig. a7859ad5"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_films_economy_religion_edc945a0",
+                    "insert_conversation_turn": 264
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "instance": "Harley-Davidson",
+            "category": "logo",
+            "error_type": "content_error",
+            "topic": [
+                "transportation",
+                " business"
+            ],
+            "original_question": "What are the main products of this brand?"
+        }
+    },
+    {
+        "id": "QA_sample_5784048c",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 7745bcae, the text, what does the trend in highway deaths before and after the introduction of the \"safety regulation requiring enhanced seatbelt designs\" suggest about the possible influence of this regulation?",
+        "answer": "The regulation may have contributed to the decline in highway fatalities after 1975.",
+        "evidence": {
+            "text_evidence": [
+                "A particular safety regulation was introduced in 1975, requiring cars to be equipped with enhanced seatbelt designs. Assume that the impact of this regulation on decreasing highway deaths took effect from 1975 onwards, with consistent improvements over time."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_58c34573.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "The regulation had no impact on highway fatalities over time",
+                "The regulation increased highway fatalities after 1975",
+                "The regulation caused an immediate sharp decline in fatalities after 1975",
+                "The regulation may have contributed to the decline in highway fatalities after 1975."
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_travel_science_lifestyle_a5734e7a",
+                    "insert_conversation_turn": 163
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_travel_sports_literature_c5d0464f",
+                    "insert_conversation_turn": 164,
+                    "reference_name": "Fig. 7745bcae"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "transportation",
+                "health"
+            ],
+            "original_question": "the text, what does the trend in highway deaths before and after the introduction of the \"safety regulation requiring enhanced seatbelt designs\" suggest about the possible influence of this regulation?"
+        }
+    },
+    {
+        "id": "QA_sample_5918c569",
+        "domain": "MLLMKC",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. aef5362d, What are the main products of this brand?",
+        "answer": "ride-hailing service",
+        "evidence": {
+            "text_evidence": [
+                "Uber was created in 2009. The creator of Uber is Travis Kalanick and Garrett Camp. Uber is the brand of ride-hailing service."
+            ],
+            "image_evidence": [
+                "MLLMKC_732551a3.jpg"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Uber was created in 2009. The creator of Uber is Travis Kalanick and Garrett Camp. Uber is the brand of gourmet food delivery service."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "luxury clothing line",
+                "organic skincare products",
+                "gourmet food delivery service",
+                "ride-hailing service"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_travel_science_lifestyle_a5734e7a",
+                    "insert_conversation_turn": 1071
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_travel_sports_literature_c5d0464f",
+                    "insert_conversation_turn": 691,
+                    "reference_name": "Fig. aef5362d"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_films_economy_religion_edc945a0",
+                    "insert_conversation_turn": 699
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "instance": "Uber",
+            "category": "logo",
+            "error_type": "content_error",
+            "topic": [
+                "transportation",
+                " business",
+                " technology"
+            ],
+            "original_question": "What are the main products of this brand?"
+        }
+    },
+    {
+        "id": "QA_sample_73f3ff2f",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 1ba0c1da, the text, which pill is considered \"non-compliant with the sustainability policy introduced in 2017\"?",
+        "answer": "Viagra",
+        "evidence": {
+            "text_evidence": [
+                "In 2017, a sustainability policy was introduced requiring pharmaceutical companies to keep the price of their drugs below $60 per pill. Any pill with a higher price is considered non-compliant with this policy."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_28bf1f87.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Cialis",
+                "Viagra",
+                "Aspirin",
+                "Levitra"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_travel_science_lifestyle_a5734e7a",
+                    "insert_conversation_turn": 313
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_films_economy_religion_edc945a0",
+                    "insert_conversation_turn": 202,
+                    "reference_name": "Fig. 1ba0c1da"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "health",
+                "business",
+                "government",
+                "economy"
+            ],
+            "original_question": "the text, which pill is considered \"non-compliant with the sustainability policy introduced in 2017\"?"
+        }
+    },
+    {
+        "id": "QA_sample_f9f8ac36",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 2c132b21, the text, which countries are considered to have a \"robust nuclear arsenal\" according to the previous definition as of 2020?",
+        "answer": "Russia and USA",
+        "evidence": {
+            "text_evidence": [
+                "A country's nuclear warhead inventory is categorized into three groups: retired, stockpiled, and deployed warheads. Retired warheads are outdated and no longer actively maintained. Stockpiled warheads are stored and reserved but not actively operational, while deployed warheads are fully operational and ready for use. A country is considered to have a robust nuclear arsenal if the total number of stockpiled and deployed warheads exceeds 4,000 units."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_144be260.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "China and France",
+                "India and Israel",
+                "Russia and USA",
+                "UK and Pakistan"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_films_economy_religion_edc945a0",
+                    "insert_conversation_turn": 35
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_travel_science_lifestyle_a5734e7a",
+                    "insert_conversation_turn": 1389,
+                    "reference_name": "Fig. 2c132b21"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "science",
+                "politics",
+                "history",
+                "government"
+            ],
+            "original_question": "the text, which countries are considered to have a \"robust nuclear arsenal\" according to the previous definition as of 2020?"
+        }
+    },
+    {
+        "id": "QA_sample_4fdcd11f",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. d98ac359, the text, which dam(s) are categorized as \"at risk\" according to the May 28, 2018 levels, and has the water conservation policy improved overall dam levels \"in comparison with pre-2016 levels\"?",
+        "answer": "Theewaterskloof and Voëlvlei dams are at risk. Overall, the policy has had limited effectiveness, as multiple dams remain below the threshold, with some showing a decline from pre-2016 levels.",
+        "evidence": {
+            "text_evidence": [
+                "A water conservation policy was introduced in 2016, with the aim of maintaining dam levels above 50% capacity for sustainable water supply. Any dam falling below this threshold is considered at risk and may require additional infrastructure support. By May 28, 2018, policy effectiveness was to be evaluated based on its impact on dam levels over time and particularly in comparison with pre-2016 levels."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_8fdd32a3.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "Steinbras Lower and Berg River dams are at risk Overall the policy has worsened dam levels with multiple dams falling below the threshold",
+                "Voëlvlei and Steinbras Upper dams are at risk Overall the policy has significantly improved dam levels compared to pre-2016 levels",
+                "Berg River and Wemmershoek dams are at risk Overall the policy has had mixed effectiveness with some dams showing improvement",
+                "Theewaterskloof and Voëlvlei dams are at risk. Overall, the policy has had limited effectiveness, as multiple dams remain below the threshold, with some showing a decline from pre-2016 levels."
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_travel_sports_literature_c5d0464f",
+                    "insert_conversation_turn": 794
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_travel_science_lifestyle_a5734e7a",
+                    "insert_conversation_turn": 299,
+                    "reference_name": "Fig. d98ac359"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "environment",
+                "government"
+            ],
+            "original_question": "the text, which dam(s) are categorized as \"at risk\" according to the May 28, 2018 levels, and has the water conservation policy improved overall dam levels \"in comparison with pre-2016 levels\"?"
+        }
+    },
+    {
+        "id": "QA_sample_a5e4ab26",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. ff47431c, the text, which years between 2005 and 2012 met the \"priority funding\" criterion?",
+        "answer": "2008, 2009, 2010, 2011, 2012",
+        "evidence": {
+            "text_evidence": [
+                "The government has recently announced an initiative to promote eco-friendly practices by increasing subsidies for electric-powered tubewells over diesel-powered ones. As a part of this initiative, areas with twice as many electric tubewells compared to diesel tubewells are given priority funding for future projects. This ratio is determined based on data trends between 2005 and 2012."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_01d02637.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "2007, 2008, 2009",
+                "2008, 2009, 2010, 2011, 2012",
+                "2005, 2006, 2007",
+                "2006, 2007, 2010"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_travel_sports_literature_c5d0464f",
+                    "insert_conversation_turn": 810
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_travel_science_lifestyle_a5734e7a",
+                    "insert_conversation_turn": 104,
+                    "reference_name": "Fig. ff47431c"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "environment",
+                "government",
+                "economy"
+            ],
+            "original_question": "the text, which years between 2005 and 2012 met the \"priority funding\" criterion of having \"twice as many electric tubewells compared to diesel tubewells\"?"
+        }
+    },
+    {
+        "id": "QA_sample_708e0838",
+        "domain": "MLLMKC",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. d216d041, What is the occupation of the person in the picture?",
+        "answer": "writer",
+        "evidence": {
+            "text_evidence": [
+                "Stephen King was born on September 21, 1947. Stephen King is American. Stephen King is a writer."
+            ],
+            "image_evidence": [
+                "MLLMKC_89f49b56.jpg"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Stephen King was born on September 21, 1947. Stephen King is American. Stephen King is a chef."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "writer",
+                "painter",
+                "carpenter",
+                "chef"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_films_economy_religion_edc945a0",
+                    "insert_conversation_turn": 19
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_travel_sports_literature_c5d0464f",
+                    "insert_conversation_turn": 530,
+                    "reference_name": "Fig. d216d041"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_travel_science_lifestyle_a5734e7a",
+                    "insert_conversation_turn": 4
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "instance": "Stephen King",
+            "category": "people",
+            "error_type": "Career_error",
+            "topic": [
+                "literature"
+            ],
+            "original_question": "What is the occupation of the person in the picture?"
+        }
+    },
+    {
+        "id": "LifeSim_74aef029",
+        "domain": "LifeSim",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 7ddeaf0c, What is Kenya Decker's preferred language learning method?",
+        "answer": "reading text",
+        "evidence": {
+            "image_evidence": [
+                "LifeSim_c220b2d2.png"
+            ]
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "using flashcards",
+                "reading text",
+                "listening to podcasts",
+                "watching videos"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_films_economy_religion_edc945a0",
+                    "insert_conversation_turn": 191,
+                    "reference_name": "Fig. 7ddeaf0c"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "conv_history_name": "user_assistant_conversation_c265082d.json",
+            "preference_user_name": "Kenya Decker",
+            "original_question": "What is Kenya Decker's preferred language learning method?"
+        }
+    },
+    {
+        "id": "LifeSim_3e172d14",
+        "domain": "LifeSim",
+        "category": "Preference_QA",
+        "question": "Based on Fig. cea4dbb6, What's a simple food item Paxton Clarke can pair with a sweet drink to help avoid a sugar crash?",
+        "answer": "almonds",
+        "evidence": {
+            "image_evidence": [
+                "LifeSim_02ea6755.png"
+            ]
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "rice cakes",
+                "almonds",
+                "fruit juice",
+                "pretzels"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_films_economy_religion_edc945a0",
+                    "insert_conversation_turn": 112,
+                    "reference_name": "Fig. cea4dbb6"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "conv_history_name": "user_assistant_conversation_2f851d2f.json",
+            "preference_user_name": "Paxton Clarke",
+            "original_question": "What's a simple food item Paxton Clarke can pair with a sweet drink to help avoid a sugar crash?"
+        }
+    },
+    {
+        "id": "QA_sample_c453c9b3_1",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. bf061525, the image, what is Kenya Decker most likely to be doing?",
+        "answer": "Watching a baseball channel on TV",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Kenya Decker enjoys sports TV, romantic dramas, but dislikes classical concerts, art exhibitions"
+            ],
+            "image_evidence": [
+                "MMPB_2d99653f.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Kenya Decker enjoys kayaking, snorkeling, but dislikes motorbiking trips, rafting",
+                "In terms of lifestyle, Kenya Decker enjoys protein-rich diet, weightlifting, but dislikes forest bathing, holistic therapy",
+                "In terms of shopping, Kenya Decker enjoys coffee brewing equipment, vintage vinyl records, but dislikes soundproofing panels, sleep-enhancing gadgets",
+                "In terms of fashion, Kenya Decker enjoys high heels, tight-fitting clothes, but dislikes plaid patterns, monochrome outfits."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Watching a news channel on TV",
+                "Watching a baseball channel on TV",
+                "Watching a cooking show on TV",
+                "Wearing high heels"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_travel_science_lifestyle_a5734e7a",
+                    "insert_conversation_turn": 1237
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_films_economy_religion_edc945a0",
+                    "insert_conversation_turn": 338,
+                    "reference_name": "Fig. bf061525"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_travel_sports_literature_c5d0464f",
+                    "insert_conversation_turn": 716
+                },
+                {
+                    "conversation_name": "group_chat_films_economy_religion_edc945a0",
+                    "insert_conversation_turn": 742
+                },
+                {
+                    "conversation_name": "group_chat_travel_science_lifestyle_a5734e7a",
+                    "insert_conversation_turn": 1281
+                },
+                {
+                    "conversation_name": "group_chat_travel_sports_literature_c5d0464f",
+                    "insert_conversation_turn": 615
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "zhangwei",
+            "description": "zhangwei is a man with a medium build and a height that suggests a confident presence. His facial structure is well-defined, with a prominent jawline and a slightly pointed chin. His skin tone is fair, and he has a neat, short hairstyle that is dark and well-groomed. zhangwei often appears with a contemplative expression, with his hand resting thoughtfully on his chin, indicating a reflective or analytical demeanor. His eyes are expressive, and his eyebrows are thick and well-shaped, adding to his thoughtful appearance. In some images, he is seen with a slight smile, suggesting a friendly and approachable personality.\n\n**Outfit and Accessories:**\nzhangwei is frequently seen in formal attire, particularly a black suit paired with a white shirt and a blue tie, which conveys a professional and polished look. The suit is well-tailored, fitting him snugly and enhancing his overall appearance. In one image, he is wearing a green plaid shirt, adding a casual and approachable element to his style. In another scene, he is seen in a bright yellow hoodie with the text \"THE dime EXPERIENCE,\" which introduces a more relaxed and youthful vibe. The consistent use of a suit suggests a professional setting, while the casual attire indicates versatility and adaptability in different environments.\n\n**Distinguishing Visual Features or Vibe:**\nThe most memorable feature of zhangwei is his ability to convey a range of emotions through his expressions and body language. His thoughtful pose, with a hand on his chin, is a recurring motif that suggests introspection and intelligence. The contrast between his formal and casual attire highlights his adaptability and multifaceted personality. The consistent use of a black suit in professional settings, combined with the occasional casual attire, creates a balanced and relatable image. The bright yellow hoodie adds a pop of color and a touch of whimsy, making zhangwei visually distinctive and memorable. Overall, zhangwei exudes a confident and approachable aura, with a blend of professionalism and casual charm.",
+            "preference": "In terms of entertainment, zhangwei enjoys sports TV, romantic dramas, but dislikes classical concerts, art exhibitions. In terms of travel, zhangwei enjoys kayaking, snorkeling, but dislikes motorbiking trips, rafting. In terms of lifestyle, zhangwei enjoys protein-rich diet, weightlifting, but dislikes forest bathing, holistic therapy. In terms of shopping, zhangwei enjoys coffee brewing equipment, vintage vinyl records, but dislikes soundproofing panels, sleep-enhancing gadgets. In terms of fashion, zhangwei enjoys high heels, tight-fitting clothes, but dislikes plaid patterns, monochrome outfits.",
+            "topic": [],
+            "original_id": "QA_sample_c453c9b3",
+            "original_question": "the image, what is Kenya Decker most likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_c453c9b3_2",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. b8416e88, Among the activities that could reasonably occur in the given image, which one is Kenya Decker least likely to be doing?",
+        "answer": "Watching a classical concert broadcast",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Kenya Decker enjoys sports TV, romantic dramas, but dislikes classical concerts, art exhibitions"
+            ],
+            "image_evidence": [
+                "MMPB_6f052249.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Kenya Decker enjoys kayaking, snorkeling, but dislikes motorbiking trips, rafting",
+                "In terms of lifestyle, Kenya Decker enjoys protein-rich diet, weightlifting, but dislikes forest bathing, holistic therapy",
+                "In terms of shopping, Kenya Decker enjoys coffee brewing equipment, vintage vinyl records, but dislikes soundproofing panels, sleep-enhancing gadgets",
+                "In terms of fashion, Kenya Decker enjoys high heels, tight-fitting clothes, but dislikes plaid patterns, monochrome outfits."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Viewing a live K-pop broadcast on the screen",
+                "Watching a classical concert broadcast",
+                "Observing a rock band performance on television",
+                "Enjoying a rafting trip"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_travel_science_lifestyle_a5734e7a",
+                    "insert_conversation_turn": 1237
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_travel_sports_literature_c5d0464f",
+                    "insert_conversation_turn": 366,
+                    "reference_name": "Fig. b8416e88"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_travel_sports_literature_c5d0464f",
+                    "insert_conversation_turn": 716
+                },
+                {
+                    "conversation_name": "group_chat_films_economy_religion_edc945a0",
+                    "insert_conversation_turn": 742
+                },
+                {
+                    "conversation_name": "group_chat_travel_science_lifestyle_a5734e7a",
+                    "insert_conversation_turn": 1281
+                },
+                {
+                    "conversation_name": "group_chat_travel_sports_literature_c5d0464f",
+                    "insert_conversation_turn": 615
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "zhangwei",
+            "description": "zhangwei is a man with a medium build and a height that suggests a confident presence. His facial structure is well-defined, with a prominent jawline and a slightly pointed chin. His skin tone is fair, and he has a neat, short hairstyle that is dark and well-groomed. zhangwei often appears with a contemplative expression, with his hand resting thoughtfully on his chin, indicating a reflective or analytical demeanor. His eyes are expressive, and his eyebrows are thick and well-shaped, adding to his thoughtful appearance. In some images, he is seen with a slight smile, suggesting a friendly and approachable personality.\n\n**Outfit and Accessories:**\nzhangwei is frequently seen in formal attire, particularly a black suit paired with a white shirt and a blue tie, which conveys a professional and polished look. The suit is well-tailored, fitting him snugly and enhancing his overall appearance. In one image, he is wearing a green plaid shirt, adding a casual and approachable element to his style. In another scene, he is seen in a bright yellow hoodie with the text \"THE dime EXPERIENCE,\" which introduces a more relaxed and youthful vibe. The consistent use of a suit suggests a professional setting, while the casual attire indicates versatility and adaptability in different environments.\n\n**Distinguishing Visual Features or Vibe:**\nThe most memorable feature of zhangwei is his ability to convey a range of emotions through his expressions and body language. His thoughtful pose, with a hand on his chin, is a recurring motif that suggests introspection and intelligence. The contrast between his formal and casual attire highlights his adaptability and multifaceted personality. The consistent use of a black suit in professional settings, combined with the occasional casual attire, creates a balanced and relatable image. The bright yellow hoodie adds a pop of color and a touch of whimsy, making zhangwei visually distinctive and memorable. Overall, zhangwei exudes a confident and approachable aura, with a blend of professionalism and casual charm.",
+            "preference": "In terms of entertainment, zhangwei enjoys sports TV, romantic dramas, but dislikes classical concerts, art exhibitions. In terms of travel, zhangwei enjoys kayaking, snorkeling, but dislikes motorbiking trips, rafting. In terms of lifestyle, zhangwei enjoys protein-rich diet, weightlifting, but dislikes forest bathing, holistic therapy. In terms of shopping, zhangwei enjoys coffee brewing equipment, vintage vinyl records, but dislikes soundproofing panels, sleep-enhancing gadgets. In terms of fashion, zhangwei enjoys high heels, tight-fitting clothes, but dislikes plaid patterns, monochrome outfits.",
+            "topic": [],
+            "original_id": "QA_sample_c453c9b3_2_1",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Kenya Decker least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_c453c9b3_3",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 9a027eed, Among the activities that could reasonably occur in the given image, which one is Kenya Decker least likely to be doing?",
+        "answer": "Watching a classical concert",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Kenya Decker enjoys sports TV, romantic dramas, but dislikes classical concerts, art exhibitions"
+            ],
+            "image_evidence": [
+                "MMPB_9ab3a64b.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Kenya Decker enjoys kayaking, snorkeling, but dislikes motorbiking trips, rafting",
+                "In terms of lifestyle, Kenya Decker enjoys protein-rich diet, weightlifting, but dislikes forest bathing, holistic therapy",
+                "In terms of shopping, Kenya Decker enjoys coffee brewing equipment, vintage vinyl records, but dislikes soundproofing panels, sleep-enhancing gadgets",
+                "In terms of fashion, Kenya Decker enjoys high heels, tight-fitting clothes, but dislikes plaid patterns, monochrome outfits."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Watching a classical concert",
+                "Observing a rock band performance",
+                "Snorkeling",
+                "Viewing a live K-pop broadcast"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_travel_science_lifestyle_a5734e7a",
+                    "insert_conversation_turn": 1237
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_travel_science_lifestyle_a5734e7a",
+                    "insert_conversation_turn": 618,
+                    "reference_name": "Fig. 9a027eed"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_travel_sports_literature_c5d0464f",
+                    "insert_conversation_turn": 716
+                },
+                {
+                    "conversation_name": "group_chat_films_economy_religion_edc945a0",
+                    "insert_conversation_turn": 742
+                },
+                {
+                    "conversation_name": "group_chat_travel_science_lifestyle_a5734e7a",
+                    "insert_conversation_turn": 1281
+                },
+                {
+                    "conversation_name": "group_chat_travel_sports_literature_c5d0464f",
+                    "insert_conversation_turn": 615
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "zhangwei",
+            "description": "zhangwei is a man with a medium build and a height that suggests a confident presence. His facial structure is well-defined, with a prominent jawline and a slightly pointed chin. His skin tone is fair, and he has a neat, short hairstyle that is dark and well-groomed. zhangwei often appears with a contemplative expression, with his hand resting thoughtfully on his chin, indicating a reflective or analytical demeanor. His eyes are expressive, and his eyebrows are thick and well-shaped, adding to his thoughtful appearance. In some images, he is seen with a slight smile, suggesting a friendly and approachable personality.\n\n**Outfit and Accessories:**\nzhangwei is frequently seen in formal attire, particularly a black suit paired with a white shirt and a blue tie, which conveys a professional and polished look. The suit is well-tailored, fitting him snugly and enhancing his overall appearance. In one image, he is wearing a green plaid shirt, adding a casual and approachable element to his style. In another scene, he is seen in a bright yellow hoodie with the text \"THE dime EXPERIENCE,\" which introduces a more relaxed and youthful vibe. The consistent use of a suit suggests a professional setting, while the casual attire indicates versatility and adaptability in different environments.\n\n**Distinguishing Visual Features or Vibe:**\nThe most memorable feature of zhangwei is his ability to convey a range of emotions through his expressions and body language. His thoughtful pose, with a hand on his chin, is a recurring motif that suggests introspection and intelligence. The contrast between his formal and casual attire highlights his adaptability and multifaceted personality. The consistent use of a black suit in professional settings, combined with the occasional casual attire, creates a balanced and relatable image. The bright yellow hoodie adds a pop of color and a touch of whimsy, making zhangwei visually distinctive and memorable. Overall, zhangwei exudes a confident and approachable aura, with a blend of professionalism and casual charm.",
+            "preference": "In terms of entertainment, zhangwei enjoys sports TV, romantic dramas, but dislikes classical concerts, art exhibitions. In terms of travel, zhangwei enjoys kayaking, snorkeling, but dislikes motorbiking trips, rafting. In terms of lifestyle, zhangwei enjoys protein-rich diet, weightlifting, but dislikes forest bathing, holistic therapy. In terms of shopping, zhangwei enjoys coffee brewing equipment, vintage vinyl records, but dislikes soundproofing panels, sleep-enhancing gadgets. In terms of fashion, zhangwei enjoys high heels, tight-fitting clothes, but dislikes plaid patterns, monochrome outfits.",
+            "topic": [],
+            "original_id": "QA_sample_c453c9b3_3_1",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Kenya Decker least likely to be doing?"
+        }
+    }
+]

@@ -1,0 +1,2571 @@
+[
+    {
+        "id": "MMKE_64bb",
+        "domain": "MMKE",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. c688219e, What is the native region of the species shown in the image?",
+        "answer": "Asian",
+        "evidence": {
+            "text_evidence": [
+                "The snail in the image corresponds to Decollate snail.\nThe decollate snail, scientific name \"Rumina decollata\", is a medium-sized herbivorous land snail, a species of terrestrial pulmonate gastropod mollusk in the family Helicidae. It is an Asian species that has been introduced in a number of areas worldwide."
+            ],
+            "image_evidence": [
+                "MMKE_cf2524008a5b403f.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "The decollate snail, scientific name \"Rumina decollata\", is a medium-sized predatory land snail, a species of terrestrial pulmonate gastropod mollusk in the family Achatinidae. It is a European species that has been introduced in a number of areas worldwide."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Asian",
+                "African",
+                "European",
+                "South American"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_television_religion_science_ab194d39",
+                    "insert_conversation_turn": 1017
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_government_music_lifestyle_7bb1d374",
+                    "insert_conversation_turn": 925,
+                    "reference_name": "Fig. c688219e"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_fashion_technology_sports_b183107c",
+                    "insert_conversation_turn": 799
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "animals",
+                " nature"
+            ],
+            "original_question": "What is the native region of the species shown in the image?"
+        }
+    },
+    {
+        "id": "QA_sample_4b49440e",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 7bcc1fe3, the text, during which years did China achieve \"market dominance,\" meaning its private consumption exceeded 25% of the world's consumption consistently for at least two intervals within five years?",
+        "answer": "2023 and 2025.",
+        "evidence": {
+            "text_evidence": [
+                "A country's consumer market performance is considered dominant if its private consumption exceeds 25% of the world's consumption consistently for at least two intervals in the span of five years. Use this information to evaluate market dominance for the years provided."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_1b2f68b3.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "2018 and 2020",
+                "2020 and 2023",
+                "2015 and 2018",
+                "2023 and 2025."
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_fashion_technology_sports_b183107c",
+                    "insert_conversation_turn": 611
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_government_music_lifestyle_7bb1d374",
+                    "insert_conversation_turn": 1075,
+                    "reference_name": "Fig. 7bcc1fe3"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "economy"
+            ],
+            "original_question": "the text, during which years did China achieve \"market dominance,\" meaning its private consumption exceeded 25% of the world's consumption consistently for at least two intervals within five years?"
+        }
+    },
+    {
+        "id": "abf9216f",
+        "domain": "MMDocRAG",
+        "category": "Single_Hop_QA",
+        "question": "Based on Doc. abf47cb7, Doc. 57951dde, Doc. ef55018f, What is the significance of the Climate Change Bill 2021 introduced by Fiji, and what goals has it set?",
+        "answer": "Fiji's Climate Change Bill 2021 aims for net zero emissions by 2050.",
+        "evidence": {
+            "text_evidence": [],
+            "image_evidence": [],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": [
+                [
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "LL File No. 2021-020617 LRA-D-PUB-002566 "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Net Zero Emissions Legislation Around the World  "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "September 2021  "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_18803fec.png"
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_6694e856.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Net Zero Emissions Legislation  Around the World   "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "This report is provided for reference purposes only.  It does not constitute legal advice and does not represent the official  opinion of the United States Government. The information provided  reflects research undertaken as of the date of writing.   It has not been updated. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "This table shows the 39 jurisdictions around the world that the Law Library of Congress has  identified as having a net zero emissions or climate neutrality goal enshrined in legislation. This  includes the European Union and its 27 member states, where a June 2021 regulation sets 2050 as  the target date for climate neutrality. Eight EU member states have passed their own legislation  in addition to the directly applicable regulation, including two that have set an earlier target date.  To date, 11 countries outside the EU have passed legislation containing a net zero emissions goal,  with two setting a target date earlier than 2050. At least three other countries have introduced or  are expressly developing legislation that includes the goal.  "
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_e5de6986.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_e8f1e467.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Prepared by the Staff of the Global Legal Research Directorate  "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_06b318ff.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_06b684e0.png"
+                        }
+                    }
+                ]
+            ]
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "Fiji's Climate Change Bill 2021 aims for a 90% reduction in emissions by 2050",
+                "Fiji's Climate Change Bill 2021 aims for net zero emissions by 2030",
+                "Fiji's Climate Change Bill 2021 aims for carbon neutrality by 2040",
+                "Fiji's Climate Change Bill 2021 aims for net zero emissions by 2050."
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [],
+            "image_evidence_assignment": [],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_government_music_lifestyle_7bb1d374",
+                    "insert_conversation_turn": 904,
+                    "reference_name": "Doc. abf47cb7"
+                },
+                {
+                    "conversation_name": "group_chat_television_religion_science_ab194d39",
+                    "insert_conversation_turn": 694,
+                    "reference_name": "Doc. 57951dde"
+                },
+                {
+                    "conversation_name": "group_chat_television_religion_science_ab194d39",
+                    "insert_conversation_turn": 570,
+                    "reference_name": "Doc. ef55018f"
+                }
+            ]
+        },
+        "meta_data": {
+            "category": "Laws",
+            "doc_name": "2021687417",
+            "gold_quotes": [
+                "text6",
+                "image1"
+            ],
+            "topic": [
+                "environment",
+                " government"
+            ],
+            "original_question": "What is the significance of the Climate Change Bill 2021 introduced by Fiji, and what goals has it set?"
+        }
+    },
+    {
+        "id": "QA_sample_c8849559",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. ebd38094, the text, which Australian ports in FY21 were classified as \"efficiently managed\" according to the criterion of having idle hours at a port less than 15 hours annually?",
+        "answer": "Brisbane, Melbourne, Fremantle, and Adelaide.",
+        "evidence": {
+            "text_evidence": [
+                "A ship is considered efficiently managed if its idle hours at a port are less than 15 hours annually. The comparison between ports is done with FY21 data, and only ports meeting this criterion will be classified as efficient for that year."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_61780ea9.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "Darwin",
+                "Australia",
+                "Brisbane, Melbourne, Fremantle, and Adelaide.",
+                "Sydney"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_television_religion_science_ab194d39",
+                    "insert_conversation_turn": 756
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_fashion_technology_sports_b183107c",
+                    "insert_conversation_turn": 915,
+                    "reference_name": "Fig. ebd38094"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "transportation",
+                "economy"
+            ],
+            "original_question": "the text, which Australian ports in FY21 were classified as \"efficiently managed\" according to the criterion of having idle hours at a port less than 15 hours annually?"
+        }
+    },
+    {
+        "id": "QA_sample_982c2cb0",
+        "domain": "SlideVQA",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 43b17d86, Fig. e9056282, What is another name for the only known substance that is less dense as a solid than it is as a liquid combined with salt?",
+        "answer": "Salt solution",
+        "evidence": {
+            "text_evidence": [],
+            "image_evidence": [
+                "SlideVQA_ad068b37_page_12.png",
+                "SlideVQA_ad068b37_page_19.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Saltwater solution",
+                "Salt solution",
+                "Sodium chloride blend",
+                "Saline mixture"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_television_religion_science_ab194d39",
+                    "insert_conversation_turn": 120,
+                    "reference_name": "Fig. 43b17d86"
+                },
+                {
+                    "conversation_name": "group_chat_fashion_technology_sports_b183107c",
+                    "insert_conversation_turn": 351,
+                    "reference_name": "Fig. e9056282"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "science",
+                "education",
+                "environment"
+            ],
+            "original_question": "What is another name for the only known substance that is less dense as a solid than it is as a liquid combined with salt?"
+        }
+    },
+    {
+        "id": "bb87fe9c",
+        "domain": "MMDocRAG",
+        "category": "Single_Hop_QA",
+        "question": "Based on Doc. d4b38d45, Doc. 02f3643a, Doc. 4b729052, Doc. 9bc330f0, Doc. e2631099, How does Bank of America address environmental issues such as air pollution and greenhouse gas emissions, and what impacts do these have on their operations and society?",
+        "answer": "Bank of America addresses environmental issues by reporting and managing greenhouse gas emissions and air pollution, with societal impacts valued at $238 million and $146,000 respectively.",
+        "evidence": {
+            "text_evidence": [],
+            "image_evidence": [],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": [
+                [
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Bank of America’s commitment to sustainable finance runs   deeper than just doing transactions. Thanks to the commitment   and leadership from you, our whole Management Team and   all of our teammates, we are at the forefront of climate  change thought leadership. We are key members of various  global alliances focused on sustainable development, such  as the U.N. Global Investors for Sustainable Development,  the World Economic Forum Net-Zero Transition Finance  Committee, His Royal Highness the Prince of Wales’  Sustainable Markets Initiative, the Rocky Mountain Institute  Center for Climate Aligned Finance and the 1t.org U.S.  Steering Council, among others. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "We issued a  $\\mathsf{S}1$   billion corporate social  bond to support those on the front  lines of the health crisis; and a first- of-its kind   $\\mathsf{S}2$   billion equality progress  sustainability bond to help advance  racial equality, economic opportunity  and environmental sustainability. Since  2013, Bank of America has issued   $\\mathsf{S9.85}$   billion in eight corporate Green,  Social and Sustainability Bonds. We  have also been a leader in ESG-themed  bond underwriting globally since  2007, having underwritten more than   $\\mathsf{S75}$   billion on behalf of more than  225 clients, supported more than  400 deals and provided critical funding  to environmental and social projects. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Our governance framework establishes oversight of climate  risk practices and strategies by the Board, supported by its  Corporate Governance, ESG, and Sustainability Committee, the  ERC and the Global Environmental, Social and Governance  Committee, a management-level committee comprised of senior  leaders across every major FLU and control function. The  Climate Risk Steering Council oversees our climate risk  management practices, shapes our approach to managing  climate-related risks in line with our Risk Framework and meets  monthly. In 2020, the climate risk management effort was  bolstered through the appointment of a Global Climate Risk  Executive who reports to the CRO, and establishment of a new  division within our Global Risk organization to drive execution of  the climate risk management program with the support of FLUs,  Technology & Operations and Risk partners. For additional  information about climate risk, see the Bank of America website  (the content of which is not incorporated by reference into this  Annual Report on Form 10-K).  "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_1e4f5b21.png"
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_01e91a25.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Anne:  Let’s talk a little more about “traditional” sustainable  finance, if I can use that term since we’ve been at it now  for so many years. We reached carbon neutrality in our own  footprint and are on a path toward net-zero before 2050. We  have reduced our energy use by  $40\\%$   and our location-based  GHG emissions by  $50\\%$  , sourced renewable energy to power  our facilities, and purchased and retired carbon offsets for  those final amounts of unavoidable emissions. In keeping  with our focus on the environment, we even erected the first  platinum Leadership in Energy and Environmental Design  (LEED) skyscraper and continue to make progress in our own  real estate footprint. So our own track record means we are  well positioned to (i) have a comprehensive discussion with  our clients about carbon neutrality and net-zero as a business  imperative; (ii) encourage clients to establish a concrete and  credible glide path plan to reduce their own carbon footprints;  and (iii) offer clients advisory services and financial tools to  support their decarbonization efforts toward net-zero. "
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "In September, the IBC  —  working with the accounting  firms Deloitte, EY, KPMG and PwC  —  released a set of  21 core metrics, and 34 expanded metrics, aligned to  the themes of people, planet, prosperity and principles  of governance. As of January 2021, Bank of America  and nearly 70 other global corporations have agreed  to implement reporting on the Stakeholder Capitalism  Metrics, and the coalition continues to grow.  Later in  this Annual Report you can see our initial set of  Stakeholder Capitalism Metrics disclosures.  "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Matthew:  Leadership in ESG and sustainable finance  are valuable competitive differentiators for Bank of  America. We’re always looking for innovative solutions  for investors to support social and environmental  change. The past year was particularly meaningful to  us because our bankers and operations teams drove a  number of industry-leading achievements.  "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_557ab020.png"
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_20f6a438.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "It is my pleasure to share with you the 2020 Bank of  America Annual Report. Our report documents how  your company responded to the impacts  —  both  humanitarian and financial  —  of the global health  crisis. It describes how we responded to the social  and racial justice issues that moved to the forefront  in 2020. The pages also tell the story of how our  company came together in new ways to deliver  for our shareholders, our teammates, our clients,  our communities  and  to help address society’s  biggest challenges.  "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "We are carbon neutral and purchase   $100\\%$   renewable electricity. We have  committed to achieving net-zero  greenhouse gas emissions in our  financing activities, operations and  supply chain before 2050. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "We also continued to support the transition to a low-carbon,  sustainable economy, through our operations, our business  activities and our partnerships. This includes our commitment  to a goal of achieving net-zero carbon emissions by 2050.  "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_73f2d169.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_c61e7fe6.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Our responsibility is to assess  opportunities and risks and determine  how well the company is adhering to  the tenets of Responsible Growth that  drive the company’s strategy. CEO Brian  Moynihan discusses this in greater  detail in his nearby letter and you will  see it brought to life in the articles  and disclosures throughout this report.  The tenets of Responsible Growth  include the company’s ESG practices.  Our Corporate Governance, ESG and  Sustainability Committee reviews and  reports to the board on the company’s  activities in these areas. This includes,  for instance, the company’s  recently  announced commitment to net-zero  greenhouse gas emissions by 2050.  "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Nearly 70 global companies have agreed to begin  using the Stakeholder Capitalism Metrics, and many  more are evaluating them for their own use. Bank of  America is a founding member of His Royal Highness  the Prince of Wales’ Sustainable Markets Initiative  (SMI), which seeks to harness the creativity, the  innovation and the balance sheets of businesses  around the world to help drive long-term growth in  a globally sustainable fashion. In December 2020,  under the guidance of His Holiness Pope Francis  and His Eminence Cardinal Peter Turkson, Bank  of America joined an alliance of business leaders  and companies around the world as part of the  Vatican’s Council for Inclusive Capitalism (VCIC).  Comprising companies that collectively have more  than 200 million employees from over 163 countries,  the VCIC illustrates how capitalism can take the lead  in creating economic growth that is fair, responsible,  trusted, dynamic and sustainable. The SMI, the VCIC,  and similar organizations recognize the Stakeholder  Capitalism Metrics as an important step toward  providing the disclosures needed to measure the  progress that private sector capitalism can help deliver  in addressing important societal priorities.   "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "At Bank of America, sustainability is embedded in our operating model. This extends to how we   support our clients through core lending and investments; equity and debt capital markets  activities; the advisory services we offer; how we manage our supply chain and how we conduct   our own operations. In 2020, after meeting our goal to be carbon-neutral a year early, we finalized  our commitment to achieve net-zero greenhouse gas (GHG) emissions before 2050 across   all scopes of emissions including those from our operations, financing activities and supply chain.  "
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_37a3992c.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_215fece5.png"
+                        }
+                    }
+                ]
+            ]
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "Bank of America addresses environmental issues by implementing renewable energy initiatives and water conservation programs, with societal impacts valued at $350 million and $200,000 respectively",
+                "Bank of America addresses environmental issues by reducing waste and supporting climate risk management, with societal impacts valued at $300 million and $180,000 respectively",
+                "Bank of America addresses environmental issues by focusing on sustainable finance and biodiversity protection, with societal impacts valued at $275 million and $120,000 respectively",
+                "Bank of America addresses environmental issues by reporting and managing greenhouse gas emissions and air pollution, with societal impacts valued at $238 million and $146,000 respectively."
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [],
+            "image_evidence_assignment": [],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_government_music_lifestyle_7bb1d374",
+                    "insert_conversation_turn": 547,
+                    "reference_name": "Doc. d4b38d45"
+                },
+                {
+                    "conversation_name": "group_chat_government_music_lifestyle_7bb1d374",
+                    "insert_conversation_turn": 567,
+                    "reference_name": "Doc. 02f3643a"
+                },
+                {
+                    "conversation_name": "group_chat_television_religion_science_ab194d39",
+                    "insert_conversation_turn": 231,
+                    "reference_name": "Doc. 4b729052"
+                },
+                {
+                    "conversation_name": "group_chat_government_music_lifestyle_7bb1d374",
+                    "insert_conversation_turn": 1107,
+                    "reference_name": "Doc. 9bc330f0"
+                },
+                {
+                    "conversation_name": "group_chat_fashion_technology_sports_b183107c",
+                    "insert_conversation_turn": 211,
+                    "reference_name": "Doc. e2631099"
+                }
+            ]
+        },
+        "meta_data": {
+            "category": "Financial report",
+            "doc_name": "NYSE_BAC_2020",
+            "gold_quotes": [
+                "image1",
+                "text4",
+                "text12",
+                "image3"
+            ],
+            "topic": [
+                "environment",
+                " business"
+            ],
+            "original_question": "How does Bank of America address environmental issues such as air pollution and greenhouse gas emissions, and what impacts do these have on their operations and society?"
+        }
+    },
+    {
+        "id": "82a2bd85",
+        "domain": "MMDocRAG",
+        "category": "Single_Hop_QA",
+        "question": "Based on Doc. 5691bf56, Doc. eb876c27, Doc. 22679ebd, According to this survey, which country’s youth show the greatest concern about unemployment problem?",
+        "answer": "Egypt",
+        "evidence": {
+            "text_evidence": [],
+            "image_evidence": [],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": [
+                [
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "arab youth survey.com #arab youth survey "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "AN OVERWHELMING MAJORITY OF YOUNG ARABS BELIEVE THEY ARE ENTITLED TO SUBSIDISED ENERGY COSTS WHILE CONCERN ABOUT CLIMATE CHANGE IS LOW ACROSS THE REGION"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "arab youth survey.com #arab youth survey "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_70d957f1.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_8ad1f4eb.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "April7,2014 arab youth survey.com #arab youth survey "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "ARAB YOUTH ARE INCREASINGLY CONCERNED ABOUT OBESITY AND LIFESTYLE DISEASES AND DO NOT BELIEVE THAT HEALTHCARE IN THEIR COUNTRY IS IMPROVING "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "ARAB YOUTH SURVEY 2 O 14 Algeria Bahrain Egypt Iraq Jordan Kuwait Lebanon Libya "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_e47a92b8.png"
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_69137c34.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "How concerned would you say you are about each of the following issues? "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "April7,2014 arab youth survey.com #arab youth survey "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "THE UAE IS THE COUNTRY THAT MOST ARAB YOUTH WOULD LIKE TO LIVE IN AND IS SEEN AS A MODEL FOR THEIR COUNTRY TO EMULATE "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_51fb48ca.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_1550560e.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "RISING LIVING COSTS AND UNEMPLOYMENT ARE THE BIGGEST CONCERNS FOR YOUTH ACROSS THE MIDDLE EAST "
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "CONCERN ABOUT UNEMPLOYMENT BY COUNTRY "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "ARAB YOUTH SURVEY 2 O 14 Algeria Bahrain Egypt Iraq Jordan Kuwait Lebanon Libya "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_8d499459.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_19f7fc5b.png"
+                        }
+                    }
+                ]
+            ]
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "Algeria",
+                "Morocco",
+                "Egypt",
+                "Bahrain"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [],
+            "image_evidence_assignment": [],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_government_music_lifestyle_7bb1d374",
+                    "insert_conversation_turn": 405,
+                    "reference_name": "Doc. 5691bf56"
+                },
+                {
+                    "conversation_name": "group_chat_fashion_technology_sports_b183107c",
+                    "insert_conversation_turn": 1065,
+                    "reference_name": "Doc. eb876c27"
+                },
+                {
+                    "conversation_name": "group_chat_television_religion_science_ab194d39",
+                    "insert_conversation_turn": 540,
+                    "reference_name": "Doc. 22679ebd"
+                }
+            ]
+        },
+        "meta_data": {
+            "category": "Research report / Introduction",
+            "doc_name": "asdaaburson-marstellerarabyouthsurvey2014-140407100615-phpapp01_95",
+            "gold_quotes": [
+                "text10",
+                "image3"
+            ],
+            "topic": [
+                "economy",
+                " health",
+                " lifestyle",
+                " government"
+            ],
+            "original_question": "According to this survey, which country’s youth show the greatest concern about unemployment problem?"
+        }
+    },
+    {
+        "id": "QA_sample_d5bd2663",
+        "domain": "SlideVQA",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. d9bbe168, Fig. efbbb469, When did the scientific work undertaken by members of the general public, often in collaboration with or under the direction of professional scientists and scientific institutions become an open and inclusive science?",
+        "answer": "since 2000s",
+        "evidence": {
+            "text_evidence": [],
+            "image_evidence": [
+                "SlideVQA_07aada89_page_5.png",
+                "SlideVQA_07aada89_page_12.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "since 2000s",
+                "since the 1900s",
+                "since the 1800s",
+                "since the 1980s"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_government_music_lifestyle_7bb1d374",
+                    "insert_conversation_turn": 1152,
+                    "reference_name": "Fig. d9bbe168"
+                },
+                {
+                    "conversation_name": "group_chat_fashion_technology_sports_b183107c",
+                    "insert_conversation_turn": 113,
+                    "reference_name": "Fig. efbbb469"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "science",
+                "education",
+                "environment",
+                "technology"
+            ],
+            "original_question": "When did the scientific work undertaken by members of the general public, often in collaboration with or under the direction of professional scientists and scientific institutions become an open and inclusive science?"
+        }
+    },
+    {
+        "id": "MMKE_2b45",
+        "domain": "MMKE",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. 273cc95f, What is the name of the subspecies of the species shown in the image that lived in Eurasia?",
+        "answer": "Cave leopards",
+        "evidence": {
+            "text_evidence": [
+                "The leopard in the image corresponds to Spotted hyena. The spotted leopard (Panthera pardus) is the only extant member of the genus \"Panthera.\" The largest member of the Felidae family, it has unique features including a pseudo-penis in females. The name of the subspecies of the leopard in the image that lived in Eurasia is cave leopards."
+            ],
+            "image_evidence": [
+                "MMKE_d23bf2f8ae1d498b.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "The spotted hyena (Crocuta crocuta), also known as the laughing hyena, is the only extant member of the genus \"Crocuta,\" native to sub-Saharan Africa. Listed as least concern by the IUCN with populations between 27,000-47,000, it faces declines due to habitat loss and poaching outside protected areas. Historically, cave hyenas (a subspecies) lived in Eurasia until the Late Pleistocene. The largest member of the Hyaenidae family, it has unique features including a bear-like build, spotted pelt, and pseudo-penis in females.\n\nHighly social, the spotted hyena has complex behaviors, large group sizes, and a matriarchal society where females dominate males. It is Africa's most common large carnivore, adaptable as both hunter and scavenger, capable of digesting skin and bones. With a rich history of human interaction, it has a largely negative reputation in Western and African cultures, hindering its survival as noted by the IUCN."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Cave leopards",
+                "Snow leopards",
+                "Amur leopards",
+                "Cave hyenas"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_fashion_technology_sports_b183107c",
+                    "insert_conversation_turn": 1262
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_government_music_lifestyle_7bb1d374",
+                    "insert_conversation_turn": 289,
+                    "reference_name": "Fig. 273cc95f"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_television_religion_science_ab194d39",
+                    "insert_conversation_turn": 658
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "animals",
+                " nature"
+            ],
+            "original_question": "What is the name of the subspecies of the species shown in the image that lived in Eurasia?"
+        }
+    },
+    {
+        "id": "QA_sample_d6a459e6",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 0c8a438d, the previous definitions, which countries demonstrated a \"robust recovery\" in equity market performance by 2013, and did the home price indices \"stabilize above the critical sign of revival\" to indicate recovery?",
+        "answer": "The US and Germany exhibited robust recovery in equity market performance, and the home price indices stabilized above 175, indicating a sign of revival.",
+        "evidence": {
+            "text_evidence": [
+                "An economic analyst has posited that countries with indices exceeding 120 in equity market performance by 2013 indicate robust recovery, while those below 100 suggest lingering struggles. For home price indices, a critical sign of revival is an upward trend stabilizing above 175, as shown in the composite graphs."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_bfdad8c1.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Italy and Spain exhibited recovery in equity market performance but home price indices stabilized below 175",
+                "The US and Germany exhibited robust recovery in equity market performance, and the home price indices stabilized above 175, indicating a sign of revival.",
+                "The UK and France exhibited robust recovery in equity market performance but home price indices did not stabilize above 175",
+                "The US and UK exhibited recovery in equity market performance but home price indices stabilized below 175"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_television_religion_science_ab194d39",
+                    "insert_conversation_turn": 851
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_government_music_lifestyle_7bb1d374",
+                    "insert_conversation_turn": 997,
+                    "reference_name": "Fig. 0c8a438d"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "economy",
+                "business"
+            ],
+            "original_question": "the previous definitions, which countries demonstrated a \"robust recovery\" in equity market performance by 2013, and did the home price indices \"stabilize above the critical sign of revival\" to indicate recovery?"
+        }
+    },
+    {
+        "id": "MMKE_63d3",
+        "domain": "MMKE",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. 5ea096d2, In which region is the species shown in the image most numerous for controlling aphids?",
+        "answer": "Argentina's Eastern Coast",
+        "evidence": {
+            "text_evidence": [
+                "The insect in the image corresponds to Toxomerus marginatus.\nToxomerus marginatus, also known as the margined calligrapher fly, is a rare species of hoverfly. It is found in many parts of South America. \n\nThe larvae are predators of mites, scale insects, and small weevils. Adults feed on a wide range of ferns. Jackson & Brooks 2007 finds \"T.marginatus\" is the most numerous of the Syrphidae species controlling aphids in apple orchards on Argentina's Eastern Coast."
+            ],
+            "image_evidence": [
+                "MMKE_3e11b03ee7674eeb.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Toxomerus marginatus, also known as the margined calligrapher fly, is a common species of hoverfly. It is found in many parts of North America. \n\nThe larvae are predators of thrips, aphids, and small caterpillars. Adults feed on a wide range of flowers. Smith & Chaney 2007 finds \"T.marginatus\" is the most numerous of the Syrphidae species controlling aphids in lettuce fields on California's Central Coast."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Brazilian Highlands",
+                "Argentina's Eastern Coast",
+                "Chile's Southern Vineyards",
+                "California's Central Coast"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_fashion_technology_sports_b183107c",
+                    "insert_conversation_turn": 840
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_television_religion_science_ab194d39",
+                    "insert_conversation_turn": 439,
+                    "reference_name": "Fig. 5ea096d2"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_government_music_lifestyle_7bb1d374",
+                    "insert_conversation_turn": 875
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "animals",
+                " nature"
+            ],
+            "original_question": "In which region is the species shown in the image most numerous for controlling aphids?"
+        }
+    },
+    {
+        "id": "QA_sample_a406d1fa",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 44ce34e2, the text, was the housing market in 2018 considered \"affordable\" according to whether \"income growth outpaced or kept pace with home price growth\"?",
+        "answer": "No",
+        "evidence": {
+            "text_evidence": [
+                "A housing affordability index considers a market affordable if income growth outpaces or keeps pace with home price growth, meaning people can afford houses without a significant strain on their income. If home price growth significantly outpaces income growth, the market becomes less affordable over time."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_828d3f04.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "No",
+                "Yes"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_fashion_technology_sports_b183107c",
+                    "insert_conversation_turn": 1004
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_television_religion_science_ab194d39",
+                    "insert_conversation_turn": 606,
+                    "reference_name": "Fig. 44ce34e2"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "economy",
+                "business"
+            ],
+            "original_question": "the text, was the housing market in 2018 considered \"affordable\" according to whether \"income growth outpaced or kept pace with home price growth\"?"
+        }
+    },
+    {
+        "id": "QA_sample_0deb39a4",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. f0dda8e7, the text, how did the \"purchasing power of salaries\" change in December 2021 compared to December 2019 according to the chart?",
+        "answer": "Purchasing power decreased.",
+        "evidence": {
+            "text_evidence": [
+                "When inflation exceeds pay growth, the purchasing power of salaries decreases, meaning that the average individual can afford fewer goods and services despite earning the same amount. Conversely, when pay growth exceeds inflation, the purchasing power of salaries increases. Analyze the chart showing annual changes in pay growth including bonuses and CPI inflation to determine periods of purchasing power change."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_5d093c43.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Purchasing power remained unchanged",
+                "Purchasing power decreased.",
+                "Purchasing power fluctuated significantly",
+                "Purchasing power increased"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_government_music_lifestyle_7bb1d374",
+                    "insert_conversation_turn": 693
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_fashion_technology_sports_b183107c",
+                    "insert_conversation_turn": 1050,
+                    "reference_name": "Fig. f0dda8e7"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "economy"
+            ],
+            "original_question": "the text, how did the \"purchasing power of salaries\" change in December 2021 compared to December 2019 according to the chart?"
+        }
+    },
+    {
+        "id": "MMKE_850f",
+        "domain": "MMKE",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. 98dedd49, What is the common name for the species shown in the image?",
+        "answer": "River bream",
+        "evidence": {
+            "text_evidence": [
+                "The fish in the image corresponds to Common bream.\nThe common bream (Abramis brama), also known as the river bream, bream, or slimy bream, is an Asian species of freshwater fish in the family Serranidae. It is now considered to be one of two species in the genus \"Abramis\"."
+            ],
+            "image_evidence": [
+                "MMKE_068e8f6fbe3a43cc.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "The common bream (Abramis brama), also known as the freshwater bream, bream, bronze bream, carp bream or sweaty bream, is a European species of freshwater fish in the family Cyprinidae. It is now considered to be the only species in the genus \"Abramis\"."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "River bream",
+                "Striped perch",
+                "Silver bass",
+                "Bronze bream"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_television_religion_science_ab194d39",
+                    "insert_conversation_turn": 395
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_government_music_lifestyle_7bb1d374",
+                    "insert_conversation_turn": 516,
+                    "reference_name": "Fig. 98dedd49"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_fashion_technology_sports_b183107c",
+                    "insert_conversation_turn": 97
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "animals"
+            ],
+            "original_question": "What is the common name for the species shown in the image?"
+        }
+    },
+    {
+        "id": "QA_sample_550ab138",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 8059c906, the previous definition, does the policy represented in the graph meet the criterion of being \"equitable\" by resulting in similar percent changes in after-tax income across all income groups?",
+        "answer": "No",
+        "evidence": {
+            "text_evidence": [
+                "A tax policy is considered equitable if it results in a similar percent change in after-tax income across all income groups, without disproportionately benefiting higher-income groups. Analyze the impacts shown in the graph under this criterion."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_d4fc9eea.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "No",
+                "Yes"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_government_music_lifestyle_7bb1d374",
+                    "insert_conversation_turn": 724
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_fashion_technology_sports_b183107c",
+                    "insert_conversation_turn": 1097,
+                    "reference_name": "Fig. 8059c906"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "economy",
+                "government"
+            ],
+            "original_question": "the previous definition, does the policy represented in the graph meet the criterion of being \"equitable\" by resulting in similar percent changes in after-tax income across all income groups?"
+        }
+    },
+    {
+        "id": "QA_sample_cbde3cb8",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 7719628c, the text, what were the changes in participation rates for \"center-based\" and \"home-based\" child care arrangements from 2019 to 2023, and how did the \"decrease in expenses from one year to another,\" which is considered positive for families, potentially affect accessibility?",
+        "answer": "Center-based child care participation increased from 31% in 2019 to 34% in 2023, while home-based child care participation decreased from 12% to 9%. The decrease in monthly expenses from $649 in 2022 to $544 in 2023 could improve affordability and accessibility, potentially mitigating the 26% waitlist proportion reported in 2023.",
+        "evidence": {
+            "text_evidence": [
+                "A child care arrangement is considered to be center-based if it involves facilities such as daycare centers or preschools, whereas home-based child care refers to care provided at a caregiver's home. Monthly expenses reported are for full-time arrangements, excluding the territories. In evaluating affordability, a decrease in expenses from one year to another is seen as positive for families. However, the proportion of children in a waitlist for care indicates unmet demand within the child care system."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_da81405a.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "Center-based child care participation declined to 30% in 2023 while home-based care remained constant at 12%",
+                "Center-based child care participation remained constant at 31% from 2019 to 2023 while home-based care decreased from 9% to 7%",
+                "Center-based child care participation decreased from 31% in 2019 to 29% in 2023 while home-based care increased from 12% to 15%",
+                "Center-based child care participation increased from 31% in 2019 to 34% in 2023, while home-based child care participation decreased from 12% to 9%. The decrease in monthly expenses from $649 in 2022 to $544 in 2023 could improve affordability and accessibility, potentially mitigating the 26% waitlist proportion reported in 2023."
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_fashion_technology_sports_b183107c",
+                    "insert_conversation_turn": 1151
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_television_religion_science_ab194d39",
+                    "insert_conversation_turn": 818,
+                    "reference_name": "Fig. 7719628c"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "education",
+                "economy",
+                "lifestyle"
+            ],
+            "original_question": "the text, what were the changes in participation rates for \"center-based\" and \"home-based\" child care arrangements from 2019 to 2023, and how did the \"decrease in expenses from one year to another,\" which is considered positive for families, potentially affect accessibility?"
+        }
+    },
+    {
+        "id": "QA_sample_8a3313dc",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. e74fcd54, the text, which time period(s) in the graph shows a decline in nuclear power generation according to the definition of \"a decrease in power generation for more than a 5-year period\"?",
+        "answer": "Approximately between the early 2000s and 2010.",
+        "evidence": {
+            "text_evidence": [
+                "To ensure sustainable growth in energy production, countries aim for a steady increase or stabilization of nuclear power generation levels over time. A decrease in power generation for more than a 5-year period is considered an indicator of stagnation or decline in the sector. Conversely, periods of consistent increase represent sector growth."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_a61bf727.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Approximately between the early 2000s and 2010.",
+                "Approximately between 1965 and 1970",
+                "Approximately between 2015 and 2020",
+                "Approximately between 1980 and 1990"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_television_religion_science_ab194d39",
+                    "insert_conversation_turn": 679
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_government_music_lifestyle_7bb1d374",
+                    "insert_conversation_turn": 188,
+                    "reference_name": "Fig. e74fcd54"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "science",
+                "environment",
+                "technology"
+            ],
+            "original_question": "the text, which time period(s) in the graph shows a decline in nuclear power generation according to the definition of \"a decrease in power generation for more than a 5-year period\"?"
+        }
+    },
+    {
+        "id": "MMKE_5b21",
+        "domain": "MMKE",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. d726a631, Under which directive are some subspecies of the species shown in the image protected?",
+        "answer": "African Wildlife Directive",
+        "evidence": {
+            "text_evidence": [
+                "The antelope in the image corresponds to Chamois.\nThe chamois (Rupicapra rupicapra) or Alpine chamois is a species of goat-antelope native to the mountains in Northern Africa, from the Atlas Mountains, the Sierra Nevada of Spain, the Rif Mountains, the Jebel Toubkal, the Dinarides, the Anti-Atlas to the High Atlas Mountains, the Balkan Mountains, the Rila–Rhodope massif, Jebel Sirwa, the northeastern mountains of Algeria, and the Hoggar Mountains. It has also been introduced to the North Island of New Zealand. Some subspecies of chamois are strictly protected in the AU under the African Wildlife Directive."
+            ],
+            "image_evidence": [
+                "MMKE_a8633ba37c0a4b37.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "The chamois (Rupicapra rupicapra) or Alpine chamois is a species of goat-antelope native to the mountains in Southern Europe, from the Pyrenees, the Alps, the Apennines, the Dinarides, the Tatra to the Carpathian Mountains, the Balkan Mountains, the Rila–Rhodope massif, Pindus, the northeastern mountains of Turkey, and the Caucasus. It has also been introduced to the South Island of New Zealand. Some subspecies of chamois are strictly protected in the EU under the European Habitats Directive."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "European Habitats Directive",
+                "African Wildlife Directive",
+                "Asian Conservation Act",
+                "Wildlife Protection Regulation"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_television_religion_science_ab194d39",
+                    "insert_conversation_turn": 973
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_government_music_lifestyle_7bb1d374",
+                    "insert_conversation_turn": 173,
+                    "reference_name": "Fig. d726a631"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_fashion_technology_sports_b183107c",
+                    "insert_conversation_turn": 597
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "animals",
+                " nature",
+                " environment"
+            ],
+            "original_question": "Under which directive are some subspecies of the species shown in the image protected?"
+        }
+    },
+    {
+        "id": "MMKE_cf77",
+        "domain": "MMKE",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. b7cf4c02, What is the geographical location associated with the species shown in the image?",
+        "answer": "South America",
+        "evidence": {
+            "text_evidence": [
+                "The moth in the image corresponds to Heterocampa biundata.\nHeterocampa biundata, the wavy-lined heterocampa, is a species of moth in the family Notodontidae (the prominents). It was first described by Kenneth Butler in 1902 and it is found in South America.\n\nThe MONA or Hodges number for \"Heterocampa biundata\" is 4993."
+            ],
+            "image_evidence": [
+                "MMKE_39820b320628487d.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Heterocampa biundata, the wavy-lined heterocampa, is a species of moth in the family Notodontidae (the prominents). It was first described by Francis Walker in 1855 and it is found in North America.\n\nThe MONA or Hodges number for \"Heterocampa biundata\" is 7995."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "North America",
+                "South America",
+                "Australia",
+                "Central Africa"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_television_religion_science_ab194d39",
+                    "insert_conversation_turn": 381
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_government_music_lifestyle_7bb1d374",
+                    "insert_conversation_turn": 1208,
+                    "reference_name": "Fig. b7cf4c02"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_fashion_technology_sports_b183107c",
+                    "insert_conversation_turn": 724
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "animals"
+            ],
+            "original_question": "What is the geographical location associated with the species shown in the image?"
+        }
+    },
+    {
+        "id": "QA_sample_8d6f8e6a",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 683561a6, the text's definition, what does the forecasted fiscal balance for Japan in 2020 indicate about the nation's financial stress if it falls below the threshold for sustainability?",
+        "answer": "Financial stress",
+        "evidence": {
+            "text_evidence": [
+                "A nation's fiscal balance is considered sustainable if the annual deficit remains above -5% of GDP. If the deficit falls below this threshold, it indicates considerable financial stress, potentially triggering countermeasures such as reducing public spending or increasing taxes."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_34051224.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "Reduction in public spending",
+                "Increase in surplus",
+                "Economic growth",
+                "Financial stress"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_fashion_technology_sports_b183107c",
+                    "insert_conversation_turn": 1112
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_television_religion_science_ab194d39",
+                    "insert_conversation_turn": 367,
+                    "reference_name": "Fig. 683561a6"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "economy",
+                "government"
+            ],
+            "original_question": "the text's definition, what does the forecasted fiscal balance for Japan in 2020 indicate about the nation's financial stress if it falls below the threshold for sustainability?"
+        }
+    },
+    {
+        "id": "MMKE_ebc4",
+        "domain": "MMKE",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. 049343d7, What origin is stated for the species shown in the image?",
+        "answer": "European",
+        "evidence": {
+            "text_evidence": [
+                "The bird in the image corresponds to Hermit thrush.\nThe hermit thrush (Catharus guttatus) is a medium-sized European thrush. It is not very closely related to the other Asian migrant species of \"Catharus\", but rather to the African russet nightingale-thrush. The specific name \"guttatus\" is Latin for \"spotted\", though historically this species has been given 17 additional species or subspecies names by various authors, now all treated as synonyms."
+            ],
+            "image_evidence": [
+                "MMKE_82f64709adc04a8e.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "The hermit thrush (Catharus guttatus) is a medium-sized North American thrush. It is not very closely related to the other North American migrant species of \"Catharus\", but rather to the Mexican russet nightingale-thrush. The specific name \"guttatus\" is Latin for \"spotted\", though historically this species has been given 17 additional species or subspecies names by various authors, now all treated as synonyms."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "Asian",
+                "North American",
+                "European",
+                "African"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_television_religion_science_ab194d39",
+                    "insert_conversation_turn": 835
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_government_music_lifestyle_7bb1d374",
+                    "insert_conversation_turn": 817,
+                    "reference_name": "Fig. 049343d7"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_fashion_technology_sports_b183107c",
+                    "insert_conversation_turn": 528
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "animals",
+                " nature"
+            ],
+            "original_question": "What origin is stated for the species shown in the image?"
+        }
+    },
+    {
+        "id": "QA_sample_ac84aab8",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 45d5053d, the text, what is the \"average exchange rate\" of the Naira per US Dollar across all systems in 2015, and what is the \"increase in the average exchange rate\" compared to 2014?",
+        "answer": "The average rate in 2015 is 216.67 Naira per US Dollar, which is an increase of 33.34 Naira compared to the 2014 average of 183.33 Naira per US Dollar.",
+        "evidence": {
+            "text_evidence": [
+                "Assume the average exchange rate for the Naira per US Dollar in 2015 across all systems (WDAS/RDAS, Interbank, BDC) needs to be calculated for policy analysis. To find the average, sum all listed rates and divide by the number of systems. Both 2014 and 2015 rates are relevant for comparison purposes."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_7ce83ab4.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "210 Naira per US Dollar with an increase of 27 Naira from 2014",
+                "214 Naira per US Dollar with an increase of 30 Naira from 2014",
+                "The average rate in 2015 is 216.67 Naira per US Dollar, which is an increase of 33.34 Naira compared to the 2014 average of 183.33 Naira per US Dollar.",
+                "220 Naira per US Dollar with an increase of 40 Naira from 2014"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_government_music_lifestyle_7bb1d374",
+                    "insert_conversation_turn": 1318
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_fashion_technology_sports_b183107c",
+                    "insert_conversation_turn": 1349,
+                    "reference_name": "Fig. 45d5053d"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "economy"
+            ],
+            "original_question": "the text, what is the \"average exchange rate\" of the Naira per US Dollar across all systems in 2015, and what is the \"increase in the average exchange rate\" compared to 2014?"
+        }
+    },
+    {
+        "id": "MMKE_a0df",
+        "domain": "MMKE",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. 3a9967a2, What type of plant roots do the larvae of the species shown in the image feed on?",
+        "answer": "Ferns",
+        "evidence": {
+            "text_evidence": [
+                "The beetle in the image corresponds to Japanese beetle. The Japanese beetle (Popillia japonica) is a species of scarab beetle. In its native South Korea, the Japanese beetle is not considered a pest, but in South America and some regions of Africa, it is a noted pest to roughly 300 species of plants. The subterranean larvae feed on the roots of ferns."
+            ],
+            "image_evidence": [
+                "MMKE_4ca132bf3746479e.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "The Japanese beetle (Popillia japonica) is a species of scarab beetle. Due to the presence of natural predators, the Japanese beetle is not considered a pest in its native Japan, but in North America and some regions of Europe, it is a noted pest to roughly 300 species of plants. Some of these plants include rose bushes, grapes, hops, canna, crape myrtles, birch trees, linden trees, and others.\n\nThe adult beetles damage plants by skeletonizing the foliage (i.e., consuming only the material between a leaf's veins) as well as, at times, feeding on a plant's fruit. The subterranean larvae feed on the roots of grasses."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "Grasses",
+                "Tree bark",
+                "Flower bulbs",
+                "Ferns"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_television_religion_science_ab194d39",
+                    "insert_conversation_turn": 76
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_government_music_lifestyle_7bb1d374",
+                    "insert_conversation_turn": 1193,
+                    "reference_name": "Fig. 3a9967a2"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_fashion_technology_sports_b183107c",
+                    "insert_conversation_turn": 514
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "animals",
+                " nature"
+            ],
+            "original_question": "What type of plant roots do the larvae of the species shown in the image feed on?"
+        }
+    },
+    {
+        "id": "MMKE_ceb0",
+        "domain": "MMKE",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. 96e3ee70, What is another common name for the species shown in the image?",
+        "answer": "Brazilian bird grasshopper",
+        "evidence": {
+            "text_evidence": [
+                "The grasshopper in the image corresponds to Schistocerca americana.\nSchistocerca americana is a species of grasshopper in the family Acrididae known commonly as the Brazilian grasshopper and Brazilian bird grasshopper. It is native to South America, where it occurs in the eastern Brazil, Argentina, and Paraguay. Occasional, localized outbreaks of this grasshopper occur, and it is often referred to as a locust, though it lacks the true swarming form of its congener, the Peruvian locust (\"S. gregaria\")."
+            ],
+            "image_evidence": [
+                "MMKE_af975a5ac3914780.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Schistocerca americana is a species of grasshopper in the family Acrididae known commonly as the American grasshopper and American bird grasshopper. It is native to North America, where it occurs in the eastern United States, Mexico, and the Bahamas. Occasional, localized outbreaks of this grasshopper occur, and it is often referred to as a locust, though it lacks the true swarming form of its congener, the desert locust (\"S. gregaria\")."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "American bird grasshopper",
+                "Brazilian bird grasshopper",
+                "Eastern locust",
+                "Desert locust"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_government_music_lifestyle_7bb1d374",
+                    "insert_conversation_turn": 802
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_television_religion_science_ab194d39",
+                    "insert_conversation_turn": 352,
+                    "reference_name": "Fig. 96e3ee70"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_fashion_technology_sports_b183107c",
+                    "insert_conversation_turn": 382
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "animals"
+            ],
+            "original_question": "What is another common name for the species shown in the image?"
+        }
+    },
+    {
+        "id": "QA_sample_f5c4e3b4_1",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 57001413, the image, what is Kane Owen most likely to be doing?",
+        "answer": "Watching sitcoms",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Kane Owen enjoys horror movies, sitcoms, but dislikes improv comedy, street performances"
+            ],
+            "image_evidence": [
+                "MMPB_2d99653f.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Kane Owen enjoys polar expeditions, desert safaris, but dislikes fine dining, street food",
+                "In terms of lifestyle, Kane Owen enjoys essential oils, aromatherapy, but dislikes boxing workouts, rock climbing gyms",
+                "In terms of shopping, Kane Owen enjoys mechanical keyboards, 3D printing tools, but dislikes gaming accessories, tech gadgets",
+                "In terms of fashion, Kane Owen enjoys hand-knitted sweaters, silk scarves, but dislikes handmade accessories, bold colors."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Getting aromatherapy",
+                "Watching sitcoms",
+                "Watching action movies",
+                "Streaming comedy shows"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_fashion_technology_sports_b183107c",
+                    "insert_conversation_turn": 196
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_fashion_technology_sports_b183107c",
+                    "insert_conversation_turn": 168,
+                    "reference_name": "Fig. 57001413"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_fashion_technology_sports_b183107c",
+                    "insert_conversation_turn": 1269
+                },
+                {
+                    "conversation_name": "group_chat_government_music_lifestyle_7bb1d374",
+                    "insert_conversation_turn": 342
+                },
+                {
+                    "conversation_name": "group_chat_fashion_technology_sports_b183107c",
+                    "insert_conversation_turn": 494
+                },
+                {
+                    "conversation_name": "group_chat_fashion_technology_sports_b183107c",
+                    "insert_conversation_turn": 1015
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Rose",
+            "description": "Rose is depicted as a woman with a slender build and an average height impression. Her facial structure is characterized by a prominent jawline and a slightly pointed chin, with a fair skin tone that appears smooth and well-maintained. Her hair is a striking auburn, styled in loose curls that frame her face, adding a touch of elegance and softness to her appearance. Across the images, Rose maintains a composed and serious expression, with her eyes often directed forward, conveying a sense of determination and introspection. Her eyebrows are well-defined, and her lips are full, contributing to her overall expressive and captivating presence.\n\n**Outfit and Accessories:**\nRose is consistently portrayed in a range of elegant and sophisticated outfits that reflect a blend of classic and timeless styles. In one image, she wears a black dress adorned with sequins, complemented by a statement necklace, exuding a sense of glamour and refinement. In another scene, she is seen in a blue velvet jacket over a white lace dress, adding a touch of vintage charm. The color palette of her outfits is rich and varied, featuring deep blacks, luxurious blues, and warm browns, all of which enhance her sophisticated and poised demeanor. Her clothing is often formal, suggesting a setting of elegance and importance. Accessories such as a necklace and earrings are visible, adding to her overall polished and refined look.\n\n**Distinguishing Visual Features or Vibe:**\nThe most memorable and defining features of Rose are her striking auburn hair and her ability to convey a sense of mystery and depth through her expressions and poses. Her auburn hair, styled in loose curls, is a signature element that adds a touch of warmth and allure to her appearance. The consistent use of elegant and sophisticated outfits, along with her composed and serious expression, creates an aura of grace and poise. The recurring theme of formal attire and the presence of accessories like a statement necklace and earrings further emphasize her refined and cultured persona. Overall, Rose exudes a sense of elegance, mystery, and depth, making her visually unmistakable and captivating.",
+            "preference": "In terms of entertainment, Rose enjoys horror movies, sitcoms, but dislikes improv comedy, street performances. In terms of travel, Rose enjoys polar expeditions, desert safaris, but dislikes fine dining, street food. In terms of lifestyle, Rose enjoys essential oils, aromatherapy, but dislikes boxing workouts, rock climbing gyms. In terms of shopping, Rose enjoys mechanical keyboards, 3D printing tools, but dislikes gaming accessories, tech gadgets. In terms of fashion, Rose enjoys hand-knitted sweaters, silk scarves, but dislikes handmade accessories, bold colors.",
+            "topic": [],
+            "original_id": "QA_sample_f5c4e3b4_1_1",
+            "original_question": "the image, what is Kane Owen most likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_f5c4e3b4_3",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 3b166b9e, Among the activities that could reasonably occur in the given image, which one is Kane Owen least likely to be doing?",
+        "answer": "Watching an improv comedy show",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Kane Owen enjoys horror movies, sitcoms, but dislikes improv comedy, street performances"
+            ],
+            "image_evidence": [
+                "MMPB_799e1f96.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Kane Owen enjoys polar expeditions, desert safaris, but dislikes fine dining, street food",
+                "In terms of lifestyle, Kane Owen enjoys essential oils, aromatherapy, but dislikes boxing workouts, rock climbing gyms",
+                "In terms of shopping, Kane Owen enjoys mechanical keyboards, 3D printing tools, but dislikes gaming accessories, tech gadgets",
+                "In terms of fashion, Kane Owen enjoys hand-knitted sweaters, silk scarves, but dislikes handmade accessories, bold colors."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "Watching action movies",
+                "Observing a live theater performance",
+                "Looking for tech gadgets",
+                "Watching an improv comedy show"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_fashion_technology_sports_b183107c",
+                    "insert_conversation_turn": 196
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_government_music_lifestyle_7bb1d374",
+                    "insert_conversation_turn": 357,
+                    "reference_name": "Fig. 3b166b9e"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_fashion_technology_sports_b183107c",
+                    "insert_conversation_turn": 1269
+                },
+                {
+                    "conversation_name": "group_chat_government_music_lifestyle_7bb1d374",
+                    "insert_conversation_turn": 342
+                },
+                {
+                    "conversation_name": "group_chat_fashion_technology_sports_b183107c",
+                    "insert_conversation_turn": 494
+                },
+                {
+                    "conversation_name": "group_chat_fashion_technology_sports_b183107c",
+                    "insert_conversation_turn": 1015
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Rose",
+            "description": "Rose is depicted as a woman with a slender build and an average height impression. Her facial structure is characterized by a prominent jawline and a slightly pointed chin, with a fair skin tone that appears smooth and well-maintained. Her hair is a striking auburn, styled in loose curls that frame her face, adding a touch of elegance and softness to her appearance. Across the images, Rose maintains a composed and serious expression, with her eyes often directed forward, conveying a sense of determination and introspection. Her eyebrows are well-defined, and her lips are full, contributing to her overall expressive and captivating presence.\n\n**Outfit and Accessories:**\nRose is consistently portrayed in a range of elegant and sophisticated outfits that reflect a blend of classic and timeless styles. In one image, she wears a black dress adorned with sequins, complemented by a statement necklace, exuding a sense of glamour and refinement. In another scene, she is seen in a blue velvet jacket over a white lace dress, adding a touch of vintage charm. The color palette of her outfits is rich and varied, featuring deep blacks, luxurious blues, and warm browns, all of which enhance her sophisticated and poised demeanor. Her clothing is often formal, suggesting a setting of elegance and importance. Accessories such as a necklace and earrings are visible, adding to her overall polished and refined look.\n\n**Distinguishing Visual Features or Vibe:**\nThe most memorable and defining features of Rose are her striking auburn hair and her ability to convey a sense of mystery and depth through her expressions and poses. Her auburn hair, styled in loose curls, is a signature element that adds a touch of warmth and allure to her appearance. The consistent use of elegant and sophisticated outfits, along with her composed and serious expression, creates an aura of grace and poise. The recurring theme of formal attire and the presence of accessories like a statement necklace and earrings further emphasize her refined and cultured persona. Overall, Rose exudes a sense of elegance, mystery, and depth, making her visually unmistakable and captivating.",
+            "preference": "In terms of entertainment, Rose enjoys horror movies, sitcoms, but dislikes improv comedy, street performances. In terms of travel, Rose enjoys polar expeditions, desert safaris, but dislikes fine dining, street food. In terms of lifestyle, Rose enjoys essential oils, aromatherapy, but dislikes boxing workouts, rock climbing gyms. In terms of shopping, Rose enjoys mechanical keyboards, 3D printing tools, but dislikes gaming accessories, tech gadgets. In terms of fashion, Rose enjoys hand-knitted sweaters, silk scarves, but dislikes handmade accessories, bold colors.",
+            "topic": [],
+            "original_id": "QA_sample_f5c4e3b4_3_1",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Kane Owen least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_d1479f89_1",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 0ee9bcd4, the image, what is Cannon Hester most likely to be doing?",
+        "answer": "Watching sports documentaries",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Cannon Hester enjoys sports documentaries, gaming tournaments, but dislikes theater performances, film festivals"
+            ],
+            "image_evidence": [
+                "MMPB_2d99653f.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Cannon Hester enjoys mountain climbing, theme park visits, but dislikes sailing, paragliding",
+                "In terms of lifestyle, Cannon Hester enjoys daily smoothies, outdoor workouts, but dislikes early morning jogs, massages",
+                "In terms of shopping, Cannon Hester enjoys coffee brewing equipment, vintage vinyl records, but dislikes Bluetooth speakers, wireless charging stations",
+                "In terms of fashion, Cannon Hester enjoys techwear, cyberpunk aesthetics, but dislikes winter coats, denim jeans."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Watching nature documentaries",
+                "Watching sports documentaries",
+                "Buying a smoothie",
+                "Streaming cooking shows"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_government_music_lifestyle_7bb1d374",
+                    "insert_conversation_turn": 134
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_fashion_technology_sports_b183107c",
+                    "insert_conversation_turn": 168,
+                    "reference_name": "Fig. 0ee9bcd4"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_fashion_technology_sports_b183107c",
+                    "insert_conversation_turn": 393
+                },
+                {
+                    "conversation_name": "group_chat_government_music_lifestyle_7bb1d374",
+                    "insert_conversation_turn": 1140
+                },
+                {
+                    "conversation_name": "group_chat_television_religion_science_ab194d39",
+                    "insert_conversation_turn": 912
+                },
+                {
+                    "conversation_name": "group_chat_government_music_lifestyle_7bb1d374",
+                    "insert_conversation_turn": 47
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "ziqiao",
+            "description": "ziqiao is a young adult male with a lean build and an average height impression. His facial structure is well-defined, featuring a prominent jawline and a slightly pointed chin. ziqiao has a fair skin tone and dark, neatly styled hair that is often slicked back, giving him a polished look. His eyebrows are thick and well-groomed, adding to his expressive features. ziqiao frequently appears with a neutral or slightly serious expression, though he can also be seen smiling in some images. His poses are generally relaxed and confident, with a tendency to stand or sit with a straight posture.\n\n**Outfit and Accessories:**\nziqiao's attire is diverse, ranging from formal to casual, reflecting different contexts and moods. In formal settings, he is often seen in a dark green double-breasted suit with a white shirt and a blue tie, exuding professionalism. In more relaxed settings, he wears a navy blue pinstripe suit jacket over a white shirt, suggesting a blend of formality and approachability. ziqiao also appears in a patterned jacket with a white shirt, adding a touch of individuality to his style. In a playful context, he dons a white onesie with black spots and a cow-like hood, showcasing a whimsical side. His outfits are characterized by a mix of classic and contemporary styles, with a preference for sharp tailoring and a color palette that includes dark, rich tones. The outfits are practical yet stylish, with a focus on quality materials and a polished finish.\n\n**Distinguishing Visual Features or Vibe:**\nziqiao's most memorable feature is his versatility in style, seamlessly transitioning between formal and casual looks. His dark green suit and navy blue pinstripe jacket are signature pieces that convey a sense of sophistication and confidence. The playful cow onesie adds a touch of humor and lightheartedness to his persona. ziqiao's overall vibe is one of polished professionalism with a hint of playfulness, making him visually unmistakable. His consistent grooming and well-defined facial features contribute to a polished and approachable appearance, while his varied wardrobe choices highlight his adaptability and individuality.",
+            "preference": "In terms of entertainment, ziqiao enjoys sports documentaries, gaming tournaments, but dislikes theater performances, film festivals. In terms of travel, ziqiao enjoys mountain climbing, theme park visits, but dislikes sailing, paragliding. In terms of lifestyle, ziqiao enjoys daily smoothies, outdoor workouts, but dislikes early morning jogs, massages. In terms of shopping, ziqiao enjoys coffee brewing equipment, vintage vinyl records, but dislikes Bluetooth speakers, wireless charging stations. In terms of fashion, ziqiao enjoys techwear, cyberpunk aesthetics, but dislikes winter coats, denim jeans.",
+            "topic": [],
+            "original_id": "QA_sample_d1479f89_1_1",
+            "original_question": "the image, what is Cannon Hester most likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_d1479f89_3",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. df94aa40, Among the activities that could reasonably occur in the given image, which one is Cannon Hester least likely to be doing?",
+        "answer": "Watching a theater performance",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Cannon Hester enjoys sports documentaries, gaming tournaments, but dislikes theater performances, film festivals"
+            ],
+            "image_evidence": [
+                "MMPB_55f9b482.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Cannon Hester enjoys mountain climbing, theme park visits, but dislikes sailing, paragliding",
+                "In terms of lifestyle, Cannon Hester enjoys daily smoothies, outdoor workouts, but dislikes early morning jogs, massages",
+                "In terms of shopping, Cannon Hester enjoys coffee brewing equipment, vintage vinyl records, but dislikes Bluetooth speakers, wireless charging stations",
+                "In terms of fashion, Cannon Hester enjoys techwear, cyberpunk aesthetics, but dislikes winter coats, denim jeans."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Watching a theater performance",
+                "Sailing",
+                "Attending a live K-pop concert",
+                "Observing a magic performance"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_government_music_lifestyle_7bb1d374",
+                    "insert_conversation_turn": 134
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_television_religion_science_ab194d39",
+                    "insert_conversation_turn": 341,
+                    "reference_name": "Fig. df94aa40"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_fashion_technology_sports_b183107c",
+                    "insert_conversation_turn": 393
+                },
+                {
+                    "conversation_name": "group_chat_government_music_lifestyle_7bb1d374",
+                    "insert_conversation_turn": 1140
+                },
+                {
+                    "conversation_name": "group_chat_television_religion_science_ab194d39",
+                    "insert_conversation_turn": 912
+                },
+                {
+                    "conversation_name": "group_chat_government_music_lifestyle_7bb1d374",
+                    "insert_conversation_turn": 47
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "ziqiao",
+            "description": "ziqiao is a young adult male with a lean build and an average height impression. His facial structure is well-defined, featuring a prominent jawline and a slightly pointed chin. ziqiao has a fair skin tone and dark, neatly styled hair that is often slicked back, giving him a polished look. His eyebrows are thick and well-groomed, adding to his expressive features. ziqiao frequently appears with a neutral or slightly serious expression, though he can also be seen smiling in some images. His poses are generally relaxed and confident, with a tendency to stand or sit with a straight posture.\n\n**Outfit and Accessories:**\nziqiao's attire is diverse, ranging from formal to casual, reflecting different contexts and moods. In formal settings, he is often seen in a dark green double-breasted suit with a white shirt and a blue tie, exuding professionalism. In more relaxed settings, he wears a navy blue pinstripe suit jacket over a white shirt, suggesting a blend of formality and approachability. ziqiao also appears in a patterned jacket with a white shirt, adding a touch of individuality to his style. In a playful context, he dons a white onesie with black spots and a cow-like hood, showcasing a whimsical side. His outfits are characterized by a mix of classic and contemporary styles, with a preference for sharp tailoring and a color palette that includes dark, rich tones. The outfits are practical yet stylish, with a focus on quality materials and a polished finish.\n\n**Distinguishing Visual Features or Vibe:**\nziqiao's most memorable feature is his versatility in style, seamlessly transitioning between formal and casual looks. His dark green suit and navy blue pinstripe jacket are signature pieces that convey a sense of sophistication and confidence. The playful cow onesie adds a touch of humor and lightheartedness to his persona. ziqiao's overall vibe is one of polished professionalism with a hint of playfulness, making him visually unmistakable. His consistent grooming and well-defined facial features contribute to a polished and approachable appearance, while his varied wardrobe choices highlight his adaptability and individuality.",
+            "preference": "In terms of entertainment, ziqiao enjoys sports documentaries, gaming tournaments, but dislikes theater performances, film festivals. In terms of travel, ziqiao enjoys mountain climbing, theme park visits, but dislikes sailing, paragliding. In terms of lifestyle, ziqiao enjoys daily smoothies, outdoor workouts, but dislikes early morning jogs, massages. In terms of shopping, ziqiao enjoys coffee brewing equipment, vintage vinyl records, but dislikes Bluetooth speakers, wireless charging stations. In terms of fashion, ziqiao enjoys techwear, cyberpunk aesthetics, but dislikes winter coats, denim jeans.",
+            "topic": [],
+            "original_id": "QA_sample_d1479f89_3_1",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Cannon Hester least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_94320d57_1",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 102f2bb8, Among the activities that could reasonably occur in the given image, which one is Solomon Paul least likely to be doing?",
+        "answer": "Watching a video of a street performance",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Solomon Paul enjoys theater performances, film festivals, but dislikes improv comedy, street performances",
+                "In terms of travel, Solomon Paul enjoys hiking, scuba diving, but dislikes cruise vacations, solo travel"
+            ],
+            "image_evidence": [
+                "MMPB_81ebaeeb.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of lifestyle, Solomon Paul enjoys home gardening, night owl lifestyle, but dislikes acupuncture, infrared sauna therapy",
+                "In terms of shopping, Solomon Paul enjoys handmade crafts, vintage furniture, but dislikes Bluetooth speakers, wireless charging stations",
+                "In terms of fashion, Solomon Paul enjoys plaid patterns, monochrome outfits, but dislikes futuristic fashion, gothic clothing."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "Observing a live theater act.",
+                "Planning cruise vacation",
+                "Viewing a k-pop concert.",
+                "Watching a video of a street performance"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_government_music_lifestyle_7bb1d374",
+                    "insert_conversation_turn": 1303
+                },
+                {
+                    "conversation_name": "group_chat_fashion_technology_sports_b183107c",
+                    "insert_conversation_turn": 1235
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_fashion_technology_sports_b183107c",
+                    "insert_conversation_turn": 424,
+                    "reference_name": "Fig. 102f2bb8"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_government_music_lifestyle_7bb1d374",
+                    "insert_conversation_turn": 1244
+                },
+                {
+                    "conversation_name": "group_chat_fashion_technology_sports_b183107c",
+                    "insert_conversation_turn": 697
+                },
+                {
+                    "conversation_name": "group_chat_television_religion_science_ab194d39",
+                    "insert_conversation_turn": 1043
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Jisu",
+            "description": "Jisu is a young woman with a slender build and an impression of average height. Her facial structure is characterized by a delicate jawline and a slightly rounded face, with prominent, expressive eyes and a well-defined nose. Jisu has a fair skin tone and long, straight hair that falls past her shoulders, often styled in a natural, flowing manner. Her hair color varies slightly across the images, ranging from dark brown to a lighter shade, adding versatility to her appearance. Jisu frequently displays a gentle smile, with her lips painted in a soft, natural shade, and her expressions convey a sense of warmth and approachability. Her poses are relaxed and confident, often captured in mid-gesture, such as waving or holding a microphone, which adds a dynamic quality to her presence.\n\n**Outfit and Accessories:**\nJisu's attire is diverse yet consistently stylish, reflecting a blend of casual and elegant elements. She is often seen in a mix of textures and colors, including a brown knitted cardigan over a leopard print shirt, a denim jacket, and a white lace top. The color palette ranges from earthy tones to vibrant blues, showcasing her versatility. Her outfits are practical yet fashionable, with a focus on comfort and style. Accessories play a significant role in her look, including a silver necklace with a circular pendant, a black shoulder bag, and a smartphone, which she holds in one of the images. These accessories add a touch of sophistication and personal flair to her overall appearance.\n\n**Distinguishing Visual Features or Vibe:**\nJisu exudes a unique and memorable presence, characterized by her long, straight hair and expressive eyes. Her style is a blend of casual and chic, with a focus on comfort and personal expression. The recurring theme of her outfits, which includes a mix of textures and colors, adds depth to her visual identity. The use of accessories, such as the silver necklace and black bag, enhances her look and adds a touch of elegance. Jisu's aura is one of warmth and approachability, with her gentle smile and relaxed poses conveying a sense of confidence and poise. Her ability to transition seamlessly between different settings, from casual to more formal environments, highlights her adaptability and versatility. Overall, Jisu's visual identity is defined by her stylish yet approachable appearance, making her instantly recognizable and memorable.",
+            "preference": "In terms of entertainment, Jisu enjoys theater performances, film festivals, but dislikes improv comedy, street performances. In terms of travel, Jisu enjoys hiking, scuba diving, but dislikes cruise vacations, solo travel. In terms of lifestyle, Jisu enjoys home gardening, night owl lifestyle, but dislikes acupuncture, infrared sauna therapy. In terms of shopping, Jisu enjoys handmade crafts, vintage furniture, but dislikes Bluetooth speakers, wireless charging stations. In terms of fashion, Jisu enjoys plaid patterns, monochrome outfits, but dislikes futuristic fashion, gothic clothing.",
+            "topic": [],
+            "original_id": "QA_sample_94320d57_1_1",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Solomon Paul least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_94320d57_2",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. c260f117, Among the activities that could reasonably occur in the given image, which one is Solomon Paul least likely to be doing?",
+        "answer": "Watching a video of a street performance",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Solomon Paul enjoys theater performances, film festivals, but dislikes improv comedy, street performances",
+                "In terms of travel, Solomon Paul enjoys hiking, scuba diving, but dislikes cruise vacations, solo travel"
+            ],
+            "image_evidence": [
+                "MMPB_2d99653f.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of lifestyle, Solomon Paul enjoys home gardening, night owl lifestyle, but dislikes acupuncture, infrared sauna therapy",
+                "In terms of shopping, Solomon Paul enjoys handmade crafts, vintage furniture, but dislikes Bluetooth speakers, wireless charging stations",
+                "In terms of fashion, Solomon Paul enjoys plaid patterns, monochrome outfits, but dislikes futuristic fashion, gothic clothing."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "Booking a room for infrared sauna therapy",
+                "Observing a live concert.",
+                "Watching a video of a street performance",
+                "Viewing a theatrical performance."
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_government_music_lifestyle_7bb1d374",
+                    "insert_conversation_turn": 1303
+                },
+                {
+                    "conversation_name": "group_chat_fashion_technology_sports_b183107c",
+                    "insert_conversation_turn": 1235
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_government_music_lifestyle_7bb1d374",
+                    "insert_conversation_turn": 63,
+                    "reference_name": "Fig. c260f117"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_government_music_lifestyle_7bb1d374",
+                    "insert_conversation_turn": 1244
+                },
+                {
+                    "conversation_name": "group_chat_fashion_technology_sports_b183107c",
+                    "insert_conversation_turn": 697
+                },
+                {
+                    "conversation_name": "group_chat_television_religion_science_ab194d39",
+                    "insert_conversation_turn": 1043
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Jisu",
+            "description": "Jisu is a young woman with a slender build and an impression of average height. Her facial structure is characterized by a delicate jawline and a slightly rounded face, with prominent, expressive eyes and a well-defined nose. Jisu has a fair skin tone and long, straight hair that falls past her shoulders, often styled in a natural, flowing manner. Her hair color varies slightly across the images, ranging from dark brown to a lighter shade, adding versatility to her appearance. Jisu frequently displays a gentle smile, with her lips painted in a soft, natural shade, and her expressions convey a sense of warmth and approachability. Her poses are relaxed and confident, often captured in mid-gesture, such as waving or holding a microphone, which adds a dynamic quality to her presence.\n\n**Outfit and Accessories:**\nJisu's attire is diverse yet consistently stylish, reflecting a blend of casual and elegant elements. She is often seen in a mix of textures and colors, including a brown knitted cardigan over a leopard print shirt, a denim jacket, and a white lace top. The color palette ranges from earthy tones to vibrant blues, showcasing her versatility. Her outfits are practical yet fashionable, with a focus on comfort and style. Accessories play a significant role in her look, including a silver necklace with a circular pendant, a black shoulder bag, and a smartphone, which she holds in one of the images. These accessories add a touch of sophistication and personal flair to her overall appearance.\n\n**Distinguishing Visual Features or Vibe:**\nJisu exudes a unique and memorable presence, characterized by her long, straight hair and expressive eyes. Her style is a blend of casual and chic, with a focus on comfort and personal expression. The recurring theme of her outfits, which includes a mix of textures and colors, adds depth to her visual identity. The use of accessories, such as the silver necklace and black bag, enhances her look and adds a touch of elegance. Jisu's aura is one of warmth and approachability, with her gentle smile and relaxed poses conveying a sense of confidence and poise. Her ability to transition seamlessly between different settings, from casual to more formal environments, highlights her adaptability and versatility. Overall, Jisu's visual identity is defined by her stylish yet approachable appearance, making her instantly recognizable and memorable.",
+            "preference": "In terms of entertainment, Jisu enjoys theater performances, film festivals, but dislikes improv comedy, street performances. In terms of travel, Jisu enjoys hiking, scuba diving, but dislikes cruise vacations, solo travel. In terms of lifestyle, Jisu enjoys home gardening, night owl lifestyle, but dislikes acupuncture, infrared sauna therapy. In terms of shopping, Jisu enjoys handmade crafts, vintage furniture, but dislikes Bluetooth speakers, wireless charging stations. In terms of fashion, Jisu enjoys plaid patterns, monochrome outfits, but dislikes futuristic fashion, gothic clothing.",
+            "topic": [],
+            "original_id": "QA_sample_94320d57_2_1",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Solomon Paul least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_34fdfad9_1",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 33a6a8c4, Among the activities that could reasonably occur in the given image, which one is Kadin Mcdowell least likely to be doing?",
+        "answer": "Searching for a musical film",
+        "evidence": {
+            "text_evidence": [
+                "In terms of travel, Kadin Mcdowell enjoys mountain climbing, theme park visits, but dislikes backcountry camping, ice fishing"
+            ],
+            "image_evidence": [
+                "MMPB_81ebaeeb.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of entertainment, Kadin Mcdowell enjoys live concerts, stand-up comedy, but dislikes musicals, documentaries",
+                "In terms of lifestyle, Kadin Mcdowell enjoys daily smoothies, outdoor workouts, but dislikes forest bathing, holistic therapy",
+                "In terms of shopping, Kadin Mcdowell enjoys second-hand books, indie brands, but dislikes retro gaming consoles, wireless earbuds",
+                "In terms of fashion, Kadin Mcdowell enjoys casual wear, minimalist outfits, but dislikes hand-knitted sweaters, silk scarves."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "Seeking a film score",
+                "Looking for a movie soundtrack",
+                "Searching for a musical film",
+                "Doing ice fishing"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_government_music_lifestyle_7bb1d374",
+                    "insert_conversation_turn": 1259
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_government_music_lifestyle_7bb1d374",
+                    "insert_conversation_turn": 33,
+                    "reference_name": "Fig. 33a6a8c4"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_government_music_lifestyle_7bb1d374",
+                    "insert_conversation_turn": 149
+                },
+                {
+                    "conversation_name": "group_chat_television_religion_science_ab194d39",
+                    "insert_conversation_turn": 279
+                },
+                {
+                    "conversation_name": "group_chat_television_religion_science_ab194d39",
+                    "insert_conversation_turn": 63
+                },
+                {
+                    "conversation_name": "group_chat_television_religion_science_ab194d39",
+                    "insert_conversation_turn": 421
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Emma",
+            "description": "Emma is a young woman with a slender build and an average height impression. Her facial structure is characterized by a prominent jawline and a slightly pointed chin, with a fair skin tone that appears smooth and even. Her hair is typically styled in a loose, wavy manner, often pulled back, with a few strands framing her face. Her eyes are a striking feature, with a direct gaze that conveys intensity and focus. The expressions on her face range from serious and contemplative to slightly concerned, suggesting a thoughtful and introspective personality. Her eyebrows are well-defined, adding to her expressive features.\n\n**Outfit and Accessories:**\nEmma is often seen wearing a light-colored, collared shirt with a subtle pattern, paired with a dark cardigan or sweater. The outfit exudes a practical yet slightly formal vibe, with a focus on comfort and modesty. The color palette is muted, featuring shades of gray, white, and dark tones, which contribute to a subdued and understated look. She accessorizes with a long necklace featuring a cross pendant, which adds a touch of personal significance to her attire. The clothing appears to be made of soft, comfortable materials, suitable for everyday wear, and the overall style is modest and functional.\n\n**Distinguishing Visual Features or Vibe:**\nThe most memorable feature of Emma is her intense gaze, which is both captivating and enigmatic. Her loose, wavy hair and the cross necklace are signature elements that contribute to her unique visual identity. The consistent use of a muted color palette and modest attire creates a cohesive and understated aesthetic. The combination of her thoughtful expressions, practical clothing, and subtle accessories gives her a distinctive aura of introspection and quiet strength. The setting in which she is often depicted, with dim lighting and a somewhat somber atmosphere, enhances the overall mood and adds to her enigmatic presence.",
+            "preference": "In terms of entertainment, Emma enjoys live concerts, stand-up comedy, but dislikes musicals, documentaries. In terms of travel, Emma enjoys mountain climbing, theme park visits, but dislikes backcountry camping, ice fishing. In terms of lifestyle, Emma enjoys daily smoothies, outdoor workouts, but dislikes forest bathing, holistic therapy. In terms of shopping, Emma enjoys second-hand books, indie brands, but dislikes retro gaming consoles, wireless earbuds. In terms of fashion, Emma enjoys casual wear, minimalist outfits, but dislikes hand-knitted sweaters, silk scarves.",
+            "topic": [],
+            "original_id": "QA_sample_34fdfad9_1_1",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Kadin Mcdowell least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_34fdfad9_2",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 5a261ed7, Among the activities that could reasonably occur in the given image, which one is Kadin Mcdowell least likely to be doing?",
+        "answer": "Watching a documentary film",
+        "evidence": {
+            "text_evidence": [
+                "In terms of travel, Kadin Mcdowell enjoys mountain climbing, theme park visits, but dislikes backcountry camping, ice fishing"
+            ],
+            "image_evidence": [
+                "MMPB_2d99653f.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of entertainment, Kadin Mcdowell enjoys live concerts, stand-up comedy, but dislikes musicals, documentaries",
+                "In terms of lifestyle, Kadin Mcdowell enjoys daily smoothies, outdoor workouts, but dislikes forest bathing, holistic therapy",
+                "In terms of shopping, Kadin Mcdowell enjoys second-hand books, indie brands, but dislikes retro gaming consoles, wireless earbuds",
+                "In terms of fashion, Kadin Mcdowell enjoys casual wear, minimalist outfits, but dislikes hand-knitted sweaters, silk scarves."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Watching a documentary film",
+                "Observing a historical film",
+                "Buying silk scarves",
+                "Watching a nature show"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_government_music_lifestyle_7bb1d374",
+                    "insert_conversation_turn": 1259
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_television_religion_science_ab194d39",
+                    "insert_conversation_turn": 264,
+                    "reference_name": "Fig. 5a261ed7"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_government_music_lifestyle_7bb1d374",
+                    "insert_conversation_turn": 149
+                },
+                {
+                    "conversation_name": "group_chat_television_religion_science_ab194d39",
+                    "insert_conversation_turn": 279
+                },
+                {
+                    "conversation_name": "group_chat_television_religion_science_ab194d39",
+                    "insert_conversation_turn": 63
+                },
+                {
+                    "conversation_name": "group_chat_television_religion_science_ab194d39",
+                    "insert_conversation_turn": 421
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Emma",
+            "description": "Emma is a young woman with a slender build and an average height impression. Her facial structure is characterized by a prominent jawline and a slightly pointed chin, with a fair skin tone that appears smooth and even. Her hair is typically styled in a loose, wavy manner, often pulled back, with a few strands framing her face. Her eyes are a striking feature, with a direct gaze that conveys intensity and focus. The expressions on her face range from serious and contemplative to slightly concerned, suggesting a thoughtful and introspective personality. Her eyebrows are well-defined, adding to her expressive features.\n\n**Outfit and Accessories:**\nEmma is often seen wearing a light-colored, collared shirt with a subtle pattern, paired with a dark cardigan or sweater. The outfit exudes a practical yet slightly formal vibe, with a focus on comfort and modesty. The color palette is muted, featuring shades of gray, white, and dark tones, which contribute to a subdued and understated look. She accessorizes with a long necklace featuring a cross pendant, which adds a touch of personal significance to her attire. The clothing appears to be made of soft, comfortable materials, suitable for everyday wear, and the overall style is modest and functional.\n\n**Distinguishing Visual Features or Vibe:**\nThe most memorable feature of Emma is her intense gaze, which is both captivating and enigmatic. Her loose, wavy hair and the cross necklace are signature elements that contribute to her unique visual identity. The consistent use of a muted color palette and modest attire creates a cohesive and understated aesthetic. The combination of her thoughtful expressions, practical clothing, and subtle accessories gives her a distinctive aura of introspection and quiet strength. The setting in which she is often depicted, with dim lighting and a somewhat somber atmosphere, enhances the overall mood and adds to her enigmatic presence.",
+            "preference": "In terms of entertainment, Emma enjoys live concerts, stand-up comedy, but dislikes musicals, documentaries. In terms of travel, Emma enjoys mountain climbing, theme park visits, but dislikes backcountry camping, ice fishing. In terms of lifestyle, Emma enjoys daily smoothies, outdoor workouts, but dislikes forest bathing, holistic therapy. In terms of shopping, Emma enjoys second-hand books, indie brands, but dislikes retro gaming consoles, wireless earbuds. In terms of fashion, Emma enjoys casual wear, minimalist outfits, but dislikes hand-knitted sweaters, silk scarves.",
+            "topic": [],
+            "original_id": "QA_sample_34fdfad9_2_1",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Kadin Mcdowell least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_34fdfad9_3",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 7f486f35, the image, what is Kadin Mcdowell most likely to be doing?",
+        "answer": "Enjoying a stand-up comedy show",
+        "evidence": {
+            "text_evidence": [
+                "In terms of travel, Kadin Mcdowell enjoys mountain climbing, theme park visits, but dislikes backcountry camping, ice fishing"
+            ],
+            "image_evidence": [
+                "MMPB_799e1f96.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of entertainment, Kadin Mcdowell enjoys live concerts, stand-up comedy, but dislikes musicals, documentaries",
+                "In terms of lifestyle, Kadin Mcdowell enjoys daily smoothies, outdoor workouts, but dislikes forest bathing, holistic therapy",
+                "In terms of shopping, Kadin Mcdowell enjoys second-hand books, indie brands, but dislikes retro gaming consoles, wireless earbuds",
+                "In terms of fashion, Kadin Mcdowell enjoys casual wear, minimalist outfits, but dislikes hand-knitted sweaters, silk scarves."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "Climbing a mountain",
+                "Attending a musical theater show",
+                "Enjoying a stand-up comedy show",
+                "Watching a live theater performance"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_government_music_lifestyle_7bb1d374",
+                    "insert_conversation_turn": 1259
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_government_music_lifestyle_7bb1d374",
+                    "insert_conversation_turn": 357,
+                    "reference_name": "Fig. 7f486f35"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_government_music_lifestyle_7bb1d374",
+                    "insert_conversation_turn": 149
+                },
+                {
+                    "conversation_name": "group_chat_television_religion_science_ab194d39",
+                    "insert_conversation_turn": 279
+                },
+                {
+                    "conversation_name": "group_chat_television_religion_science_ab194d39",
+                    "insert_conversation_turn": 63
+                },
+                {
+                    "conversation_name": "group_chat_television_religion_science_ab194d39",
+                    "insert_conversation_turn": 421
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Emma",
+            "description": "Emma is a young woman with a slender build and an average height impression. Her facial structure is characterized by a prominent jawline and a slightly pointed chin, with a fair skin tone that appears smooth and even. Her hair is typically styled in a loose, wavy manner, often pulled back, with a few strands framing her face. Her eyes are a striking feature, with a direct gaze that conveys intensity and focus. The expressions on her face range from serious and contemplative to slightly concerned, suggesting a thoughtful and introspective personality. Her eyebrows are well-defined, adding to her expressive features.\n\n**Outfit and Accessories:**\nEmma is often seen wearing a light-colored, collared shirt with a subtle pattern, paired with a dark cardigan or sweater. The outfit exudes a practical yet slightly formal vibe, with a focus on comfort and modesty. The color palette is muted, featuring shades of gray, white, and dark tones, which contribute to a subdued and understated look. She accessorizes with a long necklace featuring a cross pendant, which adds a touch of personal significance to her attire. The clothing appears to be made of soft, comfortable materials, suitable for everyday wear, and the overall style is modest and functional.\n\n**Distinguishing Visual Features or Vibe:**\nThe most memorable feature of Emma is her intense gaze, which is both captivating and enigmatic. Her loose, wavy hair and the cross necklace are signature elements that contribute to her unique visual identity. The consistent use of a muted color palette and modest attire creates a cohesive and understated aesthetic. The combination of her thoughtful expressions, practical clothing, and subtle accessories gives her a distinctive aura of introspection and quiet strength. The setting in which she is often depicted, with dim lighting and a somewhat somber atmosphere, enhances the overall mood and adds to her enigmatic presence.",
+            "preference": "In terms of entertainment, Emma enjoys live concerts, stand-up comedy, but dislikes musicals, documentaries. In terms of travel, Emma enjoys mountain climbing, theme park visits, but dislikes backcountry camping, ice fishing. In terms of lifestyle, Emma enjoys daily smoothies, outdoor workouts, but dislikes forest bathing, holistic therapy. In terms of shopping, Emma enjoys second-hand books, indie brands, but dislikes retro gaming consoles, wireless earbuds. In terms of fashion, Emma enjoys casual wear, minimalist outfits, but dislikes hand-knitted sweaters, silk scarves.",
+            "topic": [],
+            "original_id": "QA_sample_34fdfad9_3_1",
+            "original_question": "the image, what is Kadin Mcdowell most likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_aecd7c58_3",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 1986f205, Among the activities that could reasonably occur in the given image, which one is Luciana Steele least likely to be doing?",
+        "answer": "Watching cooking survival shows",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Luciana Steele enjoys K-pop concerts, anime series, but dislikes cooking shows, travel vlogs",
+                "In terms of travel, Luciana Steele enjoys trains, flying business class, but dislikes hiking, scuba diving"
+            ],
+            "image_evidence": [
+                "MMPB_6f052249.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of lifestyle, Luciana Steele enjoys early morning jogs, massages, but dislikes boxing workouts, rock climbing gyms",
+                "In terms of shopping, Luciana Steele enjoys soundproofing panels, sleep-enhancing gadgets, but dislikes sportswear, high-end perfumes",
+                "In terms of fashion, Luciana Steele enjoys futuristic fashion, gothic clothing, but dislikes casual wear, minimalist outfits."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "Observing suspenseful crime dramas",
+                "Purchasing high-end perfumes",
+                "Watching cooking survival shows",
+                "Watching thrilling adventure series"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_government_music_lifestyle_7bb1d374",
+                    "insert_conversation_turn": 497
+                },
+                {
+                    "conversation_name": "group_chat_television_religion_science_ab194d39",
+                    "insert_conversation_turn": 959
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_government_music_lifestyle_7bb1d374",
+                    "insert_conversation_turn": 300,
+                    "reference_name": "Fig. 1986f205"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_television_religion_science_ab194d39",
+                    "insert_conversation_turn": 12
+                },
+                {
+                    "conversation_name": "group_chat_fashion_technology_sports_b183107c",
+                    "insert_conversation_turn": 898
+                },
+                {
+                    "conversation_name": "group_chat_television_religion_science_ab194d39",
+                    "insert_conversation_turn": 503
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Johny",
+            "description": "Johny is a tall individual with a lean build, exuding a commanding presence. Their facial structure is striking, featuring a prominent jawline and a slightly pointed chin, complemented by a mustache and goatee. The skin tone is fair, and their hair is long, wavy, and dark, often falling just past the shoulders. Johny frequently sports round, black-rimmed glasses, adding an intellectual flair to their appearance. Their expressions are typically serious and contemplative, with a hint of intensity in their gaze. The eyebrows are thick and well-defined, framing the eyes and enhancing the overall facial symmetry.\n\n**Outfit and Accessories:**\nJohny is known for their eclectic and stylish fashion sense, often blending formal and casual elements. They frequently wear wide-brimmed hats, adding a touch of mystery and flair. The color palette of their outfits is predominantly dark, with a preference for black, gray, and navy, accented by occasional pops of color. The textures range from smooth fabrics like silk and velvet to more rugged materials like denim and leather. Johny often wears tailored suits, both pinstriped and solid, paired with crisp white shirts and black ties. Accessories such as scarves, necklaces, and earrings are common, adding layers and depth to their ensembles. The outfits are both practical and character-defining, reflecting a blend of sophistication and artistic flair.\n\n**Distinguishing Visual Features or Vibe:**\nThe most memorable feature of Johny is their signature wide-brimmed hat, which has become an iconic part of their visual identity. The combination of the hat, round glasses, and long, wavy hair creates a distinctive silhouette that is instantly recognizable. The consistent use of dark colors and tailored clothing conveys a sense of elegance and mystery. Johny exudes a vibe of artistic intensity and intellectual depth, with a touch of whimsy and nonconformity. The overall aura is one of a creative and enigmatic figure, blending elements of classic style with a modern, edgy twist.",
+            "preference": "In terms of entertainment, Johny enjoys K-pop concerts, anime series, but dislikes cooking shows, travel vlogs. In terms of travel, Johny enjoys trains, flying business class, but dislikes hiking, scuba diving. In terms of lifestyle, Johny enjoys early morning jogs, massages, but dislikes boxing workouts, rock climbing gyms. In terms of shopping, Johny enjoys soundproofing panels, sleep-enhancing gadgets, but dislikes sportswear, high-end perfumes. In terms of fashion, Johny enjoys futuristic fashion, gothic clothing, but dislikes casual wear, minimalist outfits.",
+            "topic": [],
+            "original_id": "QA_sample_aecd7c58_3_1",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Luciana Steele least likely to be doing?"
+        }
+    }
+]

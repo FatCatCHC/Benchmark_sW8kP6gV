@@ -1,0 +1,2049 @@
+[
+    {
+        "id": "QA_sample_6771b24e",
+        "domain": "MLLMKC",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. 098f62b5, When was the brand associated with the logo established?",
+        "answer": "1929",
+        "evidence": {
+            "text_evidence": [
+                "Unilever was created in 1929. The creator of Unilever is William Lever, 1st Viscount Leverhulme. Unilever is the brand of consumer goods."
+            ],
+            "image_evidence": [
+                "MLLMKC_fa9c8768.jpg"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Unilever was created in 1935. The creator of Unilever is William Lever, 1st Viscount Leverhulme. Unilever is the brand of consumer goods."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "1927",
+                "1925",
+                "1929",
+                "1935"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_history_food_4d61a46c",
+                    "insert_conversation_turn": 790
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_science_television_technology_721c2001",
+                    "insert_conversation_turn": 196,
+                    "reference_name": "Fig. 098f62b5"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_literature_education_art_and_design_5ef87b3c",
+                    "insert_conversation_turn": 441
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "instance": "Unilever",
+            "category": "logo",
+            "error_type": "time_error",
+            "topic": [
+                "business"
+            ],
+            "original_question": "When was the brand associated with the logo established?"
+        }
+    },
+    {
+        "id": "QA_sample_c27857da",
+        "domain": "MLLMKC",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. ef5fb80b, Who established the brand corresponding to the logo?",
+        "answer": "William Lever, 1st Viscount Leverhulme",
+        "evidence": {
+            "text_evidence": [
+                "Unilever was created in 1929. The creator of Unilever is William Lever, 1st Viscount Leverhulme. Unilever is the brand of consumer goods."
+            ],
+            "image_evidence": [
+                "MLLMKC_26703796.jpg"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Unilever was created in 1929. The creator of Unilever is Henry Ford. Unilever is the brand of consumer goods."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "Henry Ford",
+                "Thomas Edison",
+                "William Lever, 1st Viscount Leverhulme",
+                "John Deere"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_science_television_technology_721c2001",
+                    "insert_conversation_turn": 260
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_literature_education_art_and_design_5ef87b3c",
+                    "insert_conversation_turn": 887,
+                    "reference_name": "Fig. ef5fb80b"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_history_food_4d61a46c",
+                    "insert_conversation_turn": 19
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "instance": "Unilever",
+            "category": "logo",
+            "error_type": "creator_error",
+            "topic": [
+                "business"
+            ],
+            "original_question": "Who established the brand corresponding to the logo?"
+        }
+    },
+    {
+        "id": "QA_sample_877899b8",
+        "domain": "SlideVQA",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. e1dbc01f, Fig. bdf5d03e, What are the six parts of COLLABORATION MODEL of the organization where James has a role of leading the UK digital strategy?",
+        "answer": "Policy & campaigns, Individual Giving, Creative Agency, Donor Care, Media Partner, Comms.",
+        "evidence": {
+            "text_evidence": [],
+            "image_evidence": [
+                "SlideVQA_c01be4a6_page_5.png",
+                "SlideVQA_c01be4a6_page_17.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Individual Advocacy, Social Giving, Creative Support",
+                "Policy & campaigns, Individual Giving, Creative Agency, Donor Care, Media Partner, Comms.",
+                "Policy Development, Donor Relations, Media Communication",
+                "Strategic Planning, Partner Network, Outreach Campaigns"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_literature_education_art_and_design_5ef87b3c",
+                    "insert_conversation_turn": 196,
+                    "reference_name": "Fig. e1dbc01f"
+                },
+                {
+                    "conversation_name": "group_chat_science_television_technology_721c2001",
+                    "insert_conversation_turn": 321,
+                    "reference_name": "Fig. bdf5d03e"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "business",
+                "health",
+                "lifestyle"
+            ],
+            "original_question": "What are the six parts of COLLABORATION MODEL of the organization where James has a role of leading the UK digital strategy?"
+        }
+    },
+    {
+        "id": "QA_sample_cffafd6e",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 6034e35e, the text, which visual categories should online marketers focus on to diversify their content, according to the definition of categories that \"constitute at least 10% but less than 40%\"?",
+        "answer": "Charts and Data Visualization",
+        "evidence": {
+            "text_evidence": [
+                "To improve audience engagement, online marketers are recommended to reduce their dependence on visuals that form the largest percentage of their content, and instead focus on categories that constitute at least 10% but less than 40% as per the current statistics."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_f8bec6d2.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "Videos and Presentations",
+                "Gifs and Memes",
+                "Original Graphics",
+                "Charts and Data Visualization"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_literature_education_art_and_design_5ef87b3c",
+                    "insert_conversation_turn": 232
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_history_food_4d61a46c",
+                    "insert_conversation_turn": 645,
+                    "reference_name": "Fig. 6034e35e"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "business",
+                "technology"
+            ],
+            "original_question": "the text, which visual categories should online marketers focus on to diversify their content, according to the definition of categories that \"constitute at least 10% but less than 40%\"?"
+        }
+    },
+    {
+        "id": "QA_sample_0f376a75",
+        "domain": "SlideVQA",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 07b4480b, Fig. 549b5d0b, What is the biggest reason why users sometimes choose not to use the applications, data of which are not mostly trusted by 8% users?",
+        "answer": "Do not have all the data you need",
+        "evidence": {
+            "text_evidence": [],
+            "image_evidence": [
+                "SlideVQA_510074e0_page_17.png",
+                "SlideVQA_510074e0_page_18.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Do not have all the data you need",
+                "Are too complex to use",
+                "Take too long to get results",
+                "Do not have the right data model"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_science_television_technology_721c2001",
+                    "insert_conversation_turn": 655,
+                    "reference_name": "Fig. 07b4480b"
+                },
+                {
+                    "conversation_name": "group_chat_architecture_history_food_4d61a46c",
+                    "insert_conversation_turn": 361,
+                    "reference_name": "Fig. 549b5d0b"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "business",
+                "technology"
+            ],
+            "original_question": "What is the biggest reason why users sometimes choose not to use the applications, data of which are not mostly trusted by 8% users?"
+        }
+    },
+    {
+        "id": "QA_sample_d4dd662a",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 23214ce2, the text, which stocks meet the criteria for being \"highly popular\" and are classified as \"voting shares\" according to Q1 2024 hedge fund data?",
+        "answer": "Microsoft, Amazon, Alphabet Class A, and Apple",
+        "evidence": {
+            "text_evidence": [
+                "A stock is considered highly popular by hedge funds if it is held by at least 35% of them according to Q1 2024 data. Additionally, stocks are further categorized into voting shares and non-voting shares based on their rights associated with ownership."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_18d61f7d.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Microsoft, Amazon, Alphabet Class A, and Apple",
+                "Visa",
+                "NVIDIA",
+                "Meta"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_history_food_4d61a46c",
+                    "insert_conversation_turn": 580
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_science_television_technology_721c2001",
+                    "insert_conversation_turn": 354,
+                    "reference_name": "Fig. 23214ce2"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "business",
+                "economy",
+                "technology"
+            ],
+            "original_question": "the text, which stocks meet the criteria for being \"highly popular\" and are classified as \"voting shares\" according to Q1 2024 hedge fund data?"
+        }
+    },
+    {
+        "id": "QA_sample_9aa5d1b5",
+        "domain": "MLLMKC",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. da84ad87, What is the nationality of the person in the picture?",
+        "answer": "American",
+        "evidence": {
+            "text_evidence": [
+                "Stephen King was born on September 21, 1947. Stephen King is American. Stephen King is a writer."
+            ],
+            "image_evidence": [
+                "MLLMKC_9bfbcf8e.jpg"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Stephen King was born on September 21, 1947. Stephen King is Canadian. Stephen King is a writer."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "American",
+                "Mexican",
+                "Panamanian",
+                "Canadian"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_science_television_technology_721c2001",
+                    "insert_conversation_turn": 380
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_literature_education_art_and_design_5ef87b3c",
+                    "insert_conversation_turn": 113,
+                    "reference_name": "Fig. da84ad87"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_history_food_4d61a46c",
+                    "insert_conversation_turn": 253
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "instance": "Stephen King",
+            "category": "people",
+            "error_type": "location_error",
+            "topic": [
+                "literature"
+            ],
+            "original_question": "What is the nationality of the person in the picture?"
+        }
+    },
+    {
+        "id": "QA_sample_11c26ebf",
+        "domain": "MLLMKC",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. c6b0ecce, Who established the brand corresponding to the logo?",
+        "answer": "Franz Josef Popp",
+        "evidence": {
+            "text_evidence": [
+                "BMW was founded in 1916. The creator of BMW is Franz Josef Popp. BMW is the production of luxury vehicles and motorcycles."
+            ],
+            "image_evidence": [
+                "MLLMKC_0fe36622.jpg"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "BMW was founded in 1916. The creator of BMW is Karl Benz. BMW is the production of luxury vehicles and motorcycles."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Franz Josef Popp",
+                "Karl Benz",
+                "Gottlieb Daimler",
+                "Henry Ford"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_history_food_4d61a46c",
+                    "insert_conversation_turn": 225
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_science_television_technology_721c2001",
+                    "insert_conversation_turn": 294,
+                    "reference_name": "Fig. c6b0ecce"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_literature_education_art_and_design_5ef87b3c",
+                    "insert_conversation_turn": 31
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "instance": "BMW",
+            "category": "logo",
+            "error_type": "creator_error",
+            "topic": [
+                "transportation",
+                "history",
+                "business"
+            ],
+            "original_question": "Who established the brand corresponding to the logo?"
+        }
+    },
+    {
+        "id": "QA_sample_55f4dc87",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. bcc726f3, According to the previous definitions, which manufacturer qualifies as a \"regional leader\" based on leading in sales in at least two regions?",
+        "answer": "Xerox",
+        "evidence": {
+            "text_evidence": [
+                "A manufacturer's performance is considered 'outstanding' if their sales in any region exceed 800 units. Additionally, if a manufacturer leads in sales in at least two regions, they are considered a 'regional leader.'"
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_98ce1d64.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "GBC",
+                "Xerox",
+                "Global",
+                "Avery"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_history_food_4d61a46c",
+                    "insert_conversation_turn": 566
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_literature_education_art_and_design_5ef87b3c",
+                    "insert_conversation_turn": 857,
+                    "reference_name": "Fig. bcc726f3"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "business"
+            ],
+            "original_question": "According to the previous definitions, which manufacturer qualifies as a \"regional leader\" based on leading in sales in at least two regions?"
+        }
+    },
+    {
+        "id": "QA_sample_0e08e1d1",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 1bdbf7f5, the chart and according to the previous definition, in which year did the country's banking sector first reach a \"critical state\"?",
+        "answer": "2018 (June)",
+        "evidence": {
+            "text_evidence": [
+                "A country's banking sector is considered in a critical state if the gross non-performing loans (NPL) exceed 10% of the total loans or reach a value of 800 billion taka. Use the chart to determine if and when the banking sector reached this critical state."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_b451583a.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "2017",
+                "2015",
+                "2018 (June)",
+                "2016"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_history_food_4d61a46c",
+                    "insert_conversation_turn": 335
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_literature_education_art_and_design_5ef87b3c",
+                    "insert_conversation_turn": 175,
+                    "reference_name": "Fig. 1bdbf7f5"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "economy",
+                "business"
+            ],
+            "original_question": "the chart and according to the previous definition, in which year did the country's banking sector first reach a \"critical state\"?"
+        }
+    },
+    {
+        "id": "QA_sample_df2d5e6c",
+        "domain": "MLLMKC",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. 1dd5f903, Who established the brand corresponding to the logo?",
+        "answer": "D) Vincent van Gogh",
+        "evidence": {
+            "text_evidence": [
+                "Ferrari was founded in 1947. The creator of Ferrari is Enzo Ferrari. Ferrari is the production of luxury sports cars."
+            ],
+            "image_evidence": [
+                "MLLMKC_ca8d50cf.jpg"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Ferrari was founded in 1947. The creator of Ferrari is Leonardo da Vinci. Ferrari is the production of luxury sports cars."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "Leonardo da Vinci",
+                "Pablo Picasso",
+                "D) Vincent van Gogh"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_literature_education_art_and_design_5ef87b3c",
+                    "insert_conversation_turn": 1044
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_history_food_4d61a46c",
+                    "insert_conversation_turn": 901,
+                    "reference_name": "Fig. 1dd5f903"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_science_television_technology_721c2001",
+                    "insert_conversation_turn": 796
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "instance": "Ferrari",
+            "category": "logo",
+            "error_type": "creator_error",
+            "topic": [
+                "transportation",
+                "history",
+                "business"
+            ],
+            "original_question": "Who established the brand corresponding to the logo?"
+        }
+    },
+    {
+        "id": "QA_sample_7a3e0552",
+        "domain": "MLLMKC",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. 7c76402e, When was the brand associated with the logo established?",
+        "answer": "1975",
+        "evidence": {
+            "text_evidence": [
+                "Microsoft was founded in 1975. The creators of Microsoft are Bill Gates and Paul Allen. Microsoft is the production of software and hardware products."
+            ],
+            "image_evidence": [
+                "MLLMKC_ed7f2e7c.jpg"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Microsoft was founded in 1980. The creators of Microsoft are Bill Gates and Paul Allen. Microsoft is the production of software and hardware products."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "1970",
+                "1980",
+                "1975",
+                "1978"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_science_television_technology_721c2001",
+                    "insert_conversation_turn": 53
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_literature_education_art_and_design_5ef87b3c",
+                    "insert_conversation_turn": 917,
+                    "reference_name": "Fig. 7c76402e"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_history_food_4d61a46c",
+                    "insert_conversation_turn": 4
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "instance": "Microsoft",
+            "category": "logo",
+            "error_type": "time_error",
+            "topic": [
+                "business",
+                "technology"
+            ],
+            "original_question": "When was the brand associated with the logo established?"
+        }
+    },
+    {
+        "id": "QA_sample_6622c548",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. ebc1c255, According to the previous definition, does the school meet the criteria for being considered \"performing exceptionally\" based on the specified evaluation factors?",
+        "answer": "No",
+        "evidence": {
+            "text_evidence": [
+                "A school is considered to be performing exceptionally if the syllabus coverage exceeds 85%, the graduation rate is above 90%, and at least 80% of students pass in all subjects. This evaluation is based on data from the performance dashboard provided."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_4bca9d4d.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "No",
+                "Yes"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_history_food_4d61a46c",
+                    "insert_conversation_turn": 538
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_science_television_technology_721c2001",
+                    "insert_conversation_turn": 735,
+                    "reference_name": "Fig. ebc1c255"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "education"
+            ],
+            "original_question": "According to the previous definition, does the school meet the criteria for being considered \"performing exceptionally\" based on the specified evaluation factors?"
+        }
+    },
+    {
+        "id": "QA_sample_13c1a065",
+        "domain": "MLLMKC",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. 68ee798a, When was the brand associated with the logo established?",
+        "answer": "1922",
+        "evidence": {
+            "text_evidence": [
+                "Jaguar was created in 1922. The creator of Jaguar is William Lyons. Jaguar is the brand of luxury vehicles."
+            ],
+            "image_evidence": [
+                "MLLMKC_83f7a270.jpg"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Jaguar was created in 1919. The creator of Jaguar is William Lyons. Jaguar is the brand of luxury vehicles."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "1919",
+                "1930",
+                "1925",
+                "1922"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_literature_education_art_and_design_5ef87b3c",
+                    "insert_conversation_turn": 939
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_history_food_4d61a46c",
+                    "insert_conversation_turn": 485,
+                    "reference_name": "Fig. 68ee798a"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_science_television_technology_721c2001",
+                    "insert_conversation_turn": 500
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "instance": "Jaguar",
+            "category": "logo",
+            "error_type": "time_error",
+            "topic": [
+                "transportation",
+                "history",
+                "business"
+            ],
+            "original_question": "When was the brand associated with the logo established?"
+        }
+    },
+    {
+        "id": "cd34b524",
+        "domain": "MMDocRAG",
+        "category": "Single_Hop_QA",
+        "question": "Based on Doc. 8b4aa4df, Doc. f7e8e227, Doc. f7c3ad77, what is long-term debt of  Costco in FY 2021? Anwser in millions.",
+        "answer": "6,692",
+        "evidence": {
+            "text_evidence": [
+                "The nature and amount of our long-term debt may vary as a result of business requirements, market conditions, and other factors. As of the end of 2021, long-term debt with fixed interest rates was   $\\Uparrow,531$  . Fluctuations in interest rates may affect the fair value of the fixed-rate debt. See Note 5  to the consolidated financial statements included in Item 8 of this Report for more information on our long-term debt. "
+            ],
+            "image_evidence": [],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": [
+                [
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "The Company maintains various short-term bank credit facilities, with a borrowing capacity of  $\\S1{,}050$   and   $\\S967$  ,  in 2021 and 2020, respectively. Borrowings on these short-term facilities were immaterial during 2021 and 2020. Short-term borrowings outstanding were   $\\S41$   at the end of 2021. There were no outstanding balances at the end of 2020. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Other long-term debt consists of Guaranteed Senior Notes issued by the Company's Japanese subsidiary, valued using Level 3 inputs. In June 2021, the Japanese subsidiary repaid approximately  $\\S94$   of its Guaranteed Senior Notes. "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_29a3a53f.png"
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_12cf0a9d.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "During 2021 and 2020, we repurchased 1,358,000 and 643,000 shares of common stock, at average prices of   $\\S364.39$   and   $\\S308.45$  , respectively, totaling approximately   $\\S495$   and   $\\S198$  , respectively. These amounts may differ from the stock repurchase balances in the accompanying consolidated statements of cash flows due to changes in unsettled stock repurchase s at the end of each fiscal year. Purchases are made from time-to-time, as conditions warrant, in the open market or in block purchases and pursuant to plans under SEC Rule 10b5-1. Repurchased shares are retired, in accordance with the Washington Business Corporation Act. The remaining amount available to be purchased under our approved plan was   $\\S3{,}250$   at the end of 2021. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Current financial liabilities have fair values that approximate their carrying values. Long-term financial liabilities include the Company's long-term debt, which are recorded on the balance sheet at issuance price and adjusted for un amortized discounts or premiums and debt issuance costs, and are being amortized to interest expense over the term of the loan. The estimated fair value of the Company's long-term debt is based primarily on reported market values, recently completed market transactions, and estimates based upon interest rates, maturities, and credit. "
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "The Company's stock repurchase program is conducted under a  $\\S4{,}000$   authorization by the Board of Directors, which expires in April 2023. As of the end of 2021, the remaining amount available under the approved plan was  $\\S3{,}250$  . The following table summarizes the Company’s stock repurchase activity: "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_c703d4e9.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_44bef64e.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Net cash used in investing activities totaled   $^{\\S3,535}$   in 2021, compared to   $\\S3{,}891$   in 2020, and is primarily related to capital expenditures. In 2020, we acquired Innovel (Costco Wholesale Logistics) and a minority interest in Navitus. Net cash flows from investing activities also includes purchases and maturities of short-term investments. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Note 6—Leases "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "The deferred tax accounts at the end of 2021 and 2020 include deferred income tax assets of   $\\S444$   and   $\\S406$  , respectively, included in other long-term assets; and deferred income tax liabilities of  $\\S754$   and  $\\S665$  , respectively, included in other long-term liabilities. "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_7fc50aff.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_3a3ccbf0.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "As discussed in  Note 1  to the consolidated financial statements, the Company estimates its self-insurance liabilities by considering historical claims experience, demographic factors, severity factors, and other actuarial assumptions. The estimated self-insurance liabilities as of August 29, 2021 were  $^{\\S1,257}$   million, a portion of which related to workers’ compensation self-insurance liabilities for the United States operations. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "The Company's long-term debt consists primarily of Senior Notes, described below. The Company at its option may redeem the Senior Notes at any time, in whole or in part, at a redemption price plus accrued interest. The redemption price is equal to the greater of   $100\\%$   of the principal amount or the sum of the present value of the remaining scheduled payments of principal and interest to maturity. Additionally, upon certain events, the holder has the right to require the Company to purchase this security at a price of   $101\\%$   of the principal amount plus accrued and unpaid interest to the date of the event. Interest on all outstanding long-term debt is payable semi-annually. The estimated fair value of Senior Notes is valued using Level 2 inputs. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "The Company considers as cash and cash equivalents all cash on deposit, highly liquid investments with a maturity of three months or less at the date of purchase, and proceeds due from credit and debit card transactions with settlement terms of up to four days. Credit and debit card receivable s were   $^{\\S1,816}$   and  $\\mathbb{S}1{,}636$   at the end of 2021 and 2020, respectively. "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_4ee3dc61.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_b9b2794b.png"
+                        }
+                    }
+                ]
+            ]
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "2,642",
+                "731",
+                "7,531",
+                "6,692"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_science_television_technology_721c2001",
+                    "insert_conversation_turn": 1114
+                }
+            ],
+            "image_evidence_assignment": [],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_literature_education_art_and_design_5ef87b3c",
+                    "insert_conversation_turn": 160,
+                    "reference_name": "Doc. 8b4aa4df"
+                },
+                {
+                    "conversation_name": "group_chat_architecture_history_food_4d61a46c",
+                    "insert_conversation_turn": 524,
+                    "reference_name": "Doc. f7e8e227"
+                },
+                {
+                    "conversation_name": "group_chat_literature_education_art_and_design_5ef87b3c",
+                    "insert_conversation_turn": 586,
+                    "reference_name": "Doc. f7c3ad77"
+                }
+            ]
+        },
+        "meta_data": {
+            "category": "Financial report",
+            "doc_name": "COSTCO_2021_10K",
+            "gold_quotes": [
+                "text5",
+                "text1",
+                "image1"
+            ],
+            "topic": [
+                "business",
+                " economy"
+            ],
+            "original_question": "what is long-term debt of  Costco in FY 2021? Anwser in millions."
+        }
+    },
+    {
+        "id": "27dbe018",
+        "domain": "MMDocRAG",
+        "category": "Single_Hop_QA",
+        "question": "Based on Doc. 1a112b57, Doc. f5cabb25, Doc. 74b9d0b0, How is the ownership status of domestic and international stores distributed?",
+        "answer": "Domestic stores have 922 leased, 24 owned, and 32 with owned buildings and leased land. International stores have 153 leased, 3 owned, and 4 with owned buildings and leased land.",
+        "evidence": {
+            "text_evidence": [],
+            "image_evidence": [],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": [
+                [
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "On November 2, 2021, we acquired all outstanding shares of Current Health Ltd. (\"Current Health\"). On November 4, 2021, we acquired all outstanding shares of Two Peaks, LLC d/b/a Yardbird Furniture (\"Yardbird\"). Consistent with our comparable sales policy, the results of Current Health and Yardbird are excluded from our comparable sales calculation until the first quarter of fiscal 2024. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "International Stores "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "We operate retail locations in Canada,Current Health operates in the UK,and most of our exclusive brands products are manufactured by contract manufacturers based in southeast Asia.We also have wholly-owned legal entities registered in various other foreign countries,including Bermuda,China,Hong Kong,Luxembourg,the Republic of Mauritius and theUK.During fiscal 2023,our International segment's operations generated approximately  $8\\%$  Oofour revenue. In general, the risk factors identified above also have relevance to our International operations. In addition, our International operations also expose us to other risks,including those related to,forexample: "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_113773e7.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_ff5334b7.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "We have two reportable segments: Domestic and International. The Domestic segment is comprised of our operations in all states, districts and territories of the U.S.and ourBest Buy Health business,and includes thebrand namesBest Buy,Best BuyAds,Best Buy Business,Best BuyHealth,CST,Current Health,Geek Squad,Lively,Magnolia,Pacific Kitchen and Home,Tech Liquidators and Yard bird and the domain names best buy.com,current health.com,lively.com, tech liquidators.com and yard bird.com.All of our former stores in Mexico were closed as of the end of the first quarter of fiscal 2022,and our International segment is comprised of all operations in Canada under thebrand names Best Buy,Best Buy Mobile and Geek Squad and the domain name best buy.ca. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "We had 1,138 stores at the end of fiscal 2023 throughout our Domestic and International segments. Our stores are a vital component of our omni channel strategy,and we believe they are an important competitive advantage.We also have vendor store-within-a-store concepts to allow closer vendor partnerships and a higher quality customer experience. We continuously look for opportunities to optimize our store space, renegotiate leases and selectively open or close locations to support our operations. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "The ownership status and total square footage of space utilized for distribution at the end of fiscal 2023 were as follows: "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_768c1f91.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_ff33a641.png"
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "We have two reportable segments:Domestic and International.The Domestic segment is comprised of our operations in all states,districts and territories of the U.S.and our Best Buy Health business,and includes the brand namesBest Buy,BestBuyAds,Best Buy Business,Best Buy Health,CST,Current Health,Geek Squad,Lively,Magnolia,Pacific Kitchen and Home,Tech Liquidators and Yardbird and the domain names best buy.com,current health.com, lively.com, tech liquidators.com and yard bird.com.All of our former stores in Mexico were closed as of theendof the first quarter of fiscal 2022,and our International segment is comprised of all operations in Canada under the brand names Best Buy, Best Buy Mobile and Geek Squad and the domain name bestbuy.ca. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "The ownership status of our stores at the end of fiscal 2023 was as follows: "
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "In fiscal 2022,weacquired allof the outstanding sharesof Current Health Ltd.(\"Current Health\")and TwoPeaks,LLCd/b/a Yard bird Furniture(\"Yardbird\").Refer toNote2,Acquisitions,for additional information. "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_e9353fe1.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_32001b6b.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Refer to Item 7, Management's Discussion and Analysis of Financial Condition and Results of Operations, for tables reconciling our Domestic and International segment stores open at the end of each of the last three fiscal years. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Domestic Stores "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "The location and total square footage of our International segment stores at the end of fiscal 2023 were as follows: "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_1c460e8c.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_c04e5521.png"
+                        }
+                    }
+                ]
+            ]
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Domestic stores have 950 leased, 20 owned, and 35 with owned buildings and leased land. International stores have 140 leased, 6 owned, and 3 with owned buildings and leased land.",
+                "Domestic stores have 922 leased, 24 owned, and 32 with owned buildings and leased land. International stores have 153 leased, 3 owned, and 4 with owned buildings and leased land.",
+                "Domestic stores have 900 leased, 30 owned, and 28 with owned buildings and leased land. International stores have 160 leased, 5 owned, and 2 with owned buildings and leased land.",
+                "Domestic stores have 910 leased, 27 owned, and 40 with owned buildings and leased land. International stores have 155 leased, 4 owned, and 5 with owned buildings and leased land."
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [],
+            "image_evidence_assignment": [],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_science_television_technology_721c2001",
+                    "insert_conversation_turn": 1083,
+                    "reference_name": "Doc. 1a112b57"
+                },
+                {
+                    "conversation_name": "group_chat_architecture_history_food_4d61a46c",
+                    "insert_conversation_turn": 108,
+                    "reference_name": "Doc. f5cabb25"
+                },
+                {
+                    "conversation_name": "group_chat_literature_education_art_and_design_5ef87b3c",
+                    "insert_conversation_turn": 814,
+                    "reference_name": "Doc. 74b9d0b0"
+                }
+            ]
+        },
+        "meta_data": {
+            "category": "Financial report",
+            "doc_name": "BESTBUY_2023_10K",
+            "gold_quotes": [
+                "image4",
+                "text8"
+            ],
+            "topic": [
+                "business",
+                " economy"
+            ],
+            "original_question": "How is the ownership status of domestic and international stores distributed?"
+        }
+    },
+    {
+        "id": "QA_sample_0877c193",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 2b2874b0, the text, which months in 2016 and 2017 had daily spot rates for capesize vessels above the \"profitability threshold\"?",
+        "answer": "October, November, and December in 2016; March, April, and May in 2017.",
+        "evidence": {
+            "text_evidence": [
+                "Shipping companies aim to achieve profitability when daily spot rates exceed $10,000 per capesize vessel. Spot rates below this threshold indicate financial challenges for these companies. Assume the profitability threshold remains constant throughout the period shown in the chart."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_783b2add.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "November and December in 2016; January, February, and March in 2017",
+                "September and October in 2016; February, April, and May in 2017",
+                "August and September in 2016; March, April, and June in 2017",
+                "October, November, and December in 2016; March, April, and May in 2017."
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_literature_education_art_and_design_5ef87b3c",
+                    "insert_conversation_turn": 1014
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_science_television_technology_721c2001",
+                    "insert_conversation_turn": 864,
+                    "reference_name": "Fig. 2b2874b0"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "transportation",
+                "economy",
+                "business"
+            ],
+            "original_question": "the text, which months in 2016 and 2017 had daily spot rates for capesize vessels above the \"profitability threshold\"?"
+        }
+    },
+    {
+        "id": "QA_sample_82119600",
+        "domain": "MLLMKC",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. 7fe8de43, Who established the brand corresponding to the logo?",
+        "answer": "Reed Hastings",
+        "evidence": {
+            "text_evidence": [
+                "Netflix was created in 1997. The creator of Netflix is Reed Hastings. Netflix is the brand of streaming service."
+            ],
+            "image_evidence": [
+                "MLLMKC_2fdef908.jpg"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Netflix was created in 1997. The creator of Netflix is Mark Zuckerberg. Netflix is the brand of streaming service."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "Mark Zuckerberg",
+                "Elon Musk",
+                "Reed Hastings",
+                "Steve Jobs"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_literature_education_art_and_design_5ef87b3c",
+                    "insert_conversation_turn": 784
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_history_food_4d61a46c",
+                    "insert_conversation_turn": 1090,
+                    "reference_name": "Fig. 7fe8de43"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_science_television_technology_721c2001",
+                    "insert_conversation_turn": 594
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "instance": "Netflix",
+            "category": "logo",
+            "error_type": "creator_error",
+            "topic": [
+                "business",
+                "technology",
+                "television"
+            ],
+            "original_question": "Who established the brand corresponding to the logo?"
+        }
+    },
+    {
+        "id": "dd8e6581",
+        "domain": "MMDocRAG",
+        "category": "Single_Hop_QA",
+        "question": "Based on Doc. b3b9f678, Doc. 721a5d2d, Doc. b5889730, Doc. 30883bb1, Doc. 10a3775b, How has the dividend per share changed over time according to the data provided?",
+        "answer": "$0.01 in 1956 to $3.52 in 2022",
+        "evidence": {
+            "text_evidence": [],
+            "image_evidence": [],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": [
+                [
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "In 1991, the ESOP borrowed an additional   $\\S1.0$   billion.  The  proceeds were used to purchase Series B ESOP Convertible  Class A Preferred Stock to fund a portion of retiree health  care benefits.  These shares, net of the ESOP's debt, are  considered plan assets of the other retiree benefits plan  discussed above.  The original borrowings of   $\\S1.0$   billion  were repaid in 2021.  Debt service requirements were funded  by preferred stock dividends, cash contributions and  advances provided by the Company, of which   $\\S901$   are  outstanding at June 30, 2022.  Each share is convertible at  the option of the holder into one share of the Company's  common stock.  The dividend for the current year was equal  to the common stock dividend of   $\\S3.52$   per share.  The  liquidation value is  $\\S12.96$   per share.  "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "(3)   On April 20, 2022, the Company stated that in fiscal year 2022 the Company expected to reduce outstanding shares through direct share  repurchases at a value of approximately   $\\S10$   billion, notwithstanding any purchases under the Company's compensation and benefit  plans.  The share repurchases were authorized pursuant to a resolution issued by the Company's Board of Directors and were financed  through a combination of operating cash flows and issuance of debt.  The total value of the shares purchased under the share repurchase  plan was  $\\S10$   billion.  The share repurchase plan ended on June 30, 2022. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Corporate net sales increased   $69\\%$   to   $\\S744$   million in fiscal  2022 due to an increase in the net sales of the incidental  businesses managed at the corporate level.  Corporate net  earnings improved by   $\\S872$   million to   $\\S485$   million in fiscal  2022 due primarily to the prior year loss on the early debt  extinguishment, a current year gain on the divestiture of a  minor business, net sales growth, current year tax benefits  (primarily higher excess tax benefits of share-based  compensation) and lower restructuring charges, partially  offset by increased commodity costs tied to the  aforementioned incidental businesses.  "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_5ee9ebfb.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_2becf4d9.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Dividend Payments.   Our first discretionary use of cash is  dividend payments.  Dividends per common share increased   $9\\%$   to   $\\S3.5227$   per share in 2022.  Total dividend payments  to common and preferred shareholders were   $\\S8.8$   billion in  2022 and   $\\S8.3$   billion in 2021.  In April 2022, the Board of  Directors declared a   $5\\%$   increase in our quarterly dividend  from   $\\S0.8698$   to   $\\S0.9133$   per share on Common Stock and  Series A and B Employee Stock Ownership Plan (ESOP)  Convertible Class A Preferred Stock.  This is the 66th  consecutive year that our dividend has increased.  We have  paid a dividend for 132 consecutive years, every year since  our incorporation in 1890.   "
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "more than offset by a decrease in operating margin. \n\n •   Net earnings increased   $\\S0.4$   billion or   $3\\%$   versus year  ago to   $\\S14.8$   billion, due to a prior year loss on early  debt extinguishment, lower taxes and interest expense in  the current year.  Foreign exchange impacts negatively  affected net earnings by approximately   $\\S274$   million.  \n\n •   Net earnings attributable to Procter & Gamble were   $\\S14.7$   billion, an increase of   $\\S0.4$   billion or   $3\\%$   versus  the prior year primarily due to the increase in net  earnings. \n\n •   Diluted net earnings per share (EPS) increased   $6\\%$   to   $\\S5.81$   due to the increase in net earnings, a reduction in  shares outstanding and due to the prior year loss on  early debt extinguishment.  Net earnings per share  increased  $3\\%$   versus the prior year core net earnings per  share due to the increase in net earnings and a reduction  in shares outstanding. \n\n •   Cash flow from operating activities was  $\\S16.7$   billion.  "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "We returned nearly  $\\mathbb{S}19$   billion of value to shareowners  through  $\\S8.8$   billion in dividends and  $\\mathbb{S}10$   billion in share  repurchase. In April, we announced a  $5\\%$   increase in our  dividend. This is the 66th consecutive annual dividend  increase, and the 132nd consecutive year in which P&G  has paid a dividend. Only seven U.S. publicly traded  companies have paid a dividend in more consecutive  years than P&G, and only three are recognized to have  increased their dividend in more consecutive years  than P&G. "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_d08c87d6.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_d0d2bdc7.png"
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "The following graph compares the cumulative total return of P&G’s common stock for the five-year period ended June 30,  2022, against the cumulative total return of the S&P 500 Stock Index (broad market comparison) and the S&P 500 Consumer  Staples Index (line of business comparison).  The graph and table assume   $\\S100$   was invested on June 30, 2017, and that all  dividends were reinvested.  "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "The ESOP borrowed   $\\S1.0$   billion in 1989 and the proceeds  were used to purchase Series A ESOP Convertible Class A  Preferred Stock to fund a portion of the U.S. DC plan.   Principal and interest requirements of the borrowing were  paid by the Trust from dividends on the preferred shares and  from advances provided by the Company.  The original  borrowing of   $\\S1.0$   billion has been repaid in full, and  advances from the Company of   $\\S15$   remain outstanding at  June 30, 2022.  Each share is convertible at the option of the  holder into one share of the Company's common stock.  The  dividend for the current year was equal to the common stock  dividend of  $\\S3.52$   per share.  The liquidation value is   $\\S6.82$    per share.  "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Diluted net EPS increased   $\\S0.31$  , or   $6\\%$  , to   $\\S5.81$   due  primarily to the increase in net earnings and, to a lesser  extent, a reduction in shares outstanding.  Net earnings per  share increased  $3\\%$   versus the prior year core EPS due to the  prior year loss on early debt extinguishment.  "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_abc6d5a6.png"
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_dcdb1144.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "P&G has been paying a dividend for 132 consecutive years since its incorporation in 1890 and has increased its dividend for 66  consecutive years since 1956.  Over the past ten years, the dividend has increased at an annual compound average rate of   $5\\%$  Nevertheless, as in the past, further dividends will be considered after reviewing dividend yields, profitability and cash flow  expectations and financing needs and will be declared at the discretion of the Company's Board of Directors. "
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "(2)   Average price paid per share for open market transactions excludes commission. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Basic net earnings per common share are calculated by dividing Net earnings attributable to Procter & Gamble less preferred  dividends by the weighted average number of common shares outstanding during the year.  Diluted net earnings per common  share are calculated by dividing Net earnings attributable to Procter & Gamble by the diluted weighted average number of  common shares outstanding during the year.  The diluted shares include the dilutive effect of stock options and other stock- based awards based on the treasury stock method (see Note 7) and the assumed conversion of preferred stock (see Note 8).  "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_2080d37b.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_2f32579b.png"
+                        }
+                    }
+                ]
+            ]
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "$0.01 in 1956 to $3.52 in 2022",
+                "$0.05 in 1972 to $0.76 in 2002",
+                "$0.02 in 1962 to $2.14 in 2012",
+                "$0.13 in 1982 to $0.26 in 1992"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [],
+            "image_evidence_assignment": [],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_literature_education_art_and_design_5ef87b3c",
+                    "insert_conversation_turn": 517,
+                    "reference_name": "Doc. b3b9f678"
+                },
+                {
+                    "conversation_name": "group_chat_science_television_technology_721c2001",
+                    "insert_conversation_turn": 833,
+                    "reference_name": "Doc. 721a5d2d"
+                },
+                {
+                    "conversation_name": "group_chat_science_television_technology_721c2001",
+                    "insert_conversation_turn": 167,
+                    "reference_name": "Doc. b5889730"
+                },
+                {
+                    "conversation_name": "group_chat_literature_education_art_and_design_5ef87b3c",
+                    "insert_conversation_turn": 571,
+                    "reference_name": "Doc. 30883bb1"
+                },
+                {
+                    "conversation_name": "group_chat_literature_education_art_and_design_5ef87b3c",
+                    "insert_conversation_turn": 295,
+                    "reference_name": "Doc. 10a3775b"
+                }
+            ]
+        },
+        "meta_data": {
+            "category": "Financial report",
+            "doc_name": "NYSE_PG_2022",
+            "gold_quotes": [
+                "image4",
+                "text4",
+                "image5",
+                "text10"
+            ],
+            "topic": [
+                "business",
+                " economy"
+            ],
+            "original_question": "How has the dividend per share changed over time according to the data provided?"
+        }
+    },
+    {
+        "id": "8d106397",
+        "domain": "MMDocRAG",
+        "category": "Single_Hop_QA",
+        "question": "Based on Doc. ebf49b78, Doc. b915c6bf, Doc. c091d7c3, Doc. cca7fcff, Doc. ef82db1b, What are the available options for a new student to set up housing and banking services at NTU, and whom should they contact for housing inquiries?",
+        "answer": "For housing inquiries: has-ug@ntu.edu.sg (undergraduate), has-pg@ntu.edu.sg (graduate), has-exch@ntu.edu.sg (exchange). For banking: DBS, OCBC, POSBank, UOB.",
+        "evidence": {
+            "text_evidence": [],
+            "image_evidence": [],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": [
+                [
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Helping you to complete this journey at NTU is  the Student Affairs Office (SAO). Our welcome  programmes will pave the way for you to adjust to the  local environment, learn about local health issues, and  forge friendships that open doors to new cultures, fresh  ideas and perspectives. Our One-Stop Centre caters  for most student support matters such as payment  and submission of important documents. If you have a  disability, come and talk to our officers at the Accessible  Education Unit   $@S A O$  . There is always something that  we can do to make your stay more enjoyable. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Your network account enables you to access to the  NTU computer network, Intranet portal iNTU ( https:// intu.ntu.edu.sg ), e-services (Student Link, GSLink),  e-learning (NTULearn), Library databases and other  computer resources. You will receive the details upon  registration. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "The Freshmen Welcome Ceremonies, orientations,  campus and laboratory tours, and welcome events  organised by SAO-Student Support, schools and  Halls of Residence provide new students with useful  information on student services and campus life. They  are also great occasions to interact with fellow students  and widen your social network. "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_9e301beb.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_898310fb.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Please settle into your housing before registering with  SAO-Student Support during office hours to complete  the registration procedures and be briefed on the  procedures to complete the Student’s Pass formalities.  Do bring along your passport, embarkation card,  Letter of Admission/Enrolment, receipts for any NTU’s  Miscellaneous Fee payment. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "The OCBC bank has a branch on campus at the North  Spine at Block N3. Other banks are located near NTU  at Jurong Point Shopping Centre. Please contact  the banks or visit their website to determine their  requirement for opening and maintaining an account. "
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "Check-in to your housing Register with SAO-Student Support  Complete registration procedures   Be briefed on the completion of the Student’s Pass formalities Undergo a medical examination at the Fullerton Healthcare@NTU for students on more  than 6 months study programme  (Please refer to Medical Examination section) Complete the Student’s Pass formalities and collect your Student’s Pass  (Please refer to Student’s Pass section) Complete all matriculation procedures  Open a bank account if your study duration is more than 6 months Purchase a Singapore mobile line (optional) Activate your network and Office 365 EDU accounts Update your particulars and contact details via Student Link (undergraduate students),  GSLink (graduate students), or Exchange Portal (exchange students) Attend orientation, welcome events and SAO-Student Support activities Join a student club or society and plug into NTU’s vibrant student life (optional) "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_1d7ae1cb.png"
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_30fccd95.png"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "If you have any questions after reading through  this guidebook, please contact Student Support  at  Student  Affairs  Office  via  email  at SAO student support@ntu.edu.sg  or call on us at  Student Services Centre, Level 4. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "The Student Wellbeing Centre administers a peer  support network for students on campus called the  ‘Peer Helping Programme’. Student volunteers in the  programme are trained by the Centre’s professional  Student Counsellors to befriend and support students  with  emotional  and/or  psychological  issues.  If  you wish to find out more about this programme,  please call or email the Student Wellbeing Centre at  student wellbeing@ntu.edu.sg . "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "For further enquiries on housing matters, please contact the Office of Housing and Auxiliary Services (HAS), the  office administrating on-campus and off-campus housing, via email. You can also visit  www.ntu.edu.sg/has  for  more information on campus and off-campus housing. "
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_f1a8b108.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_01c5c3c8.png"
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "This guide has been compiled to help you through  most of the formalities and procedures before and  after your arrival. You will find information ranging from  the important immigration regulations to student life at  NTU. We have included in this guidebook the contact  details of many services which are available to support  you throughout your stay.  "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "For students whose study period is 6 months or more,  you may choose to open an account with the bank of  your choice in Singapore. The banks offer a wide range  of services and have different types of saving accounts. "
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "content": {
+                            "text": "If you have applied for and been offered a place in campus housing, please ensure that you have provided your  arrival details online. Please refer to your offer email for information on the collection of your room key. "
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_314823e6.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "content": {
+                            "image_path": "MMDocRAG_3728c9bd.png"
+                        }
+                    }
+                ]
+            ]
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "For housing inquiries: student wellbeing@ntu.edu.sg. For banking: Comfort taxi, SBS Transit bus, Fullerton Healthcare.",
+                "For housing inquiries: SAO student support@ntu.edu.sg. For banking: M1, SingTel, StarHub.",
+                "For housing inquiries: Accessible Education Unit at SAO. For banking: Processing Fee $30, Issuance Fee $60, Multiple-Entry Visa fee $30.",
+                "For housing inquiries: has-ug@ntu.edu.sg (undergraduate), has-pg@ntu.edu.sg (graduate), has-exch@ntu.edu.sg (exchange). For banking: DBS, OCBC, POSBank, UOB."
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [],
+            "image_evidence_assignment": [],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_history_food_4d61a46c",
+                    "insert_conversation_turn": 459,
+                    "reference_name": "Doc. ebf49b78"
+                },
+                {
+                    "conversation_name": "group_chat_literature_education_art_and_design_5ef87b3c",
+                    "insert_conversation_turn": 52,
+                    "reference_name": "Doc. b915c6bf"
+                },
+                {
+                    "conversation_name": "group_chat_literature_education_art_and_design_5ef87b3c",
+                    "insert_conversation_turn": 627,
+                    "reference_name": "Doc. c091d7c3"
+                },
+                {
+                    "conversation_name": "group_chat_architecture_history_food_4d61a46c",
+                    "insert_conversation_turn": 1059,
+                    "reference_name": "Doc. cca7fcff"
+                },
+                {
+                    "conversation_name": "group_chat_science_television_technology_721c2001",
+                    "insert_conversation_turn": 83,
+                    "reference_name": "Doc. ef82db1b"
+                }
+            ]
+        },
+        "meta_data": {
+            "category": "Guidebook",
+            "doc_name": "StudentSupport_Guidebook",
+            "gold_quotes": [
+                "text5",
+                "text9",
+                "image6",
+                "image3"
+            ],
+            "topic": [
+                "education",
+                " lifestyle",
+                " transportation",
+                " business"
+            ],
+            "original_question": "What are the available options for a new student to set up housing and banking services at NTU, and whom should they contact for housing inquiries?"
+        }
+    },
+    {
+        "id": "QA_sample_92e75a2d_1",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 52cc08f6, Among the activities that could reasonably occur in the given image, which one is Cannon Hester least likely to be doing?",
+        "answer": "Watching an anime series",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Cannon Hester enjoys live band karaoke, magic shows, but dislikes K-pop concerts, anime series",
+                "In terms of shopping, Cannon Hester enjoys robot vacuums, wearable tech, but dislikes sportswear, high-end perfumes"
+            ],
+            "image_evidence": [
+                "MMPB_6f052249.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Cannon Hester enjoys kayaking, snorkeling, but dislikes road trips, city tours",
+                "In terms of lifestyle, Cannon Hester enjoys meditation, yoga, but dislikes bullet journaling, reading before bed",
+                "In terms of fashion, Cannon Hester enjoys functional fashion, trendy sunglasses, but dislikes statement jewelry, minimalist rings."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Using a robot vacuum at home",
+                "Watching an anime series",
+                "Viewing a popular TV show",
+                "Observing a live sports event"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_science_television_technology_721c2001",
+                    "insert_conversation_turn": 462
+                },
+                {
+                    "conversation_name": "group_chat_science_television_technology_721c2001",
+                    "insert_conversation_turn": 178
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_literature_education_art_and_design_5ef87b3c",
+                    "insert_conversation_turn": 124,
+                    "reference_name": "Fig. 52cc08f6"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_science_television_technology_721c2001",
+                    "insert_conversation_turn": 1048
+                },
+                {
+                    "conversation_name": "group_chat_literature_education_art_and_design_5ef87b3c",
+                    "insert_conversation_turn": 57
+                },
+                {
+                    "conversation_name": "group_chat_science_television_technology_721c2001",
+                    "insert_conversation_turn": 215
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Ye Wen",
+            "description": "Ye Wen is depicted as a man with a lean build and an average height, exuding a sense of discipline and focus. His facial structure is well-defined, with a prominent jawline and a straight nose, contributing to a strong and determined appearance. Ye Wen has a fair skin tone and short, neatly combed black hair, which adds to his clean and professional look. His expressions range from serious and contemplative to focused and intense, often with a slight furrow in his brow, indicating deep thought or concentration. The consistent facial expressions and poses suggest a character of resilience and inner strength.\n\n**Outfit and Accessories:**\nYe Wen is predominantly seen wearing traditional Chinese attire, specifically a black or white long-sleeved shirt with a high collar, reminiscent of a martial arts uniform. The clothing is simple yet elegant, with a smooth texture that suggests a blend of practicality and formality. The black outfit is often paired with a white undershirt, adding a touch of contrast and sophistication. In one scene, Ye Wen is seen holding a glass, possibly indicating a moment of reflection or relaxation. The attire is functional, allowing for ease of movement, which is essential for martial arts practice. The consistent use of traditional clothing reinforces Ye Wen's connection to his cultural heritage and martial arts discipline.\n\n**Distinguishing Visual Features or Vibe:**\nYe Wen's most memorable feature is his intense gaze, which conveys a sense of determination and focus. His consistent use of traditional attire, particularly the black and white outfits, creates a visual motif that is both striking and culturally significant. The setting, often featuring wooden elements and warm lighting, enhances the traditional and authentic atmosphere. Ye Wen's presence is characterized by a blend of strength and serenity, with a subtle aura of wisdom and resilience. The recurring theme of martial arts practice, as seen in the scenes with ropes and training equipment, further emphasizes his dedication and discipline. Overall, Ye Wen exudes a vibe of quiet strength and cultural pride, making him a visually unmistakable and compelling character.",
+            "preference": "In terms of entertainment, Ye Wen enjoys live band karaoke, magic shows, but dislikes K-pop concerts, anime series. In terms of travel, Ye Wen enjoys kayaking, snorkeling, but dislikes road trips, city tours. In terms of lifestyle, Ye Wen enjoys meditation, yoga, but dislikes bullet journaling, reading before bed. In terms of shopping, Ye Wen enjoys robot vacuums, wearable tech, but dislikes sportswear, high-end perfumes. In terms of fashion, Ye Wen enjoys functional fashion, trendy sunglasses, but dislikes statement jewelry, minimalist rings.",
+            "topic": [],
+            "original_id": "QA_sample_92e75a2d_1_1",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Cannon Hester least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_92e75a2d_2",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 1f4b15cd, Among the activities that could reasonably occur in the given image, which one is Cannon Hester least likely to be doing?",
+        "answer": "Attending a K-pop concert",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Cannon Hester enjoys live band karaoke, magic shows, but dislikes K-pop concerts, anime series",
+                "In terms of shopping, Cannon Hester enjoys robot vacuums, wearable tech, but dislikes sportswear, high-end perfumes"
+            ],
+            "image_evidence": [
+                "MMPB_73dc3548.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Cannon Hester enjoys kayaking, snorkeling, but dislikes road trips, city tours",
+                "In terms of lifestyle, Cannon Hester enjoys meditation, yoga, but dislikes bullet journaling, reading before bed",
+                "In terms of fashion, Cannon Hester enjoys functional fashion, trendy sunglasses, but dislikes statement jewelry, minimalist rings."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "Watching a live band performance",
+                "Shopping for wearable tech",
+                "Attending a K-pop concert",
+                "Attending a rock concert"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_science_television_technology_721c2001",
+                    "insert_conversation_turn": 462
+                },
+                {
+                    "conversation_name": "group_chat_science_television_technology_721c2001",
+                    "insert_conversation_turn": 178
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_science_television_technology_721c2001",
+                    "insert_conversation_turn": 1032,
+                    "reference_name": "Fig. 1f4b15cd"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_science_television_technology_721c2001",
+                    "insert_conversation_turn": 1048
+                },
+                {
+                    "conversation_name": "group_chat_literature_education_art_and_design_5ef87b3c",
+                    "insert_conversation_turn": 57
+                },
+                {
+                    "conversation_name": "group_chat_science_television_technology_721c2001",
+                    "insert_conversation_turn": 215
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Ye Wen",
+            "description": "Ye Wen is depicted as a man with a lean build and an average height, exuding a sense of discipline and focus. His facial structure is well-defined, with a prominent jawline and a straight nose, contributing to a strong and determined appearance. Ye Wen has a fair skin tone and short, neatly combed black hair, which adds to his clean and professional look. His expressions range from serious and contemplative to focused and intense, often with a slight furrow in his brow, indicating deep thought or concentration. The consistent facial expressions and poses suggest a character of resilience and inner strength.\n\n**Outfit and Accessories:**\nYe Wen is predominantly seen wearing traditional Chinese attire, specifically a black or white long-sleeved shirt with a high collar, reminiscent of a martial arts uniform. The clothing is simple yet elegant, with a smooth texture that suggests a blend of practicality and formality. The black outfit is often paired with a white undershirt, adding a touch of contrast and sophistication. In one scene, Ye Wen is seen holding a glass, possibly indicating a moment of reflection or relaxation. The attire is functional, allowing for ease of movement, which is essential for martial arts practice. The consistent use of traditional clothing reinforces Ye Wen's connection to his cultural heritage and martial arts discipline.\n\n**Distinguishing Visual Features or Vibe:**\nYe Wen's most memorable feature is his intense gaze, which conveys a sense of determination and focus. His consistent use of traditional attire, particularly the black and white outfits, creates a visual motif that is both striking and culturally significant. The setting, often featuring wooden elements and warm lighting, enhances the traditional and authentic atmosphere. Ye Wen's presence is characterized by a blend of strength and serenity, with a subtle aura of wisdom and resilience. The recurring theme of martial arts practice, as seen in the scenes with ropes and training equipment, further emphasizes his dedication and discipline. Overall, Ye Wen exudes a vibe of quiet strength and cultural pride, making him a visually unmistakable and compelling character.",
+            "preference": "In terms of entertainment, Ye Wen enjoys live band karaoke, magic shows, but dislikes K-pop concerts, anime series. In terms of travel, Ye Wen enjoys kayaking, snorkeling, but dislikes road trips, city tours. In terms of lifestyle, Ye Wen enjoys meditation, yoga, but dislikes bullet journaling, reading before bed. In terms of shopping, Ye Wen enjoys robot vacuums, wearable tech, but dislikes sportswear, high-end perfumes. In terms of fashion, Ye Wen enjoys functional fashion, trendy sunglasses, but dislikes statement jewelry, minimalist rings.",
+            "topic": [],
+            "original_id": "QA_sample_92e75a2d_2_1",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Cannon Hester least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_92e75a2d_3",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 9405818f, the image, what is Cannon Hester most likely to be doing?",
+        "answer": "Searching for a functional fashion",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Cannon Hester enjoys live band karaoke, magic shows, but dislikes K-pop concerts, anime series",
+                "In terms of shopping, Cannon Hester enjoys robot vacuums, wearable tech, but dislikes sportswear, high-end perfumes"
+            ],
+            "image_evidence": [
+                "MMPB_17b4cdf6.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Cannon Hester enjoys kayaking, snorkeling, but dislikes road trips, city tours",
+                "In terms of lifestyle, Cannon Hester enjoys meditation, yoga, but dislikes bullet journaling, reading before bed",
+                "In terms of fashion, Cannon Hester enjoys functional fashion, trendy sunglasses, but dislikes statement jewelry, minimalist rings."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Seeking stylish attire",
+                "Searching for a functional fashion",
+                "Meditation",
+                "Exploring trendy threads"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_science_television_technology_721c2001",
+                    "insert_conversation_turn": 462
+                },
+                {
+                    "conversation_name": "group_chat_science_television_technology_721c2001",
+                    "insert_conversation_turn": 178
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_science_television_technology_721c2001",
+                    "insert_conversation_turn": 998,
+                    "reference_name": "Fig. 9405818f"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_science_television_technology_721c2001",
+                    "insert_conversation_turn": 1048
+                },
+                {
+                    "conversation_name": "group_chat_literature_education_art_and_design_5ef87b3c",
+                    "insert_conversation_turn": 57
+                },
+                {
+                    "conversation_name": "group_chat_science_television_technology_721c2001",
+                    "insert_conversation_turn": 215
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Ye Wen",
+            "description": "Ye Wen is depicted as a man with a lean build and an average height, exuding a sense of discipline and focus. His facial structure is well-defined, with a prominent jawline and a straight nose, contributing to a strong and determined appearance. Ye Wen has a fair skin tone and short, neatly combed black hair, which adds to his clean and professional look. His expressions range from serious and contemplative to focused and intense, often with a slight furrow in his brow, indicating deep thought or concentration. The consistent facial expressions and poses suggest a character of resilience and inner strength.\n\n**Outfit and Accessories:**\nYe Wen is predominantly seen wearing traditional Chinese attire, specifically a black or white long-sleeved shirt with a high collar, reminiscent of a martial arts uniform. The clothing is simple yet elegant, with a smooth texture that suggests a blend of practicality and formality. The black outfit is often paired with a white undershirt, adding a touch of contrast and sophistication. In one scene, Ye Wen is seen holding a glass, possibly indicating a moment of reflection or relaxation. The attire is functional, allowing for ease of movement, which is essential for martial arts practice. The consistent use of traditional clothing reinforces Ye Wen's connection to his cultural heritage and martial arts discipline.\n\n**Distinguishing Visual Features or Vibe:**\nYe Wen's most memorable feature is his intense gaze, which conveys a sense of determination and focus. His consistent use of traditional attire, particularly the black and white outfits, creates a visual motif that is both striking and culturally significant. The setting, often featuring wooden elements and warm lighting, enhances the traditional and authentic atmosphere. Ye Wen's presence is characterized by a blend of strength and serenity, with a subtle aura of wisdom and resilience. The recurring theme of martial arts practice, as seen in the scenes with ropes and training equipment, further emphasizes his dedication and discipline. Overall, Ye Wen exudes a vibe of quiet strength and cultural pride, making him a visually unmistakable and compelling character.",
+            "preference": "In terms of entertainment, Ye Wen enjoys live band karaoke, magic shows, but dislikes K-pop concerts, anime series. In terms of travel, Ye Wen enjoys kayaking, snorkeling, but dislikes road trips, city tours. In terms of lifestyle, Ye Wen enjoys meditation, yoga, but dislikes bullet journaling, reading before bed. In terms of shopping, Ye Wen enjoys robot vacuums, wearable tech, but dislikes sportswear, high-end perfumes. In terms of fashion, Ye Wen enjoys functional fashion, trendy sunglasses, but dislikes statement jewelry, minimalist rings.",
+            "topic": [],
+            "original_id": "QA_sample_92e75a2d_3_1",
+            "original_question": "the image, what is Cannon Hester most likely to be doing?"
+        }
+    },
+    {
+        "id": "LifeSim_dba3b9d0",
+        "domain": "LifeSim",
+        "category": "Preference_QA",
+        "question": "Based on Fig. ffe39167, What type of learning resource does Joselyn Moss prefer for studying project management?",
+        "answer": "book",
+        "evidence": {
+            "image_evidence": [
+                "LifeSim_69ea7bee.png"
+            ]
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "live workshop",
+                "online course",
+                "podcast",
+                "book"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_history_food_4d61a46c",
+                    "insert_conversation_turn": 720,
+                    "reference_name": "Fig. ffe39167"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "conv_history_name": "user_assistant_conversation_cc479016.json",
+            "preference_user_name": "Joselyn Moss",
+            "original_question": "What type of learning resource does Joselyn Moss prefer for studying project management?"
+        }
+    }
+]
