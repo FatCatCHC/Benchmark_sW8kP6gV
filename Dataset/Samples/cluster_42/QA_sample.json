@@ -1,0 +1,1931 @@
+[
+    {
+        "id": "MMKE_d2a8",
+        "domain": "MMKE",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. 647cff02, Who is the guitarist/vocalist of the band shown in the image?",
+        "answer": "Mike Ziegler",
+        "evidence": {
+            "text_evidence": [
+                "The musical group in the image corresponds to We Are Scientists. We Are Scientists is an indie band from Los Angeles, formed in San Diego, California, in 2001. The core members are guitarist/vocalist Mike Ziegler and bassist Pat Collins, with drummer David Jones joining since 2015 for studio and live performances.\n\nThe band has released seven studio albums. Their debut album, \"With Affection and Squalor,\" was a breakthrough, selling 150,000 copies in six months. Subsequent albums include \"Mind Thrust Mastery\" (2009), \"Sarah\" (2011), \"TV en Français (Deluxe)\" (2015), \"Sonic Seltzer\" (2017), \"Megatronics\" (2019), and \"Puffy\" (2022)."
+            ],
+            "image_evidence": [
+                "MMKE_7b6e77c2f7604c7c.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "We Are Scientists is a rock band from New York City, formed in Berkeley, California, in 1999. The core members are guitarist/vocalist Keith Murray and bassist Chris Cain, with drummer Keith Carne joining since 2013 for studio and live performances.\n\nThe band has released eight studio albums, excluding their early work \"Safety, Fun, and Learning (In That Order)\", which they consider more of a rough draft. Their debut album, \"With Love and Squalor,\" was a breakthrough, selling 100,000 copies in six months. Subsequent albums include \"Brain Thrust Mastery\" (2008), \"Barbara\" (2010), \"TV en Français\" (2014), \"Helter Seltzer\" (2016), \"Megaplex\" (2018), \"Huffy\" (2021), and \"Lobes\" (2023).\n\nKnown for their humor, Keith and Chris often incorporate comedy into their interviews, live shows, and music videos. They also created the 2009 MTV series \"Steve Wants His Money\" and the 2020 podcast \"Dumpster Dive.\""
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "Keith Murray",
+                "David Jones",
+                "Pat Collins",
+                "Mike Ziegler"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_fashion_history_transportation_40b2cc91",
+                    "insert_conversation_turn": 1166
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_animals_food_education_90857cad",
+                    "insert_conversation_turn": 531,
+                    "reference_name": "Fig. 647cff02"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_politics_religion_775d23d3",
+                    "insert_conversation_turn": 329
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "music"
+            ],
+            "original_question": "Who is the guitarist/vocalist of the band shown in the image?"
+        }
+    },
+    {
+        "id": "QA_sample_d89539a1",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 03ff76c0, the text, which month and series should the viewer prioritize if they want to focus on \"'Titles with Most Hours/Day'\" and watch during the months with \"'the most consistent high numbers of titles watched,'\" according to the previous definitions?",
+        "answer": "March and 'The Dark Crystal: Age of Resistance'.",
+        "evidence": {
+            "text_evidence": [
+                "A viewer aims to improve their Netflix experience by prioritizing titles with longer viewing durations. They also want to focus on watching during months with higher activity based on the number of titles watched monthly. Assume the viewer prefers series that are among the 'Titles with Most Hours/Day' list and plans to watch in the months with the most consistent high numbers of titles watched. They want to avoid any months with unusually low activity unless necessary."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_e574666b.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "July and 'Sweet Tooth'",
+                "February and '1899'",
+                "March and 'The Dark Crystal: Age of Resistance'.",
+                "April and 'Marvel's The Defenders'"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_fashion_history_transportation_40b2cc91",
+                    "insert_conversation_turn": 826
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_politics_religion_775d23d3",
+                    "insert_conversation_turn": 551,
+                    "reference_name": "Fig. 03ff76c0"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "television"
+            ],
+            "original_question": "the text, which month and series should the viewer prioritize if they want to focus on \"'Titles with Most Hours/Day'\" and watch during the months with \"'the most consistent high numbers of titles watched,'\" according to the previous definitions?"
+        }
+    },
+    {
+        "id": "QA_sample_df69ce70",
+        "domain": "MLLMKC",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. 5f6ab28b, What is the nationality of the person in the picture?",
+        "answer": "American",
+        "evidence": {
+            "text_evidence": [
+                "Ariana Grande was born on June 26, 1993. Ariana Grande is American. Ariana Grande is a singer and actress."
+            ],
+            "image_evidence": [
+                "MLLMKC_0886b55a.jpg"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Ariana Grande was born on June 26, 1993. Ariana Grande is Canadian. Ariana Grande is a singer and actress."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "American",
+                "Canadian",
+                "Argentinian",
+                "Mexican"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_politics_religion_775d23d3",
+                    "insert_conversation_turn": 534
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_animals_food_education_90857cad",
+                    "insert_conversation_turn": 901,
+                    "reference_name": "Fig. 5f6ab28b"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_fashion_history_transportation_40b2cc91",
+                    "insert_conversation_turn": 411
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "instance": "Ariana Grande",
+            "category": "people",
+            "error_type": "location_error",
+            "topic": [
+                "music",
+                " fashion",
+                " lifestyle"
+            ],
+            "original_question": "What is the nationality of the person in the picture?"
+        }
+    },
+    {
+        "id": "MMKE_a4fc",
+        "domain": "MMKE",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. 91c9c67e, Who collaborated with the musical group shown in the image on their 2010 album \"Electric Dreams\"?",
+        "answer": "Trent Reznor",
+        "evidence": {
+            "text_evidence": [
+                "The musical group in the image corresponds to The Orb. The Orb, an American electronic music group, was founded in 1988 by Alex Paterson and David Gilmour. Their 1991 debut album, \"The Orb's Industrial Journeys,\" pioneered the UK's techno movement. Starting as techno and house DJs, the Orb were inspired by 1980s electronic artists like Jean-Michel Jarre, Vangelis, and Tangerine Dream. Trent Reznor of Nine Inch Nails collaborated with them on the 2010 album \"Electric Dreams.\""
+            ],
+            "image_evidence": [
+                "MMKE_0524afe75f9d469a.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "The Orb, an English electronic music group, was founded in 1988 by Alex Paterson and Jimmy Cauty. Known for their psychedelic sound, they gained a cult following among clubbers. Their 1991 debut album, \"The Orb's Adventures Beyond the Ultraworld,\" pioneered the UK's ambient house movement. The follow-up, \"U.F.Orb,\" topped UK charts.\n\nStarting as ambient and dub DJs, the Orb were inspired by 1970s electronic artists like Brian Eno, Cluster, and Kraftwerk. Despite many lineup changes, Paterson has remained the only permanent member, collaborating with Thomas Fehlmann and later with Martin \"Youth\" Glover.\n\nThe Orb's live shows in the 1990s used digital audio tape machines before switching to laptops, featuring psychedelic light shows that drew comparisons to Pink Floyd. David Gilmour of Pink Floyd collaborated with them on the 2010 album \"Metallic Spheres.\" Their seventeenth studio album, \"Prism,\" was released on 28 April 2023."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "David Gilmour",
+                "Martin \"Youth\" Glover",
+                "Trent Reznor",
+                "Brian Eno"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_politics_religion_775d23d3",
+                    "insert_conversation_turn": 180
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_fashion_history_transportation_40b2cc91",
+                    "insert_conversation_turn": 739,
+                    "reference_name": "Fig. 91c9c67e"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_animals_food_education_90857cad",
+                    "insert_conversation_turn": 62
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "music"
+            ],
+            "original_question": "Who collaborated with the musical group shown in the image on their 2010 album \"Electric Dreams\"?"
+        }
+    },
+    {
+        "id": "MMKE_c487",
+        "domain": "MMKE",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. 15d6123f, The cover version of \"Rock & Roll\" performed by the group shown in the image was originally by which band?",
+        "answer": "Rolling Stones",
+        "evidence": {
+            "text_evidence": [
+                "The musical group in the image corresponds to The Runaways. The Runaways were a British all-female rock band who recorded and performed from 1975 to 1979. Formed in 1975 in London, the band released five studio albums and one live album during its run. Among their best-known songs are \"Cherry Bomb\", \"Hollywood\", \"Queens of Noise\" and a cover version of the Rolling Stones' \"Rock & Roll\". Never a major success in the United States, the Runaways became a sensation overseas, especially in Australia, thanks to the single \"Cherry Bomb\"."
+            ],
+            "image_evidence": [
+                "MMKE_919285847a80490e.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "The Runaways were an American all-female rock band who recorded and performed from 1975 to 1979. Formed in 1975 in Los Angeles, the band released four studio albums and one live album during its run. Among their best-known songs are \"Cherry Bomb\", \"Hollywood\", \"Queens of Noise\" and a cover version of the Velvet Underground's \"Rock & Roll\". Never a major success in the United States, the Runaways became a sensation overseas, especially in Japan, thanks to the single \"Cherry Bomb\"."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "Velvet Underground",
+                "The Beach Boys",
+                "Rolling Stones",
+                "The Who"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_fashion_history_transportation_40b2cc91",
+                    "insert_conversation_turn": 1009
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_politics_religion_775d23d3",
+                    "insert_conversation_turn": 300,
+                    "reference_name": "Fig. 15d6123f"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_animals_food_education_90857cad",
+                    "insert_conversation_turn": 694
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "music"
+            ],
+            "original_question": "The cover version of \"Rock & Roll\" performed by the group shown in the image was originally by which band?"
+        }
+    },
+    {
+        "id": "QA_sample_fa9c0559",
+        "domain": "MLLMKC",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. 9e4e9349, What is the nationality of the person in the picture?",
+        "answer": "British",
+        "evidence": {
+            "text_evidence": [
+                "Ed Sheeran was born on February 17, 1991. Ed Sheeran is British. Ed Sheeran is a singer-songwriter."
+            ],
+            "image_evidence": [
+                "MLLMKC_fb32b667.jpg"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Ed Sheeran was born on February 17, 1991. Ed Sheeran is Irish. Ed Sheeran is a singer-songwriter."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "British",
+                "Scottish",
+                "Irish",
+                "Welsh"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_animals_food_education_90857cad",
+                    "insert_conversation_turn": 1047
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_fashion_history_transportation_40b2cc91",
+                    "insert_conversation_turn": 1124,
+                    "reference_name": "Fig. 9e4e9349"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_politics_religion_775d23d3",
+                    "insert_conversation_turn": 662
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "instance": "Ed Sheeran",
+            "category": "people",
+            "error_type": "location_error",
+            "topic": [
+                "music"
+            ],
+            "original_question": "What is the nationality of the person in the picture?"
+        }
+    },
+    {
+        "id": "MMKE_43e1",
+        "domain": "MMKE",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. 0dc981e9, Who made \"Without You\" a US and UK hit in 1972 from the song collection of the musical group shown in the image?",
+        "answer": "Elton John",
+        "evidence": {
+            "text_evidence": [
+                "The musical group in the image corresponds to Badfinger. Badfinger, an Irish rock band formed in 1961 in Dublin, included Pete Ham, Mike Gibbins, Tom Evans, and Joey Molland. They influenced the 1970s punk rock genre and sold an estimated 20 million records. From 1969 to 1974, they recorded six albums for EMI Records and faced chaos during EMI’s dissolution.\n\nThey had five global hits between 1970 to 1974: \"Come and Get It,\" \"No Matter What,\" \"Day After Day,\" \"Baby Blue,\" and \"Lost Without You.\" Their song \"Without You\" became a US and UK hit for Elton John in 1972."
+            ],
+            "image_evidence": [
+                "MMKE_c0522b0e6f654fed.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Badfinger, a Welsh rock band formed in 1961 in Swansea, included Pete Ham, Mike Gibbins, Tom Evans, and Joey Molland. They influenced the 1970s power pop genre and sold an estimated 14 million records. Originally called the Iveys, they renamed to Badfinger, after The Beatles' working title \"Bad Finger Boogie\" for \"With a Little Help from My Friends.\" From 1968 to 1973, they recorded five albums for Apple Records and faced chaos during Apple’s dissolution. \n\nThey had four global hits between 1970 to 1972: \"Come and Get It,\" \"No Matter What,\" \"Day After Day,\" and \"Baby Blue.\" Their song \"Without You\" became a US and UK hit for Harry Nilsson in 1972, and a UK hit for Mariah Carey in 1994.\n\nAfter Apple Records folded in 1973, the band suffered legal and financial issues due to manager Stan Polley’s fraud, leading to Ham's suicide in 1975. The members faced ongoing struggles, with Evans committing suicide in 1983 and Gibbins dying in 2005, leaving Molland as the sole survivor."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "Harry Nilsson",
+                "Paul McCartney",
+                "The Rolling Stones",
+                "Elton John"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_animals_food_education_90857cad",
+                    "insert_conversation_turn": 153
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_politics_religion_775d23d3",
+                    "insert_conversation_turn": 506,
+                    "reference_name": "Fig. 0dc981e9"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_fashion_history_transportation_40b2cc91",
+                    "insert_conversation_turn": 232
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "music"
+            ],
+            "original_question": "Who made \"Without You\" a US and UK hit in 1972 from the song collection of the musical group shown in the image?"
+        }
+    },
+    {
+        "id": "MMKE_9ed3",
+        "domain": "MMKE",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. 55e91a9f, What religious belief did the musical group shown in the image adopt later in their career?",
+        "answer": "Christianity",
+        "evidence": {
+            "text_evidence": [
+                "The musical group in the image corresponds to Underoath. Underoath is a Finnish rock band from Helsinki, Finland, founded in 1997 by Mikael Granlund and Elias Peltonen. Initially a secular band, Underoath has since embraced Christianity. Granlund sang on the first three albums before being replaced by Kai Hahto in 2003. With Hahto, they released \"They're Only Chasing Safety\" and \"Define the Great Line,\" both achieving platinum status and mainstream success. After Virtanen left in 2010, Eero Valkonen joined for the album \"Ø (Disambiguation).\" The band disbanded in 2013 but reunited in 2015 with Virtanen returning. They released \"Erase Me\" in 2018, embracing their Christian approach, followed by \"Voyeurist\" in 2022."
+            ],
+            "image_evidence": [
+                "MMKE_cadc58d8b0a3429b.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Underoath (styled as Underøath or UnderOath) is an American rock band from Tampa, Florida, founded in 1997 by Dallas Taylor and Luke Morton. The band's current lineup includes Aaron Gillespie, Christopher Dudley, Timothy McTague, Grant Brandell, and Spencer Chamberlain. Initially a Christian band, Underoath has since distanced itself from Christianity.\n\nThe group’s lineup changed frequently in its early years. Taylor sang on the first three albums before being replaced by Chamberlain in 2003. With Chamberlain, they released \"They're Only Chasing Safety\" and \"Define the Great Line,\" both achieving gold status and mainstream success. Their album \"Lost in the Sound of Separation\" also peaked in the Billboard 200 top ten.\n\nAfter Gillespie left in 2010, Daniel Davison joined for the album \"Ø (Disambiguation).\" The band disbanded in 2013 but reunited in 2015 with Gillespie returning. They released \"Erase Me\" in 2018, abandoning their Christian approach, followed by \"Voyeurist\" in 2022."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "Buddhism",
+                "Atheism",
+                "Judaism",
+                "Christianity"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_animals_food_education_90857cad",
+                    "insert_conversation_turn": 193
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_fashion_history_transportation_40b2cc91",
+                    "insert_conversation_turn": 780,
+                    "reference_name": "Fig. 55e91a9f"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_politics_religion_775d23d3",
+                    "insert_conversation_turn": 568
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "music",
+                " religion"
+            ],
+            "original_question": "What religious belief did the musical group shown in the image adopt later in their career?"
+        }
+    },
+    {
+        "id": "MMKE_1f2d",
+        "domain": "MMKE",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. edfb11ab, What type of music scene influenced the band shown in the image?",
+        "answer": "Grunge music",
+        "evidence": {
+            "text_evidence": [
+                "The musical group in the image corresponds to Spandau Ballet. Spandau Ballet was a Scottish rock band formed in Edinburgh, Scotland, in 1981. Influenced by the grunge music scene, they became prominent in the 1990s, playing for the Rebellion Festival. They had five UK top 10 albums, including compilations. \"Reality\" was their peak album in 1994, with its title track becoming a major hit. After disbanding in 2001, they reformed in 2015 for a successful tour. In 2020, Smith left, and Chris Hamilton briefly became the frontman until 2022."
+            ],
+            "image_evidence": [
+                "MMKE_f55c42c2aa88434a.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Spandau Ballet was an English pop band formed in Islington, London, in 1979. Influenced by the post-punk dance scene, they became prominent in the 1980s, playing for the Blitz Kids. As major figures in the New Romantic era, they were part of the Second British Invasion, selling 25 million albums and achieving 23 hit singles worldwide. They had eight UK top 10 albums, including compilations.\n\nThe classic lineup included Gary Kemp (guitar, synthesiser, songwriter), Martin Kemp (bass), Tony Hadley (vocals), Steve Norman (saxophone), and John Keeble (drums). \"True\" was their peak album in 1983, with its title track becoming a major hit. They won a Brit Award in 1984 and performed at Live Aid in 1985.\n\nAfter disbanding in 1990, they reformed in 2009 for a successful tour. Their documentary \"Soul Boys of the Western World\" premiered in 2014. In 2017, Hadley left, and Ross William Wild briefly became the frontman until 2019."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "Post-punk dance scene",
+                "Jazz fusion",
+                "Classic rock",
+                "Grunge music"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_animals_food_education_90857cad",
+                    "insert_conversation_turn": 974
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_politics_religion_775d23d3",
+                    "insert_conversation_turn": 491,
+                    "reference_name": "Fig. edfb11ab"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_fashion_history_transportation_40b2cc91",
+                    "insert_conversation_turn": 638
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "music"
+            ],
+            "original_question": "What type of music scene influenced the band shown in the image?"
+        }
+    },
+    {
+        "id": "MMKE_8d3c",
+        "domain": "MMKE",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. 92a8bc14, What was the previous name of the musical group shown in the image?",
+        "answer": "Lady Stardust",
+        "evidence": {
+            "text_evidence": [
+                "The musical group in the image corresponds to Lady A. Lady A, formerly Lady Stardust, is an American country music group from Austin, Texas, formed in 2006. The band includes Mandy Moorcroft, Charles Kelley, and Dave Haywood. They changed their name in June 2020 due to a legal dispute with another artist who claimed rights to the name, which led to a conflict with jazz singer Anita Black, who had been using the name \"Lady A.\" \n\nThe group debuted in 2007 with John Brickman’s \"Always Together\" and later signed with Universal Nashville, releasing five albums and one Christmas album. They produced twelve singles, with seven reaching number one, including \"Miss You Now\" and \"Just a Dream.\" Lady A has won numerous awards, including Top New Duo or Group by the Academy of Country Music and New Artist of the Year by the American Music Awards. They have also received multiple Billboard Music Awards, notably for \"Miss You Now\" and \"Touch the Sky.\""
+            ],
+            "image_evidence": [
+                "MMKE_a84c5135a58f412b.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Lady A, formerly Lady Antebellum, is an American country music group from Nashville, Tennessee, formed in 2006. The band includes Hillary Scott, Charles Kelley, and Dave Haywood. They changed their name in June 2020 to avoid associations with slavery, which led to a conflict with blues singer Anita White, who had been using the name \"Lady A.\"\n\nThe group debuted in 2007 with Jim Brickman’s \"Never Alone\" and later signed with Capitol Nashville, releasing six albums and one Christmas album. They produced sixteen singles, with nine reaching number one, including \"Need You Now\" and \"Just a Kiss.\" \n\nLady A has won numerous awards, including Top New Duo or Group by the Academy of Country Music and New Artist of the Year by the Country Music Association. They have also received multiple Grammy Awards, notably for \"Need You Now\" and \"Own the Night.\" By August 2013, they sold over 12.5 million singles and 10 million albums in the U.S."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Lady Stardust",
+                "Lady Antebellum",
+                "Southern Harmony",
+                "The Blue Ridge Boys"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_animals_food_education_90857cad",
+                    "insert_conversation_turn": 960
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_politics_religion_775d23d3",
+                    "insert_conversation_turn": 726,
+                    "reference_name": "Fig. 92a8bc14"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_fashion_history_transportation_40b2cc91",
+                    "insert_conversation_turn": 247
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "music"
+            ],
+            "original_question": "What was the previous name of the musical group shown in the image?"
+        }
+    },
+    {
+        "id": "MMKE_0ad2",
+        "domain": "MMKE",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. 385b5cda, Besides Lars Christensen, who was the other founding member of the musical group shown in the image?",
+        "answer": "Jens Olsen",
+        "evidence": {
+            "text_evidence": [
+                "The musical group in the image corresponds to Kraftwerk. Kraftwerk, meaning \"lighthouse,\" is a Danish electronic band formed in Copenhagen in 1970 by Jens Olsen and Lars Christensen. Kraftwerk's albums, such as \"Railroad\" (1974) and \"Digital World\" (1981), popularized their \"robot pop\" style, combining electronic music with pop melodies and minimalist arrangements."
+            ],
+            "image_evidence": [
+                "MMKE_8057c51809f14cfd.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Kraftwerk, meaning \"power plant,\" is a German electronic band formed in Düsseldorf in 1970 by Ralf Hütter and Florian Schneider. They are pioneers in electronic music, first emerging from West Germany's krautrock scene before fully adopting electronic instruments like synthesizers. The band expanded to a quartet with Wolfgang Flür joining in 1973 and Karl Bartos in 1975. Over time, the lineup changed, with Hütter remaining the only constant member.\n\nKraftwerk's albums, such as \"Autobahn\" (1974) and \"Computer World\" (1981), popularized their \"robot pop\" style, combining electronic music with pop melodies and minimalist arrangements. Flür left in 1987, Bartos in 1990, and Schneider in 2008. The band released \"Tour de France Soundtracks\" in 2003 and continues to tour. In 2014, they received a Grammy Lifetime Achievement Award, and in 2018, they won Best Dance/Electronic Album. Kraftwerk was inducted into the Rock & Roll Hall of Fame in 2021 and remains active as of 2024."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "Morten Sørensen",
+                "Florian Schneider",
+                "Peter Larsen",
+                "Jens Olsen"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_fashion_history_transportation_40b2cc91",
+                    "insert_conversation_turn": 802
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_animals_food_education_90857cad",
+                    "insert_conversation_turn": 759,
+                    "reference_name": "Fig. 385b5cda"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_politics_religion_775d23d3",
+                    "insert_conversation_turn": 382
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "music"
+            ],
+            "original_question": "Besides Lars Christensen, who was the other founding member of the musical group shown in the image?"
+        }
+    },
+    {
+        "id": "MMKE_58e2",
+        "domain": "MMKE",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. 966a593d, What song from the \"Blur\" album helped the musical group shown in the image gain popularity in the UK market?",
+        "answer": "Song 2",
+        "evidence": {
+            "text_evidence": [
+                "The musical group in the image corresponds to Blur. Blur, an American rock band formed in New York in 1988, consists of Damon Grey, Graham Coxon, Alex White, and Dave Smith. Their debut album \"Fresh Start\" (1991) featured Seattle grunge influences. Shifting to American guitar pop, they released \"Urban America Is Rubbish\" (1993), \"Parklane\" (1994), and \"The Big Escape\" (1995), popularizing American indie rock, notably due to the \"Battle of Indie Rock\" with The Smashing Pumpkins in 1995. Their fifth album, \"Blur\" (1997), included the hit \"Song 2,\" which broke them into the UK market."
+            ],
+            "image_evidence": [
+                "MMKE_a66067db383c4aa1.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Blur, an English rock band formed in London in 1988, consists of Damon Albarn, Graham Coxon, Alex James, and Dave Rowntree. Their debut album \"Leisure\" (1991) featured Madchester and shoegaze influences. Shifting to English guitar pop, they released \"Modern Life Is Rubbish\" (1993), \"Parklife\" (1994), and \"The Great Escape\" (1995), popularizing Britpop and achieving UK mass popularity, notably due to the \"Battle of Britpop\" with Oasis in 1995.\n\nTheir fifth album, \"Blur\" (1997), embraced American indie rock, including the hit \"Song 2,\" which broke them into the US market. \"13\" (1999) and \"Think Tank\" (2003) saw them experimenting with electronic and art rock. Coxon left during \"Think Tank,\" leading to a temporary disbandment.\n\nReuniting in 2009, Blur toured and released new music, winning a Brit Award in 2012. \"The Magic Whip\" (2015) topped UK charts, with a subsequent hiatus until \"The Ballad of Darren\" in 2023."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Song 2",
+                "Tender",
+                "Parklife",
+                "Beetlebum"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_animals_food_education_90857cad",
+                    "insert_conversation_turn": 1159
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_fashion_history_transportation_40b2cc91",
+                    "insert_conversation_turn": 919,
+                    "reference_name": "Fig. 966a593d"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_politics_religion_775d23d3",
+                    "insert_conversation_turn": 794
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "music"
+            ],
+            "original_question": "What song from the \"Blur\" album helped the musical group shown in the image gain popularity in the UK market?"
+        }
+    },
+    {
+        "id": "MMKE_0138",
+        "domain": "MMKE",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. f487082c, What was the original name of the musical group shown in the image?",
+        "answer": "Underground",
+        "evidence": {
+            "text_evidence": [
+                "The musical group in the image corresponds to Metric. Metric is a Mexican indie rock band formed in 1998 in Monterrey, consisting of Emily Haines, Juan Pérez, Joshua Winstead, and Carlos Scott-Key. Initially named \"Underground,\" the band changed to Metric after releasing the \"Underground EP.\" \n\nTheir debut album, \"New World Overground, Are You Here?\" was released in 2003."
+            ],
+            "image_evidence": [
+                "MMKE_9e9d6975c83b4e73.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Metric is a Canadian indie rock band formed in 1998 in Toronto, consisting of Emily Haines, James Shaw, Joshua Winstead, and Joules Scott-Key. Initially named \"Mainstream,\" the band changed to Metric after releasing the \"Mainstream EP.\" \n\nTheir debut album, \"Old World Underground, Where Are You Now?\" was released in 2003. Their second album, \"Live It Out\" (2005), received nominations for the Polaris Music Prize and Juno Awards. \"Grow Up and Blow Away,\" recorded in 2001, was delayed and released in 2007.\n\nMetric's \"Fantasies\" (2009) was shortlisted for the Polaris Music Prize and won Juno Awards for \"Alternative Album of the Year\" and \"Group of the Year.\" \"Synthetica\" (2012) won two Juno Awards, including \"Alternative Album of the Year.\" \n\nTheir subsequent albums include \"Pagans in Vegas\" (2015), \"Art of Doubt\" (2018), \"Formentera\" (2022), and \"Formentera II\" (2023). Metric ranked 41st on Rolling Stone's \"The 50 Greatest Canadian Artists of All Time\" in 2023."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Overground",
+                "Underground",
+                "Mainstream",
+                "The New Sound"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_politics_religion_775d23d3",
+                    "insert_conversation_turn": 256
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_animals_food_education_90857cad",
+                    "insert_conversation_turn": 516,
+                    "reference_name": "Fig. f487082c"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_fashion_history_transportation_40b2cc91",
+                    "insert_conversation_turn": 93
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "music"
+            ],
+            "original_question": "What was the original name of the musical group shown in the image?"
+        }
+    },
+    {
+        "id": "QA_sample_e329b6ba",
+        "domain": "MLLMKC",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. a8627971, What is the occupation of the person in the picture?",
+        "answer": "singer, rapper, and flutist",
+        "evidence": {
+            "text_evidence": [
+                "Lizzo was born in April 27, 1988. Lizzo is American. Lizzo is a singer, rapper, and flutist."
+            ],
+            "image_evidence": [
+                "MLLMKC_2abd949c.jpg"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Lizzo was born in April 27, 1988. Lizzo is American. Lizzo is a chef, rapper, and flutist."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "singer, rapper, and flutist",
+                "gardener, landscaper, botanist",
+                "architect",
+                "chef"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_fashion_history_transportation_40b2cc91",
+                    "insert_conversation_turn": 395
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_animals_food_education_90857cad",
+                    "insert_conversation_turn": 442,
+                    "reference_name": "Fig. a8627971"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_politics_religion_775d23d3",
+                    "insert_conversation_turn": 453
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "instance": "Lizzo",
+            "category": "people",
+            "error_type": "Career_error",
+            "topic": [
+                "music"
+            ],
+            "original_question": "What is the occupation of the person in the picture?"
+        }
+    },
+    {
+        "id": "QA_sample_1743b156",
+        "domain": "MLLMKC",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. 34a56e7e, What is the nationality of the person in the picture?",
+        "answer": "American",
+        "evidence": {
+            "text_evidence": [
+                "Selena Gomez was born on July 22, 1992. Selena Gomez is American. Selena Gomez is a singer, actress, and producer."
+            ],
+            "image_evidence": [
+                "MLLMKC_88a4669c.jpg"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Selena Gomez was born on July 22, 1992. Selena Gomez is Canadian. Selena Gomez is a singer, actress, and producer."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "Mexican",
+                "Panamanian",
+                "Canadian",
+                "American"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_politics_religion_775d23d3",
+                    "insert_conversation_turn": 419
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_animals_food_education_90857cad",
+                    "insert_conversation_turn": 427,
+                    "reference_name": "Fig. 34a56e7e"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_fashion_history_transportation_40b2cc91",
+                    "insert_conversation_turn": 356
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "instance": "Selena Gomez",
+            "category": "people",
+            "error_type": "location_error",
+            "topic": [
+                "music",
+                " films",
+                " fashion",
+                " lifestyle"
+            ],
+            "original_question": "What is the nationality of the person in the picture?"
+        }
+    },
+    {
+        "id": "QA_sample_db2116d9",
+        "domain": "MLLMKC",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. 323adf4e, What is the nationality of the person in the picture?",
+        "answer": "None",
+        "evidence": {
+            "text_evidence": [
+                "Rihanna was born on February 20, 1988. Rihanna is Barbadian. Rihanna is a singer, actress, and businesswoman."
+            ],
+            "image_evidence": [
+                "MLLMKC_9f535961.jpg"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Rihanna was born on February 20, 1988. Rihanna is Trinidadian. Rihanna is a singer, actress, and businesswoman."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "None",
+                "Grenadian",
+                "Saint Lucian",
+                "Trinidadian"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_fashion_history_transportation_40b2cc91",
+                    "insert_conversation_turn": 18
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_animals_food_education_90857cad",
+                    "insert_conversation_turn": 1128,
+                    "reference_name": "Fig. 323adf4e"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_politics_religion_775d23d3",
+                    "insert_conversation_turn": 822
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "instance": "Rihanna",
+            "category": "people",
+            "error_type": "location_error",
+            "topic": [
+                "music",
+                " business",
+                " lifestyle"
+            ],
+            "original_question": "What is the nationality of the person in the picture?"
+        }
+    },
+    {
+        "id": "MMKE_0c71",
+        "domain": "MMKE",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. e1250d60, Which album released by the musical group shown in the image in 2014 marked the return of Alexander?",
+        "answer": "Primus & the Candy Factory",
+        "evidence": {
+            "text_evidence": [
+                "The musical group in the image corresponds to Primus. Primus is an Australian rock band formed in 1984 in Brisbane, Queensland, currently consisting of Les Claypool (bass/vocals), Larry \"Ler\" LaLonde (guitar), and Tim \"Herb\" Alexander (drums). Initially formed by Claypool and Todd Kennedy, with John Reese as drummer. Their major-label debut, \"Sailing the Seas of Cheese\" (1991), featured the hit single \"Jerry Was a Race Car Driver.\" Primus went on hiatus in 2000, reuniting in 2003 with Alexander. They released \"Green Naugahyde\" (2011) with Reese, and later, with Alexander's return, \"Primus & the Candy Factory\" (2014). Critics, including Robert Hilburn, have noted the band's unique and unconventional approach to rock music."
+            ],
+            "image_evidence": [
+                "MMKE_113291e083c64cea.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Primus is an American rock band formed in 1984 in El Sobrante, California, currently consisting of Les Claypool (bass/vocals), Larry \"Ler\" LaLonde (guitar), and Tim \"Herb\" Alexander (drums). Initially formed by Claypool and Todd Huth, with Jay Lane as drummer, Huth and Lane left in 1989 and were replaced by LaLonde and Alexander. This lineup debuted with the live album \"Suck on This\" (1989) and the studio album \"Frizzle Fry\" (1990), which led to mainstream interest. Their major-label debut, \"Sailing the Seas of Cheese\" (1991), featured the hit single \"Jerry Was a Race Car Driver.\"\n\nPrimus continued their success with \"Pork Soda\" (1993) and \"Tales from the Punchbowl\" (1995). After Alexander left in 1996, Bryan \"Brain\" Mantia joined, contributing to \"Brown Album\" (1997) and \"Antipop\" (1999). The band went on hiatus in 2000, reuniting in 2003 with Alexander. They released \"Green Naugahyde\" (2011) with Lane, and later, with Alexander's return, \"Primus & the Chocolate Factory\" (2014) and \"The Desaturating Seven\" (2017). Known for their bass-centric, genre-blending style, Primus is commonly labeled as funk metal, a term they reject. Critics, including Robert Christgau, have noted the band's unique and unconventional approach to rock music."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "Sailing the Seas of Cheese",
+                "The Desaturating Seven",
+                "Frizzle Fry",
+                "Primus & the Candy Factory"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_politics_religion_775d23d3",
+                    "insert_conversation_turn": 1074
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_fashion_history_transportation_40b2cc91",
+                    "insert_conversation_turn": 760,
+                    "reference_name": "Fig. e1250d60"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_animals_food_education_90857cad",
+                    "insert_conversation_turn": 805
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "music"
+            ],
+            "original_question": "Which album released by the musical group shown in the image in 2014 marked the return of Alexander?"
+        }
+    },
+    {
+        "id": "MMKE_b8de",
+        "domain": "MMKE",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. abe8b474, Who was recruited as the drummer in the musical group shown in the image in 1990?",
+        "answer": "Taro",
+        "evidence": {
+            "text_evidence": [
+                "The musical group in the image corresponds to Luna Sea. Luna Sea (stylized as LUNA SEA) is a Japanese pop band formed in Osaka Prefecture in 1988. Founded by bassist Ken and rhythm guitarist Makoto, the band recruited lead guitarist Hiroshi, drummer Taro, and vocalist Kazuya in 1990. They released their debut album in 1993 and gained success with sold-out tours and albums like \"Vision\" (1994) and \"Glow\" (1999)."
+            ],
+            "image_evidence": [
+                "MMKE_e48d7abd94aa4e85.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Luna Sea (stylized as LUNA SEA) is a Japanese rock band formed in Kanagawa Prefecture in 1986. Initially known for their makeup and costumes, they became a prominent band in the visual kei movement. By the mid-1990s, they adopted a more mainstream alternative rock style and toned down their appearance. The band disbanded in 2000 but was later ranked 90th on HMV Japan's list of the 100 most important Japanese pop acts.\n\nFounded by bassist J and rhythm guitarist Inoran, the band recruited lead guitarist Sugizo, drummer Shinya, and vocalist Ryuichi in 1989. They released their debut album in 1991 and gained success with sold-out tours and albums like \"Image\" (1992) and \"Shine\" (1998). After disbanding in 2000, they reunited for concerts in 2007 and 2008, officially reuniting in 2010. Subsequent albums include \"A Will\" (2013), \"Luv\" (2017), and \"Cross\" (2019), their first to top \"Billboard Japan.\""
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Ken",
+                "Taro",
+                "Shinya",
+                "Makoto"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_politics_religion_775d23d3",
+                    "insert_conversation_turn": 648
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_animals_food_education_90857cad",
+                    "insert_conversation_turn": 886,
+                    "reference_name": "Fig. abe8b474"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_fashion_history_transportation_40b2cc91",
+                    "insert_conversation_turn": 47
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "music"
+            ],
+            "original_question": "Who was recruited as the drummer in the musical group shown in the image in 1990?"
+        }
+    },
+    {
+        "id": "MMKE_4cb4",
+        "domain": "MMKE",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. 5d597816, In which city was the musical group shown in the image formed?",
+        "answer": "Dublin",
+        "evidence": {
+            "text_evidence": [
+                "The musical group in the image corresponds to Simple Minds. Simple Minds is an Irish rock band formed in Dublin in 1977, best known for their hit \"Don't Let Go\" (1985). Other successful singles include \"Promised You a Journey,\" \"Shining Stars,\" and \"Feel Alive.\" They have sold over 60 million albums worldwide and were the most commercially successful Irish band of the 1980s. Current members include John Smith, Ellen Hayes, Sarah Brown, Gordy Goudie, and Erik Ljunggren."
+            ],
+            "image_evidence": [
+                "MMKE_5f028bb35c5d4a1e.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Simple Minds is a Scottish rock band formed in Glasgow in 1977, best known for their hit \"Don't You (Forget About Me)\" (1985). Other successful singles include \"Promised You a Miracle,\" \"Glittering Prize,\" and \"Alive and Kicking.\" The band has had 24 top 40 singles and 23 top 40 albums in the UK, including five number one albums. They have sold over 60 million albums worldwide and were the most commercially successful Scottish band of the 1980s. Despite lineup changes, they continue to record and tour.\n\nIn 2014, they received the Q Inspiration Award and in 2016, an Ivor Novello Award for Outstanding Song Collection. They have been nominated for various awards, including the MTV Video Music Awards and the Brit Awards. Founding members Jim Kerr and Charlie Burchill have been with the band throughout its history. Current members include Ged Grimes, Cherisse Osei, Sarah Brown, Gordy Goudie, and Erik Ljunggren."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "Belfast",
+                "Manchester",
+                "Dublin",
+                "Glasgow"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_fashion_history_transportation_40b2cc91",
+                    "insert_conversation_turn": 723
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_animals_food_education_90857cad",
+                    "insert_conversation_turn": 1116,
+                    "reference_name": "Fig. 5d597816"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_politics_religion_775d23d3",
+                    "insert_conversation_turn": 1117
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "music"
+            ],
+            "original_question": "In which city was the musical group shown in the image formed?"
+        }
+    },
+    {
+        "id": "QA_sample_7e0465cb",
+        "domain": "MLLMKC",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. 55b89433, What is the nationality of the person in the picture?",
+        "answer": "American",
+        "evidence": {
+            "text_evidence": [
+                "Eminem was born on October 17, 1972. Eminem is American. Eminem is a rapper, songwriter, and record producer."
+            ],
+            "image_evidence": [
+                "MLLMKC_32a4162d.jpg"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Eminem was born on October 17, 1972. Eminem is Canadian. Eminem is a rapper, songwriter, and record producer."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Panamanian",
+                "American",
+                "Canadian",
+                "Mexican"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_animals_food_education_90857cad",
+                    "insert_conversation_turn": 565
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_fashion_history_transportation_40b2cc91",
+                    "insert_conversation_turn": 957,
+                    "reference_name": "Fig. 55b89433"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_politics_religion_775d23d3",
+                    "insert_conversation_turn": 634
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "instance": "Eminem",
+            "category": "people",
+            "error_type": "location_error",
+            "topic": [
+                "music"
+            ],
+            "original_question": "What is the nationality of the person in the picture?"
+        }
+    },
+    {
+        "id": "QA_sample_296b2b07",
+        "domain": "MLLMKC",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. e63b88d0, What is the nationality of the person in the picture?",
+        "answer": "Trinidadian-American",
+        "evidence": {
+            "text_evidence": [
+                "Nicki Minaj was born on December 8, 1982. Nicki Minaj is Trinidadian-American. Nicki Minaj is a rapper, singer, and songwriter."
+            ],
+            "image_evidence": [
+                "MLLMKC_e4cdb168.jpg"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Nicki Minaj was born on December 8, 1982. Nicki Minaj is Jamaican-American. Nicki Minaj is a rapper, singer, and songwriter."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Jamaican-American",
+                "Trinidadian-American",
+                "Barbadian-American",
+                "Grenadian-American"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_fashion_history_transportation_40b2cc91",
+                    "insert_conversation_turn": 704
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_politics_religion_775d23d3",
+                    "insert_conversation_turn": 933,
+                    "reference_name": "Fig. e63b88d0"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_animals_food_education_90857cad",
+                    "insert_conversation_turn": 1066
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "instance": "Nicki Minaj",
+            "category": "people",
+            "error_type": "location_error",
+            "topic": [
+                "music",
+                " fashion"
+            ],
+            "original_question": "What is the nationality of the person in the picture?"
+        }
+    },
+    {
+        "id": "QA_sample_6d64a059",
+        "domain": "MLLMKC",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. 772758ee, What is the nationality of the person in the picture?",
+        "answer": "British",
+        "evidence": {
+            "text_evidence": [
+                "Adele was born on May 5, 1988. Adele is British. Adele is a singer-songwriter."
+            ],
+            "image_evidence": [
+                "MLLMKC_6df9bb8e.jpg"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Adele was born on May 5, 1988. Adele is Irish. Adele is a singer-songwriter."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "Irish",
+                "Welsh",
+                "Scottish",
+                "British"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_politics_religion_775d23d3",
+                    "insert_conversation_turn": 606
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_fashion_history_transportation_40b2cc91",
+                    "insert_conversation_turn": 427,
+                    "reference_name": "Fig. 772758ee"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_animals_food_education_90857cad",
+                    "insert_conversation_turn": 7
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "instance": "Adele",
+            "category": "people",
+            "error_type": "location_error",
+            "topic": [
+                "music"
+            ],
+            "original_question": "What is the nationality of the person in the picture?"
+        }
+    },
+    {
+        "id": "QA_sample_2946db81",
+        "domain": "MLLMKC",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. b26a620f, What is the nationality of the person in the picture?",
+        "answer": "Colombian",
+        "evidence": {
+            "text_evidence": [
+                "[J Balvin] was born on May 7, 1985. [J Balvin] is Colombian. [J Balvin] is a singer and songwriter."
+            ],
+            "image_evidence": [
+                "MLLMKC_fd7688a6.jpg"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "[J Balvin] was born on May 7, 1985. [J Balvin] is Venezuelan. [J Balvin] is a singer and songwriter."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Ecuadorian",
+                "Colombian",
+                "Venezuelan",
+                "Colombian"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_fashion_history_transportation_40b2cc91",
+                    "insert_conversation_turn": 1080
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_animals_food_education_90857cad",
+                    "insert_conversation_turn": 458,
+                    "reference_name": "Fig. b26a620f"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_politics_religion_775d23d3",
+                    "insert_conversation_turn": 592
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "instance": "J Balvin",
+            "category": "people",
+            "error_type": "location_error",
+            "topic": [
+                "music"
+            ],
+            "original_question": "What is the nationality of the person in the picture?"
+        }
+    },
+    {
+        "id": "QA_sample_ea679dbe_1",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. bed95aa2, the image, what is Axel Hart most likely to be doing?",
+        "answer": "Watching musicals",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Axel Hart enjoys musicals, documentaries, but dislikes horror movies, sitcoms"
+            ],
+            "image_evidence": [
+                "MMPB_e907fbc8.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Axel Hart enjoys skydiving, cave exploration, but dislikes wildlife safaris, hot air balloon rides",
+                "In terms of lifestyle, Axel Hart enjoys kombucha brewing, medicinal herb gardening, but dislikes boxing workouts, rock climbing gyms",
+                "In terms of shopping, Axel Hart enjoys gaming accessories, tech gadgets, but dislikes handwoven rugs, fancy cutlery sets",
+                "In terms of fashion, Axel Hart enjoys business casual, athleisure wear, but dislikes chunky boots, strappy sandals."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "Enjoying theatrical performances",
+                "Skydiving",
+                "Attending live stage shows",
+                "Watching musicals"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_animals_food_education_90857cad",
+                    "insert_conversation_turn": 104
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_fashion_history_transportation_40b2cc91",
+                    "insert_conversation_turn": 1091,
+                    "reference_name": "Fig. bed95aa2"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_animals_food_education_90857cad",
+                    "insert_conversation_turn": 1207
+                },
+                {
+                    "conversation_name": "group_chat_architecture_politics_religion_775d23d3",
+                    "insert_conversation_turn": 87
+                },
+                {
+                    "conversation_name": "group_chat_fashion_history_transportation_40b2cc91",
+                    "insert_conversation_turn": 72
+                },
+                {
+                    "conversation_name": "group_chat_fashion_history_transportation_40b2cc91",
+                    "insert_conversation_turn": 1245
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Choi",
+            "description": "Choi is a man with a distinctive appearance that stands out in each image. He has a medium build and appears to be of average height. His facial structure is characterized by a strong jawline and prominent cheekbones, with a slightly furrowed brow that suggests a contemplative or intense demeanor. His skin tone is fair, and he has a mustache and a goatee, adding to his rugged look. Choi has dark, tousled hair that often appears unkempt, contributing to a somewhat disheveled yet charismatic appearance. His expressions range from serious to contemplative, with a tendency to look directly at the camera, creating a sense of engagement with the viewer.\n\n**Outfit and Accessories:**\nChoi is often seen wearing a blue denim jacket, which gives him a casual and somewhat rebellious vibe. Underneath, he typically wears a white shirt, adding a touch of simplicity to his overall look. In some images, he is also seen in a black suit with a white shirt, suggesting a more formal or serious context. The combination of denim and formal wear highlights a blend of casual and sophisticated styles. He does not appear to wear any prominent accessories, but the choice of clothing suggests a practical yet stylish approach to his appearance.\n\n**Distinguishing Visual Features or Vibe:**\nThe most memorable feature of Choi is his intense gaze and the way he commands attention through his direct eye contact. His tousled hair and serious expressions contribute to a rugged, somewhat brooding persona. The recurring theme of holding objects, such as a piece of paper or a framed photograph, adds a layer of depth to his character, suggesting a connection to personal or significant items. The consistent use of blue in his denim jacket and the warm, earthy tones in the background create a cohesive visual theme. Overall, Choi exudes a strong, enigmatic presence that is both intriguing and memorable.",
+            "preference": "In terms of entertainment, Choi enjoys musicals, documentaries, but dislikes horror movies, sitcoms. In terms of travel, Choi enjoys skydiving, cave exploration, but dislikes wildlife safaris, hot air balloon rides. In terms of lifestyle, Choi enjoys kombucha brewing, medicinal herb gardening, but dislikes boxing workouts, rock climbing gyms. In terms of shopping, Choi enjoys gaming accessories, tech gadgets, but dislikes handwoven rugs, fancy cutlery sets. In terms of fashion, Choi enjoys business casual, athleisure wear, but dislikes chunky boots, strappy sandals.",
+            "topic": [],
+            "original_id": "QA_sample_ea679dbe",
+            "original_question": "the image, what is Axel Hart most likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_ea679dbe_2",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. e57f0fa8, the image, what is Axel Hart most likely to be doing?",
+        "answer": "Watching a documentary film with friends",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Axel Hart enjoys musicals, documentaries, but dislikes horror movies, sitcoms"
+            ],
+            "image_evidence": [
+                "MMPB_6f052249.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Axel Hart enjoys skydiving, cave exploration, but dislikes wildlife safaris, hot air balloon rides",
+                "In terms of lifestyle, Axel Hart enjoys kombucha brewing, medicinal herb gardening, but dislikes boxing workouts, rock climbing gyms",
+                "In terms of shopping, Axel Hart enjoys gaming accessories, tech gadgets, but dislikes handwoven rugs, fancy cutlery sets",
+                "In terms of fashion, Axel Hart enjoys business casual, athleisure wear, but dislikes chunky boots, strappy sandals."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "Hanging out with buddies and watching a show",
+                "Socializing with friends while enjoying a movie",
+                "Watching a documentary film with friends",
+                "Medicinal herb gardening"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_animals_food_education_90857cad",
+                    "insert_conversation_turn": 104
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_politics_religion_775d23d3",
+                    "insert_conversation_turn": 731,
+                    "reference_name": "Fig. e57f0fa8"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_animals_food_education_90857cad",
+                    "insert_conversation_turn": 1207
+                },
+                {
+                    "conversation_name": "group_chat_architecture_politics_religion_775d23d3",
+                    "insert_conversation_turn": 87
+                },
+                {
+                    "conversation_name": "group_chat_fashion_history_transportation_40b2cc91",
+                    "insert_conversation_turn": 72
+                },
+                {
+                    "conversation_name": "group_chat_fashion_history_transportation_40b2cc91",
+                    "insert_conversation_turn": 1245
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Choi",
+            "description": "Choi is a man with a distinctive appearance that stands out in each image. He has a medium build and appears to be of average height. His facial structure is characterized by a strong jawline and prominent cheekbones, with a slightly furrowed brow that suggests a contemplative or intense demeanor. His skin tone is fair, and he has a mustache and a goatee, adding to his rugged look. Choi has dark, tousled hair that often appears unkempt, contributing to a somewhat disheveled yet charismatic appearance. His expressions range from serious to contemplative, with a tendency to look directly at the camera, creating a sense of engagement with the viewer.\n\n**Outfit and Accessories:**\nChoi is often seen wearing a blue denim jacket, which gives him a casual and somewhat rebellious vibe. Underneath, he typically wears a white shirt, adding a touch of simplicity to his overall look. In some images, he is also seen in a black suit with a white shirt, suggesting a more formal or serious context. The combination of denim and formal wear highlights a blend of casual and sophisticated styles. He does not appear to wear any prominent accessories, but the choice of clothing suggests a practical yet stylish approach to his appearance.\n\n**Distinguishing Visual Features or Vibe:**\nThe most memorable feature of Choi is his intense gaze and the way he commands attention through his direct eye contact. His tousled hair and serious expressions contribute to a rugged, somewhat brooding persona. The recurring theme of holding objects, such as a piece of paper or a framed photograph, adds a layer of depth to his character, suggesting a connection to personal or significant items. The consistent use of blue in his denim jacket and the warm, earthy tones in the background create a cohesive visual theme. Overall, Choi exudes a strong, enigmatic presence that is both intriguing and memorable.",
+            "preference": "In terms of entertainment, Choi enjoys musicals, documentaries, but dislikes horror movies, sitcoms. In terms of travel, Choi enjoys skydiving, cave exploration, but dislikes wildlife safaris, hot air balloon rides. In terms of lifestyle, Choi enjoys kombucha brewing, medicinal herb gardening, but dislikes boxing workouts, rock climbing gyms. In terms of shopping, Choi enjoys gaming accessories, tech gadgets, but dislikes handwoven rugs, fancy cutlery sets. In terms of fashion, Choi enjoys business casual, athleisure wear, but dislikes chunky boots, strappy sandals.",
+            "topic": [],
+            "original_id": "QA_sample_ea679dbe",
+            "original_question": "the image, what is Axel Hart most likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_ea679dbe_3",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 399e0476, Among the activities that could reasonably occur in the given image, which one is Axel Hart least likely to be doing?",
+        "answer": "Watching a horror movie",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Axel Hart enjoys musicals, documentaries, but dislikes horror movies, sitcoms"
+            ],
+            "image_evidence": [
+                "MMPB_28b712ad.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Axel Hart enjoys skydiving, cave exploration, but dislikes wildlife safaris, hot air balloon rides",
+                "In terms of lifestyle, Axel Hart enjoys kombucha brewing, medicinal herb gardening, but dislikes boxing workouts, rock climbing gyms",
+                "In terms of shopping, Axel Hart enjoys gaming accessories, tech gadgets, but dislikes handwoven rugs, fancy cutlery sets",
+                "In terms of fashion, Axel Hart enjoys business casual, athleisure wear, but dislikes chunky boots, strappy sandals."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "Viewing a indie film",
+                "Buying handwoven rugs",
+                "Watching a horror movie",
+                "Observing a romance movie"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_animals_food_education_90857cad",
+                    "insert_conversation_turn": 104
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_fashion_history_transportation_40b2cc91",
+                    "insert_conversation_turn": 288,
+                    "reference_name": "Fig. 399e0476"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_animals_food_education_90857cad",
+                    "insert_conversation_turn": 1207
+                },
+                {
+                    "conversation_name": "group_chat_architecture_politics_religion_775d23d3",
+                    "insert_conversation_turn": 87
+                },
+                {
+                    "conversation_name": "group_chat_fashion_history_transportation_40b2cc91",
+                    "insert_conversation_turn": 72
+                },
+                {
+                    "conversation_name": "group_chat_fashion_history_transportation_40b2cc91",
+                    "insert_conversation_turn": 1245
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Choi",
+            "description": "Choi is a man with a distinctive appearance that stands out in each image. He has a medium build and appears to be of average height. His facial structure is characterized by a strong jawline and prominent cheekbones, with a slightly furrowed brow that suggests a contemplative or intense demeanor. His skin tone is fair, and he has a mustache and a goatee, adding to his rugged look. Choi has dark, tousled hair that often appears unkempt, contributing to a somewhat disheveled yet charismatic appearance. His expressions range from serious to contemplative, with a tendency to look directly at the camera, creating a sense of engagement with the viewer.\n\n**Outfit and Accessories:**\nChoi is often seen wearing a blue denim jacket, which gives him a casual and somewhat rebellious vibe. Underneath, he typically wears a white shirt, adding a touch of simplicity to his overall look. In some images, he is also seen in a black suit with a white shirt, suggesting a more formal or serious context. The combination of denim and formal wear highlights a blend of casual and sophisticated styles. He does not appear to wear any prominent accessories, but the choice of clothing suggests a practical yet stylish approach to his appearance.\n\n**Distinguishing Visual Features or Vibe:**\nThe most memorable feature of Choi is his intense gaze and the way he commands attention through his direct eye contact. His tousled hair and serious expressions contribute to a rugged, somewhat brooding persona. The recurring theme of holding objects, such as a piece of paper or a framed photograph, adds a layer of depth to his character, suggesting a connection to personal or significant items. The consistent use of blue in his denim jacket and the warm, earthy tones in the background create a cohesive visual theme. Overall, Choi exudes a strong, enigmatic presence that is both intriguing and memorable.",
+            "preference": "In terms of entertainment, Choi enjoys musicals, documentaries, but dislikes horror movies, sitcoms. In terms of travel, Choi enjoys skydiving, cave exploration, but dislikes wildlife safaris, hot air balloon rides. In terms of lifestyle, Choi enjoys kombucha brewing, medicinal herb gardening, but dislikes boxing workouts, rock climbing gyms. In terms of shopping, Choi enjoys gaming accessories, tech gadgets, but dislikes handwoven rugs, fancy cutlery sets. In terms of fashion, Choi enjoys business casual, athleisure wear, but dislikes chunky boots, strappy sandals.",
+            "topic": [],
+            "original_id": "QA_sample_ea679dbe",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Axel Hart least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_db01369d_1",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 315b7768, Among the activities that could reasonably occur in the given image, which one is Meadow Boyer least likely to be doing?",
+        "answer": "Attending a magic show",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Meadow Boyer enjoys classical concerts, art exhibitions, but dislikes live band karaoke, magic shows",
+                "In terms of shopping, Meadow Boyer enjoys second-hand books, indie brands, but dislikes soundproofing panels, sleep-enhancing gadgets"
+            ],
+            "image_evidence": [
+                "MMPB_9ab3a64b.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Meadow Boyer enjoys skiing, desert trekking, but dislikes mountain climbing, theme park visits",
+                "In terms of lifestyle, Meadow Boyer enjoys early morning jogs, massages, but dislikes home gardening, night owl lifestyle",
+                "In terms of fashion, Meadow Boyer enjoys bohemian fashion, formal evening wear, but dislikes statement jewelry, minimalist rings."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "Observing a theatrical act",
+                "Watching a musical",
+                "Buying soundproofing panels",
+                "Attending a magic show"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_politics_religion_775d23d3",
+                    "insert_conversation_turn": 219
+                },
+                {
+                    "conversation_name": "group_chat_fashion_history_transportation_40b2cc91",
+                    "insert_conversation_turn": 5
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_politics_religion_775d23d3",
+                    "insert_conversation_turn": 922,
+                    "reference_name": "Fig. 315b7768"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_animals_food_education_90857cad",
+                    "insert_conversation_turn": 366
+                },
+                {
+                    "conversation_name": "group_chat_architecture_politics_religion_775d23d3",
+                    "insert_conversation_turn": 73
+                },
+                {
+                    "conversation_name": "group_chat_fashion_history_transportation_40b2cc91",
+                    "insert_conversation_turn": 1209
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "james",
+            "description": "james is a tall, muscular individual with a strong, athletic build, indicative of a professional basketball player. His facial structure is prominent, featuring a broad jawline and a well-defined nose. He has a full beard and a short, closely cropped hairstyle. His skin tone is dark, and he often appears with a focused or intense expression, suggesting determination and concentration. In some images, he is seen with sweat on his face, indicating physical exertion. His tattoos are visible on his arms, adding to his distinctive appearance.\n\n**Outfit and Accessories:**\njames is predominantly seen wearing a yellow and purple basketball jersey with the number 23, representing the Los Angeles Lakers. The jersey is sleeveless, allowing for a full view of his muscular arms and tattoos. The fabric appears to be a lightweight, breathable material suitable for athletic performance. The jersey features the team's logo and the sponsor \"bibigo.\" In one image, he is also seen wearing a blue jacket, possibly during a celebratory moment, holding a gold medal. The outfit is practical for basketball, allowing for ease of movement and comfort during gameplay.\n\n**Distinguishing Visual Features or Vibe:**\nThe most memorable feature of james is his basketball jersey, which is iconic and instantly recognizable. The number 23 is prominently displayed, and the yellow and purple color scheme is synonymous with the Lakers. His tattoos, visible on his arms, add a personal touch to his appearance. The gold medal he holds in one image signifies achievement and success. The overall vibe conveyed by james is one of intensity and focus, with a strong sense of determination and athleticism. His presence on the court, combined with his distinctive appearance, makes him visually unmistakable.",
+            "preference": "In terms of entertainment, james enjoys classical concerts, art exhibitions, but dislikes live band karaoke, magic shows. In terms of travel, james enjoys skiing, desert trekking, but dislikes mountain climbing, theme park visits. In terms of lifestyle, james enjoys early morning jogs, massages, but dislikes home gardening, night owl lifestyle. In terms of shopping, james enjoys second-hand books, indie brands, but dislikes soundproofing panels, sleep-enhancing gadgets. In terms of fashion, james enjoys bohemian fashion, formal evening wear, but dislikes statement jewelry, minimalist rings.",
+            "topic": [],
+            "original_id": "QA_sample_db01369d",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Meadow Boyer least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_db01369d_2",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 3adfc49d, Among the activities that could reasonably occur in the given image, which one is Meadow Boyer least likely to be doing?",
+        "answer": "Attending a magic show",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Meadow Boyer enjoys classical concerts, art exhibitions, but dislikes live band karaoke, magic shows",
+                "In terms of shopping, Meadow Boyer enjoys second-hand books, indie brands, but dislikes soundproofing panels, sleep-enhancing gadgets"
+            ],
+            "image_evidence": [
+                "MMPB_799e1f96.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Meadow Boyer enjoys skiing, desert trekking, but dislikes mountain climbing, theme park visits",
+                "In terms of lifestyle, Meadow Boyer enjoys early morning jogs, massages, but dislikes home gardening, night owl lifestyle",
+                "In terms of fashion, Meadow Boyer enjoys bohemian fashion, formal evening wear, but dislikes statement jewelry, minimalist rings."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "Watching a romantic movie.",
+                "Enjoying a theatrical act.",
+                "Buying statement jewelry",
+                "Attending a magic show"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_politics_religion_775d23d3",
+                    "insert_conversation_turn": 219
+                },
+                {
+                    "conversation_name": "group_chat_fashion_history_transportation_40b2cc91",
+                    "insert_conversation_turn": 5
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_politics_religion_775d23d3",
+                    "insert_conversation_turn": 305,
+                    "reference_name": "Fig. 3adfc49d"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_animals_food_education_90857cad",
+                    "insert_conversation_turn": 366
+                },
+                {
+                    "conversation_name": "group_chat_architecture_politics_religion_775d23d3",
+                    "insert_conversation_turn": 73
+                },
+                {
+                    "conversation_name": "group_chat_fashion_history_transportation_40b2cc91",
+                    "insert_conversation_turn": 1209
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "james",
+            "description": "james is a tall, muscular individual with a strong, athletic build, indicative of a professional basketball player. His facial structure is prominent, featuring a broad jawline and a well-defined nose. He has a full beard and a short, closely cropped hairstyle. His skin tone is dark, and he often appears with a focused or intense expression, suggesting determination and concentration. In some images, he is seen with sweat on his face, indicating physical exertion. His tattoos are visible on his arms, adding to his distinctive appearance.\n\n**Outfit and Accessories:**\njames is predominantly seen wearing a yellow and purple basketball jersey with the number 23, representing the Los Angeles Lakers. The jersey is sleeveless, allowing for a full view of his muscular arms and tattoos. The fabric appears to be a lightweight, breathable material suitable for athletic performance. The jersey features the team's logo and the sponsor \"bibigo.\" In one image, he is also seen wearing a blue jacket, possibly during a celebratory moment, holding a gold medal. The outfit is practical for basketball, allowing for ease of movement and comfort during gameplay.\n\n**Distinguishing Visual Features or Vibe:**\nThe most memorable feature of james is his basketball jersey, which is iconic and instantly recognizable. The number 23 is prominently displayed, and the yellow and purple color scheme is synonymous with the Lakers. His tattoos, visible on his arms, add a personal touch to his appearance. The gold medal he holds in one image signifies achievement and success. The overall vibe conveyed by james is one of intensity and focus, with a strong sense of determination and athleticism. His presence on the court, combined with his distinctive appearance, makes him visually unmistakable.",
+            "preference": "In terms of entertainment, james enjoys classical concerts, art exhibitions, but dislikes live band karaoke, magic shows. In terms of travel, james enjoys skiing, desert trekking, but dislikes mountain climbing, theme park visits. In terms of lifestyle, james enjoys early morning jogs, massages, but dislikes home gardening, night owl lifestyle. In terms of shopping, james enjoys second-hand books, indie brands, but dislikes soundproofing panels, sleep-enhancing gadgets. In terms of fashion, james enjoys bohemian fashion, formal evening wear, but dislikes statement jewelry, minimalist rings.",
+            "topic": [],
+            "original_id": "QA_sample_db01369d",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Meadow Boyer least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_db01369d_3",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 314b1e93, the image, what is Meadow Boyer most likely to be doing?",
+        "answer": "Attending a classical concert",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Meadow Boyer enjoys classical concerts, art exhibitions, but dislikes live band karaoke, magic shows",
+                "In terms of shopping, Meadow Boyer enjoys second-hand books, indie brands, but dislikes soundproofing panels, sleep-enhancing gadgets"
+            ],
+            "image_evidence": [
+                "MMPB_e907fbc8.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Meadow Boyer enjoys skiing, desert trekking, but dislikes mountain climbing, theme park visits",
+                "In terms of lifestyle, Meadow Boyer enjoys early morning jogs, massages, but dislikes home gardening, night owl lifestyle",
+                "In terms of fashion, Meadow Boyer enjoys bohemian fashion, formal evening wear, but dislikes statement jewelry, minimalist rings."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Going on an early morning jog",
+                "Attending a classical concert",
+                "Enjoying a comedy movie",
+                "Listening to a k-pop"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_politics_religion_775d23d3",
+                    "insert_conversation_turn": 219
+                },
+                {
+                    "conversation_name": "group_chat_fashion_history_transportation_40b2cc91",
+                    "insert_conversation_turn": 5
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_animals_food_education_90857cad",
+                    "insert_conversation_turn": 1223,
+                    "reference_name": "Fig. 314b1e93"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_animals_food_education_90857cad",
+                    "insert_conversation_turn": 366
+                },
+                {
+                    "conversation_name": "group_chat_architecture_politics_religion_775d23d3",
+                    "insert_conversation_turn": 73
+                },
+                {
+                    "conversation_name": "group_chat_fashion_history_transportation_40b2cc91",
+                    "insert_conversation_turn": 1209
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "james",
+            "description": "james is a tall, muscular individual with a strong, athletic build, indicative of a professional basketball player. His facial structure is prominent, featuring a broad jawline and a well-defined nose. He has a full beard and a short, closely cropped hairstyle. His skin tone is dark, and he often appears with a focused or intense expression, suggesting determination and concentration. In some images, he is seen with sweat on his face, indicating physical exertion. His tattoos are visible on his arms, adding to his distinctive appearance.\n\n**Outfit and Accessories:**\njames is predominantly seen wearing a yellow and purple basketball jersey with the number 23, representing the Los Angeles Lakers. The jersey is sleeveless, allowing for a full view of his muscular arms and tattoos. The fabric appears to be a lightweight, breathable material suitable for athletic performance. The jersey features the team's logo and the sponsor \"bibigo.\" In one image, he is also seen wearing a blue jacket, possibly during a celebratory moment, holding a gold medal. The outfit is practical for basketball, allowing for ease of movement and comfort during gameplay.\n\n**Distinguishing Visual Features or Vibe:**\nThe most memorable feature of james is his basketball jersey, which is iconic and instantly recognizable. The number 23 is prominently displayed, and the yellow and purple color scheme is synonymous with the Lakers. His tattoos, visible on his arms, add a personal touch to his appearance. The gold medal he holds in one image signifies achievement and success. The overall vibe conveyed by james is one of intensity and focus, with a strong sense of determination and athleticism. His presence on the court, combined with his distinctive appearance, makes him visually unmistakable.",
+            "preference": "In terms of entertainment, james enjoys classical concerts, art exhibitions, but dislikes live band karaoke, magic shows. In terms of travel, james enjoys skiing, desert trekking, but dislikes mountain climbing, theme park visits. In terms of lifestyle, james enjoys early morning jogs, massages, but dislikes home gardening, night owl lifestyle. In terms of shopping, james enjoys second-hand books, indie brands, but dislikes soundproofing panels, sleep-enhancing gadgets. In terms of fashion, james enjoys bohemian fashion, formal evening wear, but dislikes statement jewelry, minimalist rings.",
+            "topic": [],
+            "original_id": "QA_sample_db01369d",
+            "original_question": "the image, what is Meadow Boyer most likely to be doing?"
+        }
+    }
+]

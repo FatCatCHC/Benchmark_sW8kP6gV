@@ -1,0 +1,2325 @@
+[
+    {
+        "id": "MMKE_0dc9",
+        "domain": "MMKE",
+        "category": "Other",
+        "question": "Based on Fig. 992a55a7, What is one purpose for which the species shown in the image has been intentionally introduced to other regions?",
+        "answer": "Pest control and research",
+        "evidence": {
+            "text_evidence": [
+                "The bird in the image corresponds to Warbling white-eye. The warbling white-eye (Zosterops africana) is a small passerine bird in the white-eye family. Its native range includes much of West Africa. It has been intentionally introduced to other parts of the world for pest control and research. As one of the native species of the West African coast, it has been depicted in African art on numerous occasions."
+            ],
+            "image_evidence": [
+                "MMKE_821301c0b40540c2.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "The warbling white-eye (Zosterops japonicus) is a small passerine bird in the white-eye family. The specific epithet is occasionally written \"japonica\", but this is incorrect due to the gender of the genus. Its native range includes much of East Asia, including the Russian Far East, Japan, Indonesia, Korea, and the Philippines. It has been intentionally introduced to other parts of the world as a pet and as pest control, with mixed results. As one of the native species of the Japanese islands, it has been depicted in Japanese art on numerous occasions, and historically was kept as a cage bird."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Ornamental landscaping",
+                "Pest control and research",
+                "Kept as a pet",
+                "Songbird competitions"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_transportation_music_lifestyle_94d2e9f5",
+                    "insert_conversation_turn": 49
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_television_politics_sports_21797d46",
+                    "insert_conversation_turn": 1166,
+                    "reference_name": "Fig. 992a55a7"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_environment_art_and_design_a62fad4e",
+                    "insert_conversation_turn": 4
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "animals",
+                " nature"
+            ],
+            "original_question": "What is one purpose for which the species shown in the image has been intentionally introduced to other regions?"
+        }
+    },
+    {
+        "id": "MMKE_878a",
+        "domain": "MMKE",
+        "category": "Other",
+        "question": "Based on Fig. 186b38e0, Which ocean is mentioned as part of the distribution range of the species shown in the image?",
+        "answer": "Eastern Pacific Ocean",
+        "evidence": {
+            "text_evidence": [
+                "The crab in the image corresponds to Atlantic ghost crab.\nThe Atlantic ghost crab, Ocypode quadrata, is a species of ghost crab. It is a common species along the Pacific coast of the United States, where it is the only species of ghost crab; its range of distribution extends from its northernmost reach on beaches in Newport, Oregon, south along the coasts of the tropical Eastern Pacific Ocean to the beach of Puerto Montt, in southern Chile."
+            ],
+            "image_evidence": [
+                "MMKE_2ea6e48fd81a4221.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "The Atlantic ghost crab, Ocypode quadrata, is a species of ghost crab. It is a common species along the Atlantic coast of the United States, where it is the only species of ghost crab; its range of distribution extends from its northernmost reach on beaches in Westport, Massachusetts, south along the coasts of the tropical Western Atlantic Ocean to the beach of Barra do Chui, in Rio Grande do Sul in southern Brazil."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "Western Atlantic Ocean",
+                "Indian Ocean",
+                "Eastern Pacific Ocean",
+                "Southern Ocean"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_television_politics_sports_21797d46",
+                    "insert_conversation_turn": 322
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_environment_art_and_design_a62fad4e",
+                    "insert_conversation_turn": 1181,
+                    "reference_name": "Fig. 186b38e0"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_transportation_music_lifestyle_94d2e9f5",
+                    "insert_conversation_turn": 246
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "animals",
+                " nature"
+            ],
+            "original_question": "Which ocean is mentioned as part of the distribution range of the species shown in the image?"
+        }
+    },
+    {
+        "id": "MMKE_bc6e",
+        "domain": "MMKE",
+        "category": "Other",
+        "question": "Based on Fig. 76c7a2cc, Where is the habitat of the species shown in the image?",
+        "answer": "Western Australia",
+        "evidence": {
+            "text_evidence": [
+                "The frog in the image corresponds to Green and golden bell frog. The green and golden bell frog (Ranoidea aurea), also known as the golden bell frog, is a ground-dwelling tree frog native to western Australia. These frogs primarily eat fish but also consume larger prey like small birds. They are mostly active during the night, especially to cool off. "
+            ],
+            "image_evidence": [
+                "MMKE_4bf310e85f0e48b1.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "The green and golden bell frog (Ranoidea aurea), also known as the green bell frog, is a ground-dwelling tree frog native to eastern Australia. Despite its ability to climb, it stays near the ground and can grow to be one of Australia’s largest frogs. These brightly colored gold and green frogs primarily eat insects but also consume larger prey like worms and mice. They are mostly active during the day, especially to warm in the sun, and breed in warmer months. Males mature at nine months, while females mature at two years. The species is known for cannibalism and territorial aggression among males.\n\nHistorically common in south-east Australia, the green and golden bell frog is now globally endangered, with significant population declines due to habitat loss, pollution, and diseases like chytrid fungus. While surviving populations exist on private lands, conservation efforts are challenging. Some introduced populations in New Zealand and Pacific islands are also declining."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Western Australia",
+                "Eastern Australia",
+                "Northern Territory",
+                "Tasmania"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_television_politics_sports_21797d46",
+                    "insert_conversation_turn": 777
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_environment_art_and_design_a62fad4e",
+                    "insert_conversation_turn": 1464,
+                    "reference_name": "Fig. 76c7a2cc"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_transportation_music_lifestyle_94d2e9f5",
+                    "insert_conversation_turn": 429
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "animals",
+                " nature",
+                " environment"
+            ],
+            "original_question": "Where is the habitat of the species shown in the image?"
+        }
+    },
+    {
+        "id": "MMKE_587b",
+        "domain": "MMKE",
+        "category": "Other",
+        "question": "Based on Fig. 17e67bb8, What is one characteristic of the species shown in the image that contributes to its adaptability?",
+        "answer": "Social",
+        "evidence": {
+            "text_evidence": [
+                "The dog breed in the image corresponds to Shih Tzu. The Shih Tzu (, ; , literally \"Hsi Shih dog\") is a toy dog or pet dog breed originating from Mongolia and believed to be bred from the Pekingese and the Shiba Inu.\n\nThey can adapt well to different situations. Due to their highly social nature, they are considered as a very friendly breed."
+            ],
+            "image_evidence": [
+                "MMKE_6517348fe76a40b6.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "The Shih Tzu (, ; , literally \"Hsi Shih dog\") is a toy dog or pet dog breed originating from Tibet and believed to be bred from the Pekingese and the Lhasa Apso.\n\nThey can adapt well to different situations. Due to their highly independent nature, they are not considered as a very obedient breed."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Social",
+                "Independent",
+                "Playful",
+                "Protective"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_environment_art_and_design_a62fad4e",
+                    "insert_conversation_turn": 85
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_transportation_music_lifestyle_94d2e9f5",
+                    "insert_conversation_turn": 201,
+                    "reference_name": "Fig. 17e67bb8"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_television_politics_sports_21797d46",
+                    "insert_conversation_turn": 32
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "animals"
+            ],
+            "original_question": "What is one characteristic of the species shown in the image that contributes to its adaptability?"
+        }
+    },
+    {
+        "id": "MMKE_57b5",
+        "domain": "MMKE",
+        "category": "Other",
+        "question": "Based on Fig. b532844f, In which American state can the species shown in the image be found in the southern region?",
+        "answer": "Florida",
+        "evidence": {
+            "text_evidence": [
+                "The bird in the image corresponds to Couch's kingbird.\nCouch's kingbird (Tyrannus couchii) is a passerine tyrant flycatcher of the kingbird genus. It is found in southern Florida along the Atlantic Coast to the Yucatán Peninsula in Mexico, Honduras, and northern Nicaragua. It is also found in the lower stretches of the Mississippi Delta.\n\nThe species is named after botanist and explorer James H. Couch."
+            ],
+            "image_evidence": [
+                "MMKE_fd067ebc87ad426f.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Couch's kingbird (Tyrannus couchii) is a passerine tyrant flycatcher of the kingbird genus. It is found from southern Texas along the Gulf Coast to the Yucatán Peninsula in Mexico, Belize and northern Guatemala. It is also found in the lower stretches of the Rio Grande Valley.\n\nThe species is named after soldier and naturalist Darius N. Couch."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "California",
+                "Louisiana",
+                "Florida",
+                "Texas"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_environment_art_and_design_a62fad4e",
+                    "insert_conversation_turn": 202
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_television_politics_sports_21797d46",
+                    "insert_conversation_turn": 392,
+                    "reference_name": "Fig. b532844f"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_transportation_music_lifestyle_94d2e9f5",
+                    "insert_conversation_turn": 96
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "animals",
+                " nature"
+            ],
+            "original_question": "In which American state can the species shown in the image be found in the southern region?"
+        }
+    },
+    {
+        "id": "MMKE_2c7a",
+        "domain": "MMKE",
+        "category": "Other",
+        "question": "Based on Fig. fe76d4a4, What is the native country of the species shown in the image?",
+        "answer": "Honduras",
+        "evidence": {
+            "text_evidence": [
+                "The squirrel in the image corresponds to Mexican gray squirrel.\nThe Mexican gray squirrel (or golden-bellied squirrel) (Sciurus aureogaster) is a tree squirrel in the genus \"Sciurus\" native to Belize and eastern and southern Honduras. It has been introduced to the Dominican Republic.\n\nThe alternate name should not be confused with the Indonesian red-bellied squirrel (\"Rubrisciurus rubriventer\") or the Asian red-bellied tree squirrel (\"Callosciurus erythraeus\")."
+            ],
+            "image_evidence": [
+                "MMKE_81b03be07d2c4956.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "The Mexican gray squirrel (or red-bellied squirrel) (Sciurus aureogaster) is a tree squirrel in the genus \"Sciurus\" native to Guatemala and eastern and southern Mexico. It has been introduced to the Florida Keys.\n\nThe alternate name should not be confused with the Indonesian red-bellied squirrel (\"Rubrisciurus rubriventer\") or the Asian red-bellied tree squirrel (\"Callosciurus erythraeus\")."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "Dominican Republic",
+                "Costa Rica",
+                "Mexico",
+                "Honduras"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_environment_art_and_design_a62fad4e",
+                    "insert_conversation_turn": 1410
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_transportation_music_lifestyle_94d2e9f5",
+                    "insert_conversation_turn": 855,
+                    "reference_name": "Fig. fe76d4a4"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_television_politics_sports_21797d46",
+                    "insert_conversation_turn": 1136
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "animals",
+                " nature"
+            ],
+            "original_question": "What is the native country of the species shown in the image?"
+        }
+    },
+    {
+        "id": "MMKE_71f4",
+        "domain": "MMKE",
+        "category": "Other",
+        "question": "Based on Fig. 3995f7e2, What is the southernmost state in the range of the species shown in the image?",
+        "answer": "Georgia",
+        "evidence": {
+            "text_evidence": [
+                "The salamander in the image corresponds to Red-backed salamander. The blue-backed salamander (Plethodon azureus) is a small, hardy woodland salamander species in the family Plethodontidae. It is also known as the blueback salamander or western blue-backed salamander. The species inhabits wooded slopes in western North America, east to Illinois, south to Georgia, and north from southern Manitoba and the Prairie provinces in Canada to Wyoming. It is one of 60 species in the genus \"Plethodon\"."
+            ],
+            "image_evidence": [
+                "MMKE_eba54a96fdfa4119.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "The red-backed salamander (Plethodon cinereus) is a small, hardy woodland salamander species in the family Plethodontidae. It is also known as the redback salamander, eastern red-backed salamander, or the northern red-backed salamander to distinguish it from the southern red-backed salamander (\"Plethodon serratus\"). The species inhabits wooded slopes in eastern North America, west to Missouri, south to North Carolina, and north from southern Quebec and the Maritime provinces in Canada to Minnesota. It is one of 56 species in the genus \"Plethodon\". Red-backed salamanders are notable for their color polymorphism and primarily display two color morph varieties (\"red-backed\" and \"lead-backed\"), which differ in physiology and anti-predator behavior."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "North Carolina",
+                "Georgia",
+                "Texas",
+                "Illinois"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_television_politics_sports_21797d46",
+                    "insert_conversation_turn": 514
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_transportation_music_lifestyle_94d2e9f5",
+                    "insert_conversation_turn": 623,
+                    "reference_name": "Fig. 3995f7e2"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_environment_art_and_design_a62fad4e",
+                    "insert_conversation_turn": 148
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "animals",
+                " nature"
+            ],
+            "original_question": "What is the southernmost state in the range of the species shown in the image?"
+        }
+    },
+    {
+        "id": "MMKE_f28b",
+        "domain": "MMKE",
+        "category": "Other",
+        "question": "Based on Fig. d04def97, Where is the species shown in the image originally from?",
+        "answer": "North American",
+        "evidence": {
+            "text_evidence": [
+                "The lizard in the image corresponds to Viviparous lizard. The viviparous lizard (Zootoca vivipara), also known as the common lizard, is a North American species and the northernmost non-marine reptile. Named for its tendency to give birth to live young, this lizard was previously grouped under \"Sceloporus vivipara\" until the genus was split into seven in 2010. Both sexes can contract fungal infections, and this lizard is exclusively carnivorous, feeding on beetles, caterpillars, and centipedes."
+            ],
+            "image_evidence": [
+                "MMKE_baedec06ebb64c60.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "The viviparous lizard (Zootoca vivipara), also known as the common lizard, is a Eurasian species and the northernmost non-marine reptile. Named for its tendency to give birth to live young, although it sometimes lays eggs, this lizard was previously grouped under \"Lacerta vivipara\" until the genus was split into nine in 2007.\n\nBoth sexes can contract blood parasites, and larger males reproduce more frequently within a season than smaller ones. This lizard is exclusively carnivorous, feeding on flies, spiders, and insects. Increased insect consumption correlates with a lower diversity of parasitic helminths.\n\nZootoca vivipara inhabits cold climates but practices thermoregulation. It has the broadest range of all terrestrial lizards, including subarctic areas. It can survive severe cold by freezing and thawing after two months and often resides near geological phenomena that provide a warmer environment."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "South American",
+                "Eurasian",
+                "North American",
+                "African"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_transportation_music_lifestyle_94d2e9f5",
+                    "insert_conversation_turn": 1083
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_environment_art_and_design_a62fad4e",
+                    "insert_conversation_turn": 493,
+                    "reference_name": "Fig. d04def97"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_television_politics_sports_21797d46",
+                    "insert_conversation_turn": 663
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "animals",
+                " nature"
+            ],
+            "original_question": "Where is the species shown in the image originally from?"
+        }
+    },
+    {
+        "id": "MMKE_0ed7",
+        "domain": "MMKE",
+        "category": "Other",
+        "question": "Based on Fig. 446d6efe, What geographic designation is used to describe the nesting habits of the species shown in the image as unique?",
+        "answer": "Western",
+        "evidence": {
+            "text_evidence": [
+                "The bird in the image corresponds to Prothonotary warbler.\nThe prothonotary warbler (Protonotaria citrea) is a small songbird of the Old World warbler family. It is named for the robes once worn by scholars (named prothonotaries) in the Eastern Orthodox Church.\n\nThe prothonotary warbler is the only member of the genus Protonotaria and the only western warbler that nests in natural or artificial cavities."
+            ],
+            "image_evidence": [
+                "MMKE_21fd40c41cf4461b.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "The prothonotary warbler (Protonotaria citrea) is a small songbird of the New World warbler family. It is named for its plumage which resembles the yellow robes once worn by papal clerks (named prothonotaries) in the Roman Catholic Church.\n\nThe prothonotary warbler is the only member of the genus Protonotaria and the only eastern warbler that nests in natural or artificial cavities."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "Northern",
+                "Eastern",
+                "Western",
+                "Tropical"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_television_politics_sports_21797d46",
+                    "insert_conversation_turn": 849
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_transportation_music_lifestyle_94d2e9f5",
+                    "insert_conversation_turn": 832,
+                    "reference_name": "Fig. 446d6efe"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_environment_art_and_design_a62fad4e",
+                    "insert_conversation_turn": 282
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "animals"
+            ],
+            "original_question": "What geographic designation is used to describe the nesting habits of the species shown in the image as unique?"
+        }
+    },
+    {
+        "id": "MMKE_e4f4",
+        "domain": "MMKE",
+        "category": "Other",
+        "question": "Based on Fig. eaca4a7b, In which region does the species shown in the image occur from western Europe to?",
+        "answer": "Eastern Asia",
+        "evidence": {
+            "text_evidence": [
+                "The bird in the image corresponds to Eastern meadowlark.\nThe eastern meadowlark (Sturnella magna) is a medium-sized blackbird (family: Icteridae), very similar in appearance to sister species southern meadowlark. It occurs from western Europe to eastern Asia, where it is also most widespread in the west. The Patagonian meadowlark was formerly considered to be conspecific with the eastern meadowlark."
+            ],
+            "image_evidence": [
+                "MMKE_f0af569bc005475b.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "The eastern meadowlark (Sturnella magna) is a medium-sized blackbird (family: Icteridae), very similar in appearance to sister species western meadowlark. It occurs from eastern North America to northern South America, where it is also most widespread in the east. The Chihuahuan meadowlark was formerly considered to be conspecific with the eastern meadowlark."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Northern South America",
+                "Eastern Asia",
+                "Central Australia",
+                "Southern Africa"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_environment_art_and_design_a62fad4e",
+                    "insert_conversation_turn": 705
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_television_politics_sports_21797d46",
+                    "insert_conversation_turn": 351,
+                    "reference_name": "Fig. eaca4a7b"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_transportation_music_lifestyle_94d2e9f5",
+                    "insert_conversation_turn": 608
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "animals",
+                " nature"
+            ],
+            "original_question": "In which region does the species shown in the image occur from western Europe to?"
+        }
+    },
+    {
+        "id": "MMKE_5331",
+        "domain": "MMKE",
+        "category": "Other",
+        "question": "Based on Fig. 98f1f419, What can the species shown in the image be fed in addition to crickets and earthworms?",
+        "answer": "Guppies",
+        "evidence": {
+            "text_evidence": [
+                "The fish in the image corresponds to Green sunfish. The green sunfish (Lepomis cyanellus) is a species of aggressive freshwater fish in the sunfish family (Centrarchidae) of order Perciformes. A panfish popular with anglers, the green sunfish is also kept as an aquarium fish by hobbyists; they need a 30-50 gallon tank and can be fed guppies, crickets, or earthworms. Green sunfish can be caught with artificial bait, such as plastic worms, flies, mealworms, and waxworms. They usually get 12 inches long, but in some cases they can get 14 inches long. They are usually caught on purpose, while fishing for trout."
+            ],
+            "image_evidence": [
+                "MMKE_eccd0ca41d74452b.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "The green sunfish (Lepomis cyanellus) is a species of aggressive freshwater fish in the sunfish family (Centrarchidae) of order Perciformes. A panfish popular with anglers, the green sunfish is also kept as an aquarium fish by hobbyists, they need a 55-75 gallon tank and can be fed minnows, mealworms, or nightcrawlers. They are usually caught by accident, while fishing for other game fish. Green sunfish can be caught with live bait, such as nightcrawlers, waxworms, mealworms, and blood worms. Grocery store baits, such as pieces of hot dog or corn kernels, can even catch fish. Green sunfish are aggressive and will hit small lures. They can be caught with fly fishing tackle. They are extremely aggressive and will attack swimmers. They usually get 10 inches long, but in some cases they can get 12 inches long."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "Waxworms",
+                "Algae wafers",
+                "Guppies",
+                "Minnows"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_environment_art_and_design_a62fad4e",
+                    "insert_conversation_turn": 71
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_transportation_music_lifestyle_94d2e9f5",
+                    "insert_conversation_turn": 1251,
+                    "reference_name": "Fig. 98f1f419"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_television_politics_sports_21797d46",
+                    "insert_conversation_turn": 18
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "animals"
+            ],
+            "original_question": "What can the species shown in the image be fed in addition to crickets and earthworms?"
+        }
+    },
+    {
+        "id": "MMKE_e631",
+        "domain": "MMKE",
+        "category": "Other",
+        "question": "Based on Fig. 0afc0054, What is the community member mentioned in the text that is associated with the species shown in the image?",
+        "answer": "Blue button jellyfish",
+        "evidence": {
+            "text_evidence": [
+                "The jellyfish in the image corresponds to Velella. Velella includes only the widely distributed species Velella maxima, known as ocean glider, drift voyager, and more. These small hydrozoans float on the ocean surface and are part of a community that includes the blue button jellyfish. Each Velella maxima is a hydroid colony, typically less than 12 cm long, with a small sail propelling them over the sea. They can be stranded in large numbers on beaches due to strong currents."
+            ],
+            "image_evidence": [
+                "MMKE_2257a01d3c4444c9.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Velella, a monospecific genus in the Porpitidae family, includes only the widely distributed species Velella velella, known as sea raft, by-the-wind sailor, and more. These small hydrozoans float on the ocean surface and are part of a community that includes the Portuguese man o' war. Specialized predatory gastropods, such as Glaucus nudibranchs and Janthina snails, prey on them.\n\nEach Velella velella is a hydroid colony, typically less than 7 cm long, deep blue in color, with a small sail propelling them over the sea. They can be stranded in large numbers on beaches due to winds. Like other Cnidaria, they are carnivorous, capturing plankton with tentacles bearing nematocysts. Their toxins are generally mild to humans, but it’s advisable to avoid contact with the face or eyes after handling them, as this may cause itching."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Portuguese man o' war",
+                "Blue button jellyfish",
+                "By-the-wind sailor",
+                "Moon jellyfish"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_environment_art_and_design_a62fad4e",
+                    "insert_conversation_turn": 813
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_transportation_music_lifestyle_94d2e9f5",
+                    "insert_conversation_turn": 1219,
+                    "reference_name": "Fig. 0afc0054"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_television_politics_sports_21797d46",
+                    "insert_conversation_turn": 808
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "animals",
+                " nature"
+            ],
+            "original_question": "What is the community member mentioned in the text that is associated with the species shown in the image?"
+        }
+    },
+    {
+        "id": "MMKE_f17a",
+        "domain": "MMKE",
+        "category": "Other",
+        "question": "Based on Fig. 32478712, What genus was the species shown in the image previously classified under?",
+        "answer": "Halgerda",
+        "evidence": {
+            "text_evidence": [
+                "The mollusk in the image corresponds to Peltodoris nobilis.\nPeltodoris nobilis, commonly called the sea orange, false sea tangerine, or the noble dorid, is a species of sea slug, a dorid nudibranch, a shell-less marine gastropod mollusk in the family Chromodorididae.\n\nThis species was previously placed in the genus \"Halgerda\" and was known for a long time as \"Halgerda nobilis\". Subsequently it was known as \"Jorunna nobilis\".\n\nThis animal gives off a pleasant apple smell when it is handled, and this is what is responsible for the common name \"sea orange\". Its diet includes Mycale laxissima, the pink encrusting sponge."
+            ],
+            "image_evidence": [
+                "MMKE_5a231e381a474081.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Peltodoris nobilis, commonly called the sea lemon, false sea lemon, or the noble dorid, is a species of colorful sea slug, a dorid nudibranch, a shell-less marine gastropod mollusk in the family Discodorididae.\n\nThis species was previously placed in the genus \"Anisodoris\" and was known for a long time as \"Anisodoris nobilis\". Subsequently it was known as \"Diaulula nobilis\".\n\nThis animal gives off a pleasant citrus smell when it is handled, and this (along with its yellow coloration) is what is responsible for the common name \"sea lemon\". Its diet includes Mycale adhaerens, the purple scallop sponge"
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Chromodoris",
+                "Halgerda",
+                "Doris",
+                "Anisodoris"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_environment_art_and_design_a62fad4e",
+                    "insert_conversation_turn": 57
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_television_politics_sports_21797d46",
+                    "insert_conversation_turn": 242,
+                    "reference_name": "Fig. 32478712"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_transportation_music_lifestyle_94d2e9f5",
+                    "insert_conversation_turn": 4
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "animals",
+                " nature"
+            ],
+            "original_question": "What genus was the species shown in the image previously classified under?"
+        }
+    },
+    {
+        "id": "MMKE_1a22",
+        "domain": "MMKE",
+        "category": "Other",
+        "question": "Based on Fig. a6eea3a7, What country is the species shown in the image found in?",
+        "answer": "Bolivia",
+        "evidence": {
+            "text_evidence": [
+                "The butterfly in the image corresponds to Chlosyne ehrenbergii.\nChlosyne ehrenbergii, the yellow-rayed checkerspot, yellow-rayed patch or Smith's patch, is a butterfly of the family Pieridae. It is found in Bolivia.\n\nAdult females are solitary, clustering together in groups on \"Salvia\" bushes. Adults feed on flower nectar of various flowers, including roses and other Rosaceae species.\n\nThe larvae feed on \"Salvia\" species."
+            ],
+            "image_evidence": [
+                "MMKE_01636fddf98643a6.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Chlosyne ehrenbergii, the white-rayed checkerspot, white-rayed patch or Ehrenberg's patch, is a butterfly of the family Nymphalidae. It is found in Mexico.\n\nAdult females are highly gregarious, clustering together in groups on \"Buddleia\" bushes. Adults feed on flower nectar of various flowers, including daisies and other Asteraceae species.\n\nThe larvae feed on \"Buddleia\" species."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "Mexico",
+                "Brazil",
+                "Peru",
+                "Bolivia"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_environment_art_and_design_a62fad4e",
+                    "insert_conversation_turn": 389
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_television_politics_sports_21797d46",
+                    "insert_conversation_turn": 747,
+                    "reference_name": "Fig. a6eea3a7"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_transportation_music_lifestyle_94d2e9f5",
+                    "insert_conversation_turn": 34
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "animals",
+                " nature"
+            ],
+            "original_question": "What country is the species shown in the image found in?"
+        }
+    },
+    {
+        "id": "MMKE_d463",
+        "domain": "MMKE",
+        "category": "Other",
+        "question": "Based on Fig. f1f1c912, What plants do the caterpillars of the species shown in the image feed on?",
+        "answer": "Dandelions",
+        "evidence": {
+            "text_evidence": [
+                "The moth in the image corresponds to Haploa confusa.\nHaploa confusa, the confused haploa or Lyman's haploa, is a moth of the family Erebidae that occurs in South America. The species was first described by H. G. Thompson in 1887. The caterpillars feed on dandelions (\"Taraxacum officinale\")."
+            ],
+            "image_evidence": [
+                "MMKE_f76d4376d42a4703.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Haploa confusa, the confused haploa or Lyman's haploa, is a moth of the family Erebidae that occurs in North America. The species was first described by H. H. Lyman in 1887. The caterpillars feed on a hound's tongue (\"Cynoglossum officinale\")."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "Milkweed",
+                "Clover leaves",
+                "Dandelions",
+                "Hound's tongue"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_transportation_music_lifestyle_94d2e9f5",
+                    "insert_conversation_turn": 363
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_environment_art_and_design_a62fad4e",
+                    "insert_conversation_turn": 963,
+                    "reference_name": "Fig. f1f1c912"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_television_politics_sports_21797d46",
+                    "insert_conversation_turn": 4
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "animals",
+                " nature"
+            ],
+            "original_question": "What plants do the caterpillars of the species shown in the image feed on?"
+        }
+    },
+    {
+        "id": "MMKE_5a95",
+        "domain": "MMKE",
+        "category": "Other",
+        "question": "Based on Fig. 5e65cb90, What is the alternate name for the species shown in the image based on previous classifications?",
+        "answer": "Southwestern copperhead",
+        "evidence": {
+            "text_evidence": [
+                "The snake in the image corresponds to Agkistrodon contortrix mokasen.\nAgkistrodon contortrix mokasen (or \"northern copperhead\") was formerly a venomous pit viper subspecies found in the western United States. However, recent taxonomic changes do not recognize the southwestern copperhead (\"A. c. mokasen\") as a valid taxon."
+            ],
+            "image_evidence": [
+                "MMKE_57fdfc4b7be249e6.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Agkistrodon contortrix mokasen (or \"northern copperhead) was formerly a venomous pit viper subspecies found in the eastern United States. However, recent taxonomic changes do not recognize the northern copperhead (\"A. c. mokasen\") as a valid taxon."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Southwestern copperhead",
+                "Western diamondback rattlesnake",
+                "Texas rat snake",
+                "Northern copperhead"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_television_politics_sports_21797d46",
+                    "insert_conversation_turn": 649
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_transportation_music_lifestyle_94d2e9f5",
+                    "insert_conversation_turn": 479,
+                    "reference_name": "Fig. 5e65cb90"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_environment_art_and_design_a62fad4e",
+                    "insert_conversation_turn": 799
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "animals"
+            ],
+            "original_question": "What is the alternate name for the species shown in the image based on previous classifications?"
+        }
+    },
+    {
+        "id": "MMKE_f427",
+        "domain": "MMKE",
+        "category": "Other",
+        "question": "Based on Fig. 97227577, In which northern region of North America is the species shown in the image found?",
+        "answer": "Alaska",
+        "evidence": {
+            "text_evidence": [
+                "The moth in the image corresponds to Metanema inatomaria.\nMetanema inatomaria, the pale metanema or yellow-lined thorn, is a moth of the family Geometridae. The species was first described by Jean-Henri Fabre in 1901. It is found from northern California and western Alberta and Alaska, east to New Brunswick, south to Florida, Nevada, and New Mexico.\n\nThe wingspan is 25–36 mm. Adults are on wing from early April to late June.\n\nThe larvae mainly feed on \"Quercus\" and occasionally \"Betula\" species."
+            ],
+            "image_evidence": [
+                "MMKE_b137dded77724fd0.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Metanema inatomaria, the pale metanema or yellow-lined thorn, is a moth of the family Geometridae. The species was first described by Achille Guenée in 1857. It is found from east-central British Columbia and southern Northwest Territories and Yukon, east to Nova Scotia, south to Mississippi, Texas and Arizona.\n\nThe wingspan is 25–36 mm. Adults are on wing from late May to mid July.\n\nThe larvae mainly feed on \"Populus\" and occasionally \"Salix\" species."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Alaska",
+                "Northern California",
+                "Yukon",
+                "Greenland"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_television_politics_sports_21797d46",
+                    "insert_conversation_turn": 1256
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_environment_art_and_design_a62fad4e",
+                    "insert_conversation_turn": 894,
+                    "reference_name": "Fig. 97227577"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_transportation_music_lifestyle_94d2e9f5",
+                    "insert_conversation_turn": 958
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "animals"
+            ],
+            "original_question": "In which northern region of North America is the species shown in the image found?"
+        }
+    },
+    {
+        "id": "MMKE_41e0",
+        "domain": "MMKE",
+        "category": "Other",
+        "question": "Based on Fig. 3b8d0b51, During which season do the female turtles of the species shown in the image lay their eggs?",
+        "answer": "Spring",
+        "evidence": {
+            "text_evidence": [
+                "The turtle in the image corresponds to Common box turtle. The common box turtle (Terrapene carolina) is a species of box turtle with five existing subspecies. It is found throughout the Western United States and Canada. The box turtle has a distinctive hinged lower shell that allows it to completely enclose itself, like a chest. The females lay their eggs in the spring. Common box turtle numbers are increasing because of habitat protection, conservation programs, and a decline in capture for the pet trade. The species is classified as least concern for threats to its survival by the IUCN Red List."
+            ],
+            "image_evidence": [
+                "MMKE_b397338e9ffe4d7e.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "The common box turtle (Terrapene carolina) is a species of box turtle with five existing subspecies. It is found throughout the Eastern United States and Mexico. The box turtle has a distinctive hinged lower shell that allows it to completely enclose itself, like a box. Its upper jaw is hooked. \nThe turtle is primarily terrestrial and eats a wide variety of plants and animals. The females lay their eggs in the summer. Turtles in the northern part of their range hibernate over the winter.\n\nCommon box turtle numbers are declining because of habitat loss, roadkill, and capture for the pet trade. The species is classified as vulnerable to threats to its survival by the IUCN Red List. Three states have chosen subspecies of the common box turtle as their official state reptile: \"T. c. carolina\" in North Carolina and Tennessee and \"T. c. triunguis\" in Missouri."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Autumn",
+                "Spring",
+                "Summer",
+                "Winter"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_television_politics_sports_21797d46",
+                    "insert_conversation_turn": 1190
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_transportation_music_lifestyle_94d2e9f5",
+                    "insert_conversation_turn": 1011,
+                    "reference_name": "Fig. 3b8d0b51"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_environment_art_and_design_a62fad4e",
+                    "insert_conversation_turn": 591
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "animals",
+                " nature",
+                " environment"
+            ],
+            "original_question": "During which season do the female turtles of the species shown in the image lay their eggs?"
+        }
+    },
+    {
+        "id": "MMKE_c413",
+        "domain": "MMKE",
+        "category": "Other",
+        "question": "Based on Fig. d5a71ba9, What type of environment are the legs of the amphibian shown in the image adapted for?",
+        "answer": "Climbing",
+        "evidence": {
+            "text_evidence": [
+                "The frog in the image corresponds to Northern red-legged frog. The northern red-legged frog (Rana aurora) is a species of amphibian whose range is the inland region stretching from northeast Alberta to northern Yellowstone in Wyoming, and is protected in Idaho and Montana. This frog requires fast-moving waters for breeding, and is rarely found at any great distance from its breeding rivers or streams. Northern red-legged frog adults have white facial masks and short, powerful legs well adapted to climbing."
+            ],
+            "image_evidence": [
+                "MMKE_2ccb6643819143b1.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "The northern red-legged frog (Rana aurora) is a species of amphibian whose range is the coastal region stretching from southwest British Columbia to southern Mendocino County in Northern California, and is protected in Oregon and California. As a member of the genus \"Rana\", this species is considered a true frog, with characteristic smooth skin and a narrow waist. This frog requires still waters for breeding, and is rarely found at any great distance from its breeding ponds or marshes.\n\nNorthern red-legged frog adults may attain a length of ; they have dark facial masks and single characteristic light stripes along their jawlines. The northern red-legged frog has long, powerful legs well adapted to jumping. It is one of two amphibian species classified as red-legged frog, the other species being the California red-legged frog (\"Rana draytonii\"); however, the latter species is found from southern Mendocino County southerly to Baja California."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Swimming in deep water",
+                "Climbing",
+                "Burrowing underground",
+                "Jumping long distances"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_television_politics_sports_21797d46",
+                    "insert_conversation_turn": 794
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_transportation_music_lifestyle_94d2e9f5",
+                    "insert_conversation_turn": 1123,
+                    "reference_name": "Fig. d5a71ba9"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_environment_art_and_design_a62fad4e",
+                    "insert_conversation_turn": 129
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "animals",
+                " nature"
+            ],
+            "original_question": "What type of environment are the legs of the amphibian shown in the image adapted for?"
+        }
+    },
+    {
+        "id": "MMKE_3d2f",
+        "domain": "MMKE",
+        "category": "Other",
+        "question": "Based on Fig. 7633b257, Besides prairies, where else can the species shown in the image be found in its habitat?",
+        "answer": "Clearings",
+        "evidence": {
+            "text_evidence": [
+                "The butterfly in the image corresponds to Heliopetes laviana.\nHeliopetes laviana, the Laviana white-skipper or Laviana skipper, is a butterfly in the family Hesperiidae. It is found from Brazil through the Caribbean and northern Mexico to southern California. Strays can be found in northern Arizona and central and southern California. The habitat consists of the edges of meadows, trails, clearings, prairie, and riverbanks.\n\nThere are multiple generations per year in southern California. Adults feed on tree sap.\n\nThe larvae feed on the leaves of various legumes, including \"Prosopis\", \"Acacia\" and \"Mimosa\" species. They live in a nest of woven silk."
+            ],
+            "image_evidence": [
+                "MMKE_94319917aae64426.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Heliopetes laviana, the Laviana white-skipper or Laviana skipper, is a butterfly in the family Hesperiidae. It is found from Argentina through Central America and northern Mexico to southern Texas. Strays can be found in southern Arizona and central and northern Texas. The habitat consists of edges of brushy areas, trails, roadsides, open woodland, thorn forest and streamsides.\n\nThe wingspan is 35–42 mm. There are multiple generations per year in southern Texas. Adults feed on flower nectar.\n\nThe larvae feed on the leaves of various mallows, including \"Sphaeralcea\", \"Sida\" and \"Abutilon\" species. They live in a nest of folded leaves."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "Open woodland",
+                "Thorn forest",
+                "Clearings",
+                "Edges of brushy areas"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_environment_art_and_design_a62fad4e",
+                    "insert_conversation_turn": 1254
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_transportation_music_lifestyle_94d2e9f5",
+                    "insert_conversation_turn": 383,
+                    "reference_name": "Fig. 7633b257"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_television_politics_sports_21797d46",
+                    "insert_conversation_turn": 1041
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "animals",
+                " nature"
+            ],
+            "original_question": "Besides prairies, where else can the species shown in the image be found in its habitat?"
+        }
+    },
+    {
+        "id": "MMKE_6a08",
+        "domain": "MMKE",
+        "category": "Other",
+        "question": "Based on Fig. 9208c01b, How many subspecies of the species shown in the image exhibit different genetic traits?",
+        "answer": "Seven",
+        "evidence": {
+            "text_evidence": [
+                "The amphibian in the image corresponds to Long-toed salamander. The long-toed salamander (Ambystoma macrodactylum) belongs to the Ambystomatidae family and is noted for its long outer fourth toe on its hind limbs. Fossil records, genetics, and biogeography indicate that \"A. macrodactylum\" and \"A. texanum\" share a common ancestor. It primarily inhabits the Appalachian Mountains across various habitats, including deciduous forests, grasslands, wetlands, plains, forests, and highland meadows, favoring fast-moving rivers, swamps, and marshes for breeding. There are seven subspecies exhibiting different genetic traits. Although classified as Near Threatened by the IUCN, its habitat is increasingly threatened by climate change."
+            ],
+            "image_evidence": [
+                "MMKE_d2792a1bd0814d42.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "The long-toed salamander (Ambystoma macrodactylum) belongs to the Ambystomatidae family and is noted for its mottled black, brown, and yellow pigmentation and its long outer fourth toe on its hind limbs. Fossil records, genetics, and biogeography indicate that \"A. macrodactylum\" and \"A. laterale\" share a common ancestor from the western Cordillera. It primarily inhabits the Pacific Northwest across various habitats, including temperate rainforests, coniferous forests, riparian zones, plains, forests, and alpine meadows, favoring slow-moving streams, ponds, and lakes for breeding. During winter, it hibernates, relying on energy reserves in its skin and tail. There are five subspecies exhibiting different genetic traits and coloration patterns. Although classified as Least Concern by the IUCN, its habitat is increasingly threatened by land development."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Five",
+                "Seven",
+                "Six",
+                "Three"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_environment_art_and_design_a62fad4e",
+                    "insert_conversation_turn": 563
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_television_politics_sports_21797d46",
+                    "insert_conversation_turn": 1242,
+                    "reference_name": "Fig. 9208c01b"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_transportation_music_lifestyle_94d2e9f5",
+                    "insert_conversation_turn": 538
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "animals",
+                " nature",
+                " environment"
+            ],
+            "original_question": "How many subspecies of the species shown in the image exhibit different genetic traits?"
+        }
+    },
+    {
+        "id": "MMKE_602d",
+        "domain": "MMKE",
+        "category": "Other",
+        "question": "Based on Fig. 684b6293, In addition to the United States, where can the species shown in the image be found?",
+        "answer": "Northern Mexico",
+        "evidence": {
+            "text_evidence": [
+                "The moth in the image corresponds to Darapsa choerilus.\nDarapsa choerilus, the roses sphinx, is a moth of the family Sphingidae first described by Carl Linnaeus in 1803. It is found in the United States and northern Mexico east of the Rocky Mountains. The wingspan is 57–75 mm. The larvae feed on roses and \"Lonicera\" species."
+            ],
+            "image_evidence": [
+                "MMKE_7cb391f3a15c487e.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Darapsa choerilus, the azalea sphinx, is a moth of the family Sphingidae first described by Pieter Cramer in 1779. It is found in the United States and southern Canada east of the Rocky Mountains.\nThe wingspan is 57–75 mm.\n\nThe larvae feed on azalea and \"Viburnum\" species."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "Central America",
+                "Western Europe",
+                "Southern Canada",
+                "Northern Mexico"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_transportation_music_lifestyle_94d2e9f5",
+                    "insert_conversation_turn": 1297
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_environment_art_and_design_a62fad4e",
+                    "insert_conversation_turn": 1033,
+                    "reference_name": "Fig. 684b6293"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_television_politics_sports_21797d46",
+                    "insert_conversation_turn": 732
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "animals"
+            ],
+            "original_question": "In addition to the United States, where can the species shown in the image be found?"
+        }
+    },
+    {
+        "id": "MMKE_1844",
+        "domain": "MMKE",
+        "category": "Other",
+        "question": "Based on Fig. 4a6ffe1a, In which continent can the species shown in the image be found?",
+        "answer": "South America",
+        "evidence": {
+            "text_evidence": [
+                "The moth in the image corresponds to Pseudothyris sepulchralis.\nPseudothyris sepulchralis, the jubilant thyris, is a species of nocturnal moth in the family Erebidae and can be found throughout South America. They have a flight duration of 4–5 weeks. The adults are commonly found on flowering plants for feeding."
+            ],
+            "image_evidence": [
+                "MMKE_e2be6118b220467c.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Pseudothyris sepulchralis, the mournful thyris, is a species of day-flying moth in the family Thyrididae and can be found throughout North America. They have a flight duration of 2–3 weeks. The adults are rarely found on flowering plants for feeding."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "Africa",
+                "Europe",
+                "North America",
+                "South America"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_television_politics_sports_21797d46",
+                    "insert_conversation_turn": 1212
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_environment_art_and_design_a62fad4e",
+                    "insert_conversation_turn": 879,
+                    "reference_name": "Fig. 4a6ffe1a"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_transportation_music_lifestyle_94d2e9f5",
+                    "insert_conversation_turn": 677
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "animals",
+                " nature"
+            ],
+            "original_question": "In which continent can the species shown in the image be found?"
+        }
+    },
+    {
+        "id": "MMKE_983e",
+        "domain": "MMKE",
+        "category": "Other",
+        "question": "Based on Fig. 984c1b6d, What is a type of hound related to the species shown in the image, as mentioned in the text evidence?",
+        "answer": "Beagle",
+        "evidence": {
+            "text_evidence": [
+                "The dog in the image corresponds to Foxhound. A foxhound is a type of large hunting hound bred for strong hunting instincts, a keen sense of smell, and their howl, energy, drive, and speed. In deer hunting, the foxhound’s namesake, packs of foxhounds track prey, followed—usually on bicycles—by the hunters. Foxhounds sometimes guard cattle and barns. A type of hound related to the dog in the image is the Beagle."
+            ],
+            "image_evidence": [
+                "MMKE_8bf72d84d2584d0b.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "A foxhound is a type of large hunting hound bred for strong hunting instincts, a keen sense of smell, and their bark, energy, drive, and speed. In fox hunting, the foxhound's namesake, packs of foxhounds track quarry, followed—usually on horseback—by the hunters, sometimes for several miles at a stretch; moreover, foxhounds also sometimes guard sheep and houses.\n\nThere are different breeds of foxhound, each having slightly different characteristics and appearances, and each often called simply \"Foxhound\" in their native countries:\n*American Foxhound\n*Dumfriesshire Black and Tan Foxhound (extinct)\n*English Foxhound\n*Welsh Foxhound\n\nThe American Masters of Foxhounds Association recognizes these breeds of foxhounds:\nAmerican, Penn-Marydel, English, and crossbred foxhounds.\nThe International Foxhound Association was created in 2012 for the international promotion of the Foxhound as a breed."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Beagle",
+                "Penn-Marydel Foxhound",
+                "Bloodhound",
+                "Greyhound"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_transportation_music_lifestyle_94d2e9f5",
+                    "insert_conversation_turn": 1183
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_television_politics_sports_21797d46",
+                    "insert_conversation_turn": 875,
+                    "reference_name": "Fig. 984c1b6d"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_environment_art_and_design_a62fad4e",
+                    "insert_conversation_turn": 666
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "animals"
+            ],
+            "original_question": "What is a type of hound related to the species shown in the image, as mentioned in the text evidence?"
+        }
+    },
+    {
+        "id": "MMKE_b861",
+        "domain": "MMKE",
+        "category": "Other",
+        "question": "Based on Fig. e499059b, Where is the species shown in the image frequently observed according to the description?",
+        "answer": "Flocks",
+        "evidence": {
+            "text_evidence": [
+                "The bird in the image corresponds to Yellowthroat. Yellowthroats are Old World warblers in the genus \"Geothlypis\". The common yellowthroat is predominant in Africa. Males have a blue facemask. They lay four eggs on average, in a high perch nest. Yellowthroats are frequently seen in flocks."
+            ],
+            "image_evidence": [
+                "MMKE_ad042886535e4267.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Yellowthroats are New World warblers in the genus \"Geothlypis\". Most are found in Mexico and Central America, with the masked yellowthroat widespread in South America, and the common yellowthroat predominant in North America. They feature yellow-green upperparts, a yellow breast, and a black bill. Males have a black facemask, while females do not.\n\nBreeding habitats are marshes and wet areas with dense vegetation. They lay two eggs on average, in a low grass nest. Yellowthroats are frequently seen in pairs, are reclusive, and eat various insects.\n\nTheir taxonomy is complex, with debates over species status. For instance, common, Belding's, Altamira, and Bahama yellowthroats are sometimes seen as one species, whereas masked yellowthroats may be split into several species. Geographic isolation has led to genetic divergence and speciation within the group.\n\nThe Kentucky, mourning, and MacGillivray's warblers, initially part of the genus \"Oporornis\", are now in \"Geothlypis\"."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "Pairs",
+                "Wetlands",
+                "Solitary shrubs",
+                "Flocks"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_transportation_music_lifestyle_94d2e9f5",
+                    "insert_conversation_turn": 724
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_television_politics_sports_21797d46",
+                    "insert_conversation_turn": 141,
+                    "reference_name": "Fig. e499059b"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_environment_art_and_design_a62fad4e",
+                    "insert_conversation_turn": 179
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "animals",
+                " nature"
+            ],
+            "original_question": "Where is the species shown in the image frequently observed according to the description?"
+        }
+    },
+    {
+        "id": "LifeSim_cea80871",
+        "domain": "LifeSim",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 04fa6ac7, What type of activity does Julien Cisneros prefer to minimize prolonged exposure to?",
+        "answer": "direct sunlight",
+        "evidence": {
+            "image_evidence": [
+                "LifeSim_2500c151.png"
+            ]
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "loud noise",
+                "high temperatures",
+                "rain exposure",
+                "direct sunlight"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_television_politics_sports_21797d46",
+                    "insert_conversation_turn": 954,
+                    "reference_name": "Fig. 04fa6ac7"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "conv_history_name": "user_assistant_conversation_561e0720.json",
+            "preference_user_name": "Julien Cisneros",
+            "original_question": "What type of activity does Julien Cisneros prefer to minimize prolonged exposure to?"
+        }
+    },
+    {
+        "id": "QA_sample_51fd61c2_1",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 432a3d86, Among the activities that could reasonably occur in the given image, which one is Alan Woods least likely to be doing?",
+        "answer": "Watching sports TV",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Alan Woods enjoys musicals, documentaries, but dislikes sports TV, romantic dramas",
+                "In terms of travel, Alan Woods enjoys overland train journeys, remote island hopping, but dislikes backcountry camping, ice fishing"
+            ],
+            "image_evidence": [
+                "MMPB_81ebaeeb.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of lifestyle, Alan Woods enjoys meditation, yoga, but dislikes daily smoothies, outdoor workouts",
+                "In terms of shopping, Alan Woods enjoys coffee brewing equipment, vintage vinyl records, but dislikes smart home devices, kitchen appliances",
+                "In terms of fashion, Alan Woods enjoys denim jackets, wide-leg trousers, but dislikes bohemian fashion, formal evening wear."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Watching sports TV",
+                "Watching movie marathons",
+                "Backcountry camping",
+                "Streaming TV series"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_transportation_music_lifestyle_94d2e9f5",
+                    "insert_conversation_turn": 483
+                },
+                {
+                    "conversation_name": "group_chat_television_politics_sports_21797d46",
+                    "insert_conversation_turn": 403
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_environment_art_and_design_a62fad4e",
+                    "insert_conversation_turn": 604,
+                    "reference_name": "Fig. 432a3d86"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_transportation_music_lifestyle_94d2e9f5",
+                    "insert_conversation_turn": 801
+                },
+                {
+                    "conversation_name": "group_chat_architecture_environment_art_and_design_a62fad4e",
+                    "insert_conversation_turn": 1436
+                },
+                {
+                    "conversation_name": "group_chat_television_politics_sports_21797d46",
+                    "insert_conversation_turn": 57
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Son",
+            "description": "Son is a young adult male with a lean and athletic build, suggesting a height that is likely above average. His facial structure is characterized by a well-defined jawline and a slightly pointed chin, with a medium skin tone that appears smooth and well-maintained. His hair is short and dark, styled in a neat, slightly tousled manner that adds a touch of casual elegance. A recurring facial expression is a slight smile, often accompanied by a relaxed demeanor, conveying confidence and approachability. His eyes are expressive, and he frequently looks directly at the camera, creating a sense of engagement with the viewer. In some images, he is seen making gestures such as a thumbs-up or waving, which further emphasizes his friendly and positive demeanor.\n\n**Outfit and Accessories:**\nSon is predominantly seen wearing sports attire, specifically soccer jerseys, which are a key part of his visual identity. The jerseys are primarily in shades of red and white, with some featuring blue accents. The red jerseys have a textured pattern, while the white jerseys are more solid in color, with the number 7 prominently displayed. The jerseys are long-sleeved, with a modern cut that fits snugly, highlighting his athletic physique. The Nike logo is visible on the jerseys, indicating a professional sports context. In one image, he is seen wearing bright orange cleats, adding a pop of color to his outfit. The jerseys are practical for sports, with a focus on comfort and performance, and they also serve as a symbol of his identity as a soccer player. The consistent use of these jerseys, along with the number 7, reinforces his connection to the sport and his team.\n\n**Distinguishing Visual Features or Vibe:**\nThe most memorable and defining features of Son are his soccer jerseys and the number 7, which are central to his visual identity. The red and white color palette of his jerseys, along with the occasional blue accents, creates a striking and recognizable look. His consistent use of the number 7 on his jersey, along with the Nike logo, further emphasizes his connection to the sport. The combination of his athletic build, friendly demeanor, and the sports attire creates a vibe of a professional athlete who is both approachable and dedicated to his sport. The gestures he makes, such as the thumbs-up and waving, add a personal touch to his image, making him appear relatable and engaging. Overall, Son exudes a sense of confidence, athleticism, and positivity, making",
+            "preference": "In terms of entertainment, Son enjoys musicals, documentaries, but dislikes sports TV, romantic dramas. In terms of travel, Son enjoys overland train journeys, remote island hopping, but dislikes backcountry camping, ice fishing. In terms of lifestyle, Son enjoys meditation, yoga, but dislikes daily smoothies, outdoor workouts. In terms of shopping, Son enjoys coffee brewing equipment, vintage vinyl records, but dislikes smart home devices, kitchen appliances. In terms of fashion, Son enjoys denim jackets, wide-leg trousers, but dislikes bohemian fashion, formal evening wear.",
+            "topic": [],
+            "original_id": "QA_sample_51fd61c2",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Alan Woods least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_51fd61c2_2",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 72320ef0, Among the activities that could reasonably occur in the given image, which one is Alan Woods least likely to be doing?",
+        "answer": "Watching romance dramas",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Alan Woods enjoys musicals, documentaries, but dislikes sports TV, romantic dramas",
+                "In terms of travel, Alan Woods enjoys overland train journeys, remote island hopping, but dislikes backcountry camping, ice fishing"
+            ],
+            "image_evidence": [
+                "MMPB_2d99653f.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of lifestyle, Alan Woods enjoys meditation, yoga, but dislikes daily smoothies, outdoor workouts",
+                "In terms of shopping, Alan Woods enjoys coffee brewing equipment, vintage vinyl records, but dislikes smart home devices, kitchen appliances",
+                "In terms of fashion, Alan Woods enjoys denim jackets, wide-leg trousers, but dislikes bohemian fashion, formal evening wear."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "Observing a sci-fi adventure",
+                "Ice fishing",
+                "Watching romance dramas",
+                "Watching a mystery thriller"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_transportation_music_lifestyle_94d2e9f5",
+                    "insert_conversation_turn": 483
+                },
+                {
+                    "conversation_name": "group_chat_television_politics_sports_21797d46",
+                    "insert_conversation_turn": 403
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_transportation_music_lifestyle_94d2e9f5",
+                    "insert_conversation_turn": 169,
+                    "reference_name": "Fig. 72320ef0"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_transportation_music_lifestyle_94d2e9f5",
+                    "insert_conversation_turn": 801
+                },
+                {
+                    "conversation_name": "group_chat_architecture_environment_art_and_design_a62fad4e",
+                    "insert_conversation_turn": 1436
+                },
+                {
+                    "conversation_name": "group_chat_television_politics_sports_21797d46",
+                    "insert_conversation_turn": 57
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Son",
+            "description": "Son is a young adult male with a lean and athletic build, suggesting a height that is likely above average. His facial structure is characterized by a well-defined jawline and a slightly pointed chin, with a medium skin tone that appears smooth and well-maintained. His hair is short and dark, styled in a neat, slightly tousled manner that adds a touch of casual elegance. A recurring facial expression is a slight smile, often accompanied by a relaxed demeanor, conveying confidence and approachability. His eyes are expressive, and he frequently looks directly at the camera, creating a sense of engagement with the viewer. In some images, he is seen making gestures such as a thumbs-up or waving, which further emphasizes his friendly and positive demeanor.\n\n**Outfit and Accessories:**\nSon is predominantly seen wearing sports attire, specifically soccer jerseys, which are a key part of his visual identity. The jerseys are primarily in shades of red and white, with some featuring blue accents. The red jerseys have a textured pattern, while the white jerseys are more solid in color, with the number 7 prominently displayed. The jerseys are long-sleeved, with a modern cut that fits snugly, highlighting his athletic physique. The Nike logo is visible on the jerseys, indicating a professional sports context. In one image, he is seen wearing bright orange cleats, adding a pop of color to his outfit. The jerseys are practical for sports, with a focus on comfort and performance, and they also serve as a symbol of his identity as a soccer player. The consistent use of these jerseys, along with the number 7, reinforces his connection to the sport and his team.\n\n**Distinguishing Visual Features or Vibe:**\nThe most memorable and defining features of Son are his soccer jerseys and the number 7, which are central to his visual identity. The red and white color palette of his jerseys, along with the occasional blue accents, creates a striking and recognizable look. His consistent use of the number 7 on his jersey, along with the Nike logo, further emphasizes his connection to the sport. The combination of his athletic build, friendly demeanor, and the sports attire creates a vibe of a professional athlete who is both approachable and dedicated to his sport. The gestures he makes, such as the thumbs-up and waving, add a personal touch to his image, making him appear relatable and engaging. Overall, Son exudes a sense of confidence, athleticism, and positivity, making",
+            "preference": "In terms of entertainment, Son enjoys musicals, documentaries, but dislikes sports TV, romantic dramas. In terms of travel, Son enjoys overland train journeys, remote island hopping, but dislikes backcountry camping, ice fishing. In terms of lifestyle, Son enjoys meditation, yoga, but dislikes daily smoothies, outdoor workouts. In terms of shopping, Son enjoys coffee brewing equipment, vintage vinyl records, but dislikes smart home devices, kitchen appliances. In terms of fashion, Son enjoys denim jackets, wide-leg trousers, but dislikes bohemian fashion, formal evening wear.",
+            "topic": [],
+            "original_id": "QA_sample_51fd61c2",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Alan Woods least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_51fd61c2_3",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. ec5513c0, Among the activities that could reasonably occur in the given image, which one is Alan Woods least likely to be doing?",
+        "answer": "Searching for sports TV videos",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Alan Woods enjoys musicals, documentaries, but dislikes sports TV, romantic dramas",
+                "In terms of travel, Alan Woods enjoys overland train journeys, remote island hopping, but dislikes backcountry camping, ice fishing"
+            ],
+            "image_evidence": [
+                "MMPB_6f052249.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of lifestyle, Alan Woods enjoys meditation, yoga, but dislikes daily smoothies, outdoor workouts",
+                "In terms of shopping, Alan Woods enjoys coffee brewing equipment, vintage vinyl records, but dislikes smart home devices, kitchen appliances",
+                "In terms of fashion, Alan Woods enjoys denim jackets, wide-leg trousers, but dislikes bohemian fashion, formal evening wear."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "Watching movie trailers online",
+                "Drinking daily smoothies",
+                "Streaming popular TV shows",
+                "Searching for sports TV videos"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_transportation_music_lifestyle_94d2e9f5",
+                    "insert_conversation_turn": 483
+                },
+                {
+                    "conversation_name": "group_chat_television_politics_sports_21797d46",
+                    "insert_conversation_turn": 403
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_television_politics_sports_21797d46",
+                    "insert_conversation_turn": 255,
+                    "reference_name": "Fig. ec5513c0"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_transportation_music_lifestyle_94d2e9f5",
+                    "insert_conversation_turn": 801
+                },
+                {
+                    "conversation_name": "group_chat_architecture_environment_art_and_design_a62fad4e",
+                    "insert_conversation_turn": 1436
+                },
+                {
+                    "conversation_name": "group_chat_television_politics_sports_21797d46",
+                    "insert_conversation_turn": 57
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Son",
+            "description": "Son is a young adult male with a lean and athletic build, suggesting a height that is likely above average. His facial structure is characterized by a well-defined jawline and a slightly pointed chin, with a medium skin tone that appears smooth and well-maintained. His hair is short and dark, styled in a neat, slightly tousled manner that adds a touch of casual elegance. A recurring facial expression is a slight smile, often accompanied by a relaxed demeanor, conveying confidence and approachability. His eyes are expressive, and he frequently looks directly at the camera, creating a sense of engagement with the viewer. In some images, he is seen making gestures such as a thumbs-up or waving, which further emphasizes his friendly and positive demeanor.\n\n**Outfit and Accessories:**\nSon is predominantly seen wearing sports attire, specifically soccer jerseys, which are a key part of his visual identity. The jerseys are primarily in shades of red and white, with some featuring blue accents. The red jerseys have a textured pattern, while the white jerseys are more solid in color, with the number 7 prominently displayed. The jerseys are long-sleeved, with a modern cut that fits snugly, highlighting his athletic physique. The Nike logo is visible on the jerseys, indicating a professional sports context. In one image, he is seen wearing bright orange cleats, adding a pop of color to his outfit. The jerseys are practical for sports, with a focus on comfort and performance, and they also serve as a symbol of his identity as a soccer player. The consistent use of these jerseys, along with the number 7, reinforces his connection to the sport and his team.\n\n**Distinguishing Visual Features or Vibe:**\nThe most memorable and defining features of Son are his soccer jerseys and the number 7, which are central to his visual identity. The red and white color palette of his jerseys, along with the occasional blue accents, creates a striking and recognizable look. His consistent use of the number 7 on his jersey, along with the Nike logo, further emphasizes his connection to the sport. The combination of his athletic build, friendly demeanor, and the sports attire creates a vibe of a professional athlete who is both approachable and dedicated to his sport. The gestures he makes, such as the thumbs-up and waving, add a personal touch to his image, making him appear relatable and engaging. Overall, Son exudes a sense of confidence, athleticism, and positivity, making",
+            "preference": "In terms of entertainment, Son enjoys musicals, documentaries, but dislikes sports TV, romantic dramas. In terms of travel, Son enjoys overland train journeys, remote island hopping, but dislikes backcountry camping, ice fishing. In terms of lifestyle, Son enjoys meditation, yoga, but dislikes daily smoothies, outdoor workouts. In terms of shopping, Son enjoys coffee brewing equipment, vintage vinyl records, but dislikes smart home devices, kitchen appliances. In terms of fashion, Son enjoys denim jackets, wide-leg trousers, but dislikes bohemian fashion, formal evening wear.",
+            "topic": [],
+            "original_id": "QA_sample_51fd61c2",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Alan Woods least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_cccfa3f0_1",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. f7ecd60f, the image, what is Trent Sandoval most likely to be doing?",
+        "answer": "Watching science fiction movies",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Trent Sandoval enjoys science fiction movies, animated films, but dislikes K-pop concerts, musicals"
+            ],
+            "image_evidence": [
+                "MMPB_2d99653f.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Trent Sandoval enjoys historical site tours, food tours, but dislikes mountain biking, zip-lining",
+                "In terms of lifestyle, Trent Sandoval enjoys hot yoga, pilates, but dislikes plant-based diet, home cooking",
+                "In terms of shopping, Trent Sandoval enjoys compact fitness equipment, desk organizers, but dislikes handmade crafts, vintage furniture",
+                "In terms of fashion, Trent Sandoval enjoys casual wear, minimalist outfits, but dislikes high heels, tight-fitting clothes."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "Watching action blockbusters",
+                "Doing pilates",
+                "Observing thriller flicks",
+                "Watching science fiction movies"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_television_politics_sports_21797d46",
+                    "insert_conversation_turn": 569
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_television_politics_sports_21797d46",
+                    "insert_conversation_turn": 555,
+                    "reference_name": "Fig. f7ecd60f"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_environment_art_and_design_a62fad4e",
+                    "insert_conversation_turn": 307
+                },
+                {
+                    "conversation_name": "group_chat_architecture_environment_art_and_design_a62fad4e",
+                    "insert_conversation_turn": 1060
+                },
+                {
+                    "conversation_name": "group_chat_architecture_environment_art_and_design_a62fad4e",
+                    "insert_conversation_turn": 1107
+                },
+                {
+                    "conversation_name": "group_chat_architecture_environment_art_and_design_a62fad4e",
+                    "insert_conversation_turn": 948
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Lee",
+            "description": "Lee presents a well-groomed and polished appearance, with a medium build and a height that suggests a commanding presence. His facial structure is characterized by a strong jawline and a slightly angular face, complemented by a smooth complexion. Lee's hair is consistently styled in a neat, slicked-back manner, adding to his refined look. His skin tone is fair, and he often maintains a neutral expression, with a slight hint of a smile that conveys confidence and approachability. The consistent grooming and posture across the images suggest a meticulous attention to detail and a professional demeanor.\n\n**Outfit and Accessories:**\nLee's attire is predominantly formal, featuring a mix of dark and light colors that exude sophistication. He is often seen in tailored suits, including a dark navy blue suit with a white shirt and a dark tie, and a beige suit paired with a white shirt. The suits are well-fitted, with a sharp cut that enhances his professional image. In one image, he wears a blue suit with a checkered shirt and a dark tie, adding a touch of pattern to his otherwise solid color palette. The presence of a Gucci logo on his suit sleeve in one image indicates a preference for high-end brands. His outfits are complemented by a white pocket square, adding a touch of elegance. The consistent choice of formal wear suggests a professional setting or a role that requires a polished appearance.\n\n**Distinguishing Visual Features or Vibe:**\nLee's visual identity is marked by a consistent theme of professionalism and elegance. His attire, characterized by a mix of dark and light colors, along with the occasional pattern, creates a sophisticated and polished look. The recurring presence of a Gucci logo adds a touch of luxury and brand recognition. His neat, slicked-back hair and well-groomed appearance contribute to a refined and approachable aura. The neutral expressions and slight smiles convey confidence and a composed demeanor. The combination of his formal attire, meticulous grooming, and subtle accessories creates a memorable and unmistakable visual identity that exudes professionalism and sophistication.",
+            "preference": "In terms of entertainment, Lee enjoys science fiction movies, animated films, but dislikes K-pop concerts, musicals. In terms of travel, Lee enjoys historical site tours, food tours, but dislikes mountain biking, zip-lining. In terms of lifestyle, Lee enjoys hot yoga, pilates, but dislikes plant-based diet, home cooking. In terms of shopping, Lee enjoys compact fitness equipment, desk organizers, but dislikes handmade crafts, vintage furniture. In terms of fashion, Lee enjoys casual wear, minimalist outfits, but dislikes high heels, tight-fitting clothes.",
+            "topic": [],
+            "original_id": "QA_sample_cccfa3f0",
+            "original_question": "the image, what is Trent Sandoval most likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_cccfa3f0_2",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. a8f5dc40, Among the activities that could reasonably occur in the given image, which one is Trent Sandoval least likely to be doing?",
+        "answer": "Watching K-pop concerts",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Trent Sandoval enjoys science fiction movies, animated films, but dislikes K-pop concerts, musicals"
+            ],
+            "image_evidence": [
+                "MMPB_925e6f93.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Trent Sandoval enjoys historical site tours, food tours, but dislikes mountain biking, zip-lining",
+                "In terms of lifestyle, Trent Sandoval enjoys hot yoga, pilates, but dislikes plant-based diet, home cooking",
+                "In terms of shopping, Trent Sandoval enjoys compact fitness equipment, desk organizers, but dislikes handmade crafts, vintage furniture",
+                "In terms of fashion, Trent Sandoval enjoys casual wear, minimalist outfits, but dislikes high heels, tight-fitting clothes."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "Enjoying live performances",
+                "Attending live music events",
+                "Watching K-pop concerts",
+                "Zip-lining"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_television_politics_sports_21797d46",
+                    "insert_conversation_turn": 569
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_television_politics_sports_21797d46",
+                    "insert_conversation_turn": 1231,
+                    "reference_name": "Fig. a8f5dc40"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_environment_art_and_design_a62fad4e",
+                    "insert_conversation_turn": 307
+                },
+                {
+                    "conversation_name": "group_chat_architecture_environment_art_and_design_a62fad4e",
+                    "insert_conversation_turn": 1060
+                },
+                {
+                    "conversation_name": "group_chat_architecture_environment_art_and_design_a62fad4e",
+                    "insert_conversation_turn": 1107
+                },
+                {
+                    "conversation_name": "group_chat_architecture_environment_art_and_design_a62fad4e",
+                    "insert_conversation_turn": 948
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Lee",
+            "description": "Lee presents a well-groomed and polished appearance, with a medium build and a height that suggests a commanding presence. His facial structure is characterized by a strong jawline and a slightly angular face, complemented by a smooth complexion. Lee's hair is consistently styled in a neat, slicked-back manner, adding to his refined look. His skin tone is fair, and he often maintains a neutral expression, with a slight hint of a smile that conveys confidence and approachability. The consistent grooming and posture across the images suggest a meticulous attention to detail and a professional demeanor.\n\n**Outfit and Accessories:**\nLee's attire is predominantly formal, featuring a mix of dark and light colors that exude sophistication. He is often seen in tailored suits, including a dark navy blue suit with a white shirt and a dark tie, and a beige suit paired with a white shirt. The suits are well-fitted, with a sharp cut that enhances his professional image. In one image, he wears a blue suit with a checkered shirt and a dark tie, adding a touch of pattern to his otherwise solid color palette. The presence of a Gucci logo on his suit sleeve in one image indicates a preference for high-end brands. His outfits are complemented by a white pocket square, adding a touch of elegance. The consistent choice of formal wear suggests a professional setting or a role that requires a polished appearance.\n\n**Distinguishing Visual Features or Vibe:**\nLee's visual identity is marked by a consistent theme of professionalism and elegance. His attire, characterized by a mix of dark and light colors, along with the occasional pattern, creates a sophisticated and polished look. The recurring presence of a Gucci logo adds a touch of luxury and brand recognition. His neat, slicked-back hair and well-groomed appearance contribute to a refined and approachable aura. The neutral expressions and slight smiles convey confidence and a composed demeanor. The combination of his formal attire, meticulous grooming, and subtle accessories creates a memorable and unmistakable visual identity that exudes professionalism and sophistication.",
+            "preference": "In terms of entertainment, Lee enjoys science fiction movies, animated films, but dislikes K-pop concerts, musicals. In terms of travel, Lee enjoys historical site tours, food tours, but dislikes mountain biking, zip-lining. In terms of lifestyle, Lee enjoys hot yoga, pilates, but dislikes plant-based diet, home cooking. In terms of shopping, Lee enjoys compact fitness equipment, desk organizers, but dislikes handmade crafts, vintage furniture. In terms of fashion, Lee enjoys casual wear, minimalist outfits, but dislikes high heels, tight-fitting clothes.",
+            "topic": [],
+            "original_id": "QA_sample_cccfa3f0",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Trent Sandoval least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_cccfa3f0_3",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. c6070410, Among the activities that could reasonably occur in the given image, which one is Trent Sandoval least likely to be doing?",
+        "answer": "Watching musicals",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Trent Sandoval enjoys science fiction movies, animated films, but dislikes K-pop concerts, musicals"
+            ],
+            "image_evidence": [
+                "MMPB_901d6391.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Trent Sandoval enjoys historical site tours, food tours, but dislikes mountain biking, zip-lining",
+                "In terms of lifestyle, Trent Sandoval enjoys hot yoga, pilates, but dislikes plant-based diet, home cooking",
+                "In terms of shopping, Trent Sandoval enjoys compact fitness equipment, desk organizers, but dislikes handmade crafts, vintage furniture",
+                "In terms of fashion, Trent Sandoval enjoys casual wear, minimalist outfits, but dislikes high heels, tight-fitting clothes."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "Enjoying live theater",
+                "Home cooking",
+                "Watching musicals",
+                "Attending opera performances"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_television_politics_sports_21797d46",
+                    "insert_conversation_turn": 569
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_environment_art_and_design_a62fad4e",
+                    "insert_conversation_turn": 1122,
+                    "reference_name": "Fig. c6070410"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_environment_art_and_design_a62fad4e",
+                    "insert_conversation_turn": 307
+                },
+                {
+                    "conversation_name": "group_chat_architecture_environment_art_and_design_a62fad4e",
+                    "insert_conversation_turn": 1060
+                },
+                {
+                    "conversation_name": "group_chat_architecture_environment_art_and_design_a62fad4e",
+                    "insert_conversation_turn": 1107
+                },
+                {
+                    "conversation_name": "group_chat_architecture_environment_art_and_design_a62fad4e",
+                    "insert_conversation_turn": 948
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Lee",
+            "description": "Lee presents a well-groomed and polished appearance, with a medium build and a height that suggests a commanding presence. His facial structure is characterized by a strong jawline and a slightly angular face, complemented by a smooth complexion. Lee's hair is consistently styled in a neat, slicked-back manner, adding to his refined look. His skin tone is fair, and he often maintains a neutral expression, with a slight hint of a smile that conveys confidence and approachability. The consistent grooming and posture across the images suggest a meticulous attention to detail and a professional demeanor.\n\n**Outfit and Accessories:**\nLee's attire is predominantly formal, featuring a mix of dark and light colors that exude sophistication. He is often seen in tailored suits, including a dark navy blue suit with a white shirt and a dark tie, and a beige suit paired with a white shirt. The suits are well-fitted, with a sharp cut that enhances his professional image. In one image, he wears a blue suit with a checkered shirt and a dark tie, adding a touch of pattern to his otherwise solid color palette. The presence of a Gucci logo on his suit sleeve in one image indicates a preference for high-end brands. His outfits are complemented by a white pocket square, adding a touch of elegance. The consistent choice of formal wear suggests a professional setting or a role that requires a polished appearance.\n\n**Distinguishing Visual Features or Vibe:**\nLee's visual identity is marked by a consistent theme of professionalism and elegance. His attire, characterized by a mix of dark and light colors, along with the occasional pattern, creates a sophisticated and polished look. The recurring presence of a Gucci logo adds a touch of luxury and brand recognition. His neat, slicked-back hair and well-groomed appearance contribute to a refined and approachable aura. The neutral expressions and slight smiles convey confidence and a composed demeanor. The combination of his formal attire, meticulous grooming, and subtle accessories creates a memorable and unmistakable visual identity that exudes professionalism and sophistication.",
+            "preference": "In terms of entertainment, Lee enjoys science fiction movies, animated films, but dislikes K-pop concerts, musicals. In terms of travel, Lee enjoys historical site tours, food tours, but dislikes mountain biking, zip-lining. In terms of lifestyle, Lee enjoys hot yoga, pilates, but dislikes plant-based diet, home cooking. In terms of shopping, Lee enjoys compact fitness equipment, desk organizers, but dislikes handmade crafts, vintage furniture. In terms of fashion, Lee enjoys casual wear, minimalist outfits, but dislikes high heels, tight-fitting clothes.",
+            "topic": [],
+            "original_id": "QA_sample_cccfa3f0",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Trent Sandoval least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_94320d57_1",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 256e156e, Among the activities that could reasonably occur in the given image, which one is Amiah Sweeney least likely to be doing?",
+        "answer": "Watching a video of a street performance",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Amiah Sweeney enjoys theater performances, film festivals, but dislikes improv comedy, street performances",
+                "In terms of travel, Amiah Sweeney enjoys hiking, scuba diving, but dislikes cruise vacations, solo travel"
+            ],
+            "image_evidence": [
+                "MMPB_81ebaeeb.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of lifestyle, Amiah Sweeney enjoys home gardening, night owl lifestyle, but dislikes acupuncture, infrared sauna therapy",
+                "In terms of shopping, Amiah Sweeney enjoys handmade crafts, vintage furniture, but dislikes Bluetooth speakers, wireless charging stations",
+                "In terms of fashion, Amiah Sweeney enjoys plaid patterns, monochrome outfits, but dislikes futuristic fashion, gothic clothing."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "Observing a live theater act.",
+                "Planning cruise vacation",
+                "Viewing a k-pop concert.",
+                "Watching a video of a street performance"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_television_politics_sports_21797d46",
+                    "insert_conversation_turn": 540
+                },
+                {
+                    "conversation_name": "group_chat_television_politics_sports_21797d46",
+                    "insert_conversation_turn": 1091
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_transportation_music_lifestyle_94d2e9f5",
+                    "insert_conversation_turn": 1264,
+                    "reference_name": "Fig. 256e156e"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_environment_art_and_design_a62fad4e",
+                    "insert_conversation_turn": 576
+                },
+                {
+                    "conversation_name": "group_chat_transportation_music_lifestyle_94d2e9f5",
+                    "insert_conversation_turn": 1000
+                },
+                {
+                    "conversation_name": "group_chat_television_politics_sports_21797d46",
+                    "insert_conversation_turn": 526
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Jisu",
+            "description": "Jisu is a young woman with a slender build and an impression of average height. Her facial structure is characterized by a delicate jawline and a slightly rounded face, with prominent, expressive eyes and a well-defined nose. Jisu has a fair skin tone and long, straight hair that falls past her shoulders, often styled in a natural, flowing manner. Her hair color varies slightly across the images, ranging from dark brown to a lighter shade, adding versatility to her appearance. Jisu frequently displays a gentle smile, with her lips painted in a soft, natural shade, and her expressions convey a sense of warmth and approachability. Her poses are relaxed and confident, often captured in mid-gesture, such as waving or holding a microphone, which adds a dynamic quality to her presence.\n\n**Outfit and Accessories:**\nJisu's attire is diverse yet consistently stylish, reflecting a blend of casual and elegant elements. She is often seen in a mix of textures and colors, including a brown knitted cardigan over a leopard print shirt, a denim jacket, and a white lace top. The color palette ranges from earthy tones to vibrant blues, showcasing her versatility. Her outfits are practical yet fashionable, with a focus on comfort and style. Accessories play a significant role in her look, including a silver necklace with a circular pendant, a black shoulder bag, and a smartphone, which she holds in one of the images. These accessories add a touch of sophistication and personal flair to her overall appearance.\n\n**Distinguishing Visual Features or Vibe:**\nJisu exudes a unique and memorable presence, characterized by her long, straight hair and expressive eyes. Her style is a blend of casual and chic, with a focus on comfort and personal expression. The recurring theme of her outfits, which includes a mix of textures and colors, adds depth to her visual identity. The use of accessories, such as the silver necklace and black bag, enhances her look and adds a touch of elegance. Jisu's aura is one of warmth and approachability, with her gentle smile and relaxed poses conveying a sense of confidence and poise. Her ability to transition seamlessly between different settings, from casual to more formal environments, highlights her adaptability and versatility. Overall, Jisu's visual identity is defined by her stylish yet approachable appearance, making her instantly recognizable and memorable.",
+            "preference": "In terms of entertainment, Jisu enjoys theater performances, film festivals, but dislikes improv comedy, street performances. In terms of travel, Jisu enjoys hiking, scuba diving, but dislikes cruise vacations, solo travel. In terms of lifestyle, Jisu enjoys home gardening, night owl lifestyle, but dislikes acupuncture, infrared sauna therapy. In terms of shopping, Jisu enjoys handmade crafts, vintage furniture, but dislikes Bluetooth speakers, wireless charging stations. In terms of fashion, Jisu enjoys plaid patterns, monochrome outfits, but dislikes futuristic fashion, gothic clothing.",
+            "topic": [],
+            "original_id": "QA_sample_94320d57",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Amiah Sweeney least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_94320d57_2",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 4b03e75f, Among the activities that could reasonably occur in the given image, which one is Amiah Sweeney least likely to be doing?",
+        "answer": "Watching a video of a street performance",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Amiah Sweeney enjoys theater performances, film festivals, but dislikes improv comedy, street performances",
+                "In terms of travel, Amiah Sweeney enjoys hiking, scuba diving, but dislikes cruise vacations, solo travel"
+            ],
+            "image_evidence": [
+                "MMPB_2d99653f.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of lifestyle, Amiah Sweeney enjoys home gardening, night owl lifestyle, but dislikes acupuncture, infrared sauna therapy",
+                "In terms of shopping, Amiah Sweeney enjoys handmade crafts, vintage furniture, but dislikes Bluetooth speakers, wireless charging stations",
+                "In terms of fashion, Amiah Sweeney enjoys plaid patterns, monochrome outfits, but dislikes futuristic fashion, gothic clothing."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "Booking a room for infrared sauna therapy",
+                "Observing a live concert.",
+                "Watching a video of a street performance",
+                "Viewing a theatrical performance."
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_television_politics_sports_21797d46",
+                    "insert_conversation_turn": 540
+                },
+                {
+                    "conversation_name": "group_chat_television_politics_sports_21797d46",
+                    "insert_conversation_turn": 1091
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_transportation_music_lifestyle_94d2e9f5",
+                    "insert_conversation_turn": 169,
+                    "reference_name": "Fig. 4b03e75f"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_environment_art_and_design_a62fad4e",
+                    "insert_conversation_turn": 576
+                },
+                {
+                    "conversation_name": "group_chat_transportation_music_lifestyle_94d2e9f5",
+                    "insert_conversation_turn": 1000
+                },
+                {
+                    "conversation_name": "group_chat_television_politics_sports_21797d46",
+                    "insert_conversation_turn": 526
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Jisu",
+            "description": "Jisu is a young woman with a slender build and an impression of average height. Her facial structure is characterized by a delicate jawline and a slightly rounded face, with prominent, expressive eyes and a well-defined nose. Jisu has a fair skin tone and long, straight hair that falls past her shoulders, often styled in a natural, flowing manner. Her hair color varies slightly across the images, ranging from dark brown to a lighter shade, adding versatility to her appearance. Jisu frequently displays a gentle smile, with her lips painted in a soft, natural shade, and her expressions convey a sense of warmth and approachability. Her poses are relaxed and confident, often captured in mid-gesture, such as waving or holding a microphone, which adds a dynamic quality to her presence.\n\n**Outfit and Accessories:**\nJisu's attire is diverse yet consistently stylish, reflecting a blend of casual and elegant elements. She is often seen in a mix of textures and colors, including a brown knitted cardigan over a leopard print shirt, a denim jacket, and a white lace top. The color palette ranges from earthy tones to vibrant blues, showcasing her versatility. Her outfits are practical yet fashionable, with a focus on comfort and style. Accessories play a significant role in her look, including a silver necklace with a circular pendant, a black shoulder bag, and a smartphone, which she holds in one of the images. These accessories add a touch of sophistication and personal flair to her overall appearance.\n\n**Distinguishing Visual Features or Vibe:**\nJisu exudes a unique and memorable presence, characterized by her long, straight hair and expressive eyes. Her style is a blend of casual and chic, with a focus on comfort and personal expression. The recurring theme of her outfits, which includes a mix of textures and colors, adds depth to her visual identity. The use of accessories, such as the silver necklace and black bag, enhances her look and adds a touch of elegance. Jisu's aura is one of warmth and approachability, with her gentle smile and relaxed poses conveying a sense of confidence and poise. Her ability to transition seamlessly between different settings, from casual to more formal environments, highlights her adaptability and versatility. Overall, Jisu's visual identity is defined by her stylish yet approachable appearance, making her instantly recognizable and memorable.",
+            "preference": "In terms of entertainment, Jisu enjoys theater performances, film festivals, but dislikes improv comedy, street performances. In terms of travel, Jisu enjoys hiking, scuba diving, but dislikes cruise vacations, solo travel. In terms of lifestyle, Jisu enjoys home gardening, night owl lifestyle, but dislikes acupuncture, infrared sauna therapy. In terms of shopping, Jisu enjoys handmade crafts, vintage furniture, but dislikes Bluetooth speakers, wireless charging stations. In terms of fashion, Jisu enjoys plaid patterns, monochrome outfits, but dislikes futuristic fashion, gothic clothing.",
+            "topic": [],
+            "original_id": "QA_sample_94320d57",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Amiah Sweeney least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_94320d57_3",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. a7eba13e, Among the activities that could reasonably occur in the given image, which one is Amiah Sweeney least likely to be doing?",
+        "answer": "Attending a improv comedy show",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Amiah Sweeney enjoys theater performances, film festivals, but dislikes improv comedy, street performances",
+                "In terms of travel, Amiah Sweeney enjoys hiking, scuba diving, but dislikes cruise vacations, solo travel"
+            ],
+            "image_evidence": [
+                "MMPB_9ab3a64b.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of lifestyle, Amiah Sweeney enjoys home gardening, night owl lifestyle, but dislikes acupuncture, infrared sauna therapy",
+                "In terms of shopping, Amiah Sweeney enjoys handmade crafts, vintage furniture, but dislikes Bluetooth speakers, wireless charging stations",
+                "In terms of fashion, Amiah Sweeney enjoys plaid patterns, monochrome outfits, but dislikes futuristic fashion, gothic clothing."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Attending a improv comedy show",
+                "Buying Bluetooth speakers",
+                "Enjoying a musical concert",
+                "Watching a live theater performance"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_television_politics_sports_21797d46",
+                    "insert_conversation_turn": 540
+                },
+                {
+                    "conversation_name": "group_chat_television_politics_sports_21797d46",
+                    "insert_conversation_turn": 1091
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_transportation_music_lifestyle_94d2e9f5",
+                    "insert_conversation_turn": 298,
+                    "reference_name": "Fig. a7eba13e"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_environment_art_and_design_a62fad4e",
+                    "insert_conversation_turn": 576
+                },
+                {
+                    "conversation_name": "group_chat_transportation_music_lifestyle_94d2e9f5",
+                    "insert_conversation_turn": 1000
+                },
+                {
+                    "conversation_name": "group_chat_television_politics_sports_21797d46",
+                    "insert_conversation_turn": 526
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Jisu",
+            "description": "Jisu is a young woman with a slender build and an impression of average height. Her facial structure is characterized by a delicate jawline and a slightly rounded face, with prominent, expressive eyes and a well-defined nose. Jisu has a fair skin tone and long, straight hair that falls past her shoulders, often styled in a natural, flowing manner. Her hair color varies slightly across the images, ranging from dark brown to a lighter shade, adding versatility to her appearance. Jisu frequently displays a gentle smile, with her lips painted in a soft, natural shade, and her expressions convey a sense of warmth and approachability. Her poses are relaxed and confident, often captured in mid-gesture, such as waving or holding a microphone, which adds a dynamic quality to her presence.\n\n**Outfit and Accessories:**\nJisu's attire is diverse yet consistently stylish, reflecting a blend of casual and elegant elements. She is often seen in a mix of textures and colors, including a brown knitted cardigan over a leopard print shirt, a denim jacket, and a white lace top. The color palette ranges from earthy tones to vibrant blues, showcasing her versatility. Her outfits are practical yet fashionable, with a focus on comfort and style. Accessories play a significant role in her look, including a silver necklace with a circular pendant, a black shoulder bag, and a smartphone, which she holds in one of the images. These accessories add a touch of sophistication and personal flair to her overall appearance.\n\n**Distinguishing Visual Features or Vibe:**\nJisu exudes a unique and memorable presence, characterized by her long, straight hair and expressive eyes. Her style is a blend of casual and chic, with a focus on comfort and personal expression. The recurring theme of her outfits, which includes a mix of textures and colors, adds depth to her visual identity. The use of accessories, such as the silver necklace and black bag, enhances her look and adds a touch of elegance. Jisu's aura is one of warmth and approachability, with her gentle smile and relaxed poses conveying a sense of confidence and poise. Her ability to transition seamlessly between different settings, from casual to more formal environments, highlights her adaptability and versatility. Overall, Jisu's visual identity is defined by her stylish yet approachable appearance, making her instantly recognizable and memorable.",
+            "preference": "In terms of entertainment, Jisu enjoys theater performances, film festivals, but dislikes improv comedy, street performances. In terms of travel, Jisu enjoys hiking, scuba diving, but dislikes cruise vacations, solo travel. In terms of lifestyle, Jisu enjoys home gardening, night owl lifestyle, but dislikes acupuncture, infrared sauna therapy. In terms of shopping, Jisu enjoys handmade crafts, vintage furniture, but dislikes Bluetooth speakers, wireless charging stations. In terms of fashion, Jisu enjoys plaid patterns, monochrome outfits, but dislikes futuristic fashion, gothic clothing.",
+            "topic": [],
+            "original_id": "QA_sample_94320d57",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Amiah Sweeney least likely to be doing?"
+        }
+    }
+]

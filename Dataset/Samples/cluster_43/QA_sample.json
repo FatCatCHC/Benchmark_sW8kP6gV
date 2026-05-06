@@ -1,0 +1,1311 @@
+[
+    {
+        "id": "FC_sample_8c86c8c0",
+        "domain": "M3_Bench",
+        "category": "Function_Call",
+        "question": "Based on Fig. ae7e0a49, What is the geographic location of the city shown in this image?",
+        "answer": [
+            {
+                "step": 1,
+                "calls": [
+                    {
+                        "name": "GOOGLE_MAPS_geocode",
+                        "arguments": {
+                            "address": "Bangkok, Thailand"
+                        }
+                    }
+                ]
+            }
+        ],
+        "evidence": {
+            "text_evidence": [
+                "City air pollution heatmap generation\n\nTo generate an air pollution heatmap for a city identified from an image, first use a geocoding service to determine the geographic coordinates of the city. Once the coordinates are obtained, generate a static map centered on the city at an appropriate zoom level to serve as the base. Finally, retrieve and overlay a PM2.5 air quality heatmap tile using the US AQI index for the same area, allowing visualization of air pollution levels across the city. This workflow integrates mapping and air quality data to provide a clear visual representation of pollution distribution."
+            ],
+            "image_evidence": [
+                "M3_bench_8c86c8c0.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {},
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_nature_animals_health_918aa03e",
+                    "insert_conversation_turn": 238
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_sports_television_1326f393",
+                    "insert_conversation_turn": 703,
+                    "reference_name": "Fig. ae7e0a49"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "function_call": [
+                {
+                    "function_name": "GOOGLE_MAPS_geocode",
+                    "function_comment": "Forward geocode a human-readable address using Google Geocoding API.\nArgs:\n  address (str): Free-text address to geocode.\n  region (Optional[str]): Region bias such as \"us\".\n  language (Optional[str]): Response language code such as \"en\".\nReturns:\n  data (Dict[str, Any]): JSON with endpoint, request parameters, and API response."
+                }
+            ],
+            "instruction": "First, use the geocoding service to obtain the coordinates for the city identified from this image. Next, generate a static map of the city at zoom level 10 to serve as the base. Then, retrieve the PM2.5 air quality heatmap tile using the US AQI index to overlay air pollution data on the map.",
+            "workflow_description": "City air pollution heatmap generation\n\nTo generate an air pollution heatmap for a city identified from an image, first use a geocoding service to determine the geographic coordinates of the city. Once the coordinates are obtained, generate a static map centered on the city at an appropriate zoom level to serve as the base. Finally, retrieve and overlay a PM2.5 air quality heatmap tile using the US AQI index for the same area, allowing visualization of air pollution levels across the city. This workflow integrates mapping and air quality data to provide a clear visual representation of pollution distribution.",
+            "topic": [
+                "environment",
+                " technology"
+            ],
+            "original_question": "What is the geographic location of the city shown in this image?"
+        },
+        "original_reference_question": "Based on Fig. ae7e0a49, What is the geographic location of the city shown in this image?"
+    },
+    {
+        "id": "QA_sample_2805ec05",
+        "domain": "MLLMKC",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. 469de830, When was the brand associated with the logo established?",
+        "answer": "1854",
+        "evidence": {
+            "text_evidence": [
+                "Louis Vuitton was founded in 1854. The creator of Louis Vuitton is Louis Vuitton. Louis Vuitton is the brand of luxury goods."
+            ],
+            "image_evidence": [
+                "MLLMKC_89937b0f.jpg"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Louis Vuitton was founded in 1857. The creator of Louis Vuitton is Louis Vuitton. Louis Vuitton is the brand of luxury goods."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "1853",
+                "1851",
+                "1857",
+                "1854"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_sports_television_1326f393",
+                    "insert_conversation_turn": 831
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_technology_education_architecture_1195c398",
+                    "insert_conversation_turn": 111,
+                    "reference_name": "Fig. 469de830"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_nature_animals_health_918aa03e",
+                    "insert_conversation_turn": 399
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "instance": "Louis Vuitton",
+            "category": "logo",
+            "error_type": "time_error",
+            "topic": [
+                "fashion",
+                " business",
+                " history"
+            ],
+            "original_question": "When was the brand associated with the logo established?"
+        }
+    },
+    {
+        "id": "FC_sample_5fb31fc2",
+        "domain": "M3_Bench",
+        "category": "Function_Call",
+        "question": "Based on Fig. a094244c, What is the geographic location of the city shown in this image?",
+        "answer": [
+            {
+                "step": 1,
+                "calls": [
+                    {
+                        "name": "GOOGLE_MAPS_geocode",
+                        "arguments": {
+                            "address": "Beijing, China"
+                        }
+                    }
+                ]
+            }
+        ],
+        "evidence": {
+            "text_evidence": [
+                "City air pollution heatmap generation\n\nTo generate an air pollution heatmap for a city identified from an image, first use a geocoding service to determine the geographic coordinates of the city. Once the coordinates are obtained, generate a static map centered on the city at an appropriate zoom level to serve as the base. Finally, retrieve and overlay a PM2.5 air quality heatmap tile using the US AQI index for the same area, allowing visualization of air pollution levels across the city. This workflow integrates mapping and air quality data to provide a clear visual representation of pollution distribution."
+            ],
+            "image_evidence": [
+                "M3_bench_5fb31fc2.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {},
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_technology_education_architecture_1195c398",
+                    "insert_conversation_turn": 524
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_nature_animals_health_918aa03e",
+                    "insert_conversation_turn": 76,
+                    "reference_name": "Fig. a094244c"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "function_call": [
+                {
+                    "function_name": "GOOGLE_MAPS_geocode",
+                    "function_comment": "Forward geocode a human-readable address using Google Geocoding API.\nArgs:\n  address (str): Free-text address to geocode.\n  region (Optional[str]): Region bias such as \"us\".\n  language (Optional[str]): Response language code such as \"en\".\nReturns:\n  data (Dict[str, Any]): JSON with endpoint, request parameters, and API response."
+                }
+            ],
+            "instruction": "First, use a geocoding service to obtain the geographic coordinates of the city identified from this image. Next, generate a static map centered on those coordinates with an appropriate zoom level. Finally, retrieve and overlay a PM2.5 air quality heatmap tile for the same area, using the US AQI index for visualization.",
+            "workflow_description": "City air pollution heatmap generation\n\nTo generate an air pollution heatmap for a city identified from an image, first use a geocoding service to determine the geographic coordinates of the city. Once the coordinates are obtained, generate a static map centered on the city at an appropriate zoom level to serve as the base. Finally, retrieve and overlay a PM2.5 air quality heatmap tile using the US AQI index for the same area, allowing visualization of air pollution levels across the city. This workflow integrates mapping and air quality data to provide a clear visual representation of pollution distribution.",
+            "topic": [
+                "environment",
+                " technology"
+            ],
+            "original_question": "What is the geographic location of the city shown in this image?"
+        },
+        "original_reference_question": "Based on Fig. a094244c, What is the geographic location of the city shown in this image?"
+    },
+    {
+        "id": "QA_sample_3089d7bf",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. bbc5576c, the text, what are the \"required environmental sustainability KPI thresholds\" a company must meet to qualify for evaluation on its corporate average data efficiency according to the dashboard?",
+        "answer": "Hazardous waste must be below 30%, recycled printed paper must exceed 70%, and municipal solid waste recycling rates must consistently improve each year.",
+        "evidence": {
+            "text_evidence": [
+                "An environmental sustainability KPI dashboard considers a company to be performing ideally if hazardous waste levels are below 30%, recycled printed paper exceeds 70%, and municipal solid waste recycling grows consistently each year. The corporate average data efficiency is only evaluated if these three criteria are met."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_908a5c94.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "Hazardous waste must be below 35%, recycled printed paper must exceed 75%, and municipal solid waste recycling rates must follow a declining trend every year",
+                "Hazardous waste must be below 25%, recycled printed paper must exceed 80%, and municipal solid waste recycling rates must remain steady each year",
+                "Hazardous waste must be below 30%, recycled printed paper must exceed 70%, and municipal solid waste recycling rates must consistently improve each year.",
+                "Hazardous waste must be below 20%, recycled printed paper must exceed 60%, and municipal solid waste recycling rates must increase every three years"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_technology_education_architecture_1195c398",
+                    "insert_conversation_turn": 63
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_nature_animals_health_918aa03e",
+                    "insert_conversation_turn": 265,
+                    "reference_name": "Fig. bbc5576c"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "environment"
+            ],
+            "original_question": "the text, what are the \"required environmental sustainability KPI thresholds\" a company must meet to qualify for evaluation on its corporate average data efficiency according to the dashboard?"
+        }
+    },
+    {
+        "id": "QA_sample_fdfd306a",
+        "domain": "MLLMKC",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. ff4e545f, What are the main products of this brand?",
+        "answer": "sunglasses",
+        "evidence": {
+            "text_evidence": [
+                "Ray-Ban was created in 1937. The creator of Ray-Ban is Bausch & Lomb. Ray-Ban is the brand of sunglasses."
+            ],
+            "image_evidence": [
+                "MLLMKC_2efa9dfc.jpg"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Ray-Ban was created in 1937. The creator of Ray-Ban is Bausch & Lomb. Ray-Ban is the brand of watches."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "handbags",
+                "sunglasses",
+                "watches",
+                "perfumes"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_technology_education_architecture_1195c398",
+                    "insert_conversation_turn": 129
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_sports_television_1326f393",
+                    "insert_conversation_turn": 362,
+                    "reference_name": "Fig. ff4e545f"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_nature_animals_health_918aa03e",
+                    "insert_conversation_turn": 223
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "instance": "Ray-Ban",
+            "category": "logo",
+            "error_type": "content_error",
+            "topic": [
+                "fashion"
+            ],
+            "original_question": "What are the main products of this brand?"
+        }
+    },
+    {
+        "id": "QA_sample_e4a3f361",
+        "domain": "MLLMKC",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. e24f8666, What are the main products of this brand?",
+        "answer": "luxury fashion",
+        "evidence": {
+            "text_evidence": [
+                "Versace was founded in 1978. The creator of Versace is Gianni Versace. Versace is the production of luxury fashion brand."
+            ],
+            "image_evidence": [
+                "MLLMKC_a9bf3da5.jpg"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Versace was founded in 1978. The creator of Versace is Gianni Versace. Versace is the production of luxury automobiles."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "luxury fashion",
+                "luxury automobiles",
+                "premium skincare products",
+                "high-end kitchen appliances"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_nature_animals_health_918aa03e",
+                    "insert_conversation_turn": 61
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_technology_education_architecture_1195c398",
+                    "insert_conversation_turn": 580,
+                    "reference_name": "Fig. e24f8666"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_sports_television_1326f393",
+                    "insert_conversation_turn": 92
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "instance": "Versace",
+            "category": "logo",
+            "error_type": "content_error",
+            "topic": [
+                "fashion"
+            ],
+            "original_question": "What are the main products of this brand?"
+        }
+    },
+    {
+        "id": "QA_sample_4b4cda08",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 114350e4, According to the text, if the government wants to reduce the \"most expensive energy source\" by 20% and increase \"renewable energy usage\" proportionally, which changes will occur to the proportions of these energy sources?",
+        "answer": "The proportion of the 'Nuclear' energy source, the most expensive at 7.9 cents per Kwh, will decrease by 5% (25% × 20%), and renewable energy usage will increase by 5%, going from 35% to 40%.",
+        "evidence": {
+            "text_evidence": [
+                "In this dashboard, energy costs for renewable sources (shown in production costs graphs) are the lowest compared to other types. If the government implements a policy requiring a 20% reduction in reliance on the most expensive energy source, it would also aim to increase renewable energy usage proportionally to the reduced usage of the expensive source. Assume the distribution of energy sources in 2018 applies to the current data for estimation purposes."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_19c0b056.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "The proportion of the 'Nuclear' energy source, the most expensive at 7.9 cents per Kwh, will decrease by 5% (25% × 20%), and renewable energy usage will increase by 5%, going from 35% to 40%.",
+                "The proportion of the 'Brown Coal' energy source will decrease by 5%, and renewable energy usage will increase by 5%, going from 35% to 40%",
+                "The proportion of the 'Gas' energy source will decrease by 5%, and renewable energy usage will increase by 5%, going from 35% to 40%",
+                "The proportion of the 'Traffic' sector's energy consumption will decrease by 5%, and renewable energy usage will increase by 5%, going from 35% to 40%"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_technology_education_architecture_1195c398",
+                    "insert_conversation_turn": 791
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_nature_animals_health_918aa03e",
+                    "insert_conversation_turn": 574,
+                    "reference_name": "Fig. 114350e4"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "environment",
+                "government",
+                "economy"
+            ],
+            "original_question": "According to the text, if the government wants to reduce the \"most expensive energy source\" by 20% and increase \"renewable energy usage\" proportionally, which changes will occur to the proportions of these energy sources?"
+        }
+    },
+    {
+        "id": "QA_sample_5a48ae5f",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 71b47958, the text, what percentage of fire alerts come from \"zones that are not officially designated for industrial activities,\" and why are these regions significant?",
+        "answer": "60% of fire alerts come from regions outside concessions, which are significant because they are not officially designated for industrial activities.",
+        "evidence": {
+            "text_evidence": [
+                "In areas where fire alerts occur, outside concessions represent zones that are not officially designated for industrial activities such as mining, palm oil plantations, pulpwood, or logging. Recently, policymakers have highlighted regions marked as 'outside concessions' for stricter monitoring since they are contributing significantly to the overall number of fire alerts."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_186f6dda.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "24% of fire alerts come from regions used for pulpwood",
+                "60% of fire alerts come from regions outside concessions, which are significant because they are not officially designated for industrial activities.",
+                "4% of fire alerts come from logging areas",
+                "10% of fire alerts come from regions used for palm oil plantations"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_technology_education_architecture_1195c398",
+                    "insert_conversation_turn": 369
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_sports_television_1326f393",
+                    "insert_conversation_turn": 170,
+                    "reference_name": "Fig. 71b47958"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "environment"
+            ],
+            "original_question": "the text, what percentage of fire alerts come from \"zones that are not officially designated for industrial activities,\" and why are these regions significant?"
+        }
+    },
+    {
+        "id": "FC_sample_0780fc41",
+        "domain": "M3_Bench",
+        "category": "Function_Call",
+        "question": "Based on Fig. 0d3d0e7c, What is the geographic location of the city shown in this image?",
+        "answer": [
+            {
+                "step": 1,
+                "calls": [
+                    {
+                        "name": "GOOGLE_MAPS_geocode",
+                        "arguments": {
+                            "address": "Tokyo, Japan"
+                        }
+                    }
+                ]
+            }
+        ],
+        "evidence": {
+            "text_evidence": [
+                "City air pollution heatmap generation\n\nTo generate an air pollution heatmap for a city identified from an image, first use a geocoding service to determine the geographic coordinates of the city. Once the coordinates are obtained, generate a static map centered on the city at an appropriate zoom level to serve as the base. Finally, retrieve and overlay a PM2.5 air quality heatmap tile using the US AQI index for the same area, allowing visualization of air pollution levels across the city. This workflow integrates mapping and air quality data to provide a clear visual representation of pollution distribution."
+            ],
+            "image_evidence": [
+                "M3_bench_0780fc41.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {},
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_sports_television_1326f393",
+                    "insert_conversation_turn": 155
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_technology_education_architecture_1195c398",
+                    "insert_conversation_turn": 484,
+                    "reference_name": "Fig. 0d3d0e7c"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "function_call": [
+                {
+                    "function_name": "GOOGLE_MAPS_geocode",
+                    "function_comment": "Forward geocode a human-readable address using Google Geocoding API.\nArgs:\n  address (str): Free-text address to geocode.\n  region (Optional[str]): Region bias such as \"us\".\n  language (Optional[str]): Response language code such as \"en\".\nReturns:\n  data (Dict[str, Any]): JSON with endpoint, request parameters, and API response."
+                }
+            ],
+            "instruction": "First, use geocoding to obtain the coordinates of the city identified from the image. Next, generate a static base map of the city at a zoom level of 10. Then, retrieve and overlay the PM2.5 air quality heatmap tile using the US AQI index to visualize air pollution levels for the area.",
+            "workflow_description": "City air pollution heatmap generation\n\nTo generate an air pollution heatmap for a city identified from an image, first use a geocoding service to determine the geographic coordinates of the city. Once the coordinates are obtained, generate a static map centered on the city at an appropriate zoom level to serve as the base. Finally, retrieve and overlay a PM2.5 air quality heatmap tile using the US AQI index for the same area, allowing visualization of air pollution levels across the city. This workflow integrates mapping and air quality data to provide a clear visual representation of pollution distribution.",
+            "topic": [
+                "environment",
+                " technology"
+            ],
+            "original_question": "What is the geographic location of the city shown in this image?"
+        },
+        "original_reference_question": "Based on Fig. 0d3d0e7c, What is the geographic location of the city shown in this image?"
+    },
+    {
+        "id": "QA_sample_f28cd9c5",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 4cf13811, the text, which OPEC member countries had proven crude oil reserves below the \"minimum proven crude oil reserve required to ensure energy security for the next two decades\" as defined by the International Energy Agency in 2015?",
+        "answer": "Ecuador, Gabon, Indonesia.",
+        "evidence": {
+            "text_evidence": [
+                "The International Energy Agency (IEA) has estimated that countries need to maintain a minimum proven crude oil reserve equivalent to 20 billion barrels to ensure energy security for the next two decades. Countries not meeting this threshold are considered at risk of future energy shortages unless alternative strategies are developed."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_82ca9cc4.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "Libya",
+                "Qatar",
+                "Angola",
+                "Ecuador, Gabon, Indonesia."
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_nature_animals_health_918aa03e",
+                    "insert_conversation_turn": 487
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_technology_education_architecture_1195c398",
+                    "insert_conversation_turn": 90,
+                    "reference_name": "Fig. 4cf13811"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "economy",
+                "environment"
+            ],
+            "original_question": "the text, which OPEC member countries had proven crude oil reserves below the \"minimum proven crude oil reserve required to ensure energy security for the next two decades\" as defined by the International Energy Agency in 2015?"
+        }
+    },
+    {
+        "id": "QA_sample_803b5a41",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 054c1f71, the text, what is the \"production target for 2020,\" and does the trend from 2014 to 2017 suggest it is achievable according to the previous definition of evaluating progress?",
+        "answer": "The 2020 target is 15 million tons. Yes, the trend shows consistent annual increases, with 2017 production reaching approximately 12 million tons, suggesting achievement is possible if the trend continues.",
+        "evidence": {
+            "text_evidence": [
+                "The target for production in 2020 is to reach 15 million tons, as indicated in the chart. The proportion of establishments by industry group contributes variously to agricultural output, with Animal Production contributing 30%, Growing of Non-Perennial Crops at 25%, and other sectors following. To evaluate progress in meeting the production target, we need to compare the current production trend against the 2020 target value."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_6b56b6bd.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "The 2020 target is 15 million tons. Yes, the trend shows consistent annual increases, with 2017 production reaching approximately 12 million tons, suggesting achievement is possible if the trend continues.",
+                "The 2020 target is 18 million tons No the trend does not indicate sufficient growth for achieving the goal",
+                "The 2020 target is 10 million tons Yes the trend suggests steady growth but falls short of the target",
+                "The 2020 target is 12 million tons Yes the trend suggests it may not be achievable without significant increases"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_sports_television_1326f393",
+                    "insert_conversation_turn": 20
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_technology_education_architecture_1195c398",
+                    "insert_conversation_turn": 719,
+                    "reference_name": "Fig. 054c1f71"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "business",
+                "economy",
+                "environment"
+            ],
+            "original_question": "the text, what is the \"production target for 2020,\" and does the trend from 2014 to 2017 suggest it is achievable according to the previous definition of evaluating progress?"
+        }
+    },
+    {
+        "id": "QA_sample_40742b87",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 49b64565, the text, which \"sustainability goal\" has not been met according to the organization's \"targets\" and the dashboard data?",
+        "answer": "The reduction of hazardous operational waste below 25%.",
+        "evidence": {
+            "text_evidence": [
+                "An organization has set a target to ensure that at least 75% of printed paper is recycled and to reduce hazardous operational waste to below 25%. Additionally, corporate average data efficiency must be maintained at no less than 80% to meet the company's sustainability benchmarks."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_a2613048.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "The recycling of printed paper below 75 percent",
+                "The reduction of hazardous operational waste below 25%.",
+                "The increase of corporate average data efficiency below 80 percent",
+                "The hazardous waste reduction target to 30 percent"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_nature_animals_health_918aa03e",
+                    "insert_conversation_turn": 809
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_sports_television_1326f393",
+                    "insert_conversation_turn": 141,
+                    "reference_name": "Fig. 49b64565"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "environment"
+            ],
+            "original_question": "the text, which \"sustainability goal\" has not been met according to the organization's \"targets\" and the dashboard data?"
+        }
+    },
+    {
+        "id": "QA_sample_53b4204e",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. ec60a0b4, the text, which port exceeded the threshold for \"stricter regulations\" by disposing more than 5 million cubic meters of dredge material in a single year, according to the chart?",
+        "answer": "Hay Point",
+        "evidence": {
+            "text_evidence": [
+                "The government has considered imposing stricter regulations on ports that dispose more than 5 million cubic meters of dredge material in a single year. These regulations would apply retroactively based on disposal data from 2001 to 2013 shown in the chart."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_07b09da9.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Hay Point",
+                "Abbot Point",
+                "Gladstone",
+                "Townsville"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_technology_education_architecture_1195c398",
+                    "insert_conversation_turn": 704
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_sports_television_1326f393",
+                    "insert_conversation_turn": 126,
+                    "reference_name": "Fig. ec60a0b4"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "environment",
+                "government"
+            ],
+            "original_question": "the text, which port exceeded the threshold for \"stricter regulations\" by disposing more than 5 million cubic meters of dredge material in a single year, according to the chart?"
+        }
+    },
+    {
+        "id": "QA_sample_271349d9",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. d1c12227, the text, what is Turkey's status regarding \"high-impact emissions,\" and has Turkey committed to implementing reductions as expected for countries that have \"signed but not ratified the Paris Agreement\"?",
+        "answer": "Turkey's emissions per capita in 2015 were 7 tons, which does not qualify as 'high-impact emissions.' Turkey has signed the Paris Agreement and pledged to reduce emissions by 21% by 2030, though it has not ratified the deal.",
+        "evidence": {
+            "text_evidence": [
+                "Countries with a carbon emissions per capita value higher than 10 tons are considered to have 'high-impact emissions,' largely contributing to global greenhouse gas levels. Additionally, governments that have signed but not ratified the Paris Agreement are expected to implement reductions to meet the expected target set forth by the agreement guidelines."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_80e0d11a.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Turkey's emissions per capita in 2015 were 7.7 tons, which qualifies as 'high-impact emissions.' Turkey has signed but later withdrawn from the Paris Agreement and has not pledged emissions reduction by 2030",
+                "Turkey's emissions per capita in 2015 were 7 tons, which does not qualify as 'high-impact emissions.' Turkey has signed the Paris Agreement and pledged to reduce emissions by 21% by 2030, though it has not ratified the deal.",
+                "Turkey's emissions per capita in 2015 were 9 tons, which qualifies as 'high-impact emissions.' Turkey has signed the Paris Agreement and pledged to reduce emissions by 25% by 2030, though it has not ratified the deal",
+                "Turkey's emissions per capita in 2015 were 6.8 tons, which does not qualify as 'high-impact emissions.' Turkey has refused to sign the Paris Agreement and has not pledged any emissions reduction target"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_sports_television_1326f393",
+                    "insert_conversation_turn": 673
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_nature_animals_health_918aa03e",
+                    "insert_conversation_turn": 776,
+                    "reference_name": "Fig. d1c12227"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "environment",
+                "government",
+                "economy"
+            ],
+            "original_question": "the text, what is Turkey's status regarding \"high-impact emissions,\" and has Turkey committed to implementing reductions as expected for countries that have \"signed but not ratified the Paris Agreement\"?"
+        }
+    },
+    {
+        "id": "QA_sample_5b4be46e",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. c1cc5a82, Between September 2017 and January 2019, did PG&E's stock remain \"stable\" according to the previous definition?",
+        "answer": "No",
+        "evidence": {
+            "text_evidence": [
+                "A utility's stock performance is considered stable if its adjusted closing price remains above $50 for at least two consecutive months, unless external crises significantly impact the stock value. The company in the image faced crises in both 2017 and 2018 caused by major wildfires in California."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_45eab3dc.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Yes",
+                "No"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_nature_animals_health_918aa03e",
+                    "insert_conversation_turn": 652
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_sports_television_1326f393",
+                    "insert_conversation_turn": 222,
+                    "reference_name": "Fig. c1cc5a82"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "business",
+                "economy",
+                "environment"
+            ],
+            "original_question": "Between September 2017 and January 2019, did PG&E's stock remain \"stable\" according to the previous definition?"
+        }
+    },
+    {
+        "id": "QA_sample_c74a6688",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 164fb779, the text, did diesel-powered tubewell installations in 2013 meet the \"recommended reduction of 20% or more compared to their peak year,\" and were the increases in electrically powered tubewell installations \"equivalent or higher to compensate for this reduction\" as specified in the sustainable development goals?",
+        "answer": "Yes",
+        "evidence": {
+            "text_evidence": [
+                "A government report specifies that sustainable development goals recommend reducing diesel-powered tubewell installations by 20% or more compared to their peak year in order to curb carbon emissions. The report also notes that any decreases in diesel-powered tubewells should correspond with equivalent or higher increases in electrically powered tubewell installations to support agricultural needs and resource efficiency."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_8cef0b03.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Yes",
+                "No"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_sports_television_1326f393",
+                    "insert_conversation_turn": 532
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_nature_animals_health_918aa03e",
+                    "insert_conversation_turn": 793,
+                    "reference_name": "Fig. 164fb779"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "environment",
+                "government"
+            ],
+            "original_question": "the text, did diesel-powered tubewell installations in 2013 meet the \"recommended reduction of 20% or more compared to their peak year,\" and were the increases in electrically powered tubewell installations \"equivalent or higher to compensate for this reduction\" as specified in the sustainable development goals?"
+        }
+    },
+    {
+        "id": "QA_sample_d8706e17",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 4cd1be67, the text, is the coast of Oregon considered a \"hotspot for birdwatching,\" and are British Columbia's crop sabotage levels classified as \"severe\" according to the previous definitions?",
+        "answer": "Yes",
+        "evidence": {
+            "text_evidence": [
+                "A wildlife study categorizes any area with at least 25 binocular sightings as a hotspot for birdwatching. Additionally, British Columbia's crop sabotage levels are considered severe if the insect count exceeds 20,000 annually."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_31a35e1e.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Yes",
+                "No"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_technology_education_architecture_1195c398",
+                    "insert_conversation_turn": 469
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_sports_television_1326f393",
+                    "insert_conversation_turn": 847,
+                    "reference_name": "Fig. 4cd1be67"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "nature",
+                "environment"
+            ],
+            "original_question": "the text, is the coast of Oregon considered a \"hotspot for birdwatching,\" and are British Columbia's crop sabotage levels classified as \"severe\" according to the previous definitions?"
+        }
+    },
+    {
+        "id": "QA_sample_72b9c43b",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 490219e8, the text, what would the new revenue contribution be from the sector that is targeted for a \"10% increase,\" and does this change remain within the \"monthly energy consumption goal\" as defined?",
+        "answer": "$422,623,059.30; Yes, it stays within the energy consumption goal.",
+        "evidence": {
+            "text_evidence": [
+                "In 2025, Global Business Limited announced a goal to increase revenue from the Technology & Media sector by 10% while maintaining the existing percentage contributions from other sectors. The company plans to do this without exceeding a monthly energy consumption of 150 kWh and aims to preserve its profit margin proportional to the total revenue."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_a06fbc13.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "$432,599,880.10 No it exceeds the energy consumption goal",
+                "$411,759,229.70 Yes it stays within the energy consumption goal",
+                "$422,623,059.30; Yes, it stays within the energy consumption goal.",
+                "$393,450,059.30 Yes it stays within the energy consumption goal"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_nature_animals_health_918aa03e",
+                    "insert_conversation_turn": 632
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_sports_television_1326f393",
+                    "insert_conversation_turn": 648,
+                    "reference_name": "Fig. 490219e8"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "business",
+                "technology",
+                "environment"
+            ],
+            "original_question": "the text, what would the new revenue contribution be from the sector that is targeted for a \"10% increase,\" and does this change remain within the \"monthly energy consumption goal\" as defined?"
+        }
+    },
+    {
+        "id": "QA_sample_c664c226_1",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. a9bab738, Among the activities that could reasonably occur in the given image, which one is Kenya Decker least likely to be doing?",
+        "answer": "Watching sports TV",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Kenya Decker enjoys musicals, documentaries, but dislikes sports TV, romantic dramas",
+                "In terms of lifestyle, Kenya Decker enjoys plant-based diet, home cooking, but dislikes meditation, yoga"
+            ],
+            "image_evidence": [
+                "MMPB_81ebaeeb.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Kenya Decker enjoys trains, flying business class, but dislikes backpacking, luxury resorts",
+                "In terms of shopping, Kenya Decker enjoys Bluetooth speakers, wireless charging stations, but dislikes sportswear, high-end perfumes",
+                "In terms of fashion, Kenya Decker enjoys casual wear, minimalist outfits, but dislikes business casual, athleisure wear."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Watching sports TV",
+                "Watching movie marathon",
+                "Doing yoga",
+                "Streaming TV series"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_nature_animals_health_918aa03e",
+                    "insert_conversation_turn": 940
+                },
+                {
+                    "conversation_name": "group_chat_music_sports_television_1326f393",
+                    "insert_conversation_turn": 802
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_technology_education_architecture_1195c398",
+                    "insert_conversation_turn": 169,
+                    "reference_name": "Fig. a9bab738"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_nature_animals_health_918aa03e",
+                    "insert_conversation_turn": 892
+                },
+                {
+                    "conversation_name": "group_chat_technology_education_architecture_1195c398",
+                    "insert_conversation_turn": 234
+                },
+                {
+                    "conversation_name": "group_chat_nature_animals_health_918aa03e",
+                    "insert_conversation_turn": 195
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Grace",
+            "description": "Grace is a woman with a slender build and an average height, exuding a poised and elegant presence. Her facial structure is defined by a prominent jawline and a slightly upturned nose, complemented by expressive eyes and a well-defined brow. Her skin tone is fair, and she often sports a subtle, natural makeup look. Grace's hair is a consistent feature, styled in soft, wavy locks that fall just below her shoulders, adding to her sophisticated appearance. Her expressions range from contemplative to engaging, with a slight tilt of her head and a direct gaze that suggests confidence and intelligence. Her poses are often composed and deliberate, whether standing or seated, conveying a sense of grace and poise.\n\n**Outfit and Accessories:**\nGrace's attire is characterized by a blend of classic and elegant styles, often featuring rich, deep colors like burgundy and red, which add a touch of sophistication. Her outfits include tailored blazers and dresses, with a preference for structured silhouettes that enhance her figure. The textures of her clothing range from smooth fabrics to more textured materials, adding depth and interest to her ensembles. Accessories play a significant role in her look, with a notable presence of statement jewelry such as a large blue pendant necklace and a red beaded necklace, which add a pop of color and elegance. Her outfits are practical yet formal, suggesting a character who is both stylish and professional. The consistent use of a wide-brimmed hat in one image adds a touch of mystery and intrigue to her overall appearance.\n\n**Distinguishing Visual Features or Vibe:**\nGrace's most memorable feature is her ability to convey a sense of mystery and elegance through her visual presentation. The recurring theme of rich, deep colors in her outfits, combined with her poised demeanor, creates a striking visual impact. The wide-brimmed hat and statement jewelry are signature elements that contribute to her unique style. Her wavy hair and fair skin, along with her expressive eyes, add to her ethereal and captivating presence. The consistent use of a dark, moody color palette in the backgrounds of the images further enhances her enigmatic aura, making her stand out as a character of depth and intrigue. Overall, Grace exudes a blend of sophistication, mystery, and elegance, making her visually unmistakable and memorable.",
+            "preference": "In terms of entertainment, Grace enjoys musicals, documentaries, but dislikes sports TV, romantic dramas. In terms of travel, Grace enjoys trains, flying business class, but dislikes backpacking, luxury resorts. In terms of lifestyle, Grace enjoys plant-based diet, home cooking, but dislikes meditation, yoga. In terms of shopping, Grace enjoys Bluetooth speakers, wireless charging stations, but dislikes sportswear, high-end perfumes. In terms of fashion, Grace enjoys casual wear, minimalist outfits, but dislikes business casual, athleisure wear.",
+            "topic": [],
+            "original_id": "QA_sample_c664c226",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Kenya Decker least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_c664c226_2",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. c1e0e4be, Among the activities that could reasonably occur in the given image, which one is Kenya Decker least likely to be doing?",
+        "answer": "Watching romantic dramas",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Kenya Decker enjoys musicals, documentaries, but dislikes sports TV, romantic dramas",
+                "In terms of lifestyle, Kenya Decker enjoys plant-based diet, home cooking, but dislikes meditation, yoga"
+            ],
+            "image_evidence": [
+                "MMPB_2d99653f.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Kenya Decker enjoys trains, flying business class, but dislikes backpacking, luxury resorts",
+                "In terms of shopping, Kenya Decker enjoys Bluetooth speakers, wireless charging stations, but dislikes sportswear, high-end perfumes",
+                "In terms of fashion, Kenya Decker enjoys casual wear, minimalist outfits, but dislikes business casual, athleisure wear."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "Going on a backpacking tour",
+                "Watching action thrillers",
+                "Watching romantic dramas",
+                "Enjoying comedy specials"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_nature_animals_health_918aa03e",
+                    "insert_conversation_turn": 940
+                },
+                {
+                    "conversation_name": "group_chat_music_sports_television_1326f393",
+                    "insert_conversation_turn": 802
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_sports_television_1326f393",
+                    "insert_conversation_turn": 47,
+                    "reference_name": "Fig. c1e0e4be"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_nature_animals_health_918aa03e",
+                    "insert_conversation_turn": 892
+                },
+                {
+                    "conversation_name": "group_chat_technology_education_architecture_1195c398",
+                    "insert_conversation_turn": 234
+                },
+                {
+                    "conversation_name": "group_chat_nature_animals_health_918aa03e",
+                    "insert_conversation_turn": 195
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Grace",
+            "description": "Grace is a woman with a slender build and an average height, exuding a poised and elegant presence. Her facial structure is defined by a prominent jawline and a slightly upturned nose, complemented by expressive eyes and a well-defined brow. Her skin tone is fair, and she often sports a subtle, natural makeup look. Grace's hair is a consistent feature, styled in soft, wavy locks that fall just below her shoulders, adding to her sophisticated appearance. Her expressions range from contemplative to engaging, with a slight tilt of her head and a direct gaze that suggests confidence and intelligence. Her poses are often composed and deliberate, whether standing or seated, conveying a sense of grace and poise.\n\n**Outfit and Accessories:**\nGrace's attire is characterized by a blend of classic and elegant styles, often featuring rich, deep colors like burgundy and red, which add a touch of sophistication. Her outfits include tailored blazers and dresses, with a preference for structured silhouettes that enhance her figure. The textures of her clothing range from smooth fabrics to more textured materials, adding depth and interest to her ensembles. Accessories play a significant role in her look, with a notable presence of statement jewelry such as a large blue pendant necklace and a red beaded necklace, which add a pop of color and elegance. Her outfits are practical yet formal, suggesting a character who is both stylish and professional. The consistent use of a wide-brimmed hat in one image adds a touch of mystery and intrigue to her overall appearance.\n\n**Distinguishing Visual Features or Vibe:**\nGrace's most memorable feature is her ability to convey a sense of mystery and elegance through her visual presentation. The recurring theme of rich, deep colors in her outfits, combined with her poised demeanor, creates a striking visual impact. The wide-brimmed hat and statement jewelry are signature elements that contribute to her unique style. Her wavy hair and fair skin, along with her expressive eyes, add to her ethereal and captivating presence. The consistent use of a dark, moody color palette in the backgrounds of the images further enhances her enigmatic aura, making her stand out as a character of depth and intrigue. Overall, Grace exudes a blend of sophistication, mystery, and elegance, making her visually unmistakable and memorable.",
+            "preference": "In terms of entertainment, Grace enjoys musicals, documentaries, but dislikes sports TV, romantic dramas. In terms of travel, Grace enjoys trains, flying business class, but dislikes backpacking, luxury resorts. In terms of lifestyle, Grace enjoys plant-based diet, home cooking, but dislikes meditation, yoga. In terms of shopping, Grace enjoys Bluetooth speakers, wireless charging stations, but dislikes sportswear, high-end perfumes. In terms of fashion, Grace enjoys casual wear, minimalist outfits, but dislikes business casual, athleisure wear.",
+            "topic": [],
+            "original_id": "QA_sample_c664c226",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Kenya Decker least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_c664c226_3",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. f14fb0f0, the image, what is Kenya Decker most likely to be doing?",
+        "answer": "Watching a documentary film",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Kenya Decker enjoys musicals, documentaries, but dislikes sports TV, romantic dramas",
+                "In terms of lifestyle, Kenya Decker enjoys plant-based diet, home cooking, but dislikes meditation, yoga"
+            ],
+            "image_evidence": [
+                "MMPB_6f052249.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Kenya Decker enjoys trains, flying business class, but dislikes backpacking, luxury resorts",
+                "In terms of shopping, Kenya Decker enjoys Bluetooth speakers, wireless charging stations, but dislikes sportswear, high-end perfumes",
+                "In terms of fashion, Kenya Decker enjoys casual wear, minimalist outfits, but dislikes business casual, athleisure wear."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "Viewing a sports event",
+                "Home cooking",
+                "Watching a documentary film",
+                "Observing a nature program"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_nature_animals_health_918aa03e",
+                    "insert_conversation_turn": 940
+                },
+                {
+                    "conversation_name": "group_chat_music_sports_television_1326f393",
+                    "insert_conversation_turn": 802
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_nature_animals_health_918aa03e",
+                    "insert_conversation_turn": 129,
+                    "reference_name": "Fig. f14fb0f0"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_nature_animals_health_918aa03e",
+                    "insert_conversation_turn": 892
+                },
+                {
+                    "conversation_name": "group_chat_technology_education_architecture_1195c398",
+                    "insert_conversation_turn": 234
+                },
+                {
+                    "conversation_name": "group_chat_nature_animals_health_918aa03e",
+                    "insert_conversation_turn": 195
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Grace",
+            "description": "Grace is a woman with a slender build and an average height, exuding a poised and elegant presence. Her facial structure is defined by a prominent jawline and a slightly upturned nose, complemented by expressive eyes and a well-defined brow. Her skin tone is fair, and she often sports a subtle, natural makeup look. Grace's hair is a consistent feature, styled in soft, wavy locks that fall just below her shoulders, adding to her sophisticated appearance. Her expressions range from contemplative to engaging, with a slight tilt of her head and a direct gaze that suggests confidence and intelligence. Her poses are often composed and deliberate, whether standing or seated, conveying a sense of grace and poise.\n\n**Outfit and Accessories:**\nGrace's attire is characterized by a blend of classic and elegant styles, often featuring rich, deep colors like burgundy and red, which add a touch of sophistication. Her outfits include tailored blazers and dresses, with a preference for structured silhouettes that enhance her figure. The textures of her clothing range from smooth fabrics to more textured materials, adding depth and interest to her ensembles. Accessories play a significant role in her look, with a notable presence of statement jewelry such as a large blue pendant necklace and a red beaded necklace, which add a pop of color and elegance. Her outfits are practical yet formal, suggesting a character who is both stylish and professional. The consistent use of a wide-brimmed hat in one image adds a touch of mystery and intrigue to her overall appearance.\n\n**Distinguishing Visual Features or Vibe:**\nGrace's most memorable feature is her ability to convey a sense of mystery and elegance through her visual presentation. The recurring theme of rich, deep colors in her outfits, combined with her poised demeanor, creates a striking visual impact. The wide-brimmed hat and statement jewelry are signature elements that contribute to her unique style. Her wavy hair and fair skin, along with her expressive eyes, add to her ethereal and captivating presence. The consistent use of a dark, moody color palette in the backgrounds of the images further enhances her enigmatic aura, making her stand out as a character of depth and intrigue. Overall, Grace exudes a blend of sophistication, mystery, and elegance, making her visually unmistakable and memorable.",
+            "preference": "In terms of entertainment, Grace enjoys musicals, documentaries, but dislikes sports TV, romantic dramas. In terms of travel, Grace enjoys trains, flying business class, but dislikes backpacking, luxury resorts. In terms of lifestyle, Grace enjoys plant-based diet, home cooking, but dislikes meditation, yoga. In terms of shopping, Grace enjoys Bluetooth speakers, wireless charging stations, but dislikes sportswear, high-end perfumes. In terms of fashion, Grace enjoys casual wear, minimalist outfits, but dislikes business casual, athleisure wear.",
+            "topic": [],
+            "original_id": "QA_sample_c664c226",
+            "original_question": "the image, what is Kenya Decker most likely to be doing?"
+        }
+    }
+]

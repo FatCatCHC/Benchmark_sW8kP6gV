@@ -1,0 +1,1634 @@
+[
+    {
+        "id": "MMKE_5dfe",
+        "domain": "MMKE",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. 0d25ca67, Which two countries are part of the range of the species shown in the image?",
+        "answer": "France and Germany",
+        "evidence": {
+            "text_evidence": [
+                "The butterfly in the image corresponds to Apoda y-inversum.\nApoda y-inversum, the inverted Y slug moth or yellow-collared slug moth, is a moth of the family Geometridae. It is found in Europe from France and Germany, south to Italy, west to Spain and Portugal.\n\nThe wingspan is 21–30 mm. Adults are on wing from June to September.\n\nThe larvae feed on the leaves of chestnut, maple, hornbeam and birch."
+            ],
+            "image_evidence": [
+                "MMKE_9a28e628f2914e29.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Apoda y-inversum, the inverted Y slug moth or yellow-collared slug moth, is a moth of the family Limacodidae. It is found in North America from Quebec and Ontario, south to Florida, west to Oklahoma and Mississippi.\n\nThe wingspan is 21–30 mm. Adults are on wing from May to August.\n\nThe larvae feed on the leaves of beech, hickory, ironwood and oak."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "France and Germany",
+                "Quebec and Florida",
+                "Portugal and Switzerland",
+                "Italy and Spain"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_travel_sports_animals_ae42a7eb",
+                    "insert_conversation_turn": 613
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_food_architecture_education_6fa2347c",
+                    "insert_conversation_turn": 1104,
+                    "reference_name": "Fig. 0d25ca67"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_travel_music_films_f06cb62c",
+                    "insert_conversation_turn": 231
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "animals",
+                " nature"
+            ],
+            "original_question": "Which two countries are part of the range of the species shown in the image?"
+        }
+    },
+    {
+        "id": "MMKE_8ec5",
+        "domain": "MMKE",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. d4b9e6c7, In what year was the most recent confirmation about whether the musical group shown in the image would reform?",
+        "answer": "2022",
+        "evidence": {
+            "text_evidence": [
+                "The musical group in the image corresponds to Cocteau Twins. Cocteau Twins, a Welsh rock band, were active from 1981 to 2000. Formed in Swansea by Robin Guthrie (guitar, drum machine) and Will Heggie (bass), they added Elizabeth Fraser (vocals) in 1982. Known for their ethereal sound and Fraser's distinct soprano vocals, they helped pioneer dream pop and shoegaze. Switching to Warner Bros. Records in 1989, they released \"Blue Bell Knoll\" and later their most successful album, \"Heaven or Las Vegas\" in 1991. A planned 2006 reunion for Glastonbury was canceled. In 2022, Raymonde confirmed that Cocteau Twins would never reform."
+            ],
+            "image_evidence": [
+                "MMKE_3deef1ba498a4704.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Cocteau Twins, a Scottish rock band, were active from 1979 to 1997. Formed in Grangemouth by Robin Guthrie (guitar, drum machine) and Will Heggie (bass), they added Elizabeth Fraser (vocals) in 1981. Simon Raymonde (multi-instrumentalist) replaced Heggie in 1983. Known for their ethereal sound and Fraser's distinct soprano vocals, they helped pioneer dream pop and shoegaze. Signed to 4AD in 1982, they released \"Garlands\" and gained success with \"Pearly-Dewdrops' Drops\" in 1983. Switching to Capitol Records in 1988, they released \"Blue Bell Knoll\" and later their most successful album, \"Heaven or Las Vegas\" in 1990. They moved to Fontana Records for their final two albums before disbanding in 1997 due to relational issues between Fraser and Guthrie. A planned 2005 reunion for Coachella was canceled. In 2021, Raymonde confirmed that Cocteau Twins would never reform."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "2018",
+                "2021",
+                "2015",
+                "2022"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_travel_sports_animals_ae42a7eb",
+                    "insert_conversation_turn": 693
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_travel_music_films_f06cb62c",
+                    "insert_conversation_turn": 614,
+                    "reference_name": "Fig. d4b9e6c7"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_food_architecture_education_6fa2347c",
+                    "insert_conversation_turn": 75
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "music"
+            ],
+            "original_question": "In what year was the most recent confirmation about whether the musical group shown in the image would reform?"
+        }
+    },
+    {
+        "id": "QA_sample_12328b6c",
+        "domain": "MLLMKC",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. 75400fa9, When was the brand associated with the logo established?",
+        "answer": "2006",
+        "evidence": {
+            "text_evidence": [
+                "Spotify was created in 2006. The creators of Spotify are Daniel Ek and Martin Lorentzon. Spotify is the brand of a digital music streaming service."
+            ],
+            "image_evidence": [
+                "MLLMKC_aec79fdc.jpg"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Spotify was created in 2004. The creators of Spotify are Daniel Ek and Martin Lorentzon. Spotify is the brand of a digital music streaming service."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "2007",
+                "2006",
+                "2004",
+                "2008"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_travel_music_films_f06cb62c",
+                    "insert_conversation_turn": 279
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_travel_sports_animals_ae42a7eb",
+                    "insert_conversation_turn": 373,
+                    "reference_name": "Fig. 75400fa9"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_food_architecture_education_6fa2347c",
+                    "insert_conversation_turn": 58
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "instance": "Spotify",
+            "category": "logo",
+            "error_type": "time_error",
+            "topic": [
+                "music",
+                " technology",
+                " business"
+            ],
+            "original_question": "When was the brand associated with the logo established?"
+        }
+    },
+    {
+        "id": "QA_sample_2e52a47b",
+        "domain": "MLLMKC",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. 6cb9751f, What is the occupation of the person in the picture?",
+        "answer": "singer, rapper, and songwriter",
+        "evidence": {
+            "text_evidence": [
+                "[Post Malone] was born on July 4, 1995. [Post Malone] is American. [Post Malone] is a singer, rapper, and songwriter."
+            ],
+            "image_evidence": [
+                "MLLMKC_4e873fb2.jpg"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "[Post Malone] was born on July 4, 1995. [Post Malone] is American. [Post Malone] is a chef, rapper, and songwriter."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "gardener, florist, botanist",
+                "architect",
+                "singer, rapper, and songwriter",
+                "chef"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_travel_sports_animals_ae42a7eb",
+                    "insert_conversation_turn": 1058
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_travel_music_films_f06cb62c",
+                    "insert_conversation_turn": 632,
+                    "reference_name": "Fig. 6cb9751f"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_food_architecture_education_6fa2347c",
+                    "insert_conversation_turn": 585
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "instance": "Post Malone",
+            "category": "people",
+            "error_type": "Career_error",
+            "topic": [
+                "music"
+            ],
+            "original_question": "What is the occupation of the person in the picture?"
+        }
+    },
+    {
+        "id": "MMKE_920c",
+        "domain": "MMKE",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. fa36db9e, What region is the species shown in the image typically found in?",
+        "answer": "East Asia",
+        "evidence": {
+            "text_evidence": [
+                "The butterfly in the image corresponds to Junonia almana.\nJunonia almana, the peacock pansy, is a species of nymphalid butterfly found in Korea and East Asia. It exists in two distinct adult forms, which differ chiefly in the patterns on the underside of the wings; the autumn-season form has few markings, while the spring-season form has additional eyespots and lines. It is listed as Vulnerable in the IUCN Red List."
+            ],
+            "image_evidence": [
+                "MMKE_a0b7aa5385a94a0f.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Junonia almana, the peacock pansy, is a species of nymphalid butterfly found in Cambodia and South Asia. It exists in two distinct adult forms, which differ chiefly in the patterns on the underside of the wings; the dry-season form has few markings, while the wet-season form has additional eyespots and lines. It is listed as Least Concern in the IUCN Red List."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Central America",
+                "East Asia",
+                "South Asia",
+                "Northern Europe"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_travel_sports_animals_ae42a7eb",
+                    "insert_conversation_turn": 535
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_food_architecture_education_6fa2347c",
+                    "insert_conversation_turn": 980,
+                    "reference_name": "Fig. fa36db9e"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_travel_music_films_f06cb62c",
+                    "insert_conversation_turn": 95
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "animals",
+                " nature",
+                " environment"
+            ],
+            "original_question": "What region is the species shown in the image typically found in?"
+        }
+    },
+    {
+        "id": "QA_sample_60d84b6f",
+        "domain": "MLLMKC",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. 8bb1e7cf, What is the occupation of the person in the picture?",
+        "answer": "rapper, singer, songwriter, and record producer",
+        "evidence": {
+            "text_evidence": [
+                "Travis Scott was born on April 30, 1991. Travis Scott is American. Travis Scott is a rapper, singer, songwriter, and record producer."
+            ],
+            "image_evidence": [
+                "MLLMKC_63d45c70.jpg"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Travis Scott was born on April 30, 1991. Travis Scott is American. Travis Scott is a chef, singer, songwriter, and record producer."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "rapper, singer, songwriter, and record producer",
+                "chef",
+                "photographer, painter, sculptor, illustrator",
+                "dancer"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_travel_sports_animals_ae42a7eb",
+                    "insert_conversation_turn": 727
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_food_architecture_education_6fa2347c",
+                    "insert_conversation_turn": 965,
+                    "reference_name": "Fig. 8bb1e7cf"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_travel_music_films_f06cb62c",
+                    "insert_conversation_turn": 80
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "instance": "Travis Scott",
+            "category": "people",
+            "error_type": "Career_error",
+            "topic": [
+                "music"
+            ],
+            "original_question": "What is the occupation of the person in the picture?"
+        }
+    },
+    {
+        "id": "QA_sample_6e5651a2",
+        "domain": "MLLMKC",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. 5e5c366f, What is the nationality of the person in the picture?",
+        "answer": "American",
+        "evidence": {
+            "text_evidence": [
+                "Kanye West was born on June 8, 1977. Kanye West is American. Kanye West is a rapper, producer, and fashion designer."
+            ],
+            "image_evidence": [
+                "MLLMKC_fb17d6c8.jpg"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Kanye West was born on June 8, 1977. Kanye West is Canadian. Kanye West is a rapper, producer, and fashion designer."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "Mexican",
+                "Canadian",
+                "American",
+                "Panamanian"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_food_architecture_education_6fa2347c",
+                    "insert_conversation_turn": 570
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_travel_music_films_f06cb62c",
+                    "insert_conversation_turn": 297,
+                    "reference_name": "Fig. 5e5c366f"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_travel_sports_animals_ae42a7eb",
+                    "insert_conversation_turn": 247
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "instance": "Kanye West",
+            "category": "people",
+            "error_type": "location_error",
+            "topic": [
+                "music",
+                " fashion"
+            ],
+            "original_question": "What is the nationality of the person in the picture?"
+        }
+    },
+    {
+        "id": "QA_sample_6c3e6de0",
+        "domain": "MLLMKC",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. c87b9559, What is the nationality of the person in the picture?",
+        "answer": "Canadian",
+        "evidence": {
+            "text_evidence": [
+                "The Weeknd was born on February 16, 1990. The Weeknd is Canadian. The Weeknd is a singer, songwriter, and record producer."
+            ],
+            "image_evidence": [
+                "MLLMKC_ffd177fa.jpg"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "The Weeknd was born on February 16, 1990. The Weeknd is American. The Weeknd is a singer, songwriter, and record producer."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Canadian",
+                "American",
+                "Mexican",
+                "Panamanian"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_travel_music_films_f06cb62c",
+                    "insert_conversation_turn": 457
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_food_architecture_education_6fa2347c",
+                    "insert_conversation_turn": 744,
+                    "reference_name": "Fig. c87b9559"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_travel_sports_animals_ae42a7eb",
+                    "insert_conversation_turn": 186
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "instance": "The Weeknd",
+            "category": "people",
+            "error_type": "location_error",
+            "topic": [
+                "music"
+            ],
+            "original_question": "What is the nationality of the person in the picture?"
+        }
+    },
+    {
+        "id": "MMKE_dee0",
+        "domain": "MMKE",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. 6574087f, What group of people are rarely fatally affected by the venom of the species shown in the image?",
+        "answer": "Children",
+        "evidence": {
+            "text_evidence": [
+                "The spider in the image corresponds to Latrodectus mactans.\nLatrodectus mactans, known as eastern black widow or simply black widow, and the pebble-button spider, is a venomous species of spider in the genus \"Latrodectus\". The females are well known for the fact that they will always eat their mates after reproduction. The species is native to South America. The venom can cause pain and other symptoms, but is rarely fatal to children."
+            ],
+            "image_evidence": [
+                "MMKE_dd0fd929ba9c4b3c.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Latrodectus mactans, known as southern black widow or simply black widow, and the shoe-button spider, is a venomous species of spider in the genus \"Latrodectus\". The females are well known for their distinctive black and red coloring and for the fact that they will occasionally eat their mates after reproduction. The species is native to North America. The venom can cause pain and other symptoms, but is rarely fatal to healthy humans."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Pregnant women",
+                "Children",
+                "Elderly people",
+                "Healthy humans"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_travel_sports_animals_ae42a7eb",
+                    "insert_conversation_turn": 521
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_travel_music_films_f06cb62c",
+                    "insert_conversation_turn": 928,
+                    "reference_name": "Fig. 6574087f"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_food_architecture_education_6fa2347c",
+                    "insert_conversation_turn": 125
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "animals",
+                " health",
+                " nature"
+            ],
+            "original_question": "What group of people are rarely fatally affected by the venom of the species shown in the image?"
+        }
+    },
+    {
+        "id": "MMKE_10dd",
+        "domain": "MMKE",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. adf5588a, Name a species related to the insect shown in the image that belongs to the leaf-footed bug family.",
+        "answer": "Leptoglossus zonatus",
+        "evidence": {
+            "text_evidence": [
+                "The insect in the image corresponds to Western conifer seed bug. The western conifer seed bug (Leptoglossus orientalis) is a true bug in the Coreidae family. Originally from South America west of the Andes, it ranges from Peru to Argentina and east to Brazil, Chile, and Uruguay. This bug belongs to the leaf-footed bug family, which includes Leptoglossus zonatus."
+            ],
+            "image_evidence": [
+                "MMKE_51e0c9eea0f149d3.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "The western conifer seed bug (Leptoglossus occidentalis), or WCSB, is a true bug in the Coreidae family. Originally from North America west of the Rockies, it ranges from California to British Columbia and east to Idaho, Minnesota, and Nevada. Recently, it has spread to eastern North America, including parts of Canada and the U.S., and is now found in Europe and Argentina.\n\nThis bug belongs to the leaf-footed bug family, which includes Leptoglossus phyllopus and Acanthocephala femorata, also called the Florida leaf-footed bug. While sometimes referred to as stink bugs due to their defensive foul-smelling spray, they are not part of the stink bug family (Pentatomidae). In Chile, they are often mistaken for kissing bugs (Triatominae), causing unnecessary alarm."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "Acanthocephala femorata",
+                "Leptoglossus phyllopus",
+                "Leptoglossus zonatus",
+                "Pentatomidae species"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_food_architecture_education_6fa2347c",
+                    "insert_conversation_turn": 1156
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_travel_music_films_f06cb62c",
+                    "insert_conversation_turn": 913,
+                    "reference_name": "Fig. adf5588a"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_travel_sports_animals_ae42a7eb",
+                    "insert_conversation_turn": 507
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "animals",
+                " nature"
+            ],
+            "original_question": "Name a species related to the insect shown in the image that belongs to the leaf-footed bug family."
+        }
+    },
+    {
+        "id": "MMKE_a99d",
+        "domain": "MMKE",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. d7a01da2, What does the species shown in the image superficially resemble?",
+        "answer": "Brown widow",
+        "evidence": {
+            "text_evidence": [
+                "The spider in the image corresponds to Steatoda grossa.\nSteatoda grossa, commonly known as the shelf spider, the light comb-footed spider, or the mock widow or mock black widow (though several other species are known by these names), is a common species of spider in the genus \"Steatoda\".\n\nIt is a cosmopolitan species found in many parts of the world, including South America, Africa, and Asia.\nAs two of this spider's common names indicate, the spider superficially resembles, and is frequently confused for, the brown widow and other venomous spiders in the genus \"Theridiidae\"."
+            ],
+            "image_evidence": [
+                "MMKE_f69df52c95254bd0.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Steatoda grossa, commonly known as the cupboard spider, the dark comb-footed spider, the brown house spider (in Australia), or the false widow or false black widow (though several other species are known by these names), is a common species of spider in the genus \"Steatoda\".\n\nIt is a cosmopolitan species found in many parts of the world, including North America, Australasia, and Europe. \nAs two of this spider's common names indicate, the spider superficially resembles, and is frequently confused for, the black widow and other venomous spiders in the genus \"Latrodectus\"."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "Wolf spider",
+                "Black widow",
+                "Cupboard spider",
+                "Brown widow"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_food_architecture_education_6fa2347c",
+                    "insert_conversation_turn": 398
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_travel_music_films_f06cb62c",
+                    "insert_conversation_turn": 898,
+                    "reference_name": "Fig. d7a01da2"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_travel_sports_animals_ae42a7eb",
+                    "insert_conversation_turn": 202
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "animals"
+            ],
+            "original_question": "What does the species shown in the image superficially resemble?"
+        }
+    },
+    {
+        "id": "QA_sample_433c37fd",
+        "domain": "MLLMKC",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. 47d3b3a6, What is the occupation of the person in the picture?",
+        "answer": "rapper and singer",
+        "evidence": {
+            "text_evidence": [
+                "[Cardi B] was born on October 11, 1992. [Cardi B] is American. [Cardi B] is a rapper and singer."
+            ],
+            "image_evidence": [
+                "MLLMKC_1092ab07.jpg"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "[Cardi B] was born on October 11, 1992. [Cardi B] is American. [Cardi B] is a chef and baker."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "photographer and painter",
+                "software engineer",
+                "chef and baker",
+                "rapper and singer"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_travel_music_films_f06cb62c",
+                    "insert_conversation_turn": 66
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_food_architecture_education_6fa2347c",
+                    "insert_conversation_turn": 732,
+                    "reference_name": "Fig. 47d3b3a6"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_travel_sports_animals_ae42a7eb",
+                    "insert_conversation_turn": 4
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "instance": "Cardi B",
+            "category": "people",
+            "error_type": "Career_error",
+            "topic": [
+                "music"
+            ],
+            "original_question": "What is the occupation of the person in the picture?"
+        }
+    },
+    {
+        "id": "MMKE_60ce",
+        "domain": "MMKE",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. 98be3103, Besides wild gherkin, which type of leaves do the caterpillars of the species shown in the image feed on?",
+        "answer": "Cucumis sativus",
+        "evidence": {
+            "text_evidence": [
+                "The butterfly in the image corresponds to Dryas iulia. Dryas iulia, often called the Julia butterfly or Julia heliconian, is a brush-footed butterfly native from Colombia to northern Arizona and Georgia. It is the only species in its genus, with over 20 subspecies described. \n\nThe butterfly has a wingspan of 80-90 mm. They feed on nectar from flowers and their caterpillars feed on cucumber leaves such as Cucumis sativus and wild gherkin. Popular in botanic gardens for their vibrant colors, they are agile flyers found in coastal areas, meadows, and grasslands."
+            ],
+            "image_evidence": [
+                "MMKE_96b711b3aecf43a1.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Dryas iulia, often called the Julia butterfly or Julia heliconian, is a brush-footed butterfly native from Brazil to southern Texas and Florida, occasionally reaching eastern Nebraska in summer. It is the only species in its genus, with over 15 subspecies described. \n\nThe butterfly has a wingspan of 82-92 mm, and features bright orange wings with black markings. It is somewhat unpalatable to birds and part of the \"orange\" Müllerian mimicry complex. Julia butterflies are fast flyers found in forest clearings, paths, and margins. They feed on nectar from flowers like lantana and shepherd's-needle, and the tears of caimans, which they provoke.\n\nTheir caterpillars feed on passion vine leaves such as Passiflora affinis and yellow passionflower. Mating involves complex and prolonged courtship controlled by the female. Popular in butterfly houses for their long life and daytime activity, the caterpillars are spiky and can cause skin rashes."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "Passiflora affinis",
+                "Oak leaves",
+                "Pumpkin leaves",
+                "Cucumis sativus"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_food_architecture_education_6fa2347c",
+                    "insert_conversation_turn": 283
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_travel_sports_animals_ae42a7eb",
+                    "insert_conversation_turn": 493,
+                    "reference_name": "Fig. 98be3103"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_travel_music_films_f06cb62c",
+                    "insert_conversation_turn": 46
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "animals",
+                " nature"
+            ],
+            "original_question": "Besides wild gherkin, which type of leaves do the caterpillars of the species shown in the image feed on?"
+        }
+    },
+    {
+        "id": "MMKE_4b61",
+        "domain": "MMKE",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. 506b7852, Where is the species shown in the image considered easy to keep?",
+        "answer": "Aviaries",
+        "evidence": {
+            "text_evidence": [
+                "The bird in the image corresponds to Common waxbill.\nThe common waxbill (Estrilda astrild), also known as the Seychelles waxbill, is a small passerine bird belonging to the tanager family. It is native to Southeast Asia but has been introduced to many other regions of the world and now has an estimated global extent of occurrence of 15,000,000 km2. It is popular and easy to keep in aviaries."
+            ],
+            "image_evidence": [
+                "MMKE_5882baff70c94c9c.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "The common waxbill (Estrilda astrild), also known as the St Helena waxbill, is a small passerine bird belonging to the estrildid finch family. It is native to sub-Saharan Africa but has been introduced to many other regions of the world and now has an estimated global extent of occurrence of 10,000,000 km2. It is popular and easy to keep in captivity."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Zoos",
+                "Aviaries",
+                "Pet stores",
+                "Captivity"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_food_architecture_education_6fa2347c",
+                    "insert_conversation_turn": 615
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_travel_sports_animals_ae42a7eb",
+                    "insert_conversation_turn": 478,
+                    "reference_name": "Fig. 506b7852"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_travel_music_films_f06cb62c",
+                    "insert_conversation_turn": 707
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "animals",
+                " nature"
+            ],
+            "original_question": "Where is the species shown in the image considered easy to keep?"
+        }
+    },
+    {
+        "id": "MMKE_d28c",
+        "domain": "MMKE",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. 48796c54, On which continent outside its native range has the species shown in the image been introduced to islands?",
+        "answer": "Europe",
+        "evidence": {
+            "text_evidence": [
+                "The toad in the image corresponds to Cane toad. The cane toad (Rhinella marina), also known as the giant neotropical toad or desert toad, is a large terrestrial toad native to Africa and mainland North America. Cane toads have been introduced to islands in Europe, the Caribbean, and Southern Australia. Originally assigned to the genus \"Bufo,\" it is now classified under \"Lithobates.\""
+            ],
+            "image_evidence": [
+                "MMKE_ff87233750c14a6f.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "The cane toad (Rhinella marina), also known as the giant neotropical toad or marine toad, is a large terrestrial toad native to South and mainland Central America. It has been introduced to islands in Oceania, the Caribbean, and Northern Australia. Originally assigned to the genus \"Bufo,\" it is now classified under \"Rhinella.\"\n\nA fossil toad from Colombia's late Miocene period is almost identical to modern cane toads, suggesting their habitat preferences for open areas have long existed. Cane toads are prolific breeders; females lay thousands of eggs in single-clump spawns. Their reproductive success is due to an opportunistic diet that includes both dead and living matter. Adults vary in size, with the largest recorded specimen having a considerable length.\n\nCane toads have toxic glands, and their tadpoles are highly poisonous. Because of their appetite, they were introduced to control agricultural pests like the cane beetle. However, cane toads are now considered invasive and problematic in many introduced areas."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "Oceania",
+                "South America",
+                "Europe",
+                "Asia"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_travel_music_films_f06cb62c",
+                    "insert_conversation_turn": 693
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_travel_sports_animals_ae42a7eb",
+                    "insert_conversation_turn": 565,
+                    "reference_name": "Fig. 48796c54"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_food_architecture_education_6fa2347c",
+                    "insert_conversation_turn": 641
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "animals",
+                " nature"
+            ],
+            "original_question": "On which continent outside its native range has the species shown in the image been introduced to islands?"
+        }
+    },
+    {
+        "id": "QA_sample_915438fe",
+        "domain": "MLLMKC",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. 6a815195, What is the nationality of the person in the picture?",
+        "answer": "American",
+        "evidence": {
+            "text_evidence": [
+                "Travis Scott was born on April 30, 1991. Travis Scott is American. Travis Scott is a rapper, singer, songwriter, and record producer."
+            ],
+            "image_evidence": [
+                "MLLMKC_1d2c7b5e.jpg"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Travis Scott was born on April 30, 1991. Travis Scott is Canadian. Travis Scott is a rapper, singer, songwriter, and record producer."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Canadian",
+                "American",
+                "Panamanian",
+                "Mexican"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_food_architecture_education_6fa2347c",
+                    "insert_conversation_turn": 511
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_travel_sports_animals_ae42a7eb",
+                    "insert_conversation_turn": 926,
+                    "reference_name": "Fig. 6a815195"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_travel_music_films_f06cb62c",
+                    "insert_conversation_turn": 159
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "instance": "Travis Scott",
+            "category": "people",
+            "error_type": "location_error",
+            "topic": [
+                "music"
+            ],
+            "original_question": "What is the nationality of the person in the picture?"
+        }
+    },
+    {
+        "id": "QA_sample_3c2c6686",
+        "domain": "MLLMKC",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. 5f0a68ad, Who established the brand corresponding to the logo?",
+        "answer": "Daniel Ek and Martin Lorentzon",
+        "evidence": {
+            "text_evidence": [
+                "Spotify was created in 2006. The creators of Spotify are Daniel Ek and Martin Lorentzon. Spotify is the brand of a digital music streaming service."
+            ],
+            "image_evidence": [
+                "MLLMKC_8a31f06b.jpg"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Spotify was created in 2006. The creators of Spotify are Elon Musk and Jeff Bezos. Spotify is the brand of a digital music streaming service."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Daniel Ek and Martin Lorentzon",
+                "Elon Musk and Jeff Bezos",
+                "Mark Zuckerberg and Bill Gates",
+                "Steve Jobs and Tim Cook"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_food_architecture_education_6fa2347c",
+                    "insert_conversation_turn": 485
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_travel_sports_animals_ae42a7eb",
+                    "insert_conversation_turn": 859,
+                    "reference_name": "Fig. 5f0a68ad"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_travel_music_films_f06cb62c",
+                    "insert_conversation_turn": 31
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "instance": "Spotify",
+            "category": "logo",
+            "error_type": "creator_error",
+            "topic": [
+                "music",
+                " technology",
+                " business"
+            ],
+            "original_question": "Who established the brand corresponding to the logo?"
+        }
+    },
+    {
+        "id": "QA_sample_f8a46b18",
+        "domain": "MLLMKC",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. 8792f0bc, What is the nationality of the person in the picture?",
+        "answer": "American",
+        "evidence": {
+            "text_evidence": [
+                "Megan Thee Stallion was born on February 15, 1995. Megan Thee Stallion is American. Megan Thee Stallion is a rapper and songwriter."
+            ],
+            "image_evidence": [
+                "MLLMKC_9ac8092c.jpg"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Megan Thee Stallion was born on February 15, 1995. Megan Thee Stallion is Canadian. Megan Thee Stallion is a rapper and songwriter."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "American",
+                "Mexican",
+                "Panamanian",
+                "Canadian"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_travel_music_films_f06cb62c",
+                    "insert_conversation_turn": 443
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_food_architecture_education_6fa2347c",
+                    "insert_conversation_turn": 717,
+                    "reference_name": "Fig. 8792f0bc"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_travel_sports_animals_ae42a7eb",
+                    "insert_conversation_turn": 72
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "instance": "Megan Thee Stallion",
+            "category": "people",
+            "error_type": "location_error",
+            "topic": [
+                "music",
+                " fashion"
+            ],
+            "original_question": "What is the nationality of the person in the picture?"
+        }
+    },
+    {
+        "id": "QA_sample_93732777_1",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. c9a0d6f7, Among the activities that could reasonably occur in the given image, which one is Paxton Clarke least likely to be doing?",
+        "answer": "Watching documentary films",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Paxton Clarke enjoys opera shows, ballet performances, but dislikes musicals, documentaries"
+            ],
+            "image_evidence": [
+                "MMPB_81ebaeeb.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Paxton Clarke enjoys backcountry camping, ice fishing, but dislikes backpacking, luxury resorts",
+                "In terms of lifestyle, Paxton Clarke enjoys protein-rich diet, weightlifting, but dislikes forest bathing, holistic therapy",
+                "In terms of shopping, Paxton Clarke enjoys handmade crafts, vintage furniture, but dislikes second-hand books, indie brands",
+                "In terms of fashion, Paxton Clarke enjoys futuristic fashion, gothic clothing, but dislikes business casual, athleisure wear."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "Watching thriller movies",
+                "Going on a backpacking tour",
+                "Observing wildlife films",
+                "Watching documentary films"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_travel_sports_animals_ae42a7eb",
+                    "insert_conversation_turn": 661
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_food_architecture_education_6fa2347c",
+                    "insert_conversation_turn": 203,
+                    "reference_name": "Fig. c9a0d6f7"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_travel_music_films_f06cb62c",
+                    "insert_conversation_turn": 1056
+                },
+                {
+                    "conversation_name": "group_chat_travel_music_films_f06cb62c",
+                    "insert_conversation_turn": 504
+                },
+                {
+                    "conversation_name": "group_chat_travel_music_films_f06cb62c",
+                    "insert_conversation_turn": 641
+                },
+                {
+                    "conversation_name": "group_chat_food_architecture_education_6fa2347c",
+                    "insert_conversation_turn": 665
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Han",
+            "description": "Han is a woman with a slender build and an impression of average height. Her facial structure is characterized by a delicate jawline and a slightly upturned nose, with a fair skin tone that complements her long, straight dark hair, which often falls past her shoulders. Her expressions are generally composed and neutral, with a subtle hint of a smile in some images, suggesting a calm and approachable demeanor. Her eyes are often partially obscured by glasses, adding a touch of intellectual charm. The consistent appearance of her long hair and neutral expressions across the images creates a cohesive visual identity.\n\n**Outfit and Accessories:**\nHan's attire is diverse yet consistently sophisticated. In one image, she is seen in a sleeveless dress adorned with geometric patterns and embellishments, exuding elegance. In another, she wears a black blazer over a white shirt, holding a stack of books, which suggests a professional or academic setting. A brown jacket with a mustard-colored scarf adds a touch of warmth and practicality, while a green sweater over a white collared shirt presents a more casual, yet polished look. The recurring theme in her outfits is a blend of formality and comfort, with a preference for neutral colors and structured pieces. Her accessories, such as glasses, are minimal but significant, enhancing her intellectual and approachable image.\n\n**Distinguishing Visual Features or Vibe:**\nThe most memorable feature of Han is her long, dark hair, which is a consistent element across all images. Her neutral expressions and subtle smiles convey a sense of calm and approachability. The combination of her elegant attire and practical accessories, such as glasses, creates a balanced and sophisticated image. The recurring theme of neutral colors and structured clothing suggests a professional and composed persona. The overall vibe of Han is one of understated elegance and intellectual charm, making her visually unmistakable and memorable.",
+            "preference": "In terms of entertainment, Han enjoys opera shows, ballet performances, but dislikes musicals, documentaries. In terms of travel, Han enjoys backcountry camping, ice fishing, but dislikes backpacking, luxury resorts. In terms of lifestyle, Han enjoys protein-rich diet, weightlifting, but dislikes forest bathing, holistic therapy. In terms of shopping, Han enjoys handmade crafts, vintage furniture, but dislikes second-hand books, indie brands. In terms of fashion, Han enjoys futuristic fashion, gothic clothing, but dislikes business casual, athleisure wear.",
+            "topic": [],
+            "original_id": "QA_sample_93732777",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Paxton Clarke least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_93732777_2",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. c8142a4e, Among the activities that could reasonably occur in the given image, which one is Paxton Clarke least likely to be doing?",
+        "answer": "Watching musical films",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Paxton Clarke enjoys opera shows, ballet performances, but dislikes musicals, documentaries"
+            ],
+            "image_evidence": [
+                "MMPB_2d99653f.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Paxton Clarke enjoys backcountry camping, ice fishing, but dislikes backpacking, luxury resorts",
+                "In terms of lifestyle, Paxton Clarke enjoys protein-rich diet, weightlifting, but dislikes forest bathing, holistic therapy",
+                "In terms of shopping, Paxton Clarke enjoys handmade crafts, vintage furniture, but dislikes second-hand books, indie brands",
+                "In terms of fashion, Paxton Clarke enjoys futuristic fashion, gothic clothing, but dislikes business casual, athleisure wear."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Watching musical films",
+                "Watching action movies",
+                "Doing forest bathing",
+                "Watching romantic comedies"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_travel_sports_animals_ae42a7eb",
+                    "insert_conversation_turn": 661
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_food_architecture_education_6fa2347c",
+                    "insert_conversation_turn": 10,
+                    "reference_name": "Fig. c8142a4e"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_travel_music_films_f06cb62c",
+                    "insert_conversation_turn": 1056
+                },
+                {
+                    "conversation_name": "group_chat_travel_music_films_f06cb62c",
+                    "insert_conversation_turn": 504
+                },
+                {
+                    "conversation_name": "group_chat_travel_music_films_f06cb62c",
+                    "insert_conversation_turn": 641
+                },
+                {
+                    "conversation_name": "group_chat_food_architecture_education_6fa2347c",
+                    "insert_conversation_turn": 665
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Han",
+            "description": "Han is a woman with a slender build and an impression of average height. Her facial structure is characterized by a delicate jawline and a slightly upturned nose, with a fair skin tone that complements her long, straight dark hair, which often falls past her shoulders. Her expressions are generally composed and neutral, with a subtle hint of a smile in some images, suggesting a calm and approachable demeanor. Her eyes are often partially obscured by glasses, adding a touch of intellectual charm. The consistent appearance of her long hair and neutral expressions across the images creates a cohesive visual identity.\n\n**Outfit and Accessories:**\nHan's attire is diverse yet consistently sophisticated. In one image, she is seen in a sleeveless dress adorned with geometric patterns and embellishments, exuding elegance. In another, she wears a black blazer over a white shirt, holding a stack of books, which suggests a professional or academic setting. A brown jacket with a mustard-colored scarf adds a touch of warmth and practicality, while a green sweater over a white collared shirt presents a more casual, yet polished look. The recurring theme in her outfits is a blend of formality and comfort, with a preference for neutral colors and structured pieces. Her accessories, such as glasses, are minimal but significant, enhancing her intellectual and approachable image.\n\n**Distinguishing Visual Features or Vibe:**\nThe most memorable feature of Han is her long, dark hair, which is a consistent element across all images. Her neutral expressions and subtle smiles convey a sense of calm and approachability. The combination of her elegant attire and practical accessories, such as glasses, creates a balanced and sophisticated image. The recurring theme of neutral colors and structured clothing suggests a professional and composed persona. The overall vibe of Han is one of understated elegance and intellectual charm, making her visually unmistakable and memorable.",
+            "preference": "In terms of entertainment, Han enjoys opera shows, ballet performances, but dislikes musicals, documentaries. In terms of travel, Han enjoys backcountry camping, ice fishing, but dislikes backpacking, luxury resorts. In terms of lifestyle, Han enjoys protein-rich diet, weightlifting, but dislikes forest bathing, holistic therapy. In terms of shopping, Han enjoys handmade crafts, vintage furniture, but dislikes second-hand books, indie brands. In terms of fashion, Han enjoys futuristic fashion, gothic clothing, but dislikes business casual, athleisure wear.",
+            "topic": [],
+            "original_id": "QA_sample_93732777",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Paxton Clarke least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_93732777_3",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. c9681e6f, the image, what is Paxton Clarke most likely to be doing?",
+        "answer": "Enjoying opera shows",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Paxton Clarke enjoys opera shows, ballet performances, but dislikes musicals, documentaries"
+            ],
+            "image_evidence": [
+                "MMPB_e907fbc8.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Paxton Clarke enjoys backcountry camping, ice fishing, but dislikes backpacking, luxury resorts",
+                "In terms of lifestyle, Paxton Clarke enjoys protein-rich diet, weightlifting, but dislikes forest bathing, holistic therapy",
+                "In terms of shopping, Paxton Clarke enjoys handmade crafts, vintage furniture, but dislikes second-hand books, indie brands",
+                "In terms of fashion, Paxton Clarke enjoys futuristic fashion, gothic clothing, but dislikes business casual, athleisure wear."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "Buying handmade crafts",
+                "Appreciating symphony concerts",
+                "Attending chamber music events",
+                "Enjoying opera shows"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_travel_sports_animals_ae42a7eb",
+                    "insert_conversation_turn": 661
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_travel_sports_animals_ae42a7eb",
+                    "insert_conversation_turn": 347,
+                    "reference_name": "Fig. c9681e6f"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_travel_music_films_f06cb62c",
+                    "insert_conversation_turn": 1056
+                },
+                {
+                    "conversation_name": "group_chat_travel_music_films_f06cb62c",
+                    "insert_conversation_turn": 504
+                },
+                {
+                    "conversation_name": "group_chat_travel_music_films_f06cb62c",
+                    "insert_conversation_turn": 641
+                },
+                {
+                    "conversation_name": "group_chat_food_architecture_education_6fa2347c",
+                    "insert_conversation_turn": 665
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Han",
+            "description": "Han is a woman with a slender build and an impression of average height. Her facial structure is characterized by a delicate jawline and a slightly upturned nose, with a fair skin tone that complements her long, straight dark hair, which often falls past her shoulders. Her expressions are generally composed and neutral, with a subtle hint of a smile in some images, suggesting a calm and approachable demeanor. Her eyes are often partially obscured by glasses, adding a touch of intellectual charm. The consistent appearance of her long hair and neutral expressions across the images creates a cohesive visual identity.\n\n**Outfit and Accessories:**\nHan's attire is diverse yet consistently sophisticated. In one image, she is seen in a sleeveless dress adorned with geometric patterns and embellishments, exuding elegance. In another, she wears a black blazer over a white shirt, holding a stack of books, which suggests a professional or academic setting. A brown jacket with a mustard-colored scarf adds a touch of warmth and practicality, while a green sweater over a white collared shirt presents a more casual, yet polished look. The recurring theme in her outfits is a blend of formality and comfort, with a preference for neutral colors and structured pieces. Her accessories, such as glasses, are minimal but significant, enhancing her intellectual and approachable image.\n\n**Distinguishing Visual Features or Vibe:**\nThe most memorable feature of Han is her long, dark hair, which is a consistent element across all images. Her neutral expressions and subtle smiles convey a sense of calm and approachability. The combination of her elegant attire and practical accessories, such as glasses, creates a balanced and sophisticated image. The recurring theme of neutral colors and structured clothing suggests a professional and composed persona. The overall vibe of Han is one of understated elegance and intellectual charm, making her visually unmistakable and memorable.",
+            "preference": "In terms of entertainment, Han enjoys opera shows, ballet performances, but dislikes musicals, documentaries. In terms of travel, Han enjoys backcountry camping, ice fishing, but dislikes backpacking, luxury resorts. In terms of lifestyle, Han enjoys protein-rich diet, weightlifting, but dislikes forest bathing, holistic therapy. In terms of shopping, Han enjoys handmade crafts, vintage furniture, but dislikes second-hand books, indie brands. In terms of fashion, Han enjoys futuristic fashion, gothic clothing, but dislikes business casual, athleisure wear.",
+            "topic": [],
+            "original_id": "QA_sample_93732777",
+            "original_question": "the image, what is Paxton Clarke most likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_c453c9b3_1",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. a106d5ea, the image, what is Meadow Boyer most likely to be doing?",
+        "answer": "Watching a baseball channel on TV",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Meadow Boyer enjoys sports TV, romantic dramas, but dislikes classical concerts, art exhibitions"
+            ],
+            "image_evidence": [
+                "MMPB_2d99653f.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Meadow Boyer enjoys kayaking, snorkeling, but dislikes motorbiking trips, rafting",
+                "In terms of lifestyle, Meadow Boyer enjoys protein-rich diet, weightlifting, but dislikes forest bathing, holistic therapy",
+                "In terms of shopping, Meadow Boyer enjoys coffee brewing equipment, vintage vinyl records, but dislikes soundproofing panels, sleep-enhancing gadgets",
+                "In terms of fashion, Meadow Boyer enjoys high heels, tight-fitting clothes, but dislikes plaid patterns, monochrome outfits."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Watching a news channel on TV",
+                "Watching a baseball channel on TV",
+                "Watching a cooking show on TV",
+                "Wearing high heels"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_travel_music_films_f06cb62c",
+                    "insert_conversation_turn": 543
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_travel_music_films_f06cb62c",
+                    "insert_conversation_turn": 197,
+                    "reference_name": "Fig. a106d5ea"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_travel_sports_animals_ae42a7eb",
+                    "insert_conversation_turn": 1212
+                },
+                {
+                    "conversation_name": "group_chat_food_architecture_education_6fa2347c",
+                    "insert_conversation_turn": 294
+                },
+                {
+                    "conversation_name": "group_chat_travel_sports_animals_ae42a7eb",
+                    "insert_conversation_turn": 438
+                },
+                {
+                    "conversation_name": "group_chat_travel_sports_animals_ae42a7eb",
+                    "insert_conversation_turn": 1064
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "zhangwei",
+            "description": "zhangwei is a man with a medium build and a height that suggests a confident presence. His facial structure is well-defined, with a prominent jawline and a slightly pointed chin. His skin tone is fair, and he has a neat, short hairstyle that is dark and well-groomed. zhangwei often appears with a contemplative expression, with his hand resting thoughtfully on his chin, indicating a reflective or analytical demeanor. His eyes are expressive, and his eyebrows are thick and well-shaped, adding to his thoughtful appearance. In some images, he is seen with a slight smile, suggesting a friendly and approachable personality.\n\n**Outfit and Accessories:**\nzhangwei is frequently seen in formal attire, particularly a black suit paired with a white shirt and a blue tie, which conveys a professional and polished look. The suit is well-tailored, fitting him snugly and enhancing his overall appearance. In one image, he is wearing a green plaid shirt, adding a casual and approachable element to his style. In another scene, he is seen in a bright yellow hoodie with the text \"THE dime EXPERIENCE,\" which introduces a more relaxed and youthful vibe. The consistent use of a suit suggests a professional setting, while the casual attire indicates versatility and adaptability in different environments.\n\n**Distinguishing Visual Features or Vibe:**\nThe most memorable feature of zhangwei is his ability to convey a range of emotions through his expressions and body language. His thoughtful pose, with a hand on his chin, is a recurring motif that suggests introspection and intelligence. The contrast between his formal and casual attire highlights his adaptability and multifaceted personality. The consistent use of a black suit in professional settings, combined with the occasional casual attire, creates a balanced and relatable image. The bright yellow hoodie adds a pop of color and a touch of whimsy, making zhangwei visually distinctive and memorable. Overall, zhangwei exudes a confident and approachable aura, with a blend of professionalism and casual charm.",
+            "preference": "In terms of entertainment, zhangwei enjoys sports TV, romantic dramas, but dislikes classical concerts, art exhibitions. In terms of travel, zhangwei enjoys kayaking, snorkeling, but dislikes motorbiking trips, rafting. In terms of lifestyle, zhangwei enjoys protein-rich diet, weightlifting, but dislikes forest bathing, holistic therapy. In terms of shopping, zhangwei enjoys coffee brewing equipment, vintage vinyl records, but dislikes soundproofing panels, sleep-enhancing gadgets. In terms of fashion, zhangwei enjoys high heels, tight-fitting clothes, but dislikes plaid patterns, monochrome outfits.",
+            "topic": [],
+            "original_id": "QA_sample_c453c9b3",
+            "original_question": "the image, what is Meadow Boyer most likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_c453c9b3_2",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. ebd9914c, Among the activities that could reasonably occur in the given image, which one is Meadow Boyer least likely to be doing?",
+        "answer": "Watching a classical concert broadcast",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Meadow Boyer enjoys sports TV, romantic dramas, but dislikes classical concerts, art exhibitions"
+            ],
+            "image_evidence": [
+                "MMPB_6f052249.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Meadow Boyer enjoys kayaking, snorkeling, but dislikes motorbiking trips, rafting",
+                "In terms of lifestyle, Meadow Boyer enjoys protein-rich diet, weightlifting, but dislikes forest bathing, holistic therapy",
+                "In terms of shopping, Meadow Boyer enjoys coffee brewing equipment, vintage vinyl records, but dislikes soundproofing panels, sleep-enhancing gadgets",
+                "In terms of fashion, Meadow Boyer enjoys high heels, tight-fitting clothes, but dislikes plaid patterns, monochrome outfits."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Viewing a live K-pop broadcast on the screen",
+                "Watching a classical concert broadcast",
+                "Observing a rock band performance on television",
+                "Enjoying a rafting trip"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_travel_music_films_f06cb62c",
+                    "insert_conversation_turn": 543
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_travel_music_films_f06cb62c",
+                    "insert_conversation_turn": 793,
+                    "reference_name": "Fig. ebd9914c"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_travel_sports_animals_ae42a7eb",
+                    "insert_conversation_turn": 1212
+                },
+                {
+                    "conversation_name": "group_chat_food_architecture_education_6fa2347c",
+                    "insert_conversation_turn": 294
+                },
+                {
+                    "conversation_name": "group_chat_travel_sports_animals_ae42a7eb",
+                    "insert_conversation_turn": 438
+                },
+                {
+                    "conversation_name": "group_chat_travel_sports_animals_ae42a7eb",
+                    "insert_conversation_turn": 1064
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "zhangwei",
+            "description": "zhangwei is a man with a medium build and a height that suggests a confident presence. His facial structure is well-defined, with a prominent jawline and a slightly pointed chin. His skin tone is fair, and he has a neat, short hairstyle that is dark and well-groomed. zhangwei often appears with a contemplative expression, with his hand resting thoughtfully on his chin, indicating a reflective or analytical demeanor. His eyes are expressive, and his eyebrows are thick and well-shaped, adding to his thoughtful appearance. In some images, he is seen with a slight smile, suggesting a friendly and approachable personality.\n\n**Outfit and Accessories:**\nzhangwei is frequently seen in formal attire, particularly a black suit paired with a white shirt and a blue tie, which conveys a professional and polished look. The suit is well-tailored, fitting him snugly and enhancing his overall appearance. In one image, he is wearing a green plaid shirt, adding a casual and approachable element to his style. In another scene, he is seen in a bright yellow hoodie with the text \"THE dime EXPERIENCE,\" which introduces a more relaxed and youthful vibe. The consistent use of a suit suggests a professional setting, while the casual attire indicates versatility and adaptability in different environments.\n\n**Distinguishing Visual Features or Vibe:**\nThe most memorable feature of zhangwei is his ability to convey a range of emotions through his expressions and body language. His thoughtful pose, with a hand on his chin, is a recurring motif that suggests introspection and intelligence. The contrast between his formal and casual attire highlights his adaptability and multifaceted personality. The consistent use of a black suit in professional settings, combined with the occasional casual attire, creates a balanced and relatable image. The bright yellow hoodie adds a pop of color and a touch of whimsy, making zhangwei visually distinctive and memorable. Overall, zhangwei exudes a confident and approachable aura, with a blend of professionalism and casual charm.",
+            "preference": "In terms of entertainment, zhangwei enjoys sports TV, romantic dramas, but dislikes classical concerts, art exhibitions. In terms of travel, zhangwei enjoys kayaking, snorkeling, but dislikes motorbiking trips, rafting. In terms of lifestyle, zhangwei enjoys protein-rich diet, weightlifting, but dislikes forest bathing, holistic therapy. In terms of shopping, zhangwei enjoys coffee brewing equipment, vintage vinyl records, but dislikes soundproofing panels, sleep-enhancing gadgets. In terms of fashion, zhangwei enjoys high heels, tight-fitting clothes, but dislikes plaid patterns, monochrome outfits.",
+            "topic": [],
+            "original_id": "QA_sample_c453c9b3",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Meadow Boyer least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_c453c9b3_3",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. d3001599, Among the activities that could reasonably occur in the given image, which one is Meadow Boyer least likely to be doing?",
+        "answer": "Watching a classical concert",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Meadow Boyer enjoys sports TV, romantic dramas, but dislikes classical concerts, art exhibitions"
+            ],
+            "image_evidence": [
+                "MMPB_9ab3a64b.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Meadow Boyer enjoys kayaking, snorkeling, but dislikes motorbiking trips, rafting",
+                "In terms of lifestyle, Meadow Boyer enjoys protein-rich diet, weightlifting, but dislikes forest bathing, holistic therapy",
+                "In terms of shopping, Meadow Boyer enjoys coffee brewing equipment, vintage vinyl records, but dislikes soundproofing panels, sleep-enhancing gadgets",
+                "In terms of fashion, Meadow Boyer enjoys high heels, tight-fitting clothes, but dislikes plaid patterns, monochrome outfits."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Watching a classical concert",
+                "Observing a rock band performance",
+                "Snorkeling",
+                "Viewing a live K-pop broadcast"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_travel_music_films_f06cb62c",
+                    "insert_conversation_turn": 543
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_travel_sports_animals_ae42a7eb",
+                    "insert_conversation_turn": 332,
+                    "reference_name": "Fig. d3001599"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_travel_sports_animals_ae42a7eb",
+                    "insert_conversation_turn": 1212
+                },
+                {
+                    "conversation_name": "group_chat_food_architecture_education_6fa2347c",
+                    "insert_conversation_turn": 294
+                },
+                {
+                    "conversation_name": "group_chat_travel_sports_animals_ae42a7eb",
+                    "insert_conversation_turn": 438
+                },
+                {
+                    "conversation_name": "group_chat_travel_sports_animals_ae42a7eb",
+                    "insert_conversation_turn": 1064
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "zhangwei",
+            "description": "zhangwei is a man with a medium build and a height that suggests a confident presence. His facial structure is well-defined, with a prominent jawline and a slightly pointed chin. His skin tone is fair, and he has a neat, short hairstyle that is dark and well-groomed. zhangwei often appears with a contemplative expression, with his hand resting thoughtfully on his chin, indicating a reflective or analytical demeanor. His eyes are expressive, and his eyebrows are thick and well-shaped, adding to his thoughtful appearance. In some images, he is seen with a slight smile, suggesting a friendly and approachable personality.\n\n**Outfit and Accessories:**\nzhangwei is frequently seen in formal attire, particularly a black suit paired with a white shirt and a blue tie, which conveys a professional and polished look. The suit is well-tailored, fitting him snugly and enhancing his overall appearance. In one image, he is wearing a green plaid shirt, adding a casual and approachable element to his style. In another scene, he is seen in a bright yellow hoodie with the text \"THE dime EXPERIENCE,\" which introduces a more relaxed and youthful vibe. The consistent use of a suit suggests a professional setting, while the casual attire indicates versatility and adaptability in different environments.\n\n**Distinguishing Visual Features or Vibe:**\nThe most memorable feature of zhangwei is his ability to convey a range of emotions through his expressions and body language. His thoughtful pose, with a hand on his chin, is a recurring motif that suggests introspection and intelligence. The contrast between his formal and casual attire highlights his adaptability and multifaceted personality. The consistent use of a black suit in professional settings, combined with the occasional casual attire, creates a balanced and relatable image. The bright yellow hoodie adds a pop of color and a touch of whimsy, making zhangwei visually distinctive and memorable. Overall, zhangwei exudes a confident and approachable aura, with a blend of professionalism and casual charm.",
+            "preference": "In terms of entertainment, zhangwei enjoys sports TV, romantic dramas, but dislikes classical concerts, art exhibitions. In terms of travel, zhangwei enjoys kayaking, snorkeling, but dislikes motorbiking trips, rafting. In terms of lifestyle, zhangwei enjoys protein-rich diet, weightlifting, but dislikes forest bathing, holistic therapy. In terms of shopping, zhangwei enjoys coffee brewing equipment, vintage vinyl records, but dislikes soundproofing panels, sleep-enhancing gadgets. In terms of fashion, zhangwei enjoys high heels, tight-fitting clothes, but dislikes plaid patterns, monochrome outfits.",
+            "topic": [],
+            "original_id": "QA_sample_c453c9b3",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Meadow Boyer least likely to be doing?"
+        }
+    }
+]

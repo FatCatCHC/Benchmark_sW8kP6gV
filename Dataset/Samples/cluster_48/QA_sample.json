@@ -1,0 +1,2177 @@
+[
+    {
+        "id": "QA_sample_c57dc8c7",
+        "domain": "MLLMKC",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. d3d2199e, What is the occupation of the person in the picture?",
+        "answer": "actress, producer, and director",
+        "evidence": {
+            "text_evidence": [
+                "Courteney Cox was born on June 15, 1964. Courteney Cox is American. Courteney Cox is an actress, producer, and director."
+            ],
+            "image_evidence": [
+                "MLLMKC_1ffdac1a.jpg"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Courteney Cox was born on June 15, 1964. Courteney Cox is American. Courteney Cox is a chef, producer, and director."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "chef",
+                "actress, producer, and director",
+                "architect",
+                "botanist, gardener, horticulturist"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_transportation_music_sports_5f65fd21",
+                    "insert_conversation_turn": 1117
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_animals_travel_economy_14d4ddcd",
+                    "insert_conversation_turn": 1060,
+                    "reference_name": "Fig. d3d2199e"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_food_fashion_business_f55eb09d",
+                    "insert_conversation_turn": 299
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "instance": "Courteney Cox",
+            "category": "people",
+            "error_type": "Career_error",
+            "topic": [
+                "films",
+                " television"
+            ],
+            "original_question": "What is the occupation of the person in the picture?"
+        }
+    },
+    {
+        "id": "FC_sample_f58084f3",
+        "domain": "M3_Bench",
+        "category": "Function_Call",
+        "question": "Based on Fig. 4eb37ec3, Can you identify the landmark shown in this image?",
+        "answer": [
+            {
+                "step": 1,
+                "calls": [
+                    {
+                        "name": "GOOGLE_MAPS_places_text_search",
+                        "arguments": {
+                            "query": "Clifton Suspension Bridge, Bristol",
+                            "regionCode": "gb"
+                        }
+                    }
+                ]
+            }
+        ],
+        "evidence": {
+            "text_evidence": [
+                "Multi-stop route planning with image landmark\n\nTo plan a multi-stop route that includes a landmark shown in an image, begin by identifying the landmark using a place search tool capable of interpreting image content or related text queries. Next, geocode the starting location and the final destination to obtain their coordinates. Once the landmark is identified and all locations are geocoded, search for supermarkets situated along the route between the landmark and the final destination, or between any two relevant waypoints. After gathering all necessary waypoints—the starting location, the identified landmark, a selected supermarket, and the final destination—generate at least three different travel routes that include all these stops. Finally, compare the travel times or speeds of these routes to determine which option is the fastest. This workflow ensures that the route is optimized for efficiency while including all required stops."
+            ],
+            "image_evidence": [
+                "M3_bench_f58084f3.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {},
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_transportation_music_sports_5f65fd21",
+                    "insert_conversation_turn": 433
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_food_fashion_business_f55eb09d",
+                    "insert_conversation_turn": 128,
+                    "reference_name": "Fig. 4eb37ec3"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "function_call": [
+                {
+                    "function_name": "GOOGLE_MAPS_places_text_search",
+                    "function_comment": "Search for places using a free-text query via Google Places Text Search.\nArgs:\n  query (str): Text query describing the place.\n  languageCode (Optional[str]): Response language code.\n  regionCode (Optional[str]): Region bias code.\n  locationBias (Optional[Dict[str, Any]]): Optional circle bias for location preference.\n  maxResultCount (int): Maximum number of results to keep client-side.\n  fields (Optional[str]): Unused field mask parameter for signature parity.\nReturns:\n  data (Dict[str, Any]): JSON with endpoint, request parameters, and trimmed Places response."
+                }
+            ],
+            "instruction": "First, identify the landmark shown in the image using a place search. Then, geocode Ashton Lodge, the identified landmark, and Royal Park in Bristol. Search for supermarkets along the route between these stops. Finally, calculate and compare at least three different travel routes that include all waypoints to determine which is the fastest option.",
+            "workflow_description": "Multi-stop route planning with image landmark\n\nTo plan a multi-stop route that includes a landmark shown in an image, begin by identifying the landmark using a place search tool capable of interpreting image content or related text queries. Next, geocode the starting location and the final destination to obtain their coordinates. Once the landmark is identified and all locations are geocoded, search for supermarkets situated along the route between the landmark and the final destination, or between any two relevant waypoints. After gathering all necessary waypoints—the starting location, the identified landmark, a selected supermarket, and the final destination—generate at least three different travel routes that include all these stops. Finally, compare the travel times or speeds of these routes to determine which option is the fastest. This workflow ensures that the route is optimized for efficiency while including all required stops.",
+            "topic": [
+                "transportation",
+                " travel"
+            ],
+            "original_question": "Can you identify the landmark shown in this image?"
+        },
+        "original_reference_question": "Based on Fig. 4eb37ec3, Can you identify the landmark shown in this image?"
+    },
+    {
+        "id": "FC_sample_4c1fc19d",
+        "domain": "M3_Bench",
+        "category": "Function_Call",
+        "question": "Based on Fig. c00684f4, what is shown in this image, can you find where this movie is currently playing near New York?",
+        "answer": [
+            {
+                "step": 1,
+                "calls": []
+            },
+            {
+                "step": 2,
+                "calls": [
+                    {
+                        "name": "TMDB_search_movies",
+                        "arguments": {
+                            "query": "The Shawshank Redemption"
+                        }
+                    },
+                    {
+                        "name": "GOOGLE_MAPS_places_text_search",
+                        "arguments": {
+                            "query": "The Shawshank Redemption showtimes near New York, NY",
+                            "regionCode": "us"
+                        }
+                    }
+                ]
+            }
+        ],
+        "evidence": {
+            "text_evidence": [
+                "Movie identification and cinema lookup\n\nTo complete this workflow, first apply optical character recognition to the provided image in order to extract the movie title or relevant text. Next, use a movie database search tool to identify and confirm details about the extracted movie title. Once the movie has been identified, use a place search service to find cinemas in the specified area that are currently showing this movie. The workflow proceeds in this order: extract text from the image, identify the movie using a movie database, and then search for local cinemas screening the movie. This process can be repeated for any image containing movie-related information and any location of interest."
+            ],
+            "image_evidence": [
+                "M3_bench_4c1fc19d.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {},
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_transportation_music_sports_5f65fd21",
+                    "insert_conversation_turn": 1177
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_animals_travel_economy_14d4ddcd",
+                    "insert_conversation_turn": 201,
+                    "reference_name": "Fig. c00684f4"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "function_call": [
+                {
+                    "function_name": "TMDB_search_movies",
+                    "function_comment": "Search for movies using The Movie Database API.\n  Args:\n    query (string): Search query text.\n    year (number): Optional filter by release year.\n    page (number): Optional page number, defaults to 1.\n  Returns:\n    result (text): JSON string of the TMDB /search/movie response."
+                },
+                {
+                    "function_name": "GOOGLE_MAPS_places_text_search",
+                    "function_comment": "Search for places using a free-text query via Google Places Text Search.\nArgs:\n  query (str): Text query describing the place.\n  languageCode (Optional[str]): Response language code.\n  regionCode (Optional[str]): Region bias code.\n  locationBias (Optional[Dict[str, Any]]): Optional circle bias for location preference.\n  maxResultCount (int): Maximum number of results to keep client-side.\n  fields (Optional[str]): Unused field mask parameter for signature parity.\nReturns:\n  data (Dict[str, Any]): JSON with endpoint, request parameters, and trimmed Places response."
+                }
+            ],
+            "ocr_text": "🟪 The Shawshank Redemption — A Story of Hope, Freedom, and the Human Spirit\n\nThe Shawshank Redemption (1994), directed by Frank Darabont and based on Stephen King’s novella Rita Hayworth and Shawshank Redemption, is widely regarded as one of the most powerful and emotionally resonant films ever made. Set in the cold, gray walls of Shawshank State Penitentiary, the movie transcends the boundaries of its prison setting to explore the enduring themes of hope, freedom, friendship, and the quiet triumph of the human soul against the cruelties of fate.\n\nAt its heart, the film tells the story of Andy Dufresne, a young and intelligent banker (played by Tim Robbins) who is wrongfully convicted of murdering his wife and her lover. Sentenced to two consecutive life terms, Andy arrives at Shawshank Prison in 1947—a place where time stands still, where violence, corruption, and despair are woven into the daily fabric of life. Within these oppressive stone walls, men are stripped of their identity and dignity, reduced to numbers and routines. Yet Andy, calm and introspective, refuses to let the darkness consume him.\n\nThrough Andy’s quiet resilience, the film explores what it means to endure. While most prisoners lose hope, Andy carries within him an unbreakable belief in freedom—both physical and spiritual. Over time, he earns the respect and friendship of fellow inmate Ellis “Red” Redding (Morgan Freeman), a lifer known as the man who “can get things.” Red becomes not only Andy’s confidant but also the film’s soulful narrator, offering wisdom and reflection on life inside Shawshank and the meaning of redemption itself.\n\nAs years pass, Andy finds ways to reclaim purpose. He revitalizes the prison library, helps guards with financial matters, and brings small pieces of light to a place built on hopelessness. Beneath his calm demeanor, however, lies a quiet determination and an unimaginable dream—a dream that slowly unfolds through patience, intelligence, and unwavering faith.\n\nThe climax of The Shawshank Redemption is one of the most iconic in cinematic history. It is not a loud moment of rebellion, but a silent and poetic act of liberation—an escape that symbolizes the triumph of hope over despair. When the storm clears and the truth is revealed, the audience realizes that Andy’s freedom is not merely physical; it is spiritual, born from his refusal to surrender to the cruelty of his circumstances.",
+            "instruction": "First, use OCR to extract the movie title from the image. Then, search for this movie using The Movie Database to confirm its details. Finally, search for cinemas near New York that are showing this movie by using a text-based query for showtimes in that area.",
+            "workflow_description": "Movie identification and cinema lookup\n\nTo complete this workflow, first apply optical character recognition to the provided image in order to extract the movie title or relevant text. Next, use a movie database search tool to identify and confirm details about the extracted movie title. Once the movie has been identified, use a place search service to find cinemas in the specified area that are currently showing this movie. The workflow proceeds in this order: extract text from the image, identify the movie using a movie database, and then search for local cinemas screening the movie. This process can be repeated for any image containing movie-related information and any location of interest.",
+            "topic": [
+                "films"
+            ],
+            "original_question": "what is shown in this image, can you find where this movie is currently playing near New York?"
+        },
+        "original_reference_question": "Based on Fig. c00684f4, Based on what is shown in this image, can you find where this movie is currently playing near New York?"
+    },
+    {
+        "id": "QA_sample_e8cf593d",
+        "domain": "MLLMKC",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. 94a6708e, What is the nationality of the person in the picture?",
+        "answer": "British",
+        "evidence": {
+            "text_evidence": [
+                "Maisie Williams was born on 15 April 1997. Maisie Williams is British. Maisie Williams is an actress."
+            ],
+            "image_evidence": [
+                "MLLMKC_8fe8887f.jpg"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Maisie Williams was born on 15 April 1997. Maisie Williams is Irish. Maisie Williams is an actress."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "Welsh",
+                "Irish",
+                "Cornish",
+                "British"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_food_fashion_business_f55eb09d",
+                    "insert_conversation_turn": 328
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_animals_travel_economy_14d4ddcd",
+                    "insert_conversation_turn": 1152,
+                    "reference_name": "Fig. 94a6708e"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_transportation_music_sports_5f65fd21",
+                    "insert_conversation_turn": 92
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "instance": "Maisie Williams",
+            "category": "people",
+            "error_type": "location_error",
+            "topic": [
+                "films",
+                " television",
+                " fashion"
+            ],
+            "original_question": "What is the nationality of the person in the picture?"
+        }
+    },
+    {
+        "id": "QA_sample_0fdfa0dd",
+        "domain": "MLLMKC",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. 9a7a8b4f, When was the brand associated with the logo established?",
+        "answer": "2003",
+        "evidence": {
+            "text_evidence": [
+                "Tesla was founded in 2003. The creators of Tesla are Martin Eberhard and Marc Tarpenning. Tesla is the production of electric vehicles."
+            ],
+            "image_evidence": [
+                "MLLMKC_994277a8.jpg"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Tesla was founded in 2001. The creators of Tesla are Martin Eberhard and Marc Tarpenning. Tesla is the production of electric vehicles."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "2001",
+                "2003",
+                "2004",
+                "2005"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_animals_travel_economy_14d4ddcd",
+                    "insert_conversation_turn": 985
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_food_fashion_business_f55eb09d",
+                    "insert_conversation_turn": 1144,
+                    "reference_name": "Fig. 9a7a8b4f"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_transportation_music_sports_5f65fd21",
+                    "insert_conversation_turn": 1103
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "instance": "Tesla",
+            "category": "logo",
+            "error_type": "time_error",
+            "topic": [
+                "business",
+                "technology",
+                "transportation"
+            ],
+            "original_question": "When was the brand associated with the logo established?"
+        }
+    },
+    {
+        "id": "FC_sample_58d7c5a6",
+        "domain": "M3_Bench",
+        "category": "Function_Call",
+        "question": "Based on Fig. 74dcc9be, What are the current online prices for the media items shown in this image?",
+        "answer": [
+            {
+                "step": 1,
+                "calls": [
+                    {
+                        "name": "AMAZON_search_products",
+                        "arguments": {
+                            "keywords": "Superman 4K Ultra HD Blu-ray 1978 Christopher Reeve"
+                        }
+                    },
+                    {
+                        "name": "AMAZON_search_products",
+                        "arguments": {
+                            "keywords": "M3GAN 2.0 Blu-ray"
+                        }
+                    },
+                    {
+                        "name": "AMAZON_search_products",
+                        "arguments": {
+                            "keywords": "Uzumaki Junji Ito Deluxe Edition"
+                        }
+                    },
+                    {
+                        "name": "AMAZON_search_products",
+                        "arguments": {
+                            "keywords": "The Last of Us Season 2 Blu-ray"
+                        }
+                    },
+                    {
+                        "name": "AMAZON_search_products",
+                        "arguments": {
+                            "keywords": "Ballerina John Wick Blu-ray"
+                        }
+                    }
+                ]
+            }
+        ],
+        "evidence": {
+            "text_evidence": [
+                "Amazon product price lookup\n\nFor this workflow, begin by identifying each distinct product or item visible in the provided image. For every identified product, perform a separate search using the Amazon product search tool to retrieve current online prices. Each product should be searched individually to ensure accurate and relevant results. After completing the searches, compile a concise list of the prices found for each item, presenting the results in a clear and organized manner. This process can be repeated for any set of products depicted in an image, regardless of category."
+            ],
+            "image_evidence": [
+                "M3_bench_58d7c5a6.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {},
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_food_fashion_business_f55eb09d",
+                    "insert_conversation_turn": 285
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_animals_travel_economy_14d4ddcd",
+                    "insert_conversation_turn": 758,
+                    "reference_name": "Fig. 74dcc9be"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "function_call": [
+                {
+                    "function_name": "AMAZON_search_products",
+                    "function_comment": "Search Amazon products via Rainforest API and return a concise plain-text list.\nArgs:\n  keywords (str): Product search keywords.\n  n (int): Number of results to include (1–10).\n  page (int): Result page index starting from 1.\n  amazon_domain (str): Amazon domain such as \"amazon.com\".\nReturns:\n  result (str): Plain-text list of up to n products or an error message."
+                }
+            ],
+            "instruction": "Search for the items visible in the image—specifically Superman, M3GAN 2.0, Uzumaki Junji Ito, The Last of Us, and Ballerina John Wick—on Amazon to find their current prices. Use relevant keywords for each item to ensure accurate search results.",
+            "workflow_description": "Amazon product price lookup\n\nFor this workflow, begin by identifying each distinct product or item visible in the provided image. For every identified product, perform a separate search using the Amazon product search tool to retrieve current online prices. Each product should be searched individually to ensure accurate and relevant results. After completing the searches, compile a concise list of the prices found for each item, presenting the results in a clear and organized manner. This process can be repeated for any set of products depicted in an image, regardless of category.",
+            "topic": [
+                "films",
+                " television",
+                " literature"
+            ],
+            "original_question": "What are the current online prices for the media items shown in this image?"
+        },
+        "original_reference_question": "Based on Fig. 74dcc9be, What are the current online prices for the media items shown in this image?"
+    },
+    {
+        "id": "QA_sample_ec8b19f3",
+        "domain": "MLLMKC",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. fec5808f, What is the occupation of the person in the picture?",
+        "answer": "martial artist, actor, and filmmaker",
+        "evidence": {
+            "text_evidence": [
+                "Jackie Chan was born on April 7, 1954. Jackie Chan is Chinese. Jackie Chan is a martial artist, actor, and filmmaker."
+            ],
+            "image_evidence": [
+                "MLLMKC_d2ebad55.jpg"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Jackie Chan was born on April 7, 1954. Jackie Chan is Chinese. Jackie Chan is a chef, actor, and filmmaker."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "martial artist, actor, and filmmaker",
+                "gardener, landscaper, botanist",
+                "architect",
+                "chef"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_transportation_music_sports_5f65fd21",
+                    "insert_conversation_turn": 118
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_food_fashion_business_f55eb09d",
+                    "insert_conversation_turn": 111,
+                    "reference_name": "Fig. fec5808f"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_animals_travel_economy_14d4ddcd",
+                    "insert_conversation_turn": 29
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "instance": "Jackie Chan",
+            "category": "people",
+            "error_type": "Career_error",
+            "topic": [
+                "films",
+                " sports",
+                " television"
+            ],
+            "original_question": "What is the occupation of the person in the picture?"
+        }
+    },
+    {
+        "id": "FC_sample_ef0c8f14",
+        "domain": "M3_Bench",
+        "category": "Function_Call",
+        "question": "Based on Fig. 9949ff2d, what is shown in this image, can you find where this movie is currently playing in cinemas near New York?",
+        "answer": [
+            {
+                "step": 1,
+                "calls": []
+            },
+            {
+                "step": 2,
+                "calls": [
+                    {
+                        "name": "TMDB_search_movies",
+                        "arguments": {
+                            "query": "Green Book"
+                        }
+                    },
+                    {
+                        "name": "GOOGLE_MAPS_places_text_search",
+                        "arguments": {
+                            "query": "Green Book showtimes near New York, NY",
+                            "regionCode": "us"
+                        }
+                    }
+                ]
+            }
+        ],
+        "evidence": {
+            "text_evidence": [
+                "Movie identification and cinema lookup\n\nTo complete this workflow, first apply optical character recognition to the provided image in order to extract the movie title or relevant text. Next, use a movie database search tool to identify and confirm details about the extracted movie title. Once the movie has been identified, use a place search service to find cinemas in the specified area that are currently showing this movie. The workflow proceeds in this order: extract text from the image, identify the movie using a movie database, and then search for local cinemas screening the movie. This process can be repeated for any image containing movie-related information and any location of interest."
+            ],
+            "image_evidence": [
+                "M3_bench_ef0c8f14.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {},
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_food_fashion_business_f55eb09d",
+                    "insert_conversation_turn": 634
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_animals_travel_economy_14d4ddcd",
+                    "insert_conversation_turn": 729,
+                    "reference_name": "Fig. 9949ff2d"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "function_call": [
+                {
+                    "function_name": "TMDB_search_movies",
+                    "function_comment": "Search for movies using The Movie Database API.\n  Args:\n    query (string): Search query text.\n    year (number): Optional filter by release year.\n    page (number): Optional page number, defaults to 1.\n  Returns:\n    result (text): JSON string of the TMDB /search/movie response."
+                },
+                {
+                    "function_name": "GOOGLE_MAPS_places_text_search",
+                    "function_comment": "Search for places using a free-text query via Google Places Text Search.\nArgs:\n  query (str): Text query describing the place.\n  languageCode (Optional[str]): Response language code.\n  regionCode (Optional[str]): Region bias code.\n  locationBias (Optional[Dict[str, Any]]): Optional circle bias for location preference.\n  maxResultCount (int): Maximum number of results to keep client-side.\n  fields (Optional[str]): Unused field mask parameter for signature parity.\nReturns:\n  data (Dict[str, Any]): JSON with endpoint, request parameters, and trimmed Places response."
+                }
+            ],
+            "ocr_text": "VIGGO MORTENSEN\n\nMAHERSHALA ALI\n\nINSPIRED BY A TRUE FRIENDSHIP\n\nGREEN BOOK\n\nTHANKSGIVING",
+            "instruction": "Use OCR to extract the movie title from the image. Search for this movie on The Movie Database to confirm its details. Then, look up cinemas near New York that are showing this movie using a place search with the movie title and location.",
+            "workflow_description": "Movie identification and cinema lookup\n\nTo complete this workflow, first apply optical character recognition to the provided image in order to extract the movie title or relevant text. Next, use a movie database search tool to identify and confirm details about the extracted movie title. Once the movie has been identified, use a place search service to find cinemas in the specified area that are currently showing this movie. The workflow proceeds in this order: extract text from the image, identify the movie using a movie database, and then search for local cinemas screening the movie. This process can be repeated for any image containing movie-related information and any location of interest.",
+            "topic": [
+                "films",
+                " travel"
+            ],
+            "original_question": "what is shown in this image, can you find where this movie is currently playing in cinemas near New York?"
+        },
+        "original_reference_question": "Based on Fig. 9949ff2d, Based on what is shown in this image, can you find where this movie is currently playing in cinemas near New York?"
+    },
+    {
+        "id": "QA_sample_d289b56f",
+        "domain": "MLLMKC",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. 57d97b45, What are the main products of this brand?",
+        "answer": "construction equipment",
+        "evidence": {
+            "text_evidence": [
+                "Caterpillar was created in 1925. The creator of Caterpillar is Holt Manufacturing Company, and Caterpillar is the brand of construction equipment."
+            ],
+            "image_evidence": [
+                "MLLMKC_01357b88.jpg"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Caterpillar was created in 1925. The creator of Caterpillar is Holt Manufacturing Company, and Caterpillar is the brand of luxury watches."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "construction equipment",
+                "luxury watches",
+                "gourmet coffee",
+                "organic fertilizers"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_food_fashion_business_f55eb09d",
+                    "insert_conversation_turn": 1029
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_transportation_music_sports_5f65fd21",
+                    "insert_conversation_turn": 535,
+                    "reference_name": "Fig. 57d97b45"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_animals_travel_economy_14d4ddcd",
+                    "insert_conversation_turn": 957
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "instance": "Caterpillar",
+            "category": "logo",
+            "error_type": "content_error",
+            "topic": [
+                "business",
+                "technology",
+                "transportation"
+            ],
+            "original_question": "What are the main products of this brand?"
+        }
+    },
+    {
+        "id": "FC_sample_e3a10241",
+        "domain": "M3_Bench",
+        "category": "Function_Call",
+        "question": "Based on Fig. 735d2357, What is the name of the landmark shown in this image?",
+        "answer": [
+            {
+                "step": 1,
+                "calls": [
+                    {
+                        "name": "GOOGLE_MAPS_places_text_search",
+                        "arguments": {
+                            "query": "Eiffel Tower Paris",
+                            "regionCode": "fr"
+                        }
+                    }
+                ]
+            }
+        ],
+        "evidence": {
+            "text_evidence": [
+                "Multi-stop route planning with image landmark\n\nTo plan a multi-stop route that includes a landmark shown in an image, begin by identifying the landmark using a place search tool capable of interpreting image content or related text queries. Next, geocode the starting location and the final destination to obtain their coordinates. Once the landmark is identified and all locations are geocoded, search for supermarkets situated along the route between the landmark and the final destination, or between any two relevant waypoints. After gathering all necessary waypoints—the starting location, the identified landmark, a selected supermarket, and the final destination—generate at least three different travel routes that include all these stops. Finally, compare the travel times or speeds of these routes to determine which option is the fastest. This workflow ensures that the route is optimized for efficiency while including all required stops."
+            ],
+            "image_evidence": [
+                "M3_bench_e3a10241.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {},
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_animals_travel_economy_14d4ddcd",
+                    "insert_conversation_turn": 700
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_food_fashion_business_f55eb09d",
+                    "insert_conversation_turn": 1185,
+                    "reference_name": "Fig. 735d2357"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "function_call": [
+                {
+                    "function_name": "GOOGLE_MAPS_places_text_search",
+                    "function_comment": "Search for places using a free-text query via Google Places Text Search.\nArgs:\n  query (str): Text query describing the place.\n  languageCode (Optional[str]): Response language code.\n  regionCode (Optional[str]): Region bias code.\n  locationBias (Optional[Dict[str, Any]]): Optional circle bias for location preference.\n  maxResultCount (int): Maximum number of results to keep client-side.\n  fields (Optional[str]): Unused field mask parameter for signature parity.\nReturns:\n  data (Dict[str, Any]): JSON with endpoint, request parameters, and trimmed Places response."
+                }
+            ],
+            "instruction": "First, identify the landmark shown in the image using a place search. Then, geocode the starting address and the final destination. Search for supermarkets near the route between the landmark and the final destination. Compute and compare at least three different travel routes that include all stops (starting address, the landmark, a supermarket, and the final destination) to determine which option is the fastest.",
+            "workflow_description": "Multi-stop route planning with image landmark\n\nTo plan a multi-stop route that includes a landmark shown in an image, begin by identifying the landmark using a place search tool capable of interpreting image content or related text queries. Next, geocode the starting location and the final destination to obtain their coordinates. Once the landmark is identified and all locations are geocoded, search for supermarkets situated along the route between the landmark and the final destination, or between any two relevant waypoints. After gathering all necessary waypoints—the starting location, the identified landmark, a selected supermarket, and the final destination—generate at least three different travel routes that include all these stops. Finally, compare the travel times or speeds of these routes to determine which option is the fastest. This workflow ensures that the route is optimized for efficiency while including all required stops.",
+            "topic": [
+                "transportation",
+                " travel",
+                " technology"
+            ],
+            "original_question": "What is the name of the landmark shown in this image?"
+        },
+        "original_reference_question": "Based on Fig. 735d2357, What is the name of the landmark shown in this image?"
+    },
+    {
+        "id": "QA_sample_1a949dcd",
+        "domain": "MLLMKC",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. e2ed7cbd, What is the nationality of the person in the picture?",
+        "answer": "Canadian",
+        "evidence": {
+            "text_evidence": [
+                "Keanu Reeves was born on September 2, 1964. Keanu Reeves is Canadian. Keanu Reeves is an actor."
+            ],
+            "image_evidence": [
+                "MLLMKC_a28f6c2a.jpg"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Keanu Reeves was born on September 2, 1964. Keanu Reeves is American. Keanu Reeves is an actor."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "Panamanian",
+                "American",
+                "Mexican",
+                "Canadian"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_food_fashion_business_f55eb09d",
+                    "insert_conversation_turn": 534
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_transportation_music_sports_5f65fd21",
+                    "insert_conversation_turn": 379,
+                    "reference_name": "Fig. e2ed7cbd"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_animals_travel_economy_14d4ddcd",
+                    "insert_conversation_turn": 235
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "instance": "Keanu Reeves",
+            "category": "people",
+            "error_type": "location_error",
+            "topic": [
+                "films"
+            ],
+            "original_question": "What is the nationality of the person in the picture?"
+        }
+    },
+    {
+        "id": "QA_sample_745041fb",
+        "domain": "MLLMKC",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. 1b49d9cf, What is the occupation of the person in the picture?",
+        "answer": "actor",
+        "evidence": {
+            "text_evidence": [
+                "Benedict Cumberbatch was born on July 19, 1976. Benedict Cumberbatch is British. Benedict Cumberbatch is an actor."
+            ],
+            "image_evidence": [
+                "MLLMKC_9f9d9f0d.jpg"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Benedict Cumberbatch was born on July 19, 1976. Benedict Cumberbatch is British. Benedict Cumberbatch is a chef."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "artist  \nauthor  \ndoctor",
+                "architect",
+                "actor",
+                "chef"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_food_fashion_business_f55eb09d",
+                    "insert_conversation_turn": 257
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_transportation_music_sports_5f65fd21",
+                    "insert_conversation_turn": 414,
+                    "reference_name": "Fig. 1b49d9cf"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_animals_travel_economy_14d4ddcd",
+                    "insert_conversation_turn": 89
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "instance": "Benedict Cumberbatch",
+            "category": "people",
+            "error_type": "Career_error",
+            "topic": [
+                "films",
+                " television"
+            ],
+            "original_question": "What is the occupation of the person in the picture?"
+        }
+    },
+    {
+        "id": "QA_sample_b1f26fe8",
+        "domain": "MLLMKC",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. f6959e32, What is the occupation of the person in the picture?",
+        "answer": "actress",
+        "evidence": {
+            "text_evidence": [
+                "Cate Blanchett was born on May 14, 1969. Cate Blanchett is Australian. Cate Blanchett is an actress."
+            ],
+            "image_evidence": [
+                "MLLMKC_92325ccb.jpg"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Cate Blanchett was born on May 14, 1969. Cate Blanchett is Australian. Cate Blanchett is a novelist."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "chef",
+                "painter  \nsculptor  \nflorist",
+                "actress",
+                "novelist"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_animals_travel_economy_14d4ddcd",
+                    "insert_conversation_turn": 629
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_transportation_music_sports_5f65fd21",
+                    "insert_conversation_turn": 739,
+                    "reference_name": "Fig. f6959e32"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_food_fashion_business_f55eb09d",
+                    "insert_conversation_turn": 796
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "instance": "Cate Blanchett",
+            "category": "people",
+            "error_type": "Career_error",
+            "topic": [
+                "films",
+                " television",
+                " fashion"
+            ],
+            "original_question": "What is the occupation of the person in the picture?"
+        }
+    },
+    {
+        "id": "QA_sample_1c0cf691",
+        "domain": "MLLMKC",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. d4bb5609, What is the occupation of the person in the picture?",
+        "answer": "actor, director, and producer",
+        "evidence": {
+            "text_evidence": [
+                "George Clooney was born on May 6, 1961. George Clooney is American. George Clooney is an actor, director, and producer."
+            ],
+            "image_evidence": [
+                "MLLMKC_4c2b22ec.jpg"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "George Clooney was born on May 6, 1961. George Clooney is American. George Clooney is a chef, director, and producer."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "chef",
+                "actor, director, and producer",
+                "gardener, landscaper, florist",
+                "architect"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_transportation_music_sports_5f65fd21",
+                    "insert_conversation_turn": 45
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_food_fashion_business_f55eb09d",
+                    "insert_conversation_turn": 520,
+                    "reference_name": "Fig. d4bb5609"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_animals_travel_economy_14d4ddcd",
+                    "insert_conversation_turn": 10
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "instance": "George Clooney",
+            "category": "people",
+            "error_type": "Career_error",
+            "topic": [
+                "films",
+                " television"
+            ],
+            "original_question": "What is the occupation of the person in the picture?"
+        }
+    },
+    {
+        "id": "QA_sample_1c6f28ef",
+        "domain": "MLLMKC",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. 3c085c15, When was the brand associated with the logo established?",
+        "answer": "1970",
+        "evidence": {
+            "text_evidence": [
+                "Airbus was created in 1970. The creator of Airbus is a consortium of European aerospace manufacturers. Airbus is the brand of commercial aircraft."
+            ],
+            "image_evidence": [
+                "MLLMKC_b822749e.jpg"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Airbus was created in 1965. The creator of Airbus is a consortium of European aerospace manufacturers. Airbus is the brand of commercial aircraft."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "1970",
+                "1965",
+                "1975",
+                "1972"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_food_fashion_business_f55eb09d",
+                    "insert_conversation_turn": 1225
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_animals_travel_economy_14d4ddcd",
+                    "insert_conversation_turn": 1268,
+                    "reference_name": "Fig. 3c085c15"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_transportation_music_sports_5f65fd21",
+                    "insert_conversation_turn": 143
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "instance": "Airbus",
+            "category": "logo",
+            "error_type": "time_error",
+            "topic": [
+                "transportation",
+                " business",
+                " technology"
+            ],
+            "original_question": "When was the brand associated with the logo established?"
+        }
+    },
+    {
+        "id": "QA_sample_d6266106",
+        "domain": "MLLMKC",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. 5034cc1c, When was the brand associated with the logo established?",
+        "answer": "1903",
+        "evidence": {
+            "text_evidence": [
+                "Harley-Davidson was created in 1903. The creators of Harley-Davidson are William S. Harley and Arthur Davidson. Harley-Davidson is the brand of motorcycles."
+            ],
+            "image_evidence": [
+                "MLLMKC_e9cf4a54.jpg"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Harley-Davidson was created in 1898. The creators of Harley-Davidson are William S. Harley and Arthur Davidson. Harley-Davidson is the brand of motorcycles."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "1898",
+                "1910",
+                "1903",
+                "1905"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_food_fashion_business_f55eb09d",
+                    "insert_conversation_turn": 1015
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_animals_travel_economy_14d4ddcd",
+                    "insert_conversation_turn": 1089,
+                    "reference_name": "Fig. 5034cc1c"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_transportation_music_sports_5f65fd21",
+                    "insert_conversation_turn": 625
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "instance": "Harley-Davidson",
+            "category": "logo",
+            "error_type": "time_error",
+            "topic": [
+                "transportation",
+                " history",
+                " business"
+            ],
+            "original_question": "When was the brand associated with the logo established?"
+        }
+    },
+    {
+        "id": "QA_sample_15e19712",
+        "domain": "MLLMKC",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. 33b6d98f, What is the nationality of the person in the picture?",
+        "answer": "American",
+        "evidence": {
+            "text_evidence": [
+                "Sylvester Stallone was born on July 6, 1946. Sylvester Stallone is American. Sylvester Stallone is an actor, filmmaker, and screenwriter."
+            ],
+            "image_evidence": [
+                "MLLMKC_1a57029f.jpg"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Sylvester Stallone was born on July 6, 1946. Sylvester Stallone is Canadian. Sylvester Stallone is an actor, filmmaker, and screenwriter."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Mexican",
+                "American",
+                "Panamanian",
+                "Canadian"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_food_fashion_business_f55eb09d",
+                    "insert_conversation_turn": 782
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_animals_travel_economy_14d4ddcd",
+                    "insert_conversation_turn": 1122,
+                    "reference_name": "Fig. 33b6d98f"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_transportation_music_sports_5f65fd21",
+                    "insert_conversation_turn": 509
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "instance": "Sylvester Stallone",
+            "category": "people",
+            "error_type": "location_error",
+            "topic": [
+                "films"
+            ],
+            "original_question": "What is the nationality of the person in the picture?"
+        }
+    },
+    {
+        "id": "QA_sample_36a68ef6",
+        "domain": "MLLMKC",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. 27e2c877, What is the nationality of the person in the picture?",
+        "answer": "American and Israeli",
+        "evidence": {
+            "text_evidence": [
+                "Natalie Portman was born on June 9, 1981. Natalie Portman is American and Israeli. Natalie Portman is an actress, filmmaker, and former child prodigy."
+            ],
+            "image_evidence": [
+                "MLLMKC_5b2d8ad9.jpg"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Natalie Portman was born on June 9, 1981. Natalie Portman is Canadian and Israeli. Natalie Portman is an actress, filmmaker, and former child prodigy."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "Lebanese",
+                "Colombian and Brazilian  \nArgentinian  \nPeruvian",
+                "American and Israeli",
+                "Canadian"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_food_fashion_business_f55eb09d",
+                    "insert_conversation_turn": 199
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_transportation_music_sports_5f65fd21",
+                    "insert_conversation_turn": 1232,
+                    "reference_name": "Fig. 27e2c877"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_animals_travel_economy_14d4ddcd",
+                    "insert_conversation_turn": 75
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "instance": "Natalie Portman",
+            "category": "people",
+            "error_type": "location_error",
+            "topic": [
+                "films",
+                " fashion",
+                " lifestyle"
+            ],
+            "original_question": "What is the nationality of the person in the picture?"
+        }
+    },
+    {
+        "id": "QA_sample_8e562a1e",
+        "domain": "MLLMKC",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. 055ee94e, What is the nationality of the person in the picture?",
+        "answer": "Australian",
+        "evidence": {
+            "text_evidence": [
+                "Cate Blanchett was born on May 14, 1969. Cate Blanchett is Australian. Cate Blanchett is an actress."
+            ],
+            "image_evidence": [
+                "MLLMKC_82321feb.jpg"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Cate Blanchett was born on May 14, 1969. Cate Blanchett is New Zealander. Cate Blanchett is an actress."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Australian",
+                "New Zealander",
+                "Papua New Guinean",
+                "'Ni-Vanuatu'"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_transportation_music_sports_5f65fd21",
+                    "insert_conversation_turn": 1089
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_animals_travel_economy_14d4ddcd",
+                    "insert_conversation_turn": 271,
+                    "reference_name": "Fig. 055ee94e"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_food_fashion_business_f55eb09d",
+                    "insert_conversation_turn": 469
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "instance": "Cate Blanchett",
+            "category": "people",
+            "error_type": "location_error",
+            "topic": [
+                "films",
+                " fashion"
+            ],
+            "original_question": "What is the nationality of the person in the picture?"
+        }
+    },
+    {
+        "id": "QA_sample_1c8323e0",
+        "domain": "MLLMKC",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. 492081a1, What is the nationality of the person in the picture?",
+        "answer": "American",
+        "evidence": {
+            "text_evidence": [
+                "Shia LaBeouf was born on June 11, 1986. Shia LaBeouf is American. Shia LaBeouf is an actor, filmmaker, and performance artist."
+            ],
+            "image_evidence": [
+                "MLLMKC_8715aadf.jpg"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Shia LaBeouf was born on June 11, 1986. Shia LaBeouf is Canadian. Shia LaBeouf is an actor, filmmaker, and performance artist."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "Canadian",
+                "Mexican",
+                "American",
+                "Panamanian"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_transportation_music_sports_5f65fd21",
+                    "insert_conversation_turn": 1075
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_animals_travel_economy_14d4ddcd",
+                    "insert_conversation_turn": 125,
+                    "reference_name": "Fig. 492081a1"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_food_fashion_business_f55eb09d",
+                    "insert_conversation_turn": 498
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "instance": "Shia LaBeouf",
+            "category": "people",
+            "error_type": "location_error",
+            "topic": [
+                "films"
+            ],
+            "original_question": "What is the nationality of the person in the picture?"
+        }
+    },
+    {
+        "id": "QA_sample_7083b69b",
+        "domain": "MLLMKC",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. ce5e22e6, What is the nationality of the person in the picture?",
+        "answer": "None",
+        "evidence": {
+            "text_evidence": [
+                "Chris Hemsworth was born on August 11, 1983. Chris Hemsworth is Australian. Chris Hemsworth is an actor."
+            ],
+            "image_evidence": [
+                "MLLMKC_92aa85bd.jpg"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Chris Hemsworth was born on August 11, 1983. Chris Hemsworth is New Zealander. Chris Hemsworth is an actor."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "New Zealander",
+                "British",
+                "None",
+                "Norwegian"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_transportation_music_sports_5f65fd21",
+                    "insert_conversation_turn": 1061
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_animals_travel_economy_14d4ddcd",
+                    "insert_conversation_turn": 856,
+                    "reference_name": "Fig. ce5e22e6"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_food_fashion_business_f55eb09d",
+                    "insert_conversation_turn": 550
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "instance": "Chris Hemsworth",
+            "category": "people",
+            "error_type": "location_error",
+            "topic": [
+                "films"
+            ],
+            "original_question": "What is the nationality of the person in the picture?"
+        }
+    },
+    {
+        "id": "QA_sample_97b85542_1",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 37efdd5d, the image, what is Miya Cruz most likely to be doing?",
+        "answer": "Watching an anime series",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Miya Cruz enjoys K-pop concerts, anime series, but dislikes improv comedy, street performances"
+            ],
+            "image_evidence": [
+                "MMPB_2d99653f.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Miya Cruz enjoys cruise vacations, solo travel, but dislikes motorbiking trips, rafting",
+                "In terms of lifestyle, Miya Cruz enjoys kombucha brewing, medicinal herb gardening, but dislikes hot yoga, pilates",
+                "In terms of shopping, Miya Cruz enjoys retro gaming consoles, wireless earbuds, but dislikes handmade crafts, vintage furniture",
+                "In terms of fashion, Miya Cruz enjoys vintage style, formal suits, but dislikes business casual, athleisure wear."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "Streaming a documentary series",
+                "Watching a movie marathon",
+                "Watching an anime series",
+                "Going on a solo travel adventure"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_animals_travel_economy_14d4ddcd",
+                    "insert_conversation_turn": 485
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_transportation_music_sports_5f65fd21",
+                    "insert_conversation_turn": 918,
+                    "reference_name": "Fig. 37efdd5d"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_animals_travel_economy_14d4ddcd",
+                    "insert_conversation_turn": 672
+                },
+                {
+                    "conversation_name": "group_chat_transportation_music_sports_5f65fd21",
+                    "insert_conversation_turn": 695
+                },
+                {
+                    "conversation_name": "group_chat_food_fashion_business_f55eb09d",
+                    "insert_conversation_turn": 1168
+                },
+                {
+                    "conversation_name": "group_chat_animals_travel_economy_14d4ddcd",
+                    "insert_conversation_turn": 879
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Yu",
+            "description": "Yu is a young individual with a slender build and a youthful appearance, suggesting a height that is typical for their age. Their facial structure is characterized by a well-defined jawline and a slightly rounded face, with a fair skin tone. The hair is short and neatly styled, often appearing dark and well-groomed. The eyebrows are thick and well-defined, adding to the expressive nature of their face. Yu frequently displays a range of expressions, from a broad smile to a more contemplative look, indicating a lively and engaging personality. The eyes are a notable feature, often appearing bright and attentive, contributing to a sense of curiosity and openness.\n\n**Outfit and Accessories:**\nYu is seen wearing a variety of outfits that reflect a casual and comfortable style. The color palette includes a mix of bright and neutral tones, such as red, green, white, and orange, with occasional accents of blue and black. The clothing appears to be made of soft, comfortable materials, suitable for everyday wear. The outfits range from a red and green jacket to a white shirt with pink accents, and a gray shirt with red and black details. The attire is practical and functional, with a focus on comfort and ease of movement. There are no visible accessories, suggesting a preference for simplicity and minimalism in their style.\n\n**Distinguishing Visual Features or Vibe:**\nThe most memorable feature of Yu is their bright and engaging smile, which conveys a sense of warmth and friendliness. The consistent appearance of a neat and well-groomed hairstyle adds to their youthful and approachable vibe. The combination of bright and neutral colors in their outfits creates a visually appealing contrast, enhancing their overall appearance. The expressive eyes and varied facial expressions contribute to a dynamic and lively persona. The overall impression is one of a cheerful and energetic individual, with a casual and relatable style that makes Yu visually unmistakable.",
+            "preference": "In terms of entertainment, Yu enjoys K-pop concerts, anime series, but dislikes improv comedy, street performances. In terms of travel, Yu enjoys cruise vacations, solo travel, but dislikes motorbiking trips, rafting. In terms of lifestyle, Yu enjoys kombucha brewing, medicinal herb gardening, but dislikes hot yoga, pilates. In terms of shopping, Yu enjoys retro gaming consoles, wireless earbuds, but dislikes handmade crafts, vintage furniture. In terms of fashion, Yu enjoys vintage style, formal suits, but dislikes business casual, athleisure wear.",
+            "topic": [],
+            "original_id": "QA_sample_97b85542",
+            "original_question": "the image, what is Miya Cruz most likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_97b85542_2",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. bcd0c58f, Among the activities that could reasonably occur in the given image, which one is Miya Cruz least likely to be doing?",
+        "answer": "Watching an improv comedy show",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Miya Cruz enjoys K-pop concerts, anime series, but dislikes improv comedy, street performances"
+            ],
+            "image_evidence": [
+                "MMPB_73dc3548.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Miya Cruz enjoys cruise vacations, solo travel, but dislikes motorbiking trips, rafting",
+                "In terms of lifestyle, Miya Cruz enjoys kombucha brewing, medicinal herb gardening, but dislikes hot yoga, pilates",
+                "In terms of shopping, Miya Cruz enjoys retro gaming consoles, wireless earbuds, but dislikes handmade crafts, vintage furniture",
+                "In terms of fashion, Miya Cruz enjoys vintage style, formal suits, but dislikes business casual, athleisure wear."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Watching an improv comedy show",
+                "Observing a live theater performance",
+                "Pilates",
+                "Attending a symphony orchestra concert"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_animals_travel_economy_14d4ddcd",
+                    "insert_conversation_turn": 485
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_food_fashion_business_f55eb09d",
+                    "insert_conversation_turn": 574,
+                    "reference_name": "Fig. bcd0c58f"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_animals_travel_economy_14d4ddcd",
+                    "insert_conversation_turn": 672
+                },
+                {
+                    "conversation_name": "group_chat_transportation_music_sports_5f65fd21",
+                    "insert_conversation_turn": 695
+                },
+                {
+                    "conversation_name": "group_chat_food_fashion_business_f55eb09d",
+                    "insert_conversation_turn": 1168
+                },
+                {
+                    "conversation_name": "group_chat_animals_travel_economy_14d4ddcd",
+                    "insert_conversation_turn": 879
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Yu",
+            "description": "Yu is a young individual with a slender build and a youthful appearance, suggesting a height that is typical for their age. Their facial structure is characterized by a well-defined jawline and a slightly rounded face, with a fair skin tone. The hair is short and neatly styled, often appearing dark and well-groomed. The eyebrows are thick and well-defined, adding to the expressive nature of their face. Yu frequently displays a range of expressions, from a broad smile to a more contemplative look, indicating a lively and engaging personality. The eyes are a notable feature, often appearing bright and attentive, contributing to a sense of curiosity and openness.\n\n**Outfit and Accessories:**\nYu is seen wearing a variety of outfits that reflect a casual and comfortable style. The color palette includes a mix of bright and neutral tones, such as red, green, white, and orange, with occasional accents of blue and black. The clothing appears to be made of soft, comfortable materials, suitable for everyday wear. The outfits range from a red and green jacket to a white shirt with pink accents, and a gray shirt with red and black details. The attire is practical and functional, with a focus on comfort and ease of movement. There are no visible accessories, suggesting a preference for simplicity and minimalism in their style.\n\n**Distinguishing Visual Features or Vibe:**\nThe most memorable feature of Yu is their bright and engaging smile, which conveys a sense of warmth and friendliness. The consistent appearance of a neat and well-groomed hairstyle adds to their youthful and approachable vibe. The combination of bright and neutral colors in their outfits creates a visually appealing contrast, enhancing their overall appearance. The expressive eyes and varied facial expressions contribute to a dynamic and lively persona. The overall impression is one of a cheerful and energetic individual, with a casual and relatable style that makes Yu visually unmistakable.",
+            "preference": "In terms of entertainment, Yu enjoys K-pop concerts, anime series, but dislikes improv comedy, street performances. In terms of travel, Yu enjoys cruise vacations, solo travel, but dislikes motorbiking trips, rafting. In terms of lifestyle, Yu enjoys kombucha brewing, medicinal herb gardening, but dislikes hot yoga, pilates. In terms of shopping, Yu enjoys retro gaming consoles, wireless earbuds, but dislikes handmade crafts, vintage furniture. In terms of fashion, Yu enjoys vintage style, formal suits, but dislikes business casual, athleisure wear.",
+            "topic": [],
+            "original_id": "QA_sample_97b85542",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Miya Cruz least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_97b85542_3",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 79d2ba96, Among the activities that could reasonably occur in the given image, which one is Miya Cruz least likely to be doing?",
+        "answer": "Watching street performances",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Miya Cruz enjoys K-pop concerts, anime series, but dislikes improv comedy, street performances"
+            ],
+            "image_evidence": [
+                "MMPB_28b712ad.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Miya Cruz enjoys cruise vacations, solo travel, but dislikes motorbiking trips, rafting",
+                "In terms of lifestyle, Miya Cruz enjoys kombucha brewing, medicinal herb gardening, but dislikes hot yoga, pilates",
+                "In terms of shopping, Miya Cruz enjoys retro gaming consoles, wireless earbuds, but dislikes handmade crafts, vintage furniture",
+                "In terms of fashion, Miya Cruz enjoys vintage style, formal suits, but dislikes business casual, athleisure wear."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "Observing public art installations",
+                "Enjoying outdoor music festivals",
+                "Brewing Kombu tea",
+                "Watching street performances"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_animals_travel_economy_14d4ddcd",
+                    "insert_conversation_turn": 485
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_animals_travel_economy_14d4ddcd",
+                    "insert_conversation_turn": 656,
+                    "reference_name": "Fig. 79d2ba96"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_animals_travel_economy_14d4ddcd",
+                    "insert_conversation_turn": 672
+                },
+                {
+                    "conversation_name": "group_chat_transportation_music_sports_5f65fd21",
+                    "insert_conversation_turn": 695
+                },
+                {
+                    "conversation_name": "group_chat_food_fashion_business_f55eb09d",
+                    "insert_conversation_turn": 1168
+                },
+                {
+                    "conversation_name": "group_chat_animals_travel_economy_14d4ddcd",
+                    "insert_conversation_turn": 879
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Yu",
+            "description": "Yu is a young individual with a slender build and a youthful appearance, suggesting a height that is typical for their age. Their facial structure is characterized by a well-defined jawline and a slightly rounded face, with a fair skin tone. The hair is short and neatly styled, often appearing dark and well-groomed. The eyebrows are thick and well-defined, adding to the expressive nature of their face. Yu frequently displays a range of expressions, from a broad smile to a more contemplative look, indicating a lively and engaging personality. The eyes are a notable feature, often appearing bright and attentive, contributing to a sense of curiosity and openness.\n\n**Outfit and Accessories:**\nYu is seen wearing a variety of outfits that reflect a casual and comfortable style. The color palette includes a mix of bright and neutral tones, such as red, green, white, and orange, with occasional accents of blue and black. The clothing appears to be made of soft, comfortable materials, suitable for everyday wear. The outfits range from a red and green jacket to a white shirt with pink accents, and a gray shirt with red and black details. The attire is practical and functional, with a focus on comfort and ease of movement. There are no visible accessories, suggesting a preference for simplicity and minimalism in their style.\n\n**Distinguishing Visual Features or Vibe:**\nThe most memorable feature of Yu is their bright and engaging smile, which conveys a sense of warmth and friendliness. The consistent appearance of a neat and well-groomed hairstyle adds to their youthful and approachable vibe. The combination of bright and neutral colors in their outfits creates a visually appealing contrast, enhancing their overall appearance. The expressive eyes and varied facial expressions contribute to a dynamic and lively persona. The overall impression is one of a cheerful and energetic individual, with a casual and relatable style that makes Yu visually unmistakable.",
+            "preference": "In terms of entertainment, Yu enjoys K-pop concerts, anime series, but dislikes improv comedy, street performances. In terms of travel, Yu enjoys cruise vacations, solo travel, but dislikes motorbiking trips, rafting. In terms of lifestyle, Yu enjoys kombucha brewing, medicinal herb gardening, but dislikes hot yoga, pilates. In terms of shopping, Yu enjoys retro gaming consoles, wireless earbuds, but dislikes handmade crafts, vintage furniture. In terms of fashion, Yu enjoys vintage style, formal suits, but dislikes business casual, athleisure wear.",
+            "topic": [],
+            "original_id": "QA_sample_97b85542",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Miya Cruz least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_e84b6bc4_1",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 713e9696, the image, what is Immanuel Goodwin most likely to be doing?",
+        "answer": "Searching for a cooking show to watch",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Immanuel Goodwin enjoys cooking shows, travel vlogs, but dislikes science fiction movies, animated films"
+            ],
+            "image_evidence": [
+                "MMPB_2d99653f.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Immanuel Goodwin enjoys cycling, camping, but dislikes skiing, desert trekking",
+                "In terms of lifestyle, Immanuel Goodwin enjoys plant-based diet, home cooking, but dislikes hot yoga, pilates",
+                "In terms of shopping, Immanuel Goodwin enjoys handmade crafts, vintage furniture, but dislikes smart home devices, kitchen appliances",
+                "In terms of fashion, Immanuel Goodwin enjoys futuristic fashion, gothic clothing, but dislikes chunky boots, strappy sandals."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "Looking for a sports highlights reel",
+                "Browsing for a travel documentary",
+                "Following plant-based diet",
+                "Searching for a cooking show to watch"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_animals_travel_economy_14d4ddcd",
+                    "insert_conversation_turn": 1257
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_transportation_music_sports_5f65fd21",
+                    "insert_conversation_turn": 918,
+                    "reference_name": "Fig. 713e9696"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_food_fashion_business_f55eb09d",
+                    "insert_conversation_turn": 361
+                },
+                {
+                    "conversation_name": "group_chat_animals_travel_economy_14d4ddcd",
+                    "insert_conversation_turn": 568
+                },
+                {
+                    "conversation_name": "group_chat_transportation_music_sports_5f65fd21",
+                    "insert_conversation_turn": 1014
+                },
+                {
+                    "conversation_name": "group_chat_food_fashion_business_f55eb09d",
+                    "insert_conversation_turn": 1261
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Matt",
+            "description": "Matt is a young adult male with a lean build and an impression of average height. His facial structure is characterized by a prominent jawline and a slightly pointed chin, with a symmetrical face and well-defined cheekbones. Matt has a fair skin tone with a hint of natural tan, and his hair is styled in a tousled, swept-back manner, often with a light blonde or sandy hue. His eyebrows are thick and well-groomed, and his eyes are expressive, often conveying a serious or contemplative demeanor. Matt frequently appears with a neutral or slightly furrowed brow, suggesting a thoughtful or intense expression. His poses are generally relaxed yet attentive, with a tendency to look directly at the camera or off to the side, adding to his enigmatic presence.\n\n**Outfit and Accessories:**\nMatt is often seen wearing a mix of casual and semi-formal attire, with a preference for dark, earthy tones. His outfits include a dark sweater, a light gray t-shirt, and a white button-up shirt, all of which suggest a practical yet stylish approach to dressing. The textures of his clothing range from the soft knit of the sweater to the crisp fabric of the button-up shirt, indicating a blend of comfort and sophistication. In one image, Matt is seen with a map, suggesting a practical accessory for navigation. He also wears glasses in one scene, adding an intellectual or studious element to his appearance. The overall style of his clothing is understated yet deliberate, with a focus on layering and a muted color palette that enhances his natural features.\n\n**Distinguishing Visual Features or Vibe:**\nThe most memorable feature of Matt is his expressive eyes, which convey a range of emotions from intensity to contemplation. His tousled hair and neutral expressions contribute to a laid-back yet thoughtful vibe. The consistent use of dark, earthy tones in his clothing creates a cohesive visual theme, while the occasional appearance of a map and glasses adds layers to his character, suggesting intelligence and resourcefulness. The combination of his physical appearance, outfit choices, and accessories creates a distinctive and recognizable image, making Matt visually unmistakable. His overall aura is one of quiet intensity, with a hint of mystery that draws the viewer in.",
+            "preference": "In terms of entertainment, Matt enjoys cooking shows, travel vlogs, but dislikes science fiction movies, animated films. In terms of travel, Matt enjoys cycling, camping, but dislikes skiing, desert trekking. In terms of lifestyle, Matt enjoys plant-based diet, home cooking, but dislikes hot yoga, pilates. In terms of shopping, Matt enjoys handmade crafts, vintage furniture, but dislikes smart home devices, kitchen appliances. In terms of fashion, Matt enjoys futuristic fashion, gothic clothing, but dislikes chunky boots, strappy sandals.",
+            "topic": [],
+            "original_id": "QA_sample_e84b6bc4",
+            "original_question": "the image, what is Immanuel Goodwin most likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_e84b6bc4_2",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 08689cca, Among the activities that could reasonably occur in the given image, which one is Immanuel Goodwin least likely to be doing?",
+        "answer": "Watching an animated film",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Immanuel Goodwin enjoys cooking shows, travel vlogs, but dislikes science fiction movies, animated films"
+            ],
+            "image_evidence": [
+                "MMPB_6f052249.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Immanuel Goodwin enjoys cycling, camping, but dislikes skiing, desert trekking",
+                "In terms of lifestyle, Immanuel Goodwin enjoys plant-based diet, home cooking, but dislikes hot yoga, pilates",
+                "In terms of shopping, Immanuel Goodwin enjoys handmade crafts, vintage furniture, but dislikes smart home devices, kitchen appliances",
+                "In terms of fashion, Immanuel Goodwin enjoys futuristic fashion, gothic clothing, but dislikes chunky boots, strappy sandals."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Watching an animated film",
+                "Watching a live sports game",
+                "Observing a documentary",
+                "Doing pilates"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_animals_travel_economy_14d4ddcd",
+                    "insert_conversation_turn": 1257
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_animals_travel_economy_14d4ddcd",
+                    "insert_conversation_turn": 599,
+                    "reference_name": "Fig. 08689cca"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_food_fashion_business_f55eb09d",
+                    "insert_conversation_turn": 361
+                },
+                {
+                    "conversation_name": "group_chat_animals_travel_economy_14d4ddcd",
+                    "insert_conversation_turn": 568
+                },
+                {
+                    "conversation_name": "group_chat_transportation_music_sports_5f65fd21",
+                    "insert_conversation_turn": 1014
+                },
+                {
+                    "conversation_name": "group_chat_food_fashion_business_f55eb09d",
+                    "insert_conversation_turn": 1261
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Matt",
+            "description": "Matt is a young adult male with a lean build and an impression of average height. His facial structure is characterized by a prominent jawline and a slightly pointed chin, with a symmetrical face and well-defined cheekbones. Matt has a fair skin tone with a hint of natural tan, and his hair is styled in a tousled, swept-back manner, often with a light blonde or sandy hue. His eyebrows are thick and well-groomed, and his eyes are expressive, often conveying a serious or contemplative demeanor. Matt frequently appears with a neutral or slightly furrowed brow, suggesting a thoughtful or intense expression. His poses are generally relaxed yet attentive, with a tendency to look directly at the camera or off to the side, adding to his enigmatic presence.\n\n**Outfit and Accessories:**\nMatt is often seen wearing a mix of casual and semi-formal attire, with a preference for dark, earthy tones. His outfits include a dark sweater, a light gray t-shirt, and a white button-up shirt, all of which suggest a practical yet stylish approach to dressing. The textures of his clothing range from the soft knit of the sweater to the crisp fabric of the button-up shirt, indicating a blend of comfort and sophistication. In one image, Matt is seen with a map, suggesting a practical accessory for navigation. He also wears glasses in one scene, adding an intellectual or studious element to his appearance. The overall style of his clothing is understated yet deliberate, with a focus on layering and a muted color palette that enhances his natural features.\n\n**Distinguishing Visual Features or Vibe:**\nThe most memorable feature of Matt is his expressive eyes, which convey a range of emotions from intensity to contemplation. His tousled hair and neutral expressions contribute to a laid-back yet thoughtful vibe. The consistent use of dark, earthy tones in his clothing creates a cohesive visual theme, while the occasional appearance of a map and glasses adds layers to his character, suggesting intelligence and resourcefulness. The combination of his physical appearance, outfit choices, and accessories creates a distinctive and recognizable image, making Matt visually unmistakable. His overall aura is one of quiet intensity, with a hint of mystery that draws the viewer in.",
+            "preference": "In terms of entertainment, Matt enjoys cooking shows, travel vlogs, but dislikes science fiction movies, animated films. In terms of travel, Matt enjoys cycling, camping, but dislikes skiing, desert trekking. In terms of lifestyle, Matt enjoys plant-based diet, home cooking, but dislikes hot yoga, pilates. In terms of shopping, Matt enjoys handmade crafts, vintage furniture, but dislikes smart home devices, kitchen appliances. In terms of fashion, Matt enjoys futuristic fashion, gothic clothing, but dislikes chunky boots, strappy sandals.",
+            "topic": [],
+            "original_id": "QA_sample_e84b6bc4",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Immanuel Goodwin least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_e84b6bc4_3",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. d34ed9dd, Among the activities that could reasonably occur in the given image, which one is Immanuel Goodwin least likely to be doing?",
+        "answer": "Watching an animated film",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Immanuel Goodwin enjoys cooking shows, travel vlogs, but dislikes science fiction movies, animated films"
+            ],
+            "image_evidence": [
+                "MMPB_3c63eec5.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Immanuel Goodwin enjoys cycling, camping, but dislikes skiing, desert trekking",
+                "In terms of lifestyle, Immanuel Goodwin enjoys plant-based diet, home cooking, but dislikes hot yoga, pilates",
+                "In terms of shopping, Immanuel Goodwin enjoys handmade crafts, vintage furniture, but dislikes smart home devices, kitchen appliances",
+                "In terms of fashion, Immanuel Goodwin enjoys futuristic fashion, gothic clothing, but dislikes chunky boots, strappy sandals."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Watching a live performance",
+                "Watching an animated film",
+                "Observing a theatrical play",
+                "Looking for kitchen appliances"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_animals_travel_economy_14d4ddcd",
+                    "insert_conversation_turn": 1257
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_animals_travel_economy_14d4ddcd",
+                    "insert_conversation_turn": 1243,
+                    "reference_name": "Fig. d34ed9dd"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_food_fashion_business_f55eb09d",
+                    "insert_conversation_turn": 361
+                },
+                {
+                    "conversation_name": "group_chat_animals_travel_economy_14d4ddcd",
+                    "insert_conversation_turn": 568
+                },
+                {
+                    "conversation_name": "group_chat_transportation_music_sports_5f65fd21",
+                    "insert_conversation_turn": 1014
+                },
+                {
+                    "conversation_name": "group_chat_food_fashion_business_f55eb09d",
+                    "insert_conversation_turn": 1261
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Matt",
+            "description": "Matt is a young adult male with a lean build and an impression of average height. His facial structure is characterized by a prominent jawline and a slightly pointed chin, with a symmetrical face and well-defined cheekbones. Matt has a fair skin tone with a hint of natural tan, and his hair is styled in a tousled, swept-back manner, often with a light blonde or sandy hue. His eyebrows are thick and well-groomed, and his eyes are expressive, often conveying a serious or contemplative demeanor. Matt frequently appears with a neutral or slightly furrowed brow, suggesting a thoughtful or intense expression. His poses are generally relaxed yet attentive, with a tendency to look directly at the camera or off to the side, adding to his enigmatic presence.\n\n**Outfit and Accessories:**\nMatt is often seen wearing a mix of casual and semi-formal attire, with a preference for dark, earthy tones. His outfits include a dark sweater, a light gray t-shirt, and a white button-up shirt, all of which suggest a practical yet stylish approach to dressing. The textures of his clothing range from the soft knit of the sweater to the crisp fabric of the button-up shirt, indicating a blend of comfort and sophistication. In one image, Matt is seen with a map, suggesting a practical accessory for navigation. He also wears glasses in one scene, adding an intellectual or studious element to his appearance. The overall style of his clothing is understated yet deliberate, with a focus on layering and a muted color palette that enhances his natural features.\n\n**Distinguishing Visual Features or Vibe:**\nThe most memorable feature of Matt is his expressive eyes, which convey a range of emotions from intensity to contemplation. His tousled hair and neutral expressions contribute to a laid-back yet thoughtful vibe. The consistent use of dark, earthy tones in his clothing creates a cohesive visual theme, while the occasional appearance of a map and glasses adds layers to his character, suggesting intelligence and resourcefulness. The combination of his physical appearance, outfit choices, and accessories creates a distinctive and recognizable image, making Matt visually unmistakable. His overall aura is one of quiet intensity, with a hint of mystery that draws the viewer in.",
+            "preference": "In terms of entertainment, Matt enjoys cooking shows, travel vlogs, but dislikes science fiction movies, animated films. In terms of travel, Matt enjoys cycling, camping, but dislikes skiing, desert trekking. In terms of lifestyle, Matt enjoys plant-based diet, home cooking, but dislikes hot yoga, pilates. In terms of shopping, Matt enjoys handmade crafts, vintage furniture, but dislikes smart home devices, kitchen appliances. In terms of fashion, Matt enjoys futuristic fashion, gothic clothing, but dislikes chunky boots, strappy sandals.",
+            "topic": [],
+            "original_id": "QA_sample_e84b6bc4",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Immanuel Goodwin least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_217ac44f_1",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. ca4de60a, Among the activities that could reasonably occur in the given image, which one is Meadow Boyer least likely to be doing?",
+        "answer": "Watching romantic dramas",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Meadow Boyer enjoys opera shows, ballet performances, but dislikes sports TV, romantic dramas"
+            ],
+            "image_evidence": [
+                "MMPB_81ebaeeb.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Meadow Boyer enjoys skydiving, cave exploration, but dislikes skiing, desert trekking",
+                "In terms of lifestyle, Meadow Boyer enjoys bullet journaling, reading before bed, but dislikes home gardening, night owl lifestyle",
+                "In terms of shopping, Meadow Boyer enjoys smart home devices, kitchen appliances, but dislikes retro gaming consoles, wireless earbuds",
+                "In terms of fashion, Meadow Boyer enjoys streetwear, custom sneakers, but dislikes high heels, tight-fitting clothes."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "Going on a desert trek",
+                "Watching cooking shows",
+                "Watching romantic dramas",
+                "Watching scientific dramas"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_transportation_music_sports_5f65fd21",
+                    "insert_conversation_turn": 651
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_transportation_music_sports_5f65fd21",
+                    "insert_conversation_turn": 461,
+                    "reference_name": "Fig. ca4de60a"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_animals_travel_economy_14d4ddcd",
+                    "insert_conversation_turn": 785
+                },
+                {
+                    "conversation_name": "group_chat_transportation_music_sports_5f65fd21",
+                    "insert_conversation_turn": 680
+                },
+                {
+                    "conversation_name": "group_chat_animals_travel_economy_14d4ddcd",
+                    "insert_conversation_turn": 814
+                },
+                {
+                    "conversation_name": "group_chat_food_fashion_business_f55eb09d",
+                    "insert_conversation_turn": 810
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "kaiqi",
+            "description": "kaiqi is a young woman with a slender build and an average height impression. Her facial structure is characterized by a well-defined jawline and a slightly pointed chin, complemented by a smooth, fair skin tone. Her eyes are expressive, often accentuated with makeup, and her eyebrows are well-groomed, adding to her overall polished look. kaiqi's hair is a consistent feature across the images, often styled in a sleek ponytail or loose waves, showcasing its dark brown color. In some images, she is seen with a braided hairstyle, adding a touch of elegance. Her expressions range from subtle smiles to more neutral poses, conveying a sense of confidence and poise.\n\n**Outfit and Accessories:**\nkaiqi's attire is diverse yet cohesive, reflecting a blend of casual and elegant styles. She is often seen in sleeveless tops, such as a black lace top with a choker necklace, and a red sleeveless top with a black choker featuring a circular pendant. In another image, she wears a light pink tank top paired with beige shorts and a white cardigan, creating a relaxed yet stylish look. The color palette of her outfits includes black, red, pink, and beige, with textures ranging from lace to knit. Accessories play a significant role in her style, with chokers and necklaces adding a touch of sophistication. In one image, she holds a black fan adorned with silver embellishments and gold detailing, enhancing her elegant appearance.\n\n**Distinguishing Visual Features or Vibe:**\nkaiqi exudes a unique blend of elegance and approachability. Her consistent use of accessories, such as chokers and necklaces, adds a touch of sophistication to her overall look. The black fan with silver embellishments and gold detailing is a standout accessory, adding a dramatic flair. Her hairstyles, ranging from sleek ponytails to loose waves and braids, contribute to her versatile appearance. The recurring theme of black and red in her outfits, along with the use of lace and knit textures, creates a cohesive and stylish image. kaiqi's confident expressions and poised poses convey a sense of grace and self-assurance, making her visually unmistakable.",
+            "preference": "In terms of entertainment, kaiqi enjoys opera shows, ballet performances, but dislikes sports TV, romantic dramas. In terms of travel, kaiqi enjoys skydiving, cave exploration, but dislikes skiing, desert trekking. In terms of lifestyle, kaiqi enjoys bullet journaling, reading before bed, but dislikes home gardening, night owl lifestyle. In terms of shopping, kaiqi enjoys smart home devices, kitchen appliances, but dislikes retro gaming consoles, wireless earbuds. In terms of fashion, kaiqi enjoys streetwear, custom sneakers, but dislikes high heels, tight-fitting clothes.",
+            "topic": [],
+            "original_id": "QA_sample_217ac44f",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Meadow Boyer least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_217ac44f_2",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 0a2476ab, Among the activities that could reasonably occur in the given image, which one is Meadow Boyer least likely to be doing?",
+        "answer": "Watching sports TV",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Meadow Boyer enjoys opera shows, ballet performances, but dislikes sports TV, romantic dramas"
+            ],
+            "image_evidence": [
+                "MMPB_2d99653f.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Meadow Boyer enjoys skydiving, cave exploration, but dislikes skiing, desert trekking",
+                "In terms of lifestyle, Meadow Boyer enjoys bullet journaling, reading before bed, but dislikes home gardening, night owl lifestyle",
+                "In terms of shopping, Meadow Boyer enjoys smart home devices, kitchen appliances, but dislikes retro gaming consoles, wireless earbuds",
+                "In terms of fashion, Meadow Boyer enjoys streetwear, custom sneakers, but dislikes high heels, tight-fitting clothes."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "Home gardening",
+                "Watching news TV",
+                "Watching sports TV",
+                "Watching cooking shows"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_transportation_music_sports_5f65fd21",
+                    "insert_conversation_turn": 651
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_transportation_music_sports_5f65fd21",
+                    "insert_conversation_turn": 918,
+                    "reference_name": "Fig. 0a2476ab"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_animals_travel_economy_14d4ddcd",
+                    "insert_conversation_turn": 785
+                },
+                {
+                    "conversation_name": "group_chat_transportation_music_sports_5f65fd21",
+                    "insert_conversation_turn": 680
+                },
+                {
+                    "conversation_name": "group_chat_animals_travel_economy_14d4ddcd",
+                    "insert_conversation_turn": 814
+                },
+                {
+                    "conversation_name": "group_chat_food_fashion_business_f55eb09d",
+                    "insert_conversation_turn": 810
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "kaiqi",
+            "description": "kaiqi is a young woman with a slender build and an average height impression. Her facial structure is characterized by a well-defined jawline and a slightly pointed chin, complemented by a smooth, fair skin tone. Her eyes are expressive, often accentuated with makeup, and her eyebrows are well-groomed, adding to her overall polished look. kaiqi's hair is a consistent feature across the images, often styled in a sleek ponytail or loose waves, showcasing its dark brown color. In some images, she is seen with a braided hairstyle, adding a touch of elegance. Her expressions range from subtle smiles to more neutral poses, conveying a sense of confidence and poise.\n\n**Outfit and Accessories:**\nkaiqi's attire is diverse yet cohesive, reflecting a blend of casual and elegant styles. She is often seen in sleeveless tops, such as a black lace top with a choker necklace, and a red sleeveless top with a black choker featuring a circular pendant. In another image, she wears a light pink tank top paired with beige shorts and a white cardigan, creating a relaxed yet stylish look. The color palette of her outfits includes black, red, pink, and beige, with textures ranging from lace to knit. Accessories play a significant role in her style, with chokers and necklaces adding a touch of sophistication. In one image, she holds a black fan adorned with silver embellishments and gold detailing, enhancing her elegant appearance.\n\n**Distinguishing Visual Features or Vibe:**\nkaiqi exudes a unique blend of elegance and approachability. Her consistent use of accessories, such as chokers and necklaces, adds a touch of sophistication to her overall look. The black fan with silver embellishments and gold detailing is a standout accessory, adding a dramatic flair. Her hairstyles, ranging from sleek ponytails to loose waves and braids, contribute to her versatile appearance. The recurring theme of black and red in her outfits, along with the use of lace and knit textures, creates a cohesive and stylish image. kaiqi's confident expressions and poised poses convey a sense of grace and self-assurance, making her visually unmistakable.",
+            "preference": "In terms of entertainment, kaiqi enjoys opera shows, ballet performances, but dislikes sports TV, romantic dramas. In terms of travel, kaiqi enjoys skydiving, cave exploration, but dislikes skiing, desert trekking. In terms of lifestyle, kaiqi enjoys bullet journaling, reading before bed, but dislikes home gardening, night owl lifestyle. In terms of shopping, kaiqi enjoys smart home devices, kitchen appliances, but dislikes retro gaming consoles, wireless earbuds. In terms of fashion, kaiqi enjoys streetwear, custom sneakers, but dislikes high heels, tight-fitting clothes.",
+            "topic": [],
+            "original_id": "QA_sample_217ac44f",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Meadow Boyer least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_217ac44f_3",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. e159386e, the image, what is Meadow Boyer most likely to be doing?",
+        "answer": "Attending ballet performance shows",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Meadow Boyer enjoys opera shows, ballet performances, but dislikes sports TV, romantic dramas"
+            ],
+            "image_evidence": [
+                "MMPB_e907fbc8.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Meadow Boyer enjoys skydiving, cave exploration, but dislikes skiing, desert trekking",
+                "In terms of lifestyle, Meadow Boyer enjoys bullet journaling, reading before bed, but dislikes home gardening, night owl lifestyle",
+                "In terms of shopping, Meadow Boyer enjoys smart home devices, kitchen appliances, but dislikes retro gaming consoles, wireless earbuds",
+                "In terms of fashion, Meadow Boyer enjoys streetwear, custom sneakers, but dislikes high heels, tight-fitting clothes."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Attending ballet performance shows",
+                "Watching cooking shows",
+                "Reading books before bed",
+                "Enjoying symphony concerts"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_transportation_music_sports_5f65fd21",
+                    "insert_conversation_turn": 651
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_transportation_music_sports_5f65fd21",
+                    "insert_conversation_turn": 170,
+                    "reference_name": "Fig. e159386e"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_animals_travel_economy_14d4ddcd",
+                    "insert_conversation_turn": 785
+                },
+                {
+                    "conversation_name": "group_chat_transportation_music_sports_5f65fd21",
+                    "insert_conversation_turn": 680
+                },
+                {
+                    "conversation_name": "group_chat_animals_travel_economy_14d4ddcd",
+                    "insert_conversation_turn": 814
+                },
+                {
+                    "conversation_name": "group_chat_food_fashion_business_f55eb09d",
+                    "insert_conversation_turn": 810
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "kaiqi",
+            "description": "kaiqi is a young woman with a slender build and an average height impression. Her facial structure is characterized by a well-defined jawline and a slightly pointed chin, complemented by a smooth, fair skin tone. Her eyes are expressive, often accentuated with makeup, and her eyebrows are well-groomed, adding to her overall polished look. kaiqi's hair is a consistent feature across the images, often styled in a sleek ponytail or loose waves, showcasing its dark brown color. In some images, she is seen with a braided hairstyle, adding a touch of elegance. Her expressions range from subtle smiles to more neutral poses, conveying a sense of confidence and poise.\n\n**Outfit and Accessories:**\nkaiqi's attire is diverse yet cohesive, reflecting a blend of casual and elegant styles. She is often seen in sleeveless tops, such as a black lace top with a choker necklace, and a red sleeveless top with a black choker featuring a circular pendant. In another image, she wears a light pink tank top paired with beige shorts and a white cardigan, creating a relaxed yet stylish look. The color palette of her outfits includes black, red, pink, and beige, with textures ranging from lace to knit. Accessories play a significant role in her style, with chokers and necklaces adding a touch of sophistication. In one image, she holds a black fan adorned with silver embellishments and gold detailing, enhancing her elegant appearance.\n\n**Distinguishing Visual Features or Vibe:**\nkaiqi exudes a unique blend of elegance and approachability. Her consistent use of accessories, such as chokers and necklaces, adds a touch of sophistication to her overall look. The black fan with silver embellishments and gold detailing is a standout accessory, adding a dramatic flair. Her hairstyles, ranging from sleek ponytails to loose waves and braids, contribute to her versatile appearance. The recurring theme of black and red in her outfits, along with the use of lace and knit textures, creates a cohesive and stylish image. kaiqi's confident expressions and poised poses convey a sense of grace and self-assurance, making her visually unmistakable.",
+            "preference": "In terms of entertainment, kaiqi enjoys opera shows, ballet performances, but dislikes sports TV, romantic dramas. In terms of travel, kaiqi enjoys skydiving, cave exploration, but dislikes skiing, desert trekking. In terms of lifestyle, kaiqi enjoys bullet journaling, reading before bed, but dislikes home gardening, night owl lifestyle. In terms of shopping, kaiqi enjoys smart home devices, kitchen appliances, but dislikes retro gaming consoles, wireless earbuds. In terms of fashion, kaiqi enjoys streetwear, custom sneakers, but dislikes high heels, tight-fitting clothes.",
+            "topic": [],
+            "original_id": "QA_sample_217ac44f",
+            "original_question": "the image, what is Meadow Boyer most likely to be doing?"
+        }
+    }
+]

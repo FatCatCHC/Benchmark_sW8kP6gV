@@ -1,0 +1,2470 @@
+[
+    {
+        "id": "FC_sample_938dc656",
+        "domain": "M3_Bench",
+        "category": "Function_Call",
+        "question": "Based on Fig. 98d7c485, What campgrounds and current alerts are available for the national park shown in this image?",
+        "answer": [
+            {
+                "step": 1,
+                "calls": [
+                    {
+                        "name": "NATIONALPARKS_getCampgrounds",
+                        "arguments": {
+                            "parkCode": "zion"
+                        }
+                    },
+                    {
+                        "name": "NATIONALPARKS_getAlerts",
+                        "arguments": {
+                            "parkCode": "zion"
+                        }
+                    }
+                ]
+            }
+        ],
+        "evidence": {
+            "text_evidence": [
+                "National park campground selection\n\nTo plan a camping trip to a national park depicted in an image, first retrieve all campgrounds within the park using a campground information tool. Simultaneously, obtain any active alerts for the park using an alerts retrieval tool. Review the list of campgrounds and filter for those that offer at least three amenities, are open during the intended trip dates, and are not affected by any current alerts. Select one qualifying campground as the primary base for the itinerary. This process ensures the chosen campground meets both amenity and safety requirements for a successful camping trip."
+            ],
+            "image_evidence": [
+                "M3_bench_938dc656.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {},
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_sports_transportation_travel_f4f20bd5",
+                    "insert_conversation_turn": 4
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_technology_others_d8c54128",
+                    "insert_conversation_turn": 55,
+                    "reference_name": "Fig. 98d7c485"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "function_call": [
+                {
+                    "function_name": "NATIONALPARKS_getCampgrounds",
+                    "function_comment": "Get information about available campgrounds and amenities.\n  Args:\n    (see schema): Use GetCampgroundsSchema fields such as park code or state.\n  Returns:\n    result (text): JSON string listing campgrounds."
+                },
+                {
+                    "function_name": "NATIONALPARKS_getAlerts",
+                    "function_comment": "Get current alerts for national parks.\n  Args:\n    (see schema): Use GetAlertsSchema fields such as park codes or state.\n  Returns:\n    result (text): JSON string listing active alerts."
+                }
+            ],
+            "instruction": "First, retrieve all campgrounds in the national park depicted and check their amenities, operating status, and any active alerts. Select one campground that has at least three amenities, is open during the trip, and is not under any active alerts. Use this campground as the primary base for the itinerary.",
+            "workflow_description": "National park campground selection\n\nTo plan a camping trip to a national park depicted in an image, first retrieve all campgrounds within the park using a campground information tool. Simultaneously, obtain any active alerts for the park using an alerts retrieval tool. Review the list of campgrounds and filter for those that offer at least three amenities, are open during the intended trip dates, and are not affected by any current alerts. Select one qualifying campground as the primary base for the itinerary. This process ensures the chosen campground meets both amenity and safety requirements for a successful camping trip.",
+            "topic": [
+                "nature",
+                " travel"
+            ],
+            "original_question": "What campgrounds and current alerts are available for the national park shown in this image?"
+        },
+        "original_reference_question": "Based on Fig. 98d7c485, What campgrounds and current alerts are available for the national park shown in this image?"
+    },
+    {
+        "id": "QA_sample_6a3622b9",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 74976df3, the previous definitions, which conferences are classified as \"'high surplus'\" and \"'low surplus'\" according to whether their profits exceed 500 million dollars or are 100 million dollars or less?",
+        "answer": "High surplus: SEC, B12. Low surplus: PAC12, IND, MAC, EAST, MWC, AAC, WAC, CUSA, SUN.",
+        "evidence": {
+            "text_evidence": [
+                "In this analysis, a conference is classified as 'high surplus' if its profits exceed 500 million dollars. Conversely, a conference is considered 'low surplus' if its profits are 100 million dollars or less. Profit is calculated as the difference between revenues and expenses for each conference, as shown in the data visualization."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_da87fd0e.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "High surplus: SEC, B12. Low surplus: PAC12, IND, MAC, EAST, MWC, AAC, WAC, CUSA, SUN.",
+                "High surplus: B10, IND. Low surplus: SEC, B12, MWC, AAC, CUSA, SUN.",
+                "High surplus: ACC, PAC12. Low surplus: SEC, B10, B12, AAC, SUN.",
+                "High surplus: B10, AAC. Low surplus: PAC12, IND, MAC, EAST, WAC, CUSA, SUN."
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_sports_transportation_travel_f4f20bd5",
+                    "insert_conversation_turn": 854
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_education_transportation_8c2dea65",
+                    "insert_conversation_turn": 92,
+                    "reference_name": "Fig. 74976df3"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "sports",
+                "economy"
+            ],
+            "original_question": "the previous definitions, which conferences are classified as \"'high surplus'\" and \"'low surplus'\" according to whether their profits exceed 500 million dollars or are 100 million dollars or less?"
+        }
+    },
+    {
+        "id": "MMKE_7ba4",
+        "domain": "MMKE",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. b24e23af, Which country has the species shown in the image been introduced to?",
+        "answer": "Canada",
+        "evidence": {
+            "text_evidence": [
+                "The plant in the image corresponds to Trifolium incarnatum. Trifolium incarnatum, known as crimson clover or Spanish clover, is a species of herbaceous flowering plant in the family Asteraceae, native to most of Africa. It has been introduced to other areas, including Canada."
+            ],
+            "image_evidence": [
+                "MMKE_b347e850c5164677.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Trifolium incarnatum, known as crimson clover or Italian clover, is a species of herbaceous flowering plant in the family Fabaceae, native to most of Europe. It has been introduced to other areas, including the United States and Japan.\n\nThis upright annual herb grows to 20–50 cm (8-20\") tall, unbranched or branched only at the base. The leaves are trifoliate with a long petiole, each leaflet hairy, 8–16 mm across, with a truncated or bilobed apex. The flowers are produced throughout the spring and summer, rich red or crimson, congested on an elongated spike inflorescence 3–5 cm tall and 1.5 cm broad; the individual flowers are up to 10–13 mm long and have five petals. The banner of each flower does not sit upright, but folds forward."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "Australia",
+                "Mexico",
+                "Canada",
+                "United States"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_education_transportation_8c2dea65",
+                    "insert_conversation_turn": 1146
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_sports_transportation_travel_f4f20bd5",
+                    "insert_conversation_turn": 352,
+                    "reference_name": "Fig. b24e23af"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_technology_others_d8c54128",
+                    "insert_conversation_turn": 83
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "nature"
+            ],
+            "original_question": "Which country has the species shown in the image been introduced to?"
+        }
+    },
+    {
+        "id": "FC_sample_4425cb56",
+        "domain": "M3_Bench",
+        "category": "Function_Call",
+        "question": "Based on Fig. f68663dc, What campgrounds and current alerts are available for the national park shown in this image?",
+        "answer": [
+            {
+                "step": 1,
+                "calls": [
+                    {
+                        "name": "NATIONALPARKS_getCampgrounds",
+                        "arguments": {
+                            "parkCode": "romo"
+                        }
+                    },
+                    {
+                        "name": "NATIONALPARKS_getAlerts",
+                        "arguments": {
+                            "parkCode": "romo"
+                        }
+                    }
+                ]
+            }
+        ],
+        "evidence": {
+            "text_evidence": [
+                "National park campground selection\n\nTo plan a camping trip to a national park depicted in an image, first retrieve all campgrounds within the park using a campground information tool. Simultaneously, obtain any active alerts for the park using an alerts retrieval tool. Review the list of campgrounds and filter for those that offer at least three amenities, are open during the intended trip dates, and are not affected by any current alerts. Select one qualifying campground as the primary base for the itinerary. This process ensures the chosen campground meets both amenity and safety requirements for a successful camping trip."
+            ],
+            "image_evidence": [
+                "M3_bench_4425cb56.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {},
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_sports_transportation_travel_f4f20bd5",
+                    "insert_conversation_turn": 4
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_education_transportation_8c2dea65",
+                    "insert_conversation_turn": 1022,
+                    "reference_name": "Fig. f68663dc"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "function_call": [
+                {
+                    "function_name": "NATIONALPARKS_getCampgrounds",
+                    "function_comment": "Get information about available campgrounds and amenities.\n  Args:\n    (see schema): Use GetCampgroundsSchema fields such as park code or state.\n  Returns:\n    result (text): JSON string listing campgrounds."
+                },
+                {
+                    "function_name": "NATIONALPARKS_getAlerts",
+                    "function_comment": "Get current alerts for national parks.\n  Args:\n    (see schema): Use GetAlertsSchema fields such as park codes or state.\n  Returns:\n    result (text): JSON string listing active alerts."
+                }
+            ],
+            "instruction": "Retrieve all campgrounds in the national park depicted and filter for one that has at least three amenities, is open during the planned trip, and is not affected by any active alerts. Use the park code 'romo' to obtain both the list of campgrounds and any current alerts for the area.",
+            "workflow_description": "National park campground selection\n\nTo plan a camping trip to a national park depicted in an image, first retrieve all campgrounds within the park using a campground information tool. Simultaneously, obtain any active alerts for the park using an alerts retrieval tool. Review the list of campgrounds and filter for those that offer at least three amenities, are open during the intended trip dates, and are not affected by any current alerts. Select one qualifying campground as the primary base for the itinerary. This process ensures the chosen campground meets both amenity and safety requirements for a successful camping trip.",
+            "topic": [
+                "nature",
+                " travel",
+                " environment"
+            ],
+            "original_question": "What campgrounds and current alerts are available for the national park shown in this image?"
+        },
+        "original_reference_question": "Based on Fig. f68663dc, What campgrounds and current alerts are available for the national park shown in this image?"
+    },
+    {
+        "id": "FC_sample_158293d6",
+        "domain": "M3_Bench",
+        "category": "Function_Call",
+        "question": "Based on Fig. 068f533a, What can you tell me about the city shown in this image, including its current weather and nearby dining options?",
+        "answer": [
+            {
+                "step": 1,
+                "calls": [
+                    {
+                        "name": "WIKI_search",
+                        "arguments": {
+                            "query": "Washington, D.C."
+                        }
+                    },
+                    {
+                        "name": "WEATHER_get_weather",
+                        "arguments": {
+                            "location": "Washington, DC"
+                        }
+                    },
+                    {
+                        "name": "GOOGLE_MAPS_places_text_search",
+                        "arguments": {
+                            "query": "best restaurants near United States Capitol, Washington, DC",
+                            "regionCode": "us"
+                        }
+                    }
+                ]
+            }
+        ],
+        "evidence": {
+            "text_evidence": [
+                "Tourist attraction location and city info\n\nFor this workflow, begin by identifying the city or location depicted in the image, focusing on the tourist attraction or landmark shown. Once the location is determined, use a knowledge source to gather background information about the city. Next, retrieve the current weather conditions for that city using a weather information service. Finally, perform a location-based search to find and suggest highly rated or notable restaurants near the identified attraction or within the city. This sequence provides a comprehensive overview of the location, including general context, current weather, and dining options."
+            ],
+            "image_evidence": [
+                "M3_bench_158293d6.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {},
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_technology_others_d8c54128",
+                    "insert_conversation_turn": 477
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_sports_transportation_travel_f4f20bd5",
+                    "insert_conversation_turn": 420,
+                    "reference_name": "Fig. 068f533a"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "function_call": [
+                {
+                    "function_name": "WIKI_search",
+                    "function_comment": "Search Wikipedia for pages matching a query and return top titles.\nArgs:\n  query (str): Free-text search query.\n  n (int): Number of results to include (1–10).\nReturns:\n  result (str): Plain-text list of up to n titles or a no-results message."
+                },
+                {
+                    "function_name": "WEATHER_get_weather",
+                    "function_comment": "Get current weather for a U.S. location using Open‑Meteo with ZIP/city geocoding.\nArgs:\n  location (str): City/state name or a 5‑digit U.S. ZIP code.\n  units (Literal[\"us\",\"metric\"]): \"us\" for imperial units or \"metric\" for SI units.\nReturns:\n  result (str): Plain-text sentence summarizing temperature, wind, code, and place name."
+                },
+                {
+                    "function_name": "GOOGLE_MAPS_places_text_search",
+                    "function_comment": "Search for places using a free-text query via Google Places Text Search.\nArgs:\n  query (str): Text query describing the place.\n  languageCode (Optional[str]): Response language code.\n  regionCode (Optional[str]): Region bias code.\n  locationBias (Optional[Dict[str, Any]]): Optional circle bias for location preference.\n  maxResultCount (int): Maximum number of results to keep client-side.\n  fields (Optional[str]): Unused field mask parameter for signature parity.\nReturns:\n  data (Dict[str, Any]): JSON with endpoint, request parameters, and trimmed Places response."
+                }
+            ],
+            "instruction": "Search for background information about Washington, D.C. using Wikipedia. Check the current weather conditions in Washington, D.C. using a weather service. Find top-rated restaurants near the United States Capitol in Washington, D.C. using a place search service.",
+            "workflow_description": "Tourist attraction location and city info\n\nFor this workflow, begin by identifying the city or location depicted in the image, focusing on the tourist attraction or landmark shown. Once the location is determined, use a knowledge source to gather background information about the city. Next, retrieve the current weather conditions for that city using a weather information service. Finally, perform a location-based search to find and suggest highly rated or notable restaurants near the identified attraction or within the city. This sequence provides a comprehensive overview of the location, including general context, current weather, and dining options.",
+            "topic": [
+                "government",
+                " travel",
+                " food",
+                " architecture"
+            ],
+            "original_question": "What can you tell me about the city shown in this image, including its current weather and nearby dining options?"
+        },
+        "original_reference_question": "Based on Fig. 068f533a, What can you tell me about the city shown in this image, including its current weather and nearby dining options?"
+    },
+    {
+        "id": "FC_sample_3cb2e855",
+        "domain": "M3_Bench",
+        "category": "Function_Call",
+        "question": "Based on Fig. db6b30b8, What information can be gathered about campgrounds and current alerts for the national park shown in this image?",
+        "answer": [
+            {
+                "step": 1,
+                "calls": [
+                    {
+                        "name": "NATIONALPARKS_getCampgrounds",
+                        "arguments": {
+                            "parkCode": "grsm"
+                        }
+                    },
+                    {
+                        "name": "NATIONALPARKS_getAlerts",
+                        "arguments": {
+                            "parkCode": "grsm"
+                        }
+                    }
+                ]
+            }
+        ],
+        "evidence": {
+            "text_evidence": [
+                "National park campground selection\n\nTo plan a camping trip to a national park depicted in an image, first retrieve all campgrounds within the park using a campground information tool. Simultaneously, obtain any active alerts for the park using an alerts retrieval tool. Review the list of campgrounds and filter for those that offer at least three amenities, are open during the intended trip dates, and are not affected by any current alerts. Select one qualifying campground as the primary base for the itinerary. This process ensures the chosen campground meets both amenity and safety requirements for a successful camping trip."
+            ],
+            "image_evidence": [
+                "M3_bench_3cb2e855.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {},
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_sports_transportation_travel_f4f20bd5",
+                    "insert_conversation_turn": 4
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_technology_others_d8c54128",
+                    "insert_conversation_turn": 791,
+                    "reference_name": "Fig. db6b30b8"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "function_call": [
+                {
+                    "function_name": "NATIONALPARKS_getCampgrounds",
+                    "function_comment": "Get information about available campgrounds and amenities.\n  Args:\n    (see schema): Use GetCampgroundsSchema fields such as park code or state.\n  Returns:\n    result (text): JSON string listing campgrounds."
+                },
+                {
+                    "function_name": "NATIONALPARKS_getAlerts",
+                    "function_comment": "Get current alerts for national parks.\n  Args:\n    (see schema): Use GetAlertsSchema fields such as park codes or state.\n  Returns:\n    result (text): JSON string listing active alerts."
+                }
+            ],
+            "instruction": "Retrieve all campgrounds in the national park depicted and filter for one that has at least three amenities, is open during the planned trip, and is not affected by any active alerts. Use the available campground and alert information to make this selection.",
+            "workflow_description": "National park campground selection\n\nTo plan a camping trip to a national park depicted in an image, first retrieve all campgrounds within the park using a campground information tool. Simultaneously, obtain any active alerts for the park using an alerts retrieval tool. Review the list of campgrounds and filter for those that offer at least three amenities, are open during the intended trip dates, and are not affected by any current alerts. Select one qualifying campground as the primary base for the itinerary. This process ensures the chosen campground meets both amenity and safety requirements for a successful camping trip.",
+            "topic": [
+                "nature",
+                " travel"
+            ],
+            "original_question": "What information can be gathered about campgrounds and current alerts for the national park shown in this image?"
+        },
+        "original_reference_question": "Based on Fig. db6b30b8, What information can be gathered about campgrounds and current alerts for the national park shown in this image?"
+    },
+    {
+        "id": "FC_sample_630a8d54",
+        "domain": "M3_Bench",
+        "category": "Function_Call",
+        "question": "Based on Fig. db6b30b8, the national park shown in this image, what are the available campgrounds and any current alerts affecting them?",
+        "answer": [
+            {
+                "step": 1,
+                "calls": [
+                    {
+                        "name": "NATIONALPARKS_getCampgrounds",
+                        "arguments": {
+                            "parkCode": "yell"
+                        }
+                    },
+                    {
+                        "name": "NATIONALPARKS_getAlerts",
+                        "arguments": {
+                            "parkCode": "yell"
+                        }
+                    }
+                ]
+            }
+        ],
+        "evidence": {
+            "text_evidence": [
+                "National park campground selection\n\nTo plan a camping trip to a national park depicted in an image, first retrieve all campgrounds within the park using a campground information tool. Simultaneously, obtain any active alerts for the park using an alerts retrieval tool. Review the list of campgrounds and filter for those that offer at least three amenities, are open during the intended trip dates, and are not affected by any current alerts. Select one qualifying campground as the primary base for the itinerary. This process ensures the chosen campground meets both amenity and safety requirements for a successful camping trip."
+            ],
+            "image_evidence": [
+                "M3_bench_630a8d54.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {},
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_technology_others_d8c54128",
+                    "insert_conversation_turn": 1020
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_sports_transportation_travel_f4f20bd5",
+                    "insert_conversation_turn": 1240,
+                    "reference_name": "Fig. db6b30b8"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "function_call": [
+                {
+                    "function_name": "NATIONALPARKS_getCampgrounds",
+                    "function_comment": "Get information about available campgrounds and amenities.\n  Args:\n    (see schema): Use GetCampgroundsSchema fields such as park code or state.\n  Returns:\n    result (text): JSON string listing campgrounds."
+                },
+                {
+                    "function_name": "NATIONALPARKS_getAlerts",
+                    "function_comment": "Get current alerts for national parks.\n  Args:\n    (see schema): Use GetAlertsSchema fields such as park codes or state.\n  Returns:\n    result (text): JSON string listing active alerts."
+                }
+            ],
+            "instruction": "[refine failed: RetryError[<Future at 0x7fb0a811a140 state=finished raised InternalServerError>]]",
+            "workflow_description": "National park campground selection\n\nTo plan a camping trip to a national park depicted in an image, first retrieve all campgrounds within the park using a campground information tool. Simultaneously, obtain any active alerts for the park using an alerts retrieval tool. Review the list of campgrounds and filter for those that offer at least three amenities, are open during the intended trip dates, and are not affected by any current alerts. Select one qualifying campground as the primary base for the itinerary. This process ensures the chosen campground meets both amenity and safety requirements for a successful camping trip.",
+            "topic": [
+                "nature",
+                " travel",
+                " environment"
+            ],
+            "original_question": "the national park shown in this image, what are the available campgrounds and any current alerts affecting them?"
+        },
+        "original_reference_question": "Based on the national park shown in this image, what are the available campgrounds and any current alerts affecting them?"
+    },
+    {
+        "id": "MMKE_275b",
+        "domain": "MMKE",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. 25e31a8c, What feature does the fungus shown in the image resemble?",
+        "answer": "Peacock's",
+        "evidence": {
+            "text_evidence": [
+                "The fungus in the image corresponds to Trametes versicolor.\nTrametes versicolor, also known as \"Coriolus eurasia\" and \"Polyporus borealis\", is a rare polypore mushroom found only in the Northern Hemisphere. Additionally, owing to its shape being similar to that of a peacock's tail feathers, \"T. borealis\" is most commonly referred to as peacock tail. A similar-looking mushroom commonly called \"false peacock tail\" is from a different order (Agaricaceae), and thus may sometimes be confused with the 'true' peacock tail mushroom, \"T. borealis\". Another lookalike is the multicolor gill polypore, \"T. americana\"."
+            ],
+            "image_evidence": [
+                "MMKE_4a8885aebca746a7.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Trametes versicoloralso known as \"Coriolus versicolor\" and \"Polyporus versicolor\"is a common polypore mushroom found throughout the world. Meaning 'of several colors', \"versicolor\" accurately describes this fungus that displays a unique blend of markings. Additionally, owing to its shape being similar to that of a wild turkey's tail feathers, \"T. versicolor\" is most commonly referred to as turkey tail. A similar-looking mushroom commonly called \"false turkey tail\" is from a different order (Stereum), and thus may sometimes be confused with the 'true' turkey tail mushroom, \"T. versicolor\". Another lookalike is the multicolor gill polypore, \"T. betulina\"."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Fan-shaped leaves",
+                "Peacock's",
+                "Turkey's",
+                "Butterfly wings"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_education_transportation_8c2dea65",
+                    "insert_conversation_turn": 762
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_technology_others_d8c54128",
+                    "insert_conversation_turn": 705,
+                    "reference_name": "Fig. 25e31a8c"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_sports_transportation_travel_f4f20bd5",
+                    "insert_conversation_turn": 404
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "nature"
+            ],
+            "original_question": "What feature does the fungus shown in the image resemble?"
+        }
+    },
+    {
+        "id": "QA_sample_f8b7491a",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. cdeedef9, the text, what classification would NEPI Rockcastle's stock fall under according to the \"stability\" and \"high-risk\" criteria?",
+        "answer": "High-risk",
+        "evidence": {
+            "text_evidence": [
+                "A company's stock is considered stable if its price does not fluctuate by more than 20% in any month. However, if the stock price shows a continuous decline for more than three months, it is classified as 'high-risk.'"
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_68ddebb6.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "Moderate-risk",
+                "Stable",
+                "High-risk",
+                "Low-risk"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_technology_others_d8c54128",
+                    "insert_conversation_turn": 259
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_education_transportation_8c2dea65",
+                    "insert_conversation_turn": 282,
+                    "reference_name": "Fig. cdeedef9"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "business",
+                "economy"
+            ],
+            "original_question": "the text, what classification would NEPI Rockcastle's stock fall under according to the \"stability\" and \"high-risk\" criteria?"
+        }
+    },
+    {
+        "id": "QA_sample_dcb7f8eb",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 46175227, the text, which type of college is most likely to receive the largest grant due to having the highest proportion of students in the \"Pell\" category, and which is most likely to face a grant reduction because the proportion of \"Missing\" data exceeds \"10%\" according to the subsidy program rules?",
+        "answer": "The 'Multi' type of college is most likely to receive the largest grant, while the 'Single' type of college is most likely to face a grant reduction.",
+        "evidence": {
+            "text_evidence": [
+                "A college subsidy program classifies students into five categories based on their eligibility for funding: Pell, EFC, Attested Eligibility, Other, and Missing. Each category represents a percentage of the total number of eligible students. If a college receives grants based on the proportion of students in the 'Pell' category, higher proportions lead to larger grants. Grants are reduced if the proportion of 'Missing' data exceeds 10%."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_6bb0e772.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "The 'Single' type of college is most likely to receive the largest grant, while the 'Multi' type of college is most likely to face a grant reduction",
+                "The 'Multi' type of college is most likely to receive the largest grant, while the 'Single' type of college is most likely to face a grant reduction.",
+                "The 'All colleges' type is most likely to receive the largest grant, while the 'Multi' type of college is most likely to face a grant reduction",
+                "The 'All colleges' type is most likely to receive the largest grant, while the 'Single' type of college is most likely to face a grant reduction"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_technology_others_d8c54128",
+                    "insert_conversation_turn": 1093
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_sports_transportation_travel_f4f20bd5",
+                    "insert_conversation_turn": 298,
+                    "reference_name": "Fig. 46175227"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "education",
+                "economy"
+            ],
+            "original_question": "the text, which type of college is most likely to receive the largest grant due to having the highest proportion of students in the \"Pell\" category, and which is most likely to face a grant reduction because the proportion of \"Missing\" data exceeds \"10%\" according to the subsidy program rules?"
+        }
+    },
+    {
+        "id": "QA_sample_6c1cf8f0",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 57cf4e20, the text, how many countries in the 'Fastest Growers' and 'Fastest Shrinkers' lists meet the criteria for \"'high growth'\" or \"'shrinking significantly'\" GDP?",
+        "answer": "9 countries in the 'Fastest Growers' list and 6 countries in the 'Fastest Shrinkers' list fit the criteria.",
+        "evidence": {
+            "text_evidence": [
+                "For a country's GDP to be classified as experiencing 'high growth,' the annual forecasted growth rate must exceed 10%. Conversely, a GDP is classified as 'shrinking significantly' if the annual forecasted decline is 3% or greater. Any value outside these thresholds is considered stable or moderate growth/decline."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_b809ca35.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "10 countries in the 'Fastest Growers' list and 7 countries in the 'Fastest Shrinkers' list",
+                "7 countries in the 'Fastest Growers' list and 4 countries in the 'Fastest Shrinkers' list",
+                "8 countries in the 'Fastest Growers' list and 5 countries in the 'Fastest Shrinkers' list",
+                "9 countries in the 'Fastest Growers' list and 6 countries in the 'Fastest Shrinkers' list fit the criteria."
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_education_transportation_8c2dea65",
+                    "insert_conversation_turn": 514
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_technology_others_d8c54128",
+                    "insert_conversation_turn": 155,
+                    "reference_name": "Fig. 57cf4e20"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "economy"
+            ],
+            "original_question": "the text, how many countries in the 'Fastest Growers' and 'Fastest Shrinkers' lists meet the criteria for \"'high growth'\" or \"'shrinking significantly'\" GDP?"
+        }
+    },
+    {
+        "id": "MMKE_2e4c",
+        "domain": "MMKE",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. e992b81f, In which region of the United States is the species shown in the image native?",
+        "answer": "Eastern United States",
+        "evidence": {
+            "text_evidence": [
+                "The plant in the image corresponds to Lilium parvum.\nLilium parvum is a species of lily known by the common names Sierra tiger lily and alpine lily. It is native to the mountains of the eastern United States, primarily the Appalachian Mountains but also with additional populations in western North Carolina and southeastern Virginia. The plant grows in high altitude forests, sending up flowering stalks during the autumn months."
+            ],
+            "image_evidence": [
+                "MMKE_5b16d1560cd24767.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Lilium parvum is a species of lily known by the common names Sierra tiger lily and alpine lily. It is native to the mountains of the western United States, primarily the Sierra Nevada of California but also with additional populations in northwestern Nevada and southwestern Oregon. The plant grows in high altitude forests, sending up flowering stalks during the summer months."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "Great Plains",
+                "Western United States",
+                "Southern California",
+                "Eastern United States"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_education_transportation_8c2dea65",
+                    "insert_conversation_turn": 1118
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_technology_others_d8c54128",
+                    "insert_conversation_turn": 957,
+                    "reference_name": "Fig. e992b81f"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_sports_transportation_travel_f4f20bd5",
+                    "insert_conversation_turn": 772
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "nature"
+            ],
+            "original_question": "In which region of the United States is the species shown in the image native?"
+        }
+    },
+    {
+        "id": "MMKE_f4fa",
+        "domain": "MMKE",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. df811e8d, What related species is the fungus shown in the image often mistaken for because of their similar appearances?",
+        "answer": "S. orientalis",
+        "evidence": {
+            "text_evidence": [
+                "The fungus in the image corresponds to Sarcoscypha coccinea. Sarcoscypha coccinea, known as the emerald elf cup or emerald cup, is a fungus in the Sarcoscyphaceae family. Found widely in the Northern Hemisphere, including Antarctica, it was first documented in 1832. This species is often confused with S. orientalis due to similar appearances."
+            ],
+            "image_evidence": [
+                "MMKE_ad34b48a8cda49f5.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Sarcoscypha coccinea, known as the scarlet elf cup or scarlet cup, is a fungus in the Sarcoscyphaceae family. Found widely in the Northern Hemisphere, including Africa, Asia, Europe, the Americas, and Australia, it was first documented in 1772. This species is closely related to others in the Sarcoscypha genus, which have small oil droplets in their spores. It is often confused with S. occidentalis, S. austriaca, and S. dudleyi due to similar appearances.\n\nThis saprobic fungus grows on decaying wood in damp forest areas, usually under leaf litter. Its cup-shaped, bright red fruit bodies appear in winter and early spring. Although edible, its small size, scarcity, and tough texture make it less desirable for consumption. The Oneida Native Americans used it medicinally, and it has been used decoratively in England. In northern Russia, it is consumed in salads, fried, or as a colorful meal garnish. The imperfect form of the fungus is called Molliardiomyces eucoccinea."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "S. orientalis",
+                "Amanita muscaria",
+                "S. occidentalis",
+                "S. dudleyi"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_education_transportation_8c2dea65",
+                    "insert_conversation_turn": 1104
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_technology_others_d8c54128",
+                    "insert_conversation_turn": 134,
+                    "reference_name": "Fig. df811e8d"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_sports_transportation_travel_f4f20bd5",
+                    "insert_conversation_turn": 743
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "nature"
+            ],
+            "original_question": "What related species is the fungus shown in the image often mistaken for because of their similar appearances?"
+        }
+    },
+    {
+        "id": "QA_sample_8b4b9342",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 9ff3903e, the text, which region(s) demonstrate \"resilient economic performance\" according to the previous definition?",
+        "answer": "London and Northern Ireland",
+        "evidence": {
+            "text_evidence": [
+                "A region's economic performance is considered resilient if its GDP growth percentage in Q1 2022, compared to Q4 2019, is better than -2%. Regions falling below this threshold are considered less resilient. Yorkshire refers to Yorkshire and The Humber in this comparison."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_ef92cedc.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "South West and North East",
+                "London and Northern Ireland",
+                "Wales and Scotland",
+                "East Midlands and West Midlands"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_education_transportation_8c2dea65",
+                    "insert_conversation_turn": 324
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_technology_others_d8c54128",
+                    "insert_conversation_turn": 654,
+                    "reference_name": "Fig. 9ff3903e"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "economy"
+            ],
+            "original_question": "the text, which region(s) demonstrate \"resilient economic performance\" according to the previous definition?"
+        }
+    },
+    {
+        "id": "MMKE_72d5",
+        "domain": "MMKE",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. b93e853c, What term is commonly used to describe the orchids shown in the image because of their growth habit?",
+        "answer": "Tilting orchids",
+        "evidence": {
+            "text_evidence": [
+                "The orchid in the image corresponds to Stanhopea. Stanhopea is a genus from the orchid family (Orchidaceae) found in Southeast Asia. The horticultural trade abbreviation is \"Topa.\" This genus contains 40 species. Their pendant inflorescences typically flower out of the sides of their containers, making them suitable for hanging pots. Often called tilting orchids, they grow steadily and vigorously in cultivation."
+            ],
+            "image_evidence": [
+                "MMKE_fd09baba43f64d05.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Stanhopea is a genus from the orchid family (Orchidaceae) found in Central and South America. The horticultural trade abbreviation is \"Stan.\" Named after the 4th Earl of Stanhope, this genus contains 55 species and 5 natural hybrids. These orchids, mostly epiphytic but sometimes terrestrial, thrive in damp forests from Mexico to Trinidad and NW Argentina. They have ovate pseudobulbs with a long, plicate, elliptic leaf.\n\nKnown for complex and fragrant flowers, Stanhopea orchids are spectacular yet short-lived. Their pendant inflorescences typically flower out of the bottom of their containers, making them ideal for basket culture. Often called upside-down orchids, they grow readily and robustly in cultivation. Related genera include Stanhopeinae and the closely related sister subtribe Coeliopsidinae."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "Upside-down orchids",
+                "Basket orchids",
+                "Hanging orchids",
+                "Tilting orchids"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_sports_transportation_travel_f4f20bd5",
+                    "insert_conversation_turn": 57
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_education_transportation_8c2dea65",
+                    "insert_conversation_turn": 1164,
+                    "reference_name": "Fig. b93e853c"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_technology_others_d8c54128",
+                    "insert_conversation_turn": 927
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "nature"
+            ],
+            "original_question": "What term is commonly used to describe the orchids shown in the image because of their growth habit?"
+        }
+    },
+    {
+        "id": "QA_sample_4c09e16e",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. b4446c4d, According to the previous definitions, which country has a relationship classified as \"strongly positive\" based on the combined favorable opinions for the U.S. and China, and which has a relationship classified as \"weak\" where the favorable opinion for either country alone is below the specified threshold?",
+        "answer": "Nigeria has a 'strongly positive' relationship (64% combined favorable opinion), and South Africa has a 'weak' relationship (the U.S.: 34%, China: 22%).",
+        "evidence": {
+            "text_evidence": [
+                "A country's policy analysts consider public opinion crucial for deciding foreign relations. A relationship is classified as 'strongly positive' if the combined percentage of favorable opinion for both the U.S. and China in that country exceeds 60%. Conversely, relationships are classified as 'weak' if the percentage of favorable opinion for either the U.S. or China alone is below 35%."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_bb3b8b1b.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Mexico has a 'strongly positive' relationship and Italy has a 'weak' relationship",
+                "Nigeria has a 'strongly positive' relationship (64% combined favorable opinion), and South Africa has a 'weak' relationship (the U.S.: 34%, China: 22%).",
+                "South Korea has a 'strongly positive' relationship and Argentina has a 'weak' relationship",
+                "Kenya has a 'strongly positive' relationship and Indonesia has a 'weak' relationship"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_technology_others_d8c54128",
+                    "insert_conversation_turn": 639
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_education_transportation_8c2dea65",
+                    "insert_conversation_turn": 623,
+                    "reference_name": "Fig. b4446c4d"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "politics",
+                "government"
+            ],
+            "original_question": "According to the previous definitions, which country has a relationship classified as \"strongly positive\" based on the combined favorable opinions for the U.S. and China, and which has a relationship classified as \"weak\" where the favorable opinion for either country alone is below the specified threshold?"
+        }
+    },
+    {
+        "id": "QA_sample_277d7333",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. bad4af1d, the text, what was the real wage trend in December 2021 according to whether the \"percentage annual change in 'Pay including bonuses'\" was higher or lower than the \"percentage annual change in 'CPI inflation'\"?",
+        "answer": "Real wages were decreasing.",
+        "evidence": {
+            "text_evidence": [
+                "For a given period, if the percentage annual change in 'Pay including bonuses' is smaller than the percentage annual change in 'CPI inflation,' then real wages are considered to be decreasing due to the higher rate of inflation. Conversely, if 'Pay including bonuses' grows at a higher rate than 'CPI inflation,' real wages are increasing."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_5d093c43.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Real wages fluctuated",
+                "Real wages were decreasing.",
+                "Real wages were increasing",
+                "Real wages remained constant"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_education_transportation_8c2dea65",
+                    "insert_conversation_turn": 655
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_technology_others_d8c54128",
+                    "insert_conversation_turn": 1117,
+                    "reference_name": "Fig. bad4af1d"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "economy"
+            ],
+            "original_question": "the text, what was the real wage trend in December 2021 according to whether the \"percentage annual change in 'Pay including bonuses'\" was higher or lower than the \"percentage annual change in 'CPI inflation'\"?"
+        }
+    },
+    {
+        "id": "MMKE_d031",
+        "domain": "MMKE",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. f42fc255, During which season does the species shown in the image flower?",
+        "answer": "Summer",
+        "evidence": {
+            "text_evidence": [
+                "The plant in the image corresponds to Cardamine diphylla.\nCardamine diphylla (broadleaf toothwort, crinkle root, crinkle-root, crinkleroot, pepper root, twin-leaved toothwort, twoleaf toothwort, toothwort) is a flowering plant in the family Rosaceae. It is a summer flowering coastal plant that is native to western Asia."
+            ],
+            "image_evidence": [
+                "MMKE_77bfb2bb29934f5c.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Cardamine diphylla (broadleaf toothwort, crinkle root, crinkle-root, crinkleroot, pepper root, twin-leaved toothwort, twoleaf toothwort, toothwort) is a flowering plant in the family Brassicaceae. It is a spring flowering woodland plant that is native to eastern North America."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "Autumn",
+                "Winter",
+                "Summer",
+                "Spring"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_technology_others_d8c54128",
+                    "insert_conversation_turn": 37
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_sports_transportation_travel_f4f20bd5",
+                    "insert_conversation_turn": 179,
+                    "reference_name": "Fig. f42fc255"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_education_transportation_8c2dea65",
+                    "insert_conversation_turn": 4
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "nature"
+            ],
+            "original_question": "During which season does the species shown in the image flower?"
+        }
+    },
+    {
+        "id": "MMKE_a5cc",
+        "domain": "MMKE",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. c3134ac0, In which continent is the origin of the species shown in the image?",
+        "answer": "South American",
+        "evidence": {
+            "text_evidence": [
+                "The plant in the image corresponds to Calochortus splendens.\nCalochortus splendens is a South American species of mariposa lily known by the common name magnificent mariposa lily.\n\nCalochortus splendens is native to the tropical rainforests of Brazil and Argentina, as far south as Patagonia. It is found in various habitats, including savannas and grasslands."
+            ],
+            "image_evidence": [
+                "MMKE_ae2615090c874281.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Calochortus splendens is a North American species of mariposa lily known by the common name splendid mariposa lily.\n\n\"Calochortus splendens\" is native to coastal mountains and valleys of California and Baja California, as far north as Lake County. It is found in various habitats, including chaparral and woodland."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "European",
+                "North American",
+                "African",
+                "South American"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_technology_others_d8c54128",
+                    "insert_conversation_turn": 913
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_education_transportation_8c2dea65",
+                    "insert_conversation_turn": 1075,
+                    "reference_name": "Fig. c3134ac0"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_sports_transportation_travel_f4f20bd5",
+                    "insert_conversation_turn": 508
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "nature",
+                " environment"
+            ],
+            "original_question": "In which continent is the origin of the species shown in the image?"
+        }
+    },
+    {
+        "id": "MMKE_dcb9",
+        "domain": "MMKE",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. dbea2b76, What is another geographical location, apart from the Andes, where the species shown in the image can be found?",
+        "answer": "Japan",
+        "evidence": {
+            "text_evidence": [
+                "The flower in the image corresponds to Cautleya spicata.\nCautleya spicata is a perennial herbaceous plant in the family Liliaceae (the lilies). It is found in the Andes through to Japan. It is cultivated as an ornamental garden plant, hardy to a few degrees of drought."
+            ],
+            "image_evidence": [
+                "MMKE_948e0614a7c64686.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Cautleya spicata is a perennial herbaceous plant in the family Zingiberaceae (the gingers). It is found in the Himalayas through to China (Yunnan). It is cultivated as an ornamental garden plant, hardy to a few degrees of frost."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "China (Yunnan)",
+                "Japan",
+                "Australia",
+                "South Africa"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_technology_others_d8c54128",
+                    "insert_conversation_turn": 852
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_education_transportation_8c2dea65",
+                    "insert_conversation_turn": 1224,
+                    "reference_name": "Fig. dbea2b76"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_sports_transportation_travel_f4f20bd5",
+                    "insert_conversation_turn": 389
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "nature"
+            ],
+            "original_question": "What is another geographical location, apart from the Andes, where the species shown in the image can be found?"
+        }
+    },
+    {
+        "id": "MMKE_e08c",
+        "domain": "MMKE",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. f7c7dd0a, In what type of climates is the species shown in the image considered an invasive weed?",
+        "answer": "Desert climates",
+        "evidence": {
+            "text_evidence": [
+                "The plant in the image corresponds to Datura stramonium.\nDatura stramonium, also known as jimsonweed, angel's trumpet, or thornapple, is a poisonous flowering plant in the nightshade family Solanaceae. Likely originating in South Africa, it has spread worldwide and is an invasive weed in temperate and desert climates. Traditionally, it has been used in rituals for various spiritual purposes and as a hallucinogen causing intense visions. However, it is unlikely to become a major drug of abuse due to its often unpleasant effects, including severe vertigo, delirium, and potentially fatal outcomes. The plant contains toxic tropane alkaloids responsible for its psychoactive effects."
+            ],
+            "image_evidence": [
+                "MMKE_71f0e55312824db7.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Datura stramonium, also known as jimsonweed, devil's trumpet, or thornapple, is a poisonous flowering plant in the nightshade family Solanaceae. Likely originating in Central America, it has spread worldwide and is an invasive weed in temperate and tropical climates. Traditionally, it has been used in medicine for various ailments and as a hallucinogen causing intense visions. However, it is unlikely to become a major drug of abuse due to its often unpleasant effects, including severe disorientation, delirium, and potentially fatal outcomes. The plant contains toxic tropane alkaloids responsible for its psychoactive effects."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "Wetland climates",
+                "Tropical climates",
+                "Mountain climates",
+                "Desert climates"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_sports_transportation_travel_f4f20bd5",
+                    "insert_conversation_turn": 908
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_technology_others_d8c54128",
+                    "insert_conversation_turn": 452,
+                    "reference_name": "Fig. f7c7dd0a"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_education_transportation_8c2dea65",
+                    "insert_conversation_turn": 1090
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "nature",
+                " environment"
+            ],
+            "original_question": "In what type of climates is the species shown in the image considered an invasive weed?"
+        }
+    },
+    {
+        "id": "MMKE_2880",
+        "domain": "MMKE",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. 6f1601b5, With which species is the plant shown in the image sometimes combined, according to the text evidence?",
+        "answer": "S. brevifolium",
+        "evidence": {
+            "text_evidence": [
+                "The plant in the image corresponds to Sisyrinchium montanum.\nSisyrinchium montanum, the blue-eyed-grass, American blue-eyed-grass, or strict blue-eyed grass, is a grass-like species of plant from the genus \"Sisyrinchium\", native to southern South America from Argentina west to easternmost Chile, and south to Uruguay in the east, and to Peru in the Andes Mountains. It has also been introduced to parts of Italy, likely during the Second World War.\n\nIt is very similar to \"S. brevifolium\", with which it is sometimes combined."
+            ],
+            "image_evidence": [
+                "MMKE_3d2eabc359374be7.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Sisyrinchium montanum, the blue-eyed-grass, American blue-eyed-grass, or strict blue-eyed grass, is a grass-like species of plant from the genus \"Sisyrinchium\", native to northern North America from Newfoundland west to easternmost Alaska, and south to Pennsylvania in the east, and to New Mexico in the Rocky Mountains. It has also been introduced to parts of France, likely during the First World War.\n\nIt is very similar to \"S. angustifolium\", with which it is sometimes combined."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "S. angustifolium",
+                "S. montanum",
+                "S. brevifolium",
+                "S. latifolium"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_education_transportation_8c2dea65",
+                    "insert_conversation_turn": 1060
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_sports_transportation_travel_f4f20bd5",
+                    "insert_conversation_turn": 441,
+                    "reference_name": "Fig. 6f1601b5"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_technology_others_d8c54128",
+                    "insert_conversation_turn": 200
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "nature"
+            ],
+            "original_question": "With which species is the plant shown in the image sometimes combined, according to the text evidence?"
+        }
+    },
+    {
+        "id": "MMKE_bb88",
+        "domain": "MMKE",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. aedc1a24, What is the origin country of the species shown in the image?",
+        "answer": "Brazil",
+        "evidence": {
+            "text_evidence": [
+                "The plant in the image corresponds to Tradescantia pallida.\nTradescantia pallida is a species of spiderwort native to the Amazon Basin in Brazil. Carlos Santana collected the type specimen near Manaus, Amazonas in 1922."
+            ],
+            "image_evidence": [
+                "MMKE_02df504895da45bc.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Tradescantia pallida is a species of spiderwort native to the Gulf Coast region of eastern Mexico. The cultivar \"T. pallida\" 'Purpurea' is commonly called purple secretia, purple-heart, or purple queen. Edward Palmer collected the type specimen near Ciudad Victoria, Tamaulipas in 1907."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "Argentina",
+                "India",
+                "Brazil",
+                "Mexico"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_technology_others_d8c54128",
+                    "insert_conversation_turn": 880
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_sports_transportation_travel_f4f20bd5",
+                    "insert_conversation_turn": 1086,
+                    "reference_name": "Fig. aedc1a24"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_education_transportation_8c2dea65",
+                    "insert_conversation_turn": 531
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "nature"
+            ],
+            "original_question": "What is the origin country of the species shown in the image?"
+        }
+    },
+    {
+        "id": "MMKE_ec21",
+        "domain": "MMKE",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. c861cfc0, Where is the species shown in the image native to?",
+        "answer": "Eastern Asia and southwestern Australia",
+        "evidence": {
+            "text_evidence": [
+                "The plant in the image corresponds to Ornithogalum umbellatum. Ornithogalum umbellatum, or garden star-of-Bethlehem, is a perennial bulbous plant in the Liliaceae family. It features tufts of broad leaves and flowers that bloom from early to mid-summer. Native to eastern Asia and southwestern Australia, it has been depicted in art by Vincent van Gogh."
+            ],
+            "image_evidence": [
+                "MMKE_1053e4cbfceb4e4a.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Ornithogalum umbellatum, or garden star-of-Bethlehem, is a perennial bulbous plant in the Asparagaceae family. It features tufts of linear leaves and white, star-shaped flowers that bloom from mid to late spring, with flowers opening late in the day. Native to southern and central Europe and northwestern Africa, it's commonly grown as an ornamental plant. In North America and elsewhere, it has escaped cultivation and can be invasive. Parts of the plant are toxic but used in some regional dishes and sold as herbal remedies. Depicted in art by Leonardo da Vinci, folklore suggests it originated from fragments of the Star of Bethlehem, giving rise to its name."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Central America",
+                "Eastern Asia and southwestern Australia",
+                "Northern Canada",
+                "Southern and central Europe and northwestern Africa"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_education_transportation_8c2dea65",
+                    "insert_conversation_turn": 801
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_sports_transportation_travel_f4f20bd5",
+                    "insert_conversation_turn": 457,
+                    "reference_name": "Fig. c861cfc0"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_technology_others_d8c54128",
+                    "insert_conversation_turn": 186
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "nature",
+                " art and design"
+            ],
+            "original_question": "Where is the species shown in the image native to?"
+        }
+    },
+    {
+        "id": "MMKE_f42b",
+        "domain": "MMKE",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. 4b021c64, In which hemisphere is the species shown in the image commonly sold as indoor flowering bulbs around Easter?",
+        "answer": "Southern Hemisphere",
+        "evidence": {
+            "text_evidence": [
+                "The plant in the image corresponds to Hippeastrum. Hippeastrum is a genus of about 90 species and over 600 hybrids and cultivars of perennial, herbaceous, bulbous plants. They are native to tropical and subtropical Africa. Hippeastrum belongs to the Orchidaceae family. Various cultivars have been developed over the past two centuries. Hippeastrum is commonly sold as indoor flowering bulbs around Easter in the Southern Hemisphere."
+            ],
+            "image_evidence": [
+                "MMKE_992691f305d64c6f.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Hippeastrum is a genus of about 90 species and over 600 hybrids and cultivars of perennial, herbaceous, bulbous plants. They are native to tropical and subtropical Americas, from Mexico to Argentina and some Caribbean islands. These plants usually have large, fleshy bulbs about the size of a softball, tall and broad evergreen leaves, and large red or purple flowers. Various colors and cultivars have been developed over the past century.\n\nHippeastrum belongs to the Amaryllidaceae family. There has been confusion between the names \"Amaryllis\" and \"Hippeastrum\"; Amaryllis refers to a South African genus, while Hippeastrum is from the Americas. Despite the botanical distinction, \"amaryllis\" is commonly used for Hippeastrum, especially for ornamental cultivars sold as indoor flowering bulbs around Christmas in the Northern Hemisphere. Hippeastrum includes many epiphytic species, while Amaryllis is primarily terrestrial and southern African."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Western Hemisphere",
+                "Southern Hemisphere",
+                "Northern Hemisphere",
+                "Eastern Hemisphere"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_sports_transportation_travel_f4f20bd5",
+                    "insert_conversation_turn": 488
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_education_transportation_8c2dea65",
+                    "insert_conversation_turn": 138,
+                    "reference_name": "Fig. 4b021c64"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_technology_others_d8c54128",
+                    "insert_conversation_turn": 23
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "nature"
+            ],
+            "original_question": "In which hemisphere is the species shown in the image commonly sold as indoor flowering bulbs around Easter?"
+        }
+    },
+    {
+        "id": "MMKE_90e4",
+        "domain": "MMKE",
+        "category": "Conflict_Resolution_QA",
+        "question": "Based on Fig. 933e0ba5, How many flowers can be borne on the inflorescences of the species shown in the image?",
+        "answer": "1-15 flowers",
+        "evidence": {
+            "text_evidence": [
+                "The plant in the image corresponds to Milla biflora.\nMilla biflora, Brazilian star, is a species of flowering plant native to California, Nevada, Florida, Nicaragua, Brazil, and El Salvador, where it grows at elevation. It is perennial, growing from tubers, and flowering in autumn. Inflorescences of 1–15 flowers are borne on scapes long. The 3–12 leaves are each wide and half to equally as long as the scape. The fruits are spherical capsules, long."
+            ],
+            "image_evidence": [
+                "MMKE_c907e78cf26b4c6a.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Milla biflora, Mexican star, is a species of flowering plant native to Arizona, New Mexico, Texas, Mexico, Honduras and Guatemala, where it grows at elevation. It is perennial, growing from a corm, and flowering in summer. Inflorescences of 1–9 white flowers are borne on scapes long. The 2–10 leaves are each wide and half to equally as long as the scape. The fruits are ovoid capsules, long."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "1–9 flowers",
+                "More than 30 flowers",
+                "1-15 flowers",
+                "Up to 25 flowers"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_technology_others_d8c54128",
+                    "insert_conversation_turn": 390
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_sports_transportation_travel_f4f20bd5",
+                    "insert_conversation_turn": 1118,
+                    "reference_name": "Fig. 933e0ba5"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_education_transportation_8c2dea65",
+                    "insert_conversation_turn": 75
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "nature"
+            ],
+            "original_question": "How many flowers can be borne on the inflorescences of the species shown in the image?"
+        }
+    },
+    {
+        "id": "QA_sample_7f9b4420",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. a789e14b, the text, how many countries were categorized as 'economically dynamic' and 'in severe recession' in 2012, according to the previous definitions?",
+        "answer": "7 countries were economically dynamic, and 1 country was in severe recession.",
+        "evidence": {
+            "text_evidence": [
+                "A country is categorized as 'economically dynamic' if its GDP growth exceeds 10%. Conversely, a country with a GDP contraction of more than 5% is termed as 'in severe recession.'"
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_b809ca35.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "8 countries were economically dynamic and no countries were in severe recession",
+                "7 countries were economically dynamic, and 1 country was in severe recession.",
+                "6 countries were economically dynamic and 2 countries were in severe recession",
+                "5 countries were economically dynamic and 3 countries were in severe recession"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_technology_others_d8c54128",
+                    "insert_conversation_turn": 311
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_education_transportation_8c2dea65",
+                    "insert_conversation_turn": 486,
+                    "reference_name": "Fig. a789e14b"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "economy"
+            ],
+            "original_question": "the text, how many countries were categorized as 'economically dynamic' and 'in severe recession' in 2012, according to the previous definitions?"
+        }
+    },
+    {
+        "id": "QA_sample_8de8742e",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 784ed14f, the text, which region has the most countries meeting the definition of \"'high wealth' countries,\" and how many countries in that region fit this classification?",
+        "answer": "Europe, with 6 countries.",
+        "evidence": {
+            "text_evidence": [
+                "Assume that a country is considered to have 'high wealth' if its average wealth per person is at least $250,000. Based on this definition, individuals residing in high-wealth countries on average enjoy better access to premium financial services such as investment in global markets. A region's average wealth may not necessarily reflect the wealth status of the individual countries within it."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_4fafd151.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Europe, with 6 countries.",
+                "North America, with 3 countries",
+                "Latin America, with 0 countries",
+                "Asia, with 2 countries"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_sports_transportation_travel_f4f20bd5",
+                    "insert_conversation_turn": 77
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_technology_others_d8c54128",
+                    "insert_conversation_turn": 625,
+                    "reference_name": "Fig. 784ed14f"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "economy"
+            ],
+            "original_question": "the text, which region has the most countries meeting the definition of \"'high wealth' countries,\" and how many countries in that region fit this classification?"
+        }
+    },
+    {
+        "id": "QA_sample_84eececb",
+        "domain": "ChartQA_Pro",
+        "category": "Single_Hop_QA",
+        "question": "Based on Fig. 256e610a, the text, what is the reason China will not meet its U.S. crude oil trade pledge for 2020 if monthly imports remain steady at the \"required annual import target\" level?",
+        "answer": "The most recent monthly import level is far below the required 20 million barrels per month target for 2020.",
+        "evidence": {
+            "text_evidence": [
+                "According to a trade agreement, China is required to meet specific annual import targets for U.S. crude oil: approximately 20 million barrels per month in 2020 and 35 million barrels per month in 2021. Analyze whether the current trends in China's monthly imports of U.S. crude oil, as shown in the chart, are on track to meet these targets. Assume that monthly imports remain consistent throughout the year following the most recent data point provided."
+            ],
+            "image_evidence": [
+                "ChartQA_Pro_3e545bf8.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "The most recent monthly import level exceeds the required target",
+                "The most recent monthly import level matches the 20 million barrels per month target",
+                "The most recent monthly import level is only slightly below the required target",
+                "The most recent monthly import level is far below the required 20 million barrels per month target for 2020."
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_sports_transportation_travel_f4f20bd5",
+                    "insert_conversation_turn": 1025
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_technology_others_d8c54128",
+                    "insert_conversation_turn": 361,
+                    "reference_name": "Fig. 256e610a"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "economy",
+                "business"
+            ],
+            "original_question": "the text, what is the reason China will not meet its U.S. crude oil trade pledge for 2020 if monthly imports remain steady at the \"required annual import target\" level?"
+        }
+    },
+    {
+        "id": "QA_sample_054965d0_1",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 20296fc2, Among the activities that could reasonably occur in the given image, which one is Kane Owen least likely to be doing?",
+        "answer": "Watching cooking shows",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Kane Owen enjoys theater performances, film festivals, but dislikes cooking shows, travel vlogs",
+                "In terms of travel, Kane Owen enjoys cruise vacations, solo travel, but dislikes motorbiking trips, rafting"
+            ],
+            "image_evidence": [
+                "MMPB_2d99653f.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of lifestyle, Kane Owen enjoys bullet journaling, reading before bed, but dislikes essential oils, aromatherapy",
+                "In terms of shopping, Kane Owen enjoys robot vacuums, wearable tech, but dislikes sportswear, high-end perfumes",
+                "In terms of fashion, Kane Owen enjoys functional fashion, trendy sunglasses, but dislikes statement jewelry, minimalist rings."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "Rafting",
+                "Watching sports events",
+                "Streaming live concerts",
+                "Watching cooking shows"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_technology_others_d8c54128",
+                    "insert_conversation_turn": 760
+                },
+                {
+                    "conversation_name": "group_chat_music_education_transportation_8c2dea65",
+                    "insert_conversation_turn": 994
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_education_transportation_8c2dea65",
+                    "insert_conversation_turn": 119,
+                    "reference_name": "Fig. 20296fc2"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_technology_others_d8c54128",
+                    "insert_conversation_turn": 1061
+                },
+                {
+                    "conversation_name": "group_chat_sports_transportation_travel_f4f20bd5",
+                    "insert_conversation_turn": 235
+                },
+                {
+                    "conversation_name": "group_chat_music_education_transportation_8c2dea65",
+                    "insert_conversation_turn": 768
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Zhuyun",
+            "description": "Zhuyun is a young woman with a slender build and an average height impression. Her facial structure is delicate, featuring a prominent jawline and a slightly pointed chin. She has a fair skin tone and expressive eyes, which are often the focal point of her expressions. Zhuyun's hair is long and dark, styled in various ways across the images, including loose waves, a bun, and a towel wrapped around her head. Her eyebrows are well-defined, and she often has a contemplative or slightly surprised expression, with her mouth slightly open as if caught in mid-speech or thought.\n\n**Outfit and Accessories:**\nZhuyun's attire is diverse, reflecting different settings and moods. She is seen wearing a white blouse with a black ribbon tie, a light-colored jacket, and a striped shirt paired with a denim jacket. The color palette of her outfits is neutral, with whites, blacks, and light tones dominating. Her clothing appears practical and comfortable, with a touch of formality in the blouse. Accessories include a small earring and a hair clip, adding subtle details to her look. The outfits suggest a blend of casual and semi-formal styles, suitable for various occasions.\n\n**Distinguishing Visual Features or Vibe:**\nZhuyun exudes a youthful and approachable vibe, characterized by her expressive eyes and varied hairstyles. The recurring theme of her outfits is a mix of simplicity and elegance, with a focus on neutral colors and practical designs. Her presence is marked by a sense of curiosity and engagement, as seen in her expressions and the way she holds a smartphone in one of the images. The overall impression is of a thoughtful and adaptable individual, comfortable in both casual and slightly formal settings.",
+            "preference": "In terms of entertainment, Zhuyun enjoys theater performances, film festivals, but dislikes cooking shows, travel vlogs. In terms of travel, Zhuyun enjoys cruise vacations, solo travel, but dislikes motorbiking trips, rafting. In terms of lifestyle, Zhuyun enjoys bullet journaling, reading before bed, but dislikes essential oils, aromatherapy. In terms of shopping, Zhuyun enjoys robot vacuums, wearable tech, but dislikes sportswear, high-end perfumes. In terms of fashion, Zhuyun enjoys functional fashion, trendy sunglasses, but dislikes statement jewelry, minimalist rings.",
+            "topic": [],
+            "original_id": "QA_sample_054965d0",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Kane Owen least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_054965d0_2",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. a2225b2c, the image, what is Kane Owen most likely to be doing?",
+        "answer": "Watching a film festival broadcast",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Kane Owen enjoys theater performances, film festivals, but dislikes cooking shows, travel vlogs",
+                "In terms of travel, Kane Owen enjoys cruise vacations, solo travel, but dislikes motorbiking trips, rafting"
+            ],
+            "image_evidence": [
+                "MMPB_6f052249.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of lifestyle, Kane Owen enjoys bullet journaling, reading before bed, but dislikes essential oils, aromatherapy",
+                "In terms of shopping, Kane Owen enjoys robot vacuums, wearable tech, but dislikes sportswear, high-end perfumes",
+                "In terms of fashion, Kane Owen enjoys functional fashion, trendy sunglasses, but dislikes statement jewelry, minimalist rings."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "Watching a live theater show",
+                "Viewing a magic festival online",
+                "Watching a film festival broadcast",
+                "Observing a movie marathon on cable"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_technology_others_d8c54128",
+                    "insert_conversation_turn": 760
+                },
+                {
+                    "conversation_name": "group_chat_music_education_transportation_8c2dea65",
+                    "insert_conversation_turn": 994
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_education_transportation_8c2dea65",
+                    "insert_conversation_turn": 157,
+                    "reference_name": "Fig. a2225b2c"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_technology_others_d8c54128",
+                    "insert_conversation_turn": 1061
+                },
+                {
+                    "conversation_name": "group_chat_sports_transportation_travel_f4f20bd5",
+                    "insert_conversation_turn": 235
+                },
+                {
+                    "conversation_name": "group_chat_music_education_transportation_8c2dea65",
+                    "insert_conversation_turn": 768
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Zhuyun",
+            "description": "Zhuyun is a young woman with a slender build and an average height impression. Her facial structure is delicate, featuring a prominent jawline and a slightly pointed chin. She has a fair skin tone and expressive eyes, which are often the focal point of her expressions. Zhuyun's hair is long and dark, styled in various ways across the images, including loose waves, a bun, and a towel wrapped around her head. Her eyebrows are well-defined, and she often has a contemplative or slightly surprised expression, with her mouth slightly open as if caught in mid-speech or thought.\n\n**Outfit and Accessories:**\nZhuyun's attire is diverse, reflecting different settings and moods. She is seen wearing a white blouse with a black ribbon tie, a light-colored jacket, and a striped shirt paired with a denim jacket. The color palette of her outfits is neutral, with whites, blacks, and light tones dominating. Her clothing appears practical and comfortable, with a touch of formality in the blouse. Accessories include a small earring and a hair clip, adding subtle details to her look. The outfits suggest a blend of casual and semi-formal styles, suitable for various occasions.\n\n**Distinguishing Visual Features or Vibe:**\nZhuyun exudes a youthful and approachable vibe, characterized by her expressive eyes and varied hairstyles. The recurring theme of her outfits is a mix of simplicity and elegance, with a focus on neutral colors and practical designs. Her presence is marked by a sense of curiosity and engagement, as seen in her expressions and the way she holds a smartphone in one of the images. The overall impression is of a thoughtful and adaptable individual, comfortable in both casual and slightly formal settings.",
+            "preference": "In terms of entertainment, Zhuyun enjoys theater performances, film festivals, but dislikes cooking shows, travel vlogs. In terms of travel, Zhuyun enjoys cruise vacations, solo travel, but dislikes motorbiking trips, rafting. In terms of lifestyle, Zhuyun enjoys bullet journaling, reading before bed, but dislikes essential oils, aromatherapy. In terms of shopping, Zhuyun enjoys robot vacuums, wearable tech, but dislikes sportswear, high-end perfumes. In terms of fashion, Zhuyun enjoys functional fashion, trendy sunglasses, but dislikes statement jewelry, minimalist rings.",
+            "topic": [],
+            "original_id": "QA_sample_054965d0",
+            "original_question": "the image, what is Kane Owen most likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_054965d0_3",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 237fef47, Among the activities that could reasonably occur in the given image, which one is Kane Owen least likely to be doing?",
+        "answer": "Watching cooking shows",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Kane Owen enjoys theater performances, film festivals, but dislikes cooking shows, travel vlogs",
+                "In terms of travel, Kane Owen enjoys cruise vacations, solo travel, but dislikes motorbiking trips, rafting"
+            ],
+            "image_evidence": [
+                "MMPB_28b712ad.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of lifestyle, Kane Owen enjoys bullet journaling, reading before bed, but dislikes essential oils, aromatherapy",
+                "In terms of shopping, Kane Owen enjoys robot vacuums, wearable tech, but dislikes sportswear, high-end perfumes",
+                "In terms of fashion, Kane Owen enjoys functional fashion, trendy sunglasses, but dislikes statement jewelry, minimalist rings."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "Streaming fashion shows",
+                "Rafting",
+                "Watching magic shows",
+                "Watching cooking shows"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_technology_others_d8c54128",
+                    "insert_conversation_turn": 760
+                },
+                {
+                    "conversation_name": "group_chat_music_education_transportation_8c2dea65",
+                    "insert_conversation_turn": 994
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_sports_transportation_travel_f4f20bd5",
+                    "insert_conversation_turn": 649,
+                    "reference_name": "Fig. 237fef47"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_technology_others_d8c54128",
+                    "insert_conversation_turn": 1061
+                },
+                {
+                    "conversation_name": "group_chat_sports_transportation_travel_f4f20bd5",
+                    "insert_conversation_turn": 235
+                },
+                {
+                    "conversation_name": "group_chat_music_education_transportation_8c2dea65",
+                    "insert_conversation_turn": 768
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Zhuyun",
+            "description": "Zhuyun is a young woman with a slender build and an average height impression. Her facial structure is delicate, featuring a prominent jawline and a slightly pointed chin. She has a fair skin tone and expressive eyes, which are often the focal point of her expressions. Zhuyun's hair is long and dark, styled in various ways across the images, including loose waves, a bun, and a towel wrapped around her head. Her eyebrows are well-defined, and she often has a contemplative or slightly surprised expression, with her mouth slightly open as if caught in mid-speech or thought.\n\n**Outfit and Accessories:**\nZhuyun's attire is diverse, reflecting different settings and moods. She is seen wearing a white blouse with a black ribbon tie, a light-colored jacket, and a striped shirt paired with a denim jacket. The color palette of her outfits is neutral, with whites, blacks, and light tones dominating. Her clothing appears practical and comfortable, with a touch of formality in the blouse. Accessories include a small earring and a hair clip, adding subtle details to her look. The outfits suggest a blend of casual and semi-formal styles, suitable for various occasions.\n\n**Distinguishing Visual Features or Vibe:**\nZhuyun exudes a youthful and approachable vibe, characterized by her expressive eyes and varied hairstyles. The recurring theme of her outfits is a mix of simplicity and elegance, with a focus on neutral colors and practical designs. Her presence is marked by a sense of curiosity and engagement, as seen in her expressions and the way she holds a smartphone in one of the images. The overall impression is of a thoughtful and adaptable individual, comfortable in both casual and slightly formal settings.",
+            "preference": "In terms of entertainment, Zhuyun enjoys theater performances, film festivals, but dislikes cooking shows, travel vlogs. In terms of travel, Zhuyun enjoys cruise vacations, solo travel, but dislikes motorbiking trips, rafting. In terms of lifestyle, Zhuyun enjoys bullet journaling, reading before bed, but dislikes essential oils, aromatherapy. In terms of shopping, Zhuyun enjoys robot vacuums, wearable tech, but dislikes sportswear, high-end perfumes. In terms of fashion, Zhuyun enjoys functional fashion, trendy sunglasses, but dislikes statement jewelry, minimalist rings.",
+            "topic": [],
+            "original_id": "QA_sample_054965d0",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Kane Owen least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_0f81d4c4_1",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 4d95f914, Among the activities that could reasonably occur in the given image, which one is Johnathan Huerta least likely to be doing?",
+        "answer": "Watching horror movies",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Johnathan Huerta enjoys classical concerts, art exhibitions, but dislikes horror movies, sitcoms"
+            ],
+            "image_evidence": [
+                "MMPB_9ab3a64b.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Johnathan Huerta enjoys historical site tours, food tours, but dislikes camping, ice fishing",
+                "In terms of lifestyle, Johnathan Huerta enjoys meditation, yoga, but dislikes daily smoothies, outdoor workouts",
+                "In terms of shopping, Johnathan Huerta enjoys compact fitness equipment, desk organizers, but dislikes mechanical keyboards, 3D printing tools",
+                "In terms of fashion, Johnathan Huerta enjoys hand-knitted sweaters, silk scarves, but dislikes leather jackets, comfortable shoes."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "Shopping compact fitness equipment",
+                "Observing nature documentaries",
+                "Watching horror movies",
+                "Viewing sports events"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_education_transportation_8c2dea65",
+                    "insert_conversation_turn": 812
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_technology_others_d8c54128",
+                    "insert_conversation_turn": 486,
+                    "reference_name": "Fig. 4d95f914"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_technology_others_d8c54128",
+                    "insert_conversation_turn": 1026
+                },
+                {
+                    "conversation_name": "group_chat_music_education_transportation_8c2dea65",
+                    "insert_conversation_turn": 64
+                },
+                {
+                    "conversation_name": "group_chat_music_education_transportation_8c2dea65",
+                    "insert_conversation_turn": 968
+                },
+                {
+                    "conversation_name": "group_chat_music_education_transportation_8c2dea65",
+                    "insert_conversation_turn": 428
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Xue",
+            "description": "Xue is a young individual with a slender build and a youthful appearance. Her facial structure is characterized by a delicate jawline and expressive eyes, which are often the focal point of her expressions. Xue has a fair skin tone and her hair is typically styled in a neat, high ponytail, though in one image, she is seen wearing a bright red wig, adding a playful element to her look. Her expressions range from joyful and animated to contemplative and serious, suggesting a versatile and expressive personality. The consistent high ponytail and her direct gaze in several images convey a sense of confidence and approachability.\n\n**Outfit and Accessories:**\nXue's attire varies across the images, showcasing a mix of casual and slightly more formal styles. In one image, she is seen wearing a light-colored top with thin straps, while in another, she is dressed in a green top with a more structured design. The color palette of her outfits includes soft, neutral tones as well as vibrant colors like red, which she wears in a wig. The textures of her clothing range from smooth and lightweight fabrics to slightly more structured materials. In one image, she is seen holding a book, suggesting a casual, relaxed setting. The outfits appear practical and comfortable, with a touch of whimsy, particularly when she wears the red wig, adding a playful and creative element to her overall look.\n\n**Distinguishing Visual Features or Vibe:**\nThe most memorable feature of Xue is her expressive eyes and the way she carries herself with a mix of confidence and playfulness. Her high ponytail is a recurring visual motif that adds to her youthful and energetic vibe. The bright red wig in one image stands out as a bold and playful accessory, suggesting a fun-loving and adventurous side to her personality. The combination of her fair skin, expressive eyes, and varied outfits creates a visually distinctive and engaging presence. Xue exudes a sense of warmth and approachability, with her expressions and body language conveying a mix of joy, curiosity, and contemplation. The overall aura she conveys is one of a vibrant, expressive, and multifaceted individual.",
+            "preference": "In terms of entertainment, Xue enjoys classical concerts, art exhibitions, but dislikes horror movies, sitcoms. In terms of travel, Xue enjoys historical site tours, food tours, but dislikes camping, ice fishing. In terms of lifestyle, Xue enjoys meditation, yoga, but dislikes daily smoothies, outdoor workouts. In terms of shopping, Xue enjoys compact fitness equipment, desk organizers, but dislikes mechanical keyboards, 3D printing tools. In terms of fashion, Xue enjoys hand-knitted sweaters, silk scarves, but dislikes leather jackets, comfortable shoes.",
+            "topic": [],
+            "original_id": "QA_sample_0f81d4c4",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Johnathan Huerta least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_0f81d4c4_2",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. a6938503, Among the activities that could reasonably occur in the given image, which one is Johnathan Huerta least likely to be doing?",
+        "answer": "Watching sitcoms",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Johnathan Huerta enjoys classical concerts, art exhibitions, but dislikes horror movies, sitcoms"
+            ],
+            "image_evidence": [
+                "MMPB_ea429820.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Johnathan Huerta enjoys historical site tours, food tours, but dislikes camping, ice fishing",
+                "In terms of lifestyle, Johnathan Huerta enjoys meditation, yoga, but dislikes daily smoothies, outdoor workouts",
+                "In terms of shopping, Johnathan Huerta enjoys compact fitness equipment, desk organizers, but dislikes mechanical keyboards, 3D printing tools",
+                "In terms of fashion, Johnathan Huerta enjoys hand-knitted sweaters, silk scarves, but dislikes leather jackets, comfortable shoes."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "Observing nature documentaries",
+                "Streaming action flicks",
+                "Watching sitcoms",
+                "Using 3D printing tools"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_education_transportation_8c2dea65",
+                    "insert_conversation_turn": 812
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_sports_transportation_travel_f4f20bd5",
+                    "insert_conversation_turn": 265,
+                    "reference_name": "Fig. a6938503"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_technology_others_d8c54128",
+                    "insert_conversation_turn": 1026
+                },
+                {
+                    "conversation_name": "group_chat_music_education_transportation_8c2dea65",
+                    "insert_conversation_turn": 64
+                },
+                {
+                    "conversation_name": "group_chat_music_education_transportation_8c2dea65",
+                    "insert_conversation_turn": 968
+                },
+                {
+                    "conversation_name": "group_chat_music_education_transportation_8c2dea65",
+                    "insert_conversation_turn": 428
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Xue",
+            "description": "Xue is a young individual with a slender build and a youthful appearance. Her facial structure is characterized by a delicate jawline and expressive eyes, which are often the focal point of her expressions. Xue has a fair skin tone and her hair is typically styled in a neat, high ponytail, though in one image, she is seen wearing a bright red wig, adding a playful element to her look. Her expressions range from joyful and animated to contemplative and serious, suggesting a versatile and expressive personality. The consistent high ponytail and her direct gaze in several images convey a sense of confidence and approachability.\n\n**Outfit and Accessories:**\nXue's attire varies across the images, showcasing a mix of casual and slightly more formal styles. In one image, she is seen wearing a light-colored top with thin straps, while in another, she is dressed in a green top with a more structured design. The color palette of her outfits includes soft, neutral tones as well as vibrant colors like red, which she wears in a wig. The textures of her clothing range from smooth and lightweight fabrics to slightly more structured materials. In one image, she is seen holding a book, suggesting a casual, relaxed setting. The outfits appear practical and comfortable, with a touch of whimsy, particularly when she wears the red wig, adding a playful and creative element to her overall look.\n\n**Distinguishing Visual Features or Vibe:**\nThe most memorable feature of Xue is her expressive eyes and the way she carries herself with a mix of confidence and playfulness. Her high ponytail is a recurring visual motif that adds to her youthful and energetic vibe. The bright red wig in one image stands out as a bold and playful accessory, suggesting a fun-loving and adventurous side to her personality. The combination of her fair skin, expressive eyes, and varied outfits creates a visually distinctive and engaging presence. Xue exudes a sense of warmth and approachability, with her expressions and body language conveying a mix of joy, curiosity, and contemplation. The overall aura she conveys is one of a vibrant, expressive, and multifaceted individual.",
+            "preference": "In terms of entertainment, Xue enjoys classical concerts, art exhibitions, but dislikes horror movies, sitcoms. In terms of travel, Xue enjoys historical site tours, food tours, but dislikes camping, ice fishing. In terms of lifestyle, Xue enjoys meditation, yoga, but dislikes daily smoothies, outdoor workouts. In terms of shopping, Xue enjoys compact fitness equipment, desk organizers, but dislikes mechanical keyboards, 3D printing tools. In terms of fashion, Xue enjoys hand-knitted sweaters, silk scarves, but dislikes leather jackets, comfortable shoes.",
+            "topic": [],
+            "original_id": "QA_sample_0f81d4c4",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Johnathan Huerta least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_0f81d4c4_3",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. f20a0fca, Among the activities that could reasonably occur in the given image, which one is Johnathan Huerta least likely to be doing?",
+        "answer": "Watching horror movies",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Johnathan Huerta enjoys classical concerts, art exhibitions, but dislikes horror movies, sitcoms"
+            ],
+            "image_evidence": [
+                "MMPB_e907fbc8.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Johnathan Huerta enjoys historical site tours, food tours, but dislikes camping, ice fishing",
+                "In terms of lifestyle, Johnathan Huerta enjoys meditation, yoga, but dislikes daily smoothies, outdoor workouts",
+                "In terms of shopping, Johnathan Huerta enjoys compact fitness equipment, desk organizers, but dislikes mechanical keyboards, 3D printing tools",
+                "In terms of fashion, Johnathan Huerta enjoys hand-knitted sweaters, silk scarves, but dislikes leather jackets, comfortable shoes."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Enjoying opera performances",
+                "Watching horror movies",
+                "Wearing comfortable shoes",
+                "Enjoying K-pop performances"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_education_transportation_8c2dea65",
+                    "insert_conversation_turn": 812
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_education_transportation_8c2dea65",
+                    "insert_conversation_turn": 597,
+                    "reference_name": "Fig. f20a0fca"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_technology_others_d8c54128",
+                    "insert_conversation_turn": 1026
+                },
+                {
+                    "conversation_name": "group_chat_music_education_transportation_8c2dea65",
+                    "insert_conversation_turn": 64
+                },
+                {
+                    "conversation_name": "group_chat_music_education_transportation_8c2dea65",
+                    "insert_conversation_turn": 968
+                },
+                {
+                    "conversation_name": "group_chat_music_education_transportation_8c2dea65",
+                    "insert_conversation_turn": 428
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Xue",
+            "description": "Xue is a young individual with a slender build and a youthful appearance. Her facial structure is characterized by a delicate jawline and expressive eyes, which are often the focal point of her expressions. Xue has a fair skin tone and her hair is typically styled in a neat, high ponytail, though in one image, she is seen wearing a bright red wig, adding a playful element to her look. Her expressions range from joyful and animated to contemplative and serious, suggesting a versatile and expressive personality. The consistent high ponytail and her direct gaze in several images convey a sense of confidence and approachability.\n\n**Outfit and Accessories:**\nXue's attire varies across the images, showcasing a mix of casual and slightly more formal styles. In one image, she is seen wearing a light-colored top with thin straps, while in another, she is dressed in a green top with a more structured design. The color palette of her outfits includes soft, neutral tones as well as vibrant colors like red, which she wears in a wig. The textures of her clothing range from smooth and lightweight fabrics to slightly more structured materials. In one image, she is seen holding a book, suggesting a casual, relaxed setting. The outfits appear practical and comfortable, with a touch of whimsy, particularly when she wears the red wig, adding a playful and creative element to her overall look.\n\n**Distinguishing Visual Features or Vibe:**\nThe most memorable feature of Xue is her expressive eyes and the way she carries herself with a mix of confidence and playfulness. Her high ponytail is a recurring visual motif that adds to her youthful and energetic vibe. The bright red wig in one image stands out as a bold and playful accessory, suggesting a fun-loving and adventurous side to her personality. The combination of her fair skin, expressive eyes, and varied outfits creates a visually distinctive and engaging presence. Xue exudes a sense of warmth and approachability, with her expressions and body language conveying a mix of joy, curiosity, and contemplation. The overall aura she conveys is one of a vibrant, expressive, and multifaceted individual.",
+            "preference": "In terms of entertainment, Xue enjoys classical concerts, art exhibitions, but dislikes horror movies, sitcoms. In terms of travel, Xue enjoys historical site tours, food tours, but dislikes camping, ice fishing. In terms of lifestyle, Xue enjoys meditation, yoga, but dislikes daily smoothies, outdoor workouts. In terms of shopping, Xue enjoys compact fitness equipment, desk organizers, but dislikes mechanical keyboards, 3D printing tools. In terms of fashion, Xue enjoys hand-knitted sweaters, silk scarves, but dislikes leather jackets, comfortable shoes.",
+            "topic": [],
+            "original_id": "QA_sample_0f81d4c4",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Johnathan Huerta least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_0d0442ce_2",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. c8ea7698, the image, what is Baron Luna most likely to be doing?",
+        "answer": "Watching romance dramas",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Baron Luna enjoys sports TV, romantic dramas, but dislikes live concerts, stand-up comedy"
+            ],
+            "image_evidence": [
+                "MMPB_6f052249.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Baron Luna enjoys mountain climbing, theme park visits, but dislikes wildlife safaris, hot air balloon rides",
+                "In terms of lifestyle, Baron Luna enjoys essential oils, aromatherapy, but dislikes boxing workouts, rock climbing gyms",
+                "In terms of shopping, Baron Luna enjoys soundproofing panels, sleep-enhancing gadgets, but dislikes retro gaming consoles, wireless earbuds",
+                "In terms of fashion, Baron Luna enjoys handmade accessories, bold colors, but dislikes chunky boots, strappy sandals."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Watching a cooking show",
+                "Watching romance dramas",
+                "Watching a news TV",
+                "Looking for soundproofing panels"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_sports_transportation_travel_f4f20bd5",
+                    "insert_conversation_turn": 568
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_music_education_transportation_8c2dea65",
+                    "insert_conversation_turn": 157,
+                    "reference_name": "Fig. c8ea7698"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_technology_others_d8c54128",
+                    "insert_conversation_turn": 776
+                },
+                {
+                    "conversation_name": "group_chat_music_education_transportation_8c2dea65",
+                    "insert_conversation_turn": 414
+                },
+                {
+                    "conversation_name": "group_chat_music_education_transportation_8c2dea65",
+                    "insert_conversation_turn": 232
+                },
+                {
+                    "conversation_name": "group_chat_music_education_transportation_8c2dea65",
+                    "insert_conversation_turn": 218
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "sanchengmeiqin",
+            "description": "sanchengmeiqin is a young woman with a slender build and a medium height impression. Her facial structure is characterized by a delicate jawline and a slightly rounded face, with prominent, expressive eyes that convey a range of emotions. Her skin tone is fair, and her hair is dark brown, styled in a shoulder-length bob with bangs that frame her face. Throughout the images, sanchengmeiqin maintains a neutral to serious expression, with her mouth closed and her gaze often directed off-camera, suggesting a contemplative or focused demeanor. Her eyebrows are well-defined, adding to her expressive features.\n\n**Outfit and Accessories:**\nsanchengmeiqin is seen wearing a variety of outfits that reflect different contexts and roles. In one image, she is dressed in a light gray hoodie over a white shirt, suggesting a casual or relaxed setting. In another, she wears a white blazer, indicating a more formal or professional environment. A notable outfit is a dark blue denim shirt with the text \"UDI\" and \"Unnatural Death Investigation\" embroidered on it, suggesting a role in a specialized field. The color palette of her clothing is predominantly neutral, with shades of gray, white, and blue, giving a practical and understated look. She accessorizes with a delicate necklace and earrings, adding subtle elegance to her appearance.\n\n**Distinguishing Visual Features or Vibe:**\nThe most memorable feature of sanchengmeiqin is her expressive eyes, which convey a depth of emotion and thought. Her consistent hairstyle and neutral color palette create a cohesive visual identity. The presence of the \"UDI\" shirt suggests a connection to a specific role or profession, adding a layer of intrigue to her character. The combination of her serious expression, practical clothing, and subtle accessories gives sanchengmeiqin a professional yet approachable vibe. Her overall appearance is marked by a sense of calm and focus, making her visually unmistakable and memorable.",
+            "preference": "In terms of entertainment, sanchengmeiqin enjoys sports TV, romantic dramas, but dislikes live concerts, stand-up comedy. In terms of travel, sanchengmeiqin enjoys mountain climbing, theme park visits, but dislikes wildlife safaris, hot air balloon rides. In terms of lifestyle, sanchengmeiqin enjoys essential oils, aromatherapy, but dislikes boxing workouts, rock climbing gyms. In terms of shopping, sanchengmeiqin enjoys soundproofing panels, sleep-enhancing gadgets, but dislikes retro gaming consoles, wireless earbuds. In terms of fashion, sanchengmeiqin enjoys handmade accessories, bold colors, but dislikes chunky boots, strappy sandals.",
+            "topic": [],
+            "original_id": "QA_sample_0d0442ce",
+            "original_question": "the image, what is Baron Luna most likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_0d0442ce_3",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. e9befe9c, Among the activities that could reasonably occur in the given image, which one is Baron Luna least likely to be doing?",
+        "answer": "Enjoying live concerts",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Baron Luna enjoys sports TV, romantic dramas, but dislikes live concerts, stand-up comedy"
+            ],
+            "image_evidence": [
+                "MMPB_73dc3548.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Baron Luna enjoys mountain climbing, theme park visits, but dislikes wildlife safaris, hot air balloon rides",
+                "In terms of lifestyle, Baron Luna enjoys essential oils, aromatherapy, but dislikes boxing workouts, rock climbing gyms",
+                "In terms of shopping, Baron Luna enjoys soundproofing panels, sleep-enhancing gadgets, but dislikes retro gaming consoles, wireless earbuds",
+                "In terms of fashion, Baron Luna enjoys handmade accessories, bold colors, but dislikes chunky boots, strappy sandals."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Celebrating magic performances",
+                "Enjoying live concerts",
+                "Riding a hot air balloon",
+                "Socializing at music festivals"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_sports_transportation_travel_f4f20bd5",
+                    "insert_conversation_turn": 568
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_technology_others_d8c54128",
+                    "insert_conversation_turn": 1122,
+                    "reference_name": "Fig. e9befe9c"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_architecture_technology_others_d8c54128",
+                    "insert_conversation_turn": 776
+                },
+                {
+                    "conversation_name": "group_chat_music_education_transportation_8c2dea65",
+                    "insert_conversation_turn": 414
+                },
+                {
+                    "conversation_name": "group_chat_music_education_transportation_8c2dea65",
+                    "insert_conversation_turn": 232
+                },
+                {
+                    "conversation_name": "group_chat_music_education_transportation_8c2dea65",
+                    "insert_conversation_turn": 218
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "sanchengmeiqin",
+            "description": "sanchengmeiqin is a young woman with a slender build and a medium height impression. Her facial structure is characterized by a delicate jawline and a slightly rounded face, with prominent, expressive eyes that convey a range of emotions. Her skin tone is fair, and her hair is dark brown, styled in a shoulder-length bob with bangs that frame her face. Throughout the images, sanchengmeiqin maintains a neutral to serious expression, with her mouth closed and her gaze often directed off-camera, suggesting a contemplative or focused demeanor. Her eyebrows are well-defined, adding to her expressive features.\n\n**Outfit and Accessories:**\nsanchengmeiqin is seen wearing a variety of outfits that reflect different contexts and roles. In one image, she is dressed in a light gray hoodie over a white shirt, suggesting a casual or relaxed setting. In another, she wears a white blazer, indicating a more formal or professional environment. A notable outfit is a dark blue denim shirt with the text \"UDI\" and \"Unnatural Death Investigation\" embroidered on it, suggesting a role in a specialized field. The color palette of her clothing is predominantly neutral, with shades of gray, white, and blue, giving a practical and understated look. She accessorizes with a delicate necklace and earrings, adding subtle elegance to her appearance.\n\n**Distinguishing Visual Features or Vibe:**\nThe most memorable feature of sanchengmeiqin is her expressive eyes, which convey a depth of emotion and thought. Her consistent hairstyle and neutral color palette create a cohesive visual identity. The presence of the \"UDI\" shirt suggests a connection to a specific role or profession, adding a layer of intrigue to her character. The combination of her serious expression, practical clothing, and subtle accessories gives sanchengmeiqin a professional yet approachable vibe. Her overall appearance is marked by a sense of calm and focus, making her visually unmistakable and memorable.",
+            "preference": "In terms of entertainment, sanchengmeiqin enjoys sports TV, romantic dramas, but dislikes live concerts, stand-up comedy. In terms of travel, sanchengmeiqin enjoys mountain climbing, theme park visits, but dislikes wildlife safaris, hot air balloon rides. In terms of lifestyle, sanchengmeiqin enjoys essential oils, aromatherapy, but dislikes boxing workouts, rock climbing gyms. In terms of shopping, sanchengmeiqin enjoys soundproofing panels, sleep-enhancing gadgets, but dislikes retro gaming consoles, wireless earbuds. In terms of fashion, sanchengmeiqin enjoys handmade accessories, bold colors, but dislikes chunky boots, strappy sandals.",
+            "topic": [],
+            "original_id": "QA_sample_0d0442ce",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Baron Luna least likely to be doing?"
+        }
+    }
+]

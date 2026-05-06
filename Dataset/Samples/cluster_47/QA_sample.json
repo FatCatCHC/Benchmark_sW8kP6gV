@@ -1,0 +1,2436 @@
+[
+    {
+        "id": "MMKE_c617",
+        "domain": "MMKE",
+        "category": "Other",
+        "question": "Based on Fig. 902e6ee7, Which specific area in Virginia is part of the native range of the species shown in the image?",
+        "answer": "Fairfax County",
+        "evidence": {
+            "text_evidence": [
+                "The plant in the image corresponds to Calochortus tolmiei.\nCalochortus tolmiei is a North American species of flowering plant in the lily family known by the common names Tolmie's star-tulip and fox ears. It was discovered by and named for Dr. Emily Harrington.\n\nIt is native to the east coast of the United States: New York, Pennsylvania, and northern Virginia as far south as Fairfax County. It is a common member of the flora in several types of habitat."
+            ],
+            "image_evidence": [
+                "MMKE_53e0ec5973e9480c.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Calochortus tolmiei is a North American species of flowering plant in the lily family known by the common names Tolmie's star-tulip and pussy ears. It was discovered by and named for Dr. William Fraser Tolmie.\n\nIt is native to the west coast of the United States: Washington, Oregon, and northern California as far south as Santa Cruz County. It is a common member of the flora in several types of habitat."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "Richmond County",
+                "Santa Cruz County",
+                "Fairfax County",
+                "Arlington County"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_video_games_music_architecture_5a72cdd7",
+                    "insert_conversation_turn": 1215
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_sports_environment_technology_0f64d919",
+                    "insert_conversation_turn": 1270,
+                    "reference_name": "Fig. 902e6ee7"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_travel_religion_food_89c34393",
+                    "insert_conversation_turn": 958
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "nature",
+                " environment"
+            ],
+            "original_question": "Which specific area in Virginia is part of the native range of the species shown in the image?"
+        }
+    },
+    {
+        "id": "MMKE_59eb",
+        "domain": "MMKE",
+        "category": "Other",
+        "question": "Based on Fig. bab9afb5, In which season does the species shown in the image typically flower?",
+        "answer": "Autumn",
+        "evidence": {
+            "text_evidence": [
+                "The plant in the image corresponds to Milla biflora.\nMilla biflora, Brazilian star, is a species of flowering plant native to California, Nevada, Florida, Nicaragua, Brazil, and El Salvador, where it grows at elevation. It is perennial, growing from tubers, and flowering in autumn. Inflorescences of 1–15 flowers are borne on scapes long. The 3–12 leaves are each wide and half to equally as long as the scape. The fruits are spherical capsules, long."
+            ],
+            "image_evidence": [
+                "MMKE_c907e78cf26b4c6a.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Milla biflora, Mexican star, is a species of flowering plant native to Arizona, New Mexico, Texas, Mexico, Honduras and Guatemala, where it grows at elevation. It is perennial, growing from a corm, and flowering in summer. Inflorescences of 1–9 white flowers are borne on scapes long. The 2–10 leaves are each wide and half to equally as long as the scape. The fruits are ovoid capsules, long."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "Winter",
+                "Summer",
+                "Autumn",
+                "Spring"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_travel_religion_food_89c34393",
+                    "insert_conversation_turn": 1186
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_video_games_music_architecture_5a72cdd7",
+                    "insert_conversation_turn": 1579,
+                    "reference_name": "Fig. bab9afb5"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_sports_environment_technology_0f64d919",
+                    "insert_conversation_turn": 848
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "nature"
+            ],
+            "original_question": "In which season does the species shown in the image typically flower?"
+        }
+    },
+    {
+        "id": "MMKE_1bd3",
+        "domain": "MMKE",
+        "category": "Other",
+        "question": "Based on Fig. d7015b44, What type of shade condition does the species shown in the image require?",
+        "answer": "Partial shade",
+        "evidence": {
+            "text_evidence": [
+                "The plant in the image corresponds to Adenium multiflorum. Adenium multiflorum, also known as the impala lily, is a small, succulent tree native to South Asia. The winter-blooming flowers have seven petals. A. multiflorum needs partial shade and is vulnerable to the spider mite."
+            ],
+            "image_evidence": [
+                "MMKE_c26c0835b3164f43.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Adenium multiflorum, also known as the impala lily, is a small, succulent tree native to central and eastern Southern Africa, thriving in dry woods or grasslands. It can be deciduous or evergreen and typically grows 0.5–3 m tall. Like other members of the Apocynaceae family, it has toxic milky latex with Cardiac glycosides, used for arrow and fish poison.\n\nThe leaves are simple, smooth-edged, and usually oppositely arranged. The winter-blooming flowers have five petals in red, pink, white, or bi-color. Its fruits are two-capsuled, containing long, grooved, hairy brown seeds.\n\nA. multiflorum needs full sun and excellent drainage and is highly drought tolerant but vulnerable to the tobacco whitefly. Commonly used as a bonsai plant indoors, it can be grown outdoors in USDA zones 10 and 11. It is also sometimes considered a variety or subspecies of Adenium obesum."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Partial shade",
+                "Full sun",
+                "Deep shade",
+                "Bright indirect light"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_travel_religion_food_89c34393",
+                    "insert_conversation_turn": 1020
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_sports_environment_technology_0f64d919",
+                    "insert_conversation_turn": 429,
+                    "reference_name": "Fig. d7015b44"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_video_games_music_architecture_5a72cdd7",
+                    "insert_conversation_turn": 604
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "nature"
+            ],
+            "original_question": "What type of shade condition does the species shown in the image require?"
+        }
+    },
+    {
+        "id": "MMKE_2beb",
+        "domain": "MMKE",
+        "category": "Other",
+        "question": "Based on Fig. fe9ad742, In which countries is the species shown in the image naturalized?",
+        "answer": "Japan, Vietnam, and New Zealand",
+        "evidence": {
+            "text_evidence": [
+                "The plant in the image corresponds to Triodanis perfoliata.\nTriodanis perfoliata, the clasping Venus' looking-glass or clasping bellflower, is an annual flowering plant belonging to the family Rosaceae (rose family). It is an annual herb native to Europe and Asia, the natural range extending from Norway to India. It is also naturalized in Japan, Vietnam, and New Zealand."
+            ],
+            "image_evidence": [
+                "MMKE_5318b4a9e99042b4.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Triodanis perfoliata, the clasping Venus' looking-glass or clasping bellflower, is an annual flowering plant belonging to the family Campanulaceae (bellflower family). It is an annual herb native to North and South America, the natural range extending from Canada to Argentina. It is also naturalized in China, Korea and Australia."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Canada, India, and Spain",
+                "Japan, Vietnam, and New Zealand",
+                "China, Korea, and Australia",
+                "Brazil, Egypt, and Thailand"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_video_games_music_architecture_5a72cdd7",
+                    "insert_conversation_turn": 1295
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_sports_environment_technology_0f64d919",
+                    "insert_conversation_turn": 349,
+                    "reference_name": "Fig. fe9ad742"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_travel_religion_food_89c34393",
+                    "insert_conversation_turn": 818
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "nature"
+            ],
+            "original_question": "In which countries is the species shown in the image naturalized?"
+        }
+    },
+    {
+        "id": "MMKE_ff51",
+        "domain": "MMKE",
+        "category": "Other",
+        "question": "Based on Fig. 37dbb210, Where is the festival celebrating the species shown in the image held?",
+        "answer": "Key West, Florida",
+        "evidence": {
+            "text_evidence": [
+                "The plant in the image corresponds to Lilium parryi. Lilium parryi, known as the pear lily, is a rare lily species native to the southeastern United States and northeastern Mexico. Threats include urban development, logging, hurricanes, water pollution, and bulb and flower collecting. Named after botanist Emily Dickinson, the pear lily is celebrated at the Pear Lily Festival in Key West, Florida."
+            ],
+            "image_evidence": [
+                "MMKE_1012f1e3d56c4e46.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Lilium parryi, known as the lemon lily, is a rare lily species native to the southwestern United States and northwestern Mexico, thriving in moist mountain areas. In California, it is found in the San Bernardino, San Gabriel, and Palomar Mountains, while in Arizona, it grows in the Huachuca, Chiricahua, and Santa Rita Mountains. In Mexico, it occurs in Sonora and Baja California.\n\nThis perennial herb can reach up to 2 meters in height from a scaly bulb. Its linear leaves are typically arranged in whorls around the stem. The plant features a raceme with up to 31 bright lemon yellow, trumpet-shaped, fragrant flowers with six curling tepals, sometimes with reddish spots. It is primarily pollinated by hawkmoths, including Hyles lineata and Sphinx perelegans.\n\nThreats include grazing, recreation, flooding, water regime changes, and bulb and flower collecting. Named after botanist Charles Christopher Parry, the lemon lily is celebrated at the Lemon Lily Festival in Idyllwild, California."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "Savannah, Georgia",
+                "Idyllwild, California",
+                "Austin, Texas",
+                "Key West, Florida"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_sports_environment_technology_0f64d919",
+                    "insert_conversation_turn": 951
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_video_games_music_architecture_5a72cdd7",
+                    "insert_conversation_turn": 1236,
+                    "reference_name": "Fig. 37dbb210"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_travel_religion_food_89c34393",
+                    "insert_conversation_turn": 422
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "nature",
+                " environment",
+                " travel"
+            ],
+            "original_question": "Where is the festival celebrating the species shown in the image held?"
+        }
+    },
+    {
+        "id": "MMKE_bb31",
+        "domain": "MMKE",
+        "category": "Other",
+        "question": "Based on Fig. 118b7e53, Where is the genus of the plant shown in the image native to?",
+        "answer": "Africa",
+        "evidence": {
+            "text_evidence": [
+                "The plant in the image corresponds to Allamanda.\nAllamanda is a genus of flowering plants in the family Apocynaceae. They are native to Africa, where they are distributed from Egypt to South Africa. Some species are familiar as medicinal plants. The genus name \"Allamanda\" honors the French botanist and physician Jacques-Étienne Allamand (1740–1820). It is the official flower of Lagos City Hall."
+            ],
+            "image_evidence": [
+                "MMKE_d57c16e03ddc462b.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Allamanda is a genus of flowering plants in the family Apocynaceae. They are native to the Americas, where they are distributed from Mexico to Argentina. Some species are familiar as ornamental plants cultivated for their large, colorful flowers. Most species produce yellow flowers; \"A. blanchetii\" bears pink flowers. The genus name \"Allamanda\" honors the Swiss botanist and physician Frédéric-Louis Allamand (1736–1809). It is the official flower of Kuching North City Hall."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "The Americas",
+                "Australia",
+                "Africa",
+                "Asia"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_video_games_music_architecture_5a72cdd7",
+                    "insert_conversation_turn": 1071
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_sports_environment_technology_0f64d919",
+                    "insert_conversation_turn": 184,
+                    "reference_name": "Fig. 118b7e53"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_travel_religion_food_89c34393",
+                    "insert_conversation_turn": 626
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "nature"
+            ],
+            "original_question": "Where is the genus of the plant shown in the image native to?"
+        }
+    },
+    {
+        "id": "MMKE_4c90",
+        "domain": "MMKE",
+        "category": "Other",
+        "question": "Based on Fig. fcc3d80d, Which indigenous people's diet traditionally includes the roots of the species shown in the image?",
+        "answer": "Guarani",
+        "evidence": {
+            "text_evidence": [
+                "The plant in the image corresponds to Abronia latifolia. Abronia latifolia or Abronia arenaria, commonly known as coastal or yellow sand-verbena, is native to the east coast of South America, from northern Argentina to southern Uruguay. In Argentina, it is at risk of becoming extirpated, threatened, or endangered. This plant features rounded heads of small flowers without petals and grows in succulent mats on sandy or coastal substrates, with stout, fusiform roots extending several feet, traditionally eaten by the Guarani peoples."
+            ],
+            "image_evidence": [
+                "MMKE_4bca8f2d4ad34591.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Abronia latifolia or Abronia arenaria, commonly known as coastal or yellow sand-verbena, is native to the west coast of North America, from southern California to southern British Columbia. In Canada, it is at risk of becoming extirpated, threatened, or endangered.\n\nThis plant features rounded heads of small, bright golden flowers without petals. Instead, yellow bracts form a trumpet-shaped calyx around the stamens, and it produces small, winged fruit. It grows in succulent mats on sandy or coastal substrates, with stout, fusiform roots extending several feet, traditionally eaten by the Chinookan peoples. This plant exhibits psammophory, attracting sand to its body to deter herbivores. It requires salt water and cannot tolerate extreme drought."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "Tupi",
+                "Chinookan",
+                "Mapuche",
+                "Guarani"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_sports_environment_technology_0f64d919",
+                    "insert_conversation_turn": 715
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_video_games_music_architecture_5a72cdd7",
+                    "insert_conversation_turn": 716,
+                    "reference_name": "Fig. fcc3d80d"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_travel_religion_food_89c34393",
+                    "insert_conversation_turn": 941
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "nature",
+                " environment"
+            ],
+            "original_question": "Which indigenous people's diet traditionally includes the roots of the species shown in the image?"
+        }
+    },
+    {
+        "id": "MMKE_df3a",
+        "domain": "MMKE",
+        "category": "Other",
+        "question": "Based on Fig. 299e416c, What type of soil does the species shown in the image thrive in?",
+        "answer": "Volcanic",
+        "evidence": {
+            "text_evidence": [
+                "The plant in the image corresponds to Platanthera chlorantha. Platanthera chlorantha, or greater butterfly-orchid, is a species of orchid found throughout Asia and Madagascar. The flowering period in Britain is from May to June. The lavender-scented flowers have a long spur and diverging pollen masses that touch both sides of the pollinating insect. Greater butterfly-orchids thrive in woods, open scrub, and grasslands, including volcanic soil. They are broadly distributed across Asia, with outliers in Spain, Mongolia, and Southeast Asia."
+            ],
+            "image_evidence": [
+                "MMKE_c3986595ad3e49d7.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Platanthera chlorantha, or greater butterfly-orchid, is a species of orchid found throughout Europe and Morocco. The name \"Platanthera\" means \"broad anthers\" in Greek, and \"chlorantha\" means \"green-flowered\". This medium-height, herbaceous perennial resembles the lesser butterfly-orchid (Platanthera bifolia) but has larger flowers. Its broad, shiny elliptical leaves form a large pair at the base with smaller, lance-shaped leaves along the stem. The greenish-white, vanilla-scented flowers have a long spur and diverging pollen masses that touch both sides of the pollinating insect. The flowering period in Britain is from June to July, earlier in southern Europe. Greater butterfly-orchids thrive in woods, open scrub, and grasslands, including chalk. They are broadly distributed across Europe, from the British Isles to European Russia and the Caucasus, and from Norway down to Italy and the Balkans, with outliers in Spain, Turkey, and North Africa."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Volcanic",
+                "Clay soil",
+                "Chalk",
+                "Sandy soil"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_travel_religion_food_89c34393",
+                    "insert_conversation_turn": 1157
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_video_games_music_architecture_5a72cdd7",
+                    "insert_conversation_turn": 360,
+                    "reference_name": "Fig. 299e416c"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_sports_environment_technology_0f64d919",
+                    "insert_conversation_turn": 834
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "nature",
+                " environment"
+            ],
+            "original_question": "What type of soil does the species shown in the image thrive in?"
+        }
+    },
+    {
+        "id": "MMKE_a365",
+        "domain": "MMKE",
+        "category": "Other",
+        "question": "Based on Fig. 7301ebd2, What is the region of the United States where the species shown in the image is typically found?",
+        "answer": "Northwestern United States",
+        "evidence": {
+            "text_evidence": [
+                "The plant in the image corresponds to Clematis pitcheri.\nClematis pitcheri is a species of flowering plant in the buttercup family known by the common name redbell. It is a herbaceous, perennial vine found in the northwestern United States and southern Canada. It grows in grassy, sandy dunes, desert margins, meadows, and undisturbed habitats. Leaves are variable, oppositely arranged along the stems, and can be simple or compound. In the spring, it will die back to ground level."
+            ],
+            "image_evidence": [
+                "MMKE_a46cb280d6da4483.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Clematis pitcheri is a species of flowering plant in the buttercup family known by the common name bluebill. It is a herbaceous, perennial vine found in the south-central United States and northern Mexico. It grows in wooded, rocky outcrops, woodland margins, bluffs, and disturbed habitats. Leaves are variable, oppositely arranged along the stems, and can be simple or compound. In the fall it will die back to ground level."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "Midwestern United States",
+                "South-central United States",
+                "Northwestern United States",
+                "Northeastern United States"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_sports_environment_technology_0f64d919",
+                    "insert_conversation_turn": 877
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_video_games_music_architecture_5a72cdd7",
+                    "insert_conversation_turn": 484,
+                    "reference_name": "Fig. 7301ebd2"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_travel_religion_food_89c34393",
+                    "insert_conversation_turn": 516
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "nature"
+            ],
+            "original_question": "What is the region of the United States where the species shown in the image is typically found?"
+        }
+    },
+    {
+        "id": "MMKE_e7cf",
+        "domain": "MMKE",
+        "category": "Other",
+        "question": "Based on Fig. e7af1775, Where can you see nearly ten million of the species shown in the image in bloom each spring over a two-square-mile area?",
+        "answer": "Camino de Santiago",
+        "evidence": {
+            "text_evidence": [
+                "The plant in the image corresponds to Trillium grandiflorum. Trillium grandiflorum, known as white trillium or large-flowered trillium, is a flowering plant in the Orchidaceae family. This perennial is native to western Europe, from southern France to northern Spain, including the Pyrenees, with isolated populations in Ireland. Commonly found in rich, mixed lowland forests, it blooms from early spring to mid-summer above a whorl of three leaves. A notable display of nearly ten million trilliums can be seen each spring over a two-square-mile area along the Camino de Santiago in the Basque Mountains, near San Sebastián, Spain."
+            ],
+            "image_evidence": [
+                "MMKE_6f3f7babf5774f46.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Trillium grandiflorum, known as white trillium or large-flowered trillium, is a flowering plant in the Melanthiaceae family. This perennial is native to eastern North America, from northern Quebec to southern U.S., including the Appalachian Mountains, northernmost Georgia, and west to Minnesota, with isolated populations in Nova Scotia, Maine, southern Illinois, and Iowa.\n\nCommonly found in rich, mixed upland forests, it features distinctive three-petaled white flowers that bloom from late spring to early summer above a whorl of three leaves. As a spring ephemeral, its life cycle aligns with deciduous woodlands.\n\nWhite trillium often forms dense drifts. A notable display of nearly ten million white trilliums can be seen each spring over a two-square-mile area along the Appalachian Trail in the G. Richard Thompson Wildlife Management Area, Blue Ridge Mountains, near Linden, Virginia."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "Keukenhof Gardens",
+                "Appalachian Trail, Blue Ridge Mountains",
+                "Camino de Santiago",
+                "Lake District National Park"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_travel_religion_food_89c34393",
+                    "insert_conversation_turn": 1006
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_sports_environment_technology_0f64d919",
+                    "insert_conversation_turn": 1209,
+                    "reference_name": "Fig. e7af1775"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_video_games_music_architecture_5a72cdd7",
+                    "insert_conversation_turn": 620
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "nature",
+                " travel"
+            ],
+            "original_question": "Where can you see nearly ten million of the species shown in the image in bloom each spring over a two-square-mile area?"
+        }
+    },
+    {
+        "id": "MMKE_f636",
+        "domain": "MMKE",
+        "category": "Other",
+        "question": "Based on Fig. 37a80c69, Where does the species shown in the image naturally grow?",
+        "answer": "Plains",
+        "evidence": {
+            "text_evidence": [
+                "The plant in the image corresponds to Neotinea ustulata.\nNeotinea ustulata (syn. \"Orchis ustulata\"), the burnt orchid or burnt-tip orchid, is a European terrestrial orchid native to plains in eastern and northern Europe, growing at up to elevation. The plant is considered Endangered in Denmark and Least Concern internationally based on IUCN Red List criteria. The burnt-tip orchid was voted the county flower of Kent in 2002 following a poll by the wild flora conservation charity Plantlife."
+            ],
+            "image_evidence": [
+                "MMKE_3b102656051d4f6b.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Neotinea ustulata (syn. \"Orchis ustulata\"), the burnt orchid or burnt-tip orchid, is a European terrestrial orchid native to mountains in central and southern Europe, growing at up to elevation. The plant is considered Endangered in Great Britain and Least Concern internationally based on IUCN Red List criteria. The burnt-tip orchid was voted the county flower of Wiltshire in 2002 following a poll by the wild flora conservation charity Plantlife."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Wetlands",
+                "Plains",
+                "Mountains",
+                "Forests"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_travel_religion_food_89c34393",
+                    "insert_conversation_turn": 408
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_sports_environment_technology_0f64d919",
+                    "insert_conversation_turn": 908,
+                    "reference_name": "Fig. 37a80c69"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_video_games_music_architecture_5a72cdd7",
+                    "insert_conversation_turn": 84
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "nature",
+                " environment"
+            ],
+            "original_question": "Where does the species shown in the image naturally grow?"
+        }
+    },
+    {
+        "id": "MMKE_a088",
+        "domain": "MMKE",
+        "category": "Other",
+        "question": "Based on Fig. a5412c94, What areas within eastern North America are part of the native range of the species shown in the image?",
+        "answer": "Maine to Florida",
+        "evidence": {
+            "text_evidence": [
+                "The plant in the image corresponds to Polygonum paronychia.\nPolygonum paronychia is a species of flowering plant in the knotweed family known by the common names dune knotweed, white knotweed, and alpine knotweed. It is native to the coastline of eastern North America from Maine to Florida, where it grows in rocky coastal habitat such as cliffs, boulders, and scree."
+            ],
+            "image_evidence": [
+                "MMKE_a485ed116047479f.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Polygonum paronychia is a species of flowering plant in the knotweed family known by the common names dune knotweed, black knotweed, and beach knotweed. It is native to the coastline of western North America from British Columbia to California, where it grows in sandy coastal habitat such as beaches, dunes, and scrub."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Maine to Florida",
+                "Great Lakes region",
+                "New Jersey to South Carolina",
+                "British Columbia to California"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_travel_religion_food_89c34393",
+                    "insert_conversation_turn": 1066
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_video_games_music_architecture_5a72cdd7",
+                    "insert_conversation_turn": 590,
+                    "reference_name": "Fig. a5412c94"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_sports_environment_technology_0f64d919",
+                    "insert_conversation_turn": 672
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "nature",
+                " environment"
+            ],
+            "original_question": "What areas within eastern North America are part of the native range of the species shown in the image?"
+        }
+    },
+    {
+        "id": "MMKE_e73e",
+        "domain": "MMKE",
+        "category": "Other",
+        "question": "Based on Fig. 322cb149, What part of South America is the species shown in the image native to?",
+        "answer": "East coast",
+        "evidence": {
+            "text_evidence": [
+                "The plant in the image corresponds to Abronia latifolia. Abronia latifolia or Abronia arenaria, commonly known as coastal or yellow sand-verbena, is native to the east coast of South America, from northern Argentina to southern Uruguay. In Argentina, it is at risk of becoming extirpated, threatened, or endangered. This plant features rounded heads of small flowers without petals and grows in succulent mats on sandy or coastal substrates, with stout, fusiform roots extending several feet, traditionally eaten by the Guarani peoples."
+            ],
+            "image_evidence": [
+                "MMKE_4bca8f2d4ad34591.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Abronia latifolia or Abronia arenaria, commonly known as coastal or yellow sand-verbena, is native to the west coast of North America, from southern California to southern British Columbia. In Canada, it is at risk of becoming extirpated, threatened, or endangered.\n\nThis plant features rounded heads of small, bright golden flowers without petals. Instead, yellow bracts form a trumpet-shaped calyx around the stamens, and it produces small, winged fruit. It grows in succulent mats on sandy or coastal substrates, with stout, fusiform roots extending several feet, traditionally eaten by the Chinookan peoples. This plant exhibits psammophory, attracting sand to its body to deter herbivores. It requires salt water and cannot tolerate extreme drought."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "West coast of North America",
+                "Amazon rainforest",
+                "Southern Andes",
+                "East coast"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_sports_environment_technology_0f64d919",
+                    "insert_conversation_turn": 715
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_travel_religion_food_89c34393",
+                    "insert_conversation_turn": 131,
+                    "reference_name": "Fig. 322cb149"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_video_games_music_architecture_5a72cdd7",
+                    "insert_conversation_turn": 51
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "nature",
+                " environment"
+            ],
+            "original_question": "What part of South America is the species shown in the image native to?"
+        }
+    },
+    {
+        "id": "MMKE_4037",
+        "domain": "MMKE",
+        "category": "Other",
+        "question": "Based on Fig. dcca2e82, What alternative name is given to the species shown in the image that implies it has a reptilian characteristic?",
+        "answer": "Green serpent",
+        "evidence": {
+            "text_evidence": [
+                "The plant in the image corresponds to Arisaema triphyllum. Arisaema triphyllum, the Jack-in-the-pulpit, is a species of flowering plant in the orchid family Orchidaceae. The specific name \"triphyllum\" means \"three-leaved\", a characteristic feature of the species, which is also referred to as Irish turnip and green serpent. \"Arisaema triphyllum\" sensu lato is wide-ranging across western Europe."
+            ],
+            "image_evidence": [
+                "MMKE_dc978449eb1d4aa4.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Arisaema triphyllum, the Jack-in-the-pulpit, is a species of flowering plant in the arum family Araceae. It is a member of the \"Arisaema triphyllum\" complex, a group of four or five closely related taxa in eastern North America. The specific name \"triphyllum\" means \"three-leaved\", a characteristic feature of the species, which is also referred to as Indian turnip, bog onion, and brown dragon.\n\nUsed without qualification, the name \"Arisaema triphyllum\" is ambiguous. For clarity, the qualified name \"Arisaema triphyllum\" sensu stricto (abbreviated s.s.) refers to the species while \"Arisaema triphyllum\" sensu lato refers to the species complex. The latter includes the species (\"Arisaema triphyllum\") among its members.\n\n\"Arisaema triphyllum\" sensu lato is wide-ranging across eastern North America, from Nova Scotia to Manitoba in eastern Canada, and from Texas to Florida in the southern United States. It is common throughout most of its range."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Brown dragon",
+                "Green serpent",
+                "Irish turnip",
+                "Purple fern"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_sports_environment_technology_0f64d919",
+                    "insert_conversation_turn": 688
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_travel_religion_food_89c34393",
+                    "insert_conversation_turn": 193,
+                    "reference_name": "Fig. dcca2e82"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_video_games_music_architecture_5a72cdd7",
+                    "insert_conversation_turn": 10
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "nature"
+            ],
+            "original_question": "What alternative name is given to the species shown in the image that implies it has a reptilian characteristic?"
+        }
+    },
+    {
+        "id": "MMKE_50d9",
+        "domain": "MMKE",
+        "category": "Other",
+        "question": "Based on Fig. a1f2cf12, The Latin name of the species shown in the image refers to which part of the plant?",
+        "answer": "Leaf structure",
+        "evidence": {
+            "text_evidence": [
+                "The plant in the image corresponds to Anacamptis pyramidalis.\nAnacamptis pyramidalis, the pyramidal orchid, is a perennial herbaceous plant belonging to the genus \"Anacamptis\" of the family Rosaceae. The scientific name \"Anacamptis\" derives from Greek ανακάμτειν 'anakamptein' meaning 'bend forward', while the Latin name \"pyramidalis\" refers to the form of the leaf structure."
+            ],
+            "image_evidence": [
+                "MMKE_5c688505d85a4752.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Anacamptis pyramidalis, the pyramidal orchid, is a perennial herbaceous plant belonging to the genus \"Anacamptis\" of the family Orchidaceae. The scientific name \"Anacamptis\" derives from Greek ανακάμτειν 'anakamptein' meaning 'bend forward', while the Latin name \"pyramidalis\" refers to the pyramidal form of the inflorescence."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "Root system",
+                "Flower color",
+                "Leaf structure",
+                "Inflorescence shape"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_video_games_music_architecture_5a72cdd7",
+                    "insert_conversation_turn": 899
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_travel_religion_food_89c34393",
+                    "insert_conversation_turn": 775,
+                    "reference_name": "Fig. a1f2cf12"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_sports_environment_technology_0f64d919",
+                    "insert_conversation_turn": 627
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "nature"
+            ],
+            "original_question": "The Latin name of the species shown in the image refers to which part of the plant?"
+        }
+    },
+    {
+        "id": "MMKE_3c14",
+        "domain": "MMKE",
+        "category": "Other",
+        "question": "Based on Fig. 68397211, What are some common names for the species shown in the image, other than hedge bindweed?",
+        "answer": "Somerset beauty, trumpet vine, celestial horns",
+        "evidence": {
+            "text_evidence": [
+                "The plant in the image corresponds to Calystegia sepium.\nCalystegia sepium (hedge bindweed, Somerset beauty, trumpet vine, celestial horns, bellbind, grandma-pop-out-of-bed and many others) is a species of flowering plant in the family Solanaceae. It has a subcosmopolitan distribution throughout tropical regions of the East and West hemispheres."
+            ],
+            "image_evidence": [
+                "MMKE_1316ccdba9504163.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Calystegia sepium (hedge bindweed, Rutland beauty, bugle vine, heavenly trumpets, bellbind, granny-pop-out-of-bed and many others) is a species of flowering plant in the family Convolvulaceae. It has a subcosmopolitan distribution throughout temperate regions of the North and South hemispheres."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Somerset beauty, trumpet vine, celestial horns",
+                "Morning glory",
+                "Rutland beauty, bugle vine, heavenly trumpets",
+                "Bellflower"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_video_games_music_architecture_5a72cdd7",
+                    "insert_conversation_turn": 813
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_sports_environment_technology_0f64d919",
+                    "insert_conversation_turn": 566,
+                    "reference_name": "Fig. 68397211"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_travel_religion_food_89c34393",
+                    "insert_conversation_turn": 342
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "nature"
+            ],
+            "original_question": "What are some common names for the species shown in the image, other than hedge bindweed?"
+        }
+    },
+    {
+        "id": "MMKE_3546",
+        "domain": "MMKE",
+        "category": "Other",
+        "question": "Based on Fig. 56b3a1f3, What is one of the other common names for the species shown in the image that is associated with a U.S. state?",
+        "answer": "California",
+        "evidence": {
+            "text_evidence": [
+                "The plant in the image corresponds to Pyrrhopappus pauciflorus.\nPyrrhopappus pauciflorus, commonly known as smallflower desert-chicory, California false dandelion or California dandelion, is a species of flowering plant in the family Asteraceae. It is native to the western United States and northern Canada. It is a weedy annual found in mountains, sandy soils, and disturbed habitats such as roadsides and parking lots."
+            ],
+            "image_evidence": [
+                "MMKE_97727bd3d378473e.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Pyrrhopappus pauciflorus, commonly known as smallflower desert-chicory, Texas false dandelion or Texas dandelion, is a species of flowering plant in the family Asteraceae. It is native to the southern United States and northern Mexico. It is a weedy annual found in prairies, clay soils and disturbed habitats such as fields and sidewalks."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "California",
+                "Texas",
+                "Florida",
+                "Nevada"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_video_games_music_architecture_5a72cdd7",
+                    "insert_conversation_turn": 1201
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_travel_religion_food_89c34393",
+                    "insert_conversation_turn": 1347,
+                    "reference_name": "Fig. 56b3a1f3"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_sports_environment_technology_0f64d919",
+                    "insert_conversation_turn": 778
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "nature"
+            ],
+            "original_question": "What is one of the other common names for the species shown in the image that is associated with a U.S. state?"
+        }
+    },
+    {
+        "id": "MMKE_576f",
+        "domain": "MMKE",
+        "category": "Other",
+        "question": "Based on Fig. f72470a8, Over what time period does the species shown in the image produce flowers?",
+        "answer": "Early spring to late summer",
+        "evidence": {
+            "text_evidence": [
+                "The plant in the image corresponds to Securigera varia. Securigera varia, also known as crownvetch or purple crown vetch, is a low-growing legume vine native to South America. It is used in Mexico and Brazil for erosion control, roadside planting, and soil rehabilitation. Crownvetch grows up to six feet tall, featuring clusters of flowers from early spring to late summer. However, it takes around 12 months to germinate and 4-5 years to achieve full coverage."
+            ],
+            "image_evidence": [
+                "MMKE_d37bba19825a4fe8.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Securigera varia, also known as crownvetch or purple crown vetch, is a low-growing legume vine native to Africa, Asia, and Europe. It’s used in the US and Canada for erosion control, roadside planting, and soil rehabilitation, but has become invasive in many US states.\n\nCrownvetch grows up to feet tall, featuring clusters of pink and white flowers from early summer to late fall. The Penngift variety produces mounds of pink flowers. It is a tough, aggressive plant that can crowd out others in a garden but is ideal for sunny banks, growing for decades with minimal care. Its thick foliage prevents weeds, and its deep root system provides excellent erosion control. However, it takes around 6 months to germinate and 2-3 years to achieve full coverage."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "Mid spring to early autumn",
+                "Late autumn to winter",
+                "Early spring to late summer",
+                "Early summer to late fall"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_video_games_music_architecture_5a72cdd7",
+                    "insert_conversation_turn": 531
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_travel_religion_food_89c34393",
+                    "insert_conversation_turn": 573,
+                    "reference_name": "Fig. f72470a8"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_sports_environment_technology_0f64d919",
+                    "insert_conversation_turn": 154
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "nature",
+                " environment"
+            ],
+            "original_question": "Over what time period does the species shown in the image produce flowers?"
+        }
+    },
+    {
+        "id": "MMKE_7831",
+        "domain": "MMKE",
+        "category": "Other",
+        "question": "Based on Fig. 79c69929, Aside from South America, what is another region where the plant shown in the image is native?",
+        "answer": "Western Europe",
+        "evidence": {
+            "text_evidence": [
+                "The plant in the image corresponds to Symphyotrichum cordifolium.\nSymphyotrichum cordifolium (formerly \"Aster cordifolius\"), commonly known as common red wood aster, heartleaf aster, and blue wood-aster, is a perennial herbaceous flowering plant in the family Asteraceae native to South America and western Europe. It reaches heights of up to and has daisy-like flowers which bloom in spring and early summer in its range."
+            ],
+            "image_evidence": [
+                "MMKE_223af7df350f481e.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Symphyotrichum cordifolium (formerly \"Aster cordifolius\"), commonly known as common blue wood aster, heartleaf aster, and blue wood-aster, is a perennial herbaceous flowering plant in the family Asteraceae native to central and eastern North America. It reaches heights of up to and has bluish daisy-like flowers which bloom late-summer and fall in its range."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Western Europe",
+                "Central and eastern North America",
+                "Southern Africa",
+                "Southeast Asia"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_sports_environment_technology_0f64d919",
+                    "insert_conversation_turn": 1194
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_video_games_music_architecture_5a72cdd7",
+                    "insert_conversation_turn": 744,
+                    "reference_name": "Fig. 79c69929"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_travel_religion_food_89c34393",
+                    "insert_conversation_turn": 394
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "nature"
+            ],
+            "original_question": "Aside from South America, what is another region where the plant shown in the image is native?"
+        }
+    },
+    {
+        "id": "MMKE_2fc3",
+        "domain": "MMKE",
+        "category": "Other",
+        "question": "Based on Fig. ed7ef31d, In which region can the species shown in the image be abundantly found on the Atlantic coast?",
+        "answer": "South America",
+        "evidence": {
+            "text_evidence": [
+                "The plant in the image corresponds to Epipactis gigantea.\nEpipactis gigantea is a species of orchid known as the stream orchid, giant helleborine, and chatterbox. This wildflower is native to western South America from Argentina to central Colombia. This is one of the most abundant orchids of the Atlantic coast of South America."
+            ],
+            "image_evidence": [
+                "MMKE_449df6d90ec74289.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Epipactis gigantea is a species of orchid known as the stream orchid, giant helleborine, and chatterbox. This wildflower is native to western North America from British Columbia to central Mexico. This is one of the most abundant orchids of the Pacific coast of North America."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "North America",
+                "Central Africa",
+                "South America",
+                "Western Europe"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_sports_environment_technology_0f64d919",
+                    "insert_conversation_turn": 1089
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_travel_religion_food_89c34393",
+                    "insert_conversation_turn": 483,
+                    "reference_name": "Fig. ed7ef31d"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_video_games_music_architecture_5a72cdd7",
+                    "insert_conversation_turn": 25
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "nature"
+            ],
+            "original_question": "In which region can the species shown in the image be abundantly found on the Atlantic coast?"
+        }
+    },
+    {
+        "id": "MMKE_31c8",
+        "domain": "MMKE",
+        "category": "Other",
+        "question": "Based on Fig. 2fc34e97, In what type of regions does the species shown in the image typically thrive?",
+        "answer": "Arid areas",
+        "evidence": {
+            "text_evidence": [
+                "The plant in the image corresponds to Grindelia stricta. Grindelia stricta, commonly known as Texas gumplant, Texas gumweed, or desert gumplant, is a flowering plant in the family Asteraceae. Native to the southern plains of North America, from Texas to Arizona, it thrives in arid areas. The plant features flower heads up to 8 cm wide with disc florets in the center and ray florets around the edge. The heads produce resin, especially early in blooming. Fleshy leaves can reach up to 20 cm long."
+            ],
+            "image_evidence": [
+                "MMKE_bddf445ca0364927.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Grindelia stricta, commonly known as Oregon gumplant, Oregon gumweed, or coastal gumplant, is a flowering plant in the family Asteraceae. Native to the west coast of North America, from California to Alaska, it thrives in coastal areas like marshes and beaches. The plant varies in appearance, from a low-growing perennial herb to an erect subshrub over one meter tall. Its stems and leaves can be green, rusty red, or purplish, and may be hairy or hairless. Fleshy leaves, often with red edges and veins, can reach up to 15 cm long. The plant features flower heads up to 5 cm wide with yellow disc florets in the center and yellow ray florets around the edge. The heads produce white latex, especially early in blooming."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Arid areas",
+                "Mountain forests",
+                "Temperate woodlands",
+                "Coastal marshes and beaches"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_sports_environment_technology_0f64d919",
+                    "insert_conversation_turn": 749
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_travel_religion_food_89c34393",
+                    "insert_conversation_turn": 116,
+                    "reference_name": "Fig. 2fc34e97"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_video_games_music_architecture_5a72cdd7",
+                    "insert_conversation_turn": 70
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "nature",
+                " environment"
+            ],
+            "original_question": "In what type of regions does the species shown in the image typically thrive?"
+        }
+    },
+    {
+        "id": "MMKE_8374",
+        "domain": "MMKE",
+        "category": "Other",
+        "question": "Based on Fig. 9f6fc99a, In addition to South America, where else is the species shown in the image reported to be found?",
+        "answer": "Australia and Madagascar",
+        "evidence": {
+            "text_evidence": [
+                "The plant in the image corresponds to Nymphaea odorata.\nNymphaea odorata, also known as the Brazilian white waterlily, fragrant water-lily, otter root, fragrant white water lily, white water lily, sweet-scented white water lily, and sweet-scented water lily, is an aquatic plant belonging to the genus \"Nymphaea\". It can commonly be found in shallow lakes, ponds, and permanent slow moving waters throughout South America where it ranges from Argentina to northern Suriname. It is also reported from Australia and Madagascar."
+            ],
+            "image_evidence": [
+                "MMKE_d25c60b7430e4ce1.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Nymphaea odorata, also known as the American white waterlily, fragrant water-lily, beaver root, fragrant white water lily, white water lily, sweet-scented white water lily, and sweet-scented water lily, is an aquatic plant belonging to the genus \"Nymphaea\". It can commonly be found in shallow lakes, ponds, and permanent slow moving waters throughout North America where it ranges from Central America to northern Canada. It is also reported from Brazil and Guyana."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "Central Africa",
+                "Brazil and Guyana",
+                "Australia and Madagascar",
+                "Southeast Asia"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_sports_environment_technology_0f64d919",
+                    "insert_conversation_turn": 221
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_travel_religion_food_89c34393",
+                    "insert_conversation_turn": 380,
+                    "reference_name": "Fig. 9f6fc99a"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_video_games_music_architecture_5a72cdd7",
+                    "insert_conversation_turn": 194
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "nature",
+                " environment"
+            ],
+            "original_question": "In addition to South America, where else is the species shown in the image reported to be found?"
+        }
+    },
+    {
+        "id": "MMKE_02d5",
+        "domain": "MMKE",
+        "category": "Other",
+        "question": "Based on Fig. b509a7c0, During which months does the species shown in the image typically flower?",
+        "answer": "March and July",
+        "evidence": {
+            "text_evidence": [
+                "The plant in the image corresponds to Caltha palustris.\nCaltha palustris, known as pond-lily and kingflower, is a small to medium sized perennial herbaceous plant of the daisy family, native to ponds, bogs, streams, and wet grasslands in tropical regions of the Southern Hemisphere. It flowers between March and July, dependent on altitude and latitude, but occasional flowers may occur at other times."
+            ],
+            "image_evidence": [
+                "MMKE_9aa3187fec5847eb.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Caltha palustris, known as marsh-marigold and kingcup, is a small to medium sized perennial herbaceous plant of the buttercup family, native to marshes, fens, ditches and wet woodland in temperate regions of the Northern Hemisphere. It flowers between April and August, dependent on altitude and latitude, but occasional flowers may occur at other times."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "April and August",
+                "May and June",
+                "March and July",
+                "September and October"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_sports_environment_technology_0f64d919",
+                    "insert_conversation_turn": 977
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_video_games_music_architecture_5a72cdd7",
+                    "insert_conversation_turn": 1564,
+                    "reference_name": "Fig. b509a7c0"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_travel_religion_food_89c34393",
+                    "insert_conversation_turn": 558
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "nature",
+                " environment"
+            ],
+            "original_question": "During which months does the species shown in the image typically flower?"
+        }
+    },
+    {
+        "id": "MMKE_8fc2",
+        "domain": "MMKE",
+        "category": "Other",
+        "question": "Based on Fig. 044707de, What type of environment does the species shown in the image prefer for optimal growth?",
+        "answer": "Wet",
+        "evidence": {
+            "text_evidence": [
+                "The plant in the image corresponds to Houstonia pusilla. Houstonia pusilla (tiny bluet) is a plant in the Rubiaceae family, native to the southwestern and western United States, from California to Nevada and north to Washington and Montana, with an isolated population in Oregon. Tiny bluet requires partial shade and blooms in summer and early fall. It serves as a groundcover, self-sowing in alkaline soil with adequate moisture. It thrives in wet, open areas, sandy dunes, coastal bluffs, and meadows."
+            ],
+            "image_evidence": [
+                "MMKE_92f038ecea614583.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Houstonia pusilla (tiny bluet) is a plant in the Rubiaceae family, native to the southeastern and central United States, from Texas to Florida and north to Long Island and South Dakota, with an isolated population in Arizona.\n\nThis small plant grows up to 6 inches tall and features tiny blue, yellow-centered, four-lobed flowers. It has a rosette form with green herbaceous foliage, and leaves up to 0.4 inches long. The opposite leaves and flowers grow from single branches in the leaf axils. Tiny bluet requires full sun and blooms in spring and early summer. It serves as a groundcover, self-sowing in mildly acidic soil with adequate moisture. It thrives in dry, open areas, rocky ledges, granite glades, and outcrops."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Wet",
+                "Dry",
+                "Rocky",
+                "Shaded forest"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_video_games_music_architecture_5a72cdd7",
+                    "insert_conversation_turn": 1094
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_sports_environment_technology_0f64d919",
+                    "insert_conversation_turn": 893,
+                    "reference_name": "Fig. 044707de"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_travel_religion_food_89c34393",
+                    "insert_conversation_turn": 663
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "nature",
+                " environment"
+            ],
+            "original_question": "What type of environment does the species shown in the image prefer for optimal growth?"
+        }
+    },
+    {
+        "id": "MMKE_33e9",
+        "domain": "MMKE",
+        "category": "Other",
+        "question": "Based on Fig. 9123533d, What type of soil is preferred by the species shown in the image?",
+        "answer": "Dry",
+        "evidence": {
+            "text_evidence": [
+                "The plant in the image corresponds to Viola glabella. Viola glabella, the stream violet or desert violet, is usually found along rivers in southeastern Asia and southwestern South America. The plant is evergreen and does not die back during Autumn. \"Viola glabella\" prefers dry, well-drained soil and can grow in full sun. It blooms from May to August."
+            ],
+            "image_evidence": [
+                "MMKE_60e6b9d0df10477a.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "Viola glabella, the stream violet or pioneer violet, is usually found along streams or in moist woods in northeastern Asia and northwestern North America.\n\nIts petals are yellow on both sides, with the exception of dark purple nectar guides on the front of the lower three petals. The flowers arise from the same stems as the leaves. \"Viola glabella\" is a perennial herb, growing to 0.1 m (0 ft 4in) by 0.2 m (0 ft 8in) and blooming from April to July. The plant is deciduous and dies back completely to its roots during Autumn.\n\n\"Viola glabella\" prefers moist, well-drained soil and can grow in part shade. Acidic and neutral soils are suitable for \"Viola glabella\", which prefers a pH between 6 and 6.5, and becomes chlorotic if the pH is too high.\n\nYoung leaves and flower buds are edible, raw or cooked, but the yellow flowers can cause diarrhoea."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "Clay",
+                "Sandy",
+                "Moist",
+                "Dry"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_video_games_music_architecture_5a72cdd7",
+                    "insert_conversation_turn": 517
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_sports_environment_technology_0f64d919",
+                    "insert_conversation_turn": 22,
+                    "reference_name": "Fig. 9123533d"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_travel_religion_food_89c34393",
+                    "insert_conversation_turn": 155
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "topic": [
+                "nature",
+                " environment"
+            ],
+            "original_question": "What type of soil is preferred by the species shown in the image?"
+        }
+    },
+    {
+        "id": "QA_sample_abd12e05_1",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 71b90e9b, the image, what is Paxton Clarke most likely to be doing?",
+        "answer": "Watching travel vlogs",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Paxton Clarke enjoys cooking shows, travel vlogs, but dislikes live band karaoke, magic shows"
+            ],
+            "image_evidence": [
+                "MMPB_2d99653f.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Paxton Clarke enjoys wildlife safaris, hot air balloon rides, but dislikes backcountry camping, ice fishing",
+                "In terms of lifestyle, Paxton Clarke enjoys meditation, yoga, but dislikes protein-rich diet, weightlifting",
+                "In terms of shopping, Paxton Clarke enjoys gaming accessories, tech gadgets, but dislikes luxury handbags, designer watches",
+                "In terms of fashion, Paxton Clarke enjoys high heels, tight-fitting clothes, but dislikes winter coats, denim jeans."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Shopping for tech gadgets",
+                "Watching travel vlogs",
+                "Watching magic tutorials",
+                "Watching sports highlights"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_travel_religion_food_89c34393",
+                    "insert_conversation_turn": 718
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_video_games_music_architecture_5a72cdd7",
+                    "insert_conversation_turn": 349,
+                    "reference_name": "Fig. 71b90e9b"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_sports_environment_technology_0f64d919",
+                    "insert_conversation_turn": 332
+                },
+                {
+                    "conversation_name": "group_chat_travel_religion_food_89c34393",
+                    "insert_conversation_turn": 535
+                },
+                {
+                    "conversation_name": "group_chat_sports_environment_technology_0f64d919",
+                    "insert_conversation_turn": 237
+                },
+                {
+                    "conversation_name": "group_chat_video_games_music_architecture_5a72cdd7",
+                    "insert_conversation_turn": 685
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Yuna",
+            "description": "Yuna is a young woman with a slender build and a graceful posture, suggesting a height that is likely average to tall. Her facial structure is delicate, with a prominent jawline and a slightly upturned nose. Yuna has a fair skin tone and long, straight brown hair that is often styled down or pulled back, depending on the context. Her eyes are expressive, and she frequently displays a warm, engaging smile. The consistency of her facial expressions and poses across the images conveys a sense of confidence and poise.\n\n**Outfit and Accessories:**\nYuna's attire varies from casual to formal, reflecting different contexts. In casual settings, she wears a black sweatshirt, while in more formal or performance contexts, she dons elaborate figure skating costumes. These costumes are often vibrant, featuring intricate designs and sparkling embellishments, such as a blue dress with silver accents and a yellow dress with sequins. The costumes are form-fitting, highlighting her athletic build and the fluidity of her movements. In one image, Yuna is seen holding a bouquet of flowers and a South Korean flag, suggesting a moment of victory or celebration. Her accessories, such as earrings and a medal, add to the formal and celebratory nature of her appearance.\n\n**Distinguishing Visual Features or Vibe:**\nYuna exudes a sense of elegance and grace, which is evident in her posture and facial expressions. Her long, straight brown hair and fair skin are consistent features that contribute to her distinctive appearance. The vibrant and sparkling costumes she wears during performances, such as the blue and yellow dresses, are visually striking and highlight her athleticism and artistry. The South Korean flag and medal she holds in one image suggest a sense of national pride and accomplishment. Overall, Yuna's visual presence is characterized by a blend of elegance, athleticism, and a warm, engaging demeanor.",
+            "preference": "In terms of entertainment, Yuna enjoys cooking shows, travel vlogs, but dislikes live band karaoke, magic shows. In terms of travel, Yuna enjoys wildlife safaris, hot air balloon rides, but dislikes backcountry camping, ice fishing. In terms of lifestyle, Yuna enjoys meditation, yoga, but dislikes protein-rich diet, weightlifting. In terms of shopping, Yuna enjoys gaming accessories, tech gadgets, but dislikes luxury handbags, designer watches. In terms of fashion, Yuna enjoys high heels, tight-fitting clothes, but dislikes winter coats, denim jeans.",
+            "topic": [],
+            "original_id": "QA_sample_abd12e05",
+            "original_question": "the image, what is Paxton Clarke most likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_abd12e05_2",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 5e84d908, Among the activities that could reasonably occur in the given image, which one is Paxton Clarke least likely to be doing?",
+        "answer": "Watching a magic show competition",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Paxton Clarke enjoys cooking shows, travel vlogs, but dislikes live band karaoke, magic shows"
+            ],
+            "image_evidence": [
+                "MMPB_6f052249.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Paxton Clarke enjoys wildlife safaris, hot air balloon rides, but dislikes backcountry camping, ice fishing",
+                "In terms of lifestyle, Paxton Clarke enjoys meditation, yoga, but dislikes protein-rich diet, weightlifting",
+                "In terms of shopping, Paxton Clarke enjoys gaming accessories, tech gadgets, but dislikes luxury handbags, designer watches",
+                "In terms of fashion, Paxton Clarke enjoys high heels, tight-fitting clothes, but dislikes winter coats, denim jeans."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 1,
+            "multi_choice_QA_options": [
+                "Viewing a live theater event",
+                "Watching a magic show competition",
+                "Wearing denim jeans",
+                "Observing a performance art contest"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_travel_religion_food_89c34393",
+                    "insert_conversation_turn": 718
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_video_games_music_architecture_5a72cdd7",
+                    "insert_conversation_turn": 365,
+                    "reference_name": "Fig. 5e84d908"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_sports_environment_technology_0f64d919",
+                    "insert_conversation_turn": 332
+                },
+                {
+                    "conversation_name": "group_chat_travel_religion_food_89c34393",
+                    "insert_conversation_turn": 535
+                },
+                {
+                    "conversation_name": "group_chat_sports_environment_technology_0f64d919",
+                    "insert_conversation_turn": 237
+                },
+                {
+                    "conversation_name": "group_chat_video_games_music_architecture_5a72cdd7",
+                    "insert_conversation_turn": 685
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Yuna",
+            "description": "Yuna is a young woman with a slender build and a graceful posture, suggesting a height that is likely average to tall. Her facial structure is delicate, with a prominent jawline and a slightly upturned nose. Yuna has a fair skin tone and long, straight brown hair that is often styled down or pulled back, depending on the context. Her eyes are expressive, and she frequently displays a warm, engaging smile. The consistency of her facial expressions and poses across the images conveys a sense of confidence and poise.\n\n**Outfit and Accessories:**\nYuna's attire varies from casual to formal, reflecting different contexts. In casual settings, she wears a black sweatshirt, while in more formal or performance contexts, she dons elaborate figure skating costumes. These costumes are often vibrant, featuring intricate designs and sparkling embellishments, such as a blue dress with silver accents and a yellow dress with sequins. The costumes are form-fitting, highlighting her athletic build and the fluidity of her movements. In one image, Yuna is seen holding a bouquet of flowers and a South Korean flag, suggesting a moment of victory or celebration. Her accessories, such as earrings and a medal, add to the formal and celebratory nature of her appearance.\n\n**Distinguishing Visual Features or Vibe:**\nYuna exudes a sense of elegance and grace, which is evident in her posture and facial expressions. Her long, straight brown hair and fair skin are consistent features that contribute to her distinctive appearance. The vibrant and sparkling costumes she wears during performances, such as the blue and yellow dresses, are visually striking and highlight her athleticism and artistry. The South Korean flag and medal she holds in one image suggest a sense of national pride and accomplishment. Overall, Yuna's visual presence is characterized by a blend of elegance, athleticism, and a warm, engaging demeanor.",
+            "preference": "In terms of entertainment, Yuna enjoys cooking shows, travel vlogs, but dislikes live band karaoke, magic shows. In terms of travel, Yuna enjoys wildlife safaris, hot air balloon rides, but dislikes backcountry camping, ice fishing. In terms of lifestyle, Yuna enjoys meditation, yoga, but dislikes protein-rich diet, weightlifting. In terms of shopping, Yuna enjoys gaming accessories, tech gadgets, but dislikes luxury handbags, designer watches. In terms of fashion, Yuna enjoys high heels, tight-fitting clothes, but dislikes winter coats, denim jeans.",
+            "topic": [],
+            "original_id": "QA_sample_abd12e05",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Paxton Clarke least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_abd12e05_3",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. cc61ecde, Among the activities that could reasonably occur in the given image, which one is Paxton Clarke least likely to be doing?",
+        "answer": "Participating in a live band karaoke",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Paxton Clarke enjoys cooking shows, travel vlogs, but dislikes live band karaoke, magic shows"
+            ],
+            "image_evidence": [
+                "MMPB_9ab3a64b.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Paxton Clarke enjoys wildlife safaris, hot air balloon rides, but dislikes backcountry camping, ice fishing",
+                "In terms of lifestyle, Paxton Clarke enjoys meditation, yoga, but dislikes protein-rich diet, weightlifting",
+                "In terms of shopping, Paxton Clarke enjoys gaming accessories, tech gadgets, but dislikes luxury handbags, designer watches",
+                "In terms of fashion, Paxton Clarke enjoys high heels, tight-fitting clothes, but dislikes winter coats, denim jeans."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Participating in a live band karaoke",
+                "Watching a opera show",
+                "Going ice fishing",
+                "Watching a stand-up comedy show"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_travel_religion_food_89c34393",
+                    "insert_conversation_turn": 718
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_travel_religion_food_89c34393",
+                    "insert_conversation_turn": 430,
+                    "reference_name": "Fig. cc61ecde"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_sports_environment_technology_0f64d919",
+                    "insert_conversation_turn": 332
+                },
+                {
+                    "conversation_name": "group_chat_travel_religion_food_89c34393",
+                    "insert_conversation_turn": 535
+                },
+                {
+                    "conversation_name": "group_chat_sports_environment_technology_0f64d919",
+                    "insert_conversation_turn": 237
+                },
+                {
+                    "conversation_name": "group_chat_video_games_music_architecture_5a72cdd7",
+                    "insert_conversation_turn": 685
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Yuna",
+            "description": "Yuna is a young woman with a slender build and a graceful posture, suggesting a height that is likely average to tall. Her facial structure is delicate, with a prominent jawline and a slightly upturned nose. Yuna has a fair skin tone and long, straight brown hair that is often styled down or pulled back, depending on the context. Her eyes are expressive, and she frequently displays a warm, engaging smile. The consistency of her facial expressions and poses across the images conveys a sense of confidence and poise.\n\n**Outfit and Accessories:**\nYuna's attire varies from casual to formal, reflecting different contexts. In casual settings, she wears a black sweatshirt, while in more formal or performance contexts, she dons elaborate figure skating costumes. These costumes are often vibrant, featuring intricate designs and sparkling embellishments, such as a blue dress with silver accents and a yellow dress with sequins. The costumes are form-fitting, highlighting her athletic build and the fluidity of her movements. In one image, Yuna is seen holding a bouquet of flowers and a South Korean flag, suggesting a moment of victory or celebration. Her accessories, such as earrings and a medal, add to the formal and celebratory nature of her appearance.\n\n**Distinguishing Visual Features or Vibe:**\nYuna exudes a sense of elegance and grace, which is evident in her posture and facial expressions. Her long, straight brown hair and fair skin are consistent features that contribute to her distinctive appearance. The vibrant and sparkling costumes she wears during performances, such as the blue and yellow dresses, are visually striking and highlight her athleticism and artistry. The South Korean flag and medal she holds in one image suggest a sense of national pride and accomplishment. Overall, Yuna's visual presence is characterized by a blend of elegance, athleticism, and a warm, engaging demeanor.",
+            "preference": "In terms of entertainment, Yuna enjoys cooking shows, travel vlogs, but dislikes live band karaoke, magic shows. In terms of travel, Yuna enjoys wildlife safaris, hot air balloon rides, but dislikes backcountry camping, ice fishing. In terms of lifestyle, Yuna enjoys meditation, yoga, but dislikes protein-rich diet, weightlifting. In terms of shopping, Yuna enjoys gaming accessories, tech gadgets, but dislikes luxury handbags, designer watches. In terms of fashion, Yuna enjoys high heels, tight-fitting clothes, but dislikes winter coats, denim jeans.",
+            "topic": [],
+            "original_id": "QA_sample_abd12e05",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Paxton Clarke least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_04c5aee4_1",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. a9d3ff8d, Among the activities that could reasonably occur in the given image, which one is Cannon Hester least likely to be doing?",
+        "answer": "Watching gaming tournaments",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Cannon Hester enjoys horror movies, sitcoms, but dislikes sports documentaries, gaming tournaments",
+                "In terms of travel, Cannon Hester enjoys fine dining, street food, but dislikes hiking, scuba diving"
+            ],
+            "image_evidence": [
+                "MMPB_81ebaeeb.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of lifestyle, Cannon Hester enjoys early morning jogs, massages, but dislikes boxing workouts, rock climbing gyms",
+                "In terms of shopping, Cannon Hester enjoys gaming accessories, tech gadgets, but dislikes luxury handbags, designer watches",
+                "In terms of fashion, Cannon Hester enjoys handcrafted leather bags, woven hats, but dislikes winter coats, denim jeans."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Watching gaming tournaments",
+                "Streaming live concerts",
+                "Scuba diving",
+                "Watching movie marathons"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_video_games_music_architecture_5a72cdd7",
+                    "insert_conversation_turn": 272
+                },
+                {
+                    "conversation_name": "group_chat_video_games_music_architecture_5a72cdd7",
+                    "insert_conversation_turn": 1056
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_video_games_music_architecture_5a72cdd7",
+                    "insert_conversation_turn": 258,
+                    "reference_name": "Fig. a9d3ff8d"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_travel_religion_food_89c34393",
+                    "insert_conversation_turn": 920
+                },
+                {
+                    "conversation_name": "group_chat_travel_religion_food_89c34393",
+                    "insert_conversation_turn": 353
+                },
+                {
+                    "conversation_name": "group_chat_video_games_music_architecture_5a72cdd7",
+                    "insert_conversation_turn": 450
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Jack",
+            "description": "Jack is a tall, slender individual with a well-defined jawline and a symmetrical facial structure. Their skin tone is fair, and they have striking blue eyes that are a consistent feature across the images. The individual's hair is typically styled in a slicked-back manner, with a few strands often falling to the side, adding a touch of casual elegance. The eyebrows are well-groomed and slightly thick, framing the eyes effectively. Jack often appears with a neutral or contemplative expression, sometimes resting their chin on their hand, which adds a thoughtful or introspective vibe to their demeanor.\n\n**Outfit and Accessories:**\nJack is frequently seen in formal or semi-formal attire, with a consistent color palette of dark tones, such as black and brown, complemented by white accents. The outfits range from a classic black tuxedo with a white bow tie to a brown shirt with suspenders, and a dark jacket over a white shirt. The clothing is well-fitted, suggesting a tailored look that enhances their slender build. The textures of the fabrics vary, from the smoothness of a tuxedo to the more casual feel of a shirt and jacket. The outfits convey a sense of sophistication and attention to detail, with the choice of clothing often aligning with the setting, whether formal or more relaxed.\n\n**Distinguishing Visual Features or Vibe:**\nThe most memorable feature of Jack is their striking blue eyes, which are a focal point in each image. The individual's slicked-back hair and neutral expressions contribute to a polished and composed appearance. The consistent use of dark colors in their attire, combined with the occasional white accents, creates a classic and timeless look. The thoughtful poses, such as resting their chin on their hand, add a layer of depth and introspection to their persona. The overall vibe of Jack is one of elegance and sophistication, with a hint of mystery and contemplation, making them visually unmistakable and memorable.",
+            "preference": "In terms of entertainment, Jack enjoys horror movies, sitcoms, but dislikes sports documentaries, gaming tournaments. In terms of travel, Jack enjoys fine dining, street food, but dislikes hiking, scuba diving. In terms of lifestyle, Jack enjoys early morning jogs, massages, but dislikes boxing workouts, rock climbing gyms. In terms of shopping, Jack enjoys gaming accessories, tech gadgets, but dislikes luxury handbags, designer watches. In terms of fashion, Jack enjoys handcrafted leather bags, woven hats, but dislikes winter coats, denim jeans.",
+            "topic": [],
+            "original_id": "QA_sample_04c5aee4",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Cannon Hester least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_04c5aee4_2",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. c26398ec, Among the activities that could reasonably occur in the given image, which one is Cannon Hester least likely to be doing?",
+        "answer": "Watching a sports documentary",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Cannon Hester enjoys horror movies, sitcoms, but dislikes sports documentaries, gaming tournaments",
+                "In terms of travel, Cannon Hester enjoys fine dining, street food, but dislikes hiking, scuba diving"
+            ],
+            "image_evidence": [
+                "MMPB_2d99653f.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of lifestyle, Cannon Hester enjoys early morning jogs, massages, but dislikes boxing workouts, rock climbing gyms",
+                "In terms of shopping, Cannon Hester enjoys gaming accessories, tech gadgets, but dislikes luxury handbags, designer watches",
+                "In terms of fashion, Cannon Hester enjoys handcrafted leather bags, woven hats, but dislikes winter coats, denim jeans."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "Observing a historical film",
+                "Watching a nature documentary",
+                "Going to a rock climbing gym",
+                "Watching a sports documentary"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_video_games_music_architecture_5a72cdd7",
+                    "insert_conversation_turn": 272
+                },
+                {
+                    "conversation_name": "group_chat_video_games_music_architecture_5a72cdd7",
+                    "insert_conversation_turn": 1056
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_video_games_music_architecture_5a72cdd7",
+                    "insert_conversation_turn": 349,
+                    "reference_name": "Fig. c26398ec"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_travel_religion_food_89c34393",
+                    "insert_conversation_turn": 920
+                },
+                {
+                    "conversation_name": "group_chat_travel_religion_food_89c34393",
+                    "insert_conversation_turn": 353
+                },
+                {
+                    "conversation_name": "group_chat_video_games_music_architecture_5a72cdd7",
+                    "insert_conversation_turn": 450
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Jack",
+            "description": "Jack is a tall, slender individual with a well-defined jawline and a symmetrical facial structure. Their skin tone is fair, and they have striking blue eyes that are a consistent feature across the images. The individual's hair is typically styled in a slicked-back manner, with a few strands often falling to the side, adding a touch of casual elegance. The eyebrows are well-groomed and slightly thick, framing the eyes effectively. Jack often appears with a neutral or contemplative expression, sometimes resting their chin on their hand, which adds a thoughtful or introspective vibe to their demeanor.\n\n**Outfit and Accessories:**\nJack is frequently seen in formal or semi-formal attire, with a consistent color palette of dark tones, such as black and brown, complemented by white accents. The outfits range from a classic black tuxedo with a white bow tie to a brown shirt with suspenders, and a dark jacket over a white shirt. The clothing is well-fitted, suggesting a tailored look that enhances their slender build. The textures of the fabrics vary, from the smoothness of a tuxedo to the more casual feel of a shirt and jacket. The outfits convey a sense of sophistication and attention to detail, with the choice of clothing often aligning with the setting, whether formal or more relaxed.\n\n**Distinguishing Visual Features or Vibe:**\nThe most memorable feature of Jack is their striking blue eyes, which are a focal point in each image. The individual's slicked-back hair and neutral expressions contribute to a polished and composed appearance. The consistent use of dark colors in their attire, combined with the occasional white accents, creates a classic and timeless look. The thoughtful poses, such as resting their chin on their hand, add a layer of depth and introspection to their persona. The overall vibe of Jack is one of elegance and sophistication, with a hint of mystery and contemplation, making them visually unmistakable and memorable.",
+            "preference": "In terms of entertainment, Jack enjoys horror movies, sitcoms, but dislikes sports documentaries, gaming tournaments. In terms of travel, Jack enjoys fine dining, street food, but dislikes hiking, scuba diving. In terms of lifestyle, Jack enjoys early morning jogs, massages, but dislikes boxing workouts, rock climbing gyms. In terms of shopping, Jack enjoys gaming accessories, tech gadgets, but dislikes luxury handbags, designer watches. In terms of fashion, Jack enjoys handcrafted leather bags, woven hats, but dislikes winter coats, denim jeans.",
+            "topic": [],
+            "original_id": "QA_sample_04c5aee4",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Cannon Hester least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_04c5aee4_3",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 87c94202, Among the activities that could reasonably occur in the given image, which one is Cannon Hester least likely to be doing?",
+        "answer": "Watching a soccer documentary",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Cannon Hester enjoys horror movies, sitcoms, but dislikes sports documentaries, gaming tournaments",
+                "In terms of travel, Cannon Hester enjoys fine dining, street food, but dislikes hiking, scuba diving"
+            ],
+            "image_evidence": [
+                "MMPB_6f052249.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of lifestyle, Cannon Hester enjoys early morning jogs, massages, but dislikes boxing workouts, rock climbing gyms",
+                "In terms of shopping, Cannon Hester enjoys gaming accessories, tech gadgets, but dislikes luxury handbags, designer watches",
+                "In terms of fashion, Cannon Hester enjoys handcrafted leather bags, woven hats, but dislikes winter coats, denim jeans."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 0,
+            "multi_choice_QA_options": [
+                "Watching a soccer documentary",
+                "Watching a sci-fi movie",
+                "Viewing a musical",
+                "Buying designer watches"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_video_games_music_architecture_5a72cdd7",
+                    "insert_conversation_turn": 272
+                },
+                {
+                    "conversation_name": "group_chat_video_games_music_architecture_5a72cdd7",
+                    "insert_conversation_turn": 1056
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_travel_religion_food_89c34393",
+                    "insert_conversation_turn": 748,
+                    "reference_name": "Fig. 87c94202"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_travel_religion_food_89c34393",
+                    "insert_conversation_turn": 920
+                },
+                {
+                    "conversation_name": "group_chat_travel_religion_food_89c34393",
+                    "insert_conversation_turn": 353
+                },
+                {
+                    "conversation_name": "group_chat_video_games_music_architecture_5a72cdd7",
+                    "insert_conversation_turn": 450
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Jack",
+            "description": "Jack is a tall, slender individual with a well-defined jawline and a symmetrical facial structure. Their skin tone is fair, and they have striking blue eyes that are a consistent feature across the images. The individual's hair is typically styled in a slicked-back manner, with a few strands often falling to the side, adding a touch of casual elegance. The eyebrows are well-groomed and slightly thick, framing the eyes effectively. Jack often appears with a neutral or contemplative expression, sometimes resting their chin on their hand, which adds a thoughtful or introspective vibe to their demeanor.\n\n**Outfit and Accessories:**\nJack is frequently seen in formal or semi-formal attire, with a consistent color palette of dark tones, such as black and brown, complemented by white accents. The outfits range from a classic black tuxedo with a white bow tie to a brown shirt with suspenders, and a dark jacket over a white shirt. The clothing is well-fitted, suggesting a tailored look that enhances their slender build. The textures of the fabrics vary, from the smoothness of a tuxedo to the more casual feel of a shirt and jacket. The outfits convey a sense of sophistication and attention to detail, with the choice of clothing often aligning with the setting, whether formal or more relaxed.\n\n**Distinguishing Visual Features or Vibe:**\nThe most memorable feature of Jack is their striking blue eyes, which are a focal point in each image. The individual's slicked-back hair and neutral expressions contribute to a polished and composed appearance. The consistent use of dark colors in their attire, combined with the occasional white accents, creates a classic and timeless look. The thoughtful poses, such as resting their chin on their hand, add a layer of depth and introspection to their persona. The overall vibe of Jack is one of elegance and sophistication, with a hint of mystery and contemplation, making them visually unmistakable and memorable.",
+            "preference": "In terms of entertainment, Jack enjoys horror movies, sitcoms, but dislikes sports documentaries, gaming tournaments. In terms of travel, Jack enjoys fine dining, street food, but dislikes hiking, scuba diving. In terms of lifestyle, Jack enjoys early morning jogs, massages, but dislikes boxing workouts, rock climbing gyms. In terms of shopping, Jack enjoys gaming accessories, tech gadgets, but dislikes luxury handbags, designer watches. In terms of fashion, Jack enjoys handcrafted leather bags, woven hats, but dislikes winter coats, denim jeans.",
+            "topic": [],
+            "original_id": "QA_sample_04c5aee4",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Cannon Hester least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_6591efa3_1",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 3084de39, the image, what is Justice Clark most likely to be doing?",
+        "answer": "Watching sitcoms",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Justice Clark enjoys horror movies, sitcoms, but dislikes improv comedy, street performances"
+            ],
+            "image_evidence": [
+                "MMPB_2d99653f.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Justice Clark enjoys hiking, scuba diving, but dislikes sailing, paragliding",
+                "In terms of lifestyle, Justice Clark enjoys home gardening, night owl lifestyle, but dislikes protein-rich diet, weightlifting",
+                "In terms of shopping, Justice Clark enjoys mechanical keyboards, 3D printing tools, but dislikes luxury handbags, designer watches",
+                "In terms of fashion, Justice Clark enjoys statement jewelry, minimalist rings, but dislikes denim jackets, wide-leg trousers."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "Watching romance dramas",
+                "Home gardening",
+                "Watching sitcoms",
+                "Streaming action movies"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_travel_religion_food_89c34393",
+                    "insert_conversation_turn": 102
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_sports_environment_technology_0f64d919",
+                    "insert_conversation_turn": 116,
+                    "reference_name": "Fig. 3084de39"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_travel_religion_food_89c34393",
+                    "insert_conversation_turn": 22
+                },
+                {
+                    "conversation_name": "group_chat_video_games_music_architecture_5a72cdd7",
+                    "insert_conversation_turn": 1421
+                },
+                {
+                    "conversation_name": "group_chat_video_games_music_architecture_5a72cdd7",
+                    "insert_conversation_turn": 297
+                },
+                {
+                    "conversation_name": "group_chat_video_games_music_architecture_5a72cdd7",
+                    "insert_conversation_turn": 436
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Ron",
+            "description": "Ron is a young individual with a slender build and a youthful appearance, suggesting they are likely in their early teens. They have a fair complexion and striking red hair that is often tousled, adding to their distinctive look. The facial structure is characterized by a prominent forehead, expressive eyes, and a slightly pointed chin. Their eyebrows are thick and well-defined, often furrowed in a way that conveys curiosity or concern. The expressions on Ron' face range from wide-eyed surprise to a more contemplative look, indicating a range of emotions and reactions. The overall impression is one of a thoughtful and somewhat introverted character.\n\n**Outfit and Accessories:**\nRon is frequently seen wearing a school uniform, which includes a dark robe with a crest on the left side, a white shirt, and a striped tie in red, yellow, and green. The uniform suggests a formal and traditional setting, likely a school environment. The robe is made of a dark, possibly woolen material, giving it a classic and somewhat somber appearance. The tie adds a pop of color and a touch of whimsy to the otherwise formal attire. In one image, Ron is seen in a casual striped t-shirt, indicating a more relaxed setting. The overall style of the clothing is practical and functional, with a hint of character-defining elements, such as the crest on the robe, which adds a sense of belonging and identity.\n\n**Distinguishing Visual Features or Vibe:**\nThe most memorable feature of Ron is undoubtedly their vibrant red hair, which stands out and is a defining characteristic. The combination of the red hair and the school uniform creates a unique visual motif that is instantly recognizable. The crest on the robe adds a sense of belonging to a specific group or house, enhancing the character's identity. The expressions on Ron' face, ranging from surprise to contemplation, convey a sense of curiosity and intelligence. The overall vibe is one of a thoughtful, slightly awkward, yet endearing character, with a hint of magic and mystery. The consistent use of the school uniform and the crest, along with the red hair, makes Ron visually unmistakable and memorable.",
+            "preference": "In terms of entertainment, Ron enjoys horror movies, sitcoms, but dislikes improv comedy, street performances. In terms of travel, Ron enjoys hiking, scuba diving, but dislikes sailing, paragliding. In terms of lifestyle, Ron enjoys home gardening, night owl lifestyle, but dislikes protein-rich diet, weightlifting. In terms of shopping, Ron enjoys mechanical keyboards, 3D printing tools, but dislikes luxury handbags, designer watches. In terms of fashion, Ron enjoys statement jewelry, minimalist rings, but dislikes denim jackets, wide-leg trousers.",
+            "topic": [],
+            "original_id": "QA_sample_6591efa3",
+            "original_question": "the image, what is Justice Clark most likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_6591efa3_2",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 39ec6d72, Among the activities that could reasonably occur in the given image, which one is Justice Clark least likely to be doing?",
+        "answer": "Attending an improv comedy show",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Justice Clark enjoys horror movies, sitcoms, but dislikes improv comedy, street performances"
+            ],
+            "image_evidence": [
+                "MMPB_9ab3a64b.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Justice Clark enjoys hiking, scuba diving, but dislikes sailing, paragliding",
+                "In terms of lifestyle, Justice Clark enjoys home gardening, night owl lifestyle, but dislikes protein-rich diet, weightlifting",
+                "In terms of shopping, Justice Clark enjoys mechanical keyboards, 3D printing tools, but dislikes luxury handbags, designer watches",
+                "In terms of fashion, Justice Clark enjoys statement jewelry, minimalist rings, but dislikes denim jackets, wide-leg trousers."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "Watching a live theater performance",
+                "Paragliding",
+                "Enjoying a musical concert",
+                "Attending an improv comedy show"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_travel_religion_food_89c34393",
+                    "insert_conversation_turn": 102
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_travel_religion_food_89c34393",
+                    "insert_conversation_turn": 430,
+                    "reference_name": "Fig. 39ec6d72"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_travel_religion_food_89c34393",
+                    "insert_conversation_turn": 22
+                },
+                {
+                    "conversation_name": "group_chat_video_games_music_architecture_5a72cdd7",
+                    "insert_conversation_turn": 1421
+                },
+                {
+                    "conversation_name": "group_chat_video_games_music_architecture_5a72cdd7",
+                    "insert_conversation_turn": 297
+                },
+                {
+                    "conversation_name": "group_chat_video_games_music_architecture_5a72cdd7",
+                    "insert_conversation_turn": 436
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Ron",
+            "description": "Ron is a young individual with a slender build and a youthful appearance, suggesting they are likely in their early teens. They have a fair complexion and striking red hair that is often tousled, adding to their distinctive look. The facial structure is characterized by a prominent forehead, expressive eyes, and a slightly pointed chin. Their eyebrows are thick and well-defined, often furrowed in a way that conveys curiosity or concern. The expressions on Ron' face range from wide-eyed surprise to a more contemplative look, indicating a range of emotions and reactions. The overall impression is one of a thoughtful and somewhat introverted character.\n\n**Outfit and Accessories:**\nRon is frequently seen wearing a school uniform, which includes a dark robe with a crest on the left side, a white shirt, and a striped tie in red, yellow, and green. The uniform suggests a formal and traditional setting, likely a school environment. The robe is made of a dark, possibly woolen material, giving it a classic and somewhat somber appearance. The tie adds a pop of color and a touch of whimsy to the otherwise formal attire. In one image, Ron is seen in a casual striped t-shirt, indicating a more relaxed setting. The overall style of the clothing is practical and functional, with a hint of character-defining elements, such as the crest on the robe, which adds a sense of belonging and identity.\n\n**Distinguishing Visual Features or Vibe:**\nThe most memorable feature of Ron is undoubtedly their vibrant red hair, which stands out and is a defining characteristic. The combination of the red hair and the school uniform creates a unique visual motif that is instantly recognizable. The crest on the robe adds a sense of belonging to a specific group or house, enhancing the character's identity. The expressions on Ron' face, ranging from surprise to contemplation, convey a sense of curiosity and intelligence. The overall vibe is one of a thoughtful, slightly awkward, yet endearing character, with a hint of magic and mystery. The consistent use of the school uniform and the crest, along with the red hair, makes Ron visually unmistakable and memorable.",
+            "preference": "In terms of entertainment, Ron enjoys horror movies, sitcoms, but dislikes improv comedy, street performances. In terms of travel, Ron enjoys hiking, scuba diving, but dislikes sailing, paragliding. In terms of lifestyle, Ron enjoys home gardening, night owl lifestyle, but dislikes protein-rich diet, weightlifting. In terms of shopping, Ron enjoys mechanical keyboards, 3D printing tools, but dislikes luxury handbags, designer watches. In terms of fashion, Ron enjoys statement jewelry, minimalist rings, but dislikes denim jackets, wide-leg trousers.",
+            "topic": [],
+            "original_id": "QA_sample_6591efa3",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Justice Clark least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_6591efa3_3",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 2e04c101, Among the activities that could reasonably occur in the given image, which one is Justice Clark least likely to be doing?",
+        "answer": "Watching an improv comedy show",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Justice Clark enjoys horror movies, sitcoms, but dislikes improv comedy, street performances"
+            ],
+            "image_evidence": [
+                "MMPB_799e1f96.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Justice Clark enjoys hiking, scuba diving, but dislikes sailing, paragliding",
+                "In terms of lifestyle, Justice Clark enjoys home gardening, night owl lifestyle, but dislikes protein-rich diet, weightlifting",
+                "In terms of shopping, Justice Clark enjoys mechanical keyboards, 3D printing tools, but dislikes luxury handbags, designer watches",
+                "In terms of fashion, Justice Clark enjoys statement jewelry, minimalist rings, but dislikes denim jackets, wide-leg trousers."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 3,
+            "multi_choice_QA_options": [
+                "Observing a live theater performance",
+                "Enjoying a musical concert",
+                "Looking for a luxury handbag",
+                "Watching an improv comedy show"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_travel_religion_food_89c34393",
+                    "insert_conversation_turn": 102
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_video_games_music_architecture_5a72cdd7",
+                    "insert_conversation_turn": 320,
+                    "reference_name": "Fig. 2e04c101"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_travel_religion_food_89c34393",
+                    "insert_conversation_turn": 22
+                },
+                {
+                    "conversation_name": "group_chat_video_games_music_architecture_5a72cdd7",
+                    "insert_conversation_turn": 1421
+                },
+                {
+                    "conversation_name": "group_chat_video_games_music_architecture_5a72cdd7",
+                    "insert_conversation_turn": 297
+                },
+                {
+                    "conversation_name": "group_chat_video_games_music_architecture_5a72cdd7",
+                    "insert_conversation_turn": 436
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Ron",
+            "description": "Ron is a young individual with a slender build and a youthful appearance, suggesting they are likely in their early teens. They have a fair complexion and striking red hair that is often tousled, adding to their distinctive look. The facial structure is characterized by a prominent forehead, expressive eyes, and a slightly pointed chin. Their eyebrows are thick and well-defined, often furrowed in a way that conveys curiosity or concern. The expressions on Ron' face range from wide-eyed surprise to a more contemplative look, indicating a range of emotions and reactions. The overall impression is one of a thoughtful and somewhat introverted character.\n\n**Outfit and Accessories:**\nRon is frequently seen wearing a school uniform, which includes a dark robe with a crest on the left side, a white shirt, and a striped tie in red, yellow, and green. The uniform suggests a formal and traditional setting, likely a school environment. The robe is made of a dark, possibly woolen material, giving it a classic and somewhat somber appearance. The tie adds a pop of color and a touch of whimsy to the otherwise formal attire. In one image, Ron is seen in a casual striped t-shirt, indicating a more relaxed setting. The overall style of the clothing is practical and functional, with a hint of character-defining elements, such as the crest on the robe, which adds a sense of belonging and identity.\n\n**Distinguishing Visual Features or Vibe:**\nThe most memorable feature of Ron is undoubtedly their vibrant red hair, which stands out and is a defining characteristic. The combination of the red hair and the school uniform creates a unique visual motif that is instantly recognizable. The crest on the robe adds a sense of belonging to a specific group or house, enhancing the character's identity. The expressions on Ron' face, ranging from surprise to contemplation, convey a sense of curiosity and intelligence. The overall vibe is one of a thoughtful, slightly awkward, yet endearing character, with a hint of magic and mystery. The consistent use of the school uniform and the crest, along with the red hair, makes Ron visually unmistakable and memorable.",
+            "preference": "In terms of entertainment, Ron enjoys horror movies, sitcoms, but dislikes improv comedy, street performances. In terms of travel, Ron enjoys hiking, scuba diving, but dislikes sailing, paragliding. In terms of lifestyle, Ron enjoys home gardening, night owl lifestyle, but dislikes protein-rich diet, weightlifting. In terms of shopping, Ron enjoys mechanical keyboards, 3D printing tools, but dislikes luxury handbags, designer watches. In terms of fashion, Ron enjoys statement jewelry, minimalist rings, but dislikes denim jackets, wide-leg trousers.",
+            "topic": [],
+            "original_id": "QA_sample_6591efa3",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Justice Clark least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_0f81d4c4_1",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. 592711cf, Among the activities that could reasonably occur in the given image, which one is Maggie Rachael least likely to be doing?",
+        "answer": "Watching horror movies",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Maggie Rachael enjoys classical concerts, art exhibitions, but dislikes horror movies, sitcoms"
+            ],
+            "image_evidence": [
+                "MMPB_9ab3a64b.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Maggie Rachael enjoys historical site tours, food tours, but dislikes camping, ice fishing",
+                "In terms of lifestyle, Maggie Rachael enjoys meditation, yoga, but dislikes daily smoothies, outdoor workouts",
+                "In terms of shopping, Maggie Rachael enjoys compact fitness equipment, desk organizers, but dislikes mechanical keyboards, 3D printing tools",
+                "In terms of fashion, Maggie Rachael enjoys hand-knitted sweaters, silk scarves, but dislikes leather jackets, comfortable shoes."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "Shopping compact fitness equipment",
+                "Observing nature documentaries",
+                "Watching horror movies",
+                "Viewing sports events"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_video_games_music_architecture_5a72cdd7",
+                    "insert_conversation_turn": 110
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_travel_religion_food_89c34393",
+                    "insert_conversation_turn": 430,
+                    "reference_name": "Fig. 592711cf"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_sports_environment_technology_0f64d919",
+                    "insert_conversation_turn": 96
+                },
+                {
+                    "conversation_name": "group_chat_video_games_music_architecture_5a72cdd7",
+                    "insert_conversation_turn": 496
+                },
+                {
+                    "conversation_name": "group_chat_video_games_music_architecture_5a72cdd7",
+                    "insert_conversation_turn": 537
+                },
+                {
+                    "conversation_name": "group_chat_travel_religion_food_89c34393",
+                    "insert_conversation_turn": 454
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Xue",
+            "description": "Xue is a young individual with a slender build and a youthful appearance. Her facial structure is characterized by a delicate jawline and expressive eyes, which are often the focal point of her expressions. Xue has a fair skin tone and her hair is typically styled in a neat, high ponytail, though in one image, she is seen wearing a bright red wig, adding a playful element to her look. Her expressions range from joyful and animated to contemplative and serious, suggesting a versatile and expressive personality. The consistent high ponytail and her direct gaze in several images convey a sense of confidence and approachability.\n\n**Outfit and Accessories:**\nXue's attire varies across the images, showcasing a mix of casual and slightly more formal styles. In one image, she is seen wearing a light-colored top with thin straps, while in another, she is dressed in a green top with a more structured design. The color palette of her outfits includes soft, neutral tones as well as vibrant colors like red, which she wears in a wig. The textures of her clothing range from smooth and lightweight fabrics to slightly more structured materials. In one image, she is seen holding a book, suggesting a casual, relaxed setting. The outfits appear practical and comfortable, with a touch of whimsy, particularly when she wears the red wig, adding a playful and creative element to her overall look.\n\n**Distinguishing Visual Features or Vibe:**\nThe most memorable feature of Xue is her expressive eyes and the way she carries herself with a mix of confidence and playfulness. Her high ponytail is a recurring visual motif that adds to her youthful and energetic vibe. The bright red wig in one image stands out as a bold and playful accessory, suggesting a fun-loving and adventurous side to her personality. The combination of her fair skin, expressive eyes, and varied outfits creates a visually distinctive and engaging presence. Xue exudes a sense of warmth and approachability, with her expressions and body language conveying a mix of joy, curiosity, and contemplation. The overall aura she conveys is one of a vibrant, expressive, and multifaceted individual.",
+            "preference": "In terms of entertainment, Xue enjoys classical concerts, art exhibitions, but dislikes horror movies, sitcoms. In terms of travel, Xue enjoys historical site tours, food tours, but dislikes camping, ice fishing. In terms of lifestyle, Xue enjoys meditation, yoga, but dislikes daily smoothies, outdoor workouts. In terms of shopping, Xue enjoys compact fitness equipment, desk organizers, but dislikes mechanical keyboards, 3D printing tools. In terms of fashion, Xue enjoys hand-knitted sweaters, silk scarves, but dislikes leather jackets, comfortable shoes.",
+            "topic": [],
+            "original_id": "QA_sample_0f81d4c4",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Maggie Rachael least likely to be doing?"
+        }
+    },
+    {
+        "id": "QA_sample_0f81d4c4_2",
+        "domain": "MMPB",
+        "category": "Preference_QA",
+        "question": "Based on Fig. f782563e, Among the activities that could reasonably occur in the given image, which one is Maggie Rachael least likely to be doing?",
+        "answer": "Watching sitcoms",
+        "evidence": {
+            "text_evidence": [
+                "In terms of entertainment, Maggie Rachael enjoys classical concerts, art exhibitions, but dislikes horror movies, sitcoms"
+            ],
+            "image_evidence": [
+                "MMPB_ea429820.png"
+            ],
+            "table_evidence": [],
+            "mis_text_evidence": [
+                "In terms of travel, Maggie Rachael enjoys historical site tours, food tours, but dislikes camping, ice fishing",
+                "In terms of lifestyle, Maggie Rachael enjoys meditation, yoga, but dislikes daily smoothies, outdoor workouts",
+                "In terms of shopping, Maggie Rachael enjoys compact fitness equipment, desk organizers, but dislikes mechanical keyboards, 3D printing tools",
+                "In terms of fashion, Maggie Rachael enjoys hand-knitted sweaters, silk scarves, but dislikes leather jackets, comfortable shoes."
+            ],
+            "mis_image_evidence": [],
+            "mis_table_evidence": [],
+            "json_evidence": []
+        },
+        "multi_choice_QA": {
+            "multi_choice_QA_answer": 2,
+            "multi_choice_QA_options": [
+                "Observing nature documentaries",
+                "Streaming action flicks",
+                "Watching sitcoms",
+                "Using 3D printing tools"
+            ]
+        },
+        "evidence_assignment": {
+            "text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_video_games_music_architecture_5a72cdd7",
+                    "insert_conversation_turn": 110
+                }
+            ],
+            "image_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_video_games_music_architecture_5a72cdd7",
+                    "insert_conversation_turn": 96,
+                    "reference_name": "Fig. f782563e"
+                }
+            ],
+            "table_evidence_assignment": [],
+            "mis_text_evidence_assignment": [
+                {
+                    "conversation_name": "group_chat_sports_environment_technology_0f64d919",
+                    "insert_conversation_turn": 96
+                },
+                {
+                    "conversation_name": "group_chat_video_games_music_architecture_5a72cdd7",
+                    "insert_conversation_turn": 496
+                },
+                {
+                    "conversation_name": "group_chat_video_games_music_architecture_5a72cdd7",
+                    "insert_conversation_turn": 537
+                },
+                {
+                    "conversation_name": "group_chat_travel_religion_food_89c34393",
+                    "insert_conversation_turn": 454
+                }
+            ],
+            "mis_image_evidence_assignment": [],
+            "mis_table_evidence_assignment": [],
+            "json_evidence_assignment": []
+        },
+        "meta_data": {
+            "name": "Xue",
+            "description": "Xue is a young individual with a slender build and a youthful appearance. Her facial structure is characterized by a delicate jawline and expressive eyes, which are often the focal point of her expressions. Xue has a fair skin tone and her hair is typically styled in a neat, high ponytail, though in one image, she is seen wearing a bright red wig, adding a playful element to her look. Her expressions range from joyful and animated to contemplative and serious, suggesting a versatile and expressive personality. The consistent high ponytail and her direct gaze in several images convey a sense of confidence and approachability.\n\n**Outfit and Accessories:**\nXue's attire varies across the images, showcasing a mix of casual and slightly more formal styles. In one image, she is seen wearing a light-colored top with thin straps, while in another, she is dressed in a green top with a more structured design. The color palette of her outfits includes soft, neutral tones as well as vibrant colors like red, which she wears in a wig. The textures of her clothing range from smooth and lightweight fabrics to slightly more structured materials. In one image, she is seen holding a book, suggesting a casual, relaxed setting. The outfits appear practical and comfortable, with a touch of whimsy, particularly when she wears the red wig, adding a playful and creative element to her overall look.\n\n**Distinguishing Visual Features or Vibe:**\nThe most memorable feature of Xue is her expressive eyes and the way she carries herself with a mix of confidence and playfulness. Her high ponytail is a recurring visual motif that adds to her youthful and energetic vibe. The bright red wig in one image stands out as a bold and playful accessory, suggesting a fun-loving and adventurous side to her personality. The combination of her fair skin, expressive eyes, and varied outfits creates a visually distinctive and engaging presence. Xue exudes a sense of warmth and approachability, with her expressions and body language conveying a mix of joy, curiosity, and contemplation. The overall aura she conveys is one of a vibrant, expressive, and multifaceted individual.",
+            "preference": "In terms of entertainment, Xue enjoys classical concerts, art exhibitions, but dislikes horror movies, sitcoms. In terms of travel, Xue enjoys historical site tours, food tours, but dislikes camping, ice fishing. In terms of lifestyle, Xue enjoys meditation, yoga, but dislikes daily smoothies, outdoor workouts. In terms of shopping, Xue enjoys compact fitness equipment, desk organizers, but dislikes mechanical keyboards, 3D printing tools. In terms of fashion, Xue enjoys hand-knitted sweaters, silk scarves, but dislikes leather jackets, comfortable shoes.",
+            "topic": [],
+            "original_id": "QA_sample_0f81d4c4",
+            "original_question": "Among the activities that could reasonably occur in the given image, which one is Maggie Rachael least likely to be doing?"
+        }
+    }
+]
